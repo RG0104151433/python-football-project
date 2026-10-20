@@ -1,7 +1,7 @@
 {
   "purpose": "Environment validation using synthetic data only",
   "python": "3.14.8",
-  "executable": "C:\\Users\\EasonG\\Desktop\\文件\\python项目\\.venv\\Scripts\\python.exe",
+  "executable": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\.venv\\Scripts\\python.exe",
   "platform": "Windows-11-10.0.26300-SP0",
   "architecture_bits": 64,
   "package_versions": {

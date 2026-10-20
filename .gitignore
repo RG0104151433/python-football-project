@@ -1,0 +1,23 @@
+# Virtual environment (never distribute; it binds to one machine's absolute paths)
+.venv/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.idea/
+.vscode/
+.ipynb_checkpoints/
+
+# WorkBuddy local tooling
+.workbuddy/
+
+# OS junk
+Thumbs.db
+.DS_Store
+
+# NOTE: data/raw/ (frozen snapshot), data/processed/, data/external/ and
+# outputs/figures|tables|logs are deliberately NOT ignored:
+# the snapshot and results must be committed so the project runs offline.

@@ -1,0 +1,20 @@
+{
+  "data": {
+    "cutoff_date": "2024-12-31",
+    "raw_dir": "data/raw",
+    "processed_dir": "data/processed"
+  },
+  "elo": {
+    "initial_rating": 1500,
+    "K_candidates": [10, 20, 40],
+    "H_candidates": [0, 50, 100],
+    "goal_difference_mode": "none"
+  },
+  "time_split": {
+    "warmup_end": "1979-12-31",
+    "train_end": "2014-12-31",
+    "valid_end": "2019-12-31",
+    "test_end": "2024-12-31"
+  },
+  "random_seed": 42
+}
