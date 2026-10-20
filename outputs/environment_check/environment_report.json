@@ -1,0 +1,33 @@
+{
+  "purpose": "Environment validation using synthetic data only",
+  "python": "3.14.8",
+  "executable": "C:\\Users\\EasonG\\Desktop\\文件\\python项目\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "architecture_bits": 64,
+  "package_versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "requests": "2.34.2",
+    "pytest": "9.1.1",
+    "ipykernel": "7.4.0",
+    "jupyterlab": "4.6.4"
+  },
+  "available_chinese_fonts": [
+    "Microsoft YaHei",
+    "SimHei"
+  ],
+  "checks": [
+    "project_venv",
+    "imports",
+    "csv_roundtrip",
+    "scipy",
+    "classifier",
+    "probabilities",
+    "metric",
+    "save_figure"
+  ]
+}

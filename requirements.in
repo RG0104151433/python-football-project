@@ -1,0 +1,13 @@
+# 首次安装清单；首次成功验收后用 pip freeze 生成 requirements.txt。
+# 目标：标准版 CPython 3.14，Windows 64 位。
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+scikit-learn
+requests
+pytest
+ipykernel
+jupyterlab
+
