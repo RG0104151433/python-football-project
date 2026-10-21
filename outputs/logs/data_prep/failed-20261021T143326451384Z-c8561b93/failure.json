@@ -1,0 +1,5 @@
+{
+  "code": "EXECUTION_FAILED",
+  "message": "'gbk' codec can't encode character '\\xe7' in position 7764: illegal multibyte sequence",
+  "status": "failed"
+}

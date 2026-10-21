@@ -16,5 +16,9 @@
     "valid_end": "2019-12-31",
     "test_end": "2024-12-31"
   },
-  "random_seed": 42
+  "random_seed": 42,
+  "data_prep": {
+    "unresolved_key_policy": "isolate",
+    "isolation_policy_version": "isolate-v1"
+  }
 }

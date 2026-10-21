@@ -1,6 +1,6 @@
 # 国际足球分析课程项目
 
-研究方向：用历史比赛构建国家队动态 Elo 评级，通过时间回测评估主场信息和净胜球修正对比赛结果预测的贡献。
+当前研究方向：国际男子国家队主场表现的年代变化、赛事类型差异，以及考虑赛前 Elo 实力差异后的主场信号。本轮暂不开展修正预测增益的比较；此前完整方案保留为历史与后续扩展参考。
 
 ## 协作前必读：持续维护研究记录
 
@@ -28,10 +28,10 @@ python项目/
 ├── 参考资料/
 │   └── 课程原始截图/                 课程要求与报告模板的原始照片
 ├── data/raw/international_results/  已有原始比赛数据及来源说明
-├── data/processed/                  清洗结果（待生成）
-├── data/external/                   补充资料与映射（待生成）
-├── src/                             业务模块（待实现）
-├── tests/                           关键规则与防泄漏检查（待实现）
+├── data/processed/                  按版本保存的清洗结果
+├── data/external/                   已生成的球队表、赛事分组及后续核验资料
+├── src/                             登记、审计、清洗与验证程序
+├── tests/                           人工小样例的清洗规则与流程测试
 ├── notebooks/                       探索分析
 ├── outputs/
 │   └── environment_check/            CSV、PNG 与本机环境验收报告
@@ -45,6 +45,7 @@ python项目/
 - 看当前研究与实施安排：[实施路线与风险](文档/01_项目方案/足球分析项目_实施路线与风险.md)。其中早期环境版本建议以环境配置文档和实际已验收的 Python 3.14.8 为准。
 - 接续当前工作与记录新进展：[研究日志与决策记录](文档/01_项目方案/研究日志与决策记录.md)。
 - 实施数据准备：[全流程指南](文档/01_项目方案/数据准备全流程指南.md)、[补充数据获取清单与爬虫需求](文档/01_项目方案/补充数据获取清单与爬虫需求.md)。
+- 当前三项研究的字段、脚本与错误处理约定：[数据标准与清洗脚本设计](文档/01_项目方案/前三项研究的数据标准与清洗脚本设计.md)；第 12 节为队友任务，第 13 节为已实现范围与运行结果。
 - 给队友介绍配置方式：[AI 协作指南](文档/02_环境配置/队友环境配置_AI协作指南.md)。
 - 自己操作 PyCharm：[PyCharm 配置文档](文档/02_环境配置/环境配置_PyCharm.md)。
 - 自己操作 VS Code：[VS Code 配置文档](文档/02_环境配置/环境配置_VSCode.md)。
@@ -73,6 +74,28 @@ python项目/
 ```
 
 PyCharm 解释器继续选择根目录 `.venv\Scripts\python.exe`，运行入口继续为根目录 check_env.py。环境检查使用人工小数据，不是足球研究结果。
+
+## 数据准备：已有可运行的第一版
+
+在项目根目录执行，整个过程不联网、不覆盖原始 CSV：
+
+```powershell
+.\.venv\Scripts\python.exe -m src.snapshot --verify --config config.json
+.\.venv\Scripts\python.exe -m src.audit --config config.json
+.\.venv\Scripts\python.exe -m src.clean --config config.json
+.\.venv\Scripts\python.exe -m src.validate --config config.json --data-version prep-3fab808178cf8ad71d88
+.\.venv\Scripts\python.exe -m pytest -q
+```
+
+`data/raw/manifest.json` 已登记。仅在明确注册新输入时使用 `src.snapshot --register`；已登记文件变化会报错，不会自动重置清单。审计发现关键待核验项时退出码为 1，表示报告已生成，不是程序崩溃。清洗按 config 中 `isolate-v1` 政策隔离这些记录。
+
+2026-10-21 的版本为 `prep-3fab808178cf8ad71d88`：原始 49,945 场，纳入 48,102 场，截止日之后 1,803 场，隔离 40 条候选。数据通过程序校验，仍待团队事实核验，尚未冻结。程序/配置变化会生成新版本；届时验证命令应使用清洗输出实际显示的版本号，不能照抄旧值。
+
+- [清洗数据](data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv)、[字段字典](data/processed/prep-3fab808178cf8ad71d88/data_dictionary.md)、[版本清单](data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json)。
+- [本轮清洗报告](outputs/logs/data_prep/clean-20261021T143720171975Z-7cf580f2/clean_log.md)、[程序验证报告](outputs/logs/data_prep/clean-20261021T143720171975Z-7cf580f2/validation_report.json)。
+- [队友 A 预填表](outputs/logs/data_prep/clean-20261021T143720171975Z-7cf580f2/team_handoff/A/)、[队友 B 预填表](outputs/logs/data_prep/clean-20261021T143720171975Z-7cf580f2/team_handoff/B/)：请先复制到各自提交目录，再填写；程序生成内容不代表已经人工核验。
+
+事实修正重放、跨源球队别名及新增比赛尚未实现；这些输入一旦非空会明确报错，不静默跳过。第一版能做的是格式统一、分类、候选隔离、点球关联与逐行追踪。Elo、图表和第三项实力分析尚未实现。
 
 ## 后续资料放置规则
 

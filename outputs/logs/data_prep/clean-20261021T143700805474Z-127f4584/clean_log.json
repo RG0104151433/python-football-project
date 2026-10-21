@@ -1,0 +1,40 @@
+{
+  "counts": {
+    "amendments_applied": 0,
+    "eligible_tournament_analysis": 48102,
+    "eligible_venue_analysis": 48102,
+    "included": 48102,
+    "input": 49945,
+    "issues_by_code": {
+      "AUX_UNMATCHED": 1,
+      "LARGE_MARGIN": 3319,
+      "REVERSED_PAIR_CANDIDATE": 8,
+      "SCORE_CONFLICT": 32,
+      "SHOOTOUT_CONFLICT": 37,
+      "TEAM_MULTIPLE_SAME_DAY": 221
+    },
+    "shootout_status": {
+      "matched": 622,
+      "no_record": 47443,
+      "unresolved": 37
+    },
+    "states": {
+      "included": 48102,
+      "outside_window": 1803,
+      "quarantined": 40
+    },
+    "time_splits": {
+      "test": 4736,
+      "train": 26328,
+      "valid": 4974,
+      "warmup": 12064
+    }
+  },
+  "data_version": "prep-3fab808178cf8ad71d88",
+  "git": {
+    "commit": "aa456060ba332e31370ff892bb0c25a6c523260f",
+    "working_tree_dirty": true
+  },
+  "human_review_pending": true,
+  "status": "validated_with_exclusions"
+}

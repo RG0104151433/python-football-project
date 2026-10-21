@@ -1,0 +1,286 @@
+{
+  "config": {
+    "data": {
+      "cutoff_date": "2024-12-31",
+      "processed_dir": "data/processed",
+      "raw_dir": "data/raw"
+    },
+    "elo": {
+      "H_candidates": [
+        0,
+        50,
+        100
+      ],
+      "K_candidates": [
+        10,
+        20,
+        40
+      ],
+      "goal_difference_mode": "none",
+      "initial_rating": 1500
+    },
+    "random_seed": 42,
+    "time_split": {
+      "test_end": "2024-12-31",
+      "train_end": "2014-12-31",
+      "valid_end": "2019-12-31",
+      "warmup_end": "1979-12-31"
+    }
+  },
+  "counts": {
+    "amendments_applied": 0,
+    "eligible_tournament_analysis": 48102,
+    "eligible_venue_analysis": 48102,
+    "included": 48102,
+    "input": 49945,
+    "issues_by_code": {
+      "AUX_UNMATCHED": 1,
+      "LARGE_MARGIN": 3319,
+      "REVERSED_PAIR_CANDIDATE": 8,
+      "SCORE_CONFLICT": 32,
+      "SHOOTOUT_CONFLICT": 37,
+      "TEAM_MULTIPLE_SAME_DAY": 221
+    },
+    "shootout_status": {
+      "matched": 622,
+      "no_record": 47443,
+      "unresolved": 37
+    },
+    "states": {
+      "included": 48102,
+      "outside_window": 1803,
+      "quarantined": 40
+    },
+    "time_splits": {
+      "test": 4736,
+      "train": 26328,
+      "valid": 4974,
+      "warmup": 12064
+    }
+  },
+  "data_version": "prep-fb79a8d4c2a0bdd4d07c",
+  "frozen": false,
+  "git": {
+    "commit": "aa456060ba332e31370ff892bb0c25a6c523260f",
+    "working_tree_dirty": true
+  },
+  "human_review_pending": true,
+  "identity": {
+    "amendments_applied": 0,
+    "code": {
+      "__init__.py": "57cb837ab50ac9cc0937b47c38884a42a9997405e7f77bdf9ad49becca8b1b3e",
+      "audit.py": "ab4b94c0145ad7aa83dd93f34a391c469b0afba2b622d8012a08633fe6e72047",
+      "clean.py": "d9cd6c8bab5bb011ce8fc5dd113cae7d86ee1a6a5c509a966da6cfb141508058",
+      "data_contract.py": "6b476f7bb0b6538f61de28849498f35d8327933bd1becff4530816491f1491de",
+      "snapshot.py": "0602b3907494ade4dae5bd6bac07a2a0a1353171af12495a9fc39815e6fbf2d2",
+      "validate.py": "ac46ee99efd65a02ab474dd924a493d18a260b000dc46539752d5942125f8a5e"
+    },
+    "config": {
+      "data": {
+        "cutoff_date": "2024-12-31",
+        "processed_dir": "data/processed",
+        "raw_dir": "data/raw"
+      },
+      "elo": {
+        "H_candidates": [
+          0,
+          50,
+          100
+        ],
+        "K_candidates": [
+          10,
+          20,
+          40
+        ],
+        "goal_difference_mode": "none",
+        "initial_rating": 1500
+      },
+      "random_seed": 42,
+      "time_split": {
+        "test_end": "2024-12-31",
+        "train_end": "2014-12-31",
+        "valid_end": "2019-12-31",
+        "warmup_end": "1979-12-31"
+      }
+    },
+    "groups_hash": "8bf6e03ee4899a22a232ab82bfe7df3bb75d21af7324b4ef3dc1cc89fe016ced",
+    "input_files": [
+      {
+        "bytes": 3764617,
+        "date_end": "2026-10-06",
+        "date_start": "1872-11-30",
+        "extra_fields": [],
+        "fields": [
+          "date",
+          "home_team",
+          "away_team",
+          "home_score",
+          "away_score",
+          "tournament",
+          "city",
+          "country",
+          "neutral"
+        ],
+        "invalid_dates": 0,
+        "path": "data/raw/international_results/results.csv",
+        "rows": 49945,
+        "sha256": "5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767"
+      },
+      {
+        "bytes": 29789,
+        "date_end": "2026-10-05",
+        "date_start": "1967-08-22",
+        "extra_fields": [],
+        "fields": [
+          "date",
+          "home_team",
+          "away_team",
+          "winner",
+          "first_shooter"
+        ],
+        "invalid_dates": 0,
+        "path": "data/raw/international_results/shootouts.csv",
+        "rows": 700,
+        "sha256": "072b445adf5183fbe981087857e5b64c8f17abfdbf257b1822ceacb4a37919fa"
+      },
+      {
+        "bytes": 1691,
+        "extra_fields": [],
+        "fields": [
+          "current",
+          "former",
+          "start_date",
+          "end_date"
+        ],
+        "path": "data/raw/international_results/former_names.csv",
+        "rows": 36,
+        "sha256": "2d57f59a3ac13b24c2fcf208ced5a38710529d122da38929838d0980b002677e"
+      },
+      {
+        "bytes": 3442482,
+        "date_end": "2026-07-19",
+        "date_start": "1916-07-02",
+        "extra_fields": [],
+        "fields": [
+          "date",
+          "home_team",
+          "away_team",
+          "team",
+          "scorer",
+          "minute",
+          "own_goal",
+          "penalty",
+          "assist"
+        ],
+        "invalid_dates": 0,
+        "path": "data/raw/international_results/goalscorers.csv",
+        "rows": 47914,
+        "sha256": "e02b25cfcad3fca9af79a5cf075c33a6875416d6d80e5ab42514535cb0d639fe"
+      },
+      {
+        "bytes": 3834,
+        "path": "data/raw/international_results/README.md",
+        "sha256": "0d50b5f6fe2b658eba52a4477e4e48af6ca61e89e2c5265b153e3c12d7305b76"
+      },
+      {
+        "bytes": 7048,
+        "path": "data/raw/international_results/LICENSE",
+        "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+      }
+    ],
+    "isolation_policy": "isolate-v1",
+    "registry_hash": "503b42971431d27905f5a1b9680b9a5bad6144de06fb01514233bf7ddd7c21ec",
+    "rules_version": "data-prep-v1"
+  },
+  "input_files": [
+    {
+      "bytes": 3764617,
+      "date_end": "2026-10-06",
+      "date_start": "1872-11-30",
+      "extra_fields": [],
+      "fields": [
+        "date",
+        "home_team",
+        "away_team",
+        "home_score",
+        "away_score",
+        "tournament",
+        "city",
+        "country",
+        "neutral"
+      ],
+      "invalid_dates": 0,
+      "path": "data/raw/international_results/results.csv",
+      "rows": 49945,
+      "sha256": "5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767"
+    },
+    {
+      "bytes": 29789,
+      "date_end": "2026-10-05",
+      "date_start": "1967-08-22",
+      "extra_fields": [],
+      "fields": [
+        "date",
+        "home_team",
+        "away_team",
+        "winner",
+        "first_shooter"
+      ],
+      "invalid_dates": 0,
+      "path": "data/raw/international_results/shootouts.csv",
+      "rows": 700,
+      "sha256": "072b445adf5183fbe981087857e5b64c8f17abfdbf257b1822ceacb4a37919fa"
+    },
+    {
+      "bytes": 1691,
+      "extra_fields": [],
+      "fields": [
+        "current",
+        "former",
+        "start_date",
+        "end_date"
+      ],
+      "path": "data/raw/international_results/former_names.csv",
+      "rows": 36,
+      "sha256": "2d57f59a3ac13b24c2fcf208ced5a38710529d122da38929838d0980b002677e"
+    },
+    {
+      "bytes": 3442482,
+      "date_end": "2026-07-19",
+      "date_start": "1916-07-02",
+      "extra_fields": [],
+      "fields": [
+        "date",
+        "home_team",
+        "away_team",
+        "team",
+        "scorer",
+        "minute",
+        "own_goal",
+        "penalty",
+        "assist"
+      ],
+      "invalid_dates": 0,
+      "path": "data/raw/international_results/goalscorers.csv",
+      "rows": 47914,
+      "sha256": "e02b25cfcad3fca9af79a5cf075c33a6875416d6d80e5ab42514535cb0d639fe"
+    },
+    {
+      "bytes": 3834,
+      "path": "data/raw/international_results/README.md",
+      "sha256": "0d50b5f6fe2b658eba52a4477e4e48af6ca61e89e2c5265b153e3c12d7305b76"
+    },
+    {
+      "bytes": 7048,
+      "path": "data/raw/international_results/LICENSE",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    }
+  ],
+  "lineage_path": "outputs/logs/data_prep/clean-20261021T143351708238Z-e25ab062/row_lineage.csv",
+  "lineage_sha256": "5690783940e58c2c1f7fc40a1bbce8e446154e8b1c1454c9ee570e544c429157",
+  "output_hashes": {
+    "data_dictionary.md": "7c00355e7333a25b4d18b59436d6660b205caaf74635ffb31faae160b8b5b6a2",
+    "matches_clean.csv": "69ba00073970fe011a62f5871c08ace6285d7fe75d5a0d79afdac0ef972de9dc"
+  },
+  "status": "validated_with_exclusions"
+}
