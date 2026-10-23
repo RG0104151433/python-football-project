@@ -1,0 +1,284 @@
+{
+  "analysis_id": "eras-7f332ed60ac443228960",
+  "checks": {
+    "checks": {
+      "era_totals": true,
+      "finite_numbers": true,
+      "membership_counts": true,
+      "membership_unique": true,
+      "nested_samples": true,
+      "no_unapproved_intervals": true,
+      "non_neutral_only": true,
+      "outcome_counts": true,
+      "outcome_rates": true,
+      "reference_weights_sum": true,
+      "same_sample_observed_rate": true,
+      "standardization_formula": true,
+      "strata_counts": true
+    },
+    "passed": true
+  },
+  "code_hashes": {
+    "src/analyze_eras.py": "817ef6db61491b86ab3d7d934df9932bc6702057f8c613eb4b115c5fbdcbd288",
+    "src/data_contract.py": "75d7c37a5d09867656098ab4fa3387721d8e1028dfde54d28c372d50f2a7d101",
+    "src/eras/__init__.py": "aacd580655a627a0f5ae7a44eb07c23406636813ab0fcbc89f32177d7f7a70b2",
+    "src/eras/checks.py": "0eda226d64ae15278cebfb09820e5f67b1b86b3a911228e0fd654bcd2e5003ef",
+    "src/eras/data.py": "46f55736f56c2f7d99c078a0bc61e97843ea38ebcea02523b15d1aa166cf58e0",
+    "src/eras/inference.py": "4af99cbe01d08ec7846975afce779d86935eb673e44604a7270965a15eb5cafc",
+    "src/eras/reporting.py": "3580361af51b90dc9370483e89dbf44d8896bb7c0b81ccc2185da6fe770f5c27",
+    "src/eras/standardize.py": "b241422fe0b63823171c31ce3e9d6b425713d426022b294b01263a41ca75b238",
+    "src/eras/statistics.py": "2030ab1833ae56d431a51d8bd81791a8553beee7d0cc3daad0169f7952d1e016",
+    "src/snapshot.py": "0602b3907494ade4dae5bd6bac07a2a0a1353171af12495a9fc39815e6fbf2d2",
+    "src/validate.py": "bd8a61d799e8afeadba6d50b275f0cd07906d5c0e0fea623f17061dd092253f1"
+  },
+  "config": {
+    "alternative_reference_schemes": [
+      "equal_years"
+    ],
+    "analysis_end": "2024-12-31",
+    "analysis_start": "1980-01-01",
+    "data_version": "prep-3fab808178cf8ad71d88",
+    "eras": [
+      {
+        "end": "1989-12-31",
+        "id": "1980s",
+        "label": "1980–1989",
+        "start": "1980-01-01"
+      },
+      {
+        "end": "1999-12-31",
+        "id": "1990s",
+        "label": "1990–1999",
+        "start": "1990-01-01"
+      },
+      {
+        "end": "2009-12-31",
+        "id": "2000s",
+        "label": "2000–2009",
+        "start": "2000-01-01"
+      },
+      {
+        "end": "2019-12-31",
+        "id": "2010s",
+        "label": "2010–2019",
+        "start": "2010-01-01"
+      },
+      {
+        "end": "2024-12-31",
+        "id": "2020_2024",
+        "label": "2020–2024 (5 years)",
+        "start": "2020-01-01"
+      }
+    ],
+    "inference": {
+      "mode": "off",
+      "validation_status": "pending"
+    },
+    "primary_contrasts": [
+      {
+        "earlier": "1980s",
+        "id": "2010s_minus_1980s",
+        "later": "2010s"
+      },
+      {
+        "earlier": "1980s",
+        "id": "2020_2024_minus_1980s",
+        "later": "2020_2024"
+      }
+    ],
+    "protocol_decision": "Exploratory implementation; see R20261023-13. No confirmatory tests.",
+    "protocol_status": "draft",
+    "random_seed": 42,
+    "reference_scheme": "pooled_matches",
+    "schema_version": "eras-config-v1",
+    "sensitivity": {
+      "common_teams": true,
+      "leave_one_year_out": true
+    }
+  },
+  "counts": {
+    "base_venue": 26055,
+    "classified_venue": 26055,
+    "processed_matches": 48102
+  },
+  "data_version": "prep-3fab808178cf8ad71d88",
+  "environment": {
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.4",
+    "python": "3.14.8"
+  },
+  "git": {
+    "commit": "953cb67f429e00c96499314ad9e29018c8854ff9",
+    "working_tree_dirty": true
+  },
+  "input_frozen": false,
+  "input_human_review_pending": true,
+  "inputs": {
+    "config.json": "e12cb80ac22ded100337808457148a3cdfc6fcfe23290c271c4954f4a99f2d6a",
+    "config/eras.json": "9ccc4147192fa9361d14adb72d316b8ffc3168a29a24f21e74103216694b7662",
+    "data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json": "1462f59a2ba391c81bbc5ea57470d17b08a32a459dda0ececac94724cd345657",
+    "data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv": "69ba00073970fe011a62f5871c08ace6285d7fe75d5a0d79afdac0ef972de9dc",
+    "data/raw/international_results/LICENSE": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+    "data/raw/international_results/README.md": "0d50b5f6fe2b658eba52a4477e4e48af6ca61e89e2c5265b153e3c12d7305b76",
+    "data/raw/international_results/former_names.csv": "2d57f59a3ac13b24c2fcf208ced5a38710529d122da38929838d0980b002677e",
+    "data/raw/international_results/goalscorers.csv": "e02b25cfcad3fca9af79a5cf075c33a6875416d6d80e5ab42514535cb0d639fe",
+    "data/raw/international_results/results.csv": "5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767",
+    "data/raw/international_results/shootouts.csv": "072b445adf5183fbe981087857e5b64c8f17abfdbf257b1822ceacb4a37919fa",
+    "outputs/logs/data_prep/clean-20261021T143700805474Z-127f4584/row_lineage.csv": "5690783940e58c2c1f7fc40a1bbce8e446154e8b1c1454c9ee570e544c429157"
+  },
+  "outputs": {
+    "outputs/figures/eras/eras-7f332ed60ac443228960/era_results.png": "3dc5f6116eab93a1b659d78c86d6b98b2b55645fa42b4100ccb7fa0f92be6edd",
+    "outputs/figures/eras/eras-7f332ed60ac443228960/era_results.svg": "49a7207b8bd6190b032174cd92237006fe309e76acd96fae0df30615a47a4b95",
+    "outputs/figures/eras/eras-7f332ed60ac443228960/tournament_composition.png": "a0dda4d088a0f2dc089be6b3ea646f86780e9a9738392da7d436d8fccbbd6b70",
+    "outputs/figures/eras/eras-7f332ed60ac443228960/tournament_composition.svg": "9d972b6aab9359986f57f0ce1a6be3a1775ff82386a615c1498a0d332bcd7234",
+    "outputs/figures/eras/eras-7f332ed60ac443228960/weight_sensitivity.png": "af3a20170ee50f4c6b3903bde3812b3548c8c3028e9e2f5518fd668e2286b7f7",
+    "outputs/figures/eras/eras-7f332ed60ac443228960/weight_sensitivity.svg": "43f559986f916d2c24f951fa003d18147b62abf4e8b8f0bac11b81c6f86a29ad",
+    "outputs/logs/eras/eras-20261023T153613611524Z-06eea9e4/analysis_config.json": "76def16ee6eb7138b5f10569f79b444bb0d6d859f604d3f2459e0156ce286bf1",
+    "outputs/logs/eras/eras-20261023T153613611524Z-06eea9e4/checks.json": "4696e85866bf244edad1564653eb14badc744356e1134841a104e48cdd6ec018",
+    "outputs/logs/eras/eras-20261023T153613611524Z-06eea9e4/input_validation.json": "b9097b7144a5501c68072495f973bac9c54636095925e2b881f230da5594e82b",
+    "outputs/logs/eras/eras-20261023T153613611524Z-06eea9e4/issues.csv": "afa7fc4cb7f704361ac13908e990861cb96b70646c3815d470f27a353b85654c",
+    "outputs/logs/eras/eras-20261023T153613611524Z-06eea9e4/summary.md": "4c71a5aeba885e80ce3f0c3d5423e25bf92b5af4ca16d03a090ea4e697b5dc49",
+    "outputs/tables/eras/eras-7f332ed60ac443228960/analysis_membership.csv": "334d048cc6a7213f6ee97de939e451c6937232be446859ce50a637e0d0afbf72",
+    "outputs/tables/eras/eras-7f332ed60ac443228960/data_dictionary.md": "d1a08343e7cab61699a31f704d7db8761555e9c8d9e8a9dcf48da0fe590af366",
+    "outputs/tables/eras/eras-7f332ed60ac443228960/era_contrasts.csv": "caa8b9bcb94a233f4a7586a06b0d3268242fa8a30a7928099ba5721ab2260ede",
+    "outputs/tables/eras/eras-7f332ed60ac443228960/era_estimates.csv": "7c503259cad8085f30b7feef0d44be2b380c2a95023c3c0a531c569c315af4c2",
+    "outputs/tables/eras/eras-7f332ed60ac443228960/era_summary.csv": "c876a4800c86a3db57c72331665c2460d93a8932f0faf5ceaf8a611fb8e8632c",
+    "outputs/tables/eras/eras-7f332ed60ac443228960/era_tournament_summary.csv": "ac654bbc8209edb953483d933cb5ef4cb8377598f64511ad61d8df770263fb8f",
+    "outputs/tables/eras/eras-7f332ed60ac443228960/reference_weights.csv": "0af4c4a6f6827790c6913e7cfc1a5d6ef8680cf1f0d28f7215744d5fd21912a3",
+    "outputs/tables/eras/eras-7f332ed60ac443228960/sample_flow.csv": "5cd88035d63de2df0c3d46da98699b36dfbea0c1cfbabc6a6f2fc1d564e82593",
+    "outputs/tables/eras/eras-7f332ed60ac443228960/schedule_diagnostics.csv": "d61c75836551a534f9b563350f48ea1ac3313b43a6cf8f8a96774c3919ff0859",
+    "outputs/tables/eras/eras-7f332ed60ac443228960/sensitivity_results.csv": "2038767d46a71de5ba7d8e431a4a01a989371a7a6ec92116db1a5b8fbb0da0c5",
+    "outputs/tables/eras/eras-7f332ed60ac443228960/team_schedule.csv": "2af6cb12e1a06f3025694789454ab61902d68c96411b5a189a0d295c489324af",
+    "outputs/tables/eras/eras-7f332ed60ac443228960/weight_sensitivity.csv": "08a9b34d0bf35b9cb668cd9d7ed75d1b501dc0e3c1a05eb3899b5d8380353319",
+    "outputs/tables/eras/eras-7f332ed60ac443228960/year_summary.csv": "5d6381b1b8550bc95bd6da2e6dc0205bce9eb86518370bf55e017cf4fc97fb64"
+  },
+  "protocol_status": "draft",
+  "publication_status": "preliminary",
+  "references": [
+    {
+      "missing_years": [],
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "reference_sample_id": "sample-eafeb23c355ef5391044",
+      "scheme": "pooled_matches",
+      "weight_friendly": 0.3853387065822299,
+      "years": [
+        1980,
+        1981,
+        1982,
+        1983,
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "missing_years": [],
+      "reference_id": "reference-b5aba6ce17e1f6e20fd1",
+      "reference_sample_id": "sample-eafeb23c355ef5391044",
+      "scheme": "equal_years",
+      "weight_friendly": 0.40434634756510174,
+      "years": [
+        1980,
+        1981,
+        1982,
+        1983,
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    }
+  ],
+  "review_status": "pending",
+  "run_id": "eras-20261023T153613611524Z-06eea9e4",
+  "sample_ids": {
+    "base_venue": "sample-eafeb23c355ef5391044",
+    "classified_venue": "sample-eafeb23c355ef5391044"
+  },
+  "schema_version": "eras-run-v1",
+  "stage_requested": "all",
+  "stages": {
+    "description": "completed",
+    "diagnostics": "completed",
+    "inference": "not_run",
+    "sensitivity": "completed",
+    "standardization": "completed"
+  },
+  "status": "completed",
+  "tables_schema": "eras-tables-v1"
+}

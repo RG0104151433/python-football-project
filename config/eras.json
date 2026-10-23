@@ -1,0 +1,24 @@
+{
+  "schema_version": "eras-config-v1",
+  "data_version": "prep-3fab808178cf8ad71d88",
+  "analysis_start": "1980-01-01",
+  "analysis_end": "2024-12-31",
+  "protocol_status": "draft",
+  "protocol_decision": "Exploratory implementation; see R20261023-13. No confirmatory tests.",
+  "eras": [
+    {"id": "1980s", "start": "1980-01-01", "end": "1989-12-31", "label": "1980–1989"},
+    {"id": "1990s", "start": "1990-01-01", "end": "1999-12-31", "label": "1990–1999"},
+    {"id": "2000s", "start": "2000-01-01", "end": "2009-12-31", "label": "2000–2009"},
+    {"id": "2010s", "start": "2010-01-01", "end": "2019-12-31", "label": "2010–2019"},
+    {"id": "2020_2024", "start": "2020-01-01", "end": "2024-12-31", "label": "2020–2024 (5 years)"}
+  ],
+  "primary_contrasts": [
+    {"id": "2010s_minus_1980s", "earlier": "1980s", "later": "2010s"},
+    {"id": "2020_2024_minus_1980s", "earlier": "1980s", "later": "2020_2024"}
+  ],
+  "reference_scheme": "pooled_matches",
+  "alternative_reference_schemes": ["equal_years"],
+  "inference": {"mode": "off", "validation_status": "pending"},
+  "sensitivity": {"leave_one_year_out": true, "common_teams": true},
+  "random_seed": 42
+}

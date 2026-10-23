@@ -1,0 +1,17 @@
+{
+  "analysis_id": "eras-7f332ed60ac443228960",
+  "run_manifests": [
+    "outputs/logs/eras/eras-20261023T153613611524Z-06eea9e4/run_manifest.json",
+    "outputs/logs/eras/eras-20261023T153714695685Z-01162866/run_manifest.json"
+  ],
+  "same_analysis_id": true,
+  "core_files_compared": 19,
+  "core_hashes_identical": true,
+  "observed_test_result": {
+    "passed": 48,
+    "failed": 0,
+    "note": "Recorded from final pytest execution: 48 passed in 7.41s; no additional test run here"
+  },
+  "inference": "not_run",
+  "human_review": "pending"
+}

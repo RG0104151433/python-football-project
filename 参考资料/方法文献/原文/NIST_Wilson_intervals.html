@@ -1,0 +1,499 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+   <HEAD>
+<script async type="text/javascript"
+        id="_fed_an_ua_tag"
+        src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOC&subagency=NIST&pua=UA-37115410-50&yt=true&exts=ppsx,pps,f90,sch,rtf,wrl,txz,m1v,xlsm,msi,xsd,f,tif,eps,mpg,xml,pl,xlt,c">
+</script>
+<script type="text/javascript"
+                id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+      <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+      <META NAME="GENERATOR" CONTENT="Mozilla/4.05 [en] (WinNT; U) [Netscape]">
+      <TITLE>7.2.4.1. Confidence intervals</TITLE>
+<link rel="stylesheet" href="../../nist-header-footer/css/nist-combined.css">
+<script src="../../nist-header-footer/js/jquery-1.9.0.min.js"
+        type="text/javascript" defer="defer"></script>
+<script src="../../nist-header-footer/js/nist-header-footer.js"
+        type="text/javascript" defer="defer"></script>
+   </HEAD>
+   <BODY BGCOLOR="FFFFCC">
+   <IMG SRC="../../gifs/nvgtbr.gif" BORDER=0 VALIGN="TOP" ISMAP USEMAP="#MenuBar">
+   <map name="MenuBar">
+      <area shape="rect" alt="Next Page" href="prc242.htm" coords="463,27,504,45">
+      <area shape="rect" alt="Previous Page" href="prc24.htm" coords="417,28,459,45">
+      <area shape="rect" alt="Home" href="../../" coords="52,0,100,43">
+      <area shape="rect" alt="Tools & Aids" href="../../main.htm" coords="165,27,264,46">
+      <area shape="rect" alt="Search Handbook" href="../../search.htm" coords="307,28,366,44">
+      <area shape="default" nohref>
+   </map>
+   <BR>
+   <!---<LEFT>--->
+   <TABLE CELLSPACING=20 CELLPADDING=0 WIDTH="540">
+   <TR>
+
+   <TD VALIGN=TOP COLSPAN=2>
+   
+   
+<FONT SIZE=-1><FONT COLOR="#D60021">7.</FONT> <A HREF="../prc.htm"><FONT COLOR="#00105A">Product and Process Comparisons</a></FONT></FONT><BR>
+<FONT SIZE=-1><FONT COLOR="#D60021">7.2.</FONT> <A HREF="prc2.htm"><FONT COLOR="#00105A">Comparisons based on data from one process</a></FONT></FONT><BR>
+<FONT SIZE=-1><FONT COLOR="#D60021">7.2.4.</FONT> <A HREF="prc24.htm"><FONT COLOR="#00105A">Does the proportion of defectives meet requirements?</a></FONT></FONT><BR>
+<BR>
+<H2><FONT COLOR="#D60021">7.2.4.1.</FONT> Confidence intervals </H2>
+<FONT SIZE=-1>
+</P>
+</FONT>
+   </TD>
+   </TR>
+
+
+
+
+
+
+
+
+
+
+<!-- begin paragraph -->
+<TR>
+<TD WIDTH=15% VALIGN=top>
+<!-- Add marginal notes below -->
+<I>
+Confidence intervals using the method of Agresti and Coull
+</i>
+</td>
+<TD VALIGN=TOP WIDTH=85%>
+<!-- Add main text below -->
+<!-- Interval described here is commonly referred to as the Wilson
+     interval in the literature, the method described in Brown is
+     commonly referred to as the Agresti-Coull interval, so modify
+     the text (2014/01/30)
+The method recommended by
+<a href="../section5/prc5.htm#Agresti">Agresti and Coull (1998)</a>
+and also by
+<a href="../section5/prc5.htm#Brown">Brown, Cai and DasGupta (2001)</a>
+(the methodology was originally developed by Wilson in 1927)
+is to use the form of the confidence interval that corresponds to the
+hypothesis test given in <a href="prc24.htm">Section 7.2.4</a>.
+-->
+The Wilson method for calculating confidence intervals for proportions
+(introduced by Wilson (1927), recommended by 
+<a href="../section5/prc5.htm#Brown">Brown, Cai and DasGupta (2001)</a>
+and <a href="../section5/prc5.htm#Agresti">Agresti and Coull (1998)</a>)
+is based on inverting the hypothesis test given in 
+<a href="prc24.htm">Section 7.2.4</a>.
+That is, solve for the two values of \(p_0\)
+<!-- <i>p</i><sub>0</sub> -->
+(say, \(p_{upper}\) and \(p_{lower}\))
+<!-- <i>p<sub>upper</sub></i> and <i>p<sub>lower</sub></i>)  -->
+that result from setting \(z = z_{1-\alpha/2}\)
+<!-- <i><font size=+1>z</i></font> = 
+<i><font size=+1>z</i></font><sub>1-<i>&alpha;</i>/2</sub> -->
+and solving for \(p_0 = p_{upper}\),
+<!-- <i>p</i><sub>0</sub> = <i>p<sub>upper</sub></i>, -->
+and then setting \(z = z_{\alpha/2}\)
+<!-- <i><font size=+1>z</i></font> = 
+<i><font size=+1>z</i></font><sub><i>&alpha;</i>/2</sub> -->
+and solving for \(p_0 = p_{lower}\).
+<!-- <i>p</i><sub>0</sub> = <i>p<sub>lower</sub></i>. -->
+(Here, as in Section 7.2.4, \(z_{\alpha/2}\)
+<!-- <i><font size=+1>z</i></font><sub><i>&alpha;</i>/2</sub> -->
+denotes the variate value from the
+<a href="../../eda/section3/eda3661.htm">standard normal
+distribution</a> such that the area to the left of the value is
+\(\alpha/2\).)
+<!-- &alpha;/2.) -->
+Although solving for the two values of \(p_0\)
+<!-- <i>p</i><sub>0</sub> -->
+might sound complicated, the appropriate expressions can be obtained by
+straightforward but slightly tedious algebra.  Such algebraic
+manipulation isn't necessary, however, as the appropriate expressions
+are given in various sources.  Specifically, we have
+
+</td>
+</tr>
+<!-- end paragraph -->
+
+<!-- begin paragraph -->
+<TR>
+<TD WIDTH=15% VALIGN=top>
+<!-- Add marginal notes below -->
+<I>
+Formulas for the confidence intervals
+</i>
+</td>
+<TD VALIGN=TOP WIDTH=85%>
+<!-- Add main text below -->
+
+$$ \large
+\begin{eqnarray}
+\mbox{U.L. } & = & \frac{\hat{p} + \frac{z^2_{1-\alpha/2}}{2n} + z_{1-\alpha/2}
+\sqrt{ \frac{\hat{p}(1-\hat{p})}{n} + \frac{z^2_{1-\alpha/2}}{4n^2} }}
+{1 + \frac{z^2_{1-\alpha/2}}{n}} \\
+ &   & \\
+ &   & \\
+\mbox{L.L. } & = & \frac{\hat{p} + \frac{z^2_{\alpha/2}}{2n} + z_{\alpha/2}
+\sqrt{ \frac{\hat{p}(1-\hat{p})}{n} + \frac{z^2_{\alpha/2}}{4n^2} }}
+{1 + \frac{z^2_{\alpha/2}}{n}} \, . 
+\end{eqnarray} $$
+
+<!--
+<ul>
+   <img src="prc241_eq1.gif" alt=
+"U. L. = {phat + z(1-alpha/2)^(2)/(2n) +
+ z(1-alpha/2/(sqrt[(phat*(1-phat))/n + z(1-alpha/2)^(2)/(4n^2)]}/
+ {1 + z(1-alpha/2)^(2)/n} ; 
+ L. L. = {phat + z(alpha/2)^(2)/(2n) +
+ z(alpha/2/(sqrt[(phat*(1-phat))/n + z(alpha/2)^(2)/(4n^2)]}/
+ {1 + z(alpha/2)^(2)/n}">
+</ul>
+-->
+
+</td>
+</tr>
+<!-- end paragraph -->
+
+<!-- begin paragraph -->
+<TR>
+<TD WIDTH=15% VALIGN=top>
+<!-- Add marginal notes below -->
+<I>
+Procedure does not strongly depend on values of \(p\) and \(n\)
+</i>
+</td>
+<TD VALIGN=TOP WIDTH=85%>
+<!-- Add main text below -->
+This approach can be substantiated on the grounds that it is the
+exact algebraic counterpart to the (large-sample) hypothesis test
+given in section 7.2.4 and is also supported by the research of
+Agresti and Coull.  One advantage of this procedure is that its
+worth does not strongly depend upon the value of \(n\)
+<!-- <i>n</i> -->
+and/or \(p\),
+<!-- <i>p</i>, -->
+and indeed was recommended by Agresti and Coull for
+virtually all combinations of \(n\) and \(p\).
+<!-- <i>n</i> and <i>p</i>. -->
+
+</td>
+</tr>
+<!-- end paragraph -->
+
+<!-- begin paragraph -->
+<TR>
+<TD WIDTH=15% VALIGN=top>
+<!-- Add marginal notes below -->
+<I>
+Another advantage is that the lower limit cannot be negative
+</i>
+</td>
+<TD VALIGN=TOP WIDTH=85%>
+<!-- Add main text below -->
+Another advantage is that the lower limit cannot be negative.  That is
+not true for the confidence expression most frequently used:
+
+$$ \hat{p} \pm z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n} } \, . $$
+
+<!--
+<ul>
+   <img src="prc241_eq2.gif"
+        alt="phat +/- z(1-alpha/2)*SQRT[(phat*(1-phat))/n]">
+</ul>
+-->
+
+A confidence limit approach that produces a lower limit which is an
+impossible value for the parameter for which the interval is
+constructed is an inferior approach.  This also applies to limits
+for the control charts that are discussed in Chapter 6.
+
+</td>
+</tr>
+<!-- end paragraph -->
+
+<!-- begin paragraph -->
+<TR>
+<TD WIDTH=15% VALIGN=top>
+<!-- Add marginal notes below -->
+<I>
+One-sided confidence intervals
+</i>
+</td>
+<TD VALIGN=TOP WIDTH=85%>
+<!-- Add main text below -->
+A one-sided confidence interval can also be constructed simply by
+replacing each \(z_{\alpha/2}\)
+<!-- <img align=absmiddle src="eqns/zalpha2.gif" alt="z(alpha/2)"> -->
+by \(z_{\alpha}\)
+<!-- <img align=absmiddle src="eqns/zalpha.gif" alt="z(alpha)"> -->
+in the expression for the lower or upper limit, whichever is desired.  The
+95 % one-sided interval for \(p\)
+<!-- <i>p</i> -->
+for the example in the preceding section is:
+
+</td>
+</tr>
+<!-- end paragraph -->
+
+<!-- begin paragraph -->
+<TR>
+<TD WIDTH=15% VALIGN=top>
+<!-- Add marginal notes below -->
+<I>
+Example
+</i>
+</td>
+<TD VALIGN=TOP WIDTH=85%>
+<!-- Add main text below -->
+
+$$ \large
+\begin{eqnarray}
+p & \ge & \mbox{lower limit} \\
+        & \\
+p & \ge & \frac{\hat{p} + \frac{z^2_{\alpha}}{2n} + z_{\alpha}
+\sqrt{ \frac{\hat{p}(1-\hat{p})}{n} + \frac{z^2_{\alpha}}{4n^2} }}
+{1 + \frac{z^2_{\alpha}}{n}} \\
+     &   & \\
+      &  & \\
+p & \ge & \frac{0.13 + \frac{(-1.645)^2}{2(200)} -1.645
+\sqrt{ \frac{0.13(1-0.13)}{200} + \frac{(-1.645)^2}{4(200)^2} }}
+{1 + \frac{(-1.645)^2}{200}} \\
+      &  & \\
+p & \ge & 0.09577 \, .
+\end{eqnarray} $$
+
+<!--
+<ul>
+   <img align=absmiddle src="prc241_eq3.gif" 
+ alt= "p >= lower limit;
+ p >= {phat + z(alpha)^(2)/(2n) -
+ z(alpha)*sqrt[(phat*(1-phat))/n + z(alpha)^(2)/(4n^2)]}/
+ {1 + z(alpha)^(2)/n};
+ p >= {0.13 + 1.645^2/(2*200) -
+ 1.645*sqrt[(0.13*0.8713)/200 + 1.645^2/(4*200^2)]}/
+ {1 + z(alpha)^(2)/n};
+ p >= 0.09577">
+</ul>
+-->
+
+</td>
+</tr>
+<!-- end paragraph -->
+
+<!-- begin paragraph -->
+<TR>
+<TD WIDTH=15% VALIGN=top>
+<!-- Add marginal notes below -->
+<I>
+Conclusion from the example
+</i>
+</td>
+<TD VALIGN=TOP WIDTH=85%>
+<!-- Add main text below -->
+Since the lower bound does not exceed 0.10, in which case it would
+exceed the hypothesized value, the null hypothesis that the
+proportion defective is at most 0.10, which was given in the
+preceding section, would not be rejected if we used the confidence
+interval to test the hypothesis.  Of course a confidence interval
+has value in its own right and does not have to be used for
+hypothesis testing.
+</td>
+</tr>
+
+<!-- begin paragraph -->
+<TR>
+<TD WIDTH=15% VALIGN=top>
+<!-- Add marginal notes below -->
+<I>
+</i>
+</td>
+<TD VALIGN=TOP WIDTH=85%>
+<!-- Add main text below -->
+<b>Exact Intervals for Small Numbers of Failures
+and/or Small Sample Sizes</b>
+</td>
+</tr>
+<!-- end paragraph -->
+
+<tr>
+<td VALIGN=TOP WIDTH="15%">
+<i>Constrution of exact two-sided confidence
+intervals based on the binomial distribution</i>
+</td>
+
+<td VALIGN=TOP WIDTH="85%">
+If the number of failures is very small or if the sample size \(N\)
+<!-- <i>N</i> --> 
+is very small, symmetical confidence limits that are
+approximated using the normal distribution may not be accurate enough
+for some applications. An <i>exact method</i> based on the binomial
+distribution is shown next.  To construct a two-sided confidence
+interval at the \(100(1-\alpha)\) %
+<!-- 100(1-<i>&alpha;</i>)% -->
+confidence level for the true proportion defective \(p\)
+<!-- <i>p</i> -->
+where \(N_d\)
+<!-- <i>N<sub>d</sub></i>  -->
+defects are found in a sample of size \(N\)
+<!-- <i>N</i> -->
+follow the steps below.
+<ol>
+   <li>Solve the equation,
+
+       $$ \sum_{k=0}^{N_d} \left( \begin{array}{c} N \\ k \end{array} \right)
+          p_{U}^k (1-p_{U})^{N-k} = \alpha/2 \, , $$
+
+       <!--
+       <center>
+       <p><br>
+       <img SRC="gifs/pueq.gif" ALT=
+       "SUM[k=0 to Nd][(N k)*p(U)**k*(1-p(U))**(N-k)] \= alpha/2">
+       </center>
+       <p>
+       -->
+       for \(p_U\)
+       <!-- <i>p<sub>U</sub></i>  -->
+       to obtain the upper \(100(1-\alpha)\) %
+       <!-- 100(1-<i>&alpha;</i>)% -->
+       limit for \(p\).
+       <!-- <i>p</i>. -->
+   </li>   
+       <p>
+   <li>Next solve the equation,
+  
+       $$ \sum_{k=0}^{N_d-1} \left( \begin{array}{c} N \\ k \end{array} \right)
+          p_{L}^k (1-p_{L})^{N-k} = 1 - \alpha/2 \, , $$
+
+       <!--
+       <center>
+       <p><br>
+       <img SRC="gifs/pleq.gif" ALT=
+       "SUM[k=0 to Nd-1][(N k)*p(L)**k*(1-p(L))**(N-k)] \= 1 - alpha/2">
+       </center>
+       <p>
+       -->
+       for \(p_L\)
+       <!-- <i>p<sub>L</sub></i> --> 
+       to obtain the lower \(100(1-\alpha)\) %
+       <!-- 100(1-<i>&alpha;</i>)% -->
+       limit for \(p\).
+       <!-- <i>p</i>. -->
+    </li>
+</ol>
+</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="15%">
+<i>Note</i>
+</td>
+
+<td VALIGN=TOP WIDTH="85%">
+The interval \((p_L, \, p_U)\)
+<!-- (<i>p<sub>L</sub></i>, <i>p<sub>U</sub></i>) -->
+is an exact \(100(1-\alpha)\) %
+<!-- 100(1-<i>&alpha;</i>)% -->
+confidence interval for \(p\).
+<!-- <i>p</i>. -->
+However, it is not symmetric about the
+observed proportion defective, \(\hat{p} = N_d/N\).
+<!-- <img SRC="gifs/pnd.gif" ALT="phat = Nd/N" align=ABSMIDDLE>. -->
+</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="15%">
+<i>Binomial confidence interval example</i>
+</td>
+
+<td VALIGN=TOP WIDTH="85%">
+The equations above that determine \(p_L\) and \(p_U\)
+<!-- <i>p<sub>L</sub></i> and <i>p<sub>U</sub></i> -->
+can be solved using readily available functions.
+Take as an example the situation where twenty units are sampled
+from a continuous production line and four items are found to be
+defective.  The proportion defective is estimated to be \(\hat{p}\)
+<!-- <img SRC="gifs/phat.gif" ALT="phat" align=ABSMIDDLE>  -->
+= 4/20 = 0.20.
+The steps for calculating a 90 % confidence interval for the true
+proportion defective, \(p\)
+<!-- <i>p</i> -->
+follow.
+<p>
+<pre>
+  1. Initalize constants.
+     alpha = 0.10
+     Nd = 4
+     N = 20
+
+  2. Define a function for upper limit (fu) and a function 
+     for the lower limit (fl).
+     fu = <i>F</i>(Nd,pu,20) - alpha/2
+     fl = <i>F</i>(Nd-1,pl,20) - (1-alpha/2)
+
+     <i>F</i> is the cumulative density function for the 
+     binominal distribution.
+  
+  3. Find the value of pu that corresponds to fu = 0 and
+     the value of pl that corresponds to fl = 0 using software
+     to find the roots of a function.
+</pre>
+The values of \(p_U\) and \(p_L\) for our example are:
+<pre>
+     pu = 0.401029
+     pl = 0.071354
+</pre>
+<p>
+Thus, a 90 % confidence interval for the proportion defective, \(p\),
+<!-- <i>p</i>, -->
+is
+(0.071, 0.400). Whether or not the interval is truly "exact" depends on
+the software. 
+<p>
+The calculations used in this example can be performed using
+both <a href="prc241.dp">Dataplot code</a> and 
+<a href="prc241.r">R code</a>.
+
+</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="15%">
+<i>Terminology Note</i>
+</td>
+
+<td VALIGN=TOP WIDTH="85%">
+Previous versions of the Handbook referred to the method described here
+as the Agresti-Coull method.  However, common practice in the statistics
+literature is to refer to the method given here as the Wilson method and
+a similar, but different, method described in Brown, Cai, and DasGupta as
+the Agresti-Coull method (the Agresti-Coull paper refers to this as the
+"adjusted Wald" method).  We have modified our terminology to be consistent
+with common practice in the statistical literature.
+</td>
+</tr>
+
+
+
+
+
+
+</TABLE>
+
+   <IMG SRC="../../gifs/nvgbrbtm.gif" BORDER=0 USEMAP="#nvbar.nvbar">
+   <map name="nvbar.nvbar">
+   <area shape="rect" href="http://www.nist.gov" coords="22,6,67,20">
+   <area shape="rect" href="https://www.itl.nist.gov/div898/handbook" coords="3,23,92,40">
+   <area shape="rect" alt="Home" href="../../index.htm" coords="114,12,165,31">
+   <area shape="rect" alt="Tools & Aids" href="../../toolaids.htm" coords="190,12,290,31">
+   <area shape="rect" alt="Search Handbook" href="../../search.htm" coords="318,14,376,30">
+   <area shape="rect" alt="Previous Page" href="prc24.htm" coords="428,15,471,29">
+   <area shape="rect" alt="Next Page" href="prc242.htm" coords="476,15,517,30">
+   <area shape="default" nohref>
+   </map>
+   
+   
+   <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"9ef5b487afff42a68917b2d63593a474","spa":2}' crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4f19387ff9f2ee5',t:'MTc5Mjc2NzI1OA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></BODY>
+   </HTML>

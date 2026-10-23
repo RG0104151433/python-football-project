@@ -1,0 +1,4 @@
+﻿issue_id,run_id,stage,severity,code,sample_id,match_id,field,message,action,status
+eras-20261023T152946822100Z-40ba9a44:1,eras-20261023T152946822100Z-40ba9a44,analysis,warning,HUMAN_REVIEW_PENDING,,,,Input is not frozen; outputs are preliminary,DISCLOSE,open
+eras-20261023T152946822100Z-40ba9a44:2,eras-20261023T152946822100Z-40ba9a44,analysis,warning,EXPLORATORY_PROTOCOL,,,,"Draft protocol: descriptive exploration, no confirmatory tests",DISCLOSE,open
+eras-20261023T152946822100Z-40ba9a44:3,eras-20261023T152946822100Z-40ba9a44,analysis,warning,INFERENCE_NOT_RUN,,,,No confidence intervals or significance tests were computed,DISCLOSE,open

@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "era_totals": true,
+    "finite_numbers": true,
+    "membership_counts": true,
+    "membership_unique": true,
+    "nested_samples": true,
+    "no_unapproved_intervals": true,
+    "non_neutral_only": true,
+    "outcome_counts": true,
+    "outcome_rates": true,
+    "reference_weights_sum": true,
+    "same_sample_observed_rate": true,
+    "standardization_formula": true,
+    "strata_counts": true
+  },
+  "passed": true
+}
