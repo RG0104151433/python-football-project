@@ -1,0 +1,9 @@
+﻿source_record_id,source_record_no,date,home_team,away_team,home_score,away_score,country,neutral,tournament,source_url,source_title,accessed_on,source_score_90,source_score_aet,source_shootout,source_venue,agreement,uncertainty,explanation,executor,review_status
+results:5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767:33958,33958,2010-07-11,Netherlands,Spain,0,1,South Africa,TRUE,FIFA World Cup,,,,,,,,,,,,not_reviewed
+results:5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767:37947,37947,2014-07-08,Brazil,Germany,1,7,Brazil,FALSE,FIFA World Cup,,,,,,,,,,,,not_reviewed
+results:5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767:37952,37952,2014-07-13,Germany,Argentina,1,0,Brazil,TRUE,FIFA World Cup,,,,,,,,,,,,not_reviewed
+results:5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767:41718,41718,2018-07-07,Russia,Croatia,2,2,Russia,FALSE,FIFA World Cup,,,,,,,,,,,,not_reviewed
+results:5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767:41722,41722,2018-07-15,France,Croatia,4,2,Russia,TRUE,FIFA World Cup,,,,,,,,,,,,not_reviewed
+results:5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767:45827,45827,2022-12-18,Argentina,France,3,3,Qatar,TRUE,FIFA World Cup,,,,,,,,,,,,not_reviewed
+results:5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767:47143,47143,2024-03-23,England,Brazil,0,1,England,FALSE,Friendly,,,,,,,,,,,,not_reviewed
+results:5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767:47240,47240,2024-06-03,Germany,Ukraine,0,0,Germany,FALSE,Friendly,,,,,,,,,,,,not_reviewed

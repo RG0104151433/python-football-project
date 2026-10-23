@@ -77,6 +77,20 @@ PyCharm 解释器继续选择根目录 `.venv\Scripts\python.exe`，运行入口
 
 ## 数据准备：已有可运行的第一版
 
+### 在 PyCharm 中运行清洗
+
+`src/clean.py` 使用包内导入，不能直接右键作为单独脚本运行。打开“运行 → 编辑配置”，新增或修改 Python 配置：
+
+- 启动类型从“脚本路径（Script path）”切换为“模块名称（Module name）”，填 `src.clean`，不要填文件路径或 `.py`。
+- 参数（Parameters）填 `--config config.json`。
+- 工作目录（Working directory）选择本仓库根目录，即包含 README.md、config.json 和 src 的目录，不能选 src。
+- Python 解释器选择本仓库的 `.venv/Scripts/python.exe`；项目解释器和这条运行配置均要检查，不沿用移动前目录的解释器。
+- 保存后选择这条配置运行，不再右键 clean.py 创建直接脚本配置。
+
+第一次可以将参数设为 `--help` 验证入口；看到帮助后改回正式参数。正式启动命令应包含 `-m src.clean --config config.json`。只改工作目录或重新安装依赖不能解决“attempted relative import with no known parent package”。
+
+### 在终端中运行
+
 在项目根目录执行，整个过程不联网、不覆盖原始 CSV：
 
 ```powershell
