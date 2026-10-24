@@ -1,0 +1,2657 @@
+{
+  "schema_version": "eras-display-v1",
+  "generated_at_utc": "2026-10-24T01:55:35.195530+00:00",
+  "analysis_id": "eras-7f332ed60ac443228960",
+  "data_version": "prep-3fab808178cf8ad71d88",
+  "protocol_status": "draft",
+  "source_manifest": "outputs/logs/eras/eras-20261024T013933600718Z-425e4920/run_manifest.json",
+  "source_manifest_sha256": "5f814d7ec1222626e75378e8b8738cda90be262803e3e586412765ceb6dbe07e",
+  "audit_path": "outputs/logs/eras/closeout-20261024/output_audit.json",
+  "audit_sha256": "552da22fe7a9220e8b5f348e12901ed5fef476c8eebfd95130a782bac0676552",
+  "exporter_sha256": "b9c7037a04d87bf9725c5d64c52cfa613d1a61d005b2741b8e9606486d789d5c",
+  "units": {
+    "rates": "probability",
+    "contrasts": "percentage_points",
+    "counts": "matches"
+  },
+  "uncertainty": "not_run",
+  "human_review": "pending",
+  "series": [
+    {
+      "era_id": "1980s",
+      "label": "1980–1989",
+      "start": "1980-01-01",
+      "end": "1989-12-31",
+      "full_matches": 3741,
+      "classified_matches": 3741,
+      "home_wins": 1835,
+      "observed_full_rate": 0.4905105587,
+      "observed_classified_rate": 0.4905105587,
+      "standardized_rate": 0.4971527094,
+      "friendly_matches": 1740,
+      "non_friendly_matches": 2001,
+      "friendly_rate": 0.4459770115,
+      "non_friendly_rate": 0.5292353823
+    },
+    {
+      "era_id": "1990s",
+      "label": "1990–1999",
+      "start": "1990-01-01",
+      "end": "1999-12-31",
+      "full_matches": 5066,
+      "classified_matches": 5066,
+      "home_wins": 2562,
+      "observed_full_rate": 0.5057244374,
+      "observed_classified_rate": 0.5057244374,
+      "standardized_rate": 0.5072315353,
+      "friendly_matches": 2106,
+      "non_friendly_matches": 2960,
+      "friendly_rate": 0.4767331434,
+      "non_friendly_rate": 0.5263513514
+    },
+    {
+      "era_id": "2000s",
+      "label": "2000–2009",
+      "start": "2000-01-01",
+      "end": "2009-12-31",
+      "full_matches": 7116,
+      "classified_matches": 7116,
+      "home_wins": 3625,
+      "observed_full_rate": 0.5094154019,
+      "observed_classified_rate": 0.5094154019,
+      "standardized_rate": 0.5097437043,
+      "friendly_matches": 2788,
+      "non_friendly_matches": 4328,
+      "friendly_rate": 0.4784791966,
+      "non_friendly_rate": 0.5293438078
+    },
+    {
+      "era_id": "2010s",
+      "label": "2010–2019",
+      "start": "2010-01-01",
+      "end": "2019-12-31",
+      "full_matches": 6952,
+      "classified_matches": 6952,
+      "home_wins": 3513,
+      "observed_full_rate": 0.5053222094,
+      "observed_classified_rate": 0.5053222094,
+      "standardized_rate": 0.5052749762,
+      "friendly_matches": 2657,
+      "non_friendly_matches": 4295,
+      "friendly_rate": 0.4960481746,
+      "non_friendly_rate": 0.5110593714
+    },
+    {
+      "era_id": "2020_2024",
+      "label": "2020–2024 (5 years)",
+      "start": "2020-01-01",
+      "end": "2024-12-31",
+      "full_matches": 3180,
+      "classified_matches": 3180,
+      "home_wins": 1618,
+      "observed_full_rate": 0.5088050314,
+      "observed_classified_rate": 0.5088050314,
+      "standardized_rate": 0.5181987901,
+      "friendly_matches": 749,
+      "non_friendly_matches": 2431,
+      "friendly_rate": 0.5567423231,
+      "non_friendly_rate": 0.4940353764
+    }
+  ],
+  "reference_weights": [
+    {
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "reference_sample_id": "sample-eafeb23c355ef5391044",
+      "scheme": "pooled_matches",
+      "tournament_group": "friendly",
+      "weight": "0.3853387066",
+      "reference_start": "1980-01-01",
+      "reference_end": "2024-12-31",
+      "n_reference_matches": "26055",
+      "n_reference_years": "45",
+      "reference_years": "[1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024]",
+      "missing_years": "[]",
+      "status": "ok"
+    },
+    {
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "reference_sample_id": "sample-eafeb23c355ef5391044",
+      "scheme": "pooled_matches",
+      "tournament_group": "non_friendly",
+      "weight": "0.6146612934",
+      "reference_start": "1980-01-01",
+      "reference_end": "2024-12-31",
+      "n_reference_matches": "26055",
+      "n_reference_years": "45",
+      "reference_years": "[1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024]",
+      "missing_years": "[]",
+      "status": "ok"
+    },
+    {
+      "reference_id": "reference-b5aba6ce17e1f6e20fd1",
+      "reference_sample_id": "sample-eafeb23c355ef5391044",
+      "scheme": "equal_years",
+      "tournament_group": "friendly",
+      "weight": "0.4043463476",
+      "reference_start": "1980-01-01",
+      "reference_end": "2024-12-31",
+      "n_reference_matches": "26055",
+      "n_reference_years": "45",
+      "reference_years": "[1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024]",
+      "missing_years": "[]",
+      "status": "ok"
+    },
+    {
+      "reference_id": "reference-b5aba6ce17e1f6e20fd1",
+      "reference_sample_id": "sample-eafeb23c355ef5391044",
+      "scheme": "equal_years",
+      "tournament_group": "non_friendly",
+      "weight": "0.5956536524",
+      "reference_start": "1980-01-01",
+      "reference_end": "2024-12-31",
+      "n_reference_matches": "26055",
+      "n_reference_years": "45",
+      "reference_years": "[1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024]",
+      "missing_years": "[]",
+      "status": "ok"
+    }
+  ],
+  "contrasts": [
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "earlier_era": "1980s",
+      "later_era": "2010s",
+      "estimand": "composition_adjustment_difference",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "estimate": "0.6689383919",
+      "unit": "percentage_points",
+      "standard_error": "",
+      "ci_lower": "",
+      "ci_upper": "",
+      "confidence_level": "",
+      "method_id": "",
+      "method_version": "",
+      "uncertainty_status": "not_run",
+      "status": "ok"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "earlier_era": "1980s",
+      "later_era": "2010s",
+      "estimand": "observed_difference",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "estimate": "1.4811650762",
+      "unit": "percentage_points",
+      "standard_error": "",
+      "ci_lower": "",
+      "ci_upper": "",
+      "confidence_level": "",
+      "method_id": "",
+      "method_version": "",
+      "uncertainty_status": "not_run",
+      "status": "ok"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "earlier_era": "1980s",
+      "later_era": "2010s",
+      "estimand": "standardized_difference",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "estimate": "0.8122266843",
+      "unit": "percentage_points",
+      "standard_error": "",
+      "ci_lower": "",
+      "ci_upper": "",
+      "confidence_level": "",
+      "method_id": "",
+      "method_version": "",
+      "uncertainty_status": "not_run",
+      "status": "ok"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "earlier_era": "1980s",
+      "later_era": "2010s",
+      "estimand": "composition_adjustment_difference",
+      "reference_id": "reference-b5aba6ce17e1f6e20fd1",
+      "estimate": "0.5392166136",
+      "unit": "percentage_points",
+      "standard_error": "",
+      "ci_lower": "",
+      "ci_upper": "",
+      "confidence_level": "",
+      "method_id": "",
+      "method_version": "",
+      "uncertainty_status": "not_run",
+      "status": "ok"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "earlier_era": "1980s",
+      "later_era": "2010s",
+      "estimand": "observed_difference",
+      "reference_id": "reference-b5aba6ce17e1f6e20fd1",
+      "estimate": "1.4811650762",
+      "unit": "percentage_points",
+      "standard_error": "",
+      "ci_lower": "",
+      "ci_upper": "",
+      "confidence_level": "",
+      "method_id": "",
+      "method_version": "",
+      "uncertainty_status": "not_run",
+      "status": "ok"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "earlier_era": "1980s",
+      "later_era": "2010s",
+      "estimand": "standardized_difference",
+      "reference_id": "reference-b5aba6ce17e1f6e20fd1",
+      "estimate": "0.9419484626",
+      "unit": "percentage_points",
+      "standard_error": "",
+      "ci_lower": "",
+      "ci_upper": "",
+      "confidence_level": "",
+      "method_id": "",
+      "method_version": "",
+      "uncertainty_status": "not_run",
+      "status": "ok"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "earlier_era": "1980s",
+      "later_era": "2020_2024",
+      "estimand": "composition_adjustment_difference",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "estimate": "-0.2751607968",
+      "unit": "percentage_points",
+      "standard_error": "",
+      "ci_lower": "",
+      "ci_upper": "",
+      "confidence_level": "",
+      "method_id": "",
+      "method_version": "",
+      "uncertainty_status": "not_run",
+      "status": "ok"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "earlier_era": "1980s",
+      "later_era": "2020_2024",
+      "estimand": "observed_difference",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "estimate": "1.8294472772",
+      "unit": "percentage_points",
+      "standard_error": "",
+      "ci_lower": "",
+      "ci_upper": "",
+      "confidence_level": "",
+      "method_id": "",
+      "method_version": "",
+      "uncertainty_status": "not_run",
+      "status": "ok"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "earlier_era": "1980s",
+      "later_era": "2020_2024",
+      "estimand": "standardized_difference",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "estimate": "2.1046080740",
+      "unit": "percentage_points",
+      "standard_error": "",
+      "ci_lower": "",
+      "ci_upper": "",
+      "confidence_level": "",
+      "method_id": "",
+      "method_version": "",
+      "uncertainty_status": "not_run",
+      "status": "ok"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "earlier_era": "1980s",
+      "later_era": "2020_2024",
+      "estimand": "composition_adjustment_difference",
+      "reference_id": "reference-b5aba6ce17e1f6e20fd1",
+      "estimate": "-0.5526064319",
+      "unit": "percentage_points",
+      "standard_error": "",
+      "ci_lower": "",
+      "ci_upper": "",
+      "confidence_level": "",
+      "method_id": "",
+      "method_version": "",
+      "uncertainty_status": "not_run",
+      "status": "ok"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "earlier_era": "1980s",
+      "later_era": "2020_2024",
+      "estimand": "observed_difference",
+      "reference_id": "reference-b5aba6ce17e1f6e20fd1",
+      "estimate": "1.8294472772",
+      "unit": "percentage_points",
+      "standard_error": "",
+      "ci_lower": "",
+      "ci_upper": "",
+      "confidence_level": "",
+      "method_id": "",
+      "method_version": "",
+      "uncertainty_status": "not_run",
+      "status": "ok"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "earlier_era": "1980s",
+      "later_era": "2020_2024",
+      "estimand": "standardized_difference",
+      "reference_id": "reference-b5aba6ce17e1f6e20fd1",
+      "estimate": "2.3820537091",
+      "unit": "percentage_points",
+      "standard_error": "",
+      "ci_lower": "",
+      "ci_upper": "",
+      "confidence_level": "",
+      "method_id": "",
+      "method_version": "",
+      "uncertainty_status": "not_run",
+      "status": "ok"
+    }
+  ],
+  "sensitivity": [
+    {
+      "variant_id": "common_teams",
+      "check_type": "common_teams",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-ca9899d6ace6b519e6fa",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2010s_minus_1980s",
+      "n_matches": "19253",
+      "estimate_pp": "0.8702508593",
+      "baseline_estimate_pp": "0.8122266843",
+      "change_from_baseline_pp": "0.0580241750",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "common_teams",
+      "check_type": "common_teams",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-ca9899d6ace6b519e6fa",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2020_2024_minus_1980s",
+      "n_matches": "19253",
+      "estimate_pp": "2.9855757111",
+      "baseline_estimate_pp": "2.1046080740",
+      "change_from_baseline_pp": "0.8809676372",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "reference_equal_years",
+      "check_type": "alternative_reference",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "reference_id": "reference-b5aba6ce17e1f6e20fd1",
+      "contrast_id": "2010s_minus_1980s",
+      "n_matches": "26055",
+      "estimate_pp": "0.9419484626",
+      "baseline_estimate_pp": "0.8122266843",
+      "change_from_baseline_pp": "0.1297217783",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "reference_equal_years",
+      "check_type": "alternative_reference",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "reference_id": "reference-b5aba6ce17e1f6e20fd1",
+      "contrast_id": "2020_2024_minus_1980s",
+      "n_matches": "26055",
+      "estimate_pp": "2.3820537091",
+      "baseline_estimate_pp": "2.1046080740",
+      "change_from_baseline_pp": "0.2774456351",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_1980",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-5e23bae79570019c77f9",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2010s_minus_1980s",
+      "n_matches": "25657",
+      "estimate_pp": "0.6359796010",
+      "baseline_estimate_pp": "0.8122266843",
+      "change_from_baseline_pp": "-0.1762470833",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_1980",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-5e23bae79570019c77f9",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2020_2024_minus_1980s",
+      "n_matches": "25657",
+      "estimate_pp": "1.9283609907",
+      "baseline_estimate_pp": "2.1046080740",
+      "change_from_baseline_pp": "-0.1762470833",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_1981",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-6998636864c00c727a2e",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2010s_minus_1980s",
+      "n_matches": "25670",
+      "estimate_pp": "0.9942246362",
+      "baseline_estimate_pp": "0.8122266843",
+      "change_from_baseline_pp": "0.1819979518",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_1981",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-6998636864c00c727a2e",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2020_2024_minus_1980s",
+      "n_matches": "25670",
+      "estimate_pp": "2.2866060258",
+      "baseline_estimate_pp": "2.1046080740",
+      "change_from_baseline_pp": "0.1819979518",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_1982",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-2937ae37c3cd721a4d41",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2010s_minus_1980s",
+      "n_matches": "25795",
+      "estimate_pp": "0.8188946821",
+      "baseline_estimate_pp": "0.8122266843",
+      "change_from_baseline_pp": "0.0066679977",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_1982",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-2937ae37c3cd721a4d41",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2020_2024_minus_1980s",
+      "n_matches": "25795",
+      "estimate_pp": "2.1112760717",
+      "baseline_estimate_pp": "2.1046080740",
+      "change_from_baseline_pp": "0.0066679977",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_1983",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-ba69bf7c5632428bbb91",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2010s_minus_1980s",
+      "n_matches": "25669",
+      "estimate_pp": "0.7551114655",
+      "baseline_estimate_pp": "0.8122266843",
+      "change_from_baseline_pp": "-0.0571152188",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_1983",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-ba69bf7c5632428bbb91",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2020_2024_minus_1980s",
+      "n_matches": "25669",
+      "estimate_pp": "2.0474928552",
+      "baseline_estimate_pp": "2.1046080740",
+      "change_from_baseline_pp": "-0.0571152188",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_1984",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-f76336cb31742f3bcd87",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2010s_minus_1980s",
+      "n_matches": "25668",
+      "estimate_pp": "1.2312272060",
+      "baseline_estimate_pp": "0.8122266843",
+      "change_from_baseline_pp": "0.4190005217",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_1984",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-f76336cb31742f3bcd87",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2020_2024_minus_1980s",
+      "n_matches": "25668",
+      "estimate_pp": "2.5236085956",
+      "baseline_estimate_pp": "2.1046080740",
+      "change_from_baseline_pp": "0.4190005217",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_1985",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-b849057388efd855989b",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2010s_minus_1980s",
+      "n_matches": "25558",
+      "estimate_pp": "0.9027993128",
+      "baseline_estimate_pp": "0.8122266843",
+      "change_from_baseline_pp": "0.0905726285",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_1985",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-b849057388efd855989b",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2020_2024_minus_1980s",
+      "n_matches": "25558",
+      "estimate_pp": "2.1951807025",
+      "baseline_estimate_pp": "2.1046080740",
+      "change_from_baseline_pp": "0.0905726285",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_1986",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-5b528325945cb04679ae",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2010s_minus_1980s",
+      "n_matches": "25789",
+      "estimate_pp": "0.6298535318",
+      "baseline_estimate_pp": "0.8122266843",
+      "change_from_baseline_pp": "-0.1823731525",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_1986",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-5b528325945cb04679ae",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2020_2024_minus_1980s",
+      "n_matches": "25789",
+      "estimate_pp": "1.9222349215",
+      "baseline_estimate_pp": "2.1046080740",
+      "change_from_baseline_pp": "-0.1823731525",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_1987",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-7a492e1222e272bdbd2d",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2010s_minus_1980s",
+      "n_matches": "25751",
+      "estimate_pp": "0.8118596834",
+      "baseline_estimate_pp": "0.8122266843",
+      "change_from_baseline_pp": "-0.0003670009",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_1987",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-7a492e1222e272bdbd2d",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2020_2024_minus_1980s",
+      "n_matches": "25751",
+      "estimate_pp": "2.1042410731",
+      "baseline_estimate_pp": "2.1046080740",
+      "change_from_baseline_pp": "-0.0003670009",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_1988",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-738bfe33d43726c1076a",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2010s_minus_1980s",
+      "n_matches": "25688",
+      "estimate_pp": "0.1268910530",
+      "baseline_estimate_pp": "0.8122266843",
+      "change_from_baseline_pp": "-0.6853356314",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_1988",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-738bfe33d43726c1076a",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2020_2024_minus_1980s",
+      "n_matches": "25688",
+      "estimate_pp": "1.4192724426",
+      "baseline_estimate_pp": "2.1046080740",
+      "change_from_baseline_pp": "-0.6853356314",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_1989",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-c4f1657f03b333cbbeca",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2010s_minus_1980s",
+      "n_matches": "25564",
+      "estimate_pp": "1.2475297767",
+      "baseline_estimate_pp": "0.8122266843",
+      "change_from_baseline_pp": "0.4353030924",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_1989",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-c4f1657f03b333cbbeca",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2020_2024_minus_1980s",
+      "n_matches": "25564",
+      "estimate_pp": "2.5399111664",
+      "baseline_estimate_pp": "2.1046080740",
+      "change_from_baseline_pp": "0.4353030924",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_2010",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-31663bfe4ccd5bd49429",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2010s_minus_1980s",
+      "n_matches": "25496",
+      "estimate_pp": "1.0212352519",
+      "baseline_estimate_pp": "0.8122266843",
+      "change_from_baseline_pp": "0.2090085675",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_2011",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-e98ae71554c02427a684",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2010s_minus_1980s",
+      "n_matches": "25222",
+      "estimate_pp": "0.7990427012",
+      "baseline_estimate_pp": "0.8122266843",
+      "change_from_baseline_pp": "-0.0131839831",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_2012",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-6effd9374e73ece53f7e",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2010s_minus_1980s",
+      "n_matches": "25353",
+      "estimate_pp": "0.8035533872",
+      "baseline_estimate_pp": "0.8122266843",
+      "change_from_baseline_pp": "-0.0086732971",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_2013",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-d14b516d660e6db4525c",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2010s_minus_1980s",
+      "n_matches": "25343",
+      "estimate_pp": "0.7648562531",
+      "baseline_estimate_pp": "0.8122266843",
+      "change_from_baseline_pp": "-0.0473704312",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_2014",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-f7a06c22f5ef6f456422",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2010s_minus_1980s",
+      "n_matches": "25468",
+      "estimate_pp": "0.7051102680",
+      "baseline_estimate_pp": "0.8122266843",
+      "change_from_baseline_pp": "-0.1071164163",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_2015",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-f9a03b6d0a170bccd142",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2010s_minus_1980s",
+      "n_matches": "25310",
+      "estimate_pp": "0.8880838050",
+      "baseline_estimate_pp": "0.8122266843",
+      "change_from_baseline_pp": "0.0758571207",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_2016",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-c5640b2e23e9775610eb",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2010s_minus_1980s",
+      "n_matches": "25360",
+      "estimate_pp": "0.5965264815",
+      "baseline_estimate_pp": "0.8122266843",
+      "change_from_baseline_pp": "-0.2157002028",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_2017",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-043e96231c44e26d92ee",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2010s_minus_1980s",
+      "n_matches": "25391",
+      "estimate_pp": "1.0176404614",
+      "baseline_estimate_pp": "0.8122266843",
+      "change_from_baseline_pp": "0.2054137770",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_2018",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-c499d766da4654cf1867",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2010s_minus_1980s",
+      "n_matches": "25399",
+      "estimate_pp": "0.9884185899",
+      "baseline_estimate_pp": "0.8122266843",
+      "change_from_baseline_pp": "0.1761919056",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_2019",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-0e5110a2b8603aa11e84",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2010s_minus_1980s",
+      "n_matches": "25256",
+      "estimate_pp": "0.5363748904",
+      "baseline_estimate_pp": "0.8122266843",
+      "change_from_baseline_pp": "-0.2758517939",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_2020",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-50931bbda49e5f18b402",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2020_2024_minus_1980s",
+      "n_matches": "25746",
+      "estimate_pp": "2.8167178887",
+      "baseline_estimate_pp": "2.1046080740",
+      "change_from_baseline_pp": "0.7121098147",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_2021",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-1402cc1fda7479c5d5ed",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2020_2024_minus_1980s",
+      "n_matches": "25296",
+      "estimate_pp": "1.2181743187",
+      "baseline_estimate_pp": "2.1046080740",
+      "change_from_baseline_pp": "-0.8864337553",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_2022",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-99b8e85c0f3d951b387e",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2020_2024_minus_1980s",
+      "n_matches": "25463",
+      "estimate_pp": "1.7642719807",
+      "baseline_estimate_pp": "2.1046080740",
+      "change_from_baseline_pp": "-0.3403360933",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_2023",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-dbac9e0183a1c4dc5639",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2020_2024_minus_1980s",
+      "n_matches": "25310",
+      "estimate_pp": "2.3089616427",
+      "baseline_estimate_pp": "2.1046080740",
+      "change_from_baseline_pp": "0.2043535687",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    },
+    {
+      "variant_id": "without_year_2024",
+      "check_type": "leave_one_year_out",
+      "parent_sample_id": "sample-eafeb23c355ef5391044",
+      "sample_id": "sample-12583da6447e404187b0",
+      "reference_id": "reference-ac02781919d1b1e848fa",
+      "contrast_id": "2020_2024_minus_1980s",
+      "n_matches": "25280",
+      "estimate_pp": "2.3429388597",
+      "baseline_estimate_pp": "2.1046080740",
+      "change_from_baseline_pp": "0.2383307857",
+      "status": "ok",
+      "reason": "fixed_reference; both teams required for common_teams"
+    }
+  ],
+  "weight_sensitivity": [
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.0000000000",
+      "difference_pp": "-1.8176010947",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.0100000000",
+      "difference_pp": "-1.7493539206",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.0200000000",
+      "difference_pp": "-1.6811067465",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.0300000000",
+      "difference_pp": "-1.6128595724",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.0400000000",
+      "difference_pp": "-1.5446123983",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.0500000000",
+      "difference_pp": "-1.4763652243",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.0600000000",
+      "difference_pp": "-1.4081180502",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.0700000000",
+      "difference_pp": "-1.3398708761",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.0800000000",
+      "difference_pp": "-1.2716237020",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.0900000000",
+      "difference_pp": "-1.2033765279",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.1000000000",
+      "difference_pp": "-1.1351293538",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.1100000000",
+      "difference_pp": "-1.0668821797",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.1200000000",
+      "difference_pp": "-0.9986350057",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.1300000000",
+      "difference_pp": "-0.9303878316",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.1400000000",
+      "difference_pp": "-0.8621406575",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.1500000000",
+      "difference_pp": "-0.7938934834",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.1600000000",
+      "difference_pp": "-0.7256463093",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.1700000000",
+      "difference_pp": "-0.6573991352",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.1800000000",
+      "difference_pp": "-0.5891519611",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.1900000000",
+      "difference_pp": "-0.5209047871",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.2000000000",
+      "difference_pp": "-0.4526576130",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.2100000000",
+      "difference_pp": "-0.3844104389",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.2200000000",
+      "difference_pp": "-0.3161632648",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.2300000000",
+      "difference_pp": "-0.2479160907",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.2400000000",
+      "difference_pp": "-0.1796689166",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.2500000000",
+      "difference_pp": "-0.1114217425",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.2600000000",
+      "difference_pp": "-0.0431745685",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.2663262060",
+      "difference_pp": "-0.0000000000",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.2700000000",
+      "difference_pp": "0.0250726056",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.2800000000",
+      "difference_pp": "0.0933197797",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.2900000000",
+      "difference_pp": "0.1615669538",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.3000000000",
+      "difference_pp": "0.2298141279",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.3100000000",
+      "difference_pp": "0.2980613020",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.3200000000",
+      "difference_pp": "0.3663084761",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.3300000000",
+      "difference_pp": "0.4345556501",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.3400000000",
+      "difference_pp": "0.5028028242",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.3500000000",
+      "difference_pp": "0.5710499983",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.3600000000",
+      "difference_pp": "0.6392971724",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.3700000000",
+      "difference_pp": "0.7075443465",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.3800000000",
+      "difference_pp": "0.7757915206",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.3853387066",
+      "difference_pp": "0.8122266843",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.3900000000",
+      "difference_pp": "0.8440386947",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.4000000000",
+      "difference_pp": "0.9122858687",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.4043463476",
+      "difference_pp": "0.9419484626",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.4100000000",
+      "difference_pp": "0.9805330428",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.4200000000",
+      "difference_pp": "1.0487802169",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.4300000000",
+      "difference_pp": "1.1170273910",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.4400000000",
+      "difference_pp": "1.1852745651",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.4500000000",
+      "difference_pp": "1.2535217392",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.4600000000",
+      "difference_pp": "1.3217689133",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.4700000000",
+      "difference_pp": "1.3900160873",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.4800000000",
+      "difference_pp": "1.4582632614",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.4900000000",
+      "difference_pp": "1.5265104355",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.5000000000",
+      "difference_pp": "1.5947576096",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.5100000000",
+      "difference_pp": "1.6630047837",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.5200000000",
+      "difference_pp": "1.7312519578",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.5300000000",
+      "difference_pp": "1.7994991319",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.5400000000",
+      "difference_pp": "1.8677463059",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.5500000000",
+      "difference_pp": "1.9359934800",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.5600000000",
+      "difference_pp": "2.0042406541",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.5700000000",
+      "difference_pp": "2.0724878282",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.5800000000",
+      "difference_pp": "2.1407350023",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.5900000000",
+      "difference_pp": "2.2089821764",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.6000000000",
+      "difference_pp": "2.2772293505",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.6100000000",
+      "difference_pp": "2.3454765245",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.6200000000",
+      "difference_pp": "2.4137236986",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.6300000000",
+      "difference_pp": "2.4819708727",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.6400000000",
+      "difference_pp": "2.5502180468",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.6500000000",
+      "difference_pp": "2.6184652209",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.6600000000",
+      "difference_pp": "2.6867123950",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.6700000000",
+      "difference_pp": "2.7549595691",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.6800000000",
+      "difference_pp": "2.8232067431",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.6900000000",
+      "difference_pp": "2.8914539172",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.7000000000",
+      "difference_pp": "2.9597010913",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.7100000000",
+      "difference_pp": "3.0279482654",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.7200000000",
+      "difference_pp": "3.0961954395",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.7300000000",
+      "difference_pp": "3.1644426136",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.7400000000",
+      "difference_pp": "3.2326897877",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.7500000000",
+      "difference_pp": "3.3009369617",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.7600000000",
+      "difference_pp": "3.3691841358",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.7700000000",
+      "difference_pp": "3.4374313099",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.7800000000",
+      "difference_pp": "3.5056784840",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.7900000000",
+      "difference_pp": "3.5739256581",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.8000000000",
+      "difference_pp": "3.6421728322",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.8100000000",
+      "difference_pp": "3.7104200063",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.8200000000",
+      "difference_pp": "3.7786671803",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.8300000000",
+      "difference_pp": "3.8469143544",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.8400000000",
+      "difference_pp": "3.9151615285",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.8500000000",
+      "difference_pp": "3.9834087026",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.8600000000",
+      "difference_pp": "4.0516558767",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.8700000000",
+      "difference_pp": "4.1199030508",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.8800000000",
+      "difference_pp": "4.1881502249",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.8900000000",
+      "difference_pp": "4.2563973989",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.9000000000",
+      "difference_pp": "4.3246445730",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.9100000000",
+      "difference_pp": "4.3928917471",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.9200000000",
+      "difference_pp": "4.4611389212",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.9300000000",
+      "difference_pp": "4.5293860953",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.9400000000",
+      "difference_pp": "4.5976332694",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.9500000000",
+      "difference_pp": "4.6658804435",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.9600000000",
+      "difference_pp": "4.7341276175",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.9700000000",
+      "difference_pp": "4.8023747916",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.9800000000",
+      "difference_pp": "4.8706219657",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.9900000000",
+      "difference_pp": "4.9388691398",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "1.0000000000",
+      "difference_pp": "5.0071163139",
+      "flip_weight": "0.2663262060",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.0000000000",
+      "difference_pp": "-3.5200005921",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.0100000000",
+      "difference_pp": "-3.3740352745",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.0200000000",
+      "difference_pp": "-3.2280699570",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.0300000000",
+      "difference_pp": "-3.0821046395",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.0400000000",
+      "difference_pp": "-2.9361393220",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.0500000000",
+      "difference_pp": "-2.7901740044",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.0600000000",
+      "difference_pp": "-2.6442086869",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.0700000000",
+      "difference_pp": "-2.4982433694",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.0800000000",
+      "difference_pp": "-2.3522780519",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.0900000000",
+      "difference_pp": "-2.2063127343",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.1000000000",
+      "difference_pp": "-2.0603474168",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.1100000000",
+      "difference_pp": "-1.9143820993",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.1200000000",
+      "difference_pp": "-1.7684167818",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.1300000000",
+      "difference_pp": "-1.6224514642",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.1400000000",
+      "difference_pp": "-1.4764861467",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.1500000000",
+      "difference_pp": "-1.3305208292",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.1600000000",
+      "difference_pp": "-1.1845555117",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.1700000000",
+      "difference_pp": "-1.0385901941",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.1800000000",
+      "difference_pp": "-0.8926248766",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.1900000000",
+      "difference_pp": "-0.7466595591",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.2000000000",
+      "difference_pp": "-0.6006942416",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.2100000000",
+      "difference_pp": "-0.4547289241",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.2200000000",
+      "difference_pp": "-0.3087636065",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.2300000000",
+      "difference_pp": "-0.1627982890",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.2400000000",
+      "difference_pp": "-0.0168329715",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.2411532172",
+      "difference_pp": "0.0000000000",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.2500000000",
+      "difference_pp": "0.1291323460",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.2600000000",
+      "difference_pp": "0.2750976636",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.2700000000",
+      "difference_pp": "0.4210629811",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.2800000000",
+      "difference_pp": "0.5670282986",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.2900000000",
+      "difference_pp": "0.7129936161",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.3000000000",
+      "difference_pp": "0.8589589337",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.3100000000",
+      "difference_pp": "1.0049242512",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.3200000000",
+      "difference_pp": "1.1508895687",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.3300000000",
+      "difference_pp": "1.2968548862",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.3400000000",
+      "difference_pp": "1.4428202038",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.3500000000",
+      "difference_pp": "1.5887855213",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.3600000000",
+      "difference_pp": "1.7347508388",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.3700000000",
+      "difference_pp": "1.8807161563",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.3800000000",
+      "difference_pp": "2.0266814738",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.3853387066",
+      "difference_pp": "2.1046080740",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.3900000000",
+      "difference_pp": "2.1726467914",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.4000000000",
+      "difference_pp": "2.3186121089",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.4043463476",
+      "difference_pp": "2.3820537091",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.4100000000",
+      "difference_pp": "2.4645774264",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.4200000000",
+      "difference_pp": "2.6105427439",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.4300000000",
+      "difference_pp": "2.7565080615",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.4400000000",
+      "difference_pp": "2.9024733790",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.4500000000",
+      "difference_pp": "3.0484386965",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.4600000000",
+      "difference_pp": "3.1944040140",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.4700000000",
+      "difference_pp": "3.3403693316",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.4800000000",
+      "difference_pp": "3.4863346491",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.4900000000",
+      "difference_pp": "3.6322999666",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.5000000000",
+      "difference_pp": "3.7782652841",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.5100000000",
+      "difference_pp": "3.9242306017",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.5200000000",
+      "difference_pp": "4.0701959192",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.5300000000",
+      "difference_pp": "4.2161612367",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.5400000000",
+      "difference_pp": "4.3621265542",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.5500000000",
+      "difference_pp": "4.5080918718",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.5600000000",
+      "difference_pp": "4.6540571893",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.5700000000",
+      "difference_pp": "4.8000225068",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.5800000000",
+      "difference_pp": "4.9459878243",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.5900000000",
+      "difference_pp": "5.0919531418",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.6000000000",
+      "difference_pp": "5.2379184594",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.6100000000",
+      "difference_pp": "5.3838837769",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.6200000000",
+      "difference_pp": "5.5298490944",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.6300000000",
+      "difference_pp": "5.6758144119",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.6400000000",
+      "difference_pp": "5.8217797295",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.6500000000",
+      "difference_pp": "5.9677450470",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.6600000000",
+      "difference_pp": "6.1137103645",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.6700000000",
+      "difference_pp": "6.2596756820",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.6800000000",
+      "difference_pp": "6.4056409996",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.6900000000",
+      "difference_pp": "6.5516063171",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.7000000000",
+      "difference_pp": "6.6975716346",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.7100000000",
+      "difference_pp": "6.8435369521",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.7200000000",
+      "difference_pp": "6.9895022697",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.7300000000",
+      "difference_pp": "7.1354675872",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.7400000000",
+      "difference_pp": "7.2814329047",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.7500000000",
+      "difference_pp": "7.4273982222",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.7600000000",
+      "difference_pp": "7.5733635398",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.7700000000",
+      "difference_pp": "7.7193288573",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.7800000000",
+      "difference_pp": "7.8652941748",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.7900000000",
+      "difference_pp": "8.0112594923",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.8000000000",
+      "difference_pp": "8.1572248098",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.8100000000",
+      "difference_pp": "8.3031901274",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.8200000000",
+      "difference_pp": "8.4491554449",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.8300000000",
+      "difference_pp": "8.5951207624",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.8400000000",
+      "difference_pp": "8.7410860799",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.8500000000",
+      "difference_pp": "8.8870513975",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.8600000000",
+      "difference_pp": "9.0330167150",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.8700000000",
+      "difference_pp": "9.1789820325",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.8800000000",
+      "difference_pp": "9.3249473500",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.8900000000",
+      "difference_pp": "9.4709126676",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.9000000000",
+      "difference_pp": "9.6168779851",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.9100000000",
+      "difference_pp": "9.7628433026",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.9200000000",
+      "difference_pp": "9.9088086201",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.9300000000",
+      "difference_pp": "10.0547739377",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.9400000000",
+      "difference_pp": "10.2007392552",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.9500000000",
+      "difference_pp": "10.3467045727",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.9600000000",
+      "difference_pp": "10.4926698902",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.9700000000",
+      "difference_pp": "10.6386352077",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.9800000000",
+      "difference_pp": "10.7846005253",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "0.9900000000",
+      "difference_pp": "10.9305658428",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "sample_id": "sample-eafeb23c355ef5391044",
+      "weight_friendly": "1.0000000000",
+      "difference_pp": "11.0765311603",
+      "flip_weight": "0.2411532172",
+      "status": "flip_in_range"
+    }
+  ],
+  "upstream_counts": {
+    "included": 48102,
+    "outside_window": 1803,
+    "quarantined": 40
+  },
+  "raw_count": 49945,
+  "processed_count": 48102,
+  "analysis_exclusions": {
+    "neutral": 9983,
+    "outside_analysis_window": 12064
+  },
+  "classified_count": 26055,
+  "source_hashes": {
+    "config.json": "e12cb80ac22ded100337808457148a3cdfc6fcfe23290c271c4954f4a99f2d6a",
+    "config/eras.json": "9ccc4147192fa9361d14adb72d316b8ffc3168a29a24f21e74103216694b7662",
+    "data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json": "1462f59a2ba391c81bbc5ea57470d17b08a32a459dda0ececac94724cd345657",
+    "data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv": "69ba00073970fe011a62f5871c08ace6285d7fe75d5a0d79afdac0ef972de9dc",
+    "data/raw/international_results/LICENSE": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+    "data/raw/international_results/README.md": "0d50b5f6fe2b658eba52a4477e4e48af6ca61e89e2c5265b153e3c12d7305b76",
+    "data/raw/international_results/former_names.csv": "2d57f59a3ac13b24c2fcf208ced5a38710529d122da38929838d0980b002677e",
+    "data/raw/international_results/goalscorers.csv": "e02b25cfcad3fca9af79a5cf075c33a6875416d6d80e5ab42514535cb0d639fe",
+    "data/raw/international_results/results.csv": "5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767",
+    "data/raw/international_results/shootouts.csv": "072b445adf5183fbe981087857e5b64c8f17abfdbf257b1822ceacb4a37919fa",
+    "outputs/logs/data_prep/clean-20261021T143700805474Z-127f4584/row_lineage.csv": "5690783940e58c2c1f7fc40a1bbce8e446154e8b1c1454c9ee570e544c429157",
+    "outputs/figures/eras/eras-7f332ed60ac443228960/era_results.png": "3dc5f6116eab93a1b659d78c86d6b98b2b55645fa42b4100ccb7fa0f92be6edd",
+    "outputs/figures/eras/eras-7f332ed60ac443228960/era_results.svg": "49a7207b8bd6190b032174cd92237006fe309e76acd96fae0df30615a47a4b95",
+    "outputs/figures/eras/eras-7f332ed60ac443228960/tournament_composition.png": "a0dda4d088a0f2dc089be6b3ea646f86780e9a9738392da7d436d8fccbbd6b70",
+    "outputs/figures/eras/eras-7f332ed60ac443228960/tournament_composition.svg": "9d972b6aab9359986f57f0ce1a6be3a1775ff82386a615c1498a0d332bcd7234",
+    "outputs/figures/eras/eras-7f332ed60ac443228960/weight_sensitivity.png": "af3a20170ee50f4c6b3903bde3812b3548c8c3028e9e2f5518fd668e2286b7f7",
+    "outputs/figures/eras/eras-7f332ed60ac443228960/weight_sensitivity.svg": "43f559986f916d2c24f951fa003d18147b62abf4e8b8f0bac11b81c6f86a29ad",
+    "outputs/logs/eras/eras-20261024T013933600718Z-425e4920/analysis_config.json": "76def16ee6eb7138b5f10569f79b444bb0d6d859f604d3f2459e0156ce286bf1",
+    "outputs/logs/eras/eras-20261024T013933600718Z-425e4920/checks.json": "4696e85866bf244edad1564653eb14badc744356e1134841a104e48cdd6ec018",
+    "outputs/logs/eras/eras-20261024T013933600718Z-425e4920/input_validation.json": "b9097b7144a5501c68072495f973bac9c54636095925e2b881f230da5594e82b",
+    "outputs/logs/eras/eras-20261024T013933600718Z-425e4920/issues.csv": "da648df2ce10de5b9acc39974fbb55adb7fba9498eaa876b0237d40f27b03590",
+    "outputs/logs/eras/eras-20261024T013933600718Z-425e4920/summary.md": "4c71a5aeba885e80ce3f0c3d5423e25bf92b5af4ca16d03a090ea4e697b5dc49",
+    "outputs/tables/eras/eras-7f332ed60ac443228960/analysis_membership.csv": "334d048cc6a7213f6ee97de939e451c6937232be446859ce50a637e0d0afbf72",
+    "outputs/tables/eras/eras-7f332ed60ac443228960/data_dictionary.md": "d1a08343e7cab61699a31f704d7db8761555e9c8d9e8a9dcf48da0fe590af366",
+    "outputs/tables/eras/eras-7f332ed60ac443228960/era_contrasts.csv": "caa8b9bcb94a233f4a7586a06b0d3268242fa8a30a7928099ba5721ab2260ede",
+    "outputs/tables/eras/eras-7f332ed60ac443228960/era_estimates.csv": "7c503259cad8085f30b7feef0d44be2b380c2a95023c3c0a531c569c315af4c2",
+    "outputs/tables/eras/eras-7f332ed60ac443228960/era_summary.csv": "c876a4800c86a3db57c72331665c2460d93a8932f0faf5ceaf8a611fb8e8632c",
+    "outputs/tables/eras/eras-7f332ed60ac443228960/era_tournament_summary.csv": "ac654bbc8209edb953483d933cb5ef4cb8377598f64511ad61d8df770263fb8f",
+    "outputs/tables/eras/eras-7f332ed60ac443228960/reference_weights.csv": "0af4c4a6f6827790c6913e7cfc1a5d6ef8680cf1f0d28f7215744d5fd21912a3",
+    "outputs/tables/eras/eras-7f332ed60ac443228960/sample_flow.csv": "5cd88035d63de2df0c3d46da98699b36dfbea0c1cfbabc6a6f2fc1d564e82593",
+    "outputs/tables/eras/eras-7f332ed60ac443228960/schedule_diagnostics.csv": "d61c75836551a534f9b563350f48ea1ac3313b43a6cf8f8a96774c3919ff0859",
+    "outputs/tables/eras/eras-7f332ed60ac443228960/sensitivity_results.csv": "2038767d46a71de5ba7d8e431a4a01a989371a7a6ec92116db1a5b8fbb0da0c5",
+    "outputs/tables/eras/eras-7f332ed60ac443228960/team_schedule.csv": "2af6cb12e1a06f3025694789454ab61902d68c96411b5a189a0d295c489324af",
+    "outputs/tables/eras/eras-7f332ed60ac443228960/weight_sensitivity.csv": "08a9b34d0bf35b9cb668cd9d7ed75d1b501dc0e3c1a05eb3899b5d8380353319",
+    "outputs/tables/eras/eras-7f332ed60ac443228960/year_summary.csv": "5d6381b1b8550bc95bd6da2e6dc0205bce9eb86518370bf55e017cf4fc97fb64",
+    "src/analyze_eras.py": "817ef6db61491b86ab3d7d934df9932bc6702057f8c613eb4b115c5fbdcbd288",
+    "src/data_contract.py": "75d7c37a5d09867656098ab4fa3387721d8e1028dfde54d28c372d50f2a7d101",
+    "src/eras/__init__.py": "aacd580655a627a0f5ae7a44eb07c23406636813ab0fcbc89f32177d7f7a70b2",
+    "src/eras/checks.py": "0eda226d64ae15278cebfb09820e5f67b1b86b3a911228e0fd654bcd2e5003ef",
+    "src/eras/data.py": "46f55736f56c2f7d99c078a0bc61e97843ea38ebcea02523b15d1aa166cf58e0",
+    "src/eras/inference.py": "4af99cbe01d08ec7846975afce779d86935eb673e44604a7270965a15eb5cafc",
+    "src/eras/reporting.py": "3580361af51b90dc9370483e89dbf44d8896bb7c0b81ccc2185da6fe770f5c27",
+    "src/eras/standardize.py": "b241422fe0b63823171c31ce3e9d6b425713d426022b294b01263a41ca75b238",
+    "src/eras/statistics.py": "2030ab1833ae56d431a51d8bd81791a8553beee7d0cc3daad0169f7952d1e016",
+    "src/snapshot.py": "0602b3907494ade4dae5bd6bac07a2a0a1353171af12495a9fc39815e6fbf2d2",
+    "src/validate.py": "bd8a61d799e8afeadba6d50b275f0cd07906d5c0e0fea623f17061dd092253f1"
+  },
+  "notes": [
+    "Not a forecast or causal estimate",
+    "2020–2024 contains five years",
+    "Slider values describe hypothetical reference compositions, not new matches",
+    "Nested source tables retain CSV strings and their declared units; never use JavaScript truthiness for numeric conversion"
+  ]
+}

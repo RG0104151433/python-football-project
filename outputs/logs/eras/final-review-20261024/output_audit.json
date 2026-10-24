@@ -1,0 +1,508 @@
+{
+  "schema_version": "eras-closeout-audit-v1",
+  "audited_at_utc": "2026-10-24T02:14:14.648527+00:00",
+  "analysis_id": "eras-7f332ed60ac443228960",
+  "run_manifest": "outputs/logs/eras/eras-20261024T013933600718Z-425e4920/run_manifest.json",
+  "audit_script_sha256": "c3dafbe23da0608de8737472c4f45c572c378eefbb6baeb1c6ece935a909569e",
+  "passed": true,
+  "checks": [
+    {
+      "check": "completed_run_without_inference",
+      "passed": true
+    },
+    {
+      "check": "inputs_hashes",
+      "passed": true
+    },
+    {
+      "check": "outputs_hashes",
+      "passed": true
+    },
+    {
+      "check": "code_hashes_hashes",
+      "passed": true
+    },
+    {
+      "check": "analysis_membership:BOM_LF",
+      "passed": true
+    },
+    {
+      "check": "analysis_membership:fields",
+      "passed": true
+    },
+    {
+      "check": "analysis_membership:unique_sorted_keys",
+      "passed": true
+    },
+    {
+      "check": "analysis_membership:types_and_serialization",
+      "passed": true
+    },
+    {
+      "check": "sample_flow:BOM_LF",
+      "passed": true
+    },
+    {
+      "check": "sample_flow:fields",
+      "passed": true
+    },
+    {
+      "check": "sample_flow:unique_sorted_keys",
+      "passed": true
+    },
+    {
+      "check": "sample_flow:types_and_serialization",
+      "passed": true
+    },
+    {
+      "check": "era_summary:BOM_LF",
+      "passed": true
+    },
+    {
+      "check": "era_summary:fields",
+      "passed": true
+    },
+    {
+      "check": "era_summary:unique_sorted_keys",
+      "passed": true
+    },
+    {
+      "check": "era_summary:types_and_serialization",
+      "passed": true
+    },
+    {
+      "check": "year_summary:BOM_LF",
+      "passed": true
+    },
+    {
+      "check": "year_summary:fields",
+      "passed": true
+    },
+    {
+      "check": "year_summary:unique_sorted_keys",
+      "passed": true
+    },
+    {
+      "check": "year_summary:types_and_serialization",
+      "passed": true
+    },
+    {
+      "check": "era_tournament_summary:BOM_LF",
+      "passed": true
+    },
+    {
+      "check": "era_tournament_summary:fields",
+      "passed": true
+    },
+    {
+      "check": "era_tournament_summary:unique_sorted_keys",
+      "passed": true
+    },
+    {
+      "check": "era_tournament_summary:types_and_serialization",
+      "passed": true
+    },
+    {
+      "check": "team_schedule:BOM_LF",
+      "passed": true
+    },
+    {
+      "check": "team_schedule:fields",
+      "passed": true
+    },
+    {
+      "check": "team_schedule:unique_sorted_keys",
+      "passed": true
+    },
+    {
+      "check": "team_schedule:types_and_serialization",
+      "passed": true
+    },
+    {
+      "check": "schedule_diagnostics:BOM_LF",
+      "passed": true
+    },
+    {
+      "check": "schedule_diagnostics:fields",
+      "passed": true
+    },
+    {
+      "check": "schedule_diagnostics:unique_sorted_keys",
+      "passed": true
+    },
+    {
+      "check": "schedule_diagnostics:types_and_serialization",
+      "passed": true
+    },
+    {
+      "check": "reference_weights:BOM_LF",
+      "passed": true
+    },
+    {
+      "check": "reference_weights:fields",
+      "passed": true
+    },
+    {
+      "check": "reference_weights:unique_sorted_keys",
+      "passed": true
+    },
+    {
+      "check": "reference_weights:types_and_serialization",
+      "passed": true
+    },
+    {
+      "check": "era_estimates:BOM_LF",
+      "passed": true
+    },
+    {
+      "check": "era_estimates:fields",
+      "passed": true
+    },
+    {
+      "check": "era_estimates:unique_sorted_keys",
+      "passed": true
+    },
+    {
+      "check": "era_estimates:types_and_serialization",
+      "passed": true
+    },
+    {
+      "check": "era_contrasts:BOM_LF",
+      "passed": true
+    },
+    {
+      "check": "era_contrasts:fields",
+      "passed": true
+    },
+    {
+      "check": "era_contrasts:unique_sorted_keys",
+      "passed": true
+    },
+    {
+      "check": "era_contrasts:types_and_serialization",
+      "passed": true
+    },
+    {
+      "check": "weight_sensitivity:BOM_LF",
+      "passed": true
+    },
+    {
+      "check": "weight_sensitivity:fields",
+      "passed": true
+    },
+    {
+      "check": "weight_sensitivity:unique_sorted_keys",
+      "passed": true
+    },
+    {
+      "check": "weight_sensitivity:types_and_serialization",
+      "passed": true
+    },
+    {
+      "check": "sensitivity_results:BOM_LF",
+      "passed": true
+    },
+    {
+      "check": "sensitivity_results:fields",
+      "passed": true
+    },
+    {
+      "check": "sensitivity_results:unique_sorted_keys",
+      "passed": true
+    },
+    {
+      "check": "sensitivity_results:types_and_serialization",
+      "passed": true
+    },
+    {
+      "check": "membership_covers_clean_once",
+      "passed": true
+    },
+    {
+      "check": "base_venue:selected_match_ids",
+      "passed": true
+    },
+    {
+      "check": "classified_venue:selected_match_ids",
+      "passed": true
+    },
+    {
+      "check": "era_summary:independent_score_recount",
+      "passed": true
+    },
+    {
+      "check": "year_summary:independent_score_recount",
+      "passed": true
+    },
+    {
+      "check": "era_tournament_summary:independent_score_recount",
+      "passed": true
+    },
+    {
+      "check": "reference:pooled_matches:friendly",
+      "passed": true
+    },
+    {
+      "check": "reference:pooled_matches:non_friendly",
+      "passed": true
+    },
+    {
+      "check": "reference:equal_years:friendly",
+      "passed": true
+    },
+    {
+      "check": "reference:equal_years:non_friendly",
+      "passed": true
+    },
+    {
+      "check": "era_estimates:independent_standardization",
+      "passed": true
+    },
+    {
+      "check": "contrast:2010s_minus_1980s:reference-ac02781919d1b1e848fa:composition_adjustment_difference",
+      "passed": true
+    },
+    {
+      "check": "contrast:2010s_minus_1980s:reference-ac02781919d1b1e848fa:observed_difference",
+      "passed": true
+    },
+    {
+      "check": "contrast:2010s_minus_1980s:reference-ac02781919d1b1e848fa:standardized_difference",
+      "passed": true
+    },
+    {
+      "check": "contrast:2010s_minus_1980s:reference-b5aba6ce17e1f6e20fd1:composition_adjustment_difference",
+      "passed": true
+    },
+    {
+      "check": "contrast:2010s_minus_1980s:reference-b5aba6ce17e1f6e20fd1:observed_difference",
+      "passed": true
+    },
+    {
+      "check": "contrast:2010s_minus_1980s:reference-b5aba6ce17e1f6e20fd1:standardized_difference",
+      "passed": true
+    },
+    {
+      "check": "contrast:2020_2024_minus_1980s:reference-ac02781919d1b1e848fa:composition_adjustment_difference",
+      "passed": true
+    },
+    {
+      "check": "contrast:2020_2024_minus_1980s:reference-ac02781919d1b1e848fa:observed_difference",
+      "passed": true
+    },
+    {
+      "check": "contrast:2020_2024_minus_1980s:reference-ac02781919d1b1e848fa:standardized_difference",
+      "passed": true
+    },
+    {
+      "check": "contrast:2020_2024_minus_1980s:reference-b5aba6ce17e1f6e20fd1:composition_adjustment_difference",
+      "passed": true
+    },
+    {
+      "check": "contrast:2020_2024_minus_1980s:reference-b5aba6ce17e1f6e20fd1:observed_difference",
+      "passed": true
+    },
+    {
+      "check": "contrast:2020_2024_minus_1980s:reference-b5aba6ce17e1f6e20fd1:standardized_difference",
+      "passed": true
+    },
+    {
+      "check": "no_false_precision_from_intervals",
+      "passed": true
+    },
+    {
+      "check": "weight_curve:2010s_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "weight_curve:2020_2024_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:common_teams:2010s_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:common_teams:2020_2024_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:reference_equal_years:2010s_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:reference_equal_years:2020_2024_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_1980:2010s_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_1980:2020_2024_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_1981:2010s_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_1981:2020_2024_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_1982:2010s_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_1982:2020_2024_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_1983:2010s_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_1983:2020_2024_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_1984:2010s_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_1984:2020_2024_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_1985:2010s_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_1985:2020_2024_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_1986:2010s_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_1986:2020_2024_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_1987:2010s_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_1987:2020_2024_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_1988:2010s_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_1988:2020_2024_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_1989:2010s_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_1989:2020_2024_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_2010:2010s_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_2011:2010s_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_2012:2010s_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_2013:2010s_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_2014:2010s_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_2015:2010s_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_2016:2010s_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_2017:2010s_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_2018:2010s_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_2019:2010s_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_2020:2020_2024_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_2021:2020_2024_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_2022:2020_2024_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_2023:2020_2024_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "sensitivity:without_year_2024:2020_2024_minus_1980s",
+      "passed": true
+    },
+    {
+      "check": "upstream_flow_counts",
+      "passed": true
+    }
+  ],
+  "table_rows": {
+    "analysis_membership": 48102,
+    "sample_flow": 28,
+    "era_summary": 10,
+    "year_summary": 90,
+    "era_tournament_summary": 10,
+    "team_schedule": 3419,
+    "schedule_diagnostics": 120,
+    "reference_weights": 4,
+    "era_estimates": 20,
+    "era_contrasts": 12,
+    "weight_sensitivity": 208,
+    "sensitivity_results": 39
+  },
+  "counts": {
+    "processed": 48102,
+    "base": 26055,
+    "classified": 26055
+  },
+  "reference_weights": {
+    "pooled_matches": 0.3853387065822299,
+    "equal_years": 0.40434634756510174
+  },
+  "inference": "not_run",
+  "human_review": "pending",
+  "scope": "Current configured full analysis only; independent saved-output audit, not a general estimator or facts review."
+}
