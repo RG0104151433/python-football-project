@@ -195,3 +195,13 @@ PyCharm 改用模块 `src.analyze_eras`，参数与上述命令一致、工作�
 - 不移动或转发 `.venv`，不为整理资料更改其绝对位置；它与 PyCharm 配置留在根目录。
 
 历史整理曾移动 20 个文件并核对 SHA-256，见[2026-10-20 整理记录](文档/04_整理记录/文件整理记录_2026-10-20.json)。2026-10-23 本轮新增独立任务目录、统一上手入口并补充行尾/缓存规则；不移动 .venv、业务代码或版本化数据，不删除原始资料与运行历史。无实际内容的报告、图表和成员提交文件不提前堆放。
+
+## 同期相关项目
+
+同一时期的其他项目在各自仓库维护，与本项目数据、代码互不依赖：
+
+| 仓库 | 内容 |
+| --- | --- |
+| [oasis-front-end-game](https://github.com/RG0104151433/oasis-front-end-game) | 前端网页游戏《绿洲 · OASIS LEGACY》：`小学期网页开发/` 是可运行原型（HTML/CSS/原生 JS + Canvas），`网页游戏开发2.0/` 是重做版的完整剧本与各扩展线数据契约。 |
+| [my-skills-hub](https://github.com/RG0104151433/my-skills-hub) | 个人 Agent Skills 合集，包括前端绘图/动画/视频技能包。 |
+| [grade-2-at-ruixin](https://github.com/RG0104151433/grade-2-at-ruixin) | 大二上学习记录：课程复习、算法题、Python 入门。 |
