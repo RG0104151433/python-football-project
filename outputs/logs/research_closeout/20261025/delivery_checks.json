@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-10-25T14:06:48.430599+00:00",
+  "passed": true,
+  "changed_markdown_files_checked": 16,
+  "local_links_checked": 520,
+  "existing_file_references_in_material_index": 233,
+  "research_review_source_hashes_checked": 13,
+  "joint_checks": 49,
+  "q1_independent_checks": 630,
+  "scope_preserved": true,
+  "shared_reliability": "not_run",
+  "human_review": "not_performed",
+  "rehearsal": "not_performed",
+  "suggested_full_talk_seconds": 600,
+  "html": "not_completed",
+  "full_tests_rerun": false,
+  "new_production_code": false
+}

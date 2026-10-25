@@ -1,0 +1,251 @@
+{
+  "analysis_id": "tournaments-4893e38db46f83f6c219",
+  "arithmetic": "Exact rational arithmetic from integer counts; compare stored ten-decimal outputs with absolute tolerance 5.1e-11 in their native units",
+  "check_count": 31,
+  "checks": [
+    {
+      "name": "era_sum_friendly_n_matches",
+      "passed": true
+    },
+    {
+      "name": "era_sum_friendly_n_home_wins",
+      "passed": true
+    },
+    {
+      "name": "era_sum_friendly_n_draws",
+      "passed": true
+    },
+    {
+      "name": "era_sum_friendly_n_away_wins",
+      "passed": true
+    },
+    {
+      "name": "era_sum_non_friendly_n_matches",
+      "passed": true
+    },
+    {
+      "name": "era_sum_non_friendly_n_home_wins",
+      "passed": true
+    },
+    {
+      "name": "era_sum_non_friendly_n_draws",
+      "passed": true
+    },
+    {
+      "name": "era_sum_non_friendly_n_away_wins",
+      "passed": true
+    },
+    {
+      "name": "sample_total",
+      "passed": true
+    },
+    {
+      "name": "reference_counts_1980s",
+      "passed": true
+    },
+    {
+      "name": "reference_weight_1980s",
+      "passed": true
+    },
+    {
+      "name": "reference_counts_1990s",
+      "passed": true
+    },
+    {
+      "name": "reference_weight_1990s",
+      "passed": true
+    },
+    {
+      "name": "reference_counts_2000s",
+      "passed": true
+    },
+    {
+      "name": "reference_weight_2000s",
+      "passed": true
+    },
+    {
+      "name": "reference_counts_2010s",
+      "passed": true
+    },
+    {
+      "name": "reference_weight_2010s",
+      "passed": true
+    },
+    {
+      "name": "reference_counts_2020_2024",
+      "passed": true
+    },
+    {
+      "name": "reference_weight_2020_2024",
+      "passed": true
+    },
+    {
+      "name": "common_weights_sum",
+      "passed": true
+    },
+    {
+      "name": "own_weights_rebuild_raw_friendly",
+      "passed": true
+    },
+    {
+      "name": "stored_rate_raw_friendly",
+      "passed": true
+    },
+    {
+      "name": "stored_rate_era_standardized_friendly",
+      "passed": true
+    },
+    {
+      "name": "own_weights_rebuild_raw_non_friendly",
+      "passed": true
+    },
+    {
+      "name": "stored_rate_raw_non_friendly",
+      "passed": true
+    },
+    {
+      "name": "stored_rate_era_standardized_non_friendly",
+      "passed": true
+    },
+    {
+      "name": "stored_difference_raw",
+      "passed": true
+    },
+    {
+      "name": "stored_difference_era_standardized",
+      "passed": true
+    },
+    {
+      "name": "raw_negative",
+      "passed": true
+    },
+    {
+      "name": "adjusted_negative",
+      "passed": true
+    },
+    {
+      "name": "gap_narrows",
+      "passed": true
+    }
+  ],
+  "created_at_utc": "2026-10-25T13:44:14.550026+00:00",
+  "era_reconstruction": [
+    {
+      "adjustment_change_contribution_pp": -2.498496115066606,
+      "common_era_weight": 0.14062688124573583,
+      "friendly_era_share": 0.17253594498853927,
+      "home_wins_friendly": 747,
+      "home_wins_non_friendly": 979,
+      "n_friendly": 1656,
+      "n_non_friendly": 1848,
+      "non_friendly_era_share": 0.12063450616880997,
+      "period_id": "1980s",
+      "rate_friendly": 0.45108695652173914,
+      "rate_non_friendly": 0.5297619047619048,
+      "raw_difference_contribution_pp": 1.392114854748187,
+      "standardized_difference_contribution_pp": -1.1063812603184187
+    },
+    {
+      "adjustment_change_contribution_pp": -1.3230442154273385,
+      "common_era_weight": 0.1932014287434282,
+      "friendly_era_share": 0.20973119399874973,
+      "home_wins_friendly": 952,
+      "home_wins_non_friendly": 1464,
+      "n_friendly": 2013,
+      "n_non_friendly": 2801,
+      "non_friendly_era_share": 0.18284483321365624,
+      "period_id": "1990s",
+      "rate_friendly": 0.47292598112270245,
+      "rate_non_friendly": 0.5226704748304177,
+      "raw_difference_contribution_pp": 0.36197348978243216,
+      "standardized_difference_contribution_pp": -0.9610707256449064
+    },
+    {
+      "adjustment_change_contribution_pp": -0.19315033983011318,
+      "common_era_weight": 0.2757956415298792,
+      "friendly_era_share": 0.2781829547822463,
+      "home_wins_friendly": 1278,
+      "home_wins_non_friendly": 2216,
+      "n_friendly": 2670,
+      "n_non_friendly": 4202,
+      "non_friendly_era_share": 0.2742998890266989,
+      "period_id": "2000s",
+      "rate_friendly": 0.4786516853932584,
+      "rate_non_friendly": 0.5273679200380771,
+      "raw_difference_contribution_pp": -1.1504221788486761,
+      "standardized_difference_contribution_pp": -1.3435725186787895
+    },
+    {
+      "adjustment_change_contribution_pp": 0.30344978131014394,
+      "common_era_weight": 0.266163663362363,
+      "friendly_era_share": 0.26245051052302565,
+      "home_wins_friendly": 1257,
+      "home_wins_non_friendly": 2089,
+      "n_friendly": 2519,
+      "n_non_friendly": 4113,
+      "non_friendly_era_share": 0.268490110320517,
+      "period_id": "2010s",
+      "rate_friendly": 0.49900754267566494,
+      "rate_non_friendly": 0.5079017748601994,
+      "raw_difference_contribution_pp": -0.5401819234132554,
+      "standardized_difference_contribution_pp": -0.23673214210311147
+    },
+    {
+      "adjustment_change_contribution_pp": 4.0744199711769395,
+      "common_era_weight": 0.12421238511859373,
+      "friendly_era_share": 0.07709939570743905,
+      "home_wins_friendly": 411,
+      "home_wins_non_friendly": 1163,
+      "n_friendly": 740,
+      "n_non_friendly": 2355,
+      "non_friendly_era_share": 0.1537306612703179,
+      "period_id": "2020_2024",
+      "rate_friendly": 0.5554054054054054,
+      "rate_non_friendly": 0.4938428874734607,
+      "raw_difference_contribution_pp": -3.3097372525536355,
+      "standardized_difference_contribution_pp": 0.7646827186233045
+    }
+  ],
+  "executor": "Codex (AI)",
+  "formulas": {
+    "adjustment_change_pp": "standardized_difference_pp - raw_difference_pp",
+    "common_weight": "a_e=(n_eF+n_eN)/(N_F+N_N)",
+    "raw_contribution_pp": "100*(q_eF*p_eF-q_eN*p_eN)",
+    "raw_rate": "sum_e h_eg / sum_e n_eg = sum_e (n_eg/N_g)*(h_eg/n_eg)",
+    "standardized_difference_pp": "100*sum_e a_e*(p_eF-p_eN)",
+    "standardized_rate": "sum_e a_e*(h_eg/n_eg)"
+  },
+  "human_review": "not_performed",
+  "inference_status": "not_run",
+  "limitations": [
+    "No causal attribution of the adjustment change",
+    "No claim that the difference is negative in every era",
+    "No stability, statistical significance or prediction claim"
+  ],
+  "overall": {
+    "adjustment_change_pp": 0.3631790821630264,
+    "home_wins_friendly": 4645,
+    "home_wins_non_friendly": 7911,
+    "n_friendly": 9598,
+    "n_non_friendly": 15319,
+    "raw_difference_pp": -3.246253010284948,
+    "raw_friendly": 0.4839549906230465,
+    "raw_non_friendly": 0.516417520725896,
+    "standardized_difference_pp": -2.8830739281219215,
+    "standardized_friendly": 0.48862088146863886,
+    "standardized_non_friendly": 0.5174516207498581
+  },
+  "passed": true,
+  "recent_reversal_stability": "deferred_to_shared_reliability",
+  "sample_id": "sample-3bc69e2cc4f843242018",
+  "schema_version": "tournaments-conclusion-review-v1",
+  "scope": "Reconstruct overall raw and common-era contrasts from existing integer counts; not a new sample, sensitivity or inference run",
+  "source_fingerprints": {
+    "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/run_manifest.json": "c25cb3672ff004939171a59e460de8ba4c7f960fc35e1dbf033b1dbe2cced0ca",
+    "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/grouped_counts.csv": "141c6950c2aa142ed9181330e04a2b9fec1f2b876c5d640c2947699fe0195d69",
+    "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/reference_weights.csv": "4a7f301aef4a169129e7b4acd2bd6e5d28a199dc10c4d3ccbd18493dc553eff0",
+    "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/type_differences.csv": "db684da0d555f1704642caa411f6f8adccbabff941dde76cdb8ae8def6f4088a",
+    "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/type_estimates.csv": "ca14f604568b54905c6800201152609877f43c0db9228e41dd789219eb8468ef"
+  },
+  "source_run": "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/run_manifest.json"
+}

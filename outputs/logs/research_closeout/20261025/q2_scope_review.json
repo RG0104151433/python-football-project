@@ -1,0 +1,93 @@
+{
+  "schema_version": "q2-comprehensive-closure-scope-audit-v1",
+  "created_at_utc": "2026-10-25T14:55:43.466205+00:00",
+  "decision_log_id": "R20261025-19",
+  "executor": "Codex (AI)",
+  "audit_completed": true,
+  "descriptive_stage_passed": true,
+  "all_final_delivery_complete": false,
+  "analysis_id": "tournaments-4893e38db46f83f6c219",
+  "run_manifest": "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/run_manifest.json",
+  "verification": {
+    "passed": true,
+    "analysis_id": "tournaments-4893e38db46f83f6c219",
+    "verified_outputs": 23,
+    "inference": "not_run"
+  },
+  "independent_checks_existing": 3630,
+  "existing_test_evidence": {
+    "passed": 106,
+    "failures": 0,
+    "errors": 0,
+    "rerun_this_audit": false
+  },
+  "csv_row_counts": {
+    "analysis_membership.csv": 48102,
+    "grouped_counts.csv": 102,
+    "reference_weights.csv": 365,
+    "rolling_counts.csv": 72,
+    "rolling_windows.csv": 36,
+    "sample_flow.csv": 27,
+    "type_differences.csv": 79,
+    "type_estimates.csv": 158,
+    "window_membership.csv": 204501
+  },
+  "display_fingerprints_verified": 141,
+  "local_links_checked_before_document_update": 375,
+  "q2_material_references_checked_before_document_update": 55,
+  "source_fingerprints": {
+    "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/run_manifest.json": "c25cb3672ff004939171a59e460de8ba4c7f960fc35e1dbf033b1dbe2cced0ca",
+    "outputs/logs/tournaments/closeout-20261025/independent_audit.json": "25e5816200835e3142ddf64c12513842ae2271209226925de3e89f023dab3adb",
+    "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/display_data.json": "5373dde73b5bb83467c43dd5087c5adbc33bf04dceed71a29133515c2d1241c3",
+    "outputs/logs/tournaments/closeout-20261025/pytest.xml": "0dc3d88f0253859c43257aea76c7b27c6fcaf9bfe47358224ce3e017f0bdc36c",
+    "outputs/logs/tournaments/conclusion-review-20261025/review.json": "64c248367d32712837ea7b99b617cc31cd8ed435a87a352cf24e31e35bf1f768",
+    "outputs/logs/research_closeout/20261025/review.json": "2bfb5ebd6c44023c684f54a30d2ae96a144204ff2ee700b3633cadfb8cc3d365"
+  },
+  "theory_review_scope": "Checked descriptive ratios, direct standardization, shared references, complete trailing windows, missing-stratum handling and limitation claims against approved design and implementation; not a fresh verification of all inference theorems",
+  "code_reviewed": [
+    "src/tournaments/data.py",
+    "src/tournaments/statistics.py",
+    "src/tournaments/standardize.py",
+    "src/tournaments/rolling.py",
+    "src/tournaments/reporting.py",
+    "src/tournaments/checks.py",
+    "scripts/analyze_tournaments.py"
+  ],
+  "html": {
+    "material_status": "ready",
+    "presentation_entrypoints_found": [],
+    "source_html_files_found": 29,
+    "source_html_is_presentation": false,
+    "page_status": "not_built",
+    "teacher_permission_record": "not_confirmed",
+    "offline_projector_rehearsal": "not_performed"
+  },
+  "paper": {
+    "agreed_scope": "Index existing supporting filenames and paths; do not migrate files",
+    "supporting_material_preparation": "complete_under_agreed_scope",
+    "all_q2_core_artifacts_indexed": true,
+    "docx_tex_files_found": [],
+    "final_course_report": "not_evidenced_as_completed",
+    "report_assembly": "future_project_delivery_task"
+  },
+  "handoff": {
+    "story": "prepared",
+    "followup_questions": "registered",
+    "sample_and_target_interfaces": "ready",
+    "member_instructions": "prepared",
+    "in_repo_member_submissions": [],
+    "member_acceptance": "pending_actual_submission",
+    "group_rehearsal": "not_performed"
+  },
+  "deferred_by_user": [
+    "shared reliability theory and simulation",
+    "leave-year-out, common-team and alternative-reference sensitivity",
+    "formal uncertainty and rolling joint inference",
+    "prematch strength study"
+  ],
+  "closure_statement": "Q2 descriptive research and presentation/paper preparation can close; final HTML, human acceptance and course report must not be marked complete",
+  "new_statistics_or_inference_run": false,
+  "production_outputs_changed": false,
+  "human_review": "not_performed",
+  "git_commit_or_push": false
+}

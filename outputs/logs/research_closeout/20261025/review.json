@@ -1,0 +1,328 @@
+{
+  "schema_version": "two-question-descriptive-handoff-v1",
+  "created_at_utc": "2026-10-25T14:05:17.923576+00:00",
+  "executor": "Codex (AI)",
+  "passed": true,
+  "decision_log_id": "R20261025-18",
+  "source_fingerprints": {
+    "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json": "a24a84ee948234131a7bcf48d09a2c7a9527fd3c1483fc7bbf246455ddba0afa",
+    "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/run_manifest.json": "c25cb3672ff004939171a59e460de8ba4c7f960fc35e1dbf033b1dbe2cced0ca",
+    "outputs/logs/tournaments/conclusion-review-20261025/review.json": "64c248367d32712837ea7b99b617cc31cd8ed435a87a352cf24e31e35bf1f768",
+    "outputs/logs/research_closeout/20261025/q1_independent_audit.json": "2b753727d9d5102627077ee83f70dfb9decc825ada5e410c075123f5737c194f",
+    "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/analysis_membership.csv": "5a773a0ff3a4da59efd02022f455b32a9e1bd5ef45059ba8c1899150bdadeb1e",
+    "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_tournament_summary.csv": "32ebafa526ba7cdce0ef7dd7098979f62644ec3151789573f197a71bae7f8910",
+    "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/reference_weights.csv": "691017d0bc41e5925ed6e97d4fe1d1a3411bbfdef3540e704df8c6a8c57a9953",
+    "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_estimates.csv": "c2ea6c0e8d4f660a31a3aaf1308c30d7e56181eb12650f19305a1633b6c39446",
+    "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_contrasts.csv": "2118c13a38217d193f873a6e6acfb90bc1bd112be3761b74c231b37c03523e72",
+    "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/analysis_membership.csv": "4294840536c707abef248b166c015de8f7fac39dcf14a37c7dcd75911283e166",
+    "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/grouped_counts.csv": "141c6950c2aa142ed9181330e04a2b9fec1f2b876c5d640c2947699fe0195d69",
+    "outputs/logs/team_identity/reviewed-q1-closeout-20261025/display_data.json": "a42ab45aec4fe1ed100386caaad86a3b9aad08c3e3e6d70e2bb2a39eacfc4a29",
+    "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/display_data.json": "5373dde73b5bb83467c43dd5087c5adbc33bf04dceed71a29133515c2d1241c3"
+  },
+  "question_1": {
+    "run_manifest": "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json",
+    "analysis_id": "eras-fifa-dddf11dd6dc0b7531b88",
+    "descriptive_status": "completed",
+    "verified_outputs": 22,
+    "independent_audit": "outputs/logs/research_closeout/20261025/q1_independent_audit.json",
+    "independent_checks": 630,
+    "core_artifacts_identical": 19,
+    "eras": [
+      {
+        "period_id": "1980s",
+        "raw_rate": 0.4925799086757991,
+        "common_tournament_rate": 0.4994564043722467,
+        "type_difference_pp": -7.867494824016563
+      },
+      {
+        "period_id": "1990s",
+        "raw_rate": 0.5018695471541338,
+        "common_tournament_rate": 0.503508952552188,
+        "type_difference_pp": -4.974449370771527
+      },
+      {
+        "period_id": "2000s",
+        "raw_rate": 0.5084400465657741,
+        "common_tournament_rate": 0.5086024819788818,
+        "type_difference_pp": -4.871623464481868
+      },
+      {
+        "period_id": "2010s",
+        "raw_rate": 0.5045235223160435,
+        "common_tournament_rate": 0.504475726760221,
+        "type_difference_pp": -0.8894232184534422
+      },
+      {
+        "period_id": "2020_2024",
+        "raw_rate": 0.5085621970920841,
+        "common_tournament_rate": 0.5175566992128677,
+        "type_difference_pp": 6.1562517931944685
+      }
+    ],
+    "inference": "not_run"
+  },
+  "question_2": {
+    "run_manifest": "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/run_manifest.json",
+    "analysis_id": "tournaments-4893e38db46f83f6c219",
+    "descriptive_status": "completed",
+    "verified_outputs": 23,
+    "conclusion_review": "outputs/logs/tournaments/conclusion-review-20261025/review.json",
+    "inference": "not_run"
+  },
+  "shared_sample": {
+    "n_matches": 24917,
+    "same_id_set": true,
+    "identity_version": "identity-reviewed-29d880765c1623764940",
+    "ten_cells_identical": true
+  },
+  "bridge": {
+    "common_friendly_weight": 0.3851988602159168,
+    "contrast_identity": "D_Q1(w)=w*(p_LF-p_EF)+(1-w)*(p_LN-p_EN); slope=type_gap_L-type_gap_E",
+    "contrasts": [
+      {
+        "earlier_era": "1980s",
+        "later_era": "2010s",
+        "raw_era_difference_pp": 1.194361364024434,
+        "standardized_era_difference_pp": 0.5019322387974277,
+        "slope_pp_per_unit_friendly_weight": 6.978071605563121,
+        "interpretation": "Algebraic identity from shared cells; not independent replication or causal evidence"
+      },
+      {
+        "earlier_era": "1980s",
+        "later_era": "2020_2024",
+        "raw_era_difference_pp": 1.598228841628492,
+        "standardized_era_difference_pp": 1.8100294840621047,
+        "slope_pp_per_unit_friendly_weight": 14.023746617211032,
+        "interpretation": "Algebraic identity from shared cells; not independent replication or causal evidence"
+      }
+    ],
+    "independent_validation": false
+  },
+  "material_status": {
+    "two_question_story": "prepared",
+    "shared_followup_questions": "registered_not_executed",
+    "member_instructions_and_explanation_questions": "prepared",
+    "member_A_independent_reproduction": "pending_actual_submission",
+    "member_B_material_and_explanation_review": "pending_actual_submission",
+    "group_rehearsal": "not_performed",
+    "final_html_and_projector": "not_completed"
+  },
+  "handoff_materials": [
+    "研究/01_年代变化/README.md",
+    "研究/01_年代变化/收尾核查与汇报提纲.md",
+    "研究/01_年代变化/最终审查与后续衔接.md",
+    "研究/02_赛事类型差异/收尾核查与汇报提纲.md",
+    "文档/05_团队协作/分工与交付/03_后续分析与展示.md",
+    "文档/05_团队协作/分工与交付/04_两题共同可靠性与敏感性.md"
+  ],
+  "display_fingerprint_count": 165,
+  "checks": [
+    {
+      "name": "q1_inputs_fingerprints",
+      "passed": true
+    },
+    {
+      "name": "q1_code_hashes_fingerprints",
+      "passed": true
+    },
+    {
+      "name": "q1_outputs_fingerprints",
+      "passed": true
+    },
+    {
+      "name": "q2_inputs_fingerprints",
+      "passed": true
+    },
+    {
+      "name": "q2_code_hashes_fingerprints",
+      "passed": true
+    },
+    {
+      "name": "q2_outputs_fingerprints",
+      "passed": true
+    },
+    {
+      "name": "same_identity",
+      "passed": true
+    },
+    {
+      "name": "q1_630_independent_checks",
+      "passed": true
+    },
+    {
+      "name": "q1_19_core_identical",
+      "passed": true
+    },
+    {
+      "name": "unique_q1_ids",
+      "passed": true
+    },
+    {
+      "name": "unique_q2_ids",
+      "passed": true
+    },
+    {
+      "name": "exact_same_24917_ids",
+      "passed": true
+    },
+    {
+      "name": "same_date_era_provenance",
+      "passed": true
+    },
+    {
+      "name": "same_ten_cells",
+      "passed": true
+    },
+    {
+      "name": "same_counts_1980s:friendly",
+      "passed": true
+    },
+    {
+      "name": "same_counts_1980s:non_friendly",
+      "passed": true
+    },
+    {
+      "name": "same_counts_1990s:friendly",
+      "passed": true
+    },
+    {
+      "name": "same_counts_1990s:non_friendly",
+      "passed": true
+    },
+    {
+      "name": "same_counts_2000s:friendly",
+      "passed": true
+    },
+    {
+      "name": "same_counts_2000s:non_friendly",
+      "passed": true
+    },
+    {
+      "name": "same_counts_2010s:friendly",
+      "passed": true
+    },
+    {
+      "name": "same_counts_2010s:non_friendly",
+      "passed": true
+    },
+    {
+      "name": "same_counts_2020_2024:friendly",
+      "passed": true
+    },
+    {
+      "name": "same_counts_2020_2024:non_friendly",
+      "passed": true
+    },
+    {
+      "name": "q1_common_reference",
+      "passed": true
+    },
+    {
+      "name": "q1_reconstructed_1980s_observed_rate",
+      "passed": true
+    },
+    {
+      "name": "q1_reconstructed_1980s_standardized_rate",
+      "passed": true
+    },
+    {
+      "name": "q1_reconstructed_1990s_observed_rate",
+      "passed": true
+    },
+    {
+      "name": "q1_reconstructed_1990s_standardized_rate",
+      "passed": true
+    },
+    {
+      "name": "q1_reconstructed_2000s_observed_rate",
+      "passed": true
+    },
+    {
+      "name": "q1_reconstructed_2000s_standardized_rate",
+      "passed": true
+    },
+    {
+      "name": "q1_reconstructed_2010s_observed_rate",
+      "passed": true
+    },
+    {
+      "name": "q1_reconstructed_2010s_standardized_rate",
+      "passed": true
+    },
+    {
+      "name": "q1_reconstructed_2020_2024_observed_rate",
+      "passed": true
+    },
+    {
+      "name": "q1_reconstructed_2020_2024_standardized_rate",
+      "passed": true
+    },
+    {
+      "name": "bridge_slope_identity_2010s",
+      "passed": true
+    },
+    {
+      "name": "bridge_reconstruct_2010s",
+      "passed": true
+    },
+    {
+      "name": "q1_main_contrast_2010s_observed_difference",
+      "passed": true
+    },
+    {
+      "name": "q1_main_contrast_2010s_standardized_difference",
+      "passed": true
+    },
+    {
+      "name": "bridge_slope_identity_2020_2024",
+      "passed": true
+    },
+    {
+      "name": "bridge_reconstruct_2020_2024",
+      "passed": true
+    },
+    {
+      "name": "q1_main_contrast_2020_2024_observed_difference",
+      "passed": true
+    },
+    {
+      "name": "q1_main_contrast_2020_2024_standardized_difference",
+      "passed": true
+    },
+    {
+      "name": "raw_sequence_not_monotonic",
+      "passed": true
+    },
+    {
+      "name": "q1_display_fingerprints",
+      "passed": true
+    },
+    {
+      "name": "q2_display_fingerprints",
+      "passed": true
+    },
+    {
+      "name": "q2_conclusion_review_passed",
+      "passed": true
+    },
+    {
+      "name": "q2_conclusion_review_sources",
+      "passed": true
+    },
+    {
+      "name": "handoff_materials_exist",
+      "passed": true
+    }
+  ],
+  "check_count": 49,
+  "whole_test_suite_rerun": false,
+  "production_statistics_rerun": false,
+  "new_reliability_analyses": false,
+  "code_or_data_changes": false,
+  "human_review": "not_performed",
+  "limitations": [
+    "Descriptive completion does not mean inferential or course delivery completion",
+    "Current-version leave-year-out and common-team comparisons remain not run",
+    "No changes to pre-existing run artifacts or source data"
+  ]
+}

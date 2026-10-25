@@ -24,8 +24,9 @@
     "data_confirmation",
     "question_1",
     "question_2",
-    "shared_reliability",
-    "question_3"
+    "question_3",
+    "question_4",
+    "question_5"
   ],
   "question_1": {
     "analysis_id": "eras-fifa-dddf11dd6dc0b7531b88",
@@ -37,7 +38,9 @@
     "display_data": "outputs/logs/team_identity/reviewed-q1-closeout-20261025/display_data.json",
     "latest_review": "outputs/logs/team_identity/reviewed-q1-closeout-20261025/review.json",
     "analysis_config": "config/confirmed_eras_reviewed.json",
-    "previous_membership_analysis": "eras-fifa-24196f9d60d19c30658a"
+    "previous_membership_analysis": "eras-fifa-24196f9d60d19c30658a",
+    "descriptive_handoff_recheck": "outputs/logs/research_closeout/20261025/q1_independent_audit.json",
+    "joint_handoff_review": "outputs/logs/research_closeout/20261025/review.json"
   },
   "question_2": {
     "must_not_reuse_unfiltered_26055_as_confirmed": true,
@@ -65,11 +68,36 @@
     "independent_checks": 3630,
     "core_artifacts_identical": 17,
     "local_reproduction_guide": "研究/02_赛事类型差异/本地运行与复现.md",
-    "latest_review": "outputs/logs/tournaments/closeout-20261025/review.json"
-  },
-  "question_3": {
-    "additional_gate": "Historical entity and Elo warmup membership require separate approval",
-    "status": "not_implemented"
+    "latest_review": "outputs/logs/tournaments/closeout-20261025/review.json",
+    "conclusion_review": "outputs/logs/tournaments/conclusion-review-20261025/review.json",
+    "conclusion_review_status": "overall_raw_and_common_era_arithmetic_confirmed_recent_stability_deferred",
+    "conclusion_review_decision": "R20261025-17",
+    "joint_handoff_review": "outputs/logs/research_closeout/20261025/review.json",
+    "joint_story": "研究/02_赛事类型差异/收尾核查与汇报提纲.md",
+    "member_handoff": "文档/05_团队协作/分工与交付/03_后续分析与展示.md",
+    "closure_scope_audit": "outputs/logs/research_closeout/20261025/q2_scope_review.json",
+    "closure_scope_decision": "R20261025-19",
+    "descriptive_stage_closure": {
+      "status": "closed_with_explicitly_deferred_followups",
+      "decision_log_id": "R20261025-20",
+      "deferred_by_user": [
+        "HTML presentation and associated delivery work",
+        "paper writing and associated delivery work",
+        "team member independent verification"
+      ],
+      "shared_reliability": "deferred_to_separate_shared_task",
+      "all_final_delivery_complete": false
+    },
+    "delivery_readiness": {
+      "descriptive_research": "completed",
+      "html_materials": "ready",
+      "html_presentation_page": "not_built",
+      "paper_supporting_materials": "complete_under_agreed_index_scope",
+      "final_course_report": "not_evidenced_as_completed",
+      "followup_interfaces_and_register": "ready_not_executed",
+      "human_and_onsite_acceptance": "pending",
+      "all_final_delivery_complete": false
+    }
   },
   "reference_roles": {
     "current_conditional_analysis": "eras-fifa-dddf11dd6dc0b7531b88",
@@ -80,15 +108,107 @@
     "previous_membership_analysis": "eras-fifa-24196f9d60d19c30658a",
     "supporting_material_index": "文档/05_团队协作/论文与汇报支撑材料索引.md"
   },
-  "schema_version": "research-pipeline-state-v1",
+  "schema_version": "research-pipeline-state-v2",
   "shared_reliability": {
-    "after": "Both question descriptions, independent script",
+    "after": "Descriptions of questions 1, 2 and 3; independent shared workflow",
     "status": "not_run",
     "includes_supplementary_membership_review": true,
     "fact_corrections_require_versioned_reruns": true,
-    "descriptive_inputs_ready": true,
+    "descriptive_inputs_ready": false,
     "question_1_run": "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json",
     "question_2_run": "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/run_manifest.json",
-    "methodology_status": "Requires explicit candidate-method and validation protocol design before implementation"
-  }
+    "methodology_status": "Question 4: adapt and validate common methods for all three targets before formal joint execution",
+    "question_2_recent_stability": "Deferred to question 4; not tested, R20261025-17",
+    "followup_register": "文档/05_团队协作/分工与交付/04_两题共同可靠性与敏感性.md",
+    "followup_register_status": "prepared_not_executed",
+    "question_number": 4,
+    "scope": [
+      "question_1",
+      "question_2",
+      "question_3"
+    ],
+    "question_1_2_descriptive_inputs_ready": true,
+    "question_3_input_status": "not_ready_no_regional_run"
+  },
+  "descriptive_handoff": {
+    "decision_log_id": "R20261025-18",
+    "review": "outputs/logs/research_closeout/20261025/review.json",
+    "same_match_ids": 24917,
+    "same_era_type_cells": 10,
+    "story_and_followup_materials": "prepared",
+    "member_instructions": "文档/05_团队协作/分工与交付/03_后续分析与展示.md",
+    "member_A_actual_reproduction": "pending_actual_submission",
+    "member_B_actual_review": "pending_actual_submission",
+    "group_rehearsal": "not_performed",
+    "html_and_projector": "not_completed",
+    "blocks_shared_method_discussion": false
+  },
+  "question_3": {
+    "title": "地域差异",
+    "status": "number_and_order_confirmed_design_pending",
+    "decision_log_id": "R20261026-01",
+    "planning_document": "文档/01_项目方案/前三项研究的数据标准与清洗脚本设计.md",
+    "region_definition": "not_finalized",
+    "historical_region_mapping": "not_prepared",
+    "results_generated": false
+  },
+  "question_4": {
+    "title": "前三问统一分析",
+    "status": "not_implemented",
+    "decision_log_id": "R20261026-01",
+    "task_document": "文档/05_团队协作/分工与交付/04_两题共同可靠性与敏感性.md",
+    "scope": [
+      "question_1",
+      "question_2",
+      "question_3"
+    ],
+    "inference": "not_run",
+    "sensitivity": "not_run",
+    "simulation": "not_run"
+  },
+  "question_5": {
+    "additional_gate": "Historical entity and Elo warmup membership require separate approval",
+    "status": "not_implemented",
+    "title": "赛前实力评价与调整",
+    "previous_question_number": 3,
+    "decision_log_id": "R20261026-01"
+  },
+  "numbering_decision": {
+    "decision_log_id": "R20261026-01",
+    "date": "2026-10-26",
+    "old_to_new": {
+      "previous_question_3_strength": "question_5",
+      "regional_extension": "question_3",
+      "two_question_shared_reliability": "question_4",
+      "early_fourth_prediction_improvement": "unnumbered_followup"
+    },
+    "historical_logs_and_run_artifacts": "preserved",
+    "new_analyses_run": false
+  },
+  "unnumbered_followups": [
+    {
+      "topic": "最合理的历史参考周期",
+      "status": "reserved_not_implemented"
+    },
+    {
+      "topic": "不同地区的历史参考规则与评价方法适用性",
+      "status": "reserved_not_implemented"
+    },
+    {
+      "topic": "方法迁移到俱乐部比赛",
+      "status": "reserved_not_implemented"
+    },
+    {
+      "topic": "球员和俱乐部信息辅助国家队分析",
+      "status": "reserved_not_implemented"
+    },
+    {
+      "topic": "未来国际比赛日预测",
+      "status": "reserved_not_implemented"
+    },
+    {
+      "topic": "评级修正是否改善预测表现",
+      "status": "reserved_not_implemented"
+    }
+  ]
 }
