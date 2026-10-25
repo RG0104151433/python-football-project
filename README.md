@@ -9,10 +9,12 @@
 1. **数据清洗。** 见[数据标准与清洗设计](文档/01_项目方案/前三项研究的数据标准与清洗脚本设计.md)。原始49,945条，保留48,102场、截止日后1,803条、隔离40条；基础清洗版本未变。
 2. **数据再次确认。** 见[成员范围确认](研究/00_数据再次确认/README.md)。组长已人工核验并明确采纳117场及其余有效逐场建议。原26,055场候选中，**24,917场纳入、1,138场排除、当前范围待定0场**；采纳决定和逐场变化已保存，不再等待会员补证。
 3. **第一问：年代变化。** 见[新版结果](研究/01_年代变化/README.md)。已使用新版样本重算并重复运行核对，92项测试、630项独立复算通过，19份核心表图在两次新版运行中一致。直接主胜率没有单调变化；统一赛事比例后，2010年代、2020—2024相对1980年代分别高0.5019、1.8100个百分点。这是描述结果，正式区间和实力控制仍未开展。
-4. **第二问：赛事类型差异。** 见[完整研究逻辑](研究/02_赛事类型差异/README.md)。下一阶段沿用同一24,917场；90个年度×类型单元及36个十年窗口具备输入。仍需确认逻辑和脚本方案，尚未编写第二问程序。
+4. **第二问：赛事类型差异。** 见[结果与完整逻辑](研究/02_赛事类型差异/README.md)。已按同一24,917场完成描述、共同年代构成与36个十年窗：友谊赛48.3955%、其他赛事51.6418%，直接差−3.2463个百分点，统一年代比例后−2.8831。末五年组差为正，不概括为所有时期同向。全套106测试、3,630独立核查通过，两次17份核心一致；[本地与A复现](研究/02_赛事类型差异/本地运行与复现.md)。正式区间和敏感性仍未做。
 5. **之后。** 两问描述完成后开展[共同可靠性与敏感性分析](文档/05_团队协作/分工与交付/04_两题共同可靠性与敏感性.md)，再进入赛前实力研究；地区差异、历史参考周期、俱乐部迁移仍是备选。
 
-**当前唯一版本入口：** [pipeline_state.json](研究/pipeline_state.json)；[本次运行](outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json)；[独立核查](outputs/logs/team_identity/reviewed-q1-closeout-20261025/independent_audit.json)；[展示取数](outputs/logs/team_identity/reviewed-q1-closeout-20261025/display_data.json)。旧24,279场版和原26,055场基线保留用于追溯，当前数字、参考权重、图全部使用新版，不混用。会员采纳记录只针对本次研究范围，不自动合并历史球队或批准Elo全部早期比赛。
+**当前版本入口：** [pipeline_state.json](研究/pipeline_state.json)；[第一问运行](outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json)；[第一问独立核查](outputs/logs/team_identity/reviewed-q1-closeout-20261025/independent_audit.json)；[第一问展示取数](outputs/logs/team_identity/reviewed-q1-closeout-20261025/display_data.json)。旧24,279场版和原26,055场基线保留用于追溯，当前数字、参考权重、图全部使用新版，不混用。会员采纳记录只针对本次研究范围，不自动合并历史球队或批准Elo全部早期比赛。
+
+第二问[本次运行](outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/run_manifest.json)、[独立核查](outputs/logs/tournaments/closeout-20261025/independent_audit.json)与[展示取数](outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/display_data.json)同版绑定。两问共用成员与逐场样本，结果分别保存。
 
 **写论文和做展示找材料：** [论文与汇报支撑材料索引](文档/05_团队协作/论文与汇报支撑材料索引.md)。按步骤只登记现有文件名与路径，不迁移文件；每完成一问或更新样本/结果版本，都须同步索引、阶段README、展示素材、版本登记和研究日志。上传GitHub由组长安排，本轮没有代为提交或推送。
 
@@ -49,22 +51,26 @@ python-football-project/
 │   ├── 00_数据再次确认/              会员准则、六步审查、前后影响和展示素材
 │   ├── 01_年代变化/                  第一问及旧基线说明
 │   └── 02_赛事类型差异/              第二问规划与共同输入要求
-├── scripts/                          盘点、预演、身份包发布与第一题接入入口
+├── scripts/                          成员核验、两问入口与独立复算
 ├── 参考资料/
 │   ├── 课程原始截图/                 课程要求与报告模板的原始照片
 │   └── 方法文献/                     引用清单、版本指纹及本地阅读副本
-├── config/eras.json                 独立年代分析配置，不改根清洗配置
+├── config/eras.json                 原年代基线配置，不改根清洗配置
+├── config/tournaments.json          当前第二问独立配置
 ├── data/raw/international_results/  已有原始比赛数据及来源说明
 ├── data/processed/                  按版本保存的清洗结果
 ├── data/external/                   已生成的球队表、赛事分组及后续核验资料
-├── src/                             数据准备程序、analyze_eras 入口和 eras 模块
+├── src/                             数据准备、eras和tournaments两个问题模块
 ├── tests/                           人工小样例的清洗规则与流程测试
 ├── notebooks/                       探索分析
 ├── outputs/
 │   ├── environment_check/            本机环境验收，不是研究结果
 │   ├── tables/eras/                  按分析身份保存的年代统计与字典
+│   ├── tables/tournaments/           第二问九CSV、字典与目标定义
 │   ├── figures/eras/                 描述性图与权重敏感性图
+│   ├── figures/tournaments/          第二问总体、年代及滚动图
 │   ├── logs/eras/                    年代分析运行、对账及复现证据
+│   ├── logs/tournaments/             第二问运行、展示取数及独立核查
 │   └── logs/data_prep/               审计/清洗报告及队友预填表
 ├── .venv/                            本机虚拟环境
 ├── .idea/                            PyCharm 项目配置
@@ -166,7 +172,17 @@ PyCharm 解释器选择自己的根目录 `.venv\Scripts\python.exe`。check_env
 
 参考分析版本 `eras-7f332ed60ac443228960`，样本为 26,055 场，合并友谊赛占比 38.5339%。结果为探索性描述，输入尚未人工冻结，未计算置信区间。输出在 `outputs/tables/eras/<analysis_id>/`、`outputs/figures/eras/<analysis_id>/` 与控制台显示的 `outputs/logs/eras/<run_id>/`。
 
-PyCharm 改用模块 `src.analyze_eras`，参数与上述命令一致、工作目录为仓库根目录；解释器选项留空。详细验证、文件解释及 A 的手算要求见[本地运行与复现](研究/01_年代变化/本地运行与复现.md)。当前全仓库测试参考为 92 项通过，以本人实际输出为准。
+PyCharm 改用模块 `src.analyze_eras`，参数与上述命令一致、工作目录为仓库根目录；解释器选项留空。详细验证、文件解释及 A 的手算要求见[本地运行与复现](研究/01_年代变化/本地运行与复现.md)。当前全仓库测试参考为 106 项通过，以本人实际输出为准。
+
+## 运行第二问
+
+先按[第二问本地说明](研究/02_赛事类型差异/本地运行与复现.md)核对当前配置，在仓库根目录运行：
+
+```powershell
+.\.venv\Scripts\python.exe scripts/analyze_tournaments.py --config config/tournaments.json
+```
+
+它只读已有清洗与成员数据，生成自己的年代/类型/滚动结果，不重跑或覆盖第一问。`--verify-run`和独立audit的完整使用见本地说明。严禁把36窗场数之和当独立比赛数；当前没有置信区间和显著性结论。
 
 ## 后续资料放置规则
 

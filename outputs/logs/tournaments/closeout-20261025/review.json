@@ -1,0 +1,124 @@
+{
+  "passed": true,
+  "current_run": "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/run_manifest.json",
+  "analysis_id": "tournaments-4893e38db46f83f6c219",
+  "verification": {
+    "passed": true,
+    "analysis_id": "tournaments-4893e38db46f83f6c219",
+    "verified_outputs": 23,
+    "inference": "not_run"
+  },
+  "repeat_verification": {
+    "passed": true,
+    "analysis_id": "tournaments-4893e38db46f83f6c219",
+    "verified_outputs": 23,
+    "inference": "not_run"
+  },
+  "core_artifacts_identical": 17,
+  "independent_checks": 3630,
+  "automatic_checks": 2718,
+  "clean_validation": {
+    "passed": true,
+    "checks": {
+      "unique_match_ids": true,
+      "complete_unique_lineage": true,
+      "lineage_states": true,
+      "lineage_counts": true,
+      "included_matches_traceable": true,
+      "nonempty_dataset": true,
+      "valid_values_and_eligibility": true,
+      "stable_sort": true
+    },
+    "states": {
+      "included": 48102,
+      "outside_window": 1803,
+      "quarantined": 40
+    }
+  },
+  "snapshot_files_verified": 6,
+  "identity_verification": {
+    "passed": true,
+    "identity_version": "identity-reviewed-29d880765c1623764940",
+    "verified_outputs": 10,
+    "final_release": false
+  },
+  "preserved_q1_runs": {
+    "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json": {
+      "passed": true,
+      "analysis_id": "eras-fifa-dddf11dd6dc0b7531b88",
+      "verified_outputs": 22,
+      "inference": "not_run"
+    },
+    "outputs/logs/team_identity/confirmed-eras-20261025T002437005064Z-f19d8184/run_manifest.json": {
+      "passed": true,
+      "analysis_id": "eras-fifa-24196f9d60d19c30658a",
+      "verified_outputs": 22,
+      "inference": "not_run"
+    },
+    "outputs/logs/eras/eras-20261024T013933600718Z-425e4920/run_manifest.json": {
+      "passed": true,
+      "analysis_id": "eras-7f332ed60ac443228960",
+      "verified_outputs": 24,
+      "inference": "not_run"
+    }
+  },
+  "tests": {
+    "command": [
+      "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "-q",
+      "--basetemp",
+      "outputs/test_tmp/q2-full-7761f621921c4ec5a8f91a881dcc0fbe",
+      "--junitxml",
+      "outputs\\logs\\tournaments\\closeout-20261025\\pytest.xml"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 18.136587799992412
+  },
+  "test_result": "106 passed",
+  "display_source_fingerprints_verified": 141,
+  "figures_visual_check": {
+    "executor": "Codex (AI)",
+    "files": [
+      "outputs/figures/tournaments/tournaments-4893e38db46f83f6c219/era_comparison.png",
+      "outputs/figures/tournaments/tournaments-4893e38db46f83f6c219/overall_comparison.png",
+      "outputs/figures/tournaments/tournaments-4893e38db46f83f6c219/rolling_comparison.png"
+    ],
+    "result": "All three PNGs viewed: readable legends, labels, five-year era and overlapping-window annotations; no confidence bands or significance marks. Not a projector/HTML acceptance."
+  },
+  "limitations_recorded": [
+    {
+      "id": "archive_scope",
+      "text": "结果限于当前档案和筛选范围，不代表全球全部比赛的无偏样本；数据最终冻结尚未完成。"
+    },
+    {
+      "id": "selection_strength",
+      "text": "赛事选择、对手实力、地区和参赛者可能混杂；时间调整后的差不是赛事类型的因果效应。"
+    },
+    {
+      "id": "time_resolution",
+      "text": "全时期只统一五年代比例，滚动补充统一窗内年份；都没有统一球队构成。"
+    },
+    {
+      "id": "reference_choice",
+      "text": "参考代表当前档案构成，起点和十年宽度没有最优性证明；末组仅五年，其他非友谊赛事内部也有差异。"
+    },
+    {
+      "id": "overlapping_windows",
+      "text": "相邻十年窗共享九年，曲线不是36份独立证据；平滑可掩盖突变，窗口参考和参赛者会变化。"
+    },
+    {
+      "id": "shared_q1_information",
+      "text": "两问主分析共用十单元表，第二问是进一步解释，不是独立验证。"
+    },
+    {
+      "id": "inference_not_run",
+      "text": "共享球队、主客角色、共同时间冲击和滚动联合推断未验收；无正式区间、显著性或预测结论。"
+    }
+  ],
+  "inference": "not_run",
+  "sensitivity": "not_run",
+  "human_reproduction": "A not yet independently reproduced",
+  "git_commit_or_push_performed": false
+}

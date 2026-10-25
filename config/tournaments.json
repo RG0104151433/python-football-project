@@ -1,0 +1,20 @@
+{
+  "schema_version": "tournaments-descriptive-v1",
+  "prep_config": "config.json",
+  "q1_integration_config": "config/confirmed_eras_reviewed.json",
+  "q1_run_manifest": "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json",
+  "analysis_start": "1980-01-01",
+  "analysis_end": "2024-12-31",
+  "groups": ["friendly", "non_friendly"],
+  "difference_direction": "friendly_minus_non_friendly",
+  "era_reference_scheme": "pooled_matches",
+  "rolling": {
+    "window_years": 10,
+    "step_years": 1,
+    "alignment": "trailing_calendar_years",
+    "reference_scheme": "pooled_year_counts"
+  },
+  "inference_mode": "off",
+  "protocol_status": "exploratory",
+  "protocol_decision": "User approved Q2 descriptive implementation on 2026-10-25, R20261025-13; same Q1 population; no uncertainty, simulation or sensitivity analysis."
+}

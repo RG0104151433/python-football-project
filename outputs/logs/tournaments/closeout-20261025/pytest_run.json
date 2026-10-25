@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\.venv\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "-q",
+    "--basetemp",
+    "outputs/test_tmp/q2-full-7761f621921c4ec5a8f91a881dcc0fbe",
+    "--junitxml",
+    "outputs\\logs\\tournaments\\closeout-20261025\\pytest.xml"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 18.136587799992412
+}

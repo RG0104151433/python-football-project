@@ -25,3 +25,16 @@
 [第一题阶段 README](../../研究/01_年代变化/README.md)负责向读者说明问题、方法、状态与成果入口；[五步规划](../../文档/01_项目方案/第一题_年代变化研究五步规划.md)保存详细理由与处理判断；[研究日志](../../文档/01_项目方案/研究日志与决策记录.md)按时间追加决定、更正和真实结果。不要再在此复制另一份结论。
 
 后续增加文献时先登记来源与本地状态，再记录它支持或推翻哪个决定。新版本不覆盖旧版本；无法获得全文时只保留可核查链接与缺口说明。
+
+
+## 第二问理论复核与阅读范围（2026-10-25）
+
+理论判断与拟议实现保存在[第二问脚本设计](../../研究/02_赛事类型差异/脚本设计.md)第1—2节；不是新的统计结果或已验收的推断协议。
+
+- 重新阅读[CDC直接标准化说明](https://www.cdc.gov/nchs/hus/sources-definitions/age-adjustment.htm)：支持共同构成的加权比较，不为足球指定最优参考或因果解释。
+- 重新阅读[NIST Single Moving Average](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc421.htm)：窗口前移与平滑结构可用，本题采用场次加权的年度比例，不能照搬年度等权公式。
+- 阅读[Zhang 2006官方文献页摘要](https://www.nist.gov/publications/calculation-uncertainty-mean-autocorrelated-measurements)：其区间针对平稳过程，未验证可直接用于本项目；本轮未阅读该论文完整推导。
+- 重新核读[Aronow等正文的Setting及重复观测说明](https://arxiv.org/html/1312.3398v8)：共享单位结构相关，但随机单位抽样、非共享对子不相关及增长框架不由当前足球赛程自动满足。
+- [Tabord-Meehan v6](https://arxiv.org/abs/1510.07074v6)和[Canen/Sugiura v5](https://arxiv.org/abs/2203.03497v5)本轮重读版本元数据与摘要，未重新验证全部证明。正态近似与非共享对子关联仍需共同阶段处理。
+
+本轮网页可读不改变M02此前“本地下载失败”的历史状态；阅读事件单独追加到sources.json。未新增下载原文或改写已有PDF。FPP3_forecasting_toolbox.html是反机器人响应，不是教材正文；本次从论文支撑材料索引移除该错误引用，原失败登记和缓存不删除。

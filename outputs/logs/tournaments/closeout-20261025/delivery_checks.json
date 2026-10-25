@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "links": {
+    "files": 24,
+    "checked": 523,
+    "broken": []
+  },
+  "material_index_file_references": 225,
+  "index_has_only_existing_paths": true,
+  "no_files_moved": true,
+  "log_ids_unique": true,
+  "log_entry_ids": [
+    "R20261025-13",
+    "R20261025-14"
+  ],
+  "pipeline_and_display_consistent": true,
+  "q1_run": "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json",
+  "q2_run": "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/run_manifest.json",
+  "q2_analysis_id": "tournaments-4893e38db46f83f6c219",
+  "display_source_hashes_verified": 141,
+  "source_whitespace_checked": 10,
+  "git_diff_check": {
+    "returncode": 0,
+    "stderr": ""
+  },
+  "tests": "106 passed",
+  "independent_checks": 3630,
+  "automatic_checks": 2718,
+  "core_repeatability": 17,
+  "shared_reliability": "not_run",
+  "git_commit_or_push_performed": false
+}

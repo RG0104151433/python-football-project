@@ -124,5 +124,67 @@
       "git_policy": "failed_or_challenge_response_ignored; catalog_tracked",
       "content_kind": "challenge_response_not_source"
     }
+  ],
+  "reading_events": [
+    {
+      "date": "2026-10-25",
+      "reader": "Codex (AI)",
+      "title": "CDC Age adjustment",
+      "url": "https://www.cdc.gov/nchs/hus/sources-definitions/age-adjustment.htm",
+      "reading_extent": "official_method_page",
+      "local_download_this_event": false,
+      "purpose": "Q2 descriptive support and inferential limitations; not a full theorem validation",
+      "decision_log_id": "R20261025-12"
+    },
+    {
+      "date": "2026-10-25",
+      "reader": "Codex (AI)",
+      "title": "NIST Single Moving Average",
+      "url": "https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc421.htm",
+      "reading_extent": "official_method_page",
+      "local_download_this_event": false,
+      "purpose": "Q2 descriptive support and inferential limitations; not a full theorem validation",
+      "decision_log_id": "R20261025-12"
+    },
+    {
+      "date": "2026-10-25",
+      "reader": "Codex (AI)",
+      "title": "Zhang 2006 autocorrelated measurements",
+      "url": "https://www.nist.gov/publications/calculation-uncertainty-mean-autocorrelated-measurements",
+      "reading_extent": "official_abstract_and_metadata_only",
+      "local_download_this_event": false,
+      "purpose": "Q2 descriptive support and inferential limitations; not a full theorem validation",
+      "decision_log_id": "R20261025-12"
+    },
+    {
+      "date": "2026-10-25",
+      "reader": "Codex (AI)",
+      "title": "Aronow Samii Assenova v8",
+      "url": "https://arxiv.org/html/1312.3398v8",
+      "reading_extent": "abstract_setting_and_repeated_dyads_sections",
+      "local_download_this_event": false,
+      "purpose": "Q2 descriptive support and inferential limitations; not a full theorem validation",
+      "decision_log_id": "R20261025-12"
+    },
+    {
+      "date": "2026-10-25",
+      "reader": "Codex (AI)",
+      "title": "Tabord-Meehan v6",
+      "url": "https://arxiv.org/abs/1510.07074v6",
+      "reading_extent": "abstract_and_version_metadata_only",
+      "local_download_this_event": false,
+      "purpose": "Q2 descriptive support and inferential limitations; not a full theorem validation",
+      "decision_log_id": "R20261025-12"
+    },
+    {
+      "date": "2026-10-25",
+      "reader": "Codex (AI)",
+      "title": "Canen Sugiura v5",
+      "url": "https://arxiv.org/abs/2203.03497v5",
+      "reading_extent": "abstract_and_version_metadata_only",
+      "local_download_this_event": false,
+      "purpose": "Q2 descriptive support and inferential limitations; not a full theorem validation",
+      "decision_log_id": "R20261025-12"
+    }
   ]
 }

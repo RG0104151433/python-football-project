@@ -50,9 +50,22 @@
       "eligible_tournament_analysis=true",
       "known tournament group"
     ],
-    "status": "planning_only",
+    "status": "description_completed_owner_reviewed_population",
     "required_sample_size_reference": 24917,
-    "approval_gate": "Confirm Q2 logic and script design before implementation"
+    "approval_gate": "User approved descriptive implementation 2026-10-25, R20261025-13",
+    "design_document": "研究/02_赛事类型差异/脚本设计.md",
+    "design_status": "implemented_description",
+    "theory_status": "descriptive_algebra_supported_inference_not_validated",
+    "analysis_id": "tournaments-4893e38db46f83f6c219",
+    "run_manifest": "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/run_manifest.json",
+    "analysis_config": "config/tournaments.json",
+    "independent_audit": "outputs/logs/tournaments/closeout-20261025/independent_audit.json",
+    "display_data": "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/display_data.json",
+    "automatic_checks": 2718,
+    "independent_checks": 3630,
+    "core_artifacts_identical": 17,
+    "local_reproduction_guide": "研究/02_赛事类型差异/本地运行与复现.md",
+    "latest_review": "outputs/logs/tournaments/closeout-20261025/review.json"
   },
   "question_3": {
     "additional_gate": "Historical entity and Elo warmup membership require separate approval",
@@ -72,6 +85,10 @@
     "after": "Both question descriptions, independent script",
     "status": "not_run",
     "includes_supplementary_membership_review": true,
-    "fact_corrections_require_versioned_reruns": true
+    "fact_corrections_require_versioned_reruns": true,
+    "descriptive_inputs_ready": true,
+    "question_1_run": "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json",
+    "question_2_run": "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/run_manifest.json",
+    "methodology_status": "Requires explicit candidate-method and validation protocol design before implementation"
   }
 }
