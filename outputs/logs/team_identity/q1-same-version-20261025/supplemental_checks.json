@@ -1,0 +1,1048 @@
+{
+  "passed": true,
+  "weight_curve_rows_recalculated": 208,
+  "max_tolerance_pp": 1e-08,
+  "figure_visual_review": "Codex AI inspected all three PNGs; era labels, n and five-year final period visible; no confidence intervals shown; era plot uses zoomed axis.",
+  "checks": [
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.0,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.01,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.02,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.03,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.04,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.05,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.06,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.07,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.08,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.09,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.1,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.11,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.12,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.13,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.14,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.15,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.16,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.17,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.18,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.19,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.2,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.21,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.22,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.23,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.24,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.25,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.26,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.27,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.28,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.29,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.3,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.31,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.32,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.33,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.34,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.3403729363,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.35,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.36,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.37,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.38,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.3822233206,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.39,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.4,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.4045232882,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.41,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.42,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.43,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.44,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.45,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.46,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.47,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.48,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.49,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.5,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.51,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.52,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.53,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.54,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.55,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.56,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.57,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.58,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.59,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.6,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.61,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.62,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.63,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.64,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.65,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.66,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.67,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.68,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.69,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.7,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.71,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.72,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.73,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.74,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.75,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.76,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.77,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.78,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.79,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.8,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.81,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.82,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.83,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.84,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.85,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.86,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.87,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.88,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.89,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.9,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.91,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.92,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.93,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.94,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.95,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.96,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.97,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.98,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 0.99,
+      "passed": true
+    },
+    {
+      "contrast": "2010s_minus_1980s",
+      "weight": 1.0,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.0,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.01,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.02,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.03,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.04,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.05,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.06,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.07,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.08,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.09,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.1,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.11,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.12,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.13,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.14,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.15,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.16,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.17,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.18,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.19,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.2,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.21,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.22,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.23,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.24,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.25,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.26,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.27,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.2709436088,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.28,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.29,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.3,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.31,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.32,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.33,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.34,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.35,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.36,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.37,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.38,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.3822233206,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.39,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.4,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.4045232882,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.41,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.42,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.43,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.44,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.45,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.46,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.47,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.48,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.49,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.5,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.51,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.52,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.53,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.54,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.55,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.56,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.57,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.58,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.59,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.6,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.61,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.62,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.63,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.64,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.65,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.66,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.67,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.68,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.69,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.7,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.71,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.72,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.73,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.74,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.75,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.76,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.77,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.78,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.79,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.8,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.81,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.82,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.83,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.84,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.85,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.86,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.87,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.88,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.89,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.9,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.91,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.92,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.93,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.94,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.95,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.96,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.97,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.98,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 0.99,
+      "passed": true
+    },
+    {
+      "contrast": "2020_2024_minus_1980s",
+      "weight": 1.0,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "command": [
+    "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\.venv\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "-q",
+    "--basetemp",
+    "outputs/test_tmp/reviewed-142c9216ce204bb0a9a49588caab2098",
+    "--junitxml",
+    "outputs\\logs\\team_identity\\reviewed-q1-closeout-20261025\\pytest.xml"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 17.660460300001432,
+  "temporary_directory": "outputs/test_tmp/reviewed-142c9216ce204bb0a9a49588caab2098"
+}

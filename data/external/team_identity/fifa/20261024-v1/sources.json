@@ -1,0 +1,40 @@
+{
+  "accessed_on": "2026-10-24",
+  "schema_version": "fifa-source-register-v1",
+  "sources": [
+    {
+      "evidence_id": "FIFA-FINANCIAL-2018-MEMBERS",
+      "extraction": "pypdf 6.21.2, line-oriented regex; complete sequence 1..211 and unique codes checked",
+      "limits": "Retrospective affiliation-year list, not all historic membership spells; no fabricated exact day; 2019-2024 continuity is a declared assumption, not complete historical audit",
+      "local_path": "参考资料/数据来源/FIFA/FIFA_Financial_Report_2018.pdf",
+      "locator": "PDF pages 149-150, Year = year of FIFA affiliation; editorial deadline 31 December 2018 on page 151",
+      "sha256": "751f68183be6a70f4eb461bedd1956a9be9dc1d212b1763faa12bdd22575a032",
+      "title": "FIFA Financial Report 2018",
+      "url": "https://digitalhub.fifa.com/m/337fab75839abc76/original/xzshsoe2ayttyquuxhq0-pdf.pdf"
+    },
+    {
+      "claim": "2024 official governance report refers to 211 associations",
+      "evidence_id": "FIFA-2024-GOVERNANCE",
+      "limits": "Count alone cannot prove identical membership composition or all intervening membership spells",
+      "locator": "Annual report distributed to 211 associations",
+      "title": "FIFA Council in 2024",
+      "url": "https://inside.fifa.com/official-documents/annual-report/2024/governance/fifa-council"
+    },
+    {
+      "claim": "Kosovo admission 2016-05-13",
+      "evidence_id": "FIFA-CONGRESS-2016",
+      "limits": "Exact admission day only; does not establish every subsequent sanction or status change",
+      "locator": "Congress 13 May 2016; Kosovo and Gibraltar admitted",
+      "title": "FIFA-CONGRESS-2016",
+      "url": "https://inside.fifa.com/organisation/congress/news/66th-fifa-congress-zurich-2016-2878197"
+    },
+    {
+      "claim": "South Sudan admission 2012-05-25",
+      "evidence_id": "FIFA-SOUTH-SUDAN-HISTORY",
+      "limits": "Exact admission day only; does not establish every subsequent sanction or status change",
+      "locator": "Retrospective identifies 25 May 2012 as FIFA admission date",
+      "title": "FIFA-SOUTH-SUDAN-HISTORY",
+      "url": "https://vod.fifa.com/organisation/president/news/fifa-president-and-south-sudan-fa-president-discuss-ways-of-making-football-accessible"
+    }
+  ]
+}

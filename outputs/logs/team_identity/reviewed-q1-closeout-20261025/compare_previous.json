@@ -1,0 +1,61 @@
+{
+  "previous_run": "outputs/logs/team_identity/confirmed-eras-20261025T002437005064Z-f19d8184/run_manifest.json",
+  "current_run": "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json",
+  "previous_matches": 24279,
+  "current_matches": 24917,
+  "added_matches": 638,
+  "disposition_transitions": {
+    "excluded_by_membership_evidence -> excluded_by_membership_evidence": 245,
+    "excluded_by_membership_evidence -> retained": 1,
+    "quarantined_pending -> excluded_by_membership_evidence": 893,
+    "quarantined_pending -> retained": 637,
+    "retained -> retained": 24279
+  },
+  "eras": [
+    {
+      "era": "1980s",
+      "previous_n": 3176,
+      "current_n": 3504,
+      "previous_observed_rate": 0.494647355163728,
+      "current_observed_rate": 0.4925799086757991,
+      "previous_standardized_rate": 0.5013471515023172,
+      "current_standardized_rate": 0.4994564043722467
+    },
+    {
+      "era": "1990s",
+      "previous_n": 4602,
+      "current_n": 4814,
+      "previous_observed_rate": 0.5047805302042591,
+      "current_observed_rate": 0.5018695471541338,
+      "previous_standardized_rate": 0.5065772512087711,
+      "current_standardized_rate": 0.503508952552188
+    },
+    {
+      "era": "2000s",
+      "previous_n": 6777,
+      "current_n": 6872,
+      "previous_observed_rate": 0.5093699276966209,
+      "current_observed_rate": 0.5084400465657741,
+      "previous_standardized_rate": 0.5096613299977047,
+      "current_standardized_rate": 0.5086024819788818
+    },
+    {
+      "era": "2010s",
+      "previous_n": 6629,
+      "current_n": 6632,
+      "previous_observed_rate": 0.5044501433096998,
+      "current_observed_rate": 0.5045235223160435,
+      "previous_standardized_rate": 0.5044305997491649,
+      "current_standardized_rate": 0.5044757267602209
+    },
+    {
+      "era": "2020_2024",
+      "previous_n": 3095,
+      "current_n": 3095,
+      "previous_observed_rate": 0.5085621970920841,
+      "current_observed_rate": 0.5085621970920841,
+      "previous_standardized_rate": 0.517373517499757,
+      "current_standardized_rate": 0.5175566992128677
+    }
+  ]
+}

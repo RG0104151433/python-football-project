@@ -1,0 +1,10 @@
+{
+  "decisions": "data/external/team_identity/review/20261024-v1/decisions.json",
+  "directory_observations": "data/external/team_identity/review/20261024-v1/directory_observations.json",
+  "evidence": "data/external/team_identity/review/20261024-v1/evidence.json",
+  "inventory_config": "config/team_identity.json",
+  "inventory_run": "outputs/logs/team_identity/inventory-20261024T082841542266Z-14396c78/run_manifest.json",
+  "policy": "data/external/team_identity/review/20261024-v1/population_policy.json",
+  "review": "data/external/team_identity/review/20261024-v1/label_review.csv",
+  "schema_version": "team-identity-plan-config-v1"
+}

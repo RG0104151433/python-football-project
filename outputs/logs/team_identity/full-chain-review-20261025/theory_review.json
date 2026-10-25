@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-25",
+  "local_original_checks": [
+    {
+      "id": "P01",
+      "path": "参考资料/方法文献/原文/Aronow_Samii_Assenova_2015_dyadic_v8.pdf",
+      "sha256_matches": true
+    },
+    {
+      "id": "P02",
+      "path": "参考资料/方法文献/原文/Tabord_Meehan_dyadic_inference_v6.pdf",
+      "sha256_matches": true
+    },
+    {
+      "id": "P03",
+      "path": "参考资料/方法文献/原文/Canen_Sugiura_network_spillovers_v5.pdf",
+      "sha256_matches": true
+    },
+    {
+      "id": "P04",
+      "path": "参考资料/方法文献/原文/Cameron_Miller_2015_cluster_robust.pdf",
+      "sha256_matches": true
+    },
+    {
+      "id": "M01",
+      "path": "参考资料/方法文献/原文/CDC_Klein_Schoenborn_2001_standardization.pdf",
+      "sha256_matches": true
+    },
+    {
+      "id": "M03",
+      "path": "参考资料/方法文献/原文/NIST_Wilson_intervals.html",
+      "sha256_matches": true
+    }
+  ],
+  "web_sources_read": [
+    {
+      "url": "https://www.cdc.gov/nchs/hus/sources-definitions/age-adjustment.htm",
+      "review": "Direct standardization uses group rates and one standard distribution; comparative index, not actual risk. Football use is an explicit algebraic adaptation, not source endorsement of the chosen match weights."
+    },
+    {
+      "url": "https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc421.htm",
+      "review": "Successive windows and smoothing; source simple equal-weight moving average differs from match-count-weighted yearly rates in this project."
+    },
+    {
+      "url": "https://arxiv.org/abs/1312.3398v8",
+      "review": "Version and abstract checked; repeated/weighted/directed dyadic observations addressed, but not a proof that this project already has valid intervals."
+    },
+    {
+      "url": "https://arxiv.org/abs/1510.07074v6",
+      "review": "Version and abstract checked; normal approximation requires conditions and finite-sample assessment. No estimator adopted this turn."
+    }
+  ],
+  "scope": "Descriptive formulas and compatibility review. No full re-proof of candidate inference papers or completed estimator/simulation acceptance."
+}

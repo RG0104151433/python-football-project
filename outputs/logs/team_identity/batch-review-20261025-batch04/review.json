@@ -1,0 +1,75 @@
+{
+  "reviewer": "Codex (AI)",
+  "date": "2026-10-25",
+  "batch": "20261024-batch04",
+  "decision": "needs_delivery_correction_and_official_evidence",
+  "accepted_new_rules": 0,
+  "q1_rerun_performed": false,
+  "counts": {
+    "evidence": 4,
+    "claims": 4,
+    "case_assessments": 4,
+    "corrections": 5,
+    "search_log": 5
+  },
+  "authority": {
+    "locating_lead": 3,
+    "fifa_primary": 1
+  },
+  "coverage_task_status": {
+    "not_reviewed": 116,
+    "partial": 31,
+    "not_found": 1
+  },
+  "local_source_hash_checks": [
+    {
+      "evidence_id": "AGB4-E001",
+      "passed": true,
+      "expected": "69c239a7f091ff1dc82c1f78567ca3494e6f1b42639c01582d32c0f3b4b1cc4e",
+      "actual": "69c239a7f091ff1dc82c1f78567ca3494e6f1b42639c01582d32c0f3b4b1cc4e"
+    },
+    {
+      "evidence_id": "AGB4-E002",
+      "passed": true,
+      "expected": "751f68183be6a70f4eb461bedd1956a9be9dc1d212b1763faa12bdd22575a032",
+      "actual": "751f68183be6a70f4eb461bedd1956a9be9dc1d212b1763faa12bdd22575a032"
+    },
+    {
+      "evidence_id": "AGB4-E004",
+      "passed": false,
+      "expected": "535627c04e91edabdbd8ee1a89ec2afb54164675ce54a5050ebb3725f5f8e05",
+      "actual": "535627c04e91edabdb8d8ee1a89ec2afb54164675ce54a5050ebb3725f5f8e05"
+    }
+  ],
+  "failures": [
+    {
+      "code": "source_hash_mismatch",
+      "evidence_id": "AGB4-E004"
+    }
+  ],
+  "jsonl_references_and_match_ids_passed": true,
+  "previous_three_batches_unchanged": true,
+  "validation_report_provided": false,
+  "identity_validation": {
+    "passed": true,
+    "identity_version": "identity-fifa-f4b591a95719b634d9de",
+    "verified_outputs": 7,
+    "final_release": false
+  },
+  "q1_validation": {
+    "passed": true,
+    "analysis_id": "eras-fifa-24196f9d60d19c30658a",
+    "verified_outputs": 22,
+    "inference": "not_run"
+  },
+  "submission_hashes": {
+    "data/external/team_identity/submissions/20261024-batch04/case_assessments.jsonl": "8c0212549da9fd3478749f1121494b4b7764508bd57433d7a852d4f2c5be93f2",
+    "data/external/team_identity/submissions/20261024-batch04/claims.jsonl": "2e5da94c634301e96ab5578ad60ce32d70c374202de340077e6a595a9e221c03",
+    "data/external/team_identity/submissions/20261024-batch04/corrections.jsonl": "83c440f3954a581169d773a218e270ed29b4f57df3cb55ce9f6576933316f1e1",
+    "data/external/team_identity/submissions/20261024-batch04/evidence.jsonl": "9fcfe75410c4dca5976fbae14bb477cbf3045d52b0306007c0d6c6334ce54016",
+    "data/external/team_identity/submissions/20261024-batch04/README.md": "54ccd529171537376d068f817556d1a548e995672a89d158c7b678397ba101f8",
+    "data/external/team_identity/submissions/20261024-batch04/search_log.jsonl": "fdc9263e04b5c70f60b2aeec9d0e232ebfabb85ddb89d755e09e20dfc46f3e98",
+    "data/external/team_identity/submissions/20261024-batch04/sources/latimes_19920704_fifa.html": "535627c04e91edabdb8d8ee1a89ec2afb54164675ce54a5050ebb3725f5f8e05",
+    "data/external/team_identity/submissions/20261024-batch04/task_coverage.csv": "a0d9769b087c510992e082eb836deb73caf1081e39b0fb1d1edbc8070029fb19"
+  }
+}

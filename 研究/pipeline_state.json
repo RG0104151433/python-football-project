@@ -1,0 +1,77 @@
+{
+  "data_cleaning": {
+    "data_version": "prep-3fab808178cf8ad71d88",
+    "status": "program_validated_not_frozen"
+  },
+  "data_confirmation": {
+    "blocks_final_population_claims": false,
+    "full_history_verified": false,
+    "identity_manifest": "data/processed/team_identity/identity-reviewed-29d880765c1623764940/identity_manifest.json",
+    "status": "study_population_owner_accepted",
+    "blocks_descriptive_progress": false,
+    "verification_followup": "Current study membership accepted by user on 2026-10-25; no further evidence upload required",
+    "decision_log_id": "R20261025-10",
+    "study_candidates": 26055,
+    "study_retained": 24917,
+    "study_excluded": 1138,
+    "study_pending": 0,
+    "user_approved_matches": 117,
+    "global_historical_claims_supported": false,
+    "approval_scope": "Current 26055 study candidates only; current membership selection is owner accepted"
+  },
+  "logical_order": [
+    "data_cleaning",
+    "data_confirmation",
+    "question_1",
+    "question_2",
+    "shared_reliability",
+    "question_3"
+  ],
+  "question_1": {
+    "analysis_id": "eras-fifa-dddf11dd6dc0b7531b88",
+    "previous_baseline": "eras-7f332ed60ac443228960",
+    "run_manifest": "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json",
+    "status": "description_completed_owner_reviewed_population",
+    "independent_audit": "outputs/logs/team_identity/reviewed-q1-closeout-20261025/independent_audit.json",
+    "core_artifacts_identical": 19,
+    "display_data": "outputs/logs/team_identity/reviewed-q1-closeout-20261025/display_data.json",
+    "latest_review": "outputs/logs/team_identity/reviewed-q1-closeout-20261025/review.json",
+    "analysis_config": "config/confirmed_eras_reviewed.json",
+    "previous_membership_analysis": "eras-fifa-24196f9d60d19c30658a"
+  },
+  "question_2": {
+    "must_not_reuse_unfiltered_26055_as_confirmed": true,
+    "required_identity_manifest": "data/processed/team_identity/identity-reviewed-29d880765c1623764940/identity_manifest.json",
+    "required_joint_filter": [
+      "analysis dates",
+      "eligible_under_provisional_policy=true",
+      "eligible_venue_analysis=true",
+      "is_neutral=false",
+      "eligible_tournament_analysis=true",
+      "known tournament group"
+    ],
+    "status": "planning_only",
+    "required_sample_size_reference": 24917,
+    "approval_gate": "Confirm Q2 logic and script design before implementation"
+  },
+  "question_3": {
+    "additional_gate": "Historical entity and Elo warmup membership require separate approval",
+    "status": "not_implemented"
+  },
+  "reference_roles": {
+    "current_conditional_analysis": "eras-fifa-dddf11dd6dc0b7531b88",
+    "historical_baseline_analysis": "eras-7f332ed60ac443228960",
+    "immutable_logs_and_snapshots": "retain original numbers, input hashes and chronology; not silently repointed",
+    "legacy_src_analyze_eras": "baseline reproduction only; deliberately does not consume FIFA overlay",
+    "legacy_v1_identity_configs": "v1/v2 retained as history; current adoption uses membership_review_adoption.json",
+    "previous_membership_analysis": "eras-fifa-24196f9d60d19c30658a",
+    "supporting_material_index": "文档/05_团队协作/论文与汇报支撑材料索引.md"
+  },
+  "schema_version": "research-pipeline-state-v1",
+  "shared_reliability": {
+    "after": "Both question descriptions, independent script",
+    "status": "not_run",
+    "includes_supplementary_membership_review": true,
+    "fact_corrections_require_versioned_reruns": true
+  }
+}

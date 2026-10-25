@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <style>
+  #formfont {font-family:arial;font-size:9;font-weight:normal;color=#000080}
+  </style>
+  <script language="JavaScript">
+
+  function selectaplace(form) {
+  var appname= navigator.appName;
+
+  var appversion=parseInt(navigator.appVersion);
+
+  if (appname == "Netscape" && appversion >= 3) {
+  var formindex=form.select1.selectedIndex;
+  var storage=form.select1.options[formindex].text;
+  if (form.select1.options[formindex].value != "none") {
+
+  var msg=storage;
+
+  for (var spot=0;spot<msg.length-storage.length;spot++) {
+  var x=msg.substring(spot,msg.length);
+  form.select1.options[formindex].text=x;
+  for(var d=0;d<150;d++) { };
+  }
+  window.location=form.select1.options[formindex].value;
+  form.select1[formindex].text=storage;
+  } else  {
+  form.select1[formindex].text="NA";
+  for(var d=0;d<1250;d++) { };
+  form.select1[formindex].text=storage;
+   }
+  }
+  else {
+  var formindex=form.select1.selectedIndex;
+  window.location=form.select1.options[formindex].value;
+   }
+  }
+  </script>
+  <script language="JavaScript">
+  <!-- hide this script from non-javascript-enabled browsers
+
+  if (document.images) {
+  }
+
+  // stop hiding -->
+  </script>
+  <title>Member News</title>
+</head>
+<body bgcolor="#FFFFFF" background="/channelF/images/bg_fifaglobe.gif" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0" link="#003399">
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td bgcolor="#000000" height="20" valign="middle" nowrap><font face="verdana, arial, helvetica, sans-serif" size="1" color="#FFFFFF"><b>&nbsp;&nbsp;<font color="#FFB200"><b>home</b></font> &nbsp;&nbsp;</b></font></td>
+      <td bgcolor="#000000" height="20" valign="middle" align="right" nowrap><font color="#FFFFFF" face="verdana, arial" size="1"><b>&nbsp;&nbsp;<font color="#FFFFFF">service centre</font> &nbsp;&nbsp;<font color="#FFFFFF">|</font> &nbsp;&nbsp;<font color="#FFFFFF">women's football</font> &nbsp;&nbsp;<font color="#FFFFFF">|</font> &nbsp;&nbsp;<font color="#FFFFFF">competitions</font> &nbsp;&nbsp;<font color="#FFFFFF">|</font> &nbsp;&nbsp;<font color="#FFFFFF">site map</font> &nbsp;&nbsp;</b></font></td>
+    </tr>
+  </table>
+  <table background="/images/headers/football_header3.gif" bgcolor="#A9A1C4" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td height="80"></td>
+      <td height="80" align="right"><br></td>
+    </tr>
+  </table>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr bgcolor="#000000">
+      <td height="1" bgcolor="#000000"></td>
+    </tr>
+  </table>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr valign="top" bgcolor="#660099">
+      <td height="20" valign="middle" align="left" nowrap width="135"><font color="#FFFFFF" face="verdana, arial" size="1"><b>&nbsp; &nbsp; Tue, 11 Jun, 2002</b></font></td>
+      <td height="20" valign="bottom">
+        <a href="/assoc/home_E_AFC.html"></a>
+      </td>
+      <td height="20" valign="bottom" rowspan="2">
+        <a href="/assoc/home_E_CAF.html"></a>
+      </td>
+      <td height="20" valign="bottom">
+        <a href="/assoc/home_E_CONCACAF.html"></a>
+      </td>
+      <td height="20" valign="bottom">
+        <a href="/assoc/home_E_CONMEBOL.html"></a>
+      </td>
+      <td height="20" valign="bottom">
+        <a href="/assoc/home_E_OFC.html"></a>
+      </td>
+      <td height="20" valign="bottom">
+        <a href="/assoc/home_E_UEFA.html"></a>
+      </td>
+      <td height="20" valign="bottom" width="100%"></td>
+      <td height="20" valign="middle" align="right" nowrap><font face="verdana, arial, sans-serif" size="1" class="v1"><a href="/assoc/home_E.html" style='color:#ffb200;text-decoration:none;'><b>Football Family home</b></a>&nbsp;</font></td>
+    </tr>
+    <tr>
+      <td bgcolor="#000000"></td>
+      <td bgcolor="#000000"></td>
+      <td bgcolor="#000000"></td>
+      <td bgcolor="#000000"></td>
+      <td bgcolor="#000000"></td>
+      <td bgcolor="#000000"></td>
+      <td bgcolor="#000000" width="100%" colspan="2"></td>
+    </tr>
+  </table>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr valign="top">
+      <td height="1" width="135" bgcolor="#DDDDDD"></td>
+      <td height="1" width="350"></td>
+      <td height="1" width="1"></td>
+      <td height="1"></td>
+    </tr>
+    <tr valign="top">
+      <td width="135">
+        <table width="140" border="0" cellpadding="0" cellspacing="0" bgcolor="#DDDDDD">
+          <tr>
+            <td></td>
+          </tr>
+          <tr valign="top">
+            <td><font face="verdana, arial, sans-serif" size="1" class="v1"><b>Calendar of Events</b><br>
+            &nbsp; &nbsp; <a style='color:#333366;text-decoration:none;' href="/calendar/index_E.html" target="_top">FIFA</a><br>
+            &nbsp; &nbsp; AFC<br>
+            &nbsp; &nbsp; <a style='color:#333366;text-decoration:none;' href="/scripts/runisa.dll?M2:gp::67173+cal/confed+E+CAF" target="_top">CAF</a><br>
+            &nbsp; &nbsp; CONCACAF<br>
+            &nbsp; &nbsp; CONMEBOL<br>
+            &nbsp; &nbsp; <a style='color:#333366;text-decoration:none;' href="/scripts/runisa.dll?M2:gp::42671+ofc/events" target="_top">OFC</a><br>
+            &nbsp; &nbsp; UEFA<br></font></td>
+          </tr>
+          <tr>
+            <td></td>
+          </tr>
+          <tr>
+            <td bgcolor="#FFFFFF"></td>
+          </tr>
+          <tr valign="top">
+            <td bgcolor="#FFFFCC">
+              <table bgcolor="#000000" border="0" cellpadding="1" cellspacing="0" width="100%">
+                <tr valign="top">
+                  <td>
+                    <table bgcolor="#FFFFCC" border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tr valign="top">
+                        <th>
+                          <table cellpadding="4" cellspacing="0" width="100%" border="0">
+                            <tr bgcolor="#9999CC" valign="top">
+                              <th><font face="verdana, arial, helvetica, sans-serif" size="1" color="#FFFFFF">Official Websites</font></th>
+                            </tr>
+                          </table>
+                          <table cellpadding="5" cellspacing="0" width="100%" border="0">
+                            <tr valign="top">
+                              <th align="left"><font face="verdana, arial, sans-serif" size="1" class="v1"><font color="#996600">Links to official web sites of national associations</font></font></th>
+                            </tr>
+                          </table>
+                          <form>
+                            <table bgcolor="#EEEEEE">
+                              <tr>
+                                <td><font face="Arial, Sans-Serif" size="1" color="#000080" class="ab1"><select name="select1" onchange="selectaplace(this.form)" id="formfont">
+                                  <option value="#" id="formfont">
+                                    Select a Country
+                                  </option>
+                                  <option value="http://www.faf.org.dz" id="formfont">
+                                    Algeria
+                                  </option>
+                                  <option value="http://www.fedandfut.com" id="formfont">
+                                    Andorra
+                                  </option>
+                                  <option value="http://www.afa.org.ar" id="formfont">
+                                    Argentina
+                                  </option>
+                                  <option value="http://www.armenia.fifa.com/" id="formfont">
+                                    Armenia
+                                  </option>
+                                  <option value="http://www.avbaruba.aw" id="formfont">
+                                    Aruba
+                                  </option>
+                                  <option value="http://www.socceraustralia.com.au" id="formfont">
+                                    Australia
+                                  </option>
+                                  <option value="http://www.oefb.at" id="formfont">
+                                    Austria
+                                  </option>
+                                  <option value="http://www.affa-az.com" id="formfont">
+                                    Azerbaijan
+                                  </option>
+                                  <option value="http://www.bahamasfootballassoc.com" id="formfont">
+                                    Bahamas
+                                  </option>
+                                  <option value="http://www.feesmg.minsk.by/bff/bff.htm" id="formfont">
+                                    Belarus
+                                  </option>
+                                  <option value="http://www.footbel.com" id="formfont">
+                                    Belgium
+                                  </option>
+                                  <option value="http://www.belizefootball.cjb.net" id="formfont">
+                                    Belize
+                                  </option>
+                                  <option value="http://www.nsbih.ba" id="formfont">
+                                    Bosnia-Herzegovina
+                                  </option>
+                                  <option value="http://www.brasilfutebol.com" id="formfont">
+                                    Brazil
+                                  </option>
+                                  <option value="http://www.bvifa.com" id="formfont">
+                                    British Virgin Is.
+                                  </option>
+                                  <option value="http://www.bfunion.bg" id="formfont">
+                                    Bulgaria
+                                  </option>
+                                  <option value="http://www.cameroon.fifa.com/" id="formfont">
+                                    Cameroon
+                                  </option>
+                                  <option value="http://www.canadasoccer.com" id="formfont">
+                                    Canada
+                                  </option>
+                                  <option value="http://www.Caymanfootball.com" id="formfont">
+                                    Cayman Islands
+                                  </option>
+                                  <option value="http://www.anfp.cl" id="formfont">
+                                    Chile
+                                  </option>
+                                  <option value="http://www.fa.org.cn" id="formfont">
+                                    China PR
+                                  </option>
+                                  <option value="http://www.football.org.tw" id="formfont">
+                                    Chinese Taipei
+                                  </option>
+                                  <option value="http://www.colfutbol.org" id="formfont">
+                                    Colombia
+                                  </option>
+                                  <option value="http://www.fedefutbol.com" id="formfont">
+                                    Costa Rica
+                                  </option>
+                                  <option value="http://www.hns-cff.hr" id="formfont">
+                                    Croatia
+                                  </option>
+                                  <option value="http://www.fotbal.cz" id="formfont">
+                                    Czech Republic
+                                  </option>
+                                  <option value="http://www.dbu.dk" id="formfont">
+                                    Denmark
+                                  </option>
+                                  <option value="http://www.fedofutbol.com/" id="formfont">
+                                    Dominican Republic
+                                  </option>
+                                  <option value="http://www.ecuafutbolonline.org" id="formfont">
+                                    Ecuador
+                                  </option>
+                                  <option value="http://www.efa.com.eg" id="formfont">
+                                    Egypt
+                                  </option>
+                                  <option value="http://www.fesfut.org.sv/" id="formfont">
+                                    El Salvador
+                                  </option>
+                                  <option value="http://www.the-fa.org" id="formfont">
+                                    England
+                                  </option>
+                                  <option value="http://www.estonia.fifa.com/" id="formfont">
+                                    Estonia
+                                  </option>
+                                  <option value="http://www.fsm.org.mk" id="formfont">
+                                    FYR Macedonia
+                                  </option>
+                                  <option value="http://www.football.fo/" id="formfont">
+                                    Faroe Islands
+                                  </option>
+                                  <option value="http://www.fijifootball.com/" id="formfont">
+                                    Fiji
+                                  </option>
+                                  <option value="http://www.palloliitto.fi" id="formfont">
+                                    Finland
+                                  </option>
+                                  <option value="http://www.fff.fr" id="formfont">
+                                    France
+                                  </option>
+                                  <option value="http://www.gff.ge" id="formfont">
+                                    Georgia
+                                  </option>
+                                  <option value="http://www.dfb.de" id="formfont">
+                                    Germany
+                                  </option>
+                                  <option value="http://www.epo.gr" id="formfont">
+                                    Greece
+                                  </option>
+                                  <option value="http://www.fenafuth.2hn.com" id="formfont">
+                                    Honduras
+                                  </option>
+                                  <option value="http://www.hkfa.com" id="formfont">
+                                    Hong Kong
+                                  </option>
+                                  <option value="http://www.mlsz.hu" id="formfont">
+                                    Hungary
+                                  </option>
+                                  <option value="http://www.ksi.is" id="formfont">
+                                    Iceland
+                                  </option>
+                                  <option value="http://www.sepak-bola.tv" id="formfont">
+                                    Indonesia
+                                  </option>
+                                  <option value="http://www.iriff.org" id="formfont">
+                                    Iran
+                                  </option>
+                                  <option value="http://www.fai.ie" id="formfont">
+                                    Ireland Republic
+                                  </option>
+                                  <option value="http://www.figc.it" id="formfont">
+                                    Italy
+                                  </option>
+                                  <option value="http://www.homeviewjamaica.com/jamfootballfed/" id="formfont">
+                                    Jamaica
+                                  </option>
+                                  <option value="http://www.jfa.or.jp" id="formfont">
+                                    Japan
+                                  </option>
+                                  <option value="http://www.jfa.com.jo" id="formfont">
+                                    Jordan
+                                  </option>
+                                  <option value="http://www.fsk.kz" id="formfont">
+                                    Kazakhstan
+                                  </option>
+                                  <option value="http://www.kfa.or.kr" id="formfont">
+                                    Korea Republic
+                                  </option>
+                                  <option value="http://www.alazraq.com" id="formfont">
+                                    Kuwait
+                                  </option>
+                                  <option value="http://www.lebanesefa.com" id="formfont">
+                                    Lebanon
+                                  </option>
+                                  <option value="http://www.sportsnet.li/lfv/" id="formfont">
+                                    Liechtenstein
+                                  </option>
+                                  <option value="http://www.lsff.lt" id="formfont">
+                                    Lithuania
+                                  </option>
+                                  <option value="http://www.football.lu" id="formfont">
+                                    Luxemburg
+                                  </option>
+                                  <option value="http://www.fam.org.my" id="formfont">
+                                    Malaysia
+                                  </option>
+                                  <option value="http://www.mfa.com.mt" id="formfont">
+                                    Malta
+                                  </option>
+                                  <option value="http://www.femexfut.org.mx" id="formfont">
+                                    Mexico
+                                  </option>
+                                  <option value="http://www.iatp.md/fmf/" id="formfont">
+                                    Moldova
+                                  </option>
+                                  <option value="http://www.fedefoot.ma" id="formfont">
+                                    Morocco
+                                  </option>
+                                  <option value="http://www.knvb.nl" id="formfont">
+                                    Netherlands
+                                  </option>
+                                  <option value="http://www.irishfa.com" id="formfont">
+                                    Northern Ireland
+                                  </option>
+                                  <option value="http://www.fotball.no" id="formfont">
+                                    Norway
+                                  </option>
+                                  <option value="http://www.apf.org.py" id="formfont">
+                                    Paraguay
+                                  </option>
+                                  <option value="http://www.fpf.com.pe/" id="formfont">
+                                    Peru
+                                  </option>
+                                  <option value="http://www.pzpn.pl" id="formfont">
+                                    Poland
+                                  </option>
+                                  <option value="http://www.fpf.pt" id="formfont">
+                                    Portugal
+                                  </option>
+                                  <option value="http://www.prfutbol.org/" id="formfont">
+                                    Puerto Rico
+                                  </option>
+                                  <option value="http://www.qfa.org.qa" id="formfont">
+                                    Qatar
+                                  </option>
+                                  <option value="http://www.frf.ro/english" id="formfont">
+                                    Romania
+                                  </option>
+                                  <option value="http://www.rfs.ru" id="formfont">
+                                    Russia
+                                  </option>
+                                  <option value="http://www.fsgc.sm" id="formfont">
+                                    San Marino
+                                  </option>
+                                  <option value="http://www.scottishfa.co.uk" id="formfont">
+                                    Scotland
+                                  </option>
+                                  <option value="http://www.seychelles.net/sff/" id="formfont">
+                                    Seychelles
+                                  </option>
+                                  <option value="http://www.fas.org.sg" id="formfont">
+                                    Singapore
+                                  </option>
+                                  <option value="http://www.futbalsfz.sk/" id="formfont">
+                                    Slovakia
+                                  </option>
+                                  <option value="http://www.nzs.si" id="formfont">
+                                    Slovenia
+                                  </option>
+                                  <option value="http://www.safagoal.net/" id="formfont">
+                                    South Africa
+                                  </option>
+                                  <option value="http://www.rfef.es" id="formfont">
+                                    Spain
+                                  </option>
+                                  <option value="http://www.skbee.com/skafa/" id="formfont">
+                                    St Kitts & Nevis
+                                  </option>
+                                  <option value="http://www.nfas.org.sz" id="formfont">
+                                    Swaziland
+                                  </option>
+                                  <option value="http://www.svenskfotboll.se" id="formfont">
+                                    Sweden
+                                  </option>
+                                  <option value="http://www.football.ch/" id="formfont">
+                                    Switzerland
+                                  </option>
+                                  <option value="http://www.ftf.tg/" id="formfont">
+                                    Togo
+                                  </option>
+                                  <option value="http://www.tongafootball.com" id="formfont">
+                                    Tonga
+                                  </option>
+                                  <option value="http://www.tnt.fifa.com" id="formfont">
+                                    Trinidad and Tobago
+                                  </option>
+                                  <option value="http://www.ftf.org.tn/" id="formfont">
+                                    Tunisia
+                                  </option>
+                                  <option value="http://www.tff.org.tr" id="formfont">
+                                    Turkey
+                                  </option>
+                                  <option value="http://www.football.tc" id="formfont">
+                                    Turks and Caicos Islands
+                                  </option>
+                                  <option value="http://www.ffu.org.ua" id="formfont">
+                                    Ukraine
+                                  </option>
+                                  <option value="http://www.uae-football.org.ae" id="formfont">
+                                    United Arab Emirates
+                                  </option>
+                                  <option value="http://www.ussoccer.com" id="formfont">
+                                    United States
+                                  </option>
+                                  <option value="http://www.auf.org.uy" id="formfont">
+                                    Uruguay
+                                  </option>
+                                  <option value="http://www.fvf.org.ve" id="formfont">
+                                    Venezuela
+                                  </option>
+                                  <option value="http://www.faw.org.uk" id="formfont">
+                                    Wales
+                                  </option>
+                                  <option value="http://www.fsj.co.yu" id="formfont">
+                                    Yugoslavia
+                                  </option>
+                                  <option value="http://www.sportscity.co.zw/" id="formfont">
+                                    Zimbabwe
+                                  </option>
+                                </select></font></td>
+                              </tr>
+                            </table>
+                          </form>
+                        </th>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+      <td width="100%">
+        <table cellpadding="10" border="0" cellspacing="0" width="100%">
+          <tr>
+            <td>
+              <font face="verdana, arial, sans-serif" size="2" class="v2"></font>
+              <table width="100%" cellspacing="0" cellpadding="10" border="0">
+                <tr>
+                  <td>
+                    <table width="80%" cellspacing="0" cellpadding="0" border="0">
+                      <tr valign="middle">
+                        <td valign="middle">
+                          <table border="0" cellpadding="2" cellspacing="0">
+                            <tr valign="bottom">
+                              <td></td>
+                              <td></td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr valign="middle">
+                        <th align="left">&nbsp; <font face="Arial, Sans-Serif" size="3" color="#000080" class="ab3">Conf&eacute;d&eacute;ration Africaine de Football</font></th>
+                      </tr>
+                      <tr valign="top" nowrap>
+                        <td nowrap>&nbsp; <font face="verdana, arial, sans-serif" size="2" class="v2">5 Gabalaya Street</font></td>
+                      </tr>
+                      <tr valign="top" nowrap>
+                        <td nowrap>&nbsp; <font face="verdana, arial, sans-serif" size="2" class="v2">11567 El Borg,</font></td>
+                      </tr>
+                      <tr valign="top" nowrap>
+                        <td nowrap>&nbsp; <font face="verdana, arial, sans-serif" size="2" class="v2">CAIRO</font></td>
+                      </tr>
+                      <tr valign="top" nowrap>
+                        <td nowrap>&nbsp; <font face="verdana, arial, sans-serif" size="2" class="v2">AR Egypt</font></td>
+                      </tr>
+                      <tr valign="top">
+                        <th>
+                          <p><br></p>
+                          <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                            <tr valign="bottom" nowrap>
+                              <td>&nbsp; <font face="verdana, arial, sans-serif" size="2" class="v2"><b>Telephone Number:</b></font></td>
+                              <td><font face="Arial, Sans-Serif" size="2" class="a2">20-2/736 6730 or 736 2497</font></td>
+                            </tr>
+                            <tr valign="bottom" nowrap>
+                              <td>&nbsp; <font face="verdana, arial, sans-serif" size="2" class="v2"><b>Cable Address:</b></font></td>
+                              <td><font face="Arial, Sans-Serif" size="2" class="a2">Afrobal Cairo</font></td>
+                            </tr>
+                            <tr valign="bottom" nowrap>
+                              <td>&nbsp; <font face="verdana, arial, sans-serif" size="2" class="v2"><b>Telex Number:</b></font></td>
+                              <td><font face="Arial, Sans-Serif" size="2" class="a2">93162 caf un</font></td>
+                            </tr>
+                            <tr valign="bottom" nowrap>
+                              <td>&nbsp; <font face="verdana, arial, sans-serif" size="2" class="v2"><b>Telefax Number:</b></font></td>
+                              <td><font face="Arial, Sans-Serif" size="2" class="a2">20-2/737 0114</font></td>
+                            </tr>
+                            <tr valign="top">
+                              <td colspan="2">&nbsp;</td>
+                            </tr>
+                            <tr valign="bottom" nowrap>
+                              <td>&nbsp; <font face="verdana, arial, sans-serif" size="2" class="v2"><b>President:</b></font></td>
+                              <td><font face="Arial, Sans-Serif" size="2" class="a2">Issa Hayatou (CMR)</font></td>
+                            </tr>
+                            <tr valign="bottom" nowrap>
+                              <td>&nbsp; <font face="verdana, arial, sans-serif" size="2" class="v2"><b>1st Vice President:</b></font></td>
+                              <td><font face="Arial, Sans-Serif" size="2" class="a2">Mohamed Ahmed (EGY)</font></td>
+                            </tr>
+                            <tr valign="bottom" nowrap>
+                              <td>&nbsp; <font face="verdana, arial, sans-serif" size="2" class="v2"><b>General Secretary:</b></font></td>
+                              <td><font face="Arial, Sans-Serif" size="2" class="a2">Mustapha Fahmy (EGY)</font></td>
+                            </tr>
+                            <tr valign="bottom" nowrap>
+                              <td>&nbsp; <font face="verdana, arial, sans-serif" size="2" class="v2"><b>Treasurer:</b></font></td>
+                              <td><font face="Arial, Sans-Serif" size="2" class="a2">Mustapha Fahmy (EGY)</font></td>
+                            </tr>
+                            <tr valign="bottom" nowrap>
+                              <td>&nbsp; <font face="verdana, arial, sans-serif" size="2" class="v2"><b>Foundation:</b></font></td>
+                              <td><font face="Arial, Sans-Serif" size="2" class="a2">1957</font></td>
+                            </tr>
+                            <tr>
+                              <td colspan="2">&nbsp;</td>
+                            </tr>
+                            <tr valign="bottom" nowrap>
+                              <td>&nbsp; <font face="verdana, arial, sans-serif" size="2" class="v2"><b>Internet address:</b></font></td>
+                              <td><font face="Arial, Sans-Serif" size="2" class="a2">www.cafonline.com</font></td>
+                            </tr>
+                          </table>
+                        </th>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+              <p><font face="verdana, arial, sans-serif" size="2" class="v2"><br></font></p>
+            </td>
+          </tr>
+        </table>
+        <center>
+          <table width="95%" cellpadding="3" cellspacing="3" border="0" bgcolor="#CCCC99">
+            <tr>
+              <th bgcolor="#AAAA77"><font face="Verdana, Charcoal, Arial, Sans-serif" size="4" color="#000080"><b>CAF Member National Associations</b></font></th>
+            </tr>
+            <tr>
+              <th>
+                <table width="100%" cellpadding="2" cellspacing="0" border="0" bgcolor="#CCCC99">
+                  <tr valign="top">
+                    <td bgcolor="#CCCC99"></td>
+                  </tr>
+                  <tr valign="top">
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+ALG"><font face="verdana, arial, sans-serif" size="1" class="v1">Algeria</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+ANG"><font face="verdana, arial, sans-serif" size="1" class="v1">Angola</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+BEN"><font face="verdana, arial, sans-serif" size="1" class="v1">Benin</font></a>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+BOT"><font face="verdana, arial, sans-serif" size="1" class="v1">Botswana</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+BFA"><font face="verdana, arial, sans-serif" size="1" class="v1">Burkina Faso</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+BDI"><font face="verdana, arial, sans-serif" size="1" class="v1">Burundi</font></a>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+CMR"><font face="verdana, arial, sans-serif" size="1" class="v1">Cameroon</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+CPV"><font face="verdana, arial, sans-serif" size="1" class="v1">Cape Verde Islands</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+CTA"><font face="verdana, arial, sans-serif" size="1" class="v1">Central African Rep.</font></a>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+CHA"><font face="verdana, arial, sans-serif" size="1" class="v1">Chad</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+CGO"><font face="verdana, arial, sans-serif" size="1" class="v1">Congo</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+CIV"><font face="verdana, arial, sans-serif" size="1" class="v1">Cote d' Ivoire</font></a>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+COD"><font face="verdana, arial, sans-serif" size="1" class="v1">Democratic Rep. of Congo</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+DJI"><font face="verdana, arial, sans-serif" size="1" class="v1">Djibouti</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+EGY"><font face="verdana, arial, sans-serif" size="1" class="v1">Egypt</font></a>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+EQG"><font face="verdana, arial, sans-serif" size="1" class="v1">Equatorial Guinea</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+ERI"><font face="verdana, arial, sans-serif" size="1" class="v1">Eritrea</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+ETH"><font face="verdana, arial, sans-serif" size="1" class="v1">Ethiopia</font></a>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+GAB"><font face="verdana, arial, sans-serif" size="1" class="v1">Gabon</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+GAM"><font face="verdana, arial, sans-serif" size="1" class="v1">Gambia</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+GHA"><font face="verdana, arial, sans-serif" size="1" class="v1">Ghana</font></a>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+GUI"><font face="verdana, arial, sans-serif" size="1" class="v1">Guinea</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+GNB"><font face="verdana, arial, sans-serif" size="1" class="v1">Guinea-Bissau</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+KEN"><font face="verdana, arial, sans-serif" size="1" class="v1">Kenya</font></a>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+LES"><font face="verdana, arial, sans-serif" size="1" class="v1">Lesotho</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+LBR"><font face="verdana, arial, sans-serif" size="1" class="v1">Liberia</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+LBY"><font face="verdana, arial, sans-serif" size="1" class="v1">Libya</font></a>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+MAD"><font face="verdana, arial, sans-serif" size="1" class="v1">Madagascar</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+MWI"><font face="verdana, arial, sans-serif" size="1" class="v1">Malawi</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+MLI"><font face="verdana, arial, sans-serif" size="1" class="v1">Mali</font></a>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+MTN"><font face="verdana, arial, sans-serif" size="1" class="v1">Mauritania</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+MRI"><font face="verdana, arial, sans-serif" size="1" class="v1">Mauritius</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+MAR"><font face="verdana, arial, sans-serif" size="1" class="v1">Morocco</font></a>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+MOZ"><font face="verdana, arial, sans-serif" size="1" class="v1">Mozambique</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+NAM"><font face="verdana, arial, sans-serif" size="1" class="v1">Namibia</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+NIG"><font face="verdana, arial, sans-serif" size="1" class="v1">Niger</font></a>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+NGA"><font face="verdana, arial, sans-serif" size="1" class="v1">Nigeria</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+RWA"><font face="verdana, arial, sans-serif" size="1" class="v1">Rwanda</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+STP"><font face="verdana, arial, sans-serif" size="1" class="v1">Sao Tome e Principe</font></a>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+SEN"><font face="verdana, arial, sans-serif" size="1" class="v1">Senegal</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+SEY"><font face="verdana, arial, sans-serif" size="1" class="v1">Seychelles</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+SLE"><font face="verdana, arial, sans-serif" size="1" class="v1">Sierra Leone</font></a>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+SOM"><font face="verdana, arial, sans-serif" size="1" class="v1">Somalia</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+RSA"><font face="verdana, arial, sans-serif" size="1" class="v1">South Africa</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+SUD"><font face="verdana, arial, sans-serif" size="1" class="v1">Sudan</font></a>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+SWZ"><font face="verdana, arial, sans-serif" size="1" class="v1">Swaziland</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+TAN"><font face="verdana, arial, sans-serif" size="1" class="v1">Tanzania</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+TOG"><font face="verdana, arial, sans-serif" size="1" class="v1">Togo</font></a>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+TUN"><font face="verdana, arial, sans-serif" size="1" class="v1">Tunisia</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+UGA"><font face="verdana, arial, sans-serif" size="1" class="v1">Uganda</font></a>
+                    </td>
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+ZAM"><font face="verdana, arial, sans-serif" size="1" class="v1">Zambia</font></a>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td width="33%">
+                      <a href="/scripts/runisa.dll?m2:gp::67173+assoc/home+E+CAF+ZIM"><font face="verdana, arial, sans-serif" size="1" class="v1">Zimbabwe</font></a>
+                    </td>
+                  </tr>
+                </table>
+              </th>
+            </tr>
+          </table>
+        </center>
+      </td>
+    </tr>
+  </table>
+  <table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+    <tr>
+      <td>
+        <hr size="0">
+        <font face="Arial, Sans-Serif" size="1">&nbsp; <a href="/fifa/copyright_E.html" class="Copyright">Copyright</a> &copy; 1994-2002 FIFA. All rights reserved.<br>
+        &nbsp; Copyright &copy; 1994-2002 En-Linea, Inc. All rights reserved.</font><br>
+        <br>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

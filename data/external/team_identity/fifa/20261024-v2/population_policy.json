@@ -1,0 +1,21 @@
+{
+  "analysis_scope": {
+    "end": "2024-12-31",
+    "start": "1980-01-01"
+  },
+  "continuity_assumption": "Membership after documented admission is provisionally carried forward through 2024, except explicit unresolved episodes. Not an official complete day-by-day membership register.",
+  "criterion": "Both associations must be FIFA members at match date",
+  "criterion_authorization": "User instruction 2026-10-24; membership rather than sovereign state status",
+  "facts": "Never change scores, home-away ordering or neutral flags",
+  "final_release_allowed": false,
+  "historical_entities": "No blanket predecessor-to-successor merge; unresolved predecessor episodes quarantined",
+  "policy_id": "fifa-at-match-date-provisional-v2",
+  "pre1980": "outside current approval scope; no Elo warmup approval",
+  "provenance": "FIFA official original PDF plus individually identified FIFA admission notices; other websites cannot decide membership",
+  "release_use": "exploratory_conditional_comparison_only",
+  "revision_reason": "Remove unsupported Vietnam-only-1980 exception: no evidence justifies treating 1980 and 1981 differently. The same provisional continuity assumption applies; full succession verification remains pending.",
+  "schema_version": "fifa-population-policy-v1",
+  "suspension_rule": "Temporary suspension/competition ban is not automatically membership termination; full sanction timeline not audited",
+  "unknown_action": "quarantine_for_this_release_not_delete",
+  "year_only_admission": "entire_join_year_pending; before first admission nonmember; after latest admission conditional on continuity"
+}

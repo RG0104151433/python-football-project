@@ -1,0 +1,338 @@
+﻿source_team_id,source_team_label,raw_first_date,raw_last_date,raw_appearances,clean_appearances,study_appearances,study_first_date,study_last_date,upstream_rule_count,study_former_interval_appearances,study_venue_name_flag_appearances,review_priority,clue_types,identity_classification,review_status
+team:abkhazia,Abkhazia,2012-09-25,2019-06-08,33,33,15,2012-09-25,2019-06-04,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:afghanistan,Afghanistan,1941-08-10,2026-06-10,147,139,51,1984-09-12,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:albania,Albania,1946-08-22,2026-10-06,402,384,303,1980-09-03,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:alderney,Alderney,1905-04-17,2022-04-23,135,135,46,1980-03-29,2022-04-23,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:algeria,Algeria,1963-01-06,2026-10-06,621,590,340,1980-03-22,2024-11-17,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:ambazonia,Ambazonia,2005-06-23,2007-06-07,6,6,0,,,0,0,0,3_outside_study,[],unreviewed,pending
+team:american-samoa,American Samoa,1983-08-20,2026-03-28,55,53,14,1983-08-20,2024-09-06,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:andalusia,Andalusia,1923-01-14,2013-06-07,13,13,12,1990-05-08,2013-06-07,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:andorra,Andorra,1996-11-13,2026-10-04,233,214,184,1996-11-13,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:angola,Angola,1976-02-08,2026-10-06,417,402,294,1980-11-01,2024-11-15,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:anguilla,Anguilla,1985-11-05,2026-10-04,96,83,58,1985-11-05,2024-10-09,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:antigua-and-barbuda,Antigua and Barbuda,1972-11-10,2026-10-06,235,227,159,1983-04-02,2024-09-10,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:arameans-suryoye,Arameans Suryoye,2008-07-09,2014-06-08,10,10,1,2008-07-09,2008-07-09,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:argentina,Argentina,1902-07-20,2026-10-06,1079,1046,347,1980-05-13,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:armenia,Armenia,1979-07-21,2026-10-05,276,259,227,1992-10-14,2024-11-17,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:artsakh,Artsakh,2012-09-25,2019-06-08,11,11,8,2012-09-25,2019-06-08,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:aruba,Aruba,1924-04-06,2026-10-06,156,144,65,1989-04-02,2024-11-15,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:asturias,Asturias,1923-02-25,1923-02-25,1,1,0,,,0,0,0,3_outside_study,[],unreviewed,pending
+team:australia,Australia,1922-06-17,2026-09-29,587,567,316,1980-01-27,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:austria,Austria,1902-10-12,2026-10-04,868,847,376,1980-04-02,2024-11-17,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:aymara,Aymara,2022-06-18,2022-06-19,2,2,0,,,0,0,0,3_outside_study,[],unreviewed,pending
+team:azerbaijan,Azerbaijan,1979-07-24,2026-10-04,314,296,246,1992-09-17,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:bahamas,Bahamas,1971-04-14,2026-10-06,70,61,47,1999-02-24,2024-10-15,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:bahrain,Bahrain,1966-04-02,2026-09-30,587,570,323,1980-08-29,2024-12-31,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:bangladesh,Bangladesh,1973-07-27,2026-10-01,317,300,160,1982-02-18,2024-11-16,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:barawa,Barawa,2016-08-25,2019-05-25,12,12,12,2016-08-25,2019-05-25,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:barbados,Barbados,1929-04-20,2026-10-05,306,294,191,1981-07-05,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:basque-country,Basque Country,1915-01-03,2025-11-15,64,63,33,1980-08-03,2024-05-21,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:belarus,Belarus,1928-08-17,2026-10-06,320,302,245,1992-10-28,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:belgium,Belgium,1904-05-01,2026-10-05,863,839,371,1980-02-27,2024-11-14,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:belize,Belize,1983-12-08,2026-10-06,125,113,81,1983-12-08,2024-11-14,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:benin,Benin,1959-11-08,2026-10-06,328,309,207,1980-11-15,2024-11-18,1,0,0,2_study_unreviewed,[],unreviewed,pending
+team:bermuda,Bermuda,1964-08-10,2026-10-05,202,184,128,1982-05-08,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:bhutan,Bhutan,1982-04-01,2026-06-04,110,103,53,1982-04-01,2024-09-08,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:biafra,Biafra,2022-05-22,2022-05-25,3,3,0,,,0,0,0,3_outside_study,[],unreviewed,pending
+team:bolivia,Bolivia,1926-10-12,2026-10-01,537,517,302,1980-07-02,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:bonaire,Bonaire,2010-10-29,2026-10-05,48,38,12,2015-01-30,2024-11-14,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:bosnia-and-herzegovina,Bosnia and Herzegovina,1995-11-30,2026-10-05,291,269,239,1995-11-30,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:botswana,Botswana,1968-07-13,2026-09-28,334,321,259,1981-09-30,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:brazil,Brazil,1914-09-20,2026-10-03,1067,1045,409,1980-06-08,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:british-virgin-islands,British Virgin Islands,1985-11-05,2026-10-04,127,113,80,1985-11-05,2024-10-09,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:brittany,Brittany,1922-03-12,2013-05-28,12,12,6,1998-05-21,2013-05-28,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:brunei,Brunei,1971-05-22,2026-09-30,139,131,59,1982-10-07,2024-11-15,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:bulgaria,Bulgaria,1924-05-21,2026-10-06,740,722,388,1980-03-08,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:burkina-faso,Burkina Faso,1960-04-14,2026-10-03,467,442,279,1981-07-18,2024-11-18,1,8,0,1_study_with_clues,"[""upstream_historical_interval""]",unreviewed,pending
+team:burundi,Burundi,1953-09-19,2026-09-29,226,213,119,1981-08-06,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:cambodia,Cambodia,1954-11-01,2026-10-03,304,291,127,1995-12-12,2024-12-20,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:cameroon,Cameroon,1953-09-24,2026-10-03,619,596,321,1980-01-27,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:canada,Canada,1885-11-28,2026-10-06,477,451,276,1980-09-15,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:canary-islands,Canary Islands,1996-02-06,2007-12-29,4,4,4,1996-02-06,2007-12-29,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:canton-ticino,Canton Ticino,2023-06-17,2026-06-06,5,2,2,2023-06-17,2023-08-06,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:cape-verde,Cape Verde,1959-12-20,2026-09-29,241,220,149,1981-02-09,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:cascadia,Cascadia,2018-05-31,2019-05-25,7,7,2,2018-06-02,2019-05-25,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:catalonia,Catalonia,1912-02-10,2019-03-25,48,48,25,1997-12-23,2019-03-25,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:cayman-islands,Cayman Islands,1985-03-03,2026-10-04,123,112,85,1985-03-03,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:central-african-republic,Central African Republic,1960-04-14,2026-09-28,140,129,80,1984-12-12,2024-10-15,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:central-spain,Central Spain,1922-11-19,1923-11-25,2,2,0,,,0,0,0,3_outside_study,[],unreviewed,pending
+team:chad,Chad,1961-12-25,2026-03-31,140,128,76,1985-12-14,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:chagos-islands,Chagos Islands,2011-12-04,2019-12-29,16,16,6,2016-05-29,2019-06-02,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:chameria,Chameria,2019-06-02,2023-07-01,7,7,2,2019-06-03,2023-06-30,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:chechnya,Chechnya,2005-05-03,2006-02-18,3,3,1,2005-05-03,2005-05-03,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:chile,Chile,1910-05-27,2026-10-06,838,821,381,1980-06-24,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:china,China,1913-02-04,2026-10-06,709,694,380,1980-03-16,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:cilento,Cilento,2011-12-29,2011-12-29,1,1,1,2011-12-29,2011-12-29,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:colombia,Colombia,1938-02-10,2026-10-06,646,624,317,1980-07-09,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:comoros,Comoros,1979-08-26,2026-10-04,154,132,58,1990-08-21,2024-10-11,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:congo,Congo,1960-04-14,2026-09-29,408,403,239,1980-01-19,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:cook-islands,Cook Islands,1971-09-11,2026-10-01,55,53,16,1995-08-22,2024-03-26,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:corsica,Corsica,1967-02-28,2017-05-26,9,9,8,1998-05-14,2017-05-26,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:costa-rica,Costa Rica,1921-09-14,2026-10-04,727,704,380,1980-03-06,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:county-of-nice,County of Nice,2014-06-02,2015-06-21,9,9,1,2015-06-17,2015-06-17,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:crimea,Crimea,2006-11-19,2006-11-25,5,5,2,2006-11-19,2006-11-25,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:croatia,Croatia,1940-04-02,2026-10-06,404,382,292,1990-10-17,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:cuba,Cuba,1930-03-16,2026-10-05,401,386,200,1980-06-24,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:curacao,Curaçao,1924-04-06,2026-10-04,392,369,136,1980-09-12,2024-11-18,1,66,0,1_study_with_clues,"[""upstream_historical_interval""]",unreviewed,pending
+team:cyprus,Cyprus,1949-07-30,2026-10-05,429,411,342,1980-01-16,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:czech-republic,Czech Republic,1994-02-23,2026-10-06,367,346,290,1994-02-23,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:czechoslovakia,Czechoslovakia,1903-04-05,1993-11-17,520,520,120,1980-01-27,1993-11-17,3,7,0,1_study_with_clues,"[""upstream_historical_interval""]",unreviewed,pending
+team:dr-congo,DR Congo,1948-05-25,2026-10-05,532,506,280,1980-06-25,2024-11-19,4,98,0,1_study_with_clues,"[""upstream_historical_interval""]",unreviewed,pending
+team:darfur,Darfur,2012-06-04,2014-06-07,7,7,0,,,0,0,0,3_outside_study,[],unreviewed,pending
+team:denmark,Denmark,1908-10-22,2026-10-04,878,860,413,1980-05-07,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:djibouti,Djibouti,1947-12-05,2026-03-29,113,104,54,1983-03-27,2024-03-26,1,0,0,2_study_unreviewed,[],unreviewed,pending
+team:dominica,Dominica,1932-03-23,2026-10-04,220,207,110,1981-06-21,2024-11-16,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:dominican-republic,Dominican Republic,1949-05-14,2026-10-04,163,145,113,1986-05-21,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:donetsk-pr,Donetsk PR,2015-05-14,2017-08-31,6,6,6,2015-05-14,2017-08-31,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:delvidek,Délvidék,2016-08-01,2016-08-03,2,2,0,,,0,0,0,3_outside_study,[],unreviewed,pending
+team:east-turkestan,East Turkestan,2019-10-19,2025-07-04,5,2,0,,,0,0,0,3_outside_study,[],unreviewed,pending
+team:ecuador,Ecuador,1938-08-08,2026-10-05,598,577,306,1981-01-27,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:egypt,Egypt,1920-08-28,2026-10-04,768,736,438,1980-03-15,2024-11-19,1,0,0,2_study_unreviewed,[],unreviewed,pending
+team:el-salvador,El Salvador,1921-09-14,2026-10-05,618,598,273,1980-05-09,2024-11-17,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:elba-island,Elba Island,2022-04-22,2022-07-16,2,2,2,2022-04-22,2022-07-16,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:ellan-vannin,Ellan Vannin,2014-04-06,2018-06-03,22,22,6,2014-04-06,2018-06-03,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:england,England,1872-11-30,2026-10-06,1102,1076,434,1980-02-06,2024-11-17,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:equatorial-guinea,Equatorial Guinea,1975-05-23,2026-09-28,181,164,130,1981-06-01,2024-11-17,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:eritrea,Eritrea,1992-06-26,2026-09-30,75,71,41,1992-06-26,2019-09-10,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:estonia,Estonia,1920-10-17,2026-10-06,554,536,374,1991-11-15,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:eswatini,Eswatini,1968-05-01,2026-03-31,276,268,200,1981-09-04,2024-11-19,1,173,0,1_study_with_clues,"[""upstream_historical_interval""]",unreviewed,pending
+team:ethiopia,Ethiopia,1947-12-05,2026-09-29,413,399,227,1980-05-18,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:falkland-islands,Falkland Islands,2001-07-08,2023-07-13,33,33,3,2001-07-08,2013-07-15,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:faroe-islands,Faroe Islands,1972-07-12,2026-10-06,291,274,244,1980-06-30,2024-11-17,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:felvidek,Felvidék,2015-05-30,2017-06-09,12,12,2,2015-05-31,2015-06-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:fiji,Fiji,1951-10-07,2026-10-03,273,262,126,1980-02-19,2024-12-21,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:finland,Finland,1911-10-22,2026-10-06,822,804,426,1980-05-22,2024-11-17,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:france,France,1904-05-01,2026-10-05,947,921,431,1980-02-27,2024-11-17,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:franconia,Franconia,2014-05-29,2019-06-25,3,3,3,2014-05-29,2019-06-25,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:french-guiana,French Guiana,1936-01-01,2026-10-06,183,179,96,1981-06-07,2024-11-14,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:frya,Frøya,1997-06-29,2025-07-17,37,33,4,1997-06-29,2017-06-25,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:gabon,Gabon,1960-04-14,2026-09-29,407,391,271,1980-02-01,2024-11-15,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:galicia,Galicia,1922-11-19,2024-05-21,12,12,7,2005-12-25,2024-05-21,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:gambia,Gambia,1953-02-09,2026-09-29,268,255,158,1980-02-09,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:georgia,Georgia,1979-07-22,2026-10-05,312,294,262,1990-05-27,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:german-dr,German DR,1952-05-18,1990-09-12,298,298,102,1980-02-13,1990-09-12,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:germany,Germany,1908-04-05,2026-10-04,1039,1017,461,1980-02-27,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:ghana,Ghana,1950-05-28,2026-09-29,677,657,316,1980-01-06,2024-11-18,1,0,0,2_study_unreviewed,[],unreviewed,pending
+team:gibraltar,Gibraltar,1993-07-04,2026-10-05,163,147,90,1995-07-16,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:gotland,Gotland,1999-06-27,2017-06-29,30,30,9,1999-06-27,2017-06-29,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:gozo,Gozo,2009-06-22,2025-07-17,14,11,5,2010-05-31,2023-07-13,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:greece,Greece,1919-06-25,2026-10-04,640,622,418,1980-01-16,2024-11-17,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:greenland,Greenland,1980-07-02,2026-06-06,80,77,13,1980-07-03,2017-06-27,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:grenada,Grenada,1938-08-17,2026-10-05,264,249,156,1980-03-30,2024-09-09,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:guadeloupe,Guadeloupe,1934-03-13,2026-10-05,275,264,104,1980-05-09,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:guam,Guam,1975-08-02,2026-06-06,123,119,56,1996-08-07,2024-12-17,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:guatemala,Guatemala,1921-09-18,2026-10-05,558,534,247,1980-04-15,2024-10-15,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:guernsey,Guernsey,1905-04-17,2023-07-13,240,240,84,1980-03-29,2023-07-13,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:guinea,Guinea,1962-05-09,2026-10-01,541,528,247,1980-02-13,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:guinea-bissau,Guinea-Bissau,1953-06-02,2026-09-29,192,180,96,1980-02-09,2024-11-19,1,0,0,2_study_unreviewed,[],unreviewed,pending
+team:guyana,Guyana,1905-07-21,2026-10-04,317,305,157,1980-03-30,2024-11-19,1,0,0,2_study_unreviewed,[],unreviewed,pending
+team:gagauzia,Găgăuzia,2006-11-19,2006-11-21,3,3,0,,,0,0,0,3_outside_study,[],unreviewed,pending
+team:haiti,Haiti,1925-03-22,2026-10-04,517,494,188,1980-05-13,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:hitra,Hitra,1997-06-29,2025-07-17,23,19,1,1999-06-27,1999-06-27,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:hmong,Hmong,2023-08-04,2023-08-08,3,3,0,,,0,0,0,3_outside_study,[],unreviewed,pending
+team:honduras,Honduras,1927-11-07,2026-10-05,624,602,338,1980-03-06,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:hong-kong,Hong Kong,1953-04-05,2026-10-03,450,435,214,1980-06-01,2024-12-17,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:hungary,Hungary,1902-10-12,2026-10-05,1010,992,423,1980-03-26,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:iceland,Iceland,1946-07-17,2026-10-06,526,507,366,1980-06-02,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:india,India,1938-09-03,2026-10-06,540,526,244,1981-09-15,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:indonesia,Indonesia,1934-05-13,2026-10-05,735,715,294,1980-08-25,2024-12-21,1,0,0,2_study_unreviewed,[],unreviewed,pending
+team:iran,Iran,1941-08-23,2026-09-29,622,605,314,1980-08-05,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:iraq,Iraq,1960-06-05,2026-09-29,665,641,238,1980-02-27,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:iraqi-kurdistan,Iraqi Kurdistan,2008-07-07,2016-06-04,27,27,8,2008-07-07,2012-06-09,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:isle-of-man,Isle of Man,1993-07-04,2025-07-18,58,53,11,1993-07-04,2015-06-30,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:isle-of-wight,Isle of Wight,1991-06-24,2023-07-13,48,48,13,1991-06-24,2023-07-11,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:israel,Israel,1934-03-16,2026-10-04,502,486,332,1980-03-26,2024-11-14,1,0,0,2_study_unreviewed,[],unreviewed,pending
+team:italy,Italy,1910-05-15,2026-10-05,897,879,393,1980-02-16,2024-11-17,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:ivory-coast,Ivory Coast,1960-04-14,2026-10-03,643,618,333,1980-01-19,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:jamaica,Jamaica,1925-03-22,2026-10-05,668,641,371,1984-04-29,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:japan,Japan,1917-05-07,2026-10-05,797,773,392,1980-06-11,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:jersey,Jersey,1905-04-27,2025-07-18,235,232,88,1980-05-09,2022-05-21,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:jordan,Jordan,1963-01-06,2026-10-06,495,467,314,1981-02-06,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:kabylia,Kabylia,2018-05-31,2018-06-09,6,6,0,,,0,0,0,3_outside_study,[],unreviewed,pending
+team:kazakhstan,Kazakhstan,1979-08-04,2026-10-06,273,254,208,1992-06-01,2024-11-17,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:kenya,Kenya,1926-05-01,2026-10-05,709,689,345,1980-06-29,2024-10-11,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:kernow,Kernow,1953-09-26,2023-07-16,12,12,9,1998-11-21,2023-07-16,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:kiribati,Kiribati,1979-08-30,2011-09-05,11,11,1,2003-07-05,2003-07-05,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:kosovo,Kosovo,2005-11-02,2026-10-04,110,92,73,2005-11-02,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:kurdistan,Kurdistan,2012-05-15,2013-06-28,5,5,1,2013-06-28,2013-06-28,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:kuwait,Kuwait,1963-01-06,2026-09-29,687,671,348,1980-03-08,2024-12-31,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:kyrgyzstan,Kyrgyzstan,1956-08-03,2026-10-04,193,183,113,1992-08-23,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:karpatalja,Kárpátalja,2016-08-01,2018-06-09,11,11,1,2017-06-04,2017-06-04,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:laos,Laos,1961-12-12,2026-09-27,232,220,96,1997-10-05,2024-12-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:latvia,Latvia,1922-09-24,2026-10-05,465,449,296,1991-11-17,2024-11-17,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:lebanon,Lebanon,1940-04-27,2026-10-04,339,327,221,1989-10-30,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:lesotho,Lesotho,1970-08-08,2026-09-29,300,287,193,1980-06-22,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:liberia,Liberia,1961-12-25,2026-09-29,304,291,216,1980-01-26,2024-11-17,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:libya,Libya,1957-06-02,2026-09-29,387,375,209,1980-04-27,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:liechtenstein,Liechtenstein,1981-06-14,2026-10-05,263,245,228,1982-03-09,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:lithuania,Lithuania,1923-06-24,2026-10-04,434,416,298,1990-05-27,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:luhansk-pr,Luhansk PR,2015-05-05,2019-12-08,6,6,6,2015-05-05,2019-12-08,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:luxembourg,Luxembourg,1911-10-29,2026-10-06,471,455,326,1980-02-27,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:macau,Macau,1949-01-25,2026-03-29,148,145,82,1980-06-01,2024-09-10,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:madagascar,Madagascar,1947-02-15,2026-09-29,322,307,176,1980-06-19,2024-09-05,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:madrid,Madrid,2013-06-07,2013-06-07,1,1,1,2013-06-07,2013-06-07,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:malawi,Malawi,1957-08-28,2026-10-06,646,633,384,1980-05-04,2024-11-18,1,0,0,2_study_unreviewed,[],unreviewed,pending
+team:malaysia,Malaysia,1953-04-16,2026-10-05,846,827,346,1980-03-12,2024-12-20,1,0,0,2_study_unreviewed,[],unreviewed,pending
+team:maldives,Maldives,1979-08-27,2026-10-01,236,222,129,1984-09-18,2024-11-16,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:mali,Mali,1960-04-14,2026-10-04,572,554,320,1980-09-28,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:malta,Malta,1957-02-24,2026-10-04,462,446,365,1980-02-27,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:manchukuo,Manchukuo,1939-09-03,1942-08-09,3,3,0,,,0,0,0,3_outside_study,[],unreviewed,pending
+team:mapuche,Mapuche,2022-06-17,2022-06-18,2,2,0,,,0,0,0,3_outside_study,[],unreviewed,pending
+team:marshall-islands,Marshall Islands,2025-08-14,2025-08-16,2,0,0,,,0,0,0,3_outside_study,[],unreviewed,pending
+team:martinique,Martinique,1931-02-11,2026-10-05,335,325,138,1980-05-09,2024-10-15,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:matabeleland,Matabeleland,2018-05-31,2022-05-25,8,8,0,,,0,0,0,3_outside_study,[],unreviewed,pending
+team:maule-sur,Maule Sur,2022-06-17,2022-06-19,2,2,0,,,0,0,0,3_outside_study,[],unreviewed,pending
+team:mauritania,Mauritania,1961-12-25,2026-09-29,275,259,164,1980-02-16,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:mauritius,Mauritius,1947-02-15,2026-10-05,331,321,175,1980-09-14,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:mayotte,Mayotte,2001-11-20,2023-08-26,38,38,10,2001-11-20,2019-07-24,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:menorca,Menorca,2007-06-30,2023-07-13,25,25,1,2009-06-30,2009-06-30,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:mexico,Mexico,1923-01-01,2026-10-06,1010,975,345,1980-03-18,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:micronesia,Micronesia,1999-06-05,2003-07-07,7,7,3,1999-06-05,1999-07-12,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:moldova,Moldova,1956-08-12,2026-10-06,304,286,244,1991-07-02,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:monaco,Monaco,2000-06-11,2017-04-29,24,24,11,2000-06-11,2017-04-29,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:mongolia,Mongolia,1942-08-10,2026-06-05,106,104,56,1993-05-10,2024-12-08,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:montenegro,Montenegro,1946-08-22,2026-10-05,174,156,148,2007-03-24,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:montserrat,Montserrat,1991-05-10,2026-10-06,70,64,34,1991-05-10,2024-11-17,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:morocco,Morocco,1958-04-03,2026-10-04,625,586,354,1980-02-12,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:mozambique,Mozambique,1975-06-25,2026-09-29,377,361,276,1980-04-20,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:myanmar,Myanmar,1951-03-05,2026-09-27,520,505,142,1980-10-17,2024-12-21,1,3,0,1_study_with_clues,"[""upstream_historical_interval""]",unreviewed,pending
+team:namibia,Namibia,1989-05-16,2026-10-03,282,269,206,1989-05-16,2024-09-07,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:nepal,Nepal,1972-10-13,2025-11-18,274,261,139,1982-02-12,2024-11-13,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:netherlands,Netherlands,1905-04-30,2026-10-04,887,865,401,1980-01-23,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:new-caledonia,New Caledonia,1951-09-19,2026-09-30,269,259,80,1980-02-24,2023-12-02,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:new-zealand,New Zealand,1922-06-17,2026-10-05,423,402,206,1980-02-19,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:nicaragua,Nicaragua,1929-05-01,2026-10-04,226,208,121,1984-04-27,2024-10-14,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:niger,Niger,1961-12-25,2026-10-06,263,246,170,1980-07-16,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:nigeria,Nigeria,1949-10-08,2026-10-06,665,636,307,1980-01-26,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:niue,Niue,1983-08-20,1983-08-22,2,2,0,,,0,0,0,3_outside_study,[],unreviewed,pending
+team:north-korea,North Korea,1956-10-07,2025-06-10,388,383,153,1980-12-28,2024-10-15,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:north-macedonia,North Macedonia,1993-10-13,2026-10-06,310,292,263,1993-10-13,2024-11-17,1,206,0,1_study_with_clues,"[""upstream_historical_interval""]",unreviewed,pending
+team:north-vietnam,North Vietnam,1956-10-04,1970-09-20,24,24,0,,,0,0,0,3_outside_study,[],unreviewed,pending
+team:northern-cyprus,Northern Cyprus,1977-01-05,2026-06-06,39,36,18,1980-09-28,2018-06-05,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:northern-ireland,Northern Ireland,1882-02-18,2026-10-05,711,693,337,1980-03-26,2024-11-18,1,0,0,2_study_unreviewed,[],unreviewed,pending
+team:northern-mariana-islands,Northern Mariana Islands,1998-07-30,2024-04-07,30,30,13,1999-07-12,2024-04-07,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:norway,Norway,1908-07-12,2026-10-04,882,858,437,1980-05-22,2024-11-17,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:occitania,Occitania,2005-02-12,2014-12-30,33,33,16,2005-02-12,2014-12-30,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:oman,Oman,1966-04-03,2026-10-03,551,526,339,1981-02-14,2024-12-21,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:orkney,Orkney,2001-07-08,2025-07-17,28,24,2,2003-06-30,2019-06-17,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:padania,Padania,2008-07-08,2026-06-06,48,45,9,2008-07-11,2019-06-08,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:pakistan,Pakistan,1952-03-18,2026-10-02,258,247,102,1981-11-11,2024-06-11,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:palau,Palau,1987-03-06,1998-08-01,2,2,1,1998-08-01,1998-08-01,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:palestine,Palestine,1966-04-01,2026-10-02,260,244,112,1992-09-11,2024-11-14,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:panama,Panama,1938-02-12,2026-10-05,545,517,318,1980-05-09,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:panjab,Panjab,2015-05-30,2019-12-29,19,19,6,2015-05-30,2018-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:papua-new-guinea,Papua New Guinea,1963-08-29,2026-09-30,159,152,51,1980-02-28,2024-12-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:paraguay,Paraguay,1919-05-11,2026-10-02,791,771,356,1980-08-26,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:parishes-of-jersey,Parishes of Jersey,2018-10-21,2019-06-02,3,3,3,2018-10-21,2019-06-02,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:peru,Peru,1927-11-01,2026-10-06,718,701,352,1980-07-18,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:philippines,Philippines,1913-02-04,2026-10-02,350,334,161,1981-08-14,2024-12-30,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:poland,Poland,1921-12-18,2026-10-05,895,877,460,1980-02-17,2024-11-18,0,0,1,1_study_with_clues,"[""literal_venue_name_relation""]",unreviewed,pending
+team:portugal,Portugal,1921-12-18,2026-10-04,704,681,383,1980-03-26,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:provence,Provence,1921-04-03,2013-06-28,23,23,8,2008-07-12,2013-06-28,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:puerto-rico,Puerto Rico,1940-11-12,2026-10-04,167,154,93,1981-10-19,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:qatar,Qatar,1970-03-27,2026-10-03,643,621,393,1980-09-25,2024-12-27,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:quebec,Quebec,2013-06-23,2013-06-27,3,3,1,2013-06-25,2013-06-25,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:raetia,Raetia,2011-12-04,2026-06-06,29,26,12,2012-01-14,2023-08-06,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:republic-of-ireland,Republic of Ireland,1924-05-28,2026-10-04,637,618,388,1980-02-06,2024-11-17,2,0,0,2_study_unreviewed,[],unreviewed,pending
+team:republic-of-st-pauli,Republic of St. Pauli,2006-05-29,2006-06-03,4,4,4,2006-05-29,2006-06-03,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:rhodes,Rhodes,1999-06-27,2011-06-27,18,18,4,2001-07-12,2007-07-05,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:romani-people,Romani people,2007-06-07,2016-05-16,7,7,2,2011-05-28,2015-06-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:romania,Romania,1919-06-24,2026-10-05,772,754,414,1980-02-16,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:rouet-provence,Rouet-Provence,2026-06-02,2026-06-06,3,0,0,,,0,0,0,3_outside_study,[],unreviewed,pending
+team:russia,Russia,1910-10-16,2026-10-06,753,735,387,1980-03-26,2024-11-19,2,99,0,1_study_with_clues,"[""upstream_historical_interval""]",unreviewed,pending
+team:rwanda,Rwanda,1976-07-03,2026-10-05,283,270,193,1981-04-26,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:ryukyu,Ryūkyū,2016-11-26,2016-11-26,1,1,0,,,0,0,0,3_outside_study,[],unreviewed,pending
+team:reunion,Réunion,1947-05-15,2023-09-02,124,124,45,1981-07-12,2023-09-02,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:saare-county,Saare County,1999-06-27,2017-06-29,35,35,1,2005-07-13,2005-07-13,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:saarland,Saarland,1953-06-24,1956-06-06,9,9,0,,,0,0,0,3_outside_study,[],unreviewed,pending
+team:saint-barthelemy,Saint Barthélemy,2010-07-03,2023-03-10,10,10,10,2010-07-03,2023-03-10,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:saint-helena,Saint Helena,2019-06-12,2023-07-13,8,8,1,2019-06-12,2019-06-12,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:saint-kitts-and-nevis,Saint Kitts and Nevis,1938-08-17,2026-10-05,230,215,169,1983-05-25,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:saint-lucia,Saint Lucia,1938-01-09,2026-10-05,234,225,138,1984-12-02,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:saint-martin,Saint Martin,1990-03-24,2026-10-06,72,62,36,1990-03-24,2024-11-15,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:saint-pierre-and-miquelon,Saint Pierre and Miquelon,2010-09-22,2012-09-28,7,7,0,,,0,0,0,3_outside_study,[],unreviewed,pending
+team:saint-vincent-and-the-grenadines,Saint Vincent and the Grenadines,1961-01-16,2026-10-06,240,220,142,1981-07-05,2024-10-13,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:samoa,Samoa,1979-08-31,2024-11-18,71,71,39,1981-07-10,2024-11-18,1,8,0,1_study_with_clues,"[""upstream_historical_interval""]",unreviewed,pending
+team:san-marino,San Marino,1990-11-14,2026-10-06,229,211,205,1990-11-14,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:sark,Sark,2003-06-29,2003-07-03,4,4,0,,,0,0,0,3_outside_study,[],unreviewed,pending
+team:saudi-arabia,Saudi Arabia,1963-11-18,2026-10-06,749,716,385,1980-01-30,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:saugeais,Saugeais,2013-06-29,2013-06-29,1,1,1,2013-06-29,2013-06-29,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:scotland,Scotland,1872-11-30,2026-10-06,858,837,371,1980-03-26,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:sealand,Sealand,2004-05-15,2014-08-10,12,12,4,2004-05-15,2014-08-10,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:seborga,Seborga,2014-08-10,2014-08-10,1,1,1,2014-08-10,2014-08-10,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:senegal,Senegal,1961-12-05,2026-10-04,645,615,332,1980-02-18,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:serbia,Serbia,1950-02-26,2026-10-04,352,334,271,1994-12-23,2024-11-18,2,101,0,1_study_with_clues,"[""upstream_historical_interval""]",unreviewed,pending
+team:seychelles,Seychelles,1974-03-13,2026-09-30,183,173,93,1983-06-19,2023-11-17,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:shetland,Shetland,1989-07-06,2025-07-17,58,55,11,1989-07-08,2019-06-20,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:sierra-leone,Sierra Leone,1949-10-08,2026-09-28,303,292,174,1980-01-06,2024-10-11,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:silesia,Silesia,1933-10-04,2006-12-09,8,8,1,2006-12-09,2006-12-09,0,0,1,1_study_with_clues,"[""literal_venue_name_relation""]",unreviewed,pending
+team:singapore,Singapore,1953-04-11,2026-10-01,706,685,337,1980-09-09,2024-12-29,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:sint-maarten,Sint Maarten,1989-05-07,2026-10-06,64,56,28,1989-05-07,2023-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:slovakia,Slovakia,1939-08-27,2026-10-06,374,356,293,1992-06-28,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:slovenia,Slovenia,1991-06-19,2026-10-06,321,303,273,1991-06-19,2024-11-17,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:solomon-islands,Solomon Islands,1963-08-30,2026-09-30,218,210,107,1981-07-07,2024-12-21,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:somalia,Somalia,1963-11-11,2026-09-29,128,116,29,1980-07-16,2024-06-07,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:somaliland,Somaliland,2014-05-17,2019-05-04,6,6,1,2019-05-04,2019-05-04,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:south-africa,South Africa,1906-07-09,2026-10-04,488,464,354,1992-07-07,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:south-korea,South Korea,1949-01-02,2026-10-06,1004,983,418,1980-01-30,2024-11-14,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:south-ossetia,South Ossetia,2013-09-23,2019-12-08,17,17,4,2013-09-23,2019-12-08,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:south-sudan,South Sudan,2012-07-10,2026-09-29,82,71,41,2012-07-10,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:south-yemen,South Yemen,1982-11-21,1982-11-25,3,3,0,,,0,0,0,3_outside_study,[],unreviewed,pending
+team:spain,Spain,1920-08-28,2026-10-06,795,769,418,1980-01-23,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:sri-lanka,Sri Lanka,1952-03-24,2026-10-05,258,245,118,1983-11-20,2024-10-13,1,0,0,2_study_unreviewed,[],unreviewed,pending
+team:sudan,Sudan,1956-11-16,2026-09-29,471,450,241,1980-11-14,2024-10-10,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:suriname,Suriname,1921-01-28,2026-10-05,403,385,158,1980-08-17,2024-11-19,1,0,0,2_study_unreviewed,[],unreviewed,pending
+team:surrey,Surrey,2018-05-06,2018-05-06,1,1,1,2018-05-06,2018-05-06,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:sweden,Sweden,1908-07-12,2026-10-05,1109,1087,453,1980-04-29,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:switzerland,Switzerland,1905-02-12,2026-10-06,894,870,406,1980-03-26,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:syria,Syria,1949-11-20,2026-10-01,488,473,246,1981-02-15,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:szekely-land,Székely Land,2014-11-08,2023-07-02,27,27,8,2014-11-08,2023-07-02,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:sapmi,Sápmi,2005-11-03,2023-07-16,31,31,16,2005-11-04,2023-07-16,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:sao-tome-and-principe,São Tomé and Príncipe,1976-05-02,2026-09-23,74,65,46,1981-06-01,2024-06-06,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:tahiti,Tahiti,1952-09-21,2026-10-01,244,239,74,1980-03-20,2024-06-22,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:taiwan,Taiwan,1950-04-16,2025-11-18,246,240,113,1981-05-07,2024-12-14,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:tajikistan,Tajikistan,1992-06-17,2026-10-06,207,195,125,1992-06-17,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:tamil-eelam,Tamil Eelam,2012-06-05,2025-07-04,28,25,3,2014-06-05,2018-05-31,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:tanzania,Tanzania,1945-03-28,2026-09-29,601,581,318,1980-03-08,2024-11-19,1,0,0,2_study_unreviewed,[],unreviewed,pending
+team:thailand,Thailand,1954-11-01,2026-10-05,881,855,389,1980-08-27,2024-12-30,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:tibet,Tibet,2001-06-30,2025-07-03,21,19,4,2006-05-30,2022-08-07,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:timor-leste,Timor-Leste,2003-03-21,2026-09-30,92,80,46,2003-03-21,2024-12-17,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:togo,Togo,1956-10-06,2026-09-29,449,437,269,1980-06-13,2024-11-17,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:tonga,Tonga,1979-08-29,2024-09-09,68,68,24,1983-08-22,2024-09-09,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:trinidad-and-tobago,Trinidad and Tobago,1905-07-21,2026-10-04,757,731,422,1980-08-01,2024-10-14,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:tunisia,Tunisia,1957-06-02,2026-09-28,683,656,400,1980-01-27,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:turkey,Turkey,1923-10-26,2026-10-05,654,631,382,1980-09-24,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:turkmenistan,Turkmenistan,1992-06-01,2025-11-18,175,170,107,1992-06-01,2024-06-11,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:turks-and-caicos-islands,Turks and Caicos Islands,1999-02-24,2026-10-06,56,50,36,1999-02-24,2024-10-15,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:tuvalu,Tuvalu,1979-08-30,2023-11-30,39,39,4,2003-05-01,2017-12-12,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:two-sicilies,Two Sicilies,2010-05-31,2023-07-02,6,6,1,2023-07-02,2023-07-02,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:uganda,Uganda,1926-05-01,2026-10-05,689,670,315,1981-08-06,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:ukraine,Ukraine,1928-08-19,2026-10-05,342,324,268,1992-04-29,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:united-arab-emirates,United Arab Emirates,1972-03-17,2026-10-06,617,597,372,1980-08-05,2024-12-24,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:united-koreans-in-japan,United Koreans in Japan,2016-05-30,2018-06-09,12,12,0,,,0,0,0,3_outside_study,[],unreviewed,pending
+team:united-states,United States,1885-11-28,2026-10-06,796,765,583,1980-10-04,2024-11-18,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:united-states-virgin-islands,United States Virgin Islands,1998-03-22,2026-10-01,81,74,60,1998-03-22,2024-10-09,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:uruguay,Uruguay,1902-07-20,2026-10-06,979,954,382,1980-03-15,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:uzbekistan,Uzbekistan,1992-06-17,2026-10-06,363,343,240,1992-06-17,2024-11-14,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:vanuatu,Vanuatu,1951-10-04,2026-10-03,222,213,85,1980-02-26,2024-12-09,1,2,0,1_study_with_clues,"[""upstream_historical_interval""]",unreviewed,pending
+team:vatican-city,Vatican City,2002-11-23,2022-04-22,8,8,5,2011-06-12,2022-04-22,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:venezuela,Venezuela,1938-02-12,2026-10-06,463,446,304,1981-01-11,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:vietnam,Vietnam,1949-01-16,2026-10-05,311,288,193,1991-11-26,2024-12-29,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:vietnam-republic,Vietnam Republic,1956-05-03,1975-03-23,195,195,0,,,0,0,0,3_outside_study,[],unreviewed,pending
+team:wales,Wales,1876-03-25,2026-10-04,730,712,338,1980-05-17,2024-11-19,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:wallis-islands-and-futuna,Wallis Islands and Futuna,1966-12-11,1995-08-20,24,24,3,1987-12-15,1995-08-17,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:west-papua,West Papua,2019-10-19,2022-11-13,2,2,0,,,0,0,0,3_outside_study,[],unreviewed,pending
+team:western-armenia,Western Armenia,2016-05-30,2019-06-09,16,16,2,2016-05-31,2018-06-09,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:western-australia,Western Australia,1967-08-10,1980-11-25,32,32,0,,,0,0,0,3_outside_study,[],unreviewed,pending
+team:western-isles,Western Isles,2005-07-11,2025-07-17,34,32,5,2007-07-04,2023-07-09,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:western-sahara,Western Sahara,2001-02-27,2013-06-28,9,9,1,2012-06-04,2012-06-04,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:yemen,Yemen,1966-04-02,2026-09-30,269,260,119,1984-10-12,2024-06-06,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:yemen-dpr,Yemen DPR,1972-01-01,1989-11-05,25,25,5,1981-05-17,1988-06-17,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:ynys-mon,Ynys Môn,1989-07-06,2025-07-17,67,65,13,1989-07-06,2019-06-21,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:yorkshire,Yorkshire,2018-01-28,2019-06-01,7,7,7,2018-01-28,2019-06-01,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:yoruba-nation,Yoruba Nation,2022-05-21,2022-05-23,2,2,0,,,0,0,0,3_outside_study,[],unreviewed,pending
+team:yugoslavia,Yugoslavia,1920-08-28,1992-03-25,483,483,86,1980-03-22,1992-03-25,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:zambia,Zambia,1946-06-16,2026-09-29,795,777,428,1980-04-21,2024-11-15,1,0,0,2_study_unreviewed,[],unreviewed,pending
+team:zanzibar,Zanzibar,1947-09-18,2025-01-13,209,205,29,1981-11-15,2017-12-17,0,0,0,2_study_unreviewed,[],unreviewed,pending
+team:zimbabwe,Zimbabwe,1946-06-16,2026-09-28,498,480,336,1980-04-20,2024-11-19,1,0,0,2_study_unreviewed,[],unreviewed,pending
+team:aland-islands,Åland Islands,1989-07-08,2023-07-13,51,51,15,1989-07-12,2023-07-10,0,0,0,2_study_unreviewed,[],unreviewed,pending

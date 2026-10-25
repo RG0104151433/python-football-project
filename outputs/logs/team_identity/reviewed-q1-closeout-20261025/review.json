@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "run_manifest": "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json",
+  "identity_manifest": "data/processed/team_identity/identity-reviewed-29d880765c1623764940/identity_manifest.json",
+  "current_verification": {
+    "passed": true,
+    "analysis_id": "eras-fifa-dddf11dd6dc0b7531b88",
+    "verified_outputs": 22,
+    "inference": "not_run"
+  },
+  "identity_verification": {
+    "passed": true,
+    "identity_version": "identity-reviewed-29d880765c1623764940",
+    "verified_outputs": 10,
+    "final_release": false
+  },
+  "previous_identity_preserved": {
+    "passed": true,
+    "identity_version": "identity-fifa-f4b591a95719b634d9de",
+    "verified_outputs": 7,
+    "final_release": false
+  },
+  "historical_run_verifications": {
+    "outputs/logs/team_identity/confirmed-eras-20261025T002437005064Z-f19d8184/run_manifest.json": {
+      "passed": true,
+      "analysis_id": "eras-fifa-24196f9d60d19c30658a",
+      "verified_outputs": 22,
+      "inference": "not_run"
+    },
+    "outputs/logs/eras/eras-20261024T013933600718Z-425e4920/run_manifest.json": {
+      "passed": true,
+      "analysis_id": "eras-7f332ed60ac443228960",
+      "verified_outputs": 24,
+      "inference": "not_run"
+    }
+  },
+  "checks": 426,
+  "independent_checks": 630,
+  "code_fingerprint": "c220f66d1aa6d857a1fd17860a628bcd0080f20d2fa8cd847a5e4197ac19ff2e",
+  "inference": "not_run",
+  "q2": "planning_only",
+  "human_basis": "Project owner user; support not archived"
+}

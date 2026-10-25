@@ -1,0 +1,21 @@
+{
+  "complete_clean_coverage": true,
+  "counts": {
+    "clean_matches": 48102,
+    "membership_status": {
+      "conditional_both_members": 32810,
+      "nonmember_evidence": 493,
+      "outside_scope": 12064,
+      "pending": 2735
+    },
+    "previous_study_matches": 26055,
+    "study_disposition": {
+      "excluded_by_membership_evidence": 246,
+      "quarantined_pending": 1530,
+      "retained": 24279
+    }
+  },
+  "final_release": false,
+  "passed": true,
+  "unique_matches": true
+}

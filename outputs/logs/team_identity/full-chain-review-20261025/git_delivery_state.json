@@ -1,0 +1,41 @@
+{
+  "working_tree_dirty": true,
+  "critical_paths": [
+    {
+      "path": "scripts/analyze_confirmed_eras.py",
+      "exists": true,
+      "tracked": false
+    },
+    {
+      "path": "scripts/audit_confirmed_eras.py",
+      "exists": true,
+      "tracked": false
+    },
+    {
+      "path": "scripts/build_team_identity.py",
+      "exists": true,
+      "tracked": false
+    },
+    {
+      "path": "config/confirmed_eras_v2.json",
+      "exists": true,
+      "tracked": false
+    },
+    {
+      "path": "config/eras_fifa.json",
+      "exists": true,
+      "tracked": false
+    },
+    {
+      "path": "研究/pipeline_state.json",
+      "exists": true,
+      "tracked": false
+    },
+    {
+      "path": "outputs/tables/eras/eras-fifa-24196f9d60d19c30658a/era_summary.csv",
+      "exists": true,
+      "tracked": false
+    }
+  ],
+  "note": "No commit/push performed. Existing local reproducibility does not guarantee clone delivery until changes are deliberately committed and shared."
+}

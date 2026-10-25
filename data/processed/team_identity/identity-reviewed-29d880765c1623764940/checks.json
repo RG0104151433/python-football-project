@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "changed_matches": 1582,
+    "clean_matches": 48102,
+    "membership_status": {
+      "conditional_both_members": 33448,
+      "nonmember_evidence": 1385,
+      "outside_scope": 12064,
+      "pending": 1205
+    },
+    "previous_study_matches": 26055,
+    "study_disposition": {
+      "excluded_by_membership_evidence": 1138,
+      "retained": 24917
+    },
+    "user_approved_matches": 117
+  },
+  "full_history_verified": false,
+  "passed": true
+}

@@ -1,0 +1,149 @@
+source_team_id,source_team_label,pending_status,previous_assessment_ids,current_assessment_ids,work_status,resolution_status,covered_match_count,remaining_match_count,next_action
+team:martinique,Martinique,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,138,未查；按优先级A-D安排
+team:czechoslovakia,Czechoslovakia,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,120,未查；按优先级A-D安排
+team:serbia,Serbia,pending_historical_episode,[],[],not_reviewed,not_reviewed,0,108,未查；按优先级A-D安排
+team:guadeloupe,Guadeloupe,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,104,未查；按优先级A-D安排
+team:german-dr,German DR,pending_unmapped_label,"[""AGB1-A001""]","[""AGB2-A001""]",revised,partial,102,0,取得FIFA主证据以升级或消解建议
+team:russia,Russia,pending_historical_episode,[],"[""AGB2-A041"", ""AGB2-A042""]",new_evidence,partial,101,0,取得FIFA主证据以升级或消解建议
+team:french-guiana,French Guiana,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,96,未查；按优先级A-D安排
+team:jersey,Jersey,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,88,未查；按优先级A-D安排
+team:yugoslavia,Yugoslavia,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,86,未查；按优先级A-D安排
+team:guernsey,Guernsey,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,84,未查；按优先级A-D安排
+team:curacao,Curaçao,pending_historical_episode,[],[],not_reviewed,not_reviewed,0,69,未查；按优先级A-D安排
+team:alderney,Alderney,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,46,未查；按优先级A-D安排
+team:reunion,Réunion,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,45,未查；按优先级A-D安排
+team:saint-martin,Saint Martin,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,36,未查；按优先级A-D安排
+team:basque-country,Basque Country,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,33,未查；按优先级A-D安排
+team:zanzibar,Zanzibar,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,29,未查；按优先级A-D安排
+team:sint-maarten,Sint Maarten,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,28,未查；按优先级A-D安排
+team:catalonia,Catalonia,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,25,未查；按优先级A-D安排
+team:northern-cyprus,Northern Cyprus,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,18,未查；按优先级A-D安排
+team:occitania,Occitania,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,16,未查；按优先级A-D安排
+team:sapmi,Sápmi,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,16,未查；按优先级A-D安排
+team:abkhazia,Abkhazia,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,15,未查；按优先级A-D安排
+team:aland-islands,Åland Islands,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,15,未查；按优先级A-D安排
+team:greenland,Greenland,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,13,未查；按优先级A-D安排
+team:isle-of-wight,Isle of Wight,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,13,未查；按优先级A-D安排
+team:northern-mariana-islands,Northern Mariana Islands,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,13,未查；按优先级A-D安排
+team:ynys-mon,Ynys Môn,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,13,未查；按优先级A-D安排
+team:andalusia,Andalusia,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,12,未查；按优先级A-D安排
+team:barawa,Barawa,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,12,未查；按优先级A-D安排
+team:bonaire,Bonaire,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,12,未查；按优先级A-D安排
+team:latvia,Latvia,pending_admission_year,"[""AGB1-A008""]","[""AGB2-A010"", ""AGB2-A011""]",new_evidence,partial,12,0,取得FIFA主证据以升级或消解建议
+team:raetia,Raetia,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,12,未查；按优先级A-D安排
+team:isle-of-man,Isle of Man,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,11,未查；按优先级A-D安排
+team:monaco,Monaco,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,11,未查；按优先级A-D安排
+team:shetland,Shetland,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,11,未查；按优先级A-D安排
+team:lithuania,Lithuania,pending_admission_year,"[""AGB1-A006""]","[""AGB2-A006"", ""AGB2-A007""]",new_evidence,conflict,10,0,取得FIFA大会/执委会原件消解冲突
+team:mayotte,Mayotte,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,10,未查；按优先级A-D安排
+team:saint-barthelemy,Saint Barthélemy,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,10,未查；按优先级A-D安排
+team:gotland,Gotland,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,9,未查；按优先级A-D安排
+team:kernow,Kernow,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,9,未查；按优先级A-D安排
+team:padania,Padania,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,9,未查；按优先级A-D安排
+team:artsakh,Artsakh,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,8,未查；按优先级A-D安排
+team:corsica,Corsica,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,8,未查；按优先级A-D安排
+team:czech-republic,Czech Republic,pending_admission_year,"[""AGB1-A014"", ""AGB1-A015""]","[""AGB2-A018"", ""AGB2-A019""]",reviewed_no_new_evidence,conflict,8,0,取得FIFA大会/执委会原件消解冲突
+team:iraqi-kurdistan,Iraqi Kurdistan,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,8,未查；按优先级A-D安排
+team:north-macedonia,North Macedonia,pending_admission_year,"[""AGB1-A018"", ""AGB1-A019""]","[""AGB2-A022""]",revised,not_found,8,0,查FIFA决策记录（1993/1994年北马其顿入会）
+team:provence,Provence,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,8,未查；按优先级A-D安排
+team:slovakia,Slovakia,pending_admission_year,"[""AGB1-A016"", ""AGB1-A017""]","[""AGB2-A020"", ""AGB2-A021""]",reviewed_no_new_evidence,conflict,8,0,取得FIFA大会/执委会原件消解冲突
+team:szekely-land,Székely Land,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,8,未查；按优先级A-D安排
+team:galicia,Galicia,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,7,未查；按优先级A-D安排
+team:south-africa,South Africa,pending_admission_year,"[""AGB1-A005""]","[""AGB2-A005""]",new_evidence,partial,7,0,取得FIFA主证据以升级或消解建议
+team:yemen,Yemen,pending_historical_episode,[],[],not_reviewed,not_reviewed,0,7,未查；按优先级A-D安排
+team:yorkshire,Yorkshire,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,7,未查；按优先级A-D安排
+team:bosnia-and-herzegovina,Bosnia and Herzegovina,pending_admission_year,"[""AGB1-A029""]","[""AGB2-A034""]",reviewed_no_new_evidence,partial,6,0,取得FIFA主证据以升级或消解建议
+team:brittany,Brittany,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,6,未查；按优先级A-D安排
+team:chagos-islands,Chagos Islands,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,6,未查；按优先级A-D安排
+team:donetsk-pr,Donetsk PR,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,6,未查；按优先级A-D安排
+team:ellan-vannin,Ellan Vannin,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,6,未查；按优先级A-D安排
+team:luhansk-pr,Luhansk PR,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,6,未查；按优先级A-D安排
+team:moldova,Moldova,pending_admission_year,"[""AGB1-A021"", ""AGB1-A021b""]","[""AGB2-A024"", ""AGB2-A025""]",new_evidence,partial,6,0,取得FIFA主证据以升级或消解建议
+team:mozambique,Mozambique,pending_admission_year,[],[],not_reviewed,not_reviewed,0,6,未查；按优先级A-D安排
+team:panjab,Panjab,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,6,未查；按优先级A-D安排
+team:china,China,pending_admission_year,"[""AGB1-A027"", ""AGB1-A028""]","[""AGB2-A032"", ""AGB2-A033""]",new_evidence,partial,5,0,取得FIFA主证据以升级或消解建议
+team:gozo,Gozo,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,5,未查；按优先级A-D安排
+team:montenegro,Montenegro,pending_admission_year,"[""AGB1-A002"", ""AGB1-A003""]","[""AGB2-A002"", ""AGB2-A003""]",new_evidence,partial,5,0,取得FIFA主证据以升级或消解建议
+team:namibia,Namibia,pending_admission_year,[],[],not_reviewed,not_reviewed,0,5,未查；按优先级A-D安排
+team:vatican-city,Vatican City,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,5,未查；按优先级A-D安排
+team:western-isles,Western Isles,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,5,未查；按优先级A-D安排
+team:yemen-dpr,Yemen DPR,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,5,未查；按优先级A-D安排
+team:angola,Angola,pending_admission_year,[],[],not_reviewed,not_reviewed,0,4,未查；按优先级A-D安排
+team:canary-islands,Canary Islands,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,4,未查；按优先级A-D安排
+team:croatia,Croatia,pending_admission_year,"[""AGB1-A012""]","[""AGB2-A015""]",new_evidence,partial,4,0,取得FIFA主证据以升级或消解建议
+team:estonia,Estonia,pending_admission_year,"[""AGB1-A010""]","[""AGB2-A013"", ""AGB2-A014""]",new_evidence,partial,4,0,取得FIFA主证据以升级或消解建议
+team:frya,Frøya,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,4,未查；按优先级A-D安排
+team:republic-of-st-pauli,Republic of St. Pauli,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,4,未查；按优先级A-D安排
+team:rhodes,Rhodes,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,4,未查；按优先级A-D安排
+team:sealand,Sealand,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,4,未查；按优先级A-D安排
+team:solomon-islands,Solomon Islands,pending_admission_year,[],[],not_reviewed,not_reviewed,0,4,未查；按优先级A-D安排
+team:south-ossetia,South Ossetia,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,4,未查；按优先级A-D安排
+team:tibet,Tibet,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,4,未查；按优先级A-D安排
+team:tuvalu,Tuvalu,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,4,未查；按优先级A-D安排
+team:ukraine,Ukraine,pending_admission_year,[],"[""AGB2-A035"", ""AGB2-A036""]",new_evidence,partial,4,0,取得FIFA主证据以升级或消解建议
+team:uzbekistan,Uzbekistan,pending_admission_year,"[""AGB1-A020"", ""AGB1-A020b""]","[""AGB2-A023""]",new_evidence,partial,4,0,取得FIFA主证据以升级或消解建议
+team:azerbaijan,Azerbaijan,pending_admission_year,"[""AGB1-A022"", ""AGB1-A022b""]","[""AGB2-A026"", ""AGB2-A027""]",new_evidence,partial,3,0,取得FIFA主证据以升级或消解建议
+team:falkland-islands,Falkland Islands,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,3,未查；按优先级A-D安排
+team:franconia,Franconia,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,3,未查；按优先级A-D安排
+team:georgia,Georgia,pending_admission_year,[],"[""AGB2-A037""]",new_evidence,partial,3,0,取得FIFA主证据以升级或消解建议
+team:lithuania,Lithuania,pending_historical_episode,"[""AGB1-A007""]","[""AGB2-A008""]",revised,partial,3,0,取得FIFA主证据以升级或消解建议
+team:micronesia,Micronesia,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,3,未查；按优先级A-D安排
+team:parishes-of-jersey,Parishes of Jersey,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,3,未查；按优先级A-D安排
+team:tamil-eelam,Tamil Eelam,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,3,未查；按优先级A-D安排
+team:wallis-islands-and-futuna,Wallis Islands and Futuna,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,3,未查；按优先级A-D安排
+team:canton-ticino,Canton Ticino,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,2,未查；按优先级A-D安排
+team:cascadia,Cascadia,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,2,未查；按优先级A-D安排
+team:chameria,Chameria,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,2,未查；按优先级A-D安排
+team:crimea,Crimea,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,2,未查；按优先级A-D安排
+team:elba-island,Elba Island,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,2,未查；按优先级A-D安排
+team:equatorial-guinea,Equatorial Guinea,pending_admission_year,[],[],not_reviewed,not_reviewed,0,2,未查；按优先级A-D安排
+team:felvidek,Felvidék,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,2,未查；按优先级A-D安排
+team:orkney,Orkney,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,2,未查；按优先级A-D安排
+team:romani-people,Romani people,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,2,未查；按优先级A-D安排
+team:saint-kitts-and-nevis,Saint Kitts and Nevis,pending_admission_year,[],"[""AGB2-A040""]",new_evidence,partial,2,0,取得FIFA主证据以升级或消解建议
+team:slovenia,Slovenia,pending_admission_year,"[""AGB1-A013""]","[""AGB2-A016"", ""AGB2-A017""]",new_evidence,partial,2,0,取得FIFA主证据以升级或消解建议
+team:western-armenia,Western Armenia,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,2,未查；按优先级A-D安排
+team:american-samoa,American Samoa,pending_admission_year,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:andorra,Andorra,pending_admission_year,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:anguilla,Anguilla,pending_admission_year,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:arameans-suryoye,Arameans Suryoye,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:armenia,Armenia,pending_admission_year,[],"[""AGB2-A038""]",new_evidence,partial,1,0,取得FIFA主证据以升级或消解建议
+team:belarus,Belarus,pending_admission_year,[],"[""AGB2-A039""]",new_evidence,partial,1,0,取得FIFA主证据以升级或消解建议
+team:bhutan,Bhutan,pending_admission_year,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:cayman-islands,Cayman Islands,pending_admission_year,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:chechnya,Chechnya,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:cilento,Cilento,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:county-of-nice,County of Nice,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:djibouti,Djibouti,pending_admission_year,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:dominica,Dominica,pending_admission_year,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:eritrea,Eritrea,pending_admission_year,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:estonia,Estonia,pending_historical_episode,"[""AGB1-A011""]","[""AGB2-A012""]",revised,partial,1,0,取得FIFA主证据以升级或消解建议
+team:faroe-islands,Faroe Islands,pending_admission_year,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:guam,Guam,pending_admission_year,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:hitra,Hitra,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:kazakhstan,Kazakhstan,pending_admission_year,"[""AGB1-A023""]","[""AGB2-A028""]",new_evidence,partial,1,0,取得FIFA主证据以升级或消解建议
+team:kiribati,Kiribati,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:kurdistan,Kurdistan,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:kyrgyzstan,Kyrgyzstan,pending_admission_year,"[""AGB1-A024""]","[""AGB2-A029""]",new_evidence,partial,1,0,取得FIFA主证据以升级或消解建议
+team:karpatalja,Kárpátalja,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:latvia,Latvia,pending_historical_episode,"[""AGB1-A009""]","[""AGB2-A009""]",revised,partial,1,0,取得FIFA主证据以升级或消解建议
+team:madrid,Madrid,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:menorca,Menorca,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:new-caledonia,New Caledonia,pending_admission_year,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:palau,Palau,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:palestine,Palestine,pending_admission_year,"[""AGB1-A004""]","[""AGB2-A004""]",reviewed_no_new_evidence,partial,1,0,取得FIFA主证据以升级或消解建议
+team:quebec,Quebec,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:saare-county,Saare County,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:saint-helena,Saint Helena,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:saugeais,Saugeais,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:seborga,Seborga,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:silesia,Silesia,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:somaliland,Somaliland,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:surrey,Surrey,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:tajikistan,Tajikistan,pending_admission_year,"[""AGB1-A025""]","[""AGB2-A030""]",new_evidence,partial,1,0,取得FIFA主证据以升级或消解建议
+team:tonga,Tonga,pending_admission_year,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:turkmenistan,Turkmenistan,pending_admission_year,"[""AGB1-A026""]","[""AGB2-A031""]",new_evidence,partial,1,0,取得FIFA主证据以升级或消解建议
+team:two-sicilies,Two Sicilies,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:united-states-virgin-islands,United States Virgin Islands,pending_admission_year,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:vanuatu,Vanuatu,pending_admission_year,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排
+team:western-sahara,Western Sahara,pending_unmapped_label,[],[],not_reviewed,not_reviewed,0,1,未查；按优先级A-D安排

@@ -1,0 +1,35 @@
+{
+  "exceptions": [
+    {
+      "end": "1992-12-31",
+      "reason": "USSR/CIS transition and Russia re-affiliation require FIFA historical episode evidence",
+      "source_team_label": "Russia",
+      "start": "1980-01-01"
+    },
+    {
+      "end": "2006-12-31",
+      "reason": "Yugoslavia and Serbia-Montenegro episode boundaries require FIFA historical evidence",
+      "source_team_label": "Serbia",
+      "start": "1980-01-01"
+    },
+    {
+      "end": "2010-12-31",
+      "reason": "Netherlands Antilles succession requires FIFA historical episode evidence",
+      "source_team_label": "Curaçao",
+      "start": "1980-01-01"
+    },
+    {
+      "end": "1990-12-31",
+      "reason": "North/South Yemen unification and membership continuity require episode evidence",
+      "source_team_label": "Yemen",
+      "start": "1980-01-01"
+    },
+    {
+      "end": "1980-12-31",
+      "reason": "1964 membership may refer to predecessor; historical succession remains unverified",
+      "source_team_label": "Vietnam",
+      "start": "1980-01-01"
+    }
+  ],
+  "schema_version": "fifa-history-exceptions-v1"
+}

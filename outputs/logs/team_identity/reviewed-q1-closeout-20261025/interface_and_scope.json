@@ -1,0 +1,12 @@
+{
+  "selected_matches": 24917,
+  "year_type_cells": 90,
+  "missing_year_type_cells": [],
+  "minimum_per_type": {
+    "friendly": 71,
+    "non_friendly": 101
+  },
+  "complete_ten_year_windows": 36,
+  "q2_effects_computed": false,
+  "scope": "Input availability only; no Q2 effect estimates or inference"
+}

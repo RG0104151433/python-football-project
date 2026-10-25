@@ -1,0 +1,124 @@
+{
+  "schema_version": "membership-batch-review-v1",
+  "reviewer": "Codex (AI)",
+  "review_date": "2026-10-24",
+  "batch": "20261024-batch01",
+  "decision": "not_accepted_for_production",
+  "accepted_new_rules": 0,
+  "counts": {
+    "input_tasks": 148,
+    "covered_tasks": 24,
+    "covered_teams": 21,
+    "unreviewed_tasks": 124,
+    "assessment_rows": 32,
+    "assessment_status": {
+      "partial": 17,
+      "conflict": 13,
+      "not_found": 2
+    },
+    "task_status_rollup_worst_state": {
+      "partial": 9,
+      "conflict": 13,
+      "not_found": 2
+    },
+    "distinct_matches_with_suggestions": 193,
+    "match_suggestion_sets": {
+      "member": 139,
+      "non_member": 4,
+      "conflict|unresolved": 4,
+      "conflict": 8,
+      "unresolved": 38
+    },
+    "authority": {
+      "locating_lead": 10,
+      "fifa_primary": 1
+    }
+  },
+  "structural_findings": [
+    {
+      "id": "AGB1-A001",
+      "issue": "source_label_mismatch",
+      "expected": "German DR",
+      "actual": "German-dr"
+    },
+    {
+      "id": "AGB1-A020b",
+      "issue": "empty_match_ids"
+    }
+  ],
+  "local_source_hash_checks": [
+    {
+      "evidence_id": "AGB1-E001",
+      "passed": true
+    },
+    {
+      "evidence_id": "AGB1-E002",
+      "passed": true
+    },
+    {
+      "evidence_id": "AGB1-E003",
+      "passed": true
+    },
+    {
+      "evidence_id": "AGB1-E004",
+      "passed": true
+    },
+    {
+      "evidence_id": "AGB1-E005",
+      "passed": true
+    },
+    {
+      "evidence_id": "AGB1-E006",
+      "passed": true
+    },
+    {
+      "evidence_id": "AGB1-E007",
+      "passed": true
+    },
+    {
+      "evidence_id": "AGB1-E008",
+      "passed": true
+    },
+    {
+      "evidence_id": "AGB1-E009",
+      "passed": true
+    },
+    {
+      "evidence_id": "AGB1-E011",
+      "passed": true
+    }
+  ],
+  "reference_checks_passed": true,
+  "submission_hashes": {
+    "data/external/team_identity/submissions/20261024-batch01/case_assessments.jsonl": "381048deaf1bc01137c7f6188f6ebdbdc4cc3dba0ce8d21cd4af471d897ccd9b",
+    "data/external/team_identity/submissions/20261024-batch01/claims.jsonl": "38f67b0c5644c7b3b9d89d0b17e66b54bbe1e71b6dfc9cc21c450a86520a9f1d",
+    "data/external/team_identity/submissions/20261024-batch01/evidence.jsonl": "1c224493ecef05a66278b8b0ba89cad440fe04a1e56908a0b250616a08387c00",
+    "data/external/team_identity/submissions/20261024-batch01/README.md": "60b9f5e0fc3ae836906226f473f370266a9fd845dfd871f69c456ce843669e6c",
+    "data/external/team_identity/submissions/20261024-batch01/search_log.jsonl": "7415d670703663c30816d6093710b0792112c248690e30eece49db938b062b2b",
+    "data/external/team_identity/submissions/20261024-batch01/sources/bhff_strategy_2022_2026.pdf": "6b17f89d93a3c0eed73d61431f2b253974753e584522d57921cef949dc60b21d",
+    "data/external/team_identity/submissions/20261024-batch01/sources/cankaoxiaoxi_19940618_p5.html": "d6b8d6c79baca2964d84a485aed318f07ffd4c0d4255b381930926a1f365b740",
+    "data/external/team_identity/submissions/20261024-batch01/sources/enacademic_gdr_history.html": "068345eef2cd0f588431d9dc55c599906db197dd7e3326a901644cb05a0ff2c6",
+    "data/external/team_identity/submissions/20261024-batch01/sources/fscg_me_about_us.html": "a4f4e90e3be5c56ca76ac2322747a18383970ac85e4e7ac775417c89de885a8a",
+    "data/external/team_identity/submissions/20261024-batch01/sources/hns_croatia_history.html": "91563a249160a3c5aedc3d40eca81d1a98ba77cc8588cf5c2e9b76c2627d8c52",
+    "data/external/team_identity/submissions/20261024-batch01/sources/hpalestine_pfa_fifa_history.html": "baa322ff66707c2ade2f09c9d928e1fa6f849ede31eaa2f24f6c9cce1a873e14",
+    "data/external/team_identity/submissions/20261024-batch01/sources/sahistory_sa_readmission.html": "27beeca1acc7b3492bd045deba11aadcec114552a6d4fac743c553c90a6e6681",
+    "data/external/team_identity/submissions/20261024-batch01/sources/sohu_montenegro_fifa_2007.html": "6fc289c4b92586c8751b72f64348e21a53d59197bf95ed04a554b30d1322bec4",
+    "data/external/team_identity/submissions/20261024-batch01/sources/uefa_lt_history.html": "69c239a7f091ff1dc82c1f78567ca3494e6f1b42639c01582d32c0f3b4b1cc4e"
+  },
+  "existing_release_checks": {
+    "identity": {
+      "passed": true,
+      "identity_version": "identity-fifa-f4b591a95719b634d9de",
+      "verified_outputs": 7,
+      "final_release": false
+    },
+    "q1": {
+      "passed": true,
+      "analysis_id": "eras-fifa-24196f9d60d19c30658a",
+      "verified_outputs": 22,
+      "inference": "not_run"
+    }
+  },
+  "semantic_review_file": "README.md",
+  "q1_rerun_performed": false
+}

@@ -1,0 +1,39 @@
+{
+  "broken_links": [],
+  "checks": {
+    "current_identity": {
+      "final_release": false,
+      "identity_version": "identity-fifa-f4b591a95719b634d9de",
+      "passed": true,
+      "verified_outputs": 7
+    },
+    "current_q1": {
+      "analysis_id": "eras-fifa-24196f9d60d19c30658a",
+      "inference": "not_run",
+      "passed": true,
+      "verified_outputs": 22
+    },
+    "identity_before_analysis_dependency": true,
+    "logical_order_matches": true,
+    "old_q1_baseline": {
+      "analysis_id": "eras-7f332ed60ac443228960",
+      "inference": "not_run",
+      "passed": true,
+      "verified_outputs": 24
+    },
+    "q2_same_identity_reference": true
+  },
+  "derived_evidence": {
+    "counts.json": "b6080763e9681eb3e5d9616ab8fce11753ffe66c85d2626d671db8af3c232bbd",
+    "evidence_tasks.csv": "9b420d025bb3c527e6d8645a679f900401905396a6a1b204c4c26b7eafff9443",
+    "pending_by_era.csv": "ea0a1f9caefadd87f6642b39e8aa8b84b1a5c44ec281ace72a868f768b4d4f6d"
+  },
+  "documents_checked": 28,
+  "limits": [
+    "Legacy src.analyze_eras intentionally remains a baseline reproduction path, not globally forbidden.",
+    "No new historical membership evidence adjudicated.",
+    "No main statistical rerun or pytest rerun needed for documentation-only fixes."
+  ],
+  "local_links_checked": 210,
+  "reference_scope": "All current textual research/preparation/environment/team entry documents plus labelled historical plans; immutable artifacts and research history retain original versions."
+}

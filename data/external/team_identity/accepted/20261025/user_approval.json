@@ -1,0 +1,14 @@
+{
+  "approval_id": "USER-20261025-STUDY-ACCEPTANCE",
+  "review_date": "2026-10-25",
+  "reviewer_role": "project_owner_user",
+  "evidence_status": "user_attested_not_archived",
+  "include_all_unresolved_matches": true,
+  "accept_other_effective_suggestions": true,
+  "approved_match_count": 117,
+  "scope": "Original 26055 study candidates, 1980-2024, non-neutral and classified matches; not all historical matches or Elo identities",
+  "statement": "用户声明已人工核验，未完成项均有合理支撑，涉及117场比赛全数采纳，后续直接使用。其余有效逐场建议同时按member/non_member采用。",
+  "supporting_material": "用户表示不方便补充资料，暂不添加；此记录保存人工采纳决定，不冒充FIFA原件。",
+  "recorded_by": "Codex (AI), recording the user's instruction; not an independent historical source review",
+  "decision_log": "R20261025-10"
+}

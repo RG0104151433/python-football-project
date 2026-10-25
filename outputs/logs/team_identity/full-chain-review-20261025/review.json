@@ -1,0 +1,111 @@
+{
+  "schema_version": "full-chain-review-v1",
+  "date": "2026-10-25",
+  "reviewer": "Codex (AI)",
+  "decision": "descriptive_handoff_passed_with_documented_deferred_tasks",
+  "passed": true,
+  "scope": [
+    "data cleaning and traceability",
+    "provisional identity overlay",
+    "descriptive mathematics and limits",
+    "Q1 code, outputs and conclusions",
+    "Q2 input and planned framework",
+    "presentation content and handoff"
+  ],
+  "raw_snapshot_files_verified": 6,
+  "clean_validation": {
+    "passed": true,
+    "checks": {
+      "unique_match_ids": true,
+      "complete_unique_lineage": true,
+      "lineage_states": true,
+      "lineage_counts": true,
+      "included_matches_traceable": true,
+      "nonempty_dataset": true,
+      "valid_values_and_eligibility": true,
+      "stable_sort": true
+    },
+    "states": {
+      "included": 48102,
+      "outside_window": 1803,
+      "quarantined": 40
+    }
+  },
+  "identity_validation": {
+    "passed": true,
+    "identity_version": "identity-fifa-f4b591a95719b634d9de",
+    "verified_outputs": 7,
+    "final_release": false
+  },
+  "q1_verification": {
+    "passed": true,
+    "analysis_id": "eras-fifa-24196f9d60d19c30658a",
+    "verified_outputs": 22,
+    "inference": "not_run"
+  },
+  "historical_baseline_verification": {
+    "passed": true,
+    "analysis_id": "eras-7f332ed60ac443228960",
+    "verified_outputs": 24,
+    "inference": "not_run"
+  },
+  "full_tests": {
+    "passed": 85,
+    "initial_attempt_passed": 62,
+    "initial_setup_errors": 23,
+    "retry_reason": "workspace basetemp, no code changes",
+    "report": "pytest.txt"
+  },
+  "independent_q1_checks": 630,
+  "same_version_core_artifacts": 19,
+  "reference_files_sha_verified": 6,
+  "local_links_checked": 246,
+  "documents_checked": 23,
+  "log_ids_unique": true,
+  "current_display_data_validated": true,
+  "input_availability": {
+    "matches": 24279,
+    "year_type_cells": 90,
+    "type_minimum": {
+      "friendly": 71,
+      "non_friendly": 91
+    },
+    "complete_windows": 36,
+    "missing_cells": []
+  },
+  "fixed_findings": [
+    "Q2 outdated release/sample statements and identity blocking language",
+    "Silesia candidate incorrectly left as current admission blocker",
+    "common-input contract omitted explicit overlay filter",
+    "presentation wording implied current charts must await complete history",
+    "current display package lacked group rates for future controls",
+    "current four-screen script and figure captions incomplete",
+    "duplicate batch05 and batch06 log IDs renamed R20261025-06 and R20261025-08"
+  ],
+  "deferred": [
+    "country-by-country historical evidence",
+    "candidate inference theory, estimator and simulation acceptance",
+    "formal confidence intervals and significance",
+    "group-member independent factual review",
+    "final data freeze",
+    "deliberate Git commit and remote sharing",
+    "HTML implementation, teacher approval and rehearsal",
+    "course two-library substantive-use acceptance"
+  ],
+  "not_performed": [
+    "new Q2 effect estimates or rolling curves",
+    "Elo calculations",
+    "adoption or comprehensive review of batch05/batch06 proposals",
+    "full re-proof of candidate theory papers"
+  ],
+  "evidence_files": [
+    "display_data.json",
+    "git_delivery_state.json",
+    "interface_and_scope.json",
+    "pytest.txt",
+    "pytest.xml",
+    "pytest_run.json",
+    "q1_independent_audit.json",
+    "theory_review.json"
+  ]
+}

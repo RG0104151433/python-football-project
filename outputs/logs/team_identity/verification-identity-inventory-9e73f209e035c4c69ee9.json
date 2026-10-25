@@ -1,0 +1,23 @@
+{
+  "schema_version": "identity-inventory-verification-v1",
+  "checked_at_utc": "2026-10-24T08:30:55.268527+00:00",
+  "inventory_id": "identity-inventory-9e73f209e035c4c69ee9",
+  "runs": [
+    "outputs/logs/team_identity/inventory-20261024T082841542266Z-14396c78/run_manifest.json",
+    "outputs/logs/team_identity/inventory-20261024T082938878995Z-acde914c/run_manifest.json"
+  ],
+  "same_core_outputs": 9,
+  "both_runs_all_registered_hashes_passed": true,
+  "previous_planning_counts_match": true,
+  "original_four_inputs_unchanged": true,
+  "new_tests": {
+    "passed": 12
+  },
+  "full_suite": {
+    "passed": 60,
+    "elapsed_seconds": 19.22
+  },
+  "identity_classification_performed": false,
+  "decisions_applied": 0,
+  "passed": true
+}

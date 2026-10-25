@@ -1,0 +1,82 @@
+{
+  "code_hashes": {
+    "scripts/audit_team_identity.py": "1a25924bc819a606c1b31512fecdf677393418073a6eaf527cf179daa9df0f6e",
+    "scripts/build_team_identity.py": "e482504e3630dbfc5c3b709c9668b87334f2e1cfbbe78c2b019f4e5b9c527766",
+    "scripts/plan_team_identity.py": "456da24e594cd74bf533a54514cedca0ea5fc9af5054c8625614b6b02cfae3e2",
+    "src/data_contract.py": "75d7c37a5d09867656098ab4fa3387721d8e1028dfde54d28c372d50f2a7d101",
+    "src/snapshot.py": "0602b3907494ade4dae5bd6bac07a2a0a1353171af12495a9fc39815e6fbf2d2",
+    "src/validate.py": "bd8a61d799e8afeadba6d50b275f0cd07906d5c0e0fea623f17061dd092253f1"
+  },
+  "counts": {
+    "clean_matches": 48102,
+    "membership_status": {
+      "conditional_both_members": 32810,
+      "nonmember_evidence": 493,
+      "outside_scope": 12064,
+      "pending": 2735
+    },
+    "previous_study_matches": 26055,
+    "study_disposition": {
+      "excluded_by_membership_evidence": 246,
+      "quarantined_pending": 1530,
+      "retained": 24279
+    }
+  },
+  "created_at_utc": "2026-10-24T11:34:43.106640+00:00",
+  "data_version": "prep-3fab808178cf8ad71d88",
+  "final_release": false,
+  "full_history_verified": false,
+  "human_review_pending": true,
+  "identity_version": "identity-fifa-f4b591a95719b634d9de",
+  "input_frozen": false,
+  "inputs": {
+    "config.json": "e12cb80ac22ded100337808457148a3cdfc6fcfe23290c271c4954f4a99f2d6a",
+    "config/eras.json": "9ccc4147192fa9361d14adb72d316b8ffc3168a29a24f21e74103216694b7662",
+    "config/team_identity.json": "80aced9d8276cf2969196303df667114793fcbaea0be82c49db3abfbd4a3f455",
+    "config/team_identity_fifa_v2.json": "915d11d0fcb731308d140ce62c572c00c465bd733cd716efd319079aa2ab5adc",
+    "data/external/team_identity/fifa/20261024-v2/admission_events.json": "d56587d2f30358dbcc0c113d58b06e60e4851c9b98a4bf5fea0adda67278c86e",
+    "data/external/team_identity/fifa/20261024-v2/fifa_affiliations.csv": "fe7d7ca532238804562d9a0bc999112aad660ba107560708fecb078aee6faf80",
+    "data/external/team_identity/fifa/20261024-v2/historical_exceptions.json": "ada0f0c3019dc7a5ff8697c9c8774246df871306cdf99739d8d2fd79a6be9e8c",
+    "data/external/team_identity/fifa/20261024-v2/label_crosswalk.csv": "5b7cc5979d34299f35132f0a773c6d79ccdd42de9f91bf49a9ecca107b4ed5b7",
+    "data/external/team_identity/fifa/20261024-v2/population_policy.json": "10a7212ac0358991b054f9fff619d1f7a1ec8ec875c03cd2f27c4e3b6dfc224b",
+    "data/external/team_identity/fifa/20261024-v2/sources.json": "59c3db7184a04fa33b4106c99bbd083e82e300a9a5a59bf0009d2cb22a724251",
+    "data/external/team_registry.csv": "503b42971431d27905f5a1b9680b9a5bad6144de06fb01514233bf7ddd7c21ec",
+    "data/processed/prep-3fab808178cf8ad71d88/data_dictionary.md": "7c00355e7333a25b4d18b59436d6660b205caaf74635ffb31faae160b8b5b6a2",
+    "data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json": "1462f59a2ba391c81bbc5ea57470d17b08a32a459dda0ececac94724cd345657",
+    "data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv": "69ba00073970fe011a62f5871c08ace6285d7fe75d5a0d79afdac0ef972de9dc",
+    "data/raw/international_results/LICENSE": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+    "data/raw/international_results/README.md": "0d50b5f6fe2b658eba52a4477e4e48af6ca61e89e2c5265b153e3c12d7305b76",
+    "data/raw/international_results/former_names.csv": "2d57f59a3ac13b24c2fcf208ced5a38710529d122da38929838d0980b002677e",
+    "data/raw/international_results/goalscorers.csv": "e02b25cfcad3fca9af79a5cf075c33a6875416d6d80e5ab42514535cb0d639fe",
+    "data/raw/international_results/results.csv": "5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767",
+    "data/raw/international_results/shootouts.csv": "072b445adf5183fbe981087857e5b64c8f17abfdbf257b1822ceacb4a37919fa",
+    "data/raw/manifest.json": "cdf515adfc61471f73acfce534e94b27639702e76a05c16c5dff88215732288f",
+    "outputs/logs/data_prep/clean-20261021T143700805474Z-127f4584/row_lineage.csv": "5690783940e58c2c1f7fc40a1bbce8e446154e8b1c1454c9ee570e544c429157",
+    "outputs/logs/team_identity/baseline-20261024T081427984102Z-9845b62e/baseline_files.zip": "3dbe73cda2aa4d665a61dd371768fbe2e1d126d7faf9c9723ecf975540245608",
+    "outputs/logs/team_identity/baseline-20261024T081427984102Z-9845b62e/baseline_manifest.json": "96a86f4c6c0d5c48fc293dd6017dc3da7dd42e0bf609e8960ce77584b7c1c316",
+    "outputs/logs/team_identity/inventory-20261024T082841542266Z-14396c78/run_manifest.json": "a858eb0e80381ed96016e9d3cc34bd7e7b564eb317ddb264d60ecfa5ce52cc8f",
+    "参考资料/数据来源/FIFA/FIFA_Financial_Report_2018.pdf": "751f68183be6a70f4eb461bedd1956a9be9dc1d212b1763faa12bdd22575a032"
+  },
+  "limitations": [
+    "Year-only admissions have no fabricated day.",
+    "Continuity after affiliation is an assumption, not a complete historical register.",
+    "Unmapped labels and predecessor episodes are quarantined, not declared nonmembers.",
+    "Not approved for final population claims, Elo or inferential entity resolution."
+  ],
+  "outputs": {
+    "data/processed/team_identity/identity-fifa-f4b591a95719b634d9de/association_registry.csv": "fe7d7ca532238804562d9a0bc999112aad660ba107560708fecb078aee6faf80",
+    "data/processed/team_identity/identity-fifa-f4b591a95719b634d9de/checks.json": "9e5bfab5d99db37579c000c1edc351d423bd002524db829ab3f8ac5e22ca2a76",
+    "data/processed/team_identity/identity-fifa-f4b591a95719b634d9de/data_dictionary.md": "0bcab672e0aa4ff17ddde2cd802961c0ee2152268cb18881b41c5be726e50f69",
+    "data/processed/team_identity/identity-fifa-f4b591a95719b634d9de/historical_exceptions.json": "5af632557c6e5347faa528d12f390e08c509530a17249104b59063f895565524",
+    "data/processed/team_identity/identity-fifa-f4b591a95719b634d9de/label_crosswalk.csv": "5b7cc5979d34299f35132f0a773c6d79ccdd42de9f91bf49a9ecca107b4ed5b7",
+    "data/processed/team_identity/identity-fifa-f4b591a95719b634d9de/match_identity.csv": "f8bad1d6e48aa3e128120f4ae92cc5cf9b9897cc88d4416a1253251dc8e42ff9",
+    "data/processed/team_identity/identity-fifa-f4b591a95719b634d9de/population_policy.json": "10a7212ac0358991b054f9fff619d1f7a1ec8ec875c03cd2f27c4e3b6dfc224b"
+  },
+  "policy_id": "fifa-at-match-date-provisional-v2",
+  "schema_version": "fifa-identity-release-v1",
+  "scope": {
+    "end": "2024-12-31",
+    "start": "1980-01-01"
+  },
+  "status": "published_provisional"
+}

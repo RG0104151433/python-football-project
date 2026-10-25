@@ -1,0 +1,70 @@
+{
+  "baseline_id": "baseline-20261024T081427984102Z-9845b62e",
+  "checks_passed": true,
+  "code_hashes": {
+    "scripts/audit_team_identity.py": "1a25924bc819a606c1b31512fecdf677393418073a6eaf527cf179daa9df0f6e",
+    "src/data_contract.py": "75d7c37a5d09867656098ab4fa3387721d8e1028dfde54d28c372d50f2a7d101",
+    "src/snapshot.py": "0602b3907494ade4dae5bd6bac07a2a0a1353171af12495a9fc39815e6fbf2d2",
+    "src/validate.py": "bd8a61d799e8afeadba6d50b275f0cd07906d5c0e0fea623f17061dd092253f1"
+  },
+  "counts": {
+    "clean_labels": 335,
+    "clean_matches": 48102,
+    "historical_clue_rows": 2523,
+    "raw_labels": 337,
+    "raw_matches": 49945,
+    "registry_labels": 337,
+    "review_priorities": {
+      "1_study_with_clues": 13,
+      "2_study_unreviewed": 295,
+      "3_outside_study": 29
+    },
+    "study_labels": 308,
+    "study_literal_venue_flags": 1,
+    "study_matches": 26055,
+    "study_matches_with_historical_clues": 767,
+    "upstream_rules": 36
+  },
+  "created_at_utc": "2026-10-24T08:29:39.038734+00:00",
+  "data_version": "prep-3fab808178cf8ad71d88",
+  "decisions_applied": 0,
+  "identity_review": "not_performed",
+  "inputs": {
+    "config.json": "e12cb80ac22ded100337808457148a3cdfc6fcfe23290c271c4954f4a99f2d6a",
+    "config/eras.json": "9ccc4147192fa9361d14adb72d316b8ffc3168a29a24f21e74103216694b7662",
+    "config/team_identity.json": "80aced9d8276cf2969196303df667114793fcbaea0be82c49db3abfbd4a3f455",
+    "data/external/team_registry.csv": "503b42971431d27905f5a1b9680b9a5bad6144de06fb01514233bf7ddd7c21ec",
+    "data/processed/prep-3fab808178cf8ad71d88/data_dictionary.md": "7c00355e7333a25b4d18b59436d6660b205caaf74635ffb31faae160b8b5b6a2",
+    "data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json": "1462f59a2ba391c81bbc5ea57470d17b08a32a459dda0ececac94724cd345657",
+    "data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv": "69ba00073970fe011a62f5871c08ace6285d7fe75d5a0d79afdac0ef972de9dc",
+    "data/raw/international_results/LICENSE": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+    "data/raw/international_results/README.md": "0d50b5f6fe2b658eba52a4477e4e48af6ca61e89e2c5265b153e3c12d7305b76",
+    "data/raw/international_results/former_names.csv": "2d57f59a3ac13b24c2fcf208ced5a38710529d122da38929838d0980b002677e",
+    "data/raw/international_results/goalscorers.csv": "e02b25cfcad3fca9af79a5cf075c33a6875416d6d80e5ab42514535cb0d639fe",
+    "data/raw/international_results/results.csv": "5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767",
+    "data/raw/international_results/shootouts.csv": "072b445adf5183fbe981087857e5b64c8f17abfdbf257b1822ceacb4a37919fa",
+    "data/raw/manifest.json": "cdf515adfc61471f73acfce534e94b27639702e76a05c16c5dff88215732288f",
+    "outputs/logs/data_prep/clean-20261021T143700805474Z-127f4584/row_lineage.csv": "5690783940e58c2c1f7fc40a1bbce8e446154e8b1c1454c9ee570e544c429157",
+    "outputs/logs/team_identity/baseline-20261024T081427984102Z-9845b62e/baseline_files.zip": "3dbe73cda2aa4d665a61dd371768fbe2e1d126d7faf9c9723ecf975540245608",
+    "outputs/logs/team_identity/baseline-20261024T081427984102Z-9845b62e/baseline_manifest.json": "96a86f4c6c0d5c48fc293dd6017dc3da7dd42e0bf609e8960ce77584b7c1c316"
+  },
+  "inventory_id": "identity-inventory-9e73f209e035c4c69ee9",
+  "outputs": {
+    "outputs/logs/team_identity/inventory-20261024T082938878995Z-acde914c/checks.json": "e2b614ce2d45a3c95a0f0b7cd3801f4541452b94a13a277d2b4c8cba18a96ebb",
+    "outputs/logs/team_identity/inventory-20261024T082938878995Z-acde914c/counts.json": "872e204d43f41b196a46161416a8ef5cfc34e2bcf564d712387c9bb6a4a78e49",
+    "outputs/logs/team_identity/inventory-20261024T082938878995Z-acde914c/data_dictionary.md": "1b7782f9a5d047eafa79ff5a1fbf795d53d46871ed7fa367d457482a697de2ed",
+    "outputs/logs/team_identity/inventory-20261024T082938878995Z-acde914c/historical_name_clues.csv": "6adb050e53810eaafe5cf46b2b3ec2e94f805fcb58eddff2794fce0667dd8d37",
+    "outputs/logs/team_identity/inventory-20261024T082938878995Z-acde914c/review_queue.csv": "28204cb577bc81961216b1660e5f315f2178d10e51d073bf09290fb31d930644",
+    "outputs/logs/team_identity/inventory-20261024T082938878995Z-acde914c/summary.md": "3d652f0e413618c1b9c57dff8cd910c0d36bff9cfd195a65ac70a8cc8b670b55",
+    "outputs/logs/team_identity/inventory-20261024T082938878995Z-acde914c/team_inventory.csv": "398bfcc4b1f9376794cd95484be294b87e92248b62d6a541b148b4479c2f45fa",
+    "outputs/logs/team_identity/inventory-20261024T082938878995Z-acde914c/upstream_name_rules.csv": "2504a4471481f48f74188967fd5acdcabf77670934456e9ca0cc423c658e6c5d",
+    "outputs/logs/team_identity/inventory-20261024T082938878995Z-acde914c/venue_name_flags.csv": "9be7753908e1d20cfde5ef7435cabdc20c2e96ada9880ceb9466e8b99398d39d"
+  },
+  "run_id": "inventory-20261024T082938878995Z-acde914c",
+  "schema_version": "team-identity-inventory-run-v1",
+  "scope": {
+    "end": "2024-12-31",
+    "start": "1980-01-01"
+  },
+  "status": "completed_inventory_only"
+}

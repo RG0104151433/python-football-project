@@ -1,0 +1,23 @@
+{
+  "code_and_input_hashes_unchanged": true,
+  "core_outputs_identical": true,
+  "plan_id": "identity-plan-84efb287b6532c0377be",
+  "runs": [
+    "outputs/logs/team_identity/plan-20261024T084556504106Z-60a9079d/run_manifest.json",
+    "outputs/logs/team_identity/plan-20261024T084644215217Z-4f4f466b/run_manifest.json"
+  ],
+  "verified_runs": [
+    {
+      "passed": true,
+      "plan_id": "identity-plan-84efb287b6532c0377be",
+      "ready_for_publication": false,
+      "verified_outputs": 7
+    },
+    {
+      "passed": true,
+      "plan_id": "identity-plan-84efb287b6532c0377be",
+      "ready_for_publication": false,
+      "verified_outputs": 7
+    }
+  ]
+}

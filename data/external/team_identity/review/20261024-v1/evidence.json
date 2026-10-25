@@ -1,0 +1,105 @@
+{
+  "evidence": [
+    {
+      "accessed_on": "2026-10-24",
+      "capture_kind": "web_search_directory_extraction_not_full_page_archive",
+      "claim": "FIFA describes 211 member associations representing countries and territories; observed directory names recorded separately.",
+      "evidence_id": "E-FIFA-CURRENT",
+      "limits": "Current directory only; not a historical membership timeline, sovereign-state list, match approval list or independently verified label-alias crosswalk.",
+      "locator": "Member Associations directory; browser search extraction exposes the 211 names; open view only exposes introduction",
+      "title": "FIFA Member Associations",
+      "url": "https://inside.fifa.com/about-fifa/associations"
+    },
+    {
+      "accessed_on": "2026-10-24",
+      "capture_kind": "web_read_paraphrased_claim",
+      "claim": "Directory lists selected regional/community football organisations, recorded through literal matches only.",
+      "evidence_id": "E-CONIFA-CURRENT",
+      "limits": "Current membership observation only; absence proves nothing about historical membership; organisation membership alone does not determine project eligibility.",
+      "locator": "Members, geographic group lists",
+      "title": "CONIFA Members",
+      "url": "https://www.conifa.org/en/members/"
+    },
+    {
+      "accessed_on": "2026-10-24",
+      "capture_kind": "web_read_paraphrased_claim",
+      "claim": "On 2006-12-09 Poland drew 1-1 with the Silesian selection at the Ruch stadium; proceeds supported families of Halemba mine victims.",
+      "evidence_id": "E-SILESIA-2006",
+      "limits": "Supports regional selection and charity fixture identity for this specific match; does not establish that neutral=false is erroneous or justify excluding every territorial association.",
+      "locator": "9 grudnia 2006 entry",
+      "title": "Silesian FA history",
+      "url": "https://archiwum.slzpn.pl/slaski/zpn/historia"
+    },
+    {
+      "accessed_on": "2026-10-24",
+      "capture_kind": "web_read_paraphrased_claim",
+      "claim": "UEFA distinguishes USSR, CIS at EURO 1992, and standalone Russia.",
+      "evidence_id": "E-RUSSIA-HISTORY",
+      "limits": "Corroborates broad transition only; exact upstream match-interval endpoints and Elo inheritance are not independently verified. The page also contains unrelated history not adopted here.",
+      "locator": "Timeline: 1992 federation; National team competitions 1992/1994",
+      "title": "UEFA Developing football in Russia",
+      "url": "https://www.uefa.com/nationalassociations/rus/"
+    },
+    {
+      "accessed_on": "2026-10-24",
+      "capture_kind": "web_read_paraphrased_claim",
+      "claim": "UEFA distinguishes socialist Yugoslavia, the later federal Yugoslavia, Serbia and Montenegro, and standalone Serbia.",
+      "evidence_id": "E-SERBIA-HISTORY",
+      "limits": "No blanket Yugoslavia-to-Serbia merge; exact match endpoints and inheritance weights are not established.",
+      "locator": "Political identity paragraphs: 1992, February 2003, June/August 2006",
+      "title": "UEFA Serbia finding their feet",
+      "url": "https://www.uefa.com/nationalassociations/SRB/"
+    },
+    {
+      "accessed_on": "2026-10-24",
+      "capture_kind": "web_read_paraphrased_claim",
+      "claim": "UEFA describes division of Czechoslovakia into Czech Republic and Slovakia.",
+      "evidence_id": "E-CZECH-HISTORY",
+      "limits": "Does not verify final 1993 combined-team match interval or permit merging Czech and Slovak records.",
+      "locator": "Timeline: 1993 division",
+      "title": "UEFA Developing football in Czechia",
+      "url": "https://www.uefa.com/nationalassociations/CZE/"
+    },
+    {
+      "accessed_on": "2026-10-24",
+      "capture_kind": "web_read_paraphrased_claim",
+      "claim": "Concacaf distinguishes Netherlands Antilles competition history from the subsequent Curacao team.",
+      "evidence_id": "E-CURACAO-HISTORY",
+      "limits": "Broad historical transition only; political dissolution date, membership continuity and exact upstream match endpoints require separate verification.",
+      "locator": "2020-08-23 article, Netherlands Antilles 1954-2010 paragraph",
+      "title": "Concacaf The rapid rise of Curacao",
+      "url": "https://www.concacaf.com/news/the-rapid-rise-of-curacao-in-concacaf"
+    },
+    {
+      "accessed_on": "2026-10-24",
+      "capture_kind": "web_read_paraphrased_claim",
+      "claim": "A CONIFA-hosted guest article describes Yorkshire as a member and discusses its regional player pool.",
+      "evidence_id": "E-YORKSHIRE-2018",
+      "limits": "Historical membership context, not proof of current membership or every fixture; guest article is not an independent match-by-match audit.",
+      "locator": "Article introduction and regional player discussion",
+      "title": "CONIFA Guest post: Find Out More About Yorkshire",
+      "url": "https://www.conifa.org/en/guest-post-find-out-more-about-yorkshire/"
+    },
+    {
+      "accessed_on": "2026-10-24",
+      "capture_kind": "web_read_paraphrased_claim",
+      "claim": "The Catalan federation reports matches of its representative side against other national selections.",
+      "evidence_id": "E-CATALONIA",
+      "limits": "Provides regional representative-team context; 2025 fixtures are outside our 1980-2024 window and do not individually verify older matches.",
+      "locator": "Senior men representative side, 2025 Costa Rica and Palestine fixtures",
+      "title": "FCF Catalan representative teams",
+      "url": "https://www.fcf.cat/en/noticies-fcf/1036819"
+    },
+    {
+      "accessed_on": "2026-10-24",
+      "capture_kind": "repository_pinned_input",
+      "claim": "Upstream explicitly provides former labels and match intervals; preserve these as source assertions.",
+      "evidence_id": "E-UPSTREAM-FORMER",
+      "limits": "Same source as main data, not independent corroboration; match range endpoints are not necessarily political or legal name-change dates.",
+      "locator": "All 36 records; source SHA and row IDs in inventory/upstream_name_rules.csv",
+      "title": "Pinned upstream former_names.csv",
+      "url": "repo:data/raw/international_results/former_names.csv"
+    }
+  ],
+  "schema_version": "identity-evidence-v1"
+}

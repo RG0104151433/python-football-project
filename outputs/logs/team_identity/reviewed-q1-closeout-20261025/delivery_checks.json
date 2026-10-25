@@ -1,0 +1,111 @@
+{
+  "passed": true,
+  "current_identity": {
+    "passed": true,
+    "identity_version": "identity-reviewed-29d880765c1623764940",
+    "verified_outputs": 10,
+    "final_release": false
+  },
+  "current_q1": {
+    "passed": true,
+    "analysis_id": "eras-fifa-dddf11dd6dc0b7531b88",
+    "verified_outputs": 22,
+    "inference": "not_run"
+  },
+  "current_run": "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json",
+  "current_analysis": "eras-fifa-dddf11dd6dc0b7531b88",
+  "current_sample": 24917,
+  "study_pending": 0,
+  "source_fingerprints_verified": 24,
+  "links": {
+    "files": 22,
+    "checked": 442,
+    "broken": []
+  },
+  "material_index": {
+    "path": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+    "file_references": 180,
+    "no_files_moved": true
+  },
+  "log_ids_unique": true,
+  "log_entries": 62,
+  "checks": {
+    "snapshot": {
+      "returncode": 0,
+      "stdout": "快照验证通过：6 个文件；未修改原始文件。",
+      "stderr": ""
+    },
+    "clean_validation": {
+      "returncode": 0,
+      "stdout": "{\"passed\": true, \"checks\": {\"unique_match_ids\": true, \"complete_unique_lineage\": true, \"lineage_states\": true, \"lineage_counts\": true, \"included_matches_traceable\": true, \"nonempty_dataset\": true, \"valid_values_and_eligibility\": true, \"stable_sort\": true}, \"states\": {\"included\": 48102, \"outside_window\": 1803, \"quarantined\": 40}}",
+      "stderr": ""
+    },
+    "git_diff_check": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "warning: in the working copy of '.cursor/rules/research-log.mdc', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it"
+    }
+  },
+  "adoption_replay": {
+    "passed": true,
+    "identity_version": "identity-reviewed-29d880765c1623764940",
+    "verified_outputs": 10,
+    "final_release": false,
+    "manifest": "data/processed/team_identity/identity-reviewed-29d880765c1623764940/identity_manifest.json",
+    "counts": {
+      "clean_matches": 48102,
+      "previous_study_matches": 26055,
+      "membership_status": {
+        "nonmember_evidence": 1385,
+        "conditional_both_members": 33448,
+        "outside_scope": 12064,
+        "pending": 1205
+      },
+      "study_disposition": {
+        "excluded_by_membership_evidence": 1138,
+        "retained": 24917
+      },
+      "user_approved_matches": 117,
+      "changed_matches": 1582
+    }
+  },
+  "figures_visual_check": {
+    "executor": "Codex (AI)",
+    "files": [
+      "outputs/figures/eras/eras-fifa-dddf11dd6dc0b7531b88/era_results.png",
+      "outputs/figures/eras/eras-fifa-dddf11dd6dc0b7531b88/tournament_composition.png",
+      "outputs/figures/eras/eras-fifa-dddf11dd6dc0b7531b88/weight_sensitivity.png"
+    ],
+    "result": "All three viewed; labels, sample sizes, legends and curves readable."
+  },
+  "tests": {
+    "command": [
+      "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "-q",
+      "--basetemp",
+      "outputs/test_tmp/reviewed-142c9216ce204bb0a9a49588caab2098",
+      "--junitxml",
+      "outputs\\logs\\team_identity\\reviewed-q1-closeout-20261025\\pytest.xml"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 17.660460300001432,
+    "temporary_directory": "outputs/test_tmp/reviewed-142c9216ce204bb0a9a49588caab2098"
+  },
+  "git_delivery": {
+    "committed_by_this_task": false,
+    "pushed_by_this_task": false,
+    "environment_and_test_cache_excluded": true,
+    "previously_tracked_editor_files": [
+      ".idea/.gitignore",
+      ".idea/inspectionProfiles/profiles_settings.xml",
+      ".idea/misc.xml",
+      ".idea/modules.xml",
+      ".idea/python项目.iml"
+    ],
+    "index_not_changed": true,
+    "files_over_100_mib": []
+  },
+  "q2": "Planning only; input availability checked, no effects or script implemented"
+}

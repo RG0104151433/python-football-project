@@ -1,0 +1,2562 @@
+{
+  "passed": true,
+  "created_at_utc": "2026-10-25T01:35:57.598929+00:00",
+  "analysis_id": "eras-fifa-dddf11dd6dc0b7531b88",
+  "identity_version": "identity-reviewed-29d880765c1623764940",
+  "run_manifest": "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json",
+  "comparison_run": "outputs/logs/team_identity/confirmed-eras-20261025T013459339533Z-595d970e/run_manifest.json",
+  "verification": {
+    "passed": true,
+    "analysis_id": "eras-fifa-dddf11dd6dc0b7531b88",
+    "verified_outputs": 22,
+    "inference": "not_run"
+  },
+  "identity_verification": {
+    "passed": true,
+    "identity_version": "identity-reviewed-29d880765c1623764940",
+    "verified_outputs": 10,
+    "final_release": false
+  },
+  "core_artifacts_identical": 19,
+  "baseline_matches": 26055,
+  "selected_matches": 24917,
+  "checks": [
+    {
+      "name": "complete_unique_overlay",
+      "passed": true
+    },
+    {
+      "name": "same_analysis_identity",
+      "passed": true
+    },
+    {
+      "name": "all_core_artifact_hashes_identical",
+      "passed": true
+    },
+    {
+      "name": "analysis_membership_encoding",
+      "passed": true
+    },
+    {
+      "name": "analysis_membership_fields",
+      "passed": true
+    },
+    {
+      "name": "analysis_membership_unique_sorted_keys",
+      "passed": true
+    },
+    {
+      "name": "before_after_encoding",
+      "passed": true
+    },
+    {
+      "name": "before_after_fields",
+      "passed": true
+    },
+    {
+      "name": "before_after_unique_eras",
+      "passed": true
+    },
+    {
+      "name": "era_contrasts_encoding",
+      "passed": true
+    },
+    {
+      "name": "era_contrasts_fields",
+      "passed": true
+    },
+    {
+      "name": "era_contrasts_unique_sorted_keys",
+      "passed": true
+    },
+    {
+      "name": "era_estimates_encoding",
+      "passed": true
+    },
+    {
+      "name": "era_estimates_fields",
+      "passed": true
+    },
+    {
+      "name": "era_estimates_unique_sorted_keys",
+      "passed": true
+    },
+    {
+      "name": "era_summary_encoding",
+      "passed": true
+    },
+    {
+      "name": "era_summary_fields",
+      "passed": true
+    },
+    {
+      "name": "era_summary_unique_sorted_keys",
+      "passed": true
+    },
+    {
+      "name": "era_tournament_summary_encoding",
+      "passed": true
+    },
+    {
+      "name": "era_tournament_summary_fields",
+      "passed": true
+    },
+    {
+      "name": "era_tournament_summary_unique_sorted_keys",
+      "passed": true
+    },
+    {
+      "name": "reference_weights_encoding",
+      "passed": true
+    },
+    {
+      "name": "reference_weights_fields",
+      "passed": true
+    },
+    {
+      "name": "reference_weights_unique_sorted_keys",
+      "passed": true
+    },
+    {
+      "name": "sample_flow_encoding",
+      "passed": true
+    },
+    {
+      "name": "sample_flow_fields",
+      "passed": true
+    },
+    {
+      "name": "sample_flow_unique_sorted_keys",
+      "passed": true
+    },
+    {
+      "name": "schedule_diagnostics_encoding",
+      "passed": true
+    },
+    {
+      "name": "schedule_diagnostics_fields",
+      "passed": true
+    },
+    {
+      "name": "schedule_diagnostics_unique_sorted_keys",
+      "passed": true
+    },
+    {
+      "name": "team_schedule_encoding",
+      "passed": true
+    },
+    {
+      "name": "team_schedule_fields",
+      "passed": true
+    },
+    {
+      "name": "team_schedule_unique_sorted_keys",
+      "passed": true
+    },
+    {
+      "name": "weight_sensitivity_encoding",
+      "passed": true
+    },
+    {
+      "name": "weight_sensitivity_fields",
+      "passed": true
+    },
+    {
+      "name": "weight_sensitivity_unique_sorted_keys",
+      "passed": true
+    },
+    {
+      "name": "year_summary_encoding",
+      "passed": true
+    },
+    {
+      "name": "year_summary_fields",
+      "passed": true
+    },
+    {
+      "name": "year_summary_unique_sorted_keys",
+      "passed": true
+    },
+    {
+      "name": "summary_sample_counts",
+      "passed": true
+    },
+    {
+      "name": "base_venue_exact_member_set",
+      "passed": true
+    },
+    {
+      "name": "classified_venue_exact_member_set",
+      "passed": true
+    },
+    {
+      "name": "era_base_venue1980s_counts",
+      "passed": true
+    },
+    {
+      "name": "era_base_venue1980s_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "era_base_venue1980s_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "era_base_venue1980s_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "era_base_venue1980s_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "era_base_venue1990s_counts",
+      "passed": true
+    },
+    {
+      "name": "era_base_venue1990s_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "era_base_venue1990s_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "era_base_venue1990s_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "era_base_venue1990s_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "era_base_venue2000s_counts",
+      "passed": true
+    },
+    {
+      "name": "era_base_venue2000s_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "era_base_venue2000s_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "era_base_venue2000s_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "era_base_venue2000s_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "era_base_venue2010s_counts",
+      "passed": true
+    },
+    {
+      "name": "era_base_venue2010s_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "era_base_venue2010s_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "era_base_venue2010s_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "era_base_venue2010s_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "era_base_venue2020_2024_counts",
+      "passed": true
+    },
+    {
+      "name": "era_base_venue2020_2024_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "era_base_venue2020_2024_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "era_base_venue2020_2024_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "era_base_venue2020_2024_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "era_classified_venue1980s_counts",
+      "passed": true
+    },
+    {
+      "name": "era_classified_venue1980s_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "era_classified_venue1980s_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "era_classified_venue1980s_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "era_classified_venue1980s_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "era_classified_venue1990s_counts",
+      "passed": true
+    },
+    {
+      "name": "era_classified_venue1990s_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "era_classified_venue1990s_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "era_classified_venue1990s_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "era_classified_venue1990s_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "era_classified_venue2000s_counts",
+      "passed": true
+    },
+    {
+      "name": "era_classified_venue2000s_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "era_classified_venue2000s_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "era_classified_venue2000s_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "era_classified_venue2000s_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "era_classified_venue2010s_counts",
+      "passed": true
+    },
+    {
+      "name": "era_classified_venue2010s_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "era_classified_venue2010s_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "era_classified_venue2010s_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "era_classified_venue2010s_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "era_classified_venue2020_2024_counts",
+      "passed": true
+    },
+    {
+      "name": "era_classified_venue2020_2024_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "era_classified_venue2020_2024_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "era_classified_venue2020_2024_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "era_classified_venue2020_2024_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1980_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1980_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1980_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1980_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1980_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1981_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1981_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1981_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1981_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1981_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1982_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1982_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1982_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1982_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1982_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1983_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1983_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1983_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1983_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1983_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1984_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1984_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1984_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1984_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1984_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1985_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1985_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1985_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1985_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1985_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1986_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1986_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1986_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1986_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1986_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1987_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1987_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1987_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1987_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1987_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1988_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1988_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1988_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1988_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1988_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1989_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1989_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1989_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1989_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1989_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1990_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1990_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1990_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1990_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1990_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1991_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1991_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1991_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1991_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1991_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1992_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1992_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1992_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1992_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1992_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1993_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1993_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1993_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1993_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1993_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1994_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1994_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1994_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1994_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1994_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1995_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1995_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1995_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1995_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1995_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1996_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1996_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1996_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1996_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1996_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1997_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1997_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1997_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1997_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1997_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1998_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1998_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1998_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1998_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1998_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1999_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1999_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1999_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1999_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue1999_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2000_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2000_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2000_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2000_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2000_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2001_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2001_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2001_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2001_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2001_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2002_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2002_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2002_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2002_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2002_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2003_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2003_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2003_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2003_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2003_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2004_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2004_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2004_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2004_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2004_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2005_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2005_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2005_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2005_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2005_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2006_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2006_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2006_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2006_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2006_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2007_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2007_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2007_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2007_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2007_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2008_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2008_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2008_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2008_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2008_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2009_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2009_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2009_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2009_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2009_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2010_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2010_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2010_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2010_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2010_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2011_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2011_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2011_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2011_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2011_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2012_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2012_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2012_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2012_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2012_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2013_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2013_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2013_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2013_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2013_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2014_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2014_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2014_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2014_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2014_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2015_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2015_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2015_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2015_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2015_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2016_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2016_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2016_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2016_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2016_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2017_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2017_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2017_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2017_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2017_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2018_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2018_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2018_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2018_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2018_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2019_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2019_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2019_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2019_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2019_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2020_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2020_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2020_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2020_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2020_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2021_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2021_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2021_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2021_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2021_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2022_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2022_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2022_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2022_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2022_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2023_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2023_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2023_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2023_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2023_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2024_counts",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2024_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2024_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2024_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_base_venue2024_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1980_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1980_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1980_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1980_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1980_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1981_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1981_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1981_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1981_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1981_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1982_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1982_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1982_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1982_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1982_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1983_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1983_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1983_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1983_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1983_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1984_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1984_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1984_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1984_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1984_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1985_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1985_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1985_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1985_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1985_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1986_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1986_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1986_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1986_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1986_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1987_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1987_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1987_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1987_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1987_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1988_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1988_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1988_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1988_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1988_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1989_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1989_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1989_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1989_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1989_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1990_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1990_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1990_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1990_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1990_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1991_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1991_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1991_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1991_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1991_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1992_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1992_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1992_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1992_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1992_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1993_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1993_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1993_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1993_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1993_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1994_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1994_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1994_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1994_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1994_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1995_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1995_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1995_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1995_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1995_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1996_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1996_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1996_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1996_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1996_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1997_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1997_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1997_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1997_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1997_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1998_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1998_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1998_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1998_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1998_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1999_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1999_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1999_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1999_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue1999_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2000_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2000_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2000_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2000_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2000_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2001_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2001_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2001_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2001_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2001_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2002_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2002_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2002_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2002_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2002_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2003_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2003_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2003_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2003_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2003_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2004_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2004_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2004_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2004_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2004_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2005_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2005_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2005_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2005_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2005_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2006_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2006_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2006_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2006_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2006_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2007_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2007_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2007_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2007_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2007_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2008_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2008_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2008_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2008_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2008_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2009_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2009_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2009_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2009_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2009_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2010_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2010_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2010_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2010_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2010_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2011_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2011_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2011_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2011_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2011_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2012_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2012_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2012_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2012_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2012_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2013_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2013_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2013_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2013_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2013_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2014_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2014_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2014_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2014_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2014_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2015_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2015_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2015_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2015_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2015_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2016_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2016_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2016_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2016_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2016_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2017_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2017_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2017_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2017_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2017_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2018_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2018_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2018_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2018_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2018_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2019_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2019_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2019_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2019_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2019_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2020_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2020_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2020_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2020_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2020_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2021_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2021_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2021_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2021_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2021_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2022_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2022_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2022_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2022_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2022_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2023_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2023_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2023_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2023_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2023_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2024_counts",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2024_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2024_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2024_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "year_classified_venue2024_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "type_1980sfriendly_counts",
+      "passed": true
+    },
+    {
+      "name": "type_1980sfriendly_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "type_1980sfriendly_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "type_1980sfriendly_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "type_1980sfriendly_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "type_1980snon_friendly_counts",
+      "passed": true
+    },
+    {
+      "name": "type_1980snon_friendly_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "type_1980snon_friendly_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "type_1980snon_friendly_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "type_1980snon_friendly_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "type_1990sfriendly_counts",
+      "passed": true
+    },
+    {
+      "name": "type_1990sfriendly_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "type_1990sfriendly_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "type_1990sfriendly_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "type_1990sfriendly_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "type_1990snon_friendly_counts",
+      "passed": true
+    },
+    {
+      "name": "type_1990snon_friendly_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "type_1990snon_friendly_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "type_1990snon_friendly_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "type_1990snon_friendly_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "type_2000sfriendly_counts",
+      "passed": true
+    },
+    {
+      "name": "type_2000sfriendly_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "type_2000sfriendly_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "type_2000sfriendly_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "type_2000sfriendly_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "type_2000snon_friendly_counts",
+      "passed": true
+    },
+    {
+      "name": "type_2000snon_friendly_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "type_2000snon_friendly_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "type_2000snon_friendly_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "type_2000snon_friendly_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "type_2010sfriendly_counts",
+      "passed": true
+    },
+    {
+      "name": "type_2010sfriendly_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "type_2010sfriendly_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "type_2010sfriendly_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "type_2010sfriendly_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "type_2010snon_friendly_counts",
+      "passed": true
+    },
+    {
+      "name": "type_2010snon_friendly_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "type_2010snon_friendly_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "type_2010snon_friendly_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "type_2010snon_friendly_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "type_2020_2024friendly_counts",
+      "passed": true
+    },
+    {
+      "name": "type_2020_2024friendly_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "type_2020_2024friendly_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "type_2020_2024friendly_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "type_2020_2024friendly_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "type_2020_2024non_friendly_counts",
+      "passed": true
+    },
+    {
+      "name": "type_2020_2024non_friendly_home_win_rate",
+      "passed": true
+    },
+    {
+      "name": "type_2020_2024non_friendly_draw_rate",
+      "passed": true
+    },
+    {
+      "name": "type_2020_2024non_friendly_away_win_rate",
+      "passed": true
+    },
+    {
+      "name": "type_2020_2024non_friendly_mean_goal_difference",
+      "passed": true
+    },
+    {
+      "name": "reference_reference-90003d0bdb8d6f65ceadfriendly",
+      "passed": true
+    },
+    {
+      "name": "reference_reference-90003d0bdb8d6f65ceadnon_friendly",
+      "passed": true
+    },
+    {
+      "name": "reference_reference-bde4b808f6d501474fb6friendly",
+      "passed": true
+    },
+    {
+      "name": "reference_reference-bde4b808f6d501474fb6non_friendly",
+      "passed": true
+    },
+    {
+      "name": "estimate_reference-90003d0bdb8d6f65cead:1980s:observed_rate",
+      "passed": true
+    },
+    {
+      "name": "estimate_reference-90003d0bdb8d6f65cead:1980s:standardized_rate",
+      "passed": true
+    },
+    {
+      "name": "estimate_reference-90003d0bdb8d6f65cead:1990s:observed_rate",
+      "passed": true
+    },
+    {
+      "name": "estimate_reference-90003d0bdb8d6f65cead:1990s:standardized_rate",
+      "passed": true
+    },
+    {
+      "name": "estimate_reference-90003d0bdb8d6f65cead:2000s:observed_rate",
+      "passed": true
+    },
+    {
+      "name": "estimate_reference-90003d0bdb8d6f65cead:2000s:standardized_rate",
+      "passed": true
+    },
+    {
+      "name": "estimate_reference-90003d0bdb8d6f65cead:2010s:observed_rate",
+      "passed": true
+    },
+    {
+      "name": "estimate_reference-90003d0bdb8d6f65cead:2010s:standardized_rate",
+      "passed": true
+    },
+    {
+      "name": "estimate_reference-90003d0bdb8d6f65cead:2020_2024:observed_rate",
+      "passed": true
+    },
+    {
+      "name": "estimate_reference-90003d0bdb8d6f65cead:2020_2024:standardized_rate",
+      "passed": true
+    },
+    {
+      "name": "estimate_reference-bde4b808f6d501474fb6:1980s:observed_rate",
+      "passed": true
+    },
+    {
+      "name": "estimate_reference-bde4b808f6d501474fb6:1980s:standardized_rate",
+      "passed": true
+    },
+    {
+      "name": "estimate_reference-bde4b808f6d501474fb6:1990s:observed_rate",
+      "passed": true
+    },
+    {
+      "name": "estimate_reference-bde4b808f6d501474fb6:1990s:standardized_rate",
+      "passed": true
+    },
+    {
+      "name": "estimate_reference-bde4b808f6d501474fb6:2000s:observed_rate",
+      "passed": true
+    },
+    {
+      "name": "estimate_reference-bde4b808f6d501474fb6:2000s:standardized_rate",
+      "passed": true
+    },
+    {
+      "name": "estimate_reference-bde4b808f6d501474fb6:2010s:observed_rate",
+      "passed": true
+    },
+    {
+      "name": "estimate_reference-bde4b808f6d501474fb6:2010s:standardized_rate",
+      "passed": true
+    },
+    {
+      "name": "estimate_reference-bde4b808f6d501474fb6:2020_2024:observed_rate",
+      "passed": true
+    },
+    {
+      "name": "estimate_reference-bde4b808f6d501474fb6:2020_2024:standardized_rate",
+      "passed": true
+    },
+    {
+      "name": "contrast_2010s_minus_1980sreference-90003d0bdb8d6f65ceadcomposition_adjustment_difference",
+      "passed": true
+    },
+    {
+      "name": "contrast_2010s_minus_1980sreference-90003d0bdb8d6f65ceadobserved_difference",
+      "passed": true
+    },
+    {
+      "name": "contrast_2010s_minus_1980sreference-90003d0bdb8d6f65ceadstandardized_difference",
+      "passed": true
+    },
+    {
+      "name": "contrast_2010s_minus_1980sreference-bde4b808f6d501474fb6composition_adjustment_difference",
+      "passed": true
+    },
+    {
+      "name": "contrast_2010s_minus_1980sreference-bde4b808f6d501474fb6observed_difference",
+      "passed": true
+    },
+    {
+      "name": "contrast_2010s_minus_1980sreference-bde4b808f6d501474fb6standardized_difference",
+      "passed": true
+    },
+    {
+      "name": "contrast_2020_2024_minus_1980sreference-90003d0bdb8d6f65ceadcomposition_adjustment_difference",
+      "passed": true
+    },
+    {
+      "name": "contrast_2020_2024_minus_1980sreference-90003d0bdb8d6f65ceadobserved_difference",
+      "passed": true
+    },
+    {
+      "name": "contrast_2020_2024_minus_1980sreference-90003d0bdb8d6f65ceadstandardized_difference",
+      "passed": true
+    },
+    {
+      "name": "contrast_2020_2024_minus_1980sreference-bde4b808f6d501474fb6composition_adjustment_difference",
+      "passed": true
+    },
+    {
+      "name": "contrast_2020_2024_minus_1980sreference-bde4b808f6d501474fb6observed_difference",
+      "passed": true
+    },
+    {
+      "name": "contrast_2020_2024_minus_1980sreference-bde4b808f6d501474fb6standardized_difference",
+      "passed": true
+    },
+    {
+      "name": "era_estimates_no_unimplemented_inference",
+      "passed": true
+    },
+    {
+      "name": "era_contrasts_no_unimplemented_inference",
+      "passed": true
+    }
+  ],
+  "checked_tables": {
+    "analysis_membership": 48102,
+    "before_after": 5,
+    "era_contrasts": 12,
+    "era_estimates": 20,
+    "era_summary": 10,
+    "era_tournament_summary": 10,
+    "reference_weights": 4,
+    "sample_flow": 29,
+    "schedule_diagnostics": 120,
+    "team_schedule": 2894,
+    "weight_sensitivity": 208,
+    "year_summary": 90
+  },
+  "audit_script_sha256": "f2652d8cc2348808c1a5ec193ddd2964bf0a365d78e0dadf91b675e80e845a0f",
+  "inference": "not_run",
+  "full_history_verified": false
+}

@@ -1,0 +1,650 @@
+{
+  "decisions": [
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Dahomey；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-001",
+      "end": "1975-11-30",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:benin",
+      "start": "1959-11-08",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Upper Volta；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-002",
+      "end": "1984-08-04",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:burkina-faso",
+      "start": "1960-04-14",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Netherlands Antilles；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-003",
+      "end": "2010-10-10",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER",
+        "E-CURACAO-HISTORY"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:curacao",
+      "start": "1957-03-03",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Bohemia；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-004",
+      "end": "1919-01-01",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER",
+        "E-CZECH-HISTORY"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:czechoslovakia",
+      "start": "1903-04-05",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Bohemia and Moravia；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-005",
+      "end": "1945-05-01",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER",
+        "E-CZECH-HISTORY"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:czechoslovakia",
+      "start": "1939-01-01",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Representation of Czechs and Slovaks；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-006",
+      "end": "1993-11-17",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER",
+        "E-CZECH-HISTORY"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:czechoslovakia",
+      "start": "1993-03-24",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Belgian Congo；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-007",
+      "end": "1956-01-02",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:dr-congo",
+      "start": "1948-05-25",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Congo-Léopoldville；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-008",
+      "end": "1964-07-19",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:dr-congo",
+      "start": "1963-04-12",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Congo-Kinshasa；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-009",
+      "end": "1970-11-24",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:dr-congo",
+      "start": "1965-01-09",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Zaïre；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-010",
+      "end": "1997-04-27",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:dr-congo",
+      "start": "1971-01-10",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：French Somaliland；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-011",
+      "end": "1977-06-27",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:djibouti",
+      "start": "1947-12-05",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：United Arab Republic；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-012",
+      "end": "1971-09-11",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:egypt",
+      "start": "1958-02-22",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Swaziland；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-013",
+      "end": "2018-04-19",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:eswatini",
+      "start": "1968-05-01",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Gold Coast；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-014",
+      "end": "1957-03-06",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:ghana",
+      "start": "1950-05-28",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Portuguese Guinea；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-015",
+      "end": "1973-09-24",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:guinea-bissau",
+      "start": "1953-06-02",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：British Guiana；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-016",
+      "end": "1967-08-02",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:guyana",
+      "start": "1905-07-21",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Dutch East Indies；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-017",
+      "end": "1951-03-04",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:indonesia",
+      "start": "1934-05-13",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Mandatory Palestine；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-018",
+      "end": "1940-04-27",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:israel",
+      "start": "1934-03-16",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Nyasaland；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-019",
+      "end": "1964-07-04",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:malawi",
+      "start": "1957-08-28",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Malaya；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-020",
+      "end": "1963-08-16",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:malaysia",
+      "start": "1948-06-20",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Burma；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-021",
+      "end": "1989-01-01",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:myanmar",
+      "start": "1952-03-14",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Macedonia；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-022",
+      "end": "2018-11-19",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:north-macedonia",
+      "start": "1993-10-13",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Ireland；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-023",
+      "end": "1956-04-11",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:northern-ireland",
+      "start": "1882-02-18",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Irish Free State；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-024",
+      "end": "1936-12-06",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:republic-of-ireland",
+      "start": "1924-05-28",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Éire；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-025",
+      "end": "1953-03-25",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:republic-of-ireland",
+      "start": "1937-01-01",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Soviet Union；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-026",
+      "end": "1991-11-13",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER",
+        "E-RUSSIA-HISTORY"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:russia",
+      "start": "1924-11-16",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：CIS；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-027",
+      "end": "1992-06-18",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER",
+        "E-RUSSIA-HISTORY"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:russia",
+      "start": "1992-01-25",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Western Samoa；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-028",
+      "end": "1996-11-15",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:samoa",
+      "start": "1979-08-31",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：FR Yugoslavia；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-029",
+      "end": "2003-02-03",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER",
+        "E-SERBIA-HISTORY"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:serbia",
+      "start": "1994-12-23",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Serbia and Montenegro；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-030",
+      "end": "2006-06-21",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER",
+        "E-SERBIA-HISTORY"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:serbia",
+      "start": "2003-02-04",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Ceylon；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-031",
+      "end": "1972-05-22",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:sri-lanka",
+      "start": "1952-03-24",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Dutch Guyana；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-032",
+      "end": "1975-11-25",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:suriname",
+      "start": "1921-01-28",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Tanganyika；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-033",
+      "end": "1964-04-26",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:tanzania",
+      "start": "1945-01-01",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：New Hebrides；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-034",
+      "end": "1980-07-30",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:vanuatu",
+      "start": "1951-10-04",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Northern Rhodesia；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-035",
+      "end": "1964-10-25",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:zambia",
+      "start": "1947-02-22",
+      "status": "proposed"
+    },
+    {
+      "action": "historical_annotation",
+      "annotation": "上游旧称线索：Southern Rhodesia；日期是上游比赛范围，未经独立逐场确认；不改实体ID。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-HISTORY-036",
+      "end": "1980-04-18",
+      "evidence_ids": [
+        "E-UPSTREAM-FORMER"
+      ],
+      "expected": {},
+      "independently_reviewed_by": "",
+      "match_id": "",
+      "reason": "保留当时名称的解释线索，与现代标签分开；只预演覆盖，不认定原记录错误或自动合并。",
+      "source_team_id": "team:zimbabwe",
+      "start": "1946-06-16",
+      "status": "proposed"
+    },
+    {
+      "action": "exclude_match",
+      "annotation": "地方代表队慈善赛；若最终人口政策排除该类比赛，建议不进入国家足协主比较。",
+      "checked_by": "Codex (AI)",
+      "decision_id": "D-SILESIA-20061209",
+      "end": "2006-12-09",
+      "evidence_ids": [
+        "E-SILESIA-2006"
+      ],
+      "expected": {
+        "away_score": "1",
+        "away_team": "Poland",
+        "country": "Poland",
+        "date": "2006-12-09",
+        "home_score": "1",
+        "home_team": "Silesia",
+        "is_neutral": "false"
+      },
+      "independently_reviewed_by": "",
+      "match_id": "results:96f8ad69ef117493c922104fff275622640019dcb205e150b4191994e7f57f60",
+      "reason": "以代表范围及比赛性质提出排除情景，非因赛果；不得据此直接改neutral，也不将本单例方案当完整排除名单。",
+      "source_team_id": "team:silesia",
+      "start": "2006-12-09",
+      "status": "proposed"
+    }
+  ],
+  "schema_version": "identity-decisions-draft-v1"
+}

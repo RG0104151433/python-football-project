@@ -1,0 +1,1010 @@
+
+<!doctype html>
+
+	<html id="bynder" class="no-js " lang="en-US">
+
+
+<head>
+	<meta charset="utf-8" />
+	
+		<link rel="shortcut icon" href="https://d8ejoa1fys2rk.cloudfront.net/5.0.5/includes/img/icons/fifa.ico" />
+		
+		<title>FIFA Digital Assets Hub</title>
+		<meta http-equiv="version" content="4.3" />
+		<meta http-equiv="language" content="EN-US" />
+		<meta name="base-cloudfront-url" content="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=1024,maximum-scale=1.0" />
+	
+		<meta name="robots" content="noindex, follow" />
+	
+	
+	
+	
+	
+		
+        
+        
+		
+	
+	
+		
+			<meta name="bynder.feature_flag.assetbank&#95;unified&#95;search&#95;internal&#95;POC" content="off" />
+		
+			<meta name="bynder.feature_flag.honeycomb&#95;frontend" content="on" />
+		
+			<meta name="bynder.feature_flag.honeycomb&#95;split&#95;data&#95;enrichment&#95;lucee" content="off" />
+		
+		
+			
+
+
+
+
+		
+	
+
+    
+
+    <link rel="preconnect" href="https://static.bynder.cloud/ui" crossorigin>
+
+    <script nonce="QnZXT2Y2VTlCdVdlbm5UY3FOSkd6dz09">
+        (() => {
+            const baseUrl = 'https://static.bynder.cloud/ui/common/paramount/';
+
+            window.__paramountBaseUrl = baseUrl;
+            window.__paramountManifestPromise = fetch(baseUrl + 'manifest.json')
+                .then(r => r.json());
+
+            window.__paramountManifestPromise
+                .then(data => {
+                    if (data['app.js']) {
+                        const link = document.createElement('link');
+                        link.rel = 'modulepreload';
+                        link.href = baseUrl + data['app.js'];
+                        document.head.appendChild(link);
+                    }
+                })
+                .catch(() => {}); // failures are intentionally ignored here because microfrontends.cfm has its own .catch() with the jQuery fallback
+        })();
+    </script>
+
+
+
+    
+        <link href="https://d8ejoa1fys2rk.cloudfront.net/static/F81BD056643250A9EB7254DB6EEDF5BA.cache.css" type="text/css" rel="stylesheet" /><link href="https://d8ejoa1fys2rk.cloudfront.net/static/EC20F0B7FD7F755425C2F409BC77AE97.cache.css" type="text/css" rel="stylesheet" /><link href="https://d8ejoa1fys2rk.cloudfront.net/static/F674A85E2A2F2135B7D4FA65C50463CB.cache.css" type="text/css" rel="stylesheet" /><link href="https://d8ejoa1fys2rk.cloudfront.net/static/A5AA58C6FD29A8EA9A6F8DCA01A68C7F.cache.css" type="text/css" rel="stylesheet" /><link href="https://d8ejoa1fys2rk.cloudfront.net/static/7758D113B6F9A0A9A63861EF2570C822.cache.css" type="text/css" rel="stylesheet" /><link href="https://d8ejoa1fys2rk.cloudfront.net/static/B69F44DD5D8F582CC72123C227468D31.cache.css" type="text/css" rel="stylesheet" /><link href="https://d8ejoa1fys2rk.cloudfront.net/static/85890D93C804C45AD2F8FCE7840217CE.cache.css" type="text/css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/v7/header/css/header-admin.css">
+
+	<style>.farbtastic *{position:absolute;cursor:crosshair}</style>
+	<link rel="stylesheet" href="/v7/portal/portals/
+		b5ccf555-a8ec-4734-ac98-5b7d0723e4ee/theme?format=css">
+	
+		<link href="https://d8ejoa1fys2rk.cloudfront.net/5.0.5/includes/themes/default.css" type="text/css" rel="stylesheet" />
+	
+
+    <link rel="stylesheet" href="https://d8ejoa1fys2rk.cloudfront.net/5.0.5/includes/css/vendor/font-awesome.min.css" />
+
+
+    
+    
+
+        
+
+    
+        
+        
+    
+
+    <script nonce="QnZXT2Y2VTlCdVdlbm5UY3FOSkd6dz09" src="https://d8ejoa1fys2rk.cloudfront.net/static/AB8E3AB7FAEA31720A2520F3AF407AE0.cache.js" type="text/javascript"></script>
+
+    
+    <script type="text/javascript" nonce="QnZXT2Y2VTlCdVdlbm5UY3FOSkd6dz09">
+        const dsn = 'https://2b555212b26f48dc98591a61c5ba0e5a@sentry10.bynder.cloud/14';
+        const release = '5\x2e0\x2e5-24698d6';
+        const environment = 'production';
+
+        var SentryClient = {
+            captureMessage: function() {},
+        };
+
+        try {
+            if (!dsn || !release) throw new Error("Sentry DSN or release not set");
+
+            SentryClient = SentryCustomClient.init({
+                dsn,
+                release,
+                environment,
+                ignoreSpans: [
+                    // Ignore user-uploaded files, used for backgrounds
+                    {
+                        op: "resource.css",
+                        name: /^\/files\//,
+                    },
+                ],
+            });
+        } catch (err) {
+            console.error("Sentry initialization failed", err);
+        }
+
+        window.SentryClient.safeCaptureException = function(exc, message, obj) {
+            if (typeof obj === "undefined") {
+                var obj = {extra:{}};
+            }
+
+            if (typeof message === "undefined") {
+                message = "Error";
+            }
+
+            if (exc instanceof Error) {
+                obj.extra.traceback = exc.stack;
+                message += ": " + exc.message;
+            } else if (typeof exc === "string") {
+                message += ": " + exc;
+            }
+
+            return SentryClient.captureMessage(message, obj);
+        };
+    </script>
+
+
+
+    <!-- require modules setup // begin -->
+    <script type="text/javascript" nonce="QnZXT2Y2VTlCdVdlbm5UY3FOSkd6dz09">
+        var require = {
+            waitSeconds: 0, // no timeouts, saves widget on slow connection;
+            baseUrl: 'https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/',
+            deps: ['requireSettings'],
+            paths: {
+                requireSettings: 'https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/scripts/modules/base/requireSettings'
+            }
+        };
+    </script>
+    <script nonce="QnZXT2Y2VTlCdVdlbm5UY3FOSkd6dz09" src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/deps/requirejs/require.js" type="text/javascript"></script>
+    <!-- require modules setup // end -->
+
+    
+
+    
+
+    <script nonce="QnZXT2Y2VTlCdVdlbm5UY3FOSkd6dz09" src="https://d8ejoa1fys2rk.cloudfront.net/static/44714DE2CEEBF3A8791B3F9D888EF9A5.cache.js" type="text/javascript"></script>
+
+    <script nonce="QnZXT2Y2VTlCdVdlbm5UY3FOSkd6dz09">
+        bynder.Config.registerFeatures(["3d-previews","access-request-form","ai-duplicate-manager","ai-face-recognition","ai-similarity-search","ai-speech-to-text","ai-text-in-image-search","alternative-asset-detail-view","Appcues","archived-asset-notification","asset-permission-viewer","autotags","bynder-support-opt-in","change-history","collection-embed","collection-options","collections-hidebydefault","compact","crop","crop-canvas","custom-thumbnails","dashboard-search","dashboard-slider","DAT","detailed-delivery-metrics","disable-file-merge","disable-media-webversion","disable-pdf","disable-replyto","download-additionals","download-cdn","download-preselect","download-product-data","download-request","duplicate-view","enable-CDN","enrichment-agent","external-option-links","files-service-wf-uploaders","focus-point","gdpr-message","GenAI","hide-brands","hide-brandsnavigation","hide-bynder","hide-categories","hide-dropbox","hide-styleguidebrandsfilter","impersonate-users","improved-taxonomy-management","inspiration","legacy-oauth1","mark-as-public","media-detail-share","media-embed","meta-selectall","metadata-presets","metadata-presets-sharing","metadata-write-csv","metadata-write-xmp","metadata-write-xmp-main-namespace","metapropertyLevelAccess","mfa","multi-sso","new-asset-notification","news","news-slider","notifications-center","package-analysis","pdfviewer","PIM","public-filters","public-links","public-thumbnails","pyusermanagement","reactivate-user-check","readonly-individual-share","readonly-share","removed-asset-notification","rewriteUrls","robots-disallow","save-search-filter","search-active-assets","SearchAndOperator","show-prefix-download-btn","showOriginalFilename","sns-notification","spotlight-help-modal","spotlight-recent-searches","SSO","sso-debug","sticky-search","styleguide-subcategories","support-form","taxonomy-csv-import","terms","transfer","transfer-share-by-link","transformation-agent","unified-header-rollout","updated-asset-meta-notification","updated-asset-notification","upload-aws-accelerator","upload-for-approval","uploader-bare","user-filter","user-outofoffice","user-timezone","version-updater","videothumbnail","waiting-room-filtering","watermark-date-picker","workflow-beta","workflow-campaignoverviewhomepage","workflow-duedate-highlight","workflow-imagezoom","workflow-jobexport","workflow-reauthenticate","workflow-short-email-subjects","workspace","wr-mpo-approve-download-requests","x-robots-disallow"]);
+    </script>
+
+    <meta name="videojs" data-jsmin="true" content='<script nonce="QnZXT2Y2VTlCdVdlbm5UY3FOSkd6dz09" src="https://d8ejoa1fys2rk.cloudfront.net/static/D1F13441208BC0929C48C9BFA921CDFC.cache.js" type="text/javascript"></script>'>
+
+
+    <script nonce="QnZXT2Y2VTlCdVdlbm5UY3FOSkd6dz09">
+        // Used by asset-fronted-sdk
+        bynder.Uploader = {
+            chunkSize: Number(5 * 1024 * 1024),
+        }
+
+        var defaultChunkSize = Number(5242880);
+        var minChunkSize = Number(5242880);
+        var maxChunkSize = Number(1048576000);
+        var chunkSize = Number(5 * 1024 * 1024);
+
+        if (!is.numeric(chunkSize)) {
+            chunkSize = defaultChunkSize;
+        }
+        else if (chunkSize < minChunkSize) {
+            chunkSize = minChunkSize;
+        }
+        else if (chunkSize > maxChunkSize) {
+            chunkSize = maxChunkSize;
+        }
+        bynder.Config.setSetting(
+            'default_chunk_size',
+            chunkSize
+        );
+        bynder.Config.tinymceUrl = 'https://d8ejoa1fys2rk.cloudfront.net/5.0.5/includes/js/vendor/tinymce-4.3.11/tinymce.min.js';
+        
+        
+            
+            
+        
+        
+    </script>
+
+    <script nonce="QnZXT2Y2VTlCdVdlbm5UY3FOSkd6dz09">
+        bynder.Bynder.use('bynder.modules.Language', function(Language) {
+            Language.addKeys(
+	
+    {"generalRemoveOnlineLink":"Remove online link","cropMultiplePath":"Multiple paths defined for this asset, cannot show minimum crop area.","generalCreateNew":"Create new %s","workflow.Job":"Job","trashSingleMediaDelete":"The chosen media was deleted","selectCollection":"Select a collection","bulkSelectCollection":"Select or add collection","generalDeselectAll":"Deselect all","workflow.No":"No","brandstoreDrafts":"Drafts","upload.whitelist.warning.short":"Cannot complete upload","modalActionDelete":"Delete","generalClose":"Close","relatedFor":"Related assets for","cropNotEnoughPixels":"Cannot create crop: The resolution of this asset is not sufficient.","generalStoreSelected":"Store selected files","uploadingNewVersion":"Uploading new version","download.progress":"download(s) being prepared","searching":"Searching...","pdfViewerWarning":"This PDF viewer is optimized for IE10+, Chrome, Firefox and Safari. With another browser or version you might see this PDF different from the original.","selectFromImagebank":"Choose image from image bank","collectionOptions.view":"View collection","generalShow":"Show","pendingRequest":"Pending request","generalDateEditFormatString":"mm/dd/yyyy","validate.NoCapsAllowed":"No special characters allowed","generalCancel":"Cancel","workflow.Name":"Name","FilesIETooBig":"Your browser is not supported for uploading files larger than 2GB. If you'd like to upload files larger than 2GB, please use a different browser, such as a recent version of Google Chrome (13+), Firefox (6+), Safari (6+) or Internet Explorer (10).","assetViewsTotal":"total views","trashSingleMediaRestore":"The chosen media was restored back to the image bank","alreadyInInspiration":"The selected image is already part of the inspiration.","cropButtonVersion":"Crop & save as version","uploadingAdditionalFiles":"Uploading additional files","requestSentDownload":"A request has been sent. Your download will begin shortly","profileGiveName":"Please enter a name for the profile","save":"Save","brandRemoving":"Removing brand...","meta.optionNameAlreadyExists":"An option with this name already exists.","cropButtonCrop":"Crop image","downloadInProgress":"download(s) being prepared","FilesSharingErrorRetrying":"An error occurred during the transfer, please check if the file is still available. We're trying the transfer again... If this takes too long please retry, or contact support.","uploadLeave":"Uploading files is canceled when leaving this page.","trashMultiMediaRestore":"The chosen media were restored back to the image bank","generalOr":"or","collection.created":"Collection created","passwordStrength":"Strength","cropCheckRight":"Check the right margin.","trashMulitMediaDelete":"The chosen medias were deleted","access.requestSentFor":"has sent an access request for","cropButtonDownload":"Crop & download","generalExpand":"expand","uploadMax":"Wow! You reached the maximum of our uploader, which can handle up to 250 files! The first 250 files of your selection will now be uploaded.","validate.OnlyAlphanumericAndUnderscoreAllowed":"Invalid character. Use only letters, numbers and underscore (_). No leading or trailing spaces allowed.","generalAdd":"Add","request.login":"You must log in to request the download of the asset(s).","cropCheckLeft":"Check the left margin.","propertyNoProperty":"Clear selection","brandstoreReorderError":"Couldn't reorder products","errorHeading":"Oops, something went wrong!","duplicateRemoved":"Duplicates were removed successfully!","downloadTask":"Close this message to continue working. You will receive a notification when your download is ready.","noresults":"There are currently no results","media.personal.edit.noaccess":"You can only edit your personal assets","deletingDependency":"Removing dependency...","movingAssets":"Moving assets..","FilesSharingNoConnection":"It looks like you lost your internet connection. We will continue your transfer as soon as the connection resumes.","waitingroomAccess":"Before your media will be published to the image bank, it will first be sent for approval. When audited you will receive a notification.","assetDownloadsTotal":"total downloads","collection.saved":"The collection has been updated.","profileCantDelete":"This profile cannot be deleted. First change the profile of the linked users.","dependencyError":"Cannot remove dependency right now","generalName":"Name","generalUser":"User","activity.sendWithDropbox":"has sent you files with External Uploader","disclaimer.loading":"Checking for disclaimer..","uploadNewWindow":"Uploading may take some time. While you're waiting you can already start Tagging, setting up Brands & Categories, and more!","generalBy":"by","cropCheckBottom":"Check the bottom margin.","metaHighlighted":"The highlighted fields are required","preparingDownload":"We are preparing your download, please wait...","captcha.incorrectToken":"The text you've entered is incorrect","FilesSharingError":"Something went wrong with the upload. Please try again, or contact support if problems persist.","profileDeleted":"Deleting profile..","clickToView":"Click to view","cropNoPathQuad":"Incorrect path defined for this asset, cannot show minimum crop area","mediaRequest":"Request media","generalTaskDownloadReady":"is ready","workflow.SelectUser":"Select a user","brandDeleted":"Brand deleted.","generalDownload":"Download","error.filesModified":"The files have been modified. A new zip file is in the making. Please refresh the screen.","generalNoResultsFor":"No results for","saving":"Saving","duplicate.noDuplicateFound":"No duplicates found","validate.NoSpacesAllowed":"Invalid character. Use only letters, numbers, dash (-) and underscore (_).","mediaLoading":"The selected media is being loaded..","generalFocusPointSaved":"Focus point saved.","disclaimer.restrictions":"The following restriction is in effect","media.detailConvertError":"Error converting media","brandstoreShowLess":"Show less","downloadTaskInProgress":"edits/downloads in progress","removingMedia":"Removing media from collection.","brandstore.reorder.InvalidInput":"Invalid input was used for reorder.","cropNoPath":"No path defined for this asset, cannot show minimum crop area.","brandstore.reorder.ProductNotFound":"Product couldn't be found for reorder.","addOption":"Add option","generalYes":"Yes","uploadComplete":"Upload completed!","generalInactive":"Inactive","noFiltersFound":"No filters were found.","generalSettings":"Settings","generalAccept":"Accept","categoryRemoving":"Removing category...","convertingFailed":"Processing failed","cropButtonNewAsset":"Crop & create new asset","collection.callbackMessage":"Your collection has been created/modified. You can view this collection right away or continue with what you were doing.","duplicateRemoving":"Removing duplicates, please wait...","cropSelectedAreaError":"Please crop only over the allowed area.","meta.confirmRemove":"Are you sure you want to remove the selected media from this option?","meta.titleRemove":"Remove media from option","generalNo":"No","ajaxFailed":"Connection failed, try again.","error.enablepopup":"Please enable pop-ups in your browser settings","presetRequired":"For some assets a specific workflow is required","activity.noTasks":"You have no tasks","dateTimeFormat":"MM/DD/YYYY HH:mm","downloadtask.progress":"edits/downloads in progress","mediaRemoved":"Media is removed from collection.","generalCheckboxMsg":"No item was checked. Please chose items to delete or restore.","continue":"Continue","goToMedia":"Go to your media","workflow.Cancel":"Cancel","downloadNotifyReady":"You'll receive an email when your requested files are ready for download.","deletingMedia":"Deleting media","generalDeleted":"Deleted","selectAll":"Select all","editTitle":"Update title","cropCheckTop":"Check the top margin.","validate.NoSpecialAllowed":"Invalid character. Use only letters, numbers, dash (-) and underscore (_).","generalHide":"Hide","generalOnlineURL":"Online link URL","validate.Invalid":"Invalid input","task.progress":"edit(s) in progress","validateAjaxCheck":"This value already exists","workflow.NeedsChanges":"Needs changes","generalSaveSelected":"Save selected files","meta.confirmSubtitle":"After saving the media will be removed from this option","requestRequested":"Requested","noBrandSelected":"Please select a brand before saving.","transferbox.error":"Something went wrong processing your file. Please contact the administrator of this portal.","workflow.Campaign":"Campaign","brandAdded":"Brand added","relatedAssets":"related assets","generalFilesAdded":"Your files have been added","sessionExpired":"Your session has expired","brandstore.reorder.InvalidProductAmount":"Invalid quantity was selected for product.","categoryDeleted":"The category has been deleted","generalFocusPointErrorSaving":"Error saving the focus point.","download.requestSent":"has sent a download request.","brandstoreReadyToOrder":"Ready to order","generalWatch":"View","filesNotFound":"The requested files could not be found :( please try again later..","Integration":"Integration","sendForApproval":"Send for approval","waitingroomOptionAccess":"In order to add media to this option you need permission. Your media will first be send for approval. When audited you will receive a notification.","DateAdded":"Date added","workflow.GroupManagement":"Group Management","generalDone":"Done","generalOkay":"OK","generalStart":"Start","collections.editShare":"Edit share","generalStepViolation":"Input a multiple of {1}","generalLoading":"Loading","generalFiles":"Files","categoryAdded":"added category","workflow.Remove":"Remove","mediaBelongs":"This asset belongs to","generalNone":"None","dependencySaveError":"Cannot save dependency right now","simpleSaveError":"you need to edit at least one field in order to be able to save","requestApproval":"Approval request: {1}","permissions.manage":"Manage permissions","generalError":"Something went wrong, please try again later.","generalAddTo":"Add to %s","workflow.Close":"Close","upload.whitelist.warning.long":"This file type does not meet security guidelines. Verify the file type.","saved":"Saved","requestSend":"A request has been sent","generalCroppingFailed":"Cropping the asset failed. Please try again later.","taskInProgress":"edit(s) in progress","uploadImage":"Upload image","loadingCollections":"Loading collections...","collection.modified":"Collection modified","meta.createDuplicateInfo":"In order to create a duplicate, please go to Metaproperties management or contact your Admin.","brandstoreReadMore":"Read more","validate.InvalidNr":"Not a valid number","generalAudit":"Audit","generalFocusPointErrorRetrieving":"Error retrieving the focus point.","mediaSavingChanges":"Saving media...","adddescription":"Add description","workflow.DeleteConfirmation":"Are you sure you want to remove {1}?","brandstore.goToJob":"Go to product","preset.presetUpdated":"Preset updated","generalGroupDeleted":"Group deleted","generalSelectAll":"Select all","showMedia":"Show for which media","editTask":"Close this message to continue working. You will receive a notification when your edit is ready."}
+);
+        });
+    </script>
+
+    <script nonce="QnZXT2Y2VTlCdVdlbm5UY3FOSkd6dz09">
+        window.csrf = "7d812b43688e0d40bb49ac4e2394b7d75860bbef";
+        window.getStaticURL = "https\x3a//d8ejoa1fys2rk\x2ecloudfront\x2enet/5\x2e0\x2e5";
+    </script>
+    
+
+    
+    <script nonce="QnZXT2Y2VTlCdVdlbm5UY3FOSkd6dz09">
+        window.bynder = window.bynder || {};
+
+        window.bynder.user = {
+            id: '59364033-5334-427A-87BC55D9D2BDCD73',
+            name: '',
+        };
+
+        
+
+        
+        if (window.bynder.user.id) {
+            window.bynder.user.id =
+                window.bynder.user.id.substring(0, 23) + '-' + window.bynder.user.id.substring(23);
+            window.bynder.user.id = window.bynder.user.id.toLowerCase();
+        }
+    </script>
+
+    <script nonce="QnZXT2Y2VTlCdVdlbm5UY3FOSkd6dz09">
+        window.parsley.options.excluded = "input[type=button], input[type=submit], input[type=reset], input[type=hidden], [disabled], :hidden, div.invisible *";
+    </script>
+
+    
+
+    
+
+    
+        
+    
+
+    
+        <script nonce="QnZXT2Y2VTlCdVdlbm5UY3FOSkd6dz09" src="/includes/node_modules/historyjs/scripts/bundled/html4%2Bhtml5/jquery.history.js"></script>
+    
+
+    
+    
+        
+        
+            <script nonce="QnZXT2Y2VTlCdVdlbm5UY3FOSkd6dz09" src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/scripts/templates/components.js"></script>
+        
+    
+
+    
+
+    
+    
+
+    <script nonce="QnZXT2Y2VTlCdVdlbm5UY3FOSkd6dz09" src="https://d8ejoa1fys2rk.cloudfront.net/static/508DD3383B488E475B19570D04F105A9.cache.js" type="text/javascript"></script>
+    
+        <script nonce="QnZXT2Y2VTlCdVdlbm5UY3FOSkd6dz09" src="https://d8ejoa1fys2rk.cloudfront.net/static/D9B5E78B2B36B7550710F704CEBBA9BE.cache.js" type="text/javascript"></script>
+    
+
+    
+    
+        
+        
+    
+
+    
+
+    <script type="text/javascript" nonce="QnZXT2Y2VTlCdVdlbm5UY3FOSkd6dz09">
+        (function($) {
+            $(function() {
+                bynder.Locale = "en\x5fUS";
+                moment.locale(bynder.Locale);
+                if (is.set($.fn.datetimepicker) && is.set($.fn.datetimepicker.defaults)) {
+                    $.fn.datetimepicker.defaults.locale = bynder.Locale;
+                }
+
+                
+                
+                
+                
+                    bynder.interceptors.DownloadInterceptor.register("download-select", ["selection","collection", "share"]);
+                
+                
+                    bynder.interceptors.DownloadInterceptor.register("download-request");
+                
+                
+                
+                
+                
+
+                if (bynder.modules.SessionKeepAlive) {
+                    new bynder.modules.SessionKeepAlive().start();
+                }
+
+                
+
+                
+                
+                    bynder.Config.setSetting(
+                        'useMetaKeyProduct',
+                        false
+                    );
+                
+                
+
+                
+            });
+        })(jQuery);
+    </script>
+
+    <script type="text/javascript" nonce="QnZXT2Y2VTlCdVdlbm5UY3FOSkd6dz09">
+    function deleteCookies(names) {
+        names.forEach(name => {
+            document.cookie = name + '=; expires=Thu, 30 Jun 2024 00:00:01 GMT; path=/';
+        });
+    }
+
+    deleteCookies(['AMP_13ccbb3500', 'AMP_ca378e6cd9', 'AMP_cfcc16528b', 'AMP_TEST', 'AMP_TLDTEST']);
+</script>
+
+
+    <script nonce="QnZXT2Y2VTlCdVdlbm5UY3FOSkd6dz09">
+        bynder.track = function (title, props) {};
+
+        var amplitude = window.amplitude || null;
+    </script>
+
+
+
+    
+        
+        
+    
+
+    
+        
+        
+    
+        
+
+    
+
+    
+    <script nonce="QnZXT2Y2VTlCdVdlbm5UY3FOSkd6dz09">
+        (function() {
+            const cookies = document.cookie;
+            if (!cookies || !cookies.includes('_hp')) return;
+
+            const heapCookieNames = ['_hp2_id', '_hp2_ses_props', '_hp2_props', '_hp5_meta',
+                '_hp5_event_props', '_hp5_let'];
+            const expiryDate = '; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/';
+            const domains = ['; domain=.bynder.com', '; domain=' + location.hostname, ''];
+
+            cookies.split(';').forEach(function(cookie) {
+                const cookieName = cookie.trim().split('=')[0];
+                const isHeapCookie = heapCookieNames.some(function(pattern) {
+                    return cookieName === pattern || cookieName.startsWith(pattern + '.');
+                });
+
+                if (isHeapCookie) {
+                    domains.forEach(function(domain) {
+                        document.cookie = cookieName + '=' + expiryDate + domain;
+                    });
+                }
+            });
+        })();
+    </script>
+
+    
+    
+    
+
+
+
+
+    </head>
+    <body id="login">
+        <div id="bynder-modal-container"></div>
+        <div id="rootLoginNotification"></div>
+        <div class="update info">
+            <div class="loader hidden" style="display:none;">
+                <div style="width:40%;"><span><span></span></span></div>
+            </div>
+            <div class="notification">
+                <p class="notification-message"><i class="icon-tasks-white"></i></p>
+                <a href="#" class="cancel"><i class="fa fa-times-circle"></i></a>
+            </div>
+        </div>
+        <header class="base">
+            
+                <div class="admin-bar clearfix">
+                    
+                    <div class="admin-right">
+                        <ul class="admin-options">
+                            <li>
+                                
+
+
+<a href="#" class="language-switch-trigger">
+    <i class="fa fa-globe fa-fw"></i> Language
+</a>
+<div id="languageSwitch" class="admin-dropdown language-switch">
+    <ul class="single">
+        
+            
+                
+                
+            
+            <li>
+                <form action="/user/switchlanguage/" method="post">
+                    <input name="csrf" type="hidden" value="7d812b43688e0d40bb49ac4e2394b7d75860bbef">
+                    <input type="hidden" name="language" value="en&#95;GB" />
+                    <a href="#" class="admin-option" dir="ltr">
+                        <span lang="en-GB">English (United Kingdom)</span>
+                    </a>
+                </form>
+            </li>
+        
+            
+                
+                
+            
+            <li class="active">
+                <form action="/user/switchlanguage/" method="post">
+                    <input name="csrf" type="hidden" value="7d812b43688e0d40bb49ac4e2394b7d75860bbef">
+                    <input type="hidden" name="language" value="en&#95;US" />
+                    <a href="#" class="admin-option" dir="ltr">
+                        <span lang="en-US">English (United States)</span><i class="fa fa-check language-switch__selected-indicator"></i>
+                    </a>
+                </form>
+            </li>
+        
+            
+                
+                
+            
+            <li>
+                <form action="/user/switchlanguage/" method="post">
+                    <input name="csrf" type="hidden" value="7d812b43688e0d40bb49ac4e2394b7d75860bbef">
+                    <input type="hidden" name="language" value="de&#95;DE" />
+                    <a href="#" class="admin-option" dir="ltr">
+                        <span lang="de-DE">Deutsch (Deutschland)</span>
+                    </a>
+                </form>
+            </li>
+        
+            
+                
+                
+            
+            <li>
+                <form action="/user/switchlanguage/" method="post">
+                    <input name="csrf" type="hidden" value="7d812b43688e0d40bb49ac4e2394b7d75860bbef">
+                    <input type="hidden" name="language" value="fr&#95;FR" />
+                    <a href="#" class="admin-option" dir="ltr">
+                        <span lang="fr-FR">Français (France)</span>
+                    </a>
+                </form>
+            </li>
+        
+            
+                
+                
+            
+            <li>
+                <form action="/user/switchlanguage/" method="post">
+                    <input name="csrf" type="hidden" value="7d812b43688e0d40bb49ac4e2394b7d75860bbef">
+                    <input type="hidden" name="language" value="nl&#95;NL" />
+                    <a href="#" class="admin-option" dir="ltr">
+                        <span lang="nl-NL">Nederlands (Nederland)</span>
+                    </a>
+                </form>
+            </li>
+        
+    </ul>
+</div>
+
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            
+        </header>
+        
+
+<div class="login-container ">
+
+    
+
+        
+            
+            
+                
+            
+            <a href="/?redirectToken="
+                title="FIFA"
+                tabindex="-1"
+                class="account-logo">
+                FIFA
+            </a>
+        
+
+        <div class="form clearfix">
+            
+
+	
+            
+                
+
+    <div class="alt-login">
+        <p>On the FIFA network?</p>
+        
+            
+            
+                
+            
+            <a href="https://digitalhub.fifa.com/v7/idp/sso/saml/7c608fd0-c5b5-401b-a6de-7fc19e10489b/initialize">
+                <button class="action-btn block">
+                     Login with FIFA SSO
+                </button>
+            </a>
+        
+        
+        
+        
+        <form>
+            <p class="" id="regular-login-info">
+                If you don't have FIFA credentials or you are not using the FIFA network, use to login option below.
+            </p>
+            
+        </form>
+    </div>
+
+
+            
+
+            
+            
+            
+                <form class="clearfix"
+                        id="regular-login"
+                        action="/v7/idp/sessions/login"
+                        data-username-required-message="Please&#32;enter&#32;your&#32;Username."
+                        data-password-required-message="Please&#32;enter&#32;your&#32;password."
+                        method="post">
+                    <input name="csrf"
+                        type="hidden"
+                        value="7d812b43688e0d40bb49ac4e2394b7d75860bbef">
+                    <input name="urlhash"
+                        class="urlhash"
+                        type="hidden"/>
+                    
+                        <input name="redirectToken"
+                            type="hidden"
+                            value="" />
+                    
+                    
+                    <span class="validate hidden" id="regular-login-error" role="alert" aria-live="assertive" aria-atomic="true" tabindex="-1">
+                        Wrong username
+                    </span>
+                    <div class="input-holder">
+                        <span><i class="fa fa-fw fa-user"></i></span>
+                        <label for="inputEmail" class="ui-helper-hidden-accessible">Email/Username</label>
+                        <span id="login-username-help" class="ui-helper-hidden-accessible">This field is required.</span>
+                        <input name="username"
+                            type="text"
+                            id="inputEmail"
+                            placeholder="Email/Username"
+                            tabindex="1"
+                            required
+                            aria-describedby="login-username-help"
+                            autofocus />
+                    </div>
+                    <div class="input-holder">
+                        <span><i class="fa fa-fw fa-lock"></i></span>
+                        <label for="inputPassword" class="ui-helper-hidden-accessible">Password</label>
+                        <span id="login-password-help" class="ui-helper-hidden-accessible">This field is required.</span>
+                        <input name="password"
+                            type="password"
+                            id="inputPassword"
+                            autocomplete="off"
+                            placeholder="Password"
+                            tabindex="2"
+                            required
+                            aria-describedby="login-password-help" />
+                    </div>
+                    <div class="lost-password">
+                        <a href="/user/forgotPassword/?redirectToken="
+                            tabindex="4">
+                            
+                                Lost password?
+                            
+                        </a>
+                    </div>
+                    <div class="form-bottom">
+                        <button type="submit"
+                                tabindex="3"
+                                class="login-btn action-btn blue block">
+                            <i class="hidden fa fa-refresh fa-spin"></i>
+                            Log in
+                        </button>
+                        
+                            <a href="#"
+                                class="login-btn action-btn block request-button">
+                                Register a new account
+                            </a>
+                        
+                    </div>
+                </form>
+            
+        </div>
+        
+        
+            
+
+<div class="request-account clearfix">
+    <div class="request-form">
+        <h2>Register a new account</h2>
+        
+        <form id="account-request" action="/user/saveAccessRequest/" method="post" data-useterms="false" >
+            <ul>
+                
+
+                
+                    <li class="accounttype"
+                        
+                            data-fields="firstname&#44;infix&#44;lastname&#44;email&#44;companyname&#44;country&#44;namecontactperson&#44;emailcontactperson"
+                        
+                        data-type="external">
+
+                        
+                            <input type="radio"
+                            style="display:none"
+                            name="info.accountType"
+                            checked
+                            value="external"
+                            />
+                        
+                    </li>
+                    
+                
+
+                
+                <hr />
+
+                
+                    <li data-field="firstname">
+                        
+                        <input type="text" name="info.firstname"
+                            
+                            placeholder="First&#32;name &#42;"
+                            
+                                data-parsley-required="true"
+                                data-parsley-required-message="This&#32;field&#32;is&#32;required."
+                            
+                        />
+                    </li>
+                
+                
+                    <li data-field="lastname">
+                        
+                            <input
+                                type="text"
+                                name="info.infix"
+                                placeholder="Infix"
+                                class="small-input accountfield"
+                                data-field="infix"
+                            />
+                        
+                        <input type="text" name="info.lastname"
+                            
+                                class="medium-input"
+                            
+                            placeholder="Last&#32;name &#42;"
+                            
+                                data-parsley-required="true"
+                                data-parsley-required-message="This&#32;field&#32;is&#32;required."
+                            
+                        />
+                    </li>
+                
+                
+                    <li data-field="email">
+                        <input type="email" name="info.email" id="requestMail"
+                            placeholder="Email &#42;"
+                            
+                                data-parsley-required="true"
+                                data-parsley-required-message="This&#32;field&#32;is&#32;required."
+                            
+                        />
+                    </li>
+                
+                
+                    <li class="accountfield" data-field="companyname">
+                        <input type="text" name="info.companyname"
+                            placeholder="Company&#32;name &#42;"
+                            
+                                data-parsley-required="true"
+                                data-parsley-required-message="This&#32;field&#32;is&#32;required."
+                            
+                        />
+                    </li>
+                
+                
+                
+                
+                
+                
+                
+                
+                    <li class="accountfield" data-field="country">
+                        <input type="text" name="info.country"
+                            placeholder="Country &#42;"
+                            
+                                data-parsley-required="true"
+                                data-parsley-required-message="This&#32;field&#32;is&#32;required."
+                            
+                        />
+                    </li>
+                
+                
+                
+                
+                
+                    <li class="accountfield" data-field="namecontactperson">
+                        <input type="text" name="info.namecontactperson"
+                            placeholder="Name&#32;FIFA&#32;contact &#42;"
+                            
+                                data-parsley-required="true"
+                                data-parsley-required-message="This&#32;field&#32;is&#32;required."
+                            
+                        />
+                    </li>
+                
+                
+                    <li class="accountfield" id="contactEmail"
+                        data-field="emailcontactperson">
+                        <input type="email" name="info.emailcontactperson"
+                            placeholder="Email&#32;FIFA&#32;contact &#42;"
+                            
+                                data-parsley-required="true"
+                                data-parsley-required-message="This&#32;field&#32;is&#32;required."
+                            
+                        />
+                    </li>
+                
+                
+                
+                
+                
+                
+                <li>
+                    
+    <div class="captcha-holder">
+        
+        <input type="hidden" name="captchaRef" value="7DB2C362-16CE-4B81-82FB46847B420BED" />
+        <h1>Security Check</h1>
+        <p class="message">For security reasons, please enter the text below (sorry but we have to prove you’re not a robot!)</p>
+        <div class="captcha-input-holder">
+            <div class="captcha-image-holder">
+                <img class="captcha" src="/content/captcha/7DB2C362-16CE-4B81-82FB46847B420BED/" alt="Security&#32;check&#32;image&#44;&#32;please&#32;type&#32;the&#32;characters&#32;shown" />
+                <button type="button" class="generate-new-captcha" aria-label="Generate&#32;new&#32;captcha&#32;image">
+                    <i class="fa fa-refresh" aria-hidden="true"></i>
+                </button>
+            </div>
+            <label for="captchaInput" class="ui-helper-hidden-accessible">Enter above word(s)</label>
+            <input type="text"
+                id="captchaInput"
+                name="captcha"
+                class="required"
+                placeholder="Enter&#32;above&#32;word&#40;s&#41;"
+                data-parsley-required="true"
+                data-parsley-required-message="This&#32;field&#32;is&#32;required.">
+        </div>
+    </div>
+
+
+                </li>
+                
+                    <li class="terms">
+                        <input type="checkbox" name="info.terms" class="terms-checkbox"
+                             
+                                data-parsley-required="true"
+                                data-parsley-required-message="This&#32;field&#32;is&#32;required."
+                            
+                        />
+                        
+                        <a href="#" class="conditions">
+                            Terms & Conditions &#42;
+                        </a>
+                    </li>
+                
+                
+                <li>
+                    <button class="action-btn send-request blue left">
+                        Submit
+                    </button>
+                </li>
+                <li>
+                    <a href="#" class="action-btn cancel-request">
+                        Cancel
+                    </a>
+                </li>
+            </ul>
+        </form>
+    </div>
+</div>
+
+
+        
+        
+
+    
+</div>
+
+
+        
+        
+        
+        
+
+
+
+	<div id="rootFloatingActionButton"></div> 
+
+
+<footer class="fixed">
+	
+	<div class="active-downloads" >
+		<span class="download-count"></span> <span class="progress-description"></span>
+		<span>
+			<span class="dot">.</span>
+			<span class="dot">.</span>
+			<span class="dot">.</span>
+		</span>
+	</div>
+
+	
+	<a class="scrollup" href="#top">Back to top</a>
+
+	
+	<ul class="footer-btns clearfix">
+		
+        
+        
+		
+		
+			<li>
+				<div id="terms"></div>
+			</li>
+		
+		
+		
+			<li>
+				
+    <div id="request-box">
+        <div class="acceptOverlay request-overlay">
+            <div class="request-content">
+                <header class="clearfix">
+                    <i class="icon-download"></i>
+                    <h1>Download reason</h1>
+                    <p>Please specify the reason for this download</p>
+                </header>
+                <div class="content">
+                    <form>
+                        <textarea 
+                            data-parsley-required-message="This&#32;field&#32;is&#32;required." 
+                            data-parsley-required="true"></textarea>
+                    </form>
+                </div>
+                <button class="action-btn cancel">
+                    Cancel
+                </button>
+                <button class="action-btn blue send">
+                    Send
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+			</li>
+		
+		
+		
+
+		
+		
+
+		
+	</ul>
+</footer>
+
+
+
+        
+	
+        <style>
+        body#login.loginBackgroundMedium { background-image:url(/files/eab6fa8f-9315-4ae7-b27a-6ee7caaff96a?version=a0b1ec4b&account_id=B5CCF555-A8EC-4734-AC985B7D0723E4EE&signature=dlL%2F6ZcWranixDYFTuCzoOpeAVhwMEKMnfWOhMU4UICteW6e5mYVKJxHLaksLDDTfJ%2BtZNeLfrQtGy6fh75hCg%3D%3D&expiry=1793494853620);}
+        body#login.loginBackgroundXMedium { background-image:url(/files/a6d5bf09-e8c5-4b98-a204-620c109292f3?version=a0b1ec4b&account_id=B5CCF555-A8EC-4734-AC985B7D0723E4EE&signature=4VnRyWq1oV%2FxQ70nMCQDQZITqTuUri4lgc%2B5%2FzFgfsyCNuEBMxERKJez1J5PW24R8g8Hn%2BtSdgOFzAxS3ur0AQ%3D%3D&expiry=1793494853630);}
+        body#login.loginBackgroundLarge { background-image:url(/files/cbf2e800-754e-455c-a1b3-a7db4ffbfb8a?version=a0b1ec4b&account_id=B5CCF555-A8EC-4734-AC985B7D0723E4EE&signature=1OqPGKyyviZLsXNY0JbETN01rgmLRV9qeIZNRZaSFnivZkGshXI1JcLVwGJNpvs12ay%2B8hXvjLkiy4tbdI2lBg%3D%3D&expiry=1793494853640);}
+        
+        </style>
+        <style>
+            #login .login-container a.account-logo  {
+                background: 50% 50% no-repeat white url('/files/ad41c2aa-2ed8-387b-ad34-ccb3b539a2fe?version=a0b1ec4b&account_id=B5CCF555-A8EC-4734-AC985B7D0723E4EE&signature=XsLTV6lDH9h%2BsNqr00Jbpchhkrs3i%2F%2FDVooLgorYnSMVG6e%2F8D9G%2F8Ocd7leRK0tzpzQrS%2F0oQ2cLNUSqsHbDw%3D%3D&expiry=1793494853611');
+                background-size: contain;
+            }
+        </style>
+        <script nonce="QnZXT2Y2VTlCdVdlbm5UY3FOSkd6dz09">
+            (function(bc){
+                var validBackgrounds = {"loginBackgroundMedium":"/files/eab6fa8f-9315-4ae7-b27a-6ee7caaff96a?account_id=B5CCF555-A8EC-4734-AC985B7D0723E4EE&expiry=1793494853620&signature=dlL%2F6ZcWranixDYFTuCzoOpeAVhwMEKMnfWOhMU4UICteW6e5mYVKJxHLaksLDDTfJ%2BtZNeLfrQtGy6fh75hCg%3D%3D&version=a0b1ec4b","loginBackgroundXMedium":"/files/a6d5bf09-e8c5-4b98-a204-620c109292f3?account_id=B5CCF555-A8EC-4734-AC985B7D0723E4EE&expiry=1793494853630&signature=4VnRyWq1oV%2FxQ70nMCQDQZITqTuUri4lgc%2B5%2FzFgfsyCNuEBMxERKJez1J5PW24R8g8Hn%2BtSdgOFzAxS3ur0AQ%3D%3D&version=a0b1ec4b","loginBackgroundLarge":"/files/cbf2e800-754e-455c-a1b3-a7db4ffbfb8a?account_id=B5CCF555-A8EC-4734-AC985B7D0723E4EE&expiry=1793494853640&signature=1OqPGKyyviZLsXNY0JbETN01rgmLRV9qeIZNRZaSFnivZkGshXI1JcLVwGJNpvs12ay%2B8hXvjLkiy4tbdI2lBg%3D%3D&version=a0b1ec4b"};
+                if( validBackgrounds["loginBackgroundMedium"] !== undefined && window.innerWidth < 1200 )
+                    bc = "loginBackgroundMedium";
+                else if( validBackgrounds["loginBackgroundXMedium"] !== undefined && window.innerWidth < 2000 )
+                    bc = "loginBackgroundXMedium";
+                if( validBackgrounds[bc] !== undefined )
+                    document.getElementById("login").className += " " + bc;
+            })("loginBackgroundLarge");
+        </script>
+        
+        
+    <div id="rootPrivacyPolicyModal"></div>
+    <div
+        id="bynderParamountRoot"
+        style="display: none;"
+    ></div>
+    <script type="text/javascript" nonce="QnZXT2Y2VTlCdVdlbm5UY3FOSkd6dz09">
+        (function () {
+            const baseUrl = 'https://static.bynder.cloud/ui/common/paramount/';
+
+            function appendScript(url) {
+                const script = document.createElement('script');
+
+                script.type = 'module';
+                script.src = url;
+                script.id = 'paramount-microfrontend-script';
+
+                document.body.appendChild(script);
+            };
+
+            function getAppBundle(url, callback) {
+                fetch(url + 'manifest.json')
+                    .then((response) => {
+                        if (!response.ok) {
+                            throw new Error('Failed to load manifest: ' + response.status);
+                        }
+                        return response.json();
+                    })
+                    .then((templateData) => {
+                        const value = templateData['app.js'];
+                        appendScript(url + value);
+                    })
+                    .catch((e) => {
+                        callback(e);
+                    });
+            }
+
+            
+                if (window.__paramountManifestPromise && window.__paramountBaseUrl === baseUrl) {
+                    window.__paramountManifestPromise
+                        .then(function(data) {
+                            if (data && data['app.js']) {
+                                appendScript(baseUrl + data['app.js']);
+                            } else {
+                                throw new Error('Invalid manifest data');
+                            }
+                        })
+                        .catch(function() {
+                            getAppBundle(baseUrl, function(e) {
+                                console.error(e);
+                            });
+                        });
+                } else {
+                    getAppBundle(baseUrl, function(e) {
+                        console.error(e);
+                    });
+                }
+            
+        })();
+    </script>
+
+    
+
+
+        </body>
+    </html>

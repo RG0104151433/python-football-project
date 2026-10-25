@@ -1,0 +1,85 @@
+{
+  "by_era": [
+    {
+      "admission_year": 21,
+      "before_admission": 124,
+      "era": "1980s",
+      "historical_episode": 96,
+      "pending": 441,
+      "pending_percent": 11.788291900561347,
+      "previous_matches": 3741,
+      "removed_percent": 15.102913659449346,
+      "retained": 3176,
+      "total_removed": 565,
+      "unmapped_label": 324
+    },
+    {
+      "admission_year": 95,
+      "before_admission": 89,
+      "era": "1990s",
+      "historical_episode": 95,
+      "pending": 375,
+      "pending_percent": 7.402289774970391,
+      "previous_matches": 5066,
+      "removed_percent": 9.159099881563364,
+      "retained": 4602,
+      "total_removed": 464,
+      "unmapped_label": 185
+    },
+    {
+      "admission_year": 7,
+      "before_admission": 15,
+      "era": "2000s",
+      "historical_episode": 92,
+      "pending": 324,
+      "pending_percent": 4.5531197301854975,
+      "previous_matches": 7116,
+      "removed_percent": 4.763912310286678,
+      "retained": 6777,
+      "total_removed": 339,
+      "unmapped_label": 225
+    },
+    {
+      "admission_year": 0,
+      "before_admission": 18,
+      "era": "2010s",
+      "historical_episode": 3,
+      "pending": 305,
+      "pending_percent": 4.387226697353279,
+      "previous_matches": 6952,
+      "removed_percent": 4.64614499424626,
+      "retained": 6629,
+      "total_removed": 323,
+      "unmapped_label": 302
+    },
+    {
+      "admission_year": 0,
+      "before_admission": 0,
+      "era": "2020-2024",
+      "historical_episode": 0,
+      "pending": 85,
+      "pending_percent": 2.6729559748427674,
+      "previous_matches": 3180,
+      "removed_percent": 2.6729559748427674,
+      "retained": 3095,
+      "total_removed": 85,
+      "unmapped_label": 85
+    }
+  ],
+  "identity_manifest": "data/processed/team_identity/identity-fifa-f4b591a95719b634d9de/identity_manifest.json",
+  "input_sha256": "f8bad1d6e48aa3e128120f4ae92cc5cf9b9897cc88d4416a1253251dc8e42ff9",
+  "mutually_exclusive_cause_precedence": [
+    "historical_episode",
+    "unmapped_label",
+    "admission_year"
+  ],
+  "notes": "Tasks count distinct matches per team/status, not additive across teams. No identity decisions applied.",
+  "pending_causes": {
+    "admission_year": 123,
+    "historical_episode": 286,
+    "unmapped_label": 1121
+  },
+  "pending_matches": 1530,
+  "task_counts_overlap": true,
+  "task_rows": 148
+}

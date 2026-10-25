@@ -1,0 +1,87 @@
+{
+  "archive": "outputs/logs/team_identity/source-fifa-final-20261024.zip",
+  "files": [
+    {
+      "path": "config/confirmed_eras_v2.json",
+      "sha256": "2e20741ddd6e9fded50be54ae1ec7918a139d4f0b8f1e08b1dbd7924fce767a3"
+    },
+    {
+      "path": "config/eras_fifa.json",
+      "sha256": "4a028023d683ff42b10567a7834fcd99d0b38d00c10cea7467ed9f714bf0b3f8"
+    },
+    {
+      "path": "config/team_identity_fifa_v2.json",
+      "sha256": "915d11d0fcb731308d140ce62c572c00c465bd733cd716efd319079aa2ab5adc"
+    },
+    {
+      "path": "pytest.ini",
+      "sha256": "25638d42ce662f9c5f5b07af6c0db604de379da9fe55d4c20380bc5c7defa945"
+    },
+    {
+      "path": "scripts/analyze_confirmed_eras.py",
+      "sha256": "947db21fdd8109e32cc169333c7a92264d993b527586388aa8f89416016b67aa"
+    },
+    {
+      "path": "scripts/audit_team_identity.py",
+      "sha256": "1a25924bc819a606c1b31512fecdf677393418073a6eaf527cf179daa9df0f6e"
+    },
+    {
+      "path": "scripts/build_team_identity.py",
+      "sha256": "e482504e3630dbfc5c3b709c9668b87334f2e1cfbbe78c2b019f4e5b9c527766"
+    },
+    {
+      "path": "scripts/plan_team_identity.py",
+      "sha256": "456da24e594cd74bf533a54514cedca0ea5fc9af5054c8625614b6b02cfae3e2"
+    },
+    {
+      "path": "src/analyze_eras.py",
+      "sha256": "817ef6db61491b86ab3d7d934df9932bc6702057f8c613eb4b115c5fbdcbd288"
+    },
+    {
+      "path": "src/data_contract.py",
+      "sha256": "75d7c37a5d09867656098ab4fa3387721d8e1028dfde54d28c372d50f2a7d101"
+    },
+    {
+      "path": "src/eras/__init__.py",
+      "sha256": "aacd580655a627a0f5ae7a44eb07c23406636813ab0fcbc89f32177d7f7a70b2"
+    },
+    {
+      "path": "src/eras/checks.py",
+      "sha256": "0eda226d64ae15278cebfb09820e5f67b1b86b3a911228e0fd654bcd2e5003ef"
+    },
+    {
+      "path": "src/eras/data.py",
+      "sha256": "46f55736f56c2f7d99c078a0bc61e97843ea38ebcea02523b15d1aa166cf58e0"
+    },
+    {
+      "path": "src/eras/inference.py",
+      "sha256": "4af99cbe01d08ec7846975afce779d86935eb673e44604a7270965a15eb5cafc"
+    },
+    {
+      "path": "src/eras/reporting.py",
+      "sha256": "3580361af51b90dc9370483e89dbf44d8896bb7c0b81ccc2185da6fe770f5c27"
+    },
+    {
+      "path": "src/eras/standardize.py",
+      "sha256": "b241422fe0b63823171c31ce3e9d6b425713d426022b294b01263a41ca75b238"
+    },
+    {
+      "path": "src/eras/statistics.py",
+      "sha256": "2030ab1833ae56d431a51d8bd81791a8553beee7d0cc3daad0169f7952d1e016"
+    },
+    {
+      "path": "src/snapshot.py",
+      "sha256": "0602b3907494ade4dae5bd6bac07a2a0a1353171af12495a9fc39815e6fbf2d2"
+    },
+    {
+      "path": "src/validate.py",
+      "sha256": "bd8a61d799e8afeadba6d50b275f0cd07906d5c0e0fea623f17061dd092253f1"
+    },
+    {
+      "path": "tests/test_fifa_identity.py",
+      "sha256": "9cc601b8c59d2b08976a12e561c17e85a19fd2f83b15db21445da4df2dadebf8"
+    }
+  ],
+  "scope": "Actual uncommitted source and configs; PDF and membership review inputs separately pinned in release manifests; not a full repository backup",
+  "sha256": "73012590ac259b4b67622e6c567f6cedf6a3d3f838d2999c9fefc5c651b329e0"
+}

@@ -1,0 +1,338 @@
+﻿source_team_id,source_team_label,review_priority,study_appearances,clue_types,entity_type,historical_name_decision,scope_decision,evidence_ids,checked_by,independently_reviewed_by,review_status,notes
+team:poland,Poland,1_study_with_clues,460,"[""literal_venue_name_relation""]",,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:russia,Russia,1_study_with_clues,387,"[""upstream_historical_interval""]",,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:dr-congo,DR Congo,1_study_with_clues,280,"[""upstream_historical_interval""]",,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:burkina-faso,Burkina Faso,1_study_with_clues,279,"[""upstream_historical_interval""]",,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:serbia,Serbia,1_study_with_clues,271,"[""upstream_historical_interval""]",,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:north-macedonia,North Macedonia,1_study_with_clues,263,"[""upstream_historical_interval""]",,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:eswatini,Eswatini,1_study_with_clues,200,"[""upstream_historical_interval""]",,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:myanmar,Myanmar,1_study_with_clues,142,"[""upstream_historical_interval""]",,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:curacao,Curaçao,1_study_with_clues,136,"[""upstream_historical_interval""]",,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:czechoslovakia,Czechoslovakia,1_study_with_clues,120,"[""upstream_historical_interval""]",,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:vanuatu,Vanuatu,1_study_with_clues,85,"[""upstream_historical_interval""]",,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:samoa,Samoa,1_study_with_clues,39,"[""upstream_historical_interval""]",,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:silesia,Silesia,1_study_with_clues,1,"[""literal_venue_name_relation""]",,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:united-states,United States,2_study_unreviewed,583,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:germany,Germany,2_study_unreviewed,461,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:sweden,Sweden,2_study_unreviewed,453,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:egypt,Egypt,2_study_unreviewed,438,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:norway,Norway,2_study_unreviewed,437,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:england,England,2_study_unreviewed,434,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:france,France,2_study_unreviewed,431,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:zambia,Zambia,2_study_unreviewed,428,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:finland,Finland,2_study_unreviewed,426,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:hungary,Hungary,2_study_unreviewed,423,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:trinidad-and-tobago,Trinidad and Tobago,2_study_unreviewed,422,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:greece,Greece,2_study_unreviewed,418,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:south-korea,South Korea,2_study_unreviewed,418,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:spain,Spain,2_study_unreviewed,418,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:romania,Romania,2_study_unreviewed,414,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:denmark,Denmark,2_study_unreviewed,413,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:brazil,Brazil,2_study_unreviewed,409,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:switzerland,Switzerland,2_study_unreviewed,406,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:netherlands,Netherlands,2_study_unreviewed,401,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:tunisia,Tunisia,2_study_unreviewed,400,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:italy,Italy,2_study_unreviewed,393,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:qatar,Qatar,2_study_unreviewed,393,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:japan,Japan,2_study_unreviewed,392,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:thailand,Thailand,2_study_unreviewed,389,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:bulgaria,Bulgaria,2_study_unreviewed,388,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:republic-of-ireland,Republic of Ireland,2_study_unreviewed,388,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:saudi-arabia,Saudi Arabia,2_study_unreviewed,385,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:malawi,Malawi,2_study_unreviewed,384,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:portugal,Portugal,2_study_unreviewed,383,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:turkey,Turkey,2_study_unreviewed,382,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:uruguay,Uruguay,2_study_unreviewed,382,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:chile,Chile,2_study_unreviewed,381,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:china,China,2_study_unreviewed,380,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:costa-rica,Costa Rica,2_study_unreviewed,380,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:austria,Austria,2_study_unreviewed,376,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:estonia,Estonia,2_study_unreviewed,374,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:united-arab-emirates,United Arab Emirates,2_study_unreviewed,372,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:belgium,Belgium,2_study_unreviewed,371,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:jamaica,Jamaica,2_study_unreviewed,371,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:scotland,Scotland,2_study_unreviewed,371,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:iceland,Iceland,2_study_unreviewed,366,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:malta,Malta,2_study_unreviewed,365,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:paraguay,Paraguay,2_study_unreviewed,356,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:morocco,Morocco,2_study_unreviewed,354,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:south-africa,South Africa,2_study_unreviewed,354,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:peru,Peru,2_study_unreviewed,352,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:kuwait,Kuwait,2_study_unreviewed,348,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:argentina,Argentina,2_study_unreviewed,347,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:malaysia,Malaysia,2_study_unreviewed,346,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:kenya,Kenya,2_study_unreviewed,345,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:mexico,Mexico,2_study_unreviewed,345,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:cyprus,Cyprus,2_study_unreviewed,342,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:algeria,Algeria,2_study_unreviewed,340,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:oman,Oman,2_study_unreviewed,339,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:honduras,Honduras,2_study_unreviewed,338,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:wales,Wales,2_study_unreviewed,338,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:northern-ireland,Northern Ireland,2_study_unreviewed,337,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:singapore,Singapore,2_study_unreviewed,337,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:zimbabwe,Zimbabwe,2_study_unreviewed,336,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:ivory-coast,Ivory Coast,2_study_unreviewed,333,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:israel,Israel,2_study_unreviewed,332,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:senegal,Senegal,2_study_unreviewed,332,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:luxembourg,Luxembourg,2_study_unreviewed,326,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:bahrain,Bahrain,2_study_unreviewed,323,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:cameroon,Cameroon,2_study_unreviewed,321,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:mali,Mali,2_study_unreviewed,320,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:panama,Panama,2_study_unreviewed,318,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:tanzania,Tanzania,2_study_unreviewed,318,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:colombia,Colombia,2_study_unreviewed,317,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:australia,Australia,2_study_unreviewed,316,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:ghana,Ghana,2_study_unreviewed,316,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:uganda,Uganda,2_study_unreviewed,315,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:iran,Iran,2_study_unreviewed,314,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:jordan,Jordan,2_study_unreviewed,314,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:nigeria,Nigeria,2_study_unreviewed,307,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:ecuador,Ecuador,2_study_unreviewed,306,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:venezuela,Venezuela,2_study_unreviewed,304,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:albania,Albania,2_study_unreviewed,303,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:bolivia,Bolivia,2_study_unreviewed,302,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:lithuania,Lithuania,2_study_unreviewed,298,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:latvia,Latvia,2_study_unreviewed,296,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:angola,Angola,2_study_unreviewed,294,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:indonesia,Indonesia,2_study_unreviewed,294,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:slovakia,Slovakia,2_study_unreviewed,293,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:croatia,Croatia,2_study_unreviewed,292,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:czech-republic,Czech Republic,2_study_unreviewed,290,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:canada,Canada,2_study_unreviewed,276,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:mozambique,Mozambique,2_study_unreviewed,276,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:el-salvador,El Salvador,2_study_unreviewed,273,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:slovenia,Slovenia,2_study_unreviewed,273,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:gabon,Gabon,2_study_unreviewed,271,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:togo,Togo,2_study_unreviewed,269,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:ukraine,Ukraine,2_study_unreviewed,268,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:georgia,Georgia,2_study_unreviewed,262,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:botswana,Botswana,2_study_unreviewed,259,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:guatemala,Guatemala,2_study_unreviewed,247,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:guinea,Guinea,2_study_unreviewed,247,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:azerbaijan,Azerbaijan,2_study_unreviewed,246,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:syria,Syria,2_study_unreviewed,246,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:belarus,Belarus,2_study_unreviewed,245,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:faroe-islands,Faroe Islands,2_study_unreviewed,244,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:india,India,2_study_unreviewed,244,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:moldova,Moldova,2_study_unreviewed,244,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:sudan,Sudan,2_study_unreviewed,241,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:uzbekistan,Uzbekistan,2_study_unreviewed,240,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:bosnia-and-herzegovina,Bosnia and Herzegovina,2_study_unreviewed,239,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:congo,Congo,2_study_unreviewed,239,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:iraq,Iraq,2_study_unreviewed,238,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:liechtenstein,Liechtenstein,2_study_unreviewed,228,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:armenia,Armenia,2_study_unreviewed,227,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:ethiopia,Ethiopia,2_study_unreviewed,227,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:lebanon,Lebanon,2_study_unreviewed,221,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:liberia,Liberia,2_study_unreviewed,216,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:hong-kong,Hong Kong,2_study_unreviewed,214,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:libya,Libya,2_study_unreviewed,209,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:kazakhstan,Kazakhstan,2_study_unreviewed,208,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:benin,Benin,2_study_unreviewed,207,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:namibia,Namibia,2_study_unreviewed,206,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:new-zealand,New Zealand,2_study_unreviewed,206,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:san-marino,San Marino,2_study_unreviewed,205,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:cuba,Cuba,2_study_unreviewed,200,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:lesotho,Lesotho,2_study_unreviewed,193,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:rwanda,Rwanda,2_study_unreviewed,193,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:vietnam,Vietnam,2_study_unreviewed,193,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:barbados,Barbados,2_study_unreviewed,191,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:haiti,Haiti,2_study_unreviewed,188,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:andorra,Andorra,2_study_unreviewed,184,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:madagascar,Madagascar,2_study_unreviewed,176,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:mauritius,Mauritius,2_study_unreviewed,175,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:sierra-leone,Sierra Leone,2_study_unreviewed,174,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:niger,Niger,2_study_unreviewed,170,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:saint-kitts-and-nevis,Saint Kitts and Nevis,2_study_unreviewed,169,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:mauritania,Mauritania,2_study_unreviewed,164,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:philippines,Philippines,2_study_unreviewed,161,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:bangladesh,Bangladesh,2_study_unreviewed,160,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:antigua-and-barbuda,Antigua and Barbuda,2_study_unreviewed,159,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:gambia,Gambia,2_study_unreviewed,158,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:suriname,Suriname,2_study_unreviewed,158,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:guyana,Guyana,2_study_unreviewed,157,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:grenada,Grenada,2_study_unreviewed,156,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:north-korea,North Korea,2_study_unreviewed,153,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:cape-verde,Cape Verde,2_study_unreviewed,149,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:montenegro,Montenegro,2_study_unreviewed,148,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:saint-vincent-and-the-grenadines,Saint Vincent and the Grenadines,2_study_unreviewed,142,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:nepal,Nepal,2_study_unreviewed,139,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:martinique,Martinique,2_study_unreviewed,138,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:saint-lucia,Saint Lucia,2_study_unreviewed,138,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:equatorial-guinea,Equatorial Guinea,2_study_unreviewed,130,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:maldives,Maldives,2_study_unreviewed,129,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:bermuda,Bermuda,2_study_unreviewed,128,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:cambodia,Cambodia,2_study_unreviewed,127,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:fiji,Fiji,2_study_unreviewed,126,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:tajikistan,Tajikistan,2_study_unreviewed,125,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:nicaragua,Nicaragua,2_study_unreviewed,121,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:burundi,Burundi,2_study_unreviewed,119,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:yemen,Yemen,2_study_unreviewed,119,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:sri-lanka,Sri Lanka,2_study_unreviewed,118,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:dominican-republic,Dominican Republic,2_study_unreviewed,113,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:kyrgyzstan,Kyrgyzstan,2_study_unreviewed,113,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:taiwan,Taiwan,2_study_unreviewed,113,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:palestine,Palestine,2_study_unreviewed,112,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:dominica,Dominica,2_study_unreviewed,110,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:solomon-islands,Solomon Islands,2_study_unreviewed,107,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:turkmenistan,Turkmenistan,2_study_unreviewed,107,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:guadeloupe,Guadeloupe,2_study_unreviewed,104,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:german-dr,German DR,2_study_unreviewed,102,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:pakistan,Pakistan,2_study_unreviewed,102,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:french-guiana,French Guiana,2_study_unreviewed,96,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:guinea-bissau,Guinea-Bissau,2_study_unreviewed,96,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:laos,Laos,2_study_unreviewed,96,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:puerto-rico,Puerto Rico,2_study_unreviewed,93,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:seychelles,Seychelles,2_study_unreviewed,93,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:gibraltar,Gibraltar,2_study_unreviewed,90,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:jersey,Jersey,2_study_unreviewed,88,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:yugoslavia,Yugoslavia,2_study_unreviewed,86,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:cayman-islands,Cayman Islands,2_study_unreviewed,85,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:guernsey,Guernsey,2_study_unreviewed,84,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:macau,Macau,2_study_unreviewed,82,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:belize,Belize,2_study_unreviewed,81,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:british-virgin-islands,British Virgin Islands,2_study_unreviewed,80,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:central-african-republic,Central African Republic,2_study_unreviewed,80,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:new-caledonia,New Caledonia,2_study_unreviewed,80,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:chad,Chad,2_study_unreviewed,76,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:tahiti,Tahiti,2_study_unreviewed,74,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:kosovo,Kosovo,2_study_unreviewed,73,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:aruba,Aruba,2_study_unreviewed,65,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:united-states-virgin-islands,United States Virgin Islands,2_study_unreviewed,60,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:brunei,Brunei,2_study_unreviewed,59,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:anguilla,Anguilla,2_study_unreviewed,58,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:comoros,Comoros,2_study_unreviewed,58,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:guam,Guam,2_study_unreviewed,56,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:mongolia,Mongolia,2_study_unreviewed,56,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:djibouti,Djibouti,2_study_unreviewed,54,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:bhutan,Bhutan,2_study_unreviewed,53,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:afghanistan,Afghanistan,2_study_unreviewed,51,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:papua-new-guinea,Papua New Guinea,2_study_unreviewed,51,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:bahamas,Bahamas,2_study_unreviewed,47,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:alderney,Alderney,2_study_unreviewed,46,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:sao-tome-and-principe,São Tomé and Príncipe,2_study_unreviewed,46,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:timor-leste,Timor-Leste,2_study_unreviewed,46,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:reunion,Réunion,2_study_unreviewed,45,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:eritrea,Eritrea,2_study_unreviewed,41,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:south-sudan,South Sudan,2_study_unreviewed,41,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:saint-martin,Saint Martin,2_study_unreviewed,36,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:turks-and-caicos-islands,Turks and Caicos Islands,2_study_unreviewed,36,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:montserrat,Montserrat,2_study_unreviewed,34,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:basque-country,Basque Country,2_study_unreviewed,33,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:somalia,Somalia,2_study_unreviewed,29,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:zanzibar,Zanzibar,2_study_unreviewed,29,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:sint-maarten,Sint Maarten,2_study_unreviewed,28,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:catalonia,Catalonia,2_study_unreviewed,25,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:tonga,Tonga,2_study_unreviewed,24,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:northern-cyprus,Northern Cyprus,2_study_unreviewed,18,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:cook-islands,Cook Islands,2_study_unreviewed,16,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:occitania,Occitania,2_study_unreviewed,16,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:sapmi,Sápmi,2_study_unreviewed,16,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:abkhazia,Abkhazia,2_study_unreviewed,15,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:aland-islands,Åland Islands,2_study_unreviewed,15,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:american-samoa,American Samoa,2_study_unreviewed,14,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:greenland,Greenland,2_study_unreviewed,13,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:isle-of-wight,Isle of Wight,2_study_unreviewed,13,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:northern-mariana-islands,Northern Mariana Islands,2_study_unreviewed,13,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:ynys-mon,Ynys Môn,2_study_unreviewed,13,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:andalusia,Andalusia,2_study_unreviewed,12,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:barawa,Barawa,2_study_unreviewed,12,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:bonaire,Bonaire,2_study_unreviewed,12,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:raetia,Raetia,2_study_unreviewed,12,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:isle-of-man,Isle of Man,2_study_unreviewed,11,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:monaco,Monaco,2_study_unreviewed,11,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:shetland,Shetland,2_study_unreviewed,11,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:mayotte,Mayotte,2_study_unreviewed,10,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:saint-barthelemy,Saint Barthélemy,2_study_unreviewed,10,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:gotland,Gotland,2_study_unreviewed,9,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:kernow,Kernow,2_study_unreviewed,9,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:padania,Padania,2_study_unreviewed,9,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:artsakh,Artsakh,2_study_unreviewed,8,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:corsica,Corsica,2_study_unreviewed,8,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:iraqi-kurdistan,Iraqi Kurdistan,2_study_unreviewed,8,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:provence,Provence,2_study_unreviewed,8,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:szekely-land,Székely Land,2_study_unreviewed,8,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:galicia,Galicia,2_study_unreviewed,7,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:yorkshire,Yorkshire,2_study_unreviewed,7,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:brittany,Brittany,2_study_unreviewed,6,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:chagos-islands,Chagos Islands,2_study_unreviewed,6,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:donetsk-pr,Donetsk PR,2_study_unreviewed,6,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:ellan-vannin,Ellan Vannin,2_study_unreviewed,6,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:luhansk-pr,Luhansk PR,2_study_unreviewed,6,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:panjab,Panjab,2_study_unreviewed,6,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:gozo,Gozo,2_study_unreviewed,5,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:vatican-city,Vatican City,2_study_unreviewed,5,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:western-isles,Western Isles,2_study_unreviewed,5,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:yemen-dpr,Yemen DPR,2_study_unreviewed,5,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:canary-islands,Canary Islands,2_study_unreviewed,4,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:frya,Frøya,2_study_unreviewed,4,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:republic-of-st-pauli,Republic of St. Pauli,2_study_unreviewed,4,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:rhodes,Rhodes,2_study_unreviewed,4,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:sealand,Sealand,2_study_unreviewed,4,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:south-ossetia,South Ossetia,2_study_unreviewed,4,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:tibet,Tibet,2_study_unreviewed,4,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:tuvalu,Tuvalu,2_study_unreviewed,4,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:falkland-islands,Falkland Islands,2_study_unreviewed,3,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:franconia,Franconia,2_study_unreviewed,3,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:micronesia,Micronesia,2_study_unreviewed,3,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:parishes-of-jersey,Parishes of Jersey,2_study_unreviewed,3,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:tamil-eelam,Tamil Eelam,2_study_unreviewed,3,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:wallis-islands-and-futuna,Wallis Islands and Futuna,2_study_unreviewed,3,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:canton-ticino,Canton Ticino,2_study_unreviewed,2,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:cascadia,Cascadia,2_study_unreviewed,2,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:chameria,Chameria,2_study_unreviewed,2,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:crimea,Crimea,2_study_unreviewed,2,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:elba-island,Elba Island,2_study_unreviewed,2,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:felvidek,Felvidék,2_study_unreviewed,2,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:orkney,Orkney,2_study_unreviewed,2,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:romani-people,Romani people,2_study_unreviewed,2,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:western-armenia,Western Armenia,2_study_unreviewed,2,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:arameans-suryoye,Arameans Suryoye,2_study_unreviewed,1,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:chechnya,Chechnya,2_study_unreviewed,1,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:cilento,Cilento,2_study_unreviewed,1,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:county-of-nice,County of Nice,2_study_unreviewed,1,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:hitra,Hitra,2_study_unreviewed,1,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:karpatalja,Kárpátalja,2_study_unreviewed,1,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:kiribati,Kiribati,2_study_unreviewed,1,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:kurdistan,Kurdistan,2_study_unreviewed,1,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:madrid,Madrid,2_study_unreviewed,1,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:menorca,Menorca,2_study_unreviewed,1,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:palau,Palau,2_study_unreviewed,1,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:quebec,Quebec,2_study_unreviewed,1,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:saare-county,Saare County,2_study_unreviewed,1,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:saint-helena,Saint Helena,2_study_unreviewed,1,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:saugeais,Saugeais,2_study_unreviewed,1,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:seborga,Seborga,2_study_unreviewed,1,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:somaliland,Somaliland,2_study_unreviewed,1,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:surrey,Surrey,2_study_unreviewed,1,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:two-sicilies,Two Sicilies,2_study_unreviewed,1,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:western-sahara,Western Sahara,2_study_unreviewed,1,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:ambazonia,Ambazonia,3_outside_study,0,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:asturias,Asturias,3_outside_study,0,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:aymara,Aymara,3_outside_study,0,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:biafra,Biafra,3_outside_study,0,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:central-spain,Central Spain,3_outside_study,0,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:darfur,Darfur,3_outside_study,0,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:delvidek,Délvidék,3_outside_study,0,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:east-turkestan,East Turkestan,3_outside_study,0,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:gagauzia,Găgăuzia,3_outside_study,0,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:hmong,Hmong,3_outside_study,0,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:kabylia,Kabylia,3_outside_study,0,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:manchukuo,Manchukuo,3_outside_study,0,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:mapuche,Mapuche,3_outside_study,0,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:marshall-islands,Marshall Islands,3_outside_study,0,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:matabeleland,Matabeleland,3_outside_study,0,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:maule-sur,Maule Sur,3_outside_study,0,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:niue,Niue,3_outside_study,0,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:north-vietnam,North Vietnam,3_outside_study,0,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:rouet-provence,Rouet-Provence,3_outside_study,0,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:ryukyu,Ryūkyū,3_outside_study,0,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:saarland,Saarland,3_outside_study,0,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:saint-pierre-and-miquelon,Saint Pierre and Miquelon,3_outside_study,0,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:sark,Sark,3_outside_study,0,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:south-yemen,South Yemen,3_outside_study,0,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:united-koreans-in-japan,United Koreans in Japan,3_outside_study,0,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:vietnam-republic,Vietnam Republic,3_outside_study,0,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:west-papua,West Papua,3_outside_study,0,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:western-australia,Western Australia,3_outside_study,0,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.
+team:yoruba-nation,Yoruba Nation,3_outside_study,0,[],,,,[],,,pending,Clues only; no automatic identity or scope decision.

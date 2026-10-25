@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "path": "scripts/audit_team_identity.py",
+      "sha256": "1a25924bc819a606c1b31512fecdf677393418073a6eaf527cf179daa9df0f6e"
+    },
+    {
+      "path": "scripts/plan_team_identity.py",
+      "sha256": "456da24e594cd74bf533a54514cedca0ea5fc9af5054c8625614b6b02cfae3e2"
+    },
+    {
+      "path": "src/data_contract.py",
+      "sha256": "75d7c37a5d09867656098ab4fa3387721d8e1028dfde54d28c372d50f2a7d101"
+    },
+    {
+      "path": "src/snapshot.py",
+      "sha256": "0602b3907494ade4dae5bd6bac07a2a0a1353171af12495a9fc39815e6fbf2d2"
+    },
+    {
+      "path": "src/validate.py",
+      "sha256": "bd8a61d799e8afeadba6d50b275f0cd07906d5c0e0fea623f17061dd092253f1"
+    },
+    {
+      "path": "config/team_identity_plan.json",
+      "sha256": "eee55e8d29c41b8545971e7eff93219fc7d68a97c5b7e2da5c700c6ba10c12ac"
+    },
+    {
+      "path": "tests/test_team_identity_plan.py",
+      "sha256": "5bb19f7e6478b0661b07c86ff5b9ccc08b40b0e2912f6c911dc723ea3d0b14f2"
+    }
+  ],
+  "plan_id": "identity-plan-84efb287b6532c0377be",
+  "scope": "Exact source/config/test capture for final preview; main data, policy and review inputs are pinned by run_manifest. Not a full project backup."
+}

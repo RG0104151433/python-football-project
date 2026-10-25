@@ -1,0 +1,195 @@
+{
+  "schema_version": "q1-current-display-v1",
+  "source_run": "outputs/logs/team_identity/confirmed-eras-20261025T002437005064Z-f19d8184/run_manifest.json",
+  "analysis_id": "eras-fifa-24196f9d60d19c30658a",
+  "identity_version": "identity-fifa-f4b591a95719b634d9de",
+  "data_version": "prep-3fab808178cf8ad71d88",
+  "publication_status": "provisional_conditional",
+  "decision_log_id": "R20261025-04",
+  "sample_size": 24279,
+  "population_flow": {
+    "excluded_by_membership_evidence": 246,
+    "quarantined_pending": 1530,
+    "retained": 24279
+  },
+  "weight_friendly": 0.3822233205650974,
+  "eras": [
+    {
+      "era": "1980s",
+      "n": 3176,
+      "n_home_wins": 1571,
+      "observed_rate": 0.494647355163728,
+      "standardized_rate": 0.5013471515023172
+    },
+    {
+      "era": "1990s",
+      "n": 4602,
+      "n_home_wins": 2323,
+      "observed_rate": 0.5047805302042591,
+      "standardized_rate": 0.5065772512087711
+    },
+    {
+      "era": "2000s",
+      "n": 6777,
+      "n_home_wins": 3452,
+      "observed_rate": 0.5093699276966209,
+      "standardized_rate": 0.5096613299977047
+    },
+    {
+      "era": "2010s",
+      "n": 6629,
+      "n_home_wins": 3344,
+      "observed_rate": 0.5044501433096998,
+      "standardized_rate": 0.5044305997491649
+    },
+    {
+      "era": "2020_2024",
+      "n": 3095,
+      "n_home_wins": 1574,
+      "observed_rate": 0.5085621970920841,
+      "standardized_rate": 0.517373517499757
+    }
+  ],
+  "primary_contrasts": [
+    {
+      "ci_lower": null,
+      "ci_upper": null,
+      "confidence_level": null,
+      "contrast_id": "2010s_minus_1980s",
+      "earlier_era": "1980s",
+      "estimand": "observed_difference",
+      "estimate": 0.9802788145971852,
+      "later_era": "2010s",
+      "method_id": "",
+      "method_version": "",
+      "reference_id": "reference-d159f5f8cd334637b843",
+      "sample_id": "sample-41cc250ec419740bb6ab",
+      "standard_error": null,
+      "status": "ok",
+      "uncertainty_status": "not_run",
+      "unit": "percentage_points"
+    },
+    {
+      "ci_lower": null,
+      "ci_upper": null,
+      "confidence_level": null,
+      "contrast_id": "2010s_minus_1980s",
+      "earlier_era": "1980s",
+      "estimand": "standardized_difference",
+      "estimate": 0.30834482468476976,
+      "later_era": "2010s",
+      "method_id": "",
+      "method_version": "",
+      "reference_id": "reference-d159f5f8cd334637b843",
+      "sample_id": "sample-41cc250ec419740bb6ab",
+      "standard_error": null,
+      "status": "ok",
+      "uncertainty_status": "not_run",
+      "unit": "percentage_points"
+    },
+    {
+      "ci_lower": null,
+      "ci_upper": null,
+      "confidence_level": null,
+      "contrast_id": "2010s_minus_1980s",
+      "earlier_era": "1980s",
+      "estimand": "composition_adjustment_difference",
+      "estimate": 0.6719339899124155,
+      "later_era": "2010s",
+      "method_id": "",
+      "method_version": "",
+      "reference_id": "reference-d159f5f8cd334637b843",
+      "sample_id": "sample-41cc250ec419740bb6ab",
+      "standard_error": null,
+      "status": "ok",
+      "uncertainty_status": "not_run",
+      "unit": "percentage_points"
+    },
+    {
+      "ci_lower": null,
+      "ci_upper": null,
+      "confidence_level": null,
+      "contrast_id": "2020_2024_minus_1980s",
+      "earlier_era": "1980s",
+      "estimand": "observed_difference",
+      "estimate": 1.391484192835607,
+      "later_era": "2020_2024",
+      "method_id": "",
+      "method_version": "",
+      "reference_id": "reference-d159f5f8cd334637b843",
+      "sample_id": "sample-41cc250ec419740bb6ab",
+      "standard_error": null,
+      "status": "ok",
+      "uncertainty_status": "not_run",
+      "unit": "percentage_points"
+    },
+    {
+      "ci_lower": null,
+      "ci_upper": null,
+      "confidence_level": null,
+      "contrast_id": "2020_2024_minus_1980s",
+      "earlier_era": "1980s",
+      "estimand": "standardized_difference",
+      "estimate": 1.6026365997439784,
+      "later_era": "2020_2024",
+      "method_id": "",
+      "method_version": "",
+      "reference_id": "reference-d159f5f8cd334637b843",
+      "sample_id": "sample-41cc250ec419740bb6ab",
+      "standard_error": null,
+      "status": "ok",
+      "uncertainty_status": "not_run",
+      "unit": "percentage_points"
+    },
+    {
+      "ci_lower": null,
+      "ci_upper": null,
+      "confidence_level": null,
+      "contrast_id": "2020_2024_minus_1980s",
+      "earlier_era": "1980s",
+      "estimand": "composition_adjustment_difference",
+      "estimate": -0.21115240690837145,
+      "later_era": "2020_2024",
+      "method_id": "",
+      "method_version": "",
+      "reference_id": "reference-d159f5f8cd334637b843",
+      "sample_id": "sample-41cc250ec419740bb6ab",
+      "standard_error": null,
+      "status": "ok",
+      "uncertainty_status": "not_run",
+      "unit": "percentage_points"
+    }
+  ],
+  "weight_curve_flip_points": {
+    "2010s_minus_1980s": "0.3403729363",
+    "2020_2024_minus_1980s": "0.2709436088"
+  },
+  "audit": {
+    "report": "outputs/logs/team_identity/q1-same-version-20261025/independent_audit.json",
+    "passed_checks": 630,
+    "same_version_core_artifacts": 19
+  },
+  "limitations": [
+    "Country-by-country historical evidence is deferred, not completed.",
+    "1530 pending and 246 provisionally excluded matches are not automatically restored.",
+    "No confidence intervals, significance tests, Elo adjustment or causal conclusion.",
+    "2020-2024 covers five years; the chart uses a zoomed percentage axis.",
+    "Prior baseline leave-one-year/common-team checks do not transfer to current membership sample."
+  ],
+  "source_fingerprints": {
+    "outputs/logs/team_identity/confirmed-eras-20261025T002437005064Z-f19d8184/run_manifest.json": "ce5a66a95665b22c4b2732af9faee3b50603d41f2f777faae928ca3c40bcb4d9",
+    "outputs/tables/eras/eras-fifa-24196f9d60d19c30658a/analysis_membership.csv": "14c80f0c590c05afee36544dfe168bdd9b4a6dbb24451d55e802bb2773242915",
+    "outputs/tables/eras/eras-fifa-24196f9d60d19c30658a/before_after.csv": "23bfe0d082792e6ca53825e316f63fe93e8aa042d277b8f3ce33bae4dcdd4820",
+    "outputs/tables/eras/eras-fifa-24196f9d60d19c30658a/data_dictionary.md": "1269f7355930eaf6576d763d67ea16ef0cc20b36ec4134c181022cb65e90a791",
+    "outputs/tables/eras/eras-fifa-24196f9d60d19c30658a/era_contrasts.csv": "b42595c148e5e8d89c437f90860b2450ba683a3ad201592002223c2fcc82bc9f",
+    "outputs/tables/eras/eras-fifa-24196f9d60d19c30658a/era_estimates.csv": "d1df15800c67ebc8b35ab63b9409cb8c58422a9b04b41230ce396a134c6495df",
+    "outputs/tables/eras/eras-fifa-24196f9d60d19c30658a/era_summary.csv": "136706921c4b5a1dfc5e69eba00a5a443a2811fef1c8539b40aa76282d76796b",
+    "outputs/tables/eras/eras-fifa-24196f9d60d19c30658a/era_tournament_summary.csv": "50f1cf2fdf2f8b307d1cad02c88ddf7d86d31d7e73594fccc6609825d74f67b1",
+    "outputs/tables/eras/eras-fifa-24196f9d60d19c30658a/reference_weights.csv": "2eefaddbad5f7a4eaedb6689f5fa9d555589c263d4a1fb1a8b65de691093d907",
+    "outputs/tables/eras/eras-fifa-24196f9d60d19c30658a/sample_flow.csv": "aff71beec92fd42f1dfd02f3bc1eb63062e3f58f9ae27bb494bcaf9da13440e8",
+    "outputs/tables/eras/eras-fifa-24196f9d60d19c30658a/schedule_diagnostics.csv": "8a937f6f95100c69bc35332ae3a0dec899182be580b359a00657c5006d1f2b8e",
+    "outputs/tables/eras/eras-fifa-24196f9d60d19c30658a/team_schedule.csv": "6b066483315a8a2db1e8a96de684dfb8628169b5db8a46cd10d025ac7afa769c",
+    "outputs/tables/eras/eras-fifa-24196f9d60d19c30658a/weight_sensitivity.csv": "9520ac97914bda60d6ca6f9cd8f087b777fc287bda8632f89fcdb4632bf15be4",
+    "outputs/tables/eras/eras-fifa-24196f9d60d19c30658a/year_summary.csv": "bf36ee0dfcaddc15d83d7b86a1f08cf834c5aa9322fb4397727d58d664a85bd6"
+  }
+}

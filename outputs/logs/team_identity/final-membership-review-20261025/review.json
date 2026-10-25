@@ -1,0 +1,217 @@
+{
+  "schema_version": "final-membership-and-q2-readiness-review-v1",
+  "date": "2026-10-25",
+  "reviewer": "Codex (AI)",
+  "decision": "ready_to_begin_question_2_under_existing_provisional_scope",
+  "agent_claim_interpretation": {
+    "completed": "All 148 task keys have traceable match-level suggestions",
+    "not_completed": [
+      "Complete historical membership verification",
+      "Adoption and conversion of proposed policies",
+      "New identity release",
+      "Q1 recalculation on proposed policy population"
+    ]
+  },
+  "coverage": {
+    "task_rows": 148,
+    "unique_task_keys": 148,
+    "effective_assessment_rows": 160,
+    "effective_distinct_matches": 1582,
+    "covered_team_match_pairs": 1952,
+    "task_status": {
+      "partial": 148
+    },
+    "effective_proposals": {
+      "non_member": 129,
+      "member": 24,
+      "unresolved": 7
+    },
+    "unresolved_by_label": {
+      "Russia": 99,
+      "North Macedonia": 8,
+      "Bosnia and Herzegovina": 6,
+      "Lithuania": 3,
+      "Cayman Islands": 1,
+      "Estonia": 1,
+      "Latvia": 1
+    },
+    "assessment_batches": {
+      "20261025-batch06": 125,
+      "20261024-batch03": 14,
+      "20261025-batch05": 19,
+      "20261024-batch04": 2
+    },
+    "rows_with_no_suggestion_ids": 0
+  },
+  "supplemental": {
+    "all_suggested_match_dispositions_in_current_package": {
+      "quarantined_pending": 1530,
+      "excluded_by_membership_evidence": 52
+    },
+    "unresolved_distinct_matches": 117,
+    "unresolved_current_dispositions": {
+      "quarantined_pending": 116,
+      "excluded_by_membership_evidence": 1
+    },
+    "local_source_hashes": [
+      {
+        "batch": "20261025-batch05",
+        "evidence_id": "AGB5-E001",
+        "passed": true
+      },
+      {
+        "batch": "20261025-batch05",
+        "evidence_id": "AGB5-E003",
+        "passed": true
+      },
+      {
+        "batch": "20261025-batch05",
+        "evidence_id": "AGB5-E004",
+        "passed": true
+      },
+      {
+        "batch": "20261025-batch05",
+        "evidence_id": "AGB5-E005",
+        "passed": true
+      },
+      {
+        "batch": "20261025-batch05",
+        "evidence_id": "AGB5-E006",
+        "passed": true
+      },
+      {
+        "batch": "20261025-batch05",
+        "evidence_id": "AGB5-E007",
+        "passed": true
+      },
+      {
+        "batch": "20261025-batch05",
+        "evidence_id": "AGB5-E008",
+        "passed": true
+      },
+      {
+        "batch": "20261025-batch05",
+        "evidence_id": "AGB5-E009",
+        "passed": true
+      },
+      {
+        "batch": "20261025-batch06",
+        "evidence_id": "AGB6-E001",
+        "passed": true
+      },
+      {
+        "batch": "20261025-batch06",
+        "evidence_id": "AGB6-E002",
+        "passed": true
+      },
+      {
+        "batch": "20261025-batch06",
+        "evidence_id": "AGB6-E003",
+        "passed": true
+      },
+      {
+        "batch": "20261025-batch06",
+        "evidence_id": "AGB6-E004",
+        "passed": true
+      }
+    ],
+    "all_local_source_hashes_passed": true
+  },
+  "current_identity_validation": {
+    "passed": true,
+    "identity_version": "identity-fifa-f4b591a95719b634d9de",
+    "verified_outputs": 7,
+    "final_release": false
+  },
+  "current_q1_validation": {
+    "passed": true,
+    "analysis_id": "eras-fifa-24196f9d60d19c30658a",
+    "verified_outputs": 22,
+    "inference": "not_run"
+  },
+  "current_sample_size": 24279,
+  "current_pending_sample_size": 1530,
+  "current_before_admission_provisionally_excluded": 246,
+  "policy_findings": [
+    "2024 statutes are authentic current-version primary evidence, not proof of 1979 or 1991 rules",
+    "Equal aggregate membership counts do not prove equal historical membership sets",
+    "Roster year labels alone do not establish all predecessor succession and continuity intervals",
+    "No new identity release/config or Q1 manifest for proposed policy is present"
+  ],
+  "statutes_source": {
+    "url": "https://digitalhub.fifa.com/m/16d1f7349fa19ade/original/FIFA-Statutes-2024.pdf",
+    "pdf_pages_read": [
+      8,
+      12
+    ],
+    "print_pages": [
+      14,
+      15,
+      22,
+      23
+    ],
+    "reading_scope": "Articles 10-12 and 22(3)(g); full provisional-member sentence recovered with local text extraction and official PDF cross-check",
+    "not_claimed": "These articles prove historical admission dates"
+  },
+  "q2_prerequisites": {
+    "existing_clean_data_verified": true,
+    "working_membership_policy_explicit": true,
+    "same_q1_q2_population_bound": true,
+    "q1_descriptions_and_independent_checks_completed": true,
+    "theory_and_scope_recorded": true,
+    "input_has_90_nonempty_year_type_cells_and_36_complete_windows": true,
+    "current_presentation_content_prepared": true,
+    "latest_display_sources_verified": true
+  },
+  "existing_test_evidence": {
+    "source": "outputs/logs/team_identity/full-chain-review-20261025/review.json",
+    "passed": 85,
+    "rerun_this_turn": false,
+    "reason": "Bound analysis source/input fingerprints unchanged; current verifiers passed"
+  },
+  "not_blocking_current_start": [
+    "Member independent review excluded from this decision by user",
+    "Historical supplement and candidate reliability methods are explicitly deferred",
+    "Final data freeze, Git delivery and HTML implementation/rehearsal are final-delivery tasks"
+  ],
+  "required_only_if_adopting_new_proposal": [
+    "Declare proposed policies as assumptions or supply sufficient evidence; do not label all as historical facts",
+    "Versioned rule conversion and match-by-match preview",
+    "Publish a new provisional identity package",
+    "Recalculate Q1 tables, weights, figures and update Q2/display references consistently"
+  ],
+  "new_proposal_adopted": false,
+  "production_data_modified": false,
+  "files_reviewed": {
+    "data/external/team_identity/submissions/20261025-batch05/case_assessments.jsonl": "41f0283c05083acacf627b6ed762457c8abf8bfb357f55f6f260bc0bc53c2667",
+    "data/external/team_identity/submissions/20261025-batch05/claims.jsonl": "8519ff01785dce538b0575d291880db952bbf658a5ba20a2975d81bf9b75f7b7",
+    "data/external/team_identity/submissions/20261025-batch05/corrections.jsonl": "14fbf43f723d6aafa2988054dc9f377fb0a6fa26537e9613c4f35e688d622929",
+    "data/external/team_identity/submissions/20261025-batch05/evidence.jsonl": "629fd59ab7ab40396183a586107d4eb2a8429d23c9c648713be7f805f1869782",
+    "data/external/team_identity/submissions/20261025-batch05/policy_provisional_membership.md": "abe6f27a6bcc1458ec666d1222e1ae3267c55192070a8a3e3753cce3669d5802",
+    "data/external/team_identity/submissions/20261025-batch05/README.md": "1428983b35e0c1b841b58a6b689d38195553c6c00a8ad8f838a625decb7ce9ca",
+    "data/external/team_identity/submissions/20261025-batch05/search_log.jsonl": "09e93d06da91d2bfb1390d72fee1700029b89263718725e8e63ae7a65a36dcc4",
+    "data/external/team_identity/submissions/20261025-batch05/sources/FIFA_Statutes_2024.pdf": "36731722b6c4014d230d8468c93569bd7266be03470299f524f53055421f39b2",
+    "data/external/team_identity/submissions/20261025-batch05/sources/fifa_statutes_page.html": "dee014ded67ba0d71fd4f3eddef02111743b2d84f6933b76dc0a26c54820170e",
+    "data/external/team_identity/submissions/20261025-batch05/task_coverage.csv": "e2e573874c3378273ab99389aaf310861af30f4852fc22b6a84a60e79dd0ff59",
+    "data/external/team_identity/submissions/20261025-batch05/validation_report.json": "c7ea7cceb61d94eea5cbfef5c612c72cc75a0d50cf7ba741c7d449a66f34fd48",
+    "data/external/team_identity/submissions/20261025-batch06/case_assessments.jsonl": "35eb2eb7ff4010abec804b2e870d66c2ee9229a3021c0bdaec83051f3d400384",
+    "data/external/team_identity/submissions/20261025-batch06/claims.jsonl": "dc95c33ad9552bf18350fbe4bb9fd74e3a8b17d764839beeb76598e335736a79",
+    "data/external/team_identity/submissions/20261025-batch06/corrections.jsonl": "af9163499cf344876ce5253cf186ffd4321acfbf68d55ea9a33ac7f40d6250f8",
+    "data/external/team_identity/submissions/20261025-batch06/evidence.jsonl": "7f3b756506c6de1e44fbf86bd7070c631b9a0a964b8d49f05c9347defd9f7243",
+    "data/external/team_identity/submissions/20261025-batch06/README.md": "0996d2da615ea7209269b988eb12bcf273db52151ad3df615a8c6cffc852302e",
+    "data/external/team_identity/submissions/20261025-batch06/search_log.jsonl": "e6881de5b4d2871cfee6faefcc6851c8e1a359a62e70cc9b1fb36ef57386377e",
+    "data/external/team_identity/submissions/20261025-batch06/sources/concacaf_members.html": "6aeb52f6293613d901ae67dfaa3ffe56aca80d2b7f86902e48922d4cd0792b20",
+    "data/external/team_identity/submissions/20261025-batch06/sources/dh_search.json": "db5b872718d7d5e3f6fc0715e38f15dcf38249db9f9b37d70fe6adbf6c56d118",
+    "data/external/team_identity/submissions/20261025-batch06/sources/dh_search2.json": "7428a0c8a63ca0953a1014630186eaf4f66378bc1f9c427f6bfece72e5d05df6",
+    "data/external/team_identity/submissions/20261025-batch06/sources/dh_search_page.html": "55466772c043ee13f515dcbecf510853c79c9854cf0485cdfaa0748688a0a9b6",
+    "data/external/team_identity/submissions/20261025-batch06/sources/digitalhub_home.html": "5d3fe9ba10bf02b87dfb15b00eb1fd50ff37293419d09705c394bfc15d394155",
+    "data/external/team_identity/submissions/20261025-batch06/sources/fifa_2024_governance.html": "fcb7156990d9ef06ca6d617a65c28eff49d6774eb7fe7f2bea98454202ad0ba5",
+    "data/external/team_identity/submissions/20261025-batch06/task_coverage.csv": "fd1120f8f018c0c30837b1926ca48efa8dcea06b0c7943064fca9addd4d44a58",
+    "data/external/team_identity/submissions/20261025-batch06/validation_report.json": "96ec21c503d8fcaffaaf4b0f444828682852118173f71b9d7e1fb5ef77fe83fd"
+  },
+  "closeout_checks": {
+    "local_links_passed": 89,
+    "log_ids_unique": true,
+    "reviewed_proposal_files_unchanged": true
+  }
+}

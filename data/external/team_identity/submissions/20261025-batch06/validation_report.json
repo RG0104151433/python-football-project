@@ -1,0 +1,165 @@
+{
+ "schema_version": "membership-batch-validation-v1",
+ "batch": "20261025-batch06",
+ "run_at": "2026-10-25T09:07:24+08:00",
+ "checks": [
+  {
+   "name": "rows",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "id_unique",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "claims_ref",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "assess_ref",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "match_membership",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "coverage_148",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "coverage_counts",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "one_proposal_per_team_match",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "cross_team_differences_listed",
+   "passed": true,
+   "detail": "6 matches with differing cross-team proposals (legitimate)"
+  },
+  {
+   "name": "sha_AGB6-E001",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "sha_AGB6-E002",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "sha_AGB6-E003",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "sha_AGB6-E004",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "corrections_single_old_id",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "corrections_old_ids_exist",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "prior_batches_unchanged",
+   "passed": true,
+   "detail": "[]"
+  }
+ ],
+ "failures": [],
+ "stats": {
+  "assessment_rows": 125,
+  "proposals": {
+   "member": 6,
+   "non_member": 119,
+   "unresolved": 0,
+   "conflict": 0
+  },
+  "coverage": {
+   "resolved": 0,
+   "partial": 148,
+   "conflict": 0,
+   "not_found": 0,
+   "not_reviewed": 0
+  },
+  "work": {
+   "not_reviewed": 0,
+   "reviewed_no_new_evidence": 25,
+   "revised": 0,
+   "new_evidence": 123
+  },
+  "distinct_matches_with_suggestions": 1301,
+  "cross_team_differing_matches": [
+   {
+    "match": "results:286c9b155d506d4d1be245cedf6be0f1ea1b2ecbb0d2bafa2dfd362f9e1887f0",
+    "proposals": [
+     "member",
+     "non_member"
+    ]
+   },
+   {
+    "match": "results:3e552ee81bf212f25a94b4c06170acf20861cff882b4dc51aa7e9fce3c5bd3fa",
+    "proposals": [
+     "member",
+     "non_member"
+    ]
+   },
+   {
+    "match": "results:6f22a45b7c10ef46cfd96cc9e4a8c50d27587397b0c83ad980939269ed0d7044",
+    "proposals": [
+     "member",
+     "non_member"
+    ]
+   },
+   {
+    "match": "results:8b82eb34f7d06c46d4ae111f95479ab424647110111d66f92c81fbf0b28c2778",
+    "proposals": [
+     "member",
+     "non_member"
+    ]
+   },
+   {
+    "match": "results:d7eadf159c11e321b0389f1d6c03a52793d82e26008450fb885e9b4160f1517d",
+    "proposals": [
+     "member",
+     "non_member"
+    ]
+   },
+   {
+    "match": "results:ddac6aa95513015712caa06da9ec1ba399f786ba85a232eaf706fdd8dde0f0cb",
+    "proposals": [
+     "member",
+     "non_member"
+    ]
+   }
+  ],
+  "fifa_primary_in_batch": [
+   "AGB6-E001",
+   "AGB6-E002",
+   "AGB6-E003",
+   "AGB6-E004"
+  ]
+ },
+ "not_run": [
+  "史实语义与政策合理性为内容审查",
+  "生产构建/发布/第一问重算/pytest"
+ ]
+}

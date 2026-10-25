@@ -1,0 +1,64 @@
+{
+  "checks": {
+    "identity": {
+      "final_release": false,
+      "identity_version": "identity-fifa-f4b591a95719b634d9de",
+      "passed": true,
+      "verified_outputs": 7
+    },
+    "inventory": {
+      "identity_review": "not_performed",
+      "inventory_id": "identity-inventory-9e73f209e035c4c69ee9",
+      "passed": true,
+      "verified_outputs": 9
+    },
+    "new_q1": {
+      "analysis_id": "eras-fifa-24196f9d60d19c30658a",
+      "inference": "not_run",
+      "passed": true,
+      "verified_outputs": 22
+    },
+    "old_q1": {
+      "analysis_id": "eras-7f332ed60ac443228960",
+      "inference": "not_run",
+      "passed": true,
+      "verified_outputs": 24
+    },
+    "previous_preview": {
+      "passed": true,
+      "plan_id": "identity-plan-84efb287b6532c0377be",
+      "ready_for_publication": false,
+      "verified_outputs": 7
+    },
+    "repeat_q1": {
+      "analysis_id": "eras-fifa-24196f9d60d19c30658a",
+      "inference": "not_run",
+      "passed": true,
+      "verified_outputs": 22
+    }
+  },
+  "complete_clean_overlay": true,
+  "core_outputs_identical": true,
+  "csv_bom_lf_checked": [
+    "outputs/tables/eras/eras-fifa-24196f9d60d19c30658a/analysis_membership.csv",
+    "outputs/tables/eras/eras-fifa-24196f9d60d19c30658a/before_after.csv",
+    "outputs/tables/eras/eras-fifa-24196f9d60d19c30658a/era_contrasts.csv",
+    "outputs/tables/eras/eras-fifa-24196f9d60d19c30658a/era_estimates.csv",
+    "outputs/tables/eras/eras-fifa-24196f9d60d19c30658a/era_summary.csv",
+    "outputs/tables/eras/eras-fifa-24196f9d60d19c30658a/era_tournament_summary.csv",
+    "outputs/tables/eras/eras-fifa-24196f9d60d19c30658a/reference_weights.csv",
+    "outputs/tables/eras/eras-fifa-24196f9d60d19c30658a/sample_flow.csv",
+    "outputs/tables/eras/eras-fifa-24196f9d60d19c30658a/schedule_diagnostics.csv",
+    "outputs/tables/eras/eras-fifa-24196f9d60d19c30658a/team_schedule.csv",
+    "outputs/tables/eras/eras-fifa-24196f9d60d19c30658a/weight_sensitivity.csv",
+    "outputs/tables/eras/eras-fifa-24196f9d60d19c30658a/year_summary.csv"
+  ],
+  "final_release": false,
+  "full_history_verified": false,
+  "pytest": {
+    "passed": 85,
+    "seconds": 13.22
+  },
+  "repeat_core_outputs": 19,
+  "study_count_reconciled": true
+}

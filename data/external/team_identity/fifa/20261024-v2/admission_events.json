@@ -1,0 +1,26 @@
+{
+  "events": [
+    {
+      "evidence_id": "FIFA-CONGRESS-2016",
+      "locator": "Congress 13 May 2016; Kosovo and Gibraltar admitted",
+      "source_team_label": "Kosovo",
+      "start": "2016-05-13",
+      "url": "https://inside.fifa.com/organisation/congress/news/66th-fifa-congress-zurich-2016-2878197"
+    },
+    {
+      "evidence_id": "FIFA-CONGRESS-2016",
+      "locator": "Congress 13 May 2016; Kosovo and Gibraltar admitted",
+      "source_team_label": "Gibraltar",
+      "start": "2016-05-13",
+      "url": "https://inside.fifa.com/organisation/congress/news/66th-fifa-congress-zurich-2016-2878197"
+    },
+    {
+      "evidence_id": "FIFA-SOUTH-SUDAN-HISTORY",
+      "locator": "Retrospective identifies 25 May 2012 as FIFA admission date",
+      "source_team_label": "South Sudan",
+      "start": "2012-05-25",
+      "url": "https://vod.fifa.com/organisation/president/news/fifa-president-and-south-sudan-fa-president-discuss-ways-of-making-football-accessible"
+    }
+  ],
+  "schema_version": "fifa-admission-events-v1"
+}

@@ -1,0 +1,149 @@
+source_team_id,source_team_label,pending_status,previous_assessment_ids,current_assessment_ids,work_status,resolution_status,covered_match_count,remaining_match_count,next_action
+team:martinique,Martinique,pending_unmapped_label,[],"[""AGB6-A014""]",new_evidence,partial,138,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:czechoslovakia,Czechoslovakia,pending_unmapped_label,[],"[""AGB6-A010""]",new_evidence,partial,120,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:serbia,Serbia,pending_historical_episode,[],"[""AGB6-A012""]",new_evidence,partial,108,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:guadeloupe,Guadeloupe,pending_unmapped_label,[],"[""AGB6-A015""]",new_evidence,partial,104,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:german-dr,German DR,pending_unmapped_label,"[""AGB3-A001""]",[],reviewed_no_new_evidence,partial,102,0,沿用既有结论（本轮未动）
+team:russia,Russia,pending_historical_episode,"[""AGB3-A041"", ""AGB3-A042""]",[],reviewed_no_new_evidence,partial,101,0,沿用既有结论（本轮未动）
+team:french-guiana,French Guiana,pending_unmapped_label,[],"[""AGB6-A016""]",new_evidence,partial,96,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:jersey,Jersey,pending_unmapped_label,[],"[""AGB6-A017""]",new_evidence,partial,88,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:yugoslavia,Yugoslavia,pending_unmapped_label,[],"[""AGB6-A011""]",new_evidence,partial,86,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:guernsey,Guernsey,pending_unmapped_label,[],"[""AGB6-A018""]",new_evidence,partial,84,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:curacao,Curaçao,pending_historical_episode,[],"[""AGB6-A013""]",new_evidence,partial,69,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:alderney,Alderney,pending_unmapped_label,[],"[""AGB6-A019""]",new_evidence,partial,46,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:reunion,Réunion,pending_unmapped_label,[],"[""AGB6-A020""]",new_evidence,partial,45,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:saint-martin,Saint Martin,pending_unmapped_label,[],"[""AGB6-A021""]",new_evidence,partial,36,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:basque-country,Basque Country,pending_unmapped_label,[],"[""AGB6-A022""]",new_evidence,partial,33,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:zanzibar,Zanzibar,pending_unmapped_label,[],"[""AGB6-A023""]",new_evidence,partial,29,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:sint-maarten,Sint Maarten,pending_unmapped_label,[],"[""AGB6-A024""]",new_evidence,partial,28,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:catalonia,Catalonia,pending_unmapped_label,[],"[""AGB6-A025""]",new_evidence,partial,25,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:northern-cyprus,Northern Cyprus,pending_unmapped_label,[],"[""AGB6-A026""]",new_evidence,partial,18,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:occitania,Occitania,pending_unmapped_label,[],"[""AGB6-A027""]",new_evidence,partial,16,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:sapmi,Sápmi,pending_unmapped_label,[],"[""AGB6-A028""]",new_evidence,partial,16,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:abkhazia,Abkhazia,pending_unmapped_label,[],"[""AGB6-A029""]",new_evidence,partial,15,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:aland-islands,Åland Islands,pending_unmapped_label,[],"[""AGB6-A030""]",new_evidence,partial,15,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:greenland,Greenland,pending_unmapped_label,[],"[""AGB6-A031""]",new_evidence,partial,13,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:isle-of-wight,Isle of Wight,pending_unmapped_label,[],"[""AGB6-A032""]",new_evidence,partial,13,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:northern-mariana-islands,Northern Mariana Islands,pending_unmapped_label,[],"[""AGB6-A033""]",new_evidence,partial,13,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:ynys-mon,Ynys Môn,pending_unmapped_label,[],"[""AGB6-A034""]",new_evidence,partial,13,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:andalusia,Andalusia,pending_unmapped_label,[],"[""AGB6-A035""]",new_evidence,partial,12,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:barawa,Barawa,pending_unmapped_label,[],"[""AGB6-A036""]",new_evidence,partial,12,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:bonaire,Bonaire,pending_unmapped_label,[],"[""AGB6-A037""]",new_evidence,partial,12,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:latvia,Latvia,pending_admission_year,"[""AGB5-A003"", ""AGB5-A004""]",[],reviewed_no_new_evidence,partial,12,0,沿用既有结论（本轮未动）
+team:raetia,Raetia,pending_unmapped_label,[],"[""AGB6-A038""]",new_evidence,partial,12,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:isle-of-man,Isle of Man,pending_unmapped_label,[],"[""AGB6-A039""]",new_evidence,partial,11,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:monaco,Monaco,pending_unmapped_label,[],"[""AGB6-A040""]",new_evidence,partial,11,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:shetland,Shetland,pending_unmapped_label,[],"[""AGB6-A041""]",new_evidence,partial,11,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:lithuania,Lithuania,pending_admission_year,"[""AGB5-A001"", ""AGB5-A002""]",[],reviewed_no_new_evidence,partial,10,0,沿用既有结论（本轮未动）
+team:mayotte,Mayotte,pending_unmapped_label,[],"[""AGB6-A042""]",new_evidence,partial,10,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:saint-barthelemy,Saint Barthélemy,pending_unmapped_label,[],"[""AGB6-A043""]",new_evidence,partial,10,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:gotland,Gotland,pending_unmapped_label,[],"[""AGB6-A044""]",new_evidence,partial,9,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:kernow,Kernow,pending_unmapped_label,[],"[""AGB6-A045""]",new_evidence,partial,9,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:padania,Padania,pending_unmapped_label,[],"[""AGB6-A046""]",new_evidence,partial,9,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:artsakh,Artsakh,pending_unmapped_label,[],"[""AGB6-A047""]",new_evidence,partial,8,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:corsica,Corsica,pending_unmapped_label,[],"[""AGB6-A048""]",new_evidence,partial,8,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:czech-republic,Czech Republic,pending_admission_year,"[""AGB5-A017"", ""AGB5-A018""]",[],reviewed_no_new_evidence,partial,8,0,沿用既有结论（本轮未动）
+team:iraqi-kurdistan,Iraqi Kurdistan,pending_unmapped_label,[],"[""AGB6-A049""]",new_evidence,partial,8,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:north-macedonia,North Macedonia,pending_admission_year,"[""AGB3-A022""]",[],reviewed_no_new_evidence,partial,8,0,沿用既有结论（本轮未动）
+team:provence,Provence,pending_unmapped_label,[],"[""AGB6-A050""]",new_evidence,partial,8,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:slovakia,Slovakia,pending_admission_year,"[""AGB5-A019"", ""AGB5-A020""]",[],reviewed_no_new_evidence,partial,8,0,沿用既有结论（本轮未动）
+team:szekely-land,Székely Land,pending_unmapped_label,[],"[""AGB6-A051""]",new_evidence,partial,8,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:galicia,Galicia,pending_unmapped_label,[],"[""AGB6-A052""]",new_evidence,partial,7,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:south-africa,South Africa,pending_admission_year,"[""AGB3-A005""]",[],reviewed_no_new_evidence,partial,7,0,沿用既有结论（本轮未动）
+team:yemen,Yemen,pending_historical_episode,[],"[""AGB6-A053""]",new_evidence,partial,7,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:yorkshire,Yorkshire,pending_unmapped_label,[],"[""AGB6-A054""]",new_evidence,partial,7,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:bosnia-and-herzegovina,Bosnia and Herzegovina,pending_admission_year,"[""AGB3-A034""]",[],reviewed_no_new_evidence,partial,6,0,沿用既有结论（本轮未动）
+team:brittany,Brittany,pending_unmapped_label,[],"[""AGB6-A055""]",new_evidence,partial,6,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:chagos-islands,Chagos Islands,pending_unmapped_label,[],"[""AGB6-A056""]",new_evidence,partial,6,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:donetsk-pr,Donetsk PR,pending_unmapped_label,[],"[""AGB6-A057""]",new_evidence,partial,6,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:ellan-vannin,Ellan Vannin,pending_unmapped_label,[],"[""AGB6-A058""]",new_evidence,partial,6,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:luhansk-pr,Luhansk PR,pending_unmapped_label,[],"[""AGB6-A059""]",new_evidence,partial,6,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:moldova,Moldova,pending_admission_year,[],"[""AGB6-A002"", ""AGB6-A003""]",new_evidence,partial,6,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:mozambique,Mozambique,pending_admission_year,[],"[""AGB6-A060""]",new_evidence,partial,6,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:panjab,Panjab,pending_unmapped_label,[],"[""AGB6-A061""]",new_evidence,partial,6,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:china,China,pending_admission_year,"[""AGB5-A015"", ""AGB5-A016""]",[],reviewed_no_new_evidence,partial,5,0,沿用既有结论（本轮未动）
+team:gozo,Gozo,pending_unmapped_label,[],"[""AGB6-A062""]",new_evidence,partial,5,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:montenegro,Montenegro,pending_admission_year,"[""AGB5-A007"", ""AGB5-A008""]",[],reviewed_no_new_evidence,partial,5,0,沿用既有结论（本轮未动）
+team:namibia,Namibia,pending_admission_year,"[""AGB4-A003""]",[],reviewed_no_new_evidence,partial,5,0,沿用既有结论（本轮未动）
+team:vatican-city,Vatican City,pending_unmapped_label,[],"[""AGB6-A063""]",new_evidence,partial,5,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:western-isles,Western Isles,pending_unmapped_label,[],"[""AGB6-A064""]",new_evidence,partial,5,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:yemen-dpr,Yemen DPR,pending_unmapped_label,[],"[""AGB6-A065""]",new_evidence,partial,5,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:angola,Angola,pending_admission_year,[],"[""AGB6-A066""]",new_evidence,partial,4,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:canary-islands,Canary Islands,pending_unmapped_label,[],"[""AGB6-A067""]",new_evidence,partial,4,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:croatia,Croatia,pending_admission_year,"[""AGB3-A015""]",[],reviewed_no_new_evidence,partial,4,0,沿用既有结论（本轮未动）
+team:estonia,Estonia,pending_admission_year,"[""AGB5-A005"", ""AGB5-A006""]",[],reviewed_no_new_evidence,partial,4,0,沿用既有结论（本轮未动）
+team:frya,Frøya,pending_unmapped_label,[],"[""AGB6-A068""]",new_evidence,partial,4,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:republic-of-st-pauli,Republic of St. Pauli,pending_unmapped_label,[],"[""AGB6-A069""]",new_evidence,partial,4,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:rhodes,Rhodes,pending_unmapped_label,[],"[""AGB6-A070""]",new_evidence,partial,4,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:sealand,Sealand,pending_unmapped_label,[],"[""AGB6-A071""]",new_evidence,partial,4,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:solomon-islands,Solomon Islands,pending_admission_year,[],"[""AGB6-A072""]",new_evidence,partial,4,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:south-ossetia,South Ossetia,pending_unmapped_label,[],"[""AGB6-A073""]",new_evidence,partial,4,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:tibet,Tibet,pending_unmapped_label,[],"[""AGB6-A074""]",new_evidence,partial,4,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:tuvalu,Tuvalu,pending_unmapped_label,[],"[""AGB6-A075""]",new_evidence,partial,4,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:ukraine,Ukraine,pending_admission_year,"[""AGB5-A011"", ""AGB5-A012""]",[],reviewed_no_new_evidence,partial,4,0,沿用既有结论（本轮未动）
+team:uzbekistan,Uzbekistan,pending_admission_year,[],"[""AGB6-A001""]",new_evidence,partial,4,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:azerbaijan,Azerbaijan,pending_admission_year,[],"[""AGB6-A004"", ""AGB6-A005""]",new_evidence,partial,3,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:falkland-islands,Falkland Islands,pending_unmapped_label,[],"[""AGB6-A076""]",new_evidence,partial,3,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:franconia,Franconia,pending_unmapped_label,[],"[""AGB6-A077""]",new_evidence,partial,3,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:georgia,Georgia,pending_admission_year,"[""AGB3-A037""]",[],reviewed_no_new_evidence,partial,3,0,沿用既有结论（本轮未动）
+team:lithuania,Lithuania,pending_historical_episode,"[""AGB3-A008""]",[],reviewed_no_new_evidence,partial,3,0,沿用既有结论（本轮未动）
+team:micronesia,Micronesia,pending_unmapped_label,[],"[""AGB6-A078""]",new_evidence,partial,3,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:parishes-of-jersey,Parishes of Jersey,pending_unmapped_label,[],"[""AGB6-A079""]",new_evidence,partial,3,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:tamil-eelam,Tamil Eelam,pending_unmapped_label,[],"[""AGB6-A080""]",new_evidence,partial,3,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:wallis-islands-and-futuna,Wallis Islands and Futuna,pending_unmapped_label,[],"[""AGB6-A081""]",new_evidence,partial,3,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:canton-ticino,Canton Ticino,pending_unmapped_label,[],"[""AGB6-A082""]",new_evidence,partial,2,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:cascadia,Cascadia,pending_unmapped_label,[],"[""AGB6-A083""]",new_evidence,partial,2,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:chameria,Chameria,pending_unmapped_label,[],"[""AGB6-A084""]",new_evidence,partial,2,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:crimea,Crimea,pending_unmapped_label,[],"[""AGB6-A085""]",new_evidence,partial,2,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:elba-island,Elba Island,pending_unmapped_label,[],"[""AGB6-A086""]",new_evidence,partial,2,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:equatorial-guinea,Equatorial Guinea,pending_admission_year,[],"[""AGB6-A087""]",new_evidence,partial,2,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:felvidek,Felvidék,pending_unmapped_label,[],"[""AGB6-A088""]",new_evidence,partial,2,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:orkney,Orkney,pending_unmapped_label,[],"[""AGB6-A089""]",new_evidence,partial,2,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:romani-people,Romani people,pending_unmapped_label,[],"[""AGB6-A090""]",new_evidence,partial,2,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:saint-kitts-and-nevis,Saint Kitts and Nevis,pending_admission_year,"[""AGB5-A013""]",[],reviewed_no_new_evidence,partial,2,0,沿用既有结论（本轮未动）
+team:slovenia,Slovenia,pending_admission_year,"[""AGB5-A009"", ""AGB5-A010""]",[],reviewed_no_new_evidence,partial,2,0,沿用既有结论（本轮未动）
+team:western-armenia,Western Armenia,pending_unmapped_label,[],"[""AGB6-A091""]",new_evidence,partial,2,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:american-samoa,American Samoa,pending_admission_year,[],"[""AGB6-A092""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:andorra,Andorra,pending_admission_year,[],"[""AGB6-A093""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:anguilla,Anguilla,pending_admission_year,[],"[""AGB6-A094""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:arameans-suryoye,Arameans Suryoye,pending_unmapped_label,[],"[""AGB6-A095""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:armenia,Armenia,pending_admission_year,"[""AGB3-A038""]",[],reviewed_no_new_evidence,partial,1,0,沿用既有结论（本轮未动）
+team:belarus,Belarus,pending_admission_year,"[""AGB3-A039""]",[],reviewed_no_new_evidence,partial,1,0,沿用既有结论（本轮未动）
+team:bhutan,Bhutan,pending_admission_year,[],"[""AGB6-A096""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:cayman-islands,Cayman Islands,pending_admission_year,"[""AGB4-A004""]",[],reviewed_no_new_evidence,partial,1,0,沿用既有结论（本轮未动）
+team:chechnya,Chechnya,pending_unmapped_label,[],"[""AGB6-A097""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:cilento,Cilento,pending_unmapped_label,[],"[""AGB6-A098""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:county-of-nice,County of Nice,pending_unmapped_label,[],"[""AGB6-A099""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:djibouti,Djibouti,pending_admission_year,[],"[""AGB6-A100""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:dominica,Dominica,pending_admission_year,[],"[""AGB6-A101""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:eritrea,Eritrea,pending_admission_year,[],"[""AGB6-A102""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:estonia,Estonia,pending_historical_episode,"[""AGB3-A012""]",[],reviewed_no_new_evidence,partial,1,0,沿用既有结论（本轮未动）
+team:faroe-islands,Faroe Islands,pending_admission_year,[],"[""AGB6-A103""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:guam,Guam,pending_admission_year,[],"[""AGB6-A104""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:hitra,Hitra,pending_unmapped_label,[],"[""AGB6-A105""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:kazakhstan,Kazakhstan,pending_admission_year,[],"[""AGB6-A006""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:kiribati,Kiribati,pending_unmapped_label,[],"[""AGB6-A106""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:kurdistan,Kurdistan,pending_unmapped_label,[],"[""AGB6-A107""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:kyrgyzstan,Kyrgyzstan,pending_admission_year,[],"[""AGB6-A007""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:karpatalja,Kárpátalja,pending_unmapped_label,[],"[""AGB6-A108""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:latvia,Latvia,pending_historical_episode,"[""AGB3-A009""]",[],reviewed_no_new_evidence,partial,1,0,沿用既有结论（本轮未动）
+team:madrid,Madrid,pending_unmapped_label,[],"[""AGB6-A109""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:menorca,Menorca,pending_unmapped_label,[],"[""AGB6-A110""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:new-caledonia,New Caledonia,pending_admission_year,[],"[""AGB6-A111""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:palau,Palau,pending_unmapped_label,[],"[""AGB6-A112""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:palestine,Palestine,pending_admission_year,"[""AGB3-A004""]",[],reviewed_no_new_evidence,partial,1,0,沿用既有结论（本轮未动）
+team:quebec,Quebec,pending_unmapped_label,[],"[""AGB6-A113""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:saare-county,Saare County,pending_unmapped_label,[],"[""AGB6-A114""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:saint-helena,Saint Helena,pending_unmapped_label,[],"[""AGB6-A115""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:saugeais,Saugeais,pending_unmapped_label,[],"[""AGB6-A116""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:seborga,Seborga,pending_unmapped_label,[],"[""AGB6-A117""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:silesia,Silesia,pending_unmapped_label,[],"[""AGB6-A118""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:somaliland,Somaliland,pending_unmapped_label,[],"[""AGB6-A119""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:surrey,Surrey,pending_unmapped_label,[],"[""AGB6-A120""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:tajikistan,Tajikistan,pending_admission_year,[],"[""AGB6-A008""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:tonga,Tonga,pending_admission_year,[],"[""AGB6-A121""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:turkmenistan,Turkmenistan,pending_admission_year,[],"[""AGB6-A009""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:two-sicilies,Two Sicilies,pending_unmapped_label,[],"[""AGB6-A122""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:united-states-virgin-islands,United States Virgin Islands,pending_admission_year,[],"[""AGB6-A123""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:vanuatu,Vanuatu,pending_admission_year,[],"[""AGB6-A124""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级
+team:western-sahara,Western Sahara,pending_unmapped_label,[],"[""AGB6-A125""]",new_evidence,partial,1,0,主线批准P2-ext/P3/P4政策与建议→规则转换→预演发布→重算；FIFA原件到位可升级

@@ -1,0 +1,8 @@
+{
+  "schema_version": "team-identity-inventory-config-v1",
+  "data_version": "prep-3fab808178cf8ad71d88",
+  "baseline_manifest": "outputs/logs/team_identity/baseline-20261024T081427984102Z-9845b62e/baseline_manifest.json",
+  "baseline_manifest_sha256": "96a86f4c6c0d5c48fc293dd6017dc3da7dd42e0bf609e8960ce77584b7c1c316",
+  "prep_config": "config.json",
+  "analysis_config": "config/eras.json"
+}

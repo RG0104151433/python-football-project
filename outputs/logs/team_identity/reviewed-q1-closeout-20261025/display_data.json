@@ -1,0 +1,1789 @@
+{
+  "schema_version": "q1-current-display-v2",
+  "source_run": "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json",
+  "analysis_id": "eras-fifa-dddf11dd6dc0b7531b88",
+  "identity_version": "identity-reviewed-29d880765c1623764940",
+  "data_version": "prep-3fab808178cf8ad71d88",
+  "publication_status": "study_population_owner_accepted_description",
+  "decision_log_id": "R20261025-10",
+  "sample_size": 24917,
+  "population_flow": {
+    "excluded_by_membership_evidence": 1138,
+    "retained": 24917,
+    "quarantined_pending": 0
+  },
+  "weight_friendly": 0.3851988602159168,
+  "eras": [
+    {
+      "era": "1980s",
+      "n": 3504,
+      "n_home_wins": 1726,
+      "observed_rate": 0.4925799086757991,
+      "standardized_rate": 0.4994564043722467
+    },
+    {
+      "era": "1990s",
+      "n": 4814,
+      "n_home_wins": 2416,
+      "observed_rate": 0.5018695471541338,
+      "standardized_rate": 0.503508952552188
+    },
+    {
+      "era": "2000s",
+      "n": 6872,
+      "n_home_wins": 3494,
+      "observed_rate": 0.5084400465657741,
+      "standardized_rate": 0.5086024819788818
+    },
+    {
+      "era": "2010s",
+      "n": 6632,
+      "n_home_wins": 3346,
+      "observed_rate": 0.5045235223160435,
+      "standardized_rate": 0.5044757267602209
+    },
+    {
+      "era": "2020_2024",
+      "n": 3095,
+      "n_home_wins": 1574,
+      "observed_rate": 0.5085621970920841,
+      "standardized_rate": 0.5175566992128677
+    }
+  ],
+  "primary_contrasts": [
+    {
+      "ci_lower": null,
+      "ci_upper": null,
+      "confidence_level": null,
+      "contrast_id": "2010s_minus_1980s",
+      "earlier_era": "1980s",
+      "estimand": "observed_difference",
+      "estimate": 1.1943613640244377,
+      "later_era": "2010s",
+      "method_id": "",
+      "method_version": "",
+      "reference_id": "reference-90003d0bdb8d6f65cead",
+      "sample_id": "sample-3bc69e2cc4f843242018",
+      "standard_error": null,
+      "status": "ok",
+      "uncertainty_status": "not_run",
+      "unit": "percentage_points"
+    },
+    {
+      "ci_lower": null,
+      "ci_upper": null,
+      "confidence_level": null,
+      "contrast_id": "2010s_minus_1980s",
+      "earlier_era": "1980s",
+      "estimand": "standardized_difference",
+      "estimate": 0.5019322387974201,
+      "later_era": "2010s",
+      "method_id": "",
+      "method_version": "",
+      "reference_id": "reference-90003d0bdb8d6f65cead",
+      "sample_id": "sample-3bc69e2cc4f843242018",
+      "standard_error": null,
+      "status": "ok",
+      "uncertainty_status": "not_run",
+      "unit": "percentage_points"
+    },
+    {
+      "ci_lower": null,
+      "ci_upper": null,
+      "confidence_level": null,
+      "contrast_id": "2010s_minus_1980s",
+      "earlier_era": "1980s",
+      "estimand": "composition_adjustment_difference",
+      "estimate": 0.6924291252270176,
+      "later_era": "2010s",
+      "method_id": "",
+      "method_version": "",
+      "reference_id": "reference-90003d0bdb8d6f65cead",
+      "sample_id": "sample-3bc69e2cc4f843242018",
+      "standard_error": null,
+      "status": "ok",
+      "uncertainty_status": "not_run",
+      "unit": "percentage_points"
+    },
+    {
+      "ci_lower": null,
+      "ci_upper": null,
+      "confidence_level": null,
+      "contrast_id": "2020_2024_minus_1980s",
+      "earlier_era": "1980s",
+      "estimand": "observed_difference",
+      "estimate": 1.5982288416284962,
+      "later_era": "2020_2024",
+      "method_id": "",
+      "method_version": "",
+      "reference_id": "reference-90003d0bdb8d6f65cead",
+      "sample_id": "sample-3bc69e2cc4f843242018",
+      "standard_error": null,
+      "status": "ok",
+      "uncertainty_status": "not_run",
+      "unit": "percentage_points"
+    },
+    {
+      "ci_lower": null,
+      "ci_upper": null,
+      "confidence_level": null,
+      "contrast_id": "2020_2024_minus_1980s",
+      "earlier_era": "1980s",
+      "estimand": "standardized_difference",
+      "estimate": 1.8100294840621034,
+      "later_era": "2020_2024",
+      "method_id": "",
+      "method_version": "",
+      "reference_id": "reference-90003d0bdb8d6f65cead",
+      "sample_id": "sample-3bc69e2cc4f843242018",
+      "standard_error": null,
+      "status": "ok",
+      "uncertainty_status": "not_run",
+      "unit": "percentage_points"
+    },
+    {
+      "ci_lower": null,
+      "ci_upper": null,
+      "confidence_level": null,
+      "contrast_id": "2020_2024_minus_1980s",
+      "earlier_era": "1980s",
+      "estimand": "composition_adjustment_difference",
+      "estimate": -0.2118006424336072,
+      "later_era": "2020_2024",
+      "method_id": "",
+      "method_version": "",
+      "reference_id": "reference-90003d0bdb8d6f65cead",
+      "sample_id": "sample-3bc69e2cc4f843242018",
+      "standard_error": null,
+      "status": "ok",
+      "uncertainty_status": "not_run",
+      "unit": "percentage_points"
+    }
+  ],
+  "weight_curve_flip_points": {
+    "2010s_minus_1980s": "0.3132689250",
+    "2020_2024_minus_1980s": "0.2561299649"
+  },
+  "audit": {
+    "report": "outputs/logs/team_identity/reviewed-q1-closeout-20261025/independent_audit.json",
+    "passed_checks": 630,
+    "same_version_core_artifacts": 19
+  },
+  "limitations": [
+    "Descriptive results; formal inference and team-strength adjustment not run.",
+    "User-reviewed study population; not a complete historical FIFA register.",
+    "The last era covers five years."
+  ],
+  "source_fingerprints": {
+    "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json": "a24a84ee948234131a7bcf48d09a2c7a9527fd3c1483fc7bbf246455ddba0afa",
+    "data/processed/team_identity/identity-reviewed-29d880765c1623764940/identity_manifest.json": "f61cddaccc4e68c6c9872d315fb6ab71e898cea4799143da2239cbe2d36dabaa",
+    "outputs/figures/eras/eras-fifa-dddf11dd6dc0b7531b88/era_results.png": "e8f7c8bc673e142d76074d497680ba9212932e8e5d42379407b8e67ec0365926",
+    "outputs/figures/eras/eras-fifa-dddf11dd6dc0b7531b88/era_results.svg": "25ae07ea548b080a0b908543b60cfdd513e00daa5b49975f51d82ea1fe8fea11",
+    "outputs/figures/eras/eras-fifa-dddf11dd6dc0b7531b88/tournament_composition.png": "2b53224e8feb411650ff5006016368bb74264b32d4766d832227849a17108dcd",
+    "outputs/figures/eras/eras-fifa-dddf11dd6dc0b7531b88/tournament_composition.svg": "12bc7c7fcdbc4bee8d5d3d8fb249e007d2ef5dee93eaf4a07c8c4ccd25063e7c",
+    "outputs/figures/eras/eras-fifa-dddf11dd6dc0b7531b88/weight_sensitivity.png": "56e1248f4683a22b891cbc7a481739a6830d2edd3dfc82b8dcef3d132dc757e7",
+    "outputs/figures/eras/eras-fifa-dddf11dd6dc0b7531b88/weight_sensitivity.svg": "8f1947e1db78b15d2678b6c3c84926e70bbcf14164490095134722d2c28bb166",
+    "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/checks.json": "4696e85866bf244edad1564653eb14badc744356e1134841a104e48cdd6ec018",
+    "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/summary.json": "4c7f044aea075afb14eac98a95c6d3e95066a8f2492153d0def54a9eadce2260",
+    "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/summary.md": "bf42a29f9cd2d1766a840a6ce9391f2f4b281ccc81fd585016f825e201837a22",
+    "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/analysis_membership.csv": "5a773a0ff3a4da59efd02022f455b32a9e1bd5ef45059ba8c1899150bdadeb1e",
+    "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/before_after.csv": "919c4bfb20e11ad8944deb3bdd82948056dbf6b057e349fa9802575a6173caa2",
+    "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/data_dictionary.md": "1269f7355930eaf6576d763d67ea16ef0cc20b36ec4134c181022cb65e90a791",
+    "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_contrasts.csv": "2118c13a38217d193f873a6e6acfb90bc1bd112be3761b74c231b37c03523e72",
+    "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_estimates.csv": "c2ea6c0e8d4f660a31a3aaf1308c30d7e56181eb12650f19305a1633b6c39446",
+    "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_summary.csv": "2265a81ae84c4638c7c36fcf1bdd0f3af4bb4eed864e6a5923a6ba32ea10dab3",
+    "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_tournament_summary.csv": "32ebafa526ba7cdce0ef7dd7098979f62644ec3151789573f197a71bae7f8910",
+    "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/reference_weights.csv": "691017d0bc41e5925ed6e97d4fe1d1a3411bbfdef3540e704df8c6a8c57a9953",
+    "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/sample_flow.csv": "55b6d8c5b0aad9a3810bdb673349db2b60751e68adabc165c1b64df47af7cb29",
+    "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/schedule_diagnostics.csv": "53d1441be48f82966889796a8cb060be54f2a58f27eb85f6e121fc945ef66421",
+    "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/team_schedule.csv": "7764ee22988203d2faaa549362830d3bb524df91ad3dade323fc3873b1a5da8c",
+    "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/weight_sensitivity.csv": "688ba64593cf26aac901fd06a790234cb0b32a0486859965e5c4bd848a565fbe",
+    "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/year_summary.csv": "9f2618498bd244899c22378d2039488734ba3c51ba91715a3134c73806ff417b"
+  },
+  "previous_display_data": "outputs/logs/team_identity/full-chain-review-20261025/display_data.json",
+  "preparation_note": "Current main presentation dataset; internal adoption details remain in membership records.",
+  "era_type_cells": [
+    {
+      "era": "1980s",
+      "tournament_group": "friendly",
+      "n_matches": 1656,
+      "n_home_wins": 747,
+      "n_draws": 471,
+      "n_away_wins": 438,
+      "home_win_rate": 0.4510869565
+    },
+    {
+      "era": "1980s",
+      "tournament_group": "non_friendly",
+      "n_matches": 1848,
+      "n_home_wins": 979,
+      "n_draws": 466,
+      "n_away_wins": 403,
+      "home_win_rate": 0.5297619048
+    },
+    {
+      "era": "1990s",
+      "tournament_group": "friendly",
+      "n_matches": 2013,
+      "n_home_wins": 952,
+      "n_draws": 574,
+      "n_away_wins": 487,
+      "home_win_rate": 0.4729259811
+    },
+    {
+      "era": "1990s",
+      "tournament_group": "non_friendly",
+      "n_matches": 2801,
+      "n_home_wins": 1464,
+      "n_draws": 633,
+      "n_away_wins": 704,
+      "home_win_rate": 0.5226704748
+    },
+    {
+      "era": "2000s",
+      "tournament_group": "friendly",
+      "n_matches": 2670,
+      "n_home_wins": 1278,
+      "n_draws": 750,
+      "n_away_wins": 642,
+      "home_win_rate": 0.4786516854
+    },
+    {
+      "era": "2000s",
+      "tournament_group": "non_friendly",
+      "n_matches": 4202,
+      "n_home_wins": 2216,
+      "n_draws": 901,
+      "n_away_wins": 1085,
+      "home_win_rate": 0.52736792
+    },
+    {
+      "era": "2010s",
+      "tournament_group": "friendly",
+      "n_matches": 2519,
+      "n_home_wins": 1257,
+      "n_draws": 650,
+      "n_away_wins": 612,
+      "home_win_rate": 0.4990075427
+    },
+    {
+      "era": "2010s",
+      "tournament_group": "non_friendly",
+      "n_matches": 4113,
+      "n_home_wins": 2089,
+      "n_draws": 869,
+      "n_away_wins": 1155,
+      "home_win_rate": 0.5079017749
+    },
+    {
+      "era": "2020_2024",
+      "tournament_group": "friendly",
+      "n_matches": 740,
+      "n_home_wins": 411,
+      "n_draws": 177,
+      "n_away_wins": 152,
+      "home_win_rate": 0.5554054054
+    },
+    {
+      "era": "2020_2024",
+      "tournament_group": "non_friendly",
+      "n_matches": 2355,
+      "n_home_wins": 1163,
+      "n_draws": 526,
+      "n_away_wins": 666,
+      "home_win_rate": 0.4938428875
+    }
+  ],
+  "reference_compositions": [
+    {
+      "reference_id": "reference-90003d0bdb8d6f65cead",
+      "scheme": "pooled_matches",
+      "tournament_group": "friendly",
+      "weight": 0.3851988602
+    },
+    {
+      "reference_id": "reference-90003d0bdb8d6f65cead",
+      "scheme": "pooled_matches",
+      "tournament_group": "non_friendly",
+      "weight": 0.6148011398
+    },
+    {
+      "reference_id": "reference-bde4b808f6d501474fb6",
+      "scheme": "equal_years",
+      "tournament_group": "friendly",
+      "weight": 0.4061670257
+    },
+    {
+      "reference_id": "reference-bde4b808f6d501474fb6",
+      "scheme": "equal_years",
+      "tournament_group": "non_friendly",
+      "weight": 0.5938329743
+    }
+  ],
+  "weight_curve": [
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.0,
+      "difference_pp": -2.1860129902,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.01,
+      "difference_pp": -2.1162322741,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.02,
+      "difference_pp": -2.0464515581,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.03,
+      "difference_pp": -1.976670842,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.04,
+      "difference_pp": -1.9068901259,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.05,
+      "difference_pp": -1.8371094099,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.06,
+      "difference_pp": -1.7673286938,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.07,
+      "difference_pp": -1.6975479778,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.08,
+      "difference_pp": -1.6277672617,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.09,
+      "difference_pp": -1.5579865457,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.1,
+      "difference_pp": -1.4882058296,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.11,
+      "difference_pp": -1.4184251136,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.12,
+      "difference_pp": -1.3486443975,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.13,
+      "difference_pp": -1.2788636814,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.14,
+      "difference_pp": -1.2090829654,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.15,
+      "difference_pp": -1.1393022493,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.16,
+      "difference_pp": -1.0695215333,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.17,
+      "difference_pp": -0.9997408172,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.18,
+      "difference_pp": -0.9299601012,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.19,
+      "difference_pp": -0.8601793851,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.2,
+      "difference_pp": -0.7903986691,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.21,
+      "difference_pp": -0.720617953,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.22,
+      "difference_pp": -0.6508372369,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.23,
+      "difference_pp": -0.5810565209,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.24,
+      "difference_pp": -0.5112758048,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.25,
+      "difference_pp": -0.4414950888,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.26,
+      "difference_pp": -0.3717143727,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.27,
+      "difference_pp": -0.3019336567,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.28,
+      "difference_pp": -0.2321529406,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.29,
+      "difference_pp": -0.1623722246,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.3,
+      "difference_pp": -0.0925915085,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.31,
+      "difference_pp": -0.0228107924,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.313268925,
+      "difference_pp": -0.0,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.32,
+      "difference_pp": 0.0469699236,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.33,
+      "difference_pp": 0.1167506397,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.34,
+      "difference_pp": 0.1865313557,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.35,
+      "difference_pp": 0.2563120718,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.36,
+      "difference_pp": 0.3260927878,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.37,
+      "difference_pp": 0.3958735039,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.38,
+      "difference_pp": 0.4656542199,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.3851988602,
+      "difference_pp": 0.5019322388,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.39,
+      "difference_pp": 0.535434936,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.4,
+      "difference_pp": 0.6052156521,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.4061670257,
+      "difference_pp": 0.6482495992,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.41,
+      "difference_pp": 0.6749963681,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.42,
+      "difference_pp": 0.7447770842,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.43,
+      "difference_pp": 0.8145578002,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.44,
+      "difference_pp": 0.8843385163,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.45,
+      "difference_pp": 0.9541192323,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.46,
+      "difference_pp": 1.0238999484,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.47,
+      "difference_pp": 1.0936806644,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.48,
+      "difference_pp": 1.1634613805,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.49,
+      "difference_pp": 1.2332420966,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.5,
+      "difference_pp": 1.3030228126,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.51,
+      "difference_pp": 1.3728035287,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.52,
+      "difference_pp": 1.4425842447,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.53,
+      "difference_pp": 1.5123649608,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.54,
+      "difference_pp": 1.5821456768,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.55,
+      "difference_pp": 1.6519263929,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.56,
+      "difference_pp": 1.7217071089,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.57,
+      "difference_pp": 1.791487825,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.58,
+      "difference_pp": 1.8612685411,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.59,
+      "difference_pp": 1.9310492571,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.6,
+      "difference_pp": 2.0008299732,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.61,
+      "difference_pp": 2.0706106892,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.62,
+      "difference_pp": 2.1403914053,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.63,
+      "difference_pp": 2.2101721213,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.64,
+      "difference_pp": 2.2799528374,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.65,
+      "difference_pp": 2.3497335534,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.66,
+      "difference_pp": 2.4195142695,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.67,
+      "difference_pp": 2.4892949856,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.68,
+      "difference_pp": 2.5590757016,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.69,
+      "difference_pp": 2.6288564177,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.7,
+      "difference_pp": 2.6986371337,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.71,
+      "difference_pp": 2.7684178498,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.72,
+      "difference_pp": 2.8381985658,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.73,
+      "difference_pp": 2.9079792819,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.74,
+      "difference_pp": 2.9777599979,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.75,
+      "difference_pp": 3.047540714,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.76,
+      "difference_pp": 3.1173214301,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.77,
+      "difference_pp": 3.1871021461,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.78,
+      "difference_pp": 3.2568828622,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.79,
+      "difference_pp": 3.3266635782,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.8,
+      "difference_pp": 3.3964442943,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.81,
+      "difference_pp": 3.4662250103,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.82,
+      "difference_pp": 3.5360057264,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.83,
+      "difference_pp": 3.6057864424,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.84,
+      "difference_pp": 3.6755671585,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.85,
+      "difference_pp": 3.7453478746,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.86,
+      "difference_pp": 3.8151285906,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.87,
+      "difference_pp": 3.8849093067,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.88,
+      "difference_pp": 3.9546900227,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.89,
+      "difference_pp": 4.0244707388,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.9,
+      "difference_pp": 4.0942514548,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.91,
+      "difference_pp": 4.1640321709,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.92,
+      "difference_pp": 4.2338128869,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.93,
+      "difference_pp": 4.303593603,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.94,
+      "difference_pp": 4.3733743191,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.95,
+      "difference_pp": 4.4431550351,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.96,
+      "difference_pp": 4.5129357512,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.97,
+      "difference_pp": 4.5827164672,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.98,
+      "difference_pp": 4.6524971833,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 0.99,
+      "difference_pp": 4.7222778993,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2010s_minus_1980s",
+      "weight_friendly": 1.0,
+      "difference_pp": 4.7920586154,
+      "flip_weight": 0.313268925,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.0,
+      "difference_pp": -3.5919017288,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.01,
+      "difference_pp": -3.4516642627,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.02,
+      "difference_pp": -3.3114267965,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.03,
+      "difference_pp": -3.1711893303,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.04,
+      "difference_pp": -3.0309518642,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.05,
+      "difference_pp": -2.890714398,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.06,
+      "difference_pp": -2.7504769318,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.07,
+      "difference_pp": -2.6102394656,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.08,
+      "difference_pp": -2.4700019995,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.09,
+      "difference_pp": -2.3297645333,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.1,
+      "difference_pp": -2.1895270671,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.11,
+      "difference_pp": -2.049289601,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.12,
+      "difference_pp": -1.9090521348,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.13,
+      "difference_pp": -1.7688146686,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.14,
+      "difference_pp": -1.6285772024,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.15,
+      "difference_pp": -1.4883397363,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.16,
+      "difference_pp": -1.3481022701,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.17,
+      "difference_pp": -1.2078648039,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.18,
+      "difference_pp": -1.0676273377,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.19,
+      "difference_pp": -0.9273898716,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.2,
+      "difference_pp": -0.7871524054,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.21,
+      "difference_pp": -0.6469149392,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.22,
+      "difference_pp": -0.5066774731,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.23,
+      "difference_pp": -0.3664400069,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.24,
+      "difference_pp": -0.2262025407,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.25,
+      "difference_pp": -0.0859650745,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.2561299649,
+      "difference_pp": 0.0,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.26,
+      "difference_pp": 0.0542723916,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.27,
+      "difference_pp": 0.1945098578,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.28,
+      "difference_pp": 0.334747324,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.29,
+      "difference_pp": 0.4749847901,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.3,
+      "difference_pp": 0.6152222563,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.31,
+      "difference_pp": 0.7554597225,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.32,
+      "difference_pp": 0.8956971887,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.33,
+      "difference_pp": 1.0359346548,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.34,
+      "difference_pp": 1.176172121,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.35,
+      "difference_pp": 1.3164095872,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.36,
+      "difference_pp": 1.4566470534,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.37,
+      "difference_pp": 1.5968845195,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.38,
+      "difference_pp": 1.7371219857,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.3851988602,
+      "difference_pp": 1.8100294841,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.39,
+      "difference_pp": 1.8773594519,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.4,
+      "difference_pp": 2.017596918,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.4061670257,
+      "difference_pp": 2.1040817242,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.41,
+      "difference_pp": 2.1578343842,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.42,
+      "difference_pp": 2.2980718504,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.43,
+      "difference_pp": 2.4383093166,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.44,
+      "difference_pp": 2.5785467827,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.45,
+      "difference_pp": 2.7187842489,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.46,
+      "difference_pp": 2.8590217151,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.47,
+      "difference_pp": 2.9992591812,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.48,
+      "difference_pp": 3.1394966474,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.49,
+      "difference_pp": 3.2797341136,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.5,
+      "difference_pp": 3.4199715798,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.51,
+      "difference_pp": 3.5602090459,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.52,
+      "difference_pp": 3.7004465121,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.53,
+      "difference_pp": 3.8406839783,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.54,
+      "difference_pp": 3.9809214444,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.55,
+      "difference_pp": 4.1211589106,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.56,
+      "difference_pp": 4.2613963768,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.57,
+      "difference_pp": 4.401633843,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.58,
+      "difference_pp": 4.5418713091,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.59,
+      "difference_pp": 4.6821087753,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.6,
+      "difference_pp": 4.8223462415,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.61,
+      "difference_pp": 4.9625837077,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.62,
+      "difference_pp": 5.1028211738,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.63,
+      "difference_pp": 5.24305864,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.64,
+      "difference_pp": 5.3832961062,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.65,
+      "difference_pp": 5.5235335723,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.66,
+      "difference_pp": 5.6637710385,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.67,
+      "difference_pp": 5.8040085047,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.68,
+      "difference_pp": 5.9442459709,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.69,
+      "difference_pp": 6.084483437,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.7,
+      "difference_pp": 6.2247209032,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.71,
+      "difference_pp": 6.3649583694,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.72,
+      "difference_pp": 6.5051958355,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.73,
+      "difference_pp": 6.6454333017,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.74,
+      "difference_pp": 6.7856707679,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.75,
+      "difference_pp": 6.9259082341,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.76,
+      "difference_pp": 7.0661457002,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.77,
+      "difference_pp": 7.2063831664,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.78,
+      "difference_pp": 7.3466206326,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.79,
+      "difference_pp": 7.4868580988,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.8,
+      "difference_pp": 7.6270955649,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.81,
+      "difference_pp": 7.7673330311,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.82,
+      "difference_pp": 7.9075704973,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.83,
+      "difference_pp": 8.0478079634,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.84,
+      "difference_pp": 8.1880454296,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.85,
+      "difference_pp": 8.3282828958,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.86,
+      "difference_pp": 8.468520362,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.87,
+      "difference_pp": 8.6087578281,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.88,
+      "difference_pp": 8.7489952943,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.89,
+      "difference_pp": 8.8892327605,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.9,
+      "difference_pp": 9.0294702266,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.91,
+      "difference_pp": 9.1697076928,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.92,
+      "difference_pp": 9.309945159,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.93,
+      "difference_pp": 9.4501826252,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.94,
+      "difference_pp": 9.5904200913,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.95,
+      "difference_pp": 9.7306575575,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.96,
+      "difference_pp": 9.8708950237,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.97,
+      "difference_pp": 10.0111324899,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.98,
+      "difference_pp": 10.151369956,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 0.99,
+      "difference_pp": 10.2916074222,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    },
+    {
+      "contrast_id": "2020_2024_minus_1980s",
+      "weight_friendly": 1.0,
+      "difference_pp": 10.4318448884,
+      "flip_weight": 0.2561299649,
+      "status": "flip_in_range"
+    }
+  ],
+  "figures": [
+    "outputs/figures/eras/eras-fifa-dddf11dd6dc0b7531b88/era_results.png",
+    "outputs/figures/eras/eras-fifa-dddf11dd6dc0b7531b88/era_results.svg",
+    "outputs/figures/eras/eras-fifa-dddf11dd6dc0b7531b88/tournament_composition.png",
+    "outputs/figures/eras/eras-fifa-dddf11dd6dc0b7531b88/tournament_composition.svg",
+    "outputs/figures/eras/eras-fifa-dddf11dd6dc0b7531b88/weight_sensitivity.png",
+    "outputs/figures/eras/eras-fifa-dddf11dd6dc0b7531b88/weight_sensitivity.svg"
+  ]
+}

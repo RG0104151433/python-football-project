@@ -1,0 +1,35 @@
+{
+  "affected_matches": 2451,
+  "affected_study_matches": 768,
+  "baseline_study_matches": 26055,
+  "decisions_applied": 0,
+  "home_away_or_score_changes": 0,
+  "labels": 337,
+  "limitations": [
+    "Current membership does not establish historical eligibility.",
+    "Historical interval endpoints remain upstream clues, not independently verified dates.",
+    "Scenario exclusions are incomplete proposals, not an approved national-team population.",
+    "No entity merge/split, amendment, withdrawal replay or publication is implemented."
+  ],
+  "observations": {
+    "current_conifa_directory_literal": 14,
+    "current_fifa_alias_candidate": 20,
+    "current_fifa_directory_literal": 191,
+    "historical_conifa_context": 1,
+    "historical_transition_context": 1,
+    "regional_federation_context": 1,
+    "regional_selection_fixture_corroborated": 1,
+    "unresolved": 108
+  },
+  "plan_id": "identity-plan-a667182d22746ca9e1ca",
+  "policy_id": "national-association-boundary-draft-20261024-v1",
+  "proposed_decisions": 37,
+  "publication_blocking_study_labels": 308,
+  "ready_for_publication": false,
+  "results_recomputed": false,
+  "scenario_excluded_study_matches": 1,
+  "scenario_remaining_study_matches": 26054,
+  "status": "completed_preview_only",
+  "structural_validation_passed": true,
+  "study_labels": 308
+}

@@ -1,0 +1,528 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=1024,maximum-scale=1.0,initial-scale=0">
+    <meta name="x-csrf-token" content="bdbfec65c00fd2222bf82cd1b1d26ef054dbd47c">
+    <meta name="base-cloudfront-url" content="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/">
+    
+    <title>FIFA Digital Assets Hub</title>
+    <link rel="shortcut icon" href="https://d8ejoa1fys2rk.cloudfront.net/5.0.5/includes/img/icons/fifa.ico" />
+    
+
+    
+
+
+    
+            <link
+                rel="stylesheet"
+                href="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/styles/css/icons.css"
+            />
+            <link
+                rel="stylesheet"
+                href="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/styles/css/bootstrap.css"
+            />
+            <link
+                rel="stylesheet"
+                href="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/styles/css/base-unifiedheader.css"
+            />
+            <link
+                rel="stylesheet"
+                href="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/styles/css/modules.css"
+            />
+            <link
+                rel="stylesheet"
+                href="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/deps/select2/dist/css/select2.css"
+            />
+
+
+
+    <link href="/v7/header/css/header-admin.css" rel="stylesheet" />
+
+    
+    <style type="text/css">
+        html {
+            --headerHeight: 111px;
+        }
+    </style>
+
+<link rel="stylesheet" href="/v7/portal/portals/b5ccf555-a8ec-4734-ac98-5b7d0723e4ee/theme?format=css">
+
+    <link rel="stylesheet" href=https://d8ejoa1fys2rk.cloudfront.net/5.0.5/includes/themes/default.css>
+
+
+    
+
+<script src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/deps/sentry/sentryHost.umd.js"></script>
+<script nonce="YdKp6lP9+TwWMEcfHCkv6w==">
+    const dsn = 'https://3d37a43c135242e4a31d75cae152816d@sentry10.bynder.cloud/16';
+    const environment = 'flagship-global';
+
+    try {
+        if (!dsn) throw new Error("Sentry DSN not set");
+
+        window.SentryClient = SentryCustomClient.init({
+            environment,
+            dsn,
+        });
+    } catch (err) {
+        console.error("Sentry initialization failed", err);
+    }
+</script>
+
+
+        
+
+
+    
+
+    
+        <meta name="bynder.feature_flag.honeycomb_frontend" content="on">
+        <meta name="bynder.feature_flag.honeycomb_split_data_enrichment_pybynder" content="off">
+        <meta name="bynder.feature_flag.pybynder_preload_performance" content="off">
+        <meta name="bynder.feature_flag.assetbank_unified_search_internal_POC" content="off">
+</head>
+
+
+    <body class="api">
+
+
+
+<script nonce="YdKp6lP9+TwWMEcfHCkv6w==">
+    window.bynder = window.bynder || {};
+    window.bynder.Config = window.bynder.Config || {};
+    window.bynder.Config.hasFeature = window.bynder.Config.hasFeature || function(feature) {
+            const features = [
+                    'download-cdn',
+                    'metadata-write-xmp',
+                    'dashboard-slider',
+                    'videothumbnail',
+                    'workflow-jobexport',
+                    'mark-as-public',
+                    'metadata-write-csv',
+                    'transformation-agent',
+                    'support-form',
+                    'transfer',
+                    'hide-brandsnavigation',
+                    'hide-brands',
+                    'pim',
+                    'hide-dropbox',
+                    'watermark-date-picker',
+                    'spotlight-help-modal',
+                    'pyusermanagement',
+                    'styleguide-subcategories',
+                    'waiting-room-filtering',
+                    'show-prefix-download-btn',
+                    '3d-previews',
+                    'sso-debug',
+                    'change-history',
+                    'detailed-delivery-metrics',
+                    'focus-point',
+                    'genai',
+                    'readonly-individual-share',
+                    'crop-canvas',
+                    'unified-header-rollout',
+                    'reactivate-user-check',
+                    'terms',
+                    'ai-duplicate-manager',
+                    'bynder-support-opt-in',
+                    'archived-asset-notification',
+                    'searchandoperator',
+                    'robots-disallow',
+                    'download-product-data',
+                    'news-slider',
+                    'spotlight-recent-searches',
+                    'sns-notification',
+                    'collections-hidebydefault',
+                    'upload-aws-accelerator',
+                    'dat',
+                    'ai-similarity-search',
+                    'uploader-bare',
+                    'inspiration',
+                    'external-option-links',
+                    'enrichment-agent',
+                    'taxonomy-csv-import',
+                    'ai-text-in-image-search',
+                    'disable-pdf',
+                    'new-asset-notification',
+                    'ai-speech-to-text',
+                    'enable-cdn',
+                    'rewriteurls',
+                    'download-additionals',
+                    'files-service-wf-uploaders',
+                    'media-detail-share',
+                    'meta-selectall',
+                    'workspace',
+                    'public-thumbnails',
+                    'workflow-reauthenticate',
+                    'workflow-campaignoverviewhomepage',
+                    'removed-asset-notification',
+                    'multi-sso',
+                    'access-request-form',
+                    'hide-categories',
+                    'ai-face-recognition',
+                    'disable-replyto',
+                    'dashboard-search',
+                    'pdfviewer',
+                    'disable-file-merge',
+                    'version-updater',
+                    'gdpr-message',
+                    'hide-styleguidebrandsfilter',
+                    'updated-asset-notification',
+                    'wr-mpo-approve-download-requests',
+                    'disable-media-webversion',
+                    'save-search-filter',
+                    'improved-taxonomy-management',
+                    'hide-bynder',
+                    'transfer-share-by-link',
+                    'search-active-assets',
+                    'metapropertylevelaccess',
+                    'appcues',
+                    'workflow-imagezoom',
+                    'user-filter',
+                    'crop',
+                    'alternative-asset-detail-view',
+                    'metadata-presets-sharing',
+                    'custom-thumbnails',
+                    'duplicate-view',
+                    'mfa',
+                    'public-links',
+                    'user-outofoffice',
+                    'metadata-write-xmp-main-namespace',
+                    'collection-options',
+                    'showoriginalfilename',
+                    'workflow-beta',
+                    'legacy-oauth1',
+                    'impersonate-users',
+                    'sso',
+                    'sticky-search',
+                    'asset-permission-viewer',
+                    'package-analysis',
+                    'compact',
+                    'collection-embed',
+                    'download-request',
+                    'updated-asset-meta-notification',
+                    'upload-for-approval',
+                    'readonly-share',
+                    'autotags',
+                    'news',
+                    'public-filters',
+                    'x-robots-disallow',
+                    'user-timezone',
+                    'workflow-duedate-highlight',
+                    'workflow-short-email-subjects',
+                    'metadata-presets',
+                    'media-embed',
+                    'download-preselect',
+                    'notifications-center',
+            ]
+
+        return features.includes(feature);
+    }
+
+    // Used by asset-fronted-sdk
+    window.bynder.Uploader = {
+            chunkSize: 5 * 1024 * 1024,
+    }
+</script>
+
+
+
+
+    
+
+    <div id="rootMessageBox" class="update info"></div>
+    <div id="rootHeader" data-backend="pybynder"></div>
+
+    <header id="mainHeader" class="base" style="">
+        <div id="rootImpersonationBanner"></div>
+        <div class="admin-bar clearfix" id="rootHeaderTopBar"></div>
+        <section class="nav-bar clearfix" id="rootHeaderNavigation"></section>
+    </header>
+
+    
+    <script src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/deps/jquery/dist/jquery.js"></script>
+    <script src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/deps/jquery-ui/jquery-ui.js"></script>
+    <script src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/deps/jquery.role/lib/jquery.role.js"></script>
+    <script src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/deps/plupload/js/moxie.js"></script>
+    <script src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/deps/plupload/js/plupload.dev.js"></script>
+    <script type="text/javascript" src="/v7/header/js/app.bundle.js"></script>
+
+
+
+    <div class="container">
+
+    
+
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3">
+			<div class="text-center">
+				<h1><i class="fa fa-exclamation-triangle"></i> Not found</h1>
+				<p class="lead">We couldn&#39;t find the page you were looking for.</p>
+			</div>
+		</div>
+	</div>
+
+
+    </div> <!-- End Container -->
+    <div id="dialog-region" class="modal fade"></div>
+
+        <script src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/deps/jquery/dist/jquery.js"></script>
+    <script src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/deps/jquery-ui/jquery-ui.js"></script>
+    <script src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/deps/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/deps/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+    <script src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/deps/moment/moment.js"></script>
+    <script src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/deps/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/deps/underscore/underscore-umd.js"></script>
+    <script src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/deps/backbone/backbone.js"></script>
+    <script src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/deps/marionette/lib/backbone.marionette.js"></script>
+    <script src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/deps/backbone.radio/build/backbone.radio.js"></script>
+    <script src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/deps/backbone.syphon/lib/backbone.syphon.js"></script>
+    <script src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/deps/backbone.stickit/backbone.stickit.js"></script>
+    <script src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/deps/select2/dist/js/select2.js"></script>
+    <script src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/deps/jquery.role/lib/jquery.role.js"></script>
+    <script src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/deps/jade/runtime.js"></script>
+    <script src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/deps/jed/jed.js"></script>
+    <script src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/deps/spin.js/spin.js"></script>
+    <script src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/deps/is-js/is.js"></script>
+    <script src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/deps/replaceholder/replaceholder.js"></script>
+    <script src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/deps/DecentStringFormatter/src/dsf.js"></script>
+    <script src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/scripts/main.js"></script>
+    <script src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/scripts/templates/components.js"></script>
+
+<script type="text/javascript" nonce="YdKp6lP9+TwWMEcfHCkv6w==">
+    Bynder.init({momentLocale: false}).then(function(){
+
+
+
+    });
+</script>
+
+
+
+
+
+<div id="rootPrivacyPolicyModal"></div>
+<div
+    id="bynderParamountRoot"
+    style="display: none;"
+></div>
+<script nonce="YdKp6lP9+TwWMEcfHCkv6w==">
+    (async function () {
+        const paramountCdnUrl = 'https://static.bynder.cloud/ui/common/paramount/';
+
+        async function fetchManifest(url) {
+            const response = await fetch(url + 'manifest.json');
+
+            if (!response.ok) {
+                throw new Error('Failed to fetch manifest: ' + response.status);
+            }
+
+            const manifest = await response.json();
+
+            if (!manifest['app.js']) {
+                throw new Error('Manifest is missing the "app.js" entry');
+            }
+
+            return manifest;
+        }
+
+        async function loadAppBundle(url) {
+            const preloaded = url === paramountCdnUrl && window.__paramountManifestPromise;
+
+            let manifest;
+            if (preloaded) {
+                try {
+                    manifest = await window.__paramountManifestPromise;
+                } catch (e) {
+                    manifest = await fetchManifest(url);
+                }
+            } else {
+                manifest = await fetchManifest(url);
+            }
+
+            const script = document.createElement('script');
+            script.type = 'module';
+            script.src = url + manifest['app.js'];
+            script.id = 'paramount-microfrontend-script';
+            document.body.appendChild(script);
+        }
+
+
+        try {
+            await loadAppBundle(paramountCdnUrl);
+        } catch (e) {
+            console.error(e);
+        }
+    })();
+</script>
+
+
+
+<div id="conversational-ai"></div>
+<script nonce="YdKp6lP9+TwWMEcfHCkv6w==">
+    (function(){
+
+        const addChunkScript = (src) => {
+            const script = document.createElement('script');
+            script.type = 'module';
+            script.src = src;
+            document.body.appendChild(script);
+        }
+
+        const addChunkCss = (href) => {
+            const link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = href;
+            document.head.appendChild(link);
+        }
+
+        function loadFromManifest(url) {
+            fetch(url + 'manifest.json')
+                .then(function(response) {
+                    return response.json();
+                })
+                .then(function(data) {
+                    const chunk = data['src/main.jsx'];
+                    if (chunk.file) {
+                        addChunkScript(url + chunk.file)
+                    }
+
+                    if(Array.isArray(chunk.css)){
+                        chunk.css.forEach(cssFile => addChunkCss(url + cssFile))
+                    }
+                })
+                .catch(function(e) {
+                    console.error('Failed to load manifest:', e);
+                });
+        }
+
+        loadFromManifest('https://static.bynder.cloud/ui/conversational-ai/conversational-ai/');
+    })()
+</script>
+
+
+    
+
+
+<script type="text/javascript" nonce="YdKp6lP9+TwWMEcfHCkv6w==">
+    function deleteCookies(names) {
+        names.forEach(name => {
+            document.cookie = name + '=; expires=Thu, 30 Jun 2024 00:00:01 GMT; path=/';
+        });
+    }
+
+    deleteCookies(['AMP_13ccbb3500', 'AMP_ca378e6cd9', 'AMP_cfcc16528b', 'AMP_TEST', 'AMP_TLDTEST']);
+
+        function getCFUUIDFromUUID(UUID) {
+            return UUID.replace(/-([^-]*)$/, '$1').toUpperCase();
+        }
+
+        function getAmplitudeSessionId() {
+            function sessionIsExpired(sessionExpirationTimestamp) {
+                if (!sessionExpirationTimestamp) {
+                    return true;
+                }
+                return new Date(sessionExpirationTimestamp) < new Date();
+            }
+
+            var sessionId = localStorage.getItem('amplitude.session_id');
+            var sessionExpirationTimestamp = localStorage.getItem('amplitude.session_expiration_timestamp');
+
+            if (!sessionId || sessionIsExpired(sessionExpirationTimestamp)) {
+                sessionId = new Date().getTime();
+                localStorage.setItem('amplitude.session_id', sessionId);
+            }
+
+            var SESSION_EXPIRED_AFTER_MIN = 30;
+            sessionExpirationTimestamp = new Date().setMinutes(
+                new Date().getMinutes() + SESSION_EXPIRED_AFTER_MIN
+            );
+            localStorage.setItem('amplitude.session_expiration_timestamp', sessionExpirationTimestamp);
+
+            return sessionId;
+        }
+
+            window.amplitude = null;
+
+        /* Anonymize all PII
+        * Use this function instead of analytics.track
+        */
+        var bynder = bynder ? bynder : {};
+        bynder.track = function (title, props) {
+            return amplitude
+                ? amplitude.track(title, props)
+                : null;
+        };
+</script>
+
+    
+
+
+    
+
+        <script type="text/javascript" nonce="YdKp6lP9+TwWMEcfHCkv6w==">
+</script>
+
+
+    <link rel="stylesheet" type="text/css" href="//fast.appcues.com/appcues.min.css">
+
+<script type="text/javascript" nonce="YdKp6lP9+TwWMEcfHCkv6w==">
+
+  // Tell the Appcues script to defer defining itself as an AMD module 
+  window.AppcuesSettings = {
+    skipAMD: true
+  };
+
+  (function() {
+    if (!window.AppcuesReady) {
+      window.AppcuesReady = function(callback) {
+        callback && window.AppcuesReady.queue.push(callback);
+        if (window.Appcues) {
+          while (window.AppcuesReady.queue.length) {
+            cb = window.AppcuesReady.queue.shift();
+            if (typeof cb === 'function') cb();
+          }
+        }
+      };
+      window.AppcuesReady.queue = [];
+    }
+  })()
+</script>
+
+<script type="text/javascript" nonce="YdKp6lP9+TwWMEcfHCkv6w==">
+
+  var appcuesId = "";
+  var appcuesData = {};  
+  var isUserTrackable = "False" === "True" ? true : false;
+
+  if (isUserTrackable) {
+    // uuid to coldfusion uuid
+    appcuesId = "None".replace(/-([^-]*)$/, '$1').toUpperCase();
+  }
+
+  AppcuesReady(function() {
+    Appcues.identify(appcuesId, appcuesData);
+  });
+
+  (function() {
+    var s = document.createElement('script');
+    s.src = '//fast.appcues.com/17583.js';
+    s.async = true;
+    s.defer = true;
+    s.onload = function() { window.AppcuesReady(); };
+    document.head.appendChild(s);
+  })();
+</script>
+
+
+
+
+
+    <div id="rootFloatingActionButton"></div> 
+
+
+</body>
+</html>

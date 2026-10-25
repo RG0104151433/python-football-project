@@ -1,0 +1,24 @@
+{
+  "forbidden": [
+    "按胜率选择是否纳入",
+    "将历史国家全并入现代国家",
+    "仅因现代目录缺席删除",
+    "将当前观察回填所有历史场次"
+  ],
+  "policy_id": "national-association-boundary-draft-20261024-v1",
+  "population_question": "主比较是否限全国/地区足协最高代表队，并排除地方选拔及社区代表？历史足协、非FIFA但洲足联成员、加入前比赛如何处理？",
+  "proposal": "倾向以足协代表层级而非是否主权国家定义；暂不把现FIFA211名单当历史白名单。Silesia单例仅演示，不作完整规则。",
+  "requires_confirmation": [
+    "全国或地区足协代表与区域选拔的界限",
+    "历史已消失足协及加入前资格",
+    "非FIFA但洲足联/独立地域足协的处理",
+    "同域或重叠地域比赛主客解释"
+  ],
+  "schema_version": "team-identity-policy-draft-v1",
+  "scope": {
+    "end": "2024-12-31",
+    "start": "1980-01-01"
+  },
+  "status": "proposed",
+  "unresolved": "block_publication"
+}

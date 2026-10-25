@@ -1,0 +1,716 @@
+
+<!doctype html>
+
+	<html id="bynder" class="no-js " lang="en-US">
+
+
+<head>
+	<meta charset="utf-8" />
+	
+		<link rel="shortcut icon" href="https://d8ejoa1fys2rk.cloudfront.net/5.0.5/includes/img/icons/fifa.ico" />
+		
+		<title>FIFA Digital Assets Hub</title>
+		<meta http-equiv="version" content="4.3" />
+		<meta http-equiv="language" content="EN-US" />
+		<meta name="base-cloudfront-url" content="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=1024,maximum-scale=1.0" />
+	
+		<meta name="robots" content="noindex, follow" />
+	
+	
+	
+	
+	
+		
+        
+        
+		
+	
+	
+		
+			<meta name="bynder.feature_flag.assetbank&#95;unified&#95;search&#95;internal&#95;POC" content="off" />
+		
+			<meta name="bynder.feature_flag.honeycomb&#95;frontend" content="on" />
+		
+			<meta name="bynder.feature_flag.honeycomb&#95;split&#95;data&#95;enrichment&#95;lucee" content="off" />
+		
+		
+			
+
+
+
+
+		
+	
+
+
+    <link rel="preconnect" href="https://static.bynder.cloud/ui" crossorigin>
+
+    <script nonce="Uk8yazh0dUdCQWVCM3FHNTM2OXVRZz09">
+        (() => {
+            const baseUrl = 'https://static.bynder.cloud/ui/common/paramount/';
+
+            window.__paramountBaseUrl = baseUrl;
+            window.__paramountManifestPromise = fetch(baseUrl + 'manifest.json')
+                .then(r => r.json());
+
+            window.__paramountManifestPromise
+                .then(data => {
+                    if (data['app.js']) {
+                        const link = document.createElement('link');
+                        link.rel = 'modulepreload';
+                        link.href = baseUrl + data['app.js'];
+                        document.head.appendChild(link);
+                    }
+                })
+                .catch(() => {}); // failures are intentionally ignored here because microfrontends.cfm has its own .catch() with the jQuery fallback
+        })();
+    </script>
+
+<link href="https://d8ejoa1fys2rk.cloudfront.net/static/F81BD056643250A9EB7254DB6EEDF5BA.cache.css" type="text/css" rel="stylesheet" /><link href="https://d8ejoa1fys2rk.cloudfront.net/static/EC20F0B7FD7F755425C2F409BC77AE97.cache.css" type="text/css" rel="stylesheet" /><link href="https://d8ejoa1fys2rk.cloudfront.net/static/F674A85E2A2F2135B7D4FA65C50463CB.cache.css" type="text/css" rel="stylesheet" /><link href="https://d8ejoa1fys2rk.cloudfront.net/static/A5AA58C6FD29A8EA9A6F8DCA01A68C7F.cache.css" type="text/css" rel="stylesheet" /><link href="https://d8ejoa1fys2rk.cloudfront.net/static/7758D113B6F9A0A9A63861EF2570C822.cache.css" type="text/css" rel="stylesheet" /><link href="https://d8ejoa1fys2rk.cloudfront.net/static/B69F44DD5D8F582CC72123C227468D31.cache.css" type="text/css" rel="stylesheet" /><link href="https://d8ejoa1fys2rk.cloudfront.net/static/85890D93C804C45AD2F8FCE7840217CE.cache.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/v7/header/css/header-admin.css">
+
+	<style>.farbtastic *{position:absolute;cursor:crosshair}</style>
+	<link rel="stylesheet" href="/v7/portal/portals/
+		b5ccf555-a8ec-4734-ac98-5b7d0723e4ee/theme?format=css">
+	
+		<link href="https://d8ejoa1fys2rk.cloudfront.net/5.0.5/includes/themes/default.css" type="text/css" rel="stylesheet" />
+	
+
+    <link rel="stylesheet" href="https://d8ejoa1fys2rk.cloudfront.net/5.0.5/includes/css/vendor/font-awesome.min.css" />
+
+    
+        
+        
+    
+
+    <script nonce="Uk8yazh0dUdCQWVCM3FHNTM2OXVRZz09" src="https://d8ejoa1fys2rk.cloudfront.net/static/AB8E3AB7FAEA31720A2520F3AF407AE0.cache.js" type="text/javascript"></script>
+
+    
+    <script type="text/javascript" nonce="Uk8yazh0dUdCQWVCM3FHNTM2OXVRZz09">
+        const dsn = 'https://2b555212b26f48dc98591a61c5ba0e5a@sentry10.bynder.cloud/14';
+        const release = '5\x2e0\x2e5-24698d6';
+        const environment = 'production';
+
+        var SentryClient = {
+            captureMessage: function() {},
+        };
+
+        try {
+            if (!dsn || !release) throw new Error("Sentry DSN or release not set");
+
+            SentryClient = SentryCustomClient.init({
+                dsn,
+                release,
+                environment,
+                ignoreSpans: [
+                    // Ignore user-uploaded files, used for backgrounds
+                    {
+                        op: "resource.css",
+                        name: /^\/files\//,
+                    },
+                ],
+            });
+        } catch (err) {
+            console.error("Sentry initialization failed", err);
+        }
+
+        window.SentryClient.safeCaptureException = function(exc, message, obj) {
+            if (typeof obj === "undefined") {
+                var obj = {extra:{}};
+            }
+
+            if (typeof message === "undefined") {
+                message = "Error";
+            }
+
+            if (exc instanceof Error) {
+                obj.extra.traceback = exc.stack;
+                message += ": " + exc.message;
+            } else if (typeof exc === "string") {
+                message += ": " + exc;
+            }
+
+            return SentryClient.captureMessage(message, obj);
+        };
+    </script>
+
+
+
+    <!-- require modules setup // begin -->
+    <script type="text/javascript" nonce="Uk8yazh0dUdCQWVCM3FHNTM2OXVRZz09">
+        var require = {
+            waitSeconds: 0, // no timeouts, saves widget on slow connection;
+            baseUrl: 'https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/',
+            deps: ['requireSettings'],
+            paths: {
+                requireSettings: 'https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/scripts/modules/base/requireSettings'
+            }
+        };
+    </script>
+    <script nonce="Uk8yazh0dUdCQWVCM3FHNTM2OXVRZz09" src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/deps/requirejs/require.js" type="text/javascript"></script>
+    <!-- require modules setup // end -->
+
+    
+
+    
+
+    <script nonce="Uk8yazh0dUdCQWVCM3FHNTM2OXVRZz09" src="https://d8ejoa1fys2rk.cloudfront.net/static/44714DE2CEEBF3A8791B3F9D888EF9A5.cache.js" type="text/javascript"></script>
+
+    <script nonce="Uk8yazh0dUdCQWVCM3FHNTM2OXVRZz09">
+        bynder.Config.registerFeatures(["3d-previews","access-request-form","ai-duplicate-manager","ai-face-recognition","ai-similarity-search","ai-speech-to-text","ai-text-in-image-search","alternative-asset-detail-view","Appcues","archived-asset-notification","asset-permission-viewer","autotags","bynder-support-opt-in","change-history","collection-embed","collection-options","collections-hidebydefault","compact","crop","crop-canvas","custom-thumbnails","dashboard-search","dashboard-slider","DAT","detailed-delivery-metrics","disable-file-merge","disable-media-webversion","disable-pdf","disable-replyto","download-additionals","download-cdn","download-preselect","download-product-data","download-request","duplicate-view","enable-CDN","enrichment-agent","external-option-links","files-service-wf-uploaders","focus-point","gdpr-message","GenAI","hide-brands","hide-brandsnavigation","hide-bynder","hide-categories","hide-dropbox","hide-styleguidebrandsfilter","impersonate-users","improved-taxonomy-management","inspiration","legacy-oauth1","mark-as-public","media-detail-share","media-embed","meta-selectall","metadata-presets","metadata-presets-sharing","metadata-write-csv","metadata-write-xmp","metadata-write-xmp-main-namespace","metapropertyLevelAccess","mfa","multi-sso","new-asset-notification","news","news-slider","notifications-center","package-analysis","pdfviewer","PIM","public-filters","public-links","public-thumbnails","pyusermanagement","reactivate-user-check","readonly-individual-share","readonly-share","removed-asset-notification","rewriteUrls","robots-disallow","save-search-filter","search-active-assets","SearchAndOperator","show-prefix-download-btn","showOriginalFilename","sns-notification","spotlight-help-modal","spotlight-recent-searches","SSO","sso-debug","sticky-search","styleguide-subcategories","support-form","taxonomy-csv-import","terms","transfer","transfer-share-by-link","transformation-agent","unified-header-rollout","updated-asset-meta-notification","updated-asset-notification","upload-aws-accelerator","upload-for-approval","uploader-bare","user-filter","user-outofoffice","user-timezone","version-updater","videothumbnail","waiting-room-filtering","watermark-date-picker","workflow-beta","workflow-campaignoverviewhomepage","workflow-duedate-highlight","workflow-imagezoom","workflow-jobexport","workflow-reauthenticate","workflow-short-email-subjects","workspace","wr-mpo-approve-download-requests","x-robots-disallow"]);
+    </script>
+
+    <meta name="videojs" data-jsmin="true" content='<script nonce="Uk8yazh0dUdCQWVCM3FHNTM2OXVRZz09" src="https://d8ejoa1fys2rk.cloudfront.net/static/D1F13441208BC0929C48C9BFA921CDFC.cache.js" type="text/javascript"></script>'>
+
+
+    <script nonce="Uk8yazh0dUdCQWVCM3FHNTM2OXVRZz09">
+        // Used by asset-fronted-sdk
+        bynder.Uploader = {
+            chunkSize: Number(5 * 1024 * 1024),
+        }
+
+        var defaultChunkSize = Number(5242880);
+        var minChunkSize = Number(5242880);
+        var maxChunkSize = Number(1048576000);
+        var chunkSize = Number(5 * 1024 * 1024);
+
+        if (!is.numeric(chunkSize)) {
+            chunkSize = defaultChunkSize;
+        }
+        else if (chunkSize < minChunkSize) {
+            chunkSize = minChunkSize;
+        }
+        else if (chunkSize > maxChunkSize) {
+            chunkSize = maxChunkSize;
+        }
+        bynder.Config.setSetting(
+            'default_chunk_size',
+            chunkSize
+        );
+        bynder.Config.tinymceUrl = 'https://d8ejoa1fys2rk.cloudfront.net/5.0.5/includes/js/vendor/tinymce-4.3.11/tinymce.min.js';
+        
+        
+            
+            
+        
+        
+    </script>
+
+    <script nonce="Uk8yazh0dUdCQWVCM3FHNTM2OXVRZz09">
+        bynder.Bynder.use('bynder.modules.Language', function(Language) {
+            Language.addKeys(
+	
+    {"generalRemoveOnlineLink":"Remove online link","cropMultiplePath":"Multiple paths defined for this asset, cannot show minimum crop area.","generalCreateNew":"Create new %s","workflow.Job":"Job","trashSingleMediaDelete":"The chosen media was deleted","selectCollection":"Select a collection","bulkSelectCollection":"Select or add collection","generalDeselectAll":"Deselect all","workflow.No":"No","brandstoreDrafts":"Drafts","upload.whitelist.warning.short":"Cannot complete upload","modalActionDelete":"Delete","generalClose":"Close","relatedFor":"Related assets for","cropNotEnoughPixels":"Cannot create crop: The resolution of this asset is not sufficient.","generalStoreSelected":"Store selected files","uploadingNewVersion":"Uploading new version","download.progress":"download(s) being prepared","searching":"Searching...","pdfViewerWarning":"This PDF viewer is optimized for IE10+, Chrome, Firefox and Safari. With another browser or version you might see this PDF different from the original.","selectFromImagebank":"Choose image from image bank","collectionOptions.view":"View collection","generalShow":"Show","pendingRequest":"Pending request","generalDateEditFormatString":"mm/dd/yyyy","validate.NoCapsAllowed":"No special characters allowed","generalCancel":"Cancel","workflow.Name":"Name","FilesIETooBig":"Your browser is not supported for uploading files larger than 2GB. If you'd like to upload files larger than 2GB, please use a different browser, such as a recent version of Google Chrome (13+), Firefox (6+), Safari (6+) or Internet Explorer (10).","assetViewsTotal":"total views","trashSingleMediaRestore":"The chosen media was restored back to the image bank","alreadyInInspiration":"The selected image is already part of the inspiration.","cropButtonVersion":"Crop & save as version","uploadingAdditionalFiles":"Uploading additional files","requestSentDownload":"A request has been sent. Your download will begin shortly","profileGiveName":"Please enter a name for the profile","save":"Save","brandRemoving":"Removing brand...","meta.optionNameAlreadyExists":"An option with this name already exists.","cropButtonCrop":"Crop image","downloadInProgress":"download(s) being prepared","FilesSharingErrorRetrying":"An error occurred during the transfer, please check if the file is still available. We're trying the transfer again... If this takes too long please retry, or contact support.","uploadLeave":"Uploading files is canceled when leaving this page.","trashMultiMediaRestore":"The chosen media were restored back to the image bank","generalOr":"or","collection.created":"Collection created","passwordStrength":"Strength","cropCheckRight":"Check the right margin.","trashMulitMediaDelete":"The chosen medias were deleted","access.requestSentFor":"has sent an access request for","cropButtonDownload":"Crop & download","generalExpand":"expand","uploadMax":"Wow! You reached the maximum of our uploader, which can handle up to 250 files! The first 250 files of your selection will now be uploaded.","validate.OnlyAlphanumericAndUnderscoreAllowed":"Invalid character. Use only letters, numbers and underscore (_). No leading or trailing spaces allowed.","generalAdd":"Add","request.login":"You must log in to request the download of the asset(s).","cropCheckLeft":"Check the left margin.","propertyNoProperty":"Clear selection","brandstoreReorderError":"Couldn't reorder products","errorHeading":"Oops, something went wrong!","duplicateRemoved":"Duplicates were removed successfully!","downloadTask":"Close this message to continue working. You will receive a notification when your download is ready.","noresults":"There are currently no results","media.personal.edit.noaccess":"You can only edit your personal assets","deletingDependency":"Removing dependency...","movingAssets":"Moving assets..","FilesSharingNoConnection":"It looks like you lost your internet connection. We will continue your transfer as soon as the connection resumes.","waitingroomAccess":"Before your media will be published to the image bank, it will first be sent for approval. When audited you will receive a notification.","assetDownloadsTotal":"total downloads","collection.saved":"The collection has been updated.","profileCantDelete":"This profile cannot be deleted. First change the profile of the linked users.","dependencyError":"Cannot remove dependency right now","generalName":"Name","generalUser":"User","activity.sendWithDropbox":"has sent you files with External Uploader","disclaimer.loading":"Checking for disclaimer..","uploadNewWindow":"Uploading may take some time. While you're waiting you can already start Tagging, setting up Brands & Categories, and more!","generalBy":"by","cropCheckBottom":"Check the bottom margin.","metaHighlighted":"The highlighted fields are required","preparingDownload":"We are preparing your download, please wait...","captcha.incorrectToken":"The text you've entered is incorrect","FilesSharingError":"Something went wrong with the upload. Please try again, or contact support if problems persist.","profileDeleted":"Deleting profile..","clickToView":"Click to view","cropNoPathQuad":"Incorrect path defined for this asset, cannot show minimum crop area","mediaRequest":"Request media","generalTaskDownloadReady":"is ready","workflow.SelectUser":"Select a user","brandDeleted":"Brand deleted.","generalDownload":"Download","error.filesModified":"The files have been modified. A new zip file is in the making. Please refresh the screen.","generalNoResultsFor":"No results for","saving":"Saving","duplicate.noDuplicateFound":"No duplicates found","validate.NoSpacesAllowed":"Invalid character. Use only letters, numbers, dash (-) and underscore (_).","mediaLoading":"The selected media is being loaded..","generalFocusPointSaved":"Focus point saved.","disclaimer.restrictions":"The following restriction is in effect","media.detailConvertError":"Error converting media","brandstoreShowLess":"Show less","downloadTaskInProgress":"edits/downloads in progress","removingMedia":"Removing media from collection.","brandstore.reorder.InvalidInput":"Invalid input was used for reorder.","cropNoPath":"No path defined for this asset, cannot show minimum crop area.","brandstore.reorder.ProductNotFound":"Product couldn't be found for reorder.","addOption":"Add option","generalYes":"Yes","uploadComplete":"Upload completed!","generalInactive":"Inactive","noFiltersFound":"No filters were found.","generalSettings":"Settings","generalAccept":"Accept","categoryRemoving":"Removing category...","convertingFailed":"Processing failed","cropButtonNewAsset":"Crop & create new asset","collection.callbackMessage":"Your collection has been created/modified. You can view this collection right away or continue with what you were doing.","duplicateRemoving":"Removing duplicates, please wait...","cropSelectedAreaError":"Please crop only over the allowed area.","meta.confirmRemove":"Are you sure you want to remove the selected media from this option?","meta.titleRemove":"Remove media from option","generalNo":"No","ajaxFailed":"Connection failed, try again.","error.enablepopup":"Please enable pop-ups in your browser settings","presetRequired":"For some assets a specific workflow is required","activity.noTasks":"You have no tasks","dateTimeFormat":"MM/DD/YYYY HH:mm","downloadtask.progress":"edits/downloads in progress","mediaRemoved":"Media is removed from collection.","generalCheckboxMsg":"No item was checked. Please chose items to delete or restore.","continue":"Continue","goToMedia":"Go to your media","workflow.Cancel":"Cancel","downloadNotifyReady":"You'll receive an email when your requested files are ready for download.","deletingMedia":"Deleting media","generalDeleted":"Deleted","selectAll":"Select all","editTitle":"Update title","cropCheckTop":"Check the top margin.","validate.NoSpecialAllowed":"Invalid character. Use only letters, numbers, dash (-) and underscore (_).","generalHide":"Hide","generalOnlineURL":"Online link URL","validate.Invalid":"Invalid input","task.progress":"edit(s) in progress","validateAjaxCheck":"This value already exists","workflow.NeedsChanges":"Needs changes","generalSaveSelected":"Save selected files","meta.confirmSubtitle":"After saving the media will be removed from this option","requestRequested":"Requested","noBrandSelected":"Please select a brand before saving.","transferbox.error":"Something went wrong processing your file. Please contact the administrator of this portal.","workflow.Campaign":"Campaign","brandAdded":"Brand added","relatedAssets":"related assets","generalFilesAdded":"Your files have been added","sessionExpired":"Your session has expired","brandstore.reorder.InvalidProductAmount":"Invalid quantity was selected for product.","categoryDeleted":"The category has been deleted","generalFocusPointErrorSaving":"Error saving the focus point.","download.requestSent":"has sent a download request.","brandstoreReadyToOrder":"Ready to order","generalWatch":"View","filesNotFound":"The requested files could not be found :( please try again later..","Integration":"Integration","sendForApproval":"Send for approval","waitingroomOptionAccess":"In order to add media to this option you need permission. Your media will first be send for approval. When audited you will receive a notification.","DateAdded":"Date added","workflow.GroupManagement":"Group Management","generalDone":"Done","generalOkay":"OK","generalStart":"Start","collections.editShare":"Edit share","generalStepViolation":"Input a multiple of {1}","generalLoading":"Loading","generalFiles":"Files","categoryAdded":"added category","workflow.Remove":"Remove","mediaBelongs":"This asset belongs to","generalNone":"None","dependencySaveError":"Cannot save dependency right now","simpleSaveError":"you need to edit at least one field in order to be able to save","requestApproval":"Approval request: {1}","permissions.manage":"Manage permissions","generalError":"Something went wrong, please try again later.","generalAddTo":"Add to %s","workflow.Close":"Close","upload.whitelist.warning.long":"This file type does not meet security guidelines. Verify the file type.","saved":"Saved","requestSend":"A request has been sent","generalCroppingFailed":"Cropping the asset failed. Please try again later.","taskInProgress":"edit(s) in progress","uploadImage":"Upload image","loadingCollections":"Loading collections...","collection.modified":"Collection modified","meta.createDuplicateInfo":"In order to create a duplicate, please go to Metaproperties management or contact your Admin.","brandstoreReadMore":"Read more","validate.InvalidNr":"Not a valid number","generalAudit":"Audit","generalFocusPointErrorRetrieving":"Error retrieving the focus point.","mediaSavingChanges":"Saving media...","adddescription":"Add description","workflow.DeleteConfirmation":"Are you sure you want to remove {1}?","brandstore.goToJob":"Go to product","preset.presetUpdated":"Preset updated","generalGroupDeleted":"Group deleted","generalSelectAll":"Select all","showMedia":"Show for which media","editTask":"Close this message to continue working. You will receive a notification when your edit is ready."}
+);
+        });
+    </script>
+
+    <script nonce="Uk8yazh0dUdCQWVCM3FHNTM2OXVRZz09">
+        window.csrf = "90fda01738cb92ac308e5da0642520865a73922c";
+        window.getStaticURL = "https\x3a//d8ejoa1fys2rk\x2ecloudfront\x2enet/5\x2e0\x2e5";
+    </script>
+    
+
+    
+    <script nonce="Uk8yazh0dUdCQWVCM3FHNTM2OXVRZz09">
+        window.bynder = window.bynder || {};
+
+        window.bynder.user = {
+            id: 'A839E3D6-4ED1-4E59-957F1238303804D4',
+            name: '',
+        };
+
+        
+
+        
+        if (window.bynder.user.id) {
+            window.bynder.user.id =
+                window.bynder.user.id.substring(0, 23) + '-' + window.bynder.user.id.substring(23);
+            window.bynder.user.id = window.bynder.user.id.toLowerCase();
+        }
+    </script>
+
+    <script nonce="Uk8yazh0dUdCQWVCM3FHNTM2OXVRZz09">
+        window.parsley.options.excluded = "input[type=button], input[type=submit], input[type=reset], input[type=hidden], [disabled], :hidden, div.invisible *";
+    </script>
+
+    
+
+    
+
+    
+
+    
+        <script nonce="Uk8yazh0dUdCQWVCM3FHNTM2OXVRZz09" src="/includes/node_modules/historyjs/scripts/bundled/html4%2Bhtml5/jquery.history.js"></script>
+    
+
+    
+    
+        
+        
+            <script nonce="Uk8yazh0dUdCQWVCM3FHNTM2OXVRZz09" src="https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.405/scripts/templates/components.js"></script>
+        
+    
+
+    
+
+    
+    
+
+    <script nonce="Uk8yazh0dUdCQWVCM3FHNTM2OXVRZz09" src="https://d8ejoa1fys2rk.cloudfront.net/static/285840698653C45A19B9C9D280C67B2A.cache.js" type="text/javascript"></script>
+    
+        <script nonce="Uk8yazh0dUdCQWVCM3FHNTM2OXVRZz09" src="https://d8ejoa1fys2rk.cloudfront.net/static/D9B5E78B2B36B7550710F704CEBBA9BE.cache.js" type="text/javascript"></script>
+    
+
+    
+    
+        
+        
+    
+
+    
+
+    <script type="text/javascript" nonce="Uk8yazh0dUdCQWVCM3FHNTM2OXVRZz09">
+        (function($) {
+            $(function() {
+                bynder.Locale = "en\x5fUS";
+                moment.locale(bynder.Locale);
+                if (is.set($.fn.datetimepicker) && is.set($.fn.datetimepicker.defaults)) {
+                    $.fn.datetimepicker.defaults.locale = bynder.Locale;
+                }
+
+                
+                
+                
+                
+                    bynder.interceptors.DownloadInterceptor.register("download-select", ["selection","collection", "share"]);
+                
+                
+                    bynder.interceptors.DownloadInterceptor.register("download-request");
+                
+                
+                
+                
+                
+
+                if (bynder.modules.SessionKeepAlive) {
+                    new bynder.modules.SessionKeepAlive().start();
+                }
+
+                
+
+                
+                
+                    bynder.Config.setSetting(
+                        'useMetaKeyProduct',
+                        false
+                    );
+                
+                
+
+                
+            });
+        })(jQuery);
+    </script>
+
+    <script type="text/javascript" nonce="Uk8yazh0dUdCQWVCM3FHNTM2OXVRZz09">
+    function deleteCookies(names) {
+        names.forEach(name => {
+            document.cookie = name + '=; expires=Thu, 30 Jun 2024 00:00:01 GMT; path=/';
+        });
+    }
+
+    deleteCookies(['AMP_13ccbb3500', 'AMP_ca378e6cd9', 'AMP_cfcc16528b', 'AMP_TEST', 'AMP_TLDTEST']);
+</script>
+
+
+    <script nonce="Uk8yazh0dUdCQWVCM3FHNTM2OXVRZz09">
+        bynder.track = function (title, props) {};
+
+        var amplitude = window.amplitude || null;
+    </script>
+
+
+
+    
+        
+        
+    
+
+    
+        
+        
+    
+        
+
+    
+
+    
+    <script nonce="Uk8yazh0dUdCQWVCM3FHNTM2OXVRZz09">
+        (function() {
+            const cookies = document.cookie;
+            if (!cookies || !cookies.includes('_hp')) return;
+
+            const heapCookieNames = ['_hp2_id', '_hp2_ses_props', '_hp2_props', '_hp5_meta',
+                '_hp5_event_props', '_hp5_let'];
+            const expiryDate = '; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/';
+            const domains = ['; domain=.bynder.com', '; domain=' + location.hostname, ''];
+
+            cookies.split(';').forEach(function(cookie) {
+                const cookieName = cookie.trim().split('=')[0];
+                const isHeapCookie = heapCookieNames.some(function(pattern) {
+                    return cookieName === pattern || cookieName.startsWith(pattern + '.');
+                });
+
+                if (isHeapCookie) {
+                    domains.forEach(function(domain) {
+                        document.cookie = cookieName + '=' + expiryDate + domain;
+                    });
+                }
+            });
+        })();
+    </script>
+
+    
+    
+    
+
+
+
+
+
+<script type="text/javascript" nonce="Uk8yazh0dUdCQWVCM3FHNTM2OXVRZz09">Workflow.variables={"form\x2derror\x2dminlength":"This\x20field\x20must\x20be\x20at\x20least\x20\x7b1\x7d\x20characters\x20long\x2e","bynderStaticURL":"https\x3a//d8ejoa1fys2rk\x2ecloudfront\x2enet","datepicker\x2dfirst\x2dday":"0","Yes":"Yes","YesRemove":"Yes\x2c\x20remove","No":"No","Save":"Save","Close":"Close","Ok":"OK","Continue":"Continue","Done":"Done","Confirmation":"Are\x20you\x20sure\x3f","NoThanks":"No\x2c\x20thanks","Cancel":"Cancel","Add":"Add","All":"All","language":"EN","TimeDescription":"\x7b1\x7d\x20\x7b2\x7d","Day":"Day","Days":"Days","Week":"Week","Weeks":"Weeks","Month":"Month","Months":"Months","Year":"Year","Years":"Years","DateMonthsLong":"January\x2cFebruary\x2cMarch\x2cApril\x2cMay\x2cJune\x2cJuly\x2cAugust\x2cSeptember\x2cOctober\x2cNovember\x2cDecember","DateFormatShort":"yyyy\x2dmm\x2ddd","ChooseResponsible":"Choose\x20a\x20responsible","WriteComment":"Write\x20a\x20comment\x2e\x2e\x2e","UserMadeAnAnnotation":"\x7b1\x7d\x20made\x20an\x20annotation","Edit":"Edit","currentModule":"workflow","moduleURLPrefix":"/workflow","moduleRootURLPrefix":"/modules/workflow","StageTypeOrder":"Order","NotAllTasksCompletedTitle":"Not\x20all\x20tasks\x20have\x20been\x20completed","NotAllTasksCompleted":"Not\x20all\x20tasks\x20in\x20this\x20stage\x20have\x20been\x20completed\x2c\x20are\x20you\x20sure\x20you\x20want\x20to\x20continue\x3f\x0aThe\x20following\x20tasks\x20have\x20not\x20been\x20completed\x3a","AreYouSureFinishJobTitle":"Are\x20you\x20sure\x3f","AreYouSureFinishJobText":"Are\x20you\x20sure\x20you\x20want\x20to\x20finish\x20this\x20job\x3f","ApprovalCode":"Approval\x20code","ClearDate":"Clear\x20date","NoDeadline":"No\x20deadline","ChooseAndFillTemplate":"Choose\x20\x26amp\x3b\x20fill\x20a\x20template","SelectATemplate":"Select\x20a\x20template","SelectTemplates":"Select\x20templates","SelectPresets":"Select\x20presets","FinishJobAndExport":"Finish\x20job\x20\x26\x20submit\x20to\x20Asset\x20bank","FinishJob":"Finish\x20job","OtherJobs":"Other\x20jobs","OtherJobsSingle":"Other\x20job","JobsThatNeedMyAttention":"Jobs\x20that\x20need\x20my\x20attention","JobsThatNeedMyAttentionSingle":"Job\x20that\x20needs\x20my\x20attention","ClosedJobs":"Closed\x20jobs","ClosedJobsSingle":"Closed\x20job","SelectUser":"Select\x20a\x20user","SelectUserOrGroup":"Select\x20a\x20user\x20or\x20group","UsersFoundNone":"No\x20users\x20found\x2e","Searching":"Searching\x2e\x2e\x2e","ErrorMinLength":"This\x20field\x20must\x20be\x20at\x20least\x20\x7b1\x7d\x20characters\x20long\x2e","UsersOrGroupsFoundNone":"No\x20users\x20or\x20groups\x20found\x2e","GroupsFoundNone":"No\x20groups\x20found\x2e","groupIsResponsible":"Group\x20\x7b1\x7d\x20is\x20responsible","userIsResponsible":"\x7b1\x7d\x20is\x20responsible","UploadFlashRequiredWarning":"Flash\x20is\x20required\x20to\x20upload\x20files\x2e","ClickToDownloadInstallFlash":"Click\x20here\x20to\x20download\x20and\x20install\x20Flash\x2e","FileUploadError":"An\x20error\x20occured\x20while\x20uploading\x20the\x20file\x2e\x20Please\x20try\x20again\x2e","FileUploadSpecialCharacterError":"Special\x20characters\x20are\x20not\x20yet\x20supported\x20in\x20filenames\x2e\x20Please\x20change\x20the\x20filename\x20and\x20try\x20again\x2e","FileUploadSpecialCharacterErrorShort":"Special\x20characters\x20not\x20yet\x20supported\x20in\x20filename\x2e","DragDropClickToAddAsset":"Drag\x20\x26amp\x3b\x20drop\x20or\x20click\x20to\x20add\x20an\x20asset","CountAssetsSelected":"\x7b1\x7d\x20assets\x20selected","CountOfCountAssetsAdded":"\x7b1\x7d\x20of\x20\x7b2\x7d\x20assets\x20added","CountAssetsAdded":"\x7b1\x7d\x20assets\x20added","CancelJob":"Cancel\x20job","RemoveJobAfterCancellation":"Remove\x20job\x20after\x20cancelation","ShowAll":"Show\x20all","FormErrorMaxLinesField":"You\x27ve\x20reached\x20the\x20maximum\x20amount\x20of\x20lines\x20for\x20this\x20field\x2e","FormErrorMaxLinesBlock":"You\x27ve\x20reached\x20the\x20maximum\x20amount\x20of\x20lines\x20for\x20this\x20block\x2e\x20Please\x20remove\x20lines\x20from\x20one\x20of\x20the\x20fields\x2e","JobsExportStartedPleaseWait":"The\x20jobs\x20export\x20has\x20been\x20started\x2c\x20please\x20wait\x20a\x20moment\x20for\x20the\x20download\x20to\x20start\x2e","PleaseWaitZoomCreatedMessage":"Please\x20wait\x20a\x20moment\x20while\x20a\x20more\x20detailed\x20zoom\x20is\x20created\x2e","NoZoomAvailableMessage":"No\x20detailed\x20zoom\x20available\x2e","ZoomDisabledMessage":"Detailed\x20zoom\x20disabled\x2e","AssetsExportStartedPleaseWait":"The\x20assets\x20export\x20has\x20been\x20started\x2c\x20please\x20wait\x20a\x20moment\x20for\x20the\x20download\x20to\x20start\x2e","MessagePlaceholder":"Enter\x20your\x20message\x20here\x20and\x20tag\x20users\x2c\x20assets\x20or\x20tasks\x20by\x20typing\x20the\x20\x40\x2e","AccessDenied":"Access\x20denied","rootURL":"/workflow/","CopyFailed":"Copying\x20files\x20from\x20Asset\x20bank\x20failed\x2c\x20please\x20try\x20again\x20later\x2e","GeneralNoResults":"No\x20results","CircleDiagramColors":"\x7b\x22empty\x22\x3a\x22\x23ffffff\x22\x2c\x22default\x22\x3a\x22\x23999999\x22\x2c\x22complete\x22\x3a\x22\x232ecc71\x22\x2c\x22progress\x22\x3a\x22\x231ca0df\x22\x2c\x22change\x22\x3a\x22\x23f59d00\x22\x7d","MessageMetapropertiesSaved":"The\x20metaproperties\x20have\x20been\x20saved\x2e","SelectAMetaproperty":"Select\x20a\x20metaproperty","errorHeading":"Oops\x2c\x20something\x20went\x20wrong\x21","TemplateModeDialogTitle":"Choose\x20template\x20mode","TemplateModeDialogContent":"Do\x20you\x20want\x20to\x20use\x20this\x20as\x20regular\x20template\x2c\x20or\x20as\x20a\x20batch\x20template\x3f","Regular":"Regular","Batch":"Batch","RemoveAnnotation":"Remove\x20annotation","DeleteConfirmation":"Are\x20you\x20sure\x20you\x20want\x20to\x20remove\x20\x7b1\x7d\x3f","ThisAnnotation":"This\x20annotation"};</script>
+
+
+</link rel="stylesheet" type="text/css" href="//fast.appcues.com/appcues.min.css">
+    <body class="
+                "
+            data-module=""
+            
+            >
+        
+            <script type="text/javascript" nonce="Uk8yazh0dUdCQWVCM3FHNTM2OXVRZz09">
+                (function($) {
+                    // Set iframe fix
+                    if( window.self !== window.top ){
+				        $("body").addClass("iframe");
+			        }
+                })(jQuery);
+            </script>
+        
+
+        
+            
+                
+	
+
+<script nonce="Uk8yazh0dUdCQWVCM3FHNTM2OXVRZz09">
+    bynder.Bynder.use("bynder.modules.Language", function(Language) {
+        Language.addKeys({"workflow.MetapropertyManagement":"Metaproperty Management","admin.homepage":"Homepage","generalBack":"Back","spotlightHelp.operators.or.example":"E.g. ocean {or} mountains","user-outofoffice.EndDate":"End date","upload.versionUpdater":"Mass Version Updater","admin.advancedSettings":"Advanced settings","workflow.Job":"Job","spotlightHelp.operators.combinations.content":"All the search operators mentioned above can also be used together.","workflow.ManageGroups":"Manage groups","activity.noTasks":"You have no tasks","spotlightHelp.shortcuts.nav":"Keyboard Shortcuts","downloadtask.progress":"edits/downloads in progress","workflow.No":"No","tags.allTagsFor":"All tags for","admin.userManagement":"User Management","workflow.Cancel":"Cancel","user.requests":"User Access Requests","spotlightHelp.operators.title":"Search Operators","spotlight.textInImage":"Text-in-Image","user-outofoffice.StartDate":"Start date","spotlightHelp.title":"Search Help","spotlightHelp.operators.combinations.example":"E.g. bicycle {andnot} city","collections.allFor":"All collections for","user-outofoffice.BackupUnavailable":"This person is unavailable in the selected time range. Please adjust your dates or select someone else.","download.progress":"download(s) being prepared","generalResultsFor":"Results for","spotlightHelp.shortcuts.title":"Keyboard shortcuts","user-outofoffice.SetOutOfOfficeClear":"Clear out of office","spotlight.text":"Text","admin.trash":"Trash","workflow.NoGroup":"No groups found","generalChangeHistory":"Change history","generalErrorSavingChanges":"Error saving changes","generalLogin":"Login","workflow.CreateNew":"Create new","task.progress":"edit(s) in progress","admin.groupManagement":"Group Management","admin.metapropertiesmanagement":"Metaproperties management","admin.reporting":"Reporting","workflow.YesRemove":"Yes, remove","quarantine.quarantine":"Quarantine","admin.workflow":"Workflow","generalCancel":"Cancel","workflow.RoleManagement":"Role Management","workflow.Name":"Name","save":"Save","spotlight.showMetaPropertyResults":"All {1} results for {2}","admin.portalSettings":"Portal settings","workflow.Campaign":"Campaign","generalTags":"Tags","workflow.StartAddGroup":"Start adding your first group","workflow.EditGroup":"Edit group","generalAnotherSearch":"Why not try another search?","adminExtra.newsManagement":"News Management","spotlight.transcript":"Transcript","news.addNews":"Add news","access.requestSentFor":"has sent an access request for","workflow.FTEManagement":"FTE Management","admin.accountManagement":"Account Management","LoginLostPassword":"Lost password?","spotlightHelp.operators.or.title":"OR operator","brandstore.MyCart":"My cart","spotlightHelp.shortcuts.down.key":"Arrow Down","workflow.TaskAdd":"Add task","download.requestSent":"has sent a download request.","generalWatch":"View","user-outofoffice.SetYourselfAsOutOfOffice":"Set yourself as out of office","noresults":"There are currently no results","user.editProfile":"Edit profile","admin.permissionManagement":"Permission Management","user-outofoffice.UserHasOverlapingOOO":"You are already set as out of office in this time range","workflow.GroupManagement":"Group Management","workflow.TemplateManagement":"Template Management","workflow.CampaignManagement":"Campaign Management","GeneralCopyright":"Copyright","waitingroom.waitingroom":"Waiting room","spotlightHelp.operators.combinations.title":"Combinations","user-outofoffice.Description.KeepReceivingNotifications":"Stay in the loop while you're unavailable","transfer.history":"Transfer history","spotlightHelp.shortcuts.up.key":"Arrow Up","admin.usersRights":"Users & rights","admin.taxonomy":"Taxonomy","generalCategories":"Categories","activity.sendWithDropbox":"has sent you files with External Uploader","generalMore":"More","spotlightHelp.operators.and.title":"AND operator","generalLanguage":"Language","workflow.StageAdd":"Add stage","workflow.AddPreset":"Add preset","user-outofoffice.KeepReceivingNotifications":"Keep receiving notifications","request.requestAccess":"Register a new account","workflow.Remove":"Remove","cart.youHaveNoItems":"You have no products in your cart","admin.cockpit":"Cockpit","user-outofoffice.SetOutOfOfficeSuccess":"Your out of office has been set successfully","workflow.Save":"Save","admin.editCurrentAccount":"Edit current account","workflow.AddGroup":"Add group","spotlightHelp.shortcuts.close.key":"ESC","brandstore.orderHistory":"Order history","upload.bareUploader":"Mass Uploader","duplicate.find":"Find duplicates","generalUploadMedia":"Upload media","workflow.campaigns.allFor":"All campaigns for","user-outofoffice.SearchForAUser":"Search for a user","spotlightHelp.recentSearches":"Recent Searches","styleguide.pagesAllFor":"Styleguide pages for {1}","spotlightHelp.shortcuts.close.title":"Close search","generalTaskDownloadReady":"is ready","spotlightHelp.operators.nav":"Search Operators","admin.brandTemplates":"Brand templates","workflow.Close":"Close","user-outofoffice.BackupUser":"Set as backup user","spotlightHelp.operators.or.content":"Use OR between your search terms to find results that match any of your terms.","workflow.PresetManagement":"Preset Management","confirm.RemoveGroup":"Remove group","admin.insights":"Insights","user-outofoffice.MainAlreadyBackup":"You are set as backup for another user in the selected time range. Please adjust your dates.","generalDownload":"Download","generalNoResultsFor":"No results for","cart.total":"Cart total","generalPassword":"Password","generalQuickLinks":"Quick links","generalEmailUsername":"Email/Username","brands.makeNew":"Create new brand","spotlight.searchSomething":"Want to search for something?","spotlightHelp.operators.quotes.content":"Wrap your search in “” to find results that are an exact match.","spotlightHelp.shortcuts.view.title":"View results","spotlightHelp.operators.not.title":"NOT operator","convertGuidelines":"Convert Guidelines to PDF","admin.lookAndFeel":"Look & feel","workflow.Users":"Users","admin.analytics":"Analytics","generalLogout":"Logout","workflow.jobs":"Jobs","generalClear":"Clear","activity.yourTasks":"Your tasks","workflow.AddAsset":"Add asset","admin.smartfilterManagement":"Smartfilter Management","spotlightHelp.shortcuts.down.title":"Navigate to next result","admin.bynderSuperadmin":"Bynder superadmin","includeVat":"Inc. VAT","generalBrands":"Brands","spotlightHelp.shortcuts.up.title":"Navigate to previous result","spotlightHelp.operators.not.example":"E.g. {not} forest","spotlightHelp.operators.and.example":"E.g. boston {and} hotel","spotlightHelp.operators.quotes.title":"Double quotes","generalAudit":"Audit","user-outofoffice.IsOutOfOfficeUntil":"Out of office until {1}","user-outofoffice.SetOutOfOfficeClearError":"We weren’t able to clear your out of office, please try again later.","generalSettings":"Settings","user-outofoffice.SetOutOfOfficeClearSuccess":"Your out of office has been cleared successfully","spotlightHelp.operators.quotes.example":"E.g. “ocean view”","cart.goToMy":"Go to my cart","workflow.VariableManagement":"Variable Management","spotlightHelp.operators.and.content":"Use AND between your search terms to find results that match all your terms.","spotlightHelp.shortcuts.view.key":"ENTER","brandstore.goTo":"Go to brandstore","spotlightHelp.operators.not.content":"Use NOT before a search term to exclude results that match that term."});
+    });
+</script>
+
+
+
+	
+	<script type="text/javascript" nonce="Uk8yazh0dUdCQWVCM3FHNTM2OXVRZz09">
+		$(document).ready(function() {
+			var $el = $('.popup-notification');
+			$el.each(function() {
+				var $self = $(this);
+				$self.find('.close').on('click', function(e) {
+					e.preventDefault();
+					$self.removeClass('show');
+					if ($self.find('input[name="dont-show-again"]').prop('checked')) {
+						var date = new Date();
+						// Expire after 1 week
+						date.setDate(date.getDate() + 7);
+						document.cookie = $self.data('name') +'=1;expires=' + date.toGMTString() + ';path=/';
+					}
+					// Remove the notification after 300ms (because of the animation)
+					setTimeout(function() {
+						$self.remove();
+					}, 300);
+				});
+				setTimeout(function() {
+					$self.not('[data-name=bynder-insiders]').addClass('show');
+				}, 500);
+			});
+		});
+	</script>
+
+	
+        
+
+	
+		
+	
+		
+	
+		
+			
+			
+				
+	
+
+
+
+
+	
+    
+
+
+
+	<div id="rootMessageBox" class="update info"></div>
+
+	<header class="base">
+		<div id="rootImpersonationBanner"></div>
+
+		<div class="admin-bar clearfix" id="rootHeaderTopBar"></div>
+		<section class="nav-bar clearfix" id="rootHeaderNavigation"></section>
+		
+
+
+
+
+
+
+
+
+  
+    <div class="tool-bar clearfix" style="">
+      
+
+      
+        
+          
+
+    
+        
+      
+    </div>
+  
+
+
+	</header>
+
+	<div id="rootHeader" data-backend="coldfusion"></div>
+
+    <script nonce="Uk8yazh0dUdCQWVCM3FHNTM2OXVRZz09" src="/v7/header/js/app.bundle.js" defer></script>
+
+
+            
+        
+
+        
+	<div id="confirm-modal" class="alert hidden transition fadeFromTopStart">
+		<p class="title"><b>Are you sure you want to delete “icon-cross.png”?</b></p>
+		<p class="sub-title">This item will be deleted immediately. You can’t undo this action.</p>
+		<a href="#" class="close"><i class="fa fa-times"></i></a>
+		<a href="#" class="action-btn action-cancel">Cancel</a>
+		<a href="#" class="action-btn action-ok blue hidden">Ok, I'll just <b>wait here</b></a>
+		<a href="#" class="action-btn action-confirm red" data-testid="action-confirm-button"><span class="action">Delete</span> <span class="type">Files</span></a>
+	</div>
+
+
+        <div id="alert-modal" class="alert hidden transition fadeFromTopStart">
+            <i class="fa fa-exclamation-triangle left"></i>
+            <p class="title"><b></b></p>
+            <a href="#" class="close"><i class="fa fa-times-circle"></i></a>
+            <a href="#" class="action-btn action-confirm"><span class="action">OK</span></a>
+        </div>
+        
+            <div id="rootDownloadFormModal"></div>
+            
+        
+        
+                <div id="rootDownloadDisclaimerModal"></div>
+            
+            <div id="bynder-modal-container"></div>
+            <div id="briefingroom-modal-container" style="display:none;"></div>
+            <div id="dialog" title="Dialog" style="display:none;">
+                <div id="dialogcontent"></div><div id='dialogbuttons' class='clearfix'></div>
+            </div>
+        
+        
+            <div id="drop-container">
+                <div class="drop-window">
+                    <i class="fa fa-lg fa-4x fa-cloud-upload"></i><h2>Drop your files to start uploading.</h2>
+                </div>
+                <a id="dropzone" class="no-pointer-events"></a>
+            </div>
+        
+        
+            
+<div class="content-container">
+
+	<div class="no-results 404">
+		<h1 class="big">404</h1>
+		<h1>404 page not found</h1>
+		<p>Unfortunately, the page you are looking for is unavailable. You can go back to your assets overview and start over.</p>
+		<a href="/" class="action-btn">Go back</a>
+	</div>
+
+</div>
+
+            
+        
+        
+
+
+
+	<div id="rootFloatingActionButton"></div> 
+
+
+<footer class="fixed">
+	
+	<div class="active-downloads" >
+		<span class="download-count"></span> <span class="progress-description"></span>
+		<span>
+			<span class="dot">.</span>
+			<span class="dot">.</span>
+			<span class="dot">.</span>
+		</span>
+	</div>
+
+	
+	<a class="scrollup" href="#top">Back to top</a>
+
+	
+	<ul class="footer-btns clearfix">
+		
+        
+        
+		
+		
+			<li>
+				<div id="terms"></div>
+			</li>
+		
+		
+		
+			<li>
+				
+    <div id="request-box">
+        <div class="acceptOverlay request-overlay">
+            <div class="request-content">
+                <header class="clearfix">
+                    <i class="icon-download"></i>
+                    <h1>Download reason</h1>
+                    <p>Please specify the reason for this download</p>
+                </header>
+                <div class="content">
+                    <form>
+                        <textarea 
+                            data-parsley-required-message="This&#32;field&#32;is&#32;required." 
+                            data-parsley-required="true"></textarea>
+                    </form>
+                </div>
+                <button class="action-btn cancel">
+                    Cancel
+                </button>
+                <button class="action-btn blue send">
+                    Send
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+			</li>
+		
+		
+		
+
+		
+		
+
+		
+	</ul>
+</footer>
+
+
+
+            
+
+    
+
+    
+
+
+
+        
+
+        
+
+        
+    <div id="rootPrivacyPolicyModal"></div>
+    <div
+        id="bynderParamountRoot"
+        style="display: none;"
+    ></div>
+    <script type="text/javascript" nonce="Uk8yazh0dUdCQWVCM3FHNTM2OXVRZz09">
+        (function () {
+            const baseUrl = 'https://static.bynder.cloud/ui/common/paramount/';
+
+            function appendScript(url) {
+                const script = document.createElement('script');
+
+                script.type = 'module';
+                script.src = url;
+                script.id = 'paramount-microfrontend-script';
+
+                document.body.appendChild(script);
+            };
+
+            function getAppBundle(url, callback) {
+                fetch(url + 'manifest.json')
+                    .then((response) => {
+                        if (!response.ok) {
+                            throw new Error('Failed to load manifest: ' + response.status);
+                        }
+                        return response.json();
+                    })
+                    .then((templateData) => {
+                        const value = templateData['app.js'];
+                        appendScript(url + value);
+                    })
+                    .catch((e) => {
+                        callback(e);
+                    });
+            }
+
+            
+                if (window.__paramountManifestPromise && window.__paramountBaseUrl === baseUrl) {
+                    window.__paramountManifestPromise
+                        .then(function(data) {
+                            if (data && data['app.js']) {
+                                appendScript(baseUrl + data['app.js']);
+                            } else {
+                                throw new Error('Invalid manifest data');
+                            }
+                        })
+                        .catch(function() {
+                            getAppBundle(baseUrl, function(e) {
+                                console.error(e);
+                            });
+                        });
+                } else {
+                    getAppBundle(baseUrl, function(e) {
+                        console.error(e);
+                    });
+                }
+            
+        })();
+    </script>
+
+    
+
+
+
+    </body>
+    

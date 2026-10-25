@@ -1,0 +1,21 @@
+{
+  "baseline_files": 88,
+  "broken_local_links": [],
+  "changed_paths": [
+    ".gitignore",
+    "README.md",
+    "文档/01_项目方案/前三项研究的数据标准与清洗脚本设计.md",
+    "文档/01_项目方案/研究日志与决策记录.md",
+    "研究/02_赛事类型差异/README.md"
+  ],
+  "checked_local_document_links": 68,
+  "expected_prior_gitignore_change": "R20261024-12 test temporary directory ignore",
+  "preview_verification": {
+    "passed": true,
+    "plan_id": "identity-plan-84efb287b6532c0377be",
+    "ready_for_publication": false,
+    "verified_outputs": 7
+  },
+  "protected_files_unchanged": true,
+  "protected_non_document_files": 63
+}

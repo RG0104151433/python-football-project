@@ -1,0 +1,104 @@
+{
+ "schema_version": "membership-batch-validation-v1",
+ "batch": "20261024-batch04",
+ "run_at": "2026-10-25T08:26:12+08:00",
+ "note": "补交的正式验证报告：batch04原始交付时仅以内联脚本检查，未落盘报告；本报告由validate逻辑实跑生成，并登记当时未发现的AGB4-E004指纹转写错误及本次修正。",
+ "fingerprint_correction": {
+  "evidence_id": "AGB4-E004",
+  "error": "登记哈希第18位处误多插入字符\"d8\"（交付时手写转写错误，交付前内联检查因逐字符打印截断16位未发现）",
+  "registered_before": "535627c04e91edabdbd8ee1a89ec2afb54164675ce54a5050ebb3725f5f8e05",
+  "registered_after": "535627c04e91edabdb8d8ee1a89ec2afb54164675ce54a5050ebb3725f5f8e05",
+  "actual_file_sha256": "535627c04e91edabdb8d8ee1a89ec2afb54164675ce54a5050ebb3725f5f8e05",
+  "fixed_in_this_report": true
+ },
+ "stats": {
+  "assessment_rows": 4,
+  "proposals": {
+   "member": 2,
+   "non_member": 0,
+   "unresolved": 2,
+   "conflict": 0
+  },
+  "resolution_rollup": {
+   "resolved": 0,
+   "partial": 31,
+   "conflict": 0,
+   "not_found": 1,
+   "not_reviewed": 116
+  },
+  "work_rollup": {
+   "not_reviewed": 116,
+   "reviewed_no_new_evidence": 29,
+   "revised": 1,
+   "new_evidence": 2
+  }
+ },
+ "inputs_fingerprints": {
+  "evidence_tasks.csv": "9b420d025bb3c527e6d8645a679f900401905396a6a1b204c4c26b7eafff9443",
+  "match_identity.csv": "f8bad1d6e48aa3e128120f4ae92cc5cf9b9897cc88d4416a1253251dc8e42ff9",
+  "FIFA_Financial_Report_2018.pdf": "751f68183be6a70f4eb461bedd1956a9be9dc1d212b1763faa12bdd22575a032"
+ },
+ "checks": [
+  {
+   "name": "rows",
+   "passed": true,
+   "detail": "(4, 4, 4, 5, 5)"
+  },
+  {
+   "name": "id_unique",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "claims_ref_evidence",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "assess_ref",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "assess_match_membership",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "coverage_148",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "coverage_counts",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "sha_AGB4-E001",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "sha_AGB4-E002",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "sha_AGB4-E004",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "batch01_02_unchanged",
+   "passed": true,
+   "detail": "[]"
+  }
+ ],
+ "failures": [],
+ "not_run": [
+  "内容/史实语义审查（人工或内容审查，不在程序范围）",
+  "生产构建/发布/第一问重算/pytest",
+  "FIFA原件获取（网络受限，见search_log）"
+ ]
+}

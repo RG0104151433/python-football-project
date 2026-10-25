@@ -1,0 +1,18 @@
+{
+  "clean_labels": 335,
+  "clean_matches": 48102,
+  "historical_clue_rows": 2523,
+  "raw_labels": 337,
+  "raw_matches": 49945,
+  "registry_labels": 337,
+  "review_priorities": {
+    "1_study_with_clues": 13,
+    "2_study_unreviewed": 295,
+    "3_outside_study": 29
+  },
+  "study_labels": 308,
+  "study_literal_venue_flags": 1,
+  "study_matches": 26055,
+  "study_matches_with_historical_clues": 767,
+  "upstream_rules": 36
+}

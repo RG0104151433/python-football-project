@@ -1,0 +1,616 @@
+{
+  "schema_version": "identity-baseline-v1",
+  "baseline_id": "baseline-20261024T081427984102Z-9845b62e",
+  "captured_at_utc": "2026-10-24T08:14:27.984102+00:00",
+  "executor": "Codex (AI)",
+  "status": "registered_provisional_baseline",
+  "data_version": "prep-3fab808178cf8ad71d88",
+  "analysis_id": "eras-7f332ed60ac443228960",
+  "analysis_run_manifest": "outputs/logs/eras/eras-20261024T013933600718Z-425e4920/run_manifest.json",
+  "dataset_manifest": "data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json",
+  "archive": {
+    "path": "outputs/logs/team_identity/baseline-20261024T081427984102Z-9845b62e/baseline_files.zip",
+    "sha256": "3dbe73cda2aa4d665a61dd371768fbe2e1d126d7faf9c9723ecf975540245608",
+    "bytes": 10568884,
+    "members": 88
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 327,
+      "sha256": "1c4ee836ea1b9ca88cb4a3bedb32dca01132793ff420e035e56f40440f65a87f",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 468,
+      "sha256": "1cfbce78b58672b802cb060e4d8a4d9dc9493df6fe6e753e11468ad8cfc9ba65",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 2264,
+      "sha256": "f1c30b32086d3e3767c3dbf14747f3092553856967a36a89d4f608479f2f54a4",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "README.md",
+      "bytes": 17450,
+      "sha256": "9f742aed12bda9c529dfa33f157aea8f80f154df9558770a05e7155ddd5dc436",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "check_env.py",
+      "bytes": 4949,
+      "sha256": "9b5262d58287483d3bf6a9d2521167838696662f4c27ee3e38bdb380193c1465",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "config.json",
+      "bytes": 539,
+      "sha256": "e12cb80ac22ded100337808457148a3cdfc6fcfe23290c271c4954f4a99f2d6a",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "config/eras.json",
+      "bytes": 1179,
+      "sha256": "9ccc4147192fa9361d14adb72d316b8ffc3168a29a24f21e74103216694b7662",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "data/external/team_registry.csv",
+      "bytes": 17815,
+      "sha256": "503b42971431d27905f5a1b9680b9a5bad6144de06fb01514233bf7ddd7c21ec",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "data/external/tournament_groups.csv",
+      "bytes": 32686,
+      "sha256": "8bf6e03ee4899a22a232ab82bfe7df3bb75d21af7324b4ef3dc1cc89fe016ced",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "data/processed/prep-3fab808178cf8ad71d88/data_dictionary.md",
+      "bytes": 3222,
+      "sha256": "7c00355e7333a25b4d18b59436d6660b205caaf74635ffb31faae160b8b5b6a2",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json",
+      "bytes": 8156,
+      "sha256": "1462f59a2ba391c81bbc5ea57470d17b08a32a459dda0ececac94724cd345657",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv",
+      "bytes": 28438320,
+      "sha256": "69ba00073970fe011a62f5871c08ace6285d7fe75d5a0d79afdac0ef972de9dc",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "data/raw/international_results/LICENSE",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "data/raw/international_results/README.md",
+      "bytes": 3834,
+      "sha256": "0d50b5f6fe2b658eba52a4477e4e48af6ca61e89e2c5265b153e3c12d7305b76",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "data/raw/international_results/former_names.csv",
+      "bytes": 1691,
+      "sha256": "2d57f59a3ac13b24c2fcf208ced5a38710529d122da38929838d0980b002677e",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "data/raw/international_results/goalscorers.csv",
+      "bytes": 3442482,
+      "sha256": "e02b25cfcad3fca9af79a5cf075c33a6875416d6d80e5ab42514535cb0d639fe",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "data/raw/international_results/results.csv",
+      "bytes": 3764617,
+      "sha256": "5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "data/raw/international_results/shootouts.csv",
+      "bytes": 29789,
+      "sha256": "072b445adf5183fbe981087857e5b64c8f17abfdbf257b1822ceacb4a37919fa",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "data/raw/manifest.json",
+      "bytes": 2513,
+      "sha256": "cdf515adfc61471f73acfce534e94b27639702e76a05c16c5dff88215732288f",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "outputs/figures/eras/eras-7f332ed60ac443228960/era_results.png",
+      "bytes": 206486,
+      "sha256": "3dc5f6116eab93a1b659d78c86d6b98b2b55645fa42b4100ccb7fa0f92be6edd",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "outputs/figures/eras/eras-7f332ed60ac443228960/era_results.svg",
+      "bytes": 63435,
+      "sha256": "49a7207b8bd6190b032174cd92237006fe309e76acd96fae0df30615a47a4b95",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "outputs/figures/eras/eras-7f332ed60ac443228960/tournament_composition.png",
+      "bytes": 94601,
+      "sha256": "a0dda4d088a0f2dc089be6b3ea646f86780e9a9738392da7d436d8fccbbd6b70",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "outputs/figures/eras/eras-7f332ed60ac443228960/tournament_composition.svg",
+      "bytes": 44267,
+      "sha256": "9d972b6aab9359986f57f0ce1a6be3a1775ff82386a615c1498a0d332bcd7234",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "outputs/figures/eras/eras-7f332ed60ac443228960/weight_sensitivity.png",
+      "bytes": 163109,
+      "sha256": "af3a20170ee50f4c6b3903bde3812b3548c8c3028e9e2f5518fd668e2286b7f7",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "outputs/figures/eras/eras-7f332ed60ac443228960/weight_sensitivity.svg",
+      "bytes": 54081,
+      "sha256": "43f559986f916d2c24f951fa003d18147b62abf4e8b8f0bac11b81c6f86a29ad",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "outputs/logs/data_prep/clean-20261021T143700805474Z-127f4584/row_lineage.csv",
+      "bytes": 17307141,
+      "sha256": "5690783940e58c2c1f7fc40a1bbce8e446154e8b1c1454c9ee570e544c429157",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "outputs/logs/eras/eras-20261024T013933600718Z-425e4920/analysis_config.json",
+      "bytes": 1409,
+      "sha256": "76def16ee6eb7138b5f10569f79b444bb0d6d859f604d3f2459e0156ce286bf1",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "outputs/logs/eras/eras-20261024T013933600718Z-425e4920/checks.json",
+      "bytes": 441,
+      "sha256": "4696e85866bf244edad1564653eb14badc744356e1134841a104e48cdd6ec018",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "outputs/logs/eras/eras-20261024T013933600718Z-425e4920/input_validation.json",
+      "bytes": 391,
+      "sha256": "b9097b7144a5501c68072495f973bac9c54636095925e2b881f230da5594e82b",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "outputs/logs/eras/eras-20261024T013933600718Z-425e4920/issues.csv",
+      "bytes": 646,
+      "sha256": "da648df2ce10de5b9acc39974fbb55adb7fba9498eaa876b0237d40f27b03590",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "outputs/logs/eras/eras-20261024T013933600718Z-425e4920/run_manifest.json",
+      "bytes": 10736,
+      "sha256": "5f814d7ec1222626e75378e8b8738cda90be262803e3e586412765ceb6dbe07e",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "outputs/logs/eras/eras-20261024T013933600718Z-425e4920/summary.md",
+      "bytes": 1358,
+      "sha256": "4c71a5aeba885e80ce3f0c3d5423e25bf92b5af4ca16d03a090ea4e697b5dc49",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "outputs/logs/eras/final-review-20261024/output_audit.json",
+      "bytes": 12304,
+      "sha256": "4eeede62628e2eeba23c5e5d3423c434d30719b0c1e3ff8df289f8c50ff936b3",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "outputs/logs/team_identity/planning-20261024/identity_inventory.json",
+      "bytes": 532669,
+      "sha256": "a757ea57ba379a9c3711b09b2bd0a253ed974e03c10d552bc58720bf50b49717",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "outputs/logs/tournament_planning/planning-review-20261024/input_scope_audit.json",
+      "bytes": 10369,
+      "sha256": "6745c56473a3deef5bb3dca1212a240fb7cae84390fba9f2063fcc386dd880e3",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "outputs/presentation/eras/eras-7f332ed60ac443228960/presentation_data.json",
+      "bytes": 94194,
+      "sha256": "096784d1a4b30622fa498a9244a76e3900a34a328695c885122d632f848b4ca1",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "outputs/tables/eras/eras-7f332ed60ac443228960/analysis_membership.csv",
+      "bytes": 10904002,
+      "sha256": "334d048cc6a7213f6ee97de939e451c6937232be446859ce50a637e0d0afbf72",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "outputs/tables/eras/eras-7f332ed60ac443228960/data_dictionary.md",
+      "bytes": 16054,
+      "sha256": "d1a08343e7cab61699a31f704d7db8761555e9c8d9e8a9dcf48da0fe590af366",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "outputs/tables/eras/eras-7f332ed60ac443228960/era_contrasts.csv",
+      "bytes": 2190,
+      "sha256": "caa8b9bcb94a233f4a7586a06b0d3268242fa8a30a7928099ba5721ab2260ede",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "outputs/tables/eras/eras-7f332ed60ac443228960/era_estimates.csv",
+      "bytes": 3730,
+      "sha256": "7c503259cad8085f30b7feef0d44be2b380c2a95023c3c0a531c569c315af4c2",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "outputs/tables/eras/eras-7f332ed60ac443228960/era_summary.csv",
+      "bytes": 1649,
+      "sha256": "c876a4800c86a3db57c72331665c2460d93a8932f0faf5ceaf8a611fb8e8632c",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "outputs/tables/eras/eras-7f332ed60ac443228960/era_tournament_summary.csv",
+      "bytes": 1341,
+      "sha256": "ac654bbc8209edb953483d933cb5ef4cb8377598f64511ad61d8df770263fb8f",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "outputs/tables/eras/eras-7f332ed60ac443228960/reference_weights.csv",
+      "bytes": 1622,
+      "sha256": "0af4c4a6f6827790c6913e7cfc1a5d6ef8680cf1f0d28f7215744d5fd21912a3",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "outputs/tables/eras/eras-7f332ed60ac443228960/sample_flow.csv",
+      "bytes": 1575,
+      "sha256": "5cd88035d63de2df0c3d46da98699b36dfbea0c1cfbabc6a6f2fc1d564e82593",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "outputs/tables/eras/eras-7f332ed60ac443228960/schedule_diagnostics.csv",
+      "bytes": 9345,
+      "sha256": "d61c75836551a534f9b563350f48ea1ac3313b43a6cf8f8a96774c3919ff0859",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "outputs/tables/eras/eras-7f332ed60ac443228960/sensitivity_results.csv",
+      "bytes": 9752,
+      "sha256": "2038767d46a71de5ba7d8e431a4a01a989371a7a6ec92116db1a5b8fbb0da0c5",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "outputs/tables/eras/eras-7f332ed60ac443228960/team_schedule.csv",
+      "bytes": 234739,
+      "sha256": "2af6cb12e1a06f3025694789454ab61902d68c96411b5a189a0d295c489324af",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "outputs/tables/eras/eras-7f332ed60ac443228960/weight_sensitivity.csv",
+      "bytes": 21143,
+      "sha256": "08a9b34d0bf35b9cb668cd9d7ed75d1b501dc0e3c1a05eb3899b5d8380353319",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "outputs/tables/eras/eras-7f332ed60ac443228960/year_summary.csv",
+      "bytes": 12919,
+      "sha256": "5d6381b1b8550bc95bd6da2e6dc0205bce9eb86518370bf55e017cf4fc97fb64",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "requirements.in",
+      "bytes": 229,
+      "sha256": "0136edafca3bd1fdf70683efa63bcf04856363922dc48d0e79d35e00af2e7279",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 2114,
+      "sha256": "83b8d1a49f9f06a4ebe895e9d7bf0ff7c3cf61a14d0782b45d14144bccddae2e",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "scripts/audit_eras_outputs.py",
+      "bytes": 14092,
+      "sha256": "c3dafbe23da0608de8737472c4f45c572c378eefbb6baeb1c6ece935a909569e",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "scripts/prepare_era_display_data.py",
+      "bytes": 6005,
+      "sha256": "b9c7037a04d87bf9725c5d64c52cfa613d1a61d005b2741b8e9606486d789d5c",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "src/__init__.py",
+      "bytes": 73,
+      "sha256": "57cb837ab50ac9cc0937b47c38884a42a9997405e7f77bdf9ad49becca8b1b3e",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "src/analyze_eras.py",
+      "bytes": 11327,
+      "sha256": "817ef6db61491b86ab3d7d934df9932bc6702057f8c613eb4b115c5fbdcbd288",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "src/audit.py",
+      "bytes": 13421,
+      "sha256": "687b6fdf5835c4f5ed6202ed7c7ac2e7062375fa36e76028fac284aec882aa9d",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "src/clean.py",
+      "bytes": 19646,
+      "sha256": "e696669b69fe8f748c33af6ed2f085170243162556fe592646c2fce6b04c9fd1",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "src/data_contract.py",
+      "bytes": 11430,
+      "sha256": "75d7c37a5d09867656098ab4fa3387721d8e1028dfde54d28c372d50f2a7d101",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "src/eras/__init__.py",
+      "bytes": 106,
+      "sha256": "aacd580655a627a0f5ae7a44eb07c23406636813ab0fcbc89f32177d7f7a70b2",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "src/eras/checks.py",
+      "bytes": 7746,
+      "sha256": "0eda226d64ae15278cebfb09820e5f67b1b86b3a911228e0fd654bcd2e5003ef",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "src/eras/data.py",
+      "bytes": 8235,
+      "sha256": "46f55736f56c2f7d99c078a0bc61e97843ea38ebcea02523b15d1aa166cf58e0",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "src/eras/inference.py",
+      "bytes": 524,
+      "sha256": "4af99cbe01d08ec7846975afce779d86935eb673e44604a7270965a15eb5cafc",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "src/eras/reporting.py",
+      "bytes": 11109,
+      "sha256": "3580361af51b90dc9370483e89dbf44d8896bb7c0b81ccc2185da6fe770f5c27",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "src/eras/standardize.py",
+      "bytes": 6322,
+      "sha256": "b241422fe0b63823171c31ce3e9d6b425713d426022b294b01263a41ca75b238",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "src/eras/statistics.py",
+      "bytes": 4587,
+      "sha256": "2030ab1833ae56d431a51d8bd81791a8553beee7d0cc3daad0169f7952d1e016",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "src/snapshot.py",
+      "bytes": 3584,
+      "sha256": "0602b3907494ade4dae5bd6bac07a2a0a1353171af12495a9fc39815e6fbf2d2",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "src/validate.py",
+      "bytes": 7056,
+      "sha256": "bd8a61d799e8afeadba6d50b275f0cd07906d5c0e0fea623f17061dd092253f1",
+      "matched_existing_manifest": true
+    },
+    {
+      "path": "tests/test_data_pipeline.py",
+      "bytes": 8121,
+      "sha256": "96fb0be9d4d3e2ee6eb11ba2246880fb4f61b7fbe8546d5bab86686b8584b7c9",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "tests/test_data_rules.py",
+      "bytes": 5100,
+      "sha256": "b8021382796a2796a4c44916aa74fe1e1fd13bc8da665b4297a1ab30035ec4db",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "tests/test_eras.py",
+      "bytes": 11094,
+      "sha256": "b8208d2fae435cd9b56659adaa155fb6aaeb1d21fa4cdaf84d10f86e43ad1b7d",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "文档/01_项目方案/下一步执行清单_阶段二至三.md",
+      "bytes": 11382,
+      "sha256": "a8e8fbd571cc8d42c7aab180bddc0aa55b14c2976b770a5a98a45fc4652bc96b",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "文档/01_项目方案/前三项研究的数据标准与清洗脚本设计.md",
+      "bytes": 93151,
+      "sha256": "c2850ebd65e238ca20dbb5f25270d0d3f398737603a221cfe76e330f7e50df40",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "文档/01_项目方案/数据准备全流程指南.md",
+      "bytes": 24132,
+      "sha256": "f812c338b65885ba6a2f59182ed968e61bc2f6a2207733159aa730dc2c1a6fc6",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "文档/01_项目方案/研究日志与决策记录.md",
+      "bytes": 106709,
+      "sha256": "dda0ebc3f0ec818c5446797ee9363efc48e50ed9dd8424e4b871b30a657281f1",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "文档/01_项目方案/第一题_年代变化研究五步规划.md",
+      "bytes": 23072,
+      "sha256": "46693bd4f887a6a3d1f5315aa4f5cdae62899e583735f3de24abf1f58c2de526",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "文档/01_项目方案/补充数据获取清单与爬虫需求.md",
+      "bytes": 17312,
+      "sha256": "a1b31ec4155de49876cc51423327afd6eb015d56a564cf988f7d78f32d97b1e9",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "文档/01_项目方案/足球分析项目_实施路线与风险.md",
+      "bytes": 21675,
+      "sha256": "311e500d9daa5b5e6ee4a8475b04641ce1a0f3b6be45528805c11ee1bd84aec5",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "文档/05_团队协作/分工与交付/00_先看这里.md",
+      "bytes": 3596,
+      "sha256": "c0e1a6bdca9dfe40292ff2cecdc04c8a6528929c44e6a8b4f1b20325638903ac",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "文档/05_团队协作/分工与交付/01_A_复核与改进.md",
+      "bytes": 3762,
+      "sha256": "ef537721e868bc8644b9b346495844cdab64dbc7e1e3d4edbcc6751506264a87",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "文档/05_团队协作/分工与交付/02_B_资料与案例.md",
+      "bytes": 4102,
+      "sha256": "d12e521e6ff7c6e2258a4ca97c1918a70356aac661f76200630d4c3aa64b44ac",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "文档/05_团队协作/分工与交付/03_后续分析与展示.md",
+      "bytes": 3412,
+      "sha256": "da0795d7f91fad12a04aa0d5254d1a86bcf28ccebe3c29b6384c0c4627ac2a75",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "文档/05_团队协作/分工与交付/04_两题共同可靠性与敏感性.md",
+      "bytes": 5168,
+      "sha256": "260fd838444e765faefacdc1811086a8a2988d55e27135993e9a9cbe0041ffeb",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "研究/01_年代变化/README.md",
+      "bytes": 6169,
+      "sha256": "6693fc3512289b8220854399589461d98d7959ba64e493e3af1e7a7be36df947",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "研究/01_年代变化/收尾核查与汇报提纲.md",
+      "bytes": 9012,
+      "sha256": "2e9922fbf84e7239c896742b6e0dfb1cef43885849c87a1ff2251783a836752d",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "研究/01_年代变化/最终审查与后续衔接.md",
+      "bytes": 29255,
+      "sha256": "bcb439321aea2793f247e4cba90f827ee10dfacee012eefb2f58e042a034f99c",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "研究/01_年代变化/本地运行与复现.md",
+      "bytes": 7903,
+      "sha256": "2cdbc76c946131b30f7a2ffbaebeb6251a0ee5524c28376d84978af4a539467d",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "研究/01_年代变化/脚本设计.md",
+      "bytes": 29448,
+      "sha256": "167b2db263efe8f2ddaa8cfd1aa449539396dd73f0e9665f2e0d37c3864f8217",
+      "matched_existing_manifest": false
+    },
+    {
+      "path": "研究/02_赛事类型差异/README.md",
+      "bytes": 29722,
+      "sha256": "8ce94def3a3d61713fcf88b58b9845556bedf6a05e31aa7f3eca6d2025aa1401",
+      "matched_existing_manifest": false
+    }
+  ],
+  "verification": {
+    "source_manifest_hashes_matched": 48,
+    "zip_crc_passed": true,
+    "archive_member_hashes_passed": 88,
+    "live_source_hashes_after_capture_passed": 88
+  },
+  "validation_invocations_before_capture": [
+    {
+      "command": "python -m src.snapshot --verify --config config.json",
+      "exit_code": 0,
+      "verified_files": 6
+    },
+    {
+      "command": "python -m src.validate --config config.json --data-version prep-3fab808178cf8ad71d88",
+      "exit_code": 0,
+      "passed": true,
+      "checks_passed": 8,
+      "states": {
+        "included": 48102,
+        "outside_window": 1803,
+        "quarantined": 40
+      }
+    },
+    {
+      "command": "python -m src.analyze_eras --verify-run outputs/logs/eras/eras-20261024T013933600718Z-425e4920/run_manifest.json",
+      "exit_code": 0,
+      "passed": true,
+      "verified_outputs": 24,
+      "inference": "not_run"
+    }
+  ],
+  "git_at_capture": {
+    "head": "4c8285bc8cdfece3910b3b4bdf91dbb5774e8fe6",
+    "worktree_clean": false,
+    "status_short_before_baseline": [
+      " M README.md",
+      " M 文档/01_项目方案/前三项研究的数据标准与清洗脚本设计.md",
+      " M 文档/01_项目方案/研究日志与决策记录.md",
+      " M 文档/05_团队协作/分工与交付/00_先看这里.md",
+      " M 研究/01_年代变化/最终审查与后续衔接.md",
+      "?? outputs/logs/team_identity/",
+      "?? outputs/logs/tournament_planning/",
+      "?? 文档/05_团队协作/分工与交付/04_两题共同可靠性与敏感性.md",
+      "?? 研究/02_赛事类型差异/"
+    ],
+    "commit_or_push_performed": false,
+    "note": "HEAD does not identify uncommitted content; member hashes identify captured bytes."
+  },
+  "environment": {
+    "python": "3.14.8 (tags/v3.14.8:8e6e75d, Sep 30 2026, 18:19:33) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "data_review_status": {
+    "human_review_pending": true,
+    "frozen": false,
+    "identity_classification": "unreviewed"
+  },
+  "scope": {
+    "included": "Registered snapshot, cleaning lineage/data/config, selected Q1 run and products, identity planning evidence, Python sources/tests/tools, current research/task docs, dependency lists.",
+    "excluded": [
+      ".venv",
+      ".git",
+      "editor settings",
+      "unselected historical runs",
+      "full course reference archive"
+    ],
+    "archive_documentation_state": "Captured before R20261024-11 and new baseline links.",
+    "role": "Local recoverable comparison baseline, not data freeze, member approval or remote synchronization."
+  }
+}

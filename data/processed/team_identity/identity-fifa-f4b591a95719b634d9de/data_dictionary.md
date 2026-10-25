@@ -1,0 +1,9 @@
+# FIFA会员资格覆盖表（临时发布）
+
+逐场表主键match_id，覆盖全部清洗比赛；双方来源编号和标签保留。source_team_id不是已审核历史实体ID；fifa_code只对应有据可查的会员，不合并来源球队。
+
+conditional_both_members仅表示按官方加入年份加明示连续性假设，双方可以暂纳入；不等于逐日资格已核验。pending待核不等于非会员；nonmember_evidence是至少一方早于已记录加入时间；outside_scope不进入本次1980—2024用途。
+
+eligible_under_provisional_policy不含原有非中立、赛事等条件，后续必须同时满足。in_previous_study只用于旧样本对账，不能当最终样本。full_history_verified恒false。
+
+现有显示名和历史继承尚未全面解决；不用于Elo历史身份或相关性分组验收。CSV为UTF-8 BOM/LF；布尔true/false；不含比分或场地事实修正。

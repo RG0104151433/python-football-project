@@ -1,0 +1,30 @@
+{
+  "checks": {
+    "all_raw_labels_registered": true,
+    "clean_appearances": true,
+    "no_identity_decisions": true,
+    "queue_covers_inventory": true,
+    "raw_appearances": true,
+    "study_appearances": true,
+    "unique_clues": true
+  },
+  "passed": true,
+  "prep_validation": {
+    "checks": {
+      "complete_unique_lineage": true,
+      "included_matches_traceable": true,
+      "lineage_counts": true,
+      "lineage_states": true,
+      "nonempty_dataset": true,
+      "stable_sort": true,
+      "unique_match_ids": true,
+      "valid_values_and_eligibility": true
+    },
+    "passed": true,
+    "states": {
+      "included": 48102,
+      "outside_window": 1803,
+      "quarantined": 40
+    }
+  }
+}

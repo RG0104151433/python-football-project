@@ -1,0 +1,16 @@
+{
+  "command": [
+    "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\.venv\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "-q",
+    "--tb=short",
+    "--basetemp",
+    "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\outputs\\test_tmp\\full-chain-27b7db399d",
+    "--junitxml",
+    "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\outputs\\logs\\team_identity\\full-chain-review-20261025\\pytest.xml"
+  ],
+  "returncode": 0,
+  "initial_attempt": "62 passed, 23 fixture setup errors: sandbox system temp numbered directory could not be created",
+  "retry_reason": "Use new unused workspace basetemp; no code or tests altered"
+}

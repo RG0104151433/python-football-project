@@ -1,0 +1,395 @@
+{
+ "schema_version": "membership-batch-validation-v1",
+ "batch": "20261024-batch03",
+ "run_at": "2026-10-24T23:52:37+08:00",
+ "timezone": "UTC+08:00 (Asia/Shanghai, local machine)",
+ "inputs": {
+  "evidence_tasks_rows": 148,
+  "match_identity_rows": 48102,
+  "evidence_tasks_sha256": "9b420d025bb3c527e6d8645a679f900401905396a6a1b204c4c26b7eafff9443",
+  "match_identity_sha256": "f8bad1d6e48aa3e128120f4ae92cc5cf9b9897cc88d4416a1253251dc8e42ff9"
+ },
+ "checks": [
+  {
+   "name": "id_unique_evidence",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "id_unique_claims",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "id_unique_assessments",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "id_unique_search",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "id_unique_corrections",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "batch_prefix_consistent",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "claims_ref_evidence",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "claims_locators_keys_match",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "assess_ref_claims_evidence",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "withdrawn_claims_absent",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "assess_do_not_cite_withdrawn",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "assess_match_membership_nonempty_labels",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "no_german_dr_label_regression",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "gdr_exit_no_fake_precision",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "mkd_year_only",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "baltic_1991_not_nonmember",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "c015_no_asserted_date",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "pre_admission_rows_unresolved",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "corrections_single_old_id",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "corrections_previous_and_replacement_ids_exist",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "corrections_count_23",
+   "passed": true,
+   "detail": "got 23"
+  },
+  {
+   "name": "coverage_148_rows",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "coverage_keys_match_input",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "coverage_ids_and_counts_consistent",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "no_row_claiming_resolved",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "local_evidence_hashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "batch02_files_unchanged_vs_review",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "batch01_files_unchanged_vs_review",
+   "passed": true,
+   "detail": "[]"
+  }
+ ],
+ "failures": [],
+ "not_run": [
+  "内容/史实复查（日期语义、临时会员与批准关系、来源权威性判断）属人工或内容审查，不在本程序范围；见README内容审查节",
+  "未运行生产构建、会员发布、第一问重算或pytest",
+  "未独立复得UPI在线全文、wayback存档或FIFA大会原件（网络受限，见search_log）"
+ ],
+ "row_counts": {
+  "evidence": 23,
+  "claims": 36,
+  "case_assessments": 42,
+  "search_log": 4,
+  "corrections": 23,
+  "task_coverage": 148
+ },
+ "stats": {
+  "distinct_matches_with_suggestions": 298,
+  "member_only": 152,
+  "non_member_only": 0,
+  "differing_proposals": 5,
+  "proposals": {
+   "member": 19,
+   "non_member": 0,
+   "unresolved": 22,
+   "conflict": 1
+  },
+  "task_status_rows": {
+   "resolved": 0,
+   "partial": 40,
+   "not_found": 1,
+   "conflict": 1,
+   "not_reviewed": 0
+  },
+  "resolution_rollup": {
+   "resolved": 0,
+   "partial": 28,
+   "conflict": 1,
+   "not_found": 1,
+   "not_reviewed": 118
+  },
+  "work_rollup": {
+   "not_reviewed": 118,
+   "reviewed_no_new_evidence": 14,
+   "revised": 15,
+   "new_evidence": 1
+  }
+ },
+ "local_evidence": [
+  {
+   "evidence_id": "AGB3-E001",
+   "reused": true,
+   "authority": "locating_lead",
+   "access_status": "full_text_read",
+   "local_path": "data/external/team_identity/submissions/20261024-batch01/sources/fscg_me_about_us.html",
+   "sha256_ok": true
+  },
+  {
+   "evidence_id": "AGB3-E002",
+   "reused": true,
+   "authority": "locating_lead",
+   "access_status": "full_text_read",
+   "local_path": "data/external/team_identity/submissions/20261024-batch01/sources/sohu_montenegro_fifa_2007.html",
+   "sha256_ok": true
+  },
+  {
+   "evidence_id": "AGB3-E003",
+   "reused": true,
+   "authority": "locating_lead",
+   "access_status": "full_text_read",
+   "local_path": "data/external/team_identity/submissions/20261024-batch01/sources/sahistory_sa_readmission.html",
+   "sha256_ok": true
+  },
+  {
+   "evidence_id": "AGB3-E004",
+   "reused": true,
+   "authority": "locating_lead",
+   "access_status": "full_text_read",
+   "local_path": "data/external/team_identity/submissions/20261024-batch01/sources/uefa_lt_history.html",
+   "sha256_ok": true
+  },
+  {
+   "evidence_id": "AGB3-E005",
+   "reused": true,
+   "authority": "locating_lead",
+   "access_status": "full_text_read",
+   "local_path": "data/external/team_identity/submissions/20261024-batch01/sources/hns_croatia_history.html",
+   "sha256_ok": true
+  },
+  {
+   "evidence_id": "AGB3-E006",
+   "reused": true,
+   "authority": "locating_lead",
+   "access_status": "full_text_read",
+   "local_path": "data/external/team_identity/submissions/20261024-batch01/sources/cankaoxiaoxi_19940618_p5.html",
+   "sha256_ok": true
+  },
+  {
+   "evidence_id": "AGB3-E007",
+   "reused": true,
+   "authority": "locating_lead",
+   "access_status": "full_text_read",
+   "local_path": "data/external/team_identity/submissions/20261024-batch01/sources/enacademic_gdr_history.html",
+   "sha256_ok": true
+  },
+  {
+   "evidence_id": "AGB3-E008",
+   "reused": true,
+   "authority": "locating_lead",
+   "access_status": "full_text_read",
+   "local_path": "data/external/team_identity/submissions/20261024-batch01/sources/hpalestine_pfa_fifa_history.html",
+   "sha256_ok": true
+  },
+  {
+   "evidence_id": "AGB3-E009",
+   "reused": true,
+   "authority": "locating_lead",
+   "access_status": "search_excerpt_only",
+   "local_path": "data/external/team_identity/submissions/20261024-batch01/sources/bhff_strategy_2022_2026.pdf",
+   "sha256_ok": true
+  },
+  {
+   "evidence_id": "AGB3-E010",
+   "reused": true,
+   "authority": "fifa_primary",
+   "access_status": "full_text_read",
+   "local_path": "参考资料/数据来源/FIFA/FIFA_Financial_Report_2018.pdf",
+   "sha256_ok": true
+  },
+  {
+   "evidence_id": "AGB3-E011",
+   "reused": true,
+   "authority": "locating_lead",
+   "access_status": "full_text_read",
+   "local_path": null,
+   "sha256_ok": null
+  },
+  {
+   "evidence_id": "AGB3-E012",
+   "reused": true,
+   "authority": "locating_lead",
+   "access_status": "full_text_read",
+   "local_path": "data/external/team_identity/submissions/20261024-batch02/sources/uefa_svn_history.html",
+   "sha256_ok": true
+  },
+  {
+   "evidence_id": "AGB3-E013",
+   "reused": true,
+   "authority": "locating_lead",
+   "access_status": "full_text_read",
+   "local_path": null,
+   "sha256_ok": null
+  },
+  {
+   "evidence_id": "AGB3-E014",
+   "reused": true,
+   "authority": "locating_lead",
+   "access_status": "full_text_read",
+   "local_path": null,
+   "sha256_ok": null
+  },
+  {
+   "evidence_id": "AGB3-E015",
+   "reused": true,
+   "authority": "locating_lead",
+   "access_status": "search_excerpt_only",
+   "local_path": null,
+   "sha256_ok": null
+  },
+  {
+   "evidence_id": "AGB3-E016",
+   "reused": true,
+   "authority": "locating_lead",
+   "access_status": "search_excerpt_only",
+   "local_path": null,
+   "sha256_ok": null
+  },
+  {
+   "evidence_id": "AGB3-E017",
+   "reused": false,
+   "authority": "locating_lead",
+   "access_status": "full_text_read",
+   "local_path": "data/external/team_identity/submissions/20261024-batch03/sources/uefa_mne_history.html",
+   "sha256_ok": true
+  },
+  {
+   "evidence_id": "AGB3-E018",
+   "reused": false,
+   "authority": "locating_lead",
+   "access_status": "full_text_read",
+   "local_path": "data/external/team_identity/submissions/20261024-batch03/sources/fifa2_assoc_home.html",
+   "sha256_ok": true
+  },
+  {
+   "evidence_id": "AGB3-E019",
+   "reused": false,
+   "authority": "locating_lead",
+   "access_status": "full_text_read",
+   "local_path": "data/external/team_identity/submissions/20261024-batch03/sources/fifa2_history.html",
+   "sha256_ok": true
+  },
+  {
+   "evidence_id": "AGB3-E020",
+   "reused": false,
+   "authority": "locating_lead",
+   "access_status": "full_text_read",
+   "local_path": "data/external/team_identity/submissions/20261024-batch03/sources/fifa2_pub_sitemap.html",
+   "sha256_ok": true
+  },
+  {
+   "evidence_id": "AGB3-E021",
+   "reused": false,
+   "authority": "locating_lead",
+   "access_status": "full_text_read",
+   "local_path": "data/external/team_identity/submissions/20261024-batch03/sources/fifa2_mr_archive.html",
+   "sha256_ok": true
+  },
+  {
+   "evidence_id": "AGB3-E022",
+   "reused": false,
+   "authority": "locating_lead",
+   "access_status": "search_excerpt_only",
+   "local_path": null,
+   "sha256_ok": null
+  },
+  {
+   "evidence_id": "AGB3-E023",
+   "reused": false,
+   "authority": "locating_lead",
+   "access_status": "full_text_read",
+   "local_path": "data/external/team_identity/submissions/20261024-batch03/sources/fifa_official_documents.html",
+   "sha256_ok": true
+  }
+ ],
+ "production_fingerprints": {
+  "match_identity.csv": "f8bad1d6e48aa3e128120f4ae92cc5cf9b9897cc88d4416a1253251dc8e42ff9",
+  "FIFA_Financial_Report_2018.pdf": "751f68183be6a70f4eb461bedd1956a9be9dc1d212b1763faa12bdd22575a032",
+  "evidence_tasks.csv": "9b420d025bb3c527e6d8645a679f900401905396a6a1b204c4c26b7eafff9443"
+ },
+ "previous_batch_protection": {
+  "batch01_files_checked": 14,
+  "batch02_files_checked": 8
+ }
+}

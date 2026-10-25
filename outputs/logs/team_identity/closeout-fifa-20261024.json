@@ -1,0 +1,22 @@
+{
+  "allowed_changes": "Markdown navigation/status and prior .gitignore temporary-output ignore only",
+  "baseline_changed_paths": [
+    ".gitignore",
+    "README.md",
+    "文档/01_项目方案/前三项研究的数据标准与清洗脚本设计.md",
+    "文档/01_项目方案/数据准备全流程指南.md",
+    "文档/01_项目方案/研究日志与决策记录.md",
+    "文档/05_团队协作/分工与交付/00_先看这里.md",
+    "研究/01_年代变化/README.md",
+    "研究/01_年代变化/收尾核查与汇报提纲.md",
+    "研究/01_年代变化/最终审查与后续衔接.md",
+    "研究/01_年代变化/本地运行与复现.md",
+    "研究/02_赛事类型差异/README.md"
+  ],
+  "baseline_files": 88,
+  "broken_links": [],
+  "checked_local_links": 131,
+  "final_population_approved": false,
+  "original_core_files_checked": 25,
+  "original_raw_clean_source_config_unchanged": true
+}

@@ -1,0 +1,31 @@
+{
+  "task_rows": 148,
+  "unique_task_keys": 148,
+  "effective_assessment_rows": 160,
+  "effective_distinct_matches": 1582,
+  "covered_team_match_pairs": 1952,
+  "task_status": {
+    "partial": 148
+  },
+  "effective_proposals": {
+    "non_member": 129,
+    "member": 24,
+    "unresolved": 7
+  },
+  "unresolved_by_label": {
+    "Russia": 99,
+    "North Macedonia": 8,
+    "Bosnia and Herzegovina": 6,
+    "Lithuania": 3,
+    "Cayman Islands": 1,
+    "Estonia": 1,
+    "Latvia": 1
+  },
+  "assessment_batches": {
+    "20261025-batch06": 125,
+    "20261024-batch03": 14,
+    "20261025-batch05": 19,
+    "20261024-batch04": 2
+  },
+  "rows_with_no_suggestion_ids": 0
+}

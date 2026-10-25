@@ -1,0 +1,74 @@
+{
+  "all_suggested_match_dispositions_in_current_package": {
+    "quarantined_pending": 1530,
+    "excluded_by_membership_evidence": 52
+  },
+  "unresolved_distinct_matches": 117,
+  "unresolved_current_dispositions": {
+    "quarantined_pending": 116,
+    "excluded_by_membership_evidence": 1
+  },
+  "local_source_hashes": [
+    {
+      "batch": "20261025-batch05",
+      "evidence_id": "AGB5-E001",
+      "passed": true
+    },
+    {
+      "batch": "20261025-batch05",
+      "evidence_id": "AGB5-E003",
+      "passed": true
+    },
+    {
+      "batch": "20261025-batch05",
+      "evidence_id": "AGB5-E004",
+      "passed": true
+    },
+    {
+      "batch": "20261025-batch05",
+      "evidence_id": "AGB5-E005",
+      "passed": true
+    },
+    {
+      "batch": "20261025-batch05",
+      "evidence_id": "AGB5-E006",
+      "passed": true
+    },
+    {
+      "batch": "20261025-batch05",
+      "evidence_id": "AGB5-E007",
+      "passed": true
+    },
+    {
+      "batch": "20261025-batch05",
+      "evidence_id": "AGB5-E008",
+      "passed": true
+    },
+    {
+      "batch": "20261025-batch05",
+      "evidence_id": "AGB5-E009",
+      "passed": true
+    },
+    {
+      "batch": "20261025-batch06",
+      "evidence_id": "AGB6-E001",
+      "passed": true
+    },
+    {
+      "batch": "20261025-batch06",
+      "evidence_id": "AGB6-E002",
+      "passed": true
+    },
+    {
+      "batch": "20261025-batch06",
+      "evidence_id": "AGB6-E003",
+      "passed": true
+    },
+    {
+      "batch": "20261025-batch06",
+      "evidence_id": "AGB6-E004",
+      "passed": true
+    }
+  ],
+  "all_local_source_hashes_passed": true
+}

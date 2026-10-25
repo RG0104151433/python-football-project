@@ -1,0 +1,7 @@
+{
+  "analysis_config": "config/eras_fifa.json",
+  "identity_manifest": "data/processed/team_identity/identity-fifa-f4b591a95719b634d9de/identity_manifest.json",
+  "prep_config": "config.json",
+  "previous_run": "outputs/logs/eras/eras-20261024T013933600718Z-425e4920/run_manifest.json",
+  "schema_version": "confirmed-eras-config-v1"
+}

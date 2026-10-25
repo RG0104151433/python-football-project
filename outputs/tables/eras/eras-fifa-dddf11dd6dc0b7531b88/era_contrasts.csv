@@ -1,0 +1,13 @@
+﻿contrast_id,sample_id,earlier_era,later_era,estimand,reference_id,estimate,unit,standard_error,ci_lower,ci_upper,confidence_level,method_id,method_version,uncertainty_status,status
+2010s_minus_1980s,sample-3bc69e2cc4f843242018,1980s,2010s,composition_adjustment_difference,reference-90003d0bdb8d6f65cead,0.6924291252,percentage_points,,,,,,,not_run,ok
+2010s_minus_1980s,sample-3bc69e2cc4f843242018,1980s,2010s,observed_difference,reference-90003d0bdb8d6f65cead,1.1943613640,percentage_points,,,,,,,not_run,ok
+2010s_minus_1980s,sample-3bc69e2cc4f843242018,1980s,2010s,standardized_difference,reference-90003d0bdb8d6f65cead,0.5019322388,percentage_points,,,,,,,not_run,ok
+2010s_minus_1980s,sample-3bc69e2cc4f843242018,1980s,2010s,composition_adjustment_difference,reference-bde4b808f6d501474fb6,0.5461117649,percentage_points,,,,,,,not_run,ok
+2010s_minus_1980s,sample-3bc69e2cc4f843242018,1980s,2010s,observed_difference,reference-bde4b808f6d501474fb6,1.1943613640,percentage_points,,,,,,,not_run,ok
+2010s_minus_1980s,sample-3bc69e2cc4f843242018,1980s,2010s,standardized_difference,reference-bde4b808f6d501474fb6,0.6482495992,percentage_points,,,,,,,not_run,ok
+2020_2024_minus_1980s,sample-3bc69e2cc4f843242018,1980s,2020_2024,composition_adjustment_difference,reference-90003d0bdb8d6f65cead,-0.2118006424,percentage_points,,,,,,,not_run,ok
+2020_2024_minus_1980s,sample-3bc69e2cc4f843242018,1980s,2020_2024,observed_difference,reference-90003d0bdb8d6f65cead,1.5982288416,percentage_points,,,,,,,not_run,ok
+2020_2024_minus_1980s,sample-3bc69e2cc4f843242018,1980s,2020_2024,standardized_difference,reference-90003d0bdb8d6f65cead,1.8100294841,percentage_points,,,,,,,not_run,ok
+2020_2024_minus_1980s,sample-3bc69e2cc4f843242018,1980s,2020_2024,composition_adjustment_difference,reference-bde4b808f6d501474fb6,-0.5058528826,percentage_points,,,,,,,not_run,ok
+2020_2024_minus_1980s,sample-3bc69e2cc4f843242018,1980s,2020_2024,observed_difference,reference-bde4b808f6d501474fb6,1.5982288416,percentage_points,,,,,,,not_run,ok
+2020_2024_minus_1980s,sample-3bc69e2cc4f843242018,1980s,2020_2024,standardized_difference,reference-bde4b808f6d501474fb6,2.1040817242,percentage_points,,,,,,,not_run,ok

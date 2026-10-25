@@ -1,0 +1,65 @@
+{
+  "batch": "20261024-batch03",
+  "date": "2026-10-24",
+  "reviewer": "Codex (AI)",
+  "decision": "accepted_as_corrected_draft_and_documented_negative_result",
+  "accepted_new_production_rules": 0,
+  "q1_rerun_performed": false,
+  "mechanical_checks_passed": 28,
+  "new_fifa_primary_evidence": 0,
+  "evidence_authority": {
+    "locating_lead": 22,
+    "fifa_primary": 1
+  },
+  "task_count": 148,
+  "tasks_with_assessments": 30,
+  "source_teams": 27,
+  "distinct_matches_with_suggestions": 298,
+  "task_resolution": {
+    "not_reviewed": 118,
+    "partial": 28,
+    "conflict": 1,
+    "not_found": 1
+  },
+  "both_previous_batches_unchanged": true,
+  "submission_hashes": {
+    "data/external/team_identity/submissions/20261024-batch03/case_assessments.jsonl": "52f3d375f9576753ee9b679262d7114cbbea4685045b4c863b02ed9e1a9579c6",
+    "data/external/team_identity/submissions/20261024-batch03/claims.jsonl": "0ba06444df8ca64227f19802d3b5afdf88331a12afa39aa5b3e829b74d5cff5b",
+    "data/external/team_identity/submissions/20261024-batch03/corrections.jsonl": "dc6a514a8c87378e8dcbb57c76a23adee4169758e33b580ae06f0f2a7f6f3f50",
+    "data/external/team_identity/submissions/20261024-batch03/evidence.jsonl": "a8af1146228c74f02c5b34e81a1f0dc0c9fc10d6297e4f03830578ce5b00f92a",
+    "data/external/team_identity/submissions/20261024-batch03/README.md": "7a8d8426560af5697f9da708361d1a4a19012969f2efcd14a9ab8693cc172032",
+    "data/external/team_identity/submissions/20261024-batch03/search_log.jsonl": "0afc42efb50a1a41d00afb3856991a90ca7a2a73e819c2a414a471f8f1a17639",
+    "data/external/team_identity/submissions/20261024-batch03/sources/fifa2_assoc_2002_AFC.html": "a7e64852d512da23d6482e4b1a2ba247b051329a2acba0dbdbd5f5d1fa69c9bc",
+    "data/external/team_identity/submissions/20261024-batch03/sources/fifa2_assoc_2002_CAF.html": "0c5f2b122b8ae8ff5fea5672f48378da0fa589e5c3ef0a10d0b0bfbae5efc4d3",
+    "data/external/team_identity/submissions/20261024-batch03/sources/fifa2_assoc_2002_CONCACAF.html": "9fb0815e7f69da8b1e5651da1495e165720a8ae841e5df39df20ac76dd80c021",
+    "data/external/team_identity/submissions/20261024-batch03/sources/fifa2_assoc_2002_CONMEBOL.html": "f7c468fc6909d7308ef726231ca04c3e547c817b756eebca2ded387c8e03fa3b",
+    "data/external/team_identity/submissions/20261024-batch03/sources/fifa2_assoc_2002_OFC.html": "4ab05afb30bb8702cf978b84528df1b0d34e320e696419a58f78c72466fdea24",
+    "data/external/team_identity/submissions/20261024-batch03/sources/fifa2_assoc_2002_UEFA.html": "1896a9728b2d1ef38b75cf63f97f9ea8541157a24bac5b079e25e7b6acaee0b6",
+    "data/external/team_identity/submissions/20261024-batch03/sources/fifa2_assoc_home.html": "2488e8be090a2a8310cea54ec9fd71c34fc0db07c8494aed67abbc20d4d45d3f",
+    "data/external/team_identity/submissions/20261024-batch03/sources/fifa2_history.html": "651afbfb7f896e463ed2bc3b6f9f1ab5c258afbb7ad4b7c446556407b2446141",
+    "data/external/team_identity/submissions/20261024-batch03/sources/fifa2_mr_archive.html": "b673c7f272a6607245a6ca1afb2874bbe39942e8b337db5a9cdad36fb39ccd2b",
+    "data/external/team_identity/submissions/20261024-batch03/sources/fifa2_pub_sitemap.html": "08b357756c6be245e50e6561dc554c84f91c321721132a91278c0afce264deb6",
+    "data/external/team_identity/submissions/20261024-batch03/sources/fifa_official_documents.html": "f1b74730b0503c0d83b5fb251c48e6a4288c90e205e50babc64bc5a54f70ab25",
+    "data/external/team_identity/submissions/20261024-batch03/sources/uefa_mne_history.html": "df47fab1476b56644dbe118fde6ab2fa77b294935d12a997d8b07a11a1985919",
+    "data/external/team_identity/submissions/20261024-batch03/task_coverage.csv": "d8eab3b436008c79e1160f38c7bd826300fe32f0c0466f83cf3db4789d13574b",
+    "data/external/team_identity/submissions/20261024-batch03/validate_delivery.py": "f1b8ec4d4f75f6856f0560e5d2ae3536457593fd68d5d537015acefd5f598a2a",
+    "data/external/team_identity/submissions/20261024-batch03/validation_report.json": "691072be8f1509069a4d2abbf733035de7cf435425e77d7d2e4a085c048ce898"
+  },
+  "identity_validation": {
+    "passed": true,
+    "identity_version": "identity-fifa-f4b591a95719b634d9de",
+    "verified_outputs": 7,
+    "final_release": false
+  },
+  "q1_validation": {
+    "passed": true,
+    "analysis_id": "eras-fifa-24196f9d60d19c30658a",
+    "verified_outputs": 22,
+    "inference": "not_run"
+  },
+  "limits": [
+    "Official primary source requirement remains unmet; no new membership determination.",
+    "Reported network failures are documented attempts, not proof all public sources are exhausted.",
+    "Content review is AI review, not human expert verification; no independent network retrieval this turn."
+  ]
+}

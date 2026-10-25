@@ -1,0 +1,6 @@
+{
+  "inventory_config": "config/team_identity.json",
+  "inventory_run": "outputs/logs/team_identity/inventory-20261024T082841542266Z-14396c78/run_manifest.json",
+  "schema_version": "fifa-identity-build-config-v1",
+  "source_dir": "data/external/team_identity/fifa/20261024-v2"
+}

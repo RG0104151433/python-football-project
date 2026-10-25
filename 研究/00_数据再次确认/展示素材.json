@@ -1,0 +1,96 @@
+{
+  "analysis_id": "eras-fifa-dddf11dd6dc0b7531b88",
+  "explanation": "基础清洗和研究范围确认是两个层次，不重复扣减。当前候选26,055=纳入24,917+排除1,138；当前范围待定0。",
+  "first_question_before_after": [
+    {
+      "era": "1980s",
+      "new_home_win_rate": 0.4925799086757991,
+      "new_n": 3504,
+      "new_standardized_rate": 0.4994564043722467,
+      "old_home_win_rate": 0.4905105586741513,
+      "old_n": 3741,
+      "old_standardized_rate": 0.49715270938700673,
+      "raw_change_pp": 0.20693500016478183,
+      "removed_n": 237
+    },
+    {
+      "era": "1990s",
+      "new_home_win_rate": 0.5018695471541338,
+      "new_n": 4814,
+      "new_standardized_rate": 0.503508952552188,
+      "old_home_win_rate": 0.5057244374259771,
+      "old_n": 5066,
+      "old_standardized_rate": 0.5072315352763763,
+      "raw_change_pp": -0.385489027184327,
+      "removed_n": 252
+    },
+    {
+      "era": "2000s",
+      "new_home_win_rate": 0.5084400465657741,
+      "new_n": 6872,
+      "new_standardized_rate": 0.5086024819788818,
+      "old_home_win_rate": 0.5094154019111861,
+      "old_n": 7116,
+      "old_standardized_rate": 0.5097437042701919,
+      "raw_change_pp": -0.09753553454119324,
+      "removed_n": 244
+    },
+    {
+      "era": "2010s",
+      "new_home_win_rate": 0.5045235223160435,
+      "new_n": 6632,
+      "new_standardized_rate": 0.5044757267602209,
+      "old_home_win_rate": 0.5053222094361335,
+      "old_n": 6952,
+      "old_standardized_rate": 0.5052749762302431,
+      "raw_change_pp": -0.07986871200900136,
+      "removed_n": 320
+    },
+    {
+      "era": "2020_2024",
+      "new_home_win_rate": 0.5085621970920841,
+      "new_n": 3095,
+      "new_standardized_rate": 0.5175566992128677,
+      "old_home_win_rate": 0.5088050314465409,
+      "old_n": 3180,
+      "old_standardized_rate": 0.5181987901269406,
+      "raw_change_pp": -0.024283435445682233,
+      "removed_n": 85
+    }
+  ],
+  "flow": {
+    "raw": 49945,
+    "clean_included": 48102,
+    "after_cutoff": 1803,
+    "clean_isolated": 40,
+    "previous_non_neutral_study": 26055,
+    "study_included": 24917,
+    "study_excluded": 1138,
+    "membership_pending_quarantined": 0
+  },
+  "friendly_weight_after": 0.3851988602159168,
+  "friendly_weight_before": 0.3853387065822299,
+  "identity_version": "identity-reviewed-29d880765c1623764940",
+  "limitations": [
+    "Current study membership adopted by project owner; this does not verify every historical match or merge Elo entities.",
+    "No confidence intervals or causal claims."
+  ],
+  "schema_version": "data-confirmation-presentation-v1",
+  "source_run": "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json",
+  "speaker_structure": [
+    "说明原始档案、清洗和研究范围是不同层次",
+    "展示26,055候选分为24,917纳入与1,138排除",
+    "说明使用统一的研究样本，再进入第一问",
+    "展示用新版图表；逐场追踪保存在内部记录，不逐国展开"
+  ],
+  "stage": "Between cleaning and Q1",
+  "status": "study_population_owner_accepted",
+  "progress_decision": {
+    "date": "2026-10-25",
+    "decision_log_id": "R20261025-10",
+    "membership_research_deferred": true,
+    "study_membership_owner_accepted": true,
+    "blocks_descriptive_progress": false,
+    "note": "本次研究范围已人工确认，无需继续等待会员补证。"
+  }
+}

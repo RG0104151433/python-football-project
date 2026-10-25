@@ -1,0 +1,140 @@
+{
+ "schema_version": "membership-batch-validation-v1",
+ "batch": "20261025-batch05",
+ "run_at": "2026-10-25T08:34:51+08:00",
+ "note": "含batch04指纹修正确认、章程原件校验、政策判定文件检查，以及本批交付前发现并已修正的复用证据local_path登记错误（E004/E006/E007/E008曾误指向batch03/sources，已改回实际所在batch01/sources并重验SHA）。",
+ "checks": [
+  {
+   "name": "rows",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "id_unique",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "claims_ref",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "assess_ref",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "match_membership",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "coverage_148",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "coverage_counts",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "sha_AGB5-E001",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "sha_AGB5-E003",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "sha_AGB5-E004",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "sha_AGB5-E005",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "sha_AGB5-E006",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "sha_AGB5-E007",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "sha_AGB5-E008",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "sha_AGB5-E009",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "corrections_prev_ids",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "policy_doc_exists",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "statutes_is_pdf",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "prior_batches_unchanged",
+   "passed": true,
+   "detail": "[]"
+  }
+ ],
+ "failures": [],
+ "stats": {
+  "assessment_rows": 19,
+  "proposals": {
+   "member": 9,
+   "non_member": 10,
+   "unresolved": 0,
+   "conflict": 0
+  },
+  "resolution_rollup": {
+   "resolved": 0,
+   "partial": 31,
+   "conflict": 0,
+   "not_found": 1,
+   "not_reviewed": 116
+  },
+  "work_rollup": {
+   "not_reviewed": 116,
+   "reviewed_no_new_evidence": 22,
+   "revised": 10,
+   "new_evidence": 0
+  },
+  "new_fifa_primary": [
+   "AGB5-E001 (FIFA Statutes 2024)"
+  ]
+ },
+ "inputs_fingerprints": {
+  "evidence_tasks.csv": "9b420d025bb3c527e6d8645a679f900401905396a6a1b204c4c26b7eafff9443",
+  "match_identity.csv": "f8bad1d6e48aa3e128120f4ae92cc5cf9b9897cc88d4416a1253251dc8e42ff9",
+  "FIFA_Financial_Report_2018.pdf": "751f68183be6a70f4eb461bedd1956a9be9dc1d212b1763faa12bdd22575a032",
+  "FIFA_Statutes_2024.pdf": "36731722b6c4014d230d8468c93569bd7266be03470299f524f53055421f39b2"
+ },
+ "not_run": [
+  "史实语义与政策合理性为内容审查（policy_provisional_membership.md），非程序检查",
+  "生产构建/发布/第一问重算/pytest",
+  "1991/1979/1994年当期章程获取"
+ ]
+}

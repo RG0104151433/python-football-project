@@ -1,0 +1,14 @@
+{
+  "base_identity_manifest": "data/processed/team_identity/identity-fifa-f4b591a95719b634d9de/identity_manifest.json",
+  "submission_dirs": [
+    "data/external/team_identity/submissions/20261024-batch01",
+    "data/external/team_identity/submissions/20261024-batch02",
+    "data/external/team_identity/submissions/20261024-batch03",
+    "data/external/team_identity/submissions/20261024-batch04",
+    "data/external/team_identity/submissions/20261025-batch05",
+    "data/external/team_identity/submissions/20261025-batch06"
+  ],
+  "coverage": "data/external/team_identity/submissions/20261025-batch06/task_coverage.csv",
+  "tasks": "outputs/logs/team_identity/evidence-and-reference-audit-20261024/evidence_tasks.csv",
+  "approval": "data/external/team_identity/accepted/20261025/user_approval.json"
+}

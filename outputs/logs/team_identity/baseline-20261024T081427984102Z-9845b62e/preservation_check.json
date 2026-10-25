@@ -1,0 +1,18 @@
+{
+  "schema_version": "identity-baseline-preservation-check-v1",
+  "checked_at_utc": "2026-10-24T08:16:44.795186+00:00",
+  "baseline_id": "baseline-20261024T081427984102Z-9845b62e",
+  "baseline_manifest_sha256": "96a86f4c6c0d5c48fc293dd6017dc3da7dd42e0bf609e8960ce77584b7c1c316",
+  "archive_sha256_verified": true,
+  "archive_members_sha256_verified": 88,
+  "live_files_unchanged": 85,
+  "documentation_updates_after_capture": [
+    "README.md",
+    "文档/01_项目方案/前三项研究的数据标准与清洗脚本设计.md",
+    "文档/01_项目方案/研究日志与决策记录.md"
+  ],
+  "only_expected_documentation_changed": true,
+  "local_links_checked": 80,
+  "broken_links": [],
+  "passed": true
+}

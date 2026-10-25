@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "run_validation": {
+    "passed": true,
+    "analysis_id": "eras-fifa-24196f9d60d19c30658a",
+    "verified_outputs": 22,
+    "inference": "not_run"
+  },
+  "identity_validation": {
+    "passed": true,
+    "identity_version": "identity-fifa-f4b591a95719b634d9de",
+    "verified_outputs": 7,
+    "final_release": false
+  },
+  "historical_baseline_validation": {
+    "passed": true,
+    "analysis_id": "eras-7f332ed60ac443228960",
+    "verified_outputs": 24,
+    "inference": "not_run"
+  },
+  "updated_documents_checked": 17,
+  "valid_local_links": 211,
+  "log_ids_unique": true,
+  "source_fingerprints_and_display_values_consistent": true,
+  "audit_script_fingerprint_matches": true,
+  "prior_submission_files_unchanged": 50,
+  "observed_external_submission_changes": [
+    {
+      "path": "data/external/team_identity/submissions/20261024-batch04/evidence.jsonl",
+      "previous_sha256": "9fcfe75410c4dca5976fbae14bb477cbf3045d52b0306007c0d6c6334ce54016",
+      "current_sha256": "10ccc2beac1790741a8e39c473a3f93951d1d804c861f81f7c5a4756b5ea252d",
+      "handling": "observed concurrent change, preserved; not an analysis input"
+    }
+  ],
+  "batch04_new_validation_report_present": true,
+  "same_version_independent_checks": 630,
+  "core_artifacts_identical": 19,
+  "supplemental_weight_curve_rows": 208,
+  "formal_inference": "not_run",
+  "full_pytest_this_turn": "not_run_statistics_inputs_unchanged"
+}

@@ -1,0 +1,500 @@
+{
+  "schema_version": "tournament-planning-audit-v1",
+  "audited_at_utc": "2026-10-24T05:42:10.115813+00:00",
+  "executor": "Codex (AI)",
+  "data_version": "prep-3fab808178cf8ad71d88",
+  "source": "data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv",
+  "source_sha256": "69ba00073970fe011a62f5871c08ace6285d7fe75d5a0d79afdac0ef972de9dc",
+  "selection": {
+    "start": "1980-01-01",
+    "end": "2024-12-31",
+    "eligible_venue_analysis": "true",
+    "is_neutral": "false",
+    "eligible_tournament_analysis": "true",
+    "tournament_group": [
+      "friendly",
+      "non_friendly"
+    ]
+  },
+  "selected_records": 26055,
+  "annual_type_counts": [
+    {
+      "year": 1980,
+      "tournament_group": "friendly",
+      "n_matches": 204
+    },
+    {
+      "year": 1980,
+      "tournament_group": "non_friendly",
+      "n_matches": 194
+    },
+    {
+      "year": 1981,
+      "tournament_group": "friendly",
+      "n_matches": 145
+    },
+    {
+      "year": 1981,
+      "tournament_group": "non_friendly",
+      "n_matches": 240
+    },
+    {
+      "year": 1982,
+      "tournament_group": "friendly",
+      "n_matches": 143
+    },
+    {
+      "year": 1982,
+      "tournament_group": "non_friendly",
+      "n_matches": 117
+    },
+    {
+      "year": 1983,
+      "tournament_group": "friendly",
+      "n_matches": 183
+    },
+    {
+      "year": 1983,
+      "tournament_group": "non_friendly",
+      "n_matches": 203
+    },
+    {
+      "year": 1984,
+      "tournament_group": "friendly",
+      "n_matches": 221
+    },
+    {
+      "year": 1984,
+      "tournament_group": "non_friendly",
+      "n_matches": 166
+    },
+    {
+      "year": 1985,
+      "tournament_group": "friendly",
+      "n_matches": 187
+    },
+    {
+      "year": 1985,
+      "tournament_group": "non_friendly",
+      "n_matches": 310
+    },
+    {
+      "year": 1986,
+      "tournament_group": "friendly",
+      "n_matches": 160
+    },
+    {
+      "year": 1986,
+      "tournament_group": "non_friendly",
+      "n_matches": 106
+    },
+    {
+      "year": 1987,
+      "tournament_group": "friendly",
+      "n_matches": 135
+    },
+    {
+      "year": 1987,
+      "tournament_group": "non_friendly",
+      "n_matches": 169
+    },
+    {
+      "year": 1988,
+      "tournament_group": "friendly",
+      "n_matches": 195
+    },
+    {
+      "year": 1988,
+      "tournament_group": "non_friendly",
+      "n_matches": 172
+    },
+    {
+      "year": 1989,
+      "tournament_group": "friendly",
+      "n_matches": 167
+    },
+    {
+      "year": 1989,
+      "tournament_group": "non_friendly",
+      "n_matches": 324
+    },
+    {
+      "year": 1990,
+      "tournament_group": "friendly",
+      "n_matches": 183
+    },
+    {
+      "year": 1990,
+      "tournament_group": "non_friendly",
+      "n_matches": 151
+    },
+    {
+      "year": 1991,
+      "tournament_group": "friendly",
+      "n_matches": 153
+    },
+    {
+      "year": 1991,
+      "tournament_group": "non_friendly",
+      "n_matches": 210
+    },
+    {
+      "year": 1992,
+      "tournament_group": "friendly",
+      "n_matches": 216
+    },
+    {
+      "year": 1992,
+      "tournament_group": "non_friendly",
+      "n_matches": 263
+    },
+    {
+      "year": 1993,
+      "tournament_group": "friendly",
+      "n_matches": 165
+    },
+    {
+      "year": 1993,
+      "tournament_group": "non_friendly",
+      "n_matches": 401
+    },
+    {
+      "year": 1994,
+      "tournament_group": "friendly",
+      "n_matches": 237
+    },
+    {
+      "year": 1994,
+      "tournament_group": "non_friendly",
+      "n_matches": 168
+    },
+    {
+      "year": 1995,
+      "tournament_group": "friendly",
+      "n_matches": 174
+    },
+    {
+      "year": 1995,
+      "tournament_group": "non_friendly",
+      "n_matches": 330
+    },
+    {
+      "year": 1996,
+      "tournament_group": "friendly",
+      "n_matches": 281
+    },
+    {
+      "year": 1996,
+      "tournament_group": "non_friendly",
+      "n_matches": 359
+    },
+    {
+      "year": 1997,
+      "tournament_group": "friendly",
+      "n_matches": 189
+    },
+    {
+      "year": 1997,
+      "tournament_group": "non_friendly",
+      "n_matches": 527
+    },
+    {
+      "year": 1998,
+      "tournament_group": "friendly",
+      "n_matches": 262
+    },
+    {
+      "year": 1998,
+      "tournament_group": "non_friendly",
+      "n_matches": 231
+    },
+    {
+      "year": 1999,
+      "tournament_group": "friendly",
+      "n_matches": 246
+    },
+    {
+      "year": 1999,
+      "tournament_group": "non_friendly",
+      "n_matches": 320
+    },
+    {
+      "year": 2000,
+      "tournament_group": "friendly",
+      "n_matches": 326
+    },
+    {
+      "year": 2000,
+      "tournament_group": "non_friendly",
+      "n_matches": 470
+    },
+    {
+      "year": 2001,
+      "tournament_group": "friendly",
+      "n_matches": 226
+    },
+    {
+      "year": 2001,
+      "tournament_group": "non_friendly",
+      "n_matches": 586
+    },
+    {
+      "year": 2002,
+      "tournament_group": "friendly",
+      "n_matches": 309
+    },
+    {
+      "year": 2002,
+      "tournament_group": "non_friendly",
+      "n_matches": 218
+    },
+    {
+      "year": 2003,
+      "tournament_group": "friendly",
+      "n_matches": 267
+    },
+    {
+      "year": 2003,
+      "tournament_group": "non_friendly",
+      "n_matches": 462
+    },
+    {
+      "year": 2004,
+      "tournament_group": "friendly",
+      "n_matches": 333
+    },
+    {
+      "year": 2004,
+      "tournament_group": "non_friendly",
+      "n_matches": 486
+    },
+    {
+      "year": 2005,
+      "tournament_group": "friendly",
+      "n_matches": 207
+    },
+    {
+      "year": 2005,
+      "tournament_group": "non_friendly",
+      "n_matches": 421
+    },
+    {
+      "year": 2006,
+      "tournament_group": "friendly",
+      "n_matches": 270
+    },
+    {
+      "year": 2006,
+      "tournament_group": "non_friendly",
+      "n_matches": 283
+    },
+    {
+      "year": 2007,
+      "tournament_group": "friendly",
+      "n_matches": 265
+    },
+    {
+      "year": 2007,
+      "tournament_group": "non_friendly",
+      "n_matches": 457
+    },
+    {
+      "year": 2008,
+      "tournament_group": "friendly",
+      "n_matches": 339
+    },
+    {
+      "year": 2008,
+      "tournament_group": "non_friendly",
+      "n_matches": 506
+    },
+    {
+      "year": 2009,
+      "tournament_group": "friendly",
+      "n_matches": 246
+    },
+    {
+      "year": 2009,
+      "tournament_group": "non_friendly",
+      "n_matches": 439
+    },
+    {
+      "year": 2010,
+      "tournament_group": "friendly",
+      "n_matches": 321
+    },
+    {
+      "year": 2010,
+      "tournament_group": "non_friendly",
+      "n_matches": 238
+    },
+    {
+      "year": 2011,
+      "tournament_group": "friendly",
+      "n_matches": 302
+    },
+    {
+      "year": 2011,
+      "tournament_group": "non_friendly",
+      "n_matches": 531
+    },
+    {
+      "year": 2012,
+      "tournament_group": "friendly",
+      "n_matches": 307
+    },
+    {
+      "year": 2012,
+      "tournament_group": "non_friendly",
+      "n_matches": 395
+    },
+    {
+      "year": 2013,
+      "tournament_group": "friendly",
+      "n_matches": 255
+    },
+    {
+      "year": 2013,
+      "tournament_group": "non_friendly",
+      "n_matches": 457
+    },
+    {
+      "year": 2014,
+      "tournament_group": "friendly",
+      "n_matches": 289
+    },
+    {
+      "year": 2014,
+      "tournament_group": "non_friendly",
+      "n_matches": 298
+    },
+    {
+      "year": 2015,
+      "tournament_group": "friendly",
+      "n_matches": 223
+    },
+    {
+      "year": 2015,
+      "tournament_group": "non_friendly",
+      "n_matches": 522
+    },
+    {
+      "year": 2016,
+      "tournament_group": "friendly",
+      "n_matches": 245
+    },
+    {
+      "year": 2016,
+      "tournament_group": "non_friendly",
+      "n_matches": 450
+    },
+    {
+      "year": 2017,
+      "tournament_group": "friendly",
+      "n_matches": 228
+    },
+    {
+      "year": 2017,
+      "tournament_group": "non_friendly",
+      "n_matches": 436
+    },
+    {
+      "year": 2018,
+      "tournament_group": "friendly",
+      "n_matches": 308
+    },
+    {
+      "year": 2018,
+      "tournament_group": "non_friendly",
+      "n_matches": 348
+    },
+    {
+      "year": 2019,
+      "tournament_group": "friendly",
+      "n_matches": 179
+    },
+    {
+      "year": 2019,
+      "tournament_group": "non_friendly",
+      "n_matches": 620
+    },
+    {
+      "year": 2020,
+      "tournament_group": "friendly",
+      "n_matches": 72
+    },
+    {
+      "year": 2020,
+      "tournament_group": "non_friendly",
+      "n_matches": 237
+    },
+    {
+      "year": 2021,
+      "tournament_group": "friendly",
+      "n_matches": 143
+    },
+    {
+      "year": 2021,
+      "tournament_group": "non_friendly",
+      "n_matches": 616
+    },
+    {
+      "year": 2022,
+      "tournament_group": "friendly",
+      "n_matches": 204
+    },
+    {
+      "year": 2022,
+      "tournament_group": "non_friendly",
+      "n_matches": 388
+    },
+    {
+      "year": 2023,
+      "tournament_group": "friendly",
+      "n_matches": 176
+    },
+    {
+      "year": 2023,
+      "tournament_group": "non_friendly",
+      "n_matches": 569
+    },
+    {
+      "year": 2024,
+      "tournament_group": "friendly",
+      "n_matches": 154
+    },
+    {
+      "year": 2024,
+      "tournament_group": "non_friendly",
+      "n_matches": 621
+    }
+  ],
+  "missing_annual_type_cells": [],
+  "pre1980_clean_records": 12064,
+  "1970s_clean_records": 4116,
+  "world_cup_neutral_flags": {
+    "true": 592,
+    "false": 64
+  },
+  "literal_away_country_flags": [
+    {
+      "match_id": "results:96f8ad69ef117493c922104fff275622640019dcb205e150b4191994e7f57f60",
+      "source_record_id": "results:5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767:30568",
+      "date": "2006-12-09",
+      "home_team": "Silesia",
+      "away_team": "Poland",
+      "city": "Chorzów",
+      "country": "Poland",
+      "is_neutral": "false",
+      "tournament": "Friendly",
+      "venue_basis": "dataset"
+    }
+  ],
+  "flag_rule": "country equals away_team and differs from home_team, using literal strings only",
+  "fact_review": "pending",
+  "limitations": [
+    "Literal string screening is incomplete and does not establish an incorrect venue flag.",
+    "No official match fact verification, team geographic registry or completeness claim.",
+    "No outcome rates, model, uncertainty estimator or simulation calculated."
+  ]
+}

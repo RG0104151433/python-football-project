@@ -1,0 +1,189 @@
+{
+  "decisions": [
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 35,
+      "decision_id": "D-HISTORY-001"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 59,
+      "decision_id": "D-HISTORY-002"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 168,
+      "decision_id": "D-HISTORY-003"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 9,
+      "decision_id": "D-HISTORY-004"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 3,
+      "decision_id": "D-HISTORY-005"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 7,
+      "decision_id": "D-HISTORY-006"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 4,
+      "decision_id": "D-HISTORY-007"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 8,
+      "decision_id": "D-HISTORY-008"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 57,
+      "decision_id": "D-HISTORY-009"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 169,
+      "decision_id": "D-HISTORY-010"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 7,
+      "decision_id": "D-HISTORY-011"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 48,
+      "decision_id": "D-HISTORY-012"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 212,
+      "decision_id": "D-HISTORY-013"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 10,
+      "decision_id": "D-HISTORY-014"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 5,
+      "decision_id": "D-HISTORY-015"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 76,
+      "decision_id": "D-HISTORY-016"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 5,
+      "decision_id": "D-HISTORY-017"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 5,
+      "decision_id": "D-HISTORY-018"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 5,
+      "decision_id": "D-HISTORY-019"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 66,
+      "decision_id": "D-HISTORY-020"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 250,
+      "decision_id": "D-HISTORY-021"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 228,
+      "decision_id": "D-HISTORY-022"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 192,
+      "decision_id": "D-HISTORY-023"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 20,
+      "decision_id": "D-HISTORY-024"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 37,
+      "decision_id": "D-HISTORY-025"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 378,
+      "decision_id": "D-HISTORY-026"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 12,
+      "decision_id": "D-HISTORY-027"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 18,
+      "decision_id": "D-HISTORY-028"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 94,
+      "decision_id": "D-HISTORY-029"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 36,
+      "decision_id": "D-HISTORY-030"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 16,
+      "decision_id": "D-HISTORY-031"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 153,
+      "decision_id": "D-HISTORY-032"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 45,
+      "decision_id": "D-HISTORY-033"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 36,
+      "decision_id": "D-HISTORY-034"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 21,
+      "decision_id": "D-HISTORY-035"
+    },
+    {
+      "action": "historical_annotation",
+      "affected_appearances": 29,
+      "decision_id": "D-HISTORY-036"
+    },
+    {
+      "action": "exclude_match",
+      "affected_appearances": 1,
+      "decision_id": "D-SILESIA-20061209"
+    }
+  ]
+}
