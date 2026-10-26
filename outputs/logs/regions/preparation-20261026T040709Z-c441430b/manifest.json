@@ -1,0 +1,35 @@
+{
+ "run_id": "preparation-20261026T040709Z-c441430b",
+ "command": "python scripts/prepare_region_mapping.py",
+ "package_dir": "data/external/geography_preparation/geo-prep-v1",
+ "run_dir": "outputs\\logs\\regions\\preparation-20261026T040709Z-c441430b",
+ "files": {
+  "candidate_comparisons.csv": "e502a633c78a285c817cb4b9cd781b80303fdf81b4437fbaec8d6c09cd8b6631",
+  "counts_direction_matrix.csv": "fed1052ddde226b5715e3c947996f6d5e45e4fddb459218b701f90e7979429fc",
+  "counts_home_region_era_tournament.csv": "3fa2cd0071e79a3976d1ab868252462a4a2fcc422be0e8c91ff953f4bf1f5bbc",
+  "counts_home_unit_era_tournament.csv": "149396df2d727ded8e219bac6e80bb0a033d594a34d701670438713aea9d55a8",
+  "counts_relation_era_tournament.csv": "7176991cb7d94f4231887dd1bd800218f5c8281f9d594493d4bf1991ace7d331",
+  "inputs_used.json": "a3339a12b32b64b2e4d0b4b4afd6a6a2b4ca704eb727350520a92831117eec4e",
+  "linkage_checks.json": "719b600bd954b0764839c45979a61d4ce51bcb66689f16e0c8dd728d4d817797",
+  "match_region_relations.csv": "22b98ea6e78688019c30b1d1ea48a8897e86bb1f9502879d777447121547c4eb",
+  "reference_support.csv": "7c21296806f6412449cb234dded5fb81ac22d181360ac7243a6d1ab0e5908e01",
+  "team_geography_rules.csv": "e4e99c8d106fe8c8590108e0f40764bdd5703dce7f0d921c055160399ea3b3a0",
+  "team_inventory.csv": "87aa9c3d5f68eecab8299d6ba1fd92a6549d9f7c18cee4ed8e27d6b3dc29e6d6",
+  "unknown_distribution.csv": "55a9ab7eca93b6c9b43c973ab960ee7020a8a2870c74f0d79385c5c128c7913e",
+  "validation_report.json": "12f66922ebb92b89a6478e422843db13678f54fb44eb166034073ca1276c20cd"
+ },
+ "package_files": {
+  "exceptions.csv": "70ed749b0fd852a939b61217b12c0834c730bb2018f8b67c13fead3779e24ec5",
+  "region_dictionary.csv": "45221a1aa597809aeea0e1a7e660aa38af89c29952e4dd5374ebe45e5456262a",
+  "sources.csv": "7d65460b3bd4fc31976dd29350647a763b2352147b277536bd1380ab09e6d02f",
+  "team_geography_seed.csv": "e16b82c72384e721174e7188f20ea7a398a46127e23b272667f0b85e77406935"
+ },
+ "cannot_redo": [],
+ "versions": {
+  "data_version": "prep-3fab808178cf8ad71d88",
+  "identity_version": "identity-reviewed-29d880765c1623764940",
+  "sample_id": "sample-3bc69e2cc4f843242018",
+  "q2_version": "tournaments-4893e38db46f83f6c219",
+  "m49": "accessed 2026-10-26"
+ }
+}

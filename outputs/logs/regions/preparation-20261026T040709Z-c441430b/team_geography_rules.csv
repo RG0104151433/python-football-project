@@ -1,0 +1,218 @@
+﻿rule_id,team_id,entity,m49_code,project_region_code,project_unit_code,date_start,date_end,date_precision,status,source_id,reason
+GEO-R001,team:afghanistan,Afghanistan,004,142,034,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R002,team:albania,Albania,008,150,039,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R003,team:algeria,Algeria,012,002,015,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R004,team:american-samoa,American Samoa,016,009,061,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R005,team:andorra,Andorra,020,150,039,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R006,team:angola,Angola,024,002,017,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R007,team:anguilla,Anguilla,660,019,029,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R008,team:antigua-and-barbuda,Antigua and Barbuda,028,019,029,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R009,team:argentina,Argentina,032,019,005,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R010,team:armenia,Armenia,051,142,145,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R011,team:aruba,Aruba,533,019,029,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R012,team:australia,Australia,036,009,053,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R013,team:austria,Austria,040,150,155,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R014,team:azerbaijan,Azerbaijan,031,142,145,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R015,team:bahamas,Bahamas,044,019,029,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R016,team:bahrain,Bahrain,048,142,145,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R017,team:bangladesh,Bangladesh,050,142,034,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R018,team:barbados,Barbados,052,019,029,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R019,team:belarus,Belarus,112,150,151,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R020,team:belgium,Belgium,056,150,155,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R021,team:belize,Belize,084,019,013,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R022,team:benin,Benin,204,002,011,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R023,team:bermuda,Bermuda,060,019,021,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R024,team:bhutan,Bhutan,064,142,034,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R025,team:bolivia,Bolivia；Bolivia (Plurinational State of),068,019,005,1980-01-01,2024-12-31,analysis_window,project_mapping,SRC-M49-UNSD-2026,M49 国家/地区条目；例外说明：Bolivia (Plurinational State of)
+GEO-R026,team:bosnia-and-herzegovina,Bosnia and Herzegovina,070,150,039,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R027,team:botswana,Botswana,072,002,018,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R028,team:brazil,Brazil,076,019,005,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R029,team:british-virgin-islands,British Virgin Islands,092,019,029,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R030,team:brunei,Brunei,096,142,035,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R031,team:bulgaria,Bulgaria,100,150,151,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R032,team:burkina-faso,Burkina Faso,854,002,011,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R033,team:burundi,Burundi,108,002,014,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R034,team:cambodia,Cambodia,116,142,035,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R035,team:cameroon,Cameroon,120,002,017,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R036,team:canada,Canada,124,019,021,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R037,team:cape-verde,Cape Verde,132,002,011,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R038,team:cayman-islands,Cayman Islands,136,019,029,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R039,team:central-african-republic,Central African Republic,140,002,017,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R040,team:chad,Chad,148,002,017,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R041,team:chile,Chile,152,019,005,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R042,team:china,China,156,142,030,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R043,team:colombia,Colombia,170,019,005,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R044,team:comoros,Comoros,174,002,014,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R045,team:congo,Congo,178,002,017,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R046,team:cook-islands,Cook Islands,184,009,061,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R047,team:costa-rica,Costa Rica,188,019,013,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R048,team:croatia,Croatia,191,150,039,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R049,team:cuba,Cuba,192,019,029,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R050,team:curacao,Curaçao；Curaçao,531,019,029,1980-01-01,2024-12-31,analysis_window,project_mapping,SRC-M49-UNSD-2026,M49 国家/地区条目；例外说明：Curaçao
+GEO-R051,team:cyprus,Cyprus,196,142,145,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R052,team:czech-republic,Czech Republic；Czechia,203,150,151,1980-01-01,2024-12-31,analysis_window,project_mapping,SRC-M49-UNSD-2026,M49 国家/地区条目；例外说明：Czechia
+GEO-R053,team:czechoslovakia,Czechoslovakia；Czechia (successor seat),203,150,151,1980-01-01,2024-12-31,analysis_window,project_mapping,SRC-M49-UNSD-2026,M49 国家/地区条目；例外说明：Czechia (successor seat)
+GEO-R054,team:denmark,Denmark,208,150,154,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R055,team:djibouti,Djibouti,262,002,014,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R056,team:dominica,Dominica,212,019,029,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R057,team:dominican-republic,Dominican Republic,214,019,029,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R058,team:dr-congo,DR Congo,180,002,017,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R059,team:ecuador,Ecuador,218,019,005,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R060,team:egypt,Egypt,818,002,015,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R061,team:el-salvador,El Salvador,222,019,013,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R062,team:england,England；United Kingdom,826,150,154,1980-01-01,2024-12-31,analysis_window,project_mapping,SRC-M49-UNSD-2026,M49 国家/地区条目；例外说明：United Kingdom
+GEO-R063,team:equatorial-guinea,Equatorial Guinea,226,002,017,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R064,team:eritrea,Eritrea,232,002,014,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R065,team:estonia,Estonia,233,150,154,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R066,team:eswatini,Eswatini,748,002,018,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R067,team:ethiopia,Ethiopia,231,002,014,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R068,team:faroe-islands,Faroe Islands,234,150,154,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R069,team:fiji,Fiji,242,009,054,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R070,team:finland,Finland,246,150,154,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R071,team:france,France,250,150,155,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R072,team:gabon,Gabon,266,002,017,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R073,team:gambia,Gambia,270,002,011,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R074,team:georgia,Georgia,268,142,145,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R075,team:german-dr,German DR；Germany,276,150,155,1980-01-01,2024-12-31,analysis_window,project_mapping,SRC-M49-UNSD-2026,M49 国家/地区条目；例外说明：Germany
+GEO-R076,team:germany,Germany,276,150,155,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R077,team:ghana,Ghana,288,002,011,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R078,team:gibraltar,Gibraltar,292,150,039,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R079,team:greece,Greece,300,150,039,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R080,team:grenada,Grenada,308,019,029,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R081,team:guam,Guam,316,009,057,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R082,team:guatemala,Guatemala,320,019,013,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R083,team:guinea,Guinea,324,002,011,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R084,team:guinea-bissau,Guinea-Bissau,624,002,011,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R085,team:guyana,Guyana,328,019,005,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R086,team:haiti,Haiti,332,019,029,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R087,team:honduras,Honduras,340,019,013,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R088,team:hong-kong,"Hong Kong；China, Hong Kong SAR",344,142,030,1980-01-01,2024-12-31,analysis_window,project_mapping,SRC-M49-UNSD-2026,"M49 国家/地区条目；例外说明：China, Hong Kong SAR"
+GEO-R089,team:hungary,Hungary,348,150,151,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R090,team:iceland,Iceland,352,150,154,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R091,team:india,India,356,142,034,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R092,team:indonesia,Indonesia,360,142,035,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R093,team:iran,Iran；Iran (Islamic Republic of),364,142,034,1980-01-01,2024-12-31,analysis_window,project_mapping,SRC-M49-UNSD-2026,M49 国家/地区条目；例外说明：Iran (Islamic Republic of)
+GEO-R094,team:iraq,Iraq,368,142,145,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R095,team:israel,Israel,376,142,145,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R096,team:italy,Italy,380,150,039,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R097,team:ivory-coast,Ivory Coast,384,002,011,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R098,team:jamaica,Jamaica,388,019,029,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R099,team:japan,Japan,392,142,030,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R100,team:jordan,Jordan,400,142,145,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R101,team:kazakhstan,Kazakhstan,398,142,143,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R102,team:kenya,Kenya,404,002,014,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R103,team:kosovo,Kosovo；Kosovo (M49 FAQ: part of Serbia 688; statistical code 412),412,150,039,1980-01-01,2024-12-31,analysis_window,project_mapping,SRC-M49-UNSD-2026,M49 国家/地区条目；例外说明：Kosovo (M49 FAQ: part of Serbia 688; statistical code 412)
+GEO-R104,team:kuwait,Kuwait,414,142,145,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R105,team:kyrgyzstan,Kyrgyzstan,417,142,143,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R106,team:laos,Laos,418,142,035,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R107,team:latvia,Latvia,428,150,154,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R108,team:lebanon,Lebanon,422,142,145,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R109,team:lesotho,Lesotho,426,002,018,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R110,team:liberia,Liberia,430,002,011,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R111,team:libya,Libya,434,002,015,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R112,team:liechtenstein,Liechtenstein,438,150,155,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R113,team:lithuania,Lithuania,440,150,154,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R114,team:luxembourg,Luxembourg,442,150,155,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R115,team:macau,"Macau；China, Macao SAR",446,142,030,1980-01-01,2024-12-31,analysis_window,project_mapping,SRC-M49-UNSD-2026,"M49 国家/地区条目；例外说明：China, Macao SAR"
+GEO-R116,team:madagascar,Madagascar,450,002,014,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R117,team:malawi,Malawi,454,002,014,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R118,team:malaysia,Malaysia,458,142,035,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R119,team:maldives,Maldives,462,142,034,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R120,team:mali,Mali,466,002,011,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R121,team:malta,Malta,470,150,039,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R122,team:mauritania,Mauritania,478,002,011,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R123,team:mauritius,Mauritius,480,002,014,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R124,team:mexico,Mexico,484,019,013,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R125,team:moldova,Moldova,498,150,151,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R126,team:mongolia,Mongolia,496,142,030,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R127,team:montenegro,Montenegro,499,150,039,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R128,team:montserrat,Montserrat,500,019,029,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R129,team:morocco,Morocco,504,002,015,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R130,team:mozambique,Mozambique,508,002,014,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R131,team:myanmar,Myanmar,104,142,035,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R132,team:namibia,Namibia,516,002,018,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R133,team:nepal,Nepal,524,142,034,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R134,team:netherlands,Netherlands；Netherlands (Kingdom of the),528,150,155,1980-01-01,2024-12-31,analysis_window,project_mapping,SRC-M49-UNSD-2026,M49 国家/地区条目；例外说明：Netherlands (Kingdom of the)
+GEO-R135,team:new-caledonia,New Caledonia,540,009,054,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R136,team:new-zealand,New Zealand,554,009,053,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R137,team:nicaragua,Nicaragua,558,019,013,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R138,team:niger,Niger,562,002,011,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R139,team:nigeria,Nigeria,566,002,011,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R140,team:north-korea,North Korea；North Korea,408,142,030,1980-01-01,2024-12-31,analysis_window,project_mapping,SRC-M49-UNSD-2026,M49 国家/地区条目；例外说明：North Korea
+GEO-R141,team:north-macedonia,North Macedonia,807,150,039,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R142,team:northern-ireland,Northern Ireland；United Kingdom,826,150,154,1980-01-01,2024-12-31,analysis_window,project_mapping,SRC-M49-UNSD-2026,M49 国家/地区条目；例外说明：United Kingdom
+GEO-R143,team:norway,Norway,578,150,154,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R144,team:oman,Oman,512,142,145,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R145,team:pakistan,Pakistan,586,142,034,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R146,team:palestine,Palestine；State of Palestine,275,142,145,1980-01-01,2024-12-31,analysis_window,project_mapping,SRC-M49-UNSD-2026,M49 国家/地区条目；例外说明：State of Palestine
+GEO-R147,team:panama,Panama,591,019,013,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R148,team:papua-new-guinea,Papua New Guinea,598,009,054,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R149,team:paraguay,Paraguay,600,019,005,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R150,team:peru,Peru,604,019,005,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R151,team:philippines,Philippines,608,142,035,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R152,team:poland,Poland,616,150,151,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R153,team:portugal,Portugal,620,150,039,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R154,team:puerto-rico,Puerto Rico,630,019,029,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R155,team:qatar,Qatar,634,142,145,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R156,team:republic-of-ireland,Republic of Ireland；Ireland,372,150,154,1980-01-01,2024-12-31,analysis_window,project_mapping,SRC-M49-UNSD-2026,M49 国家/地区条目；例外说明：Ireland
+GEO-R157,team:romania,Romania,642,150,151,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R158,team:russia,Russia / USSR / CIS,,,,1980-01-01,1991-12-25,project_rule,multi_region,SRC-M49-UNSD-2026,苏联时期：跨欧亚，无法唯一归入单一大区（不按首都或继承国猜）
+GEO-R159,team:russia,Russia / USSR / CIS,,,,1991-12-26,1992-07-02,project_rule,multi_region,SRC-M49-UNSD-2026,独联体过渡期：无单一大区
+GEO-R160,team:russia,Russia / USSR / CIS,643,150,151,1992-07-03,2024-12-31,project_rule,resolved,SRC-M49-UNSD-2026,俄罗斯：欧洲/东欧；1992-07-03 为俄足协FIFA接纳日（项目规则，见身份阶段记录）
+GEO-R161,team:rwanda,Rwanda,646,002,014,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R162,team:saint-kitts-and-nevis,Saint Kitts and Nevis,659,019,029,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R163,team:saint-lucia,Saint Lucia,662,019,029,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R164,team:saint-vincent-and-the-grenadines,Saint Vincent and the Grenadines,670,019,029,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R165,team:samoa,Samoa,882,009,061,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R166,team:san-marino,San Marino,674,150,039,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R167,team:sao-tome-and-principe,São Tomé and Príncipe,678,002,017,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R168,team:saudi-arabia,Saudi Arabia,682,142,145,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R169,team:scotland,Scotland；United Kingdom,826,150,154,1980-01-01,2024-12-31,analysis_window,project_mapping,SRC-M49-UNSD-2026,M49 国家/地区条目；例外说明：United Kingdom
+GEO-R170,team:senegal,Senegal,686,002,011,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R171,team:serbia,Serbia,688,150,039,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R172,team:seychelles,Seychelles,690,002,014,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R173,team:sierra-leone,Sierra Leone,694,002,011,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R174,team:singapore,Singapore,702,142,035,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R175,team:sint-maarten,Sint Maarten；Sint Maarten (Dutch part),534,019,029,1980-01-01,2024-12-31,analysis_window,project_mapping,SRC-M49-UNSD-2026,M49 国家/地区条目；例外说明：Sint Maarten (Dutch part)
+GEO-R176,team:slovakia,Slovakia,703,150,151,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R177,team:slovenia,Slovenia,705,150,039,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R178,team:solomon-islands,Solomon Islands,090,009,054,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R179,team:somalia,Somalia,706,002,014,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R180,team:south-africa,South Africa,710,002,018,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R181,team:south-korea,South Korea；South Korea,410,142,030,1980-01-01,2024-12-31,analysis_window,project_mapping,SRC-M49-UNSD-2026,M49 国家/地区条目；例外说明：South Korea
+GEO-R182,team:south-sudan,South Sudan,728,002,014,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R183,team:spain,Spain,724,150,039,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R184,team:sri-lanka,Sri Lanka,144,142,034,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R185,team:sudan,Sudan,729,002,015,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R186,team:suriname,Suriname,740,019,005,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R187,team:sweden,Sweden,752,150,154,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R188,team:switzerland,Switzerland,756,150,155,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R189,team:syria,Syria,760,142,145,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R190,team:tahiti,Tahiti；French Polynesia,258,009,061,1980-01-01,2024-12-31,analysis_window,project_mapping,SRC-M49-UNSD-2026,M49 国家/地区条目；例外说明：French Polynesia
+GEO-R191,team:taiwan,Taiwan；Taiwan (M49 FAQ: part of China 156 for M49),156,142,030,1980-01-01,2024-12-31,analysis_window,project_mapping,SRC-M49-UNSD-2026,M49 国家/地区条目；例外说明：Taiwan (M49 FAQ: part of China 156 for M49)
+GEO-R192,team:tajikistan,Tajikistan,762,142,143,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R193,team:tanzania,Tanzania,834,002,014,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R194,team:thailand,Thailand,764,142,035,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R195,team:timor-leste,Timor-Leste,626,142,035,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R196,team:togo,Togo,768,002,011,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R197,team:tonga,Tonga,776,009,061,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R198,team:trinidad-and-tobago,Trinidad and Tobago,780,019,029,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R199,team:tunisia,Tunisia,788,002,015,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R200,team:turkey,Turkey,792,142,145,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R201,team:turkmenistan,Turkmenistan,795,142,143,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R202,team:turks-and-caicos-islands,Turks and Caicos Islands,796,019,029,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R203,team:uganda,Uganda,800,002,014,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R204,team:ukraine,Ukraine,804,150,151,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R205,team:united-arab-emirates,United Arab Emirates,784,142,145,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R206,team:united-states,United States；United States of America,840,019,021,1980-01-01,2024-12-31,analysis_window,project_mapping,SRC-M49-UNSD-2026,M49 国家/地区条目；例外说明：United States of America
+GEO-R207,team:united-states-virgin-islands,United States Virgin Islands,850,019,029,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R208,team:uruguay,Uruguay,858,019,005,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R209,team:uzbekistan,Uzbekistan,860,142,143,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R210,team:vanuatu,Vanuatu,548,009,054,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R211,team:venezuela,Venezuela；Venezuela (Bolivarian Republic of),862,019,005,1980-01-01,2024-12-31,analysis_window,project_mapping,SRC-M49-UNSD-2026,M49 国家/地区条目；例外说明：Venezuela (Bolivarian Republic of)
+GEO-R212,team:vietnam,Vietnam,704,142,035,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R213,team:wales,Wales；United Kingdom,826,150,154,1980-01-01,2024-12-31,analysis_window,project_mapping,SRC-M49-UNSD-2026,M49 国家/地区条目；例外说明：United Kingdom
+GEO-R214,team:yemen,Yemen,887,142,145,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R215,team:yugoslavia,Yugoslavia；Serbia (successor seat),688,150,039,1980-01-01,2024-12-31,analysis_window,project_mapping,SRC-M49-UNSD-2026,M49 国家/地区条目；例外说明：Serbia (successor seat)
+GEO-R216,team:zambia,Zambia,894,002,014,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目
+GEO-R217,team:zimbabwe,Zimbabwe,716,002,014,1980-01-01,2024-12-31,analysis_window,source_explicit,SRC-M49-UNSD-2026,M49 国家/地区条目

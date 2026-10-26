@@ -1,0 +1,12 @@
+﻿target_id,target_type,home_background,comparison_groups,difference_direction,purpose,coverage_issue,status
+CAND-A1,A,欧洲 vs 亚洲,主队大区 150 与 142,欧洲主胜率 − 亚洲主胜率（方向待定，未计算）,主队大区背景比较,场数 8045 vs 5921；见 counts 文件,candidate_pending_mainline
+CAND-A2,A,欧洲 vs 非洲,主队大区 150 与 002,欧洲主胜率 − 非洲主胜率（方向待定，未计算）,主队大区背景比较,场数 8045 vs 5868；见 counts 文件,candidate_pending_mainline
+CAND-A3,A,欧洲 vs 美洲,主队大区 150 与 019,欧洲主胜率 − 美洲主胜率（方向待定，未计算）,主队大区背景比较,场数 8045 vs 4555；见 counts 文件,candidate_pending_mainline
+CAND-A4,A,亚洲 vs 非洲,主队大区 142 与 002,亚洲主胜率 − 非洲主胜率（方向待定，未计算）,主队大区背景比较,场数 5921 vs 5868；见 counts 文件,candidate_pending_mainline
+CAND-A5,A,亚洲 vs 美洲,主队大区 142 与 019,亚洲主胜率 − 美洲主胜率（方向待定，未计算）,主队大区背景比较,场数 5921 vs 4555；见 counts 文件,candidate_pending_mainline
+CAND-A6,A,非洲 vs 美洲,主队大区 002 与 019,非洲主胜率 − 美洲主胜率（方向待定，未计算）,主队大区背景比较,场数 5868 vs 4555；见 counts 文件,candidate_pending_mainline
+CAND-B1,B,欧洲内,cross_region vs 其余关系（固定主队大区）,固定欧洲后 cross/same 关系主胜率差（未计算）,同一主队大区内的对手关系比较,cross_region 场数 1626,candidate_pending_mainline
+CAND-B2,B,欧洲内,same_unit vs 其余关系（固定主队大区）,固定欧洲后 cross/same 关系主胜率差（未计算）,同一主队大区内的对手关系比较,same_unit 场数 1764,candidate_pending_mainline
+CAND-B3,B,亚洲内,cross_region vs 其余关系（固定主队大区）,固定亚洲后 cross/same 关系主胜率差（未计算）,同一主队大区内的对手关系比较,cross_region 场数 1866,candidate_pending_mainline
+CAND-B4,B,亚洲内,same_unit vs 其余关系（固定主队大区）,固定亚洲后 cross/same 关系主胜率差（未计算）,同一主队大区内的对手关系比较,same_unit 场数 1819,candidate_pending_mainline
+CAND-C1,C,欧洲,北欧 与 南欧 与 西欧,洲内细区之间主胜率差（未计算）,大区平均是否遮盖洲内差异,北欧 2504；南欧 2218；西欧 1703,candidate_pending_mainline

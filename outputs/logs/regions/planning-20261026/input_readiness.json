@@ -1,0 +1,120 @@
+{
+  "schema_version": "regions-input-readiness-v1",
+  "created_at_utc": "2026-10-26T02:12:56.602972+00:00",
+  "decision_log_id": "R20261026-02",
+  "executor": "Codex (AI)",
+  "status": "readiness_audit_only_region_assignment_not_performed",
+  "source_run": "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/run_manifest.json",
+  "data_version": "prep-3fab808178cf8ad71d88",
+  "identity_version": "identity-reviewed-29d880765c1623764940",
+  "sample_id": "sample-3bc69e2cc4f843242018",
+  "source_fingerprints": {
+    "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/run_manifest.json": "c25cb3672ff004939171a59e460de8ba4c7f960fc35e1dbf033b1dbe2cced0ca",
+    "data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv": "69ba00073970fe011a62f5871c08ace6285d7fe75d5a0d79afdac0ef972de9dc",
+    "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/analysis_membership.csv": "4294840536c707abef248b166c015de8f7fac39dcf14a37c7dcd75911283e166",
+    "data/processed/team_identity/identity-reviewed-29d880765c1623764940/association_registry.csv": "fe7d7ca532238804562d9a0bc999112aad660ba107560708fecb078aee6faf80"
+  },
+  "n_matches": 24917,
+  "n_home_team_ids": 214,
+  "n_away_team_ids": 214,
+  "n_all_team_ids": 215,
+  "home_matches_per_team_min": 1,
+  "home_matches_per_team_max": 405,
+  "n_year_type_cells": 90,
+  "minimum_year_type_count_by_group": {
+    "friendly": 71,
+    "non_friendly": 101
+  },
+  "era_type_counts": [
+    {
+      "period_id": "1980s",
+      "tournament_group": "friendly",
+      "n_matches": 1656,
+      "pooled_reference_weight": 0.06646064935586146
+    },
+    {
+      "period_id": "1980s",
+      "tournament_group": "non_friendly",
+      "n_matches": 1848,
+      "pooled_reference_weight": 0.07416623188987438
+    },
+    {
+      "period_id": "1990s",
+      "tournament_group": "friendly",
+      "n_matches": 2013,
+      "pooled_reference_weight": 0.08078821688004174
+    },
+    {
+      "period_id": "1990s",
+      "tournament_group": "non_friendly",
+      "n_matches": 2801,
+      "pooled_reference_weight": 0.11241321186338644
+    },
+    {
+      "period_id": "2000s",
+      "tournament_group": "friendly",
+      "n_matches": 2670,
+      "pooled_reference_weight": 0.1071557571136172
+    },
+    {
+      "period_id": "2000s",
+      "tournament_group": "non_friendly",
+      "n_matches": 4202,
+      "pooled_reference_weight": 0.168639884416262
+    },
+    {
+      "period_id": "2010s",
+      "tournament_group": "friendly",
+      "n_matches": 2519,
+      "pooled_reference_weight": 0.10109563751655497
+    },
+    {
+      "period_id": "2010s",
+      "tournament_group": "non_friendly",
+      "n_matches": 4113,
+      "pooled_reference_weight": 0.16506802584580807
+    },
+    {
+      "period_id": "2020_2024",
+      "tournament_group": "friendly",
+      "n_matches": 740,
+      "pooled_reference_weight": 0.029698599349841474
+    },
+    {
+      "period_id": "2020_2024",
+      "tournament_group": "non_friendly",
+      "n_matches": 2355,
+      "pooled_reference_weight": 0.09451378576875226
+    }
+  ],
+  "date_range": {
+    "first": "1980-01-06",
+    "last": "2024-12-31"
+  },
+  "existing_fields_available": [
+    "date",
+    "home_team_id",
+    "away_team_id",
+    "home_score",
+    "away_score",
+    "outcome",
+    "tournament_group",
+    "is_neutral",
+    "country"
+  ],
+  "missing_research_layer": "historical team-to-confederation mapping with effective dates, source and review status",
+  "region_assignment_performed": false,
+  "region_outcome_estimates_calculated": false,
+  "global_cell_coverage_does_not_prove_region_cell_coverage": true,
+  "proposed_target_cells": {
+    "maximum_for_six_confederations_five_eras_two_types": 60,
+    "actual_region_coverage": "not_measured"
+  },
+  "population_changes_applied": false,
+  "human_review": "not_performed",
+  "limitations": [
+    "Home-team labels are registry identifiers, not independently verified historical geographic entities",
+    "Input audit is not a regional performance result",
+    "No regional ordering, uncertainty, sensitivity or causal effect estimated"
+  ]
+}

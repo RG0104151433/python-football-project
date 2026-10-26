@@ -1,0 +1,11 @@
+﻿exception_id,team_id,issue,evidence,current_level,treatment,affected_targets,status
+EXC-england,team:england,英国四个独立足协球队，M49 无对应条目,M49 只有 United Kingdom (826),大区=欧洲；细区=北欧,映射到 826 并保留独立球队ID,A/B/C 均可用,resolved_project_mapping
+EXC-scotland,team:scotland,英国四个独立足协球队，M49 无对应条目,M49 只有 United Kingdom (826),大区=欧洲；细区=北欧,映射到 826 并保留独立球队ID,A/B/C 均可用,resolved_project_mapping
+EXC-wales,team:wales,英国四个独立足协球队，M49 无对应条目,M49 只有 United Kingdom (826),大区=欧洲；细区=北欧,映射到 826 并保留独立球队ID,A/B/C 均可用,resolved_project_mapping
+EXC-northern-ireland,team:northern-ireland,英国四个独立足协球队，M49 无对应条目,M49 只有 United Kingdom (826),大区=欧洲；细区=北欧,映射到 826 并保留独立球队ID,A/B/C 均可用,resolved_project_mapping
+EXC-kosovo,team:kosovo,M49 不单列科索沃,官方 FAQ：M49 中视为塞尔维亚(688)一部分；统计可用 412,大区=欧洲；细区=南欧,采用 412（统计用码），地理层级同塞尔维亚,A/B/C 均可用,resolved_source_faq
+EXC-taiwan,team:taiwan,M49 不单列台湾,官方 FAQ：M49 中视为中国(156)一部分,大区=亚洲；细区=东亚,采用 156，保留独立球队ID,A/B/C 均可用,resolved_source_faq
+EXC-german-dr,team:german-dr,已消失足协（东德）,M49 只有德国(276),大区=欧洲；细区=西欧,按领土对应德国 276；不改球队ID,A/B/C 均可用,resolved_project_mapping
+EXC-czechoslovakia,team:czechoslovakia,已消失足协,M49 只有捷克(203)/斯洛伐克(703)，两国同属东欧,大区=欧洲；细区=东欧,以 203 为载体，细区不受继承国选择影响,A/B/C 均可用,resolved_project_mapping
+EXC-yugoslavia,team:yugoslavia,已消失足协,M49 只有塞尔维亚(688)，前南各国均属南欧,大区=欧洲；细区=南欧,以 688 为载体，细区不受继承国选择影响,A/B/C 均可用,resolved_project_mapping
+EXC-russia-ussr,team:russia,Russia 标签在早期比赛代表苏联/独联体，属跨欧亚实体,M49 只有俄罗斯(643，欧洲/东欧)；苏联与独联体跨欧亚,1992-07-03 后：欧洲/东欧；此前：多区未知,三段日期规则；早期比赛主队大区未知，影响 A/C 可用性,A/C（苏联段主队）；B（任一方为苏联段）,partial_unknown_by_design

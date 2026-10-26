@@ -123,6 +123,71 @@
       "redistribution_status": "not_evaluated",
       "git_policy": "failed_or_challenge_response_ignored; catalog_tracked",
       "content_kind": "challenge_response_not_source"
+    },
+    {
+      "id": "REGION-P01",
+      "title": "Effect of altitude on physiological performance: a statistical analysis using results of international football games",
+      "authors": "Patrick E. McSharry",
+      "version": "BMJ 2007;335:1278-1281; doi:10.1136/bmj.39393.451516.AD",
+      "requested_url": "https://jhanley.biostat.mcgill.ca/bios602/b-d-II-ch-1-2-3/altitude-football.pdf",
+      "publisher_url": "https://www.bmj.com/content/335/7633/1278",
+      "local_path": null,
+      "status": "web_pdf_read_local_download_failed",
+      "reading_scope": "Original PDF read through web tool: abstract, Methods, altitude difference, model table, discussion and limitations; not a validation of all statistical assumptions",
+      "redistribution_status": "not_evaluated",
+      "git_policy": "original_copy_authorized_by_user; no_commit_or_push_performed",
+      "error": "Local attempts failed: sandbox socket restriction; approved retry SSL EOF; no local PDF saved",
+      "retrieved_at_utc": "2026-10-26T02:39:24.667552+00:00",
+      "retrieval_attempts": [
+        {
+          "at_utc": "2026-10-26T02:39:24.667552+00:00",
+          "execution_scope": "default sandbox",
+          "status": "failed",
+          "error": "URLError: <urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>"
+        },
+        {
+          "at_utc": "2026-10-26T02:44:07.054988+00:00",
+          "execution_scope": "approved network download attempt",
+          "status": "failed",
+          "error": "URLError: SSL UNEXPECTED_EOF_WHILE_READING"
+        }
+      ]
+    },
+    {
+      "id": "REGION-P02",
+      "title": "Home Advantage and its Influencing Factors in FIFA World Cup Asian Qualification",
+      "authors": "Yang Liu",
+      "version": "Cross-Cultural Research 58(1), 2024; first online 2023-05-23; doi:10.1177/10693971231176149",
+      "requested_url": "https://journals.sagepub.com/doi/10.1177/10693971231176149",
+      "retrieved_at_utc": "2026-10-26T02:39:24.667567+00:00",
+      "local_path": null,
+      "status": "abstract_only",
+      "reading_scope": "Publisher abstract and publication metadata only; restricted-access full text not obtained; subregion scheme and full model not independently reproduced",
+      "error": null
+    },
+    {
+      "id": "REGION-M01",
+      "title": "UNSD Standard country or area codes for statistical use (M49)",
+      "authors": "United Nations Statistics Division",
+      "version": "Online schema accessed 2026-10-26; full historical mapping not downloaded",
+      "requested_url": "https://unstats.un.org/unsd/methodology/m49/",
+      "retrieved_at_utc": "2026-10-26T02:39:24.667573+00:00",
+      "local_path": null,
+      "status": "web_read_only",
+      "reading_scope": "Geographic regions, subregions, statistical-convenience disclaimer, Turkiye/Northern Africa/Sub-Saharan Africa entries and revision history; not a completed football-team crosswalk",
+      "error": null
+    },
+    {
+      "id": "REGION-M02",
+      "title": "How does the World Bank classify countries?",
+      "authors": "World Bank Data Help Desk",
+      "version": "Web page read 2026-10-26; no economic series or historical classification downloaded",
+      "requested_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/378834-how-does-the-world-bank-classify-countries",
+      "retrieved_at_utc": "2026-10-26T03:15:47.950049+00:00",
+      "local_path": null,
+      "status": "web_read_only",
+      "reading_scope": "Distinct geographic/income groupings, Atlas GNI per capita definition, annual July update using prior-year estimates and historical-classification availability; no income thresholds copied or selected for this study",
+      "error": null
     }
   ],
   "reading_events": [
@@ -185,6 +250,62 @@
       "local_download_this_event": false,
       "purpose": "Q2 descriptive support and inferential limitations; not a full theorem validation",
       "decision_log_id": "R20261025-12"
+    },
+    {
+      "date": "2026-10-26",
+      "decision_log_id": "R20261026-03",
+      "executor": "Codex (AI)",
+      "topic": "Region definitions: home/away directed relationships and within-continent heterogeneity",
+      "sources": [
+        {
+          "record_id": "REGION-P01",
+          "scope": "Original PDF read through web tool: abstract, Methods, altitude difference, model table, discussion and limitations; not a validation of all statistical assumptions"
+        },
+        {
+          "record_id": "REGION-P02",
+          "scope": "Publisher abstract and publication metadata only; restricted-access full text not obtained; subregion scheme and full model not independently reproduced"
+        },
+        {
+          "record_id": "REGION-M01",
+          "scope": "Geographic regions, subregions, statistical-convenience disclaimer, Turkiye/Northern Africa/Sub-Saharan Africa entries and revision history; not a completed football-team crosswalk"
+        }
+      ],
+      "limits": "Sources justify asking the questions; do not validate geographic categories as causal exposures or transplant reported effects/inference to current study"
+    },
+    {
+      "date": "2026-10-26",
+      "decision_log_id": "R20261026-04",
+      "executor": "Codex (AI)",
+      "topic": "Factor roles in regional study and pre-analysis preparation for question 4",
+      "sources": [
+        {
+          "record_id": "REGION-M01",
+          "scope": "Re-read M49 statistical grouping purpose; geographic classification is separate from strength or income"
+        },
+        {
+          "record_id": "REGION-M02",
+          "scope": "Read World Bank definitions and annual updates only; no economic data acquisition or variable selection"
+        },
+        {
+          "record_id": "REGION-P02",
+          "scope": "Re-read publisher abstract only; not a full-text or model verification"
+        }
+      ],
+      "related_source": {
+        "url": "https://biblio.ugent.be/publication/8653769",
+        "scope": "Re-read author institution abstract describing club sample and candidate explanatory dimensions; not national-team evidence or proof that economics has no role"
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "reader": "Codex (AI)",
+      "title": "UNSD M49 geographic hierarchy and revisions",
+      "url": "https://unstats.un.org/unsd/methodology/m49/",
+      "reading_extent": "Official region tree and Q&A on subregions/intermediary groupings and revisions; not a completed team crosswalk or mathematical validation",
+      "local_download_this_event": false,
+      "purpose": "Q3 geography-only scope: preserve original hierarchy, avoid overlapping parent/child groups and prepare a versioned analysis partition; no economic or confederation collection",
+      "record_id": "REGION-M01",
+      "decision_log_id": "R20261026-05"
     }
   ]
 }

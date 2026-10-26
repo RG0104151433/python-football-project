@@ -26,7 +26,12 @@
     "question_2",
     "question_3",
     "question_4",
-    "question_5"
+    "question_5",
+    "question_6",
+    "question_7",
+    "question_8",
+    "question_9",
+    "question_10"
   ],
   "question_1": {
     "analysis_id": "eras-fifa-dddf11dd6dc0b7531b88",
@@ -145,12 +150,74 @@
   },
   "question_3": {
     "title": "地域差异",
-    "status": "number_and_order_confirmed_design_pending",
+    "status": "geography_only_scope_confirmed_structure_and_preparation_documented",
     "decision_log_id": "R20261026-01",
-    "planning_document": "文档/01_项目方案/前三项研究的数据标准与清洗脚本设计.md",
+    "planning_document": "研究/03_地域差异/README.md",
     "region_definition": "not_finalized",
     "historical_region_mapping": "not_prepared",
-    "results_generated": false
+    "results_generated": false,
+    "initial_framework_log_id": "R20261026-02",
+    "input_readiness_audit": "outputs/logs/regions/planning-20261026/input_readiness.json",
+    "proposed_region_definition": "Versioned geographic macroregions and nonoverlapping finer regions for both teams; M49 candidate, hierarchy and historical-entity policy pending",
+    "proposed_reference": "Era-by-type adjustment remains a base candidate; relational targets additionally require home/opponent composition and coverage definitions",
+    "n_parent_home_team_ids": 214,
+    "classification_discussion_log_id": "R20261026-03",
+    "proposed_primary_views": [
+      "Home-region background",
+      "Directed geographic relation conditional on home background",
+      "Selected within-macroregion contrasts subject to independent rationale and coverage"
+    ],
+    "n_parent_all_team_ids": 215,
+    "geographic_mapping": "not_prepared",
+    "prior_single_home_confederation_proposal": "R20261026-02; retained as organizational background, not sole current definition",
+    "study_integration_log_id": "R20261026-05",
+    "factor_roles_proposal": {
+      "geography": "Confirmed sole added classification; exact standard/version and hierarchy pending",
+      "confederation": "Optional background only; historical mapping and same/cross-confederation estimates not required for first version",
+      "prematch_strength": "Deferred to question 5; not an input prerequisite for question 3",
+      "economic_conditions": "Excluded from current question 3 data collection and grouping",
+      "climate_altitude_distance_timezone": "Unmeasured explanatory possibilities only; excluded from current data collection and grouping"
+    },
+    "new_data_collection": "not_started_geographic_standard_snapshot_and_entity_crosswalk_preparation_required",
+    "current_scope_log_id": "R20261026-05",
+    "scope_confirmed": "Only geographic classification is added in question 3; existing era and tournament information retained",
+    "historical_confederation_mapping_required": false,
+    "study_flow": [
+      "home_macroregion_background",
+      "directed_relation_within_home_background",
+      "selected_within_macroregion_detail",
+      "target_specific_raw_and_composition_adjusted_comparisons",
+      "arithmetic_audit",
+      "question_4_and_5_handoff"
+    ],
+    "preparation_status": {
+      "requirements_documented": true,
+      "geographic_standard_snapshot_saved": false,
+      "team_geography_crosswalk_prepared": false,
+      "target_specific_membership_generated": false,
+      "regional_count_coverage_audit_run": false,
+      "target_catalog_frozen": false,
+      "reference_protocol_frozen": false,
+      "mathematical_basis_review_completed": false,
+      "analysis_code_written": false
+    },
+    "earlier_readiness_audit_scope": "Preserved R20261026-02 report; its confederation requirements and 60-cell proposal are historical, not current prerequisites",
+    "preparation_handoff": {
+      "decision_log_id": "R20261026-06",
+      "status": "instructions_prepared_not_dispatched",
+      "parallel_main_work": "Mathematical basis and target logic discussion",
+      "scope": [
+        "existing input join and team inventory",
+        "candidate geographic source snapshot and hierarchy",
+        "entity crosswalk with evidence and partial unknowns",
+        "target-specific membership and directed context",
+        "count-only coverage and candidate targets",
+        "support checks, validation and versioned handoff"
+      ],
+      "formal_adoption": "pending_main_discussion",
+      "regional_outcome_estimation_authorized": false,
+      "shared_document_policy": "Preparation agent delivers isolated candidate package; main discussion integrates formal README/pipeline updates; research log appended with actual work"
+    }
   },
   "question_4": {
     "title": "前三问统一分析",
@@ -164,7 +231,28 @@
     ],
     "inference": "not_run",
     "sensitivity": "not_run",
-    "simulation": "not_run"
+    "simulation": "not_run",
+    "preanalysis_preparation": {
+      "decision_log_id": "R20261026-05",
+      "document": "文档/05_团队协作/分工与交付/04_两题共同可靠性与敏感性.md",
+      "status": "requirements_documented_protocol_pending",
+      "requires": [
+        "target catalog A home-background, B within-background relations, C within-macroregion detail with primary/auxiliary contrasts",
+        "versioned geographic hierarchy, historical-entity exceptions and partial unknown handling",
+        "parent and target-specific membership, overlap and sample attrition",
+        "match-level role/year/tournament dependence structure",
+        "target-specific counts, support, reference definitions and reconstructible coefficients",
+        "structural nonoverlap and home/opponent composition limitations",
+        "chosen sensitivity scope",
+        "candidate-method and known-truth simulation acceptance protocol"
+      ],
+      "target_catalog_frozen": false,
+      "classification_frozen": false,
+      "numerical_validation_thresholds_fixed": false,
+      "coefficients_generated": false,
+      "simulation_run": false,
+      "historical_confederation_mapping_required": false
+    }
   },
   "question_5": {
     "additional_gate": "Historical entity and Elo warmup membership require separate approval",
@@ -174,41 +262,57 @@
     "decision_log_id": "R20261026-01"
   },
   "numbering_decision": {
-    "decision_log_id": "R20261026-01",
+    "decision_log_id": "R20261026-02",
     "date": "2026-10-26",
     "old_to_new": {
       "previous_question_3_strength": "question_5",
       "regional_extension": "question_3",
       "two_question_shared_reliability": "question_4",
-      "early_fourth_prediction_improvement": "unnumbered_followup"
+      "early_fourth_prediction_improvement": "question_9"
     },
     "historical_logs_and_run_artifacts": "preserved",
-    "new_analyses_run": false
+    "new_analyses_run": false,
+    "previous_decision_log_id": "R20261026-01"
   },
   "unnumbered_followups": [
     {
-      "topic": "最合理的历史参考周期",
-      "status": "reserved_not_implemented"
-    },
-    {
-      "topic": "不同地区的历史参考规则与评价方法适用性",
-      "status": "reserved_not_implemented"
-    },
-    {
-      "topic": "方法迁移到俱乐部比赛",
-      "status": "reserved_not_implemented"
-    },
-    {
       "topic": "球员和俱乐部信息辅助国家队分析",
-      "status": "reserved_not_implemented"
-    },
-    {
-      "topic": "未来国际比赛日预测",
-      "status": "reserved_not_implemented"
-    },
-    {
-      "topic": "评级修正是否改善预测表现",
-      "status": "reserved_not_implemented"
+      "status": "reserved_supporting_data_topic_not_numbered"
     }
+  ],
+  "question_6": {
+    "title": "最合理的历史参考周期",
+    "status": "number_confirmed_not_designed",
+    "decision_log_id": "R20261026-02",
+    "results_generated": false
+  },
+  "question_7": {
+    "title": "不同地区的方法有效性",
+    "status": "number_confirmed_not_designed",
+    "decision_log_id": "R20261026-02",
+    "results_generated": false
+  },
+  "question_8": {
+    "title": "预测接下来的国家队比赛",
+    "status": "number_confirmed_not_designed",
+    "decision_log_id": "R20261026-02",
+    "results_generated": false
+  },
+  "question_9": {
+    "title": "改善预测表现",
+    "status": "number_confirmed_not_designed",
+    "decision_log_id": "R20261026-02",
+    "results_generated": false
+  },
+  "question_10": {
+    "title": "迁移到俱乐部比赛",
+    "status": "number_confirmed_not_designed",
+    "decision_log_id": "R20261026-02",
+    "results_generated": false,
+    "optional": true,
+    "implementation_commitment": false
+  },
+  "optional_questions": [
+    "question_10"
   ]
 }

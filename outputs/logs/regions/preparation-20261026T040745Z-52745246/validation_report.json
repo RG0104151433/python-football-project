@@ -1,0 +1,272 @@
+{
+ "schema_version": "region-preparation-v1",
+ "run_id": "preparation-20261026T040745Z-52745246",
+ "generated_at": "2026-10-26T04:07:47+00:00",
+ "inputs": {
+  "q2_membership": {
+   "path": "outputs\\tables\\tournaments\\tournaments-4893e38db46f83f6c219\\analysis_membership.csv",
+   "sha256": "4294840536c707abef248b166c015de8f7fac39dcf14a37c7dcd75911283e166",
+   "bytes": 14519534
+  },
+  "matches_clean": {
+   "path": "data\\processed\\prep-3fab808178cf8ad71d88\\matches_clean.csv",
+   "sha256": "69ba00073970fe011a62f5871c08ace6285d7fe75d5a0d79afdac0ef972de9dc",
+   "bytes": 28438320
+  },
+  "association_registry": {
+   "path": "data\\processed\\team_identity\\identity-reviewed-29d880765c1623764940\\association_registry.csv",
+   "sha256": "fe7d7ca532238804562d9a0bc999112aad660ba107560708fecb078aee6faf80",
+   "bytes": 11556
+  },
+  "m49_overview_html": {
+   "path": "data\\external\\geography_preparation\\geo-prep-v1\\sources\\m49_overview.html",
+   "sha256": "b9048114f6e7f2abda83bf03d4263c9d7cd1bd7230e3d0461025ee7839a7a1fb",
+   "bytes": 1721575
+  },
+  "m49_page_html": {
+   "path": "data\\external\\geography_preparation\\geo-prep-v1\\sources\\m49_page.html",
+   "sha256": "4d5cabcb10ad9ef184553b5e64c0a34ba8deeb20dab2e02cd0be3599b93bb01d",
+   "bytes": 2051368
+  },
+  "team_seed": {
+   "path": "data\\external\\geography_preparation\\geo-prep-v1\\team_geography_seed.csv",
+   "sha256": "e16b82c72384e721174e7188f20ea7a398a46127e23b272667f0b85e77406935",
+   "bytes": 7114
+  },
+  "script": {
+   "path": "scripts\\prepare_region_mapping.py",
+   "sha256": "52745246364e60f1a2674867fe1fcea9fdc7560aeadc50c717e127b46017f1d3",
+   "bytes": 42778
+  }
+ },
+ "expected_vs_actual": {
+  "q2_rows": {
+   "expected": 48102,
+   "actual": 48102
+  },
+  "included": {
+   "expected": 24917,
+   "actual": 24917
+  },
+  "home_labels": {
+   "expected": 214,
+   "actual": 214
+  },
+  "away_labels": {
+   "expected": 214,
+   "actual": 214
+  },
+  "union_labels": {
+   "expected": 215,
+   "actual": 215
+  }
+ },
+ "checks": [
+  {
+   "name": "q2_rows_expected",
+   "passed": true,
+   "detail": "got 48102"
+  },
+  {
+   "name": "included_expected",
+   "passed": true,
+   "detail": "got 24917"
+  },
+  {
+   "name": "included_values_binary",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "single_version_triple",
+   "passed": true,
+   "detail": "[('prep-3fab808178cf8ad71d88', 'identity-reviewed-29d880765c1623764940', 'sample-3bc69e2cc4f843242018')]"
+  },
+  {
+   "name": "duplicate_match_ids",
+   "passed": true,
+   "detail": "q2=0,clean=0"
+  },
+  {
+   "name": "all_included_matched",
+   "passed": true,
+   "detail": "0 missing"
+  },
+  {
+   "name": "join_field_consistency",
+   "passed": true,
+   "detail": "0 mismatched"
+  },
+  {
+   "name": "no_row_inflation",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "neutral_scope",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "date_window",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "home_labels_expected",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "away_labels_expected",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "union_labels_expected",
+   "passed": true,
+   "detail": "got 215"
+  },
+  {
+   "name": "m49_areas_parsed",
+   "passed": true,
+   "detail": "got 248"
+  },
+  {
+   "name": "project_units_exclusive",
+   "passed": true,
+   "detail": "set()"
+  },
+  {
+   "name": "project_units_count",
+   "passed": true,
+   "detail": "got 22"
+  },
+  {
+   "name": "every_team_has_rule",
+   "passed": true,
+   "detail": "missing set()"
+  },
+  {
+   "name": "rules_cover_window",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "rules_no_overlap",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "relation_rows_equal_sample",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "relation_no_duplicate_match",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "region_counts_sum_to_sample",
+   "passed": true,
+   "detail": "24917"
+  },
+  {
+   "name": "unit_counts_sum_to_sample",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "relation_counts_sum_to_sample",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "direction_matrix_sum",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "micro_boundary_switch",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "micro_swap_direction",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "micro_region_known_unit_unknown",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "micro_cross_region_without_units",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "micro_same_unit",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "micro_unknown_region",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "micro_zero_rows_present",
+   "passed": true,
+   "detail": "17 zero cells in unit counts"
+  },
+  {
+   "name": "micro_unknown_distinct_from_zero",
+   "passed": true,
+   "detail": "unknown category kept separate from zero-filled combos"
+  }
+ ],
+ "failures": [],
+ "stats": {
+  "relation_counts": {
+   "A": 24891,
+   "B": 24818,
+   "C": 24891,
+   "rel_same_unit": 8395,
+   "rel_cross_region": 4368,
+   "rel_same_region_diff_unit": 12055,
+   "B_no": 99,
+   "rel_unknown_region": 99,
+   "A_no": 26,
+   "C_no": 26
+  },
+  "regions": {
+   "非洲": 5868,
+   "欧洲": 8045,
+   "美洲": 4555,
+   "亚洲": 5921,
+   "大洋洲": 502
+  },
+  "units_top": {
+   "西亚": 2769,
+   "北欧": 2504,
+   "南欧": 2218,
+   "西欧": 1703,
+   "西非": 1697,
+   "南美": 1690,
+   "东非": 1681,
+   "东欧": 1620,
+   "加勒比": 1293,
+   "东南亚": 1217
+  },
+  "candidates": 11
+ },
+ "not_run": [
+  "地区胜率/胜平负统计",
+  "共同构成调整值/区间/排名",
+  "正式脚本与输出契约冻结",
+  "第四/第五问检验"
+ ]
+}
