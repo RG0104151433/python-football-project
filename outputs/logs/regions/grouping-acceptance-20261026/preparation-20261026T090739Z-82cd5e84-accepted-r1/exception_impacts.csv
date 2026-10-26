@@ -1,0 +1,11 @@
+﻿exception_id,team_id,total_matches,home_matches,away_matches,first_date,last_date,segment_note
+EXC-england,team:england,434,245,189,1980-02-06,2024-11-17,
+EXC-scotland,team:scotland,370,186,184,1980-03-26,2024-11-18,
+EXC-wales,team:wales,337,172,165,1980-05-17,2024-11-19,
+EXC-northern-ireland,team:northern-ireland,336,167,169,1980-03-26,2024-11-18,
+EXC-kosovo,team:kosovo,67,34,33,2016-09-05,2024-11-18,
+EXC-taiwan,team:taiwan,113,43,70,1981-05-07,2024-12-14,
+EXC-german-dr,team:german-dr,102,45,57,1980-02-13,1990-09-12,
+EXC-czechoslovakia,team:czechoslovakia,120,48,72,1980-01-27,1993-11-17,
+EXC-yugoslavia,team:yugoslavia,85,35,50,1980-03-22,1992-03-25,
+EXC-russia-ussr,team:russia,385,172,213,1980-03-26,2024-11-19,1992-07-03前 99 场（含主/客），之后 286 场

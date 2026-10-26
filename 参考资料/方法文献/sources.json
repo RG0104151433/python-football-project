@@ -137,16 +137,16 @@
       "redistribution_status": "not_evaluated",
       "git_policy": "original_copy_authorized_by_user; no_commit_or_push_performed",
       "error": "Local attempts failed: sandbox socket restriction; approved retry SSL EOF; no local PDF saved",
-      "retrieved_at_utc": "2026-10-26T02:39:24.667552+00:00",
+      "retrieved_at_utc": "2026-10-26T10:39:24.667552+08:00",
       "retrieval_attempts": [
         {
-          "at_utc": "2026-10-26T02:39:24.667552+00:00",
+          "at_utc": "2026-10-26T10:39:24.667552+08:00",
           "execution_scope": "default sandbox",
           "status": "failed",
           "error": "URLError: <urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>"
         },
         {
-          "at_utc": "2026-10-26T02:44:07.054988+00:00",
+          "at_utc": "2026-10-26T10:44:07.054988+08:00",
           "execution_scope": "approved network download attempt",
           "status": "failed",
           "error": "URLError: SSL UNEXPECTED_EOF_WHILE_READING"
@@ -159,7 +159,7 @@
       "authors": "Yang Liu",
       "version": "Cross-Cultural Research 58(1), 2024; first online 2023-05-23; doi:10.1177/10693971231176149",
       "requested_url": "https://journals.sagepub.com/doi/10.1177/10693971231176149",
-      "retrieved_at_utc": "2026-10-26T02:39:24.667567+00:00",
+      "retrieved_at_utc": "2026-10-26T10:39:24.667567+08:00",
       "local_path": null,
       "status": "abstract_only",
       "reading_scope": "Publisher abstract and publication metadata only; restricted-access full text not obtained; subregion scheme and full model not independently reproduced",
@@ -171,7 +171,7 @@
       "authors": "United Nations Statistics Division",
       "version": "Online schema accessed 2026-10-26; full historical mapping not downloaded",
       "requested_url": "https://unstats.un.org/unsd/methodology/m49/",
-      "retrieved_at_utc": "2026-10-26T02:39:24.667573+00:00",
+      "retrieved_at_utc": "2026-10-26T10:39:24.667573+08:00",
       "local_path": null,
       "status": "web_read_only",
       "reading_scope": "Geographic regions, subregions, statistical-convenience disclaimer, Turkiye/Northern Africa/Sub-Saharan Africa entries and revision history; not a completed football-team crosswalk",
@@ -183,11 +183,45 @@
       "authors": "World Bank Data Help Desk",
       "version": "Web page read 2026-10-26; no economic series or historical classification downloaded",
       "requested_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/378834-how-does-the-world-bank-classify-countries",
-      "retrieved_at_utc": "2026-10-26T03:15:47.950049+00:00",
+      "retrieved_at_utc": "2026-10-26T11:15:47.950049+08:00",
       "local_path": null,
       "status": "web_read_only",
       "reading_scope": "Distinct geographic/income groupings, Atlas GNI per capita definition, annual July update using prior-year estimates and historical-classification availability; no income thresholds copied or selected for this study",
       "error": null
+    },
+    {
+      "id": "REGION-M03",
+      "title": "Invited Commentary: Positivity in Practice",
+      "authors": "Daniel Westreich; Stephen R. Cole",
+      "version": "American Journal of Epidemiology 171(6), 2010, 674-677; DOI 10.1093/aje/kwp436",
+      "requested_url": "https://doi.org/10.1093/aje/kwp436",
+      "local_path": null,
+      "status": "web_abstract_and_indexed_excerpts_only",
+      "reading_scope": "Publisher public abstract and search-indexed original-text excerpts on deterministic/random nonpositivity and restriction changing target population; not full-text proof validation",
+      "error": "PMC direct access returned browser verification; no local full-text download",
+      "decision_log_id": "R20261026-11"
+    },
+    {
+      "id": "REGION-M04",
+      "title": "Estimating causal effects from epidemiological data",
+      "authors": "Miguel A. Hernan; James M. Robins",
+      "version": "Journal of Epidemiology and Community Health 60(7), 2006, 578-586; DOI 10.1136/jech.2004.029496",
+      "requested_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2652882/",
+      "local_path": null,
+      "status": "web_abstract_and_indexed_excerpts_only",
+      "reading_scope": "Public abstract and search-indexed original-text/appendix excerpts on standardization, exchangeability and positivity; no complete local original or validated causal application",
+      "error": "Direct BMJ 403 and PMC browser verification; no local full-text download",
+      "decision_log_id": "R20261026-11"
+    },
+    {
+      "id": "REGION-M05",
+      "title": "About Concacaf: geographic and organizational scope",
+      "authors": "Concacaf",
+      "requested_url": "https://es.concacaf.com/inside-concacaf/about-concacaf/index",
+      "local_path": null,
+      "status": "web_read_only",
+      "reading_scope": "Official present-day description includes Guyana and Suriname; background distinction from M49 geographic South America, not historical confederation mapping or a study selection rule",
+      "decision_log_id": "R20261026-14"
     }
   ],
   "reading_events": [
@@ -306,6 +340,75 @@
       "purpose": "Q3 geography-only scope: preserve original hierarchy, avoid overlapping parent/child groups and prepare a versioned analysis partition; no economic or confederation collection",
       "record_id": "REGION-M01",
       "decision_log_id": "R20261026-05"
+    },
+    {
+      "record_id": "REGION-M01",
+      "title": "UNSD M49 FAQ and historical code changes, preparation review",
+      "decision_log_id": "R20261026-08",
+      "purpose": "Independent review of submitted geo-prep-v1; no new classification or outcome analysis",
+      "reader": "Codex (AI)",
+      "url": "https://unstats.un.org/unsd/methodology/m49/",
+      "reading_extent": "Official FAQ and historical-code-change notes; used to distinguish current geographic carrier codes, historical entities and project mapping assumptions. No historical football boundary validated.",
+      "date": "2026-10-26",
+      "local_download_this_event": false
+    },
+    {
+      "date": "2026-10-26",
+      "decision_log_id": "R20261026-10",
+      "reader": "Codex (AI)",
+      "topic": "Q3 parallel descriptive mathematics discussion; protocol not frozen",
+      "sources": [
+        {
+          "record_id": "M02",
+          "url": "https://www.cdc.gov/nchs/hus/sources-definitions/age-adjustment.htm",
+          "scope": "Re-read direct standardization formula, common reference distribution and interpretation as comparison index; not football-specific inference validation"
+        },
+        {
+          "record_id": "P01",
+          "url": "https://arxiv.org/abs/1312.3398v8",
+          "scope": "Re-read abstract and version metadata only: shared members, repeated, directed and weighted observations; no revalidation of full theorem conditions"
+        },
+        {
+          "record_id": "REGION-M01",
+          "url": "https://unstats.un.org/unsd/methodology/m49/",
+          "scope": "Official search-retrieved geographic grouping and statistical convenience explanation only; no new historical mapping adopted"
+        }
+      ],
+      "local_download_this_event": false,
+      "limits": "Arithmetic construction supports descriptive comparison; not causal identification, approved reference selection or a completed uncertainty method"
+    },
+    {
+      "date": "2026-10-26",
+      "decision_log_id": "R20261026-11",
+      "reader": "Codex (AI)",
+      "topic": "Q3 mathematical basis, exact arithmetic and limits of external inference methods",
+      "sources": [
+        {"record_id": "M02", "scope": "Official direct standardization formula and relative comparison-index interpretation"},
+        {"record_id": "REGION-M03", "scope": "Publisher abstract and indexed original excerpts; empirical empty cells vs population support; restriction alters target"},
+        {"record_id": "REGION-M04", "scope": "Public abstract and indexed original excerpts, including appendix positivity and causal identification; full text not obtained"},
+        {"record_id": "P01", "scope": "Original HTML sections 2-3 and conclusion: sampling setting, nonsharing-dyad covariance restriction, repeated/directed data and higher-order dependence limitations; not all proofs revalidated"}
+      ],
+      "failed_access_attempts": [
+        {"url": "https://www.hsph.harvard.edu/miguel-hernan/wp-content/uploads/sites/1268/2024/04/hernanrobins_WhatIf_26apr24.pdf", "result": "Redirected to author profile, not book text"},
+        {"url": "https://miguelhernan.org/s/hernanrobins_WhatIf_2jan25.pdf", "result": "Web fetch exceeded content size limit; not read as a complete book"},
+        {"url": "https://jech.bmj.com/content/60/7/578", "result": "403 Forbidden"},
+        {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2652882/", "result": "Browser verification; no bypass"},
+        {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2877454/", "result": "Browser verification; no bypass"}
+      ],
+      "local_download_this_event": false,
+      "limits": "Description mathematics reviewed; no final population/reference protocol, causal identification or accepted inferential estimator"
+    },
+    {
+      "date": "2026-10-26",
+      "decision_log_id": "R20261026-14",
+      "reader": "Codex (AI)",
+      "topic": "Adopt geographic South America without replacing it by a confederation or strength-defined group",
+      "sources": [
+        {"record_id":"REGION-M01", "url":"https://unstats.un.org/unsd/methodology/m49/overview/", "scope":"Official current overview and saved project snapshot place Guyana and Suriname in geographic unit 005; no new snapshot or historical entity change"},
+        {"record_id":"REGION-M05", "url":"https://es.concacaf.com/inside-concacaf/about-concacaf/index", "scope":"Official organizational description includes Guyana and Suriname; no historical membership series or new confederation variable"}
+      ],
+      "local_download_this_event": false,
+      "limits": "Study membership still follows previously accepted FIFA sample; strength and historical confederation effects not inferred"
     }
   ]
 }

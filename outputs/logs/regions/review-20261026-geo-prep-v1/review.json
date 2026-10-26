@@ -1,0 +1,861 @@
+{
+  "schema_version": "q3-preparation-independent-review-v1",
+  "created_at_utc": "2026-10-26T07:25:08.492258+00:00",
+  "executor": "Codex (AI)",
+  "source_run": "outputs\\logs\\regions\\preparation-20261026T040745Z-52745246",
+  "scope": "Arithmetic and interface audit plus code/provenance review; no regional outcomes or inference",
+  "checks": [
+    {
+      "name": "registered_fingerprints",
+      "passed": true,
+      "detail": {
+        "checked": 26
+      }
+    },
+    {
+      "name": "explicit_bool_values",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "clean_unique_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "q2_included_unique_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "same_24917_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "22_unique_nonempty_fine_units",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rule_fine_parent_consistency",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rules_match_submitted_m49_carrier_codes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "all_match_assignments_independently_rebuilt",
+      "passed": true,
+      "detail": {
+        "checked": 24917,
+        "errors": []
+      }
+    },
+    {
+      "name": "team_inventory_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "counts_home_region_era_tournament.csv:cellwise_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "counts_home_region_era_tournament.csv:home_team_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "counts_home_unit_era_tournament.csv:cellwise_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "counts_home_unit_era_tournament.csv:home_team_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "counts_relation_era_tournament.csv:cellwise_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "counts_relation_era_tournament.csv:home_team_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "counts_direction_matrix.csv:cellwise_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unknown_distribution_cellwise",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rule_source_ids_resolve",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "check_count": 19,
+  "all_performed_arithmetic_checks_passed": true,
+  "source_fingerprints": {
+    "outputs\\logs\\regions\\preparation-20261026T040745Z-52745246\\manifest.json": "4ea3f8048ebc2e01ab40104888a819cda3d3b297b3b0c0c962b38c567bc86287",
+    "outputs\\logs\\regions\\preparation-20261026T040745Z-52745246\\candidate_comparisons.csv": "e502a633c78a285c817cb4b9cd781b80303fdf81b4437fbaec8d6c09cd8b6631",
+    "outputs\\logs\\regions\\preparation-20261026T040745Z-52745246\\counts_direction_matrix.csv": "fed1052ddde226b5715e3c947996f6d5e45e4fddb459218b701f90e7979429fc",
+    "outputs\\logs\\regions\\preparation-20261026T040745Z-52745246\\counts_home_region_era_tournament.csv": "3fa2cd0071e79a3976d1ab868252462a4a2fcc422be0e8c91ff953f4bf1f5bbc",
+    "outputs\\logs\\regions\\preparation-20261026T040745Z-52745246\\counts_home_unit_era_tournament.csv": "149396df2d727ded8e219bac6e80bb0a033d594a34d701670438713aea9d55a8",
+    "outputs\\logs\\regions\\preparation-20261026T040745Z-52745246\\counts_relation_era_tournament.csv": "7176991cb7d94f4231887dd1bd800218f5c8281f9d594493d4bf1991ace7d331",
+    "outputs\\logs\\regions\\preparation-20261026T040745Z-52745246\\inputs_used.json": "88da0084ce1bcb4795b29b1980bb59611c99fe34c2d5b94aa67e0532b0813a13",
+    "outputs\\logs\\regions\\preparation-20261026T040745Z-52745246\\linkage_checks.json": "719b600bd954b0764839c45979a61d4ce51bcb66689f16e0c8dd728d4d817797",
+    "outputs\\logs\\regions\\preparation-20261026T040745Z-52745246\\m49_areas.csv": "2ed8cbfdc6d3fbb44539a305c8374b80d4f080c375fd84e375b4b5cb2f8cc5c8",
+    "outputs\\logs\\regions\\preparation-20261026T040745Z-52745246\\match_region_relations.csv": "22b98ea6e78688019c30b1d1ea48a8897e86bb1f9502879d777447121547c4eb",
+    "outputs\\logs\\regions\\preparation-20261026T040745Z-52745246\\reference_support.csv": "7c21296806f6412449cb234dded5fb81ac22d181360ac7243a6d1ab0e5908e01",
+    "outputs\\logs\\regions\\preparation-20261026T040745Z-52745246\\team_geography_rules.csv": "e4e99c8d106fe8c8590108e0f40764bdd5703dce7f0d921c055160399ea3b3a0",
+    "outputs\\logs\\regions\\preparation-20261026T040745Z-52745246\\team_inventory.csv": "87aa9c3d5f68eecab8299d6ba1fd92a6549d9f7c18cee4ed8e27d6b3dc29e6d6",
+    "outputs\\logs\\regions\\preparation-20261026T040745Z-52745246\\unknown_distribution.csv": "55a9ab7eca93b6c9b43c973ab960ee7020a8a2870c74f0d79385c5c128c7913e",
+    "outputs\\logs\\regions\\preparation-20261026T040745Z-52745246\\validation_report.json": "ebd5e8f3e2cd70f6c2e00de58d2790a3a0355227be793efd3d1ce7581c3d34d0",
+    "outputs\\logs\\regions\\preparation-20261026T040745Z-52745246\\handoff.md": "d01a0fe496f5f4b27c6cdad1327c2ab7857009b32b8f1b8e7ffa050ab433bd13",
+    "data\\external\\geography_preparation\\geo-prep-v1\\exceptions.csv": "70ed749b0fd852a939b61217b12c0834c730bb2018f8b67c13fead3779e24ec5",
+    "data\\external\\geography_preparation\\geo-prep-v1\\region_dictionary.csv": "45221a1aa597809aeea0e1a7e660aa38af89c29952e4dd5374ebe45e5456262a",
+    "data\\external\\geography_preparation\\geo-prep-v1\\sources.csv": "7d65460b3bd4fc31976dd29350647a763b2352147b277536bd1380ab09e6d02f",
+    "data\\external\\geography_preparation\\geo-prep-v1\\team_geography_seed.csv": "e16b82c72384e721174e7188f20ea7a398a46127e23b272667f0b85e77406935",
+    "outputs\\tables\\tournaments\\tournaments-4893e38db46f83f6c219\\analysis_membership.csv": "4294840536c707abef248b166c015de8f7fac39dcf14a37c7dcd75911283e166",
+    "data\\processed\\prep-3fab808178cf8ad71d88\\matches_clean.csv": "69ba00073970fe011a62f5871c08ace6285d7fe75d5a0d79afdac0ef972de9dc",
+    "data\\processed\\team_identity\\identity-reviewed-29d880765c1623764940\\association_registry.csv": "fe7d7ca532238804562d9a0bc999112aad660ba107560708fecb078aee6faf80",
+    "data\\external\\geography_preparation\\geo-prep-v1\\sources\\m49_overview.html": "b9048114f6e7f2abda83bf03d4263c9d7cd1bd7230e3d0461025ee7839a7a1fb",
+    "data\\external\\geography_preparation\\geo-prep-v1\\sources\\m49_page.html": "4d5cabcb10ad9ef184553b5e64c0a34ba8deeb20dab2e02cd0be3599b93bb01d",
+    "scripts\\prepare_region_mapping.py": "52745246364e60f1a2674867fe1fcea9fdc7560aeadc50c717e127b46017f1d3"
+  },
+  "audit_script_sha256": "b3423dab2f573c2fb52810bcca29be93d1fda193ad2ae2e0b911c6fdf08e86c1",
+  "target_counts": {
+    "A": 24891,
+    "B": 24818,
+    "C": 24891
+  },
+  "known_and_unknown_zero_cells": {
+    "counts_home_region_era_tournament.csv": {
+      "all_zero_cells": 6,
+      "known_category_zero_cells": []
+    },
+    "counts_home_unit_era_tournament.csv": {
+      "all_zero_cells": 17,
+      "known_category_zero_cells": [
+        {
+          "home_unit": "057",
+          "era": "1980s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_unit": "057",
+          "era": "1980s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_unit": "057",
+          "era": "1990s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_unit": "057",
+          "era": "1990s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_unit": "057",
+          "era": "2000s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_unit": "057",
+          "era": "2010s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_unit": "057",
+          "era": "2020_2024",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_unit": "061",
+          "era": "1980s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_unit": "061",
+          "era": "1980s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_unit": "143",
+          "era": "1980s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_unit": "143",
+          "era": "1980s",
+          "tournament_group": "non_friendly"
+        }
+      ]
+    },
+    "counts_relation_era_tournament.csv": {
+      "all_zero_cells": 139,
+      "known_category_zero_cells": [
+        {
+          "home_region": "002",
+          "relation": "cross_region",
+          "era": "1980s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "002",
+          "relation": "unknown_same_region",
+          "era": "1980s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "002",
+          "relation": "unknown_same_region",
+          "era": "1980s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "002",
+          "relation": "unknown_same_region",
+          "era": "1990s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "002",
+          "relation": "unknown_same_region",
+          "era": "1990s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "002",
+          "relation": "unknown_same_region",
+          "era": "2000s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "002",
+          "relation": "unknown_same_region",
+          "era": "2000s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "002",
+          "relation": "unknown_same_region",
+          "era": "2010s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "002",
+          "relation": "unknown_same_region",
+          "era": "2010s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "002",
+          "relation": "unknown_same_region",
+          "era": "2020_2024",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "002",
+          "relation": "unknown_same_region",
+          "era": "2020_2024",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "002",
+          "relation": "unknown_region",
+          "era": "1980s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "002",
+          "relation": "unknown_region",
+          "era": "1980s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "002",
+          "relation": "unknown_region",
+          "era": "1990s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "002",
+          "relation": "unknown_region",
+          "era": "1990s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "002",
+          "relation": "unknown_region",
+          "era": "2000s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "002",
+          "relation": "unknown_region",
+          "era": "2000s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "002",
+          "relation": "unknown_region",
+          "era": "2010s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "002",
+          "relation": "unknown_region",
+          "era": "2010s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "002",
+          "relation": "unknown_region",
+          "era": "2020_2024",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "002",
+          "relation": "unknown_region",
+          "era": "2020_2024",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "019",
+          "relation": "unknown_same_region",
+          "era": "1980s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "019",
+          "relation": "unknown_same_region",
+          "era": "1980s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "019",
+          "relation": "unknown_same_region",
+          "era": "1990s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "019",
+          "relation": "unknown_same_region",
+          "era": "1990s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "019",
+          "relation": "unknown_same_region",
+          "era": "2000s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "019",
+          "relation": "unknown_same_region",
+          "era": "2000s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "019",
+          "relation": "unknown_same_region",
+          "era": "2010s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "019",
+          "relation": "unknown_same_region",
+          "era": "2010s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "019",
+          "relation": "unknown_same_region",
+          "era": "2020_2024",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "019",
+          "relation": "unknown_same_region",
+          "era": "2020_2024",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "019",
+          "relation": "unknown_region",
+          "era": "1980s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "019",
+          "relation": "unknown_region",
+          "era": "1990s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "019",
+          "relation": "unknown_region",
+          "era": "2000s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "019",
+          "relation": "unknown_region",
+          "era": "2000s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "019",
+          "relation": "unknown_region",
+          "era": "2010s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "019",
+          "relation": "unknown_region",
+          "era": "2010s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "019",
+          "relation": "unknown_region",
+          "era": "2020_2024",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "019",
+          "relation": "unknown_region",
+          "era": "2020_2024",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "142",
+          "relation": "unknown_same_region",
+          "era": "1980s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "142",
+          "relation": "unknown_same_region",
+          "era": "1980s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "142",
+          "relation": "unknown_same_region",
+          "era": "1990s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "142",
+          "relation": "unknown_same_region",
+          "era": "1990s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "142",
+          "relation": "unknown_same_region",
+          "era": "2000s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "142",
+          "relation": "unknown_same_region",
+          "era": "2000s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "142",
+          "relation": "unknown_same_region",
+          "era": "2010s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "142",
+          "relation": "unknown_same_region",
+          "era": "2010s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "142",
+          "relation": "unknown_same_region",
+          "era": "2020_2024",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "142",
+          "relation": "unknown_same_region",
+          "era": "2020_2024",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "142",
+          "relation": "unknown_region",
+          "era": "2000s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "142",
+          "relation": "unknown_region",
+          "era": "2000s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "142",
+          "relation": "unknown_region",
+          "era": "2010s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "142",
+          "relation": "unknown_region",
+          "era": "2010s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "142",
+          "relation": "unknown_region",
+          "era": "2020_2024",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "142",
+          "relation": "unknown_region",
+          "era": "2020_2024",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "150",
+          "relation": "unknown_same_region",
+          "era": "1980s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "150",
+          "relation": "unknown_same_region",
+          "era": "1980s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "150",
+          "relation": "unknown_same_region",
+          "era": "1990s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "150",
+          "relation": "unknown_same_region",
+          "era": "1990s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "150",
+          "relation": "unknown_same_region",
+          "era": "2000s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "150",
+          "relation": "unknown_same_region",
+          "era": "2000s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "150",
+          "relation": "unknown_same_region",
+          "era": "2010s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "150",
+          "relation": "unknown_same_region",
+          "era": "2010s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "150",
+          "relation": "unknown_same_region",
+          "era": "2020_2024",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "150",
+          "relation": "unknown_same_region",
+          "era": "2020_2024",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "150",
+          "relation": "unknown_region",
+          "era": "2000s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "150",
+          "relation": "unknown_region",
+          "era": "2000s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "150",
+          "relation": "unknown_region",
+          "era": "2010s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "150",
+          "relation": "unknown_region",
+          "era": "2010s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "150",
+          "relation": "unknown_region",
+          "era": "2020_2024",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "150",
+          "relation": "unknown_region",
+          "era": "2020_2024",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "009",
+          "relation": "same_unit",
+          "era": "1980s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "009",
+          "relation": "same_region_diff_unit",
+          "era": "2000s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "009",
+          "relation": "unknown_same_region",
+          "era": "1980s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "009",
+          "relation": "unknown_same_region",
+          "era": "1980s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "009",
+          "relation": "unknown_same_region",
+          "era": "1990s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "009",
+          "relation": "unknown_same_region",
+          "era": "1990s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "009",
+          "relation": "unknown_same_region",
+          "era": "2000s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "009",
+          "relation": "unknown_same_region",
+          "era": "2000s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "009",
+          "relation": "unknown_same_region",
+          "era": "2010s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "009",
+          "relation": "unknown_same_region",
+          "era": "2010s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "009",
+          "relation": "unknown_same_region",
+          "era": "2020_2024",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "009",
+          "relation": "unknown_same_region",
+          "era": "2020_2024",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "009",
+          "relation": "unknown_region",
+          "era": "1980s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "009",
+          "relation": "unknown_region",
+          "era": "1980s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "009",
+          "relation": "unknown_region",
+          "era": "1990s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "009",
+          "relation": "unknown_region",
+          "era": "1990s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "009",
+          "relation": "unknown_region",
+          "era": "2000s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "009",
+          "relation": "unknown_region",
+          "era": "2000s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "009",
+          "relation": "unknown_region",
+          "era": "2010s",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "009",
+          "relation": "unknown_region",
+          "era": "2010s",
+          "tournament_group": "non_friendly"
+        },
+        {
+          "home_region": "009",
+          "relation": "unknown_region",
+          "era": "2020_2024",
+          "tournament_group": "friendly"
+        },
+        {
+          "home_region": "009",
+          "relation": "unknown_region",
+          "era": "2020_2024",
+          "tournament_group": "non_friendly"
+        }
+      ]
+    },
+    "counts_direction_matrix.csv": {
+      "all_zero_cells": 5,
+      "known_category_zero_cells": []
+    }
+  },
+  "relation_support_zero_cells": {
+    "002": {
+      "cross_region": [
+        {
+          "era": "1980s",
+          "tournament_group": "non_friendly"
+        }
+      ],
+      "same_unit": [],
+      "same_region_diff_unit": []
+    },
+    "019": {
+      "cross_region": [],
+      "same_unit": [],
+      "same_region_diff_unit": []
+    },
+    "142": {
+      "cross_region": [],
+      "same_unit": [],
+      "same_region_diff_unit": []
+    },
+    "150": {
+      "cross_region": [],
+      "same_unit": [],
+      "same_region_diff_unit": []
+    },
+    "009": {
+      "cross_region": [],
+      "same_unit": [
+        {
+          "era": "1980s",
+          "tournament_group": "friendly"
+        }
+      ],
+      "same_region_diff_unit": [
+        {
+          "era": "2000s",
+          "tournament_group": "friendly"
+        }
+      ]
+    }
+  },
+  "raw_dictionary_nodes_missing_parents": [
+    "015",
+    "202",
+    "014",
+    "017",
+    "018",
+    "011",
+    "419",
+    "029",
+    "013",
+    "005",
+    "021",
+    "143",
+    "030",
+    "035",
+    "034",
+    "145",
+    "151",
+    "154",
+    "039",
+    "155",
+    "053",
+    "054",
+    "057",
+    "061"
+  ],
+  "findings": [
+    "reference_support.csv checks pooled reference cells, not positive-reference support in each comparison arm",
+    "candidate B uses vague relation-versus-rest; exact arms, unknown exclusion and subtraction are not machine-readable; C is similarly vague",
+    "historical carrier codes and Russian cutoff point only to current M49; entity facts, project assumptions and supporting records require separation",
+    "raw dictionary parent_code is blank for subregion/intermediate nodes",
+    "coverage tables count home teams only; away team counts and per-cell home/away composition not delivered",
+    "handoff claims six region zero cells as absent schedule, but all six are UNKNOWN category cells",
+    "micro direction check compares literal strings; full-period continuity and adverse-input checks incomplete",
+    "script writes into fixed package version; source and code state need reproducible run snapshots before revisions"
+  ],
+  "adoption_status": "needs_targeted_revision_not_accepted_as_complete",
+  "production_outputs_modified": false,
+  "regional_outcomes_computed": false,
+  "human_review": "not_performed",
+  "environment": "Default tool access denied for clean directory and venv launch; approved normal-local execution read original clean SHA and Python 3.14.8 successfully. No deletion inferred."
+}

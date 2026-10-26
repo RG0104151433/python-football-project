@@ -150,16 +150,16 @@
   },
   "question_3": {
     "title": "地域差异",
-    "status": "geography_only_scope_confirmed_structure_and_preparation_documented",
+    "status": "grouping_accepted_research_catalog_and_reference_fixed_analysis_not_implemented",
     "decision_log_id": "R20261026-01",
     "planning_document": "研究/03_地域差异/README.md",
-    "region_definition": "not_finalized",
-    "historical_region_mapping": "not_prepared",
+    "region_definition": "adopted_M49_20261026_five_macroregions_22_fine_units",
+    "historical_region_mapping": "adopted_fixed_statistical_carriers_with_explicit_historical_unknowns",
     "results_generated": false,
     "initial_framework_log_id": "R20261026-02",
     "input_readiness_audit": "outputs/logs/regions/planning-20261026/input_readiness.json",
-    "proposed_region_definition": "Versioned geographic macroregions and nonoverlapping finer regions for both teams; M49 candidate, hierarchy and historical-entity policy pending",
-    "proposed_reference": "Era-by-type adjustment remains a base candidate; relational targets additionally require home/opponent composition and coverage definitions",
+    "proposed_region_definition": "Adopted fixed M49 snapshot; both roles; team IDs preserved; South America 005 nested within Americas 019",
+    "proposed_reference": "Fixed per protocol: global parent for region profiles, B-eligible three-relation background pool for B, C-eligible macroregion pool for C",
     "n_parent_home_team_ids": 214,
     "classification_discussion_log_id": "R20261026-03",
     "proposed_primary_views": [
@@ -168,7 +168,7 @@
       "Selected within-macroregion contrasts subject to independent rationale and coverage"
     ],
     "n_parent_all_team_ids": 215,
-    "geographic_mapping": "not_prepared",
+    "geographic_mapping": "adopted_geo_prep_v3_independently_accepted",
     "prior_single_home_confederation_proposal": "R20261026-02; retained as organizational background, not sole current definition",
     "study_integration_log_id": "R20261026-05",
     "factor_roles_proposal": {
@@ -178,8 +178,26 @@
       "economic_conditions": "Excluded from current question 3 data collection and grouping",
       "climate_altitude_distance_timezone": "Unmeasured explanatory possibilities only; excluded from current data collection and grouping"
     },
-    "new_data_collection": "not_started_geographic_standard_snapshot_and_entity_crosswalk_preparation_required",
-    "current_scope_log_id": "R20261026-05",
+    "new_data_collection": "complete_for_current_geographic_scope_explicit_unknowns_retained",
+    "implementation_framework": {
+      "decision_log_id": "R20261026-14",
+      "document_section": "研究/03_地域差异/README.md#11",
+      "status": "step_1_catalog_completed_grouping_accepted_precode_decisions_closed",
+      "grouping_preparation_code_exists": true,
+      "reuse_existing_grouping_tool": "scripts/prepare_region_mapping.py",
+      "new_analysis_code_written": false,
+      "requires_before_implementation": [],
+      "next_step": "Design formal regional descriptive analysis modules and exact output files; outcomes not computed"
+    },
+    "current_scope_log_id": "R20261026-14",
+    "mathematical_discussion": {
+      "decision_log_id": "R20261026-11",
+      "prior_discussion_log_id": "R20261026-10",
+      "status": "descriptive_basis_reviewed_protocol_v1_fixed_inference_not_validated",
+      "document_section": "研究/03_地域差异/README.md#10",
+      "scope": "Descriptive match-weighted proportions, joint era-by-type standardization, common support, reference-dependent arithmetic decomposition and inference handoff",
+      "preparation_acceptance_unchanged": false
+    },
     "scope_confirmed": "Only geographic classification is added in question 3; existing era and tournament information retained",
     "historical_confederation_mapping_required": false,
     "study_flow": [
@@ -192,19 +210,22 @@
     ],
     "preparation_status": {
       "requirements_documented": true,
-      "geographic_standard_snapshot_saved": false,
-      "team_geography_crosswalk_prepared": false,
-      "target_specific_membership_generated": false,
-      "regional_count_coverage_audit_run": false,
-      "target_catalog_frozen": false,
-      "reference_protocol_frozen": false,
-      "mathematical_basis_review_completed": false,
-      "analysis_code_written": false
+      "geographic_standard_snapshot_saved": true,
+      "team_geography_crosswalk_prepared": true,
+      "target_specific_membership_generated": true,
+      "regional_count_coverage_audit_run": true,
+      "target_catalog_frozen": true,
+      "reference_protocol_frozen": true,
+      "mathematical_basis_review_completed": true,
+      "mathematical_basis_review_scope": "Description reviewed R11; scope/reference fixed R14; no accepted inferential estimator",
+      "analysis_code_written": false,
+      "note": "Current grouping rules and snapshots accepted for this scope; final protocol replaces old 19 candidate suggestions. Q3 analysis code/outcomes and Q4 inference remain absent.",
+      "candidate_package_accepted": true
     },
     "earlier_readiness_audit_scope": "Preserved R20261026-02 report; its confederation requirements and 60-cell proposal are historical, not current prerequisites",
     "preparation_handoff": {
       "decision_log_id": "R20261026-06",
-      "status": "instructions_prepared_not_dispatched",
+      "status": "adopted_after_v3_repairs_and_independent_acceptance",
       "parallel_main_work": "Mathematical basis and target logic discussion",
       "scope": [
         "existing input join and team inventory",
@@ -214,9 +235,93 @@
         "count-only coverage and candidate targets",
         "support checks, validation and versioned handoff"
       ],
-      "formal_adoption": "pending_main_discussion",
+      "formal_adoption": "Current study geography rules adopted; no certification of complete historical facts",
       "regional_outcome_estimation_authorized": false,
-      "shared_document_policy": "Preparation agent delivers isolated candidate package; main discussion integrates formal README/pipeline updates; research log appended with actual work"
+      "shared_document_policy": "Preparation agent delivers isolated candidate package; main discussion integrates formal README/pipeline updates; research log appended with actual work",
+      "review_log_id": "R20261026-14"
+    },
+    "candidate_preparation": {
+      "reference_arm_support_complete": true,
+      "reference_arm_support_scope": "17 submitted comparison candidates only; not approval of final target/reference or newly proposed rollups",
+      "candidate_mapping_present": true,
+      "rule_fact_provenance_fully_reviewed": false,
+      "arithmetic_checks_passed": 54,
+      "candidate_membership_and_counts_present": true,
+      "independent_review": "outputs/logs/regions/review-20261026-geo-prep-v2/review.json",
+      "run": "outputs/logs/regions/preparation-20261026T074311Z-af547658-r1",
+      "repeat_run": "outputs/logs/regions/preparation-20261026T074344Z-af547658-r2",
+      "source_snapshot_present": true,
+      "decision_log_id": "R20261026-12",
+      "target_usable_counts": {
+        "A": 24891,
+        "C": 24891,
+        "B": 24818
+      },
+      "fingerprint_checks_passed": 54,
+      "candidate_comparison_count": 17,
+      "candidate_distribution_only_count": 2,
+      "repeated_core_csv_identical": 15,
+      "critical_package_input_hash_binding_complete": false,
+      "full_per_team_contributions_complete": false,
+      "adoption_status": "arithmetic_reusable_targeted_handoff_and_input_hardening_required",
+      "package": "data/external/geography_preparation/geo-prep-v2",
+      "historical_only": true
+    },
+    "study_protocol": "config/regions_study.json",
+    "protocol_id": "regions-study-v1",
+    "adopted_grouping": {
+      "decision_log_id": "R20261026-14",
+      "package": "data/external/geography_preparation/geo-prep-v3",
+      "run": "outputs/logs/regions/grouping-acceptance-20261026/preparation-20261026T090739Z-82cd5e84-accepted-r1",
+      "replay": "outputs/logs/regions/grouping-acceptance-20261026/preparation-20261026T091035Z-82cd5e84-replay-r1",
+      "independent_review": "outputs/logs/regions/grouping-acceptance-20261026/review.json",
+      "scope_counts": "outputs/logs/regions/grouping-acceptance-20261026/scope_counts.json",
+      "contract_tests": "outputs/logs/regions/grouping-acceptance-20261026/contract_tests.xml",
+      "code_sha256": "82cd5e840f88c0bd818b0552c8d782e4e522561860cc07ca94b1184e2f033947",
+      "checks_passed": 124,
+      "registered_output_hashes_checked": 67,
+      "contract_tests_passed": 7,
+      "internal_self_tests_passed": 14,
+      "snapshot_input_files": 13,
+      "core_csv_replay_identical": 16,
+      "target_usable_counts": {
+        "A": 24891,
+        "B": 24818,
+        "C": 24891
+      },
+      "complete_team_contribution_rows": 29290,
+      "human_review": "not_performed"
+    },
+    "research_catalog": {
+      "status": "fixed_before_regional_outcomes",
+      "primary_standardized_contrasts": [
+        "B_EUR",
+        "B_ASIA",
+        "C_AFR",
+        "C_AMER"
+      ],
+      "auxiliary_standardized_contrasts": [
+        "C_ASIA",
+        "C_EUR"
+      ],
+      "descriptive_only_relation_contrasts": [
+        "B_SA"
+      ],
+      "south_america": {
+        "m49_unit": "005",
+        "parent_region": "019",
+        "team_count": 12,
+        "home_matches": 1690,
+        "include_guyana_suriname": true,
+        "no_sixth_macroregion": true,
+        "relationship_full_period_standardization": "not_estimable_2020_2024_cross_region_both_type_cells_empty"
+      },
+      "standardized_comparison_support": "All four primary and two auxiliary contrasts supported in ten strata; B_SA explicitly retained as description only",
+      "precode_decisions_closed": [
+        "comparison objects and references",
+        "fixed historical statistical carrier policy",
+        "input/output conventions"
+      ]
     }
   },
   "question_4": {

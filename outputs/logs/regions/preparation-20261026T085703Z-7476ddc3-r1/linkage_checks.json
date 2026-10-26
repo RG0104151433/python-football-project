@@ -1,0 +1,36 @@
+{
+ "q2_rows": 48102,
+ "included": 24917,
+ "excluded": 23185,
+ "versions": [
+  {
+   "triple": [
+    "prep-3fab808178cf8ad71d88",
+    "identity-reviewed-29d880765c1623764940",
+    "sample-3bc69e2cc4f843242018"
+   ]
+  }
+ ],
+ "home_labels": 214,
+ "away_labels": 214,
+ "union_labels": 215,
+ "missing": 0,
+ "join_field_mismatch": 0,
+ "eras": {
+  "1990s": 4814,
+  "2000s": 6872,
+  "2020_2024": 3095,
+  "2010s": 6632,
+  "1980s": 3504
+ },
+ "tournament_groups": {
+  "friendly": 9598,
+  "non_friendly": 15319
+ },
+ "relation_counts": {
+  "same_unit": 8395,
+  "cross_region": 4368,
+  "same_region_diff_unit": 12055,
+  "unknown_region": 99
+ }
+}

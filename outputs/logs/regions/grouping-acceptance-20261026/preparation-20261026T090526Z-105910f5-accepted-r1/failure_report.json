@@ -1,0 +1,45 @@
+{
+ "schema_version": "region-preparation-v3-failure",
+ "status": "failed",
+ "run_id": "preparation-20261026T090526Z-105910f5-accepted-r1",
+ "stage": "load_inputs",
+ "error_type": "InputError",
+ "message": "关联后字段不一致",
+ "detail": {
+  "count": 24917,
+  "examples": [
+   "results:000522e0f97e33886952665e4e4041f18912ece21a9b8dc65ca1097a54f25928",
+   "results:0005762b9566bde6811ba2b100ebf37c110f926ebf9333920f4d9b808ff6495f",
+   "results:0005b34e7d818e688203fb60f14f745b090b2a7a48a6439e0fb9e8810bbac9fe",
+   "results:0007691c67de5dd89e2b48dd2222eb05f4548678ac457f65eb895ec2be00fc49",
+   "results:0009e59efcb8cfa2788e16a790cbc8cba7479491101102879e3a37739b250488"
+  ]
+ },
+ "checks_so_far": [
+  {
+   "name": "q2_rows_expected",
+   "passed": true,
+   "detail": "48102"
+  },
+  {
+   "name": "included_expected",
+   "passed": true,
+   "detail": "24917"
+  },
+  {
+   "name": "excluded_expected",
+   "passed": true,
+   "detail": "23185"
+  }
+ ],
+ "traceback_tail": [
+  "Traceback (most recent call last):",
+  "  File \"C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\scripts\\prepare_region_mapping.py\", line 978, in prepare",
+  "    report = run_core(run, snap, os.path.relpath(pkg, root), root, checks, stage)",
+  "  File \"C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\scripts\\prepare_region_mapping.py\", line 589, in run_core",
+  "    raise InputError(\"关联后字段不一致\", stage=\"join\", detail={\"count\": len(bad_link), \"examples\": bad_link[:5]})",
+  "InputError: 关联后字段不一致"
+ ],
+ "failed_at": "2026-10-26T09:05:28+00:00",
+ "note": "失败运行不生成 manifest/handoff，不得作为成功交接使用"
+}

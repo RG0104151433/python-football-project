@@ -1,0 +1,4 @@
+﻿probe_id,background_region,relation,era,tournament_group,group_matches,reference_matches,support_status,expectation
+PROBE-AF-CROSS-1980S-NF,002,cross_region,1980s,non_friendly,0,506,group_missing_layer,group_missing_layer
+PROBE-OC-SAMEUNIT-1980S-F,009,same_unit,1980s,friendly,0,38,group_missing_layer,group_missing_layer
+PROBE-OC-DIFFUNIT-2000S-F,009,same_region_diff_unit,2000s,friendly,0,32,group_missing_layer,group_missing_layer

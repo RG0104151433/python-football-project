@@ -1,0 +1,11 @@
+{
+ "schema_version": "region-replay-v3",
+ "original_run": "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1",
+ "replay_run": "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1",
+ "code_snapshot": "code/prepare_region_mapping.py",
+ "code_snapshot_sha256": "82cd5e840f88c0bd818b0552c8d782e4e522561860cc07ca94b1184e2f033947",
+ "csv_checked": 16,
+ "csv_identical": 16,
+ "csv_diff": [],
+ "note": "重放使用原运行的代码快照与输入快照；新目录不覆盖原运行"
+}

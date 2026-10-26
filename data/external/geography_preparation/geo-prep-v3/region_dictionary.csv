@@ -1,0 +1,56 @@
+﻿standard_version,area_code,original_name,zh_name,original_level,raw_parent_code,project_level,project_parent_code,project_region_code,project_unit_code,is_project_unit,merge_rule,note,source_id
+M49 accessed 2026-10-26 (UNSD),001,World,世界,world,,world,,,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),002,Africa,非洲,region,001,region,001,002,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),015,Northern Africa,北非,subregion,002,subregion,,,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),202,Sub-Saharan Africa,撒哈拉以南非洲,subregion,002,subregion,,,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),014,Eastern Africa,东非,intermediate,202,intermediate,,,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),017,Middle Africa,中非,intermediate,202,intermediate,,,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),018,Southern Africa,南部非洲,intermediate,202,intermediate,,,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),011,Western Africa,西非,intermediate,202,intermediate,,,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),019,Americas,美洲,region,001,region,001,019,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),419,Latin America and the Caribbean,拉丁美洲和加勒比,subregion,019,subregion,,,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),029,Caribbean,加勒比,intermediate,419,intermediate,,,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),013,Central America,中美洲,intermediate,419,intermediate,,,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),005,South America,南美,intermediate,419,intermediate,,,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),021,Northern America,北美,subregion,019,subregion,,,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),142,Asia,亚洲,region,001,region,001,142,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),143,Central Asia,中亚,subregion,142,subregion,,,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),030,Eastern Asia,东亚,subregion,142,subregion,,,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),035,South-eastern Asia,东南亚,subregion,142,subregion,,,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),034,Southern Asia,南亚,subregion,142,subregion,,,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),145,Western Asia,西亚,subregion,142,subregion,,,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),150,Europe,欧洲,region,001,region,001,150,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),151,Eastern Europe,东欧,subregion,150,subregion,,,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),154,Northern Europe,北欧,subregion,150,subregion,,,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),039,Southern Europe,南欧,subregion,150,subregion,,,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),155,Western Europe,西欧,subregion,150,subregion,,,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),009,Oceania,大洋洲,region,001,region,001,009,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),053,Australia and New Zealand,澳大利亚和新西兰,subregion,009,subregion,,,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),054,Melanesia,美拉尼西亚,subregion,009,subregion,,,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),057,Micronesia,密克罗尼西亚,subregion,009,subregion,,,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),061,Polynesia,波利尼西亚,subregion,009,subregion,,,,,,节点行；项目细区见球队规则,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),005,South America,南美,project_unit,419,unit,019,019,005,true,,项目候选细区（互斥；由最深非空 M49 层确定）,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),011,Western Africa,西非,project_unit,202,unit,002,002,011,true,,项目候选细区（互斥；由最深非空 M49 层确定）,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),013,Central America,中美洲,project_unit,419,unit,019,019,013,true,,项目候选细区（互斥；由最深非空 M49 层确定）,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),014,Eastern Africa,东非,project_unit,202,unit,002,002,014,true,,项目候选细区（互斥；由最深非空 M49 层确定）,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),015,Northern Africa,北非,project_unit,002,unit,002,002,015,true,,项目候选细区（互斥；由最深非空 M49 层确定）,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),017,Middle Africa,中非,project_unit,202,unit,002,002,017,true,,项目候选细区（互斥；由最深非空 M49 层确定）,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),018,Southern Africa,南部非洲,project_unit,202,unit,002,002,018,true,,项目候选细区（互斥；由最深非空 M49 层确定）,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),021,Northern America,北美,project_unit,019,unit,019,019,021,true,,项目候选细区（互斥；由最深非空 M49 层确定）,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),029,Caribbean,加勒比,project_unit,419,unit,019,019,029,true,,项目候选细区（互斥；由最深非空 M49 层确定）,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),030,Eastern Asia,东亚,project_unit,142,unit,142,142,030,true,,项目候选细区（互斥；由最深非空 M49 层确定）,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),034,Southern Asia,南亚,project_unit,142,unit,142,142,034,true,,项目候选细区（互斥；由最深非空 M49 层确定）,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),035,South-eastern Asia,东南亚,project_unit,142,unit,142,142,035,true,,项目候选细区（互斥；由最深非空 M49 层确定）,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),039,Southern Europe,南欧,project_unit,150,unit,150,150,039,true,,项目候选细区（互斥；由最深非空 M49 层确定）,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),053,Australia and New Zealand,澳大利亚和新西兰,project_unit,009,unit,009,009,053,true,,项目候选细区（互斥；由最深非空 M49 层确定）,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),054,Melanesia,美拉尼西亚,project_unit,009,unit,009,009,054,true,,项目候选细区（互斥；由最深非空 M49 层确定）,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),057,Micronesia,密克罗尼西亚,project_unit,009,unit,009,009,057,true,,项目候选细区（互斥；由最深非空 M49 层确定）,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),061,Polynesia,波利尼西亚,project_unit,009,unit,009,009,061,true,,项目候选细区（互斥；由最深非空 M49 层确定）,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),143,Central Asia,中亚,project_unit,142,unit,142,142,143,true,,项目候选细区（互斥；由最深非空 M49 层确定）,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),145,Western Asia,西亚,project_unit,142,unit,142,142,145,true,,项目候选细区（互斥；由最深非空 M49 层确定）,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),151,Eastern Europe,东欧,project_unit,150,unit,150,150,151,true,,项目候选细区（互斥；由最深非空 M49 层确定）,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),154,Northern Europe,北欧,project_unit,150,unit,150,150,154,true,,项目候选细区（互斥；由最深非空 M49 层确定）,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),155,Western Europe,西欧,project_unit,150,unit,150,150,155,true,,项目候选细区（互斥；由最深非空 M49 层确定）,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),sub_saharan_africa,sub_saharan_africa,撒哈拉以南非洲,project_rollup,,rollup,002,002,,false,M49 202(SSA) 之下的四个细区合并；不含 015 北非,仅供候选粗分组展示，不参与细区互斥计数,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),north_africa,north_africa,北非,project_rollup,,rollup,002,002,,false,M49 细区 015 单独成组,仅供候选粗分组展示，不参与细区互斥计数,SRC-M49-UNSD-2026
+M49 accessed 2026-10-26 (UNSD),latin_america,latin_america,拉丁美洲,project_rollup,,rollup,019,019,,false,M49 419(LAC) 去掉 021 北美后的三细区合并（仅供候选对照）,仅供候选粗分组展示，不参与细区互斥计数,SRC-M49-UNSD-2026

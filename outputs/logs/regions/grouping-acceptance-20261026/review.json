@@ -1,0 +1,733 @@
+{
+  "executor": "Codex (AI)",
+  "created_at_utc": "2026-10-26T09:31:26.054966+00:00",
+  "accepted_run": "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1",
+  "replay_run": "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1",
+  "checks": [
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:candidate_arm_composition.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:candidate_reference_support.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:candidate_support_summary.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:composition_home_away.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:counts_direction_matrix.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:counts_home_region_era_tournament.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:counts_home_unit_era_tournament.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:counts_relation_era_tournament.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:coverage_probe_cases.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:exception_impacts.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:linkage_checks.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:match_region_relations.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:team_contributions.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:team_geography_rules.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:team_inventory.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:unknown_distribution.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:validation_report.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:zero_cell_analysis.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:code/prepare_region_mapping.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:inputs/inputs_manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:inputs/external/adopted_decisions.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:inputs/external/analysis_membership.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:inputs/external/association_registry.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:inputs/external/historical_exceptions.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:inputs/external/matches_clean.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:inputs/package/candidate_specs.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:inputs/package/carrier_model.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:inputs/package/exceptions.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:inputs/package/region_dictionary.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:inputs/package/sources.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:inputs/package/team_geography_seed.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:inputs/package/sources/m49_overview.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T090739Z-82cd5e84-accepted-r1:inputs/package/sources/m49_page.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T090739Z-82cd5e84-accepted-r1:13_input_snapshots",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T090739Z-82cd5e84-accepted-r1:source_and_snapshot:identity_adopted_decisions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T090739Z-82cd5e84-accepted-r1:source_and_snapshot:identity_association_registry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T090739Z-82cd5e84-accepted-r1:source_and_snapshot:identity_historical_exceptions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T090739Z-82cd5e84-accepted-r1:source_and_snapshot:matches_clean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T090739Z-82cd5e84-accepted-r1:source_and_snapshot:package_carrier",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T090739Z-82cd5e84-accepted-r1:source_and_snapshot:package_dictionary",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T090739Z-82cd5e84-accepted-r1:source_and_snapshot:package_exceptions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T090739Z-82cd5e84-accepted-r1:source_and_snapshot:package_seed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T090739Z-82cd5e84-accepted-r1:source_and_snapshot:package_sources",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T090739Z-82cd5e84-accepted-r1:source_and_snapshot:package_sources_m49_overview",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T090739Z-82cd5e84-accepted-r1:source_and_snapshot:package_sources_m49_page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T090739Z-82cd5e84-accepted-r1:source_and_snapshot:package_specs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T090739Z-82cd5e84-accepted-r1:source_and_snapshot:q2_membership",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T090739Z-82cd5e84-accepted-r1:all_runtime_checks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T090739Z-82cd5e84-accepted-r1:14_internal_selftests",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:candidate_arm_composition.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:candidate_reference_support.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:candidate_support_summary.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:composition_home_away.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:counts_direction_matrix.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:counts_home_region_era_tournament.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:counts_home_unit_era_tournament.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:counts_relation_era_tournament.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:coverage_probe_cases.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:exception_impacts.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:linkage_checks.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:match_region_relations.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:replay_check.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:team_contributions.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:team_geography_rules.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:team_inventory.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:unknown_distribution.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:validation_report.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:zero_cell_analysis.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:code/prepare_region_mapping.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:inputs/inputs_manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:inputs/external/adopted_decisions.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:inputs/external/analysis_membership.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:inputs/external/association_registry.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:inputs/external/historical_exceptions.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:inputs/external/matches_clean.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:inputs/package/candidate_specs.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:inputs/package/carrier_model.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:inputs/package/exceptions.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:inputs/package/region_dictionary.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:inputs/package/sources.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:inputs/package/team_geography_seed.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:inputs/package/sources/m49_overview.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hash:preparation-20261026T091035Z-82cd5e84-replay-r1:inputs/package/sources/m49_page.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T091035Z-82cd5e84-replay-r1:13_input_snapshots",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T091035Z-82cd5e84-replay-r1:source_and_snapshot:identity_adopted_decisions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T091035Z-82cd5e84-replay-r1:source_and_snapshot:identity_association_registry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T091035Z-82cd5e84-replay-r1:source_and_snapshot:identity_historical_exceptions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T091035Z-82cd5e84-replay-r1:source_and_snapshot:matches_clean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T091035Z-82cd5e84-replay-r1:source_and_snapshot:package_carrier",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T091035Z-82cd5e84-replay-r1:source_and_snapshot:package_dictionary",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T091035Z-82cd5e84-replay-r1:source_and_snapshot:package_exceptions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T091035Z-82cd5e84-replay-r1:source_and_snapshot:package_seed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T091035Z-82cd5e84-replay-r1:source_and_snapshot:package_sources",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T091035Z-82cd5e84-replay-r1:source_and_snapshot:package_sources_m49_overview",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T091035Z-82cd5e84-replay-r1:source_and_snapshot:package_sources_m49_page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T091035Z-82cd5e84-replay-r1:source_and_snapshot:package_specs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T091035Z-82cd5e84-replay-r1:source_and_snapshot:q2_membership",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T091035Z-82cd5e84-replay-r1:all_runtime_checks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preparation-20261026T091035Z-82cd5e84-replay-r1:14_internal_selftests",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "16_core_csv_snapshot_replay_identical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "current_code_is_accepted_snapshot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prior_independent_v2_evidence_sources_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "24917_classifications_equal_independently_rebuilt_v2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "canonical_output_flags",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "new_rule_ids_match_actual_roles_and_dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "29290_full_team_contributions_independently_rebuilt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "accepted_code_and_inputs_match_locked_protocol",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "five_macroregion_profiles_plus_unknown_reconcile",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "south_america_nested_not_sixth_macroregion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_six_profiles_have_global_reference_support",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "B_EUR:disjoint_arms",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "B_EUR:planned_use_matches_support",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "B_ASIA:disjoint_arms",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "B_ASIA:planned_use_matches_support",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "B_SA:disjoint_arms",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "B_SA:planned_use_matches_support",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C_AFR:disjoint_arms",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C_AFR:planned_use_matches_support",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C_AMER:disjoint_arms",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C_AMER:planned_use_matches_support",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C_ASIA:disjoint_arms",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C_ASIA:planned_use_matches_support",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C_EUR:disjoint_arms",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C_EUR:planned_use_matches_support",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "check_count": 124,
+  "registered_file_hash_checks": 67,
+  "all_passed": true,
+  "target_counts": {
+    "A": 24891,
+    "B": 24818,
+    "C": 24891
+  },
+  "source_fingerprints": {
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\manifest.json": "a3702151c90790341bef82660ef7f885f6c624a90c045457354920318e50e964",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\candidate_arm_composition.csv": "8bad37b1eb47d79fd1e414f3314dfd407adcd78ae787cb6544d54653f37eee09",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\candidate_reference_support.csv": "8c97689cb06ddf28e95b845e17c04feaf4832abc0765b1eafb24b82f352d7149",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\candidate_support_summary.csv": "127884984cf84abb319e2bbe8583e97092ac7a4f6fa2c850ef7e5ae983911e27",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\composition_home_away.csv": "784f4aa3addb5764486e2e9492e0fe275a9282940f7461da5ce021bc1466c576",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\counts_direction_matrix.csv": "fed1052ddde226b5715e3c947996f6d5e45e4fddb459218b701f90e7979429fc",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\counts_home_region_era_tournament.csv": "1dc58832f514c2f9712a41bcb27bc638bcbd23ad265c29e256ab5a9cc699ab41",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\counts_home_unit_era_tournament.csv": "3c0323d89bea18b4e46a9894de0633f14a00b1fecabada465dece9c4e8450f80",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\counts_relation_era_tournament.csv": "7c2f793caaa0d522df45bc2746e9912c63a1426cdd5afa2f8162a2028a5d19b5",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\coverage_probe_cases.csv": "b38aa5dbcd0f03c314de3f89e4f185f870d7defba0b70c74d85e5f43b4c01af6",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\exception_impacts.csv": "24fbfa3e6f35f6794e658ec282eb672d6186165f41f828e8a3a9169213c11cbe",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\linkage_checks.json": "1420c67bb572851430c20e5ab0ffad6262798aab3dc264ed5a28b899cd8da815",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\match_region_relations.csv": "4a30a95b129ae68d68859c8c9f25da6aa633815ada5dc1ce5fb152678860f69d",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\team_contributions.csv": "43354cf8fd9c4386408dd4231cc0b1e21fc2107e9eb8a98756ef34c2705f2786",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\team_geography_rules.csv": "e2a69fc2409bda5c4b1336f32e3bf04c7c22ef86a8a03a02f6ecf3cf88ac55fe",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\team_inventory.csv": "3171d103850a6b336111ba12edcfe57476fec5a116c3b4e2b151d874031c04e2",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\unknown_distribution.csv": "e2d74a8abe3d66b5dd31f400ae062689a94d8a3ed9b44cf09185b95f8ced86d4",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\validation_report.json": "aba3c3b3bb72c8f6edb6c81eacdbaf3982eb18132288ccc6f6d114eb3af7e9c0",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\zero_cell_analysis.csv": "2879b7f6f24091fb68c0565cdcd44bcd9b251c1db51f1e13c2917387bd07db60",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\code\\prepare_region_mapping.py": "82cd5e840f88c0bd818b0552c8d782e4e522561860cc07ca94b1184e2f033947",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\inputs\\inputs_manifest.json": "7311e873944b5596209d7f640087fa8c8027bd4db726ad1db43444dd1d73fdd7",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\inputs\\external\\adopted_decisions.csv": "a17e1e2ad5ae3234ce4fa7be6a8267460378f82a0cae671b3e79263c9ecdf1a7",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\inputs\\external\\analysis_membership.csv": "4294840536c707abef248b166c015de8f7fac39dcf14a37c7dcd75911283e166",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\inputs\\external\\association_registry.csv": "fe7d7ca532238804562d9a0bc999112aad660ba107560708fecb078aee6faf80",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\inputs\\external\\historical_exceptions.json": "5af632557c6e5347faa528d12f390e08c509530a17249104b59063f895565524",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\inputs\\external\\matches_clean.csv": "69ba00073970fe011a62f5871c08ace6285d7fe75d5a0d79afdac0ef972de9dc",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\inputs\\package\\candidate_specs.csv": "6057c8e3369afca2fa18e3748df17ff6463a7099aff509f6f64400029b11a452",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\inputs\\package\\carrier_model.csv": "2e0061753e79e7e5ac8323f0ac1e0ffb9c841f0d1fb45900f45575100e32708b",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\inputs\\package\\exceptions.csv": "9c4256eb2890540087e28ca81f042f2c02342379946b8842a55af272861596c0",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\inputs\\package\\region_dictionary.csv": "03ffadade84c6a5813b0c0c1d804e2a32a32f86598a414771c0be6a2d725fbab",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\inputs\\package\\sources.csv": "f0475f82a0af5141877e0fdb5f799d086920adac50bcb267fc96ccd68f5e04ff",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\inputs\\package\\team_geography_seed.csv": "e16b82c72384e721174e7188f20ea7a398a46127e23b272667f0b85e77406935",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\inputs\\package\\sources\\m49_overview.html": "b9048114f6e7f2abda83bf03d4263c9d7cd1bd7230e3d0461025ee7839a7a1fb",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1\\inputs\\package\\sources\\m49_page.html": "4d5cabcb10ad9ef184553b5e64c0a34ba8deeb20dab2e02cd0be3599b93bb01d",
+    "data\\processed\\team_identity\\identity-reviewed-29d880765c1623764940\\adopted_decisions.csv": "a17e1e2ad5ae3234ce4fa7be6a8267460378f82a0cae671b3e79263c9ecdf1a7",
+    "data\\processed\\team_identity\\identity-reviewed-29d880765c1623764940\\association_registry.csv": "fe7d7ca532238804562d9a0bc999112aad660ba107560708fecb078aee6faf80",
+    "data\\processed\\team_identity\\identity-reviewed-29d880765c1623764940\\historical_exceptions.json": "5af632557c6e5347faa528d12f390e08c509530a17249104b59063f895565524",
+    "data\\processed\\prep-3fab808178cf8ad71d88\\matches_clean.csv": "69ba00073970fe011a62f5871c08ace6285d7fe75d5a0d79afdac0ef972de9dc",
+    "data\\external\\geography_preparation\\geo-prep-v3\\carrier_model.csv": "2e0061753e79e7e5ac8323f0ac1e0ffb9c841f0d1fb45900f45575100e32708b",
+    "data\\external\\geography_preparation\\geo-prep-v3\\region_dictionary.csv": "03ffadade84c6a5813b0c0c1d804e2a32a32f86598a414771c0be6a2d725fbab",
+    "data\\external\\geography_preparation\\geo-prep-v3\\exceptions.csv": "9c4256eb2890540087e28ca81f042f2c02342379946b8842a55af272861596c0",
+    "data\\external\\geography_preparation\\geo-prep-v3\\team_geography_seed.csv": "e16b82c72384e721174e7188f20ea7a398a46127e23b272667f0b85e77406935",
+    "data\\external\\geography_preparation\\geo-prep-v3\\sources.csv": "f0475f82a0af5141877e0fdb5f799d086920adac50bcb267fc96ccd68f5e04ff",
+    "data\\external\\geography_preparation\\geo-prep-v3\\sources\\m49_overview.html": "b9048114f6e7f2abda83bf03d4263c9d7cd1bd7230e3d0461025ee7839a7a1fb",
+    "data\\external\\geography_preparation\\geo-prep-v3\\sources\\m49_page.html": "4d5cabcb10ad9ef184553b5e64c0a34ba8deeb20dab2e02cd0be3599b93bb01d",
+    "data\\external\\geography_preparation\\geo-prep-v3\\candidate_specs.csv": "6057c8e3369afca2fa18e3748df17ff6463a7099aff509f6f64400029b11a452",
+    "outputs\\tables\\tournaments\\tournaments-4893e38db46f83f6c219\\analysis_membership.csv": "4294840536c707abef248b166c015de8f7fac39dcf14a37c7dcd75911283e166",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\manifest.json": "1a43c3e214e43acbe12b037fbbe285a4937c2c66832eb2eb9cdad7fe5d929e94",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\candidate_arm_composition.csv": "8bad37b1eb47d79fd1e414f3314dfd407adcd78ae787cb6544d54653f37eee09",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\candidate_reference_support.csv": "8c97689cb06ddf28e95b845e17c04feaf4832abc0765b1eafb24b82f352d7149",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\candidate_support_summary.csv": "127884984cf84abb319e2bbe8583e97092ac7a4f6fa2c850ef7e5ae983911e27",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\composition_home_away.csv": "784f4aa3addb5764486e2e9492e0fe275a9282940f7461da5ce021bc1466c576",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\counts_direction_matrix.csv": "fed1052ddde226b5715e3c947996f6d5e45e4fddb459218b701f90e7979429fc",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\counts_home_region_era_tournament.csv": "1dc58832f514c2f9712a41bcb27bc638bcbd23ad265c29e256ab5a9cc699ab41",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\counts_home_unit_era_tournament.csv": "3c0323d89bea18b4e46a9894de0633f14a00b1fecabada465dece9c4e8450f80",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\counts_relation_era_tournament.csv": "7c2f793caaa0d522df45bc2746e9912c63a1426cdd5afa2f8162a2028a5d19b5",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\coverage_probe_cases.csv": "b38aa5dbcd0f03c314de3f89e4f185f870d7defba0b70c74d85e5f43b4c01af6",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\exception_impacts.csv": "24fbfa3e6f35f6794e658ec282eb672d6186165f41f828e8a3a9169213c11cbe",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\linkage_checks.json": "1420c67bb572851430c20e5ab0ffad6262798aab3dc264ed5a28b899cd8da815",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\match_region_relations.csv": "4a30a95b129ae68d68859c8c9f25da6aa633815ada5dc1ce5fb152678860f69d",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\replay_check.json": "f3ec7a16647730c7fa1dff7636e1828d4cb376fc28b51169bf368aa6ae9ab01b",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\team_contributions.csv": "43354cf8fd9c4386408dd4231cc0b1e21fc2107e9eb8a98756ef34c2705f2786",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\team_geography_rules.csv": "e2a69fc2409bda5c4b1336f32e3bf04c7c22ef86a8a03a02f6ecf3cf88ac55fe",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\team_inventory.csv": "3171d103850a6b336111ba12edcfe57476fec5a116c3b4e2b151d874031c04e2",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\unknown_distribution.csv": "e2d74a8abe3d66b5dd31f400ae062689a94d8a3ed9b44cf09185b95f8ced86d4",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\validation_report.json": "7bf02e0cb7dc179c320f76e1bceb65b489b23dfd55ccb853f8c381805e1ad697",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\zero_cell_analysis.csv": "2879b7f6f24091fb68c0565cdcd44bcd9b251c1db51f1e13c2917387bd07db60",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\code\\prepare_region_mapping.py": "82cd5e840f88c0bd818b0552c8d782e4e522561860cc07ca94b1184e2f033947",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\inputs\\inputs_manifest.json": "8ae14e67e3caca07e8b2422e81edce54cc6499c218515d1ae3d3f4e3d05f2614",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\inputs\\external\\adopted_decisions.csv": "a17e1e2ad5ae3234ce4fa7be6a8267460378f82a0cae671b3e79263c9ecdf1a7",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\inputs\\external\\analysis_membership.csv": "4294840536c707abef248b166c015de8f7fac39dcf14a37c7dcd75911283e166",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\inputs\\external\\association_registry.csv": "fe7d7ca532238804562d9a0bc999112aad660ba107560708fecb078aee6faf80",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\inputs\\external\\historical_exceptions.json": "5af632557c6e5347faa528d12f390e08c509530a17249104b59063f895565524",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\inputs\\external\\matches_clean.csv": "69ba00073970fe011a62f5871c08ace6285d7fe75d5a0d79afdac0ef972de9dc",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\inputs\\package\\candidate_specs.csv": "6057c8e3369afca2fa18e3748df17ff6463a7099aff509f6f64400029b11a452",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\inputs\\package\\carrier_model.csv": "2e0061753e79e7e5ac8323f0ac1e0ffb9c841f0d1fb45900f45575100e32708b",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\inputs\\package\\exceptions.csv": "9c4256eb2890540087e28ca81f042f2c02342379946b8842a55af272861596c0",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\inputs\\package\\region_dictionary.csv": "03ffadade84c6a5813b0c0c1d804e2a32a32f86598a414771c0be6a2d725fbab",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\inputs\\package\\sources.csv": "f0475f82a0af5141877e0fdb5f799d086920adac50bcb267fc96ccd68f5e04ff",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\inputs\\package\\team_geography_seed.csv": "e16b82c72384e721174e7188f20ea7a398a46127e23b272667f0b85e77406935",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\inputs\\package\\sources\\m49_overview.html": "b9048114f6e7f2abda83bf03d4263c9d7cd1bd7230e3d0461025ee7839a7a1fb",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1\\inputs\\package\\sources\\m49_page.html": "4d5cabcb10ad9ef184553b5e64c0a34ba8deeb20dab2e02cd0be3599b93bb01d",
+    "scripts\\prepare_region_mapping.py": "82cd5e840f88c0bd818b0552c8d782e4e522561860cc07ca94b1184e2f033947",
+    "outputs\\logs\\regions\\review-20261026-geo-prep-v2\\review.json": "8873cddf3a358de4ea2a201034d74cf1b6d4e85288be40b04779d1b88ef9b3e3",
+    "config\\regions_study.json": "49d378e4e5f93d0800774364a28f7fa8137d414950b359067ed544d2f172c73d",
+    "tests\\test_region_preparation_contract.py": "5c8bc4bfdee56735cc44cd93fcead83e3e8ae4c83f7782e1203ea8c6a08ea6eb"
+  },
+  "audit_code_sha256": "c1285246c6d081c5d15227092649a9adf8e33adde758fe1f51b71ae36378d92d",
+  "regional_outcomes_computed": false,
+  "formal_analysis_implemented": false,
+  "limitations": [
+    "Acceptance applies to current study scope, not universal absence of bugs",
+    "Historical geographic carriers and 99 relation-unknown matches remain explicit project policy",
+    "No causal or inferential validation"
+  ],
+  "human_review": "not_performed"
+}

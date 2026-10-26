@@ -1,0 +1,283 @@
+{
+ "schema_version": "region-preparation-v3",
+ "run_id": "preparation-20261026T085725Z-7476ddc3-r2",
+ "status": "ok",
+ "generated_at": "2026-10-26T08:57:46+00:00",
+ "package": "data\\external\\geography_preparation\\geo-prep-v3",
+ "checks": [
+  {
+   "name": "q2_rows_expected",
+   "passed": true,
+   "detail": "48102"
+  },
+  {
+   "name": "included_expected",
+   "passed": true,
+   "detail": "24917"
+  },
+  {
+   "name": "excluded_expected",
+   "passed": true,
+   "detail": "23185"
+  },
+  {
+   "name": "m49_areas_parsed",
+   "passed": true,
+   "detail": "248"
+  },
+  {
+   "name": "dictionary_codes_known",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "project_units_count",
+   "passed": true,
+   "detail": "22"
+  },
+  {
+   "name": "project_units_parent_in_regions",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "raw_parents_filled",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "raw_parent_matches_m49",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "every_team_has_rule",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "carrier_kind_covered",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "relation_rows_equal_sample",
+   "passed": true,
+   "detail": "24917"
+  },
+  {
+   "name": "relation_no_duplicate",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "home_labels",
+   "passed": true,
+   "detail": "214"
+  },
+  {
+   "name": "away_labels",
+   "passed": true,
+   "detail": "214"
+  },
+  {
+   "name": "union_labels",
+   "passed": true,
+   "detail": "215"
+  },
+  {
+   "name": "counts_sum",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "contributions_reconcile_to_arm_cells",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "probe_probe-af-cross-1980s-nf",
+   "passed": true,
+   "detail": "group=0, ref=506"
+  },
+  {
+   "name": "probe_probe-oc-sameunit-1980s-f",
+   "passed": true,
+   "detail": "group=0, ref=38"
+  },
+  {
+   "name": "probe_probe-oc-diffunit-2000s-f",
+   "passed": true,
+   "detail": "group=0, ref=32"
+  },
+  {
+   "name": "zero_cells_classified",
+   "passed": true,
+   "detail": "known=44, unknown=118"
+  },
+  {
+   "name": "selftest_strict_boolean_rejects_variants",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "selftest_canonical_boolean_no_silent_drop",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "selftest_duplicate_match_id_rejected",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "selftest_version_mismatch_rejected",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "selftest_swap_direction_through_processor",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "selftest_rule_middle_gap_detected",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "selftest_rule_overlap_detected",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "selftest_multiple_rule_match_rejected",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "selftest_missing_rule_rejected",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "selftest_parent_mismatch_detected",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "selftest_one_side_known_relation",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "selftest_contributions_reconcile_and_zero_denominator",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "selftest_reference_layer_missing_flagged",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "selftest_failure_report_end_to_end",
+   "passed": true,
+   "detail": ""
+  }
+ ],
+ "failures": [],
+ "self_tests": [
+  {
+   "name": "strict_boolean_rejects_variants",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "canonical_boolean_no_silent_drop",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "duplicate_match_id_rejected",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "version_mismatch_rejected",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "swap_direction_through_processor",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "rule_middle_gap_detected",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "rule_overlap_detected",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "multiple_rule_match_rejected",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "missing_rule_rejected",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "parent_mismatch_detected",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "one_side_known_relation",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "contributions_reconcile_and_zero_denominator",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "reference_layer_missing_flagged",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "failure_report_end_to_end",
+   "passed": true,
+   "detail": ""
+  }
+ ],
+ "not_run": [
+  "地区胜率/胜平负",
+  "共同构成调整值/区间/排名",
+  "正式比较清单冻结",
+  "第四/五问检验"
+ ],
+ "stats": {
+  "relations": {
+   "same_unit": 8395,
+   "cross_region": 4368,
+   "same_region_diff_unit": 12055,
+   "unknown_region": 99
+  },
+  "targets": {
+   "A": 24891,
+   "B": 24818,
+   "C": 24891
+  },
+  "candidates": 19,
+  "contribution_rows": 29290
+ }
+}

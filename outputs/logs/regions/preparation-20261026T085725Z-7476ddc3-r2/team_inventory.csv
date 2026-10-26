@@ -1,0 +1,216 @@
+﻿team_id,current_label,raw_names,first_date,last_date,home_matches,away_matches,total_matches,carrier_kind
+team:afghanistan,Afghanistan,Afghanistan,1984-09-12,2024-11-19,2,49,51,modern_state
+team:albania,Albania,Albania,1980-09-03,2024-11-19,149,151,300,modern_state
+team:algeria,Algeria,Algeria,1980-03-22,2024-11-17,182,158,340,modern_state
+team:american-samoa,American Samoa,American Samoa,2001-04-11,2024-09-06,0,10,10,dependent_territory
+team:andorra,Andorra,Andorra,1997-06-22,2024-11-19,87,96,183,modern_state
+team:angola,Angola,Angola,1981-04-04,2024-11-15,132,155,287,modern_state
+team:anguilla,Anguilla,Anguilla,1997-04-06,2024-10-09,11,24,35,dependent_territory
+team:antigua-and-barbuda,Antigua and Barbuda,Antigua and Barbuda,1983-05-29,2024-09-10,77,65,142,modern_state
+team:argentina,Argentina,Argentina,1980-05-13,2024-11-19,154,190,344,modern_state
+team:armenia,Armenia,Armenia,1994-05-15,2024-11-17,106,120,226,modern_state
+team:aruba,Aruba,Aruba,1989-04-02,2024-11-15,29,31,60,dependent_territory
+team:australia,Australia,Australia,1980-01-27,2024-11-19,169,146,315,modern_state
+team:austria,Austria,Austria,1980-04-02,2024-11-17,218,157,375,modern_state
+team:azerbaijan,Azerbaijan,Azerbaijan,1994-09-07,2024-11-19,105,138,243,modern_state
+team:bahamas,Bahamas,Bahamas,1999-02-24,2024-10-15,24,22,46,modern_state
+team:bahrain,Bahrain,Bahrain,1980-08-29,2024-12-31,195,126,321,modern_state
+team:bangladesh,Bangladesh,Bangladesh,1982-02-18,2024-11-16,75,84,159,modern_state
+team:barbados,Barbados,Barbados,1981-07-05,2024-11-19,98,81,179,modern_state
+team:belarus,Belarus,Belarus,1992-10-28,2024-11-18,98,147,245,modern_state
+team:belgium,Belgium,Belgium,1980-02-27,2024-11-14,197,174,371,modern_state
+team:belize,Belize,Belize,1995-11-29,2024-10-15,35,38,73,modern_state
+team:benin,Benin,Benin,1980-11-15,2024-11-18,97,110,207,modern_state
+team:bermuda,Bermuda,Bermuda,1982-05-08,2024-11-19,66,53,119,dependent_territory
+team:bhutan,Bhutan,Bhutan,2001-04-28,2024-09-08,17,31,48,modern_state
+team:bolivia,Bolivia,Bolivia,1980-07-02,2024-11-19,140,160,300,modern_state
+team:bosnia-and-herzegovina,Bosnia and Herzegovina,Bosnia and Herzegovina,1996-04-21,2024-11-19,111,127,238,modern_state
+team:botswana,Botswana,Botswana,1981-09-30,2024-11-19,139,120,259,modern_state
+team:brazil,Brazil,Brazil,1980-06-08,2024-11-19,199,208,407,modern_state
+team:british-virgin-islands,British Virgin Islands,British Virgin Islands,1997-04-02,2024-10-09,30,31,61,dependent_territory
+team:brunei,Brunei,Brunei,1982-10-07,2024-11-15,23,36,59,modern_state
+team:bulgaria,Bulgaria,Bulgaria,1980-03-08,2024-11-18,160,226,386,modern_state
+team:burkina-faso,Burkina Faso,Burkina Faso,1981-07-18,2024-11-18,125,153,278,modern_state
+team:burundi,Burundi,Burundi,1981-08-06,2024-11-19,47,72,119,modern_state
+team:cambodia,Cambodia,Cambodia,1995-12-12,2024-12-20,66,61,127,modern_state
+team:cameroon,Cameroon,Cameroon,1980-01-27,2024-11-19,129,187,316,modern_state
+team:canada,Canada,Canada,1980-09-15,2024-11-19,119,152,271,modern_state
+team:cape-verde,Cape Verde,Cape Verde,1988-11-17,2024-11-19,63,75,138,modern_state
+team:cayman-islands,Cayman Islands,Cayman Islands,1992-04-03,2024-10-15,43,27,70,dependent_territory
+team:central-african-republic,Central African Republic,Central African Republic,1984-12-12,2024-10-15,24,56,80,modern_state
+team:chad,Chad,Chad,1985-12-14,2024-11-19,31,44,75,modern_state
+team:chile,Chile,Chile,1980-06-24,2024-11-19,184,195,379,modern_state
+team:china,China,China,1980-12-21,2024-11-19,214,159,373,modern_state
+team:colombia,Colombia,Colombia,1980-07-09,2024-11-19,131,185,316,modern_state
+team:comoros,Comoros,Comoros,2006-12-14,2024-10-11,27,28,55,modern_state
+team:congo,Congo,Congo,1980-01-19,2024-11-19,111,122,233,modern_state
+team:cook-islands,Cook Islands,Cook Islands,1995-08-22,2024-03-26,3,12,15,modern_state
+team:costa-rica,Costa Rica,Costa Rica,1980-03-06,2024-11-18,169,206,375,modern_state
+team:croatia,Croatia,Croatia,1992-07-05,2024-11-18,138,149,287,modern_state
+team:cuba,Cuba,Cuba,1980-06-24,2024-11-18,54,136,190,modern_state
+team:curacao,Curaçao,Curaçao,1980-09-12,2024-11-18,66,62,128,dependent_territory
+team:cyprus,Cyprus,Cyprus,1980-01-16,2024-11-18,193,149,342,modern_state
+team:czech-republic,Czech Republic,Czech Republic,1994-08-17,2024-11-19,140,146,286,modern_state
+team:czechoslovakia,Czechoslovakia,Czechoslovakia,1980-01-27,1993-11-17,48,72,120,historical_association_carrier
+team:denmark,Denmark,Denmark,1980-05-07,2024-11-18,211,202,413,modern_state
+team:djibouti,Djibouti,Djibouti,1998-07-31,2024-03-26,16,29,45,modern_state
+team:dominica,Dominica,Dominica,1995-11-19,2024-11-16,30,48,78,modern_state
+team:dominican-republic,Dominican Republic,Dominican Republic,1986-05-21,2024-11-19,62,46,108,modern_state
+team:dr-congo,DR Congo,DR Congo,1980-06-25,2024-11-19,114,163,277,modern_state
+team:ecuador,Ecuador,Ecuador,1981-01-27,2024-11-19,141,163,304,modern_state
+team:egypt,Egypt,Egypt,1980-03-15,2024-11-19,247,191,438,modern_state
+team:el-salvador,El Salvador,El Salvador,1980-05-09,2024-11-17,122,147,269,modern_state
+team:england,England,England,1980-02-06,2024-11-17,245,189,434,constituent_association_of_UK
+team:equatorial-guinea,Equatorial Guinea,Equatorial Guinea,1987-12-15,2024-11-17,68,56,124,modern_state
+team:eritrea,Eritrea,Eritrea,1999-01-23,2019-09-10,17,21,38,modern_state
+team:estonia,Estonia,Estonia,1991-11-15,2024-11-19,175,192,367,modern_state
+team:eswatini,Eswatini,Eswatini,1981-09-04,2024-11-19,96,104,200,modern_state
+team:ethiopia,Ethiopia,Ethiopia,1980-05-18,2024-11-19,130,86,216,modern_state
+team:faroe-islands,Faroe Islands,Faroe Islands,1989-04-14,2024-11-17,105,121,226,dependent_territory
+team:fiji,Fiji,Fiji,1980-02-19,2024-12-21,64,44,108,modern_state
+team:finland,Finland,Finland,1980-05-22,2024-11-17,164,262,426,modern_state
+team:france,France,France,1980-02-27,2024-11-17,261,170,431,modern_state
+team:gabon,Gabon,Gabon,1980-02-01,2024-11-15,145,124,269,modern_state
+team:gambia,Gambia,Gambia,1980-02-13,2024-11-18,83,71,154,modern_state
+team:georgia,Georgia,Georgia,1990-05-27,2024-11-19,118,140,258,modern_state
+team:german-dr,German DR,German DR,1980-02-13,1990-09-12,45,57,102,historical_association_carrier
+team:germany,Germany,Germany,1980-02-27,2024-11-19,252,208,460,modern_state
+team:ghana,Ghana,Ghana,1980-01-06,2024-11-18,127,188,315,modern_state
+team:gibraltar,Gibraltar,Gibraltar,2016-09-01,2024-11-19,27,37,64,dependent_territory
+team:greece,Greece,Greece,1980-01-16,2024-11-17,211,207,418,modern_state
+team:grenada,Grenada,Grenada,1980-03-30,2024-09-09,65,74,139,modern_state
+team:guam,Guam,Guam,2000-01-23,2024-12-17,13,29,42,dependent_territory
+team:guatemala,Guatemala,Guatemala,1980-04-15,2024-10-15,124,120,244,modern_state
+team:guinea,Guinea,Guinea,1980-02-13,2024-11-19,90,155,245,modern_state
+team:guinea-bissau,Guinea-Bissau,Guinea-Bissau,1987-02-26,2024-11-19,44,46,90,modern_state
+team:guyana,Guyana,Guyana,1980-03-30,2024-11-19,74,70,144,modern_state
+team:haiti,Haiti,Haiti,1980-05-13,2024-11-18,65,111,176,modern_state
+team:honduras,Honduras,Honduras,1980-03-06,2024-11-19,168,162,330,modern_state
+team:hong-kong,Hong Kong,Hong Kong,1980-06-01,2024-12-17,120,93,213,dependent_territory
+team:hungary,Hungary,Hungary,1980-03-26,2024-11-19,224,196,420,modern_state
+team:iceland,Iceland,Iceland,1980-06-02,2024-11-19,159,198,357,modern_state
+team:india,India,India,1981-09-15,2024-11-18,152,91,243,modern_state
+team:indonesia,Indonesia,Indonesia,1980-08-25,2024-12-21,166,127,293,modern_state
+team:iran,Iran,Iran,1980-08-05,2024-11-19,157,153,310,modern_state
+team:iraq,Iraq,Iraq,1980-02-27,2024-11-19,68,169,237,modern_state
+team:israel,Israel,Israel,1980-03-26,2024-11-14,174,158,332,modern_state
+team:italy,Italy,Italy,1980-02-16,2024-11-17,220,173,393,modern_state
+team:ivory-coast,Ivory Coast,Ivory Coast,1980-01-19,2024-11-19,170,163,333,modern_state
+team:jamaica,Jamaica,Jamaica,1984-04-29,2024-11-18,170,186,356,modern_state
+team:japan,Japan,Japan,1981-02-08,2024-11-19,265,126,391,modern_state
+team:jordan,Jordan,Jordan,1981-02-06,2024-11-19,172,140,312,modern_state
+team:kazakhstan,Kazakhstan,Kazakhstan,1995-12-27,2024-11-17,94,107,201,modern_state
+team:kenya,Kenya,Kenya,1980-06-29,2024-10-11,167,171,338,modern_state
+team:kosovo,Kosovo,Kosovo,2016-09-05,2024-11-18,34,33,67,statistical_area_412
+team:kuwait,Kuwait,Kuwait,1980-03-08,2024-12-31,215,131,346,modern_state
+team:kyrgyzstan,Kyrgyzstan,Kyrgyzstan,1996-01-24,2024-11-19,42,64,106,modern_state
+team:laos,Laos,Laos,1997-10-05,2024-12-18,43,53,96,modern_state
+team:latvia,Latvia,Latvia,1991-11-17,2024-11-17,136,155,291,modern_state
+team:lebanon,Lebanon,Lebanon,1989-10-30,2024-11-19,116,105,221,modern_state
+team:lesotho,Lesotho,Lesotho,1980-06-22,2024-11-18,87,104,191,modern_state
+team:liberia,Liberia,Liberia,1980-01-26,2024-11-17,106,110,216,modern_state
+team:libya,Libya,Libya,1980-04-27,2024-11-18,95,114,209,modern_state
+team:liechtenstein,Liechtenstein,Liechtenstein,1982-03-09,2024-11-18,109,118,227,modern_state
+team:lithuania,Lithuania,Lithuania,1990-05-27,2024-11-18,125,165,290,modern_state
+team:luxembourg,Luxembourg,Luxembourg,1980-02-27,2024-11-18,189,137,326,modern_state
+team:macau,Macau,Macau,1980-06-01,2024-09-10,36,46,82,dependent_territory
+team:madagascar,Madagascar,Madagascar,1980-06-19,2024-09-05,76,84,160,modern_state
+team:malawi,Malawi,Malawi,1980-05-04,2024-11-18,209,171,380,modern_state
+team:malaysia,Malaysia,Malaysia,1980-03-12,2024-12-20,203,140,343,modern_state
+team:maldives,Maldives,Maldives,1987-11-23,2024-11-16,58,69,127,modern_state
+team:mali,Mali,Mali,1980-09-28,2024-11-19,145,171,316,modern_state
+team:malta,Malta,Malta,1980-02-27,2024-11-19,209,152,361,modern_state
+team:mauritania,Mauritania,Mauritania,1980-02-16,2024-11-19,75,86,161,modern_state
+team:mauritius,Mauritius,Mauritius,1980-09-14,2024-11-19,68,87,155,modern_state
+team:mexico,Mexico,Mexico,1980-03-18,2024-11-19,168,174,342,modern_state
+team:moldova,Moldova,Moldova,1994-09-07,2024-11-19,104,134,238,modern_state
+team:mongolia,Mongolia,Mongolia,2000-02-29,2024-12-08,19,35,54,modern_state
+team:montenegro,Montenegro,Montenegro,2007-06-01,2024-11-19,77,70,147,modern_state
+team:montserrat,Montserrat,Montserrat,1999-02-05,2024-11-17,11,17,28,dependent_territory
+team:morocco,Morocco,Morocco,1980-02-12,2024-11-18,215,137,352,modern_state
+team:mozambique,Mozambique,Mozambique,1981-04-05,2024-11-19,131,138,269,modern_state
+team:myanmar,Myanmar,Myanmar,1980-10-17,2024-12-21,64,78,142,modern_state
+team:namibia,Namibia,Namibia,1992-08-01,2024-09-07,93,111,204,modern_state
+team:nepal,Nepal,Nepal,1982-02-12,2024-11-13,64,69,133,modern_state
+team:netherlands,Netherlands,Netherlands,1980-01-23,2024-11-19,220,181,401,modern_state
+team:new-caledonia,New Caledonia,New Caledonia,2007-07-17,2023-12-02,21,23,44,dependent_territory
+team:new-zealand,New Zealand,New Zealand,1980-02-19,2024-11-18,80,126,206,modern_state
+team:nicaragua,Nicaragua,Nicaragua,1984-04-27,2024-10-10,51,68,119,modern_state
+team:niger,Niger,Niger,1980-07-16,2024-11-18,78,92,170,modern_state
+team:nigeria,Nigeria,Nigeria,1980-01-26,2024-11-18,141,162,303,modern_state
+team:north-korea,North Korea,North Korea,1980-12-28,2024-10-15,34,119,153,modern_state
+team:north-macedonia,North Macedonia,North Macedonia,1994-03-23,2024-11-17,136,125,261,modern_state
+team:northern-ireland,Northern Ireland,Northern Ireland,1980-03-26,2024-11-18,167,169,336,constituent_association_of_UK
+team:norway,Norway,Norway,1980-05-22,2024-11-17,219,215,434,modern_state
+team:oman,Oman,Oman,1981-02-14,2024-12-21,212,126,338,modern_state
+team:pakistan,Pakistan,Pakistan,1981-11-11,2024-06-11,38,64,102,modern_state
+team:palestine,Palestine,Palestine,1998-07-20,2024-11-14,18,91,109,modern_state
+team:panama,Panama,Panama,1980-05-09,2024-11-18,145,167,312,modern_state
+team:papua-new-guinea,Papua New Guinea,Papua New Guinea,1984-09-04,2024-12-18,18,28,46,modern_state
+team:paraguay,Paraguay,Paraguay,1980-08-26,2024-11-19,129,223,352,modern_state
+team:peru,Peru,Peru,1980-07-18,2024-11-19,173,178,351,modern_state
+team:philippines,Philippines,Philippines,1981-08-14,2024-12-30,71,90,161,modern_state
+team:poland,Poland,Poland,1980-02-17,2024-11-18,236,222,458,modern_state
+team:portugal,Portugal,Portugal,1980-03-26,2024-11-18,216,167,383,modern_state
+team:puerto-rico,Puerto Rico,Puerto Rico,1984-07-29,2024-11-18,40,44,84,dependent_territory
+team:qatar,Qatar,Qatar,1980-09-25,2024-12-27,266,127,393,modern_state
+team:republic-of-ireland,Republic of Ireland,Republic of Ireland,1980-02-06,2024-11-17,225,161,386,modern_state
+team:romania,Romania,Romania,1980-02-16,2024-11-18,196,215,411,modern_state
+team:russia,Russia,Russia,1980-03-26,2024-11-19,172,213,385,historical_union_plus_state
+team:rwanda,Rwanda,Rwanda,1981-04-26,2024-11-18,102,90,192,modern_state
+team:saint-kitts-and-nevis,Saint Kitts and Nevis,Saint Kitts and Nevis,1993-04-06,2024-11-18,74,58,132,modern_state
+team:saint-lucia,Saint Lucia,Saint Lucia,1989-06-18,2024-11-18,41,69,110,modern_state
+team:saint-vincent-and-the-grenadines,Saint Vincent and the Grenadines,Saint Vincent and the Grenadines,1989-05-21,2024-10-13,57,60,117,modern_state
+team:samoa,Samoa,Samoa,1994-11-28,2024-11-18,20,12,32,modern_state
+team:san-marino,San Marino,San Marino,1990-11-14,2024-11-18,102,103,205,modern_state
+team:sao-tome-and-principe,São Tomé and Príncipe,São Tomé and Príncipe,1987-07-25,2024-06-06,18,27,45,modern_state
+team:saudi-arabia,Saudi Arabia,Saudi Arabia,1980-01-30,2024-11-19,265,119,384,modern_state
+team:scotland,Scotland,Scotland,1980-03-26,2024-11-18,186,184,370,constituent_association_of_UK
+team:senegal,Senegal,Senegal,1980-02-18,2024-11-19,155,177,332,modern_state
+team:serbia,Serbia,Serbia,1994-12-23,2024-11-18,103,165,268,modern_state
+team:seychelles,Seychelles,Seychelles,1987-06-18,2023-11-17,40,44,84,modern_state
+team:sierra-leone,Sierra Leone,Sierra Leone,1980-01-06,2024-10-11,74,99,173,modern_state
+team:singapore,Singapore,Singapore,1980-09-09,2024-12-29,207,130,337,modern_state
+team:sint-maarten,Sint Maarten,Sint Maarten,1992-04-03,1992-04-03,1,0,1,dependent_territory
+team:slovakia,Slovakia,Slovakia,1994-08-16,2024-11-19,139,146,285,modern_state
+team:slovenia,Slovenia,Slovenia,1992-11-18,2024-11-17,134,135,269,modern_state
+team:solomon-islands,Solomon Islands,Solomon Islands,1989-11-04,2024-12-21,42,52,94,modern_state
+team:somalia,Somalia,Somalia,1980-07-16,2024-06-07,4,25,29,modern_state
+team:south-africa,South Africa,South Africa,1992-07-07,2024-11-19,224,130,354,modern_state
+team:south-korea,South Korea,South Korea,1980-01-30,2024-11-14,265,153,418,modern_state
+team:south-sudan,South Sudan,South Sudan,2012-07-10,2024-11-19,13,28,41,modern_state
+team:spain,Spain,Spain,1980-01-23,2024-11-18,229,189,418,modern_state
+team:sri-lanka,Sri Lanka,Sri Lanka,1983-11-20,2024-10-13,50,67,117,modern_state
+team:sudan,Sudan,Sudan,1980-11-14,2024-10-10,103,135,238,modern_state
+team:suriname,Suriname,Suriname,1980-08-17,2024-11-19,57,67,124,modern_state
+team:sweden,Sweden,Sweden,1980-04-29,2024-11-19,215,238,453,modern_state
+team:switzerland,Switzerland,Switzerland,1980-03-26,2024-11-18,212,193,405,modern_state
+team:syria,Syria,Syria,1981-02-15,2024-11-19,70,173,243,modern_state
+team:tahiti,Tahiti,Tahiti,1992-07-11,2024-06-22,27,27,54,dependent_territory
+team:taiwan,Taiwan,Taiwan,1981-05-07,2024-12-14,43,70,113,statistical_area_inside_156
+team:tajikistan,Tajikistan,Tajikistan,1996-05-08,2024-11-19,46,73,119,modern_state
+team:tanzania,Tanzania,Tanzania,1980-03-08,2024-11-19,154,153,307,modern_state
+team:thailand,Thailand,Thailand,1980-08-27,2024-12-30,258,131,389,modern_state
+team:timor-leste,Timor-Leste,Timor-Leste,2006-11-14,2024-12-17,4,40,44,modern_state
+team:togo,Togo,Togo,1980-06-13,2024-11-17,124,142,266,modern_state
+team:tonga,Tonga,Tonga,1996-11-11,2024-09-09,10,11,21,modern_state
+team:trinidad-and-tobago,Trinidad and Tobago,Trinidad and Tobago,1980-08-01,2024-10-14,210,187,397,modern_state
+team:tunisia,Tunisia,Tunisia,1980-01-27,2024-11-18,237,158,395,modern_state
+team:turkey,Turkey,Turkey,1980-09-24,2024-11-19,184,195,379,modern_state
+team:turkmenistan,Turkmenistan,Turkmenistan,1996-03-10,2024-06-11,34,63,97,modern_state
+team:turks-and-caicos-islands,Turks and Caicos Islands,Turks and Caicos Islands,1999-02-24,2024-10-15,12,18,30,dependent_territory
+team:uganda,Uganda,Uganda,1981-08-06,2024-11-19,150,162,312,modern_state
+team:ukraine,Ukraine,Ukraine,1992-08-26,2024-11-19,129,137,266,modern_state
+team:united-arab-emirates,United Arab Emirates,United Arab Emirates,1980-08-05,2024-12-24,247,123,370,modern_state
+team:united-states,United States,United States,1980-10-04,2024-11-18,405,170,575,modern_state
+team:united-states-virgin-islands,United States Virgin Islands,United States Virgin Islands,1999-02-28,2024-10-09,23,32,55,dependent_territory
+team:uruguay,Uruguay,Uruguay,1980-03-15,2024-11-19,158,219,377,modern_state
+team:uzbekistan,Uzbekistan,Uzbekistan,1995-03-14,2024-11-14,110,119,229,modern_state
+team:vanuatu,Vanuatu,Vanuatu,1989-10-30,2024-12-09,35,33,68,modern_state
+team:venezuela,Venezuela,Venezuela,1981-01-11,2024-11-19,150,147,297,modern_state
+team:vietnam,Vietnam,Vietnam,1991-11-26,2024-12-29,112,80,192,modern_state
+team:wales,Wales,Wales,1980-05-17,2024-11-19,172,165,337,constituent_association_of_UK
+team:yemen,Yemen,Yemen,1993-05-22,2024-06-06,45,67,112,modern_state
+team:yugoslavia,Yugoslavia,Yugoslavia,1980-03-22,1992-03-25,35,50,85,historical_association_carrier
+team:zambia,Zambia,Zambia,1980-04-21,2024-11-15,177,248,425,modern_state
+team:zimbabwe,Zimbabwe,Zimbabwe,1980-04-21,2024-11-19,153,179,332,modern_state

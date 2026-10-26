@@ -1,0 +1,20 @@
+﻿candidate_id,candidate_type,candidate_class,status,layers_both_supported,layers_missing,note
+CAND-A1,A,comparison_candidate,supported_all_layers,10/10,,"arm1=8045场, arm2=5921场"
+CAND-A2,A,comparison_candidate,supported_all_layers,10/10,,"arm1=8045场, arm2=5868场"
+CAND-A3,A,comparison_candidate,supported_all_layers,10/10,,"arm1=8045场, arm2=4555场"
+CAND-A4,A,comparison_candidate,supported_all_layers,10/10,,"arm1=5921场, arm2=5868场"
+CAND-A5,A,comparison_candidate,supported_all_layers,10/10,,"arm1=5921场, arm2=4555场"
+CAND-A6,A,comparison_candidate,supported_all_layers,10/10,,"arm1=5868场, arm2=4555场"
+CAND-B1,B,comparison_candidate,supported_all_layers,10/10,,"arm1=1626场, arm2=1764场"
+CAND-B2,B,comparison_candidate,supported_all_layers,10/10,,"arm1=4603场, arm2=1764场"
+CAND-B3,B,comparison_candidate,supported_all_layers,10/10,,"arm1=1866场, arm2=1819场"
+CAND-B4,B,comparison_candidate,supported_all_layers,10/10,,"arm1=2227场, arm2=1819场"
+CAND-C1,C,comparison_candidate,supported_all_layers,10/10,,"arm1=2504场, arm2=2218场"
+CAND-C2,C,comparison_candidate,supported_all_layers,10/10,,"arm1=2504场, arm2=1703场"
+CAND-C3,C,comparison_candidate,supported_all_layers,10/10,,"arm1=2218场, arm2=1703场"
+CAND-C4,C,comparison_candidate,supported_all_layers,10/10,,"arm1=2769场, arm2=1217场"
+CAND-C5,C,comparison_candidate,supported_all_layers,10/10,,"arm1=2769场, arm2=996场"
+CAND-C6,C,comparison_candidate,supported_all_layers,10/10,,"arm1=1217场, arm2=996场"
+CAND-C7,C,comparison_candidate,supported_all_layers,10/10,,"arm1=1079场, arm2=1697场"
+CAND-D1,D,distribution_display_candidate,display_only,,,分布展示候选，不做两组比较
+CAND-D2,D,distribution_display_candidate,display_only,,,分布展示候选，不做两组比较

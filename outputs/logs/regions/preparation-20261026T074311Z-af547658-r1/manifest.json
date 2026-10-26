@@ -1,0 +1,30 @@
+{
+ "run_id": "preparation-20261026T074311Z-af547658-r1",
+ "status": "ok",
+ "package": "data\\external\\geography_preparation\\geo-prep-v2",
+ "command": "python scripts/prepare_region_mapping.py prepare",
+ "files": {
+  "candidate_arm_composition.csv": "8bad37b1eb47d79fd1e414f3314dfd407adcd78ae787cb6544d54653f37eee09",
+  "candidate_reference_support.csv": "8c97689cb06ddf28e95b845e17c04feaf4832abc0765b1eafb24b82f352d7149",
+  "candidate_support_summary.csv": "127884984cf84abb319e2bbe8583e97092ac7a4f6fa2c850ef7e5ae983911e27",
+  "composition_home_away.csv": "784f4aa3addb5764486e2e9492e0fe275a9282940f7461da5ce021bc1466c576",
+  "counts_direction_matrix.csv": "fed1052ddde226b5715e3c947996f6d5e45e4fddb459218b701f90e7979429fc",
+  "counts_home_region_era_tournament.csv": "1dc58832f514c2f9712a41bcb27bc638bcbd23ad265c29e256ab5a9cc699ab41",
+  "counts_home_unit_era_tournament.csv": "3c0323d89bea18b4e46a9894de0633f14a00b1fecabada465dece9c4e8450f80",
+  "counts_relation_era_tournament.csv": "7c2f793caaa0d522df45bc2746e9912c63a1426cdd5afa2f8162a2028a5d19b5",
+  "coverage_probe_cases.csv": "b38aa5dbcd0f03c314de3f89e4f185f870d7defba0b70c74d85e5f43b4c01af6",
+  "exception_impacts.csv": "24fbfa3e6f35f6794e658ec282eb672d6186165f41f828e8a3a9169213c11cbe",
+  "handoff.md": "bb8020b5af153d8df326536beb1b91c9cc9688c07846a3c2a261396146b73f53",
+  "inputs_used.json": "20a633c63f3bad602bb81458bf4f50def61cffc414815e5ae881b60c6e1f4483",
+  "linkage_checks.json": "1420c67bb572851430c20e5ab0ffad6262798aab3dc264ed5a28b899cd8da815",
+  "match_region_relations.csv": "971a023663787589d0ffae01f807a733720acfe91e1c6fede607460b607d8eb3",
+  "team_geography_rules.csv": "dbbcdb3dfae554499da5877e07529966294fe487dc4ef1ee9d8168808712d1e6",
+  "team_inventory.csv": "3171d103850a6b336111ba12edcfe57476fec5a116c3b4e2b151d874031c04e2",
+  "unknown_distribution.csv": "e2d74a8abe3d66b5dd31f400ae062689a94d8a3ed9b44cf09185b95f8ced86d4",
+  "validation_report.json": "1214331a5677740031b94728f83134f6bf726a465d112e72bbaba2d4cd720672",
+  "zero_cell_analysis.csv": "2879b7f6f24091fb68c0565cdcd44bcd9b251c1db51f1e13c2917387bd07db60",
+  "code/prepare_region_mapping.py": "af5476581cefefac747234cf8e063bdb450a9b5e52332b03f21c386fed7d110e"
+ },
+ "finalized_at": "2026-10-26T07:45:28+00:00",
+ "note": "最终指纹在全部报告生成后由 finalize 程序重新登记"
+}

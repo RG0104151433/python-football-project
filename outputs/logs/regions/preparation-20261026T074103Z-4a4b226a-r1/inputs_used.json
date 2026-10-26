@@ -1,0 +1,32 @@
+{
+ "q2_membership": {
+  "path": "outputs\\tables\\tournaments\\tournaments-4893e38db46f83f6c219\\analysis_membership.csv",
+  "sha256": "4294840536c707abef248b166c015de8f7fac39dcf14a37c7dcd75911283e166"
+ },
+ "matches_clean": {
+  "path": "data\\processed\\prep-3fab808178cf8ad71d88\\matches_clean.csv",
+  "sha256": "69ba00073970fe011a62f5871c08ace6285d7fe75d5a0d79afdac0ef972de9dc"
+ },
+ "identity_registry": {
+  "path": "data\\processed\\team_identity\\identity-reviewed-29d880765c1623764940\\association_registry.csv",
+  "sha256": "fe7d7ca532238804562d9a0bc999112aad660ba107560708fecb078aee6faf80"
+ },
+ "m49_overview": {
+  "path": "data\\external\\geography_preparation\\geo-prep-v2\\sources\\m49_overview.html",
+  "sha256": "b9048114f6e7f2abda83bf03d4263c9d7cd1bd7230e3d0461025ee7839a7a1fb"
+ },
+ "m49_page": {
+  "path": "data\\external\\geography_preparation\\geo-prep-v2\\sources\\m49_page.html",
+  "sha256": "4d5cabcb10ad9ef184553b5e64c0a34ba8deeb20dab2e02cd0be3599b93bb01d"
+ },
+ "package": {
+  "path": "data\\external\\geography_preparation\\geo-prep-v2",
+  "version": "geo-prep-v2"
+ },
+ "script": {
+  "path": "scripts\\prepare_region_mapping.py",
+  "sha256": "4a4b226ae51925e2eddb6877ac263e7459b480063139ce7ce9f6b9f639b1a09e",
+  "snapshot": "code/prepare_region_mapping.py",
+  "snapshot_sha256": "4a4b226ae51925e2eddb6877ac263e7459b480063139ce7ce9f6b9f639b1a09e"
+ }
+}

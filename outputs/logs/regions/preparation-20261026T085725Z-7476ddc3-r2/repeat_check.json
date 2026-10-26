@@ -1,0 +1,8 @@
+{
+ "run_primary": "outputs/logs/regions/preparation-20261026T085703Z-7476ddc3-r1",
+ "run_repeat": "outputs/logs/regions/preparation-20261026T085725Z-7476ddc3-r2",
+ "csv_checked": 16,
+ "csv_identical": 16,
+ "csv_diff": [],
+ "note": "JSON 含运行时间/run_id，不参与一致性比较"
+}

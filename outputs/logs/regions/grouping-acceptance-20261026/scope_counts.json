@@ -1,0 +1,2588 @@
+{
+  "protocol_id": "regions-study-v1",
+  "protocol_sha256": "49d378e4e5f93d0800774364a28f7fa8137d414950b359067ed544d2f172c73d",
+  "source_run": "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1",
+  "outcome_rates_computed": false,
+  "group_counts": {
+    "PARENT": 24917,
+    "A_AFR": 5868,
+    "A_AMER": 4555,
+    "A_ASIA": 5921,
+    "A_EUR": 8045,
+    "A_OCE": 502,
+    "SA_FEATURE": 1690,
+    "B_EUR_REF": 7993,
+    "B_EUR_SAME": 1764,
+    "B_EUR_OTHER_UNIT": 4603,
+    "B_EUR_CROSS": 1626,
+    "B_ASIA_REF": 5912,
+    "B_ASIA_SAME": 1819,
+    "B_ASIA_OTHER_UNIT": 2227,
+    "B_ASIA_CROSS": 1866,
+    "B_SA_REF": 1687,
+    "B_SA_SAME": 1207,
+    "B_SA_OTHER_UNIT": 280,
+    "B_SA_CROSS": 200,
+    "C_AFR_REF": 5868,
+    "C_AMER_REF": 4555,
+    "C_ASIA_REF": 5921,
+    "C_EUR_REF": 8045,
+    "C_NAF": 1079,
+    "C_SSA": 4789,
+    "C_OTHER_AMER": 2865,
+    "C_WASIA": 2769,
+    "C_EASIA": 996,
+    "C_NEUR": 2504,
+    "C_SEUR": 2218
+  },
+  "south_america": {
+    "home_matches": 1690,
+    "team_ids": [
+      "team:argentina",
+      "team:bolivia",
+      "team:brazil",
+      "team:chile",
+      "team:colombia",
+      "team:ecuador",
+      "team:guyana",
+      "team:paraguay",
+      "team:peru",
+      "team:suriname",
+      "team:uruguay",
+      "team:venezuela"
+    ],
+    "team_count": 12,
+    "home_team_count": 12,
+    "opponent_regions": {
+      "019": 1487,
+      "150": 141,
+      "142": 24,
+      "009": 16,
+      "002": 19,
+      "UNKNOWN": 3
+    }
+  },
+  "reference_counts": {
+    "PARENT": 24917,
+    "B_SA_REF": 1687,
+    "C_ASIA_REF": 5921,
+    "C_AFR_REF": 5868,
+    "C_EUR_REF": 8045,
+    "B_ASIA_REF": 5912,
+    "B_EUR_REF": 7993,
+    "C_AMER_REF": 4555
+  },
+  "reference_layers": {
+    "PARENT": [
+      {
+        "era": "1980s",
+        "tournament_group": "friendly",
+        "numerator": 1656,
+        "denominator": 24917
+      },
+      {
+        "era": "1980s",
+        "tournament_group": "non_friendly",
+        "numerator": 1848,
+        "denominator": 24917
+      },
+      {
+        "era": "1990s",
+        "tournament_group": "friendly",
+        "numerator": 2013,
+        "denominator": 24917
+      },
+      {
+        "era": "1990s",
+        "tournament_group": "non_friendly",
+        "numerator": 2801,
+        "denominator": 24917
+      },
+      {
+        "era": "2000s",
+        "tournament_group": "friendly",
+        "numerator": 2670,
+        "denominator": 24917
+      },
+      {
+        "era": "2000s",
+        "tournament_group": "non_friendly",
+        "numerator": 4202,
+        "denominator": 24917
+      },
+      {
+        "era": "2010s",
+        "tournament_group": "friendly",
+        "numerator": 2519,
+        "denominator": 24917
+      },
+      {
+        "era": "2010s",
+        "tournament_group": "non_friendly",
+        "numerator": 4113,
+        "denominator": 24917
+      },
+      {
+        "era": "2020_2024",
+        "tournament_group": "friendly",
+        "numerator": 740,
+        "denominator": 24917
+      },
+      {
+        "era": "2020_2024",
+        "tournament_group": "non_friendly",
+        "numerator": 2355,
+        "denominator": 24917
+      }
+    ],
+    "B_SA_REF": [
+      {
+        "era": "1980s",
+        "tournament_group": "friendly",
+        "numerator": 204,
+        "denominator": 1687
+      },
+      {
+        "era": "1980s",
+        "tournament_group": "non_friendly",
+        "numerator": 133,
+        "denominator": 1687
+      },
+      {
+        "era": "1990s",
+        "tournament_group": "friendly",
+        "numerator": 186,
+        "denominator": 1687
+      },
+      {
+        "era": "1990s",
+        "tournament_group": "non_friendly",
+        "numerator": 160,
+        "denominator": 1687
+      },
+      {
+        "era": "2000s",
+        "tournament_group": "friendly",
+        "numerator": 126,
+        "denominator": 1687
+      },
+      {
+        "era": "2000s",
+        "tournament_group": "non_friendly",
+        "numerator": 310,
+        "denominator": 1687
+      },
+      {
+        "era": "2010s",
+        "tournament_group": "friendly",
+        "numerator": 144,
+        "denominator": 1687
+      },
+      {
+        "era": "2010s",
+        "tournament_group": "non_friendly",
+        "numerator": 228,
+        "denominator": 1687
+      },
+      {
+        "era": "2020_2024",
+        "tournament_group": "friendly",
+        "numerator": 24,
+        "denominator": 1687
+      },
+      {
+        "era": "2020_2024",
+        "tournament_group": "non_friendly",
+        "numerator": 172,
+        "denominator": 1687
+      }
+    ],
+    "C_ASIA_REF": [
+      {
+        "era": "1980s",
+        "tournament_group": "friendly",
+        "numerator": 233,
+        "denominator": 5921
+      },
+      {
+        "era": "1980s",
+        "tournament_group": "non_friendly",
+        "numerator": 405,
+        "denominator": 5921
+      },
+      {
+        "era": "1990s",
+        "tournament_group": "friendly",
+        "numerator": 377,
+        "denominator": 5921
+      },
+      {
+        "era": "1990s",
+        "tournament_group": "non_friendly",
+        "numerator": 556,
+        "denominator": 5921
+      },
+      {
+        "era": "2000s",
+        "tournament_group": "friendly",
+        "numerator": 717,
+        "denominator": 5921
+      },
+      {
+        "era": "2000s",
+        "tournament_group": "non_friendly",
+        "numerator": 1067,
+        "denominator": 5921
+      },
+      {
+        "era": "2010s",
+        "tournament_group": "friendly",
+        "numerator": 795,
+        "denominator": 5921
+      },
+      {
+        "era": "2010s",
+        "tournament_group": "non_friendly",
+        "numerator": 1036,
+        "denominator": 5921
+      },
+      {
+        "era": "2020_2024",
+        "tournament_group": "friendly",
+        "numerator": 228,
+        "denominator": 5921
+      },
+      {
+        "era": "2020_2024",
+        "tournament_group": "non_friendly",
+        "numerator": 507,
+        "denominator": 5921
+      }
+    ],
+    "C_AFR_REF": [
+      {
+        "era": "1980s",
+        "tournament_group": "friendly",
+        "numerator": 442,
+        "denominator": 5868
+      },
+      {
+        "era": "1980s",
+        "tournament_group": "non_friendly",
+        "numerator": 506,
+        "denominator": 5868
+      },
+      {
+        "era": "1990s",
+        "tournament_group": "friendly",
+        "numerator": 494,
+        "denominator": 5868
+      },
+      {
+        "era": "1990s",
+        "tournament_group": "non_friendly",
+        "numerator": 739,
+        "denominator": 5868
+      },
+      {
+        "era": "2000s",
+        "tournament_group": "friendly",
+        "numerator": 543,
+        "denominator": 5868
+      },
+      {
+        "era": "2000s",
+        "tournament_group": "non_friendly",
+        "numerator": 1086,
+        "denominator": 5868
+      },
+      {
+        "era": "2010s",
+        "tournament_group": "friendly",
+        "numerator": 454,
+        "denominator": 5868
+      },
+      {
+        "era": "2010s",
+        "tournament_group": "non_friendly",
+        "numerator": 1027,
+        "denominator": 5868
+      },
+      {
+        "era": "2020_2024",
+        "tournament_group": "friendly",
+        "numerator": 105,
+        "denominator": 5868
+      },
+      {
+        "era": "2020_2024",
+        "tournament_group": "non_friendly",
+        "numerator": 472,
+        "denominator": 5868
+      }
+    ],
+    "C_EUR_REF": [
+      {
+        "era": "1980s",
+        "tournament_group": "friendly",
+        "numerator": 525,
+        "denominator": 8045
+      },
+      {
+        "era": "1980s",
+        "tournament_group": "non_friendly",
+        "numerator": 615,
+        "denominator": 8045
+      },
+      {
+        "era": "1990s",
+        "tournament_group": "friendly",
+        "numerator": 629,
+        "denominator": 8045
+      },
+      {
+        "era": "1990s",
+        "tournament_group": "non_friendly",
+        "numerator": 927,
+        "denominator": 8045
+      },
+      {
+        "era": "2000s",
+        "tournament_group": "friendly",
+        "numerator": 913,
+        "denominator": 8045
+      },
+      {
+        "era": "2000s",
+        "tournament_group": "non_friendly",
+        "numerator": 1191,
+        "denominator": 8045
+      },
+      {
+        "era": "2010s",
+        "tournament_group": "friendly",
+        "numerator": 811,
+        "denominator": 8045
+      },
+      {
+        "era": "2010s",
+        "tournament_group": "non_friendly",
+        "numerator": 1276,
+        "denominator": 8045
+      },
+      {
+        "era": "2020_2024",
+        "tournament_group": "friendly",
+        "numerator": 291,
+        "denominator": 8045
+      },
+      {
+        "era": "2020_2024",
+        "tournament_group": "non_friendly",
+        "numerator": 867,
+        "denominator": 8045
+      }
+    ],
+    "B_ASIA_REF": [
+      {
+        "era": "1980s",
+        "tournament_group": "friendly",
+        "numerator": 230,
+        "denominator": 5912
+      },
+      {
+        "era": "1980s",
+        "tournament_group": "non_friendly",
+        "numerator": 403,
+        "denominator": 5912
+      },
+      {
+        "era": "1990s",
+        "tournament_group": "friendly",
+        "numerator": 375,
+        "denominator": 5912
+      },
+      {
+        "era": "1990s",
+        "tournament_group": "non_friendly",
+        "numerator": 554,
+        "denominator": 5912
+      },
+      {
+        "era": "2000s",
+        "tournament_group": "friendly",
+        "numerator": 717,
+        "denominator": 5912
+      },
+      {
+        "era": "2000s",
+        "tournament_group": "non_friendly",
+        "numerator": 1067,
+        "denominator": 5912
+      },
+      {
+        "era": "2010s",
+        "tournament_group": "friendly",
+        "numerator": 795,
+        "denominator": 5912
+      },
+      {
+        "era": "2010s",
+        "tournament_group": "non_friendly",
+        "numerator": 1036,
+        "denominator": 5912
+      },
+      {
+        "era": "2020_2024",
+        "tournament_group": "friendly",
+        "numerator": 228,
+        "denominator": 5912
+      },
+      {
+        "era": "2020_2024",
+        "tournament_group": "non_friendly",
+        "numerator": 507,
+        "denominator": 5912
+      }
+    ],
+    "B_EUR_REF": [
+      {
+        "era": "1980s",
+        "tournament_group": "friendly",
+        "numerator": 500,
+        "denominator": 7993
+      },
+      {
+        "era": "1980s",
+        "tournament_group": "non_friendly",
+        "numerator": 598,
+        "denominator": 7993
+      },
+      {
+        "era": "1990s",
+        "tournament_group": "friendly",
+        "numerator": 623,
+        "denominator": 7993
+      },
+      {
+        "era": "1990s",
+        "tournament_group": "non_friendly",
+        "numerator": 923,
+        "denominator": 7993
+      },
+      {
+        "era": "2000s",
+        "tournament_group": "friendly",
+        "numerator": 913,
+        "denominator": 7993
+      },
+      {
+        "era": "2000s",
+        "tournament_group": "non_friendly",
+        "numerator": 1191,
+        "denominator": 7993
+      },
+      {
+        "era": "2010s",
+        "tournament_group": "friendly",
+        "numerator": 811,
+        "denominator": 7993
+      },
+      {
+        "era": "2010s",
+        "tournament_group": "non_friendly",
+        "numerator": 1276,
+        "denominator": 7993
+      },
+      {
+        "era": "2020_2024",
+        "tournament_group": "friendly",
+        "numerator": 291,
+        "denominator": 7993
+      },
+      {
+        "era": "2020_2024",
+        "tournament_group": "non_friendly",
+        "numerator": 867,
+        "denominator": 7993
+      }
+    ],
+    "C_AMER_REF": [
+      {
+        "era": "1980s",
+        "tournament_group": "friendly",
+        "numerator": 406,
+        "denominator": 4555
+      },
+      {
+        "era": "1980s",
+        "tournament_group": "non_friendly",
+        "numerator": 268,
+        "denominator": 4555
+      },
+      {
+        "era": "1990s",
+        "tournament_group": "friendly",
+        "numerator": 464,
+        "denominator": 4555
+      },
+      {
+        "era": "1990s",
+        "tournament_group": "non_friendly",
+        "numerator": 509,
+        "denominator": 4555
+      },
+      {
+        "era": "2000s",
+        "tournament_group": "friendly",
+        "numerator": 465,
+        "denominator": 4555
+      },
+      {
+        "era": "2000s",
+        "tournament_group": "non_friendly",
+        "numerator": 784,
+        "denominator": 4555
+      },
+      {
+        "era": "2010s",
+        "tournament_group": "friendly",
+        "numerator": 409,
+        "denominator": 4555
+      },
+      {
+        "era": "2010s",
+        "tournament_group": "non_friendly",
+        "numerator": 681,
+        "denominator": 4555
+      },
+      {
+        "era": "2020_2024",
+        "tournament_group": "friendly",
+        "numerator": 101,
+        "denominator": 4555
+      },
+      {
+        "era": "2020_2024",
+        "tournament_group": "non_friendly",
+        "numerator": 468,
+        "denominator": 4555
+      }
+    ]
+  },
+  "profile_support": [
+    {
+      "group_id": "A_AFR",
+      "era": "1980s",
+      "tournament_group": "friendly",
+      "group_matches": 442,
+      "reference_matches": 1656
+    },
+    {
+      "group_id": "A_AFR",
+      "era": "1980s",
+      "tournament_group": "non_friendly",
+      "group_matches": 506,
+      "reference_matches": 1848
+    },
+    {
+      "group_id": "A_AFR",
+      "era": "1990s",
+      "tournament_group": "friendly",
+      "group_matches": 494,
+      "reference_matches": 2013
+    },
+    {
+      "group_id": "A_AFR",
+      "era": "1990s",
+      "tournament_group": "non_friendly",
+      "group_matches": 739,
+      "reference_matches": 2801
+    },
+    {
+      "group_id": "A_AFR",
+      "era": "2000s",
+      "tournament_group": "friendly",
+      "group_matches": 543,
+      "reference_matches": 2670
+    },
+    {
+      "group_id": "A_AFR",
+      "era": "2000s",
+      "tournament_group": "non_friendly",
+      "group_matches": 1086,
+      "reference_matches": 4202
+    },
+    {
+      "group_id": "A_AFR",
+      "era": "2010s",
+      "tournament_group": "friendly",
+      "group_matches": 454,
+      "reference_matches": 2519
+    },
+    {
+      "group_id": "A_AFR",
+      "era": "2010s",
+      "tournament_group": "non_friendly",
+      "group_matches": 1027,
+      "reference_matches": 4113
+    },
+    {
+      "group_id": "A_AFR",
+      "era": "2020_2024",
+      "tournament_group": "friendly",
+      "group_matches": 105,
+      "reference_matches": 740
+    },
+    {
+      "group_id": "A_AFR",
+      "era": "2020_2024",
+      "tournament_group": "non_friendly",
+      "group_matches": 472,
+      "reference_matches": 2355
+    },
+    {
+      "group_id": "A_AMER",
+      "era": "1980s",
+      "tournament_group": "friendly",
+      "group_matches": 406,
+      "reference_matches": 1656
+    },
+    {
+      "group_id": "A_AMER",
+      "era": "1980s",
+      "tournament_group": "non_friendly",
+      "group_matches": 268,
+      "reference_matches": 1848
+    },
+    {
+      "group_id": "A_AMER",
+      "era": "1990s",
+      "tournament_group": "friendly",
+      "group_matches": 464,
+      "reference_matches": 2013
+    },
+    {
+      "group_id": "A_AMER",
+      "era": "1990s",
+      "tournament_group": "non_friendly",
+      "group_matches": 509,
+      "reference_matches": 2801
+    },
+    {
+      "group_id": "A_AMER",
+      "era": "2000s",
+      "tournament_group": "friendly",
+      "group_matches": 465,
+      "reference_matches": 2670
+    },
+    {
+      "group_id": "A_AMER",
+      "era": "2000s",
+      "tournament_group": "non_friendly",
+      "group_matches": 784,
+      "reference_matches": 4202
+    },
+    {
+      "group_id": "A_AMER",
+      "era": "2010s",
+      "tournament_group": "friendly",
+      "group_matches": 409,
+      "reference_matches": 2519
+    },
+    {
+      "group_id": "A_AMER",
+      "era": "2010s",
+      "tournament_group": "non_friendly",
+      "group_matches": 681,
+      "reference_matches": 4113
+    },
+    {
+      "group_id": "A_AMER",
+      "era": "2020_2024",
+      "tournament_group": "friendly",
+      "group_matches": 101,
+      "reference_matches": 740
+    },
+    {
+      "group_id": "A_AMER",
+      "era": "2020_2024",
+      "tournament_group": "non_friendly",
+      "group_matches": 468,
+      "reference_matches": 2355
+    },
+    {
+      "group_id": "A_ASIA",
+      "era": "1980s",
+      "tournament_group": "friendly",
+      "group_matches": 233,
+      "reference_matches": 1656
+    },
+    {
+      "group_id": "A_ASIA",
+      "era": "1980s",
+      "tournament_group": "non_friendly",
+      "group_matches": 405,
+      "reference_matches": 1848
+    },
+    {
+      "group_id": "A_ASIA",
+      "era": "1990s",
+      "tournament_group": "friendly",
+      "group_matches": 377,
+      "reference_matches": 2013
+    },
+    {
+      "group_id": "A_ASIA",
+      "era": "1990s",
+      "tournament_group": "non_friendly",
+      "group_matches": 556,
+      "reference_matches": 2801
+    },
+    {
+      "group_id": "A_ASIA",
+      "era": "2000s",
+      "tournament_group": "friendly",
+      "group_matches": 717,
+      "reference_matches": 2670
+    },
+    {
+      "group_id": "A_ASIA",
+      "era": "2000s",
+      "tournament_group": "non_friendly",
+      "group_matches": 1067,
+      "reference_matches": 4202
+    },
+    {
+      "group_id": "A_ASIA",
+      "era": "2010s",
+      "tournament_group": "friendly",
+      "group_matches": 795,
+      "reference_matches": 2519
+    },
+    {
+      "group_id": "A_ASIA",
+      "era": "2010s",
+      "tournament_group": "non_friendly",
+      "group_matches": 1036,
+      "reference_matches": 4113
+    },
+    {
+      "group_id": "A_ASIA",
+      "era": "2020_2024",
+      "tournament_group": "friendly",
+      "group_matches": 228,
+      "reference_matches": 740
+    },
+    {
+      "group_id": "A_ASIA",
+      "era": "2020_2024",
+      "tournament_group": "non_friendly",
+      "group_matches": 507,
+      "reference_matches": 2355
+    },
+    {
+      "group_id": "A_EUR",
+      "era": "1980s",
+      "tournament_group": "friendly",
+      "group_matches": 525,
+      "reference_matches": 1656
+    },
+    {
+      "group_id": "A_EUR",
+      "era": "1980s",
+      "tournament_group": "non_friendly",
+      "group_matches": 615,
+      "reference_matches": 1848
+    },
+    {
+      "group_id": "A_EUR",
+      "era": "1990s",
+      "tournament_group": "friendly",
+      "group_matches": 629,
+      "reference_matches": 2013
+    },
+    {
+      "group_id": "A_EUR",
+      "era": "1990s",
+      "tournament_group": "non_friendly",
+      "group_matches": 927,
+      "reference_matches": 2801
+    },
+    {
+      "group_id": "A_EUR",
+      "era": "2000s",
+      "tournament_group": "friendly",
+      "group_matches": 913,
+      "reference_matches": 2670
+    },
+    {
+      "group_id": "A_EUR",
+      "era": "2000s",
+      "tournament_group": "non_friendly",
+      "group_matches": 1191,
+      "reference_matches": 4202
+    },
+    {
+      "group_id": "A_EUR",
+      "era": "2010s",
+      "tournament_group": "friendly",
+      "group_matches": 811,
+      "reference_matches": 2519
+    },
+    {
+      "group_id": "A_EUR",
+      "era": "2010s",
+      "tournament_group": "non_friendly",
+      "group_matches": 1276,
+      "reference_matches": 4113
+    },
+    {
+      "group_id": "A_EUR",
+      "era": "2020_2024",
+      "tournament_group": "friendly",
+      "group_matches": 291,
+      "reference_matches": 740
+    },
+    {
+      "group_id": "A_EUR",
+      "era": "2020_2024",
+      "tournament_group": "non_friendly",
+      "group_matches": 867,
+      "reference_matches": 2355
+    },
+    {
+      "group_id": "A_OCE",
+      "era": "1980s",
+      "tournament_group": "friendly",
+      "group_matches": 38,
+      "reference_matches": 1656
+    },
+    {
+      "group_id": "A_OCE",
+      "era": "1980s",
+      "tournament_group": "non_friendly",
+      "group_matches": 47,
+      "reference_matches": 1848
+    },
+    {
+      "group_id": "A_OCE",
+      "era": "1990s",
+      "tournament_group": "friendly",
+      "group_matches": 46,
+      "reference_matches": 2013
+    },
+    {
+      "group_id": "A_OCE",
+      "era": "1990s",
+      "tournament_group": "non_friendly",
+      "group_matches": 66,
+      "reference_matches": 2801
+    },
+    {
+      "group_id": "A_OCE",
+      "era": "2000s",
+      "tournament_group": "friendly",
+      "group_matches": 32,
+      "reference_matches": 2670
+    },
+    {
+      "group_id": "A_OCE",
+      "era": "2000s",
+      "tournament_group": "non_friendly",
+      "group_matches": 74,
+      "reference_matches": 4202
+    },
+    {
+      "group_id": "A_OCE",
+      "era": "2010s",
+      "tournament_group": "friendly",
+      "group_matches": 50,
+      "reference_matches": 2519
+    },
+    {
+      "group_id": "A_OCE",
+      "era": "2010s",
+      "tournament_group": "non_friendly",
+      "group_matches": 93,
+      "reference_matches": 4113
+    },
+    {
+      "group_id": "A_OCE",
+      "era": "2020_2024",
+      "tournament_group": "friendly",
+      "group_matches": 15,
+      "reference_matches": 740
+    },
+    {
+      "group_id": "A_OCE",
+      "era": "2020_2024",
+      "tournament_group": "non_friendly",
+      "group_matches": 41,
+      "reference_matches": 2355
+    },
+    {
+      "group_id": "SA_FEATURE",
+      "era": "1980s",
+      "tournament_group": "friendly",
+      "group_matches": 207,
+      "reference_matches": 1656
+    },
+    {
+      "group_id": "SA_FEATURE",
+      "era": "1980s",
+      "tournament_group": "non_friendly",
+      "group_matches": 133,
+      "reference_matches": 1848
+    },
+    {
+      "group_id": "SA_FEATURE",
+      "era": "1990s",
+      "tournament_group": "friendly",
+      "group_matches": 186,
+      "reference_matches": 2013
+    },
+    {
+      "group_id": "SA_FEATURE",
+      "era": "1990s",
+      "tournament_group": "non_friendly",
+      "group_matches": 160,
+      "reference_matches": 2801
+    },
+    {
+      "group_id": "SA_FEATURE",
+      "era": "2000s",
+      "tournament_group": "friendly",
+      "group_matches": 126,
+      "reference_matches": 2670
+    },
+    {
+      "group_id": "SA_FEATURE",
+      "era": "2000s",
+      "tournament_group": "non_friendly",
+      "group_matches": 310,
+      "reference_matches": 4202
+    },
+    {
+      "group_id": "SA_FEATURE",
+      "era": "2010s",
+      "tournament_group": "friendly",
+      "group_matches": 144,
+      "reference_matches": 2519
+    },
+    {
+      "group_id": "SA_FEATURE",
+      "era": "2010s",
+      "tournament_group": "non_friendly",
+      "group_matches": 228,
+      "reference_matches": 4113
+    },
+    {
+      "group_id": "SA_FEATURE",
+      "era": "2020_2024",
+      "tournament_group": "friendly",
+      "group_matches": 24,
+      "reference_matches": 740
+    },
+    {
+      "group_id": "SA_FEATURE",
+      "era": "2020_2024",
+      "tournament_group": "non_friendly",
+      "group_matches": 172,
+      "reference_matches": 2355
+    }
+  ],
+  "target_support": [
+    {
+      "id": "B_EUR",
+      "role": "primary",
+      "arm1_matches": 1626,
+      "arm2_matches": 1764,
+      "status": "supported"
+    },
+    {
+      "id": "B_ASIA",
+      "role": "primary",
+      "arm1_matches": 1866,
+      "arm2_matches": 1819,
+      "status": "supported"
+    },
+    {
+      "id": "B_SA",
+      "role": "descriptive_only",
+      "arm1_matches": 200,
+      "arm2_matches": 1207,
+      "status": "unsupported_positive_reference_layer"
+    },
+    {
+      "id": "C_AFR",
+      "role": "primary",
+      "arm1_matches": 1079,
+      "arm2_matches": 4789,
+      "status": "supported"
+    },
+    {
+      "id": "C_AMER",
+      "role": "primary",
+      "arm1_matches": 1690,
+      "arm2_matches": 2865,
+      "status": "supported"
+    },
+    {
+      "id": "C_ASIA",
+      "role": "auxiliary",
+      "arm1_matches": 2769,
+      "arm2_matches": 996,
+      "status": "supported"
+    },
+    {
+      "id": "C_EUR",
+      "role": "auxiliary",
+      "arm1_matches": 2504,
+      "arm2_matches": 2218,
+      "status": "supported"
+    }
+  ],
+  "support_cells": [
+    {
+      "target_id": "B_EUR",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "B_EUR_CROSS",
+      "era": "1980s",
+      "tournament_group": "friendly",
+      "group_matches": 97,
+      "reference_matches": 500,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_EUR",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "B_EUR_SAME",
+      "era": "1980s",
+      "tournament_group": "friendly",
+      "group_matches": 97,
+      "reference_matches": 500,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_EUR",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "B_EUR_CROSS",
+      "era": "1980s",
+      "tournament_group": "non_friendly",
+      "group_matches": 53,
+      "reference_matches": 598,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_EUR",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "B_EUR_SAME",
+      "era": "1980s",
+      "tournament_group": "non_friendly",
+      "group_matches": 177,
+      "reference_matches": 598,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_EUR",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "B_EUR_CROSS",
+      "era": "1990s",
+      "tournament_group": "friendly",
+      "group_matches": 201,
+      "reference_matches": 623,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_EUR",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "B_EUR_SAME",
+      "era": "1990s",
+      "tournament_group": "friendly",
+      "group_matches": 154,
+      "reference_matches": 623,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_EUR",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "B_EUR_CROSS",
+      "era": "1990s",
+      "tournament_group": "non_friendly",
+      "group_matches": 110,
+      "reference_matches": 923,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_EUR",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "B_EUR_SAME",
+      "era": "1990s",
+      "tournament_group": "non_friendly",
+      "group_matches": 225,
+      "reference_matches": 923,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_EUR",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "B_EUR_CROSS",
+      "era": "2000s",
+      "tournament_group": "friendly",
+      "group_matches": 313,
+      "reference_matches": 913,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_EUR",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "B_EUR_SAME",
+      "era": "2000s",
+      "tournament_group": "friendly",
+      "group_matches": 176,
+      "reference_matches": 913,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_EUR",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "B_EUR_CROSS",
+      "era": "2000s",
+      "tournament_group": "non_friendly",
+      "group_matches": 172,
+      "reference_matches": 1191,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_EUR",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "B_EUR_SAME",
+      "era": "2000s",
+      "tournament_group": "non_friendly",
+      "group_matches": 244,
+      "reference_matches": 1191,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_EUR",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "B_EUR_CROSS",
+      "era": "2010s",
+      "tournament_group": "friendly",
+      "group_matches": 297,
+      "reference_matches": 811,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_EUR",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "B_EUR_SAME",
+      "era": "2010s",
+      "tournament_group": "friendly",
+      "group_matches": 152,
+      "reference_matches": 811,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_EUR",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "B_EUR_CROSS",
+      "era": "2010s",
+      "tournament_group": "non_friendly",
+      "group_matches": 172,
+      "reference_matches": 1276,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_EUR",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "B_EUR_SAME",
+      "era": "2010s",
+      "tournament_group": "non_friendly",
+      "group_matches": 272,
+      "reference_matches": 1276,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_EUR",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "B_EUR_CROSS",
+      "era": "2020_2024",
+      "tournament_group": "friendly",
+      "group_matches": 100,
+      "reference_matches": 291,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_EUR",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "B_EUR_SAME",
+      "era": "2020_2024",
+      "tournament_group": "friendly",
+      "group_matches": 78,
+      "reference_matches": 291,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_EUR",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "B_EUR_CROSS",
+      "era": "2020_2024",
+      "tournament_group": "non_friendly",
+      "group_matches": 111,
+      "reference_matches": 867,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_EUR",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "B_EUR_SAME",
+      "era": "2020_2024",
+      "tournament_group": "non_friendly",
+      "group_matches": 189,
+      "reference_matches": 867,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_ASIA",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "B_ASIA_CROSS",
+      "era": "1980s",
+      "tournament_group": "friendly",
+      "group_matches": 124,
+      "reference_matches": 230,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_ASIA",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "B_ASIA_SAME",
+      "era": "1980s",
+      "tournament_group": "friendly",
+      "group_matches": 56,
+      "reference_matches": 230,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_ASIA",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "B_ASIA_CROSS",
+      "era": "1980s",
+      "tournament_group": "non_friendly",
+      "group_matches": 80,
+      "reference_matches": 403,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_ASIA",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "B_ASIA_SAME",
+      "era": "1980s",
+      "tournament_group": "non_friendly",
+      "group_matches": 173,
+      "reference_matches": 403,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_ASIA",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "B_ASIA_CROSS",
+      "era": "1990s",
+      "tournament_group": "friendly",
+      "group_matches": 225,
+      "reference_matches": 375,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_ASIA",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "B_ASIA_SAME",
+      "era": "1990s",
+      "tournament_group": "friendly",
+      "group_matches": 83,
+      "reference_matches": 375,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_ASIA",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "B_ASIA_CROSS",
+      "era": "1990s",
+      "tournament_group": "non_friendly",
+      "group_matches": 165,
+      "reference_matches": 554,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_ASIA",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "B_ASIA_SAME",
+      "era": "1990s",
+      "tournament_group": "non_friendly",
+      "group_matches": 196,
+      "reference_matches": 554,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_ASIA",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "B_ASIA_CROSS",
+      "era": "2000s",
+      "tournament_group": "friendly",
+      "group_matches": 260,
+      "reference_matches": 717,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_ASIA",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "B_ASIA_SAME",
+      "era": "2000s",
+      "tournament_group": "friendly",
+      "group_matches": 276,
+      "reference_matches": 717,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_ASIA",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "B_ASIA_CROSS",
+      "era": "2000s",
+      "tournament_group": "non_friendly",
+      "group_matches": 258,
+      "reference_matches": 1067,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_ASIA",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "B_ASIA_SAME",
+      "era": "2000s",
+      "tournament_group": "non_friendly",
+      "group_matches": 268,
+      "reference_matches": 1067,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_ASIA",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "B_ASIA_CROSS",
+      "era": "2010s",
+      "tournament_group": "friendly",
+      "group_matches": 285,
+      "reference_matches": 795,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_ASIA",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "B_ASIA_SAME",
+      "era": "2010s",
+      "tournament_group": "friendly",
+      "group_matches": 233,
+      "reference_matches": 795,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_ASIA",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "B_ASIA_CROSS",
+      "era": "2010s",
+      "tournament_group": "non_friendly",
+      "group_matches": 242,
+      "reference_matches": 1036,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_ASIA",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "B_ASIA_SAME",
+      "era": "2010s",
+      "tournament_group": "non_friendly",
+      "group_matches": 315,
+      "reference_matches": 1036,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_ASIA",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "B_ASIA_CROSS",
+      "era": "2020_2024",
+      "tournament_group": "friendly",
+      "group_matches": 84,
+      "reference_matches": 228,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_ASIA",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "B_ASIA_SAME",
+      "era": "2020_2024",
+      "tournament_group": "friendly",
+      "group_matches": 54,
+      "reference_matches": 228,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_ASIA",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "B_ASIA_CROSS",
+      "era": "2020_2024",
+      "tournament_group": "non_friendly",
+      "group_matches": 143,
+      "reference_matches": 507,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_ASIA",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "B_ASIA_SAME",
+      "era": "2020_2024",
+      "tournament_group": "non_friendly",
+      "group_matches": 165,
+      "reference_matches": 507,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_SA",
+      "role": "descriptive_only",
+      "arm": 1,
+      "group_id": "B_SA_CROSS",
+      "era": "1980s",
+      "tournament_group": "friendly",
+      "group_matches": 60,
+      "reference_matches": 204,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_SA",
+      "role": "descriptive_only",
+      "arm": 2,
+      "group_id": "B_SA_SAME",
+      "era": "1980s",
+      "tournament_group": "friendly",
+      "group_matches": 126,
+      "reference_matches": 204,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_SA",
+      "role": "descriptive_only",
+      "arm": 1,
+      "group_id": "B_SA_CROSS",
+      "era": "1980s",
+      "tournament_group": "non_friendly",
+      "group_matches": 3,
+      "reference_matches": 133,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_SA",
+      "role": "descriptive_only",
+      "arm": 2,
+      "group_id": "B_SA_SAME",
+      "era": "1980s",
+      "tournament_group": "non_friendly",
+      "group_matches": 123,
+      "reference_matches": 133,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_SA",
+      "role": "descriptive_only",
+      "arm": 1,
+      "group_id": "B_SA_CROSS",
+      "era": "1990s",
+      "tournament_group": "friendly",
+      "group_matches": 62,
+      "reference_matches": 186,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_SA",
+      "role": "descriptive_only",
+      "arm": 2,
+      "group_id": "B_SA_SAME",
+      "era": "1990s",
+      "tournament_group": "friendly",
+      "group_matches": 97,
+      "reference_matches": 186,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_SA",
+      "role": "descriptive_only",
+      "arm": 1,
+      "group_id": "B_SA_CROSS",
+      "era": "1990s",
+      "tournament_group": "non_friendly",
+      "group_matches": 3,
+      "reference_matches": 160,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_SA",
+      "role": "descriptive_only",
+      "arm": 2,
+      "group_id": "B_SA_SAME",
+      "era": "1990s",
+      "tournament_group": "non_friendly",
+      "group_matches": 142,
+      "reference_matches": 160,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_SA",
+      "role": "descriptive_only",
+      "arm": 1,
+      "group_id": "B_SA_CROSS",
+      "era": "2000s",
+      "tournament_group": "friendly",
+      "group_matches": 24,
+      "reference_matches": 126,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_SA",
+      "role": "descriptive_only",
+      "arm": 2,
+      "group_id": "B_SA_SAME",
+      "era": "2000s",
+      "tournament_group": "friendly",
+      "group_matches": 41,
+      "reference_matches": 126,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_SA",
+      "role": "descriptive_only",
+      "arm": 1,
+      "group_id": "B_SA_CROSS",
+      "era": "2000s",
+      "tournament_group": "non_friendly",
+      "group_matches": 2,
+      "reference_matches": 310,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_SA",
+      "role": "descriptive_only",
+      "arm": 2,
+      "group_id": "B_SA_SAME",
+      "era": "2000s",
+      "tournament_group": "non_friendly",
+      "group_matches": 287,
+      "reference_matches": 310,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_SA",
+      "role": "descriptive_only",
+      "arm": 1,
+      "group_id": "B_SA_CROSS",
+      "era": "2010s",
+      "tournament_group": "friendly",
+      "group_matches": 36,
+      "reference_matches": 144,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_SA",
+      "role": "descriptive_only",
+      "arm": 2,
+      "group_id": "B_SA_SAME",
+      "era": "2010s",
+      "tournament_group": "friendly",
+      "group_matches": 35,
+      "reference_matches": 144,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_SA",
+      "role": "descriptive_only",
+      "arm": 1,
+      "group_id": "B_SA_CROSS",
+      "era": "2010s",
+      "tournament_group": "non_friendly",
+      "group_matches": 10,
+      "reference_matches": 228,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_SA",
+      "role": "descriptive_only",
+      "arm": 2,
+      "group_id": "B_SA_SAME",
+      "era": "2010s",
+      "tournament_group": "non_friendly",
+      "group_matches": 189,
+      "reference_matches": 228,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_SA",
+      "role": "descriptive_only",
+      "arm": 1,
+      "group_id": "B_SA_CROSS",
+      "era": "2020_2024",
+      "tournament_group": "friendly",
+      "group_matches": 0,
+      "reference_matches": 24,
+      "status": "unsupported_positive_reference_layer"
+    },
+    {
+      "target_id": "B_SA",
+      "role": "descriptive_only",
+      "arm": 2,
+      "group_id": "B_SA_SAME",
+      "era": "2020_2024",
+      "tournament_group": "friendly",
+      "group_matches": 9,
+      "reference_matches": 24,
+      "status": "supported"
+    },
+    {
+      "target_id": "B_SA",
+      "role": "descriptive_only",
+      "arm": 1,
+      "group_id": "B_SA_CROSS",
+      "era": "2020_2024",
+      "tournament_group": "non_friendly",
+      "group_matches": 0,
+      "reference_matches": 172,
+      "status": "unsupported_positive_reference_layer"
+    },
+    {
+      "target_id": "B_SA",
+      "role": "descriptive_only",
+      "arm": 2,
+      "group_id": "B_SA_SAME",
+      "era": "2020_2024",
+      "tournament_group": "non_friendly",
+      "group_matches": 158,
+      "reference_matches": 172,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AFR",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "C_NAF",
+      "era": "1980s",
+      "tournament_group": "friendly",
+      "group_matches": 90,
+      "reference_matches": 442,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AFR",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "C_SSA",
+      "era": "1980s",
+      "tournament_group": "friendly",
+      "group_matches": 352,
+      "reference_matches": 442,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AFR",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "C_NAF",
+      "era": "1980s",
+      "tournament_group": "non_friendly",
+      "group_matches": 100,
+      "reference_matches": 506,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AFR",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "C_SSA",
+      "era": "1980s",
+      "tournament_group": "non_friendly",
+      "group_matches": 406,
+      "reference_matches": 506,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AFR",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "C_NAF",
+      "era": "1990s",
+      "tournament_group": "friendly",
+      "group_matches": 118,
+      "reference_matches": 494,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AFR",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "C_SSA",
+      "era": "1990s",
+      "tournament_group": "friendly",
+      "group_matches": 376,
+      "reference_matches": 494,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AFR",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "C_NAF",
+      "era": "1990s",
+      "tournament_group": "non_friendly",
+      "group_matches": 102,
+      "reference_matches": 739,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AFR",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "C_SSA",
+      "era": "1990s",
+      "tournament_group": "non_friendly",
+      "group_matches": 637,
+      "reference_matches": 739,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AFR",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "C_NAF",
+      "era": "2000s",
+      "tournament_group": "friendly",
+      "group_matches": 168,
+      "reference_matches": 543,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AFR",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "C_SSA",
+      "era": "2000s",
+      "tournament_group": "friendly",
+      "group_matches": 375,
+      "reference_matches": 543,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AFR",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "C_NAF",
+      "era": "2000s",
+      "tournament_group": "non_friendly",
+      "group_matches": 169,
+      "reference_matches": 1086,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AFR",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "C_SSA",
+      "era": "2000s",
+      "tournament_group": "non_friendly",
+      "group_matches": 917,
+      "reference_matches": 1086,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AFR",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "C_NAF",
+      "era": "2010s",
+      "tournament_group": "friendly",
+      "group_matches": 103,
+      "reference_matches": 454,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AFR",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "C_SSA",
+      "era": "2010s",
+      "tournament_group": "friendly",
+      "group_matches": 351,
+      "reference_matches": 454,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AFR",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "C_NAF",
+      "era": "2010s",
+      "tournament_group": "non_friendly",
+      "group_matches": 117,
+      "reference_matches": 1027,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AFR",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "C_SSA",
+      "era": "2010s",
+      "tournament_group": "non_friendly",
+      "group_matches": 910,
+      "reference_matches": 1027,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AFR",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "C_NAF",
+      "era": "2020_2024",
+      "tournament_group": "friendly",
+      "group_matches": 31,
+      "reference_matches": 105,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AFR",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "C_SSA",
+      "era": "2020_2024",
+      "tournament_group": "friendly",
+      "group_matches": 74,
+      "reference_matches": 105,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AFR",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "C_NAF",
+      "era": "2020_2024",
+      "tournament_group": "non_friendly",
+      "group_matches": 81,
+      "reference_matches": 472,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AFR",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "C_SSA",
+      "era": "2020_2024",
+      "tournament_group": "non_friendly",
+      "group_matches": 391,
+      "reference_matches": 472,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AMER",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "SA_FEATURE",
+      "era": "1980s",
+      "tournament_group": "friendly",
+      "group_matches": 207,
+      "reference_matches": 406,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AMER",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "C_OTHER_AMER",
+      "era": "1980s",
+      "tournament_group": "friendly",
+      "group_matches": 199,
+      "reference_matches": 406,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AMER",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "SA_FEATURE",
+      "era": "1980s",
+      "tournament_group": "non_friendly",
+      "group_matches": 133,
+      "reference_matches": 268,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AMER",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "C_OTHER_AMER",
+      "era": "1980s",
+      "tournament_group": "non_friendly",
+      "group_matches": 135,
+      "reference_matches": 268,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AMER",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "SA_FEATURE",
+      "era": "1990s",
+      "tournament_group": "friendly",
+      "group_matches": 186,
+      "reference_matches": 464,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AMER",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "C_OTHER_AMER",
+      "era": "1990s",
+      "tournament_group": "friendly",
+      "group_matches": 278,
+      "reference_matches": 464,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AMER",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "SA_FEATURE",
+      "era": "1990s",
+      "tournament_group": "non_friendly",
+      "group_matches": 160,
+      "reference_matches": 509,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AMER",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "C_OTHER_AMER",
+      "era": "1990s",
+      "tournament_group": "non_friendly",
+      "group_matches": 349,
+      "reference_matches": 509,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AMER",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "SA_FEATURE",
+      "era": "2000s",
+      "tournament_group": "friendly",
+      "group_matches": 126,
+      "reference_matches": 465,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AMER",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "C_OTHER_AMER",
+      "era": "2000s",
+      "tournament_group": "friendly",
+      "group_matches": 339,
+      "reference_matches": 465,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AMER",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "SA_FEATURE",
+      "era": "2000s",
+      "tournament_group": "non_friendly",
+      "group_matches": 310,
+      "reference_matches": 784,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AMER",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "C_OTHER_AMER",
+      "era": "2000s",
+      "tournament_group": "non_friendly",
+      "group_matches": 474,
+      "reference_matches": 784,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AMER",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "SA_FEATURE",
+      "era": "2010s",
+      "tournament_group": "friendly",
+      "group_matches": 144,
+      "reference_matches": 409,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AMER",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "C_OTHER_AMER",
+      "era": "2010s",
+      "tournament_group": "friendly",
+      "group_matches": 265,
+      "reference_matches": 409,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AMER",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "SA_FEATURE",
+      "era": "2010s",
+      "tournament_group": "non_friendly",
+      "group_matches": 228,
+      "reference_matches": 681,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AMER",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "C_OTHER_AMER",
+      "era": "2010s",
+      "tournament_group": "non_friendly",
+      "group_matches": 453,
+      "reference_matches": 681,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AMER",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "SA_FEATURE",
+      "era": "2020_2024",
+      "tournament_group": "friendly",
+      "group_matches": 24,
+      "reference_matches": 101,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AMER",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "C_OTHER_AMER",
+      "era": "2020_2024",
+      "tournament_group": "friendly",
+      "group_matches": 77,
+      "reference_matches": 101,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AMER",
+      "role": "primary",
+      "arm": 1,
+      "group_id": "SA_FEATURE",
+      "era": "2020_2024",
+      "tournament_group": "non_friendly",
+      "group_matches": 172,
+      "reference_matches": 468,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_AMER",
+      "role": "primary",
+      "arm": 2,
+      "group_id": "C_OTHER_AMER",
+      "era": "2020_2024",
+      "tournament_group": "non_friendly",
+      "group_matches": 296,
+      "reference_matches": 468,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_ASIA",
+      "role": "auxiliary",
+      "arm": 1,
+      "group_id": "C_WASIA",
+      "era": "1980s",
+      "tournament_group": "friendly",
+      "group_matches": 166,
+      "reference_matches": 233,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_ASIA",
+      "role": "auxiliary",
+      "arm": 2,
+      "group_id": "C_EASIA",
+      "era": "1980s",
+      "tournament_group": "friendly",
+      "group_matches": 25,
+      "reference_matches": 233,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_ASIA",
+      "role": "auxiliary",
+      "arm": 1,
+      "group_id": "C_WASIA",
+      "era": "1980s",
+      "tournament_group": "non_friendly",
+      "group_matches": 139,
+      "reference_matches": 405,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_ASIA",
+      "role": "auxiliary",
+      "arm": 2,
+      "group_id": "C_EASIA",
+      "era": "1980s",
+      "tournament_group": "non_friendly",
+      "group_matches": 89,
+      "reference_matches": 405,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_ASIA",
+      "role": "auxiliary",
+      "arm": 1,
+      "group_id": "C_WASIA",
+      "era": "1990s",
+      "tournament_group": "friendly",
+      "group_matches": 262,
+      "reference_matches": 377,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_ASIA",
+      "role": "auxiliary",
+      "arm": 2,
+      "group_id": "C_EASIA",
+      "era": "1990s",
+      "tournament_group": "friendly",
+      "group_matches": 65,
+      "reference_matches": 377,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_ASIA",
+      "role": "auxiliary",
+      "arm": 1,
+      "group_id": "C_WASIA",
+      "era": "1990s",
+      "tournament_group": "non_friendly",
+      "group_matches": 254,
+      "reference_matches": 556,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_ASIA",
+      "role": "auxiliary",
+      "arm": 2,
+      "group_id": "C_EASIA",
+      "era": "1990s",
+      "tournament_group": "non_friendly",
+      "group_matches": 104,
+      "reference_matches": 556,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_ASIA",
+      "role": "auxiliary",
+      "arm": 1,
+      "group_id": "C_WASIA",
+      "era": "2000s",
+      "tournament_group": "friendly",
+      "group_matches": 404,
+      "reference_matches": 717,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_ASIA",
+      "role": "auxiliary",
+      "arm": 2,
+      "group_id": "C_EASIA",
+      "era": "2000s",
+      "tournament_group": "friendly",
+      "group_matches": 134,
+      "reference_matches": 717,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_ASIA",
+      "role": "auxiliary",
+      "arm": 1,
+      "group_id": "C_WASIA",
+      "era": "2000s",
+      "tournament_group": "non_friendly",
+      "group_matches": 472,
+      "reference_matches": 1067,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_ASIA",
+      "role": "auxiliary",
+      "arm": 2,
+      "group_id": "C_EASIA",
+      "era": "2000s",
+      "tournament_group": "non_friendly",
+      "group_matches": 171,
+      "reference_matches": 1067,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_ASIA",
+      "role": "auxiliary",
+      "arm": 1,
+      "group_id": "C_WASIA",
+      "era": "2010s",
+      "tournament_group": "friendly",
+      "group_matches": 364,
+      "reference_matches": 795,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_ASIA",
+      "role": "auxiliary",
+      "arm": 2,
+      "group_id": "C_EASIA",
+      "era": "2010s",
+      "tournament_group": "friendly",
+      "group_matches": 139,
+      "reference_matches": 795,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_ASIA",
+      "role": "auxiliary",
+      "arm": 1,
+      "group_id": "C_WASIA",
+      "era": "2010s",
+      "tournament_group": "non_friendly",
+      "group_matches": 395,
+      "reference_matches": 1036,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_ASIA",
+      "role": "auxiliary",
+      "arm": 2,
+      "group_id": "C_EASIA",
+      "era": "2010s",
+      "tournament_group": "non_friendly",
+      "group_matches": 168,
+      "reference_matches": 1036,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_ASIA",
+      "role": "auxiliary",
+      "arm": 1,
+      "group_id": "C_WASIA",
+      "era": "2020_2024",
+      "tournament_group": "friendly",
+      "group_matches": 88,
+      "reference_matches": 228,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_ASIA",
+      "role": "auxiliary",
+      "arm": 2,
+      "group_id": "C_EASIA",
+      "era": "2020_2024",
+      "tournament_group": "friendly",
+      "group_matches": 41,
+      "reference_matches": 228,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_ASIA",
+      "role": "auxiliary",
+      "arm": 1,
+      "group_id": "C_WASIA",
+      "era": "2020_2024",
+      "tournament_group": "non_friendly",
+      "group_matches": 225,
+      "reference_matches": 507,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_ASIA",
+      "role": "auxiliary",
+      "arm": 2,
+      "group_id": "C_EASIA",
+      "era": "2020_2024",
+      "tournament_group": "non_friendly",
+      "group_matches": 60,
+      "reference_matches": 507,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_EUR",
+      "role": "auxiliary",
+      "arm": 1,
+      "group_id": "C_NEUR",
+      "era": "1980s",
+      "tournament_group": "friendly",
+      "group_matches": 138,
+      "reference_matches": 525,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_EUR",
+      "role": "auxiliary",
+      "arm": 2,
+      "group_id": "C_SEUR",
+      "era": "1980s",
+      "tournament_group": "friendly",
+      "group_matches": 137,
+      "reference_matches": 525,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_EUR",
+      "role": "auxiliary",
+      "arm": 1,
+      "group_id": "C_NEUR",
+      "era": "1980s",
+      "tournament_group": "non_friendly",
+      "group_matches": 240,
+      "reference_matches": 615,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_EUR",
+      "role": "auxiliary",
+      "arm": 2,
+      "group_id": "C_SEUR",
+      "era": "1980s",
+      "tournament_group": "non_friendly",
+      "group_matches": 129,
+      "reference_matches": 615,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_EUR",
+      "role": "auxiliary",
+      "arm": 1,
+      "group_id": "C_NEUR",
+      "era": "1990s",
+      "tournament_group": "friendly",
+      "group_matches": 210,
+      "reference_matches": 629,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_EUR",
+      "role": "auxiliary",
+      "arm": 2,
+      "group_id": "C_SEUR",
+      "era": "1990s",
+      "tournament_group": "friendly",
+      "group_matches": 144,
+      "reference_matches": 629,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_EUR",
+      "role": "auxiliary",
+      "arm": 1,
+      "group_id": "C_NEUR",
+      "era": "1990s",
+      "tournament_group": "non_friendly",
+      "group_matches": 332,
+      "reference_matches": 927,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_EUR",
+      "role": "auxiliary",
+      "arm": 2,
+      "group_id": "C_SEUR",
+      "era": "1990s",
+      "tournament_group": "non_friendly",
+      "group_matches": 243,
+      "reference_matches": 927,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_EUR",
+      "role": "auxiliary",
+      "arm": 1,
+      "group_id": "C_NEUR",
+      "era": "2000s",
+      "tournament_group": "friendly",
+      "group_matches": 264,
+      "reference_matches": 913,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_EUR",
+      "role": "auxiliary",
+      "arm": 2,
+      "group_id": "C_SEUR",
+      "era": "2000s",
+      "tournament_group": "friendly",
+      "group_matches": 240,
+      "reference_matches": 913,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_EUR",
+      "role": "auxiliary",
+      "arm": 1,
+      "group_id": "C_NEUR",
+      "era": "2000s",
+      "tournament_group": "non_friendly",
+      "group_matches": 367,
+      "reference_matches": 1191,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_EUR",
+      "role": "auxiliary",
+      "arm": 2,
+      "group_id": "C_SEUR",
+      "era": "2000s",
+      "tournament_group": "non_friendly",
+      "group_matches": 346,
+      "reference_matches": 1191,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_EUR",
+      "role": "auxiliary",
+      "arm": 1,
+      "group_id": "C_NEUR",
+      "era": "2010s",
+      "tournament_group": "friendly",
+      "group_matches": 213,
+      "reference_matches": 811,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_EUR",
+      "role": "auxiliary",
+      "arm": 2,
+      "group_id": "C_SEUR",
+      "era": "2010s",
+      "tournament_group": "friendly",
+      "group_matches": 192,
+      "reference_matches": 811,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_EUR",
+      "role": "auxiliary",
+      "arm": 1,
+      "group_id": "C_NEUR",
+      "era": "2010s",
+      "tournament_group": "non_friendly",
+      "group_matches": 393,
+      "reference_matches": 1276,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_EUR",
+      "role": "auxiliary",
+      "arm": 2,
+      "group_id": "C_SEUR",
+      "era": "2010s",
+      "tournament_group": "non_friendly",
+      "group_matches": 401,
+      "reference_matches": 1276,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_EUR",
+      "role": "auxiliary",
+      "arm": 1,
+      "group_id": "C_NEUR",
+      "era": "2020_2024",
+      "tournament_group": "friendly",
+      "group_matches": 67,
+      "reference_matches": 291,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_EUR",
+      "role": "auxiliary",
+      "arm": 2,
+      "group_id": "C_SEUR",
+      "era": "2020_2024",
+      "tournament_group": "friendly",
+      "group_matches": 99,
+      "reference_matches": 291,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_EUR",
+      "role": "auxiliary",
+      "arm": 1,
+      "group_id": "C_NEUR",
+      "era": "2020_2024",
+      "tournament_group": "non_friendly",
+      "group_matches": 280,
+      "reference_matches": 867,
+      "status": "supported"
+    },
+    {
+      "target_id": "C_EUR",
+      "role": "auxiliary",
+      "arm": 2,
+      "group_id": "C_SEUR",
+      "era": "2020_2024",
+      "tournament_group": "non_friendly",
+      "group_matches": 287,
+      "reference_matches": 867,
+      "status": "supported"
+    }
+  ]
+}
