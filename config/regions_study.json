@@ -1,7 +1,7 @@
 {
-  "schema_version": "regions-study-protocol-v2",
-  "protocol_id": "regions-study-v2",
-  "decision_log_id": "R20261026-16",
+  "schema_version": "regions-study-protocol-v3",
+  "protocol_id": "regions-study-v3",
+  "decision_log_id": "R20261026-18",
   "status": "fixed_descriptive_scope_no_outcome_results",
   "scope": {
     "start": "1980-01-01",
@@ -382,6 +382,28 @@
         "039"
       ],
       "relations": []
+    },
+    "C_WEUR": {
+      "label": "西欧",
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "155"
+      ],
+      "relations": []
+    },
+    "C_EEUR": {
+      "label": "东欧",
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "151"
+      ],
+      "relations": []
     }
   },
   "profiles": {
@@ -430,7 +452,8 @@
       "arm1": "B_EUR_CROSS",
       "arm2": "B_EUR_SAME",
       "reference_group": "B_EUR_REF",
-      "parent_study": "EUROPE"
+      "parent_study": "EUROPE",
+      "target_id": "B_EUR"
     },
     {
       "id": "B_ASIA",
@@ -440,7 +463,8 @@
       "arm1": "B_ASIA_CROSS",
       "arm2": "B_ASIA_SAME",
       "reference_group": "B_ASIA_REF",
-      "parent_study": "ASIA"
+      "parent_study": "ASIA",
+      "target_id": "B_ASIA"
     },
     {
       "id": "B_SA",
@@ -452,7 +476,8 @@
       "arm1": "B_SA_CROSS",
       "arm2": "B_SA_SAME",
       "reference_group": "B_SA_REF",
-      "parent_study": "AMERICAS"
+      "parent_study": "AMERICAS",
+      "target_id": "B_SA"
     },
     {
       "id": "C_AFR",
@@ -462,7 +487,8 @@
       "arm1": "C_NAF",
       "arm2": "C_SSA",
       "reference_group": "C_AFR_REF",
-      "parent_study": "AFRICA"
+      "parent_study": "AFRICA",
+      "target_id": "C_AFR"
     },
     {
       "id": "C_AMER",
@@ -472,7 +498,8 @@
       "arm1": "SA_FEATURE",
       "arm2": "C_OTHER_AMER",
       "reference_group": "C_AMER_REF",
-      "parent_study": "AMERICAS"
+      "parent_study": "AMERICAS",
+      "target_id": "C_AMER"
     },
     {
       "id": "C_ASIA",
@@ -482,17 +509,80 @@
       "arm1": "C_WASIA",
       "arm2": "C_EASIA",
       "reference_group": "C_ASIA_REF",
-      "parent_study": "ASIA"
+      "parent_study": "ASIA",
+      "target_id": "C_ASIA"
     },
     {
-      "id": "C_EUR",
+      "id": "C_EUR_NORTH_SOUTH",
       "label": "北欧减南欧",
       "role": "study_subanalysis",
       "family": "C",
       "arm1": "C_NEUR",
       "arm2": "C_SEUR",
       "reference_group": "C_EUR_REF",
-      "parent_study": "EUROPE"
+      "parent_study": "EUROPE",
+      "target_id": "C_EUR",
+      "contrast_family": "EUROPE_INTERNAL_ALL_PAIRS"
+    },
+    {
+      "id": "C_EUR_NORTH_WEST",
+      "label": "北欧减西欧",
+      "role": "study_subanalysis",
+      "family": "C",
+      "arm1": "C_NEUR",
+      "arm2": "C_WEUR",
+      "reference_group": "C_EUR_REF",
+      "parent_study": "EUROPE",
+      "target_id": "C_EUR",
+      "contrast_family": "EUROPE_INTERNAL_ALL_PAIRS"
+    },
+    {
+      "id": "C_EUR_NORTH_EAST",
+      "label": "北欧减东欧",
+      "role": "study_subanalysis",
+      "family": "C",
+      "arm1": "C_NEUR",
+      "arm2": "C_EEUR",
+      "reference_group": "C_EUR_REF",
+      "parent_study": "EUROPE",
+      "target_id": "C_EUR",
+      "contrast_family": "EUROPE_INTERNAL_ALL_PAIRS"
+    },
+    {
+      "id": "C_EUR_SOUTH_WEST",
+      "label": "南欧减西欧",
+      "role": "study_subanalysis",
+      "family": "C",
+      "arm1": "C_SEUR",
+      "arm2": "C_WEUR",
+      "reference_group": "C_EUR_REF",
+      "parent_study": "EUROPE",
+      "target_id": "C_EUR",
+      "contrast_family": "EUROPE_INTERNAL_ALL_PAIRS"
+    },
+    {
+      "id": "C_EUR_SOUTH_EAST",
+      "label": "南欧减东欧",
+      "role": "study_subanalysis",
+      "family": "C",
+      "arm1": "C_SEUR",
+      "arm2": "C_EEUR",
+      "reference_group": "C_EUR_REF",
+      "parent_study": "EUROPE",
+      "target_id": "C_EUR",
+      "contrast_family": "EUROPE_INTERNAL_ALL_PAIRS"
+    },
+    {
+      "id": "C_EUR_WEST_EAST",
+      "label": "西欧减东欧",
+      "role": "study_subanalysis",
+      "family": "C",
+      "arm1": "C_WEUR",
+      "arm2": "C_EEUR",
+      "reference_group": "C_EUR_REF",
+      "parent_study": "EUROPE",
+      "target_id": "C_EUR",
+      "contrast_family": "EUROPE_INTERNAL_ALL_PAIRS"
     }
   ],
   "strata": {
@@ -567,25 +657,30 @@
     ],
     "data_dictionary_required": true,
     "require_version_fields": [
+      "analysis_id",
       "protocol_id",
       "data_version",
       "identity_version",
       "sample_id",
       "geography_version",
-      "grouping_run",
-      "analysis_run_id"
+      "grouping_run"
     ],
-    "reproducibility": "fixed inputs/config/code => same core CSV bytes; run metadata may differ"
+    "reproducibility": "fixed inputs/config/code => same core CSV bytes; run metadata may differ",
+    "core_version_binding": "analysis_id in each core CSV; remaining versions in immutable analysis_metadata.json, linked by analysis_id",
+    "run_identity_binding": "run_id and time only in run_manifest; not core tables",
+    "implementation_design_log_id": "R20261026-18",
+    "zero_reference_weight_layer": "retain counts; skip weighted term without evaluating undefined rate; positive weight missing arm => unsupported",
+    "contrast_identifier": "contrast_id separate from target_id; multiple contrasts can use one multigroup target"
   },
   "inference": {
     "question_4": "not_run",
     "question_5_strength": "not_run",
     "causal_claims": false,
     "p_values_or_confidence_intervals_in_q3": false,
-    "multiple_comparison_scope": "四项研究含六个可估算的差值指标，另一个南美地域关系描述；第四问按实际指标和共享样本处理，不能因合并目录就按四个独立检验计算",
+    "multiple_comparison_scope": "四项研究含11个拟调整差值和1个南美关系描述项；欧洲四组的6个差值只含3个线性独立方向，第四问须联合处理，不能当独立检验",
     "classification_sensitivity": "Q4 explicitly revisit carrier/boundary assumptions; do not change groups after observing outcome"
   },
-  "previous_protocol": "config/archive/regions_study_v1.json",
+  "previous_protocol": "config/archive/regions_study_v2.json",
   "terminology": {
     "formal_partition": "地理分区",
     "method_definition": "依据M49最深非空层级构建互不重叠的统计地理分区，并保留M49原始层级",
@@ -610,7 +705,16 @@
         "B_EUR",
         "C_EUR"
       ],
-      "description": "地域关系为主线；北欧—南欧作为题内子项"
+      "description": "地域关系与欧洲东、南、西、北四分区完整描述；洲内六个成对差值共用欧洲参考",
+      "contrast_ids": [
+        "B_EUR",
+        "C_EUR_NORTH_SOUTH",
+        "C_EUR_NORTH_WEST",
+        "C_EUR_NORTH_EAST",
+        "C_EUR_SOUTH_WEST",
+        "C_EUR_SOUTH_EAST",
+        "C_EUR_WEST_EAST"
+      ]
     },
     {
       "id": "ASIA",
@@ -619,12 +723,19 @@
         "B_ASIA",
         "C_ASIA"
       ],
-      "description": "地域关系为主线；西亚—东亚作为题内子项"
+      "description": "地域关系为主线；西亚—东亚作为题内子项",
+      "contrast_ids": [
+        "B_ASIA",
+        "C_ASIA"
+      ]
     },
     {
       "id": "AFRICA",
       "title": "北非与撒哈拉以南非洲的主场表现",
       "subanalyses": [
+        "C_AFR"
+      ],
+      "contrast_ids": [
         "C_AFR"
       ]
     },
@@ -635,7 +746,116 @@
         "C_AMER",
         "B_SA"
       ],
-      "description": "洲内比较为主线；南美主客地域关系只作描述"
+      "description": "洲内比较为主线；南美主客地域关系只作描述",
+      "contrast_ids": [
+        "B_SA",
+        "C_AMER"
+      ]
     }
-  ]
+  ],
+  "analysis_targets": {
+    "PROFILE_MACRO": {
+      "groups": [
+        "A_AFR",
+        "A_AMER",
+        "A_ASIA",
+        "A_EUR",
+        "A_OCE"
+      ],
+      "reference_group": "PARENT",
+      "type": "profile"
+    },
+    "PROFILE_SA": {
+      "groups": [
+        "SA_FEATURE"
+      ],
+      "reference_group": "PARENT",
+      "type": "profile"
+    },
+    "B_EUR": {
+      "groups": [
+        "B_EUR_SAME",
+        "B_EUR_OTHER_UNIT",
+        "B_EUR_CROSS"
+      ],
+      "reference_group": "B_EUR_REF",
+      "type": "relationship"
+    },
+    "C_EUR": {
+      "groups": [
+        "C_NEUR",
+        "C_SEUR",
+        "C_WEUR",
+        "C_EEUR"
+      ],
+      "display_order": [
+        "C_EEUR",
+        "C_SEUR",
+        "C_WEUR",
+        "C_NEUR"
+      ],
+      "reference_group": "C_EUR_REF",
+      "type": "multigroup",
+      "contrast_policy": "all_unordered_pairs_fixed_directions",
+      "contrast_family": "EUROPE_INTERNAL_ALL_PAIRS"
+    },
+    "B_ASIA": {
+      "groups": [
+        "B_ASIA_SAME",
+        "B_ASIA_OTHER_UNIT",
+        "B_ASIA_CROSS"
+      ],
+      "reference_group": "B_ASIA_REF",
+      "type": "relationship"
+    },
+    "C_ASIA": {
+      "groups": [
+        "C_WASIA",
+        "C_EASIA"
+      ],
+      "reference_group": "C_ASIA_REF",
+      "type": "comparison"
+    },
+    "C_AFR": {
+      "groups": [
+        "C_NAF",
+        "C_SSA"
+      ],
+      "reference_group": "C_AFR_REF",
+      "type": "comparison"
+    },
+    "C_AMER": {
+      "groups": [
+        "SA_FEATURE",
+        "C_OTHER_AMER"
+      ],
+      "reference_group": "C_AMER_REF",
+      "type": "comparison"
+    },
+    "B_SA": {
+      "groups": [
+        "B_SA_SAME",
+        "B_SA_OTHER_UNIT",
+        "B_SA_CROSS"
+      ],
+      "reference_group": "B_SA_REF",
+      "type": "relationship",
+      "standardized_policy": "unestimable_for_full_period_no_scope_change"
+    }
+  },
+  "multigroup_contract": {
+    "group_rates": "Compute every configured group once under one target-specific reference",
+    "pairwise": "Only predeclared pairs; European four groups include all six unordered pairs",
+    "direction": "Fixed by contrast_id arms, never chosen from results",
+    "missing_support": "Keep all groups; invalidate only unsupported group rates and affected pairs; preserve target and reference",
+    "overall_inference": "Deferred to Q4, including joint covariance and multiple comparisons; no independent-samples ANOVA assumed",
+    "membership_key": [
+      "target_id",
+      "match_id"
+    ],
+    "contrast_key": [
+      "contrast_id"
+    ],
+    "group_count_not_hardcoded": true
+  }
 }

@@ -466,5 +466,19 @@
       },
       "limits": "Study roster lists observed representative teams and historical rules, not all countries; Chinese labels are display names. No new outcome estimation or inference."
     }
+  ],
+  "maintenance_events": [
+    {
+      "decision_log_id": "R20261026-17",
+      "type": "local_source_retention_and_citation_check",
+      "current_m49_registry": "data/external/geography_sources/m49-20261026/sources.csv",
+      "retention_audit": "outputs/logs/regions/design-review-20261026/review.json",
+      "html_existing": 31,
+      "html_tracked": 30,
+      "html_linked_to_records": 21,
+      "unlinked_cache_pages": 10,
+      "new_downloads": false,
+      "old_reading_and_retrieval_records_unchanged": true
+    }
   ]
 }

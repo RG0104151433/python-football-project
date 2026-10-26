@@ -150,7 +150,7 @@
   },
   "question_3": {
     "title": "地域差异",
-    "status": "four_study_design_documented_preparation_ready_shared_sources_migrated",
+    "status": "four_study_multigroup_design_documented_preparation_ready",
     "decision_log_id": "R20261026-01",
     "planning_document": "研究/03_地域差异/README.md",
     "region_definition": "adopted_M49_20261026_five_macroregions_22_fine_units",
@@ -180,16 +180,16 @@
     },
     "new_data_collection": "complete_for_current_geographic_scope_explicit_unknowns_retained",
     "implementation_framework": {
-      "decision_log_id": "R20261026-16",
-      "document_section": "研究/03_地域差异/README.md#11",
+      "decision_log_id": "R20261026-18",
+      "document_section": "研究/03_地域差异/脚本设计.md",
       "status": "four_study_scope_and_analysis_design_documented_not_implemented",
       "grouping_preparation_code_exists": true,
       "reuse_existing_grouping_tool": "scripts/prepare_region_mapping.py",
       "new_analysis_code_written": false,
       "requires_before_implementation": [],
-      "next_step": "Implement the documented descriptive analyzer after user review; no analysis outcome produced"
+      "next_step": "Implement documented analyzer; no new data collection required for this scope"
     },
-    "current_scope_log_id": "R20261026-16",
+    "current_scope_log_id": "R20261026-18",
     "mathematical_discussion": {
       "decision_log_id": "R20261026-11",
       "prior_discussion_log_id": "R20261026-10",
@@ -268,7 +268,7 @@
       "historical_only": true
     },
     "study_protocol": "config/regions_study.json",
-    "protocol_id": "regions-study-v2",
+    "protocol_id": "regions-study-v3",
     "adopted_grouping": {
       "decision_log_id": "R20261026-14",
       "package": "data/external/geography_preparation/geo-prep-v3",
@@ -294,13 +294,22 @@
       "snapshot_layout": "13 registered inputs; historical HTML positions resolve to two shared originals; current runs store eleven local snapshots plus two shared references"
     },
     "research_catalog": {
-      "status": "four_studies_with_nested_subanalyses",
+      "status": "four_studies_with_european_four_group_subanalysis",
       "studies": [
         {
           "id": "EUROPE",
           "subanalyses": [
             "B_EUR",
             "C_EUR"
+          ],
+          "contrast_ids": [
+            "B_EUR",
+            "C_EUR_NORTH_SOUTH",
+            "C_EUR_NORTH_WEST",
+            "C_EUR_NORTH_EAST",
+            "C_EUR_SOUTH_WEST",
+            "C_EUR_SOUTH_EAST",
+            "C_EUR_WEST_EAST"
           ]
         },
         {
@@ -327,14 +336,19 @@
         }
       ],
       "study_count": 4,
-      "numerical_contrast_count": 6,
+      "numerical_contrast_count": 11,
       "all_estimable_contrast_ids": [
         "B_EUR",
-        "C_EUR",
         "B_ASIA",
-        "C_ASIA",
         "C_AFR",
-        "C_AMER"
+        "C_AMER",
+        "C_ASIA",
+        "C_EUR_NORTH_SOUTH",
+        "C_EUR_NORTH_WEST",
+        "C_EUR_NORTH_EAST",
+        "C_EUR_SOUTH_WEST",
+        "C_EUR_SOUTH_EAST",
+        "C_EUR_WEST_EAST"
       ],
       "descriptive_only_relation_contrasts": [
         "B_SA"
@@ -348,12 +362,26 @@
       },
       "formal_term": "地理分区",
       "central_europe_separate_group": false,
-      "support": "Same populations and weights as protocol v1, only study hierarchy and formal labels revised"
+      "support": "All 11 adjusted contrasts count-checked before outcomes; same adopted geography",
+      "predefined_contrast_count": 12,
+      "european_multigroup": {
+        "target_id": "C_EUR",
+        "groups": [
+          "C_NEUR",
+          "C_SEUR",
+          "C_WEUR",
+          "C_EEUR"
+        ],
+        "reference_group": "C_EUR_REF",
+        "reference_matches": 8045,
+        "predefined_pairs": 6,
+        "independent_directions": 3
+      }
     },
     "analysis_design": {
       "status": "documented_not_implemented",
-      "decision_log_id": "R20261026-16",
-      "document": "研究/03_地域差异/README.md#14",
+      "decision_log_id": "R20261026-18",
+      "document": "研究/03_地域差异/脚本设计.md",
       "main_entry_planned": "scripts/analyze_regions.py",
       "modules_planned": [
         "src/regions/io.py",
@@ -371,7 +399,35 @@
         "fixed joint reference weights",
         "standardized rates and differences/layer contributions",
         "arithmetic and version audit and export"
-      ]
+      ],
+      "statistical_target_count": 9,
+      "study_count": 4,
+      "estimable_contrast_count": 11,
+      "descriptive_only_contrast_count": 1,
+      "core_csv_count_planned": 10,
+      "stable_identity": "analysis_id in core CSV; versions in analysis_metadata; run_id/time only in run_manifest",
+      "preimplementation_gaps_closed": [
+        "formal group vs candidate mapping",
+        "zero-reference-weight handling",
+        "stable core vs run metadata",
+        "full contributions and fixed-design coefficients",
+        "reference-only membership",
+        "geography affiliation vs actual journey"
+      ],
+      "required_before_implementation": [],
+      "formal_analysis_implemented": false,
+      "predefined_contrast_count": 12,
+      "european_groups": 4,
+      "european_pairwise_contrasts": 6,
+      "membership_key": [
+        "target_id",
+        "match_id"
+      ],
+      "contrast_key": [
+        "contrast_id"
+      ],
+      "multigroup_group_rates": "Compute each group under a single common reference before forming contrasts",
+      "european_independent_contrast_directions": 3
     },
     "roster": {
       "path": "outputs/tables/regions/preparation/regions-study-v2/team_geography_roster.csv",
@@ -380,7 +436,8 @@
       "date_rules": 217,
       "partition_count": 22,
       "script": "scripts/build_region_roster.py",
-      "outcomes_computed": false
+      "outcomes_computed": false,
+      "reuse_note": "Geography unchanged; v2-named roster retained with its original protocol stamp, not relabelled as a v3-generated result"
     },
     "storage_migration": {
       "status": "complete_current_and_adopted_artifacts_verified",
@@ -401,6 +458,26 @@
       "unadopted_early_draft_mismatches": 1,
       "full_tests": "outputs/logs/regions/storage-migration-20261026/full_tests.xml",
       "full_tests_passed": 116
+    },
+    "source_retention_review": {
+      "decision_log_id": "R20261026-17",
+      "report": "outputs/logs/regions/design-review-20261026/review.json",
+      "citation_registry": "data/external/geography_sources/m49-20261026/sources.csv",
+      "citation_notes": "data/external/geography_sources/m49-20261026/README.md",
+      "html_existing": 31,
+      "html_tracked": 30,
+      "unlinked_cache_pages": 10,
+      "m49_originals": 2,
+      "required_source_bytes_preserved": true
+    },
+    "protocol_version": "regions-study-v3",
+    "multigroup_review": {
+      "decision_log_id": "R20261026-18",
+      "report": "outputs/logs/regions/multigroup-design-20261026/review.json",
+      "archived_protocol": "config/archive/regions_study_v2.json",
+      "geographic_roster_unchanged": true,
+      "regional_outcomes_computed": false,
+      "preparation_verification": "outputs/logs/regions/storage-migration-20261026/verification-regions-study-v3.json"
     }
   },
   "question_4": {
@@ -436,9 +513,12 @@
       "coefficients_generated": false,
       "simulation_run": false,
       "historical_confederation_mapping_required": false,
-      "current_regional_protocol": "regions-study-v2",
-      "regional_metric_count": 6,
-      "regional_study_count": 4
+      "current_regional_protocol": "regions-study-v3",
+      "regional_metric_count": 11,
+      "regional_study_count": 4,
+      "european_groups": 4,
+      "european_pairwise_count": 6,
+      "european_independent_contrast_directions": 3
     }
   },
   "question_5": {

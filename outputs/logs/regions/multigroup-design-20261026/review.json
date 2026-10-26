@@ -1,0 +1,86 @@
+{
+  "decision_log_id": "R20261026-18",
+  "protocol_id": "regions-study-v3",
+  "archived_v2_sha256": "c29fac1042b915a1c5d6fd9f422026b53651ed0726d763f9435f3a17c82c6067",
+  "adopted_geography_unchanged": true,
+  "groups": 32,
+  "studies": 4,
+  "targets": 9,
+  "predefined_contrasts": 12,
+  "supported_adjusted_contrasts": 11,
+  "european_groups": {
+    "C_NEUR": {
+      "matches": 2504,
+      "layers": 10,
+      "minimum_cell": 67
+    },
+    "C_SEUR": {
+      "matches": 2218,
+      "layers": 10,
+      "minimum_cell": 99
+    },
+    "C_WEUR": {
+      "matches": 1703,
+      "layers": 10,
+      "minimum_cell": 66
+    },
+    "C_EEUR": {
+      "matches": 1620,
+      "layers": 10,
+      "minimum_cell": 59
+    }
+  },
+  "european_pairwise_contrasts": [
+    "C_EUR_NORTH_SOUTH",
+    "C_EUR_NORTH_WEST",
+    "C_EUR_NORTH_EAST",
+    "C_EUR_SOUTH_WEST",
+    "C_EUR_SOUTH_EAST",
+    "C_EUR_WEST_EAST"
+  ],
+  "common_reference": "C_EUR_REF",
+  "reference_matches": 8045,
+  "four_groups_mutually_exclusive_and_exhaustive": true,
+  "pairwise_missing_support": {
+    "B_EUR": [],
+    "B_ASIA": [],
+    "B_SA": [
+      {
+        "era": "2020_2024",
+        "tournament_group": "friendly"
+      },
+      {
+        "era": "2020_2024",
+        "tournament_group": "non_friendly"
+      }
+    ],
+    "C_AFR": [],
+    "C_AMER": [],
+    "C_ASIA": [],
+    "C_EUR_NORTH_SOUTH": [],
+    "C_EUR_NORTH_WEST": [],
+    "C_EUR_NORTH_EAST": [],
+    "C_EUR_SOUTH_WEST": [],
+    "C_EUR_SOUTH_EAST": [],
+    "C_EUR_WEST_EAST": []
+  },
+  "artificial_four_group_algebra_checks_passed": true,
+  "artificial_one_group_missing_support_locality_checked": true,
+  "project_outcomes_read": false,
+  "regional_win_rates_computed": false,
+  "formal_analysis_implemented": false,
+  "reviewer": "Codex AI; no human review",
+  "inputs_sha256": {
+    "config/regions_study.json": "4413b932d50b8c932a339ea9a9eab8c87ba7a7c9d972f993e1a2fb4bbe08e979",
+    "config/archive/regions_study_v2.json": "c29fac1042b915a1c5d6fd9f422026b53651ed0726d763f9435f3a17c82c6067",
+    "outputs/logs/regions/grouping-acceptance-20261026/preparation-20261026T090739Z-82cd5e84-accepted-r1/match_region_relations.csv": "4a30a95b129ae68d68859c8c9f25da6aa633815ada5dc1ce5fb152678860f69d",
+    "outputs/logs/regions/multigroup-design-20261026/audit_multigroup.py": "6e193f00b56c4f7b6a9fe61a0f73af537df4a9d08a12c63e729fe324859a6d0f",
+    "研究/03_地域差异/脚本设计.md": "43215de6e9eb1a6b80714ac481279e25a5e50c21546a33ea3c9369f273a5766f"
+  },
+  "delivery_checks": {
+    "local_links": 442,
+    "unique_log_entries": 89,
+    "version_and_contrast_catalog_aligned": true,
+    "formal_analyzer_not_created": true
+  }
+}

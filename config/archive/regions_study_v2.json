@@ -1,0 +1,645 @@
+{
+  "schema_version": "regions-study-protocol-v2",
+  "protocol_id": "regions-study-v2",
+  "decision_log_id": "R20261026-16",
+  "status": "fixed_descriptive_scope_no_outcome_results",
+  "scope": {
+    "start": "1980-01-01",
+    "end": "2024-12-31",
+    "unit": "match",
+    "parent_matches": 24917,
+    "data_version": "prep-3fab808178cf8ad71d88",
+    "identity_version": "identity-reviewed-29d880765c1623764940",
+    "sample_id": "sample-3bc69e2cc4f843242018",
+    "neutral": false,
+    "result_basis": "after_extra_time_excluding_shootout",
+    "draws_in_denominator": true,
+    "country_equal_weighting": false
+  },
+  "grouping": {
+    "package": "data/external/geography_preparation/geo-prep-v3",
+    "adopted_run": "outputs/logs/regions/grouping-acceptance-20261026/preparation-20261026T090739Z-82cd5e84-accepted-r1",
+    "input_manifest": "inputs/inputs_manifest.json",
+    "input_manifest_sha256": "7311e873944b5596209d7f640087fa8c8027bd4db726ad1db43444dd1d73fdd7",
+    "script_sha256": "82cd5e840f88c0bd818b0552c8d782e4e522561860cc07ca94b1184e2f033947",
+    "standard": "UNSD M49 snapshot accessed 2026-10-26",
+    "levels": "5 macroregions and 22 nonoverlapping deepest nonempty fine units",
+    "rules_generated_for_dates_not_official_historical_labels": true,
+    "historical_policy": {
+      "type": "fixed_current_geographic_carriers_with_recorded_project_exceptions",
+      "merge_team_ids": false,
+      "german_dr": "carrier Germany 276 => Europe/Western Europe; statistical convention, not historical classification or succession",
+      "czechoslovakia": "carrier Czechia 203 => Europe/Eastern Europe; team ID preserved",
+      "yugoslavia": "carrier Serbia 688 => Europe/Southern Europe; team ID preserved",
+      "uk_associations": "carrier 826 for geography only; all four team IDs preserved",
+      "kosovo": "statistical carrier 412; team ID preserved",
+      "taiwan": "M49 carrier 156 => Eastern Asia; team ID preserved",
+      "russia": "through 1992-07-02 multi-region unknown; from 1992-07-03 Europe/Eastern Europe under project convention, not certified daily FIFA history",
+      "unknown_policy": "keep parent records; exclude only from targets requiring unavailable attributes; no imputation"
+    },
+    "south_america": {
+      "definition": "M49 fine unit 005 within Americas 019",
+      "not_a_sixth_macroregion": true,
+      "include_guyana_and_suriname_when_present": true,
+      "exclude_by_strength": false,
+      "confederation_not_used": true,
+      "B_cross_definition": "opponent outside Americas, not merely outside South America",
+      "B_middle_definition": "other fine units within Americas"
+    },
+    "rollups_change_relation_definition": false,
+    "source_storage": {
+      "canonical_directory": "data/external/geography_sources/m49-20261026",
+      "relocations": "data/external/geography_sources/m49-20261026/relocations.json",
+      "old_manifests_unchanged": true,
+      "legacy_replay": "current prepare_region_mapping.py replay uses original run_core and explicit storage adapter",
+      "persistent_html_copies": 2
+    }
+  },
+  "groups": {
+    "PARENT": {
+      "label": "母样本",
+      "eligibility": null,
+      "home_regions": [],
+      "home_units": [],
+      "relations": []
+    },
+    "A_AFR": {
+      "label": "非洲",
+      "eligibility": "A",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [],
+      "relations": []
+    },
+    "A_AMER": {
+      "label": "美洲",
+      "eligibility": "A",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [],
+      "relations": []
+    },
+    "A_ASIA": {
+      "label": "亚洲",
+      "eligibility": "A",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [],
+      "relations": []
+    },
+    "A_EUR": {
+      "label": "欧洲",
+      "eligibility": "A",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [],
+      "relations": []
+    },
+    "A_OCE": {
+      "label": "大洋洲",
+      "eligibility": "A",
+      "home_regions": [
+        "009"
+      ],
+      "home_units": [],
+      "relations": []
+    },
+    "SA_FEATURE": {
+      "label": "南美洲（地理）",
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "005"
+      ],
+      "relations": []
+    },
+    "B_EUR_REF": {
+      "label": "欧洲关系明确的全部三类比赛",
+      "eligibility": "B",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [],
+      "relations": [
+        "same_unit",
+        "same_region_diff_unit",
+        "cross_region"
+      ]
+    },
+    "B_EUR_SAME": {
+      "label": "欧洲主队：同一地理分区",
+      "eligibility": "B",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [],
+      "relations": [
+        "same_unit"
+      ]
+    },
+    "B_EUR_OTHER_UNIT": {
+      "label": "欧洲主队：同大区不同地理分区",
+      "eligibility": "B",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [],
+      "relations": [
+        "same_region_diff_unit"
+      ]
+    },
+    "B_EUR_CROSS": {
+      "label": "欧洲主队：跨大区",
+      "eligibility": "B",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [],
+      "relations": [
+        "cross_region"
+      ]
+    },
+    "B_ASIA_REF": {
+      "label": "亚洲关系明确的全部三类比赛",
+      "eligibility": "B",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [],
+      "relations": [
+        "same_unit",
+        "same_region_diff_unit",
+        "cross_region"
+      ]
+    },
+    "B_ASIA_SAME": {
+      "label": "亚洲主队：同一地理分区",
+      "eligibility": "B",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [],
+      "relations": [
+        "same_unit"
+      ]
+    },
+    "B_ASIA_OTHER_UNIT": {
+      "label": "亚洲主队：同大区不同地理分区",
+      "eligibility": "B",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [],
+      "relations": [
+        "same_region_diff_unit"
+      ]
+    },
+    "B_ASIA_CROSS": {
+      "label": "亚洲主队：跨大区",
+      "eligibility": "B",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [],
+      "relations": [
+        "cross_region"
+      ]
+    },
+    "B_SA_REF": {
+      "label": "南美洲关系明确的全部三类比赛",
+      "eligibility": "B",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "005"
+      ],
+      "relations": [
+        "same_unit",
+        "same_region_diff_unit",
+        "cross_region"
+      ]
+    },
+    "B_SA_SAME": {
+      "label": "南美洲主队：同一地理分区",
+      "eligibility": "B",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "005"
+      ],
+      "relations": [
+        "same_unit"
+      ]
+    },
+    "B_SA_OTHER_UNIT": {
+      "label": "南美洲主队：同大区不同地理分区",
+      "eligibility": "B",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "005"
+      ],
+      "relations": [
+        "same_region_diff_unit"
+      ]
+    },
+    "B_SA_CROSS": {
+      "label": "南美洲主队：跨大区",
+      "eligibility": "B",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "005"
+      ],
+      "relations": [
+        "cross_region"
+      ]
+    },
+    "C_AFR_REF": {
+      "label": "非洲主队地理分区明确的全部比赛",
+      "eligibility": "C",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [],
+      "relations": []
+    },
+    "C_AMER_REF": {
+      "label": "美洲主队地理分区明确的全部比赛",
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [],
+      "relations": []
+    },
+    "C_ASIA_REF": {
+      "label": "亚洲主队地理分区明确的全部比赛",
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [],
+      "relations": []
+    },
+    "C_EUR_REF": {
+      "label": "欧洲主队地理分区明确的全部比赛",
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [],
+      "relations": []
+    },
+    "C_NAF": {
+      "label": "北非",
+      "eligibility": "C",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [
+        "015"
+      ],
+      "relations": []
+    },
+    "C_SSA": {
+      "label": "撒哈拉以南非洲",
+      "eligibility": "C",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [
+        "011",
+        "014",
+        "017",
+        "018"
+      ],
+      "relations": []
+    },
+    "C_OTHER_AMER": {
+      "label": "美洲其他地理分区",
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "013",
+        "021",
+        "029"
+      ],
+      "relations": []
+    },
+    "C_WASIA": {
+      "label": "西亚",
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "145"
+      ],
+      "relations": []
+    },
+    "C_EASIA": {
+      "label": "东亚",
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "030"
+      ],
+      "relations": []
+    },
+    "C_NEUR": {
+      "label": "北欧",
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "154"
+      ],
+      "relations": []
+    },
+    "C_SEUR": {
+      "label": "南欧",
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "039"
+      ],
+      "relations": []
+    }
+  },
+  "profiles": {
+    "macroregions": {
+      "groups": [
+        "A_AFR",
+        "A_AMER",
+        "A_ASIA",
+        "A_EUR",
+        "A_OCE"
+      ],
+      "reference_group": "PARENT"
+    },
+    "south_america_feature": {
+      "groups": [
+        "SA_FEATURE"
+      ],
+      "reference_group": "PARENT",
+      "note": "nested detail; never add to Americas as a sixth region"
+    },
+    "relationship_context": {
+      "groups": [
+        "B_EUR_SAME",
+        "B_EUR_OTHER_UNIT",
+        "B_EUR_CROSS",
+        "B_ASIA_SAME",
+        "B_ASIA_OTHER_UNIT",
+        "B_ASIA_CROSS",
+        "B_SA_SAME",
+        "B_SA_OTHER_UNIT",
+        "B_SA_CROSS"
+      ],
+      "reference_by_background": {
+        "EUR": "B_EUR_REF",
+        "ASIA": "B_ASIA_REF",
+        "SA": "B_SA_REF"
+      }
+    }
+  },
+  "comparisons": [
+    {
+      "id": "B_EUR",
+      "label": "欧洲：跨大区减同一地理分区",
+      "role": "study_subanalysis",
+      "family": "B",
+      "arm1": "B_EUR_CROSS",
+      "arm2": "B_EUR_SAME",
+      "reference_group": "B_EUR_REF",
+      "parent_study": "EUROPE"
+    },
+    {
+      "id": "B_ASIA",
+      "label": "亚洲：跨大区减同一地理分区",
+      "role": "study_subanalysis",
+      "family": "B",
+      "arm1": "B_ASIA_CROSS",
+      "arm2": "B_ASIA_SAME",
+      "reference_group": "B_ASIA_REF",
+      "parent_study": "ASIA"
+    },
+    {
+      "id": "B_SA",
+      "label": "南美洲：跨大区减同一地理分区",
+      "role": "descriptive_only",
+      "standardized_policy": "unestimable_for_full_period_no_scope_change",
+      "selection_note": "Count-only check before outcomes: cross-macroregion arm has no 2020_2024 matches in either tournament stratum; retain direct and stratum descriptions, do not delete years or impute",
+      "family": "B",
+      "arm1": "B_SA_CROSS",
+      "arm2": "B_SA_SAME",
+      "reference_group": "B_SA_REF",
+      "parent_study": "AMERICAS"
+    },
+    {
+      "id": "C_AFR",
+      "label": "北非减撒哈拉以南非洲",
+      "role": "study_subanalysis",
+      "family": "C",
+      "arm1": "C_NAF",
+      "arm2": "C_SSA",
+      "reference_group": "C_AFR_REF",
+      "parent_study": "AFRICA"
+    },
+    {
+      "id": "C_AMER",
+      "label": "南美洲减美洲其他地理分区",
+      "role": "study_subanalysis",
+      "family": "C",
+      "arm1": "SA_FEATURE",
+      "arm2": "C_OTHER_AMER",
+      "reference_group": "C_AMER_REF",
+      "parent_study": "AMERICAS"
+    },
+    {
+      "id": "C_ASIA",
+      "label": "西亚减东亚",
+      "role": "study_subanalysis",
+      "family": "C",
+      "arm1": "C_WASIA",
+      "arm2": "C_EASIA",
+      "reference_group": "C_ASIA_REF",
+      "parent_study": "ASIA"
+    },
+    {
+      "id": "C_EUR",
+      "label": "北欧减南欧",
+      "role": "study_subanalysis",
+      "family": "C",
+      "arm1": "C_NEUR",
+      "arm2": "C_SEUR",
+      "reference_group": "C_EUR_REF",
+      "parent_study": "EUROPE"
+    }
+  ],
+  "strata": {
+    "eras": [
+      {
+        "id": "1980s",
+        "start": "1980-01-01",
+        "end": "1989-12-31"
+      },
+      {
+        "id": "1990s",
+        "start": "1990-01-01",
+        "end": "1999-12-31"
+      },
+      {
+        "id": "2000s",
+        "start": "2000-01-01",
+        "end": "2009-12-31"
+      },
+      {
+        "id": "2010s",
+        "start": "2010-01-01",
+        "end": "2019-12-31"
+      },
+      {
+        "id": "2020_2024",
+        "start": "2020-01-01",
+        "end": "2024-12-31"
+      }
+    ],
+    "tournament_groups": [
+      "friendly",
+      "non_friendly"
+    ],
+    "joint_era_by_type": true
+  },
+  "standardization": {
+    "formula": "theta_g=sum_s q_s*(wins_gs/n_gs); delta=theta_arm1-theta_arm2",
+    "reference_weights": "reference stratum matches / total reference matches; do not round before computing",
+    "fixed_within_this_input_version": true,
+    "recompute_on_data_version_change": "new protocol/run version, not overwrite",
+    "missing_positive_reference_cell": "retain target and direct description; standardized estimate empty with status unsupported_positive_reference_layer; no implicit restriction or imputation",
+    "nonempty_is_not_reliability": true,
+    "reference_counts_are_not_estimated_by_prediction": true
+  },
+  "output_contract": {
+    "csv_encoding": "utf-8-sig",
+    "line_terminator": "LF",
+    "boolean_literals": [
+      "true",
+      "false"
+    ],
+    "code_type": "string_preserve_leading_zero",
+    "dates": "ISO-8601 YYYY-MM-DD",
+    "counts": "nonnegative integers; authoritative numerators and denominators",
+    "probabilities": "0..1, no rounding in computation; export .17g",
+    "difference": "arm1 minus arm2; probability difference and percentage-point difference=100*delta",
+    "undefined": "empty numeric value plus status and reason; never NaN/Infinity or zero substitute",
+    "zero_matches": "count=0; rate empty; status=no_matches",
+    "statuses": [
+      "ok",
+      "no_matches",
+      "unsupported_positive_reference_layer"
+    ],
+    "stable_order": [
+      "target_id",
+      "arm",
+      "era_order",
+      "tournament_group",
+      "role",
+      "team_id"
+    ],
+    "data_dictionary_required": true,
+    "require_version_fields": [
+      "analysis_id",
+      "protocol_id",
+      "data_version",
+      "identity_version",
+      "sample_id",
+      "geography_version",
+      "grouping_run"
+    ],
+    "reproducibility": "fixed inputs/config/code => same core CSV bytes; run metadata may differ",
+    "core_version_binding": "analysis_id in each core CSV; remaining versions in immutable analysis_metadata.json, linked by analysis_id",
+    "run_identity_binding": "run_id and time only in run_manifest; not core tables",
+    "implementation_design_log_id": "R20261026-17",
+    "zero_reference_weight_layer": "retain counts; skip weighted term without evaluating undefined rate; positive weight missing arm => unsupported"
+  },
+  "inference": {
+    "question_4": "not_run",
+    "question_5_strength": "not_run",
+    "causal_claims": false,
+    "p_values_or_confidence_intervals_in_q3": false,
+    "multiple_comparison_scope": "四项研究含六个可估算的差值指标，另一个南美地域关系描述；第四问按实际指标和共享样本处理，不能因合并目录就按四个独立检验计算",
+    "classification_sensitivity": "Q4 explicitly revisit carrier/boundary assumptions; do not change groups after observing outcome"
+  },
+  "previous_protocol": "config/archive/regions_study_v1.json",
+  "terminology": {
+    "formal_partition": "地理分区",
+    "method_definition": "依据M49最深非空层级构建互不重叠的统计地理分区，并保留M49原始层级",
+    "public_relations": {
+      "same_unit": "同一地理分区",
+      "same_region_diff_unit": "同大区不同地理分区",
+      "cross_region": "跨地理大区"
+    },
+    "europe_partitions": [
+      "151",
+      "154",
+      "039",
+      "155"
+    ],
+    "central_europe": "M49无单独中欧；不新建第五组，常见中欧国家明确列出现有归属，未来改用五分区须另立协议"
+  },
+  "studies": [
+    {
+      "id": "EUROPE",
+      "title": "欧洲主队的地域关系与欧洲内部差异",
+      "subanalyses": [
+        "B_EUR",
+        "C_EUR"
+      ],
+      "description": "地域关系为主线；北欧—南欧作为题内子项"
+    },
+    {
+      "id": "ASIA",
+      "title": "亚洲主队的地域关系与亚洲内部差异",
+      "subanalyses": [
+        "B_ASIA",
+        "C_ASIA"
+      ],
+      "description": "地域关系为主线；西亚—东亚作为题内子项"
+    },
+    {
+      "id": "AFRICA",
+      "title": "北非与撒哈拉以南非洲的主场表现",
+      "subanalyses": [
+        "C_AFR"
+      ]
+    },
+    {
+      "id": "AMERICAS",
+      "title": "南美洲与美洲其他地理分区的主场表现",
+      "subanalyses": [
+        "C_AMER",
+        "B_SA"
+      ],
+      "description": "洲内比较为主线；南美主客地域关系只作描述"
+    }
+  ]
+}

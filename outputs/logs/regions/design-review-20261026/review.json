@@ -1,0 +1,911 @@
+{
+  "schema_version": "region-design-review-v1",
+  "decision_log_id": "R20261026-17",
+  "scope": "Physical HTML in data/external, outputs/logs and method originals; environments and Git objects excluded",
+  "html_existing": 31,
+  "html_tracked": 30,
+  "source_record_linked_html": 21,
+  "unlinked_html": 10,
+  "html_files": [
+    {
+      "path": "data/external/geography_sources/m49-20261026/m49_overview.html",
+      "bytes": 1721575,
+      "sha256": "b9048114f6e7f2abda83bf03d4263c9d7cd1bd7230e3d0461025ee7839a7a1fb",
+      "tracked": true,
+      "records": [
+        {
+          "registry": "data/external/geography_sources/m49-20261026/sources.csv",
+          "record_id": "SRC-M49-OVERVIEW-2026",
+          "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+          "accessed_at": "2026-10-26",
+          "title": "M49 overview table (countries or areas)",
+          "publisher": "UNSD",
+          "status": "preserved_original",
+          "sha256": "b9048114f6e7f2abda83bf03d4263c9d7cd1bd7230e3d0461025ee7839a7a1fb"
+        }
+      ],
+      "recorded_hash_match": true,
+      "citation_policy": "use_with_recorded_scope_and_limitations"
+    },
+    {
+      "path": "data/external/geography_sources/m49-20261026/m49_page.html",
+      "bytes": 2051368,
+      "sha256": "4d5cabcb10ad9ef184553b5e64c0a34ba8deeb20dab2e02cd0be3599b93bb01d",
+      "tracked": true,
+      "records": [
+        {
+          "registry": "data/external/geography_sources/m49-20261026/sources.csv",
+          "record_id": "SRC-M49-UNSD-2026",
+          "url": "https://unstats.un.org/unsd/methodology/m49/",
+          "accessed_at": "2026-10-26",
+          "title": "Standard country or area codes for statistical use (M49)",
+          "publisher": "United Nations Statistics Division",
+          "status": "preserved_original",
+          "sha256": "4d5cabcb10ad9ef184553b5e64c0a34ba8deeb20dab2e02cd0be3599b93bb01d"
+        },
+        {
+          "registry": "data/external/geography_sources/m49-20261026/sources.csv",
+          "record_id": "SRC-M49-FAQ-2026",
+          "url": "https://unstats.un.org/unsd/methodology/m49/",
+          "accessed_at": "2026-10-26",
+          "title": "M49 FAQ: Taiwan / Kosovo",
+          "publisher": "UNSD",
+          "status": "preserved_original",
+          "sha256": "4d5cabcb10ad9ef184553b5e64c0a34ba8deeb20dab2e02cd0be3599b93bb01d"
+        }
+      ],
+      "recorded_hash_match": true,
+      "citation_policy": "use_with_recorded_scope_and_limitations"
+    },
+    {
+      "path": "data/external/team_identity/submissions/20261024-batch01/sources/cankaoxiaoxi_19940618_p5.html",
+      "bytes": 51063,
+      "sha256": "d6b8d6c79baca2964d84a485aed318f07ffd4c0d4255b381930926a1f365b740",
+      "tracked": true,
+      "records": [
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch01/evidence.jsonl",
+          "record_id": "AGB1-E006",
+          "url": "https://cn.govopendata.com/cankaoxiaoxi/1994/6/18/5",
+          "accessed_at": "2026-10-24T21:47:00+08:00",
+          "title": "阿维兰热第六次连任足联主席 (1994-06-18 print edition, page 5)",
+          "publisher": "参考消息 (Reference News reprint of Associated Press dispatch; Chinese)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "d6b8d6c79baca2964d84a485aed318f07ffd4c0d4255b381930926a1f365b740"
+        },
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch02/evidence.jsonl",
+          "record_id": "AGB2-E006",
+          "url": "https://cn.govopendata.com/cankaoxiaoxi/1994/6/18/5",
+          "accessed_at": "2026-10-24T22:40:00+08:00",
+          "title": "阿维兰热第六次连任足联主席 (1994-06-18 print, page 5)",
+          "publisher": "参考消息 (Reference News reprint of AP dispatch; Chinese)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "d6b8d6c79baca2964d84a485aed318f07ffd4c0d4255b381930926a1f365b740"
+        },
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch03/evidence.jsonl",
+          "record_id": "AGB3-E006",
+          "url": "https://cn.govopendata.com/cankaoxiaoxi/1994/6/18/5",
+          "accessed_at": "2026-10-24T22:40:00+08:00",
+          "title": "阿维兰热第六次连任足联主席 (1994-06-18 print, page 5)",
+          "publisher": "参考消息 (Reference News reprint of AP dispatch; Chinese)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "d6b8d6c79baca2964d84a485aed318f07ffd4c0d4255b381930926a1f365b740"
+        },
+        {
+          "registry": "data/external/team_identity/submissions/20261025-batch05/evidence.jsonl",
+          "record_id": "AGB5-E006",
+          "url": "https://cn.govopendata.com/cankaoxiaoxi/1994/6/18/5",
+          "accessed_at": "2026-10-25T09:30:00+08:00",
+          "title": "阿维兰热第六次连任足联主席 (1994-06-18, p.5)",
+          "publisher": "参考消息 (Reference News reprint of AP dispatch)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "d6b8d6c79baca2964d84a485aed318f07ffd4c0d4255b381930926a1f365b740"
+        }
+      ],
+      "recorded_hash_match": true,
+      "citation_policy": "use_with_recorded_scope_and_limitations"
+    },
+    {
+      "path": "data/external/team_identity/submissions/20261024-batch01/sources/enacademic_gdr_history.html",
+      "bytes": 100412,
+      "sha256": "068345eef2cd0f588431d9dc55c599906db197dd7e3326a901644cb05a0ff2c6",
+      "tracked": true,
+      "records": [
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch01/evidence.jsonl",
+          "record_id": "AGB1-E007",
+          "url": "https://en-academic.com/dic.nsf/enwiki/395414/405697",
+          "accessed_at": "2026-10-24T21:55:00+08:00",
+          "title": "East Germany national football team",
+          "publisher": "en-academic.com (mirror copy of Wikipedia article 'East Germany national football team')",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "068345eef2cd0f588431d9dc55c599906db197dd7e3326a901644cb05a0ff2c6"
+        },
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch02/evidence.jsonl",
+          "record_id": "AGB2-E007",
+          "url": "https://en-academic.com/dic.nsf/enwiki/395414/405697",
+          "accessed_at": "2026-10-24T22:40:00+08:00",
+          "title": "East Germany national football team",
+          "publisher": "en-academic.com (mirror of Wikipedia 'East Germany national football team')",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "068345eef2cd0f588431d9dc55c599906db197dd7e3326a901644cb05a0ff2c6"
+        },
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch03/evidence.jsonl",
+          "record_id": "AGB3-E007",
+          "url": "https://en-academic.com/dic.nsf/enwiki/395414/405697",
+          "accessed_at": "2026-10-24T22:40:00+08:00",
+          "title": "East Germany national football team",
+          "publisher": "en-academic.com (mirror of Wikipedia 'East Germany national football team')",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "068345eef2cd0f588431d9dc55c599906db197dd7e3326a901644cb05a0ff2c6"
+        }
+      ],
+      "recorded_hash_match": true,
+      "citation_policy": "use_with_recorded_scope_and_limitations"
+    },
+    {
+      "path": "data/external/team_identity/submissions/20261024-batch01/sources/fscg_me_about_us.html",
+      "bytes": 22097,
+      "sha256": "a4f4e90e3be5c56ca76ac2322747a18383970ac85e4e7ac775417c89de885a8a",
+      "tracked": true,
+      "records": [
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch01/evidence.jsonl",
+          "record_id": "AGB1-E001",
+          "url": "https://fscg.me/en/association/about-us/",
+          "accessed_at": "2026-10-24T21:47:00+08:00",
+          "title": "About us - Football Association of Montenegro",
+          "publisher": "Fudbalski savez Crne Gore (FSCG, Montenegro FA official website)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "a4f4e90e3be5c56ca76ac2322747a18383970ac85e4e7ac775417c89de885a8a"
+        },
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch02/evidence.jsonl",
+          "record_id": "AGB2-E001",
+          "url": "https://fscg.me/en/association/about-us/",
+          "accessed_at": "2026-10-24T22:40:00+08:00",
+          "title": "About us - Football Association of Montenegro",
+          "publisher": "Fudbalski savez Crne Gore (FSCG, Montenegro FA official website)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "a4f4e90e3be5c56ca76ac2322747a18383970ac85e4e7ac775417c89de885a8a"
+        },
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch03/evidence.jsonl",
+          "record_id": "AGB3-E001",
+          "url": "https://fscg.me/en/association/about-us/",
+          "accessed_at": "2026-10-24T22:40:00+08:00",
+          "title": "About us - Football Association of Montenegro",
+          "publisher": "Fudbalski savez Crne Gore (FSCG, Montenegro FA official website)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "a4f4e90e3be5c56ca76ac2322747a18383970ac85e4e7ac775417c89de885a8a"
+        },
+        {
+          "registry": "data/external/team_identity/submissions/20261025-batch05/evidence.jsonl",
+          "record_id": "AGB5-E007",
+          "url": "https://fscg.me/en/association/about-us/",
+          "accessed_at": "2026-10-25T09:30:00+08:00",
+          "title": "About us",
+          "publisher": "Fudbalski savez Crne Gore (official)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "a4f4e90e3be5c56ca76ac2322747a18383970ac85e4e7ac775417c89de885a8a"
+        }
+      ],
+      "recorded_hash_match": true,
+      "citation_policy": "use_with_recorded_scope_and_limitations"
+    },
+    {
+      "path": "data/external/team_identity/submissions/20261024-batch01/sources/hns_croatia_history.html",
+      "bytes": 73268,
+      "sha256": "91563a249160a3c5aedc3d40eca81d1a98ba77cc8588cf5c2e9b76c2627d8c52",
+      "tracked": true,
+      "records": [
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch01/evidence.jsonl",
+          "record_id": "AGB1-E005",
+          "url": "https://hns.family/en/hns/about-us/history",
+          "accessed_at": "2026-10-24T21:47:00+08:00",
+          "title": "History - Croatian Football Federation",
+          "publisher": "Hrvatski nogometni savez (HNS, Croatian FA official website)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "91563a249160a3c5aedc3d40eca81d1a98ba77cc8588cf5c2e9b76c2627d8c52"
+        },
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch02/evidence.jsonl",
+          "record_id": "AGB2-E005",
+          "url": "https://hns.family/en/hns/about-us/history",
+          "accessed_at": "2026-10-24T22:40:00+08:00",
+          "title": "History - Croatian Football Federation",
+          "publisher": "Hrvatski nogometni savez (HNS official website)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "91563a249160a3c5aedc3d40eca81d1a98ba77cc8588cf5c2e9b76c2627d8c52"
+        },
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch03/evidence.jsonl",
+          "record_id": "AGB3-E005",
+          "url": "https://hns.family/en/hns/about-us/history",
+          "accessed_at": "2026-10-24T22:40:00+08:00",
+          "title": "History - Croatian Football Federation",
+          "publisher": "Hrvatski nogometni savez (HNS official website)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "91563a249160a3c5aedc3d40eca81d1a98ba77cc8588cf5c2e9b76c2627d8c52"
+        }
+      ],
+      "recorded_hash_match": true,
+      "citation_policy": "use_with_recorded_scope_and_limitations"
+    },
+    {
+      "path": "data/external/team_identity/submissions/20261024-batch01/sources/hpalestine_pfa_fifa_history.html",
+      "bytes": 2934095,
+      "sha256": "baa322ff66707c2ade2f09c9d928e1fa6f849ede31eaa2f24f6c9cce1a873e14",
+      "tracked": true,
+      "records": [
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch01/evidence.jsonl",
+          "record_id": "AGB1-E008",
+          "url": "http://www.hpalestinesports.net/2021/09/palestine-in-international-sports-arena.html",
+          "accessed_at": "2026-10-24T21:55:00+08:00",
+          "title": "Palestine in the International Sports Arena: 1930s - 1994",
+          "publisher": "Historical Palestine Sports website (hpalestinesports.net, article by Issam Khalidi)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "baa322ff66707c2ade2f09c9d928e1fa6f849ede31eaa2f24f6c9cce1a873e14"
+        },
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch02/evidence.jsonl",
+          "record_id": "AGB2-E008",
+          "url": "http://www.hpalestinesports.net/2021/09/palestine-in-international-sports-arena.html",
+          "accessed_at": "2026-10-24T22:40:00+08:00",
+          "title": "Palestine in the International Sports Arena: 1930s - 1994",
+          "publisher": "Historical Palestine Sports website (Issam Khalidi)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "baa322ff66707c2ade2f09c9d928e1fa6f849ede31eaa2f24f6c9cce1a873e14"
+        },
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch03/evidence.jsonl",
+          "record_id": "AGB3-E008",
+          "url": "http://www.hpalestinesports.net/2021/09/palestine-in-international-sports-arena.html",
+          "accessed_at": "2026-10-24T22:40:00+08:00",
+          "title": "Palestine in the International Sports Arena: 1930s - 1994",
+          "publisher": "Historical Palestine Sports website (Issam Khalidi)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "baa322ff66707c2ade2f09c9d928e1fa6f849ede31eaa2f24f6c9cce1a873e14"
+        }
+      ],
+      "recorded_hash_match": true,
+      "citation_policy": "use_with_recorded_scope_and_limitations"
+    },
+    {
+      "path": "data/external/team_identity/submissions/20261024-batch01/sources/sahistory_sa_readmission.html",
+      "bytes": 77483,
+      "sha256": "27beeca1acc7b3492bd045deba11aadcec114552a6d4fac743c553c90a6e6681",
+      "tracked": true,
+      "records": [
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch01/evidence.jsonl",
+          "record_id": "AGB1-E003",
+          "url": "https://sahistory.org.za/node/148979",
+          "accessed_at": "2026-10-24T21:47:00+08:00",
+          "title": "SA's Fifa membership reinstated",
+          "publisher": "South African History Online",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "27beeca1acc7b3492bd045deba11aadcec114552a6d4fac743c553c90a6e6681"
+        },
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch02/evidence.jsonl",
+          "record_id": "AGB2-E003",
+          "url": "https://sahistory.org.za/node/148979",
+          "accessed_at": "2026-10-24T22:40:00+08:00",
+          "title": "SA's Fifa membership reinstated",
+          "publisher": "South African History Online",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "27beeca1acc7b3492bd045deba11aadcec114552a6d4fac743c553c90a6e6681"
+        },
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch03/evidence.jsonl",
+          "record_id": "AGB3-E003",
+          "url": "https://sahistory.org.za/node/148979",
+          "accessed_at": "2026-10-24T22:40:00+08:00",
+          "title": "SA's Fifa membership reinstated",
+          "publisher": "South African History Online",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "27beeca1acc7b3492bd045deba11aadcec114552a6d4fac743c553c90a6e6681"
+        }
+      ],
+      "recorded_hash_match": true,
+      "citation_policy": "use_with_recorded_scope_and_limitations"
+    },
+    {
+      "path": "data/external/team_identity/submissions/20261024-batch01/sources/sohu_montenegro_fifa_2007.html",
+      "bytes": 100081,
+      "sha256": "6fc289c4b92586c8751b72f64348e21a53d59197bf95ed04a554b30d1322bec4",
+      "tracked": true,
+      "records": [
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch01/evidence.jsonl",
+          "record_id": "AGB1-E002",
+          "url": "https://sports.sohu.com/20070601/n250336924.shtml",
+          "accessed_at": "2026-10-24T21:47:00+08:00",
+          "title": "国际足联将接纳黑山足球协会 会员协会达208个",
+          "publisher": "Sohu Sports (Hua'ao Xingkong wire report; Chinese)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "6fc289c4b92586c8751b72f64348e21a53d59197bf95ed04a554b30d1322bec4"
+        },
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch02/evidence.jsonl",
+          "record_id": "AGB2-E002",
+          "url": "https://sports.sohu.com/20070601/n250336924.shtml",
+          "accessed_at": "2026-10-24T22:40:00+08:00",
+          "title": "国际足联将接纳黑山足球协会 会员协会达208个",
+          "publisher": "Sohu Sports (Hua'ao Xingkong wire report; Chinese, GBK encoded file)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "6fc289c4b92586c8751b72f64348e21a53d59197bf95ed04a554b30d1322bec4"
+        },
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch03/evidence.jsonl",
+          "record_id": "AGB3-E002",
+          "url": "https://sports.sohu.com/20070601/n250336924.shtml",
+          "accessed_at": "2026-10-24T22:40:00+08:00",
+          "title": "国际足联将接纳黑山足球协会 会员协会达208个",
+          "publisher": "Sohu Sports (Hua'ao Xingkong wire report; Chinese, GBK encoded file)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "6fc289c4b92586c8751b72f64348e21a53d59197bf95ed04a554b30d1322bec4"
+        },
+        {
+          "registry": "data/external/team_identity/submissions/20261025-batch05/evidence.jsonl",
+          "record_id": "AGB5-E008",
+          "url": "https://sports.sohu.com/20070601/n250336924.shtml",
+          "accessed_at": "2026-10-25T09:30:00+08:00",
+          "title": "国际足联将接纳黑山足球协会 会员协会达208个",
+          "publisher": "Sohu Sports (Hua'ao Xingkong wire; GBK file)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "6fc289c4b92586c8751b72f64348e21a53d59197bf95ed04a554b30d1322bec4"
+        }
+      ],
+      "recorded_hash_match": true,
+      "citation_policy": "use_with_recorded_scope_and_limitations"
+    },
+    {
+      "path": "data/external/team_identity/submissions/20261024-batch01/sources/uefa_lt_history.html",
+      "bytes": 149556,
+      "sha256": "69c239a7f091ff1dc82c1f78567ca3494e6f1b42639c01582d32c0f3b4b1cc4e",
+      "tracked": true,
+      "records": [
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch01/evidence.jsonl",
+          "record_id": "AGB1-E004",
+          "url": "https://www.uefa.com/nationalassociations/LTU/",
+          "accessed_at": "2026-10-24T21:47:00+08:00",
+          "title": "Lithuania - national associations history page",
+          "publisher": "UEFA (uefa.com)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "69c239a7f091ff1dc82c1f78567ca3494e6f1b42639c01582d32c0f3b4b1cc4e"
+        },
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch02/evidence.jsonl",
+          "record_id": "AGB2-E004",
+          "url": "https://www.uefa.com/nationalassociations/LTU/",
+          "accessed_at": "2026-10-24T22:40:00+08:00",
+          "title": "Lithuania - national associations history page",
+          "publisher": "UEFA (uefa.com)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "69c239a7f091ff1dc82c1f78567ca3494e6f1b42639c01582d32c0f3b4b1cc4e"
+        },
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch03/evidence.jsonl",
+          "record_id": "AGB3-E004",
+          "url": "https://www.uefa.com/nationalassociations/LTU/",
+          "accessed_at": "2026-10-24T22:40:00+08:00",
+          "title": "Lithuania - national associations history page",
+          "publisher": "UEFA (uefa.com)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "69c239a7f091ff1dc82c1f78567ca3494e6f1b42639c01582d32c0f3b4b1cc4e"
+        },
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch04/evidence.jsonl",
+          "record_id": "AGB4-E001",
+          "url": "https://www.uefa.com/nationalassociations/LTU/",
+          "accessed_at": "2026-10-24T22:40:00+08:00",
+          "title": "Lithuania - national associations history page",
+          "publisher": "UEFA (uefa.com)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "69c239a7f091ff1dc82c1f78567ca3494e6f1b42639c01582d32c0f3b4b1cc4e"
+        },
+        {
+          "registry": "data/external/team_identity/submissions/20261025-batch05/evidence.jsonl",
+          "record_id": "AGB5-E004",
+          "url": "https://www.uefa.com/nationalassociations/LTU/",
+          "accessed_at": "2026-10-25T09:30:00+08:00",
+          "title": "Lithuania - national associations history page",
+          "publisher": "UEFA (uefa.com)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "69c239a7f091ff1dc82c1f78567ca3494e6f1b42639c01582d32c0f3b4b1cc4e"
+        }
+      ],
+      "recorded_hash_match": true,
+      "citation_policy": "use_with_recorded_scope_and_limitations"
+    },
+    {
+      "path": "data/external/team_identity/submissions/20261024-batch02/sources/uefa_svn_history.html",
+      "bytes": 154847,
+      "sha256": "a5855ac0eaac564c960ffac1ba199f6760f7bc14b52e1057e6b5ff57d2298cc7",
+      "tracked": true,
+      "records": [
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch02/evidence.jsonl",
+          "record_id": "AGB2-E012",
+          "url": "https://www.uefa.com/nationalassociations/SVN/",
+          "accessed_at": "2026-10-24T22:40:00+08:00",
+          "title": "Developing football in Slovenia (association history timeline)",
+          "publisher": "UEFA (uefa.com)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "a5855ac0eaac564c960ffac1ba199f6760f7bc14b52e1057e6b5ff57d2298cc7"
+        },
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch03/evidence.jsonl",
+          "record_id": "AGB3-E012",
+          "url": "https://www.uefa.com/nationalassociations/SVN/",
+          "accessed_at": "2026-10-24T22:40:00+08:00",
+          "title": "Developing football in Slovenia (association history timeline)",
+          "publisher": "UEFA (uefa.com)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "a5855ac0eaac564c960ffac1ba199f6760f7bc14b52e1057e6b5ff57d2298cc7"
+        }
+      ],
+      "recorded_hash_match": true,
+      "citation_policy": "use_with_recorded_scope_and_limitations"
+    },
+    {
+      "path": "data/external/team_identity/submissions/20261024-batch03/sources/fifa2_assoc_2002_AFC.html",
+      "bytes": 44289,
+      "sha256": "a7e64852d512da23d6482e4b1a2ba247b051329a2acba0dbdbd5f5d1fa69c9bc",
+      "tracked": true,
+      "records": [],
+      "recorded_hash_match": null,
+      "citation_policy": "unlinked_cache_do_not_cite_as_evidence"
+    },
+    {
+      "path": "data/external/team_identity/submissions/20261024-batch03/sources/fifa2_assoc_2002_CAF.html",
+      "bytes": 45673,
+      "sha256": "0c5f2b122b8ae8ff5fea5672f48378da0fa589e5c3ef0a10d0b0bfbae5efc4d3",
+      "tracked": true,
+      "records": [],
+      "recorded_hash_match": null,
+      "citation_policy": "unlinked_cache_do_not_cite_as_evidence"
+    },
+    {
+      "path": "data/external/team_identity/submissions/20261024-batch03/sources/fifa2_assoc_2002_CONCACAF.html",
+      "bytes": 42278,
+      "sha256": "9fb0815e7f69da8b1e5651da1495e165720a8ae841e5df39df20ac76dd80c021",
+      "tracked": true,
+      "records": [],
+      "recorded_hash_match": null,
+      "citation_policy": "unlinked_cache_do_not_cite_as_evidence"
+    },
+    {
+      "path": "data/external/team_identity/submissions/20261024-batch03/sources/fifa2_assoc_2002_CONMEBOL.html",
+      "bytes": 35295,
+      "sha256": "f7c468fc6909d7308ef726231ca04c3e547c817b756eebca2ded387c8e03fa3b",
+      "tracked": true,
+      "records": [],
+      "recorded_hash_match": null,
+      "citation_policy": "unlinked_cache_do_not_cite_as_evidence"
+    },
+    {
+      "path": "data/external/team_identity/submissions/20261024-batch03/sources/fifa2_assoc_2002_OFC.html",
+      "bytes": 35871,
+      "sha256": "4ab05afb30bb8702cf978b84528df1b0d34e320e696419a58f78c72466fdea24",
+      "tracked": true,
+      "records": [],
+      "recorded_hash_match": null,
+      "citation_policy": "unlinked_cache_do_not_cite_as_evidence"
+    },
+    {
+      "path": "data/external/team_identity/submissions/20261024-batch03/sources/fifa2_assoc_2002_UEFA.html",
+      "bytes": 46091,
+      "sha256": "1896a9728b2d1ef38b75cf63f97f9ea8541157a24bac5b079e25e7b6acaee0b6",
+      "tracked": true,
+      "records": [],
+      "recorded_hash_match": null,
+      "citation_policy": "unlinked_cache_do_not_cite_as_evidence"
+    },
+    {
+      "path": "data/external/team_identity/submissions/20261024-batch03/sources/fifa2_assoc_home.html",
+      "bytes": 31716,
+      "sha256": "2488e8be090a2a8310cea54ec9fd71c34fc0db07c8494aed67abbc20d4d45d3f",
+      "tracked": true,
+      "records": [
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch03/evidence.jsonl",
+          "record_id": "AGB3-E018",
+          "url": "https://fifa2.com/assoc/home_E.html",
+          "accessed_at": "2026-10-24T23:35:00+08:00",
+          "title": "Football Family - national associations page (site snapshot dated Thu, 17 Oct 2002)",
+          "publisher": "FIFA legacy website (fifa2.com, pages bearing 'Copyright 1994-2002 FIFA')",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "2488e8be090a2a8310cea54ec9fd71c34fc0db07c8494aed67abbc20d4d45d3f"
+        }
+      ],
+      "recorded_hash_match": true,
+      "citation_policy": "use_with_recorded_scope_and_limitations"
+    },
+    {
+      "path": "data/external/team_identity/submissions/20261024-batch03/sources/fifa2_history.html",
+      "bytes": 44979,
+      "sha256": "651afbfb7f896e463ed2bc3b6f9f1ab5c258afbb7ad4b7c446556407b2446141",
+      "tracked": true,
+      "records": [
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch03/evidence.jsonl",
+          "record_id": "AGB3-E019",
+          "url": "https://fifa2.com/fifa/index_E.html",
+          "accessed_at": "2026-10-24T23:35:00+08:00",
+          "title": "Brief History (history of FIFA page)",
+          "publisher": "FIFA legacy website (fifa2.com)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "651afbfb7f896e463ed2bc3b6f9f1ab5c258afbb7ad4b7c446556407b2446141"
+        }
+      ],
+      "recorded_hash_match": true,
+      "citation_policy": "use_with_recorded_scope_and_limitations"
+    },
+    {
+      "path": "data/external/team_identity/submissions/20261024-batch03/sources/fifa2_mr_archive.html",
+      "bytes": 23716,
+      "sha256": "b673c7f272a6607245a6ca1afb2874bbe39942e8b337db5a9cdad36fb39ccd2b",
+      "tracked": true,
+      "records": [
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch03/evidence.jsonl",
+          "record_id": "AGB3-E021",
+          "url": "https://fifa2.com/service/MR_E_M.html",
+          "accessed_at": "2026-10-24T23:35:00+08:00",
+          "title": "Media releases archive index (by month and year)",
+          "publisher": "FIFA legacy website (fifa2.com)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "b673c7f272a6607245a6ca1afb2874bbe39942e8b337db5a9cdad36fb39ccd2b"
+        }
+      ],
+      "recorded_hash_match": true,
+      "citation_policy": "use_with_recorded_scope_and_limitations"
+    },
+    {
+      "path": "data/external/team_identity/submissions/20261024-batch03/sources/fifa2_pub_sitemap.html",
+      "bytes": 48231,
+      "sha256": "08b357756c6be245e50e6561dc554c84f91c321721132a91278c0afce264deb6",
+      "tracked": true,
+      "records": [
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch03/evidence.jsonl",
+          "record_id": "AGB3-E020",
+          "url": "https://www.fifa2.com/sitemap_E.html",
+          "accessed_at": "2026-10-24T23:35:00+08:00",
+          "title": "Publications / site map page",
+          "publisher": "FIFA legacy website (fifa2.com)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "08b357756c6be245e50e6561dc554c84f91c321721132a91278c0afce264deb6"
+        }
+      ],
+      "recorded_hash_match": true,
+      "citation_policy": "use_with_recorded_scope_and_limitations"
+    },
+    {
+      "path": "data/external/team_identity/submissions/20261024-batch03/sources/fifa_official_documents.html",
+      "bytes": 119468,
+      "sha256": "f1b74730b0503c0d83b5fb251c48e6a4288c90e205e50babc64bc5a54f70ab25",
+      "tracked": true,
+      "records": [
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch03/evidence.jsonl",
+          "record_id": "AGB3-E023",
+          "url": "https://www.fifa.com/about-fifa/official-documents",
+          "accessed_at": "2026-10-24T23:35:00+08:00",
+          "title": "Reports & Documents portal (about-fifa/official-documents)",
+          "publisher": "FIFA (www.fifa.com)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "f1b74730b0503c0d83b5fb251c48e6a4288c90e205e50babc64bc5a54f70ab25"
+        }
+      ],
+      "recorded_hash_match": true,
+      "citation_policy": "use_with_recorded_scope_and_limitations"
+    },
+    {
+      "path": "data/external/team_identity/submissions/20261024-batch03/sources/uefa_mne_history.html",
+      "bytes": 153856,
+      "sha256": "df47fab1476b56644dbe118fde6ab2fa77b294935d12a997d8b07a11a1985919",
+      "tracked": true,
+      "records": [
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch03/evidence.jsonl",
+          "record_id": "AGB3-E017",
+          "url": "https://en.uefa.com/insideuefa/national-associations/MNE/",
+          "accessed_at": "2026-10-24T23:35:00+08:00",
+          "title": "Developing football in Montenegro (association history timeline)",
+          "publisher": "UEFA (en.uefa.com)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "df47fab1476b56644dbe118fde6ab2fa77b294935d12a997d8b07a11a1985919"
+        },
+        {
+          "registry": "data/external/team_identity/submissions/20261025-batch05/evidence.jsonl",
+          "record_id": "AGB5-E009",
+          "url": "https://en.uefa.com/insideuefa/national-associations/MNE/",
+          "accessed_at": "2026-10-25T09:30:00+08:00",
+          "title": "Developing football in Montenegro",
+          "publisher": "UEFA (en.uefa.com)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "df47fab1476b56644dbe118fde6ab2fa77b294935d12a997d8b07a11a1985919"
+        }
+      ],
+      "recorded_hash_match": true,
+      "citation_policy": "use_with_recorded_scope_and_limitations"
+    },
+    {
+      "path": "data/external/team_identity/submissions/20261024-batch04/sources/latimes_19920704_fifa.html",
+      "bytes": 420395,
+      "sha256": "535627c04e91edabdb8d8ee1a89ec2afb54164675ce54a5050ebb3725f5f8e05",
+      "tracked": true,
+      "records": [
+        {
+          "registry": "data/external/team_identity/submissions/20261024-batch04/evidence.jsonl",
+          "record_id": "AGB4-E004",
+          "url": "https://articles.latimes.com/1992-07-04/sports/sp-1248_1_international-soccer",
+          "accessed_at": "2026-10-25T00:20:00+08:00",
+          "title": "Soccer - South Africa readmitted; full list of 14 associations admitted at the FIFA Congress",
+          "publisher": "Los Angeles Times (staff and wire reports)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "535627c04e91edabdb8d8ee1a89ec2afb54164675ce54a5050ebb3725f5f8e05"
+        },
+        {
+          "registry": "data/external/team_identity/submissions/20261025-batch05/evidence.jsonl",
+          "record_id": "AGB5-E003",
+          "url": "https://articles.latimes.com/1992-07-04/sports/sp-1248_1_international-soccer",
+          "accessed_at": "2026-10-25T09:30:00+08:00",
+          "title": "Soccer (4 July 1992)",
+          "publisher": "Los Angeles Times (staff and wire reports)",
+          "status": "full_text_read",
+          "authority": "locating_lead",
+          "sha256": "535627c04e91edabdb8d8ee1a89ec2afb54164675ce54a5050ebb3725f5f8e05"
+        }
+      ],
+      "recorded_hash_match": true,
+      "citation_policy": "use_with_recorded_scope_and_limitations"
+    },
+    {
+      "path": "data/external/team_identity/submissions/20261025-batch05/sources/fifa_statutes_page.html",
+      "bytes": 13957,
+      "sha256": "dee014ded67ba0d71fd4f3eddef02111743b2d84f6933b76dc0a26c54820170e",
+      "tracked": true,
+      "records": [],
+      "recorded_hash_match": null,
+      "citation_policy": "unlinked_cache_do_not_cite_as_evidence"
+    },
+    {
+      "path": "data/external/team_identity/submissions/20261025-batch06/sources/concacaf_members.html",
+      "bytes": 65757,
+      "sha256": "6aeb52f6293613d901ae67dfaa3ffe56aca80d2b7f86902e48922d4cd0792b20",
+      "tracked": true,
+      "records": [],
+      "recorded_hash_match": null,
+      "citation_policy": "unlinked_cache_do_not_cite_as_evidence"
+    },
+    {
+      "path": "data/external/team_identity/submissions/20261025-batch06/sources/dh_search_page.html",
+      "bytes": 49147,
+      "sha256": "55466772c043ee13f515dcbecf510853c79c9854cf0485cdfaa0748688a0a9b6",
+      "tracked": true,
+      "records": [],
+      "recorded_hash_match": null,
+      "citation_policy": "unlinked_cache_do_not_cite_as_evidence"
+    },
+    {
+      "path": "data/external/team_identity/submissions/20261025-batch06/sources/digitalhub_home.html",
+      "bytes": 48991,
+      "sha256": "5d3fe9ba10bf02b87dfb15b00eb1fd50ff37293419d09705c394bfc15d394155",
+      "tracked": true,
+      "records": [],
+      "recorded_hash_match": null,
+      "citation_policy": "unlinked_cache_do_not_cite_as_evidence"
+    },
+    {
+      "path": "data/external/team_identity/submissions/20261025-batch06/sources/fifa_2024_governance.html",
+      "bytes": 154973,
+      "sha256": "fcb7156990d9ef06ca6d617a65c28eff49d6774eb7fe7f2bea98454202ad0ba5",
+      "tracked": true,
+      "records": [
+        {
+          "registry": "data/external/team_identity/submissions/20261025-batch06/evidence.jsonl",
+          "record_id": "AGB6-E003",
+          "url": "https://inside.fifa.com/official-documents/annual-report/2024/governance/fifa-council",
+          "accessed_at": "2026-10-25T10:10:00+08:00",
+          "title": "FIFA Council in 2024 - Annual Report 2024 governance section (official page)",
+          "publisher": "FIFA (inside.fifa.com)",
+          "status": "full_text_read",
+          "authority": "fifa_primary",
+          "sha256": "fcb7156990d9ef06ca6d617a65c28eff49d6774eb7fe7f2bea98454202ad0ba5"
+        }
+      ],
+      "recorded_hash_match": true,
+      "citation_policy": "use_with_recorded_scope_and_limitations"
+    },
+    {
+      "path": "参考资料/方法文献/原文/FPP3_forecasting_toolbox.html",
+      "bytes": 186,
+      "sha256": "a5ce0dd4007587f8d1430af6303865ef235e19bc354829325ea8b19ab1662e46",
+      "tracked": false,
+      "records": [
+        {
+          "registry": "参考资料/方法文献/sources.json",
+          "record_id": "M04",
+          "url": "https://otexts.com/fpp3/toolbox.html",
+          "accessed_at": "2026-10-23T14:54:20.0319626Z",
+          "title": "Forecasting Principles and Practice - The forecasters toolbox",
+          "publisher": "Rob J. Hyndman; George Athanasopoulos",
+          "status": "blocked",
+          "sha256": "a5ce0dd4007587f8d1430af6303865ef235e19bc354829325ea8b19ab1662e46"
+        }
+      ],
+      "recorded_hash_match": true,
+      "citation_policy": "not_source_body"
+    },
+    {
+      "path": "参考资料/方法文献/原文/NIST_Wilson_intervals.html",
+      "bytes": 16673,
+      "sha256": "898e6a9033094dbc76f28eb3042d23bf4ed00131524511386cee5009095818a3",
+      "tracked": true,
+      "records": [
+        {
+          "registry": "参考资料/方法文献/sources.json",
+          "record_id": "M03",
+          "url": "https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm",
+          "accessed_at": "2026-10-23T14:54:19.5603946Z",
+          "title": "Confidence intervals for proportions",
+          "publisher": "NIST SEMATECH",
+          "status": "downloaded",
+          "sha256": "898e6a9033094dbc76f28eb3042d23bf4ed00131524511386cee5009095818a3"
+        }
+      ],
+      "recorded_hash_match": true,
+      "citation_policy": "use_with_recorded_scope_and_limitations"
+    }
+  ],
+  "original_m49_sha256_unchanged": true,
+  "source_registry_rows": 3,
+  "formal_analysis_code_written": false,
+  "regional_outcomes_computed": false,
+  "reviewer": "Codex AI; no human review",
+  "limitations": [
+    "A registered file can be a lead or failed response, not an accepted fact.",
+    "Ten unlinked cached pages are preserved but not newly adopted as evidence.",
+    "This checks retention and metadata, not historical membership decisions."
+  ],
+  "design_checks": {
+    "group_counts_rebuilt": true,
+    "group_count": 30,
+    "parent_matches": 24917,
+    "current_group_counts": {
+      "PARENT": 24917,
+      "A_AFR": 5868,
+      "A_AMER": 4555,
+      "A_ASIA": 5921,
+      "A_EUR": 8045,
+      "A_OCE": 502,
+      "SA_FEATURE": 1690,
+      "B_EUR_REF": 7993,
+      "B_EUR_SAME": 1764,
+      "B_EUR_OTHER_UNIT": 4603,
+      "B_EUR_CROSS": 1626,
+      "B_ASIA_REF": 5912,
+      "B_ASIA_SAME": 1819,
+      "B_ASIA_OTHER_UNIT": 2227,
+      "B_ASIA_CROSS": 1866,
+      "B_SA_REF": 1687,
+      "B_SA_SAME": 1207,
+      "B_SA_OTHER_UNIT": 280,
+      "B_SA_CROSS": 200,
+      "C_AFR_REF": 5868,
+      "C_AMER_REF": 4555,
+      "C_ASIA_REF": 5921,
+      "C_EUR_REF": 8045,
+      "C_NAF": 1079,
+      "C_SSA": 4789,
+      "C_OTHER_AMER": 2865,
+      "C_WASIA": 2769,
+      "C_EASIA": 996,
+      "C_NEUR": 2504,
+      "C_SEUR": 2218
+    },
+    "common_reference_arm_disjointness_and_containment": true,
+    "unsupported_positive_layers": {
+      "B_EUR": [],
+      "B_ASIA": [],
+      "B_SA": [
+        {
+          "era": "2020_2024",
+          "tournament_group": "friendly",
+          "reference": 24,
+          "arm1": 0,
+          "arm2": 9
+        },
+        {
+          "era": "2020_2024",
+          "tournament_group": "non_friendly",
+          "reference": 172,
+          "arm1": 0,
+          "arm2": 158
+        }
+      ],
+      "C_AFR": [],
+      "C_AMER": [],
+      "C_ASIA": [],
+      "C_EUR": []
+    },
+    "artificial_exact_fraction_identities_passed": true,
+    "project_scores_read": false,
+    "formal_analysis_implemented": false,
+    "required_before_implementation": [],
+    "deferred": [
+      "question_4_inference_and_sensitivity",
+      "question_5_strength",
+      "human_replication",
+      "final_HTML_and_paper"
+    ]
+  },
+  "design_input_sha256": {
+    "config/regions_study.json": "c29fac1042b915a1c5d6fd9f422026b53651ed0726d763f9435f3a17c82c6067",
+    "outputs/logs/regions/grouping-acceptance-20261026/preparation-20261026T090739Z-82cd5e84-accepted-r1/match_region_relations.csv": "4a30a95b129ae68d68859c8c9f25da6aa633815ada5dc1ce5fb152678860f69d",
+    "研究/03_地域差异/脚本设计.md": "44509cbba78650aecef5c25626a3523c9e4871dcd07c4f142fed5b2375305979",
+    "data/external/geography_sources/m49-20261026/sources.csv": "2f4f96f0fc3e27c9d5b6604728e77ec75ab2ea8f03119d9379679c379275afef",
+    "outputs/logs/regions/design-review-20261026/audit_design.py": "71da3c587cbab287ce3350f422592611d309c71c20057a924b287c1a32bfc898"
+  },
+  "delivery_checks": {
+    "local_links_checked": 442,
+    "missing_links": [],
+    "log_ids_unique": 88,
+    "numeric_scope_groups_and_contrasts_unchanged": true,
+    "design_input_fingerprints_match": true,
+    "existing_html_fingerprints_match": 31,
+    "new_source_downloads": false,
+    "formal_analyzer_created": false
+  }
+}

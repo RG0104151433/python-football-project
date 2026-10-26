@@ -59,7 +59,11 @@ def main():
     assert digest(ROOT/"config/archive/regions_study_v1.json") == protocol_hash
     new_protocol=json.loads((ROOT/"config/regions_study.json").read_text(encoding="utf-8"))
     assert len(new_protocol["studies"])==4
-    assert len([c for c in new_protocol["comparisons"] if c["role"]=="study_subanalysis"])==6
+    contrast_count = len([c for c in new_protocol["comparisons"] if c["role"]=="study_subanalysis"])
+    assert contrast_count == {"regions-study-v2":6,"regions-study-v3":11}[new_protocol["protocol_id"]]
+    if new_protocol["protocol_id"] == "regions-study-v3":
+        assert len(new_protocol["analysis_targets"]["C_EUR"]["groups"]) == 4
+        assert len([c for c in new_protocol["comparisons"] if c["target_id"] == "C_EUR"]) == 6
     accepted = ROOT/"outputs/logs/regions/grouping-acceptance-20261026/preparation-20261026T090739Z-82cd5e84-accepted-r1"
     migration = ROOT/"outputs/logs/regions/storage-migration-20261026"
     normal_runs = [p for p in migration.glob("*shared-normal") if (p/"manifest.json").is_file()]
@@ -67,7 +71,7 @@ def main():
     normal = normal_runs[0]
     core = list(accepted.glob("*.csv"))
     assert len(core)==16 and all(digest(p)==digest(normal/p.name) for p in core)
-    result={"schema_version":"shared-source-verification-v1", "decision_log_id":"R20261026-16",
+    result={"schema_version":"shared-source-verification-v1", "decision_log_id":new_protocol["decision_log_id"],
             "adopted_artifacts_and_relocations_passed":True,"historical_run_count":len(runs),"hash_checks":checks,
             "hash_matches":checks-len(draft_package_mismatches),
             "unadopted_draft_mismatch_count":len(draft_package_mismatches),
@@ -75,11 +79,12 @@ def main():
             "relocated_manifest_entries":relocated,"persistent_m49_html_files":2,
             "removed_duplicate_copies_net":16,"bytes_saved":30183544,
             "original_manifests_rewritten":False,"old_protocol_preserved":True,
-            "current_protocol":"regions-study-v2","studies":4,"numerical_contrasts":6,
+            "current_protocol":new_protocol["protocol_id"],"studies":4,"numerical_contrasts":contrast_count,
             "regional_outcomes_computed":False,"runs":runs,
             "unadopted_early_package_mismatches":draft_package_mismatches,
             "code_sha256":digest(Path(__file__)),"relocations_sha256":digest(ROOT/INDEX)}
-    out=ROOT/"outputs/logs/regions/storage-migration-20261026/verification.json"
+    filename = "verification.json" if new_protocol["protocol_id"] == "regions-study-v2" else "verification-regions-study-v3.json"
+    out=ROOT/"outputs/logs/regions/storage-migration-20261026"/filename
     out.parent.mkdir(parents=True,exist_ok=True)
     out.write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n",encoding="utf-8",newline="\n")
     print(json.dumps({k:v for k,v in result.items() if k!='runs'},ensure_ascii=True))
