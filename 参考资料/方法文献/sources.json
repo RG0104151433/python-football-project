@@ -383,17 +383,44 @@
       "reader": "Codex (AI)",
       "topic": "Q3 mathematical basis, exact arithmetic and limits of external inference methods",
       "sources": [
-        {"record_id": "M02", "scope": "Official direct standardization formula and relative comparison-index interpretation"},
-        {"record_id": "REGION-M03", "scope": "Publisher abstract and indexed original excerpts; empirical empty cells vs population support; restriction alters target"},
-        {"record_id": "REGION-M04", "scope": "Public abstract and indexed original excerpts, including appendix positivity and causal identification; full text not obtained"},
-        {"record_id": "P01", "scope": "Original HTML sections 2-3 and conclusion: sampling setting, nonsharing-dyad covariance restriction, repeated/directed data and higher-order dependence limitations; not all proofs revalidated"}
+        {
+          "record_id": "M02",
+          "scope": "Official direct standardization formula and relative comparison-index interpretation"
+        },
+        {
+          "record_id": "REGION-M03",
+          "scope": "Publisher abstract and indexed original excerpts; empirical empty cells vs population support; restriction alters target"
+        },
+        {
+          "record_id": "REGION-M04",
+          "scope": "Public abstract and indexed original excerpts, including appendix positivity and causal identification; full text not obtained"
+        },
+        {
+          "record_id": "P01",
+          "scope": "Original HTML sections 2-3 and conclusion: sampling setting, nonsharing-dyad covariance restriction, repeated/directed data and higher-order dependence limitations; not all proofs revalidated"
+        }
       ],
       "failed_access_attempts": [
-        {"url": "https://www.hsph.harvard.edu/miguel-hernan/wp-content/uploads/sites/1268/2024/04/hernanrobins_WhatIf_26apr24.pdf", "result": "Redirected to author profile, not book text"},
-        {"url": "https://miguelhernan.org/s/hernanrobins_WhatIf_2jan25.pdf", "result": "Web fetch exceeded content size limit; not read as a complete book"},
-        {"url": "https://jech.bmj.com/content/60/7/578", "result": "403 Forbidden"},
-        {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2652882/", "result": "Browser verification; no bypass"},
-        {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2877454/", "result": "Browser verification; no bypass"}
+        {
+          "url": "https://www.hsph.harvard.edu/miguel-hernan/wp-content/uploads/sites/1268/2024/04/hernanrobins_WhatIf_26apr24.pdf",
+          "result": "Redirected to author profile, not book text"
+        },
+        {
+          "url": "https://miguelhernan.org/s/hernanrobins_WhatIf_2jan25.pdf",
+          "result": "Web fetch exceeded content size limit; not read as a complete book"
+        },
+        {
+          "url": "https://jech.bmj.com/content/60/7/578",
+          "result": "403 Forbidden"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2652882/",
+          "result": "Browser verification; no bypass"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2877454/",
+          "result": "Browser verification; no bypass"
+        }
       ],
       "local_download_this_event": false,
       "limits": "Description mathematics reviewed; no final population/reference protocol, causal identification or accepted inferential estimator"
@@ -404,11 +431,40 @@
       "reader": "Codex (AI)",
       "topic": "Adopt geographic South America without replacing it by a confederation or strength-defined group",
       "sources": [
-        {"record_id":"REGION-M01", "url":"https://unstats.un.org/unsd/methodology/m49/overview/", "scope":"Official current overview and saved project snapshot place Guyana and Suriname in geographic unit 005; no new snapshot or historical entity change"},
-        {"record_id":"REGION-M05", "url":"https://es.concacaf.com/inside-concacaf/about-concacaf/index", "scope":"Official organizational description includes Guyana and Suriname; no historical membership series or new confederation variable"}
+        {
+          "record_id": "REGION-M01",
+          "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+          "scope": "Official current overview and saved project snapshot place Guyana and Suriname in geographic unit 005; no new snapshot or historical entity change"
+        },
+        {
+          "record_id": "REGION-M05",
+          "url": "https://es.concacaf.com/inside-concacaf/about-concacaf/index",
+          "scope": "Official organizational description includes Guyana and Suriname; no historical membership series or new confederation variable"
+        }
       ],
       "local_download_this_event": false,
       "limits": "Study membership still follows previously accepted FIFA sample; strength and historical confederation effects not inferred"
+    },
+    {
+      "date": "2026-10-26",
+      "decision_log_id": "R20261026-16",
+      "reader": "Codex (AI)",
+      "topic": "Formal M49-based partitions, four-study nested design and source relocation",
+      "sources": [
+        {
+          "record_id": "REGION-M01",
+          "url": "https://unstats.un.org/unsd/methodology/m49/",
+          "scope": "Official European four subregions and member areas; no Central Europe group; Asian and African parent hierarchy; not a new classification version"
+        }
+      ],
+      "local_download_this_event": false,
+      "local_source_relocation": {
+        "directory": "data/external/geography_sources/m49-20261026",
+        "page_sha256": "4d5cabcb10ad9ef184553b5e64c0a34ba8deeb20dab2e02cd0be3599b93bb01d",
+        "overview_sha256": "b9048114f6e7f2abda83bf03d4263c9d7cd1bd7230e3d0461025ee7839a7a1fb",
+        "old_paths": "Exact aliases in relocations.json; original bytes unchanged"
+      },
+      "limits": "Study roster lists observed representative teams and historical rules, not all countries; Chinese labels are display names. No new outcome estimation or inference."
     }
   ]
 }

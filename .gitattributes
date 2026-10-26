@@ -8,3 +8,7 @@ data/processed/** -text
 data/external/** -text
 outputs/** -text
 参考资料/方法文献/原文/** -text
+# Source snapshots and generated run evidence are not application source code.
+data/external/** linguist-vendored
+outputs/logs/** linguist-generated
+参考资料/方法文献/原文/** linguist-documentation

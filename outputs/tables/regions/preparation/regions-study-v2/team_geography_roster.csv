@@ -1,0 +1,218 @@
+﻿protocol_id,rule_id,team_id,team_name_zh,source_team_label,region_code,region_name,partition_code,partition_name,date_start,date_end,carrier_m49_code,classification_basis,home_matches,away_matches,note
+regions-study-v2,GEO3-R158,team:russia,俄罗斯,Russia,,未定,,未定,1980-01-01,1991-12-25,643,multi_region,25,65,苏联时期：跨欧亚，无法唯一归入单一大区
+regions-study-v2,GEO3-R159,team:russia,俄罗斯,Russia,,未定,,未定,1991-12-26,1992-07-02,643,multi_region,1,8,独联体过渡期：无单一大区
+regions-study-v2,GEO3-R022,team:benin,贝宁,Benin,002,非洲,011,西非,1980-01-01,2024-12-31,204,source_explicit,97,110,M49 国家/地区条目
+regions-study-v2,GEO3-R032,team:burkina-faso,布基纳法索,Burkina Faso,002,非洲,011,西非,1980-01-01,2024-12-31,854,source_explicit,125,153,M49 国家/地区条目
+regions-study-v2,GEO3-R037,team:cape-verde,佛得角,Cape Verde,002,非洲,011,西非,1980-01-01,2024-12-31,132,source_explicit,63,75,M49 国家/地区条目
+regions-study-v2,GEO3-R073,team:gambia,冈比亚,Gambia,002,非洲,011,西非,1980-01-01,2024-12-31,270,source_explicit,83,71,M49 国家/地区条目
+regions-study-v2,GEO3-R077,team:ghana,加纳,Ghana,002,非洲,011,西非,1980-01-01,2024-12-31,288,source_explicit,127,188,M49 国家/地区条目
+regions-study-v2,GEO3-R083,team:guinea,几内亚,Guinea,002,非洲,011,西非,1980-01-01,2024-12-31,324,source_explicit,90,155,M49 国家/地区条目
+regions-study-v2,GEO3-R084,team:guinea-bissau,几内亚比绍,Guinea-Bissau,002,非洲,011,西非,1980-01-01,2024-12-31,624,source_explicit,44,46,M49 国家/地区条目
+regions-study-v2,GEO3-R097,team:ivory-coast,科特迪瓦,Ivory Coast,002,非洲,011,西非,1980-01-01,2024-12-31,384,source_explicit,170,163,M49 国家/地区条目
+regions-study-v2,GEO3-R110,team:liberia,利比里亚,Liberia,002,非洲,011,西非,1980-01-01,2024-12-31,430,source_explicit,106,110,M49 国家/地区条目
+regions-study-v2,GEO3-R120,team:mali,马里,Mali,002,非洲,011,西非,1980-01-01,2024-12-31,466,source_explicit,145,171,M49 国家/地区条目
+regions-study-v2,GEO3-R122,team:mauritania,毛里塔尼亚,Mauritania,002,非洲,011,西非,1980-01-01,2024-12-31,478,source_explicit,75,86,M49 国家/地区条目
+regions-study-v2,GEO3-R138,team:niger,尼日尔,Niger,002,非洲,011,西非,1980-01-01,2024-12-31,562,source_explicit,78,92,M49 国家/地区条目
+regions-study-v2,GEO3-R139,team:nigeria,尼日利亚,Nigeria,002,非洲,011,西非,1980-01-01,2024-12-31,566,source_explicit,141,162,M49 国家/地区条目
+regions-study-v2,GEO3-R170,team:senegal,塞内加尔,Senegal,002,非洲,011,西非,1980-01-01,2024-12-31,686,source_explicit,155,177,M49 国家/地区条目
+regions-study-v2,GEO3-R173,team:sierra-leone,塞拉利昂,Sierra Leone,002,非洲,011,西非,1980-01-01,2024-12-31,694,source_explicit,74,99,M49 国家/地区条目
+regions-study-v2,GEO3-R196,team:togo,多哥,Togo,002,非洲,011,西非,1980-01-01,2024-12-31,768,source_explicit,124,142,M49 国家/地区条目
+regions-study-v2,GEO3-R033,team:burundi,布隆迪,Burundi,002,非洲,014,东非,1980-01-01,2024-12-31,108,source_explicit,47,72,M49 国家/地区条目
+regions-study-v2,GEO3-R044,team:comoros,科摩罗,Comoros,002,非洲,014,东非,1980-01-01,2024-12-31,174,source_explicit,27,28,M49 国家/地区条目
+regions-study-v2,GEO3-R055,team:djibouti,吉布提,Djibouti,002,非洲,014,东非,1980-01-01,2024-12-31,262,source_explicit,16,29,M49 国家/地区条目
+regions-study-v2,GEO3-R064,team:eritrea,厄立特里亚,Eritrea,002,非洲,014,东非,1980-01-01,2024-12-31,232,source_explicit,17,21,M49 国家/地区条目
+regions-study-v2,GEO3-R067,team:ethiopia,埃塞俄比亚,Ethiopia,002,非洲,014,东非,1980-01-01,2024-12-31,231,source_explicit,130,86,M49 国家/地区条目
+regions-study-v2,GEO3-R102,team:kenya,肯尼亚,Kenya,002,非洲,014,东非,1980-01-01,2024-12-31,404,source_explicit,167,171,M49 国家/地区条目
+regions-study-v2,GEO3-R116,team:madagascar,马达加斯加,Madagascar,002,非洲,014,东非,1980-01-01,2024-12-31,450,source_explicit,76,84,M49 国家/地区条目
+regions-study-v2,GEO3-R117,team:malawi,马拉维,Malawi,002,非洲,014,东非,1980-01-01,2024-12-31,454,source_explicit,209,171,M49 国家/地区条目
+regions-study-v2,GEO3-R123,team:mauritius,毛里求斯,Mauritius,002,非洲,014,东非,1980-01-01,2024-12-31,480,source_explicit,68,87,M49 国家/地区条目
+regions-study-v2,GEO3-R130,team:mozambique,莫桑比克,Mozambique,002,非洲,014,东非,1980-01-01,2024-12-31,508,source_explicit,131,138,M49 国家/地区条目
+regions-study-v2,GEO3-R161,team:rwanda,卢旺达,Rwanda,002,非洲,014,东非,1980-01-01,2024-12-31,646,source_explicit,102,90,M49 国家/地区条目
+regions-study-v2,GEO3-R172,team:seychelles,塞舌尔,Seychelles,002,非洲,014,东非,1980-01-01,2024-12-31,690,source_explicit,40,44,M49 国家/地区条目
+regions-study-v2,GEO3-R179,team:somalia,索马里,Somalia,002,非洲,014,东非,1980-01-01,2024-12-31,706,source_explicit,4,25,M49 国家/地区条目
+regions-study-v2,GEO3-R182,team:south-sudan,南苏丹,South Sudan,002,非洲,014,东非,1980-01-01,2024-12-31,728,source_explicit,13,28,M49 国家/地区条目
+regions-study-v2,GEO3-R193,team:tanzania,坦桑尼亚,Tanzania,002,非洲,014,东非,1980-01-01,2024-12-31,834,source_explicit,154,153,M49 国家/地区条目
+regions-study-v2,GEO3-R203,team:uganda,乌干达,Uganda,002,非洲,014,东非,1980-01-01,2024-12-31,800,source_explicit,150,162,M49 国家/地区条目
+regions-study-v2,GEO3-R216,team:zambia,赞比亚,Zambia,002,非洲,014,东非,1980-01-01,2024-12-31,894,source_explicit,177,248,M49 国家/地区条目
+regions-study-v2,GEO3-R217,team:zimbabwe,津巴布韦,Zimbabwe,002,非洲,014,东非,1980-01-01,2024-12-31,716,source_explicit,153,179,M49 国家/地区条目
+regions-study-v2,GEO3-R003,team:algeria,阿尔及利亚,Algeria,002,非洲,015,北非,1980-01-01,2024-12-31,012,source_explicit,182,158,M49 国家/地区条目
+regions-study-v2,GEO3-R060,team:egypt,埃及,Egypt,002,非洲,015,北非,1980-01-01,2024-12-31,818,source_explicit,247,191,M49 国家/地区条目
+regions-study-v2,GEO3-R111,team:libya,利比亚,Libya,002,非洲,015,北非,1980-01-01,2024-12-31,434,source_explicit,95,114,M49 国家/地区条目
+regions-study-v2,GEO3-R129,team:morocco,摩洛哥,Morocco,002,非洲,015,北非,1980-01-01,2024-12-31,504,source_explicit,215,137,M49 国家/地区条目
+regions-study-v2,GEO3-R185,team:sudan,苏丹,Sudan,002,非洲,015,北非,1980-01-01,2024-12-31,729,source_explicit,103,135,M49 国家/地区条目
+regions-study-v2,GEO3-R199,team:tunisia,突尼斯,Tunisia,002,非洲,015,北非,1980-01-01,2024-12-31,788,source_explicit,237,158,M49 国家/地区条目
+regions-study-v2,GEO3-R006,team:angola,安哥拉,Angola,002,非洲,017,中部非洲,1980-01-01,2024-12-31,024,source_explicit,132,155,M49 国家/地区条目
+regions-study-v2,GEO3-R035,team:cameroon,喀麦隆,Cameroon,002,非洲,017,中部非洲,1980-01-01,2024-12-31,120,source_explicit,129,187,M49 国家/地区条目
+regions-study-v2,GEO3-R039,team:central-african-republic,中非共和国,Central African Republic,002,非洲,017,中部非洲,1980-01-01,2024-12-31,140,source_explicit,24,56,M49 国家/地区条目
+regions-study-v2,GEO3-R040,team:chad,乍得,Chad,002,非洲,017,中部非洲,1980-01-01,2024-12-31,148,source_explicit,31,44,M49 国家/地区条目
+regions-study-v2,GEO3-R045,team:congo,刚果共和国,Congo,002,非洲,017,中部非洲,1980-01-01,2024-12-31,178,source_explicit,111,122,M49 国家/地区条目
+regions-study-v2,GEO3-R058,team:dr-congo,刚果民主共和国,DR Congo,002,非洲,017,中部非洲,1980-01-01,2024-12-31,180,source_explicit,114,163,M49 国家/地区条目
+regions-study-v2,GEO3-R063,team:equatorial-guinea,赤道几内亚,Equatorial Guinea,002,非洲,017,中部非洲,1980-01-01,2024-12-31,226,source_explicit,68,56,M49 国家/地区条目
+regions-study-v2,GEO3-R072,team:gabon,加蓬,Gabon,002,非洲,017,中部非洲,1980-01-01,2024-12-31,266,source_explicit,145,124,M49 国家/地区条目
+regions-study-v2,GEO3-R167,team:sao-tome-and-principe,圣多美和普林西比,São Tomé and Príncipe,002,非洲,017,中部非洲,1980-01-01,2024-12-31,678,source_explicit,18,27,M49 国家/地区条目
+regions-study-v2,GEO3-R027,team:botswana,博茨瓦纳,Botswana,002,非洲,018,南部非洲,1980-01-01,2024-12-31,072,source_explicit,139,120,M49 国家/地区条目
+regions-study-v2,GEO3-R066,team:eswatini,埃斯瓦蒂尼,Eswatini,002,非洲,018,南部非洲,1980-01-01,2024-12-31,748,source_explicit,96,104,M49 国家/地区条目
+regions-study-v2,GEO3-R109,team:lesotho,莱索托,Lesotho,002,非洲,018,南部非洲,1980-01-01,2024-12-31,426,source_explicit,87,104,M49 国家/地区条目
+regions-study-v2,GEO3-R132,team:namibia,纳米比亚,Namibia,002,非洲,018,南部非洲,1980-01-01,2024-12-31,516,source_explicit,93,111,M49 国家/地区条目
+regions-study-v2,GEO3-R180,team:south-africa,南非,South Africa,002,非洲,018,南部非洲,1980-01-01,2024-12-31,710,source_explicit,224,130,M49 国家/地区条目
+regions-study-v2,GEO3-R012,team:australia,澳大利亚,Australia,009,大洋洲,053,澳大利亚和新西兰,1980-01-01,2024-12-31,036,source_explicit,169,146,M49 国家/地区条目
+regions-study-v2,GEO3-R136,team:new-zealand,新西兰,New Zealand,009,大洋洲,053,澳大利亚和新西兰,1980-01-01,2024-12-31,554,source_explicit,80,126,M49 国家/地区条目
+regions-study-v2,GEO3-R069,team:fiji,斐济,Fiji,009,大洋洲,054,美拉尼西亚,1980-01-01,2024-12-31,242,source_explicit,64,44,M49 国家/地区条目
+regions-study-v2,GEO3-R135,team:new-caledonia,新喀里多尼亚,New Caledonia,009,大洋洲,054,美拉尼西亚,1980-01-01,2024-12-31,540,source_explicit,21,23,M49 国家/地区条目
+regions-study-v2,GEO3-R148,team:papua-new-guinea,巴布亚新几内亚,Papua New Guinea,009,大洋洲,054,美拉尼西亚,1980-01-01,2024-12-31,598,source_explicit,18,28,M49 国家/地区条目
+regions-study-v2,GEO3-R178,team:solomon-islands,所罗门群岛,Solomon Islands,009,大洋洲,054,美拉尼西亚,1980-01-01,2024-12-31,090,source_explicit,42,52,M49 国家/地区条目
+regions-study-v2,GEO3-R210,team:vanuatu,瓦努阿图,Vanuatu,009,大洋洲,054,美拉尼西亚,1980-01-01,2024-12-31,548,source_explicit,35,33,M49 国家/地区条目
+regions-study-v2,GEO3-R081,team:guam,关岛,Guam,009,大洋洲,057,密克罗尼西亚,1980-01-01,2024-12-31,316,source_explicit,13,29,M49 国家/地区条目
+regions-study-v2,GEO3-R004,team:american-samoa,美属萨摩亚,American Samoa,009,大洋洲,061,波利尼西亚,1980-01-01,2024-12-31,016,source_explicit,0,10,M49 国家/地区条目
+regions-study-v2,GEO3-R046,team:cook-islands,库克群岛,Cook Islands,009,大洋洲,061,波利尼西亚,1980-01-01,2024-12-31,184,source_explicit,3,12,M49 国家/地区条目
+regions-study-v2,GEO3-R165,team:samoa,萨摩亚,Samoa,009,大洋洲,061,波利尼西亚,1980-01-01,2024-12-31,882,source_explicit,20,12,M49 国家/地区条目
+regions-study-v2,GEO3-R190,team:tahiti,大溪地,Tahiti,009,大洋洲,061,波利尼西亚,1980-01-01,2024-12-31,258,source_explicit,27,27,M49 国家/地区条目
+regions-study-v2,GEO3-R197,team:tonga,汤加,Tonga,009,大洋洲,061,波利尼西亚,1980-01-01,2024-12-31,776,source_explicit,10,11,M49 国家/地区条目
+regions-study-v2,GEO3-R009,team:argentina,阿根廷,Argentina,019,美洲,005,南美洲,1980-01-01,2024-12-31,032,source_explicit,154,190,M49 国家/地区条目
+regions-study-v2,GEO3-R025,team:bolivia,玻利维亚,Bolivia,019,美洲,005,南美洲,1980-01-01,2024-12-31,068,source_explicit,140,160,M49 国家/地区条目
+regions-study-v2,GEO3-R028,team:brazil,巴西,Brazil,019,美洲,005,南美洲,1980-01-01,2024-12-31,076,source_explicit,199,208,M49 国家/地区条目
+regions-study-v2,GEO3-R041,team:chile,智利,Chile,019,美洲,005,南美洲,1980-01-01,2024-12-31,152,source_explicit,184,195,M49 国家/地区条目
+regions-study-v2,GEO3-R043,team:colombia,哥伦比亚,Colombia,019,美洲,005,南美洲,1980-01-01,2024-12-31,170,source_explicit,131,185,M49 国家/地区条目
+regions-study-v2,GEO3-R059,team:ecuador,厄瓜多尔,Ecuador,019,美洲,005,南美洲,1980-01-01,2024-12-31,218,source_explicit,141,163,M49 国家/地区条目
+regions-study-v2,GEO3-R085,team:guyana,圭亚那,Guyana,019,美洲,005,南美洲,1980-01-01,2024-12-31,328,source_explicit,74,70,M49 国家/地区条目
+regions-study-v2,GEO3-R149,team:paraguay,巴拉圭,Paraguay,019,美洲,005,南美洲,1980-01-01,2024-12-31,600,source_explicit,129,223,M49 国家/地区条目
+regions-study-v2,GEO3-R150,team:peru,秘鲁,Peru,019,美洲,005,南美洲,1980-01-01,2024-12-31,604,source_explicit,173,178,M49 国家/地区条目
+regions-study-v2,GEO3-R186,team:suriname,苏里南,Suriname,019,美洲,005,南美洲,1980-01-01,2024-12-31,740,source_explicit,57,67,M49 国家/地区条目
+regions-study-v2,GEO3-R208,team:uruguay,乌拉圭,Uruguay,019,美洲,005,南美洲,1980-01-01,2024-12-31,858,source_explicit,158,219,M49 国家/地区条目
+regions-study-v2,GEO3-R211,team:venezuela,委内瑞拉,Venezuela,019,美洲,005,南美洲,1980-01-01,2024-12-31,862,source_explicit,150,147,M49 国家/地区条目
+regions-study-v2,GEO3-R021,team:belize,伯利兹,Belize,019,美洲,013,中美洲,1980-01-01,2024-12-31,084,source_explicit,35,38,M49 国家/地区条目
+regions-study-v2,GEO3-R047,team:costa-rica,哥斯达黎加,Costa Rica,019,美洲,013,中美洲,1980-01-01,2024-12-31,188,source_explicit,169,206,M49 国家/地区条目
+regions-study-v2,GEO3-R061,team:el-salvador,萨尔瓦多,El Salvador,019,美洲,013,中美洲,1980-01-01,2024-12-31,222,source_explicit,122,147,M49 国家/地区条目
+regions-study-v2,GEO3-R082,team:guatemala,危地马拉,Guatemala,019,美洲,013,中美洲,1980-01-01,2024-12-31,320,source_explicit,124,120,M49 国家/地区条目
+regions-study-v2,GEO3-R087,team:honduras,洪都拉斯,Honduras,019,美洲,013,中美洲,1980-01-01,2024-12-31,340,source_explicit,168,162,M49 国家/地区条目
+regions-study-v2,GEO3-R124,team:mexico,墨西哥,Mexico,019,美洲,013,中美洲,1980-01-01,2024-12-31,484,source_explicit,168,174,M49 国家/地区条目
+regions-study-v2,GEO3-R137,team:nicaragua,尼加拉瓜,Nicaragua,019,美洲,013,中美洲,1980-01-01,2024-12-31,558,source_explicit,51,68,M49 国家/地区条目
+regions-study-v2,GEO3-R147,team:panama,巴拿马,Panama,019,美洲,013,中美洲,1980-01-01,2024-12-31,591,source_explicit,145,167,M49 国家/地区条目
+regions-study-v2,GEO3-R023,team:bermuda,百慕大,Bermuda,019,美洲,021,北部美洲,1980-01-01,2024-12-31,060,source_explicit,66,53,M49 国家/地区条目
+regions-study-v2,GEO3-R036,team:canada,加拿大,Canada,019,美洲,021,北部美洲,1980-01-01,2024-12-31,124,source_explicit,119,152,M49 国家/地区条目
+regions-study-v2,GEO3-R206,team:united-states,美国,United States,019,美洲,021,北部美洲,1980-01-01,2024-12-31,840,source_explicit,405,170,M49 国家/地区条目
+regions-study-v2,GEO3-R007,team:anguilla,安圭拉,Anguilla,019,美洲,029,加勒比地区,1980-01-01,2024-12-31,660,source_explicit,11,24,M49 国家/地区条目
+regions-study-v2,GEO3-R008,team:antigua-and-barbuda,安提瓜和巴布达,Antigua and Barbuda,019,美洲,029,加勒比地区,1980-01-01,2024-12-31,028,source_explicit,77,65,M49 国家/地区条目
+regions-study-v2,GEO3-R011,team:aruba,阿鲁巴,Aruba,019,美洲,029,加勒比地区,1980-01-01,2024-12-31,533,source_explicit,29,31,M49 国家/地区条目
+regions-study-v2,GEO3-R015,team:bahamas,巴哈马,Bahamas,019,美洲,029,加勒比地区,1980-01-01,2024-12-31,044,source_explicit,24,22,M49 国家/地区条目
+regions-study-v2,GEO3-R018,team:barbados,巴巴多斯,Barbados,019,美洲,029,加勒比地区,1980-01-01,2024-12-31,052,source_explicit,98,81,M49 国家/地区条目
+regions-study-v2,GEO3-R029,team:british-virgin-islands,英属维尔京群岛,British Virgin Islands,019,美洲,029,加勒比地区,1980-01-01,2024-12-31,092,source_explicit,30,31,M49 国家/地区条目
+regions-study-v2,GEO3-R038,team:cayman-islands,开曼群岛,Cayman Islands,019,美洲,029,加勒比地区,1980-01-01,2024-12-31,136,source_explicit,43,27,M49 国家/地区条目
+regions-study-v2,GEO3-R049,team:cuba,古巴,Cuba,019,美洲,029,加勒比地区,1980-01-01,2024-12-31,192,source_explicit,54,136,M49 国家/地区条目
+regions-study-v2,GEO3-R050,team:curacao,库拉索,Curaçao,019,美洲,029,加勒比地区,1980-01-01,2024-12-31,531,source_explicit,66,62,M49 国家/地区条目
+regions-study-v2,GEO3-R056,team:dominica,多米尼克,Dominica,019,美洲,029,加勒比地区,1980-01-01,2024-12-31,212,source_explicit,30,48,M49 国家/地区条目
+regions-study-v2,GEO3-R057,team:dominican-republic,多米尼加共和国,Dominican Republic,019,美洲,029,加勒比地区,1980-01-01,2024-12-31,214,source_explicit,62,46,M49 国家/地区条目
+regions-study-v2,GEO3-R080,team:grenada,格林纳达,Grenada,019,美洲,029,加勒比地区,1980-01-01,2024-12-31,308,source_explicit,65,74,M49 国家/地区条目
+regions-study-v2,GEO3-R086,team:haiti,海地,Haiti,019,美洲,029,加勒比地区,1980-01-01,2024-12-31,332,source_explicit,65,111,M49 国家/地区条目
+regions-study-v2,GEO3-R098,team:jamaica,牙买加,Jamaica,019,美洲,029,加勒比地区,1980-01-01,2024-12-31,388,source_explicit,170,186,M49 国家/地区条目
+regions-study-v2,GEO3-R128,team:montserrat,蒙特塞拉特,Montserrat,019,美洲,029,加勒比地区,1980-01-01,2024-12-31,500,source_explicit,11,17,M49 国家/地区条目
+regions-study-v2,GEO3-R154,team:puerto-rico,波多黎各,Puerto Rico,019,美洲,029,加勒比地区,1980-01-01,2024-12-31,630,source_explicit,40,44,M49 国家/地区条目
+regions-study-v2,GEO3-R162,team:saint-kitts-and-nevis,圣基茨和尼维斯,Saint Kitts and Nevis,019,美洲,029,加勒比地区,1980-01-01,2024-12-31,659,source_explicit,74,58,M49 国家/地区条目
+regions-study-v2,GEO3-R163,team:saint-lucia,圣卢西亚,Saint Lucia,019,美洲,029,加勒比地区,1980-01-01,2024-12-31,662,source_explicit,41,69,M49 国家/地区条目
+regions-study-v2,GEO3-R164,team:saint-vincent-and-the-grenadines,圣文森特和格林纳丁斯,Saint Vincent and the Grenadines,019,美洲,029,加勒比地区,1980-01-01,2024-12-31,670,source_explicit,57,60,M49 国家/地区条目
+regions-study-v2,GEO3-R175,team:sint-maarten,荷属圣马丁,Sint Maarten,019,美洲,029,加勒比地区,1980-01-01,2024-12-31,534,source_explicit,1,0,M49 国家/地区条目
+regions-study-v2,GEO3-R198,team:trinidad-and-tobago,特立尼达和多巴哥,Trinidad and Tobago,019,美洲,029,加勒比地区,1980-01-01,2024-12-31,780,source_explicit,210,187,M49 国家/地区条目
+regions-study-v2,GEO3-R202,team:turks-and-caicos-islands,特克斯和凯科斯群岛,Turks and Caicos Islands,019,美洲,029,加勒比地区,1980-01-01,2024-12-31,796,source_explicit,12,18,M49 国家/地区条目
+regions-study-v2,GEO3-R207,team:united-states-virgin-islands,美属维尔京群岛,United States Virgin Islands,019,美洲,029,加勒比地区,1980-01-01,2024-12-31,850,source_explicit,23,32,M49 国家/地区条目
+regions-study-v2,GEO3-R042,team:china,中国,China,142,亚洲,030,东亚,1980-01-01,2024-12-31,156,source_explicit,214,159,M49 国家/地区条目
+regions-study-v2,GEO3-R088,team:hong-kong,中国香港,Hong Kong,142,亚洲,030,东亚,1980-01-01,2024-12-31,344,source_explicit,120,93,M49 国家/地区条目
+regions-study-v2,GEO3-R099,team:japan,日本,Japan,142,亚洲,030,东亚,1980-01-01,2024-12-31,392,source_explicit,265,126,M49 国家/地区条目
+regions-study-v2,GEO3-R115,team:macau,中国澳门,Macau,142,亚洲,030,东亚,1980-01-01,2024-12-31,446,source_explicit,36,46,M49 国家/地区条目
+regions-study-v2,GEO3-R126,team:mongolia,蒙古,Mongolia,142,亚洲,030,东亚,1980-01-01,2024-12-31,496,source_explicit,19,35,M49 国家/地区条目
+regions-study-v2,GEO3-R140,team:north-korea,朝鲜,North Korea,142,亚洲,030,东亚,1980-01-01,2024-12-31,408,source_explicit,34,119,M49 国家/地区条目
+regions-study-v2,GEO3-R181,team:south-korea,韩国,South Korea,142,亚洲,030,东亚,1980-01-01,2024-12-31,410,source_explicit,265,153,M49 国家/地区条目
+regions-study-v2,GEO3-R191,team:taiwan,中华台北,Taiwan,142,亚洲,030,东亚,1980-01-01,2024-12-31,156,project_mapping,43,70,M49 国家/地区条目
+regions-study-v2,GEO3-R001,team:afghanistan,阿富汗,Afghanistan,142,亚洲,034,南亚,1980-01-01,2024-12-31,004,source_explicit,2,49,M49 国家/地区条目
+regions-study-v2,GEO3-R017,team:bangladesh,孟加拉国,Bangladesh,142,亚洲,034,南亚,1980-01-01,2024-12-31,050,source_explicit,75,84,M49 国家/地区条目
+regions-study-v2,GEO3-R024,team:bhutan,不丹,Bhutan,142,亚洲,034,南亚,1980-01-01,2024-12-31,064,source_explicit,17,31,M49 国家/地区条目
+regions-study-v2,GEO3-R091,team:india,印度,India,142,亚洲,034,南亚,1980-01-01,2024-12-31,356,source_explicit,152,91,M49 国家/地区条目
+regions-study-v2,GEO3-R093,team:iran,伊朗,Iran,142,亚洲,034,南亚,1980-01-01,2024-12-31,364,source_explicit,157,153,M49 国家/地区条目
+regions-study-v2,GEO3-R119,team:maldives,马尔代夫,Maldives,142,亚洲,034,南亚,1980-01-01,2024-12-31,462,source_explicit,58,69,M49 国家/地区条目
+regions-study-v2,GEO3-R133,team:nepal,尼泊尔,Nepal,142,亚洲,034,南亚,1980-01-01,2024-12-31,524,source_explicit,64,69,M49 国家/地区条目
+regions-study-v2,GEO3-R145,team:pakistan,巴基斯坦,Pakistan,142,亚洲,034,南亚,1980-01-01,2024-12-31,586,source_explicit,38,64,M49 国家/地区条目
+regions-study-v2,GEO3-R184,team:sri-lanka,斯里兰卡,Sri Lanka,142,亚洲,034,南亚,1980-01-01,2024-12-31,144,source_explicit,50,67,M49 国家/地区条目
+regions-study-v2,GEO3-R030,team:brunei,文莱,Brunei,142,亚洲,035,东南亚,1980-01-01,2024-12-31,096,source_explicit,23,36,M49 国家/地区条目
+regions-study-v2,GEO3-R034,team:cambodia,柬埔寨,Cambodia,142,亚洲,035,东南亚,1980-01-01,2024-12-31,116,source_explicit,66,61,M49 国家/地区条目
+regions-study-v2,GEO3-R092,team:indonesia,印度尼西亚,Indonesia,142,亚洲,035,东南亚,1980-01-01,2024-12-31,360,source_explicit,166,127,M49 国家/地区条目
+regions-study-v2,GEO3-R106,team:laos,老挝,Laos,142,亚洲,035,东南亚,1980-01-01,2024-12-31,418,source_explicit,43,53,M49 国家/地区条目
+regions-study-v2,GEO3-R118,team:malaysia,马来西亚,Malaysia,142,亚洲,035,东南亚,1980-01-01,2024-12-31,458,source_explicit,203,140,M49 国家/地区条目
+regions-study-v2,GEO3-R131,team:myanmar,缅甸,Myanmar,142,亚洲,035,东南亚,1980-01-01,2024-12-31,104,source_explicit,64,78,M49 国家/地区条目
+regions-study-v2,GEO3-R151,team:philippines,菲律宾,Philippines,142,亚洲,035,东南亚,1980-01-01,2024-12-31,608,source_explicit,71,90,M49 国家/地区条目
+regions-study-v2,GEO3-R174,team:singapore,新加坡,Singapore,142,亚洲,035,东南亚,1980-01-01,2024-12-31,702,source_explicit,207,130,M49 国家/地区条目
+regions-study-v2,GEO3-R194,team:thailand,泰国,Thailand,142,亚洲,035,东南亚,1980-01-01,2024-12-31,764,source_explicit,258,131,M49 国家/地区条目
+regions-study-v2,GEO3-R195,team:timor-leste,东帝汶,Timor-Leste,142,亚洲,035,东南亚,1980-01-01,2024-12-31,626,source_explicit,4,40,M49 国家/地区条目
+regions-study-v2,GEO3-R212,team:vietnam,越南,Vietnam,142,亚洲,035,东南亚,1980-01-01,2024-12-31,704,source_explicit,112,80,M49 国家/地区条目
+regions-study-v2,GEO3-R101,team:kazakhstan,哈萨克斯坦,Kazakhstan,142,亚洲,143,中亚,1980-01-01,2024-12-31,398,source_explicit,94,107,M49 国家/地区条目
+regions-study-v2,GEO3-R105,team:kyrgyzstan,吉尔吉斯斯坦,Kyrgyzstan,142,亚洲,143,中亚,1980-01-01,2024-12-31,417,source_explicit,42,64,M49 国家/地区条目
+regions-study-v2,GEO3-R192,team:tajikistan,塔吉克斯坦,Tajikistan,142,亚洲,143,中亚,1980-01-01,2024-12-31,762,source_explicit,46,73,M49 国家/地区条目
+regions-study-v2,GEO3-R201,team:turkmenistan,土库曼斯坦,Turkmenistan,142,亚洲,143,中亚,1980-01-01,2024-12-31,795,source_explicit,34,63,M49 国家/地区条目
+regions-study-v2,GEO3-R209,team:uzbekistan,乌兹别克斯坦,Uzbekistan,142,亚洲,143,中亚,1980-01-01,2024-12-31,860,source_explicit,110,119,M49 国家/地区条目
+regions-study-v2,GEO3-R010,team:armenia,亚美尼亚,Armenia,142,亚洲,145,西亚,1980-01-01,2024-12-31,051,source_explicit,106,120,M49 国家/地区条目
+regions-study-v2,GEO3-R014,team:azerbaijan,阿塞拜疆,Azerbaijan,142,亚洲,145,西亚,1980-01-01,2024-12-31,031,source_explicit,105,138,M49 国家/地区条目
+regions-study-v2,GEO3-R016,team:bahrain,巴林,Bahrain,142,亚洲,145,西亚,1980-01-01,2024-12-31,048,source_explicit,195,126,M49 国家/地区条目
+regions-study-v2,GEO3-R051,team:cyprus,塞浦路斯,Cyprus,142,亚洲,145,西亚,1980-01-01,2024-12-31,196,source_explicit,193,149,M49 国家/地区条目
+regions-study-v2,GEO3-R074,team:georgia,格鲁吉亚,Georgia,142,亚洲,145,西亚,1980-01-01,2024-12-31,268,source_explicit,118,140,M49 国家/地区条目
+regions-study-v2,GEO3-R094,team:iraq,伊拉克,Iraq,142,亚洲,145,西亚,1980-01-01,2024-12-31,368,source_explicit,68,169,M49 国家/地区条目
+regions-study-v2,GEO3-R095,team:israel,以色列,Israel,142,亚洲,145,西亚,1980-01-01,2024-12-31,376,source_explicit,174,158,M49 国家/地区条目
+regions-study-v2,GEO3-R100,team:jordan,约旦,Jordan,142,亚洲,145,西亚,1980-01-01,2024-12-31,400,source_explicit,172,140,M49 国家/地区条目
+regions-study-v2,GEO3-R104,team:kuwait,科威特,Kuwait,142,亚洲,145,西亚,1980-01-01,2024-12-31,414,source_explicit,215,131,M49 国家/地区条目
+regions-study-v2,GEO3-R108,team:lebanon,黎巴嫩,Lebanon,142,亚洲,145,西亚,1980-01-01,2024-12-31,422,source_explicit,116,105,M49 国家/地区条目
+regions-study-v2,GEO3-R144,team:oman,阿曼,Oman,142,亚洲,145,西亚,1980-01-01,2024-12-31,512,source_explicit,212,126,M49 国家/地区条目
+regions-study-v2,GEO3-R146,team:palestine,巴勒斯坦,Palestine,142,亚洲,145,西亚,1980-01-01,2024-12-31,275,source_explicit,18,91,M49 国家/地区条目
+regions-study-v2,GEO3-R155,team:qatar,卡塔尔,Qatar,142,亚洲,145,西亚,1980-01-01,2024-12-31,634,source_explicit,266,127,M49 国家/地区条目
+regions-study-v2,GEO3-R168,team:saudi-arabia,沙特阿拉伯,Saudi Arabia,142,亚洲,145,西亚,1980-01-01,2024-12-31,682,source_explicit,265,119,M49 国家/地区条目
+regions-study-v2,GEO3-R189,team:syria,叙利亚,Syria,142,亚洲,145,西亚,1980-01-01,2024-12-31,760,source_explicit,70,173,M49 国家/地区条目
+regions-study-v2,GEO3-R200,team:turkey,土耳其,Turkey,142,亚洲,145,西亚,1980-01-01,2024-12-31,792,source_explicit,184,195,M49 国家/地区条目
+regions-study-v2,GEO3-R205,team:united-arab-emirates,阿联酋,United Arab Emirates,142,亚洲,145,西亚,1980-01-01,2024-12-31,784,source_explicit,247,123,M49 国家/地区条目
+regions-study-v2,GEO3-R214,team:yemen,也门,Yemen,142,亚洲,145,西亚,1980-01-01,2024-12-31,887,source_explicit,45,67,M49 国家/地区条目
+regions-study-v2,GEO3-R002,team:albania,阿尔巴尼亚,Albania,150,欧洲,039,南欧,1980-01-01,2024-12-31,008,source_explicit,149,151,M49 国家/地区条目
+regions-study-v2,GEO3-R005,team:andorra,安道尔,Andorra,150,欧洲,039,南欧,1980-01-01,2024-12-31,020,source_explicit,87,96,M49 国家/地区条目
+regions-study-v2,GEO3-R026,team:bosnia-and-herzegovina,波斯尼亚和黑塞哥维那,Bosnia and Herzegovina,150,欧洲,039,南欧,1980-01-01,2024-12-31,070,source_explicit,111,127,M49 国家/地区条目
+regions-study-v2,GEO3-R048,team:croatia,克罗地亚,Croatia,150,欧洲,039,南欧,1980-01-01,2024-12-31,191,source_explicit,138,149,M49 国家/地区条目
+regions-study-v2,GEO3-R078,team:gibraltar,直布罗陀,Gibraltar,150,欧洲,039,南欧,1980-01-01,2024-12-31,292,source_explicit,27,37,M49 国家/地区条目
+regions-study-v2,GEO3-R079,team:greece,希腊,Greece,150,欧洲,039,南欧,1980-01-01,2024-12-31,300,source_explicit,211,207,M49 国家/地区条目
+regions-study-v2,GEO3-R096,team:italy,意大利,Italy,150,欧洲,039,南欧,1980-01-01,2024-12-31,380,source_explicit,220,173,M49 国家/地区条目
+regions-study-v2,GEO3-R103,team:kosovo,科索沃,Kosovo,150,欧洲,039,南欧,1980-01-01,2024-12-31,412,project_mapping,34,33,M49 国家/地区条目
+regions-study-v2,GEO3-R121,team:malta,马耳他,Malta,150,欧洲,039,南欧,1980-01-01,2024-12-31,470,source_explicit,209,152,M49 国家/地区条目
+regions-study-v2,GEO3-R127,team:montenegro,黑山,Montenegro,150,欧洲,039,南欧,1980-01-01,2024-12-31,499,source_explicit,77,70,M49 国家/地区条目
+regions-study-v2,GEO3-R141,team:north-macedonia,北马其顿,North Macedonia,150,欧洲,039,南欧,1980-01-01,2024-12-31,807,source_explicit,136,125,M49 国家/地区条目
+regions-study-v2,GEO3-R153,team:portugal,葡萄牙,Portugal,150,欧洲,039,南欧,1980-01-01,2024-12-31,620,source_explicit,216,167,M49 国家/地区条目
+regions-study-v2,GEO3-R166,team:san-marino,圣马力诺,San Marino,150,欧洲,039,南欧,1980-01-01,2024-12-31,674,source_explicit,102,103,M49 国家/地区条目
+regions-study-v2,GEO3-R171,team:serbia,塞尔维亚,Serbia,150,欧洲,039,南欧,1980-01-01,2024-12-31,688,source_explicit,103,165,M49 国家/地区条目
+regions-study-v2,GEO3-R177,team:slovenia,斯洛文尼亚,Slovenia,150,欧洲,039,南欧,1980-01-01,2024-12-31,705,source_explicit,134,135,M49 国家/地区条目
+regions-study-v2,GEO3-R183,team:spain,西班牙,Spain,150,欧洲,039,南欧,1980-01-01,2024-12-31,724,source_explicit,229,189,M49 国家/地区条目
+regions-study-v2,GEO3-R215,team:yugoslavia,南斯拉夫,Yugoslavia,150,欧洲,039,南欧,1980-01-01,2024-12-31,688,project_mapping,35,50,固定现代载体，不表示历史官方区划
+regions-study-v2,GEO3-R019,team:belarus,白俄罗斯,Belarus,150,欧洲,151,东欧,1980-01-01,2024-12-31,112,source_explicit,98,147,M49 国家/地区条目
+regions-study-v2,GEO3-R031,team:bulgaria,保加利亚,Bulgaria,150,欧洲,151,东欧,1980-01-01,2024-12-31,100,source_explicit,160,226,M49 国家/地区条目
+regions-study-v2,GEO3-R052,team:czech-republic,捷克,Czech Republic,150,欧洲,151,东欧,1980-01-01,2024-12-31,203,source_explicit,140,146,M49 国家/地区条目
+regions-study-v2,GEO3-R053,team:czechoslovakia,捷克斯洛伐克,Czechoslovakia,150,欧洲,151,东欧,1980-01-01,2024-12-31,203,project_mapping,48,72,固定现代载体，不表示历史官方区划
+regions-study-v2,GEO3-R089,team:hungary,匈牙利,Hungary,150,欧洲,151,东欧,1980-01-01,2024-12-31,348,source_explicit,224,196,M49 国家/地区条目
+regions-study-v2,GEO3-R125,team:moldova,摩尔多瓦,Moldova,150,欧洲,151,东欧,1980-01-01,2024-12-31,498,source_explicit,104,134,M49 国家/地区条目
+regions-study-v2,GEO3-R152,team:poland,波兰,Poland,150,欧洲,151,东欧,1980-01-01,2024-12-31,616,source_explicit,236,222,M49 国家/地区条目
+regions-study-v2,GEO3-R157,team:romania,罗马尼亚,Romania,150,欧洲,151,东欧,1980-01-01,2024-12-31,642,source_explicit,196,215,M49 国家/地区条目
+regions-study-v2,GEO3-R160,team:russia,俄罗斯,Russia,150,欧洲,151,东欧,1992-07-03,2024-12-31,643,resolved,146,140,俄罗斯：欧洲/东欧。分段界为项目约定（FIFA 2018 年报 RUS 1912/1992 年份级；UPI 1992-07-03 大会报道为线索），非 FIFA 逐日官方记录
+regions-study-v2,GEO3-R176,team:slovakia,斯洛伐克,Slovakia,150,欧洲,151,东欧,1980-01-01,2024-12-31,703,source_explicit,139,146,M49 国家/地区条目
+regions-study-v2,GEO3-R204,team:ukraine,乌克兰,Ukraine,150,欧洲,151,东欧,1980-01-01,2024-12-31,804,source_explicit,129,137,M49 国家/地区条目
+regions-study-v2,GEO3-R054,team:denmark,丹麦,Denmark,150,欧洲,154,北欧,1980-01-01,2024-12-31,208,source_explicit,211,202,M49 国家/地区条目
+regions-study-v2,GEO3-R062,team:england,英格兰,England,150,欧洲,154,北欧,1980-01-01,2024-12-31,826,project_mapping,245,189,M49 国家/地区条目
+regions-study-v2,GEO3-R065,team:estonia,爱沙尼亚,Estonia,150,欧洲,154,北欧,1980-01-01,2024-12-31,233,source_explicit,175,192,M49 国家/地区条目
+regions-study-v2,GEO3-R068,team:faroe-islands,法罗群岛,Faroe Islands,150,欧洲,154,北欧,1980-01-01,2024-12-31,234,source_explicit,105,121,M49 国家/地区条目
+regions-study-v2,GEO3-R070,team:finland,芬兰,Finland,150,欧洲,154,北欧,1980-01-01,2024-12-31,246,source_explicit,164,262,M49 国家/地区条目
+regions-study-v2,GEO3-R090,team:iceland,冰岛,Iceland,150,欧洲,154,北欧,1980-01-01,2024-12-31,352,source_explicit,159,198,M49 国家/地区条目
+regions-study-v2,GEO3-R107,team:latvia,拉脱维亚,Latvia,150,欧洲,154,北欧,1980-01-01,2024-12-31,428,source_explicit,136,155,M49 国家/地区条目
+regions-study-v2,GEO3-R113,team:lithuania,立陶宛,Lithuania,150,欧洲,154,北欧,1980-01-01,2024-12-31,440,source_explicit,125,165,M49 国家/地区条目
+regions-study-v2,GEO3-R142,team:northern-ireland,北爱尔兰,Northern Ireland,150,欧洲,154,北欧,1980-01-01,2024-12-31,826,project_mapping,167,169,M49 国家/地区条目
+regions-study-v2,GEO3-R143,team:norway,挪威,Norway,150,欧洲,154,北欧,1980-01-01,2024-12-31,578,source_explicit,219,215,M49 国家/地区条目
+regions-study-v2,GEO3-R156,team:republic-of-ireland,爱尔兰,Republic of Ireland,150,欧洲,154,北欧,1980-01-01,2024-12-31,372,source_explicit,225,161,M49 国家/地区条目
+regions-study-v2,GEO3-R169,team:scotland,苏格兰,Scotland,150,欧洲,154,北欧,1980-01-01,2024-12-31,826,project_mapping,186,184,M49 国家/地区条目
+regions-study-v2,GEO3-R187,team:sweden,瑞典,Sweden,150,欧洲,154,北欧,1980-01-01,2024-12-31,752,source_explicit,215,238,M49 国家/地区条目
+regions-study-v2,GEO3-R213,team:wales,威尔士,Wales,150,欧洲,154,北欧,1980-01-01,2024-12-31,826,project_mapping,172,165,M49 国家/地区条目
+regions-study-v2,GEO3-R013,team:austria,奥地利,Austria,150,欧洲,155,西欧,1980-01-01,2024-12-31,040,source_explicit,218,157,M49 国家/地区条目
+regions-study-v2,GEO3-R020,team:belgium,比利时,Belgium,150,欧洲,155,西欧,1980-01-01,2024-12-31,056,source_explicit,197,174,M49 国家/地区条目
+regions-study-v2,GEO3-R071,team:france,法国,France,150,欧洲,155,西欧,1980-01-01,2024-12-31,250,source_explicit,261,170,M49 国家/地区条目
+regions-study-v2,GEO3-R075,team:german-dr,民主德国（东德）,German DR,150,欧洲,155,西欧,1980-01-01,2024-12-31,276,project_mapping,45,57,固定现代载体，不表示历史官方区划
+regions-study-v2,GEO3-R076,team:germany,德国,Germany,150,欧洲,155,西欧,1980-01-01,2024-12-31,276,source_explicit,252,208,M49 国家/地区条目
+regions-study-v2,GEO3-R112,team:liechtenstein,列支敦士登,Liechtenstein,150,欧洲,155,西欧,1980-01-01,2024-12-31,438,source_explicit,109,118,M49 国家/地区条目
+regions-study-v2,GEO3-R114,team:luxembourg,卢森堡,Luxembourg,150,欧洲,155,西欧,1980-01-01,2024-12-31,442,source_explicit,189,137,M49 国家/地区条目
+regions-study-v2,GEO3-R134,team:netherlands,荷兰,Netherlands,150,欧洲,155,西欧,1980-01-01,2024-12-31,528,source_explicit,220,181,M49 国家/地区条目
+regions-study-v2,GEO3-R188,team:switzerland,瑞士,Switzerland,150,欧洲,155,西欧,1980-01-01,2024-12-31,756,source_explicit,212,193,M49 国家/地区条目

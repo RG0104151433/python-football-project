@@ -1,0 +1,97 @@
+{
+  "schema_version": "shared-m49-v1",
+  "decision_log_id": "R20261026-16",
+  "aliases": {
+    "data/external/geography_preparation/geo-prep-v3/sources/m49_page.html": {
+      "canonical_path": "data/external/geography_sources/m49-20261026/m49_page.html",
+      "sha256": "4d5cabcb10ad9ef184553b5e64c0a34ba8deeb20dab2e02cd0be3599b93bb01d",
+      "bytes": 2051368
+    },
+    "data/external/geography_preparation/geo-prep-v2/sources/m49_page.html": {
+      "canonical_path": "data/external/geography_sources/m49-20261026/m49_page.html",
+      "sha256": "4d5cabcb10ad9ef184553b5e64c0a34ba8deeb20dab2e02cd0be3599b93bb01d",
+      "bytes": 2051368
+    },
+    "data/external/geography_preparation/geo-prep-v1/sources/m49_page.html": {
+      "canonical_path": "data/external/geography_sources/m49-20261026/m49_page.html",
+      "sha256": "4d5cabcb10ad9ef184553b5e64c0a34ba8deeb20dab2e02cd0be3599b93bb01d",
+      "bytes": 2051368
+    },
+    "data/external/geography_preparation/geo-prep-v3/sources/m49_overview.html": {
+      "canonical_path": "data/external/geography_sources/m49-20261026/m49_overview.html",
+      "sha256": "b9048114f6e7f2abda83bf03d4263c9d7cd1bd7230e3d0461025ee7839a7a1fb",
+      "bytes": 1721575
+    },
+    "data/external/geography_preparation/geo-prep-v2/sources/m49_overview.html": {
+      "canonical_path": "data/external/geography_sources/m49-20261026/m49_overview.html",
+      "sha256": "b9048114f6e7f2abda83bf03d4263c9d7cd1bd7230e3d0461025ee7839a7a1fb",
+      "bytes": 1721575
+    },
+    "data/external/geography_preparation/geo-prep-v1/sources/m49_overview.html": {
+      "canonical_path": "data/external/geography_sources/m49-20261026/m49_overview.html",
+      "sha256": "b9048114f6e7f2abda83bf03d4263c9d7cd1bd7230e3d0461025ee7839a7a1fb",
+      "bytes": 1721575
+    },
+    "outputs/logs/regions/preparation-20261026T085748Z-7476ddc3-replay-r1/inputs/package/sources/m49_page.html": {
+      "canonical_path": "data/external/geography_sources/m49-20261026/m49_page.html",
+      "sha256": "4d5cabcb10ad9ef184553b5e64c0a34ba8deeb20dab2e02cd0be3599b93bb01d",
+      "bytes": 2051368
+    },
+    "outputs/logs/regions/preparation-20261026T085725Z-7476ddc3-r2/inputs/package/sources/m49_page.html": {
+      "canonical_path": "data/external/geography_sources/m49-20261026/m49_page.html",
+      "sha256": "4d5cabcb10ad9ef184553b5e64c0a34ba8deeb20dab2e02cd0be3599b93bb01d",
+      "bytes": 2051368
+    },
+    "outputs/logs/regions/preparation-20261026T085703Z-7476ddc3-r1/inputs/package/sources/m49_page.html": {
+      "canonical_path": "data/external/geography_sources/m49-20261026/m49_page.html",
+      "sha256": "4d5cabcb10ad9ef184553b5e64c0a34ba8deeb20dab2e02cd0be3599b93bb01d",
+      "bytes": 2051368
+    },
+    "outputs/logs/regions/grouping-acceptance-20261026/preparation-20261026T091035Z-82cd5e84-replay-r1/inputs/package/sources/m49_page.html": {
+      "canonical_path": "data/external/geography_sources/m49-20261026/m49_page.html",
+      "sha256": "4d5cabcb10ad9ef184553b5e64c0a34ba8deeb20dab2e02cd0be3599b93bb01d",
+      "bytes": 2051368
+    },
+    "outputs/logs/regions/grouping-acceptance-20261026/preparation-20261026T090739Z-82cd5e84-accepted-r1/inputs/package/sources/m49_page.html": {
+      "canonical_path": "data/external/geography_sources/m49-20261026/m49_page.html",
+      "sha256": "4d5cabcb10ad9ef184553b5e64c0a34ba8deeb20dab2e02cd0be3599b93bb01d",
+      "bytes": 2051368
+    },
+    "outputs/logs/regions/grouping-acceptance-20261026/preparation-20261026T090526Z-105910f5-accepted-r1/inputs/package/sources/m49_page.html": {
+      "canonical_path": "data/external/geography_sources/m49-20261026/m49_page.html",
+      "sha256": "4d5cabcb10ad9ef184553b5e64c0a34ba8deeb20dab2e02cd0be3599b93bb01d",
+      "bytes": 2051368
+    },
+    "outputs/logs/regions/preparation-20261026T085748Z-7476ddc3-replay-r1/inputs/package/sources/m49_overview.html": {
+      "canonical_path": "data/external/geography_sources/m49-20261026/m49_overview.html",
+      "sha256": "b9048114f6e7f2abda83bf03d4263c9d7cd1bd7230e3d0461025ee7839a7a1fb",
+      "bytes": 1721575
+    },
+    "outputs/logs/regions/preparation-20261026T085725Z-7476ddc3-r2/inputs/package/sources/m49_overview.html": {
+      "canonical_path": "data/external/geography_sources/m49-20261026/m49_overview.html",
+      "sha256": "b9048114f6e7f2abda83bf03d4263c9d7cd1bd7230e3d0461025ee7839a7a1fb",
+      "bytes": 1721575
+    },
+    "outputs/logs/regions/preparation-20261026T085703Z-7476ddc3-r1/inputs/package/sources/m49_overview.html": {
+      "canonical_path": "data/external/geography_sources/m49-20261026/m49_overview.html",
+      "sha256": "b9048114f6e7f2abda83bf03d4263c9d7cd1bd7230e3d0461025ee7839a7a1fb",
+      "bytes": 1721575
+    },
+    "outputs/logs/regions/grouping-acceptance-20261026/preparation-20261026T091035Z-82cd5e84-replay-r1/inputs/package/sources/m49_overview.html": {
+      "canonical_path": "data/external/geography_sources/m49-20261026/m49_overview.html",
+      "sha256": "b9048114f6e7f2abda83bf03d4263c9d7cd1bd7230e3d0461025ee7839a7a1fb",
+      "bytes": 1721575
+    },
+    "outputs/logs/regions/grouping-acceptance-20261026/preparation-20261026T090739Z-82cd5e84-accepted-r1/inputs/package/sources/m49_overview.html": {
+      "canonical_path": "data/external/geography_sources/m49-20261026/m49_overview.html",
+      "sha256": "b9048114f6e7f2abda83bf03d4263c9d7cd1bd7230e3d0461025ee7839a7a1fb",
+      "bytes": 1721575
+    },
+    "outputs/logs/regions/grouping-acceptance-20261026/preparation-20261026T090526Z-105910f5-accepted-r1/inputs/package/sources/m49_overview.html": {
+      "canonical_path": "data/external/geography_sources/m49-20261026/m49_overview.html",
+      "sha256": "b9048114f6e7f2abda83bf03d4263c9d7cd1bd7230e3d0461025ee7839a7a1fb",
+      "bytes": 1721575
+    }
+  },
+  "note": "Old manifests retain original bytes and hashes; current resolver follows these exact path relocations."
+}

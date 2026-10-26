@@ -1,0 +1,1261 @@
+{
+  "protocol_id": "regions-study-v2",
+  "scope": "Actual study teams, not all sovereign states or all M49 areas",
+  "teams": 215,
+  "date_rules": 217,
+  "partitions": [
+    {
+      "region_code": "002",
+      "region": "非洲",
+      "partition_code": "011",
+      "partition": "西非",
+      "teams": [
+        {
+          "team_id": "team:benin",
+          "name_zh": "贝宁",
+          "source_label": "Benin"
+        },
+        {
+          "team_id": "team:burkina-faso",
+          "name_zh": "布基纳法索",
+          "source_label": "Burkina Faso"
+        },
+        {
+          "team_id": "team:cape-verde",
+          "name_zh": "佛得角",
+          "source_label": "Cape Verde"
+        },
+        {
+          "team_id": "team:gambia",
+          "name_zh": "冈比亚",
+          "source_label": "Gambia"
+        },
+        {
+          "team_id": "team:ghana",
+          "name_zh": "加纳",
+          "source_label": "Ghana"
+        },
+        {
+          "team_id": "team:guinea",
+          "name_zh": "几内亚",
+          "source_label": "Guinea"
+        },
+        {
+          "team_id": "team:guinea-bissau",
+          "name_zh": "几内亚比绍",
+          "source_label": "Guinea-Bissau"
+        },
+        {
+          "team_id": "team:ivory-coast",
+          "name_zh": "科特迪瓦",
+          "source_label": "Ivory Coast"
+        },
+        {
+          "team_id": "team:liberia",
+          "name_zh": "利比里亚",
+          "source_label": "Liberia"
+        },
+        {
+          "team_id": "team:mali",
+          "name_zh": "马里",
+          "source_label": "Mali"
+        },
+        {
+          "team_id": "team:mauritania",
+          "name_zh": "毛里塔尼亚",
+          "source_label": "Mauritania"
+        },
+        {
+          "team_id": "team:niger",
+          "name_zh": "尼日尔",
+          "source_label": "Niger"
+        },
+        {
+          "team_id": "team:nigeria",
+          "name_zh": "尼日利亚",
+          "source_label": "Nigeria"
+        },
+        {
+          "team_id": "team:senegal",
+          "name_zh": "塞内加尔",
+          "source_label": "Senegal"
+        },
+        {
+          "team_id": "team:sierra-leone",
+          "name_zh": "塞拉利昂",
+          "source_label": "Sierra Leone"
+        },
+        {
+          "team_id": "team:togo",
+          "name_zh": "多哥",
+          "source_label": "Togo"
+        }
+      ]
+    },
+    {
+      "region_code": "002",
+      "region": "非洲",
+      "partition_code": "014",
+      "partition": "东非",
+      "teams": [
+        {
+          "team_id": "team:burundi",
+          "name_zh": "布隆迪",
+          "source_label": "Burundi"
+        },
+        {
+          "team_id": "team:comoros",
+          "name_zh": "科摩罗",
+          "source_label": "Comoros"
+        },
+        {
+          "team_id": "team:djibouti",
+          "name_zh": "吉布提",
+          "source_label": "Djibouti"
+        },
+        {
+          "team_id": "team:eritrea",
+          "name_zh": "厄立特里亚",
+          "source_label": "Eritrea"
+        },
+        {
+          "team_id": "team:ethiopia",
+          "name_zh": "埃塞俄比亚",
+          "source_label": "Ethiopia"
+        },
+        {
+          "team_id": "team:kenya",
+          "name_zh": "肯尼亚",
+          "source_label": "Kenya"
+        },
+        {
+          "team_id": "team:madagascar",
+          "name_zh": "马达加斯加",
+          "source_label": "Madagascar"
+        },
+        {
+          "team_id": "team:malawi",
+          "name_zh": "马拉维",
+          "source_label": "Malawi"
+        },
+        {
+          "team_id": "team:mauritius",
+          "name_zh": "毛里求斯",
+          "source_label": "Mauritius"
+        },
+        {
+          "team_id": "team:mozambique",
+          "name_zh": "莫桑比克",
+          "source_label": "Mozambique"
+        },
+        {
+          "team_id": "team:rwanda",
+          "name_zh": "卢旺达",
+          "source_label": "Rwanda"
+        },
+        {
+          "team_id": "team:seychelles",
+          "name_zh": "塞舌尔",
+          "source_label": "Seychelles"
+        },
+        {
+          "team_id": "team:somalia",
+          "name_zh": "索马里",
+          "source_label": "Somalia"
+        },
+        {
+          "team_id": "team:south-sudan",
+          "name_zh": "南苏丹",
+          "source_label": "South Sudan"
+        },
+        {
+          "team_id": "team:tanzania",
+          "name_zh": "坦桑尼亚",
+          "source_label": "Tanzania"
+        },
+        {
+          "team_id": "team:uganda",
+          "name_zh": "乌干达",
+          "source_label": "Uganda"
+        },
+        {
+          "team_id": "team:zambia",
+          "name_zh": "赞比亚",
+          "source_label": "Zambia"
+        },
+        {
+          "team_id": "team:zimbabwe",
+          "name_zh": "津巴布韦",
+          "source_label": "Zimbabwe"
+        }
+      ]
+    },
+    {
+      "region_code": "002",
+      "region": "非洲",
+      "partition_code": "015",
+      "partition": "北非",
+      "teams": [
+        {
+          "team_id": "team:algeria",
+          "name_zh": "阿尔及利亚",
+          "source_label": "Algeria"
+        },
+        {
+          "team_id": "team:egypt",
+          "name_zh": "埃及",
+          "source_label": "Egypt"
+        },
+        {
+          "team_id": "team:libya",
+          "name_zh": "利比亚",
+          "source_label": "Libya"
+        },
+        {
+          "team_id": "team:morocco",
+          "name_zh": "摩洛哥",
+          "source_label": "Morocco"
+        },
+        {
+          "team_id": "team:sudan",
+          "name_zh": "苏丹",
+          "source_label": "Sudan"
+        },
+        {
+          "team_id": "team:tunisia",
+          "name_zh": "突尼斯",
+          "source_label": "Tunisia"
+        }
+      ]
+    },
+    {
+      "region_code": "002",
+      "region": "非洲",
+      "partition_code": "017",
+      "partition": "中部非洲",
+      "teams": [
+        {
+          "team_id": "team:angola",
+          "name_zh": "安哥拉",
+          "source_label": "Angola"
+        },
+        {
+          "team_id": "team:cameroon",
+          "name_zh": "喀麦隆",
+          "source_label": "Cameroon"
+        },
+        {
+          "team_id": "team:central-african-republic",
+          "name_zh": "中非共和国",
+          "source_label": "Central African Republic"
+        },
+        {
+          "team_id": "team:chad",
+          "name_zh": "乍得",
+          "source_label": "Chad"
+        },
+        {
+          "team_id": "team:congo",
+          "name_zh": "刚果共和国",
+          "source_label": "Congo"
+        },
+        {
+          "team_id": "team:dr-congo",
+          "name_zh": "刚果民主共和国",
+          "source_label": "DR Congo"
+        },
+        {
+          "team_id": "team:equatorial-guinea",
+          "name_zh": "赤道几内亚",
+          "source_label": "Equatorial Guinea"
+        },
+        {
+          "team_id": "team:gabon",
+          "name_zh": "加蓬",
+          "source_label": "Gabon"
+        },
+        {
+          "team_id": "team:sao-tome-and-principe",
+          "name_zh": "圣多美和普林西比",
+          "source_label": "São Tomé and Príncipe"
+        }
+      ]
+    },
+    {
+      "region_code": "002",
+      "region": "非洲",
+      "partition_code": "018",
+      "partition": "南部非洲",
+      "teams": [
+        {
+          "team_id": "team:botswana",
+          "name_zh": "博茨瓦纳",
+          "source_label": "Botswana"
+        },
+        {
+          "team_id": "team:eswatini",
+          "name_zh": "埃斯瓦蒂尼",
+          "source_label": "Eswatini"
+        },
+        {
+          "team_id": "team:lesotho",
+          "name_zh": "莱索托",
+          "source_label": "Lesotho"
+        },
+        {
+          "team_id": "team:namibia",
+          "name_zh": "纳米比亚",
+          "source_label": "Namibia"
+        },
+        {
+          "team_id": "team:south-africa",
+          "name_zh": "南非",
+          "source_label": "South Africa"
+        }
+      ]
+    },
+    {
+      "region_code": "009",
+      "region": "大洋洲",
+      "partition_code": "053",
+      "partition": "澳大利亚和新西兰",
+      "teams": [
+        {
+          "team_id": "team:australia",
+          "name_zh": "澳大利亚",
+          "source_label": "Australia"
+        },
+        {
+          "team_id": "team:new-zealand",
+          "name_zh": "新西兰",
+          "source_label": "New Zealand"
+        }
+      ]
+    },
+    {
+      "region_code": "009",
+      "region": "大洋洲",
+      "partition_code": "054",
+      "partition": "美拉尼西亚",
+      "teams": [
+        {
+          "team_id": "team:fiji",
+          "name_zh": "斐济",
+          "source_label": "Fiji"
+        },
+        {
+          "team_id": "team:new-caledonia",
+          "name_zh": "新喀里多尼亚",
+          "source_label": "New Caledonia"
+        },
+        {
+          "team_id": "team:papua-new-guinea",
+          "name_zh": "巴布亚新几内亚",
+          "source_label": "Papua New Guinea"
+        },
+        {
+          "team_id": "team:solomon-islands",
+          "name_zh": "所罗门群岛",
+          "source_label": "Solomon Islands"
+        },
+        {
+          "team_id": "team:vanuatu",
+          "name_zh": "瓦努阿图",
+          "source_label": "Vanuatu"
+        }
+      ]
+    },
+    {
+      "region_code": "009",
+      "region": "大洋洲",
+      "partition_code": "057",
+      "partition": "密克罗尼西亚",
+      "teams": [
+        {
+          "team_id": "team:guam",
+          "name_zh": "关岛",
+          "source_label": "Guam"
+        }
+      ]
+    },
+    {
+      "region_code": "009",
+      "region": "大洋洲",
+      "partition_code": "061",
+      "partition": "波利尼西亚",
+      "teams": [
+        {
+          "team_id": "team:american-samoa",
+          "name_zh": "美属萨摩亚",
+          "source_label": "American Samoa"
+        },
+        {
+          "team_id": "team:cook-islands",
+          "name_zh": "库克群岛",
+          "source_label": "Cook Islands"
+        },
+        {
+          "team_id": "team:samoa",
+          "name_zh": "萨摩亚",
+          "source_label": "Samoa"
+        },
+        {
+          "team_id": "team:tahiti",
+          "name_zh": "大溪地",
+          "source_label": "Tahiti"
+        },
+        {
+          "team_id": "team:tonga",
+          "name_zh": "汤加",
+          "source_label": "Tonga"
+        }
+      ]
+    },
+    {
+      "region_code": "019",
+      "region": "美洲",
+      "partition_code": "005",
+      "partition": "南美洲",
+      "teams": [
+        {
+          "team_id": "team:argentina",
+          "name_zh": "阿根廷",
+          "source_label": "Argentina"
+        },
+        {
+          "team_id": "team:bolivia",
+          "name_zh": "玻利维亚",
+          "source_label": "Bolivia"
+        },
+        {
+          "team_id": "team:brazil",
+          "name_zh": "巴西",
+          "source_label": "Brazil"
+        },
+        {
+          "team_id": "team:chile",
+          "name_zh": "智利",
+          "source_label": "Chile"
+        },
+        {
+          "team_id": "team:colombia",
+          "name_zh": "哥伦比亚",
+          "source_label": "Colombia"
+        },
+        {
+          "team_id": "team:ecuador",
+          "name_zh": "厄瓜多尔",
+          "source_label": "Ecuador"
+        },
+        {
+          "team_id": "team:guyana",
+          "name_zh": "圭亚那",
+          "source_label": "Guyana"
+        },
+        {
+          "team_id": "team:paraguay",
+          "name_zh": "巴拉圭",
+          "source_label": "Paraguay"
+        },
+        {
+          "team_id": "team:peru",
+          "name_zh": "秘鲁",
+          "source_label": "Peru"
+        },
+        {
+          "team_id": "team:suriname",
+          "name_zh": "苏里南",
+          "source_label": "Suriname"
+        },
+        {
+          "team_id": "team:uruguay",
+          "name_zh": "乌拉圭",
+          "source_label": "Uruguay"
+        },
+        {
+          "team_id": "team:venezuela",
+          "name_zh": "委内瑞拉",
+          "source_label": "Venezuela"
+        }
+      ]
+    },
+    {
+      "region_code": "019",
+      "region": "美洲",
+      "partition_code": "013",
+      "partition": "中美洲",
+      "teams": [
+        {
+          "team_id": "team:belize",
+          "name_zh": "伯利兹",
+          "source_label": "Belize"
+        },
+        {
+          "team_id": "team:costa-rica",
+          "name_zh": "哥斯达黎加",
+          "source_label": "Costa Rica"
+        },
+        {
+          "team_id": "team:el-salvador",
+          "name_zh": "萨尔瓦多",
+          "source_label": "El Salvador"
+        },
+        {
+          "team_id": "team:guatemala",
+          "name_zh": "危地马拉",
+          "source_label": "Guatemala"
+        },
+        {
+          "team_id": "team:honduras",
+          "name_zh": "洪都拉斯",
+          "source_label": "Honduras"
+        },
+        {
+          "team_id": "team:mexico",
+          "name_zh": "墨西哥",
+          "source_label": "Mexico"
+        },
+        {
+          "team_id": "team:nicaragua",
+          "name_zh": "尼加拉瓜",
+          "source_label": "Nicaragua"
+        },
+        {
+          "team_id": "team:panama",
+          "name_zh": "巴拿马",
+          "source_label": "Panama"
+        }
+      ]
+    },
+    {
+      "region_code": "019",
+      "region": "美洲",
+      "partition_code": "021",
+      "partition": "北部美洲",
+      "teams": [
+        {
+          "team_id": "team:bermuda",
+          "name_zh": "百慕大",
+          "source_label": "Bermuda"
+        },
+        {
+          "team_id": "team:canada",
+          "name_zh": "加拿大",
+          "source_label": "Canada"
+        },
+        {
+          "team_id": "team:united-states",
+          "name_zh": "美国",
+          "source_label": "United States"
+        }
+      ]
+    },
+    {
+      "region_code": "019",
+      "region": "美洲",
+      "partition_code": "029",
+      "partition": "加勒比地区",
+      "teams": [
+        {
+          "team_id": "team:anguilla",
+          "name_zh": "安圭拉",
+          "source_label": "Anguilla"
+        },
+        {
+          "team_id": "team:antigua-and-barbuda",
+          "name_zh": "安提瓜和巴布达",
+          "source_label": "Antigua and Barbuda"
+        },
+        {
+          "team_id": "team:aruba",
+          "name_zh": "阿鲁巴",
+          "source_label": "Aruba"
+        },
+        {
+          "team_id": "team:bahamas",
+          "name_zh": "巴哈马",
+          "source_label": "Bahamas"
+        },
+        {
+          "team_id": "team:barbados",
+          "name_zh": "巴巴多斯",
+          "source_label": "Barbados"
+        },
+        {
+          "team_id": "team:british-virgin-islands",
+          "name_zh": "英属维尔京群岛",
+          "source_label": "British Virgin Islands"
+        },
+        {
+          "team_id": "team:cayman-islands",
+          "name_zh": "开曼群岛",
+          "source_label": "Cayman Islands"
+        },
+        {
+          "team_id": "team:cuba",
+          "name_zh": "古巴",
+          "source_label": "Cuba"
+        },
+        {
+          "team_id": "team:curacao",
+          "name_zh": "库拉索",
+          "source_label": "Curaçao"
+        },
+        {
+          "team_id": "team:dominica",
+          "name_zh": "多米尼克",
+          "source_label": "Dominica"
+        },
+        {
+          "team_id": "team:dominican-republic",
+          "name_zh": "多米尼加共和国",
+          "source_label": "Dominican Republic"
+        },
+        {
+          "team_id": "team:grenada",
+          "name_zh": "格林纳达",
+          "source_label": "Grenada"
+        },
+        {
+          "team_id": "team:haiti",
+          "name_zh": "海地",
+          "source_label": "Haiti"
+        },
+        {
+          "team_id": "team:jamaica",
+          "name_zh": "牙买加",
+          "source_label": "Jamaica"
+        },
+        {
+          "team_id": "team:montserrat",
+          "name_zh": "蒙特塞拉特",
+          "source_label": "Montserrat"
+        },
+        {
+          "team_id": "team:puerto-rico",
+          "name_zh": "波多黎各",
+          "source_label": "Puerto Rico"
+        },
+        {
+          "team_id": "team:saint-kitts-and-nevis",
+          "name_zh": "圣基茨和尼维斯",
+          "source_label": "Saint Kitts and Nevis"
+        },
+        {
+          "team_id": "team:saint-lucia",
+          "name_zh": "圣卢西亚",
+          "source_label": "Saint Lucia"
+        },
+        {
+          "team_id": "team:saint-vincent-and-the-grenadines",
+          "name_zh": "圣文森特和格林纳丁斯",
+          "source_label": "Saint Vincent and the Grenadines"
+        },
+        {
+          "team_id": "team:sint-maarten",
+          "name_zh": "荷属圣马丁",
+          "source_label": "Sint Maarten"
+        },
+        {
+          "team_id": "team:trinidad-and-tobago",
+          "name_zh": "特立尼达和多巴哥",
+          "source_label": "Trinidad and Tobago"
+        },
+        {
+          "team_id": "team:turks-and-caicos-islands",
+          "name_zh": "特克斯和凯科斯群岛",
+          "source_label": "Turks and Caicos Islands"
+        },
+        {
+          "team_id": "team:united-states-virgin-islands",
+          "name_zh": "美属维尔京群岛",
+          "source_label": "United States Virgin Islands"
+        }
+      ]
+    },
+    {
+      "region_code": "142",
+      "region": "亚洲",
+      "partition_code": "030",
+      "partition": "东亚",
+      "teams": [
+        {
+          "team_id": "team:china",
+          "name_zh": "中国",
+          "source_label": "China"
+        },
+        {
+          "team_id": "team:hong-kong",
+          "name_zh": "中国香港",
+          "source_label": "Hong Kong"
+        },
+        {
+          "team_id": "team:japan",
+          "name_zh": "日本",
+          "source_label": "Japan"
+        },
+        {
+          "team_id": "team:macau",
+          "name_zh": "中国澳门",
+          "source_label": "Macau"
+        },
+        {
+          "team_id": "team:mongolia",
+          "name_zh": "蒙古",
+          "source_label": "Mongolia"
+        },
+        {
+          "team_id": "team:north-korea",
+          "name_zh": "朝鲜",
+          "source_label": "North Korea"
+        },
+        {
+          "team_id": "team:south-korea",
+          "name_zh": "韩国",
+          "source_label": "South Korea"
+        },
+        {
+          "team_id": "team:taiwan",
+          "name_zh": "中华台北",
+          "source_label": "Taiwan"
+        }
+      ]
+    },
+    {
+      "region_code": "142",
+      "region": "亚洲",
+      "partition_code": "034",
+      "partition": "南亚",
+      "teams": [
+        {
+          "team_id": "team:afghanistan",
+          "name_zh": "阿富汗",
+          "source_label": "Afghanistan"
+        },
+        {
+          "team_id": "team:bangladesh",
+          "name_zh": "孟加拉国",
+          "source_label": "Bangladesh"
+        },
+        {
+          "team_id": "team:bhutan",
+          "name_zh": "不丹",
+          "source_label": "Bhutan"
+        },
+        {
+          "team_id": "team:india",
+          "name_zh": "印度",
+          "source_label": "India"
+        },
+        {
+          "team_id": "team:iran",
+          "name_zh": "伊朗",
+          "source_label": "Iran"
+        },
+        {
+          "team_id": "team:maldives",
+          "name_zh": "马尔代夫",
+          "source_label": "Maldives"
+        },
+        {
+          "team_id": "team:nepal",
+          "name_zh": "尼泊尔",
+          "source_label": "Nepal"
+        },
+        {
+          "team_id": "team:pakistan",
+          "name_zh": "巴基斯坦",
+          "source_label": "Pakistan"
+        },
+        {
+          "team_id": "team:sri-lanka",
+          "name_zh": "斯里兰卡",
+          "source_label": "Sri Lanka"
+        }
+      ]
+    },
+    {
+      "region_code": "142",
+      "region": "亚洲",
+      "partition_code": "035",
+      "partition": "东南亚",
+      "teams": [
+        {
+          "team_id": "team:brunei",
+          "name_zh": "文莱",
+          "source_label": "Brunei"
+        },
+        {
+          "team_id": "team:cambodia",
+          "name_zh": "柬埔寨",
+          "source_label": "Cambodia"
+        },
+        {
+          "team_id": "team:indonesia",
+          "name_zh": "印度尼西亚",
+          "source_label": "Indonesia"
+        },
+        {
+          "team_id": "team:laos",
+          "name_zh": "老挝",
+          "source_label": "Laos"
+        },
+        {
+          "team_id": "team:malaysia",
+          "name_zh": "马来西亚",
+          "source_label": "Malaysia"
+        },
+        {
+          "team_id": "team:myanmar",
+          "name_zh": "缅甸",
+          "source_label": "Myanmar"
+        },
+        {
+          "team_id": "team:philippines",
+          "name_zh": "菲律宾",
+          "source_label": "Philippines"
+        },
+        {
+          "team_id": "team:singapore",
+          "name_zh": "新加坡",
+          "source_label": "Singapore"
+        },
+        {
+          "team_id": "team:thailand",
+          "name_zh": "泰国",
+          "source_label": "Thailand"
+        },
+        {
+          "team_id": "team:timor-leste",
+          "name_zh": "东帝汶",
+          "source_label": "Timor-Leste"
+        },
+        {
+          "team_id": "team:vietnam",
+          "name_zh": "越南",
+          "source_label": "Vietnam"
+        }
+      ]
+    },
+    {
+      "region_code": "142",
+      "region": "亚洲",
+      "partition_code": "143",
+      "partition": "中亚",
+      "teams": [
+        {
+          "team_id": "team:kazakhstan",
+          "name_zh": "哈萨克斯坦",
+          "source_label": "Kazakhstan"
+        },
+        {
+          "team_id": "team:kyrgyzstan",
+          "name_zh": "吉尔吉斯斯坦",
+          "source_label": "Kyrgyzstan"
+        },
+        {
+          "team_id": "team:tajikistan",
+          "name_zh": "塔吉克斯坦",
+          "source_label": "Tajikistan"
+        },
+        {
+          "team_id": "team:turkmenistan",
+          "name_zh": "土库曼斯坦",
+          "source_label": "Turkmenistan"
+        },
+        {
+          "team_id": "team:uzbekistan",
+          "name_zh": "乌兹别克斯坦",
+          "source_label": "Uzbekistan"
+        }
+      ]
+    },
+    {
+      "region_code": "142",
+      "region": "亚洲",
+      "partition_code": "145",
+      "partition": "西亚",
+      "teams": [
+        {
+          "team_id": "team:armenia",
+          "name_zh": "亚美尼亚",
+          "source_label": "Armenia"
+        },
+        {
+          "team_id": "team:azerbaijan",
+          "name_zh": "阿塞拜疆",
+          "source_label": "Azerbaijan"
+        },
+        {
+          "team_id": "team:bahrain",
+          "name_zh": "巴林",
+          "source_label": "Bahrain"
+        },
+        {
+          "team_id": "team:cyprus",
+          "name_zh": "塞浦路斯",
+          "source_label": "Cyprus"
+        },
+        {
+          "team_id": "team:georgia",
+          "name_zh": "格鲁吉亚",
+          "source_label": "Georgia"
+        },
+        {
+          "team_id": "team:iraq",
+          "name_zh": "伊拉克",
+          "source_label": "Iraq"
+        },
+        {
+          "team_id": "team:israel",
+          "name_zh": "以色列",
+          "source_label": "Israel"
+        },
+        {
+          "team_id": "team:jordan",
+          "name_zh": "约旦",
+          "source_label": "Jordan"
+        },
+        {
+          "team_id": "team:kuwait",
+          "name_zh": "科威特",
+          "source_label": "Kuwait"
+        },
+        {
+          "team_id": "team:lebanon",
+          "name_zh": "黎巴嫩",
+          "source_label": "Lebanon"
+        },
+        {
+          "team_id": "team:oman",
+          "name_zh": "阿曼",
+          "source_label": "Oman"
+        },
+        {
+          "team_id": "team:palestine",
+          "name_zh": "巴勒斯坦",
+          "source_label": "Palestine"
+        },
+        {
+          "team_id": "team:qatar",
+          "name_zh": "卡塔尔",
+          "source_label": "Qatar"
+        },
+        {
+          "team_id": "team:saudi-arabia",
+          "name_zh": "沙特阿拉伯",
+          "source_label": "Saudi Arabia"
+        },
+        {
+          "team_id": "team:syria",
+          "name_zh": "叙利亚",
+          "source_label": "Syria"
+        },
+        {
+          "team_id": "team:turkey",
+          "name_zh": "土耳其",
+          "source_label": "Turkey"
+        },
+        {
+          "team_id": "team:united-arab-emirates",
+          "name_zh": "阿联酋",
+          "source_label": "United Arab Emirates"
+        },
+        {
+          "team_id": "team:yemen",
+          "name_zh": "也门",
+          "source_label": "Yemen"
+        }
+      ]
+    },
+    {
+      "region_code": "150",
+      "region": "欧洲",
+      "partition_code": "039",
+      "partition": "南欧",
+      "teams": [
+        {
+          "team_id": "team:albania",
+          "name_zh": "阿尔巴尼亚",
+          "source_label": "Albania"
+        },
+        {
+          "team_id": "team:andorra",
+          "name_zh": "安道尔",
+          "source_label": "Andorra"
+        },
+        {
+          "team_id": "team:bosnia-and-herzegovina",
+          "name_zh": "波斯尼亚和黑塞哥维那",
+          "source_label": "Bosnia and Herzegovina"
+        },
+        {
+          "team_id": "team:croatia",
+          "name_zh": "克罗地亚",
+          "source_label": "Croatia"
+        },
+        {
+          "team_id": "team:gibraltar",
+          "name_zh": "直布罗陀",
+          "source_label": "Gibraltar"
+        },
+        {
+          "team_id": "team:greece",
+          "name_zh": "希腊",
+          "source_label": "Greece"
+        },
+        {
+          "team_id": "team:italy",
+          "name_zh": "意大利",
+          "source_label": "Italy"
+        },
+        {
+          "team_id": "team:kosovo",
+          "name_zh": "科索沃",
+          "source_label": "Kosovo"
+        },
+        {
+          "team_id": "team:malta",
+          "name_zh": "马耳他",
+          "source_label": "Malta"
+        },
+        {
+          "team_id": "team:montenegro",
+          "name_zh": "黑山",
+          "source_label": "Montenegro"
+        },
+        {
+          "team_id": "team:north-macedonia",
+          "name_zh": "北马其顿",
+          "source_label": "North Macedonia"
+        },
+        {
+          "team_id": "team:portugal",
+          "name_zh": "葡萄牙",
+          "source_label": "Portugal"
+        },
+        {
+          "team_id": "team:san-marino",
+          "name_zh": "圣马力诺",
+          "source_label": "San Marino"
+        },
+        {
+          "team_id": "team:serbia",
+          "name_zh": "塞尔维亚",
+          "source_label": "Serbia"
+        },
+        {
+          "team_id": "team:slovenia",
+          "name_zh": "斯洛文尼亚",
+          "source_label": "Slovenia"
+        },
+        {
+          "team_id": "team:spain",
+          "name_zh": "西班牙",
+          "source_label": "Spain"
+        },
+        {
+          "team_id": "team:yugoslavia",
+          "name_zh": "南斯拉夫",
+          "source_label": "Yugoslavia"
+        }
+      ]
+    },
+    {
+      "region_code": "150",
+      "region": "欧洲",
+      "partition_code": "151",
+      "partition": "东欧",
+      "teams": [
+        {
+          "team_id": "team:belarus",
+          "name_zh": "白俄罗斯",
+          "source_label": "Belarus"
+        },
+        {
+          "team_id": "team:bulgaria",
+          "name_zh": "保加利亚",
+          "source_label": "Bulgaria"
+        },
+        {
+          "team_id": "team:czech-republic",
+          "name_zh": "捷克",
+          "source_label": "Czech Republic"
+        },
+        {
+          "team_id": "team:czechoslovakia",
+          "name_zh": "捷克斯洛伐克",
+          "source_label": "Czechoslovakia"
+        },
+        {
+          "team_id": "team:hungary",
+          "name_zh": "匈牙利",
+          "source_label": "Hungary"
+        },
+        {
+          "team_id": "team:moldova",
+          "name_zh": "摩尔多瓦",
+          "source_label": "Moldova"
+        },
+        {
+          "team_id": "team:poland",
+          "name_zh": "波兰",
+          "source_label": "Poland"
+        },
+        {
+          "team_id": "team:romania",
+          "name_zh": "罗马尼亚",
+          "source_label": "Romania"
+        },
+        {
+          "team_id": "team:russia",
+          "name_zh": "俄罗斯",
+          "source_label": "Russia"
+        },
+        {
+          "team_id": "team:slovakia",
+          "name_zh": "斯洛伐克",
+          "source_label": "Slovakia"
+        },
+        {
+          "team_id": "team:ukraine",
+          "name_zh": "乌克兰",
+          "source_label": "Ukraine"
+        }
+      ]
+    },
+    {
+      "region_code": "150",
+      "region": "欧洲",
+      "partition_code": "154",
+      "partition": "北欧",
+      "teams": [
+        {
+          "team_id": "team:denmark",
+          "name_zh": "丹麦",
+          "source_label": "Denmark"
+        },
+        {
+          "team_id": "team:england",
+          "name_zh": "英格兰",
+          "source_label": "England"
+        },
+        {
+          "team_id": "team:estonia",
+          "name_zh": "爱沙尼亚",
+          "source_label": "Estonia"
+        },
+        {
+          "team_id": "team:faroe-islands",
+          "name_zh": "法罗群岛",
+          "source_label": "Faroe Islands"
+        },
+        {
+          "team_id": "team:finland",
+          "name_zh": "芬兰",
+          "source_label": "Finland"
+        },
+        {
+          "team_id": "team:iceland",
+          "name_zh": "冰岛",
+          "source_label": "Iceland"
+        },
+        {
+          "team_id": "team:latvia",
+          "name_zh": "拉脱维亚",
+          "source_label": "Latvia"
+        },
+        {
+          "team_id": "team:lithuania",
+          "name_zh": "立陶宛",
+          "source_label": "Lithuania"
+        },
+        {
+          "team_id": "team:northern-ireland",
+          "name_zh": "北爱尔兰",
+          "source_label": "Northern Ireland"
+        },
+        {
+          "team_id": "team:norway",
+          "name_zh": "挪威",
+          "source_label": "Norway"
+        },
+        {
+          "team_id": "team:republic-of-ireland",
+          "name_zh": "爱尔兰",
+          "source_label": "Republic of Ireland"
+        },
+        {
+          "team_id": "team:scotland",
+          "name_zh": "苏格兰",
+          "source_label": "Scotland"
+        },
+        {
+          "team_id": "team:sweden",
+          "name_zh": "瑞典",
+          "source_label": "Sweden"
+        },
+        {
+          "team_id": "team:wales",
+          "name_zh": "威尔士",
+          "source_label": "Wales"
+        }
+      ]
+    },
+    {
+      "region_code": "150",
+      "region": "欧洲",
+      "partition_code": "155",
+      "partition": "西欧",
+      "teams": [
+        {
+          "team_id": "team:austria",
+          "name_zh": "奥地利",
+          "source_label": "Austria"
+        },
+        {
+          "team_id": "team:belgium",
+          "name_zh": "比利时",
+          "source_label": "Belgium"
+        },
+        {
+          "team_id": "team:france",
+          "name_zh": "法国",
+          "source_label": "France"
+        },
+        {
+          "team_id": "team:german-dr",
+          "name_zh": "民主德国（东德）",
+          "source_label": "German DR"
+        },
+        {
+          "team_id": "team:germany",
+          "name_zh": "德国",
+          "source_label": "Germany"
+        },
+        {
+          "team_id": "team:liechtenstein",
+          "name_zh": "列支敦士登",
+          "source_label": "Liechtenstein"
+        },
+        {
+          "team_id": "team:luxembourg",
+          "name_zh": "卢森堡",
+          "source_label": "Luxembourg"
+        },
+        {
+          "team_id": "team:netherlands",
+          "name_zh": "荷兰",
+          "source_label": "Netherlands"
+        },
+        {
+          "team_id": "team:switzerland",
+          "name_zh": "瑞士",
+          "source_label": "Switzerland"
+        }
+      ]
+    }
+  ],
+  "unknown_date_rules": 2,
+  "chinese_names": "Project display labels; original labels and IDs retained"
+}

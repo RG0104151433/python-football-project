@@ -22,6 +22,7 @@ from __future__ import annotations
 import argparse
 import csv
 import hashlib
+import importlib.util
 import html as htmllib
 import json
 import os
@@ -33,6 +34,22 @@ import tempfile
 import traceback
 from collections import Counter, defaultdict
 from datetime import date, datetime, timezone
+from pathlib import Path
+
+
+def _storage_module():
+    here = Path(__file__).resolve()
+    candidates = [here.with_name("artifact_store.py")]
+    candidates.extend(p / "src/artifact_store.py" for p in here.parents)
+    path = next(p for p in candidates if p.is_file())
+    spec = importlib.util.spec_from_file_location("region_artifact_store", path)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    root = next(p for p in here.parents if (p / "AGENTS.md").is_file())
+    return module, path, root
+
+
+STORE, STORE_CODE, STORE_ROOT = _storage_module()
 
 ROOT_DEFAULT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PKG_REL = os.path.join("data", "external", "geography_preparation", "geo-prep-v3")
@@ -65,6 +82,7 @@ class InputError(Exception):
 
 
 def sha256(path):
+    path = STORE.resolve_artifact(path, STORE_ROOT)
     h = hashlib.sha256()
     with open(path, "rb") as f:
         for chunk in iter(lambda: f.read(1 << 20), b""):
@@ -94,6 +112,7 @@ def d(s):
 
 # ---------------------------------------------------------------- M49
 def parse_m49(path):
+    path = STORE.resolve_artifact(path, STORE_ROOT)
     t = open(path, encoding="utf-8", errors="ignore").read()
     areas, nodes, parents = {}, {}, {}
     for r in re.findall(r"<tr[^>]*>(.*?)</tr>", t, re.S):
@@ -376,6 +395,8 @@ def snapshot_inputs(run, sources):
     """复制全部输入到 run/inputs/，登记并复核 SHA；计算只读快照。"""
     manifest = {"schema_version": "region-inputs-v3", "items": {}}
     for role, src in sorted(sources.items()):
+        original_src = src
+        src = str(STORE.resolve_artifact(src, STORE_ROOT))
         if not os.path.exists(src):
             raise InputError("输入文件不存在", stage="snapshot_inputs", detail={"role": role, "path": src})
         if role.startswith("package_sources_"):
@@ -386,20 +407,27 @@ def snapshot_inputs(run, sources):
             folder = os.path.join(run, "inputs", "external")
         os.makedirs(folder, exist_ok=True)
         snap = os.path.join(folder, os.path.basename(src))
-        shutil.copyfile(src, snap)
+        if STORE.is_shared_source(src):
+            snap = str(STORE_ROOT / STORE.CANONICAL / os.path.basename(src))
+            if not os.path.isfile(snap) or sha256(snap) != sha256(src):
+                raise InputError("共享M49原件缺失或指纹不符", stage="snapshot_inputs")
+        else:
+            shutil.copyfile(src, snap)
         h_src, h_snap = sha256(src), sha256(snap)
         if h_src != h_snap:
             raise InputError("快照复制后哈希不一致", stage="snapshot_inputs",
                              detail={"role": role, "source": h_src, "snapshot": h_snap})
-        manifest["items"][role] = {"source_path": src, "snapshot_path": os.path.relpath(snap, run),
+        manifest["items"][role] = {"source_path": original_src, "snapshot_path": os.path.relpath(snap, run),
                                    "sha256": h_snap, "bytes": os.path.getsize(snap)}
+        if STORE.is_shared_source(src):
+            manifest["items"][role].update(storage="shared", shared_path=Path(snap).relative_to(STORE_ROOT).as_posix())
     with open(os.path.join(run, "inputs", "inputs_manifest.json"), "w", encoding="utf-8", newline="\n") as f:
         json.dump(manifest, f, ensure_ascii=False, indent=1)
     return manifest
 
 
 def snapshot_paths(run, manifest):
-    return {role: os.path.join(run, item["snapshot_path"]) for role, item in manifest["items"].items()}
+    return {role: str(STORE.resolve_input(run, item, STORE_ROOT)) for role, item in manifest["items"].items()}
 
 
 # ---------------------------------------------------------------- self tests
@@ -971,6 +999,7 @@ def prepare(args):
         stage["stage"] = "code_snapshot"
         os.makedirs(os.path.join(run, "code"), exist_ok=True)
         shutil.copyfile(script_path, os.path.join(run, "code", "prepare_region_mapping.py"))
+        shutil.copyfile(STORE_CODE, os.path.join(run, "code", "artifact_store.py"))
         stage["stage"] = "snapshot_inputs"
         sources = build_sources(pkg, args.q2, args.clean, args.identity)
         snapshot = snapshot_inputs(run, sources)
@@ -993,64 +1022,74 @@ def prepare(args):
 
 
 def replay(args):
-    root = os.path.abspath(args.root)
-    orig = os.path.abspath(args.run)
+    """Execute preserved computation code with a shared-storage I/O adapter."""
+    root, orig = os.path.abspath(args.root), os.path.abspath(args.run)
     man_path = os.path.join(orig, "inputs", "inputs_manifest.json")
-    if not os.path.exists(man_path):
-        raise InputError("原运行缺少 inputs_manifest.json", stage="replay", detail={"run": orig})
+    if not os.path.isfile(man_path):
+        raise InputError("原运行缺少 inputs_manifest.json", stage="replay")
     man = json.load(open(man_path, encoding="utf-8"))
-    # A replay must use recorded bytes, including provenance-only inputs.
-    for role, item in man["items"].items():
-        snapshot = os.path.join(orig, item["snapshot_path"])
-        if not os.path.isfile(snapshot) or sha256(snapshot) != item["sha256"]:
-            raise InputError("输入快照与登记指纹不一致，拒绝重放", stage="replay",
-                             detail={"role": role, "snapshot_path": item["snapshot_path"]})
+    try:
+        sources = {role: str(STORE.resolve_input(orig, item, root))
+                   for role, item in man["items"].items()}
+    except (FileNotFoundError, ValueError) as ex:
+        raise InputError("输入快照与登记指纹不一致，拒绝重放", stage="replay") from ex
     code_snapshot = os.path.join(orig, "code", "prepare_region_mapping.py")
-    if not os.path.exists(code_snapshot):
-        raise InputError("原运行缺少代码快照", stage="replay", detail={"run": orig})
-    old_manifest_path = os.path.join(orig, "manifest.json")
-    if os.path.exists(old_manifest_path):
-        original_files = json.load(open(old_manifest_path, encoding="utf-8"))["files"]
-        expected_inputs = original_files.get("inputs/inputs_manifest.json")
-        if expected_inputs and sha256(man_path) != expected_inputs:
-            raise InputError("输入清单与旧 manifest 不一致，拒绝重放", stage="replay")
-        expected_code = original_files.get("code/prepare_region_mapping.py")
-        if expected_code and sha256(code_snapshot) != expected_code:
-            raise InputError("代码快照与旧 manifest 不一致", stage="replay", detail={"run": orig})
-    snap = {role: os.path.join(orig, item["snapshot_path"]) for role, item in man["items"].items()}
-    pkg_snap = os.path.join(orig, "inputs", "package")
-    cmd = [sys.executable, code_snapshot, "prepare", "--root", root, "--package", pkg_snap,
-           "--q2", snap["q2_membership"], "--clean", snap["matches_clean"],
-           "--identity", os.path.join(orig, "inputs", "external"),
-           "--run-root", os.path.abspath(args.run_root),
-           "--tag", f"replay-{os.path.basename(orig).split('-')[-1]}"]
-    proc = subprocess.run(cmd, capture_output=True, text=True, cwd=root, timeout=1800)
-    if proc.returncode != 0:
-        raise InputError("重放运行失败", stage="replay",
-                         detail={"returncode": proc.returncode, "stdout": proc.stdout[-800:]})
-    line = [l for l in proc.stdout.splitlines() if l.strip().startswith("{")][-1]
-    new_run = os.path.join(root, json.loads(line)["run_dir"])
-    same, diff = [], []
-    for f in sorted(os.listdir(orig)):
-        if not f.endswith(".csv"):
-            continue
-        a, b = os.path.join(orig, f), os.path.join(new_run, f)
-        if os.path.exists(b) and sha256(a) == sha256(b):
-            same.append(f)
-        else:
-            diff.append(f)
-    res = {"schema_version": "region-replay-v3", "original_run": os.path.relpath(orig, root),
-           "replay_run": os.path.relpath(new_run, root), "code_snapshot": "code/prepare_region_mapping.py",
-           "code_snapshot_sha256": sha256(code_snapshot),
-           "csv_checked": len(same) + len(diff), "csv_identical": len(same), "csv_diff": diff,
-           "note": "重放使用原运行的代码快照与输入快照；新目录不覆盖原运行"}
-    json.dump(res, open(os.path.join(new_run, "replay_check.json"), "w", encoding="utf-8", newline="\n"),
-              ensure_ascii=False, indent=1)
-    rep = json.load(open(os.path.join(new_run, "validation_report.json"), encoding="utf-8"))
-    write_manifest(new_run, rep)
-    print(json.dumps({"original": os.path.relpath(orig, root), "replay": os.path.relpath(new_run, root),
-                      "csv_identical": len(same), "csv_diff": diff}, ensure_ascii=False))
-    return 0 if not diff else 3
+    original_files = json.load(open(os.path.join(orig, "manifest.json"), encoding="utf-8"))["files"]
+    if sha256(man_path) != original_files.get("inputs/inputs_manifest.json"):
+        raise InputError("输入清单与旧 manifest 不一致，拒绝重放", stage="replay")
+    if sha256(code_snapshot) != original_files.get("code/prepare_region_mapping.py"):
+        raise InputError("代码快照与旧 manifest 不一致", stage="replay")
+    stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%fZ")
+    new_run = os.path.join(os.path.abspath(args.run_root),
+                          f"preparation-{stamp}-{sha256(code_snapshot)[:8]}-shared-replay")
+    os.makedirs(os.path.join(new_run, "code"), exist_ok=False)
+    checks, stage = [], {"stage": "replay_init"}
+    try:
+        shutil.copyfile(code_snapshot, os.path.join(new_run, "code", "prepare_region_mapping.py"))
+        shutil.copyfile(os.path.abspath(__file__), os.path.join(new_run, "code", "storage_replay_adapter.py"))
+        shutil.copyfile(STORE_CODE, os.path.join(new_run, "code", "artifact_store.py"))
+        snap_manifest = snapshot_inputs(new_run, sources)
+        snap = snapshot_paths(new_run, snap_manifest)
+        spec = importlib.util.spec_from_file_location("pinned_region_computation", code_snapshot)
+        pinned = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(pinned)
+        # Only legacy path resolution is adapted; parsing, rules and counting
+        # functions execute from the original unmodified code snapshot.
+        original_parse = pinned.parse_m49
+        pinned.parse_m49 = lambda path: original_parse(str(STORE.resolve_artifact(path, root)))
+        with tempfile.TemporaryDirectory(prefix="region-legacy-package-") as folder:
+            package = Path(folder)
+            for role, path in sources.items():
+                if not role.startswith("package_"):
+                    continue
+                destination = package / ("sources" if role.startswith("package_sources_") else "") / Path(path).name
+                destination.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copyfile(path, destination)
+            snap["package_root"] = str(package)
+            report = pinned.run_core(new_run, snap, "shared-source-replay", root, checks, stage)
+        same, diff = [], []
+        for filename in sorted(os.listdir(orig)):
+            if not filename.endswith(".csv"):
+                continue
+            candidate = os.path.join(new_run, filename)
+            (same if os.path.isfile(candidate) and sha256(os.path.join(orig, filename)) == sha256(candidate)
+             else diff).append(filename)
+        result = {"schema_version": "region-replay-shared-v1",
+                  "original_run": os.path.relpath(orig, root),
+                  "replay_run": os.path.relpath(new_run, root),
+                  "execution_mode": "original_run_core_with_explicit_storage_adapter",
+                  "code_snapshot_sha256": sha256(code_snapshot),
+                  "storage_adapter_sha256": sha256(os.path.abspath(__file__)),
+                  "csv_checked": len(same)+len(diff), "csv_identical": len(same), "csv_diff": diff,
+                  "note": "历史清单未修改；只适配文件位置，算法使用原代码，HTML临时兼容副本在结束后移除"}
+        json.dump(result, open(os.path.join(new_run, "replay_check.json"), "w", encoding="utf-8"),
+                  ensure_ascii=False, indent=1)
+        write_manifest(new_run, report)
+        print(json.dumps(result, ensure_ascii=False))
+        return 0 if not diff else 3
+    except Exception as ex:
+        failure_report(new_run, stage["stage"], ex, checks)
+        raise InputError("共享资料重放失败", stage="replay", detail={"run_dir":new_run}) from ex
 
 
 def finalize(run_dir):

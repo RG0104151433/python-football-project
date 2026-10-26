@@ -1,0 +1,87 @@
+{
+ "schema_version": "region-inputs-v3",
+ "items": {
+  "identity_adopted_decisions": {
+   "source_path": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\data\\processed\\team_identity\\identity-reviewed-29d880765c1623764940\\adopted_decisions.csv",
+   "snapshot_path": "inputs\\external\\adopted_decisions.csv",
+   "sha256": "a17e1e2ad5ae3234ce4fa7be6a8267460378f82a0cae671b3e79263c9ecdf1a7",
+   "bytes": 399112
+  },
+  "identity_association_registry": {
+   "source_path": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\data\\processed\\team_identity\\identity-reviewed-29d880765c1623764940\\association_registry.csv",
+   "snapshot_path": "inputs\\external\\association_registry.csv",
+   "sha256": "fe7d7ca532238804562d9a0bc999112aad660ba107560708fecb078aee6faf80",
+   "bytes": 11556
+  },
+  "identity_historical_exceptions": {
+   "source_path": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\data\\processed\\team_identity\\identity-reviewed-29d880765c1623764940\\historical_exceptions.json",
+   "snapshot_path": "inputs\\external\\historical_exceptions.json",
+   "sha256": "5af632557c6e5347faa528d12f390e08c509530a17249104b59063f895565524",
+   "bytes": 849
+  },
+  "matches_clean": {
+   "source_path": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\data\\processed\\prep-3fab808178cf8ad71d88\\matches_clean.csv",
+   "snapshot_path": "inputs\\external\\matches_clean.csv",
+   "sha256": "69ba00073970fe011a62f5871c08ace6285d7fe75d5a0d79afdac0ef972de9dc",
+   "bytes": 28438320
+  },
+  "package_carrier": {
+   "source_path": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\data\\external\\geography_preparation\\geo-prep-v3\\carrier_model.csv",
+   "snapshot_path": "inputs\\package\\carrier_model.csv",
+   "sha256": "2e0061753e79e7e5ac8323f0ac1e0ffb9c841f0d1fb45900f45575100e32708b",
+   "bytes": 19657
+  },
+  "package_dictionary": {
+   "source_path": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\data\\external\\geography_preparation\\geo-prep-v3\\region_dictionary.csv",
+   "snapshot_path": "inputs\\package\\region_dictionary.csv",
+   "sha256": "03ffadade84c6a5813b0c0c1d804e2a32a32f86598a414771c0be6a2d725fbab",
+   "bytes": 9321
+  },
+  "package_exceptions": {
+   "source_path": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\data\\external\\geography_preparation\\geo-prep-v3\\exceptions.csv",
+   "snapshot_path": "inputs\\package\\exceptions.csv",
+   "sha256": "9c4256eb2890540087e28ca81f042f2c02342379946b8842a55af272861596c0",
+   "bytes": 4032
+  },
+  "package_seed": {
+   "source_path": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\data\\external\\geography_preparation\\geo-prep-v3\\team_geography_seed.csv",
+   "snapshot_path": "inputs\\package\\team_geography_seed.csv",
+   "sha256": "e16b82c72384e721174e7188f20ea7a398a46127e23b272667f0b85e77406935",
+   "bytes": 7114
+  },
+  "package_sources": {
+   "source_path": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\data\\external\\geography_preparation\\geo-prep-v3\\sources.csv",
+   "snapshot_path": "inputs\\package\\sources.csv",
+   "sha256": "f0475f82a0af5141877e0fdb5f799d086920adac50bcb267fc96ccd68f5e04ff",
+   "bytes": 2587
+  },
+  "package_sources_m49_overview": {
+   "source_path": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\data\\external\\geography_preparation\\geo-prep-v3\\sources\\m49_overview.html",
+   "snapshot_path": "..\\..\\..\\..\\..\\data\\external\\geography_sources\\m49-20261026\\m49_overview.html",
+   "sha256": "b9048114f6e7f2abda83bf03d4263c9d7cd1bd7230e3d0461025ee7839a7a1fb",
+   "bytes": 1721575,
+   "storage": "shared",
+   "shared_path": "data/external/geography_sources/m49-20261026/m49_overview.html"
+  },
+  "package_sources_m49_page": {
+   "source_path": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\data\\external\\geography_preparation\\geo-prep-v3\\sources\\m49_page.html",
+   "snapshot_path": "..\\..\\..\\..\\..\\data\\external\\geography_sources\\m49-20261026\\m49_page.html",
+   "sha256": "4d5cabcb10ad9ef184553b5e64c0a34ba8deeb20dab2e02cd0be3599b93bb01d",
+   "bytes": 2051368,
+   "storage": "shared",
+   "shared_path": "data/external/geography_sources/m49-20261026/m49_page.html"
+  },
+  "package_specs": {
+   "source_path": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\data\\external\\geography_preparation\\geo-prep-v3\\candidate_specs.csv",
+   "snapshot_path": "inputs\\package\\candidate_specs.csv",
+   "sha256": "6057c8e3369afca2fa18e3748df17ff6463a7099aff509f6f64400029b11a452",
+   "bytes": 7394
+  },
+  "q2_membership": {
+   "source_path": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\outputs\\tables\\tournaments\\tournaments-4893e38db46f83f6c219\\analysis_membership.csv",
+   "snapshot_path": "inputs\\external\\analysis_membership.csv",
+   "sha256": "4294840536c707abef248b166c015de8f7fac39dcf14a37c7dcd75911283e166",
+   "bytes": 14519534
+  }
+ }
+}

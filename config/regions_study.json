@@ -1,7 +1,7 @@
 {
-  "schema_version": "regions-study-protocol-v1",
-  "protocol_id": "regions-study-v1",
-  "decision_log_id": "R20261026-14",
+  "schema_version": "regions-study-protocol-v2",
+  "protocol_id": "regions-study-v2",
+  "decision_log_id": "R20261026-16",
   "status": "fixed_descriptive_scope_no_outcome_results",
   "scope": {
     "start": "1980-01-01",
@@ -46,7 +46,14 @@
       "B_cross_definition": "opponent outside Americas, not merely outside South America",
       "B_middle_definition": "other fine units within Americas"
     },
-    "rollups_change_relation_definition": false
+    "rollups_change_relation_definition": false,
+    "source_storage": {
+      "canonical_directory": "data/external/geography_sources/m49-20261026",
+      "relocations": "data/external/geography_sources/m49-20261026/relocations.json",
+      "old_manifests_unchanged": true,
+      "legacy_replay": "current prepare_region_mapping.py replay uses original run_core and explicit storage adapter",
+      "persistent_html_copies": 2
+    }
   },
   "groups": {
     "PARENT": {
@@ -126,7 +133,7 @@
       ]
     },
     "B_EUR_SAME": {
-      "label": "欧洲主队：同细区",
+      "label": "欧洲主队：同一地理分区",
       "eligibility": "B",
       "home_regions": [
         "150"
@@ -137,7 +144,7 @@
       ]
     },
     "B_EUR_OTHER_UNIT": {
-      "label": "欧洲主队：同大区异细区",
+      "label": "欧洲主队：同大区不同地理分区",
       "eligibility": "B",
       "home_regions": [
         "150"
@@ -172,7 +179,7 @@
       ]
     },
     "B_ASIA_SAME": {
-      "label": "亚洲主队：同细区",
+      "label": "亚洲主队：同一地理分区",
       "eligibility": "B",
       "home_regions": [
         "142"
@@ -183,7 +190,7 @@
       ]
     },
     "B_ASIA_OTHER_UNIT": {
-      "label": "亚洲主队：同大区异细区",
+      "label": "亚洲主队：同大区不同地理分区",
       "eligibility": "B",
       "home_regions": [
         "142"
@@ -220,7 +227,7 @@
       ]
     },
     "B_SA_SAME": {
-      "label": "南美洲主队：同细区",
+      "label": "南美洲主队：同一地理分区",
       "eligibility": "B",
       "home_regions": [
         "019"
@@ -233,7 +240,7 @@
       ]
     },
     "B_SA_OTHER_UNIT": {
-      "label": "南美洲主队：同大区异细区",
+      "label": "南美洲主队：同大区不同地理分区",
       "eligibility": "B",
       "home_regions": [
         "019"
@@ -259,7 +266,7 @@
       ]
     },
     "C_AFR_REF": {
-      "label": "非洲主队细区明确的全部比赛",
+      "label": "非洲主队地理分区明确的全部比赛",
       "eligibility": "C",
       "home_regions": [
         "002"
@@ -268,7 +275,7 @@
       "relations": []
     },
     "C_AMER_REF": {
-      "label": "美洲主队细区明确的全部比赛",
+      "label": "美洲主队地理分区明确的全部比赛",
       "eligibility": "C",
       "home_regions": [
         "019"
@@ -277,7 +284,7 @@
       "relations": []
     },
     "C_ASIA_REF": {
-      "label": "亚洲主队细区明确的全部比赛",
+      "label": "亚洲主队地理分区明确的全部比赛",
       "eligibility": "C",
       "home_regions": [
         "142"
@@ -286,7 +293,7 @@
       "relations": []
     },
     "C_EUR_REF": {
-      "label": "欧洲主队细区明确的全部比赛",
+      "label": "欧洲主队地理分区明确的全部比赛",
       "eligibility": "C",
       "home_regions": [
         "150"
@@ -320,7 +327,7 @@
       "relations": []
     },
     "C_OTHER_AMER": {
-      "label": "美洲其他细区",
+      "label": "美洲其他地理分区",
       "eligibility": "C",
       "home_regions": [
         "019"
@@ -417,68 +424,75 @@
   "comparisons": [
     {
       "id": "B_EUR",
-      "label": "欧洲：跨大区减同细区",
-      "role": "primary",
+      "label": "欧洲：跨大区减同一地理分区",
+      "role": "study_subanalysis",
       "family": "B",
       "arm1": "B_EUR_CROSS",
       "arm2": "B_EUR_SAME",
-      "reference_group": "B_EUR_REF"
+      "reference_group": "B_EUR_REF",
+      "parent_study": "EUROPE"
     },
     {
       "id": "B_ASIA",
-      "label": "亚洲：跨大区减同细区",
-      "role": "primary",
+      "label": "亚洲：跨大区减同一地理分区",
+      "role": "study_subanalysis",
       "family": "B",
       "arm1": "B_ASIA_CROSS",
       "arm2": "B_ASIA_SAME",
-      "reference_group": "B_ASIA_REF"
+      "reference_group": "B_ASIA_REF",
+      "parent_study": "ASIA"
     },
     {
       "id": "B_SA",
-      "label": "南美洲：跨大区减同细区",
+      "label": "南美洲：跨大区减同一地理分区",
       "role": "descriptive_only",
       "standardized_policy": "unestimable_for_full_period_no_scope_change",
       "selection_note": "Count-only check before outcomes: cross-macroregion arm has no 2020_2024 matches in either tournament stratum; retain direct and stratum descriptions, do not delete years or impute",
       "family": "B",
       "arm1": "B_SA_CROSS",
       "arm2": "B_SA_SAME",
-      "reference_group": "B_SA_REF"
+      "reference_group": "B_SA_REF",
+      "parent_study": "AMERICAS"
     },
     {
       "id": "C_AFR",
       "label": "北非减撒哈拉以南非洲",
-      "role": "primary",
+      "role": "study_subanalysis",
       "family": "C",
       "arm1": "C_NAF",
       "arm2": "C_SSA",
-      "reference_group": "C_AFR_REF"
+      "reference_group": "C_AFR_REF",
+      "parent_study": "AFRICA"
     },
     {
       "id": "C_AMER",
-      "label": "南美洲减美洲其他细区",
-      "role": "primary",
+      "label": "南美洲减美洲其他地理分区",
+      "role": "study_subanalysis",
       "family": "C",
       "arm1": "SA_FEATURE",
       "arm2": "C_OTHER_AMER",
-      "reference_group": "C_AMER_REF"
+      "reference_group": "C_AMER_REF",
+      "parent_study": "AMERICAS"
     },
     {
       "id": "C_ASIA",
       "label": "西亚减东亚",
-      "role": "auxiliary",
+      "role": "study_subanalysis",
       "family": "C",
       "arm1": "C_WASIA",
       "arm2": "C_EASIA",
-      "reference_group": "C_ASIA_REF"
+      "reference_group": "C_ASIA_REF",
+      "parent_study": "ASIA"
     },
     {
       "id": "C_EUR",
       "label": "北欧减南欧",
-      "role": "auxiliary",
+      "role": "study_subanalysis",
       "family": "C",
       "arm1": "C_NEUR",
       "arm2": "C_SEUR",
-      "reference_group": "C_EUR_REF"
+      "reference_group": "C_EUR_REF",
+      "parent_study": "EUROPE"
     }
   ],
   "strata": {
@@ -568,7 +582,60 @@
     "question_5_strength": "not_run",
     "causal_claims": false,
     "p_values_or_confidence_intervals_in_q3": false,
-    "multiple_comparison_scope": "four primary standardized contrasts; two auxiliary separate; South America relation contrast descriptive only; shared matches not independent",
+    "multiple_comparison_scope": "四项研究含六个可估算的差值指标，另一个南美地域关系描述；第四问按实际指标和共享样本处理，不能因合并目录就按四个独立检验计算",
     "classification_sensitivity": "Q4 explicitly revisit carrier/boundary assumptions; do not change groups after observing outcome"
-  }
+  },
+  "previous_protocol": "config/archive/regions_study_v1.json",
+  "terminology": {
+    "formal_partition": "地理分区",
+    "method_definition": "依据M49最深非空层级构建互不重叠的统计地理分区，并保留M49原始层级",
+    "public_relations": {
+      "same_unit": "同一地理分区",
+      "same_region_diff_unit": "同大区不同地理分区",
+      "cross_region": "跨地理大区"
+    },
+    "europe_partitions": [
+      "151",
+      "154",
+      "039",
+      "155"
+    ],
+    "central_europe": "M49无单独中欧；不新建第五组，常见中欧国家明确列出现有归属，未来改用五分区须另立协议"
+  },
+  "studies": [
+    {
+      "id": "EUROPE",
+      "title": "欧洲主队的地域关系与欧洲内部差异",
+      "subanalyses": [
+        "B_EUR",
+        "C_EUR"
+      ],
+      "description": "地域关系为主线；北欧—南欧作为题内子项"
+    },
+    {
+      "id": "ASIA",
+      "title": "亚洲主队的地域关系与亚洲内部差异",
+      "subanalyses": [
+        "B_ASIA",
+        "C_ASIA"
+      ],
+      "description": "地域关系为主线；西亚—东亚作为题内子项"
+    },
+    {
+      "id": "AFRICA",
+      "title": "北非与撒哈拉以南非洲的主场表现",
+      "subanalyses": [
+        "C_AFR"
+      ]
+    },
+    {
+      "id": "AMERICAS",
+      "title": "南美洲与美洲其他地理分区的主场表现",
+      "subanalyses": [
+        "C_AMER",
+        "B_SA"
+      ],
+      "description": "洲内比较为主线；南美主客地域关系只作描述"
+    }
+  ]
 }

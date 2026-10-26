@@ -1,5 +1,7 @@
 # geo-prep-v3：第三问地域准备包（P1–P5 修订）
 
+**2026-10-26存储迁移（R20261026-16）：** 本包两份M49网页已统一移到[共享目录](../../geography_sources/m49-20261026/)，不再在sources/重复保存；旧CSV/清单及来源SHA保持原样，由relocations.json解析旧路径。当前程序/重放入口支持该布局，下面为R13交付时说明。分类和候选数据未改变，正式研究清单另以config/regions_study.json的v2为准。
+
 创建：2026-10-26。承接 [geo-prep-v2](../geo-prep-v2/) 与独立审查 `outputs/logs/regions/review-20261026-geo-prep-v2/review.json`（结论 arithmetic_reusable_targeted_handoff_and_input_hardening_required）。v1/v2 包与运行目录原样保留。
 
 ## 相对 v2 的变更
