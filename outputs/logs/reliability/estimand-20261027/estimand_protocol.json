@@ -1,0 +1,171 @@
+{
+  "schema_version": "reliability-estimand-v1",
+  "decision_log_id": "R20261027-07",
+  "status": "step_1_definition_complete_method_fit_pending",
+  "nature": "Retrospective planning definition, not an inferential result or preregistration before seeing descriptive results",
+  "document": "研究/04_共同可靠性/第一步_推断对象与固定条件.md",
+  "executor": "Codex (AI)",
+  "human_review": "not_performed",
+  "scope": {
+    "date_start": "1980-01-01",
+    "date_end": "2024-12-31",
+    "n_parent_matches": 24917,
+    "sample_id": "sample-3bc69e2cc4f843242018",
+    "data_version": "prep-3fab808178cf8ad71d88",
+    "identity_version": "identity-reviewed-29d880765c1623764940",
+    "analysis_ids": {
+      "question_1": "eras-fifa-dddf11dd6dc0b7531b88",
+      "question_2": "tournaments-4893e38db46f83f6c219",
+      "question_3": "regions-0a1c61664a722e6c641f"
+    },
+    "unit": "one match outcome, not one window membership",
+    "weighting": "match weighted, not equal countries",
+    "outcome": "home_win=1; draw or away_win=0; draws remain in denominator",
+    "result_basis": "after_extra_time_excluding_shootout",
+    "neutral_matches": "excluded",
+    "population": "Accepted archive and target-specific memberships; no global census or random-country representativeness claim"
+  },
+  "estimand": {
+    "primary_class": "retrospective_model_based_conditional_fixed_design_mean_or_contrast",
+    "conditioning_symbol": "D",
+    "observed_statistic": "sum_i a_ji(D,q)*y_i",
+    "unknown_target": "T_j(D,q)=sum_i a_ji(D,q)*P(Y_i=1|D)",
+    "direct_mean": "Actual within-group stratum-count shares",
+    "standardized_mean": "sum_s q_s*(sum_{i in I_gs} p_i(D)/n_gs)",
+    "contrast_direction": "arm1 minus arm2, as recorded in each source target",
+    "internal_scale": "probability",
+    "display_rate": "percent = 100*probability",
+    "display_difference": "percentage_points = 100*probability_difference",
+    "unbiasedness": "Conditional expectation identity under the declared joint law; not a proof of variance identifiability or consistency",
+    "covariance": "sum_i sum_l a_ji*a_kl*Cov(Y_i,Y_l|D)"
+  },
+  "fixed_conditions": [
+    "accepted parent and target membership",
+    "home/away identities and roles",
+    "dates and era/window definitions",
+    "tournament labels and non-neutral eligibility",
+    "current both-role geographic labels and historical carriers",
+    "group/stratum denominators",
+    "target-specific observed reference q and contrast directions"
+  ],
+  "not_conditioned_on": [
+    "observed outcome/score fields",
+    "unobserved latent strength states"
+  ],
+  "stochastic_component": "Joint match outcomes under a still-to-be-specified compatible conditional law; not iid resampling of countries or fixtures",
+  "dependence": {
+    "independent_matches_assumed": false,
+    "homogeneous_probability_within_stratum_assumed": false,
+    "shared_team_role_swap_repeated_pair": "must examine",
+    "common_time_nonshared_teams": "must examine",
+    "overlapping_targets_windows": "must retain",
+    "specific_joint_law": "not_selected",
+    "variance_identification": "not_validated"
+  },
+  "schedule_selection": {
+    "full_schedule_can_encode_prior_outcomes": true,
+    "causal_or_prospective_probability": false,
+    "requirement": "Method/simulation must explain schedule selection and what latent variation is averaged over. Fixed-design simulations ignoring qualification/scheduling are only conditional working-model validation, not full-history generative validation."
+  },
+  "reference_policy": {
+    "primary": "fix observed reference under conditional repetitions",
+    "estimated_from_counts_not_outcomes_does_not_prove_exogeneity": true,
+    "sensitivity": "Changing q, years, teams or labels defines a separately reported target/design; not part of this single conditional interval",
+    "unconditional_schedule_or_reference_variance": "outside primary scope; any addition requires a separate protocol"
+  },
+  "question_mapping": {
+    "question_1": {
+      "primary_contrast_ids": [
+        "2010s_minus_1980s",
+        "2020_2024_minus_1980s"
+      ],
+      "strata": "friendly / non_friendly within era",
+      "reference_id": "reference-90003d0bdb8d6f65cead",
+      "friendly_weight": {
+        "numerator": 9598,
+        "denominator": 24917,
+        "display": "0.3851988602"
+      },
+      "meaning": "Common tournament mixture, not Elo information weight",
+      "auxiliary": "raw/adjusted change, equal-year reference and weight curve share outcomes; exact inference family pending step 2"
+    },
+    "question_2": {
+      "overall_adjusted_id": "difference:overall:all:era_standardized",
+      "direction": "friendly minus non_friendly",
+      "reference_id": "overall:all:era:pooled_matches",
+      "strata": "era for full period; year within each rolling window",
+      "rolling": "36 overlapping ten-year windows, annual step, window-specific pooled-year reference",
+      "family": "Exact primary/auxiliary/curve family pending step 2; 237 recipes are not automatic tests"
+    },
+    "question_3": {
+      "strata": "era x tournament_group",
+      "reference": "target-specific existing reference_group",
+      "marginal_vs_conditional": "Actual opponent mixture versus specified directed opponent origin",
+      "adjusted_contrast_count": 24,
+      "descriptive_contrast_count": 29,
+      "adjusted_directed_rate_cells": 71,
+      "descriptive_directed_rate_cells": 155,
+      "unsupported": "Keep original unavailable state; no zero fill, silent layer drop or re-normalization",
+      "family": "Pending step 2; three post-result presentation cases are not a preregistered primary family",
+      "overrides": [
+        "Turkey: Europe/Southern Europe",
+        "Iran: Western Asia",
+        "Australia: Asia/Southeastern Asia"
+      ]
+    }
+  },
+  "excluded_claims": [
+    "uncertainty about an exactly counted historical archive proportion",
+    "causal effects of geography/tournament/era or pure home advantage",
+    "forecast probability for future fixtures",
+    "coverage of factual mistakes, missing matches or classification errors",
+    "proof of reliability by formulas alone"
+  ],
+  "acceptance": {
+    "definition_complete": true,
+    "target_law_and_method_fit_validated": false,
+    "final_inference_family_frozen": false,
+    "unified_coefficient_interface_implemented": false,
+    "selected_estimator": null,
+    "critical_value": null,
+    "simulation_run": false,
+    "formal_inference": "not_run",
+    "new_sensitivity": "not_run",
+    "next_gate": "Step 2: freeze concrete targets/families and reconstruct coefficients, dependence and support; step 3 establishes method assumptions and empirical validation"
+  },
+  "sources_read": [
+    {
+      "id": "P01",
+      "url": "https://arxiv.org/html/1312.3398v8",
+      "read_scope": "Sections 2-3, especially random-unit sampling, nonshared dyad covariance and repeated-observation growth; not all proofs revalidated"
+    },
+    {
+      "id": "P02",
+      "url": "https://arxiv.org/abs/1510.07074v6",
+      "read_scope": "Abstract and version metadata, not full proofs"
+    }
+  ],
+  "source_sha256": {
+    "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json": "a24a84ee948234131a7bcf48d09a2c7a9527fd3c1483fc7bbf246455ddba0afa",
+    "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/run_manifest.json": "c25cb3672ff004939171a59e460de8ba4c7f960fc35e1dbf033b1dbe2cced0ca",
+    "outputs/logs/regions/closeout-20261027/regions-20261027T084412226301Z-f05899a3/run_manifest.json": "6953f47bd876c86fbd73a13ca44c813ecf9955a0208ff2671a1d56261c20434b",
+    "config/confirmed_eras_reviewed.json": "032064001ff630c5528766b6bcbb9d539d324191a835f0f4f7718cbcdd85f531",
+    "config/eras_reviewed.json": "27bf38b406085ab83979628a04b2fca4d6d08d9c2bb5a06bfaea2e009932b65b",
+    "config/tournaments.json": "93d6ec435b9d47481845e1d16a8ac389138c5551c21b8f93b17e9065f05d561d",
+    "config/regions_study.json": "f29e8081a58c941ea6d51809ec69aacb9d5ad8c15a343866980afcf407d68c66",
+    "config/regions_study_overrides.json": "39cb1695212e0adf815093bfbbb6a4c06edd300871b4ff97462ac29f9b8107bc",
+    "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/reference_weights.csv": "691017d0bc41e5925ed6e97d4fe1d1a3411bbfdef3540e704df8c6a8c57a9953",
+    "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_contrasts.csv": "2118c13a38217d193f873a6e6acfb90bc1bd112be3761b74c231b37c03523e72",
+    "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/reference_weights.csv": "4a7f301aef4a169129e7b4acd2bd6e5d28a199dc10c4d3ccbd18493dc553eff0",
+    "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/type_differences.csv": "db684da0d555f1704642caa411f6f8adccbabff941dde76cdb8ae8def6f4088a",
+    "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/target_definitions.json": "5f43223ba12362bfc0e5b827b574d4101d769de5d054db5e0c7963424a771a0d",
+    "outputs/tables/regions/regions-0a1c61664a722e6c641f/analysis_matches.csv": "8b0ddb7f2e4d5eb2199c8c2b477e7873b1e46bc12421c4dddf5ac8809f91ca22",
+    "outputs/tables/regions/regions-0a1c61664a722e6c641f/reference_weights.csv": "b56f2e54601f00c426077a4080e4bb0bc05f97cbd6e1ec86be68290f0126210b",
+    "outputs/tables/regions/regions-0a1c61664a722e6c641f/contrast_results.csv": "c7baa604defcaca867fab2b460b12f9a61d1af690620ba12829ad5695452b27f",
+    "outputs/tables/regions/regions-0a1c61664a722e6c641f/matchup_rates.csv": "76bd0eaff66d50e7c7d817bdaa740913b5ddaeb885bcd990a3a213496319bcee",
+    "outputs/logs/reliability/planning-20261027/verification_inventory.json": "efd9891de909d5bda1be5ef6fded0846fb59739e16d2941f0d696570671cf201",
+    "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/analysis_membership.csv": "5a773a0ff3a4da59efd02022f455b32a9e1bd5ef45059ba8c1899150bdadeb1e",
+    "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/analysis_membership.csv": "4294840536c707abef248b166c015de8f7fac39dcf14a37c7dcd75911283e166",
+    "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/rolling_windows.csv": "b87d91c0960ad84ea477c64c4d99d749e132ab2a67f95b5af65508432b3c9d88"
+  }
+}

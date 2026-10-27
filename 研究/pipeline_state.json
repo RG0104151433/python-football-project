@@ -122,7 +122,7 @@
     "descriptive_inputs_ready": true,
     "question_1_run": "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json",
     "question_2_run": "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/run_manifest.json",
-    "methodology_status": "Inventory of shared/specific checks completed; estimand, conditioning, method fit and simulation acceptance pending",
+    "methodology_status": "Step 1 conditional fixed-design estimand defined; concrete inference family/interface, compatible result law, theory fit and simulation acceptance pending",
     "question_2_recent_stability": "Deferred to question 4; not tested, R20261025-17",
     "followup_register": "文档/05_团队协作/分工与交付/04_两题共同可靠性与敏感性.md",
     "followup_register_status": "prepared_not_executed",
@@ -140,7 +140,8 @@
     "previous_v3_descriptive_inputs_ready": true,
     "support_audit": "outputs/logs/regions/closeout-20261027/support/support_audit.json",
     "three_question_handoff_review": "outputs/logs/regions/final-handoff-20261027/review.json",
-    "verification_inventory": "outputs/logs/reliability/planning-20261027/verification_inventory.json"
+    "verification_inventory": "outputs/logs/reliability/planning-20261027/verification_inventory.json",
+    "estimand_protocol": "outputs/logs/reliability/estimand-20261027/estimand_protocol.json"
   },
   "descriptive_handoff": {
     "decision_log_id": "R20261025-18",
@@ -1802,7 +1803,7 @@
   },
   "question_4": {
     "title": "前三问统一分析",
-    "status": "verification_inventory_completed_method_design_pending",
+    "status": "step_1_estimand_defined_step_2_target_and_dependence_pending",
     "decision_log_id": "R20261026-01",
     "task_document": "文档/05_团队协作/分工与交付/04_两题共同可靠性与敏感性.md",
     "scope": [
@@ -1816,7 +1817,7 @@
     "preanalysis_preparation": {
       "decision_log_id": "R20261026-05",
       "document": "文档/05_团队协作/分工与交付/04_两题共同可靠性与敏感性.md",
-      "status": "current_descriptive_inputs_available_inventory_complete_inference_gates_pending",
+      "status": "step_1_definition_complete_step_2_target_interface_pending",
       "requires": [
         "target catalog A home-background, B within-background relations, C within-macroregion detail with primary/auxiliary contrasts",
         "versioned geographic hierarchy, historical-entity exceptions and partial unknown handling",
@@ -1878,9 +1879,10 @@
         "Q3-02",
         "Q3-03"
       ],
-      "inference_target_and_randomness_finalized": false,
+      "inference_target_and_randomness_finalized": true,
       "uniform_coefficient_interface": "not_implemented_existing_reconstruction_information_available",
-      "method_theory_fit_validated": false
+      "method_theory_fit_validated": false,
+      "inference_target_definition_scope": "Fixed-design retrospective conditional mean/contrast; general random outcomes defined, specific joint law/variance identification not validated"
     },
     "planning_document": "研究/04_共同可靠性/README.md",
     "verification_inventory": "outputs/logs/reliability/planning-20261027/verification_inventory.json",
@@ -1888,7 +1890,35 @@
     "verification_inventory_completed": true,
     "results_generated": false,
     "selected_inference_estimator": null,
-    "next_gate": "Define inference target, source of randomness and conditioning/fixed-reference policy before choosing an estimator"
+    "next_gate": "Step 2: freeze concrete inference targets/families; reconstruct coefficients and inspect dependence/support. Method and conditional-law validation remain step 3.",
+    "estimand_protocol": "outputs/logs/reliability/estimand-20261027/estimand_protocol.json",
+    "estimand_document": "研究/04_共同可靠性/第一步_推断对象与固定条件.md",
+    "estimand_definition_log_id": "R20261027-07",
+    "estimand_definition_completed": true,
+    "conditional_result_law_specified": false,
+    "four_step_progress": [
+      {
+        "step": 1,
+        "task": "estimand and fixed conditions",
+        "status": "definition_completed_method_fit_not_validated",
+        "evidence": "outputs/logs/reliability/estimand-20261027/estimand_protocol.json"
+      },
+      {
+        "step": 2,
+        "task": "concrete targets/families, coefficients, dependence and support",
+        "status": "pending_unified_stage_existing_inputs_available"
+      },
+      {
+        "step": 3,
+        "task": "theory/method fit, implementation and actual validation",
+        "status": "not_run"
+      },
+      {
+        "step": 4,
+        "task": "approved real inference, planned sensitivity and conclusion revision",
+        "status": "not_run"
+      }
+    ]
   },
   "question_5": {
     "additional_gate": "Historical entity and Elo warmup membership require separate approval",

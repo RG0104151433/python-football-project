@@ -1,0 +1,593 @@
+{
+  "schema_version": "reliability-definition-review-v1",
+  "decision_log_id": "R20261027-07",
+  "status": "passed_definition_and_provenance_only",
+  "executor": "Codex (AI)",
+  "human_review": "not_performed",
+  "protocol": "outputs/logs/reliability/estimand-20261027/estimand_protocol.json",
+  "protocol_sha256": "76e2746f3e72b4376a59fdfbc9dbb59303478d4a1c1f936b0598b0ff351caa41",
+  "source_bindings": {
+    "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json": "a24a84ee948234131a7bcf48d09a2c7a9527fd3c1483fc7bbf246455ddba0afa",
+    "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/run_manifest.json": "c25cb3672ff004939171a59e460de8ba4c7f960fc35e1dbf033b1dbe2cced0ca",
+    "outputs/logs/regions/closeout-20261027/regions-20261027T084412226301Z-f05899a3/run_manifest.json": "6953f47bd876c86fbd73a13ca44c813ecf9955a0208ff2671a1d56261c20434b",
+    "config/confirmed_eras_reviewed.json": "032064001ff630c5528766b6bcbb9d539d324191a835f0f4f7718cbcdd85f531",
+    "config/eras_reviewed.json": "27bf38b406085ab83979628a04b2fca4d6d08d9c2bb5a06bfaea2e009932b65b",
+    "config/tournaments.json": "93d6ec435b9d47481845e1d16a8ac389138c5551c21b8f93b17e9065f05d561d",
+    "config/regions_study.json": "f29e8081a58c941ea6d51809ec69aacb9d5ad8c15a343866980afcf407d68c66",
+    "config/regions_study_overrides.json": "39cb1695212e0adf815093bfbbb6a4c06edd300871b4ff97462ac29f9b8107bc",
+    "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/reference_weights.csv": "691017d0bc41e5925ed6e97d4fe1d1a3411bbfdef3540e704df8c6a8c57a9953",
+    "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_contrasts.csv": "2118c13a38217d193f873a6e6acfb90bc1bd112be3761b74c231b37c03523e72",
+    "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/reference_weights.csv": "4a7f301aef4a169129e7b4acd2bd6e5d28a199dc10c4d3ccbd18493dc553eff0",
+    "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/type_differences.csv": "db684da0d555f1704642caa411f6f8adccbabff941dde76cdb8ae8def6f4088a",
+    "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/target_definitions.json": "5f43223ba12362bfc0e5b827b574d4101d769de5d054db5e0c7963424a771a0d",
+    "outputs/tables/regions/regions-0a1c61664a722e6c641f/analysis_matches.csv": "8b0ddb7f2e4d5eb2199c8c2b477e7873b1e46bc12421c4dddf5ac8809f91ca22",
+    "outputs/tables/regions/regions-0a1c61664a722e6c641f/reference_weights.csv": "b56f2e54601f00c426077a4080e4bb0bc05f97cbd6e1ec86be68290f0126210b",
+    "outputs/tables/regions/regions-0a1c61664a722e6c641f/contrast_results.csv": "c7baa604defcaca867fab2b460b12f9a61d1af690620ba12829ad5695452b27f",
+    "outputs/tables/regions/regions-0a1c61664a722e6c641f/matchup_rates.csv": "76bd0eaff66d50e7c7d817bdaa740913b5ddaeb885bcd990a3a213496319bcee",
+    "outputs/logs/reliability/planning-20261027/verification_inventory.json": "efd9891de909d5bda1be5ef6fded0846fb59739e16d2941f0d696570671cf201",
+    "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/analysis_membership.csv": "5a773a0ff3a4da59efd02022f455b32a9e1bd5ef45059ba8c1899150bdadeb1e",
+    "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/analysis_membership.csv": "4294840536c707abef248b166c015de8f7fac39dcf14a37c7dcd75911283e166",
+    "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/rolling_windows.csv": "b87d91c0960ad84ea477c64c4d99d749e132ab2a67f95b5af65508432b3c9d88"
+  },
+  "checks": [
+    {
+      "id": "three_analysis_versions",
+      "passed": true,
+      "detail": "Current three run identities match protocol"
+    },
+    {
+      "id": "same_parent_match_ids",
+      "passed": true,
+      "detail": "24917 IDs each, exact set equality"
+    },
+    {
+      "id": "outcome_scope",
+      "passed": true,
+      "detail": "Non-neutral; home-win indicator, draw denominator and outcome basis preserved"
+    },
+    {
+      "id": "q1_primary_contrasts",
+      "passed": true,
+      "detail": "Retain original two contrasts"
+    },
+    {
+      "id": "q1_reference",
+      "passed": true,
+      "detail": "Fixed original main reference, not equal-year or Elo training weight"
+    },
+    {
+      "id": "q2_overall_reference",
+      "passed": true,
+      "detail": "Five pooled era shares"
+    },
+    {
+      "id": "q2_direction_and_scale",
+      "passed": true,
+      "detail": "Recipe explicitly friendly minus non-friendly in pp"
+    },
+    {
+      "id": "q2_window_catalogue",
+      "passed": true,
+      "detail": "Existing 36 overlapping ten-year windows, not new analyses"
+    },
+    {
+      "id": "q3_contrast_support",
+      "passed": true,
+      "detail": "29 descriptive contrasts, 24 adjusted"
+    },
+    {
+      "id": "q3_directed_support",
+      "passed": true,
+      "detail": "155 directed cells, 71 adjusted"
+    },
+    {
+      "id": "q3_no_match_no_fake_rate",
+      "passed": true,
+      "detail": "Zero match cells stay undefined"
+    },
+    {
+      "id": "no_formal_intervals_added",
+      "passed": true,
+      "detail": "Original Q1/Q2 difference fields remain not_run"
+    },
+    {
+      "id": "step1_not_method_acceptance",
+      "passed": true,
+      "detail": "Target definition only, final family/law/method pending"
+    },
+    {
+      "id": "source_21_bindings_unchanged",
+      "passed": true,
+      "detail": "Current source snapshots unchanged"
+    },
+    {
+      "id": "current_progress_state",
+      "passed": true,
+      "detail": "Definition complete, no method or result status invented"
+    },
+    {
+      "id": "unique_log_ids",
+      "passed": true,
+      "detail": "No repeated IDs"
+    },
+    {
+      "id": "no_missing_local_links",
+      "passed": true,
+      "detail": "Permission-limited legacy links separately listed, not claimed verified"
+    }
+  ],
+  "prior_output_bindings": {
+    "references": 79,
+    "distinct_paths": 79,
+    "all_match": true,
+    "records": [
+      {
+        "path": "outputs/figures/eras/eras-fifa-dddf11dd6dc0b7531b88/era_results.png",
+        "expected": "e8f7c8bc673e142d76074d497680ba9212932e8e5d42379407b8e67ec0365926",
+        "actual": "e8f7c8bc673e142d76074d497680ba9212932e8e5d42379407b8e67ec0365926"
+      },
+      {
+        "path": "outputs/figures/eras/eras-fifa-dddf11dd6dc0b7531b88/era_results.svg",
+        "expected": "25ae07ea548b080a0b908543b60cfdd513e00daa5b49975f51d82ea1fe8fea11",
+        "actual": "25ae07ea548b080a0b908543b60cfdd513e00daa5b49975f51d82ea1fe8fea11"
+      },
+      {
+        "path": "outputs/figures/eras/eras-fifa-dddf11dd6dc0b7531b88/tournament_composition.png",
+        "expected": "2b53224e8feb411650ff5006016368bb74264b32d4766d832227849a17108dcd",
+        "actual": "2b53224e8feb411650ff5006016368bb74264b32d4766d832227849a17108dcd"
+      },
+      {
+        "path": "outputs/figures/eras/eras-fifa-dddf11dd6dc0b7531b88/tournament_composition.svg",
+        "expected": "12bc7c7fcdbc4bee8d5d3d8fb249e007d2ef5dee93eaf4a07c8c4ccd25063e7c",
+        "actual": "12bc7c7fcdbc4bee8d5d3d8fb249e007d2ef5dee93eaf4a07c8c4ccd25063e7c"
+      },
+      {
+        "path": "outputs/figures/eras/eras-fifa-dddf11dd6dc0b7531b88/weight_sensitivity.png",
+        "expected": "56e1248f4683a22b891cbc7a481739a6830d2edd3dfc82b8dcef3d132dc757e7",
+        "actual": "56e1248f4683a22b891cbc7a481739a6830d2edd3dfc82b8dcef3d132dc757e7"
+      },
+      {
+        "path": "outputs/figures/eras/eras-fifa-dddf11dd6dc0b7531b88/weight_sensitivity.svg",
+        "expected": "8f1947e1db78b15d2678b6c3c84926e70bbcf14164490095134722d2c28bb166",
+        "actual": "8f1947e1db78b15d2678b6c3c84926e70bbcf14164490095134722d2c28bb166"
+      },
+      {
+        "path": "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/checks.json",
+        "expected": "4696e85866bf244edad1564653eb14badc744356e1134841a104e48cdd6ec018",
+        "actual": "4696e85866bf244edad1564653eb14badc744356e1134841a104e48cdd6ec018"
+      },
+      {
+        "path": "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/summary.json",
+        "expected": "4c7f044aea075afb14eac98a95c6d3e95066a8f2492153d0def54a9eadce2260",
+        "actual": "4c7f044aea075afb14eac98a95c6d3e95066a8f2492153d0def54a9eadce2260"
+      },
+      {
+        "path": "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/summary.md",
+        "expected": "bf42a29f9cd2d1766a840a6ce9391f2f4b281ccc81fd585016f825e201837a22",
+        "actual": "bf42a29f9cd2d1766a840a6ce9391f2f4b281ccc81fd585016f825e201837a22"
+      },
+      {
+        "path": "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/analysis_membership.csv",
+        "expected": "5a773a0ff3a4da59efd02022f455b32a9e1bd5ef45059ba8c1899150bdadeb1e",
+        "actual": "5a773a0ff3a4da59efd02022f455b32a9e1bd5ef45059ba8c1899150bdadeb1e"
+      },
+      {
+        "path": "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/before_after.csv",
+        "expected": "919c4bfb20e11ad8944deb3bdd82948056dbf6b057e349fa9802575a6173caa2",
+        "actual": "919c4bfb20e11ad8944deb3bdd82948056dbf6b057e349fa9802575a6173caa2"
+      },
+      {
+        "path": "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/data_dictionary.md",
+        "expected": "1269f7355930eaf6576d763d67ea16ef0cc20b36ec4134c181022cb65e90a791",
+        "actual": "1269f7355930eaf6576d763d67ea16ef0cc20b36ec4134c181022cb65e90a791"
+      },
+      {
+        "path": "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_contrasts.csv",
+        "expected": "2118c13a38217d193f873a6e6acfb90bc1bd112be3761b74c231b37c03523e72",
+        "actual": "2118c13a38217d193f873a6e6acfb90bc1bd112be3761b74c231b37c03523e72"
+      },
+      {
+        "path": "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_estimates.csv",
+        "expected": "c2ea6c0e8d4f660a31a3aaf1308c30d7e56181eb12650f19305a1633b6c39446",
+        "actual": "c2ea6c0e8d4f660a31a3aaf1308c30d7e56181eb12650f19305a1633b6c39446"
+      },
+      {
+        "path": "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_summary.csv",
+        "expected": "2265a81ae84c4638c7c36fcf1bdd0f3af4bb4eed864e6a5923a6ba32ea10dab3",
+        "actual": "2265a81ae84c4638c7c36fcf1bdd0f3af4bb4eed864e6a5923a6ba32ea10dab3"
+      },
+      {
+        "path": "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_tournament_summary.csv",
+        "expected": "32ebafa526ba7cdce0ef7dd7098979f62644ec3151789573f197a71bae7f8910",
+        "actual": "32ebafa526ba7cdce0ef7dd7098979f62644ec3151789573f197a71bae7f8910"
+      },
+      {
+        "path": "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/reference_weights.csv",
+        "expected": "691017d0bc41e5925ed6e97d4fe1d1a3411bbfdef3540e704df8c6a8c57a9953",
+        "actual": "691017d0bc41e5925ed6e97d4fe1d1a3411bbfdef3540e704df8c6a8c57a9953"
+      },
+      {
+        "path": "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/sample_flow.csv",
+        "expected": "55b6d8c5b0aad9a3810bdb673349db2b60751e68adabc165c1b64df47af7cb29",
+        "actual": "55b6d8c5b0aad9a3810bdb673349db2b60751e68adabc165c1b64df47af7cb29"
+      },
+      {
+        "path": "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/schedule_diagnostics.csv",
+        "expected": "53d1441be48f82966889796a8cb060be54f2a58f27eb85f6e121fc945ef66421",
+        "actual": "53d1441be48f82966889796a8cb060be54f2a58f27eb85f6e121fc945ef66421"
+      },
+      {
+        "path": "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/team_schedule.csv",
+        "expected": "7764ee22988203d2faaa549362830d3bb524df91ad3dade323fc3873b1a5da8c",
+        "actual": "7764ee22988203d2faaa549362830d3bb524df91ad3dade323fc3873b1a5da8c"
+      },
+      {
+        "path": "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/weight_sensitivity.csv",
+        "expected": "688ba64593cf26aac901fd06a790234cb0b32a0486859965e5c4bd848a565fbe",
+        "actual": "688ba64593cf26aac901fd06a790234cb0b32a0486859965e5c4bd848a565fbe"
+      },
+      {
+        "path": "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/year_summary.csv",
+        "expected": "9f2618498bd244899c22378d2039488734ba3c51ba91715a3134c73806ff417b",
+        "actual": "9f2618498bd244899c22378d2039488734ba3c51ba91715a3134c73806ff417b"
+      },
+      {
+        "path": "outputs/figures/tournaments/tournaments-4893e38db46f83f6c219/era_comparison.png",
+        "expected": "fb1711b98ad76ecc94efec0dd5ce9ee46dfcf8b2761eea6127f80b6de1a4a791",
+        "actual": "fb1711b98ad76ecc94efec0dd5ce9ee46dfcf8b2761eea6127f80b6de1a4a791"
+      },
+      {
+        "path": "outputs/figures/tournaments/tournaments-4893e38db46f83f6c219/era_comparison.svg",
+        "expected": "23b3cc8d269f7f2afb8372f21b391f74dcd419ddf8f22f8717ae116317bb1c27",
+        "actual": "23b3cc8d269f7f2afb8372f21b391f74dcd419ddf8f22f8717ae116317bb1c27"
+      },
+      {
+        "path": "outputs/figures/tournaments/tournaments-4893e38db46f83f6c219/overall_comparison.png",
+        "expected": "173b85d440f708af45671c3e0b29f3506790b618421ccd1e6b376ba316562128",
+        "actual": "173b85d440f708af45671c3e0b29f3506790b618421ccd1e6b376ba316562128"
+      },
+      {
+        "path": "outputs/figures/tournaments/tournaments-4893e38db46f83f6c219/overall_comparison.svg",
+        "expected": "96404b8b2a1817e47205b1e6b626a88039b5efa8ffb371a7ac73c99eed28a73b",
+        "actual": "96404b8b2a1817e47205b1e6b626a88039b5efa8ffb371a7ac73c99eed28a73b"
+      },
+      {
+        "path": "outputs/figures/tournaments/tournaments-4893e38db46f83f6c219/rolling_comparison.png",
+        "expected": "5b7a3a7158920316dcfef99f8ba702ec0a593016762be417c24159119f5c8229",
+        "actual": "5b7a3a7158920316dcfef99f8ba702ec0a593016762be417c24159119f5c8229"
+      },
+      {
+        "path": "outputs/figures/tournaments/tournaments-4893e38db46f83f6c219/rolling_comparison.svg",
+        "expected": "043a2c6d7175864dd084943b8a298736a834028e88a26f8ed38926f5256994e5",
+        "actual": "043a2c6d7175864dd084943b8a298736a834028e88a26f8ed38926f5256994e5"
+      },
+      {
+        "path": "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/checks.json",
+        "expected": "2a8fe199b9710708d7aed4db52353edbfc3fe8a205c6a0ad971f8675a7c91c70",
+        "actual": "2a8fe199b9710708d7aed4db52353edbfc3fe8a205c6a0ad971f8675a7c91c70"
+      },
+      {
+        "path": "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/config_snapshot.json",
+        "expected": "5e941311409950b9ec11480e1c2dfda4ea473641402238fb362d974c65664dcd",
+        "actual": "5e941311409950b9ec11480e1c2dfda4ea473641402238fb362d974c65664dcd"
+      },
+      {
+        "path": "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/display_data.json",
+        "expected": "5373dde73b5bb83467c43dd5087c5adbc33bf04dceed71a29133515c2d1241c3",
+        "actual": "5373dde73b5bb83467c43dd5087c5adbc33bf04dceed71a29133515c2d1241c3"
+      },
+      {
+        "path": "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/issues.json",
+        "expected": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "actual": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "path": "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/summary.json",
+        "expected": "34ee5731f41066235b6cbdcffc9df117030062a006faa68bf6971e07122c8111",
+        "actual": "34ee5731f41066235b6cbdcffc9df117030062a006faa68bf6971e07122c8111"
+      },
+      {
+        "path": "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/summary.md",
+        "expected": "ae8deea3af73b915ba0b198dc7f38b0744425bd6fde61cbfecb80444e5ecd6d0",
+        "actual": "ae8deea3af73b915ba0b198dc7f38b0744425bd6fde61cbfecb80444e5ecd6d0"
+      },
+      {
+        "path": "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/analysis_membership.csv",
+        "expected": "4294840536c707abef248b166c015de8f7fac39dcf14a37c7dcd75911283e166",
+        "actual": "4294840536c707abef248b166c015de8f7fac39dcf14a37c7dcd75911283e166"
+      },
+      {
+        "path": "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/data_dictionary.md",
+        "expected": "26bd06323b5b8434b89a3c9c90e378adffcba34151720beb6f65eabfe7e4977c",
+        "actual": "26bd06323b5b8434b89a3c9c90e378adffcba34151720beb6f65eabfe7e4977c"
+      },
+      {
+        "path": "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/grouped_counts.csv",
+        "expected": "141c6950c2aa142ed9181330e04a2b9fec1f2b876c5d640c2947699fe0195d69",
+        "actual": "141c6950c2aa142ed9181330e04a2b9fec1f2b876c5d640c2947699fe0195d69"
+      },
+      {
+        "path": "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/reference_weights.csv",
+        "expected": "4a7f301aef4a169129e7b4acd2bd6e5d28a199dc10c4d3ccbd18493dc553eff0",
+        "actual": "4a7f301aef4a169129e7b4acd2bd6e5d28a199dc10c4d3ccbd18493dc553eff0"
+      },
+      {
+        "path": "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/rolling_counts.csv",
+        "expected": "29400b9c5472592fa489cc01ba09840d5d364945b3a6a35a7296dc63321ac7a8",
+        "actual": "29400b9c5472592fa489cc01ba09840d5d364945b3a6a35a7296dc63321ac7a8"
+      },
+      {
+        "path": "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/rolling_windows.csv",
+        "expected": "b87d91c0960ad84ea477c64c4d99d749e132ab2a67f95b5af65508432b3c9d88",
+        "actual": "b87d91c0960ad84ea477c64c4d99d749e132ab2a67f95b5af65508432b3c9d88"
+      },
+      {
+        "path": "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/sample_flow.csv",
+        "expected": "f4bfc2ecd26562d062f3ee80952154d82bba12e56f817ec2facd7ed4e9c90c83",
+        "actual": "f4bfc2ecd26562d062f3ee80952154d82bba12e56f817ec2facd7ed4e9c90c83"
+      },
+      {
+        "path": "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/target_definitions.json",
+        "expected": "5f43223ba12362bfc0e5b827b574d4101d769de5d054db5e0c7963424a771a0d",
+        "actual": "5f43223ba12362bfc0e5b827b574d4101d769de5d054db5e0c7963424a771a0d"
+      },
+      {
+        "path": "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/type_differences.csv",
+        "expected": "db684da0d555f1704642caa411f6f8adccbabff941dde76cdb8ae8def6f4088a",
+        "actual": "db684da0d555f1704642caa411f6f8adccbabff941dde76cdb8ae8def6f4088a"
+      },
+      {
+        "path": "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/type_estimates.csv",
+        "expected": "ca14f604568b54905c6800201152609877f43c0db9228e41dd789219eb8468ef",
+        "actual": "ca14f604568b54905c6800201152609877f43c0db9228e41dd789219eb8468ef"
+      },
+      {
+        "path": "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/window_membership.csv",
+        "expected": "42f8c684c49b9a68732f9373a6c8bc386859a68a0cd85a9414c4bc3d36c6fd0f",
+        "actual": "42f8c684c49b9a68732f9373a6c8bc386859a68a0cd85a9414c4bc3d36c6fd0f"
+      },
+      {
+        "path": "outputs/figures/regions/regions-0a1c61664a722e6c641f/africa.png",
+        "expected": "5e794186212201f1d92a3accb07a7dbe6d5d5b79bb6f5a03082d458af631c08d",
+        "actual": "5e794186212201f1d92a3accb07a7dbe6d5d5b79bb6f5a03082d458af631c08d"
+      },
+      {
+        "path": "outputs/figures/regions/regions-0a1c61664a722e6c641f/africa.svg",
+        "expected": "c3aa5cb4b96354d1d75c5abe73ab58d43882b30156caacdf42ca571c810b57a0",
+        "actual": "c3aa5cb4b96354d1d75c5abe73ab58d43882b30156caacdf42ca571c810b57a0"
+      },
+      {
+        "path": "outputs/figures/regions/regions-0a1c61664a722e6c641f/americas.png",
+        "expected": "8bbd728fafe8c87576cb26251bf89a24286b7ef1fafbcd73fdd5a95da73d94ee",
+        "actual": "8bbd728fafe8c87576cb26251bf89a24286b7ef1fafbcd73fdd5a95da73d94ee"
+      },
+      {
+        "path": "outputs/figures/regions/regions-0a1c61664a722e6c641f/americas.svg",
+        "expected": "0a1761a80efb05f31c8ef7f709293db86c05257fe7334fa7a5a0f6923cb01f74",
+        "actual": "0a1761a80efb05f31c8ef7f709293db86c05257fe7334fa7a5a0f6923cb01f74"
+      },
+      {
+        "path": "outputs/figures/regions/regions-0a1c61664a722e6c641f/asia.png",
+        "expected": "be1ca8c0168878f40166c784d2eec59958b2d9437d3b58c05e81bcb376a7eb6e",
+        "actual": "be1ca8c0168878f40166c784d2eec59958b2d9437d3b58c05e81bcb376a7eb6e"
+      },
+      {
+        "path": "outputs/figures/regions/regions-0a1c61664a722e6c641f/asia.svg",
+        "expected": "8d325830e96c48821e25f23d27daace7adf36c5df282f3f02bdc25fd2ab22796",
+        "actual": "8d325830e96c48821e25f23d27daace7adf36c5df282f3f02bdc25fd2ab22796"
+      },
+      {
+        "path": "outputs/figures/regions/regions-0a1c61664a722e6c641f/europe.png",
+        "expected": "b6f51fda3d12aee0cd1d09f329c930509413a9973dcf68af3923a11da5023f05",
+        "actual": "b6f51fda3d12aee0cd1d09f329c930509413a9973dcf68af3923a11da5023f05"
+      },
+      {
+        "path": "outputs/figures/regions/regions-0a1c61664a722e6c641f/europe.svg",
+        "expected": "612ca8f350bb21a77d3c084192c3430f7a5abdb16c14b77fd3fb739cd390ccef",
+        "actual": "612ca8f350bb21a77d3c084192c3430f7a5abdb16c14b77fd3fb739cd390ccef"
+      },
+      {
+        "path": "outputs/figures/regions/regions-0a1c61664a722e6c641f/matrix_afr.png",
+        "expected": "af578dde79795abe9d48ac29ccc0bfebd336650d11c774ef50c33a758685cf46",
+        "actual": "af578dde79795abe9d48ac29ccc0bfebd336650d11c774ef50c33a758685cf46"
+      },
+      {
+        "path": "outputs/figures/regions/regions-0a1c61664a722e6c641f/matrix_afr.svg",
+        "expected": "912f7a36ec0ce4067efdb3ef1c7ed8f956df8f92ba9bef8cea1cd05af6831235",
+        "actual": "912f7a36ec0ce4067efdb3ef1c7ed8f956df8f92ba9bef8cea1cd05af6831235"
+      },
+      {
+        "path": "outputs/figures/regions/regions-0a1c61664a722e6c641f/matrix_amer.png",
+        "expected": "f2ad288cc79552f3dbb8efc89a3208000ff0d06e863477d1c5f63500af55dd8a",
+        "actual": "f2ad288cc79552f3dbb8efc89a3208000ff0d06e863477d1c5f63500af55dd8a"
+      },
+      {
+        "path": "outputs/figures/regions/regions-0a1c61664a722e6c641f/matrix_amer.svg",
+        "expected": "950a57530a9901c65fb0cfb104c9a3c17a338397e1ba44d6783b0fa06a4ac74d",
+        "actual": "950a57530a9901c65fb0cfb104c9a3c17a338397e1ba44d6783b0fa06a4ac74d"
+      },
+      {
+        "path": "outputs/figures/regions/regions-0a1c61664a722e6c641f/matrix_asia.png",
+        "expected": "aa6d93d41d7622d6509dd304faa6efed3b2f6f3fe3cd86b9b212c6f9650284f1",
+        "actual": "aa6d93d41d7622d6509dd304faa6efed3b2f6f3fe3cd86b9b212c6f9650284f1"
+      },
+      {
+        "path": "outputs/figures/regions/regions-0a1c61664a722e6c641f/matrix_asia.svg",
+        "expected": "966a7b97019b994459e713d812a3892138b78c52606bb1ec1a39c5833f530148",
+        "actual": "966a7b97019b994459e713d812a3892138b78c52606bb1ec1a39c5833f530148"
+      },
+      {
+        "path": "outputs/figures/regions/regions-0a1c61664a722e6c641f/matrix_eur.png",
+        "expected": "f63bd4ce10fe90f72da3544632010b9734da8eec0d5fa6b34baeafcc77359d56",
+        "actual": "f63bd4ce10fe90f72da3544632010b9734da8eec0d5fa6b34baeafcc77359d56"
+      },
+      {
+        "path": "outputs/figures/regions/regions-0a1c61664a722e6c641f/matrix_eur.svg",
+        "expected": "30e0b744acf6a2f665185e2b0d1d53c9f1624d7fd88ebbe3dc05b0c62099d7f8",
+        "actual": "30e0b744acf6a2f665185e2b0d1d53c9f1624d7fd88ebbe3dc05b0c62099d7f8"
+      },
+      {
+        "path": "outputs/figures/regions/regions-0a1c61664a722e6c641f/matrix_macro.png",
+        "expected": "5c65303f1ec72c24b366082ba3e3184d2fbb2b0d8c90725e7502894879c34a02",
+        "actual": "5c65303f1ec72c24b366082ba3e3184d2fbb2b0d8c90725e7502894879c34a02"
+      },
+      {
+        "path": "outputs/figures/regions/regions-0a1c61664a722e6c641f/matrix_macro.svg",
+        "expected": "a8bec3495ebc1f466afd29e6a3f3198eb19d181abc7be8a06a7537aab36c0003",
+        "actual": "a8bec3495ebc1f466afd29e6a3f3198eb19d181abc7be8a06a7537aab36c0003"
+      },
+      {
+        "path": "outputs/figures/regions/regions-0a1c61664a722e6c641f/overview.png",
+        "expected": "ea31b5f4908e40f38e2915b97695f88395aaf3e0dbbc816a76d6af2e13a23166",
+        "actual": "ea31b5f4908e40f38e2915b97695f88395aaf3e0dbbc816a76d6af2e13a23166"
+      },
+      {
+        "path": "outputs/figures/regions/regions-0a1c61664a722e6c641f/overview.svg",
+        "expected": "a903baee287556a354708e0a8ab0dc255319c99d43cefb155cfba5521f1bdfc4",
+        "actual": "a903baee287556a354708e0a8ab0dc255319c99d43cefb155cfba5521f1bdfc4"
+      },
+      {
+        "path": "outputs/tables/regions/regions-0a1c61664a722e6c641f/analysis_matches.csv",
+        "expected": "8b0ddb7f2e4d5eb2199c8c2b477e7873b1e46bc12421c4dddf5ac8809f91ca22",
+        "actual": "8b0ddb7f2e4d5eb2199c8c2b477e7873b1e46bc12421c4dddf5ac8809f91ca22"
+      },
+      {
+        "path": "outputs/tables/regions/regions-0a1c61664a722e6c641f/analysis_membership.csv",
+        "expected": "1dc7017750ed6f3902f1a986c3706e7e9be2513fd83e154f025f8c97cb3e4d90",
+        "actual": "1dc7017750ed6f3902f1a986c3706e7e9be2513fd83e154f025f8c97cb3e4d90"
+      },
+      {
+        "path": "outputs/tables/regions/regions-0a1c61664a722e6c641f/analysis_metadata.json",
+        "expected": "2462e00aac5fc7e51d3ddd2e3068ee0e4eccdf76382e67f204f289094c0b5f4d",
+        "actual": "2462e00aac5fc7e51d3ddd2e3068ee0e4eccdf76382e67f204f289094c0b5f4d"
+      },
+      {
+        "path": "outputs/tables/regions/regions-0a1c61664a722e6c641f/contrast_results.csv",
+        "expected": "c7baa604defcaca867fab2b460b12f9a61d1af690620ba12829ad5695452b27f",
+        "actual": "c7baa604defcaca867fab2b460b12f9a61d1af690620ba12829ad5695452b27f"
+      },
+      {
+        "path": "outputs/tables/regions/regions-0a1c61664a722e6c641f/data_dictionary.md",
+        "expected": "5782ad4c3b93b121ef62e736a2e29fd58adc7fddf49b47818a6d62e96691771a",
+        "actual": "5782ad4c3b93b121ef62e736a2e29fd58adc7fddf49b47818a6d62e96691771a"
+      },
+      {
+        "path": "outputs/tables/regions/regions-0a1c61664a722e6c641f/group_summary.csv",
+        "expected": "ae3ea728b0e5ed07ab52dc432e408502e63a6401248de56ce2fc8d7e53d2e9ca",
+        "actual": "ae3ea728b0e5ed07ab52dc432e408502e63a6401248de56ce2fc8d7e53d2e9ca"
+      },
+      {
+        "path": "outputs/tables/regions/regions-0a1c61664a722e6c641f/layer_contributions.csv",
+        "expected": "1685bfeef8e13377c50c79f8e3e78b5c31f5fa0755ee25b06cf42100d79426d3",
+        "actual": "1685bfeef8e13377c50c79f8e3e78b5c31f5fa0755ee25b06cf42100d79426d3"
+      },
+      {
+        "path": "outputs/tables/regions/regions-0a1c61664a722e6c641f/match_coefficients.csv",
+        "expected": "bebe6474b3545d339c46593117b2a39b743b66b0f50e51c41ca931924b2574ca",
+        "actual": "bebe6474b3545d339c46593117b2a39b743b66b0f50e51c41ca931924b2574ca"
+      },
+      {
+        "path": "outputs/tables/regions/regions-0a1c61664a722e6c641f/matchup_rates.csv",
+        "expected": "76bd0eaff66d50e7c7d817bdaa740913b5ddaeb885bcd990a3a213496319bcee",
+        "actual": "76bd0eaff66d50e7c7d817bdaa740913b5ddaeb885bcd990a3a213496319bcee"
+      },
+      {
+        "path": "outputs/tables/regions/regions-0a1c61664a722e6c641f/opponent_composition.csv",
+        "expected": "94390dc3a93056be7db86a9a0ff47ecd4d1bb70708445de21a74344c9bad6e81",
+        "actual": "94390dc3a93056be7db86a9a0ff47ecd4d1bb70708445de21a74344c9bad6e81"
+      },
+      {
+        "path": "outputs/tables/regions/regions-0a1c61664a722e6c641f/reference_weights.csv",
+        "expected": "b56f2e54601f00c426077a4080e4bb0bc05f97cbd6e1ec86be68290f0126210b",
+        "actual": "b56f2e54601f00c426077a4080e4bb0bc05f97cbd6e1ec86be68290f0126210b"
+      },
+      {
+        "path": "outputs/tables/regions/regions-0a1c61664a722e6c641f/stratum_counts.csv",
+        "expected": "3048c32ec29f3428ee97136104c78763b5fa4c2ddfbf6f52f9560393fdc315f5",
+        "actual": "3048c32ec29f3428ee97136104c78763b5fa4c2ddfbf6f52f9560393fdc315f5"
+      },
+      {
+        "path": "outputs/tables/regions/regions-0a1c61664a722e6c641f/study_team_registry.csv",
+        "expected": "2eb61afb6bf14f9b9f8570efb9916e8d363b14f55a580a1b2c1c6885240b7048",
+        "actual": "2eb61afb6bf14f9b9f8570efb9916e8d363b14f55a580a1b2c1c6885240b7048"
+      },
+      {
+        "path": "outputs/tables/regions/regions-0a1c61664a722e6c641f/team_contributions.csv",
+        "expected": "873ce97cb541ce5ab105781dfd4b79cc72018097904e919a4ddb4c90f17f3073",
+        "actual": "873ce97cb541ce5ab105781dfd4b79cc72018097904e919a4ddb4c90f17f3073"
+      }
+    ]
+  },
+  "executed": [
+    "Read current configuration, tables, recipes and method sources",
+    "Compared all three current included ID sets and recorded outcome scope",
+    "Checked target/reference/direction/support correspondence",
+    "Rehashed 79 registered original outputs; no differences"
+  ],
+  "not_executed": [
+    "production analysis rerun",
+    "pytest",
+    "coefficient adapter or full coefficient reconstruction",
+    "candidate covariance estimator or confidence interval",
+    "known-truth simulation",
+    "new sensitivity analysis",
+    "human reproduction"
+  ],
+  "limitations": [
+    "Definition and arithmetic/provenance checks do not validate a statistical joint law, variance estimator or interval coverage",
+    "Existing processed originals are not accessed here; pinned analysis tables provide input for these checks",
+    "Fixed full schedule may encode prior outcomes; later method fit must explain this retrospective conditioning",
+    "No claims of data census completeness, factual certainty, causality or forecast generalization"
+  ],
+  "delivery_checks": {
+    "status": "passed_with_documented_legacy_access_limits",
+    "markdown_documents": [
+      "研究/04_共同可靠性/README.md",
+      "README.md",
+      "研究/README.md",
+      "文档/05_团队协作/分工与交付/04_两题共同可靠性与敏感性.md",
+      "文档/05_团队协作/论文与汇报支撑材料索引.md",
+      "研究/04_共同可靠性/第一步_推断对象与固定条件.md"
+    ],
+    "local_links_checked": 524,
+    "local_links_access_limited": [
+      {
+        "doc": "README.md",
+        "target": "data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv",
+        "status": "EPERM"
+      },
+      {
+        "doc": "README.md",
+        "target": "data/processed/prep-3fab808178cf8ad71d88/data_dictionary.md",
+        "status": "EPERM"
+      },
+      {
+        "doc": "README.md",
+        "target": "data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json",
+        "status": "EPERM"
+      },
+      {
+        "doc": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+        "target": "../../data/processed/prep-3fab808178cf8ad71d88/data_dictionary.md",
+        "status": "EPERM"
+      },
+      {
+        "doc": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+        "target": "../../data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json",
+        "status": "EPERM"
+      },
+      {
+        "doc": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+        "target": "../../data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv",
+        "status": "EPERM"
+      }
+    ],
+    "missing_links": [],
+    "log_id_count": 98,
+    "duplicate_log_ids": [],
+    "source_binding_rechecks": 21,
+    "tracked_changed_file_diff_check": "passed_scoped_to_this_task",
+    "base_definition_checks": 13,
+    "additional_delivery_checks": 4
+  }
+}
