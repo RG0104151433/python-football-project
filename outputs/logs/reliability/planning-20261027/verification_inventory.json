@@ -1,0 +1,480 @@
+{
+  "schema_version": "reliability-verification-inventory-v1",
+  "decision_log_id": "R20261027-06",
+  "status": "inventory_completed_methods_not_validated",
+  "current_analysis_ids": {
+    "question_1": "eras-fifa-dddf11dd6dc0b7531b88",
+    "question_2": "tournaments-4893e38db46f83f6c219",
+    "question_3": "regions-0a1c61664a722e6c641f"
+  },
+  "scope": "Verification plan and evidence inventory only; no inferential estimator, simulation, interval, sensitivity or model was run in this task",
+  "same_parent_matches": 24917,
+  "binding_rechecks": {
+    "question_1": {
+      "code_hashes": 16,
+      "outputs": 22
+    },
+    "question_2": {
+      "code_hashes": 24,
+      "outputs": 23
+    },
+    "question_3": {
+      "inputs": 37,
+      "code": 9,
+      "outputs": 34,
+      "run_artifacts": 4
+    }
+  },
+  "rechecked_binding_references_including_duplicates": 169,
+  "source_sha256": {
+    "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json": "a24a84ee948234131a7bcf48d09a2c7a9527fd3c1483fc7bbf246455ddba0afa",
+    "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/run_manifest.json": "c25cb3672ff004939171a59e460de8ba4c7f960fc35e1dbf033b1dbe2cced0ca",
+    "outputs/logs/regions/closeout-20261027/regions-20261027T084412226301Z-f05899a3/run_manifest.json": "6953f47bd876c86fbd73a13ca44c813ecf9955a0208ff2671a1d56261c20434b",
+    "config/eras_reviewed.json": "27bf38b406085ab83979628a04b2fca4d6d08d9c2bb5a06bfaea2e009932b65b",
+    "config/eras.json": "9ccc4147192fa9361d14adb72d316b8ffc3168a29a24f21e74103216694b7662",
+    "config/tournaments.json": "93d6ec435b9d47481845e1d16a8ac389138c5551c21b8f93b17e9065f05d561d",
+    "config/regions_study.json": "f29e8081a58c941ea6d51809ec69aacb9d5ad8c15a343866980afcf407d68c66",
+    "src/eras/inference.py": "4af99cbe01d08ec7846975afce779d86935eb673e44604a7270965a15eb5cafc",
+    "src/eras/checks.py": "0eda226d64ae15278cebfb09820e5f67b1b86b3a911228e0fd654bcd2e5003ef",
+    "src/eras/standardize.py": "b241422fe0b63823171c31ce3e9d6b425713d426022b294b01263a41ca75b238",
+    "src/tournaments/checks.py": "0b3734917fbab686c0668bf91b01afccd308e2ee7769d69ac0fcdb0a1d6b7560",
+    "src/tournaments/rolling.py": "3ee7451ca83ca100a943d4733a0089ba6035e1f34a3afe9a458e55ec4e6afd50",
+    "src/tournaments/reporting.py": "8fb4b659a19e037bee14a4adbd197ee80611a5128bbad57ef900ae5ff036bb52",
+    "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/reference_weights.csv": "691017d0bc41e5925ed6e97d4fe1d1a3411bbfdef3540e704df8c6a8c57a9953",
+    "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/weight_sensitivity.csv": "688ba64593cf26aac901fd06a790234cb0b32a0486859965e5c4bd848a565fbe",
+    "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/target_definitions.json": "5f43223ba12362bfc0e5b827b574d4101d769de5d054db5e0c7963424a771a0d",
+    "outputs/tables/regions/regions-0a1c61664a722e6c641f/match_coefficients.csv": "bebe6474b3545d339c46593117b2a39b743b66b0f50e51c41ca931924b2574ca",
+    "outputs/logs/regions/closeout-20261027/support/support_audit.json": "1fd011298e66f7bcd2c41c8bfd425c3ecedecb26bd260db241eaf607b86dc455",
+    "outputs/logs/regions/closeout-20261027/support/support_inventory.csv": "fe20d6084fb28e0d3104a0b5a6d69150232b8b43cd5eb7d3f26ff99e6d651745",
+    "outputs/logs/team_identity/reviewed-q1-closeout-20261025/review.json": "6dcb8cd3b81ceb1d8af6f422d114d074652c7dc4ac3cdc1a23321cdbd4c69795",
+    "outputs/logs/team_identity/reviewed-q1-closeout-20261025/interface_and_scope.json": "d3fa7e1a6575bc9b8717110ec4c9e5a3afb473d1ce2b9eea0bc95f0f88f5b6ee",
+    "outputs/logs/tournaments/conclusion-review-20261025/review.json": "64c248367d32712837ea7b99b617cc31cd8ed435a87a352cf24e31e35bf1f768",
+    "outputs/logs/tournaments/closeout-20261025/independent_audit.json": "25e5816200835e3142ddf64c12513842ae2271209226925de3e89f023dab3adb",
+    "outputs/logs/regions/final-handoff-20261027/review.json": "f5f5578ac4f953c74df3f0cc78a6d52b93b9c63314db784aebdcdfa1fe61724b",
+    "outputs/logs/research_closeout/20261025/review.json": "2bfb5ebd6c44023c684f54a30d2ae96a144204ff2ee700b3633cadfb8cc3d365"
+  },
+  "records": [
+    {
+      "id": "C01",
+      "scope": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "topic": "样本、版本与结果口径",
+      "done": [
+        "同一24917个比赛ID、身份/清洗版本、非中立和含平局口径已核对",
+        "原始数据保护、逐场去向、代码/结果指纹与复现记录存在"
+      ],
+      "prepared": [],
+      "missing": [],
+      "boundary": "当前工作样本已确认；不是全球历史档案无遗漏或完整因果代表性的证明。117场不重开补证门槛。"
+    },
+    {
+      "id": "C02",
+      "scope": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "topic": "整数计数、共同构成和差值代数",
+      "done": [
+        "胜平负/分母/加总/权重归一/差值方向/空值/单位/独立复算完成",
+        "当前源码与产物绑定再次匹配"
+      ],
+      "prepared": [
+        "三问都可表达为已定义分组均值的线性组合"
+      ],
+      "missing": [
+        "第四问统一目标和系数接口尚未实现；Q1/Q2已有信息可重建，Q3已有差值长表"
+      ],
+      "boundary": "描述代数不需要逐场独立，不等于推断理论已经验证。"
+    },
+    {
+      "id": "C03",
+      "scope": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "topic": "要对哪个未知量作推断、随机性来自何处",
+      "done": [
+        "观察赛程和固定参考下的描述目标已写明"
+      ],
+      "prepared": [
+        "条件于观测赛程/参考的推断为候选工作方向"
+      ],
+      "missing": [
+        "正式选择总体/条件推断对象",
+        "说明固定或随机的赛程/分母/参考以及相应识别假设"
+      ],
+      "priority": 1,
+      "boundary": "已发生比赛比例是确定的；区间必须对应明确未知倾向，不能凭有百分比便套抽样误差。"
+    },
+    {
+      "id": "C04",
+      "scope": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "topic": "共享球队、主客互换和共同时间依赖",
+      "done": [
+        "稳定球队ID、双方角色、日期/赛事、目标重叠资料已保存"
+      ],
+      "prepared": [
+        "Q1赛程诊断、Q3双方贡献、Q2窗口归属可供依赖诊断"
+      ],
+      "missing": [
+        "统一依赖结构和目标重叠清点",
+        "有依据的联合协方差估计及理论适配验收"
+      ],
+      "priority": 2,
+      "boundary": "分组互斥不使比赛独立；不相关检验未拒绝不能证明独立。"
+    },
+    {
+      "id": "C05",
+      "scope": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "topic": "候选方法、分布近似与已知真值模拟",
+      "done": [],
+      "prepared": [
+        "成对稳健等文献的候选角色与局限已登记"
+      ],
+      "missing": [
+        "选定方法并逐项核对定理条件",
+        "小样例/边界/失败状态验证",
+        "预先规定机制、强度、种子、次数、覆盖误差和停止规则后模拟",
+        "正式区间/检验尚未运行"
+      ],
+      "priority": 3,
+      "boundary": "方差恒等式、方差估计器、近似分布与区间覆盖是不同关卡；模拟仅支持所设机制。"
+    },
+    {
+      "id": "C06",
+      "scope": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "topic": "年份、球队、参考和范围的敏感性",
+      "done": [
+        "Q1当前样本的权重全范围曲线/翻转点及年度等权参考已完成"
+      ],
+      "prepared": [
+        "旧Q1逐年剔除/共同球队代码与旧结果可复用但不是当前版成果",
+        "共用敏感性原则已登记"
+      ],
+      "missing": [
+        "确定有限的执行目标和最小方案",
+        "当前版逐年剔除/共同球队尚未执行",
+        "Q2/Q3替代参考等选择尚未执行"
+      ],
+      "priority": 3,
+      "boundary": "敏感性检查不是置信区间；固定参考与重算参考、不同人群各自标识，不无条件要求所有备选。"
+    },
+    {
+      "id": "C07",
+      "scope": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "topic": "多目标、同批数据与报告解释",
+      "done": [
+        "同样本/共享结果关系、描述与因果边界已说明",
+        "Q3主讲案例标为事后表达选择而非新的预注册主要检验族"
+      ],
+      "prepared": [
+        "主/辅助/探索性和联合推断的必要性已登记"
+      ],
+      "missing": [
+        "最终主目标/比较族与同时保证范围",
+        "正式多比较和差值间协方差方案",
+        "精度不足、无差异及实际意义的判断协议"
+      ],
+      "priority": 1,
+      "boundary": "三问不是三次独立验证；不把所有目标强制混成一个p值，区间含零不证明无效。"
+    },
+    {
+      "id": "C08",
+      "scope": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "topic": "证据等级、复现与回写",
+      "done": [
+        "样本/源表/来源/图文版本及不可估状态有记录",
+        "描述阶段收尾与后置任务已分开"
+      ],
+      "prepared": [
+        "统一问题登记、独立运行及失败保留要求已写"
+      ],
+      "missing": [
+        "第四问实际运行、结果解释及三问结论更新"
+      ],
+      "boundary": "A/B本人复核和最终HTML/论文仍后置；不能用AI算术核查代填人员验收。"
+    },
+    {
+      "id": "Q1-01",
+      "scope": [
+        "Q1"
+      ],
+      "topic": "共同友谊赛比例和翻转点",
+      "done": [
+        "当前24917场：两项年代主差208行权重曲线，两个翻转点及两套参考均已计算核对"
+      ],
+      "prepared": [],
+      "missing": [
+        "若对整条权重曲线作正式概率判断，须另定同时推断目标；不是当前必做"
+      ],
+      "boundary": "权重是共同比赛配方，不是Elo训练权重；曲线不是置信带。"
+    },
+    {
+      "id": "Q1-02",
+      "scope": [
+        "Q1"
+      ],
+      "topic": "两个年代主对比、末五年与时间口径",
+      "done": [
+        "2010s减1980s和2020—2024减1980s两主对比及末组五年已固定"
+      ],
+      "prepared": [
+        "旧年份/共同球队实现可复用"
+      ],
+      "missing": [
+        "当前版两主差的年份/球队稳定性及正式联合区间"
+      ],
+      "optional": [
+        "趋势、断点、替代起点只在要作相应主张时另外定义，不自动加题"
+      ],
+      "boundary": "五组均值不等于拟合了长期趋势，末五年不能被当十年。"
+    },
+    {
+      "id": "Q2-01",
+      "scope": [
+        "Q2"
+      ],
+      "topic": "十年滚动窗口的重叠和共同参考",
+      "done": [
+        "36个十年窗、204501行窗口归属、窗内逐年共同构成及系数重建已核对"
+      ],
+      "prepared": [
+        "每场属于哪些窗以及每窗参考可重建"
+      ],
+      "missing": [
+        "逐点或整条曲线的推断范围",
+        "跨窗口关联、联合判断和宽度敏感性方案"
+      ],
+      "boundary": "相邻窗共享九年，平滑不是可靠性；滚动描述不是历史训练周期优化或预测回测。"
+    },
+    {
+      "id": "Q2-02",
+      "scope": [
+        "Q2"
+      ],
+      "topic": "全期负差、近期正差与解释",
+      "done": [
+        "整体直接/共同年代差31项结论算术核算完成",
+        "末五年与最后十年窗分别描述"
+      ],
+      "prepared": [
+        "逐年/球队/参考后置检查已登记"
+      ],
+      "missing": [
+        "近期正差对年份/球队/参考是否敏感",
+        "若要声称稳定反转或变点，先定新目标及检验"
+      ],
+      "boundary": "不从友谊赛主胜率较低推出其训练信息较少；实力解释留Q5。"
+    },
+    {
+      "id": "Q3-01",
+      "scope": [
+        "Q3"
+      ],
+      "topic": "历史地理载体与三个项目例外",
+      "done": [
+        "215球队ID/217日期规则、双角色分类、原标签追踪和未知去向已验证"
+      ],
+      "prepared": [
+        "分类与范围对照的事实基础和候选问题已登记"
+      ],
+      "missing": [
+        "最终选择的分类/载体敏感性尚未实施"
+      ],
+      "boundary": "土耳其欧洲/南欧、伊朗西亚、澳大利亚亚洲/东南亚为项目约定，不是完整足联历史。"
+    },
+    {
+      "id": "Q3-02",
+      "scope": [
+        "Q3"
+      ],
+      "topic": "结构性缺层与少量比赛",
+      "done": [
+        "188统计组/155条件格支持清单；153有场、71可完整调整，2零场、82有场缺层",
+        "29差24调整可估，5个不可估理由明确；1/2场层数和q/n已登记"
+      ],
+      "prepared": [
+        "已知稀疏和大幅调整例可用于针对性模拟"
+      ],
+      "missing": [
+        "稀疏情况下区间方法的实际适配与验收",
+        "任何较短时期/合并层补充目标先定义，不自动实施"
+      ],
+      "boundary": "缺正权重层的原目标不能靠换标准误、bootstrap或补零恢复。"
+    },
+    {
+      "id": "Q3-03",
+      "scope": [
+        "Q3"
+      ],
+      "topic": "多组完整差值、条件矩阵与不同参考",
+      "done": [
+        "4/5/3/4分区、完整25分区率差与欧亚/南美补充共29差、155有向条件率均有记录",
+        "可定义差值的165055行逐场非零系数已核验"
+      ],
+      "prepared": [
+        "完整分组、分层、参考和双方贡献可重建额外条件率系数"
+      ],
+      "missing": [
+        "确定哪些差/条件率进入正式推断族",
+        "若条件率入选，另重建/验证其系数",
+        "各目标的联合/多比较与稀疏适配"
+      ],
+      "boundary": "欧洲六差只有三个独立方向；总体率差与主客条件率不同，反向不互补、不同参考不拼排名。"
+    }
+  ],
+  "existing_materials": {
+    "q1": {
+      "weight_curve_rows": 208,
+      "references": [
+        {
+          "scheme": "pooled_matches",
+          "group": "friendly",
+          "weight": "0.3851988602"
+        },
+        {
+          "scheme": "pooled_matches",
+          "group": "non_friendly",
+          "weight": "0.6148011398"
+        },
+        {
+          "scheme": "equal_years",
+          "group": "friendly",
+          "weight": "0.4061670257"
+        },
+        {
+          "scheme": "equal_years",
+          "group": "non_friendly",
+          "weight": "0.5938329743"
+        }
+      ],
+      "current_sensitivity_switches": {
+        "common_teams": false,
+        "leave_one_year_out": false
+      },
+      "old_sensitivity_not_current": true,
+      "uncertainty_rows": 32,
+      "all_uncertainty_not_run_and_empty": true,
+      "per_match_coefficients": "Reconstructible from membership, ten cells and reference; no unified Q4 export"
+    },
+    "q2": {
+      "annual_type_cells": 90,
+      "minimum_friendly_n": 71,
+      "minimum_nonfriendly_n": 101,
+      "rolling_windows": 36,
+      "window_membership_rows": 204501,
+      "target_recipes": 237,
+      "uncertainty_rows": 237,
+      "all_uncertainty_not_run_and_empty": true,
+      "per_match_coefficients": "Reconstruction recipes and tests exist; no unified full long-table export required"
+    },
+    "q3": {
+      "support_report": "outputs/logs/regions/closeout-20261027/support/support_audit.json",
+      "per_match_coefficients_rows": 165055,
+      "coverage": {
+        "macro_to_macro": {
+          "adjusted": 11,
+          "cells": 25,
+          "observed": 25
+        },
+        "outside_macro": {
+          "adjusted": 9,
+          "cells": 64,
+          "observed": 62
+        },
+        "within_partition": {
+          "adjusted": 51,
+          "cells": 66,
+          "observed": 66
+        }
+      },
+      "uncertainty": "not_run"
+    }
+  },
+  "next_gates": [
+    "Define unknown target, conditioning and final inference/reporting scope",
+    "Unify target reconstruction and inspect dependence/support using existing data",
+    "Choose theory-compatible candidates and specify small-case/simulation acceptance; fix minimal sensitivity scope",
+    "Run approved validation, then supported real-data inference and planned sensitivity, preserving failures",
+    "Update conclusions without changing old descriptive runs"
+  ],
+  "optional_not_automatic": [
+    "Trend or breakpoint claims",
+    "Additional eras or rolling widths",
+    "New geographic or confederation classifications",
+    "Causal mechanism identification",
+    "Strength adjustment or prediction tasks belonging to Q5-Q9"
+  ],
+  "human_review": "not_performed",
+  "formal_inference": "not_run",
+  "simulation": "not_run",
+  "new_sensitivity": "not_run",
+  "delivery_checks": {
+    "documents": 5,
+    "local_links": 509,
+    "missing_links": [],
+    "restricted_original_clean_links": [
+      {
+        "file": "README.md",
+        "target": "data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv"
+      },
+      {
+        "file": "README.md",
+        "target": "data/processed/prep-3fab808178cf8ad71d88/data_dictionary.md"
+      },
+      {
+        "file": "README.md",
+        "target": "data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json"
+      },
+      {
+        "file": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+        "target": "../../data/processed/prep-3fab808178cf8ad71d88/data_dictionary.md"
+      },
+      {
+        "file": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+        "target": "../../data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json"
+      },
+      {
+        "file": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+        "target": "../../data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv"
+      }
+    ],
+    "current_source_hashes_match": true,
+    "journal_ids": 97,
+    "journal_ids_unique": true,
+    "tracked_diff_check_passed": true,
+    "documentation_sha256": {
+      "README.md": "f6a4af3348ffc82e4b3dce684ca2e237f503835866257bd23d14dab7aeda0d1d",
+      "研究/README.md": "1a3b77696c90007fc2e2fbe1e6187f9586e596b4830c10c3b2c57395bac9efc5",
+      "研究/04_共同可靠性/README.md": "fd8920198f69608de2e8fcf7a3a168a166aef1306c95cce3441d82132f7dab77",
+      "文档/05_团队协作/分工与交付/04_两题共同可靠性与敏感性.md": "d32fcae27c823bf74985a8d23af2e879a59f4a489ab2bc0585e8e760f1e14881",
+      "文档/05_团队协作/论文与汇报支撑材料索引.md": "319524a57ff3c49886382d335a2fcf227a70e19bdcf683f37e7d1cf66549ac90",
+      "研究/pipeline_state.json": "66cc6cde7b3d3cef6d37da4802e453fca660a2106fbad5a163f7be7bd4ef95cf"
+    }
+  }
+}

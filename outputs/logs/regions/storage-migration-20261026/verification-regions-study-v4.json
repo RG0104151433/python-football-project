@@ -1,0 +1,45 @@
+{
+  "schema_version": "shared-source-verification-v1",
+  "decision_log_id": "R20261027-01",
+  "adopted_artifacts_and_relocations_passed": true,
+  "historical_run_count": 12,
+  "hash_checks": 419,
+  "hash_matches": 418,
+  "unadopted_draft_mismatch_count": 1,
+  "new_normal_run": "outputs\\logs\\regions\\storage-migration-20261026\\preparation-20261026T114655Z-d27a6459-shared-normal",
+  "new_normal_core_csv_identical": 16,
+  "relocated_manifest_entries": 10,
+  "persistent_m49_html_files": 2,
+  "removed_duplicate_copies_net": 16,
+  "bytes_saved": 30183544,
+  "original_manifests_rewritten": false,
+  "old_protocol_preserved": true,
+  "current_protocol": "regions-study-v4",
+  "studies": 4,
+  "numerical_contrasts": 28,
+  "regional_outcomes_computed": false,
+  "runs": [
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T090739Z-82cd5e84-accepted-r1",
+    "outputs\\logs\\regions\\grouping-acceptance-20261026\\preparation-20261026T091035Z-82cd5e84-replay-r1",
+    "outputs\\logs\\regions\\preparation-20261026T040652Z-4b869e00",
+    "outputs\\logs\\regions\\preparation-20261026T040709Z-c441430b",
+    "outputs\\logs\\regions\\preparation-20261026T040745Z-52745246",
+    "outputs\\logs\\regions\\preparation-20261026T074311Z-af547658-r1",
+    "outputs\\logs\\regions\\preparation-20261026T074344Z-af547658-r2",
+    "outputs\\logs\\regions\\preparation-20261026T085703Z-7476ddc3-r1",
+    "outputs\\logs\\regions\\preparation-20261026T085725Z-7476ddc3-r2",
+    "outputs\\logs\\regions\\preparation-20261026T085748Z-7476ddc3-replay-r1",
+    "outputs\\logs\\regions\\storage-migration-20261026\\preparation-20261026T114028454866Z-82cd5e84-shared-replay",
+    "outputs\\logs\\regions\\storage-migration-20261026\\preparation-20261026T114655Z-d27a6459-shared-normal"
+  ],
+  "unadopted_early_package_mismatches": [
+    {
+      "manifest": "outputs\\logs\\regions\\preparation-20261026T040652Z-4b869e00\\manifest.json",
+      "package_file": "data\\external\\geography_preparation\\geo-prep-v1\\region_dictionary.csv",
+      "expected": "8869ab2a6965ca9ecce2ef75ffcdbf1ba3ba1057b9ba5861fbf5f7a5525442d3",
+      "actual": "45221a1aa597809aeea0e1a7e660aa38af89c29952e4dd5374ebe45e5456262a"
+    }
+  ],
+  "code_sha256": "e224342a8b20edb18bc1523634d72149df132ca6e33d95e9647d8061c07d0ac7",
+  "relocations_sha256": "dd68da3499ca77eb7ce42ad1ad4ae59280c4656c968e55b5669c3f3b3bc52277"
+}

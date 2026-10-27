@@ -1,0 +1,65 @@
+{
+  "schema_version": "regional-source-archive-v1",
+  "analysis_id": "regions-6f5915b013976712736b",
+  "original_run": "outputs/logs/regions/regions-20261026T135956693371Z-182ec8a6/run_manifest.json",
+  "decision_log_id": "R20261027-01",
+  "bindings": {
+    "scripts/analyze_regions.py": {
+      "e2a15c863cd1ce77280909eddb3368fc8c326174df72aa22b46abfbd353c5c7f": "outputs/logs/regions/archive-v3-20261027/code/scripts/analyze_regions.py"
+    },
+    "src/artifact_store.py": {
+      "a2ceaec37604024e295b20973ebc48440c16dc3fe9bf6bccddd70cae0717f29c": "outputs/logs/regions/archive-v3-20261027/code/src/artifact_store.py"
+    },
+    "src/regions/__init__.py": {
+      "3e10cf55ce3d9a219559e20146de8cbe4206e3cad04a1dcbf3ed21a3a1eb8160": "outputs/logs/regions/archive-v3-20261027/code/src/regions/__init__.py"
+    },
+    "src/regions/describe.py": {
+      "4745d5861cb60190b52714e49794c4d6dbeb4987de0d88dca9f79dd9447b8593": "outputs/logs/regions/archive-v3-20261027/code/src/regions/describe.py"
+    },
+    "src/regions/export.py": {
+      "08b4f39c596dcb0c6f03ac7e32763d63ab245ca6342b0792ceea69b6b8e2f3e3": "outputs/logs/regions/archive-v3-20261027/code/src/regions/export.py"
+    },
+    "src/regions/groups.py": {
+      "33275d6e984009775f3176c5f8674864b2aae04f57e5e230f8cd629da7767427": "outputs/logs/regions/archive-v3-20261027/code/src/regions/groups.py"
+    },
+    "src/regions/io.py": {
+      "5352e3391e3d5a862c8c7299ee6b90a8f6f1dbe44a642e7b95d5e1e44a36ae45": "outputs/logs/regions/archive-v3-20261027/code/src/regions/io.py"
+    },
+    "src/regions/standardize.py": {
+      "2c60e57949db0f94a07c20ccb0710366e5fab6d6afcb83964208106f3f53b09b": "outputs/logs/regions/archive-v3-20261027/code/src/regions/standardize.py"
+    },
+    "scripts/verify_region_analysis.py": {
+      "ed732bcfe1afb65cec4f33d2bea77d5f84277137947d0bd1f42257ab2f819728": "outputs/logs/regions/archive-v3-20261027/code/scripts/verify_region_analysis.py"
+    },
+    "tests/test_regions.py": {
+      "dfe33fa5831780a5b97e4308673b2f1665d8c96f67000b0353dbb11b0dc33d37": "outputs/logs/regions/archive-v3-20261027/code/tests/test_regions.py"
+    },
+    "config/regions_study.json": {
+      "4413b932d50b8c932a339ea9a9eab8c87ba7a7c9d972f993e1a2fb4bbe08e979": "config/archive/regions_study_v3.json"
+    }
+  },
+  "original_outputs_unchanged": {
+    "outputs/figures/regions/regions-6f5915b013976712736b/africa.png": "6bef870a226f670d9f1355f5cec797d0ec5e4abba90090fb06c49db29275b908",
+    "outputs/figures/regions/regions-6f5915b013976712736b/africa.svg": "f100c8cb8113b58ccefeb4a596b4fdd8e72698d80e139022bf1f217cf5ae3d15",
+    "outputs/figures/regions/regions-6f5915b013976712736b/americas.png": "6bd28a17a05aa0bb9cc5d7aeb2fb65c5a780655c658cbe9a8e02f1ac63d4f4eb",
+    "outputs/figures/regions/regions-6f5915b013976712736b/americas.svg": "9e8a84f05b5ebb3525b4cfd37a941fb7546c194a8e63e2784842ca36557f96d9",
+    "outputs/figures/regions/regions-6f5915b013976712736b/asia.png": "8b9cb96073b99ee4e16c913ec15d27a845dbc73c2356287c50e846eaa76952f9",
+    "outputs/figures/regions/regions-6f5915b013976712736b/asia.svg": "4ecf78f9aa0a5962aebcd8fba11089f4c1a09776cb263e12e2660900f38e968e",
+    "outputs/figures/regions/regions-6f5915b013976712736b/europe.png": "c03ab10d40c7f8e453fc4c2248111b242e140faccc8b9e0eadf70dc6352395c6",
+    "outputs/figures/regions/regions-6f5915b013976712736b/europe.svg": "fe4fecdabbc80b2703f2629f74ef2e911a3e480b908a64f83bb2654a5771e3cf",
+    "outputs/figures/regions/regions-6f5915b013976712736b/overview.png": "a314d70d084fb5942e3cd2cb1c2f70e981e2f285c661ff79fe795ed4f0c2b889",
+    "outputs/figures/regions/regions-6f5915b013976712736b/overview.svg": "5382a51805f908f16cc0ad51b50c33c72bdb6df65f34fee8db8064e97670de60",
+    "outputs/tables/regions/regions-6f5915b013976712736b/analysis_matches.csv": "12f3383646e9595d4449e53dd3b21bdb02bcd08e6826c89c7ccc9bbd0a7f0030",
+    "outputs/tables/regions/regions-6f5915b013976712736b/analysis_membership.csv": "129151bbf8674983024e813cb65235da7c7e21861b00c563d7cd588957efdb9f",
+    "outputs/tables/regions/regions-6f5915b013976712736b/analysis_metadata.json": "111b0b4cbf40cbe1882550fb5d789d509af95b8db4fcd58ec65ee744a5730783",
+    "outputs/tables/regions/regions-6f5915b013976712736b/contrast_results.csv": "8898a17aad8a996d4ba9d660cf76f56d3b971c22b1c72b0485c0395d48a8ba8c",
+    "outputs/tables/regions/regions-6f5915b013976712736b/data_dictionary.md": "a8195ccdb9712a6e5ec2f6c69c2d314aeec0a7b15a248d0c6f011f2c297762d3",
+    "outputs/tables/regions/regions-6f5915b013976712736b/group_summary.csv": "63509a5f5dba1d8db421d70b8c62e72963a190c89915bcb72140223afe797c12",
+    "outputs/tables/regions/regions-6f5915b013976712736b/layer_contributions.csv": "b5cb18b2b66bcd29b6636b2c53d0d69b160616be2a5b6df783ccc8df512bc020",
+    "outputs/tables/regions/regions-6f5915b013976712736b/match_coefficients.csv": "1b7a9a2f683a83b6afb8f42287b3db00e5705f3bd76c3c8d8edadb98b9998785",
+    "outputs/tables/regions/regions-6f5915b013976712736b/opponent_composition.csv": "c1f7755b274b5bbb60e910bd8e49238d3c0b62049733e07a81e6ad57a0bbb0eb",
+    "outputs/tables/regions/regions-6f5915b013976712736b/reference_weights.csv": "00dc66206c86133a4a0caf5f0dc7be11273ee69529803ee937142e9b048451a7",
+    "outputs/tables/regions/regions-6f5915b013976712736b/stratum_counts.csv": "debcfe7377b741c45e94b83cb550991c696c7a732d49116138f6ed0eedb20314",
+    "outputs/tables/regions/regions-6f5915b013976712736b/team_contributions.csv": "5878d043e1a81ca5b03fc076d0e117a7594d3e7d76f5c2cb76b58180bf0d72f3"
+  }
+}

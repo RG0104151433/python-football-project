@@ -11,10 +11,70 @@ if str(PROJECT) not in sys.path:
     sys.path.insert(0, str(PROJECT))
 
 from src.regions.io import json_bytes, project_path, read_json, read_rows, require, sha
-from src.regions.export import FIELDS, KEYS, verify_run
+from src.regions.export import KEYS, fields_for, verify_run
 
 
-def audit(root, run_path, compare=None):
+def independent_labels(team, value, region, unit, rule, classification):
+    label_rule = "BASE:" + rule
+    for record in classification["overrides"]:
+        if record["team_id"] == team and classification["scope"]["start"] <= value <= classification["scope"]["end"]:
+            require(region == record["base_region"] and unit == record["base_unit"], "REG_AUDIT_BASE", team)
+            region, unit, label_rule = record["region"], record["unit"], record["rule_id"]
+    for record in classification["merges"]:
+        if region == record["region"] and unit in record["base_units"]:
+            unit, label_rule = record["unit"], record["rule_id"] + ":" + label_rule
+    return region, unit, label_rule
+
+
+def independent_geography(base, config):
+    if config["protocol_id"] != "regions-study-v4":
+        return base
+    result = {}
+    for mid, source in base.items():
+        row = dict(source)
+        for role in ("home", "away"):
+            for field in ("region", "unit"):
+                row["base_" + role + "_" + field] = source[role + "_" + field]
+            region, unit, rule = independent_labels(source[role + "_team_id"], source["date"], source[role + "_region"],
+                                                    source[role + "_unit"], source[role + "_rule_id"], config["study_classification"])
+            row[role + "_region"], row[role + "_unit"], row[role + "_study_rule_id"] = region, unit, rule
+        row["base_direction"], row["base_relation"] = source["direction"], source["relation"]
+        hr, ar, hu, au = (row[k] for k in ("home_region", "away_region", "home_unit", "away_unit"))
+        row["direction"] = (hr or "UNKNOWN") + ">" + (ar or "UNKNOWN")
+        relation = "unknown"
+        if hr and ar:
+            if hr != ar:
+                relation = "cross_region"
+            elif hu and au:
+                relation = "same_unit" if hu == au else "same_region_diff_unit"
+        row["relation"] = relation
+        for kind, known in (("A", bool(hr)), ("B", relation != "unknown"), ("C", bool(hu))):
+            row[kind + "_usable"] = str(known).lower()
+            row[kind + "_reason"] = "study_classification_known" if known else "study_classification_unknown"
+        result[mid] = row
+    return result
+
+
+def compare_statistics(root, manifest, other_path):
+    """Compare tables across rendering/source revisions without changing old outputs."""
+    verify_run(root, other_path)
+    other = read_json(project_path(root, other_path))
+    folder = root / "outputs/tables/regions" / manifest["analysis_id"]
+    previous = root / "outputs/tables/regions" / other["analysis_id"]
+    require(read_json(folder / "analysis_metadata.json")["config"] == read_json(previous / "analysis_metadata.json")["config"],
+            "REG_COMPARE_SCOPE", "Statistical comparison requires identical study configuration")
+    names = {Path(p).name for p in manifest["outputs"] if p.endswith(".csv")}
+    require(names == {Path(p).name for p in other["outputs"] if p.endswith(".csv")}, "REG_COMPARE_TABLES", "Table sets differ")
+    for name in sorted(names):
+        left, right = read_rows(folder / name), read_rows(previous / name)
+        strip = lambda rows: [{k: v for k, v in r.items() if k != "analysis_id"} for r in rows]
+        require(strip(left) == strip(right), "REG_COMPARE_STATISTICS", "Statistical table differs: " + name)
+    return dict(status="passed", tables_identical_excluding_analysis_id=len(names),
+                other_analysis_id=other["analysis_id"], figures_compared=False,
+                note="Same study configuration and all CSV fields except analysis_id; not a same-environment image comparison")
+
+
+def audit(root, run_path, compare=None, statistics_only=False):
     root = Path(root).resolve()
     integrity = verify_run(root, run_path)
     manifest = read_json(project_path(root, run_path))
@@ -27,7 +87,9 @@ def audit(root, run_path, compare=None):
     source_path = lambda key: project_path(root, (upstream / im[key]["snapshot_path"].replace("\\", "/")).relative_to(root))
     clean = {r["match_id"]: r for r in read_rows(source_path("matches_clean"), "match_id")}
     membership = read_rows(source_path("q2_membership"), "match_id")
-    geo = {r["match_id"]: r for r in read_rows(upstream / "match_region_relations.csv", "match_id")}
+    base_geo = {r["match_id"]: r for r in read_rows(upstream / "match_region_relations.csv", "match_id")}
+    geo = independent_geography(base_geo, c)
+    fields = fields_for(c)
     checks = 0
 
     def check(value, label):
@@ -40,12 +102,12 @@ def audit(root, run_path, compare=None):
 
     check(set(geo) == {r["match_id"] for r in membership if r["included"] == "true"}, "Raw sample agrees with Q2")
     tables = {}
-    for name in FIELDS:
+    for name in fields:
         path = folder / (name + ".csv")
         data = path.read_bytes()
         check(data.startswith(b"\xef\xbb\xbf") and b"\r\n" not in data, "BOM/LF:" + name)
         rows = read_rows(path)
-        check(all(set(r) == {"analysis_id", *FIELDS[name].split()} and r["analysis_id"] == aid for r in rows), "Fields/version:" + name)
+        check(all(set(r) == {"analysis_id", *fields[name].split()} and r["analysis_id"] == aid for r in rows), "Fields/version:" + name)
         keys = [tuple(r[k] for k in KEYS[name].split()) for r in rows]
         check(len(set(keys)) == len(rows) and keys == sorted(keys), "Unique sorted keys:" + name)
         tables[name] = rows
@@ -53,8 +115,8 @@ def audit(root, run_path, compare=None):
     check(set(fact) == set(geo), "Fact table IDs")
     for mid, g in geo.items():
         raw, out = clean[mid], fact[mid]
-        fields = [k for k in g if k in FIELDS["analysis_matches"].split()]
-        check(all(out[k] == g[k] for k in fields), "Fact geography:" + mid)
+        columns = [k for k in g if k in fields["analysis_matches"].split()]
+        check(all(out[k] == g[k] for k in columns), "Fact geography:" + mid)
         for k in ("source_record_id", "date", "home_team_id", "away_team_id", "home_team", "away_team",
                   "home_score", "away_score", "result_basis", "city", "country", "is_neutral", "outcome"):
             check(out[k] == raw[k], "Fact raw:" + mid + k)
@@ -71,6 +133,9 @@ def audit(root, run_path, compare=None):
                 continue
             if any(spec[key] and row[column] not in spec[key] for key, column in
                    [("home_regions", "home_region"), ("home_units", "home_unit"), ("relations", "relation")]):
+                continue
+            if any(spec.get(key) and row[column] not in spec[key] for key, column in
+                   [("away_regions", "away_region"), ("away_units", "away_unit")]):
                 continue
             selected.add(mid)
         groups[gid] = selected
@@ -208,15 +273,50 @@ def audit(root, run_path, compare=None):
                     reconstructed += coefficient * wins[mid]
             check(reconstructed == value, "Exact score reconstruction:" + cid + method)
     check(set(coef_rows) == expected_coefs, "Complete coefficient keys")
+    if c["protocol_id"] == "regions-study-v4":
+        matchup = {(r["target_id"], r["group_id"]): r for r in tables["matchup_rates"]}
+        wanted = {(tid, gid) for tid, target in c["analysis_targets"].items()
+                  if target["type"].startswith("matchup_") for gid in target["groups"]}
+        check(set(matchup) == wanted and len(matchup) == 155, "All directed matchup cells retained")
+        for (tid, gid), row in matchup.items():
+            spec = c["groups"][gid]
+            n, w, d, loss = summaries[tid, gid]
+            expected_level = "macro_to_macro" if tid == "M_MACRO" else "within_partition" if spec["away_units"] else "outside_macro"
+            check(row["level"] == expected_level and row["home_region"] == spec["home_regions"][0]
+                  and row["away_region"] == spec["away_regions"][0]
+                  and row["home_unit"] == (spec["home_units"][0] if spec["home_units"] else "")
+                  and row["away_unit"] == (spec["away_units"][0] if spec["away_units"] else ""), "Matchup direction:" + gid)
+            check(tuple(int(row[k]) for k in ("n_matches", "n_home_wins", "n_draws", "n_away_wins")) == (n, w, d, loss), "Matchup integers:" + gid)
+            near(row["home_win_rate"], Fraction(w, n) if n else None, "Matchup direct:" + gid)
+            near(row["standardized_home_win_rate"], exact_rates[tid, gid], "Matchup adjusted:" + gid)
+        roster_path = next(p for p in metadata["inputs"] if p.endswith("/team_geography_roster.csv"))
+        roster = {(r["team_id"], r["rule_id"]): r for r in read_rows(root / roster_path)}
+        actual = {(r["team_id"], r["base_rule_id"]): r for r in tables["study_team_registry"]}
+        check(set(actual) == set(roster), "Complete base/study registry keys")
+        appearances = Counter((role, row[role + "_team_id"], row[role + "_rule_id"])
+                              for row in base_geo.values() for role in ("home", "away"))
+        for key, base in roster.items():
+            row = actual[key]
+            start, end = max(base["date_start"], c["scope"]["start"]), min(base["date_end"], c["scope"]["end"])
+            region, unit, rule = independent_labels(key[0], start, base["region_code"], base["partition_code"], base["rule_id"], c["study_classification"])
+            check((row["base_region"], row["base_unit"], row["study_region"], row["study_unit"], row["study_rule_id"], row["date_start"], row["date_end"])
+                  == (base["region_code"], base["partition_code"], region, unit, rule, start, end), "Study registry classification:" + str(key))
+            for role in ("home", "away"):
+                check(int(row[role + "_matches"]) == appearances[role, *key], "Study registry appearances:" + role + str(key))
     identical = None
+    statistical_comparison = None
     if compare:
-        previous = read_json(project_path(root, compare))
-        check(previous["analysis_id"] == aid, "Repeated analysis identity")
-        check(previous["outputs"] == manifest["outputs"], "Repeated core output hashes")
-        identical = len(manifest["outputs"])
+        if statistics_only:
+            statistical_comparison = compare_statistics(root, manifest, compare)
+        else:
+            previous = read_json(project_path(root, compare))
+            check(previous["analysis_id"] == aid, "Repeated analysis identity")
+            check(previous["outputs"] == manifest["outputs"], "Repeated core output hashes")
+            identical = len(manifest["outputs"])
     return dict(status="passed", analysis_id=aid, source_run=run_path, parent_matches=len(geo),
                 independent_checks=checks, fingerprint_checks=integrity["fingerprint_checks"],
                 repeated_core_artifacts_identical=identical, tables={k: len(v) for k, v in tables.items()},
+                statistical_comparison=statistical_comparison,
                 calculation="Exact rational reconstruction from pinned original scores; no production statistical functions",
                 verifier_sha256=sha(Path(__file__)), inference="not_run", sensitivity="not_run", human_review="not_performed")
 
@@ -226,13 +326,15 @@ def main():
     parser.add_argument("--root", default=str(PROJECT))
     parser.add_argument("--run", required=True)
     parser.add_argument("--compare")
+    parser.add_argument("--compare-statistics", action="store_true", help="Compare CSV fields except analysis_id across rendering environments; requires --compare")
     parser.add_argument("--output", required=True)
     args = parser.parse_args()
     root = Path(args.root).resolve()
     output = project_path(root, args.output)
     require(not output.exists(), "REG_OUTPUT_COLLISION", "Choose a new audit output path")
     try:
-        result = audit(root, args.run, args.compare)
+        require(not args.compare_statistics or args.compare, "REG_COMPARE", "--compare-statistics requires --compare")
+        result = audit(root, args.run, args.compare, args.compare_statistics)
         code = 0
     except Exception as exc:
         result = dict(status="failed", code=getattr(exc, "code", type(exc).__name__), message=str(exc))

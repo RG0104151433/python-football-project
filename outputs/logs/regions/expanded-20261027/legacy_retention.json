@@ -1,0 +1,42 @@
+{
+  "decision_log_id": "R20261027-01",
+  "status": "passed",
+  "analysis_id": "regions-6f5915b013976712736b",
+  "fingerprints": 70,
+  "archived_bindings": [
+    {
+      "original": "config/regions_study.json",
+      "archive": "config/archive/regions_study_v3.json"
+    },
+    {
+      "original": "scripts/analyze_regions.py",
+      "archive": "outputs/logs/regions/archive-v3-20261027/code/scripts/analyze_regions.py"
+    },
+    {
+      "original": "src/regions/__init__.py",
+      "archive": "outputs/logs/regions/archive-v3-20261027/code/src/regions/__init__.py"
+    },
+    {
+      "original": "src/regions/describe.py",
+      "archive": "outputs/logs/regions/archive-v3-20261027/code/src/regions/describe.py"
+    },
+    {
+      "original": "src/regions/export.py",
+      "archive": "outputs/logs/regions/archive-v3-20261027/code/src/regions/export.py"
+    },
+    {
+      "original": "src/regions/groups.py",
+      "archive": "outputs/logs/regions/archive-v3-20261027/code/src/regions/groups.py"
+    },
+    {
+      "original": "src/regions/io.py",
+      "archive": "outputs/logs/regions/archive-v3-20261027/code/src/regions/io.py"
+    },
+    {
+      "original": "src/regions/standardize.py",
+      "archive": "outputs/logs/regions/archive-v3-20261027/code/src/regions/standardize.py"
+    }
+  ],
+  "old_outputs_not_rewritten": true,
+  "method": "Node filesystem SHA256; archive used only for original source/config, not outputs"
+}

@@ -71,11 +71,49 @@ def era_for(value, config):
     return eras[0]
 
 
+def study_labels(team, value, region, unit, base_rule, classification):
+    """Apply fixed project exceptions without modifying the M49-based source."""
+    rule = "BASE:" + base_rule
+    for override in classification["overrides"]:
+        if team == override["team_id"] and classification["scope"]["start"] <= value <= classification["scope"]["end"]:
+            require((region, unit) == (override["base_region"], override["base_unit"]),
+                    "REG_OVERRIDE_BASE", "Unexpected original classification: " + team)
+            region, unit, rule = override["region"], override["unit"], override["rule_id"]
+    for merge in classification["merges"]:
+        if region == merge["region"] and unit in merge["base_units"]:
+            unit, rule = merge["unit"], merge["rule_id"] + ":" + rule
+    return region, unit, rule
+
+
+def apply_study_labels(row, classification):
+    row = dict(row)
+    for role in ("home", "away"):
+        for field in ("region", "unit"):
+            row["base_" + role + "_" + field] = row[role + "_" + field]
+        region, unit, rule = study_labels(row[role + "_team_id"], row["date"], row[role + "_region"],
+                                         row[role + "_unit"], row[role + "_rule_id"], classification)
+        row[role + "_region"], row[role + "_unit"], row[role + "_study_rule_id"] = region, unit, rule
+    row["base_direction"], row["base_relation"] = row["direction"], row["relation"]
+    hr, ar, hu, au = (row[k] for k in ("home_region", "away_region", "home_unit", "away_unit"))
+    row["direction"] = (hr or "UNKNOWN") + ">" + (ar or "UNKNOWN")
+    relation = "unknown"
+    if hr and ar:
+        if hr != ar:
+            relation = "cross_region"
+        elif hu and au:
+            relation = "same_unit" if hu == au else "same_region_diff_unit"
+    row["relation"] = relation
+    for kind, usable in (("A", bool(hr)), ("B", relation != "unknown"), ("C", bool(hu))):
+        row[kind + "_usable"] = usable
+        row[kind + "_reason"] = "study_classification_known" if usable else "study_classification_unknown"
+    return row
+
+
 def load_inputs(root, relative="config/regions_study.json"):
     root = Path(root).resolve()
     config_path = project_path(root, relative)
     c = read_json(config_path)
-    require(c["protocol_id"] == "regions-study-v3", "REG_PROTOCOL", "Expected approved v3 protocol")
+    require(c["protocol_id"] in ("regions-study-v3", "regions-study-v4"), "REG_PROTOCOL", "Expected approved protocol")
     require(c["inference"]["p_values_or_confidence_intervals_in_q3"] is False,
             "REG_INFERENCE", "Q3 inference is not implemented")
     run = project_path(root, c["grouping"]["adopted_run"])
@@ -145,9 +183,16 @@ def load_inputs(root, relative="config/regions_study.json"):
         for k in ("home_region", "home_unit", "away_region", "away_unit"):
             require(not fact[k] or bool(re.fullmatch(r"\d{3}", fact[k])), "REG_CODE", f"Bad geographic code: {mid}")
         facts.append(fact)
+    if c["protocol_id"] == "regions-study-v4":
+        path = pin(project_path(root, c["study_classification_path"]))
+        require(read_json(path) == c["study_classification"], "REG_OVERRIDE_CONFIG", "Study classification differs from protocol")
+        observed_teams = {r[k] for r in facts for k in ("home_team_id", "away_team_id")}
+        require(all(rule["team_id"] in observed_teams for rule in c["study_classification"]["overrides"]),
+                "REG_OVERRIDE_TEAM", "A requested classification team is absent")
+        facts = [apply_study_labels(row, c["study_classification"]) for row in facts]
     roster = project_path(root, "outputs/tables/regions/preparation/regions-study-v2/team_geography_roster.csv")
     pin(roster)
     chinese = {r["team_id"]: r["team_name_zh"] for r in read_rows(roster)}
     require(all(r[k] in chinese for r in facts for k in ("home_team_id", "away_team_id")), "REG_LABEL", "Missing team label")
     return dict(root=root, config=c, config_path=config_path, facts=facts, inputs=inputs,
-                grouping_run=c["grouping"]["adopted_run"], team_labels=chinese)
+                grouping_run=c["grouping"]["adopted_run"], team_labels=chinese, base_roster=read_rows(roster))

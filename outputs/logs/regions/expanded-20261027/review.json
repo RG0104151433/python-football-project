@@ -1,0 +1,235 @@
+{
+  "decision_log_id": "R20261027-01",
+  "status": "passed",
+  "analysis_id": "regions-5c79095fe5e46b7f4755",
+  "reference_run": "outputs/logs/regions/expanded-20261027/regions-20261027T015835582785Z-28a5b4de/run_manifest.json",
+  "repeat_run": "outputs/logs/regions/expanded-20261027/regions-20261027T023253618006Z-f5557b3a/run_manifest.json",
+  "parent_matches": 24917,
+  "tests_passed": 153,
+  "automatic_checks": 8116,
+  "independent_checks": 1369336,
+  "core_artifacts_identical": 34,
+  "environment_identical": true,
+  "startup_note": "首轮虚拟环境解释器；重复运行因审批超时改用同版基础解释器并加载同一虚拟环境site-packages，环境版本与34核心哈希均一致。",
+  "protected_previous_questions": {
+    "question_1": {
+      "run_manifest": "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json",
+      "fingerprints": 138,
+      "outputs": 22
+    },
+    "question_2": {
+      "run_manifest": "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/run_manifest.json",
+      "fingerprints": 171,
+      "outputs": 23
+    }
+  },
+  "legacy_retention": "outputs/logs/regions/expanded-20261027/legacy_retention.json",
+  "macro_rates": [
+    {
+      "away_win_rate": 0.19989775051124745,
+      "draw_rate": 0.27556237218813906,
+      "group_id": "A_AFR",
+      "group_label": "非洲",
+      "home_win_rate": 0.5245398773006135,
+      "n_away_teams": 131,
+      "n_away_wins": 1173,
+      "n_draws": 1617,
+      "n_home_teams": 54,
+      "n_home_wins": 3078,
+      "n_matches": 5868,
+      "reference_group": "PARENT",
+      "standardization_reason": "",
+      "standardization_status": "ok",
+      "standardized_home_win_rate": 0.5222682701031567,
+      "status": "ok",
+      "target_id": "PROFILE_MACRO"
+    },
+    {
+      "away_win_rate": 0.23512623490669593,
+      "draw_rate": 0.2318331503841932,
+      "group_id": "A_AMER",
+      "group_label": "美洲",
+      "home_win_rate": 0.5330406147091109,
+      "n_away_teams": 128,
+      "n_away_wins": 1071,
+      "n_draws": 1056,
+      "n_home_teams": 46,
+      "n_home_wins": 2428,
+      "n_matches": 4555,
+      "reference_group": "PARENT",
+      "standardization_reason": "",
+      "standardization_status": "ok",
+      "standardized_home_win_rate": 0.5355545418811428,
+      "status": "ok",
+      "target_id": "PROFILE_MACRO"
+    },
+    {
+      "away_win_rate": 0.2778530308161192,
+      "draw_rate": 0.23772434812055537,
+      "group_id": "A_ASIA",
+      "group_label": "亚洲",
+      "home_win_rate": 0.48442262106332545,
+      "n_away_teams": 188,
+      "n_away_wins": 1641,
+      "n_draws": 1404,
+      "n_home_teams": 51,
+      "n_home_wins": 2861,
+      "n_matches": 5906,
+      "reference_group": "PARENT",
+      "standardization_reason": "",
+      "standardization_status": "ok",
+      "standardized_home_win_rate": 0.47973153143492947,
+      "status": "ok",
+      "target_id": "PROFILE_MACRO"
+    },
+    {
+      "away_win_rate": 0.28569692550735204,
+      "draw_rate": 0.22797423745291043,
+      "group_id": "A_EUR",
+      "group_label": "欧洲",
+      "home_win_rate": 0.4863288370397375,
+      "n_away_teams": 130,
+      "n_away_wins": 2351,
+      "n_draws": 1876,
+      "n_home_teams": 52,
+      "n_home_wins": 4002,
+      "n_matches": 8229,
+      "reference_group": "PARENT",
+      "standardization_reason": "",
+      "standardization_status": "ok",
+      "standardized_home_win_rate": 0.4863665216020674,
+      "status": "ok",
+      "target_id": "PROFILE_MACRO"
+    },
+    {
+      "away_win_rate": 0.3153153153153153,
+      "draw_rate": 0.17717717717717718,
+      "group_id": "A_OCE",
+      "group_label": "大洋洲",
+      "home_win_rate": 0.5075075075075075,
+      "n_away_teams": 44,
+      "n_away_wins": 105,
+      "n_draws": 59,
+      "n_home_teams": 11,
+      "n_home_wins": 169,
+      "n_matches": 333,
+      "reference_group": "PARENT",
+      "standardization_reason": "",
+      "standardization_status": "ok",
+      "standardized_home_win_rate": 0.5106629610525306,
+      "status": "ok",
+      "target_id": "PROFILE_MACRO"
+    }
+  ],
+  "matrix_coverage": {
+    "macro_to_macro": {
+      "cells": 25,
+      "observed": 25,
+      "adjusted": 11
+    },
+    "within_partition": {
+      "cells": 66,
+      "observed": 66,
+      "adjusted": 51
+    },
+    "outside_macro": {
+      "cells": 64,
+      "observed": 62,
+      "adjusted": 9
+    }
+  },
+  "table_rows": {
+    "analysis_matches": 24917,
+    "analysis_membership": 373755,
+    "contrast_results": 29,
+    "group_summary": 188,
+    "layer_contributions": 290,
+    "match_coefficients": 165055,
+    "matchup_rates": 155,
+    "opponent_composition": 4605,
+    "reference_weights": 150,
+    "stratum_counts": 1880,
+    "study_team_registry": 217,
+    "team_contributions": 39042
+  },
+  "source_classification": "config/regions_study_overrides.json",
+  "inference": "not_run",
+  "sensitivity": "not_run",
+  "strength": "not_run",
+  "human_replication": "not_performed",
+  "visual_review": {
+    "png_files": 10,
+    "all_reviewed": true,
+    "notes": "十张PNG实际查看，文字/图例可读；灰色缺层与真实0%区分"
+  },
+  "preparation_retention_verification": {
+    "report": "outputs/logs/regions/storage-migration-20261026/verification-regions-study-v4.json",
+    "hash_checks": 419,
+    "hash_matches": 418,
+    "known_unadopted_draft_mismatch": 1,
+    "core_csv_identical": 16,
+    "current_protocol": "regions-study-v4",
+    "note": "28 configured study_subanalysis contrasts excludes descriptive B_SA; not 28 estimable results"
+  },
+  "delivery_checks": {
+    "markdown_documents": 12,
+    "local_links": 631,
+    "missing_links": [],
+    "restricted_links": [
+      {
+        "file": "README.md",
+        "target": "data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv"
+      },
+      {
+        "file": "README.md",
+        "target": "data/processed/prep-3fab808178cf8ad71d88/data_dictionary.md"
+      },
+      {
+        "file": "README.md",
+        "target": "data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json"
+      },
+      {
+        "file": "研究/03_地域差异/README.md",
+        "target": "../../data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv"
+      },
+      {
+        "file": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+        "target": "../../data/processed/prep-3fab808178cf8ad71d88/data_dictionary.md"
+      },
+      {
+        "file": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+        "target": "../../data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json"
+      },
+      {
+        "file": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+        "target": "../../data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv"
+      }
+    ],
+    "restricted_link_note": "Restricted default tool access to original clean files; elevated Python previous_questions.json successfully verified these original bindings in this task",
+    "current_run_fingerprint_checks": 83,
+    "display_source_fingerprint_checks": 71,
+    "source_html_sha_unchanged": 31,
+    "journal_ids": 92,
+    "journal_ids_unique": true,
+    "protocol": "regions-study-v4",
+    "sample_id": "sample-3bc69e2cc4f843242018",
+    "tracked_diff_check_passed": true,
+    "code_tests_last_run": "153 passed before documentation-only updates; later preparation verifier compatibility change separately executed successfully",
+    "documentation_sha256": {
+      "README.md": "b4caf58ad34ad589201e164bdf8849db22b26fa7601b33e7860387c40a336bf3",
+      "研究/README.md": "68a5437baaeff59ca40836d8a3dfc0a38e7811b3bbe4aa57e0178bb643ae505b",
+      "研究/pipeline_state.json": "005d6e15d9200f3adb4f6020f8662460f23eb9c4be2dc355a638f47021d61286",
+      "研究/03_地域差异/README.md": "0e8227207d10f3a28c69983dd40d95dca19ddd5137c85bc0acdbc022d15c7528",
+      "研究/03_地域差异/脚本设计.md": "47fc880c1a05c9c3bc0a59b81783fb6eb2972b81021ad585ecbb0b8adca5d49e",
+      "研究/03_地域差异/本地运行与复现.md": "dcd5f1e212280bc346ff8e598cac2c0069904d96a05de671b18dec61076bfe1a",
+      "研究/03_地域差异/结果审读与展示提纲.md": "59b6aabb69189f663747e64aa95088e264bdf62db5cad0e75e7582c9965d07e0",
+      "研究/03_地域差异/两版计算范围对照.md": "e2b53188f87ce3fd26ef5695e15e11c9a6d58eaeaa60c5e496840a3686fc6b06",
+      "参考资料/方法文献/README.md": "05db3d525bcd020b959fc0b6b787c9d1244d38f2909d70852c42ea0c2afdc887",
+      "参考资料/方法文献/sources.json": "8900f6134d8115c1a9f77e13ec17bf0bb346251b67befe3f00bf8e569f88cc12",
+      "文档/05_团队协作/论文与汇报支撑材料索引.md": "4f1719705c8570e05820592e864191ab2fb6e32d66e9f0156a0618615cfc9fc9",
+      "文档/05_团队协作/分工与交付/00_先看这里.md": "d42e24660a9fdec7271ba0135a6999ed2a816b0509e7351b400cdd5d074d01d2",
+      "文档/05_团队协作/分工与交付/03_后续分析与展示.md": "f8c5b63c2cd3a487b3541ab1e3cb3a74cde359c4c5dc5bdb75dba938506e941e",
+      "文档/05_团队协作/分工与交付/04_两题共同可靠性与敏感性.md": "15403cd31d119ccd399867770f681c66f988c0bb42c411f338c6d7931bc0733a"
+    }
+  }
+}

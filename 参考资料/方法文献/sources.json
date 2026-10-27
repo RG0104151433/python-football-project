@@ -222,6 +222,59 @@
       "status": "web_read_only",
       "reading_scope": "Official present-day description includes Guyana and Suriname; background distinction from M49 geographic South America, not historical confederation mapping or a study selection rule",
       "decision_log_id": "R20261026-14"
+    },
+    {
+      "id": "REGION-M06",
+      "title": "Türkiye: association history",
+      "authors": "UEFA",
+      "requested_url": "https://www.uefa.com/nationalassociations/tur/",
+      "accessed_date": "2026-10-27",
+      "publication_date": null,
+      "local_path": null,
+      "status": "web_read_only",
+      "reading_scope": "Official association history states the Turkish Football Federation joined UEFA in 1962. Supports football-organizational background only; Southern Europe is the user-approved project classification, not an official UEFA or M49 subregion.",
+      "decision_log_id": "R20261027-01",
+      "used_for": "Context for Turkey study override in question 3; not a historical confederation mapping"
+    },
+    {
+      "id": "FORECAST-P01",
+      "title": "Using ELO ratings for match result prediction in association football",
+      "authors": "Lars Magnus Hvattum; Halvard Arntzen",
+      "year": 2010,
+      "requested_url": "https://www.sciencedirect.com/science/article/pii/S0169207009001708",
+      "doi": "10.1016/j.ijforecast.2009.10.002",
+      "reading_scope": "Publisher abstract and article preview; Elo covariates and benchmark comparison only. Full article methods not reviewed in this task; does not establish novelty or national-team transfer validity.",
+      "accessed_date": "2026-10-27",
+      "local_path": null,
+      "status": "web_read_only",
+      "decision_log_id": "R20261027-04",
+      "implemented_in_project": false
+    },
+    {
+      "id": "FORECAST-P02",
+      "title": "Strictly Proper Scoring Rules, Prediction, and Estimation",
+      "authors": "Tilmann Gneiting; Adrian E. Raftery",
+      "year": 2007,
+      "requested_url": "https://sites.stat.washington.edu/people/raftery/Research/PDF/Gneiting2007jasa.pdf",
+      "doi": "10.1198/016214506000001437",
+      "reading_scope": "Abstract, introduction and scoring-rule definitions; supports assessing probability forecasts rather than only hard outcome accuracy. Not an acceptance of a football model, sampling scheme or full theorem adaptation.",
+      "accessed_date": "2026-10-27",
+      "local_path": null,
+      "status": "web_read_only",
+      "decision_log_id": "R20261027-04",
+      "implemented_in_project": false
+    },
+    {
+      "id": "FORECAST-M01",
+      "title": "Forecasting: Principles and Practice, 3rd edition: Time series cross-validation",
+      "authors": "Rob J. Hyndman; George Athanasopoulos",
+      "requested_url": "https://otexts.com/fpp3/tscv.html",
+      "reading_scope": "Time-series cross-validation section: chronological training/test separation and rolling forecasting origin. Does not prove independence of football matches or validate an estimator.",
+      "accessed_date": "2026-10-27",
+      "local_path": null,
+      "status": "web_read_only",
+      "decision_log_id": "R20261027-04",
+      "implemented_in_project": false
     }
   ],
   "reading_events": [

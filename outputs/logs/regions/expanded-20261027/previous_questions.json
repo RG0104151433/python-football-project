@@ -1,0 +1,12 @@
+{
+  "question_1": {
+    "run_manifest": "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json",
+    "fingerprints": 138,
+    "outputs": 22
+  },
+  "question_2": {
+    "run_manifest": "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/run_manifest.json",
+    "fingerprints": 171,
+    "outputs": 23
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "regional-source-archive-v1",
+  "analysis_id": "regions-5c79095fe5e46b7f4755",
+  "original_run": "outputs/logs/regions/expanded-20261027/regions-20261027T015835582785Z-28a5b4de/run_manifest.json",
+  "decision_log_id": "R20261027-03",
+  "bindings": {
+    "scripts/analyze_regions.py": {
+      "1880796740581bea0cf3827e500e7c12dd68a90f29cc1585af031560eb088f15": "outputs/logs/regions/archive-v4-20261027/code/scripts/analyze_regions.py"
+    },
+    "src/artifact_store.py": {
+      "a2ceaec37604024e295b20973ebc48440c16dc3fe9bf6bccddd70cae0717f29c": "outputs/logs/regions/archive-v4-20261027/code/src/artifact_store.py"
+    },
+    "src/regions/__init__.py": {
+      "2261418824e8099f2e2b8291a7318f124e772dde77b5fcc43b98f8ca1c18b775": "outputs/logs/regions/archive-v4-20261027/code/src/regions/__init__.py"
+    },
+    "src/regions/describe.py": {
+      "31870ade547aa83f44ce8b29e6e9b61ee4d21a7bff6ccd5a3231fb0728f466c9": "outputs/logs/regions/archive-v4-20261027/code/src/regions/describe.py"
+    },
+    "src/regions/export.py": {
+      "251ded24a5d2cb8abe9233df93690d556d1d547620da62d3b7f12103899ce030": "outputs/logs/regions/archive-v4-20261027/code/src/regions/export.py"
+    },
+    "src/regions/groups.py": {
+      "7be99b5e0820f3226ddaf955c2029a208fe56945c4ddb3bde9621c98cf52f7f0": "outputs/logs/regions/archive-v4-20261027/code/src/regions/groups.py"
+    },
+    "src/regions/io.py": {
+      "6dda01922e7945ca5c3ffdd83e7e23734c74813e5390a531025f22b7e5450825": "outputs/logs/regions/archive-v4-20261027/code/src/regions/io.py"
+    },
+    "src/regions/standardize.py": {
+      "b20002505a15f0f853484d7f95bee3007156455a51848db19d6ed4aa7507935c": "outputs/logs/regions/archive-v4-20261027/code/src/regions/standardize.py"
+    },
+    "scripts/verify_region_analysis.py": {
+      "ab98e66b1caa3aa3f7c611bd58b668939a07e562e1e34bee32aaf2ee5b8f8dd5": "outputs/logs/regions/archive-v4-20261027/code/scripts/verify_region_analysis.py"
+    },
+    "tests/test_regions.py": {
+      "dfe33fa5831780a5b97e4308673b2f1665d8c96f67000b0353dbb11b0dc33d37": "outputs/logs/regions/archive-v4-20261027/code/tests/test_regions.py"
+    },
+    "tests/test_regions_expanded.py": {
+      "b9bf3ae8d837e53aa8e8c4d06d30dc37c90e81de3198e56235327461de0a9e61": "outputs/logs/regions/archive-v4-20261027/code/tests/test_regions_expanded.py"
+    }
+  }
+}

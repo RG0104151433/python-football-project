@@ -1,0 +1,24 @@
+{
+  "schema_version": "study-regions-v1",
+  "decision_log_id": "R20261027-01",
+  "earlier_decision_log_id": "R20261026-20",
+  "scope": {"start": "1980-01-01", "end": "2024-12-31"},
+  "basis": "M49-based project groups with explicitly requested football-context exceptions; not a complete confederation classification",
+  "overrides": [
+    {"team_id": "team:iran", "base_region": "142", "base_unit": "034", "region": "142", "unit": "145", "rule_id": "STUDY-IRAN-WEST-ASIA", "reason": "用户指定伊朗计入西亚", "decision_log_id": "R20261026-20"},
+    {"team_id": "team:australia", "base_region": "009", "base_unit": "053", "region": "142", "unit": "035", "rule_id": "STUDY-AUSTRALIA-SOUTHEAST-ASIA", "reason": "用户指定澳大利亚计入亚洲/东南亚，移出研究大洋洲", "decision_log_id": "R20261026-20"},
+    {"team_id": "team:turkey", "base_region": "142", "base_unit": "145", "region": "150", "unit": "039", "rule_id": "STUDY-TURKEY-SOUTHERN-EUROPE", "reason": "用户基于欧足联归属指定土耳其计入欧洲，并明确选择南欧；南欧是项目约定", "decision_log_id": "R20261027-01", "background_source": "https://www.uefa.com/nationalassociations/tur/"}
+  ],
+  "merges": [
+    {"region": "002", "base_units": ["014", "017", "018"], "unit": "SSA_OTHER", "rule_id": "STUDY-AFRICA-OTHER-SSA", "reason": "东非、中部非洲和南部非洲合并为其余撒哈拉以南"},
+    {"region": "009", "base_units": ["053", "054", "057", "061"], "unit": "OCEANIA_ALL", "rule_id": "STUDY-OCEANIA-WHOLE", "reason": "大洋洲只作为整体，不开展分区比较"}
+  ],
+  "regions": {"002": "非洲", "019": "美洲", "142": "亚洲", "150": "欧洲", "009": "大洋洲"},
+  "partitions": {
+    "150": [{"id": "151", "label": "东欧"}, {"id": "039", "label": "南欧"}, {"id": "155", "label": "西欧"}, {"id": "154", "label": "北欧"}],
+    "142": [{"id": "030", "label": "东亚"}, {"id": "035", "label": "东南亚"}, {"id": "034", "label": "南亚"}, {"id": "143", "label": "中亚"}, {"id": "145", "label": "西亚"}],
+    "002": [{"id": "015", "label": "北非"}, {"id": "011", "label": "西非"}, {"id": "SSA_OTHER", "label": "其余撒哈拉以南"}],
+    "019": [{"id": "005", "label": "南美洲"}, {"id": "013", "label": "中美洲"}, {"id": "021", "label": "北部美洲"}, {"id": "029", "label": "加勒比地区"}]
+  },
+  "reporting_requirement": "论文和汇报必须单独说明土耳其归欧洲/南欧及伊朗、澳大利亚例外。UEFA成员依据不等于南欧官方分类；不自动迁移其他欧足联会员。双方角色全研究期一致应用，保留原M49-based标签。"
+}

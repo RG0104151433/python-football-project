@@ -1,0 +1,29 @@
+{
+  "analysis_id": "regions-0a1c61664a722e6c641f",
+  "calculation": "Exact rational reconstruction from pinned original scores; no production statistical functions",
+  "fingerprint_checks": 84,
+  "human_review": "not_performed",
+  "independent_checks": 1369336,
+  "inference": "not_run",
+  "parent_matches": 24917,
+  "repeated_core_artifacts_identical": 34,
+  "sensitivity": "not_run",
+  "source_run": "outputs/logs/regions/closeout-20261027/regions-20261027T084444698281Z-cb3b3de4/run_manifest.json",
+  "statistical_comparison": null,
+  "status": "passed",
+  "tables": {
+    "analysis_matches": 24917,
+    "analysis_membership": 373755,
+    "contrast_results": 29,
+    "group_summary": 188,
+    "layer_contributions": 290,
+    "match_coefficients": 165055,
+    "matchup_rates": 155,
+    "opponent_composition": 4605,
+    "reference_weights": 150,
+    "stratum_counts": 1880,
+    "study_team_registry": 217,
+    "team_contributions": 39042
+  },
+  "verifier_sha256": "1f434be9dcf1f8ea7a74c067f787038b406c9e604f79b90fd4e62207500301c4"
+}

@@ -1,0 +1,218 @@
+﻿analysis_id,team_id,team_label,source_team_label,base_rule_id,base_region,base_unit,study_region,study_unit,study_rule_id,date_start,date_end,home_matches,away_matches,change_reason,status
+regions-0a1c61664a722e6c641f,team:afghanistan,阿富汗,Afghanistan,GEO3-R001,142,034,142,034,BASE:GEO3-R001,1980-01-01,2024-12-31,2,49,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:albania,阿尔巴尼亚,Albania,GEO3-R002,150,039,150,039,BASE:GEO3-R002,1980-01-01,2024-12-31,149,151,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:algeria,阿尔及利亚,Algeria,GEO3-R003,002,015,002,015,BASE:GEO3-R003,1980-01-01,2024-12-31,182,158,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:american-samoa,美属萨摩亚,American Samoa,GEO3-R004,009,061,009,OCEANIA_ALL,STUDY-OCEANIA-WHOLE:BASE:GEO3-R004,1980-01-01,2024-12-31,0,10,大洋洲只作为整体，不开展分区比较,known
+regions-0a1c61664a722e6c641f,team:andorra,安道尔,Andorra,GEO3-R005,150,039,150,039,BASE:GEO3-R005,1980-01-01,2024-12-31,87,96,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:angola,安哥拉,Angola,GEO3-R006,002,017,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R006,1980-01-01,2024-12-31,132,155,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:anguilla,安圭拉,Anguilla,GEO3-R007,019,029,019,029,BASE:GEO3-R007,1980-01-01,2024-12-31,11,24,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:antigua-and-barbuda,安提瓜和巴布达,Antigua and Barbuda,GEO3-R008,019,029,019,029,BASE:GEO3-R008,1980-01-01,2024-12-31,77,65,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:argentina,阿根廷,Argentina,GEO3-R009,019,005,019,005,BASE:GEO3-R009,1980-01-01,2024-12-31,154,190,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:armenia,亚美尼亚,Armenia,GEO3-R010,142,145,142,145,BASE:GEO3-R010,1980-01-01,2024-12-31,106,120,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:aruba,阿鲁巴,Aruba,GEO3-R011,019,029,019,029,BASE:GEO3-R011,1980-01-01,2024-12-31,29,31,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:australia,澳大利亚,Australia,GEO3-R012,009,053,142,035,STUDY-AUSTRALIA-SOUTHEAST-ASIA,1980-01-01,2024-12-31,169,146,用户指定澳大利亚计入亚洲/东南亚，移出研究大洋洲,known
+regions-0a1c61664a722e6c641f,team:austria,奥地利,Austria,GEO3-R013,150,155,150,155,BASE:GEO3-R013,1980-01-01,2024-12-31,218,157,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:azerbaijan,阿塞拜疆,Azerbaijan,GEO3-R014,142,145,142,145,BASE:GEO3-R014,1980-01-01,2024-12-31,105,138,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:bahamas,巴哈马,Bahamas,GEO3-R015,019,029,019,029,BASE:GEO3-R015,1980-01-01,2024-12-31,24,22,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:bahrain,巴林,Bahrain,GEO3-R016,142,145,142,145,BASE:GEO3-R016,1980-01-01,2024-12-31,195,126,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:bangladesh,孟加拉国,Bangladesh,GEO3-R017,142,034,142,034,BASE:GEO3-R017,1980-01-01,2024-12-31,75,84,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:barbados,巴巴多斯,Barbados,GEO3-R018,019,029,019,029,BASE:GEO3-R018,1980-01-01,2024-12-31,98,81,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:belarus,白俄罗斯,Belarus,GEO3-R019,150,151,150,151,BASE:GEO3-R019,1980-01-01,2024-12-31,98,147,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:belgium,比利时,Belgium,GEO3-R020,150,155,150,155,BASE:GEO3-R020,1980-01-01,2024-12-31,197,174,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:belize,伯利兹,Belize,GEO3-R021,019,013,019,013,BASE:GEO3-R021,1980-01-01,2024-12-31,35,38,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:benin,贝宁,Benin,GEO3-R022,002,011,002,011,BASE:GEO3-R022,1980-01-01,2024-12-31,97,110,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:bermuda,百慕大,Bermuda,GEO3-R023,019,021,019,021,BASE:GEO3-R023,1980-01-01,2024-12-31,66,53,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:bhutan,不丹,Bhutan,GEO3-R024,142,034,142,034,BASE:GEO3-R024,1980-01-01,2024-12-31,17,31,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:bolivia,玻利维亚,Bolivia,GEO3-R025,019,005,019,005,BASE:GEO3-R025,1980-01-01,2024-12-31,140,160,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:bosnia-and-herzegovina,波斯尼亚和黑塞哥维那,Bosnia and Herzegovina,GEO3-R026,150,039,150,039,BASE:GEO3-R026,1980-01-01,2024-12-31,111,127,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:botswana,博茨瓦纳,Botswana,GEO3-R027,002,018,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R027,1980-01-01,2024-12-31,139,120,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:brazil,巴西,Brazil,GEO3-R028,019,005,019,005,BASE:GEO3-R028,1980-01-01,2024-12-31,199,208,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:british-virgin-islands,英属维尔京群岛,British Virgin Islands,GEO3-R029,019,029,019,029,BASE:GEO3-R029,1980-01-01,2024-12-31,30,31,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:brunei,文莱,Brunei,GEO3-R030,142,035,142,035,BASE:GEO3-R030,1980-01-01,2024-12-31,23,36,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:bulgaria,保加利亚,Bulgaria,GEO3-R031,150,151,150,151,BASE:GEO3-R031,1980-01-01,2024-12-31,160,226,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:burkina-faso,布基纳法索,Burkina Faso,GEO3-R032,002,011,002,011,BASE:GEO3-R032,1980-01-01,2024-12-31,125,153,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:burundi,布隆迪,Burundi,GEO3-R033,002,014,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R033,1980-01-01,2024-12-31,47,72,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:cambodia,柬埔寨,Cambodia,GEO3-R034,142,035,142,035,BASE:GEO3-R034,1980-01-01,2024-12-31,66,61,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:cameroon,喀麦隆,Cameroon,GEO3-R035,002,017,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R035,1980-01-01,2024-12-31,129,187,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:canada,加拿大,Canada,GEO3-R036,019,021,019,021,BASE:GEO3-R036,1980-01-01,2024-12-31,119,152,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:cape-verde,佛得角,Cape Verde,GEO3-R037,002,011,002,011,BASE:GEO3-R037,1980-01-01,2024-12-31,63,75,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:cayman-islands,开曼群岛,Cayman Islands,GEO3-R038,019,029,019,029,BASE:GEO3-R038,1980-01-01,2024-12-31,43,27,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:central-african-republic,中非共和国,Central African Republic,GEO3-R039,002,017,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R039,1980-01-01,2024-12-31,24,56,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:chad,乍得,Chad,GEO3-R040,002,017,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R040,1980-01-01,2024-12-31,31,44,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:chile,智利,Chile,GEO3-R041,019,005,019,005,BASE:GEO3-R041,1980-01-01,2024-12-31,184,195,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:china,中国,China,GEO3-R042,142,030,142,030,BASE:GEO3-R042,1980-01-01,2024-12-31,214,159,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:colombia,哥伦比亚,Colombia,GEO3-R043,019,005,019,005,BASE:GEO3-R043,1980-01-01,2024-12-31,131,185,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:comoros,科摩罗,Comoros,GEO3-R044,002,014,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R044,1980-01-01,2024-12-31,27,28,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:congo,刚果共和国,Congo,GEO3-R045,002,017,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R045,1980-01-01,2024-12-31,111,122,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:cook-islands,库克群岛,Cook Islands,GEO3-R046,009,061,009,OCEANIA_ALL,STUDY-OCEANIA-WHOLE:BASE:GEO3-R046,1980-01-01,2024-12-31,3,12,大洋洲只作为整体，不开展分区比较,known
+regions-0a1c61664a722e6c641f,team:costa-rica,哥斯达黎加,Costa Rica,GEO3-R047,019,013,019,013,BASE:GEO3-R047,1980-01-01,2024-12-31,169,206,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:croatia,克罗地亚,Croatia,GEO3-R048,150,039,150,039,BASE:GEO3-R048,1980-01-01,2024-12-31,138,149,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:cuba,古巴,Cuba,GEO3-R049,019,029,019,029,BASE:GEO3-R049,1980-01-01,2024-12-31,54,136,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:curacao,库拉索,Curaçao,GEO3-R050,019,029,019,029,BASE:GEO3-R050,1980-01-01,2024-12-31,66,62,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:cyprus,塞浦路斯,Cyprus,GEO3-R051,142,145,142,145,BASE:GEO3-R051,1980-01-01,2024-12-31,193,149,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:czech-republic,捷克,Czech Republic,GEO3-R052,150,151,150,151,BASE:GEO3-R052,1980-01-01,2024-12-31,140,146,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:czechoslovakia,捷克斯洛伐克,Czechoslovakia,GEO3-R053,150,151,150,151,BASE:GEO3-R053,1980-01-01,2024-12-31,48,72,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:denmark,丹麦,Denmark,GEO3-R054,150,154,150,154,BASE:GEO3-R054,1980-01-01,2024-12-31,211,202,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:djibouti,吉布提,Djibouti,GEO3-R055,002,014,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R055,1980-01-01,2024-12-31,16,29,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:dominica,多米尼克,Dominica,GEO3-R056,019,029,019,029,BASE:GEO3-R056,1980-01-01,2024-12-31,30,48,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:dominican-republic,多米尼加共和国,Dominican Republic,GEO3-R057,019,029,019,029,BASE:GEO3-R057,1980-01-01,2024-12-31,62,46,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:dr-congo,刚果民主共和国,DR Congo,GEO3-R058,002,017,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R058,1980-01-01,2024-12-31,114,163,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:ecuador,厄瓜多尔,Ecuador,GEO3-R059,019,005,019,005,BASE:GEO3-R059,1980-01-01,2024-12-31,141,163,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:egypt,埃及,Egypt,GEO3-R060,002,015,002,015,BASE:GEO3-R060,1980-01-01,2024-12-31,247,191,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:el-salvador,萨尔瓦多,El Salvador,GEO3-R061,019,013,019,013,BASE:GEO3-R061,1980-01-01,2024-12-31,122,147,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:england,英格兰,England,GEO3-R062,150,154,150,154,BASE:GEO3-R062,1980-01-01,2024-12-31,245,189,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:equatorial-guinea,赤道几内亚,Equatorial Guinea,GEO3-R063,002,017,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R063,1980-01-01,2024-12-31,68,56,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:eritrea,厄立特里亚,Eritrea,GEO3-R064,002,014,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R064,1980-01-01,2024-12-31,17,21,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:estonia,爱沙尼亚,Estonia,GEO3-R065,150,154,150,154,BASE:GEO3-R065,1980-01-01,2024-12-31,175,192,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:eswatini,埃斯瓦蒂尼,Eswatini,GEO3-R066,002,018,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R066,1980-01-01,2024-12-31,96,104,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:ethiopia,埃塞俄比亚,Ethiopia,GEO3-R067,002,014,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R067,1980-01-01,2024-12-31,130,86,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:faroe-islands,法罗群岛,Faroe Islands,GEO3-R068,150,154,150,154,BASE:GEO3-R068,1980-01-01,2024-12-31,105,121,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:fiji,斐济,Fiji,GEO3-R069,009,054,009,OCEANIA_ALL,STUDY-OCEANIA-WHOLE:BASE:GEO3-R069,1980-01-01,2024-12-31,64,44,大洋洲只作为整体，不开展分区比较,known
+regions-0a1c61664a722e6c641f,team:finland,芬兰,Finland,GEO3-R070,150,154,150,154,BASE:GEO3-R070,1980-01-01,2024-12-31,164,262,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:france,法国,France,GEO3-R071,150,155,150,155,BASE:GEO3-R071,1980-01-01,2024-12-31,261,170,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:gabon,加蓬,Gabon,GEO3-R072,002,017,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R072,1980-01-01,2024-12-31,145,124,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:gambia,冈比亚,Gambia,GEO3-R073,002,011,002,011,BASE:GEO3-R073,1980-01-01,2024-12-31,83,71,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:georgia,格鲁吉亚,Georgia,GEO3-R074,142,145,142,145,BASE:GEO3-R074,1980-01-01,2024-12-31,118,140,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:german-dr,民主德国（东德）,German DR,GEO3-R075,150,155,150,155,BASE:GEO3-R075,1980-01-01,2024-12-31,45,57,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:germany,德国,Germany,GEO3-R076,150,155,150,155,BASE:GEO3-R076,1980-01-01,2024-12-31,252,208,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:ghana,加纳,Ghana,GEO3-R077,002,011,002,011,BASE:GEO3-R077,1980-01-01,2024-12-31,127,188,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:gibraltar,直布罗陀,Gibraltar,GEO3-R078,150,039,150,039,BASE:GEO3-R078,1980-01-01,2024-12-31,27,37,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:greece,希腊,Greece,GEO3-R079,150,039,150,039,BASE:GEO3-R079,1980-01-01,2024-12-31,211,207,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:grenada,格林纳达,Grenada,GEO3-R080,019,029,019,029,BASE:GEO3-R080,1980-01-01,2024-12-31,65,74,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:guam,关岛,Guam,GEO3-R081,009,057,009,OCEANIA_ALL,STUDY-OCEANIA-WHOLE:BASE:GEO3-R081,1980-01-01,2024-12-31,13,29,大洋洲只作为整体，不开展分区比较,known
+regions-0a1c61664a722e6c641f,team:guatemala,危地马拉,Guatemala,GEO3-R082,019,013,019,013,BASE:GEO3-R082,1980-01-01,2024-12-31,124,120,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:guinea,几内亚,Guinea,GEO3-R083,002,011,002,011,BASE:GEO3-R083,1980-01-01,2024-12-31,90,155,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:guinea-bissau,几内亚比绍,Guinea-Bissau,GEO3-R084,002,011,002,011,BASE:GEO3-R084,1980-01-01,2024-12-31,44,46,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:guyana,圭亚那,Guyana,GEO3-R085,019,005,019,005,BASE:GEO3-R085,1980-01-01,2024-12-31,74,70,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:haiti,海地,Haiti,GEO3-R086,019,029,019,029,BASE:GEO3-R086,1980-01-01,2024-12-31,65,111,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:honduras,洪都拉斯,Honduras,GEO3-R087,019,013,019,013,BASE:GEO3-R087,1980-01-01,2024-12-31,168,162,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:hong-kong,中国香港,Hong Kong,GEO3-R088,142,030,142,030,BASE:GEO3-R088,1980-01-01,2024-12-31,120,93,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:hungary,匈牙利,Hungary,GEO3-R089,150,151,150,151,BASE:GEO3-R089,1980-01-01,2024-12-31,224,196,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:iceland,冰岛,Iceland,GEO3-R090,150,154,150,154,BASE:GEO3-R090,1980-01-01,2024-12-31,159,198,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:india,印度,India,GEO3-R091,142,034,142,034,BASE:GEO3-R091,1980-01-01,2024-12-31,152,91,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:indonesia,印度尼西亚,Indonesia,GEO3-R092,142,035,142,035,BASE:GEO3-R092,1980-01-01,2024-12-31,166,127,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:iran,伊朗,Iran,GEO3-R093,142,034,142,145,STUDY-IRAN-WEST-ASIA,1980-01-01,2024-12-31,157,153,用户指定伊朗计入西亚,known
+regions-0a1c61664a722e6c641f,team:iraq,伊拉克,Iraq,GEO3-R094,142,145,142,145,BASE:GEO3-R094,1980-01-01,2024-12-31,68,169,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:israel,以色列,Israel,GEO3-R095,142,145,142,145,BASE:GEO3-R095,1980-01-01,2024-12-31,174,158,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:italy,意大利,Italy,GEO3-R096,150,039,150,039,BASE:GEO3-R096,1980-01-01,2024-12-31,220,173,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:ivory-coast,科特迪瓦,Ivory Coast,GEO3-R097,002,011,002,011,BASE:GEO3-R097,1980-01-01,2024-12-31,170,163,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:jamaica,牙买加,Jamaica,GEO3-R098,019,029,019,029,BASE:GEO3-R098,1980-01-01,2024-12-31,170,186,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:japan,日本,Japan,GEO3-R099,142,030,142,030,BASE:GEO3-R099,1980-01-01,2024-12-31,265,126,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:jordan,约旦,Jordan,GEO3-R100,142,145,142,145,BASE:GEO3-R100,1980-01-01,2024-12-31,172,140,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:kazakhstan,哈萨克斯坦,Kazakhstan,GEO3-R101,142,143,142,143,BASE:GEO3-R101,1980-01-01,2024-12-31,94,107,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:kenya,肯尼亚,Kenya,GEO3-R102,002,014,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R102,1980-01-01,2024-12-31,167,171,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:kosovo,科索沃,Kosovo,GEO3-R103,150,039,150,039,BASE:GEO3-R103,1980-01-01,2024-12-31,34,33,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:kuwait,科威特,Kuwait,GEO3-R104,142,145,142,145,BASE:GEO3-R104,1980-01-01,2024-12-31,215,131,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:kyrgyzstan,吉尔吉斯斯坦,Kyrgyzstan,GEO3-R105,142,143,142,143,BASE:GEO3-R105,1980-01-01,2024-12-31,42,64,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:laos,老挝,Laos,GEO3-R106,142,035,142,035,BASE:GEO3-R106,1980-01-01,2024-12-31,43,53,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:latvia,拉脱维亚,Latvia,GEO3-R107,150,154,150,154,BASE:GEO3-R107,1980-01-01,2024-12-31,136,155,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:lebanon,黎巴嫩,Lebanon,GEO3-R108,142,145,142,145,BASE:GEO3-R108,1980-01-01,2024-12-31,116,105,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:lesotho,莱索托,Lesotho,GEO3-R109,002,018,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R109,1980-01-01,2024-12-31,87,104,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:liberia,利比里亚,Liberia,GEO3-R110,002,011,002,011,BASE:GEO3-R110,1980-01-01,2024-12-31,106,110,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:libya,利比亚,Libya,GEO3-R111,002,015,002,015,BASE:GEO3-R111,1980-01-01,2024-12-31,95,114,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:liechtenstein,列支敦士登,Liechtenstein,GEO3-R112,150,155,150,155,BASE:GEO3-R112,1980-01-01,2024-12-31,109,118,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:lithuania,立陶宛,Lithuania,GEO3-R113,150,154,150,154,BASE:GEO3-R113,1980-01-01,2024-12-31,125,165,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:luxembourg,卢森堡,Luxembourg,GEO3-R114,150,155,150,155,BASE:GEO3-R114,1980-01-01,2024-12-31,189,137,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:macau,中国澳门,Macau,GEO3-R115,142,030,142,030,BASE:GEO3-R115,1980-01-01,2024-12-31,36,46,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:madagascar,马达加斯加,Madagascar,GEO3-R116,002,014,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R116,1980-01-01,2024-12-31,76,84,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:malawi,马拉维,Malawi,GEO3-R117,002,014,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R117,1980-01-01,2024-12-31,209,171,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:malaysia,马来西亚,Malaysia,GEO3-R118,142,035,142,035,BASE:GEO3-R118,1980-01-01,2024-12-31,203,140,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:maldives,马尔代夫,Maldives,GEO3-R119,142,034,142,034,BASE:GEO3-R119,1980-01-01,2024-12-31,58,69,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:mali,马里,Mali,GEO3-R120,002,011,002,011,BASE:GEO3-R120,1980-01-01,2024-12-31,145,171,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:malta,马耳他,Malta,GEO3-R121,150,039,150,039,BASE:GEO3-R121,1980-01-01,2024-12-31,209,152,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:mauritania,毛里塔尼亚,Mauritania,GEO3-R122,002,011,002,011,BASE:GEO3-R122,1980-01-01,2024-12-31,75,86,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:mauritius,毛里求斯,Mauritius,GEO3-R123,002,014,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R123,1980-01-01,2024-12-31,68,87,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:mexico,墨西哥,Mexico,GEO3-R124,019,013,019,013,BASE:GEO3-R124,1980-01-01,2024-12-31,168,174,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:moldova,摩尔多瓦,Moldova,GEO3-R125,150,151,150,151,BASE:GEO3-R125,1980-01-01,2024-12-31,104,134,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:mongolia,蒙古,Mongolia,GEO3-R126,142,030,142,030,BASE:GEO3-R126,1980-01-01,2024-12-31,19,35,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:montenegro,黑山,Montenegro,GEO3-R127,150,039,150,039,BASE:GEO3-R127,1980-01-01,2024-12-31,77,70,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:montserrat,蒙特塞拉特,Montserrat,GEO3-R128,019,029,019,029,BASE:GEO3-R128,1980-01-01,2024-12-31,11,17,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:morocco,摩洛哥,Morocco,GEO3-R129,002,015,002,015,BASE:GEO3-R129,1980-01-01,2024-12-31,215,137,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:mozambique,莫桑比克,Mozambique,GEO3-R130,002,014,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R130,1980-01-01,2024-12-31,131,138,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:myanmar,缅甸,Myanmar,GEO3-R131,142,035,142,035,BASE:GEO3-R131,1980-01-01,2024-12-31,64,78,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:namibia,纳米比亚,Namibia,GEO3-R132,002,018,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R132,1980-01-01,2024-12-31,93,111,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:nepal,尼泊尔,Nepal,GEO3-R133,142,034,142,034,BASE:GEO3-R133,1980-01-01,2024-12-31,64,69,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:netherlands,荷兰,Netherlands,GEO3-R134,150,155,150,155,BASE:GEO3-R134,1980-01-01,2024-12-31,220,181,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:new-caledonia,新喀里多尼亚,New Caledonia,GEO3-R135,009,054,009,OCEANIA_ALL,STUDY-OCEANIA-WHOLE:BASE:GEO3-R135,1980-01-01,2024-12-31,21,23,大洋洲只作为整体，不开展分区比较,known
+regions-0a1c61664a722e6c641f,team:new-zealand,新西兰,New Zealand,GEO3-R136,009,053,009,OCEANIA_ALL,STUDY-OCEANIA-WHOLE:BASE:GEO3-R136,1980-01-01,2024-12-31,80,126,大洋洲只作为整体，不开展分区比较,known
+regions-0a1c61664a722e6c641f,team:nicaragua,尼加拉瓜,Nicaragua,GEO3-R137,019,013,019,013,BASE:GEO3-R137,1980-01-01,2024-12-31,51,68,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:niger,尼日尔,Niger,GEO3-R138,002,011,002,011,BASE:GEO3-R138,1980-01-01,2024-12-31,78,92,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:nigeria,尼日利亚,Nigeria,GEO3-R139,002,011,002,011,BASE:GEO3-R139,1980-01-01,2024-12-31,141,162,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:north-korea,朝鲜,North Korea,GEO3-R140,142,030,142,030,BASE:GEO3-R140,1980-01-01,2024-12-31,34,119,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:north-macedonia,北马其顿,North Macedonia,GEO3-R141,150,039,150,039,BASE:GEO3-R141,1980-01-01,2024-12-31,136,125,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:northern-ireland,北爱尔兰,Northern Ireland,GEO3-R142,150,154,150,154,BASE:GEO3-R142,1980-01-01,2024-12-31,167,169,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:norway,挪威,Norway,GEO3-R143,150,154,150,154,BASE:GEO3-R143,1980-01-01,2024-12-31,219,215,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:oman,阿曼,Oman,GEO3-R144,142,145,142,145,BASE:GEO3-R144,1980-01-01,2024-12-31,212,126,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:pakistan,巴基斯坦,Pakistan,GEO3-R145,142,034,142,034,BASE:GEO3-R145,1980-01-01,2024-12-31,38,64,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:palestine,巴勒斯坦,Palestine,GEO3-R146,142,145,142,145,BASE:GEO3-R146,1980-01-01,2024-12-31,18,91,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:panama,巴拿马,Panama,GEO3-R147,019,013,019,013,BASE:GEO3-R147,1980-01-01,2024-12-31,145,167,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:papua-new-guinea,巴布亚新几内亚,Papua New Guinea,GEO3-R148,009,054,009,OCEANIA_ALL,STUDY-OCEANIA-WHOLE:BASE:GEO3-R148,1980-01-01,2024-12-31,18,28,大洋洲只作为整体，不开展分区比较,known
+regions-0a1c61664a722e6c641f,team:paraguay,巴拉圭,Paraguay,GEO3-R149,019,005,019,005,BASE:GEO3-R149,1980-01-01,2024-12-31,129,223,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:peru,秘鲁,Peru,GEO3-R150,019,005,019,005,BASE:GEO3-R150,1980-01-01,2024-12-31,173,178,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:philippines,菲律宾,Philippines,GEO3-R151,142,035,142,035,BASE:GEO3-R151,1980-01-01,2024-12-31,71,90,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:poland,波兰,Poland,GEO3-R152,150,151,150,151,BASE:GEO3-R152,1980-01-01,2024-12-31,236,222,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:portugal,葡萄牙,Portugal,GEO3-R153,150,039,150,039,BASE:GEO3-R153,1980-01-01,2024-12-31,216,167,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:puerto-rico,波多黎各,Puerto Rico,GEO3-R154,019,029,019,029,BASE:GEO3-R154,1980-01-01,2024-12-31,40,44,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:qatar,卡塔尔,Qatar,GEO3-R155,142,145,142,145,BASE:GEO3-R155,1980-01-01,2024-12-31,266,127,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:republic-of-ireland,爱尔兰,Republic of Ireland,GEO3-R156,150,154,150,154,BASE:GEO3-R156,1980-01-01,2024-12-31,225,161,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:romania,罗马尼亚,Romania,GEO3-R157,150,151,150,151,BASE:GEO3-R157,1980-01-01,2024-12-31,196,215,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:russia,俄罗斯,Russia,GEO3-R158,,,,,BASE:GEO3-R158,1980-01-01,1991-12-25,25,65,沿用原M49-based项目规则,unknown
+regions-0a1c61664a722e6c641f,team:russia,俄罗斯,Russia,GEO3-R159,,,,,BASE:GEO3-R159,1991-12-26,1992-07-02,1,8,沿用原M49-based项目规则,unknown
+regions-0a1c61664a722e6c641f,team:russia,俄罗斯,Russia,GEO3-R160,150,151,150,151,BASE:GEO3-R160,1992-07-03,2024-12-31,146,140,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:rwanda,卢旺达,Rwanda,GEO3-R161,002,014,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R161,1980-01-01,2024-12-31,102,90,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:saint-kitts-and-nevis,圣基茨和尼维斯,Saint Kitts and Nevis,GEO3-R162,019,029,019,029,BASE:GEO3-R162,1980-01-01,2024-12-31,74,58,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:saint-lucia,圣卢西亚,Saint Lucia,GEO3-R163,019,029,019,029,BASE:GEO3-R163,1980-01-01,2024-12-31,41,69,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:saint-vincent-and-the-grenadines,圣文森特和格林纳丁斯,Saint Vincent and the Grenadines,GEO3-R164,019,029,019,029,BASE:GEO3-R164,1980-01-01,2024-12-31,57,60,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:samoa,萨摩亚,Samoa,GEO3-R165,009,061,009,OCEANIA_ALL,STUDY-OCEANIA-WHOLE:BASE:GEO3-R165,1980-01-01,2024-12-31,20,12,大洋洲只作为整体，不开展分区比较,known
+regions-0a1c61664a722e6c641f,team:san-marino,圣马力诺,San Marino,GEO3-R166,150,039,150,039,BASE:GEO3-R166,1980-01-01,2024-12-31,102,103,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:sao-tome-and-principe,圣多美和普林西比,São Tomé and Príncipe,GEO3-R167,002,017,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R167,1980-01-01,2024-12-31,18,27,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:saudi-arabia,沙特阿拉伯,Saudi Arabia,GEO3-R168,142,145,142,145,BASE:GEO3-R168,1980-01-01,2024-12-31,265,119,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:scotland,苏格兰,Scotland,GEO3-R169,150,154,150,154,BASE:GEO3-R169,1980-01-01,2024-12-31,186,184,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:senegal,塞内加尔,Senegal,GEO3-R170,002,011,002,011,BASE:GEO3-R170,1980-01-01,2024-12-31,155,177,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:serbia,塞尔维亚,Serbia,GEO3-R171,150,039,150,039,BASE:GEO3-R171,1980-01-01,2024-12-31,103,165,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:seychelles,塞舌尔,Seychelles,GEO3-R172,002,014,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R172,1980-01-01,2024-12-31,40,44,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:sierra-leone,塞拉利昂,Sierra Leone,GEO3-R173,002,011,002,011,BASE:GEO3-R173,1980-01-01,2024-12-31,74,99,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:singapore,新加坡,Singapore,GEO3-R174,142,035,142,035,BASE:GEO3-R174,1980-01-01,2024-12-31,207,130,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:sint-maarten,荷属圣马丁,Sint Maarten,GEO3-R175,019,029,019,029,BASE:GEO3-R175,1980-01-01,2024-12-31,1,0,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:slovakia,斯洛伐克,Slovakia,GEO3-R176,150,151,150,151,BASE:GEO3-R176,1980-01-01,2024-12-31,139,146,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:slovenia,斯洛文尼亚,Slovenia,GEO3-R177,150,039,150,039,BASE:GEO3-R177,1980-01-01,2024-12-31,134,135,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:solomon-islands,所罗门群岛,Solomon Islands,GEO3-R178,009,054,009,OCEANIA_ALL,STUDY-OCEANIA-WHOLE:BASE:GEO3-R178,1980-01-01,2024-12-31,42,52,大洋洲只作为整体，不开展分区比较,known
+regions-0a1c61664a722e6c641f,team:somalia,索马里,Somalia,GEO3-R179,002,014,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R179,1980-01-01,2024-12-31,4,25,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:south-africa,南非,South Africa,GEO3-R180,002,018,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R180,1980-01-01,2024-12-31,224,130,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:south-korea,韩国,South Korea,GEO3-R181,142,030,142,030,BASE:GEO3-R181,1980-01-01,2024-12-31,265,153,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:south-sudan,南苏丹,South Sudan,GEO3-R182,002,014,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R182,1980-01-01,2024-12-31,13,28,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:spain,西班牙,Spain,GEO3-R183,150,039,150,039,BASE:GEO3-R183,1980-01-01,2024-12-31,229,189,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:sri-lanka,斯里兰卡,Sri Lanka,GEO3-R184,142,034,142,034,BASE:GEO3-R184,1980-01-01,2024-12-31,50,67,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:sudan,苏丹,Sudan,GEO3-R185,002,015,002,015,BASE:GEO3-R185,1980-01-01,2024-12-31,103,135,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:suriname,苏里南,Suriname,GEO3-R186,019,005,019,005,BASE:GEO3-R186,1980-01-01,2024-12-31,57,67,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:sweden,瑞典,Sweden,GEO3-R187,150,154,150,154,BASE:GEO3-R187,1980-01-01,2024-12-31,215,238,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:switzerland,瑞士,Switzerland,GEO3-R188,150,155,150,155,BASE:GEO3-R188,1980-01-01,2024-12-31,212,193,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:syria,叙利亚,Syria,GEO3-R189,142,145,142,145,BASE:GEO3-R189,1980-01-01,2024-12-31,70,173,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:tahiti,大溪地,Tahiti,GEO3-R190,009,061,009,OCEANIA_ALL,STUDY-OCEANIA-WHOLE:BASE:GEO3-R190,1980-01-01,2024-12-31,27,27,大洋洲只作为整体，不开展分区比较,known
+regions-0a1c61664a722e6c641f,team:taiwan,中华台北,Taiwan,GEO3-R191,142,030,142,030,BASE:GEO3-R191,1980-01-01,2024-12-31,43,70,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:tajikistan,塔吉克斯坦,Tajikistan,GEO3-R192,142,143,142,143,BASE:GEO3-R192,1980-01-01,2024-12-31,46,73,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:tanzania,坦桑尼亚,Tanzania,GEO3-R193,002,014,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R193,1980-01-01,2024-12-31,154,153,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:thailand,泰国,Thailand,GEO3-R194,142,035,142,035,BASE:GEO3-R194,1980-01-01,2024-12-31,258,131,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:timor-leste,东帝汶,Timor-Leste,GEO3-R195,142,035,142,035,BASE:GEO3-R195,1980-01-01,2024-12-31,4,40,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:togo,多哥,Togo,GEO3-R196,002,011,002,011,BASE:GEO3-R196,1980-01-01,2024-12-31,124,142,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:tonga,汤加,Tonga,GEO3-R197,009,061,009,OCEANIA_ALL,STUDY-OCEANIA-WHOLE:BASE:GEO3-R197,1980-01-01,2024-12-31,10,11,大洋洲只作为整体，不开展分区比较,known
+regions-0a1c61664a722e6c641f,team:trinidad-and-tobago,特立尼达和多巴哥,Trinidad and Tobago,GEO3-R198,019,029,019,029,BASE:GEO3-R198,1980-01-01,2024-12-31,210,187,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:tunisia,突尼斯,Tunisia,GEO3-R199,002,015,002,015,BASE:GEO3-R199,1980-01-01,2024-12-31,237,158,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:turkey,土耳其,Turkey,GEO3-R200,142,145,150,039,STUDY-TURKEY-SOUTHERN-EUROPE,1980-01-01,2024-12-31,184,195,用户基于欧足联归属指定土耳其计入欧洲，并明确选择南欧；南欧是项目约定,known
+regions-0a1c61664a722e6c641f,team:turkmenistan,土库曼斯坦,Turkmenistan,GEO3-R201,142,143,142,143,BASE:GEO3-R201,1980-01-01,2024-12-31,34,63,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:turks-and-caicos-islands,特克斯和凯科斯群岛,Turks and Caicos Islands,GEO3-R202,019,029,019,029,BASE:GEO3-R202,1980-01-01,2024-12-31,12,18,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:uganda,乌干达,Uganda,GEO3-R203,002,014,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R203,1980-01-01,2024-12-31,150,162,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:ukraine,乌克兰,Ukraine,GEO3-R204,150,151,150,151,BASE:GEO3-R204,1980-01-01,2024-12-31,129,137,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:united-arab-emirates,阿联酋,United Arab Emirates,GEO3-R205,142,145,142,145,BASE:GEO3-R205,1980-01-01,2024-12-31,247,123,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:united-states,美国,United States,GEO3-R206,019,021,019,021,BASE:GEO3-R206,1980-01-01,2024-12-31,405,170,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:united-states-virgin-islands,美属维尔京群岛,United States Virgin Islands,GEO3-R207,019,029,019,029,BASE:GEO3-R207,1980-01-01,2024-12-31,23,32,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:uruguay,乌拉圭,Uruguay,GEO3-R208,019,005,019,005,BASE:GEO3-R208,1980-01-01,2024-12-31,158,219,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:uzbekistan,乌兹别克斯坦,Uzbekistan,GEO3-R209,142,143,142,143,BASE:GEO3-R209,1980-01-01,2024-12-31,110,119,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:vanuatu,瓦努阿图,Vanuatu,GEO3-R210,009,054,009,OCEANIA_ALL,STUDY-OCEANIA-WHOLE:BASE:GEO3-R210,1980-01-01,2024-12-31,35,33,大洋洲只作为整体，不开展分区比较,known
+regions-0a1c61664a722e6c641f,team:venezuela,委内瑞拉,Venezuela,GEO3-R211,019,005,019,005,BASE:GEO3-R211,1980-01-01,2024-12-31,150,147,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:vietnam,越南,Vietnam,GEO3-R212,142,035,142,035,BASE:GEO3-R212,1980-01-01,2024-12-31,112,80,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:wales,威尔士,Wales,GEO3-R213,150,154,150,154,BASE:GEO3-R213,1980-01-01,2024-12-31,172,165,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:yemen,也门,Yemen,GEO3-R214,142,145,142,145,BASE:GEO3-R214,1980-01-01,2024-12-31,45,67,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:yugoslavia,南斯拉夫,Yugoslavia,GEO3-R215,150,039,150,039,BASE:GEO3-R215,1980-01-01,2024-12-31,35,50,沿用原M49-based项目规则,known
+regions-0a1c61664a722e6c641f,team:zambia,赞比亚,Zambia,GEO3-R216,002,014,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R216,1980-01-01,2024-12-31,177,248,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known
+regions-0a1c61664a722e6c641f,team:zimbabwe,津巴布韦,Zimbabwe,GEO3-R217,002,014,002,SSA_OTHER,STUDY-AFRICA-OTHER-SSA:BASE:GEO3-R217,1980-01-01,2024-12-31,153,179,东非、中部非洲和南部非洲合并为其余撒哈拉以南,known

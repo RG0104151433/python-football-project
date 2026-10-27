@@ -1,0 +1,252 @@
+{
+  "analysis_id": "regions-0a1c61664a722e6c641f",
+  "boundary": {
+    "adjustable": 71,
+    "adjusted_contrasts": 24,
+    "conditional_cells": 155,
+    "contrasts": 29,
+    "inference": "not_run",
+    "observed": 153,
+    "observed_but_missing_positive_layers": 82,
+    "strength_adjustment": "not_run",
+    "zero_cells": 2
+  },
+  "cards": [
+    {
+      "allowed": "本样本调整率约65.73%、55.97%、46.42%；北非减其余为19.31个百分点。",
+      "evidence": [
+        {
+          "field": "standardized_home_win_rate",
+          "group_id": "C_AFR_015",
+          "n_matches": 1079,
+          "reference_group": "C_AFR_REF",
+          "table": "group_summary.csv",
+          "target_id": "C_AFR",
+          "unit": "probability",
+          "value": 0.6573123453840202
+        },
+        {
+          "field": "standardized_home_win_rate",
+          "group_id": "C_AFR_011",
+          "n_matches": 1697,
+          "reference_group": "C_AFR_REF",
+          "table": "group_summary.csv",
+          "target_id": "C_AFR",
+          "unit": "probability",
+          "value": 0.559730065963662
+        },
+        {
+          "field": "standardized_home_win_rate",
+          "group_id": "C_AFR_SSA_OTHER",
+          "n_matches": 3092,
+          "reference_group": "C_AFR_REF",
+          "table": "group_summary.csv",
+          "target_id": "C_AFR",
+          "unit": "probability",
+          "value": 0.46420134639193805
+        },
+        {
+          "arm1": "C_AFR_015",
+          "arm2": "C_AFR_SSA_OTHER",
+          "contrast_id": "C_AFR_015_VS_OTHER",
+          "field": "adjusted_difference_pp",
+          "n_arm1": 1079,
+          "n_arm2": 3092,
+          "reference_group": "C_AFR_REF",
+          "table": "contrast_results.csv",
+          "unit": "percentage_points",
+          "value": 19.311099899208212
+        }
+      ],
+      "figure": "finding_01_africa",
+      "forbidden": "北非拥有最强的纯主场优势；地域造成了19.31个百分点。",
+      "id": "Q3-F01",
+      "statement": "统一年代和赛事构成后，北非、西非、其余撒哈拉以南非洲的主胜率仍不同；洲内分区值得保留。",
+      "status": "supported_description",
+      "title": "同一大洲内部不能只看一个平均数"
+    },
+    {
+      "allowed": "南美减其他合并组约7.08个百分点，南美减中美洲约0.56；两种比较对象不同。",
+      "evidence": [
+        {
+          "field": "standardized_home_win_rate",
+          "group_id": "C_AMER_005",
+          "n_matches": 1690,
+          "reference_group": "C_AMER_REF",
+          "table": "group_summary.csv",
+          "target_id": "C_AMER",
+          "unit": "probability",
+          "value": 0.578532950387123
+        },
+        {
+          "field": "standardized_home_win_rate",
+          "group_id": "C_AMER_013",
+          "n_matches": 982,
+          "reference_group": "C_AMER_REF",
+          "table": "group_summary.csv",
+          "target_id": "C_AMER",
+          "unit": "probability",
+          "value": 0.5729389289840482
+        },
+        {
+          "field": "standardized_home_win_rate",
+          "group_id": "C_AMER_021",
+          "n_matches": 590,
+          "reference_group": "C_AMER_REF",
+          "table": "group_summary.csv",
+          "target_id": "C_AMER",
+          "unit": "probability",
+          "value": 0.5639521813375179
+        },
+        {
+          "field": "standardized_home_win_rate",
+          "group_id": "C_AMER_029",
+          "n_matches": 1293,
+          "reference_group": "C_AMER_REF",
+          "table": "group_summary.csv",
+          "target_id": "C_AMER",
+          "unit": "probability",
+          "value": 0.4369328701578678
+        },
+        {
+          "arm1": "SA_FEATURE",
+          "arm2": "C_OTHER_AMER",
+          "contrast_id": "C_AMER_FOCUS",
+          "field": "adjusted_difference_pp",
+          "n_arm1": 1690,
+          "n_arm2": 2865,
+          "reference_group": "C_AMER_REF",
+          "table": "contrast_results.csv",
+          "unit": "percentage_points",
+          "value": 7.083737289208192
+        },
+        {
+          "arm1": "C_AMER_005",
+          "arm2": "C_AMER_013",
+          "contrast_id": "C_AMER_005_VS_013",
+          "field": "adjusted_difference_pp",
+          "n_arm1": 1690,
+          "n_arm2": 982,
+          "reference_group": "C_AMER_REF",
+          "table": "contrast_results.csv",
+          "unit": "percentage_points",
+          "value": 0.5594021403074856
+        }
+      ],
+      "figure": "finding_02_americas",
+      "forbidden": "南美比美洲其他每个分区都高7.08个百分点；合并比较已经揭示原因。",
+      "id": "Q3-F02",
+      "statement": "南美相对其他美洲合并组的差，不能代表它相对每个分区都高出相同幅度。",
+      "status": "supported_description",
+      "title": "南美更高，要先说明在和谁比较"
+    },
+    {
+      "allowed": "欧洲约+17.50、亚洲约−14.61个百分点；地域关系与观察到的胜率相关，双方实力尚未控制。",
+      "evidence": [
+        {
+          "arm1": "B_EUR_CROSS",
+          "arm2": "B_EUR_SAME",
+          "contrast_id": "B_EUR",
+          "field": "adjusted_difference_pp",
+          "n_arm1": 1484,
+          "n_arm2": 1838,
+          "reference_group": "B_EUR_REF",
+          "table": "contrast_results.csv",
+          "unit": "percentage_points",
+          "value": 17.504402741898318
+        },
+        {
+          "arm1": "B_ASIA_CROSS",
+          "arm2": "B_ASIA_SAME",
+          "contrast_id": "B_ASIA",
+          "field": "adjusted_difference_pp",
+          "n_arm1": 1743,
+          "n_arm2": 1934,
+          "reference_group": "B_ASIA_REF",
+          "table": "contrast_results.csv",
+          "unit": "percentage_points",
+          "value": -14.605655997311768
+        }
+      ],
+      "figure": "finding_03_relations",
+      "forbidden": "跨洲旅行使欧洲增加17.50个百分点，或导致亚洲下降14.61个百分点。",
+      "id": "Q3-F03",
+      "statement": "在各自主队背景内，洲外减同分区的调整主胜率差，欧洲为正、亚洲为负。",
+      "status": "supported_description",
+      "title": "面对洲外对手，欧亚主队呈现相反方向"
+    }
+  ],
+  "schema_version": "q3-final-conclusion-cards-v1",
+  "selection_status": "Post-result presentation focus, not a preregistered inferential primary family; all comparisons retained",
+  "source_run": "outputs/logs/regions/closeout-20261027/regions-20261027T084412226301Z-f05899a3/run_manifest.json",
+  "source_sha256": {
+    "outputs/logs/regions/closeout-20261027/independent_audit_repeat.json": "7506999ac3e9ca1941d665ce537d7222b6430d954f03c223d9f5bac5bb61b5dc",
+    "outputs/logs/regions/closeout-20261027/regions-20261027T084412226301Z-f05899a3/display_data.json": "cfdf535b2b7984bb09b1b756486ff365bcf005f35c578feb7c8ca531ae95f709",
+    "outputs/logs/regions/closeout-20261027/regions-20261027T084412226301Z-f05899a3/run_manifest.json": "6953f47bd876c86fbd73a13ca44c813ecf9955a0208ff2671a1d56261c20434b",
+    "outputs/logs/regions/closeout-20261027/support/support_audit.json": "1fd011298e66f7bcd2c41c8bfd425c3ecedecb26bd260db241eaf607b86dc455",
+    "outputs/logs/regions/closeout-20261027/support/support_inventory.csv": "fe20d6084fb28e0d3104a0b5a6d69150232b8b43cd5eb7d3f26ff99e6d651745",
+    "outputs/logs/regions/closeout-20261027/tests.xml": "e05e10f7cebd463531fb95d0cafff3343587f2875366338ebc729216525ef3f8",
+    "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json": "a24a84ee948234131a7bcf48d09a2c7a9527fd3c1483fc7bbf246455ddba0afa",
+    "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/run_manifest.json": "c25cb3672ff004939171a59e460de8ba4c7f960fc35e1dbf033b1dbe2cced0ca",
+    "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/analysis_membership.csv": "5a773a0ff3a4da59efd02022f455b32a9e1bd5ef45059ba8c1899150bdadeb1e",
+    "outputs/tables/regions/regions-0a1c61664a722e6c641f/analysis_matches.csv": "8b0ddb7f2e4d5eb2199c8c2b477e7873b1e46bc12421c4dddf5ac8809f91ca22",
+    "outputs/tables/regions/regions-0a1c61664a722e6c641f/analysis_metadata.json": "2462e00aac5fc7e51d3ddd2e3068ee0e4eccdf76382e67f204f289094c0b5f4d",
+    "outputs/tables/regions/regions-0a1c61664a722e6c641f/contrast_results.csv": "c7baa604defcaca867fab2b460b12f9a61d1af690620ba12829ad5695452b27f",
+    "outputs/tables/regions/regions-0a1c61664a722e6c641f/data_dictionary.md": "5782ad4c3b93b121ef62e736a2e29fd58adc7fddf49b47818a6d62e96691771a",
+    "outputs/tables/regions/regions-0a1c61664a722e6c641f/group_summary.csv": "ae3ea728b0e5ed07ab52dc432e408502e63a6401248de56ce2fc8d7e53d2e9ca",
+    "outputs/tables/regions/regions-0a1c61664a722e6c641f/matchup_rates.csv": "76bd0eaff66d50e7c7d817bdaa740913b5ddaeb885bcd990a3a213496319bcee",
+    "outputs/tables/regions/regions-0a1c61664a722e6c641f/reference_weights.csv": "b56f2e54601f00c426077a4080e4bb0bc05f97cbd6e1ec86be68290f0126210b",
+    "outputs/tables/regions/regions-0a1c61664a722e6c641f/stratum_counts.csv": "3048c32ec29f3428ee97136104c78763b5fa4c2ddfbf6f52f9560393fdc315f5",
+    "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/analysis_membership.csv": "4294840536c707abef248b166c015de8f7fac39dcf14a37c7dcd75911283e166"
+  },
+  "supplementary": [
+    {
+      "allowed": "东欧与西欧点估计接近，不等于证明无差异。",
+      "evidence": [
+        {
+          "arm1": "C_EUR_151",
+          "arm2": "C_EUR_155",
+          "contrast_id": "C_EUR_151_VS_155",
+          "field": "adjusted_difference_pp",
+          "n_arm1": 1620,
+          "n_arm2": 1703,
+          "reference_group": "C_EUR_REF",
+          "table": "contrast_results.csv",
+          "unit": "percentage_points",
+          "value": 0.3807080229174531
+        },
+        {
+          "arm1": "C_EUR_151",
+          "arm2": "C_EUR_154",
+          "contrast_id": "C_EUR_151_VS_154",
+          "field": "adjusted_difference_pp",
+          "n_arm1": 1620,
+          "n_arm2": 2504,
+          "reference_group": "C_EUR_REF",
+          "table": "contrast_results.csv",
+          "unit": "percentage_points",
+          "value": 5.064433025151205
+        }
+      ],
+      "id": "Q3-A01"
+    },
+    {
+      "allowed": "东亚减南亚约15.72个百分点；中亚全期调整率不可估，不加入完整调整排名。",
+      "evidence": [
+        {
+          "arm1": "C_ASIA_030",
+          "arm2": "C_ASIA_034",
+          "contrast_id": "C_ASIA_030_VS_034",
+          "field": "adjusted_difference_pp",
+          "n_arm1": 996,
+          "n_arm2": 456,
+          "reference_group": "C_ASIA_REF",
+          "table": "contrast_results.csv",
+          "unit": "percentage_points",
+          "value": 15.724680773695054
+        }
+      ],
+      "id": "Q3-A02"
+    }
+  ]
+}

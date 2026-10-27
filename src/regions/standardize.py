@@ -139,11 +139,25 @@ def validate_tables(facts, tables, config):
             check(abs(math.fsum(x["contribution"] for x in layer_map[r["contrast_id"]]) - r["adjusted_difference"]) < 1e-12,
                   "Layer difference reconstruction:" + r["contrast_id"])
     eu = config["analysis_targets"]["C_EUR"]["groups"]
-    check(sum(summary["C_EUR", g]["n_matches"] for g in eu) == 8045, "European four-group coverage")
+    euro_reference = refs["C_EUR"][0]["n_reference_total"]
+    check(sum(summary["C_EUR", g]["n_matches"] for g in eu) == euro_reference, "European four-group coverage")
     for a, b, c in combinations(eu, 3):
         pa, pb, pc = [summary["C_EUR", g]["standardized_home_win_rate"] for g in (a, b, c)]
         if all(x is not None for x in (pa, pb, pc)):
             check(abs((pa - pb) + (pb - pc) - (pa - pc)) < 1e-12, "European transitivity:" + a + b + c)
     check(len(tables["analysis_membership"]) == len(config["analysis_targets"]) * len(facts), "Complete target flow")
+    if config["protocol_id"] == "regions-study-v4":
+        check(len(tables["matchup_rates"]) == 155, "Complete 25+66+64 matchup cells")
+        for level, expected in (("macro_to_macro", 25), ("within_partition", 66), ("outside_macro", 64)):
+            check(sum(r["level"] == level for r in tables["matchup_rates"]) == expected, "Matchup layout:" + level)
+        for role in ("home", "away"):
+            check(sum(r[role + "_matches"] for r in tables["study_team_registry"]) == len(facts), "Study roster role:" + role)
+        member = defaultdict(list)
+        for row in tables["analysis_membership"]:
+            member[row["target_id"]].append(row)
+        for tid in config["analysis_targets"]:
+            if tid.startswith("M_"):
+                n_grouped = sum(r["n_matches"] for r in tables["group_summary"] if r["target_id"] == tid)
+                check(n_grouped == sum(r["included"] for r in member[tid]), "Matchup members:" + tid)
     return dict(status="passed", n_checks=len(checks), checks=checks,
                 inference="not_run", sensitivity="not_run", human_review="not_performed")

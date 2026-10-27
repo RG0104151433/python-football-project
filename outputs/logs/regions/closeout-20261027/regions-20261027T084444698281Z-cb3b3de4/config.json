@@ -1,0 +1,3980 @@
+{
+  "analysis_targets": {
+    "B_ASIA": {
+      "groups": [
+        "B_ASIA_SAME",
+        "B_ASIA_OTHER",
+        "B_ASIA_CROSS"
+      ],
+      "reference_group": "B_ASIA_REF",
+      "type": "relationship"
+    },
+    "B_EUR": {
+      "groups": [
+        "B_EUR_SAME",
+        "B_EUR_OTHER",
+        "B_EUR_CROSS"
+      ],
+      "reference_group": "B_EUR_REF",
+      "type": "relationship"
+    },
+    "B_SA": {
+      "groups": [
+        "B_SA_SAME",
+        "B_SA_OTHER",
+        "B_SA_CROSS"
+      ],
+      "reference_group": "B_SA_REF",
+      "type": "relationship"
+    },
+    "C_AFR": {
+      "display_order": [
+        "C_AFR_015",
+        "C_AFR_011",
+        "C_AFR_SSA_OTHER"
+      ],
+      "groups": [
+        "C_AFR_015",
+        "C_AFR_011",
+        "C_AFR_SSA_OTHER"
+      ],
+      "reference_group": "C_AFR_REF",
+      "type": "multigroup"
+    },
+    "C_AMER": {
+      "display_order": [
+        "C_AMER_005",
+        "C_AMER_013",
+        "C_AMER_021",
+        "C_AMER_029"
+      ],
+      "groups": [
+        "C_AMER_005",
+        "C_AMER_013",
+        "C_AMER_021",
+        "C_AMER_029"
+      ],
+      "reference_group": "C_AMER_REF",
+      "type": "multigroup"
+    },
+    "C_AMER_FOCUS": {
+      "groups": [
+        "SA_FEATURE",
+        "C_OTHER_AMER"
+      ],
+      "reference_group": "C_AMER_REF",
+      "type": "comparison"
+    },
+    "C_ASIA": {
+      "display_order": [
+        "C_ASIA_030",
+        "C_ASIA_035",
+        "C_ASIA_034",
+        "C_ASIA_143",
+        "C_ASIA_145"
+      ],
+      "groups": [
+        "C_ASIA_030",
+        "C_ASIA_035",
+        "C_ASIA_034",
+        "C_ASIA_143",
+        "C_ASIA_145"
+      ],
+      "reference_group": "C_ASIA_REF",
+      "type": "multigroup"
+    },
+    "C_EUR": {
+      "display_order": [
+        "C_EUR_151",
+        "C_EUR_039",
+        "C_EUR_155",
+        "C_EUR_154"
+      ],
+      "groups": [
+        "C_EUR_151",
+        "C_EUR_039",
+        "C_EUR_155",
+        "C_EUR_154"
+      ],
+      "reference_group": "C_EUR_REF",
+      "type": "multigroup"
+    },
+    "M_AFR": {
+      "groups": [
+        "PAIR_002_015_015",
+        "PAIR_002_015_011",
+        "PAIR_002_015_SSA_OTHER",
+        "OUT_002_015_019",
+        "OUT_002_015_142",
+        "OUT_002_015_150",
+        "OUT_002_015_009",
+        "PAIR_002_011_015",
+        "PAIR_002_011_011",
+        "PAIR_002_011_SSA_OTHER",
+        "OUT_002_011_019",
+        "OUT_002_011_142",
+        "OUT_002_011_150",
+        "OUT_002_011_009",
+        "PAIR_002_SSA_OTHER_015",
+        "PAIR_002_SSA_OTHER_011",
+        "PAIR_002_SSA_OTHER_SSA_OTHER",
+        "OUT_002_SSA_OTHER_019",
+        "OUT_002_SSA_OTHER_142",
+        "OUT_002_SSA_OTHER_150",
+        "OUT_002_SSA_OTHER_009"
+      ],
+      "reference_group": "C_AFR_REF",
+      "type": "matchup_partition"
+    },
+    "M_AMER": {
+      "groups": [
+        "PAIR_019_005_005",
+        "PAIR_019_005_013",
+        "PAIR_019_005_021",
+        "PAIR_019_005_029",
+        "OUT_019_005_002",
+        "OUT_019_005_142",
+        "OUT_019_005_150",
+        "OUT_019_005_009",
+        "PAIR_019_013_005",
+        "PAIR_019_013_013",
+        "PAIR_019_013_021",
+        "PAIR_019_013_029",
+        "OUT_019_013_002",
+        "OUT_019_013_142",
+        "OUT_019_013_150",
+        "OUT_019_013_009",
+        "PAIR_019_021_005",
+        "PAIR_019_021_013",
+        "PAIR_019_021_021",
+        "PAIR_019_021_029",
+        "OUT_019_021_002",
+        "OUT_019_021_142",
+        "OUT_019_021_150",
+        "OUT_019_021_009",
+        "PAIR_019_029_005",
+        "PAIR_019_029_013",
+        "PAIR_019_029_021",
+        "PAIR_019_029_029",
+        "OUT_019_029_002",
+        "OUT_019_029_142",
+        "OUT_019_029_150",
+        "OUT_019_029_009"
+      ],
+      "reference_group": "C_AMER_REF",
+      "type": "matchup_partition"
+    },
+    "M_ASIA": {
+      "groups": [
+        "PAIR_142_030_030",
+        "PAIR_142_030_035",
+        "PAIR_142_030_034",
+        "PAIR_142_030_143",
+        "PAIR_142_030_145",
+        "OUT_142_030_002",
+        "OUT_142_030_019",
+        "OUT_142_030_150",
+        "OUT_142_030_009",
+        "PAIR_142_035_030",
+        "PAIR_142_035_035",
+        "PAIR_142_035_034",
+        "PAIR_142_035_143",
+        "PAIR_142_035_145",
+        "OUT_142_035_002",
+        "OUT_142_035_019",
+        "OUT_142_035_150",
+        "OUT_142_035_009",
+        "PAIR_142_034_030",
+        "PAIR_142_034_035",
+        "PAIR_142_034_034",
+        "PAIR_142_034_143",
+        "PAIR_142_034_145",
+        "OUT_142_034_002",
+        "OUT_142_034_019",
+        "OUT_142_034_150",
+        "OUT_142_034_009",
+        "PAIR_142_143_030",
+        "PAIR_142_143_035",
+        "PAIR_142_143_034",
+        "PAIR_142_143_143",
+        "PAIR_142_143_145",
+        "OUT_142_143_002",
+        "OUT_142_143_019",
+        "OUT_142_143_150",
+        "OUT_142_143_009",
+        "PAIR_142_145_030",
+        "PAIR_142_145_035",
+        "PAIR_142_145_034",
+        "PAIR_142_145_143",
+        "PAIR_142_145_145",
+        "OUT_142_145_002",
+        "OUT_142_145_019",
+        "OUT_142_145_150",
+        "OUT_142_145_009"
+      ],
+      "reference_group": "C_ASIA_REF",
+      "type": "matchup_partition"
+    },
+    "M_EUR": {
+      "groups": [
+        "PAIR_150_151_151",
+        "PAIR_150_151_039",
+        "PAIR_150_151_155",
+        "PAIR_150_151_154",
+        "OUT_150_151_002",
+        "OUT_150_151_019",
+        "OUT_150_151_142",
+        "OUT_150_151_009",
+        "PAIR_150_039_151",
+        "PAIR_150_039_039",
+        "PAIR_150_039_155",
+        "PAIR_150_039_154",
+        "OUT_150_039_002",
+        "OUT_150_039_019",
+        "OUT_150_039_142",
+        "OUT_150_039_009",
+        "PAIR_150_155_151",
+        "PAIR_150_155_039",
+        "PAIR_150_155_155",
+        "PAIR_150_155_154",
+        "OUT_150_155_002",
+        "OUT_150_155_019",
+        "OUT_150_155_142",
+        "OUT_150_155_009",
+        "PAIR_150_154_151",
+        "PAIR_150_154_039",
+        "PAIR_150_154_155",
+        "PAIR_150_154_154",
+        "OUT_150_154_002",
+        "OUT_150_154_019",
+        "OUT_150_154_142",
+        "OUT_150_154_009"
+      ],
+      "reference_group": "C_EUR_REF",
+      "type": "matchup_partition"
+    },
+    "M_MACRO": {
+      "groups": [
+        "MACRO_002_002",
+        "MACRO_002_019",
+        "MACRO_002_142",
+        "MACRO_002_150",
+        "MACRO_002_009",
+        "MACRO_019_002",
+        "MACRO_019_019",
+        "MACRO_019_142",
+        "MACRO_019_150",
+        "MACRO_019_009",
+        "MACRO_142_002",
+        "MACRO_142_019",
+        "MACRO_142_142",
+        "MACRO_142_150",
+        "MACRO_142_009",
+        "MACRO_150_002",
+        "MACRO_150_019",
+        "MACRO_150_142",
+        "MACRO_150_150",
+        "MACRO_150_009",
+        "MACRO_009_002",
+        "MACRO_009_019",
+        "MACRO_009_142",
+        "MACRO_009_150",
+        "MACRO_009_009"
+      ],
+      "reference_group": "PARENT",
+      "type": "matchup_macro"
+    },
+    "PROFILE_MACRO": {
+      "groups": [
+        "A_AFR",
+        "A_AMER",
+        "A_ASIA",
+        "A_EUR",
+        "A_OCE"
+      ],
+      "reference_group": "PARENT",
+      "type": "profile"
+    },
+    "PROFILE_SA": {
+      "groups": [
+        "SA_FEATURE"
+      ],
+      "reference_group": "PARENT",
+      "type": "profile"
+    }
+  },
+  "catalogue_counts": {
+    "descriptive_contrasts": 1,
+    "macro_matchup_cells": 25,
+    "other_adjusted_contrasts": 3,
+    "outside_macro_cells": 64,
+    "partition_groups": 16,
+    "partition_rate_contrasts": 25,
+    "studies": 4,
+    "targets": 15,
+    "within_partition_cells": 66
+  },
+  "comparisons": [
+    {
+      "arm1": "C_EUR_151",
+      "arm2": "C_EUR_039",
+      "family": "C",
+      "id": "C_EUR_151_VS_039",
+      "label": "东欧减南欧",
+      "parent_study": "EUROPE",
+      "reference_group": "C_EUR_REF",
+      "role": "study_subanalysis",
+      "target_id": "C_EUR"
+    },
+    {
+      "arm1": "C_EUR_151",
+      "arm2": "C_EUR_155",
+      "family": "C",
+      "id": "C_EUR_151_VS_155",
+      "label": "东欧减西欧",
+      "parent_study": "EUROPE",
+      "reference_group": "C_EUR_REF",
+      "role": "study_subanalysis",
+      "target_id": "C_EUR"
+    },
+    {
+      "arm1": "C_EUR_151",
+      "arm2": "C_EUR_154",
+      "family": "C",
+      "id": "C_EUR_151_VS_154",
+      "label": "东欧减北欧",
+      "parent_study": "EUROPE",
+      "reference_group": "C_EUR_REF",
+      "role": "study_subanalysis",
+      "target_id": "C_EUR"
+    },
+    {
+      "arm1": "C_EUR_039",
+      "arm2": "C_EUR_155",
+      "family": "C",
+      "id": "C_EUR_039_VS_155",
+      "label": "南欧减西欧",
+      "parent_study": "EUROPE",
+      "reference_group": "C_EUR_REF",
+      "role": "study_subanalysis",
+      "target_id": "C_EUR"
+    },
+    {
+      "arm1": "C_EUR_154",
+      "arm2": "C_EUR_039",
+      "family": "C",
+      "id": "C_EUR_NORTH_SOUTH",
+      "label": "北欧减南欧",
+      "parent_study": "EUROPE",
+      "reference_group": "C_EUR_REF",
+      "role": "study_subanalysis",
+      "target_id": "C_EUR"
+    },
+    {
+      "arm1": "C_EUR_155",
+      "arm2": "C_EUR_154",
+      "family": "C",
+      "id": "C_EUR_155_VS_154",
+      "label": "西欧减北欧",
+      "parent_study": "EUROPE",
+      "reference_group": "C_EUR_REF",
+      "role": "study_subanalysis",
+      "target_id": "C_EUR"
+    },
+    {
+      "arm1": "C_ASIA_030",
+      "arm2": "C_ASIA_035",
+      "family": "C",
+      "id": "C_ASIA_030_VS_035",
+      "label": "东亚减东南亚",
+      "parent_study": "ASIA",
+      "reference_group": "C_ASIA_REF",
+      "role": "study_subanalysis",
+      "target_id": "C_ASIA"
+    },
+    {
+      "arm1": "C_ASIA_030",
+      "arm2": "C_ASIA_034",
+      "family": "C",
+      "id": "C_ASIA_030_VS_034",
+      "label": "东亚减南亚",
+      "parent_study": "ASIA",
+      "reference_group": "C_ASIA_REF",
+      "role": "study_subanalysis",
+      "target_id": "C_ASIA"
+    },
+    {
+      "arm1": "C_ASIA_030",
+      "arm2": "C_ASIA_143",
+      "family": "C",
+      "id": "C_ASIA_030_VS_143",
+      "label": "东亚减中亚",
+      "parent_study": "ASIA",
+      "reference_group": "C_ASIA_REF",
+      "role": "study_subanalysis",
+      "target_id": "C_ASIA"
+    },
+    {
+      "arm1": "C_ASIA_030",
+      "arm2": "C_ASIA_145",
+      "family": "C",
+      "id": "C_ASIA_030_VS_145",
+      "label": "东亚减西亚",
+      "parent_study": "ASIA",
+      "reference_group": "C_ASIA_REF",
+      "role": "study_subanalysis",
+      "target_id": "C_ASIA"
+    },
+    {
+      "arm1": "C_ASIA_035",
+      "arm2": "C_ASIA_034",
+      "family": "C",
+      "id": "C_ASIA_035_VS_034",
+      "label": "东南亚减南亚",
+      "parent_study": "ASIA",
+      "reference_group": "C_ASIA_REF",
+      "role": "study_subanalysis",
+      "target_id": "C_ASIA"
+    },
+    {
+      "arm1": "C_ASIA_035",
+      "arm2": "C_ASIA_143",
+      "family": "C",
+      "id": "C_ASIA_035_VS_143",
+      "label": "东南亚减中亚",
+      "parent_study": "ASIA",
+      "reference_group": "C_ASIA_REF",
+      "role": "study_subanalysis",
+      "target_id": "C_ASIA"
+    },
+    {
+      "arm1": "C_ASIA_035",
+      "arm2": "C_ASIA_145",
+      "family": "C",
+      "id": "C_ASIA_035_VS_145",
+      "label": "东南亚减西亚",
+      "parent_study": "ASIA",
+      "reference_group": "C_ASIA_REF",
+      "role": "study_subanalysis",
+      "target_id": "C_ASIA"
+    },
+    {
+      "arm1": "C_ASIA_034",
+      "arm2": "C_ASIA_143",
+      "family": "C",
+      "id": "C_ASIA_034_VS_143",
+      "label": "南亚减中亚",
+      "parent_study": "ASIA",
+      "reference_group": "C_ASIA_REF",
+      "role": "study_subanalysis",
+      "target_id": "C_ASIA"
+    },
+    {
+      "arm1": "C_ASIA_034",
+      "arm2": "C_ASIA_145",
+      "family": "C",
+      "id": "C_ASIA_034_VS_145",
+      "label": "南亚减西亚",
+      "parent_study": "ASIA",
+      "reference_group": "C_ASIA_REF",
+      "role": "study_subanalysis",
+      "target_id": "C_ASIA"
+    },
+    {
+      "arm1": "C_ASIA_143",
+      "arm2": "C_ASIA_145",
+      "family": "C",
+      "id": "C_ASIA_143_VS_145",
+      "label": "中亚减西亚",
+      "parent_study": "ASIA",
+      "reference_group": "C_ASIA_REF",
+      "role": "study_subanalysis",
+      "target_id": "C_ASIA"
+    },
+    {
+      "arm1": "C_AFR_015",
+      "arm2": "C_AFR_011",
+      "family": "C",
+      "id": "C_AFR_015_VS_011",
+      "label": "北非减西非",
+      "parent_study": "AFRICA",
+      "reference_group": "C_AFR_REF",
+      "role": "study_subanalysis",
+      "target_id": "C_AFR"
+    },
+    {
+      "arm1": "C_AFR_015",
+      "arm2": "C_AFR_SSA_OTHER",
+      "family": "C",
+      "id": "C_AFR_015_VS_OTHER",
+      "label": "北非减其余撒哈拉以南",
+      "parent_study": "AFRICA",
+      "reference_group": "C_AFR_REF",
+      "role": "study_subanalysis",
+      "target_id": "C_AFR"
+    },
+    {
+      "arm1": "C_AFR_011",
+      "arm2": "C_AFR_SSA_OTHER",
+      "family": "C",
+      "id": "C_AFR_011_VS_OTHER",
+      "label": "西非减其余撒哈拉以南",
+      "parent_study": "AFRICA",
+      "reference_group": "C_AFR_REF",
+      "role": "study_subanalysis",
+      "target_id": "C_AFR"
+    },
+    {
+      "arm1": "C_AMER_005",
+      "arm2": "C_AMER_013",
+      "family": "C",
+      "id": "C_AMER_005_VS_013",
+      "label": "南美洲减中美洲",
+      "parent_study": "AMERICAS",
+      "reference_group": "C_AMER_REF",
+      "role": "study_subanalysis",
+      "target_id": "C_AMER"
+    },
+    {
+      "arm1": "C_AMER_005",
+      "arm2": "C_AMER_021",
+      "family": "C",
+      "id": "C_AMER_005_VS_021",
+      "label": "南美洲减北部美洲",
+      "parent_study": "AMERICAS",
+      "reference_group": "C_AMER_REF",
+      "role": "study_subanalysis",
+      "target_id": "C_AMER"
+    },
+    {
+      "arm1": "C_AMER_005",
+      "arm2": "C_AMER_029",
+      "family": "C",
+      "id": "C_AMER_005_VS_029",
+      "label": "南美洲减加勒比地区",
+      "parent_study": "AMERICAS",
+      "reference_group": "C_AMER_REF",
+      "role": "study_subanalysis",
+      "target_id": "C_AMER"
+    },
+    {
+      "arm1": "C_AMER_013",
+      "arm2": "C_AMER_021",
+      "family": "C",
+      "id": "C_AMER_013_VS_021",
+      "label": "中美洲减北部美洲",
+      "parent_study": "AMERICAS",
+      "reference_group": "C_AMER_REF",
+      "role": "study_subanalysis",
+      "target_id": "C_AMER"
+    },
+    {
+      "arm1": "C_AMER_013",
+      "arm2": "C_AMER_029",
+      "family": "C",
+      "id": "C_AMER_013_VS_029",
+      "label": "中美洲减加勒比地区",
+      "parent_study": "AMERICAS",
+      "reference_group": "C_AMER_REF",
+      "role": "study_subanalysis",
+      "target_id": "C_AMER"
+    },
+    {
+      "arm1": "C_AMER_021",
+      "arm2": "C_AMER_029",
+      "family": "C",
+      "id": "C_AMER_021_VS_029",
+      "label": "北部美洲减加勒比地区",
+      "parent_study": "AMERICAS",
+      "reference_group": "C_AMER_REF",
+      "role": "study_subanalysis",
+      "target_id": "C_AMER"
+    },
+    {
+      "arm1": "B_EUR_CROSS",
+      "arm2": "B_EUR_SAME",
+      "family": "B",
+      "id": "B_EUR",
+      "label": "欧洲主队：洲外减同分区",
+      "parent_study": "EUROPE",
+      "reference_group": "B_EUR_REF",
+      "role": "study_subanalysis",
+      "target_id": "B_EUR"
+    },
+    {
+      "arm1": "B_ASIA_CROSS",
+      "arm2": "B_ASIA_SAME",
+      "family": "B",
+      "id": "B_ASIA",
+      "label": "亚洲主队：洲外减同分区",
+      "parent_study": "ASIA",
+      "reference_group": "B_ASIA_REF",
+      "role": "study_subanalysis",
+      "target_id": "B_ASIA"
+    },
+    {
+      "arm1": "B_SA_CROSS",
+      "arm2": "B_SA_SAME",
+      "family": "B",
+      "id": "B_SA",
+      "label": "南美主队：洲外减同分区",
+      "parent_study": "AMERICAS",
+      "reference_group": "B_SA_REF",
+      "role": "descriptive_only",
+      "standardized_policy": "unestimable_for_full_period_no_scope_change",
+      "target_id": "B_SA"
+    },
+    {
+      "arm1": "SA_FEATURE",
+      "arm2": "C_OTHER_AMER",
+      "family": "C",
+      "id": "C_AMER_FOCUS",
+      "label": "南美减美洲其他分区合并",
+      "parent_study": "AMERICAS",
+      "reference_group": "C_AMER_REF",
+      "role": "study_subanalysis",
+      "target_id": "C_AMER_FOCUS"
+    }
+  ],
+  "decision_log_id": "R20261027-01",
+  "grouping": {
+    "adopted_run": "outputs/logs/regions/grouping-acceptance-20261026/preparation-20261026T090739Z-82cd5e84-accepted-r1",
+    "historical_policy": {
+      "czechoslovakia": "carrier Czechia 203 => Europe/Eastern Europe; team ID preserved",
+      "german_dr": "carrier Germany 276 => Europe/Western Europe; statistical convention, not historical classification or succession",
+      "kosovo": "statistical carrier 412; team ID preserved",
+      "merge_team_ids": false,
+      "russia": "through 1992-07-02 multi-region unknown; from 1992-07-03 Europe/Eastern Europe under project convention, not certified daily FIFA history",
+      "taiwan": "M49 carrier 156 => Eastern Asia; team ID preserved",
+      "type": "fixed_current_geographic_carriers_with_recorded_project_exceptions",
+      "uk_associations": "carrier 826 for geography only; all four team IDs preserved",
+      "unknown_policy": "keep parent records; exclude only from targets requiring unavailable attributes; no imputation",
+      "yugoslavia": "carrier Serbia 688 => Europe/Southern Europe; team ID preserved"
+    },
+    "input_manifest": "inputs/inputs_manifest.json",
+    "input_manifest_sha256": "7311e873944b5596209d7f640087fa8c8027bd4db726ad1db43444dd1d73fdd7",
+    "levels": "5 macroregions and 22 nonoverlapping deepest nonempty fine units",
+    "package": "data/external/geography_preparation/geo-prep-v3",
+    "rollups_change_relation_definition": false,
+    "rules_generated_for_dates_not_official_historical_labels": true,
+    "script_sha256": "82cd5e840f88c0bd818b0552c8d782e4e522561860cc07ca94b1184e2f033947",
+    "source_storage": {
+      "canonical_directory": "data/external/geography_sources/m49-20261026",
+      "legacy_replay": "current prepare_region_mapping.py replay uses original run_core and explicit storage adapter",
+      "old_manifests_unchanged": true,
+      "persistent_html_copies": 2,
+      "relocations": "data/external/geography_sources/m49-20261026/relocations.json"
+    },
+    "south_america": {
+      "B_cross_definition": "opponent outside Americas, not merely outside South America",
+      "B_middle_definition": "other fine units within Americas",
+      "confederation_not_used": true,
+      "definition": "M49 fine unit 005 within Americas 019",
+      "exclude_by_strength": false,
+      "include_guyana_and_suriname_when_present": true,
+      "not_a_sixth_macroregion": true
+    },
+    "standard": "UNSD M49 snapshot accessed 2026-10-26"
+  },
+  "groups": {
+    "A_AFR": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [],
+      "label": "非洲",
+      "relations": []
+    },
+    "A_AMER": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [],
+      "label": "美洲",
+      "relations": []
+    },
+    "A_ASIA": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [],
+      "label": "亚洲",
+      "relations": []
+    },
+    "A_EUR": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [],
+      "label": "欧洲",
+      "relations": []
+    },
+    "A_OCE": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "009"
+      ],
+      "home_units": [],
+      "label": "大洋洲",
+      "relations": []
+    },
+    "B_ASIA_CROSS": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "B",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [],
+      "label": "亚洲主队：洲外",
+      "relations": [
+        "cross_region"
+      ]
+    },
+    "B_ASIA_OTHER": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "B",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [],
+      "label": "亚洲主队：同洲其他研究分区",
+      "relations": [
+        "same_region_diff_unit"
+      ]
+    },
+    "B_ASIA_REF": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "B",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [],
+      "label": "亚洲主队关系明确",
+      "relations": []
+    },
+    "B_ASIA_SAME": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "B",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [],
+      "label": "亚洲主队：同一研究分区",
+      "relations": [
+        "same_unit"
+      ]
+    },
+    "B_EUR_CROSS": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "B",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [],
+      "label": "欧洲主队：洲外",
+      "relations": [
+        "cross_region"
+      ]
+    },
+    "B_EUR_OTHER": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "B",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [],
+      "label": "欧洲主队：同洲其他研究分区",
+      "relations": [
+        "same_region_diff_unit"
+      ]
+    },
+    "B_EUR_REF": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "B",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [],
+      "label": "欧洲主队关系明确",
+      "relations": []
+    },
+    "B_EUR_SAME": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "B",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [],
+      "label": "欧洲主队：同一研究分区",
+      "relations": [
+        "same_unit"
+      ]
+    },
+    "B_SA_CROSS": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "B",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "005"
+      ],
+      "label": "南美主队：洲外",
+      "relations": [
+        "cross_region"
+      ]
+    },
+    "B_SA_OTHER": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "B",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "005"
+      ],
+      "label": "南美主队：同洲其他研究分区",
+      "relations": [
+        "same_region_diff_unit"
+      ]
+    },
+    "B_SA_REF": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "B",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "005"
+      ],
+      "label": "南美主队关系明确",
+      "relations": []
+    },
+    "B_SA_SAME": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "B",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "005"
+      ],
+      "label": "南美主队：同一研究分区",
+      "relations": [
+        "same_unit"
+      ]
+    },
+    "C_AFR_011": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [
+        "011"
+      ],
+      "label": "西非",
+      "relations": []
+    },
+    "C_AFR_015": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [
+        "015"
+      ],
+      "label": "北非",
+      "relations": []
+    },
+    "C_AFR_REF": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [],
+      "label": "非洲主队研究分区明确",
+      "relations": []
+    },
+    "C_AFR_SSA_OTHER": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [
+        "SSA_OTHER"
+      ],
+      "label": "其余撒哈拉以南",
+      "relations": []
+    },
+    "C_AMER_005": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "005"
+      ],
+      "label": "南美洲",
+      "relations": []
+    },
+    "C_AMER_013": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "013"
+      ],
+      "label": "中美洲",
+      "relations": []
+    },
+    "C_AMER_021": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "021"
+      ],
+      "label": "北部美洲",
+      "relations": []
+    },
+    "C_AMER_029": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "029"
+      ],
+      "label": "加勒比地区",
+      "relations": []
+    },
+    "C_AMER_REF": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [],
+      "label": "美洲主队研究分区明确",
+      "relations": []
+    },
+    "C_ASIA_030": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "030"
+      ],
+      "label": "东亚",
+      "relations": []
+    },
+    "C_ASIA_034": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "034"
+      ],
+      "label": "南亚",
+      "relations": []
+    },
+    "C_ASIA_035": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "035"
+      ],
+      "label": "东南亚",
+      "relations": []
+    },
+    "C_ASIA_143": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "143"
+      ],
+      "label": "中亚",
+      "relations": []
+    },
+    "C_ASIA_145": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "145"
+      ],
+      "label": "西亚",
+      "relations": []
+    },
+    "C_ASIA_REF": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [],
+      "label": "亚洲主队研究分区明确",
+      "relations": []
+    },
+    "C_EUR_039": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "039"
+      ],
+      "label": "南欧",
+      "relations": []
+    },
+    "C_EUR_151": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "151"
+      ],
+      "label": "东欧",
+      "relations": []
+    },
+    "C_EUR_154": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "154"
+      ],
+      "label": "北欧",
+      "relations": []
+    },
+    "C_EUR_155": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "155"
+      ],
+      "label": "西欧",
+      "relations": []
+    },
+    "C_EUR_REF": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [],
+      "label": "欧洲主队研究分区明确",
+      "relations": []
+    },
+    "C_OTHER_AMER": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "013",
+        "021",
+        "029"
+      ],
+      "label": "美洲其他分区合并",
+      "relations": []
+    },
+    "MACRO_002_002": {
+      "away_regions": [
+        "002"
+      ],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [],
+      "label": "非洲主队对非洲",
+      "relations": []
+    },
+    "MACRO_002_009": {
+      "away_regions": [
+        "009"
+      ],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [],
+      "label": "非洲主队对大洋洲",
+      "relations": []
+    },
+    "MACRO_002_019": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [],
+      "label": "非洲主队对美洲",
+      "relations": []
+    },
+    "MACRO_002_142": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [],
+      "label": "非洲主队对亚洲",
+      "relations": []
+    },
+    "MACRO_002_150": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [],
+      "label": "非洲主队对欧洲",
+      "relations": []
+    },
+    "MACRO_009_002": {
+      "away_regions": [
+        "002"
+      ],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "009"
+      ],
+      "home_units": [],
+      "label": "大洋洲主队对非洲",
+      "relations": []
+    },
+    "MACRO_009_009": {
+      "away_regions": [
+        "009"
+      ],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "009"
+      ],
+      "home_units": [],
+      "label": "大洋洲主队对大洋洲",
+      "relations": []
+    },
+    "MACRO_009_019": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "009"
+      ],
+      "home_units": [],
+      "label": "大洋洲主队对美洲",
+      "relations": []
+    },
+    "MACRO_009_142": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "009"
+      ],
+      "home_units": [],
+      "label": "大洋洲主队对亚洲",
+      "relations": []
+    },
+    "MACRO_009_150": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "009"
+      ],
+      "home_units": [],
+      "label": "大洋洲主队对欧洲",
+      "relations": []
+    },
+    "MACRO_019_002": {
+      "away_regions": [
+        "002"
+      ],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [],
+      "label": "美洲主队对非洲",
+      "relations": []
+    },
+    "MACRO_019_009": {
+      "away_regions": [
+        "009"
+      ],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [],
+      "label": "美洲主队对大洋洲",
+      "relations": []
+    },
+    "MACRO_019_019": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [],
+      "label": "美洲主队对美洲",
+      "relations": []
+    },
+    "MACRO_019_142": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [],
+      "label": "美洲主队对亚洲",
+      "relations": []
+    },
+    "MACRO_019_150": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [],
+      "label": "美洲主队对欧洲",
+      "relations": []
+    },
+    "MACRO_142_002": {
+      "away_regions": [
+        "002"
+      ],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [],
+      "label": "亚洲主队对非洲",
+      "relations": []
+    },
+    "MACRO_142_009": {
+      "away_regions": [
+        "009"
+      ],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [],
+      "label": "亚洲主队对大洋洲",
+      "relations": []
+    },
+    "MACRO_142_019": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [],
+      "label": "亚洲主队对美洲",
+      "relations": []
+    },
+    "MACRO_142_142": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [],
+      "label": "亚洲主队对亚洲",
+      "relations": []
+    },
+    "MACRO_142_150": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [],
+      "label": "亚洲主队对欧洲",
+      "relations": []
+    },
+    "MACRO_150_002": {
+      "away_regions": [
+        "002"
+      ],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [],
+      "label": "欧洲主队对非洲",
+      "relations": []
+    },
+    "MACRO_150_009": {
+      "away_regions": [
+        "009"
+      ],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [],
+      "label": "欧洲主队对大洋洲",
+      "relations": []
+    },
+    "MACRO_150_019": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [],
+      "label": "欧洲主队对美洲",
+      "relations": []
+    },
+    "MACRO_150_142": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [],
+      "label": "欧洲主队对亚洲",
+      "relations": []
+    },
+    "MACRO_150_150": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [],
+      "eligibility": "A",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [],
+      "label": "欧洲主队对欧洲",
+      "relations": []
+    },
+    "OUT_002_011_009": {
+      "away_regions": [
+        "009"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [
+        "011"
+      ],
+      "label": "西非主队对大洋洲",
+      "relations": []
+    },
+    "OUT_002_011_019": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [
+        "011"
+      ],
+      "label": "西非主队对美洲",
+      "relations": []
+    },
+    "OUT_002_011_142": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [
+        "011"
+      ],
+      "label": "西非主队对亚洲",
+      "relations": []
+    },
+    "OUT_002_011_150": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [
+        "011"
+      ],
+      "label": "西非主队对欧洲",
+      "relations": []
+    },
+    "OUT_002_015_009": {
+      "away_regions": [
+        "009"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [
+        "015"
+      ],
+      "label": "北非主队对大洋洲",
+      "relations": []
+    },
+    "OUT_002_015_019": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [
+        "015"
+      ],
+      "label": "北非主队对美洲",
+      "relations": []
+    },
+    "OUT_002_015_142": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [
+        "015"
+      ],
+      "label": "北非主队对亚洲",
+      "relations": []
+    },
+    "OUT_002_015_150": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [
+        "015"
+      ],
+      "label": "北非主队对欧洲",
+      "relations": []
+    },
+    "OUT_002_SSA_OTHER_009": {
+      "away_regions": [
+        "009"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [
+        "SSA_OTHER"
+      ],
+      "label": "其余撒哈拉以南主队对大洋洲",
+      "relations": []
+    },
+    "OUT_002_SSA_OTHER_019": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [
+        "SSA_OTHER"
+      ],
+      "label": "其余撒哈拉以南主队对美洲",
+      "relations": []
+    },
+    "OUT_002_SSA_OTHER_142": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [
+        "SSA_OTHER"
+      ],
+      "label": "其余撒哈拉以南主队对亚洲",
+      "relations": []
+    },
+    "OUT_002_SSA_OTHER_150": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [
+        "SSA_OTHER"
+      ],
+      "label": "其余撒哈拉以南主队对欧洲",
+      "relations": []
+    },
+    "OUT_019_005_002": {
+      "away_regions": [
+        "002"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "005"
+      ],
+      "label": "南美洲主队对非洲",
+      "relations": []
+    },
+    "OUT_019_005_009": {
+      "away_regions": [
+        "009"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "005"
+      ],
+      "label": "南美洲主队对大洋洲",
+      "relations": []
+    },
+    "OUT_019_005_142": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "005"
+      ],
+      "label": "南美洲主队对亚洲",
+      "relations": []
+    },
+    "OUT_019_005_150": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "005"
+      ],
+      "label": "南美洲主队对欧洲",
+      "relations": []
+    },
+    "OUT_019_013_002": {
+      "away_regions": [
+        "002"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "013"
+      ],
+      "label": "中美洲主队对非洲",
+      "relations": []
+    },
+    "OUT_019_013_009": {
+      "away_regions": [
+        "009"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "013"
+      ],
+      "label": "中美洲主队对大洋洲",
+      "relations": []
+    },
+    "OUT_019_013_142": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "013"
+      ],
+      "label": "中美洲主队对亚洲",
+      "relations": []
+    },
+    "OUT_019_013_150": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "013"
+      ],
+      "label": "中美洲主队对欧洲",
+      "relations": []
+    },
+    "OUT_019_021_002": {
+      "away_regions": [
+        "002"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "021"
+      ],
+      "label": "北部美洲主队对非洲",
+      "relations": []
+    },
+    "OUT_019_021_009": {
+      "away_regions": [
+        "009"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "021"
+      ],
+      "label": "北部美洲主队对大洋洲",
+      "relations": []
+    },
+    "OUT_019_021_142": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "021"
+      ],
+      "label": "北部美洲主队对亚洲",
+      "relations": []
+    },
+    "OUT_019_021_150": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "021"
+      ],
+      "label": "北部美洲主队对欧洲",
+      "relations": []
+    },
+    "OUT_019_029_002": {
+      "away_regions": [
+        "002"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "029"
+      ],
+      "label": "加勒比地区主队对非洲",
+      "relations": []
+    },
+    "OUT_019_029_009": {
+      "away_regions": [
+        "009"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "029"
+      ],
+      "label": "加勒比地区主队对大洋洲",
+      "relations": []
+    },
+    "OUT_019_029_142": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "029"
+      ],
+      "label": "加勒比地区主队对亚洲",
+      "relations": []
+    },
+    "OUT_019_029_150": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "029"
+      ],
+      "label": "加勒比地区主队对欧洲",
+      "relations": []
+    },
+    "OUT_142_030_002": {
+      "away_regions": [
+        "002"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "030"
+      ],
+      "label": "东亚主队对非洲",
+      "relations": []
+    },
+    "OUT_142_030_009": {
+      "away_regions": [
+        "009"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "030"
+      ],
+      "label": "东亚主队对大洋洲",
+      "relations": []
+    },
+    "OUT_142_030_019": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "030"
+      ],
+      "label": "东亚主队对美洲",
+      "relations": []
+    },
+    "OUT_142_030_150": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "030"
+      ],
+      "label": "东亚主队对欧洲",
+      "relations": []
+    },
+    "OUT_142_034_002": {
+      "away_regions": [
+        "002"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "034"
+      ],
+      "label": "南亚主队对非洲",
+      "relations": []
+    },
+    "OUT_142_034_009": {
+      "away_regions": [
+        "009"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "034"
+      ],
+      "label": "南亚主队对大洋洲",
+      "relations": []
+    },
+    "OUT_142_034_019": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "034"
+      ],
+      "label": "南亚主队对美洲",
+      "relations": []
+    },
+    "OUT_142_034_150": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "034"
+      ],
+      "label": "南亚主队对欧洲",
+      "relations": []
+    },
+    "OUT_142_035_002": {
+      "away_regions": [
+        "002"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "035"
+      ],
+      "label": "东南亚主队对非洲",
+      "relations": []
+    },
+    "OUT_142_035_009": {
+      "away_regions": [
+        "009"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "035"
+      ],
+      "label": "东南亚主队对大洋洲",
+      "relations": []
+    },
+    "OUT_142_035_019": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "035"
+      ],
+      "label": "东南亚主队对美洲",
+      "relations": []
+    },
+    "OUT_142_035_150": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "035"
+      ],
+      "label": "东南亚主队对欧洲",
+      "relations": []
+    },
+    "OUT_142_143_002": {
+      "away_regions": [
+        "002"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "143"
+      ],
+      "label": "中亚主队对非洲",
+      "relations": []
+    },
+    "OUT_142_143_009": {
+      "away_regions": [
+        "009"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "143"
+      ],
+      "label": "中亚主队对大洋洲",
+      "relations": []
+    },
+    "OUT_142_143_019": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "143"
+      ],
+      "label": "中亚主队对美洲",
+      "relations": []
+    },
+    "OUT_142_143_150": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "143"
+      ],
+      "label": "中亚主队对欧洲",
+      "relations": []
+    },
+    "OUT_142_145_002": {
+      "away_regions": [
+        "002"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "145"
+      ],
+      "label": "西亚主队对非洲",
+      "relations": []
+    },
+    "OUT_142_145_009": {
+      "away_regions": [
+        "009"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "145"
+      ],
+      "label": "西亚主队对大洋洲",
+      "relations": []
+    },
+    "OUT_142_145_019": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "145"
+      ],
+      "label": "西亚主队对美洲",
+      "relations": []
+    },
+    "OUT_142_145_150": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "145"
+      ],
+      "label": "西亚主队对欧洲",
+      "relations": []
+    },
+    "OUT_150_039_002": {
+      "away_regions": [
+        "002"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "039"
+      ],
+      "label": "南欧主队对非洲",
+      "relations": []
+    },
+    "OUT_150_039_009": {
+      "away_regions": [
+        "009"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "039"
+      ],
+      "label": "南欧主队对大洋洲",
+      "relations": []
+    },
+    "OUT_150_039_019": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "039"
+      ],
+      "label": "南欧主队对美洲",
+      "relations": []
+    },
+    "OUT_150_039_142": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "039"
+      ],
+      "label": "南欧主队对亚洲",
+      "relations": []
+    },
+    "OUT_150_151_002": {
+      "away_regions": [
+        "002"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "151"
+      ],
+      "label": "东欧主队对非洲",
+      "relations": []
+    },
+    "OUT_150_151_009": {
+      "away_regions": [
+        "009"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "151"
+      ],
+      "label": "东欧主队对大洋洲",
+      "relations": []
+    },
+    "OUT_150_151_019": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "151"
+      ],
+      "label": "东欧主队对美洲",
+      "relations": []
+    },
+    "OUT_150_151_142": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "151"
+      ],
+      "label": "东欧主队对亚洲",
+      "relations": []
+    },
+    "OUT_150_154_002": {
+      "away_regions": [
+        "002"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "154"
+      ],
+      "label": "北欧主队对非洲",
+      "relations": []
+    },
+    "OUT_150_154_009": {
+      "away_regions": [
+        "009"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "154"
+      ],
+      "label": "北欧主队对大洋洲",
+      "relations": []
+    },
+    "OUT_150_154_019": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "154"
+      ],
+      "label": "北欧主队对美洲",
+      "relations": []
+    },
+    "OUT_150_154_142": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "154"
+      ],
+      "label": "北欧主队对亚洲",
+      "relations": []
+    },
+    "OUT_150_155_002": {
+      "away_regions": [
+        "002"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "155"
+      ],
+      "label": "西欧主队对非洲",
+      "relations": []
+    },
+    "OUT_150_155_009": {
+      "away_regions": [
+        "009"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "155"
+      ],
+      "label": "西欧主队对大洋洲",
+      "relations": []
+    },
+    "OUT_150_155_019": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "155"
+      ],
+      "label": "西欧主队对美洲",
+      "relations": []
+    },
+    "OUT_150_155_142": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "155"
+      ],
+      "label": "西欧主队对亚洲",
+      "relations": []
+    },
+    "PAIR_002_011_011": {
+      "away_regions": [
+        "002"
+      ],
+      "away_units": [
+        "011"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [
+        "011"
+      ],
+      "label": "西非主队对西非",
+      "relations": []
+    },
+    "PAIR_002_011_015": {
+      "away_regions": [
+        "002"
+      ],
+      "away_units": [
+        "015"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [
+        "011"
+      ],
+      "label": "西非主队对北非",
+      "relations": []
+    },
+    "PAIR_002_011_SSA_OTHER": {
+      "away_regions": [
+        "002"
+      ],
+      "away_units": [
+        "SSA_OTHER"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [
+        "011"
+      ],
+      "label": "西非主队对其余撒哈拉以南",
+      "relations": []
+    },
+    "PAIR_002_015_011": {
+      "away_regions": [
+        "002"
+      ],
+      "away_units": [
+        "011"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [
+        "015"
+      ],
+      "label": "北非主队对西非",
+      "relations": []
+    },
+    "PAIR_002_015_015": {
+      "away_regions": [
+        "002"
+      ],
+      "away_units": [
+        "015"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [
+        "015"
+      ],
+      "label": "北非主队对北非",
+      "relations": []
+    },
+    "PAIR_002_015_SSA_OTHER": {
+      "away_regions": [
+        "002"
+      ],
+      "away_units": [
+        "SSA_OTHER"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [
+        "015"
+      ],
+      "label": "北非主队对其余撒哈拉以南",
+      "relations": []
+    },
+    "PAIR_002_SSA_OTHER_011": {
+      "away_regions": [
+        "002"
+      ],
+      "away_units": [
+        "011"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [
+        "SSA_OTHER"
+      ],
+      "label": "其余撒哈拉以南主队对西非",
+      "relations": []
+    },
+    "PAIR_002_SSA_OTHER_015": {
+      "away_regions": [
+        "002"
+      ],
+      "away_units": [
+        "015"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [
+        "SSA_OTHER"
+      ],
+      "label": "其余撒哈拉以南主队对北非",
+      "relations": []
+    },
+    "PAIR_002_SSA_OTHER_SSA_OTHER": {
+      "away_regions": [
+        "002"
+      ],
+      "away_units": [
+        "SSA_OTHER"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "002"
+      ],
+      "home_units": [
+        "SSA_OTHER"
+      ],
+      "label": "其余撒哈拉以南主队对其余撒哈拉以南",
+      "relations": []
+    },
+    "PAIR_019_005_005": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [
+        "005"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "005"
+      ],
+      "label": "南美洲主队对南美洲",
+      "relations": []
+    },
+    "PAIR_019_005_013": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [
+        "013"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "005"
+      ],
+      "label": "南美洲主队对中美洲",
+      "relations": []
+    },
+    "PAIR_019_005_021": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [
+        "021"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "005"
+      ],
+      "label": "南美洲主队对北部美洲",
+      "relations": []
+    },
+    "PAIR_019_005_029": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [
+        "029"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "005"
+      ],
+      "label": "南美洲主队对加勒比地区",
+      "relations": []
+    },
+    "PAIR_019_013_005": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [
+        "005"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "013"
+      ],
+      "label": "中美洲主队对南美洲",
+      "relations": []
+    },
+    "PAIR_019_013_013": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [
+        "013"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "013"
+      ],
+      "label": "中美洲主队对中美洲",
+      "relations": []
+    },
+    "PAIR_019_013_021": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [
+        "021"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "013"
+      ],
+      "label": "中美洲主队对北部美洲",
+      "relations": []
+    },
+    "PAIR_019_013_029": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [
+        "029"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "013"
+      ],
+      "label": "中美洲主队对加勒比地区",
+      "relations": []
+    },
+    "PAIR_019_021_005": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [
+        "005"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "021"
+      ],
+      "label": "北部美洲主队对南美洲",
+      "relations": []
+    },
+    "PAIR_019_021_013": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [
+        "013"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "021"
+      ],
+      "label": "北部美洲主队对中美洲",
+      "relations": []
+    },
+    "PAIR_019_021_021": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [
+        "021"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "021"
+      ],
+      "label": "北部美洲主队对北部美洲",
+      "relations": []
+    },
+    "PAIR_019_021_029": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [
+        "029"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "021"
+      ],
+      "label": "北部美洲主队对加勒比地区",
+      "relations": []
+    },
+    "PAIR_019_029_005": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [
+        "005"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "029"
+      ],
+      "label": "加勒比地区主队对南美洲",
+      "relations": []
+    },
+    "PAIR_019_029_013": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [
+        "013"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "029"
+      ],
+      "label": "加勒比地区主队对中美洲",
+      "relations": []
+    },
+    "PAIR_019_029_021": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [
+        "021"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "029"
+      ],
+      "label": "加勒比地区主队对北部美洲",
+      "relations": []
+    },
+    "PAIR_019_029_029": {
+      "away_regions": [
+        "019"
+      ],
+      "away_units": [
+        "029"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "029"
+      ],
+      "label": "加勒比地区主队对加勒比地区",
+      "relations": []
+    },
+    "PAIR_142_030_030": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [
+        "030"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "030"
+      ],
+      "label": "东亚主队对东亚",
+      "relations": []
+    },
+    "PAIR_142_030_034": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [
+        "034"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "030"
+      ],
+      "label": "东亚主队对南亚",
+      "relations": []
+    },
+    "PAIR_142_030_035": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [
+        "035"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "030"
+      ],
+      "label": "东亚主队对东南亚",
+      "relations": []
+    },
+    "PAIR_142_030_143": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [
+        "143"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "030"
+      ],
+      "label": "东亚主队对中亚",
+      "relations": []
+    },
+    "PAIR_142_030_145": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [
+        "145"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "030"
+      ],
+      "label": "东亚主队对西亚",
+      "relations": []
+    },
+    "PAIR_142_034_030": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [
+        "030"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "034"
+      ],
+      "label": "南亚主队对东亚",
+      "relations": []
+    },
+    "PAIR_142_034_034": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [
+        "034"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "034"
+      ],
+      "label": "南亚主队对南亚",
+      "relations": []
+    },
+    "PAIR_142_034_035": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [
+        "035"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "034"
+      ],
+      "label": "南亚主队对东南亚",
+      "relations": []
+    },
+    "PAIR_142_034_143": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [
+        "143"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "034"
+      ],
+      "label": "南亚主队对中亚",
+      "relations": []
+    },
+    "PAIR_142_034_145": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [
+        "145"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "034"
+      ],
+      "label": "南亚主队对西亚",
+      "relations": []
+    },
+    "PAIR_142_035_030": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [
+        "030"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "035"
+      ],
+      "label": "东南亚主队对东亚",
+      "relations": []
+    },
+    "PAIR_142_035_034": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [
+        "034"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "035"
+      ],
+      "label": "东南亚主队对南亚",
+      "relations": []
+    },
+    "PAIR_142_035_035": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [
+        "035"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "035"
+      ],
+      "label": "东南亚主队对东南亚",
+      "relations": []
+    },
+    "PAIR_142_035_143": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [
+        "143"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "035"
+      ],
+      "label": "东南亚主队对中亚",
+      "relations": []
+    },
+    "PAIR_142_035_145": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [
+        "145"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "035"
+      ],
+      "label": "东南亚主队对西亚",
+      "relations": []
+    },
+    "PAIR_142_143_030": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [
+        "030"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "143"
+      ],
+      "label": "中亚主队对东亚",
+      "relations": []
+    },
+    "PAIR_142_143_034": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [
+        "034"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "143"
+      ],
+      "label": "中亚主队对南亚",
+      "relations": []
+    },
+    "PAIR_142_143_035": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [
+        "035"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "143"
+      ],
+      "label": "中亚主队对东南亚",
+      "relations": []
+    },
+    "PAIR_142_143_143": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [
+        "143"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "143"
+      ],
+      "label": "中亚主队对中亚",
+      "relations": []
+    },
+    "PAIR_142_143_145": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [
+        "145"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "143"
+      ],
+      "label": "中亚主队对西亚",
+      "relations": []
+    },
+    "PAIR_142_145_030": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [
+        "030"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "145"
+      ],
+      "label": "西亚主队对东亚",
+      "relations": []
+    },
+    "PAIR_142_145_034": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [
+        "034"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "145"
+      ],
+      "label": "西亚主队对南亚",
+      "relations": []
+    },
+    "PAIR_142_145_035": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [
+        "035"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "145"
+      ],
+      "label": "西亚主队对东南亚",
+      "relations": []
+    },
+    "PAIR_142_145_143": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [
+        "143"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "145"
+      ],
+      "label": "西亚主队对中亚",
+      "relations": []
+    },
+    "PAIR_142_145_145": {
+      "away_regions": [
+        "142"
+      ],
+      "away_units": [
+        "145"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "142"
+      ],
+      "home_units": [
+        "145"
+      ],
+      "label": "西亚主队对西亚",
+      "relations": []
+    },
+    "PAIR_150_039_039": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [
+        "039"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "039"
+      ],
+      "label": "南欧主队对南欧",
+      "relations": []
+    },
+    "PAIR_150_039_151": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [
+        "151"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "039"
+      ],
+      "label": "南欧主队对东欧",
+      "relations": []
+    },
+    "PAIR_150_039_154": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [
+        "154"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "039"
+      ],
+      "label": "南欧主队对北欧",
+      "relations": []
+    },
+    "PAIR_150_039_155": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [
+        "155"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "039"
+      ],
+      "label": "南欧主队对西欧",
+      "relations": []
+    },
+    "PAIR_150_151_039": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [
+        "039"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "151"
+      ],
+      "label": "东欧主队对南欧",
+      "relations": []
+    },
+    "PAIR_150_151_151": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [
+        "151"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "151"
+      ],
+      "label": "东欧主队对东欧",
+      "relations": []
+    },
+    "PAIR_150_151_154": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [
+        "154"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "151"
+      ],
+      "label": "东欧主队对北欧",
+      "relations": []
+    },
+    "PAIR_150_151_155": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [
+        "155"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "151"
+      ],
+      "label": "东欧主队对西欧",
+      "relations": []
+    },
+    "PAIR_150_154_039": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [
+        "039"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "154"
+      ],
+      "label": "北欧主队对南欧",
+      "relations": []
+    },
+    "PAIR_150_154_151": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [
+        "151"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "154"
+      ],
+      "label": "北欧主队对东欧",
+      "relations": []
+    },
+    "PAIR_150_154_154": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [
+        "154"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "154"
+      ],
+      "label": "北欧主队对北欧",
+      "relations": []
+    },
+    "PAIR_150_154_155": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [
+        "155"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "154"
+      ],
+      "label": "北欧主队对西欧",
+      "relations": []
+    },
+    "PAIR_150_155_039": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [
+        "039"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "155"
+      ],
+      "label": "西欧主队对南欧",
+      "relations": []
+    },
+    "PAIR_150_155_151": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [
+        "151"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "155"
+      ],
+      "label": "西欧主队对东欧",
+      "relations": []
+    },
+    "PAIR_150_155_154": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [
+        "154"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "155"
+      ],
+      "label": "西欧主队对北欧",
+      "relations": []
+    },
+    "PAIR_150_155_155": {
+      "away_regions": [
+        "150"
+      ],
+      "away_units": [
+        "155"
+      ],
+      "eligibility": "C",
+      "home_regions": [
+        "150"
+      ],
+      "home_units": [
+        "155"
+      ],
+      "label": "西欧主队对西欧",
+      "relations": []
+    },
+    "PARENT": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": null,
+      "home_regions": [],
+      "home_units": [],
+      "label": "母样本",
+      "relations": []
+    },
+    "SA_FEATURE": {
+      "away_regions": [],
+      "away_units": [],
+      "eligibility": "C",
+      "home_regions": [
+        "019"
+      ],
+      "home_units": [
+        "005"
+      ],
+      "label": "南美洲",
+      "relations": []
+    }
+  },
+  "inference": {
+    "causal_claims": false,
+    "classification_sensitivity": "Q4 explicitly revisit carrier/boundary assumptions; do not change groups after observing outcome",
+    "multiple_comparison_scope": "25个分区总体率差+2欧亚关系差+1南美汇总差；南美关系另只描述。155条件率格不是155独立检验。第四问另定联合检验。",
+    "p_values_or_confidence_intervals_in_q3": false,
+    "question_4": "not_run",
+    "question_5_strength": "not_run"
+  },
+  "multigroup_contract": {
+    "contrast_key": [
+      "contrast_id"
+    ],
+    "direction": "Fixed by contrast_id arms, never chosen from results",
+    "group_count_not_hardcoded": true,
+    "group_rates": "Compute every configured group once under one target-specific reference",
+    "membership_key": [
+      "target_id",
+      "match_id"
+    ],
+    "missing_support": "Keep all groups; invalidate only unsupported group rates and affected pairs; preserve target and reference",
+    "overall_inference": "Deferred to Q4, including joint covariance and multiple comparisons; no independent-samples ANOVA assumed",
+    "pairwise": "Only predeclared pairs; European four groups include all six unordered pairs"
+  },
+  "output_contract": {
+    "boolean_literals": [
+      "true",
+      "false"
+    ],
+    "code_type": "string_preserve_leading_zero",
+    "contrast_identifier": "contrast_id separate from target_id; multiple contrasts can use one multigroup target",
+    "core_version_binding": "analysis_id in each core CSV; remaining versions in immutable analysis_metadata.json, linked by analysis_id",
+    "counts": "nonnegative integers; authoritative numerators and denominators",
+    "csv_encoding": "utf-8-sig",
+    "data_dictionary_required": true,
+    "dates": "ISO-8601 YYYY-MM-DD",
+    "difference": "arm1 minus arm2; probability difference and percentage-point difference=100*delta",
+    "implementation_design_log_id": "R20261027-01",
+    "line_terminator": "LF",
+    "probabilities": "0..1, no rounding in computation; export .17g",
+    "reproducibility": "fixed inputs/config/code => same core CSV bytes; run metadata may differ",
+    "require_version_fields": [
+      "analysis_id",
+      "protocol_id",
+      "data_version",
+      "identity_version",
+      "sample_id",
+      "geography_version",
+      "grouping_run"
+    ],
+    "run_identity_binding": "run_id and time only in run_manifest; not core tables",
+    "stable_order": [
+      "target_id",
+      "arm",
+      "era_order",
+      "tournament_group",
+      "role",
+      "team_id"
+    ],
+    "statuses": [
+      "ok",
+      "no_matches",
+      "unsupported_positive_reference_layer"
+    ],
+    "undefined": "empty numeric value plus status and reason; never NaN/Infinity or zero substitute",
+    "zero_matches": "count=0; rate empty; status=no_matches",
+    "zero_reference_weight_layer": "retain counts; skip weighted term without evaluating undefined rate; positive weight missing arm => unsupported"
+  },
+  "previous_protocol": "config/archive/regions_study_v3.json",
+  "profiles": {
+    "macroregions": {
+      "groups": [
+        "A_AFR",
+        "A_AMER",
+        "A_ASIA",
+        "A_EUR",
+        "A_OCE"
+      ],
+      "reference_group": "PARENT"
+    },
+    "south_america_feature": {
+      "groups": [
+        "SA_FEATURE"
+      ],
+      "reference_group": "PARENT"
+    }
+  },
+  "protocol_id": "regions-study-v4",
+  "schema_version": "regions-study-protocol-v4",
+  "scope": {
+    "country_equal_weighting": false,
+    "data_version": "prep-3fab808178cf8ad71d88",
+    "draws_in_denominator": true,
+    "end": "2024-12-31",
+    "identity_version": "identity-reviewed-29d880765c1623764940",
+    "neutral": false,
+    "parent_matches": 24917,
+    "result_basis": "after_extra_time_excluding_shootout",
+    "sample_id": "sample-3bc69e2cc4f843242018",
+    "start": "1980-01-01",
+    "unit": "match"
+  },
+  "standardization": {
+    "fixed_within_this_input_version": true,
+    "formula": "theta_g=sum_s q_s*(wins_gs/n_gs); delta=theta_arm1-theta_arm2",
+    "missing_positive_reference_cell": "retain target and direct description; standardized estimate empty with status unsupported_positive_reference_layer; no implicit restriction or imputation",
+    "nonempty_is_not_reliability": true,
+    "recompute_on_data_version_change": "new protocol/run version, not overwrite",
+    "reference_counts_are_not_estimated_by_prediction": true,
+    "reference_weights": "reference stratum matches / total reference matches; do not round before computing"
+  },
+  "status": "approved_expanded_descriptive_scope",
+  "strata": {
+    "eras": [
+      {
+        "end": "1989-12-31",
+        "id": "1980s",
+        "start": "1980-01-01"
+      },
+      {
+        "end": "1999-12-31",
+        "id": "1990s",
+        "start": "1990-01-01"
+      },
+      {
+        "end": "2009-12-31",
+        "id": "2000s",
+        "start": "2000-01-01"
+      },
+      {
+        "end": "2019-12-31",
+        "id": "2010s",
+        "start": "2010-01-01"
+      },
+      {
+        "end": "2024-12-31",
+        "id": "2020_2024",
+        "start": "2020-01-01"
+      }
+    ],
+    "joint_era_by_type": true,
+    "tournament_groups": [
+      "friendly",
+      "non_friendly"
+    ]
+  },
+  "studies": [
+    {
+      "contrast_ids": [
+        "C_EUR_151_VS_039",
+        "C_EUR_151_VS_155",
+        "C_EUR_151_VS_154",
+        "C_EUR_039_VS_155",
+        "C_EUR_NORTH_SOUTH",
+        "C_EUR_155_VS_154",
+        "B_EUR"
+      ],
+      "description": "地域关系与欧洲东、南、西、北四分区完整描述；洲内六个成对差值共用欧洲参考",
+      "id": "EUROPE",
+      "subanalyses": [
+        "C_EUR",
+        "B_EUR",
+        "M_EUR"
+      ],
+      "title": "欧洲主队的地域关系与欧洲内部差异"
+    },
+    {
+      "contrast_ids": [
+        "C_ASIA_030_VS_035",
+        "C_ASIA_030_VS_034",
+        "C_ASIA_030_VS_143",
+        "C_ASIA_030_VS_145",
+        "C_ASIA_035_VS_034",
+        "C_ASIA_035_VS_143",
+        "C_ASIA_035_VS_145",
+        "C_ASIA_034_VS_143",
+        "C_ASIA_034_VS_145",
+        "C_ASIA_143_VS_145",
+        "B_ASIA"
+      ],
+      "description": "地域关系为主线；西亚—东亚作为题内子项",
+      "id": "ASIA",
+      "subanalyses": [
+        "C_ASIA",
+        "B_ASIA",
+        "M_ASIA"
+      ],
+      "title": "亚洲主队的地域关系与亚洲内部差异"
+    },
+    {
+      "contrast_ids": [
+        "C_AFR_015_VS_011",
+        "C_AFR_015_VS_OTHER",
+        "C_AFR_011_VS_OTHER"
+      ],
+      "id": "AFRICA",
+      "subanalyses": [
+        "C_AFR",
+        "M_AFR"
+      ],
+      "title": "北非与撒哈拉以南非洲的主场表现"
+    },
+    {
+      "contrast_ids": [
+        "C_AMER_005_VS_013",
+        "C_AMER_005_VS_021",
+        "C_AMER_005_VS_029",
+        "C_AMER_013_VS_021",
+        "C_AMER_013_VS_029",
+        "C_AMER_021_VS_029",
+        "B_SA",
+        "C_AMER_FOCUS"
+      ],
+      "description": "洲内比较为主线；南美主客地域关系只作描述",
+      "id": "AMERICAS",
+      "subanalyses": [
+        "C_AMER",
+        "M_AMER",
+        "C_AMER_FOCUS",
+        "B_SA"
+      ],
+      "title": "南美洲与美洲其他地理分区的主场表现"
+    }
+  ],
+  "study_classification": {
+    "basis": "M49-based project groups with explicitly requested football-context exceptions; not a complete confederation classification",
+    "decision_log_id": "R20261027-01",
+    "earlier_decision_log_id": "R20261026-20",
+    "merges": [
+      {
+        "base_units": [
+          "014",
+          "017",
+          "018"
+        ],
+        "reason": "东非、中部非洲和南部非洲合并为其余撒哈拉以南",
+        "region": "002",
+        "rule_id": "STUDY-AFRICA-OTHER-SSA",
+        "unit": "SSA_OTHER"
+      },
+      {
+        "base_units": [
+          "053",
+          "054",
+          "057",
+          "061"
+        ],
+        "reason": "大洋洲只作为整体，不开展分区比较",
+        "region": "009",
+        "rule_id": "STUDY-OCEANIA-WHOLE",
+        "unit": "OCEANIA_ALL"
+      }
+    ],
+    "overrides": [
+      {
+        "base_region": "142",
+        "base_unit": "034",
+        "decision_log_id": "R20261026-20",
+        "reason": "用户指定伊朗计入西亚",
+        "region": "142",
+        "rule_id": "STUDY-IRAN-WEST-ASIA",
+        "team_id": "team:iran",
+        "unit": "145"
+      },
+      {
+        "base_region": "009",
+        "base_unit": "053",
+        "decision_log_id": "R20261026-20",
+        "reason": "用户指定澳大利亚计入亚洲/东南亚，移出研究大洋洲",
+        "region": "142",
+        "rule_id": "STUDY-AUSTRALIA-SOUTHEAST-ASIA",
+        "team_id": "team:australia",
+        "unit": "035"
+      },
+      {
+        "background_source": "https://www.uefa.com/nationalassociations/tur/",
+        "base_region": "142",
+        "base_unit": "145",
+        "decision_log_id": "R20261027-01",
+        "reason": "用户基于欧足联归属指定土耳其计入欧洲，并明确选择南欧；南欧是项目约定",
+        "region": "150",
+        "rule_id": "STUDY-TURKEY-SOUTHERN-EUROPE",
+        "team_id": "team:turkey",
+        "unit": "039"
+      }
+    ],
+    "partitions": {
+      "002": [
+        {
+          "id": "015",
+          "label": "北非"
+        },
+        {
+          "id": "011",
+          "label": "西非"
+        },
+        {
+          "id": "SSA_OTHER",
+          "label": "其余撒哈拉以南"
+        }
+      ],
+      "019": [
+        {
+          "id": "005",
+          "label": "南美洲"
+        },
+        {
+          "id": "013",
+          "label": "中美洲"
+        },
+        {
+          "id": "021",
+          "label": "北部美洲"
+        },
+        {
+          "id": "029",
+          "label": "加勒比地区"
+        }
+      ],
+      "142": [
+        {
+          "id": "030",
+          "label": "东亚"
+        },
+        {
+          "id": "035",
+          "label": "东南亚"
+        },
+        {
+          "id": "034",
+          "label": "南亚"
+        },
+        {
+          "id": "143",
+          "label": "中亚"
+        },
+        {
+          "id": "145",
+          "label": "西亚"
+        }
+      ],
+      "150": [
+        {
+          "id": "151",
+          "label": "东欧"
+        },
+        {
+          "id": "039",
+          "label": "南欧"
+        },
+        {
+          "id": "155",
+          "label": "西欧"
+        },
+        {
+          "id": "154",
+          "label": "北欧"
+        }
+      ]
+    },
+    "regions": {
+      "002": "非洲",
+      "009": "大洋洲",
+      "019": "美洲",
+      "142": "亚洲",
+      "150": "欧洲"
+    },
+    "reporting_requirement": "论文和汇报必须单独说明土耳其归欧洲/南欧及伊朗、澳大利亚例外。UEFA成员依据不等于南欧官方分类；不自动迁移其他欧足联会员。双方角色全研究期一致应用，保留原M49-based标签。",
+    "schema_version": "study-regions-v1",
+    "scope": {
+      "end": "2024-12-31",
+      "start": "1980-01-01"
+    }
+  },
+  "study_classification_path": "config/regions_study_overrides.json",
+  "terminology": {
+    "central_europe": "M49无单独中欧；不新建第五组，常见中欧国家明确列出现有归属，未来改用五分区须另立协议",
+    "europe_partitions": [
+      "151",
+      "154",
+      "039",
+      "155"
+    ],
+    "formal_partition": "地理分区",
+    "method_definition": "依据M49最深非空层级构建互不重叠的统计地理分区，并保留M49原始层级",
+    "public_relations": {
+      "cross_region": "跨地理大区",
+      "same_region_diff_unit": "同大区不同地理分区",
+      "same_unit": "同一地理分区"
+    }
+  }
+}

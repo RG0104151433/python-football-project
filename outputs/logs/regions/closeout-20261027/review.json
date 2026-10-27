@@ -1,0 +1,203 @@
+{
+  "decision_log_id": "R20261027-03",
+  "human_review": "not_performed",
+  "independent_audit": {
+    "analysis_id": "regions-0a1c61664a722e6c641f",
+    "calculation": "Exact rational reconstruction from pinned original scores; no production statistical functions",
+    "fingerprint_checks": 84,
+    "human_review": "not_performed",
+    "independent_checks": 1369336,
+    "inference": "not_run",
+    "parent_matches": 24917,
+    "repeated_core_artifacts_identical": 34,
+    "sensitivity": "not_run",
+    "source_run": "outputs/logs/regions/closeout-20261027/regions-20261027T084444698281Z-cb3b3de4/run_manifest.json",
+    "statistical_comparison": null,
+    "status": "passed",
+    "tables": {
+      "analysis_matches": 24917,
+      "analysis_membership": 373755,
+      "contrast_results": 29,
+      "group_summary": 188,
+      "layer_contributions": 290,
+      "match_coefficients": 165055,
+      "matchup_rates": 155,
+      "opponent_composition": 4605,
+      "reference_weights": 150,
+      "stratum_counts": 1880,
+      "study_team_registry": 217,
+      "team_contributions": 39042
+    },
+    "verifier_sha256": "1f434be9dcf1f8ea7a74c067f787038b406c9e604f79b90fd4e62207500301c4"
+  },
+  "inference": "not_run",
+  "old_v3_integrity": {
+    "analysis_id": "regions-6f5915b013976712736b",
+    "archived_bindings": [
+      "config/regions_study.json",
+      "scripts/analyze_regions.py",
+      "src/regions/__init__.py",
+      "src/regions/describe.py",
+      "src/regions/export.py",
+      "src/regions/groups.py",
+      "src/regions/io.py",
+      "src/regions/standardize.py"
+    ],
+    "core_outputs": 22,
+    "fingerprint_checks": 70,
+    "regional_inference": "not_run",
+    "status": "passed"
+  },
+  "old_v4_integrity": {
+    "analysis_id": "regions-5c79095fe5e46b7f4755",
+    "archived_bindings": [
+      "scripts/analyze_regions.py",
+      "src/regions/export.py"
+    ],
+    "core_outputs": 34,
+    "fingerprint_checks": 83,
+    "regional_inference": "not_run",
+    "status": "passed"
+  },
+  "orchestration_sha256": "b9693ec4b388a7d34e154197809524dfa814435fbb3873d2863d976a214ee36d",
+  "reference": {
+    "adjusted_contrasts_available": 24,
+    "analysis_id": "regions-0a1c61664a722e6c641f",
+    "checks_passed": 8116,
+    "parent_matches": 24917,
+    "run_manifest": "outputs/logs/regions/closeout-20261027/regions-20261027T084412226301Z-f05899a3/run_manifest.json",
+    "status": "success",
+    "table_rows": {
+      "analysis_matches": 24917,
+      "analysis_membership": 373755,
+      "contrast_results": 29,
+      "group_summary": 188,
+      "layer_contributions": 290,
+      "match_coefficients": 165055,
+      "matchup_rates": 155,
+      "opponent_composition": 4605,
+      "reference_weights": 150,
+      "stratum_counts": 1880,
+      "study_team_registry": 217,
+      "team_contributions": 39042
+    }
+  },
+  "repeat": {
+    "adjusted_contrasts_available": 24,
+    "analysis_id": "regions-0a1c61664a722e6c641f",
+    "checks_passed": 8116,
+    "parent_matches": 24917,
+    "run_manifest": "outputs/logs/regions/closeout-20261027/regions-20261027T084444698281Z-cb3b3de4/run_manifest.json",
+    "status": "success",
+    "table_rows": {
+      "analysis_matches": 24917,
+      "analysis_membership": 373755,
+      "contrast_results": 29,
+      "group_summary": 188,
+      "layer_contributions": 290,
+      "match_coefficients": 165055,
+      "matchup_rates": 155,
+      "opponent_composition": 4605,
+      "reference_weights": 150,
+      "stratum_counts": 1880,
+      "study_team_registry": 217,
+      "team_contributions": 39042
+    }
+  },
+  "sensitivity": "not_run",
+  "status": "passed",
+  "support": {
+    "analysis_id": "regions-0a1c61664a722e6c641f",
+    "coverage": {
+      "macro_to_macro": {
+        "adjusted": 11,
+        "cells": 25,
+        "observed": 25
+      },
+      "outside_macro": {
+        "adjusted": 9,
+        "cells": 64,
+        "observed": 62
+      },
+      "within_partition": {
+        "adjusted": 51,
+        "cells": 66,
+        "observed": 66
+      }
+    },
+    "groups": 188,
+    "report": "outputs/logs/regions/closeout-20261027/support/support_audit.json",
+    "status": "passed"
+  },
+  "tests_passed": 160,
+  "unchanged_statistics": {
+    "figures_compared": false,
+    "note": "Same study configuration and all CSV fields except analysis_id; not a same-environment image comparison",
+    "other_analysis_id": "regions-5c79095fe5e46b7f4755",
+    "status": "passed",
+    "tables_identical_excluding_analysis_id": 12
+  },
+  "delivery_checks": {
+    "documentation_files": 12,
+    "local_links": 638,
+    "missing_links": [],
+    "restricted_original_clean_links": [
+      {
+        "file": "README.md",
+        "target": "data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv"
+      },
+      {
+        "file": "README.md",
+        "target": "data/processed/prep-3fab808178cf8ad71d88/data_dictionary.md"
+      },
+      {
+        "file": "README.md",
+        "target": "data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json"
+      },
+      {
+        "file": "研究/03_地域差异/README.md",
+        "target": "../../data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv"
+      },
+      {
+        "file": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+        "target": "../../data/processed/prep-3fab808178cf8ad71d88/data_dictionary.md"
+      },
+      {
+        "file": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+        "target": "../../data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json"
+      },
+      {
+        "file": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+        "target": "../../data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv"
+      }
+    ],
+    "restricted_access_note": "Seven links to original clean files were restricted to the default reader; prior elevated previous_questions.json remains the original-binding evidence. This task did not modify or re-run those original files.",
+    "current_run_fingerprints": 84,
+    "journal_ids": 95,
+    "journal_ids_unique": true,
+    "tracked_diff_check_passed": true,
+    "visual_review_png": [
+      "overview",
+      "europe",
+      "matrix_asia"
+    ],
+    "dictionary_old_target_count_removed": true,
+    "main_numeric_config_unchanged": true,
+    "documentation_sha256": {
+      "README.md": "5e5ac9d06edc0a15b086dde49240104da83ff8f30117f7155f04acb9c64ea9d8",
+      "研究/README.md": "a486ba0d0fdec7f7918b759aeb3703376d7def1d75685b4e976a770bcf0f9b30",
+      "研究/03_地域差异/README.md": "f4075bf98554b2b56a57de411d12a948a22cb119426f809fe16d8a33c7a7e8dc",
+      "研究/03_地域差异/脚本设计.md": "923e8bfb58b25c1ebba2d4bf97921113ef066552259899b579bc3511e6eb0b73",
+      "研究/03_地域差异/本地运行与复现.md": "7c65cf99bcba288002293d7fbbf29d26d7c589b3ddd54fc0a47f0393ba5d5aa6",
+      "研究/03_地域差异/结果审读与展示提纲.md": "28af165b91ab4796cce3793fd5d8f72a28813f577a861ed06c1ad2b1f05deef7",
+      "研究/03_地域差异/两版计算范围对照.md": "d89985843f8475d3f82dc27c47c6179a86e3cfeb0c2bdcca8fc1e929f158abef",
+      "文档/05_团队协作/分工与交付/00_先看这里.md": "1cf6094bc05040259a94a26a80f846d822b90f7071317155172f65de9f267336",
+      "文档/05_团队协作/分工与交付/03_后续分析与展示.md": "34089c8a76eeca28d684380dfb2dbf1b783f1abf3cff7d7952ad387977b9e6c8",
+      "文档/05_团队协作/分工与交付/04_两题共同可靠性与敏感性.md": "139f4f846d370b41eeacc70ab467e843a657cc4ba1c6814709484b8c0fa6c4e8",
+      "文档/05_团队协作/论文与汇报支撑材料索引.md": "52affad562c0dd11fa9c14880f12a97a630d1d2ae43c14168ef6d8e63db58fde",
+      "参考资料/方法文献/README.md": "262ba8854dd421d8f7764467ca8cfe7ced45f0497b90bef885fc2a59d15eacbb",
+      "研究/pipeline_state.json": "c6edb9bc4488554d10347b75e1b63092d684a741d3d2b2bea4454b97ee2be503",
+      "参考资料/方法文献/sources.json": "c6526b19af5f43e7170b884cb0f4e0ef44f6612af3b619aa2b941a586cd747f9"
+    }
+  }
+}

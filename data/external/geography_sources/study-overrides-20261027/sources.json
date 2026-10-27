@@ -1,0 +1,28 @@
+{
+  "schema_version": "study-classification-source-registry-v1",
+  "decision_log_id": "R20261027-01",
+  "original_geography_registry": "data/external/geography_sources/m49-20261026/sources.csv",
+  "study_rules": "config/regions_study_overrides.json",
+  "records": [
+    {
+      "id": "REGION-M06",
+      "title": "Türkiye: association history",
+      "authors": "UEFA",
+      "requested_url": "https://www.uefa.com/nationalassociations/tur/",
+      "accessed_date": "2026-10-27",
+      "publication_date": null,
+      "local_path": null,
+      "status": "web_read_only",
+      "reading_scope": "Official association history states the Turkish Football Federation joined UEFA in 1962. Supports football-organizational background only; Southern Europe is the user-approved project classification, not an official UEFA or M49 subregion.",
+      "decision_log_id": "R20261027-01",
+      "used_for": "Context for Turkey study override in question 3; not a historical confederation mapping"
+    }
+  ],
+  "classification_decisions": {
+    "turkey": "User explicitly assigns Europe/Southern Europe; UEFA affiliation provides organizational context only",
+    "iran": "User assigns Western Asia",
+    "australia": "User assigns Asia/South-eastern Asia",
+    "period": "Fixed for entire 1980-2024 in both roles; not historical confederation membership"
+  },
+  "html_downloaded": false
+}

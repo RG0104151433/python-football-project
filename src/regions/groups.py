@@ -6,6 +6,8 @@ def matches_group(row, spec):
     return ((not spec["eligibility"] or row[spec["eligibility"] + "_usable"])
             and (not spec["home_regions"] or row["home_region"] in spec["home_regions"])
             and (not spec["home_units"] or row["home_unit"] in spec["home_units"])
+            and (not spec.get("away_regions") or row["away_region"] in spec["away_regions"])
+            and (not spec.get("away_units") or row["away_unit"] in spec["away_units"])
             and (not spec["relations"] or row["relation"] in spec["relations"]))
 
 
@@ -33,7 +35,7 @@ def build_groups(facts, config):
                   and row["home_region"] not in config["groups"][target["reference_group"]]["home_regions"]):
                 reason = "outside_background"
             elif mid in ref:
-                reason = "reference_only"
+                reason = "opponent_unknown" if target.get("type", "").startswith("matchup_") and not row["away_region"] else "reference_only"
             else:
                 reason = "geography_unknown"
             membership.append(dict(target_id=tid, match_id=mid, group_id=gid,

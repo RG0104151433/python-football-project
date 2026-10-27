@@ -1,0 +1,164 @@
+{
+  "analysis_id": "regions-0a1c61664a722e6c641f",
+  "arithmetic_checks": 3335,
+  "builder_sha256": "193f8aafedb4cf1cf88eb98bbace641f5795c004e1dcf585fc8bf8e117d0122a",
+  "closure": "Description and agreed material preparation closed; inference/final delivery/human review explicitly deferred",
+  "conditional_cells": 155,
+  "contrasts": 29,
+  "core_run_unchanged": true,
+  "decision_log_id": "R20261027-05",
+  "groups": 188,
+  "human_review": "not_performed",
+  "inference": "not_run",
+  "output_sha256": {
+    "outputs/figures/regions/presentation/regions-0a1c61664a722e6c641f/finding_01_africa.png": "ca0740455624aeb0756e4374fd0e6a8bfbcb4eae4305a5737fefc35b06616c84",
+    "outputs/figures/regions/presentation/regions-0a1c61664a722e6c641f/finding_01_africa.svg": "a5d139ef70002f022580f39c1b348f45619751544dddb16d4600fea96cd0e7ab",
+    "outputs/figures/regions/presentation/regions-0a1c61664a722e6c641f/finding_02_americas.png": "c87cfaeae9f880a2a3ba2e73ed672fee5ae60ea5834f870ca1a5735a95bca175",
+    "outputs/figures/regions/presentation/regions-0a1c61664a722e6c641f/finding_02_americas.svg": "597eaedbc4f1f79836dce28712144417c90e52b7f11de9aafc7e8ff7f90b47e1",
+    "outputs/figures/regions/presentation/regions-0a1c61664a722e6c641f/finding_03_relations.png": "f603acc4b50c9c19667ed23512790c9174500db82e7d98272a85a924c353a1dc",
+    "outputs/figures/regions/presentation/regions-0a1c61664a722e6c641f/finding_03_relations.svg": "07460f6b6a2b6a1d320d6f14e54633966207b1d3c4103fe4de3bf0161423ae8d",
+    "outputs/logs/regions/final-handoff-20261027/conclusion_cards.json": "8c6224031abc689186fb36c0b62c1a6f37c36022cfc771a47f89c9d4d02124a5",
+    "outputs/logs/regions/final-handoff-20261027/presentation_assets.json": "c614d600fd361b2a29afd330ee82402a98b8778b828e74da9624012fee8eb823"
+  },
+  "preceding_questions": {
+    "question_1": {
+      "analysis_id": "eras-fifa-dddf11dd6dc0b7531b88",
+      "outputs_verified": 22,
+      "same_match_ids": 24917
+    },
+    "question_2": {
+      "analysis_id": "tournaments-4893e38db46f83f6c219",
+      "outputs_verified": 23,
+      "same_match_ids": 24917
+    }
+  },
+  "pytest": "Existing 160-test record verified as source; not rerun for material-only changes",
+  "run_integrity": {
+    "analysis_id": "regions-0a1c61664a722e6c641f",
+    "archived_bindings": [],
+    "core_outputs": 34,
+    "fingerprint_checks": 84,
+    "regional_inference": "not_run",
+    "status": "passed"
+  },
+  "schema_version": "q3-final-handoff-review-v1",
+  "sensitivity": "not_run",
+  "source_run": "outputs/logs/regions/closeout-20261027/regions-20261027T084412226301Z-f05899a3/run_manifest.json",
+  "source_sha256": {
+    "outputs/logs/regions/closeout-20261027/independent_audit_repeat.json": "7506999ac3e9ca1941d665ce537d7222b6430d954f03c223d9f5bac5bb61b5dc",
+    "outputs/logs/regions/closeout-20261027/regions-20261027T084412226301Z-f05899a3/display_data.json": "cfdf535b2b7984bb09b1b756486ff365bcf005f35c578feb7c8ca531ae95f709",
+    "outputs/logs/regions/closeout-20261027/regions-20261027T084412226301Z-f05899a3/run_manifest.json": "6953f47bd876c86fbd73a13ca44c813ecf9955a0208ff2671a1d56261c20434b",
+    "outputs/logs/regions/closeout-20261027/support/support_audit.json": "1fd011298e66f7bcd2c41c8bfd425c3ecedecb26bd260db241eaf607b86dc455",
+    "outputs/logs/regions/closeout-20261027/support/support_inventory.csv": "fe20d6084fb28e0d3104a0b5a6d69150232b8b43cd5eb7d3f26ff99e6d651745",
+    "outputs/logs/regions/closeout-20261027/tests.xml": "e05e10f7cebd463531fb95d0cafff3343587f2875366338ebc729216525ef3f8",
+    "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json": "a24a84ee948234131a7bcf48d09a2c7a9527fd3c1483fc7bbf246455ddba0afa",
+    "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/run_manifest.json": "c25cb3672ff004939171a59e460de8ba4c7f960fc35e1dbf033b1dbe2cced0ca",
+    "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/analysis_membership.csv": "5a773a0ff3a4da59efd02022f455b32a9e1bd5ef45059ba8c1899150bdadeb1e",
+    "outputs/tables/regions/regions-0a1c61664a722e6c641f/analysis_matches.csv": "8b0ddb7f2e4d5eb2199c8c2b477e7873b1e46bc12421c4dddf5ac8809f91ca22",
+    "outputs/tables/regions/regions-0a1c61664a722e6c641f/analysis_metadata.json": "2462e00aac5fc7e51d3ddd2e3068ee0e4eccdf76382e67f204f289094c0b5f4d",
+    "outputs/tables/regions/regions-0a1c61664a722e6c641f/contrast_results.csv": "c7baa604defcaca867fab2b460b12f9a61d1af690620ba12829ad5695452b27f",
+    "outputs/tables/regions/regions-0a1c61664a722e6c641f/data_dictionary.md": "5782ad4c3b93b121ef62e736a2e29fd58adc7fddf49b47818a6d62e96691771a",
+    "outputs/tables/regions/regions-0a1c61664a722e6c641f/group_summary.csv": "ae3ea728b0e5ed07ab52dc432e408502e63a6401248de56ce2fc8d7e53d2e9ca",
+    "outputs/tables/regions/regions-0a1c61664a722e6c641f/matchup_rates.csv": "76bd0eaff66d50e7c7d817bdaa740913b5ddaeb885bcd990a3a213496319bcee",
+    "outputs/tables/regions/regions-0a1c61664a722e6c641f/reference_weights.csv": "b56f2e54601f00c426077a4080e4bb0bc05f97cbd6e1ec86be68290f0126210b",
+    "outputs/tables/regions/regions-0a1c61664a722e6c641f/stratum_counts.csv": "3048c32ec29f3428ee97136104c78763b5fa4c2ddfbf6f52f9560393fdc315f5",
+    "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/analysis_membership.csv": "4294840536c707abef248b166c015de8f7fac39dcf14a37c7dcd75911283e166"
+  },
+  "status": "passed",
+  "delivery_validation": {
+    "status": "passed",
+    "decision_log_id": "R20261027-05",
+    "documents": 11,
+    "local_links": 678,
+    "missing_links": [],
+    "restricted_original_clean_links": [
+      {
+        "file": "README.md",
+        "target": "data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv"
+      },
+      {
+        "file": "README.md",
+        "target": "data/processed/prep-3fab808178cf8ad71d88/data_dictionary.md"
+      },
+      {
+        "file": "README.md",
+        "target": "data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json"
+      },
+      {
+        "file": "研究/03_地域差异/README.md",
+        "target": "../../data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv"
+      },
+      {
+        "file": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+        "target": "../../data/processed/prep-3fab808178cf8ad71d88/data_dictionary.md"
+      },
+      {
+        "file": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+        "target": "../../data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json"
+      },
+      {
+        "file": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+        "target": "../../data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv"
+      }
+    ],
+    "restricted_link_note": "Default-reader limitation; original files not changed or freshly reverified here. Prior elevated binding checks retained.",
+    "material_sources_verified": 18,
+    "material_outputs_verified": 8,
+    "png_dimensions": {
+      "outputs/figures/regions/presentation/regions-0a1c61664a722e6c641f/finding_01_africa.png": [
+        1920,
+        1080
+      ],
+      "outputs/figures/regions/presentation/regions-0a1c61664a722e6c641f/finding_02_americas.png": [
+        1920,
+        1080
+      ],
+      "outputs/figures/regions/presentation/regions-0a1c61664a722e6c641f/finding_03_relations.png": [
+        1920,
+        1080
+      ]
+    },
+    "current_task_visual_review": {
+      "presentation_png": [
+        "finding_01_africa",
+        "finding_02_americas",
+        "finding_03_relations"
+      ],
+      "main_png": [
+        "asia",
+        "africa",
+        "americas",
+        "matrix_macro",
+        "matrix_eur",
+        "matrix_afr",
+        "matrix_amer"
+      ]
+    },
+    "prior_current_analysis_visual_review": {
+      "decision_log_id": "R20261027-03",
+      "main_png": [
+        "overview",
+        "europe",
+        "matrix_asia"
+      ]
+    },
+    "journal_ids": 96,
+    "journal_ids_unique": true,
+    "tracked_diff_check_passed": true,
+    "all_five_agreed_closeout_tasks_complete": true,
+    "documentation_sha256": {
+      "README.md": "da46d282e4eed60b71240b015108e205913acc3c896c403be4688b809b04a66b",
+      "研究/README.md": "5940132b21d9fcca2bb4f7ad6d144d59c3e197f9e072a945b3ebbf10f74c4d2d",
+      "研究/03_地域差异/README.md": "32ca983d886f1e29fa07f6ddf5b83f23ac094ef8fd13fae985cf58ee7b98ab49",
+      "研究/03_地域差异/结果审读与展示提纲.md": "bc2b524538a3a40b5a11c86f86d069d30103da0b8cc786b7dd22970faa18051a",
+      "研究/03_地域差异/本地运行与复现.md": "583ce92cbe057fee575e754e91e45007aefe4e62e4fe20906c4f897a2b0bad1d",
+      "研究/03_地域差异/脚本设计.md": "b3044408f7bda1716385c3d0773e09b008147a350b9984e1a1f2a2d25c2d0b2e",
+      "文档/05_团队协作/汇报要求与HTML方案.md": "1610dd8a69e7a181a001ea3927da592b2a5b1af5119cce5edb4202508588c8d5",
+      "文档/05_团队协作/分工与交付/00_先看这里.md": "588e771fdefc2bd704c364482e0af22cf76f6afd8f4b5577cfdfdab40c4c3a3f",
+      "文档/05_团队协作/分工与交付/03_后续分析与展示.md": "3f4294e8c504b2840324429088bba42c71740b0a51489429d858dd9524dfac7c",
+      "文档/05_团队协作/分工与交付/04_两题共同可靠性与敏感性.md": "f69b18d98b5006b5b1d8bd596286d81435a958dc9acb258bcc8771fc1375794b",
+      "文档/05_团队协作/论文与汇报支撑材料索引.md": "22a18d02d6e7c434d65a3e0fc621889bb9b6edc53e1c02e296dd6da52e7af99c",
+      "研究/pipeline_state.json": "c71120eccfc1224ea1438dee249809ccfda846e1e89eb1c930740f206756aacd"
+    }
+  }
+}
