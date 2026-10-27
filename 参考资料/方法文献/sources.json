@@ -479,6 +479,15 @@
       "unlinked_cache_pages": 10,
       "new_downloads": false,
       "old_reading_and_retrieval_records_unchanged": true
+    },
+    {
+      "decision_log_id": "R20261026-19",
+      "type": "method_applied_to_region_description",
+      "analysis_id": "regions-6f5915b013976712736b",
+      "run_manifest": "outputs/logs/regions/regions-20261026T135956693371Z-182ec8a6/run_manifest.json",
+      "new_downloads": false,
+      "new_paper_reading_claimed": false,
+      "scope": "Common-reference descriptive standardization only; dyadic inference and sensitivity remain not run"
     }
   ]
 }

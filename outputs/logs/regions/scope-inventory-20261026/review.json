@@ -1,0 +1,1153 @@
+{
+  "decision_log_id": "R20261026-20",
+  "basis": "Existing executed v3 and count-only next-scope diagnostic; no new outcome rates",
+  "executed_analysis_id": "regions-6f5915b013976712736b",
+  "executed_protocol": "regions-study-v3",
+  "existing_group_rates": [
+    {
+      "target_id": "B_ASIA",
+      "group_id": "B_ASIA_CROSS",
+      "label": "亚洲主队：跨大区",
+      "matches": 1866
+    },
+    {
+      "target_id": "B_ASIA",
+      "group_id": "B_ASIA_OTHER_UNIT",
+      "label": "亚洲主队：同大区不同地理分区",
+      "matches": 2227
+    },
+    {
+      "target_id": "B_ASIA",
+      "group_id": "B_ASIA_SAME",
+      "label": "亚洲主队：同一地理分区",
+      "matches": 1819
+    },
+    {
+      "target_id": "B_EUR",
+      "group_id": "B_EUR_CROSS",
+      "label": "欧洲主队：跨大区",
+      "matches": 1626
+    },
+    {
+      "target_id": "B_EUR",
+      "group_id": "B_EUR_OTHER_UNIT",
+      "label": "欧洲主队：同大区不同地理分区",
+      "matches": 4603
+    },
+    {
+      "target_id": "B_EUR",
+      "group_id": "B_EUR_SAME",
+      "label": "欧洲主队：同一地理分区",
+      "matches": 1764
+    },
+    {
+      "target_id": "B_SA",
+      "group_id": "B_SA_CROSS",
+      "label": "南美洲主队：跨大区",
+      "matches": 200
+    },
+    {
+      "target_id": "B_SA",
+      "group_id": "B_SA_OTHER_UNIT",
+      "label": "南美洲主队：同大区不同地理分区",
+      "matches": 280
+    },
+    {
+      "target_id": "B_SA",
+      "group_id": "B_SA_SAME",
+      "label": "南美洲主队：同一地理分区",
+      "matches": 1207
+    },
+    {
+      "target_id": "C_AFR",
+      "group_id": "C_NAF",
+      "label": "北非",
+      "matches": 1079
+    },
+    {
+      "target_id": "C_AFR",
+      "group_id": "C_SSA",
+      "label": "撒哈拉以南非洲",
+      "matches": 4789
+    },
+    {
+      "target_id": "C_AMER",
+      "group_id": "C_OTHER_AMER",
+      "label": "美洲其他地理分区",
+      "matches": 2865
+    },
+    {
+      "target_id": "C_AMER",
+      "group_id": "SA_FEATURE",
+      "label": "南美洲（地理）",
+      "matches": 1690
+    },
+    {
+      "target_id": "C_ASIA",
+      "group_id": "C_EASIA",
+      "label": "东亚",
+      "matches": 996
+    },
+    {
+      "target_id": "C_ASIA",
+      "group_id": "C_WASIA",
+      "label": "西亚",
+      "matches": 2769
+    },
+    {
+      "target_id": "C_EUR",
+      "group_id": "C_EEUR",
+      "label": "东欧",
+      "matches": 1620
+    },
+    {
+      "target_id": "C_EUR",
+      "group_id": "C_NEUR",
+      "label": "北欧",
+      "matches": 2504
+    },
+    {
+      "target_id": "C_EUR",
+      "group_id": "C_SEUR",
+      "label": "南欧",
+      "matches": 2218
+    },
+    {
+      "target_id": "C_EUR",
+      "group_id": "C_WEUR",
+      "label": "西欧",
+      "matches": 1703
+    },
+    {
+      "target_id": "PROFILE_MACRO",
+      "group_id": "A_AFR",
+      "label": "非洲",
+      "matches": 5868
+    },
+    {
+      "target_id": "PROFILE_MACRO",
+      "group_id": "A_AMER",
+      "label": "美洲",
+      "matches": 4555
+    },
+    {
+      "target_id": "PROFILE_MACRO",
+      "group_id": "A_ASIA",
+      "label": "亚洲",
+      "matches": 5921
+    },
+    {
+      "target_id": "PROFILE_MACRO",
+      "group_id": "A_EUR",
+      "label": "欧洲",
+      "matches": 8045
+    },
+    {
+      "target_id": "PROFILE_MACRO",
+      "group_id": "A_OCE",
+      "label": "大洋洲",
+      "matches": 502
+    },
+    {
+      "target_id": "PROFILE_SA",
+      "group_id": "SA_FEATURE",
+      "label": "南美洲（地理）",
+      "matches": 1690
+    }
+  ],
+  "existing_contrasts": [
+    {
+      "contrast_id": "B_ASIA",
+      "label": "亚洲：跨大区减同一地理分区",
+      "adjusted_status": "ok"
+    },
+    {
+      "contrast_id": "B_EUR",
+      "label": "欧洲：跨大区减同一地理分区",
+      "adjusted_status": "ok"
+    },
+    {
+      "contrast_id": "B_SA",
+      "label": "南美洲：跨大区减同一地理分区",
+      "adjusted_status": "unsupported_positive_reference_layer"
+    },
+    {
+      "contrast_id": "C_AFR",
+      "label": "北非减撒哈拉以南非洲",
+      "adjusted_status": "ok"
+    },
+    {
+      "contrast_id": "C_AMER",
+      "label": "南美洲减美洲其他地理分区",
+      "adjusted_status": "ok"
+    },
+    {
+      "contrast_id": "C_ASIA",
+      "label": "西亚减东亚",
+      "adjusted_status": "ok"
+    },
+    {
+      "contrast_id": "C_EUR_NORTH_EAST",
+      "label": "北欧减东欧",
+      "adjusted_status": "ok"
+    },
+    {
+      "contrast_id": "C_EUR_NORTH_SOUTH",
+      "label": "北欧减南欧",
+      "adjusted_status": "ok"
+    },
+    {
+      "contrast_id": "C_EUR_NORTH_WEST",
+      "label": "北欧减西欧",
+      "adjusted_status": "ok"
+    },
+    {
+      "contrast_id": "C_EUR_SOUTH_EAST",
+      "label": "南欧减东欧",
+      "adjusted_status": "ok"
+    },
+    {
+      "contrast_id": "C_EUR_SOUTH_WEST",
+      "label": "南欧减西欧",
+      "adjusted_status": "ok"
+    },
+    {
+      "contrast_id": "C_EUR_WEST_EAST",
+      "label": "西欧减东欧",
+      "adjusted_status": "ok"
+    }
+  ],
+  "confirmed_overrides": {
+    "team:iran": {
+      "study_region": "142",
+      "study_unit": "145"
+    },
+    "team:australia": {
+      "study_region": "142",
+      "study_unit": "035"
+    }
+  },
+  "override_period": "Fixed study labels for the existing 1980-2024 sample, not a historical confederation timeline",
+  "africa_groups": {
+    "north": [
+      "015"
+    ],
+    "west": [
+      "011"
+    ],
+    "other_ssa": [
+      "014",
+      "017",
+      "018"
+    ]
+  },
+  "opponent_scope": "Within-continent partition by partition; outside opponents aggregated by macroregion; no Oceania partitions",
+  "team_appearances": {
+    "team:iran": {
+      "home": 157,
+      "away": 153
+    },
+    "team:australia": {
+      "home": 169,
+      "away": 146
+    }
+  },
+  "current_macro_home_counts": {
+    "002": 5868,
+    "150": 8045,
+    "019": 4555,
+    "142": 5921,
+    "009": 502,
+    "": 26
+  },
+  "proposed_macro_home_counts": {
+    "002": 5868,
+    "150": 8045,
+    "019": 4555,
+    "142": 6090,
+    "009": 333,
+    "": 26
+  },
+  "proposed_partition_home_counts": [
+    {
+      "region": "150",
+      "unit": "151",
+      "matches": 1620
+    },
+    {
+      "region": "150",
+      "unit": "039",
+      "matches": 2218
+    },
+    {
+      "region": "150",
+      "unit": "155",
+      "matches": 1703
+    },
+    {
+      "region": "150",
+      "unit": "154",
+      "matches": 2504
+    },
+    {
+      "region": "142",
+      "unit": "030",
+      "matches": 996
+    },
+    {
+      "region": "142",
+      "unit": "035",
+      "matches": 1386
+    },
+    {
+      "region": "142",
+      "unit": "034",
+      "matches": 456
+    },
+    {
+      "region": "142",
+      "unit": "143",
+      "matches": 326
+    },
+    {
+      "region": "142",
+      "unit": "145",
+      "matches": 2926
+    },
+    {
+      "region": "002",
+      "unit": "015",
+      "matches": 1079
+    },
+    {
+      "region": "002",
+      "unit": "011",
+      "matches": 1697
+    },
+    {
+      "region": "002",
+      "unit": "other_ssa",
+      "matches": 3092
+    },
+    {
+      "region": "019",
+      "unit": "005",
+      "matches": 1690
+    },
+    {
+      "region": "019",
+      "unit": "013",
+      "matches": 982
+    },
+    {
+      "region": "019",
+      "unit": "021",
+      "matches": 590
+    },
+    {
+      "region": "019",
+      "unit": "029",
+      "matches": 1293
+    }
+  ],
+  "proposed_macro_pair_cells": 25,
+  "proposed_within_partition_cells": 66,
+  "proposed_outside_macro_cells": 64,
+  "within_partition_count_cells": [
+    {
+      "home_region": "150",
+      "home_unit": "151",
+      "away_unit": "151",
+      "matches": 271
+    },
+    {
+      "home_region": "150",
+      "home_unit": "151",
+      "away_unit": "039",
+      "matches": 369
+    },
+    {
+      "home_region": "150",
+      "home_unit": "151",
+      "away_unit": "155",
+      "matches": 234
+    },
+    {
+      "home_region": "150",
+      "home_unit": "151",
+      "away_unit": "154",
+      "matches": 403
+    },
+    {
+      "home_region": "150",
+      "home_unit": "039",
+      "away_unit": "151",
+      "matches": 402
+    },
+    {
+      "home_region": "150",
+      "home_unit": "039",
+      "away_unit": "039",
+      "matches": 497
+    },
+    {
+      "home_region": "150",
+      "home_unit": "039",
+      "away_unit": "155",
+      "matches": 299
+    },
+    {
+      "home_region": "150",
+      "home_unit": "039",
+      "away_unit": "154",
+      "matches": 563
+    },
+    {
+      "home_region": "150",
+      "home_unit": "155",
+      "away_unit": "151",
+      "matches": 290
+    },
+    {
+      "home_region": "150",
+      "home_unit": "155",
+      "away_unit": "039",
+      "matches": 363
+    },
+    {
+      "home_region": "150",
+      "home_unit": "155",
+      "away_unit": "155",
+      "matches": 261
+    },
+    {
+      "home_region": "150",
+      "home_unit": "155",
+      "away_unit": "154",
+      "matches": 388
+    },
+    {
+      "home_region": "150",
+      "home_unit": "154",
+      "away_unit": "151",
+      "matches": 412
+    },
+    {
+      "home_region": "150",
+      "home_unit": "154",
+      "away_unit": "039",
+      "matches": 521
+    },
+    {
+      "home_region": "150",
+      "home_unit": "154",
+      "away_unit": "155",
+      "matches": 359
+    },
+    {
+      "home_region": "150",
+      "home_unit": "154",
+      "away_unit": "154",
+      "matches": 735
+    },
+    {
+      "home_region": "142",
+      "home_unit": "030",
+      "away_unit": "030",
+      "matches": 195
+    },
+    {
+      "home_region": "142",
+      "home_unit": "030",
+      "away_unit": "035",
+      "matches": 187
+    },
+    {
+      "home_region": "142",
+      "home_unit": "030",
+      "away_unit": "034",
+      "matches": 41
+    },
+    {
+      "home_region": "142",
+      "home_unit": "030",
+      "away_unit": "143",
+      "matches": 52
+    },
+    {
+      "home_region": "142",
+      "home_unit": "030",
+      "away_unit": "145",
+      "matches": 197
+    },
+    {
+      "home_region": "142",
+      "home_unit": "035",
+      "away_unit": "030",
+      "matches": 210
+    },
+    {
+      "home_region": "142",
+      "home_unit": "035",
+      "away_unit": "035",
+      "matches": 538
+    },
+    {
+      "home_region": "142",
+      "home_unit": "035",
+      "away_unit": "034",
+      "matches": 125
+    },
+    {
+      "home_region": "142",
+      "home_unit": "035",
+      "away_unit": "143",
+      "matches": 47
+    },
+    {
+      "home_region": "142",
+      "home_unit": "035",
+      "away_unit": "145",
+      "matches": 252
+    },
+    {
+      "home_region": "142",
+      "home_unit": "034",
+      "away_unit": "030",
+      "matches": 45
+    },
+    {
+      "home_region": "142",
+      "home_unit": "034",
+      "away_unit": "035",
+      "matches": 64
+    },
+    {
+      "home_region": "142",
+      "home_unit": "034",
+      "away_unit": "034",
+      "matches": 184
+    },
+    {
+      "home_region": "142",
+      "home_unit": "034",
+      "away_unit": "143",
+      "matches": 37
+    },
+    {
+      "home_region": "142",
+      "home_unit": "034",
+      "away_unit": "145",
+      "matches": 82
+    },
+    {
+      "home_region": "142",
+      "home_unit": "143",
+      "away_unit": "030",
+      "matches": 44
+    },
+    {
+      "home_region": "142",
+      "home_unit": "143",
+      "away_unit": "035",
+      "matches": 27
+    },
+    {
+      "home_region": "142",
+      "home_unit": "143",
+      "away_unit": "034",
+      "matches": 32
+    },
+    {
+      "home_region": "142",
+      "home_unit": "143",
+      "away_unit": "143",
+      "matches": 43
+    },
+    {
+      "home_region": "142",
+      "home_unit": "143",
+      "away_unit": "145",
+      "matches": 112
+    },
+    {
+      "home_region": "142",
+      "home_unit": "145",
+      "away_unit": "030",
+      "matches": 193
+    },
+    {
+      "home_region": "142",
+      "home_unit": "145",
+      "away_unit": "035",
+      "matches": 208
+    },
+    {
+      "home_region": "142",
+      "home_unit": "145",
+      "away_unit": "034",
+      "matches": 123
+    },
+    {
+      "home_region": "142",
+      "home_unit": "145",
+      "away_unit": "143",
+      "matches": 159
+    },
+    {
+      "home_region": "142",
+      "home_unit": "145",
+      "away_unit": "145",
+      "matches": 995
+    },
+    {
+      "home_region": "002",
+      "home_unit": "015",
+      "away_unit": "015",
+      "matches": 156
+    },
+    {
+      "home_region": "002",
+      "home_unit": "015",
+      "away_unit": "011",
+      "matches": 351
+    },
+    {
+      "home_region": "002",
+      "home_unit": "015",
+      "away_unit": "other_ssa",
+      "matches": 408
+    },
+    {
+      "home_region": "002",
+      "home_unit": "011",
+      "away_unit": "015",
+      "matches": 225
+    },
+    {
+      "home_region": "002",
+      "home_unit": "011",
+      "away_unit": "011",
+      "matches": 849
+    },
+    {
+      "home_region": "002",
+      "home_unit": "011",
+      "away_unit": "other_ssa",
+      "matches": 612
+    },
+    {
+      "home_region": "002",
+      "home_unit": "other_ssa",
+      "away_unit": "015",
+      "matches": 313
+    },
+    {
+      "home_region": "002",
+      "home_unit": "other_ssa",
+      "away_unit": "011",
+      "matches": 615
+    },
+    {
+      "home_region": "002",
+      "home_unit": "other_ssa",
+      "away_unit": "other_ssa",
+      "matches": 2092
+    },
+    {
+      "home_region": "019",
+      "home_unit": "005",
+      "away_unit": "005",
+      "matches": 1207
+    },
+    {
+      "home_region": "019",
+      "home_unit": "005",
+      "away_unit": "013",
+      "matches": 135
+    },
+    {
+      "home_region": "019",
+      "home_unit": "005",
+      "away_unit": "021",
+      "matches": 16
+    },
+    {
+      "home_region": "019",
+      "home_unit": "005",
+      "away_unit": "029",
+      "matches": 129
+    },
+    {
+      "home_region": "019",
+      "home_unit": "013",
+      "away_unit": "005",
+      "matches": 125
+    },
+    {
+      "home_region": "019",
+      "home_unit": "013",
+      "away_unit": "013",
+      "matches": 417
+    },
+    {
+      "home_region": "019",
+      "home_unit": "013",
+      "away_unit": "021",
+      "matches": 109
+    },
+    {
+      "home_region": "019",
+      "home_unit": "013",
+      "away_unit": "029",
+      "matches": 264
+    },
+    {
+      "home_region": "019",
+      "home_unit": "021",
+      "away_unit": "005",
+      "matches": 96
+    },
+    {
+      "home_region": "019",
+      "home_unit": "021",
+      "away_unit": "013",
+      "matches": 197
+    },
+    {
+      "home_region": "019",
+      "home_unit": "021",
+      "away_unit": "021",
+      "matches": 34
+    },
+    {
+      "home_region": "019",
+      "home_unit": "021",
+      "away_unit": "029",
+      "matches": 133
+    },
+    {
+      "home_region": "019",
+      "home_unit": "029",
+      "away_unit": "005",
+      "matches": 115
+    },
+    {
+      "home_region": "019",
+      "home_unit": "029",
+      "away_unit": "013",
+      "matches": 211
+    },
+    {
+      "home_region": "019",
+      "home_unit": "029",
+      "away_unit": "021",
+      "matches": 101
+    },
+    {
+      "home_region": "019",
+      "home_unit": "029",
+      "away_unit": "029",
+      "matches": 822
+    }
+  ],
+  "outside_macro_count_cells": [
+    {
+      "home_region": "150",
+      "home_unit": "151",
+      "away_region": "002",
+      "matches": 24
+    },
+    {
+      "home_region": "150",
+      "home_unit": "151",
+      "away_region": "019",
+      "matches": 63
+    },
+    {
+      "home_region": "150",
+      "home_unit": "151",
+      "away_region": "142",
+      "matches": 243
+    },
+    {
+      "home_region": "150",
+      "home_unit": "151",
+      "away_region": "009",
+      "matches": 4
+    },
+    {
+      "home_region": "150",
+      "home_unit": "039",
+      "away_region": "002",
+      "matches": 52
+    },
+    {
+      "home_region": "150",
+      "home_unit": "039",
+      "away_region": "019",
+      "matches": 88
+    },
+    {
+      "home_region": "150",
+      "home_unit": "039",
+      "away_region": "142",
+      "matches": 307
+    },
+    {
+      "home_region": "150",
+      "home_unit": "039",
+      "away_region": "009",
+      "matches": 2
+    },
+    {
+      "home_region": "150",
+      "home_unit": "155",
+      "away_region": "002",
+      "matches": 70
+    },
+    {
+      "home_region": "150",
+      "home_unit": "155",
+      "away_region": "019",
+      "matches": 142
+    },
+    {
+      "home_region": "150",
+      "home_unit": "155",
+      "away_region": "142",
+      "matches": 175
+    },
+    {
+      "home_region": "150",
+      "home_unit": "155",
+      "away_region": "009",
+      "matches": 1
+    },
+    {
+      "home_region": "150",
+      "home_unit": "154",
+      "away_region": "002",
+      "matches": 39
+    },
+    {
+      "home_region": "150",
+      "home_unit": "154",
+      "away_region": "019",
+      "matches": 132
+    },
+    {
+      "home_region": "150",
+      "home_unit": "154",
+      "away_region": "142",
+      "matches": 275
+    },
+    {
+      "home_region": "150",
+      "home_unit": "154",
+      "away_region": "009",
+      "matches": 9
+    },
+    {
+      "home_region": "142",
+      "home_unit": "030",
+      "away_region": "002",
+      "matches": 66
+    },
+    {
+      "home_region": "142",
+      "home_unit": "030",
+      "away_region": "019",
+      "matches": 140
+    },
+    {
+      "home_region": "142",
+      "home_unit": "030",
+      "away_region": "150",
+      "matches": 96
+    },
+    {
+      "home_region": "142",
+      "home_unit": "030",
+      "away_region": "009",
+      "matches": 22
+    },
+    {
+      "home_region": "142",
+      "home_unit": "035",
+      "away_region": "002",
+      "matches": 30
+    },
+    {
+      "home_region": "142",
+      "home_unit": "035",
+      "away_region": "019",
+      "matches": 44
+    },
+    {
+      "home_region": "142",
+      "home_unit": "035",
+      "away_region": "150",
+      "matches": 64
+    },
+    {
+      "home_region": "142",
+      "home_unit": "035",
+      "away_region": "009",
+      "matches": 76
+    },
+    {
+      "home_region": "142",
+      "home_unit": "034",
+      "away_region": "002",
+      "matches": 24
+    },
+    {
+      "home_region": "142",
+      "home_unit": "034",
+      "away_region": "019",
+      "matches": 6
+    },
+    {
+      "home_region": "142",
+      "home_unit": "034",
+      "away_region": "150",
+      "matches": 5
+    },
+    {
+      "home_region": "142",
+      "home_unit": "034",
+      "away_region": "009",
+      "matches": 8
+    },
+    {
+      "home_region": "142",
+      "home_unit": "143",
+      "away_region": "002",
+      "matches": 4
+    },
+    {
+      "home_region": "142",
+      "home_unit": "143",
+      "away_region": "019",
+      "matches": 0
+    },
+    {
+      "home_region": "142",
+      "home_unit": "143",
+      "away_region": "150",
+      "matches": 62
+    },
+    {
+      "home_region": "142",
+      "home_unit": "143",
+      "away_region": "009",
+      "matches": 2
+    },
+    {
+      "home_region": "142",
+      "home_unit": "145",
+      "away_region": "002",
+      "matches": 238
+    },
+    {
+      "home_region": "142",
+      "home_unit": "145",
+      "away_region": "019",
+      "matches": 92
+    },
+    {
+      "home_region": "142",
+      "home_unit": "145",
+      "away_region": "150",
+      "matches": 890
+    },
+    {
+      "home_region": "142",
+      "home_unit": "145",
+      "away_region": "009",
+      "matches": 20
+    },
+    {
+      "home_region": "002",
+      "home_unit": "015",
+      "away_region": "019",
+      "matches": 30
+    },
+    {
+      "home_region": "002",
+      "home_unit": "015",
+      "away_region": "142",
+      "matches": 40
+    },
+    {
+      "home_region": "002",
+      "home_unit": "015",
+      "away_region": "150",
+      "matches": 93
+    },
+    {
+      "home_region": "002",
+      "home_unit": "015",
+      "away_region": "009",
+      "matches": 1
+    },
+    {
+      "home_region": "002",
+      "home_unit": "011",
+      "away_region": "019",
+      "matches": 5
+    },
+    {
+      "home_region": "002",
+      "home_unit": "011",
+      "away_region": "142",
+      "matches": 4
+    },
+    {
+      "home_region": "002",
+      "home_unit": "011",
+      "away_region": "150",
+      "matches": 2
+    },
+    {
+      "home_region": "002",
+      "home_unit": "011",
+      "away_region": "009",
+      "matches": 0
+    },
+    {
+      "home_region": "002",
+      "home_unit": "other_ssa",
+      "away_region": "019",
+      "matches": 29
+    },
+    {
+      "home_region": "002",
+      "home_unit": "other_ssa",
+      "away_region": "142",
+      "matches": 18
+    },
+    {
+      "home_region": "002",
+      "home_unit": "other_ssa",
+      "away_region": "150",
+      "matches": 22
+    },
+    {
+      "home_region": "002",
+      "home_unit": "other_ssa",
+      "away_region": "009",
+      "matches": 3
+    },
+    {
+      "home_region": "019",
+      "home_unit": "005",
+      "away_region": "002",
+      "matches": 19
+    },
+    {
+      "home_region": "019",
+      "home_unit": "005",
+      "away_region": "142",
+      "matches": 34
+    },
+    {
+      "home_region": "019",
+      "home_unit": "005",
+      "away_region": "150",
+      "matches": 141
+    },
+    {
+      "home_region": "019",
+      "home_unit": "005",
+      "away_region": "009",
+      "matches": 6
+    },
+    {
+      "home_region": "019",
+      "home_unit": "013",
+      "away_region": "002",
+      "matches": 8
+    },
+    {
+      "home_region": "019",
+      "home_unit": "013",
+      "away_region": "142",
+      "matches": 11
+    },
+    {
+      "home_region": "019",
+      "home_unit": "013",
+      "away_region": "150",
+      "matches": 41
+    },
+    {
+      "home_region": "019",
+      "home_unit": "013",
+      "away_region": "009",
+      "matches": 2
+    },
+    {
+      "home_region": "019",
+      "home_unit": "021",
+      "away_region": "002",
+      "matches": 9
+    },
+    {
+      "home_region": "019",
+      "home_unit": "021",
+      "away_region": "142",
+      "matches": 32
+    },
+    {
+      "home_region": "019",
+      "home_unit": "021",
+      "away_region": "150",
+      "matches": 82
+    },
+    {
+      "home_region": "019",
+      "home_unit": "021",
+      "away_region": "009",
+      "matches": 4
+    },
+    {
+      "home_region": "019",
+      "home_unit": "029",
+      "away_region": "002",
+      "matches": 6
+    },
+    {
+      "home_region": "019",
+      "home_unit": "029",
+      "away_region": "142",
+      "matches": 9
+    },
+    {
+      "home_region": "019",
+      "home_unit": "029",
+      "away_region": "150",
+      "matches": 25
+    },
+    {
+      "home_region": "019",
+      "home_unit": "029",
+      "away_region": "009",
+      "matches": 3
+    }
+  ],
+  "new_win_rates_computed": false,
+  "main_analysis_code_changed": false,
+  "inputs_sha256": {
+    "outputs/tables/regions/regions-6f5915b013976712736b/analysis_matches.csv": "12f3383646e9595d4449e53dd3b21bdb02bcd08e6826c89c7ccc9bbd0a7f0030"
+  },
+  "validation": {
+    "local_links": 517,
+    "unique_log_entries": 91,
+    "group_counts_reconcile": true,
+    "new_rates_not_computed": true,
+    "old_v3_fingerprints_verified": 70,
+    "html_sources_unchanged": 31
+  }
+}

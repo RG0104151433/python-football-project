@@ -1,0 +1,64 @@
+{
+  "decision_log_id": "R20261026-19",
+  "status": "passed",
+  "analysis_id": "regions-6f5915b013976712736b",
+  "reference_run": "outputs/logs/regions/regions-20261026T135956693371Z-182ec8a6/run_manifest.json",
+  "repeat_run": "outputs/logs/regions/regions-20261026T140809368290Z-a9d239df/run_manifest.json",
+  "parent_matches": 24917,
+  "tests_passed": 135,
+  "new_region_tests": 19,
+  "automatic_checks": 1146,
+  "independent_checks": 941455,
+  "core_artifacts_identical": 22,
+  "protected_previous_questions": {
+    "question_1": {
+      "run_manifest": "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json",
+      "registered_fingerprints_matched": 138,
+      "outputs_matched": 22
+    },
+    "question_2": {
+      "run_manifest": "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/run_manifest.json",
+      "registered_fingerprints_matched": 171,
+      "outputs_matched": 23
+    }
+  },
+  "figures_visually_checked": [
+    "overview.png",
+    "europe.png",
+    "asia.png",
+    "africa.png",
+    "americas.png"
+  ],
+  "visual_reviewer": "Codex AI; not a human review",
+  "inference": "not_run",
+  "sensitivity": "not_run",
+  "strength": "not_run",
+  "human_replication": "not_performed",
+  "registered_artifact_hashes": {
+    "outputs/logs/regions/closeout-20261026/tests.xml": "787f421c3f12773fb4aa554f353d96329349112d5a55a16f56b00bb6d87805bd",
+    "outputs/logs/regions/closeout-20261026/independent_audit_first.json": "ffa8e2bb4f7c0ce03fa7e80daddbac3dbd932aa437ef0b775eb6b2e3d0346207",
+    "outputs/logs/regions/closeout-20261026/independent_audit_repeat.json": "f4df167787d07e3e0327f9e4bf6cabcb337d49d5414830dea4f7f144d73f2bb1"
+  },
+  "documentation_checks": {
+    "documents": 12,
+    "local_links_checked": 564,
+    "unique_log_entries": 90,
+    "current_result_versions_aligned": true,
+    "html_source_files_unchanged": 31,
+    "formal_inference_run": false,
+    "documentation_sha256": {
+      "README.md": "4f5c83efef95c34ce996a29b719d5ad6b33527cadedb475676f60c2ffa389cf7",
+      "研究/README.md": "85a535750b1ec98b98c351cbffdc977a886ffa43866efda0e73a0f314dc47b46",
+      "研究/03_地域差异/README.md": "2f34dbbe255d0bf4eea14441ab635bd8b704450885152ca3ad75872f49e72c33",
+      "研究/03_地域差异/脚本设计.md": "120558367ab8ae13b377a5e823721ef93297277c10107291e8757179b06266a6",
+      "研究/03_地域差异/本地运行与复现.md": "51749c7d7f198e745e888758e12f12e65eb5f01c16c1dd257ba1be905c8ddb83",
+      "研究/03_地域差异/结果审读与展示提纲.md": "91d2d496af58cb72c385716c39e950ddc33f2279bbbfa85411b1635367658e43",
+      "文档/05_团队协作/论文与汇报支撑材料索引.md": "8026704b8fb55e2b3927b41251dfce75d96c46397571f56cb90264a9a32ab83a",
+      "文档/05_团队协作/分工与交付/04_两题共同可靠性与敏感性.md": "fa2237c65991ff7bfa15c1c6caba2db67349b7cf42572396b2f4b37884b368d3",
+      "文档/05_团队协作/分工与交付/00_先看这里.md": "5629a7e0ef24a7e98703676cd3d6a7ce4099ac92ab86e1db19dea7b5a3e70c7e",
+      "文档/05_团队协作/分工与交付/03_后续分析与展示.md": "d0ff6973a5f4b60235711a0e3e98288d4bb7a46200bb140fb39139fdca7969c5",
+      "参考资料/方法文献/README.md": "d5cd401372ad04e5152c7caacdf9003fd186c2d7e66bc0c2990098a90dbed497",
+      "data/external/geography_sources/m49-20261026/README.md": "43445111e989f81ecbd0ab8d1645847f8415da9fd1905b2d1ac0094552a661c1"
+    }
+  }
+}
