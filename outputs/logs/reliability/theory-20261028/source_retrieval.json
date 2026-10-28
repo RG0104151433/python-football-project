@@ -1,0 +1,18 @@
+[
+  {
+    "id": "Q4-P09",
+    "requested_url": "https://www2.math.uu.se/~svantejs/papers/sj150.pdf",
+    "attempted_at_utc": "2026-10-27T16:29:07.276670+00:00",
+    "status": "failed_no_local_original",
+    "local_path": null,
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+  },
+  {
+    "id": "Q4-P10",
+    "requested_url": "https://www.intlpress.com/site/pub/files/_fulltext/journals/sii/2016/0009/0001/SII-2016-0009-0001-a005.pdf",
+    "attempted_at_utc": "2026-10-27T16:29:07.277109+00:00",
+    "status": "failed_no_local_original",
+    "local_path": null,
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

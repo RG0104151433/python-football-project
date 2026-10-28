@@ -1,0 +1,82 @@
+{
+  "analysis_id": "design-fc3d5c8e0efdd07141d8",
+  "catalogue_rows": 292,
+  "config_path": "config/reliability_design.json",
+  "families": {
+    "AUX": 64,
+    "CONDITIONAL": 71,
+    "CORE": 27,
+    "ROLLING": 36
+  },
+  "family_ranks": {
+    "AUX": {
+      "coefficient_row_numerical_rank": 37,
+      "interpretation": "Normalized coefficient algebra only; not covariance rank or independent information",
+      "n_targets": 64,
+      "tolerance": 1e-10
+    },
+    "CONDITIONAL": {
+      "coefficient_row_numerical_rank": 71,
+      "interpretation": "Normalized coefficient algebra only; not covariance rank or independent information",
+      "n_targets": 71,
+      "tolerance": 1e-10
+    },
+    "CORE": {
+      "coefficient_row_numerical_rank": 17,
+      "interpretation": "Normalized coefficient algebra only; not covariance rank or independent information",
+      "n_targets": 27,
+      "tolerance": 1e-10
+    },
+    "ROLLING": {
+      "coefficient_row_numerical_rank": 36,
+      "interpretation": "Normalized coefficient algebra only; not covariance rank or independent information",
+      "n_targets": 36,
+      "tolerance": 1e-10
+    }
+  },
+  "global_schedule": {
+    "all_match_pairs": 310415986,
+    "connected_team_component_sizes": [
+      215
+    ],
+    "cross_role_shared_team_incidents": 3663998,
+    "max_distinct_opponents": 102,
+    "max_match_dependency_degree": 1026,
+    "max_team_match_appearances": 575,
+    "max_unordered_pair_repetitions": 50,
+    "min_distinct_opponents": 1,
+    "min_team_match_appearances": 1,
+    "n_matches": 24917,
+    "n_teams": 215,
+    "n_unordered_pairs": 5348,
+    "note": "Schedule facts and potential dependency opportunities, not measured residual correlation or proof of a dependence assumption",
+    "repeated_unordered_pair_match_pairs": 110560,
+    "repeated_unordered_pairs": 3987,
+    "same_away_pairs": 1817806,
+    "same_date_same_directed_pair_extra_records": 0,
+    "same_home_pairs": 2026488,
+    "same_year_nonshared_team_pairs": 7344906,
+    "sharing_any_team_pairs": 7397732,
+    "unordered_pair_density": 0.23247120191262768
+  },
+  "human_review": "not_performed",
+  "inference": "not_run",
+  "limitations": [
+    "Design overlap does not establish nonzero covariance or independence.",
+    "Supported point targets have not passed interval-method acceptance.",
+    "Sparse layers are reported, not removed by an arbitrary count threshold.",
+    "Coefficient algebraic rank is not covariance rank or effective sample size.",
+    "Fixed-schedule retrospective target; no future, causal or world-census guarantee.",
+    "No actual competition-edition, round, pre-match strength or external exogenous network is supplied."
+  ],
+  "maximum_source_reconstruction_tolerance_probability": 1e-11,
+  "n_parent_matches": 24917,
+  "overlap_rows": 19503,
+  "schema_version": "reliability-design-summary-v1",
+  "selected_estimator": null,
+  "sensitivity": "not_run",
+  "simulation": "not_run",
+  "status": "design_prepared_not_method_validated",
+  "supported_targets": 198,
+  "unsupported_targets": 94
+}

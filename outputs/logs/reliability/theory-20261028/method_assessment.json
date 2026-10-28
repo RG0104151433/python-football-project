@@ -1,0 +1,237 @@
+{
+  "schema_version": "reliability-theory-screen-v1",
+  "decision_log_id": "R20261028-01",
+  "status": "substeps_3_1_to_3_4_documented_formal_method_not_validated",
+  "document": "研究/04_共同可靠性/第三步_条件论证与候选方法验收方案.md",
+  "validation_protocol": "config/reliability_validation_v1.json",
+  "design_id": "design-e1ebd48827f8a5ff4be8",
+  "meaning_of_first_item": "Condition ledger in stage3, not rerunning research question1",
+  "requirements": [
+    {
+      "id": "D01",
+      "topic": "固定赛程目标与随机回归总体",
+      "existing_evidence": "研究/04_共同可靠性/第一步_推断对象与固定条件.md",
+      "MG": "原A*Y和固定D/q不变；条件集合独立下界直接对应T=A*p，无回归总体替换。",
+      "MP": "A*Y不变，模型仅校准其分布；oracle对应同目标，但估计参数替换无现成有限保证。",
+      "facts_vs_assumptions": "Original schedule facts checked in step2; mechanism/model claims remain conditional assumptions",
+      "whole_method_accepted": false
+    },
+    {
+      "id": "D02",
+      "topic": "共享成员及跨主客角色",
+      "existing_evidence": "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/summary.json",
+      "MG": "图边纳入任一角色共享队，着色禁止同队重现；容许图内任意正负相关。",
+      "MP": "两个球队过程分别以主减客及主加客载荷表达正负模式；额外对子项，是否足够仍为模型限制。",
+      "facts_vs_assumptions": "Original schedule facts checked in step2; mechanism/model claims remain conditional assumptions",
+      "whole_method_accepted": false
+    },
+    {
+      "id": "D03",
+      "topic": "共同时间及真实赛事届次",
+      "existing_evidence": "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/competition_context.csv",
+      "MG": "日期差<=L连边而非按年分割，同日必相连；有限L后的联合独立未获事实认证。",
+      "MP": "不等间隔OU递推，同日复用状态；长尾可跨年。没有真实届次，C16人工赛事群检验遗漏风险。",
+      "facts_vs_assumptions": "Original schedule facts checked in step2; mechanism/model claims remain conditional assumptions",
+      "whole_method_accepted": false
+    },
+    {
+      "id": "D04",
+      "topic": "不均衡、增长单位与小局部群",
+      "existing_evidence": "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/target_support.csv",
+      "MG": "有限样本证明不要求多球队；小群/大权重会放大界或只剩逻辑范围。",
+      "MP": "参数估计可能在少群/稀有球队失败；不得借全局样本量担保，完整外层拟合和失败率验收待做。",
+      "facts_vs_assumptions": "Original schedule facts checked in step2; mechanism/model claims remain conditional assumptions",
+      "whole_method_accepted": false
+    },
+    {
+      "id": "D05",
+      "topic": "异质主胜概率和干扰均值",
+      "existing_evidence": "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/coefficient_recipes.csv",
+      "MG": "允许任意p_i，无需层均值残差；有界变量指数矩直接适配。",
+      "MP": "规定回顾性logistic均值和Gaussian copula；遗漏球队×年代等用C12压力检验，不声明均值模型为事实。",
+      "facts_vs_assumptions": "Original schedule facts checked in step2; mechanism/model claims remain conditional assumptions",
+      "whole_method_accepted": false
+    },
+    {
+      "id": "D06",
+      "topic": "缺层、稀疏和单场大权重",
+      "existing_evidence": "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/target_support.csv",
+      "MG": "正参考缺层仍null，单场大系数合法但宽；不以n门槛删层。",
+      "MP": "不新增缺层比赛，概率边界/低样本可能破坏拟合和plugin校准；仅作为开发候选。",
+      "facts_vs_assumptions": "Original schedule facts checked in step2; mechanism/model claims remain conditional assumptions",
+      "whole_method_accepted": false
+    },
+    {
+      "id": "D07",
+      "topic": "家族和线性冗余",
+      "existing_evidence": "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/summary.json",
+      "MG": "并集界保证原家族条件同时覆盖，无逆矩阵；各L是不同假设，无198项无条件总保证。",
+      "MP": "同一Y_star在原全家族max校准，设计尺度不是SE；不会倒置奇异协方差；已知参数和拟合参数的保证分开。",
+      "facts_vs_assumptions": "Original schedule facts checked in step2; mechanism/model claims remain conditional assumptions",
+      "whole_method_accepted": false
+    },
+    {
+      "id": "D08",
+      "topic": "36重叠窗口与移动参考",
+      "existing_evidence": "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/target_overlap.csv",
+      "MG": "同一逐场向量系数与图，不将窗口独立化。",
+      "MP": "每轮生成一份全赛程结果共享36窗和其他目标，窗内q固定。",
+      "facts_vs_assumptions": "Original schedule facts checked in step2; mechanism/model claims remain conditional assumptions",
+      "whole_method_accepted": false
+    },
+    {
+      "id": "D09",
+      "topic": "档案质量、会员、历史身份与未知地理",
+      "existing_evidence": "研究/00_数据再次确认/README.md",
+      "MG": "事实/身份错误不在统计界内，原117和未知去向沿用。",
+      "MP": "同样不修复档案错误或随机缺失，未来预测不在范围。",
+      "facts_vs_assumptions": "Original schedule facts checked in step2; mechanism/model claims remain conditional assumptions",
+      "whole_method_accepted": false
+    },
+    {
+      "id": "D10",
+      "topic": "固定参考与替代人群",
+      "existing_evidence": "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/coefficient_recipes.csv",
+      "MG": "着色/系数只依设计，不抽国家或改变q。",
+      "MP": "固定原赛程造二元结果，不造新赛程；换q或条件人群留独立敏感性。",
+      "facts_vs_assumptions": "Original schedule facts checked in step2; mechanism/model claims remain conditional assumptions",
+      "whole_method_accepted": false
+    },
+    {
+      "id": "D11",
+      "topic": "网络可观测不等于外生",
+      "existing_evidence": "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/dyad_schedule.csv",
+      "MG": "声明的是给定D的联合独立关系图，不声称实际交手网络外生。",
+      "MP": "指定独立潜在因素工作模型，不借P03外生网络定理；实际排赛选择可能使模型不符。",
+      "facts_vs_assumptions": "Original schedule facts checked in step2; mechanism/model claims remain conditional assumptions",
+      "whole_method_accepted": false
+    },
+    {
+      "id": "D12",
+      "topic": "退化、数值和边界",
+      "existing_evidence": "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/target_catalogue.csv",
+      "MG": "全零系数恒0，逻辑裁剪，图验证失败就报错，无PSD估计/近似要求。",
+      "MP": "线性潜在构造保证PSD但不保证拟合识别；边界、概率剪裁、多起点、超时都留失败状态。",
+      "facts_vs_assumptions": "Original schedule facts checked in step2; mechanism/model claims remain conditional assumptions",
+      "whole_method_accepted": false
+    },
+    {
+      "id": "D13",
+      "topic": "真实作用与统计证据",
+      "existing_evidence": "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/target_catalogue.csv",
+      "MG": "全依赖下本界必为全逻辑范围，标无信息，不称高精度或无差异。",
+      "MP": "报告宽度/无信息率，无等效性界限不作无作用结论。",
+      "facts_vs_assumptions": "Original schedule facts checked in step2; mechanism/model claims remain conditional assumptions",
+      "whole_method_accepted": false
+    },
+    {
+      "id": "D14",
+      "topic": "已看结果和选择偏差",
+      "existing_evidence": "config/reliability_design.json",
+      "MG": "依赖范围集合事先固定，不按赛果挑更窄图，旧目录不变。",
+      "MP": "均值/关联族、惩罚/参数范围和筛选在模拟前固定，不按真实p值选模型。",
+      "facts_vs_assumptions": "Original schedule facts checked in step2; mechanism/model claims remain conditional assumptions",
+      "whole_method_accepted": false
+    },
+    {
+      "id": "D15",
+      "topic": "模拟真值与条件层级",
+      "existing_evidence": "研究/04_共同可靠性/第二步_目标清单与模型适配资料.md",
+      "MG": "已重推条件指数界并精确枚举具体情形；后续实现/模拟未运行。",
+      "MP": "Gaussian/t阈值真值按相应边际；完整外层重新拟合，内层中心A*p_hat而非A*Y；未知参数频率覆盖尚未验收。",
+      "facts_vs_assumptions": "Original schedule facts checked in step2; mechanism/model claims remain conditional assumptions",
+      "whole_method_accepted": false
+    }
+  ],
+  "screening": [
+    {
+      "id": "IID",
+      "family": "independent proportion intervals",
+      "decision": "not_admitted_for_real_results",
+      "reason": "shared teams/time, heterogeneous cells and simultaneous scope not handled",
+      "references": [
+        "M03"
+      ]
+    },
+    {
+      "id": "SANDWICH",
+      "family": "dyadic or multiway residual sandwich",
+      "decision": "diagnostic_comparator_only_not_admitted_as_main_inference",
+      "reason": "fixed-mean residual-centering bias and potentially indefinite mask; common-time and asymptotic regime unresolved; exact finite counterexample is not a disproof of original theory",
+      "references": [
+        "P01",
+        "P02",
+        "P04",
+        "Q4-P06"
+      ]
+    },
+    {
+      "id": "NONPARAMETRIC",
+      "family": "current row bootstrap or resampling countries",
+      "decision": "current_direct_versions_not_admitted",
+      "reason": "row version destroys dependence; country version changes conditional design/target; not a universal rejection of valid specialized dependence bootstrap",
+      "references": [
+        "P01",
+        "Q4-P05"
+      ]
+    },
+    {
+      "id": "PERMUTATION",
+      "family": "shuffle era/tournament/geographic labels",
+      "decision": "not_admitted",
+      "reason": "no randomization or exchangeability argument for these fixed labels",
+      "references": []
+    },
+    {
+      "id": "NETWORK_HAC",
+      "family": "observed exogenous-network spillover estimator",
+      "decision": "current_direct_transfer_not_admitted",
+      "reason": "required exogenous network and decay/growth transfer unavailable",
+      "references": [
+        "P03"
+      ]
+    },
+    {
+      "id": "M-P",
+      "family": "marginal binary Gaussian copula and parametric bootstrap",
+      "decision": "retained_development_candidate_only",
+      "reason": "coherent heterogeneous binary model and oracle root calibration; actual fitting/identification/plugin coverage and budget unvalidated",
+      "references": [
+        "Q4-P10",
+        "Q4-P08"
+      ]
+    },
+    {
+      "id": "M-G",
+      "family": "fixed-design dependency-graph concentration bound",
+      "decision": "conditional_mathematical_derivation_admitted_implementation_and_actual_graph_assumption_unvalidated",
+      "reason": "finite conditional bound handles heterogeneous means/signs/small groups, but requires declared setwise independence and may be uninformative",
+      "references": [
+        "Q4-P09"
+      ]
+    }
+  ],
+  "refinement_iterations": {
+    "MG": [
+      "shared-team-only graph misses time; add fixed calendar-range alternatives",
+      "ordinary K bound refined by design-weighted Holder constant",
+      "pointwise bound extended by union bound to unchanged families and logical clipping",
+      "no finite range certified true; all-dependent case retained and proved uninformative at nominal95%"
+    ],
+    "MP": [
+      "independent layer Bernoulli rejected; replace by marginal/association separation",
+      "arbitrary correlation table rejected; latent PSD construction and irregular-date OU recursion",
+      "homogeneous role effects extended to plus/minus team processes, pair and common time",
+      "observed point statistic kept A*Y; model mean used only to center reference root",
+      "oracle finite-rank proof separated from estimated-parameter plugin gap; explicit refitting/coverage/budget gates"
+    ]
+  },
+  "exact_checks": "outputs/logs/reliability/theory-20261028/exact_checks.json",
+  "random_simulation_run": false,
+  "real_model_fitted": false,
+  "production_inference_estimator": null,
+  "formal_inference": "not_run",
+  "next_stage": "3.5 implement and verify new method algorithms, then3.6 actual full validation under the written protocol; no real-data CI until approved",
+  "human_review": "not_performed",
+  "executor": "Codex (AI)"
+}

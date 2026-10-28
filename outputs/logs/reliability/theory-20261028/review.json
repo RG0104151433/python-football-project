@@ -1,0 +1,75 @@
+{
+  "schema_version": "reliability-theory-review-v1",
+  "decision_log_id": "R20261028-01",
+  "status": "passed_document_protocol_exact_math_only",
+  "condition_rows": 15,
+  "screened_method_families": 7,
+  "retained_development_routes": 2,
+  "method_stage_accepted": false,
+  "exact_finite_checks": 53,
+  "exact_check_script_sha256": "3eb141d37ab3222e6c03de33dce40c8061038b5742bb8afbd00e16a6f67c3075",
+  "protocol_scenarios": 18,
+  "all_scenario_margins_defined": true,
+  "latent_variances_normalized_by_design": true,
+  "old_analysis_bindings_checked_unchanged": 103,
+  "source_sha256": {
+    "研究/04_共同可靠性/第三步_条件论证与候选方法验收方案.md": "fa72e930b347f7d7d42c4149672b08a3763d79c79a0c94ac7ba1fda72d873a53",
+    "config/reliability_validation_v1.json": "26648b8c81c9311c71f9da0a0be9d9e3e3a8419b226e6e0b516e8a14d0b92e36",
+    "outputs/logs/reliability/theory-20261028/method_assessment.json": "840880354bc4d45c4173625933ace5afcd5d7a4f9bfab33a12373e5c2216fa00",
+    "outputs/logs/reliability/theory-20261028/check_derivations.py": "3eb141d37ab3222e6c03de33dce40c8061038b5742bb8afbd00e16a6f67c3075",
+    "outputs/logs/reliability/theory-20261028/exact_checks.json": "b38cba94b854e4095c64957c485f50d76d8f81fc443e9e484cab75746965eaf6",
+    "outputs/logs/reliability/theory-20261028/source_retrieval.json": "a1b5417208ebf8afa82f8b592bd524648a5cfe41ba9c179fb7dfd5c2fdf8b66f",
+    "参考资料/方法文献/sources.json": "d88394483d8c496491b7ec0261d17e7611cae8910017fac403cf96c005657404"
+  },
+  "local_link_checks": {
+    "documents": 7,
+    "links": 619,
+    "missing": [],
+    "permission_limited": [
+      {
+        "file": "README.md",
+        "dest": "data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv",
+        "error": "EPERM"
+      },
+      {
+        "file": "README.md",
+        "dest": "data/processed/prep-3fab808178cf8ad71d88/data_dictionary.md",
+        "error": "EPERM"
+      },
+      {
+        "file": "README.md",
+        "dest": "data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json",
+        "error": "EPERM"
+      },
+      {
+        "file": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+        "dest": "../../data/processed/prep-3fab808178cf8ad71d88/data_dictionary.md",
+        "error": "EPERM"
+      },
+      {
+        "file": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+        "dest": "../../data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json",
+        "error": "EPERM"
+      },
+      {
+        "file": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+        "dest": "../../data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv",
+        "error": "EPERM"
+      }
+    ]
+  },
+  "research_log": {
+    "ids": 101,
+    "duplicates": []
+  },
+  "current_state": "step_3_substeps_1_4_documented_implementation_simulation_pending",
+  "tracked_changed_diff_check": "passed_scoped_to_task",
+  "no_random_simulations": true,
+  "no_real_model_fits": true,
+  "no_new_real_data_intervals": true,
+  "production_estimator": null,
+  "source_limit": "Q4-P09 abstract only/local certificate failure; Q4-P10 sections2-3 online/local403; no new usable local PDFs",
+  "human_review": "not_performed",
+  "executor": "Codex (AI)",
+  "scope_warning": "The graph mathematical guarantee is conditional on declared setwise independence, not certified actual dependence. The fitted parametric bootstrap remains unvalidated."
+}

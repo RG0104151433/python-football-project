@@ -1,0 +1,272 @@
+{
+  "schema_version": "reliability-step2-readiness-v1",
+  "decision_log_id": "R20261027-08",
+  "status": "step_2_design_and_method_brief_complete_step_3_not_accepted",
+  "executor": "Codex (AI)",
+  "human_review": "not_performed",
+  "document": "研究/04_共同可靠性/第二步_目标清单与模型适配资料.md",
+  "config": "config/reliability_design.json",
+  "analysis_id": "design-e1ebd48827f8a5ff4be8",
+  "manifest": "outputs/logs/reliability/design-20261027T131754720415Z-c2a82843/run_manifest.json",
+  "repeat_manifest": "outputs/logs/reliability/design-20261027T132711991283Z-00082890/run_manifest.json",
+  "tables": "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8",
+  "independent_audit": "outputs/logs/reliability/step2-20261027/independent_audit_final.json",
+  "prior_failed_auditor_attempt": "outputs/logs/reliability/step2-20261027/audit_first_attempt.json",
+  "intermediate_only": {
+    "analysis_id": "design-fc3d5c8e0efdd07141d8",
+    "manifest": "outputs/logs/reliability/design-20261027T130716520120Z-b5ed0890/run_manifest.json",
+    "difference": "Before recovery of original tournament names; numerical design unchanged, not current step 3 input"
+  },
+  "target_protocol": {
+    "total_catalogue_rows": 292,
+    "supported_point_targets": 198,
+    "unavailable_target_rows": 94,
+    "families": {
+      "AUX": 64,
+      "CONDITIONAL": 71,
+      "CORE": 27,
+      "ROLLING": 36
+    },
+    "frozen_before_formal_inference": true,
+    "pre_registered_before_descriptive_results": false,
+    "requests": "0.95 simultaneous coverage separately within each family; cross-family global assurance not claimed; no confidence interval validated",
+    "selection_basis": "Original complete contrast catalogues and all supported conditional cells; not maximum effect or p-value",
+    "unavailable_breakdown": {
+      "q3_adjusted_contrasts": 5,
+      "q3_raw_minus_adjusted": 5,
+      "q3_adjusted_conditional_rates": 84
+    }
+  },
+  "code": {
+    "entry": "scripts/prepare_reliability.py",
+    "module": "src/reliability/design.py",
+    "auditor": "scripts/audit_reliability_design.py",
+    "tests": "tests/test_reliability_design.py",
+    "coefficient_storage": "3604 exact integer-fraction component recipes; per-match vectors rebuilt in memory; no giant coefficient long-table copy"
+  },
+  "requirements": [
+    {
+      "id": "D01",
+      "topic": "固定赛程目标与随机回归总体",
+      "current_status": "Definition fixed; theorem transfer unvalidated",
+      "evidence": "研究/04_共同可靠性/第一步_推断对象与固定条件.md",
+      "source_ids": [
+        "P01",
+        "Q4-P05"
+      ],
+      "third_step_action": "Must match conditional target, residual centering, latent variation and schedule selection; do not change estimand silently",
+      "theory_fit_accepted": false
+    },
+    {
+      "id": "D02",
+      "topic": "共享成员及跨主客角色",
+      "current_status": "Schedule opportunity measured; correlation not identified",
+      "evidence": "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/summary.json",
+      "source_ids": [
+        "P01",
+        "P02",
+        "P04",
+        "Q4-P06"
+      ],
+      "third_step_action": "Cover all role combinations and repeated pairs, not just home/home or away/away labels",
+      "theory_fit_accepted": false
+    },
+    {
+      "id": "D03",
+      "topic": "共同时间及真实赛事届次",
+      "current_status": "Calendar/type/name known; true edition/round and time decay unknown",
+      "evidence": "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/competition_context.csv",
+      "source_ids": [
+        "P03",
+        "P04",
+        "Q4-P06"
+      ],
+      "third_step_action": "Explain nonshared team shocks and cross-year dependence; do not invent edition or assume a year boundary makes independence; actual irregular dates and 5 same-day consecutive appearances require explicit tie handling; match-ID row order is not chronological",
+      "theory_fit_accepted": false
+    },
+    {
+      "id": "D04",
+      "topic": "不均衡、增长单位与小局部群",
+      "current_status": "Global 215 teams, exposures 1-575; some local target only 3 teams",
+      "evidence": "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/target_support.csv",
+      "source_ids": [
+        "P01",
+        "P02",
+        "P04"
+      ],
+      "third_step_action": "State team/dyad/time asymptotic regime; local acceptance cannot use global team count",
+      "theory_fit_accepted": false
+    },
+    {
+      "id": "D05",
+      "topic": "异质主胜概率和干扰均值",
+      "current_status": "Layer homogeneity not assumed; covariance unidentified under arbitrary heterogeneity",
+      "evidence": "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/coefficient_recipes.csv",
+      "source_ids": [
+        "P01",
+        "P02",
+        "P04"
+      ],
+      "third_step_action": "Show whether model-based residual variance matches conditional finite-design mean; include heterogeneous-mean failure mechanisms",
+      "theory_fit_accepted": false
+    },
+    {
+      "id": "D06",
+      "topic": "缺层、稀疏和单场大权重",
+      "current_status": "94 unavailable target rows; some supported conditional rates weight one match 0.175076",
+      "evidence": "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/target_support.csv",
+      "source_ids": [
+        "P02",
+        "P04"
+      ],
+      "third_step_action": "No zero-fill or scope shrink; supported point target can fail interval validation; no universal 30/100 threshold",
+      "theory_fit_accepted": false
+    },
+    {
+      "id": "D07",
+      "topic": "家族和线性冗余",
+      "current_status": "CORE 27 coefficient row rank17; AUX64 rank37; ROLLING36 rank36; CONDITIONAL71 rank71",
+      "evidence": "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/summary.json",
+      "source_ids": [
+        "Q4-P07"
+      ],
+      "third_step_action": "Handle redundant contrasts and distinguish pointwise/familywise/cross-family assurance; no blind covariance inverse",
+      "theory_fit_accepted": false
+    },
+    {
+      "id": "D08",
+      "topic": "36重叠窗口与移动参考",
+      "current_status": "Full curve selected, actual overlap recorded",
+      "evidence": "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/target_overlap.csv",
+      "source_ids": [
+        "P01",
+        "P02",
+        "Q4-P07"
+      ],
+      "third_step_action": "Maintain joint curves, window-specific q and shifting populations; do not count window memberships as independent observations",
+      "theory_fit_accepted": false
+    },
+    {
+      "id": "D09",
+      "topic": "档案质量、会员、历史身份与未知地理",
+      "current_status": "Owner-accepted scope fixed; missing geography remains target-specific",
+      "evidence": "研究/00_数据再次确认/README.md",
+      "source_ids": [],
+      "third_step_action": "No reopened 117 gate; statistical SE does not cover factual/coverage/classification errors; use separately versioned corrections and sensitivity",
+      "theory_fit_accepted": false
+    },
+    {
+      "id": "D10",
+      "topic": "固定参考与替代人群",
+      "current_status": "Original exact references fixed; denominator/labels treated fixed",
+      "evidence": "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/coefficient_recipes.csv",
+      "source_ids": [
+        "M01",
+        "Q4-P05"
+      ],
+      "third_step_action": "A resampling scheme that changes fixture counts/q may target a different distribution; justify weighting bootstrap if used",
+      "theory_fit_accepted": false
+    },
+    {
+      "id": "D11",
+      "topic": "网络可观测不等于外生",
+      "current_status": "One connected 215-team schedule graph; external exogenous network unavailable",
+      "evidence": "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/dyad_schedule.csv",
+      "source_ids": [
+        "P03"
+      ],
+      "third_step_action": "Connectivity is not covariance; raw fixture graph does not establish exogenous dependence propagation or decay",
+      "theory_fit_accepted": false
+    },
+    {
+      "id": "D12",
+      "topic": "退化、数值和边界",
+      "current_status": "Binary means, signed contrasts and dependent targets; covariance not estimated",
+      "evidence": "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/target_catalogue.csv",
+      "source_ids": [
+        "P02",
+        "P04",
+        "Q4-P06"
+      ],
+      "third_step_action": "Specify zero variance, degenerate probability, singular/non-PSD matrices and clipping; retain original failure status",
+      "theory_fit_accepted": false
+    },
+    {
+      "id": "D13",
+      "topic": "真实作用与统计证据",
+      "current_status": "Probability/pp units explicit; no equivalence margin chosen",
+      "evidence": "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/target_catalogue.csv",
+      "source_ids": [],
+      "third_step_action": "No-effect claim needs adequate precision and an explicit meaningful margin; interval crossing zero is not equivalence",
+      "theory_fit_accepted": false
+    },
+    {
+      "id": "D14",
+      "topic": "已看结果和选择偏差",
+      "current_status": "Full original catalogues retained; new inference families retrospective",
+      "evidence": "config/reliability_design.json",
+      "source_ids": [
+        "Q4-P07"
+      ],
+      "third_step_action": "No preregistration claim or p-value-based method/target picking; retain hard target failures within frozen family",
+      "theory_fit_accepted": false
+    },
+    {
+      "id": "D15",
+      "topic": "模拟真值与条件层级",
+      "current_status": "No simulations run; required design mechanisms listed",
+      "evidence": "研究/04_共同可靠性/第二步_目标清单与模型适配资料.md",
+      "source_ids": [
+        "P01",
+        "P02",
+        "P03",
+        "P04"
+      ],
+      "third_step_action": "Use valid binary mechanisms, fixed design/q and marginal model probabilities for truth; match target conditioning, specify MC error and stopping before run",
+      "theory_fit_accepted": false
+    }
+  ],
+  "theory_review": {
+    "primary_sources_only": true,
+    "source_registry": "参考资料/方法文献/sources.json",
+    "download_evidence": "outputs/logs/reliability/literature-20261027/download_attempts.json",
+    "new_original_pdfs": [
+      {
+        "id": "Q4-P05",
+        "path": "参考资料/方法文献/原文/Abadie_Athey_Imbens_Wooldridge_2022_author.pdf",
+        "sha256": "d147addb91fa07174f8231b84d07e338e26d6cbb03c36cfe345d834ee1e11c3d"
+      },
+      {
+        "id": "Q4-P06",
+        "path": "参考资料/方法文献/原文/Cameron_Gelbach_Miller_2009_multiway.pdf",
+        "sha256": "292600e0288f5e9855a901861e16757468a2efc33b435905ee76ab0148d807e2"
+      },
+      {
+        "id": "Q4-P07",
+        "path": "参考资料/方法文献/原文/Romano_Wolf_2005_stepwise.pdf",
+        "sha256": "70954e9cf3567018ab47e6f0d02c114e99f7e18a721569e331f97d9792651743"
+      }
+    ],
+    "limitations": "Relevant sections read and candidate assumptions extracted; not all proofs revalidated or theorem assumptions empirically proven",
+    "selected_estimator": null,
+    "conditional_result_law_specified": false
+  },
+  "validation": {
+    "unit_tests": 14,
+    "unit_test_command": "python -B -m pytest tests/test_reliability_design.py -q -p no:cacheprovider --junitxml=outputs/logs/reliability/step2-20261027/unit_tests.xml",
+    "unit_tests_passed": true,
+    "production_design_checks": 1889,
+    "independent_arithmetic_checks": 53137,
+    "repeat_identical_files": 12,
+    "parent_outputs_unchanged": 79,
+    "simulation": "not_run",
+    "covariance": "not_estimated",
+    "formal_inference": "not_run",
+    "new_sensitivity": "not_run",
+    "human_review": "not_performed",
+    "unit_test_report": "outputs/logs/reliability/step2-20261027/unit_tests.xml"
+  },
+  "next_gate": "Step 3 must choose and justify a conditional-law/mean/dependence regime, assess theorem fit, implement candidates and actually validate toy cases/simulation under a written acceptance protocol. A document alone is not passing.",
+  "additional_design_facts": "outputs/logs/reliability/step2-20261027/additional_design_facts.json",
+  "delivery_review": "outputs/logs/reliability/step2-20261027/delivery_review.json"
+}

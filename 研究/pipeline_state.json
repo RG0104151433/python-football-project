@@ -122,7 +122,7 @@
     "descriptive_inputs_ready": true,
     "question_1_run": "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json",
     "question_2_run": "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/run_manifest.json",
-    "methodology_status": "Step 1 conditional fixed-design estimand defined; concrete inference family/interface, compatible result law, theory fit and simulation acceptance pending",
+    "methodology_status": "Conditional theory screening and v1 simulation protocol documented; no complete inferential method or fitted-parameter validation accepted",
     "question_2_recent_stability": "Deferred to question 4; not tested, R20261025-17",
     "followup_register": "文档/05_团队协作/分工与交付/04_两题共同可靠性与敏感性.md",
     "followup_register_status": "prepared_not_executed",
@@ -141,7 +141,8 @@
     "support_audit": "outputs/logs/regions/closeout-20261027/support/support_audit.json",
     "three_question_handoff_review": "outputs/logs/regions/final-handoff-20261027/review.json",
     "verification_inventory": "outputs/logs/reliability/planning-20261027/verification_inventory.json",
-    "estimand_protocol": "outputs/logs/reliability/estimand-20261027/estimand_protocol.json"
+    "estimand_protocol": "outputs/logs/reliability/estimand-20261027/estimand_protocol.json",
+    "design_preparation": "outputs/logs/reliability/step2-20261027/model_readiness.json"
   },
   "descriptive_handoff": {
     "decision_log_id": "R20261025-18",
@@ -1803,7 +1804,7 @@
   },
   "question_4": {
     "title": "前三问统一分析",
-    "status": "step_1_estimand_defined_step_2_target_and_dependence_pending",
+    "status": "step_3_substeps_1_4_documented_implementation_simulation_pending",
     "decision_log_id": "R20261026-01",
     "task_document": "文档/05_团队协作/分工与交付/04_两题共同可靠性与敏感性.md",
     "scope": [
@@ -1817,7 +1818,7 @@
     "preanalysis_preparation": {
       "decision_log_id": "R20261026-05",
       "document": "文档/05_团队协作/分工与交付/04_两题共同可靠性与敏感性.md",
-      "status": "step_1_definition_complete_step_2_target_interface_pending",
+      "status": "step_2_target_coefficient_dependence_support_prepared_theory_fit_not_accepted",
       "requires": [
         "target catalog A home-background, B within-background relations, C within-macroregion detail with primary/auxiliary contrasts",
         "versioned geographic hierarchy, historical-entity exceptions and partial unknown handling",
@@ -1852,8 +1853,8 @@
       "regional_predefined_contrast_count": 29,
       "regional_directed_rate_cells": 155,
       "regional_estimable_rate_cells": 71,
-      "inferential_family_finalized": false,
-      "conditional_rate_coefficients": "Reconstruct from current membership, integer stratum counts and fixed reference if chosen for Q4; not all 155 declared as inferential targets",
+      "inferential_family_finalized": true,
+      "conditional_rate_coefficients": "71 supported rates reconstructed and checked; all155 catalogue states retained,84 unsupported",
       "support_report": "outputs/logs/regions/closeout-20261027/support/support_audit.json",
       "support_inventory": "outputs/logs/regions/closeout-20261027/support/support_inventory.csv",
       "question_3_conclusion_cards": "outputs/logs/regions/final-handoff-20261027/conclusion_cards.json",
@@ -1880,7 +1881,7 @@
         "Q3-03"
       ],
       "inference_target_and_randomness_finalized": true,
-      "uniform_coefficient_interface": "not_implemented_existing_reconstruction_information_available",
+      "uniform_coefficient_interface": "implemented_and_checked_exact_component_recipes_and_in_memory_match_vectors",
       "method_theory_fit_validated": false,
       "inference_target_definition_scope": "Fixed-design retrospective conditional mean/contrast; general random outcomes defined, specific joint law/variance identification not validated"
     },
@@ -1890,7 +1891,7 @@
     "verification_inventory_completed": true,
     "results_generated": false,
     "selected_inference_estimator": null,
-    "next_gate": "Step 2: freeze concrete inference targets/families; reconstruct coefficients and inspect dependence/support. Method and conditional-law validation remain step 3.",
+    "next_gate": "3.5 implement and hand-check new methods/profile cost; then3.6 actual protocol validation,3.7 adjudication,3.8 handoff. No real-data inference approval.",
     "estimand_protocol": "outputs/logs/reliability/estimand-20261027/estimand_protocol.json",
     "estimand_document": "研究/04_共同可靠性/第一步_推断对象与固定条件.md",
     "estimand_definition_log_id": "R20261027-07",
@@ -1906,19 +1907,75 @@
       {
         "step": 2,
         "task": "concrete targets/families, coefficients, dependence and support",
-        "status": "pending_unified_stage_existing_inputs_available"
+        "status": "completed_design_only_no_method_acceptance",
+        "evidence": "outputs/logs/reliability/step2-20261027/model_readiness.json"
       },
       {
         "step": 3,
         "task": "theory/method fit, implementation and actual validation",
-        "status": "not_run"
+        "status": "substeps3.1_to3.4_documented_only_3.5_to3.8_pending",
+        "evidence": {
+          "decision_log_id": "R20261028-01",
+          "status": "substeps_3_1_to_3_4_documented_formal_method_not_validated",
+          "document": "研究/04_共同可靠性/第三步_条件论证与候选方法验收方案.md",
+          "assessment": "outputs/logs/reliability/theory-20261028/method_assessment.json",
+          "protocol": "config/reliability_validation_v1.json",
+          "exact_checks": "outputs/logs/reliability/theory-20261028/exact_checks.json",
+          "retained_routes": [
+            "M-G",
+            "M-P"
+          ],
+          "production_estimator_approved": false,
+          "conditional_graph_bound": "mathematical_derivation_admitted_given_graph_independence_not_fact_certified",
+          "parametric_model": "coherent_candidate_oracle_only; estimated_parameter_coverage_unvalidated"
+        }
       },
       {
         "step": 4,
         "task": "approved real inference, planned sensitivity and conclusion revision",
         "status": "not_run"
       }
-    ]
+    ],
+    "design_outputs_generated": true,
+    "inferential_results_generated": false,
+    "design_analysis_id": "design-e1ebd48827f8a5ff4be8",
+    "design_run_manifest": "outputs/logs/reliability/design-20261027T131754720415Z-c2a82843/run_manifest.json",
+    "design_repeat_manifest": "outputs/logs/reliability/design-20261027T132711991283Z-00082890/run_manifest.json",
+    "model_readiness": "outputs/logs/reliability/step2-20261027/model_readiness.json",
+    "design_document": "研究/04_共同可靠性/第二步_目标清单与模型适配资料.md",
+    "design_decision_log_id": "R20261027-08",
+    "target_family_counts": {
+      "AUX": 64,
+      "CONDITIONAL": 71,
+      "CORE": 27,
+      "ROLLING": 36
+    },
+    "target_catalogue_rows": 292,
+    "unsupported_target_rows": 94,
+    "delivery_review": "outputs/logs/reliability/step2-20261027/delivery_review.json",
+    "method_workflow_proposal": {
+      "decision_log_id": "R20261027-09",
+      "status": "proposal_for_discussion_not_model_or_validation_approval",
+      "document": "研究/04_共同可靠性/README.md#9-第三步建议怎样推进八个子步骤与验收关卡",
+      "register": "outputs/logs/reliability/method-planning-20261027/workflow_proposal.json",
+      "substeps": 8,
+      "executed_substeps": 0
+    },
+    "theory_screen": {
+      "decision_log_id": "R20261028-01",
+      "status": "substeps_3_1_to_3_4_documented_formal_method_not_validated",
+      "document": "研究/04_共同可靠性/第三步_条件论证与候选方法验收方案.md",
+      "assessment": "outputs/logs/reliability/theory-20261028/method_assessment.json",
+      "protocol": "config/reliability_validation_v1.json",
+      "exact_checks": "outputs/logs/reliability/theory-20261028/exact_checks.json",
+      "retained_routes": [
+        "M-G",
+        "M-P"
+      ],
+      "production_estimator_approved": false,
+      "conditional_graph_bound": "mathematical_derivation_admitted_given_graph_independence_not_fact_certified",
+      "parametric_model": "coherent_candidate_oracle_only; estimated_parameter_coverage_unvalidated"
+    }
   },
   "question_5": {
     "additional_gate": "Historical entity and Elo warmup membership require separate approval",

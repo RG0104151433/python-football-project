@@ -1,0 +1,158 @@
+{
+  "schema_version": "reliability-method-workflow-proposal-v1",
+  "decision_log_id": "R20261027-09",
+  "status": "proposal_for_discussion_not_model_or_validation_approval",
+  "document": "研究/04_共同可靠性/README.md#9-第三步建议怎样推进八个子步骤与验收关卡",
+  "inherits_readiness": "outputs/logs/reliability/step2-20261027/model_readiness.json",
+  "design_analysis_id": "design-e1ebd48827f8a5ff4be8",
+  "steps": [
+    {
+      "id": "3.1",
+      "task": "条件清单和目标资格",
+      "requirements": [
+        "D09",
+        "D14"
+      ],
+      "planned_evidence": "Evidence-based assumption ledger, separate facts/theory/untestable assumptions; retain target scope and unavailable states",
+      "executed": false
+    },
+    {
+      "id": "3.2",
+      "task": "条件均值与联合依赖机制",
+      "requirements": [
+        "D01",
+        "D02",
+        "D03",
+        "D05",
+        "D10",
+        "D11"
+      ],
+      "planned_evidence": "Explicit stochastic/conditioning regime, heterogeneous mean and dependence restrictions; no silent estimand change",
+      "executed": false
+    },
+    {
+      "id": "3.3",
+      "task": "候选筛选及理论对应链",
+      "requirements": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "planned_evidence": "Parameter mapping, theorem/version/conditions and separate covariance-estimation/distributional arguments",
+      "executed": false
+    },
+    {
+      "id": "3.4",
+      "task": "锁定验收协议",
+      "requirements": [
+        "D07",
+        "D12",
+        "D13",
+        "D14",
+        "D15"
+      ],
+      "planned_evidence": "Specified scenarios/truth/methods/performance/MC precision/failure and stopping rules; development separated from locked validation",
+      "executed": false
+    },
+    {
+      "id": "3.5",
+      "task": "实现与手算核验",
+      "requirements": [
+        "D02",
+        "D06",
+        "D07",
+        "D12"
+      ],
+      "planned_evidence": "Independent tiny joint binary examples, role/overlap/degeneracy/numerical checks, no inherited inference acceptance from design tests",
+      "executed": false
+    },
+    {
+      "id": "3.6",
+      "task": "实际模拟与组合压力检验",
+      "requirements": [
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D12",
+        "D15"
+      ],
+      "planned_evidence": "Valid binary generators, true conditional/marginal probabilities, shared Y across targets, real-design and compatible growth-series evaluation",
+      "executed": false
+    },
+    {
+      "id": "3.7",
+      "task": "方法与适用范围裁定",
+      "requirements": [
+        "D01",
+        "D04",
+        "D06",
+        "D07",
+        "D09",
+        "D13",
+        "D14",
+        "D15"
+      ],
+      "planned_evidence": "Coverage/error-control first, then precision/stability/cost; retain failures and constrain full-family claims",
+      "executed": false
+    },
+    {
+      "id": "3.8",
+      "task": "方法论证归档与第四步交接",
+      "requirements": [
+        "D01",
+        "D09",
+        "D13",
+        "D14",
+        "D15"
+      ],
+      "planned_evidence": "Traceable goal-assumption-theory-implementation-simulation-scope explanation; real-data CIs and sensitivity remain step4",
+      "executed": false
+    }
+  ],
+  "requirements_accounted_for": [
+    "D01",
+    "D02",
+    "D03",
+    "D04",
+    "D05",
+    "D06",
+    "D07",
+    "D08",
+    "D09",
+    "D10",
+    "D11",
+    "D12",
+    "D13",
+    "D14",
+    "D15"
+  ],
+  "source_framework": "Q4-P08: ADEMP; simulation-design guidance only, not an accepted football estimator",
+  "acceptance_policy": {
+    "current_numeric_thresholds": null,
+    "selected_estimator": null,
+    "conditional_result_law": null,
+    "method_validated": false,
+    "simulations_run": false,
+    "formal_inference": "not_run",
+    "in_domain_and_stress_scenarios_separate": true,
+    "mc_uncertainty_must_be_reported": true,
+    "locked_validation_separate_from_development": true,
+    "failed_repetitions_not_silently_discarded": true,
+    "family_failures_not_silently_deleted": true,
+    "all_methods_failing_does_not_authorize_step4_inference": true
+  },
+  "limits": "A workflow and paper reading do not establish theorem fit, variance identification or confidence coverage. Eight future deliverables are planned, not existing artifacts.",
+  "executor": "Codex (AI)",
+  "human_review": "not_performed"
+}

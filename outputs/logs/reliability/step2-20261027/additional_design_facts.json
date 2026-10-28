@@ -1,0 +1,54 @@
+{
+  "analysis_id": "design-e1ebd48827f8a5ff4be8",
+  "source": "outputs/tables/regions/regions-0a1c61664a722e6c641f/analysis_matches.csv",
+  "source_sha256": "8b0ddb7f2e4d5eb2199c8c2b477e7873b1e46bc12421c4dddf5ac8809f91ca22",
+  "status": "supplementary_design_facts_not_inference",
+  "missing_geography": {
+    "unknown_home_region": 26,
+    "unknown_away_region": 73,
+    "A_unusable": 26,
+    "B_unusable": 99
+  },
+  "within_team_consecutive_appearance_gaps": {
+    "definition": "Sort accepted matches by date then ID within each team, both roles; not all team career fixtures, and not an estimated correlation lag",
+    "n_gaps": 49619,
+    "min_days": 0,
+    "median_days": 29,
+    "max_days": 6761,
+    "zero_day_gaps": 5
+  },
+  "row_order": "Parent fact table and coefficient vectors sorted by match_id for deterministic alignment, not chronological order. Any temporal method must use actual date/time and explicitly handle same-day ties.",
+  "missingness_warning": "Geographic exclusions are target-specific; no MAR/random-sampling claim. Same-day appearances and long gaps are not automatically treated as data errors or deleted.",
+  "same_day_ties": [
+    {
+      "team_id": "team:iraq",
+      "date": "2000-09-03",
+      "match_1": "results:f721980cb2cf7127d759ffb799b2bbf9dce6316fee2d49829d94b521b7df3fb1",
+      "match_2": "results:fdf394071a462f1bbd1e284fe7f218c803b4a3d9d453b899358f3a0ecf40f7f4"
+    },
+    {
+      "team_id": "team:thailand",
+      "date": "1983-06-06",
+      "match_1": "results:71ceb03097ae25a34cb69a4e11e2fed087120302ac9391823d8028ac52569d48",
+      "match_2": "results:bd02d86b7d2475475d5fce00f3ed9a1f2457f764a09d27225ee0bee8d168c438"
+    },
+    {
+      "team_id": "team:chile",
+      "date": "2010-05-30",
+      "match_1": "results:584474762e5ee63944f4b68c881a99814983e725b4cbd5995de090c35471127d",
+      "match_2": "results:8a86a7f669cbeb550611affb5789a5573e204e972442865d0318f57a4bc88604"
+    },
+    {
+      "team_id": "team:german-dr",
+      "date": "1984-09-12",
+      "match_1": "results:f77f61d87fe57f22f2a97c7089b78cb4e1f2c1c4e30b9dc00fe1a152e252436a",
+      "match_2": "results:fb472fad0bc9a8d8b322eec48a0b26591d237be9907d58ded65231a6ffa9828c"
+    },
+    {
+      "team_id": "team:fiji",
+      "date": "2024-09-02",
+      "match_1": "results:2b7d1c4e744a9dc38aa446261d47eb1dbff4ab5ed5dbd1623c400137e57c4a2a",
+      "match_2": "results:7e4583c0fc59198d751233c0f0410a94742e89da3bc59a9e8b96073f15a7229f"
+    }
+  ]
+}

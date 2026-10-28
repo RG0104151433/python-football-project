@@ -1,0 +1,32 @@
+[
+  {
+    "id": "Q4-P05",
+    "requested_url": "https://economics.mit.edu/sites/default/files/2022-09/When%20Should%20You%20Adjust%20Standard%20Errors%20for%20Clustering.pdf",
+    "attempted_at_utc": "2026-10-27T13:09:17.728011+00:00",
+    "final_url": "https://economics.mit.edu/sites/default/files/2022-09/When%20Should%20You%20Adjust%20Standard%20Errors%20for%20Clustering.pdf",
+    "status": "downloaded",
+    "local_path": "参考资料/方法文献/原文/Abadie_Athey_Imbens_Wooldridge_2022_author.pdf",
+    "sha256": "d147addb91fa07174f8231b84d07e338e26d6cbb03c36cfe345d834ee1e11c3d",
+    "bytes": 515572
+  },
+  {
+    "id": "Q4-P06",
+    "requested_url": "https://cameron.econ.ucdavis.edu/research/JBESpaper2009version.pdf",
+    "attempted_at_utc": "2026-10-27T13:09:17.728818+00:00",
+    "final_url": "https://cameron.econ.ucdavis.edu/research/JBESpaper2009version.pdf",
+    "status": "downloaded",
+    "local_path": "参考资料/方法文献/原文/Cameron_Gelbach_Miller_2009_multiway.pdf",
+    "sha256": "292600e0288f5e9855a901861e16757468a2efc33b435905ee76ab0148d807e2",
+    "bytes": 208940
+  },
+  {
+    "id": "Q4-P07",
+    "requested_url": "https://www.ssc.wisc.edu/~bhansen/718/RomanoWolf2005.pdf",
+    "attempted_at_utc": "2026-10-27T13:09:17.729219+00:00",
+    "final_url": "https://users.ssc.wisc.edu/~behansen/718/RomanoWolf2005.pdf",
+    "status": "downloaded",
+    "local_path": "参考资料/方法文献/原文/Romano_Wolf_2005_stepwise.pdf",
+    "sha256": "70954e9cf3567018ab47e6f0d02c114e99f7e18a721569e331f97d9792651743",
+    "bytes": 315991
+  }
+]

@@ -1,0 +1,92 @@
+{
+  "schema_version": "reliability-step2-delivery-v1",
+  "decision_log_id": "R20261027-08",
+  "status": "passed_with_documented_legacy_access_limits",
+  "analysis_id": "design-e1ebd48827f8a5ff4be8",
+  "manifest": "outputs/logs/reliability/design-20261027T131754720415Z-c2a82843/run_manifest.json",
+  "repeat_manifest": "outputs/logs/reliability/design-20261027T132711991283Z-00082890/run_manifest.json",
+  "repeat_core_files_identical": 12,
+  "tests": {
+    "count": 14,
+    "report": "outputs/logs/reliability/step2-20261027/unit_tests.xml",
+    "executed_interpreter": "C:/Users/EasonG/AppData/Local/Programs/Python/Python314/python.exe",
+    "dependency_path": ".venv/Lib/site-packages",
+    "version": "Python3.14.8 / NumPy2.5.4",
+    "launcher_limit": "Default executor could not launch venv/global interpreter; approved host interpreter with project dependencies was used. No user environment change."
+  },
+  "independent_audit_checks": 53137,
+  "source_code_output_binding_count": 103,
+  "binding_failures": [],
+  "reference_file_hash_count": 9,
+  "reference_hash_failures": [],
+  "evidence_sha256": {
+    "研究/04_共同可靠性/第二步_目标清单与模型适配资料.md": "b6c94a7cfcf86b4cfef8ec54dc3ae2317596af996cc71f3cedb9c0acdb7f421f",
+    "config/reliability_design.json": "8986b38d8e89145c5989f59b1ef9817dafabc180a572a981cb85a6ddf6ecaaf6",
+    "scripts/prepare_reliability.py": "59d766ba5256dd1a1d759f559ff3717a963b73f031dd5a35d88a1c77bef2491c",
+    "scripts/audit_reliability_design.py": "1c49a292295c2e98053bc0a320dc62f500328280f0273969366bea92001ca657",
+    "src/reliability/__init__.py": "7c2986051b044b0f7877a51ee4d1516a59a108a8aa84156b7ac8347f60e0d684",
+    "src/reliability/design.py": "521eea26746450713416e894922e4362b40088cd12082456d28be4e59272f701",
+    "tests/test_reliability_design.py": "7b82fd1b87ff87945b3397ea80aacd2749f050c4b83e6c27664348aba1553f09",
+    "outputs/logs/reliability/step2-20261027/model_readiness.json": "1dae5d17343ad91cd79ac3849023322ba0bbca658304b685c7f5fe01f94d4328",
+    "outputs/logs/reliability/step2-20261027/additional_design_facts.json": "6f27b1c7e87e1f795b38a502f3f072851ec5b2f6b80b302e9fd557ee328982c8",
+    "outputs/logs/reliability/step2-20261027/independent_audit_final.json": "f1e235f4eef82527c4b852a3bf89902c07e964c269f4edf29b1df98d5ea203ae",
+    "outputs/logs/reliability/step2-20261027/unit_tests.xml": "b7443c304828a6daaa2e0db05072715e5b4b647a3c949c4780b9262b6fef060f",
+    "参考资料/方法文献/sources.json": "ab012a080b126e9655a49006f9f802e75d0d84830817046599227f49a9db50cf"
+  },
+  "markdown_path_checks": {
+    "documents": 10,
+    "checked": 732,
+    "missing": [],
+    "access_limited": [
+      {
+        "doc": "README.md",
+        "target": "data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv",
+        "status": "EPERM"
+      },
+      {
+        "doc": "README.md",
+        "target": "data/processed/prep-3fab808178cf8ad71d88/data_dictionary.md",
+        "status": "EPERM"
+      },
+      {
+        "doc": "README.md",
+        "target": "data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json",
+        "status": "EPERM"
+      },
+      {
+        "doc": "研究/03_地域差异/README.md",
+        "target": "../../data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv",
+        "status": "EPERM"
+      },
+      {
+        "doc": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+        "target": "../../data/processed/prep-3fab808178cf8ad71d88/data_dictionary.md",
+        "status": "EPERM"
+      },
+      {
+        "doc": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+        "target": "../../data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json",
+        "status": "EPERM"
+      },
+      {
+        "doc": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+        "target": "../../data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv",
+        "status": "EPERM"
+      }
+    ]
+  },
+  "log_ids": {
+    "n": 99,
+    "duplicates": []
+  },
+  "pipeline_status": "step_2_design_prepared_step_3_method_validation_pending",
+  "not_run": [
+    "covariance/standard error/CI/p-value",
+    "known-truth simulation",
+    "new sensitivity analysis",
+    "human review",
+    "git commit or push"
+  ],
+  "limitations": "Design/source/numerical checks do not establish theory assumptions, residual independence, variance identifiability or confidence coverage. Existing protected processed originals not read/reverified; current pinned outputs and raw results were used.",
+  "scoped_tracked_diff_check": "passed"
+}

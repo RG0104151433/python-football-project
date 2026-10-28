@@ -1,0 +1,60 @@
+{
+  "schema_version": "reliability-design-v1",
+  "decision_log_id": "R20261027-08",
+  "purpose": "Step 2 only: target reconstruction and design diagnostics, no inferential estimator",
+  "estimand_protocol": "outputs/logs/reliability/estimand-20261027/estimand_protocol.json",
+  "parent_manifests": {
+    "Q1": "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json",
+    "Q2": "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/run_manifest.json",
+    "Q3": "outputs/logs/regions/closeout-20261027/regions-20261027T084412226301Z-f05899a3/run_manifest.json"
+  },
+  "q1_config": "config/eras_reviewed.json",
+  "q2_config": "config/tournaments.json",
+  "q3_config": "config/regions_study.json",
+  "raw_results": "data/raw/international_results/results.csv",
+  "raw_results_sha256": "5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767",
+  "families": {
+    "CORE": {
+      "selection": "Q1 original two primary standardized contrasts; Q2 overall standardized difference; all originally defined supported Q3 standardized contrasts",
+      "role": "main retrospective reliability family, not preregistered before descriptive results",
+      "requested_joint_coverage": 0.95,
+      "expected_supported": 27
+    },
+    "AUX": {
+      "selection": "Corresponding raw differences, raw-minus-standardized changes, and all five Q2 era raw differences",
+      "role": "auxiliary retrospective explanation, recent period included without selecting its sign",
+      "requested_joint_coverage": 0.95,
+      "expected_supported": 64
+    },
+    "ROLLING": {
+      "selection": "All 36 Q2 year-standardized ten-year-window differences, in chronological order",
+      "role": "joint curve, not 36 independent replications or a change-point test",
+      "requested_joint_coverage": 0.95,
+      "expected_supported": 36
+    },
+    "CONDITIONAL": {
+      "selection": "All supported adjusted Q3 directed home-opponent rate cells, not all pairwise differences between cells",
+      "role": "exploratory conditional-rate atlas; sparse support may fail later method acceptance",
+      "requested_joint_coverage": 0.95,
+      "expected_supported": 71
+    }
+  },
+  "family_policy": {
+    "cross_family_joint_coverage": "not_claimed; four 95% familywise statements are not one 95% global statement",
+    "unsupported_targets": "keep in full catalogue with reason; do not fill, shorten scope or silently renormalize",
+    "later_method_failures": "retain family and failure records; no silent deletion of hard targets to claim full-family coverage",
+    "pointwise_intervals": "if produced later, label separately from requested simultaneous guarantees",
+    "selected_estimator": null,
+    "critical_value": null,
+    "equivalence_margin": null
+  },
+  "expected_catalogue_rows": 292,
+  "sensitivity_handoff": {
+    "status": "scope requirements registered; do not execute or treat as interval validation in step 2",
+    "year_omission": "Q1 two main contrasts, Q2 full-period adjusted and five-year recent raw contrast; formal exact omission/reference protocol before execution",
+    "common_teams": "Q1 main and Q2 overall: define both-role membership and attrition before execution; population changes",
+    "reference": "retain Q1 pooled/equal-year and weight curve; Q2 alternative era/year reference and Q3 fixed/recomputed reference need explicit separate target definitions",
+    "geography": "Q3 three stated exceptions, historical carriers and unknowns: only evidence-grounded bounded alternatives; no imputation to fill unsupported cells",
+    "window": "36 fixed ten-year windows; another width is a new supplementary scale, not forecast lookback optimization"
+  }
+}

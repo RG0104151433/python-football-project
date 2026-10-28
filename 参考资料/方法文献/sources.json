@@ -275,6 +275,99 @@
       "status": "web_read_only",
       "decision_log_id": "R20261027-04",
       "implemented_in_project": false
+    },
+    {
+      "id": "Q4-P05",
+      "title": "When Should You Adjust Standard Errors for Clustering?",
+      "authors": "Alberto Abadie; Susan Athey; Guido W. Imbens; Jeffrey M. Wooldridge",
+      "version": "Author manuscript dated September 20, 2022; journal publication QJE 138(1), 2023, 1-35",
+      "scope": "Abstract, introduction and finite-population sampling/assignment discussion; not all proofs revalidated",
+      "requested_url": "https://economics.mit.edu/sites/default/files/2022-09/When%20Should%20You%20Adjust%20Standard%20Errors%20for%20Clustering.pdf",
+      "final_url": "https://economics.mit.edu/sites/default/files/2022-09/When%20Should%20You%20Adjust%20Standard%20Errors%20for%20Clustering.pdf",
+      "local_path": "原文/Abadie_Athey_Imbens_Wooldridge_2022_author.pdf",
+      "retrieved_at_utc": "2026-10-27T13:09:17.728011+00:00",
+      "status": "downloaded",
+      "bytes": 515572,
+      "sha256": "d147addb91fa07174f8231b84d07e338e26d6cbb03c36cfe345d834ee1e11c3d",
+      "redistribution_status": "not_independently_evaluated",
+      "git_policy": "Original copy saved under prior user authorization; no commit or push by this task",
+      "project_fit": "candidate_background_not_selected_estimator"
+    },
+    {
+      "id": "Q4-P06",
+      "title": "Robust Inference with Multi-way Clustering",
+      "authors": "A. Colin Cameron; Jonah B. Gelbach; Douglas L. Miller",
+      "version": "Author manuscript dated May 15, 2009; not the 2011 journal typeset version",
+      "scope": "Introduction, cluster/non-nested multiway framework and discussion of negative eigenvalues; not all proofs revalidated",
+      "requested_url": "https://cameron.econ.ucdavis.edu/research/JBESpaper2009version.pdf",
+      "final_url": "https://cameron.econ.ucdavis.edu/research/JBESpaper2009version.pdf",
+      "local_path": "原文/Cameron_Gelbach_Miller_2009_multiway.pdf",
+      "retrieved_at_utc": "2026-10-27T13:09:17.728818+00:00",
+      "status": "downloaded",
+      "bytes": 208940,
+      "sha256": "292600e0288f5e9855a901861e16757468a2efc33b435905ee76ab0148d807e2",
+      "redistribution_status": "not_independently_evaluated",
+      "git_policy": "Original copy saved under prior user authorization; no commit or push by this task",
+      "project_fit": "candidate_background_not_selected_estimator"
+    },
+    {
+      "id": "Q4-P07",
+      "title": "Stepwise Multiple Testing as Formalized Data Snooping",
+      "authors": "Joseph P. Romano; Michael Wolf",
+      "version": "Econometrica 73(4), July 2005, 1237-1282; distinct from their 2005 JASA article",
+      "scope": "Abstract, introduction and section 2 FWE/multiple-testing setup; not all resampling conditions or proofs revalidated",
+      "requested_url": "https://www.ssc.wisc.edu/~bhansen/718/RomanoWolf2005.pdf",
+      "final_url": "https://users.ssc.wisc.edu/~behansen/718/RomanoWolf2005.pdf",
+      "local_path": "原文/Romano_Wolf_2005_stepwise.pdf",
+      "retrieved_at_utc": "2026-10-27T13:09:17.729219+00:00",
+      "status": "downloaded",
+      "bytes": 315991,
+      "sha256": "70954e9cf3567018ab47e6f0d02c114e99f7e18a721569e331f97d9792651743",
+      "redistribution_status": "not_independently_evaluated",
+      "git_policy": "Original copy saved under prior user authorization; no commit or push by this task",
+      "project_fit": "candidate_background_not_selected_estimator"
+    },
+    {
+      "id": "Q4-P08",
+      "title": "Using simulation studies to evaluate statistical methods",
+      "authors": "Tim P. Morris; Ian R. White; Michael J. Crowther",
+      "version": "Statistics in Medicine 38(11), 2019, 2074-2102; DOI10.1002/sim.8086; UCL-hosted publisher PDF with early 1-29 pagination",
+      "requested_url": "https://discovery.ucl.ac.uk/id/eprint/10066118/1/2019%20-%20Morris%20-%20simulation%20studies%20tutorial%20-%20stat%20med.pdf",
+      "doi": "https://doi.org/10.1002/sim.8086",
+      "web_read_status": "UCL-hosted full PDF readable through web reader; PMC direct page returned a browser check",
+      "local_path": null,
+      "status": "failed_no_local_original",
+      "error": "HTTP Error 403: Forbidden",
+      "download_attempt": "outputs/logs/reliability/method-planning-20261027/source_retrieval.json",
+      "purpose": "Simulation design and Monte Carlo uncertainty; not a football dependence model or an accepted estimator",
+      "review_status": "Relevant planning guidance read; not all examples/proofs revalidated"
+    },
+    {
+      "id": "Q4-P09",
+      "title": "Large deviations for sums of partly dependent random variables",
+      "authors": "Svante Janson",
+      "version": "Random Structures & Algorithms24(3),2004,234-248; author preprint full version not obtained in this task",
+      "requested_url": "https://www2.math.uu.se/~svantejs/papers/sj150.pdf",
+      "doi": "https://doi.org/10.1002/rsa.20008",
+      "web_read_scope": "Publisher abstract and metadata only; author PDF fetch timed out, alternate institute link404. No unread theorem number imported.",
+      "project_use": "Background for independent-color-sum concentration. Project supplies its own bounded-MGF/Holder/union-bound derivation, not a claim of new mathematics.",
+      "attempted_at_utc": "2026-10-27T16:29:07.276670+00:00",
+      "status": "failed_no_local_original",
+      "local_path": null,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+    },
+    {
+      "id": "Q4-P10",
+      "title": "Modeling multiple responses via bootstrapping margins with an application to genetic association testing",
+      "authors": "Jiwei Zhao; Heping Zhang",
+      "version": "Statistics and Its Interface9(2016),47-56; publisher PDF",
+      "web_read_scope": "Sections2 and3, especially Gaussian binary copula margins and the sample/bootstrapping-margins procedure. Full project theorem transfer not established.",
+      "project_use": "Marginal/association separation only. Does not license applying its margins-only bootstrap claim to this temporal match network.",
+      "requested_url": "https://www.intlpress.com/site/pub/files/_fulltext/journals/sii/2016/0009/0001/SII-2016-0009-0001-a005.pdf",
+      "attempted_at_utc": "2026-10-27T16:29:07.277109+00:00",
+      "status": "failed_no_local_original",
+      "local_path": null,
+      "error": "HTTP Error 403: Forbidden"
     }
   ],
   "reading_events": [
@@ -518,6 +611,149 @@
         "old_paths": "Exact aliases in relocations.json; original bytes unchanged"
       },
       "limits": "Study roster lists observed representative teams and historical rules, not all countries; Chinese labels are display names. No new outcome estimation or inference."
+    },
+    {
+      "date": "2026-10-27",
+      "decision_log_id": "R20261027-08",
+      "reader": "Codex (AI)",
+      "topic": "Q4 step 2: project/target/dependence assumptions and source-version screening before choosing a model",
+      "sources": [
+        {
+          "record_id": "P01",
+          "url": "https://arxiv.org/html/1312.3398v8",
+          "scope": "Sections 2-3 random-unit, nonshared dyad and repeated-observation framework; conditional fixed-design transfer not established"
+        },
+        {
+          "record_id": "P02",
+          "url": "https://arxiv.org/html/1510.07074v6",
+          "scope": "Sections 2-3, assumption 2.1 setwise independence/identical distribution, finite-period extension and sparse/dense/variance-growth conditions; no full proof replication"
+        },
+        {
+          "record_id": "P03",
+          "url": "https://arxiv.org/pdf/2203.03497v5",
+          "scope": "Fixed v5 PDF, sections 2, 3.4-3.6 and practitioner discussion: observable/exogenous network, decay/bandwidth; not all proofs",
+          "version_warning": "HTML at same version displayed August 24, 2026 on cover while fixed v5 PDF cover says June 29, 2023. Use fixed PDF for version-specific claims; did not replace saved original or assert HTML byte identity"
+        },
+        {
+          "record_id": "Q4-P05",
+          "url": "https://economics.mit.edu/sites/default/files/2022-09/When%20Should%20You%20Adjust%20Standard%20Errors%20for%20Clustering.pdf",
+          "scope": "Abstract, introduction and finite-population sampling/assignment discussion; not all proofs revalidated"
+        },
+        {
+          "record_id": "Q4-P06",
+          "url": "https://cameron.econ.ucdavis.edu/research/JBESpaper2009version.pdf",
+          "scope": "Introduction, cluster/non-nested multiway framework and discussion of negative eigenvalues; not all proofs revalidated"
+        },
+        {
+          "record_id": "Q4-P07",
+          "url": "https://www.ssc.wisc.edu/~bhansen/718/RomanoWolf2005.pdf",
+          "scope": "Abstract, introduction and section 2 FWE/multiple-testing setup; not all resampling conditions or proofs revalidated"
+        },
+        {
+          "record_id": "P04",
+          "url": "https://cameron.econ.ucdavis.edu/research/Cameron_Miller_JHR_2015.pdf",
+          "scope": "Introduction and cluster-growth/few-cluster discussion; not a revalidation of every asymptotic theorem"
+        }
+      ],
+      "local_download_this_event": [
+        {
+          "record_id": "Q4-P05",
+          "status": "downloaded",
+          "local_path": "参考资料/方法文献/原文/Abadie_Athey_Imbens_Wooldridge_2022_author.pdf",
+          "sha256": "d147addb91fa07174f8231b84d07e338e26d6cbb03c36cfe345d834ee1e11c3d"
+        },
+        {
+          "record_id": "Q4-P06",
+          "status": "downloaded",
+          "local_path": "参考资料/方法文献/原文/Cameron_Gelbach_Miller_2009_multiway.pdf",
+          "sha256": "292600e0288f5e9855a901861e16757468a2efc33b435905ee76ab0148d807e2"
+        },
+        {
+          "record_id": "Q4-P07",
+          "status": "downloaded",
+          "local_path": "参考资料/方法文献/原文/Romano_Wolf_2005_stepwise.pdf",
+          "sha256": "70954e9cf3567018ab47e6f0d02c114e99f7e18a721569e331f97d9792651743"
+        }
+      ],
+      "limits": "Source screening and requirements only; no estimator selected, mathematical theorem transfer, covariance, resampling validity or simulation acceptance claimed"
+    },
+    {
+      "date": "2026-10-27",
+      "decision_log_id": "R20261027-09",
+      "reader": "Codex (AI)",
+      "topic": "Proposed eight-substep Q4 stage-3 method justification and validation workflow",
+      "sources": [
+        {
+          "record_id": "P01",
+          "url": "https://arxiv.org/pdf/1312.3398v8",
+          "scope": "Current fixed-version overview rechecked; substantive target/dependence differences carry forward from R08, no all-proof revalidation"
+        },
+        {
+          "record_id": "P02",
+          "url": "https://arxiv.org/html/1510.07074v6",
+          "scope": "Structure and scope of covariance consistency versus t-statistic approximation rechecked; full project-specific transfer still pending"
+        },
+        {
+          "record_id": "P03",
+          "url": "https://arxiv.org/pdf/2203.03497v5",
+          "scope": "Fixed v5 version and network-dependence scope rechecked; no exogenous network claimed for this project"
+        },
+        {
+          "record_id": "Q4-P08",
+          "url": "https://discovery.ucl.ac.uk/id/eprint/10066118/1/2019%20-%20Morris%20-%20simulation%20studies%20tutorial%20-%20stat%20med.pdf",
+          "scope": "Abstract, introduction and planning Table1: aims/data-generating mechanism/estimand/method/performance, Monte Carlo precision and reporting; not the entire tutorial revalidated; additionally read retrieved failure/nonconvergence and random-state guidance excerpts, no full theorem reproduction"
+        }
+      ],
+      "local_download_this_event": {
+        "record_id": "Q4-P08",
+        "status": "failed_no_local_original",
+        "local_original_exists": false,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "limits": "Workflow proposal only, no selected estimator, numerical acceptance thresholds, simulated results or method approval"
+    },
+    {
+      "date": "2026-10-28",
+      "decision_log_id": "R20261028-01",
+      "reader": "Codex (AI)",
+      "topic": "Substeps3.1-3.4: fixed-design variance, seven method families, two distinct development routes and validation protocol",
+      "sources": [
+        {
+          "record_id": "P02",
+          "url": "https://arxiv.org/html/1510.07074v6",
+          "scope": "Section2.1 assumptions2.1 and finite-time extension; existing argument that variance consistency does not itself establish the pivot distribution"
+        },
+        {
+          "record_id": "P03",
+          "url": "https://arxiv.org/pdf/2203.03497v5",
+          "scope": "Section2 assumption2.1 exogenous observable network; not established for fixture network"
+        },
+        {
+          "record_id": "Q4-P09",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1002/rsa.20008",
+          "scope": "Publisher abstract and metadata only; author PDF fetch timed out, alternate institute link404. No unread theorem number imported."
+        },
+        {
+          "record_id": "Q4-P10",
+          "url": "https://www.intlpress.com/site/pub/files/_fulltext/journals/sii/2016/0009/0001/SII-2016-0009-0001-a005.pdf",
+          "scope": "Sections2 and3, especially Gaussian binary copula margins and the sample/bootstrapping-margins procedure. Full project theorem transfer not established."
+        }
+      ],
+      "local_download_this_event": [
+        {
+          "id": "Q4-P09",
+          "status": "failed_no_local_original",
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+          "local_path": null
+        },
+        {
+          "id": "Q4-P10",
+          "status": "failed_no_local_original",
+          "error": "HTTP Error 403: Forbidden",
+          "local_path": null
+        }
+      ],
+      "limits": "Own derivations and exact small probability checks are not a completed simulation or a real-data inference guarantee. M-P fitted-parameter theory/coverage remains open; no selected production estimator."
     }
   ],
   "maintenance_events": [

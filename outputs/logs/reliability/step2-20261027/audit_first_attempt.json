@@ -1,0 +1,9 @@
+{
+  "status": "failed_auditor_implementation_corrected",
+  "audited_analysis": "design-e1ebd48827f8a5ff4be8",
+  "error": "component_members_and_counts:Q2:difference:era:1980s:raw",
+  "cause": "Independent auditor initially applied explicit era/year/type fields but omitted scope=era/period_id filter for raw era recipes",
+  "effect": "No change to production targets, recipes, results or coefficients; no audit success reported from failed attempt",
+  "correction": "Added scope=era filtering and three hand-specified selector regression cases; rerun required",
+  "formal_inference": "not_run"
+}

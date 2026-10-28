@@ -1,5 +1,17 @@
 # 方法文献：原文、用途与阅读记录
 
+**R20261028-01候选方法初筛：** [第三步前四项论证](../../研究/04_共同可靠性/第三步_条件论证与候选方法验收方案.md)给出自包含的条件界推导与显式关联二元模型候选。Q4-P09 [Janson2004](https://doi.org/10.1002/rsa.20008)本轮只取得出版者摘要/元数据，全文抓取未成功，未冒称已验收其具体定理；Q4-P10 [Zhao/Zhang2016](https://www.intlpress.com/site/pub/files/_fulltext/journals/sii/2016/0009/0001/SII-2016-0009-0001-a005.pdf)在线读第2—3节，只借边际/关联分离，不移植其样本重抽样保证。[两份本地下载均失败](../../outputs/logs/reliability/theory-20261028/source_retrieval.json)（证书链、403），没有新增可用PDF；旧原件不变。完整范围见sources.json，不把数学准入/模型可构造说成真实区间已验证。
+
+**R20261027-09模拟验收流程讨论：** Q4-P08，[Morris、White、Crowther 2019](https://doi.org/10.1002/sim.8086)提供模拟研究规划、蒙特卡洛精度和失败报告的指导，已用于[第三步建议流程](../../研究/04_共同可靠性/README.md)；它不为本项目选择依赖模型。[UCL托管PDF](https://discovery.ucl.ac.uk/id/eprint/10066118/1/2019%20-%20Morris%20-%20simulation%20studies%20tutorial%20-%20stat%20med.pdf)可由网页工具阅读，但本机下载返回403，未取得本地原件；[失败登记](../../outputs/logs/reliability/method-planning-20261027/source_retrieval.json)与sources.json如实保留，不列为本地已保存PDF。流程为讨论稿，无新模型或模拟。
+
+**R20261027-08第四问第二步：** 已补齐[目标、数据特征与方法适配资料](../../研究/04_共同可靠性/第二步_目标清单与模型适配资料.md)，重读成对/网络文献关键条件；原件不等于方法已适配。新增三份已验证原文：
+
+- [Abadie等2022作者稿](原文/Abadie_Athey_Imbens_Wooldridge_2022_author.pdf)：抽样与分配机制；不是本项目固定赛程随机结果的现成方差公式。QJE期刊卷期为2023。
+- [Cameron/Gelbach/Miller 2009作者稿](原文/Cameron_Gelbach_Miller_2009_multiway.pdf)：多向聚类与数值问题；未冒称保存2011排版版。
+- [Romano/Wolf 2005 Econometrica](原文/Romano_Wolf_2005_stepwise.pdf)：联合错误控制；区别同作者2005 JASA文章，不能修复无效的单项分布。
+
+下载状态/指纹及阅读范围见[sources.json](sources.json)与[实际下载记录](../../outputs/logs/reliability/literature-20261027/download_attempts.json)。P03在线HTML封面日期与固定v5 PDF不同，本轮使用固定v5 PDF判断具体版本，既有本地原件未覆盖；没有验收全部证明或选择新估计器。
+
 **R20261027-04研究价值讨论新增阅读：** FORECAST-P01足球Elo及基线比较（仅出版社摘要/预览）、FORECAST-P02概率预测评分（摘要/导言/定义）、FORECAST-M01时间顺序验证。网址、阅读范围与未实现状态见[sources.json](sources.json)；均为在线阅读，无新增本地原文副本。用于讨论第五至第九问的价值与评价要求，不代表相关方法已适配、已有新预测结果或已证明创新。
 
 

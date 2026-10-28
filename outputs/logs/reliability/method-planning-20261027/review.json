@@ -1,0 +1,67 @@
+{
+  "schema_version": "reliability-method-planning-review-v1",
+  "decision_log_id": "R20261027-09",
+  "status": "passed_planning_only",
+  "proposal": "outputs/logs/reliability/method-planning-20261027/workflow_proposal.json",
+  "proposed_substeps": 8,
+  "requirements_mapped": 15,
+  "unchanged_registered_results": 91,
+  "result_binding_failures": [],
+  "documents": [
+    "README.md",
+    "研究/04_共同可靠性/README.md",
+    "参考资料/方法文献/README.md",
+    "文档/05_团队协作/论文与汇报支撑材料索引.md",
+    "文档/05_团队协作/分工与交付/04_两题共同可靠性与敏感性.md"
+  ],
+  "local_path_checks": 577,
+  "missing_local_paths": [],
+  "access_limited_legacy_paths": [
+    {
+      "document": "README.md",
+      "target": "data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv",
+      "status": "EPERM"
+    },
+    {
+      "document": "README.md",
+      "target": "data/processed/prep-3fab808178cf8ad71d88/data_dictionary.md",
+      "status": "EPERM"
+    },
+    {
+      "document": "README.md",
+      "target": "data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json",
+      "status": "EPERM"
+    },
+    {
+      "document": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+      "target": "../../data/processed/prep-3fab808178cf8ad71d88/data_dictionary.md",
+      "status": "EPERM"
+    },
+    {
+      "document": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+      "target": "../../data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json",
+      "status": "EPERM"
+    },
+    {
+      "document": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+      "target": "../../data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv",
+      "status": "EPERM"
+    }
+  ],
+  "log_ids": 100,
+  "duplicate_log_ids": [],
+  "tracked_changed_diff_check": "passed_scoped_to_task",
+  "evidence_sha256": {
+    "研究/04_共同可靠性/README.md": "439c67b8f9b460c1466713bc80060e54b87fcb9035d9f4f4fd10d0c9454002ad",
+    "outputs/logs/reliability/method-planning-20261027/workflow_proposal.json": "94d9480fa8b29598de4fe005fed508f4cd065c11f396f32677d2c4d7dd2852cd",
+    "outputs/logs/reliability/method-planning-20261027/source_retrieval.json": "420acbd38dfd29db2a02b956ec4e810751a75607f365ff956b94a0c334e91c3e",
+    "参考资料/方法文献/sources.json": "8ee7167369a06ecd69c1a01a3d24b7583e2abdc2b0cd18fa6946b3419f55ef6b"
+  },
+  "selected_estimator": null,
+  "formal_inference": "not_run",
+  "simulation": "not_run",
+  "tests_rerun": false,
+  "new_statistical_experiment": false,
+  "human_review": "not_performed",
+  "source_download": "Q4-P08 local original unavailable (403); actual web reading and failure recorded"
+}
