@@ -2193,10 +2193,25 @@
   },
   "question_5": {
     "additional_gate": "Historical entity and Elo warmup membership require separate approval",
-    "status": "not_implemented",
+    "status": "goal_and_role_discussion_proposed_not_implemented",
     "title": "赛前实力评价与调整",
     "previous_question_number": 3,
-    "decision_log_id": "R20261026-01"
+    "decision_log_id": "R20261026-01",
+    "latest_decision_log_id": "R20261028-06",
+    "goal_discussion": {
+      "status": "proposal_for_discussion_not_final_protocol",
+      "document": "研究/05_赛前实力/README.md",
+      "central_question": "在双方赛前强弱和对阵构成可比时，年代、赛事、地域的主队表现差异还剩多少，以及如何定义和评价剩余主场信号？",
+      "strength_role": "Measured pre-match comparison input and baseline, not observed true strength or automatic causal adjustment",
+      "rating_implemented": false,
+      "analysis_run": false,
+      "final_home_advantage_metric_selected": false,
+      "new_parameters_selected": false,
+      "original_question4_results_replaced": false,
+      "reliability_not_automatically_improved_by_strength": true,
+      "causal_or_prediction_claim": false,
+      "warmup_and_rating_population_scope": "not_finalized; existing1980-2024 membership adoption does not automatically validate earlier rating histories"
+    }
   },
   "numbering_decision": {
     "decision_log_id": "R20261026-02",
