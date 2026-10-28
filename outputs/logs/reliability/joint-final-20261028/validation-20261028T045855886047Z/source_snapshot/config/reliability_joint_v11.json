@@ -1,0 +1,75 @@
+{
+  "all_constant_Y": "deliver full logical range as a predefined uninformative branch; numerical failures separately counted",
+  "budget": {
+    "development_CPU_seconds": 2400,
+    "formal_estimated_CPU_hours_max": 24,
+    "workers": 4
+  },
+  "cache_pointer": "outputs/logs/reliability/joint-20261028/active_cache.json",
+  "calibration_B_each_required_scenario": 1999,
+  "calibration_alpha": 0.025,
+  "calibration_rank": "ceil((B+1)*(1-alpha)); ties conservative; take maximum critical across required fixed worlds for each family",
+  "calibration_theory": "Finite-world order-statistic coverage over independent calibration and new outcomes, for the frozen score algorithm. Does NOT prove real-football law belongs to these worlds or a continuum of unknown nuisance parameters.",
+  "compact_all_logs": true,
+  "decision_log_id": "R20261028-03",
+  "development_R_each": 100,
+  "development_source": "outputs/logs/reliability/joint-v10-20261028/model_selection.json",
+  "eligibility": "Projection-corrected joint equations mandatory for this task; uncorrected J0 remains a diagnostic ablation, not eligible. v9 selected it on width alone and is retained as an unadopted development decision; no calibration or approval used that decision.",
+  "experiment_root": "outputs/logs/reliability/joint-final-20261028",
+  "formal_R_each_required_scenario": 5000,
+  "formal_R_each_stress": 1000,
+  "fourth_step_gate": "Approve only a scope-labelled validated working method; graph finite guarantees remain a reference. Absolute/global optimality and unqualified real95% guarantees are not claimed.",
+  "fresh_parameter_holdout_R_each_required": 1000,
+  "guard_cache": "outputs/logs/reliability/joint-20261028/guard.npz",
+  "informativeness": "At least25% narrower mean CORE width than the matched G4 graph/bounded reference. No real p-value or observed significance used for selection.",
+  "joint_estimation": "Eliminate common unknown mean in covariance moment equations usingM=I-X(X'X)^+X'; joint GLS/BLUP solves projected Henderson equations. Second-moment working model, not binary Gaussian likelihood or an assertion of exact MINQUE optimality.",
+  "master_seed": 20261028,
+  "models": [
+    "J1_restricted_coarse@0.1"
+  ],
+  "no_independent_football_replicates_claim": true,
+  "original_protocol": "config/reliability_validation_v1.json",
+  "outside_calibration_stress": [
+    "C13",
+    "C14",
+    "C15"
+  ],
+  "parent_design_id": "design-e1ebd48827f8a5ff4be8",
+  "random_stream_version": "joint-final-v11",
+  "required_scenarios": [
+    "C00",
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "C06",
+    "C07",
+    "C08",
+    "C09",
+    "C10",
+    "C11",
+    "C12",
+    "C16",
+    "C17"
+  ],
+  "scale_floor": "maximum of fitted variance and0.25*sum a^2; not a dependence-robust variance bound by itself",
+  "scale_guard": "eta times the largest actual-dateOU quadratic form over365/1460/2920days, grouped by era/type/home-unit/away-unit. eta is a score regularizer selected on development data, not a claimed true variance floor. Calibration/validation are independent and unchanged.",
+  "schema_version": "joint-final-candidate-v11-before-independent-calibration",
+  "scope_reasons": "Retain all original10 in-domain cases including C09; add finite-time, omitted mean, competition clusters and nonstationarity as required project robustness checks. C13 longer memory,C14 permanent single global shock,C15 globalt volatility remain explicit outside scenarios, not silently relabelled successes.",
+  "selection": "After observing development only,1%relative CORE-width tolerance introduced to avoid claiming a meaningful gain from0.2pp width. Choose6kernels over17 within tolerance; prior exact-minimum decision preserved. No calibration/locked-test outcomes used.",
+  "selection_priority": [
+    "no severe in-required-world coverage failure",
+    "CORE width",
+    "ROLLING width",
+    "CONDITIONAL width and uninformative fraction",
+    "cost and stability"
+  ],
+  "selector_code_sha256": "8db993c8335f4d7f0687bd1affb2e54c49ed2cd97dbc54adf7fdf3dd1c09e627",
+  "status": "protocol_before_new_results_not_a_method_approval",
+  "validation_gates": {
+    "coverage_lower99_min": 0.94,
+    "failure_upper99_max": 0.01,
+    "null_error_upper99_max": 0.06
+  }
+}

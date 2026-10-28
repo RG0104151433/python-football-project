@@ -1,0 +1,73 @@
+{
+  "decision_log_id": "R20261028-03",
+  "files": [
+    {
+      "path": "scripts/audit_joint_readiness.py",
+      "sha256": "6e8a328e2b7490e2a8c6d87c88c2b52531b6000d9b36921e697aed21e4eef577",
+      "snapshot": "outputs/logs/reliability/joint-envelope-20261028/source_archive/scripts/audit_joint_readiness.py",
+      "status": "current_delivery_source_not_claimed_as_all_historical_versions"
+    },
+    {
+      "path": "scripts/summarize_joint_handoff.py",
+      "sha256": "7d2858acfde59b63cdf4123384a83e5a867bbb9378ed9618952f9814fc0cfff3",
+      "snapshot": "outputs/logs/reliability/joint-envelope-20261028/source_archive/scripts/summarize_joint_handoff.py",
+      "status": "current_delivery_source_not_claimed_as_all_historical_versions"
+    },
+    {
+      "path": "scripts/select_reliability_joint.py",
+      "sha256": "7ac5d16a9a61ca45132922aa7de70da0ceda77e5c901958a80566a93a9c650d1",
+      "snapshot": "outputs/logs/reliability/joint-envelope-20261028/source_archive/scripts/select_reliability_joint.py",
+      "status": "current_delivery_source_not_claimed_as_all_historical_versions"
+    },
+    {
+      "path": "scripts/finalize_joint_choice.py",
+      "sha256": "8db993c8335f4d7f0687bd1affb2e54c49ed2cd97dbc54adf7fdf3dd1c09e627",
+      "snapshot": "outputs/logs/reliability/joint-envelope-20261028/source_archive/scripts/finalize_joint_choice.py",
+      "status": "current_delivery_source_not_claimed_as_all_historical_versions"
+    },
+    {
+      "path": "scripts/adapt_joint_target_scales.py",
+      "sha256": "e6bb71b4ab5c1f2a1f1d0715fb7bd8ee8401eb1b46d92f235459a8a78e104d9c",
+      "snapshot": "outputs/logs/reliability/joint-envelope-20261028/source_archive/scripts/adapt_joint_target_scales.py",
+      "status": "current_delivery_source_not_claimed_as_all_historical_versions"
+    },
+    {
+      "path": "scripts/prepare_joint_guard.py",
+      "sha256": "fd3266c26b415333cf6fb292980345f46c89aa4122ea3ae01239759b9ee8d522",
+      "snapshot": "outputs/logs/reliability/joint-envelope-20261028/source_archive/scripts/prepare_joint_guard.py",
+      "status": "current_delivery_source_not_claimed_as_all_historical_versions"
+    },
+    {
+      "path": "scripts/refine_graph_chernoff.py",
+      "sha256": "15ba756ba41ed1cc75614ae4cec44160bfd84e45b793ecf6915e9719593680c9",
+      "snapshot": "outputs/logs/reliability/joint-envelope-20261028/source_archive/scripts/refine_graph_chernoff.py",
+      "status": "current_delivery_source_not_claimed_as_all_historical_versions"
+    },
+    {
+      "path": "scripts/fit_joint_mean_wave.py",
+      "sha256": "866557e36e9caba8e5ee2d6b4b73e87ad58fd6690a931aa28a1a69985d12ec8e",
+      "snapshot": "outputs/logs/reliability/joint-envelope-20261028/source_archive/scripts/fit_joint_mean_wave.py",
+      "status": "current_delivery_source_not_claimed_as_all_historical_versions"
+    },
+    {
+      "path": "scripts/fetch_joint_method_sources.py",
+      "sha256": "0b83a4aad788a5618b1298c940461934e9d1d31bc9a365ce7e95b778772daf7e",
+      "snapshot": "outputs/logs/reliability/joint-envelope-20261028/source_archive/scripts/fetch_joint_method_sources.py",
+      "status": "current_delivery_source_not_claimed_as_all_historical_versions"
+    },
+    {
+      "path": "readiness/audit_source.py",
+      "sha256": "d8036e3fd51d1ece351509d92b9af88db24bbe6e43310dbc148d8e2f9bfeb108",
+      "status": "recovered_exact_executed_version_after_contract_failure",
+      "snapshot": "outputs/logs/reliability/joint-envelope-20261028/readiness/audit_source.py"
+    },
+    {
+      "path": "config/reliability_validation_v1.json",
+      "sha256": "26648b8c81c9311c71f9da0a0be9d9e3e3a8419b226e6e0b516e8a14d0b92e36",
+      "snapshot": "outputs/logs/reliability/joint-envelope-20261028/source_archive/config/reliability_validation_v1.json",
+      "status": "original_protocol_rechecked_against_prior_execution_snapshot"
+    }
+  ],
+  "experiment_sources": "Each run manifest/source_snapshot holds exact runtime sources. Older selectors not automatically snapshotted at each edit; decisions/config/replication records retained, no claim every historical selector byte version recoverable.",
+  "v15_config_provenance": "Created in Codex Node session from v14 and original scenario list; expanded16 stronger reference worlds, alpha.01, fresh streams; exact operative bytes fixed by manifests. Inherited selector_code_sha256 refers to v11 developer decision, not a v15 generator."
+}

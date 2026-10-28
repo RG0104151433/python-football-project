@@ -1,0 +1,47 @@
+{
+  "decision_log_id": "R20261028-04",
+  "status": "steps_1_to_3_prerequisites_verified_step4_design_only",
+  "checked_execution_bindings": 117,
+  "checked_contract_artifacts": 5,
+  "hash_failures": [],
+  "selected_method": "J-RMC6-T-v15",
+  "method_admission_scope": "Finite-reference-law model conditional; real football law membership not established",
+  "verified_required_validation_cells": 128,
+  "verified_required_holdout_cells": 64,
+  "all_required_validation_passed": true,
+  "all_required_holdout_passed": true,
+  "existing_tests_record": {
+    "tests": 70,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "path": "outputs/logs/reliability/joint-envelope-20261028/final_tests.xml",
+    "sha256": "6bcf4ef0657a053a005ad3b1d19125691efd8645d8076774710160f3a5ae83b3"
+  },
+  "tests_rerun_this_turn": false,
+  "previous_exact_checks": 716313,
+  "prior_steps_complete_for_scoped_execution": true,
+  "deferred_nonblocking": [
+    "A/B actual independent reproduction",
+    "final HTML",
+    "paper body",
+    "presentation rehearsal"
+  ],
+  "retained_limits": [
+    "C14 permanent common shock failure",
+    "finite world calibration does not certify real law",
+    "conditional rate intervals may remain wide"
+  ],
+  "old_processed_source_read_permission": "No reread/revalidation of protected old clean CSV; pinned downstream facts used by current design remain the input contract",
+  "step4_real_intervals_run": false,
+  "step4_sensitivity_run": false,
+  "executor": "Codex AI; no human review; no commit/push",
+  "evidence": {
+    "contract": "outputs/logs/reliability/joint-envelope-20261028/fourth_step_contract.json",
+    "bindings": "outputs/logs/reliability/joint-envelope-20261028/fourth_step_bindings.json",
+    "review": "outputs/logs/reliability/joint-envelope-20261028/readiness-final/review.json",
+    "tests": "outputs/logs/reliability/joint-envelope-20261028/final_tests.xml"
+  },
+  "additional_evidence_output_hash_failures": [],
+  "method_identity_consistent": true
+}

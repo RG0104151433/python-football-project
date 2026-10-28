@@ -1,0 +1,73 @@
+{
+  "CORE_bounded_reference_mean_width": 1.998148148148148,
+  "CORE_width_reduction": 0.8150909474387369,
+  "all_passed": true,
+  "batch_replay_archives": 320,
+  "checks": 716313,
+  "decision_log_id": "R20261028-03",
+  "football_law_certified": false,
+  "fourth_major_step_run": false,
+  "human_review": "not_performed",
+  "joint_fit_reference": "outputs/logs/reliability/joint-final-20261028/joint_fit",
+  "methods_unit_tests": 70,
+  "numerical_joint_fit_replayed": true,
+  "original_bindings_unchanged": 103,
+  "outputs": {
+    "outputs/logs/reliability/joint-envelope-20261028/readiness-final/checks.jsonl.gz": "556a0389697df13f5be005d599d03c718cfde13ecbce5c1676fe48deec6b629c",
+    "outputs/logs/reliability/joint-envelope-20261028/readiness-final/current_target_scales.csv": "601261c73681b2995885e5c215ab8fa7630aa9310d212877681a967677aae76a",
+    "outputs/logs/reliability/joint-envelope-20261028/readiness-final/validated_metrics.csv": "f86b1f9b0a78cf72d898d1395c0fe2a83b5c7009733896bafb294da0f42d2826"
+  },
+  "raw_model": "J1_restricted_coarse@0.1",
+  "records_checked": {
+    "calibration": 63968,
+    "holdout": 16000,
+    "validation": 162000
+  },
+  "runpaths": {
+    "calibration": "outputs/logs/reliability/joint-envelope-20261028/calibration-20261028T053522936453Z",
+    "holdout": "outputs/logs/reliability/joint-envelope-20261028/holdout-20261028T053925927376Z",
+    "validation": "outputs/logs/reliability/joint-envelope-20261028/validation-20261028T053908811245Z"
+  },
+  "selected_method": "J-RMC6-T-v15",
+  "source_sha256": {
+    "scripts/audit_joint_readiness.py": "6e8a328e2b7490e2a8c6d87c88c2b52531b6000d9b36921e697aed21e4eef577"
+  },
+  "validation": {
+    "holdout": {
+      "all_passed": true,
+      "family_mean_width": {
+        "AUX": 0.27438162817722833,
+        "CONDITIONAL": 0.7879946981813063,
+        "CORE": 0.36841776330393616,
+        "ROLLING": 0.2259785876505739
+      },
+      "family_span_fraction": {
+        "AUX": 0.27798909902497654,
+        "CONDITIONAL": 0.7879946981813063,
+        "CORE": 0.18420888165196808,
+        "ROLLING": 0.11298929382528697
+      },
+      "minimum_coverage": 0.991,
+      "minimum_lower99": 0.9813086547378074,
+      "required_cells": 64
+    },
+    "validation": {
+      "all_passed": true,
+      "family_mean_width": {
+        "AUX": 0.27524926889482687,
+        "CONDITIONAL": 0.7909418357101781,
+        "CORE": 0.3694756809511164,
+        "ROLLING": 0.2259785876505738
+      },
+      "family_span_fraction": {
+        "AUX": 0.2797959364669691,
+        "CONDITIONAL": 0.7909418357101781,
+        "CORE": 0.1847378404755582,
+        "ROLLING": 0.11298929382528691
+      },
+      "minimum_coverage": 0.986,
+      "minimum_lower99": 0.9816289303276802,
+      "required_cells": 128
+    }
+  }
+}

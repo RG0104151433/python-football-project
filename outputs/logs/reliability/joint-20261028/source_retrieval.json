@@ -1,0 +1,19 @@
+[
+  {
+    "id": "Q4-P11",
+    "url": "https://www.sciencedirect.com/science/article/pii/0047259X71900017",
+    "retrieved_at_utc": "2026-10-28T05:03:56.012134+00:00",
+    "local_path": null,
+    "status": "failed_no_local_original",
+    "error": "HTTPError:HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "Q4-P12",
+    "url": "https://www.stat.cmu.edu/~ryantibs/papers/conformal-jasa.pdf",
+    "retrieved_at_utc": "2026-10-28T05:03:57.526238+00:00",
+    "local_path": "参考资料/方法文献/原文/Lei_etal_2018_conformal_author.pdf",
+    "status": "downloaded",
+    "bytes": 4348403,
+    "sha256": "bc48af474aebf5b2422520ff83231849ad3b599ea8acf685606a7e81cdf8784d"
+  }
+]

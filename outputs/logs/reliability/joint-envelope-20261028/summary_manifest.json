@@ -1,0 +1,11 @@
+{
+  "executor": "Codex AI; uncommitted",
+  "human_review": "not_performed",
+  "outputs": {
+    "outputs/logs/reliability/joint-envelope-20261028/bias_diagnostics.csv": "865597950d27e06d16027bc111e4903a0a22ee896d3c5a6a223edd9edf0ec52c",
+    "outputs/logs/reliability/joint-envelope-20261028/current_runs.json": "619aa871163b9ab5fd3cbe0f979ddb93dfd76a2f969868c750a08acaaede95dd",
+    "outputs/logs/reliability/joint-envelope-20261028/display_data.json": "9e236eca9cda16cfc3677549959c67f230436a2dab83714468751c8d6af6ab32",
+    "outputs/logs/reliability/joint-envelope-20261028/method_adjudication.json": "e1c5a870e654f6370ac12b09192e1834f1129ab57b354a7344bdd21832e65523"
+  },
+  "source_sha256": "7d2858acfde59b63cdf4123384a83e5a867bbb9378ed9618952f9814fc0cfff3"
+}

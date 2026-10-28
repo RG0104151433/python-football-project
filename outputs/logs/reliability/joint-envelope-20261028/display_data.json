@@ -1,0 +1,36 @@
+{
+  "decision_log_id": "R20261028-03",
+  "findings": {
+    "CORE_mean_width": 0.3694756809511164,
+    "CORE_reference_width": 1.998148148148148,
+    "CORE_width_reduction": 0.8150909474387369,
+    "conditional_mean_span_fraction": 0.7909418357101781,
+    "old_P3_C09_conditional_coverage": "5/10; development failure, not comparable sample size",
+    "v14_new_parameter_failure": "C16 ROLLING945/1000, not admitted",
+    "v15_holdout_minimum": 0.991,
+    "v15_validation_minimum": 0.986
+  },
+  "limitations": [
+    "模拟支持明确参照世界，真实足球联合分布未知",
+    "永久全局冲击压力测试仍失败",
+    "条件胜率区间仍较宽",
+    "工作均值不是概率预测",
+    "第四大步真实推断及敏感性未运行"
+  ],
+  "method": "J-RMC6-T-v15",
+  "sources": {
+    "outputs/logs/reliability/joint-envelope-20261028/fourth_step_contract.json": "9adbd541ada6777974d8c3cafa15d8fcdbdadcc0f3cd6e0078cd2946cd15fe69",
+    "outputs/logs/reliability/joint-envelope-20261028/method_adjudication.json": "e1c5a870e654f6370ac12b09192e1834f1129ab57b354a7344bdd21832e65523",
+    "outputs/logs/reliability/joint-envelope-20261028/readiness-final/review.json": "69475e1c91fce742b96d639a56e74b4fdb295c50980f944a905ead87e61469d3"
+  },
+  "title": "从漏掉慢波动到联合估计与独立校准",
+  "workflow": [
+    "冻结原三问目标",
+    "修正均值投影后的关联方程",
+    "联合恢复均值与共同波动",
+    "开发选择并冻结尺度",
+    "独立校准",
+    "独立测试和新参数留出",
+    "带限制交接"
+  ]
+}

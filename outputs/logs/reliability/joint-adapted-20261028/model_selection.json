@@ -1,0 +1,42 @@
+{
+  "development_comparison": {
+    "0": {
+      "AUX": 10.231363911871936,
+      "CONDITIONAL": 8.435785767855053,
+      "CORE": 8.419204325993672,
+      "ROLLING": 1.7443340138255536
+    },
+    "0.5": {
+      "AUX": 6.207334218993743,
+      "CONDITIONAL": 4.394204519648272,
+      "CORE": 5.868708029760238,
+      "ROLLING": 1.6168364986525197
+    },
+    "0.5_selection": {
+      "mean_CORE_width": 0.845142815675797,
+      "qualified": true
+    },
+    "0_selection": {
+      "mean_CORE_width": 1.1614079932122656,
+      "qualified": true
+    },
+    "1.0": {
+      "AUX": 3.7659688813904193,
+      "CONDITIONAL": 2.2889430684780137,
+      "CORE": 4.0908537915199386,
+      "ROLLING": 1.6127148212746851
+    },
+    "1.0_selection": {
+      "mean_CORE_width": 0.6342549084192155,
+      "qualified": true
+    }
+  },
+  "earlier_v11_validation_seen": true,
+  "new_calibration_seen": false,
+  "new_locked_validation_seen": false,
+  "parent_selection": "outputs/logs/reliability/joint-final-20261028/model_selection.json",
+  "production_approved": false,
+  "script_sha256": "fff465a60e96734b93335d8d75b6b19513a312057d0df4cbf18ae87c87b1c4be",
+  "selected_model": "J1_restricted_coarse@0.1",
+  "selected_tail_gamma": 1.0
+}

@@ -1,0 +1,144 @@
+{
+  "candidates": [
+    {
+      "development_qualified": true,
+      "mean_CONDITIONAL_width": 0.9546722376068062,
+      "mean_CORE_width": 1.6418959766826162,
+      "mean_ROLLING_width": 0.17854064862016378,
+      "model": "J1_restricted_coarse@0.0025"
+    },
+    {
+      "development_qualified": true,
+      "mean_CONDITIONAL_width": 0.9463157680444009,
+      "mean_CORE_width": 1.4470865453990527,
+      "mean_ROLLING_width": 0.17655949012823763,
+      "model": "J1_restricted_coarse@0.01"
+    },
+    {
+      "development_qualified": true,
+      "mean_CONDITIONAL_width": 0.9196282425292218,
+      "mean_CORE_width": 1.2260023607393753,
+      "mean_ROLLING_width": 0.18014965993850038,
+      "model": "J1_restricted_coarse@0.025"
+    },
+    {
+      "development_qualified": true,
+      "mean_CONDITIONAL_width": 0.9112017492002139,
+      "mean_CORE_width": 1.1723828757963333,
+      "mean_ROLLING_width": 0.18013952783650938,
+      "model": "J1_restricted_coarse@0.05"
+    },
+    {
+      "development_qualified": true,
+      "mean_CONDITIONAL_width": 0.9409939944376838,
+      "mean_CORE_width": 1.1614079932122656,
+      "mean_ROLLING_width": 0.1801395278365093,
+      "model": "J1_restricted_coarse@0.1"
+    },
+    {
+      "development_qualified": true,
+      "mean_CONDITIONAL_width": 0.9538454152134181,
+      "mean_CORE_width": 1.672992096694312,
+      "mean_ROLLING_width": 0.18600740768325136,
+      "model": "J2_restricted_multiscale@0.0025"
+    },
+    {
+      "development_qualified": true,
+      "mean_CONDITIONAL_width": 0.9451410016973594,
+      "mean_CORE_width": 1.5077426850874112,
+      "mean_ROLLING_width": 0.18018422564377112,
+      "model": "J2_restricted_multiscale@0.01"
+    },
+    {
+      "development_qualified": true,
+      "mean_CONDITIONAL_width": 0.9181523458171608,
+      "mean_CORE_width": 1.2837792645146264,
+      "mean_ROLLING_width": 0.18023894729649423,
+      "model": "J2_restricted_multiscale@0.025"
+    },
+    {
+      "development_qualified": true,
+      "mean_CONDITIONAL_width": 0.9097748367747954,
+      "mean_CORE_width": 1.1931383641763142,
+      "mean_ROLLING_width": 0.180139691708555,
+      "model": "J2_restricted_multiscale@0.05"
+    },
+    {
+      "development_qualified": true,
+      "mean_CONDITIONAL_width": 0.9404057746504851,
+      "mean_CORE_width": 1.1591677369533695,
+      "mean_ROLLING_width": 0.1801395278365093,
+      "model": "J2_restricted_multiscale@0.1"
+    }
+  ],
+  "development_trial_critical": {
+    "J1_restricted_coarse@0.0025": {
+      "AUX": 36.01506045982967,
+      "CONDITIONAL": 23.962323044060838,
+      "CORE": 35.54731687842557,
+      "ROLLING": 5.818151559725837
+    },
+    "J1_restricted_coarse@0.01": {
+      "AUX": 27.13224021161537,
+      "CONDITIONAL": 19.183524934508288,
+      "CORE": 26.623861756482764,
+      "ROLLING": 5.230690618336004
+    },
+    "J1_restricted_coarse@0.025": {
+      "AUX": 20.462727823743872,
+      "CONDITIONAL": 12.132726468735724,
+      "CORE": 16.838408651987343,
+      "ROLLING": 3.4886680276511073
+    },
+    "J1_restricted_coarse@0.05": {
+      "AUX": 14.469333605743936,
+      "CONDITIONAL": 9.0383464719995,
+      "CORE": 11.906552942210483,
+      "ROLLING": 2.466860819660796
+    },
+    "J1_restricted_coarse@0.1": {
+      "AUX": 10.231363911871936,
+      "CONDITIONAL": 8.435785767855053,
+      "CORE": 8.419204325993672,
+      "ROLLING": 1.7443340138255536
+    },
+    "J2_restricted_multiscale@0.0025": {
+      "AUX": 36.01506045982967,
+      "CONDITIONAL": 23.962323044060838,
+      "CORE": 35.54731687842557,
+      "ROLLING": 5.8441483742571085
+    },
+    "J2_restricted_multiscale@0.01": {
+      "AUX": 27.13224021161537,
+      "CONDITIONAL": 19.183524934508288,
+      "CORE": 26.623861756482764,
+      "ROLLING": 5.222211117317382
+    },
+    "J2_restricted_multiscale@0.025": {
+      "AUX": 20.462727823743872,
+      "CONDITIONAL": 12.132726468735724,
+      "CORE": 16.838408651987343,
+      "ROLLING": 3.4886680276511073
+    },
+    "J2_restricted_multiscale@0.05": {
+      "AUX": 14.469333605743936,
+      "CONDITIONAL": 9.001841828083842,
+      "CORE": 11.906552942210483,
+      "ROLLING": 2.466860819660796
+    },
+    "J2_restricted_multiscale@0.1": {
+      "AUX": 10.231363911871936,
+      "CONDITIONAL": 8.435785767855053,
+      "CORE": 8.419204325993672,
+      "ROLLING": 1.7443340138255536
+    }
+  },
+  "independent_calibration_completed": false,
+  "locked_validation_completed": false,
+  "production_approved": false,
+  "rule_sha256": "247de2995739d63282b3641865d32c98ee873504738a40d754bdb3a470811c7a",
+  "script_sha256": "7ac5d16a9a61ca45132922aa7de70da0ceda77e5c901958a80566a93a9c650d1",
+  "selected_model": "J2_restricted_multiscale@0.1",
+  "selection_scope": "minimum development width among tested eligible candidates; not a universal optimality theorem",
+  "source": "outputs/logs/reliability/joint-v10-20261028/development-20261028T045026413031Z"
+}

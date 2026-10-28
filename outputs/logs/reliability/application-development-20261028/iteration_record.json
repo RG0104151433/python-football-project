@@ -1,0 +1,19 @@
+{
+  "decision_log_id": "R20261028-05",
+  "first_application": "outputs/logs/reliability/applied-20261028T084005330283Z-65c98c15",
+  "first_arithmetic_audit_checks": 808749,
+  "first_audit_status": "passed arithmetic but design-level applicability semantics subsequently corrected; not current adoption",
+  "revisions": [
+    {
+      "issue": "Fixed reference incorrectly flagged as affected when a deleted year lay outside the target; this inflated applicable sensitivity counts",
+      "fix": "Under fixed policy reference remains original; metadata flag changed, points/intervals not retuned; add explicit counterexample test",
+      "theory_or_calibration_changed": false
+    },
+    {
+      "issue": "Five unsupported region contrasts appeared as unlabelled empty rows under a24-available title",
+      "fix": "Retain all29 predeclared rows, explicitly mark unavailable; title29 total24 computable",
+      "statistics_changed": false
+    }
+  ],
+  "next_action": "Fresh application identity and two full executions with independent audits; old files retained"
+}

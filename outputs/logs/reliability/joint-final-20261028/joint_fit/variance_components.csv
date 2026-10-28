@@ -1,0 +1,18 @@
+﻿kernel,working_variance_component,scope
+independent,0.067079537015710761,retrospective second-moment nuisance fit; not a proved physical variance
+pair,0,retrospective second-moment nuisance fit; not a proved physical variance
+minus:30,0,retrospective second-moment nuisance fit; not a proved physical variance
+plus:30,0,retrospective second-moment nuisance fit; not a proved physical variance
+minus:365,0.063221622363575411,retrospective second-moment nuisance fit; not a proved physical variance
+plus:365,0.063566236164650625,retrospective second-moment nuisance fit; not a proved physical variance
+minus:730,0,retrospective second-moment nuisance fit; not a proved physical variance
+plus:730,0,retrospective second-moment nuisance fit; not a proved physical variance
+minus:1460,0,retrospective second-moment nuisance fit; not a proved physical variance
+plus:1460,0,retrospective second-moment nuisance fit; not a proved physical variance
+minus:3650,0,retrospective second-moment nuisance fit; not a proved physical variance
+plus:3650,0,retrospective second-moment nuisance fit; not a proved physical variance
+time:30,0,retrospective second-moment nuisance fit; not a proved physical variance
+time:365,0.0054372718647883117,retrospective second-moment nuisance fit; not a proved physical variance
+time:730,0,retrospective second-moment nuisance fit; not a proved physical variance
+time:1460,0,retrospective second-moment nuisance fit; not a proved physical variance
+time:2920,0,retrospective second-moment nuisance fit; not a proved physical variance

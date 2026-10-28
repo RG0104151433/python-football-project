@@ -1,0 +1,26 @@
+{
+  "schema_version": "reliability-application-v1",
+  "decision_log_id": "R20261028-05",
+  "design_document": "研究/04_共同可靠性/第四步_分析流程与脚本设计.md",
+  "contract": "outputs/logs/reliability/joint-envelope-20261028/fourth_step_contract.json",
+  "bindings": "outputs/logs/reliability/joint-envelope-20261028/fourth_step_bindings.json",
+  "model_config": "config/reliability_joint_v15.json",
+  "previous_scales": "outputs/logs/reliability/joint-envelope-20261028/readiness-final/current_target_scales.csv",
+  "expected": {"matches": 24917, "catalogue": 292, "supported": 198, "unsupported": 94, "teams": 215},
+  "sensitivity": {
+    "years": [1980, 2024],
+    "year_target_families": ["CORE"],
+    "recent_target": "Q2:difference:era:2020_2024:raw",
+    "sample_reference_policies": ["fixed", "recomputed"],
+    "team_omission_reference_policy": "fixed",
+    "common_teams_definition": "Intersection of teams appearing in either role in all five eras; both fixture teams must belong",
+    "historical_carrier_ids": ["team:german-dr", "team:czechoslovakia", "team:yugoslavia"],
+    "geographic_exception_ids": ["team:iran", "team:australia", "team:turkey"],
+    "variant_uncertainty": "not_calibrated_for_variant",
+    "no_outcome_based_case_selection": true
+  },
+  "bounded_reference_alpha": 0.05,
+  "scope": "Model-conditional original-design envelope; finite-reference-law calibration does not certify real football coverage. Variants are descriptive only.",
+  "plot_language": "zh",
+  "publication": "New immutable analysis content identity; separate timestamped run evidence; existing unequal artifacts cause failure"
+}

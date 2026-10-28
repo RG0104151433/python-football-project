@@ -1,0 +1,46 @@
+{
+  "decision_log_id": "R20261028-04",
+  "markdown_files": 7,
+  "local_link_checks": 741,
+  "missing": [],
+  "access_limited": [
+    {
+      "from": "README.md",
+      "to": "data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv",
+      "code": "EPERM"
+    },
+    {
+      "from": "README.md",
+      "to": "data/processed/prep-3fab808178cf8ad71d88/data_dictionary.md",
+      "code": "EPERM"
+    },
+    {
+      "from": "README.md",
+      "to": "data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json",
+      "code": "EPERM"
+    },
+    {
+      "from": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+      "to": "../../data/processed/prep-3fab808178cf8ad71d88/data_dictionary.md",
+      "code": "EPERM"
+    },
+    {
+      "from": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+      "to": "../../data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json",
+      "code": "EPERM"
+    },
+    {
+      "from": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+      "to": "../../data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv",
+      "code": "EPERM"
+    }
+  ],
+  "execution_hash_checks": 118,
+  "execution_hash_errors": [],
+  "python_tests_rerun": false,
+  "python_scripts_implemented": false,
+  "inference_or_sensitivity_run": false,
+  "log_ids": 104,
+  "unique_log_ids": 104,
+  "design_document_sha256": "1fac4544e0f2cc2238c4562c354d91f80c62e2841e6cd234c038086888a2ca0a"
+}

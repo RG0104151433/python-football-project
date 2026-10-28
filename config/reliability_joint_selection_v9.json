@@ -1,0 +1,9 @@
+{
+  "schema_version": "joint-selection-v9-before-development-metric-read",
+  "decision_log_id": "R20261028-03",
+  "parent_protocol": "config/reliability_joint_v8.json",
+  "required_min_development_check_coverage": 0.94,
+  "development_split": "replications0..49 tune trial critical values;50..99 compare. Independent final calibration and locked validation follow after selecting one candidate.",
+  "choice": "Among candidates with no failures and at least47/50 covers in each required-world family, minimize mean CORE width, then ROLLING, then CONDITIONAL. This is development selection, not final approval or global optimality. If none qualify, no selection.",
+  "selection_real_outcomes_used": false
+}

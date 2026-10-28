@@ -1,0 +1,122 @@
+{
+  "decision_log_id": "R20261028-05",
+  "scope": "R04 minimum execution and explicitly bounded claims, not exhaustive optional analyses",
+  "source_inventory": "outputs/logs/reliability/planning-20261027/verification_inventory.json",
+  "records": [
+    {
+      "id": "C01",
+      "topic": "样本、版本与结果口径",
+      "status": "completed_same_sample_and_versions",
+      "assessment": "同一24917场、非中立、含平局、版本与原成果保护",
+      "evidence": "outputs/logs/reliability/application-20261028/adoption.json"
+    },
+    {
+      "id": "C02",
+      "topic": "整数计数、共同构成和差值代数",
+      "status": "completed_arithmetic_reconstruction",
+      "assessment": "原系数及分母、参考、差值和单位已复算",
+      "evidence": "outputs/logs/reliability/applied-20261028T085541920014Z-34239452/independent_audit.json"
+    },
+    {
+      "id": "C03",
+      "topic": "要对哪个未知量作推断、随机性来自何处",
+      "status": "completed_fixed_design_definition",
+      "assessment": "回顾性固定设计对象不变，范围针对未知平均倾向/率差",
+      "evidence": "outputs/logs/reliability/estimand-20261027/estimand_protocol.json"
+    },
+    {
+      "id": "C04",
+      "topic": "共享球队、主客互换和共同时间依赖",
+      "status": "completed_with_model_scope",
+      "assessment": "双角色、对子、共同时间与重叠已纳入工作结构及指定情景验收；真实结构未认证",
+      "evidence": "outputs/logs/reliability/joint-envelope-20261028/method_adjudication.json"
+    },
+    {
+      "id": "C05",
+      "topic": "候选方法、分布近似与已知真值模拟",
+      "status": "completed_scoped_method_validation_and_application",
+      "assessment": "方法迭代、失败、独立校准/测试及实际模型条件范围已保存",
+      "evidence": "outputs/logs/reliability/application-20261028/adoption.json"
+    },
+    {
+      "id": "C06",
+      "topic": "年份、球队、参考和范围的敏感性",
+      "status": "completed_R04_minimum_point_sensitivity",
+      "assessment": "324场景已执行；变体仅描述，未校准变体区间",
+      "evidence": "outputs/tables/reliability/applied-ab04b82da3b12ca434239452/sensitivity_results.csv"
+    },
+    {
+      "id": "C07",
+      "topic": "多目标、同批数据与报告解释",
+      "status": "completed_family_policy_no_equivalence_claim",
+      "assessment": "四家族分别共同范围；不造全198保证、不由含零证明无效；未设实际等价阈值",
+      "evidence": "outputs/tables/reliability/applied-ab04b82da3b12ca434239452/method_scope.json"
+    },
+    {
+      "id": "C08",
+      "topic": "证据等级、复现与回写",
+      "status": "computational_handoff_completed_human_delivery_deferred",
+      "assessment": "两跑、独立核算、三问限定结论及索引已更新；A/B与最终课程交付后置",
+      "evidence": "outputs/logs/reliability/application-20261028/adoption.json"
+    },
+    {
+      "id": "Q1-01",
+      "topic": "共同友谊赛比例和翻转点",
+      "status": "completed_existing_point_curve_reused",
+      "assessment": "同版权重曲线/翻转点/年度等权保留；整条权重曲线概率推断非本轮最低范围",
+      "evidence": "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/weight_sensitivity.csv"
+    },
+    {
+      "id": "Q1-02",
+      "topic": "两个年代主对比、末五年与时间口径",
+      "status": "completed_current_two_contrasts",
+      "assessment": "两主差范围及删年/共同球队/逐队/参考对照已执行",
+      "evidence": "outputs/tables/reliability/applied-ab04b82da3b12ca434239452/conclusion_review.csv"
+    },
+    {
+      "id": "Q2-01",
+      "topic": "十年滚动窗口的重叠和共同参考",
+      "status": "completed_fixed36_window_joint_scope",
+      "assessment": "36窗共同范围、年度等权描述已算；5/15年宽度和变点不在本轮最低范围",
+      "evidence": "outputs/tables/reliability/applied-ab04b82da3b12ca434239452/interval_results.csv"
+    },
+    {
+      "id": "Q2-02",
+      "topic": "全期负差、近期正差与解释",
+      "status": "completed_limited_claim_no_stable_reversal",
+      "assessment": "全期与近期范围、近期五次删年已做；未另做近期专项球队/年度参考调整，不主张稳定反转",
+      "evidence": "outputs/tables/reliability/applied-ab04b82da3b12ca434239452/sensitivity_summary.csv"
+    },
+    {
+      "id": "Q3-01",
+      "topic": "历史地理载体与三个项目例外",
+      "status": "completed_specified_classification_sensitivity",
+      "assessment": "三例外各自/合并撤销、历史三载体、双方归属已知子集已算；不认证标签本身真实",
+      "evidence": "outputs/tables/reliability/applied-ab04b82da3b12ca434239452/sensitivity_scenarios.json"
+    },
+    {
+      "id": "Q3-02",
+      "topic": "结构性缺层与少量比赛",
+      "status": "completed_supported_domain_unavailable_retained",
+      "assessment": "71条件率指定范围验收并应用；原缺层不填，北非粗分组只作新描述目标",
+      "evidence": "outputs/tables/reliability/applied-ab04b82da3b12ca434239452/conclusion_review.csv"
+    },
+    {
+      "id": "Q3-03",
+      "topic": "多组完整差值、条件矩阵与不同参考",
+      "status": "completed_frozen_complete_families",
+      "assessment": "完整预定差值与条件率、系数/联合家族已执行；不拼不同参考世界排名",
+      "evidence": "outputs/tables/reliability/applied-ab04b82da3b12ca434239452/interval_results.csv"
+    }
+  ],
+  "not_run_not_claimed": [
+    "recent-period-specific common-team/leave-team and within-recent annual-reference supplementary targets",
+    "formal change point/stable reversal test",
+    "whole Q1 friendly-share curve simultaneous inference",
+    "alternative5/15year window inference",
+    "equivalence test with substantive margin",
+    "recalibrated intervals for perturbation targets",
+    "causal/pre-match strength/prediction analysis",
+    "human independent review and finalHTML/paper"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "executor": "Codex AI; uncommitted source hashes; no commit/push",
+  "human_review": "not_performed",
+  "input_artifacts": {
+    "outputs/logs/reliability/joint-20261028/active_cache.json": "2336912b03d920a5f6f05556fece57708af4cc87538c50a986406013dd2ec9c6",
+    "outputs/logs/reliability/joint-20261028/guard.npz": "d57f752c9a7346e1f9c5de89ddfb56ef2afa01f927f3932ec7edaa5364692584",
+    "outputs/logs/reliability/joint-final-20261028/calibration.json": "408fd9f1495f658a5b20f6a8494818a9aa84d6768795dc7273a5be6b229b0adb",
+    "outputs/logs/reliability/joint-final-20261028/model_selection.json": "08a22edb88e491fa21b1c1d31afc85178d7a8037df869c03ec9b0a36ac8ab1d4"
+  },
+  "outputs": {
+    "outputs/logs/reliability/joint-final-20261028/validation-20261028T045855886047Z/metrics.csv": "ca853f4dea95950bc1cd7b3d4f1c410380f49a95f76bcb5b95707366eb6c7736",
+    "outputs/logs/reliability/joint-final-20261028/validation-20261028T045855886047Z/random_states.json": "5c7b816e4a80f31120e1a4079a0ec99e0ca0d0543f64f5aebba9fa57166f917e",
+    "outputs/logs/reliability/joint-final-20261028/validation-20261028T045855886047Z/replications.jsonl.gz": "60ef915db8c368a56967b1989829004dc62cc40e68a4b7395d1161b855c8a052",
+    "outputs/logs/reliability/joint-final-20261028/validation-20261028T045855886047Z/source_snapshot/config/reliability_joint_v11.json": "b095279b409151736c2bbd6a2e549c4352c83132afd29116a807fbeabf34ba25",
+    "outputs/logs/reliability/joint-final-20261028/validation-20261028T045855886047Z/source_snapshot/scripts/develop_reliability_joint.py": "cc188ff8616e6a954062b76dc7b5c89c0e01454a61c58325648376c30f3800d1",
+    "outputs/logs/reliability/joint-final-20261028/validation-20261028T045855886047Z/source_snapshot/src/reliability/experiment.py": "cd2f105a4a058c3fd8c7f8299c164f92dc69effbd9a7a5fd4e9ccff4dc466492",
+    "outputs/logs/reliability/joint-final-20261028/validation-20261028T045855886047Z/source_snapshot/src/reliability/guard.py": "973d95dd9fa4c0b23a79124ca7bb4f0ca19d43f61c73f97c74f9c95a9ac7eee3",
+    "outputs/logs/reliability/joint-final-20261028/validation-20261028T045855886047Z/source_snapshot/src/reliability/joint.py": "20ec3568fe1ea590b6f99748a9e64276339ad556a6fe3914301f1cec7859e058",
+    "outputs/logs/reliability/joint-final-20261028/validation-20261028T045855886047Z/source_snapshot/src/reliability/models.py": "8167319fd351d2ba908181fb298c2b499c1b65331d3065341fcdb6efa61bedb0",
+    "outputs/logs/reliability/joint-final-20261028/validation-20261028T045855886047Z/source_snapshot/src/reliability/refinements.py": "a9ba1f14a9e0947b379d7168df2deddd2f44001ab03636c1eb73170dc17f73d9",
+    "outputs/logs/reliability/joint-final-20261028/validation-20261028T045855886047Z/target_error_moments.json": "68abafeb22a268deb6da561a88e57523147d9d10c060eedc4896699a418bb993"
+  },
+  "production_method": null,
+  "real_football_intervals": false,
+  "source": {
+    "config/reliability_joint_v11.json": "b095279b409151736c2bbd6a2e549c4352c83132afd29116a807fbeabf34ba25",
+    "scripts/develop_reliability_joint.py": "cc188ff8616e6a954062b76dc7b5c89c0e01454a61c58325648376c30f3800d1",
+    "src/reliability/experiment.py": "cd2f105a4a058c3fd8c7f8299c164f92dc69effbd9a7a5fd4e9ccff4dc466492",
+    "src/reliability/guard.py": "973d95dd9fa4c0b23a79124ca7bb4f0ca19d43f61c73f97c74f9c95a9ac7eee3",
+    "src/reliability/joint.py": "20ec3568fe1ea590b6f99748a9e64276339ad556a6fe3914301f1cec7859e058",
+    "src/reliability/models.py": "8167319fd351d2ba908181fb298c2b499c1b65331d3065341fcdb6efa61bedb0",
+    "src/reliability/refinements.py": "a9ba1f14a9e0947b379d7168df2deddd2f44001ab03636c1eb73170dc17f73d9"
+  },
+  "stage": "validation",
+  "status": "completed_experiment_not_automatic_model_approval",
+  "summary": {
+    "counts": {
+      "C00": 5000,
+      "C01": 5000,
+      "C02": 5000,
+      "C03": 5000,
+      "C04": 5000,
+      "C05": 5000,
+      "C06": 5000,
+      "C07": 5000,
+      "C08": 5000,
+      "C09": 5000,
+      "C10": 5000,
+      "C11": 5000,
+      "C12": 5000,
+      "C13": 1000,
+      "C14": 1000,
+      "C15": 1000,
+      "C16": 5000,
+      "C17": 5000
+    },
+    "cpu_seconds_workers": 627.171875,
+    "model_names": [
+      "J1_restricted_coarse@0.1"
+    ],
+    "outer_records": 78000,
+    "real_football_intervals": false,
+    "stage": "validation",
+    "wall_seconds": 184.57062900002347
+  }
+}

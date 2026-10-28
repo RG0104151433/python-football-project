@@ -1,0 +1,504 @@
+{
+  "all_constant_Y": "deliver full logical range as a predefined uninformative branch; numerical failures separately counted",
+  "budget": {
+    "development_CPU_seconds": 2400,
+    "formal_estimated_CPU_hours_max": 24,
+    "workers": 4
+  },
+  "cache_pointer": "outputs/logs/reliability/joint-20261028/active_cache.json",
+  "calibration_B_each_required_scenario": 1999,
+  "calibration_alpha": 0.01,
+  "calibration_rank": "ceil((1999+1)*.99)=1980; max across32 fixed reference worlds per family",
+  "calibration_theory": "Finite-world order-statistic coverage over independent calibration and new outcomes, for the frozen score algorithm. Does NOT prove real-football law belongs to these worlds or a continuum of unknown nuisance parameters.",
+  "compact_all_logs": true,
+  "decision_log_id": "R20261028-03",
+  "development_R_each": 100,
+  "development_source": "outputs/logs/reliability/joint-v10-20261028/model_selection.json",
+  "eligibility": "Projection-corrected joint equations mandatory for this task; uncorrected J0 remains a diagnostic ablation, not eligible. v9 selected it on width alone and is retained as an unadopted development decision; no calibration or approval used that decision.",
+  "experiment_root": "outputs/logs/reliability/joint-envelope-20261028",
+  "formal_R_each_required_scenario": 5000,
+  "formal_R_each_stress": 1000,
+  "fourth_step_gate": "Approve only a scope-labelled validated working method; graph finite guarantees remain a reference. Absolute/global optimality and unqualified real95% guarantees are not claimed.",
+  "fresh_parameter_holdout_R_each_required": 1000,
+  "guard_cache": "outputs/logs/reliability/joint-20261028/guard.npz",
+  "holdout_common_tau_max": 2920,
+  "holdout_truth_seed": 20261121,
+  "holdout_variation_seed": 20261122,
+  "informativeness": "At least25% narrower mean CORE width than the matched G4 graph/bounded reference. No real p-value or observed significance used for selection.",
+  "joint_estimation": "Eliminate common unknown mean in covariance moment equations usingM=I-X(X'X)^+X'; joint GLS/BLUP solves projected Henderson equations. Second-moment working model, not binary Gaussian likelihood or an assertion of exact MINQUE optimality.",
+  "master_seed": 20261028,
+  "models": [
+    "J1_restricted_coarse@0.1"
+  ],
+  "no_independent_football_replicates_claim": true,
+  "original_protocol": "config/reliability_validation_v1.json",
+  "outside_calibration_stress": [
+    "C14",
+    "C15"
+  ],
+  "parent_design_id": "design-e1ebd48827f8a5ff4be8",
+  "random_stream_version": "joint-envelope-v15",
+  "required_scenarios": [
+    "C00",
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "C06",
+    "C07",
+    "C08",
+    "C09",
+    "C10",
+    "C11",
+    "C12",
+    "C16",
+    "C17",
+    "C13",
+    "C00R1",
+    "C01R1",
+    "C02R1",
+    "C03R1",
+    "C04R1",
+    "C05R1",
+    "C06R1",
+    "C07R1",
+    "C08R1",
+    "C09R1",
+    "C10R1",
+    "C11R1",
+    "C12R1",
+    "C13R1",
+    "C16R1",
+    "C17R1"
+  ],
+  "scale_floor": "maximum of fitted variance and0.25*sum a^2; not a dependence-robust variance bound by itself",
+  "scale_guard": "eta times the largest actual-dateOU quadratic form over365/1460/2920days, grouped by era/type/home-unit/away-unit. eta is a score regularizer selected on development data, not a claimed true variance floor. Calibration/validation are independent and unchanged.",
+  "schema_version": "joint-mean-dependence-envelope-v15-before-fresh-tests",
+  "scope_reasons": "32 explicit reference laws, not continuous parameter robustness; extra worlds are synthetic stress assumptions, not estimated football distributions. Holdout new seeds and +/-20% variation remain outside exact theorem unless identical to a reference law.",
+  "selection": "v14 rejected after new-parameter C16 ROLLING945/1000 (lower99=.925885). Keep score estimator frozen; add16 reference worlds with25% stronger shared latent components (total capped.9), distinct fixed mean functions through distinct scenario IDs; alpha=.01 adds calibration reserve. New independent calibration, fixed tests and fresh-parameter holdout; no reduced acceptance threshold.",
+  "selection_priority": [
+    "no severe in-required-world coverage failure",
+    "CORE width",
+    "ROLLING width",
+    "CONDITIONAL width and uninformative fraction",
+    "cost and stability"
+  ],
+  "selector_code_sha256": "8db993c8335f4d7f0687bd1affb2e54c49ed2cd97dbc54adf7fdf3dd1c09e627",
+  "status": "protocol_before_new_results_not_a_method_approval",
+  "tail_weights": "outputs/logs/reliability/joint-chosen-20261028/tail_weights.json",
+  "validation_gates": {
+    "coverage_lower99_min": 0.94,
+    "failure_upper99_max": 0.01,
+    "null_error_upper99_max": 0.06
+  },
+  "additional_scenarios": [
+    {
+      "id": "C00R1",
+      "label": "independent_constant_null_stronger_dependence_new_mean",
+      "margin": "constant_0.5",
+      "latent": {
+        "minus": 0,
+        "plus": 0,
+        "pair": 0,
+        "time": 0,
+        "e": 1
+      },
+      "time_kernel": "none",
+      "graph_range_days": 0,
+      "MP_domain": true,
+      "domain_MG_L_days": {
+        "90": true,
+        "365": true,
+        "730": true,
+        "1460": true,
+        "all_dependent": true
+      },
+      "reference_parent": "C00"
+    },
+    {
+      "id": "C01R1",
+      "label": "independent_heterogeneous_margin_stronger_dependence_new_mean",
+      "margin": "working_logistic_X_beta",
+      "latent": {
+        "minus": 0,
+        "plus": 0,
+        "pair": 0,
+        "time": 0,
+        "e": 1
+      },
+      "time_kernel": "none",
+      "graph_range_days": 0,
+      "MP_domain": true,
+      "domain_MG_L_days": {
+        "90": true,
+        "365": true,
+        "730": true,
+        "1460": true,
+        "all_dependent": true
+      },
+      "reference_parent": "C01"
+    },
+    {
+      "id": "C02R1",
+      "label": "same_role_positive_team_process_stronger_dependence_new_mean",
+      "margin": "working_logistic_X_beta",
+      "latent": {
+        "minus": 0,
+        "plus": 0.5,
+        "pair": 0,
+        "time": 0,
+        "e": 0.5
+      },
+      "team_tau_days": 365,
+      "time_kernel": "none",
+      "graph_range_days": 0,
+      "MP_domain": true,
+      "domain_MG_L_days": {
+        "90": true,
+        "365": true,
+        "730": true,
+        "1460": true,
+        "all_dependent": true
+      },
+      "reference_parent": "C02"
+    },
+    {
+      "id": "C03R1",
+      "label": "cross_role_signed_team_process_stronger_dependence_new_mean",
+      "margin": "working_logistic_X_beta",
+      "latent": {
+        "minus": 0.5,
+        "plus": 0,
+        "pair": 0,
+        "time": 0,
+        "e": 0.5
+      },
+      "team_tau_days": 365,
+      "time_kernel": "none",
+      "graph_range_days": 0,
+      "MP_domain": true,
+      "domain_MG_L_days": {
+        "90": true,
+        "365": true,
+        "730": true,
+        "1460": true,
+        "all_dependent": true
+      },
+      "reference_parent": "C03"
+    },
+    {
+      "id": "C04R1",
+      "label": "persistent_repeated_pair_stronger_dependence_new_mean",
+      "margin": "working_logistic_X_beta",
+      "latent": {
+        "minus": 0,
+        "plus": 0,
+        "pair": 0.5,
+        "time": 0,
+        "e": 0.5
+      },
+      "time_kernel": "none",
+      "graph_range_days": 0,
+      "MP_domain": true,
+      "domain_MG_L_days": {
+        "90": true,
+        "365": true,
+        "730": true,
+        "1460": true,
+        "all_dependent": true
+      },
+      "reference_parent": "C04"
+    },
+    {
+      "id": "C05R1",
+      "label": "mixed_team_role_pair_stronger_dependence_new_mean",
+      "margin": "working_logistic_X_beta",
+      "latent": {
+        "minus": 0.25,
+        "plus": 0.125,
+        "pair": 0.125,
+        "time": 0,
+        "e": 0.5
+      },
+      "team_tau_days": 730,
+      "time_kernel": "none",
+      "graph_range_days": 0,
+      "MP_domain": true,
+      "domain_MG_L_days": {
+        "90": true,
+        "365": true,
+        "730": true,
+        "1460": true,
+        "all_dependent": true
+      },
+      "reference_parent": "C05"
+    },
+    {
+      "id": "C06R1",
+      "label": "finite_common_time_90_days_stronger_dependence_new_mean",
+      "margin": "working_logistic_X_beta",
+      "latent": {
+        "minus": 0.25,
+        "plus": 0,
+        "pair": 0,
+        "time": 0.375,
+        "e": 0.375
+      },
+      "team_tau_days": 730,
+      "time_kernel": "finite_gaussian_MA",
+      "time_range_days": 90,
+      "graph_range_days": 90,
+      "MP_domain": false,
+      "domain_MG_L_days": {
+        "90": true,
+        "365": true,
+        "730": true,
+        "1460": true,
+        "all_dependent": true
+      },
+      "reference_parent": "C06"
+    },
+    {
+      "id": "C07R1",
+      "label": "finite_common_time_365_days_stronger_dependence_new_mean",
+      "margin": "working_logistic_X_beta",
+      "latent": {
+        "minus": 0.25,
+        "plus": 0,
+        "pair": 0,
+        "time": 0.375,
+        "e": 0.375
+      },
+      "team_tau_days": 730,
+      "time_kernel": "finite_gaussian_MA",
+      "time_range_days": 365,
+      "graph_range_days": 365,
+      "MP_domain": false,
+      "domain_MG_L_days": {
+        "90": false,
+        "365": true,
+        "730": true,
+        "1460": true,
+        "all_dependent": true
+      },
+      "reference_parent": "C07"
+    },
+    {
+      "id": "C08R1",
+      "label": "OU_common_time_365_days_stronger_dependence_new_mean",
+      "margin": "working_logistic_X_beta",
+      "latent": {
+        "minus": 0,
+        "plus": 0,
+        "pair": 0,
+        "time": 0.375,
+        "e": 0.625
+      },
+      "time_kernel": "OU",
+      "time_tau_days": 365,
+      "graph_range_days": null,
+      "MP_domain": true,
+      "domain_MG_L_days": {
+        "90": false,
+        "365": false,
+        "730": false,
+        "1460": false,
+        "all_dependent": true
+      },
+      "reference_parent": "C08"
+    },
+    {
+      "id": "C09R1",
+      "label": "OU_common_time_and_team_stronger_dependence_new_mean",
+      "margin": "working_logistic_X_beta",
+      "latent": {
+        "minus": 0.375,
+        "plus": 0,
+        "pair": 0,
+        "time": 0.375,
+        "e": 0.25
+      },
+      "team_tau_days": 730,
+      "time_kernel": "OU",
+      "time_tau_days": 1460,
+      "graph_range_days": null,
+      "MP_domain": true,
+      "domain_MG_L_days": {
+        "90": false,
+        "365": false,
+        "730": false,
+        "1460": false,
+        "all_dependent": true
+      },
+      "reference_parent": "C09"
+    },
+    {
+      "id": "C10R1",
+      "label": "rare_home_win_stronger_dependence_new_mean",
+      "margin": "constant_0.02",
+      "latent": {
+        "minus": 0.25,
+        "plus": 0.125,
+        "pair": 0.125,
+        "time": 0,
+        "e": 0.5
+      },
+      "team_tau_days": 730,
+      "time_kernel": "none",
+      "graph_range_days": 0,
+      "MP_domain": true,
+      "domain_MG_L_days": {
+        "90": true,
+        "365": true,
+        "730": true,
+        "1460": true,
+        "all_dependent": true
+      },
+      "reference_parent": "C10"
+    },
+    {
+      "id": "C11R1",
+      "label": "near_certain_home_win_stronger_dependence_new_mean",
+      "margin": "constant_0.98",
+      "latent": {
+        "minus": 0.25,
+        "plus": 0.125,
+        "pair": 0.125,
+        "time": 0,
+        "e": 0.5
+      },
+      "team_tau_days": 730,
+      "time_kernel": "none",
+      "graph_range_days": 0,
+      "MP_domain": true,
+      "domain_MG_L_days": {
+        "90": true,
+        "365": true,
+        "730": true,
+        "1460": true,
+        "all_dependent": true
+      },
+      "reference_parent": "C11"
+    },
+    {
+      "id": "C12R1",
+      "label": "omitted_team_by_era_mean_stronger_dependence_new_mean",
+      "margin": "working_logistic_X_beta_plus_omitted_interaction",
+      "latent": {
+        "minus": 0.25,
+        "plus": 0.125,
+        "pair": 0.125,
+        "time": 0,
+        "e": 0.5
+      },
+      "team_tau_days": 730,
+      "time_kernel": "none",
+      "graph_range_days": 0,
+      "MP_domain": false,
+      "domain_MG_L_days": {
+        "90": true,
+        "365": true,
+        "730": true,
+        "1460": true,
+        "all_dependent": true
+      },
+      "reference_parent": "C12"
+    },
+    {
+      "id": "C13R1",
+      "label": "OU_longer_than_model_range_stronger_dependence_new_mean",
+      "margin": "working_logistic_X_beta",
+      "latent": {
+        "minus": 0,
+        "plus": 0,
+        "pair": 0,
+        "time": 0.375,
+        "e": 0.625
+      },
+      "time_kernel": "OU",
+      "time_tau_days": 2920,
+      "graph_range_days": null,
+      "MP_domain": false,
+      "domain_MG_L_days": {
+        "90": false,
+        "365": false,
+        "730": false,
+        "1460": false,
+        "all_dependent": true
+      },
+      "reference_parent": "C13"
+    },
+    {
+      "id": "C16R1",
+      "label": "synthetic_competition_cluster_stronger_dependence_new_mean",
+      "margin": "working_logistic_X_beta",
+      "latent": {
+        "minus": 0.25,
+        "plus": 0,
+        "pair": 0,
+        "time": 0,
+        "synthetic_competition": 0.375,
+        "e": 0.375
+      },
+      "team_tau_days": 730,
+      "time_kernel": "synthetic_competition_blocks",
+      "synthetic_groups": "Within each original tournament_name and calendar year sort by date then match_id; consecutive blocks of20 share one Gaussian shock. Stress labels only, not factual edition IDs.",
+      "graph_range_days": 365,
+      "MP_domain": false,
+      "domain_MG_L_days": {
+        "90": false,
+        "365": true,
+        "730": true,
+        "1460": true,
+        "all_dependent": true
+      },
+      "reference_parent": "C16"
+    },
+    {
+      "id": "C17R1",
+      "label": "nonstationary_common_time_loading_stronger_dependence_new_mean",
+      "margin": "working_logistic_X_beta",
+      "latent": {
+        "minus": 0.25,
+        "plus": 0,
+        "pair": 0,
+        "time": 0.375,
+        "e": 0.375
+      },
+      "team_tau_days": 730,
+      "time_kernel": "OU",
+      "time_tau_days": 365,
+      "time_loading": "g_i=0.5 before2000-01-01 and1 thereafter, date chosen as synthetic stress regime not an observed break",
+      "innovation_weight": "1-w_minus-w_time*g_i^2; each marginal latent variance remains1",
+      "graph_range_days": null,
+      "MP_domain": false,
+      "domain_MG_L_days": {
+        "90": false,
+        "365": false,
+        "730": false,
+        "1460": false,
+        "all_dependent": true
+      },
+      "reference_parent": "C17"
+    }
+  ],
+  "holdout_scenarios": [
+    "C00",
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "C06",
+    "C07",
+    "C08",
+    "C09",
+    "C10",
+    "C11",
+    "C12",
+    "C16",
+    "C17",
+    "C13"
+  ]
+}

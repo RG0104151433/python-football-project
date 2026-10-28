@@ -1,0 +1,65 @@
+{
+  "executor": "Codex AI; uncommitted source hashes; no commit/push",
+  "human_review": "not_performed",
+  "input_artifacts": {
+    "outputs/logs/reliability/joint-20261028/active_cache.json": "2336912b03d920a5f6f05556fece57708af4cc87538c50a986406013dd2ec9c6",
+    "outputs/logs/reliability/joint-20261028/guard.npz": "d57f752c9a7346e1f9c5de89ddfb56ef2afa01f927f3932ec7edaa5364692584",
+    "outputs/logs/reliability/joint-chosen-20261028/tail_weights.json": "d416238773902a163f026eccf973fab755bc878ac0b8a948c9d3ae082fb55a23",
+    "outputs/logs/reliability/joint-envelope-20261028/calibration.json": "a89118c401d75b381fdc123ef0a4d078cfdc1dafb29d29e4874e66813f0ef32c",
+    "outputs/logs/reliability/joint-envelope-20261028/model_selection.json": "358e093d360a40742f38956fe3084dd5a3acd8e71b887a57e694a3626359d27f"
+  },
+  "outputs": {
+    "outputs/logs/reliability/joint-envelope-20261028/holdout-20261028T053925927376Z/metrics.csv": "518c7fb16c9b3489681e71d3323b1b24e63ae23ff51416d186607530e8e74468",
+    "outputs/logs/reliability/joint-envelope-20261028/holdout-20261028T053925927376Z/random_states.json": "ff44650f2ee2b32eb4b00dd0c70dbf142cbce454c31c8b40c39717bea479be38",
+    "outputs/logs/reliability/joint-envelope-20261028/holdout-20261028T053925927376Z/replications.jsonl.gz": "aebcf08091ad9aa2ce75eda652a1d9b038438fd908eab6dc3babaa960be47da1",
+    "outputs/logs/reliability/joint-envelope-20261028/holdout-20261028T053925927376Z/source_snapshot/config/reliability_joint_v15.json": "69d22c7cb1435d19fb11afb166e16105e24454fa959efb240082a70d3b395937",
+    "outputs/logs/reliability/joint-envelope-20261028/holdout-20261028T053925927376Z/source_snapshot/scripts/develop_reliability_joint.py": "424364ca5ecc90a6d9e91aac8fdad436adeb0e8d155fed1c856d5e685a82f5f3",
+    "outputs/logs/reliability/joint-envelope-20261028/holdout-20261028T053925927376Z/source_snapshot/src/reliability/experiment.py": "cd2f105a4a058c3fd8c7f8299c164f92dc69effbd9a7a5fd4e9ccff4dc466492",
+    "outputs/logs/reliability/joint-envelope-20261028/holdout-20261028T053925927376Z/source_snapshot/src/reliability/guard.py": "973d95dd9fa4c0b23a79124ca7bb4f0ca19d43f61c73f97c74f9c95a9ac7eee3",
+    "outputs/logs/reliability/joint-envelope-20261028/holdout-20261028T053925927376Z/source_snapshot/src/reliability/joint.py": "20ec3568fe1ea590b6f99748a9e64276339ad556a6fe3914301f1cec7859e058",
+    "outputs/logs/reliability/joint-envelope-20261028/holdout-20261028T053925927376Z/source_snapshot/src/reliability/models.py": "8167319fd351d2ba908181fb298c2b499c1b65331d3065341fcdb6efa61bedb0",
+    "outputs/logs/reliability/joint-envelope-20261028/holdout-20261028T053925927376Z/source_snapshot/src/reliability/refinements.py": "a9ba1f14a9e0947b379d7168df2deddd2f44001ab03636c1eb73170dc17f73d9",
+    "outputs/logs/reliability/joint-envelope-20261028/holdout-20261028T053925927376Z/target_error_moments.json": "fe3c8ad44d8e58c218eaf86d7d315ee6c0fe66dc936af33868fe6a701906882b"
+  },
+  "production_method": null,
+  "real_football_intervals": false,
+  "source": {
+    "config/reliability_joint_v15.json": "69d22c7cb1435d19fb11afb166e16105e24454fa959efb240082a70d3b395937",
+    "scripts/develop_reliability_joint.py": "424364ca5ecc90a6d9e91aac8fdad436adeb0e8d155fed1c856d5e685a82f5f3",
+    "src/reliability/experiment.py": "cd2f105a4a058c3fd8c7f8299c164f92dc69effbd9a7a5fd4e9ccff4dc466492",
+    "src/reliability/guard.py": "973d95dd9fa4c0b23a79124ca7bb4f0ca19d43f61c73f97c74f9c95a9ac7eee3",
+    "src/reliability/joint.py": "20ec3568fe1ea590b6f99748a9e64276339ad556a6fe3914301f1cec7859e058",
+    "src/reliability/models.py": "8167319fd351d2ba908181fb298c2b499c1b65331d3065341fcdb6efa61bedb0",
+    "src/reliability/refinements.py": "a9ba1f14a9e0947b379d7168df2deddd2f44001ab03636c1eb73170dc17f73d9"
+  },
+  "stage": "holdout",
+  "status": "completed_experiment_not_automatic_model_approval",
+  "summary": {
+    "counts": {
+      "C00": 1000,
+      "C01": 1000,
+      "C02": 1000,
+      "C03": 1000,
+      "C04": 1000,
+      "C05": 1000,
+      "C06": 1000,
+      "C07": 1000,
+      "C08": 1000,
+      "C09": 1000,
+      "C10": 1000,
+      "C11": 1000,
+      "C12": 1000,
+      "C13": 1000,
+      "C16": 1000,
+      "C17": 1000
+    },
+    "cpu_seconds_workers": 136.09375,
+    "model_names": [
+      "J1_restricted_coarse@0.1"
+    ],
+    "outer_records": 16000,
+    "real_football_intervals": false,
+    "stage": "holdout",
+    "wall_seconds": 60.44475019999663
+  }
+}

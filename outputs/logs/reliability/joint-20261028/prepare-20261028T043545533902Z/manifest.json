@@ -1,0 +1,73 @@
+{
+  "executor": "Codex AI; uncommitted source hashes; no commit/push",
+  "human_review": "not_performed",
+  "outputs": {
+    "outputs/logs/reliability/joint-20261028/prepare-20261028T043545533902Z/cache.npz": "4c651b35899c875adaa72154f6d34d2bd88444f61153a06a70fec393a8013607",
+    "outputs/logs/reliability/joint-20261028/prepare-20261028T043545533902Z/design_binding.json": "241b37c4bbb7e48c9121dfe8e74e4e31fcca1f704baae33bf5d63e8b75b54e52",
+    "outputs/logs/reliability/joint-20261028/prepare-20261028T043545533902Z/source_snapshot/config/reliability_joint_v8.json": "c82c3ce58deb92b2ec1f7141839283919c7377b9c50ccf5269b9fbd70d05b202",
+    "outputs/logs/reliability/joint-20261028/prepare-20261028T043545533902Z/source_snapshot/scripts/develop_reliability_joint.py": "1b7526e0771eb08631e9c82676c5444ba1f5bb8a566f7c7874045d11d00e4f16",
+    "outputs/logs/reliability/joint-20261028/prepare-20261028T043545533902Z/source_snapshot/src/reliability/experiment.py": "cd2f105a4a058c3fd8c7f8299c164f92dc69effbd9a7a5fd4e9ccff4dc466492",
+    "outputs/logs/reliability/joint-20261028/prepare-20261028T043545533902Z/source_snapshot/src/reliability/joint.py": "20ec3568fe1ea590b6f99748a9e64276339ad556a6fe3914301f1cec7859e058",
+    "outputs/logs/reliability/joint-20261028/prepare-20261028T043545533902Z/source_snapshot/src/reliability/models.py": "8167319fd351d2ba908181fb298c2b499c1b65331d3065341fcdb6efa61bedb0",
+    "outputs/logs/reliability/joint-20261028/prepare-20261028T043545533902Z/source_snapshot/src/reliability/refinements.py": "a9ba1f14a9e0947b379d7168df2deddd2f44001ab03636c1eb73170dc17f73d9"
+  },
+  "production_method": null,
+  "real_football_intervals": false,
+  "source": {
+    "config/reliability_joint_v8.json": "c82c3ce58deb92b2ec1f7141839283919c7377b9c50ccf5269b9fbd70d05b202",
+    "scripts/develop_reliability_joint.py": "1b7526e0771eb08631e9c82676c5444ba1f5bb8a566f7c7874045d11d00e4f16",
+    "src/reliability/experiment.py": "cd2f105a4a058c3fd8c7f8299c164f92dc69effbd9a7a5fd4e9ccff4dc466492",
+    "src/reliability/joint.py": "20ec3568fe1ea590b6f99748a9e64276339ad556a6fe3914301f1cec7859e058",
+    "src/reliability/models.py": "8167319fd351d2ba908181fb298c2b499c1b65331d3065341fcdb6efa61bedb0",
+    "src/reliability/refinements.py": "a9ba1f14a9e0947b379d7168df2deddd2f44001ab03636c1eb73170dc17f73d9"
+  },
+  "stage": "prepare",
+  "status": "completed_experiment_not_automatic_model_approval",
+  "summary": {
+    "cache_sha256": "4c651b35899c875adaa72154f6d34d2bd88444f61153a06a70fec393a8013607",
+    "cpu_seconds": 35.140625,
+    "kernel_labels": [
+      "independent",
+      "pair",
+      "minus:30",
+      "plus:30",
+      "minus:365",
+      "plus:365",
+      "minus:730",
+      "plus:730",
+      "minus:1460",
+      "plus:1460",
+      "minus:3650",
+      "plus:3650",
+      "time:30",
+      "time:365",
+      "time:730",
+      "time:1460",
+      "time:2920"
+    ],
+    "mean_rank": 229,
+    "n": 24917,
+    "pair_source_sha256": "9922ab1f68e0a1be10d37e9ce28249172d457ddb7c0b7036677351eca01a103d",
+    "singular_values": [
+      5.879001249436368,
+      3.8447600217327276,
+      2.4205227948213515,
+      1.3486428751538575,
+      1.1620846895347967,
+      0.7640071082667688,
+      0.6847635568596507,
+      0.6339544173805701,
+      0.385060041657928,
+      0.3057961094763765,
+      0.1635885116962428,
+      0.11719994735388174,
+      0.10116183129561752,
+      0.02906522769799412,
+      0.025598475058580004,
+      0.014538745225214075,
+      0.001248515402455596
+    ],
+    "targets": 198,
+    "unsupported": 94
+  }
+}

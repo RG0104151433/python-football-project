@@ -1,0 +1,21 @@
+{
+  "decision_log_id": "R20261028-05",
+  "status": "config_frozen_before_new_football_intervals",
+  "config": "config/reliability_analysis.json",
+  "config_sha256": "d600bc2757a551d8ea91b32fd3ddb026bb529de17ba8f6694fb797500c174bfc",
+  "design_document_sha256": "1fac4544e0f2cc2238c4562c354d91f80c62e2841e6cd234c038086888a2ca0a",
+  "planned_scenarios": 324,
+  "variants_uncertainty": "descriptive_only_not_recalibrated",
+  "model_and_thresholds_not_retuned": true,
+  "executor": "Codex AI",
+  "human_review": "not_performed",
+  "test_development": "4 new synthetic counterexample tests passed",
+  "startup_failure": {
+    "error": "SyntaxError: missing closing bracket in initial display_data list comprehension",
+    "new_statistics_started": false,
+    "execution_hash_not_captured": true,
+    "repair": "Fixed bracket before successful check-only run"
+  },
+  "check_run": "outputs/logs/reliability/applied-20261028T083551605357Z-7b247e2c",
+  "check_only_not_football_intervals": true
+}

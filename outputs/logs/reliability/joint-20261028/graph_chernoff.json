@@ -1,0 +1,13 @@
+{
+  "CPU_seconds": 77.734375,
+  "code_sha256": "c13bf1e39f9cad4261c087e82dce10e9f28e44e39db86b6832ff2a559590c808",
+  "graph_independence_assumption_not_certified": true,
+  "mathematical_guarantee": "same graph assumption; Bernoulli supremumMGF andHolder; no outcome-based choice",
+  "n": 24917,
+  "ranges": 5,
+  "rows": 990,
+  "script_sha256": "15ba756ba41ed1cc75614ae4cec44160bfd84e45b793ecf6915e9719593680c9",
+  "source": "outputs/logs/reliability/refined-graph-20261028T010916841071Z/graph_constants.json",
+  "source_sha256": "c6f8b59f55502b329817bbcff93aeb1fabefc5695c4f61e3fc64655bdba49e2c",
+  "targets": 198
+}

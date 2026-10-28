@@ -1,0 +1,41 @@
+{
+  "executor": "Codex AI; uncommitted source hashes; no commit/push",
+  "human_review": "not_performed",
+  "outputs": {
+    "outputs/logs/reliability/joint-20261028/probe-20261028T043748354906Z/random_states.json": "2eebbdb3d146a18de7f63c9924b75a32a5b8ae25866fc91d44457abe50a34016",
+    "outputs/logs/reliability/joint-20261028/probe-20261028T043748354906Z/replications.jsonl": "484bd1d5d9d4a12e9d5c90c822cb0b77f1939014308513825c80f340a47be814",
+    "outputs/logs/reliability/joint-20261028/probe-20261028T043748354906Z/source_snapshot/config/reliability_joint_v8.json": "c82c3ce58deb92b2ec1f7141839283919c7377b9c50ccf5269b9fbd70d05b202",
+    "outputs/logs/reliability/joint-20261028/probe-20261028T043748354906Z/source_snapshot/scripts/develop_reliability_joint.py": "1b7526e0771eb08631e9c82676c5444ba1f5bb8a566f7c7874045d11d00e4f16",
+    "outputs/logs/reliability/joint-20261028/probe-20261028T043748354906Z/source_snapshot/src/reliability/experiment.py": "cd2f105a4a058c3fd8c7f8299c164f92dc69effbd9a7a5fd4e9ccff4dc466492",
+    "outputs/logs/reliability/joint-20261028/probe-20261028T043748354906Z/source_snapshot/src/reliability/joint.py": "20ec3568fe1ea590b6f99748a9e64276339ad556a6fe3914301f1cec7859e058",
+    "outputs/logs/reliability/joint-20261028/probe-20261028T043748354906Z/source_snapshot/src/reliability/models.py": "8167319fd351d2ba908181fb298c2b499c1b65331d3065341fcdb6efa61bedb0",
+    "outputs/logs/reliability/joint-20261028/probe-20261028T043748354906Z/source_snapshot/src/reliability/refinements.py": "a9ba1f14a9e0947b379d7168df2deddd2f44001ab03636c1eb73170dc17f73d9"
+  },
+  "production_method": null,
+  "real_football_intervals": false,
+  "source": {
+    "config/reliability_joint_v8.json": "c82c3ce58deb92b2ec1f7141839283919c7377b9c50ccf5269b9fbd70d05b202",
+    "scripts/develop_reliability_joint.py": "1b7526e0771eb08631e9c82676c5444ba1f5bb8a566f7c7874045d11d00e4f16",
+    "src/reliability/experiment.py": "cd2f105a4a058c3fd8c7f8299c164f92dc69effbd9a7a5fd4e9ccff4dc466492",
+    "src/reliability/joint.py": "20ec3568fe1ea590b6f99748a9e64276339ad556a6fe3914301f1cec7859e058",
+    "src/reliability/models.py": "8167319fd351d2ba908181fb298c2b499c1b65331d3065341fcdb6efa61bedb0",
+    "src/reliability/refinements.py": "a9ba1f14a9e0947b379d7168df2deddd2f44001ab03636c1eb73170dc17f73d9"
+  },
+  "stage": "probe",
+  "status": "completed_experiment_not_automatic_model_approval",
+  "summary": {
+    "counts": {
+      "C09": 20
+    },
+    "cpu_seconds_workers": 0.203125,
+    "model_names": [
+      "J0_naive",
+      "J1_restricted_coarse",
+      "J2_restricted_multiscale"
+    ],
+    "outer_records": 20,
+    "real_football_intervals": false,
+    "stage": "probe",
+    "wall_seconds": 19.96803610000643
+  }
+}

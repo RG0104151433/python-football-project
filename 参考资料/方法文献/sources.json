@@ -368,6 +368,42 @@
       "status": "failed_no_local_original",
       "local_path": null,
       "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "Q4-P11",
+      "title": "Estimation of variance and covariance components—MINQUE theory",
+      "authors": "C. Radhakrishna Rao",
+      "doi": "10.1016/0047-259X(71)90001-7",
+      "version": "1971 Journal of Multivariate Analysis1(3),257–275; publisher metadata/abstract only",
+      "requested_url": "https://www.sciencedirect.com/science/article/pii/0047259X71900017",
+      "retrieved_at_utc": "2026-10-28T05:03:56.012134+00:00",
+      "status": "failed_no_local_original",
+      "local_path": null,
+      "bytes": null,
+      "sha256": null,
+      "error": "HTTPError:HTTP Error 403: Forbidden",
+      "decision_log_id": "R20261028-03",
+      "reading_scope": "Primary publisher search metadata/abstract; direct page and local original403. No full theorem or MINQUE optimality transfer claimed.",
+      "project_limits": "Restricted weighted pair moments with nonnegative constraints are a project estimator, not a claim to be the original unbiased/minimum-norm MINQUE.",
+      "git_policy": "no local original"
+    },
+    {
+      "id": "Q4-P12",
+      "title": "Distribution-Free Predictive Inference for Regression",
+      "authors": "Jing Lei; Max G’Sell; Alessandro Rinaldo; Ryan J. Tibshirani; Larry Wasserman",
+      "doi": "10.1080/01621459.2017.1307116",
+      "version": "Author-hosted publisher PDF; cover2018 vol0 no0 pp1–18; no claim of final bound volume/issue",
+      "requested_url": "https://www.stat.cmu.edu/~ryantibs/papers/conformal-jasa.pdf",
+      "retrieved_at_utc": "2026-10-28T05:03:57.526238+00:00",
+      "status": "downloaded",
+      "local_path": "原文/Lei_etal_2018_conformal_author.pdf",
+      "bytes": 4348403,
+      "sha256": "bc48af474aebf5b2422520ff83231849ad3b599ea8acf685606a7e81cdf8784d",
+      "error": null,
+      "decision_log_id": "R20261028-03",
+      "reading_scope": "Online author PDF section2 opening quantile/rank lemma and section2.2 split discussion. Project rederives archive-level score calibration, not individual-match conformal confidence for unknown means.",
+      "project_limits": "Independent units are complete GENERATED fixed-design outcome vectors. Real matches are not treated as iid. Finite reference-world guarantee does not establish a real-football law or continuous-nuisance uniform validity.",
+      "git_policy": "public author-hosted original retained under user authorization; no commit/push"
     }
   ],
   "reading_events": [
@@ -777,6 +813,16 @@
       "new_downloads": false,
       "new_paper_reading_claimed": false,
       "scope": "Common-reference descriptive standardization only; dyadic inference and sensitivity remain not run"
+    },
+    {
+      "decision_log_id": "R20261028-03",
+      "type": "joint_method_theory_and_archive_rank_calibration",
+      "new_ids": [
+        "Q4-P11",
+        "Q4-P12"
+      ],
+      "retrieval_record": "outputs/logs/reliability/joint-20261028/source_retrieval.json",
+      "limits": "Own moment/GLS/score derivations; no transfer of Gaussian likelihood or individual-match conformal prediction theorem."
     }
   ]
 }

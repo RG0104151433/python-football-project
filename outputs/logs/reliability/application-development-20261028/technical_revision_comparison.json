@@ -1,0 +1,12 @@
+{
+  "decision_log_id": "R20261028-05",
+  "old_table_directory": "outputs/tables/reliability/applied-a6de2cb975d3798565c98c15",
+  "current_table_directory": "outputs/tables/reliability/applied-ab04b82da3b12ca434239452",
+  "exact_byte_same": {
+    "interval_results.csv": true,
+    "bounded_reference.csv": true,
+    "sensitivity_cells.csv.gz": true,
+    "sensitivity_references.csv": true
+  },
+  "changed": "Only applicable/reference-impact flags and derived summaries plus plot labels; no model parameters or interval endpoint tuning"
+}

@@ -1,0 +1,61 @@
+{
+  "executor": "Codex AI; uncommitted source hashes; no commit/push",
+  "human_review": "not_performed",
+  "input_artifacts": {
+    "outputs/logs/reliability/joint-20261028/active_cache.json": "2336912b03d920a5f6f05556fece57708af4cc87538c50a986406013dd2ec9c6",
+    "outputs/logs/reliability/joint-20261028/guard.npz": "d57f752c9a7346e1f9c5de89ddfb56ef2afa01f927f3932ec7edaa5364692584",
+    "outputs/logs/reliability/joint-final-20261028/model_selection.json": "08a22edb88e491fa21b1c1d31afc85178d7a8037df869c03ec9b0a36ac8ab1d4"
+  },
+  "outputs": {
+    "outputs/logs/reliability/joint-final-20261028/calibration-20261028T045629668647Z/random_states.json": "1862a5b2ced76e4d956cca8f1ef1313d3477fdadf58e8484a8cbfd2b381118e1",
+    "outputs/logs/reliability/joint-final-20261028/calibration-20261028T045629668647Z/replications.jsonl.gz": "215218b6ed0edcc6920b343598f9e5955e1b325a358c77e85fbabbdf8d74b7c5",
+    "outputs/logs/reliability/joint-final-20261028/calibration-20261028T045629668647Z/source_snapshot/config/reliability_joint_v11.json": "b095279b409151736c2bbd6a2e549c4352c83132afd29116a807fbeabf34ba25",
+    "outputs/logs/reliability/joint-final-20261028/calibration-20261028T045629668647Z/source_snapshot/scripts/develop_reliability_joint.py": "cc188ff8616e6a954062b76dc7b5c89c0e01454a61c58325648376c30f3800d1",
+    "outputs/logs/reliability/joint-final-20261028/calibration-20261028T045629668647Z/source_snapshot/src/reliability/experiment.py": "cd2f105a4a058c3fd8c7f8299c164f92dc69effbd9a7a5fd4e9ccff4dc466492",
+    "outputs/logs/reliability/joint-final-20261028/calibration-20261028T045629668647Z/source_snapshot/src/reliability/guard.py": "973d95dd9fa4c0b23a79124ca7bb4f0ca19d43f61c73f97c74f9c95a9ac7eee3",
+    "outputs/logs/reliability/joint-final-20261028/calibration-20261028T045629668647Z/source_snapshot/src/reliability/joint.py": "20ec3568fe1ea590b6f99748a9e64276339ad556a6fe3914301f1cec7859e058",
+    "outputs/logs/reliability/joint-final-20261028/calibration-20261028T045629668647Z/source_snapshot/src/reliability/models.py": "8167319fd351d2ba908181fb298c2b499c1b65331d3065341fcdb6efa61bedb0",
+    "outputs/logs/reliability/joint-final-20261028/calibration-20261028T045629668647Z/source_snapshot/src/reliability/refinements.py": "a9ba1f14a9e0947b379d7168df2deddd2f44001ab03636c1eb73170dc17f73d9",
+    "outputs/logs/reliability/joint-final-20261028/calibration-20261028T045629668647Z/target_error_moments.json": "52d2b52fb9adbabf67d20c3463fe6c85c1f653a097475b377c980267500585ea"
+  },
+  "production_method": null,
+  "real_football_intervals": false,
+  "source": {
+    "config/reliability_joint_v11.json": "b095279b409151736c2bbd6a2e549c4352c83132afd29116a807fbeabf34ba25",
+    "scripts/develop_reliability_joint.py": "cc188ff8616e6a954062b76dc7b5c89c0e01454a61c58325648376c30f3800d1",
+    "src/reliability/experiment.py": "cd2f105a4a058c3fd8c7f8299c164f92dc69effbd9a7a5fd4e9ccff4dc466492",
+    "src/reliability/guard.py": "973d95dd9fa4c0b23a79124ca7bb4f0ca19d43f61c73f97c74f9c95a9ac7eee3",
+    "src/reliability/joint.py": "20ec3568fe1ea590b6f99748a9e64276339ad556a6fe3914301f1cec7859e058",
+    "src/reliability/models.py": "8167319fd351d2ba908181fb298c2b499c1b65331d3065341fcdb6efa61bedb0",
+    "src/reliability/refinements.py": "a9ba1f14a9e0947b379d7168df2deddd2f44001ab03636c1eb73170dc17f73d9"
+  },
+  "stage": "calibration",
+  "status": "completed_experiment_not_automatic_model_approval",
+  "summary": {
+    "counts": {
+      "C00": 1999,
+      "C01": 1999,
+      "C02": 1999,
+      "C03": 1999,
+      "C04": 1999,
+      "C05": 1999,
+      "C06": 1999,
+      "C07": 1999,
+      "C08": 1999,
+      "C09": 1999,
+      "C10": 1999,
+      "C11": 1999,
+      "C12": 1999,
+      "C16": 1999,
+      "C17": 1999
+    },
+    "cpu_seconds_workers": 224.703125,
+    "model_names": [
+      "J1_restricted_coarse@0.1"
+    ],
+    "outer_records": 29985,
+    "real_football_intervals": false,
+    "stage": "calibration",
+    "wall_seconds": 81.36144020000938
+  }
+}

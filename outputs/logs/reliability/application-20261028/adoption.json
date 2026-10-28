@@ -1,0 +1,55 @@
+{
+  "decision_log_id": "R20261028-05",
+  "status": "completed_and_adopted_model_conditional_application",
+  "analysis_id": "applied-ab04b82da3b12ca434239452",
+  "model": "J-RMC6-T-v15",
+  "run": "outputs/logs/reliability/applied-20261028T085135016736Z-34239452",
+  "repeat_run": "outputs/logs/reliability/applied-20261028T085541920014Z-34239452",
+  "tables": "outputs/tables/reliability/applied-ab04b82da3b12ca434239452",
+  "figures": "outputs/figures/reliability/applied-ab04b82da3b12ca434239452",
+  "catalogue_rows": 292,
+  "model_conditional_intervals": 198,
+  "unsupported_main_rows": 94,
+  "sensitivity_scenarios": 324,
+  "sensitivity_rows": 26704,
+  "unsupported_variant_rows": 1277,
+  "newly_estimable_variant_rows": 20,
+  "coarse_supplementary_new_target_rows": 1,
+  "common_teams": 153,
+  "common_subset_matches": 17760,
+  "tests": 75,
+  "independent_checks": 871772,
+  "first_final_audit_checks": 871769,
+  "repeated_core_files": 31,
+  "repeated_core_bytes_identical": true,
+  "registered_evidence": {
+    "outputs/logs/reliability/applied-20261028T085135016736Z-34239452/run_manifest.json": "368bbdf1dcb31de7d281fad3e5e8ab768785c62cbc46c7302666416fa3d7c288",
+    "outputs/logs/reliability/applied-20261028T085541920014Z-34239452/run_manifest.json": "d686232192db8b38cd3f311ff37e1300f3d4619631336412ced0f4aac5e48674",
+    "outputs/logs/reliability/applied-20261028T085135016736Z-34239452/independent_audit.json": "6f01c787a6998311d21f458041adb07b85b0fffc4ed3c1e557bd62651709c2fc",
+    "outputs/logs/reliability/applied-20261028T085541920014Z-34239452/independent_audit.json": "2c3f09c30328ce47131f1c087d70cf399dc13a18d414da12cef522e43335559c",
+    "outputs/logs/reliability/application-development-20261028/final_tests.xml": "4f3c4880298b651a9caf06c57cb9c499d16d191f37e622029648371e9fbc740f"
+  },
+  "source_state": "Uncommitted execution recorded by content SHA and per-run source_snapshot; no commit/push",
+  "raw_or_parent_results_overwritten": false,
+  "old_main_interpretation": "Original descriptive tables remain source records; current interpretation is overlaid in stage documents",
+  "human_review": "not_performed",
+  "deferred": [
+    "final HTML",
+    "paper body",
+    "A/B actual independent reproduction",
+    "presentation rehearsal"
+  ],
+  "limits": [
+    "finite reference laws do not certify actual football law",
+    "C14 permanent common-shock pressure failure retained",
+    "changed targets have no recalibrated intervals",
+    "no causal or pre-match strength adjustment"
+  ],
+  "history": {
+    "first_check_only": "outputs/logs/reliability/applied-20261028T083551605357Z-7b247e2c",
+    "unadopted_initial_application": "outputs/logs/reliability/applied-20261028T084005330283Z-65c98c15",
+    "corrections": "outputs/logs/reliability/application-development-20261028/iteration_record.json"
+  },
+  "verification_closeout": "outputs/logs/reliability/application-20261028/verification_closeout.json",
+  "completion_scope": "All R04 minimum computations; optional analyses and unsupported scientific claims remain outside scope"
+}

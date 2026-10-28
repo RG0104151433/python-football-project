@@ -1,0 +1,11 @@
+{
+  "selected_model": "J1_restricted_coarse@0.1",
+  "selected_tail_gamma": 1,
+  "parent_selection": "outputs/logs/reliability/joint-chosen-20261028/model_selection.json",
+  "revision_after_failed_validation": true,
+  "new_calibration_seen": false,
+  "new_validation_seen": false,
+  "new_holdout_seen": false,
+  "production_approved": false,
+  "scope": "32 explicit reference laws, not continuous parameter robustness; extra worlds are synthetic stress assumptions, not estimated football distributions. Holdout new seeds and +/-20% variation remain outside exact theorem unless identical to a reference law."
+}

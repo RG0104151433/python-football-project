@@ -1,0 +1,43 @@
+{
+  "all_constant": false,
+  "kernel_labels": [
+    "independent",
+    "pair",
+    "minus:30",
+    "plus:30",
+    "minus:365",
+    "plus:365",
+    "minus:730",
+    "plus:730",
+    "minus:1460",
+    "plus:1460",
+    "minus:3650",
+    "plus:3650",
+    "time:30",
+    "time:365",
+    "time:730",
+    "time:1460",
+    "time:2920"
+  ],
+  "mean_working_model_not_probability": true,
+  "previous_scales_reproduced": true,
+  "theta": [
+    0.06707953701571076,
+    0.0,
+    0.0,
+    0.0,
+    0.06322162236357541,
+    0.06356623616465062,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.005437271864788312,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,1257 @@
+{
+  "selection-0000d5624bb7d2374dd2b34d": {
+    "kind": "without_team",
+    "team": "team:guinea-bissau"
+  },
+  "selection-007e6faf2c0889cb1a6c1859": {
+    "kind": "without_year",
+    "year": 2010
+  },
+  "selection-00e9b1b07b798550db0f5af5": {
+    "kind": "without_team",
+    "team": "team:tanzania"
+  },
+  "selection-00f7cca83ecabc4edc2762c7": {
+    "kind": "without_team",
+    "team": "team:lesotho"
+  },
+  "selection-0170c415f4338ea8f4e31e1d": {
+    "kind": "without_team",
+    "team": "team:saint-vincent-and-the-grenadines"
+  },
+  "selection-0177338c1b6c2d3c640b6e18": {
+    "kind": "without_team",
+    "team": "team:el-salvador"
+  },
+  "selection-02578c61fb8efd2cc781a31c": {
+    "kind": "without_team",
+    "team": "team:poland"
+  },
+  "selection-02b27b83b30400db6c68c2c7": {
+    "kind": "without_team",
+    "team": "team:liechtenstein"
+  },
+  "selection-03997d8a1dcbbc79a7b294a0": {
+    "kind": "all",
+    "tag": "Q2_window_equal_years"
+  },
+  "selection-04f268d9b99be9ac47196a81": {
+    "kind": "without_team",
+    "team": "team:mongolia"
+  },
+  "selection-05a96d171433571383ee871f": {
+    "kind": "without_team",
+    "team": "team:new-caledonia"
+  },
+  "selection-05f2a2a2dd02456f2da316b2": {
+    "kind": "without_year",
+    "year": 1983
+  },
+  "selection-061396847ef042bd68b52043": {
+    "kind": "without_team",
+    "team": "team:sierra-leone"
+  },
+  "selection-0656d9e09c829bf87292ebdf": {
+    "kind": "without_team",
+    "team": "team:dominican-republic"
+  },
+  "selection-07aec993fbd4bcf12c164a42": {
+    "kind": "without_team",
+    "team": "team:nicaragua"
+  },
+  "selection-081ff5a9a6a5d1d924664c7f": {
+    "kind": "without_year",
+    "year": 2021
+  },
+  "selection-085c7644f357e254c3bc8249": {
+    "kind": "without_team",
+    "team": "team:gibraltar"
+  },
+  "selection-099bba83252b0b670a8a3c72": {
+    "kind": "without_year",
+    "year": 2009
+  },
+  "selection-0a4f357cffaac9fce658d003": {
+    "kind": "without_team",
+    "team": "team:mexico"
+  },
+  "selection-0c1e898cd100e8f814fc15f9": {
+    "kind": "without_team",
+    "team": "team:san-marino"
+  },
+  "selection-0e561b49ef9add2323b00dee": {
+    "kind": "without_team",
+    "team": "team:grenada"
+  },
+  "selection-110ba05a89d485fcbb579cb0": {
+    "kind": "without_team",
+    "team": "team:luxembourg"
+  },
+  "selection-112ea90d5d03a773a9055ffd": {
+    "kind": "without_team",
+    "team": "team:bahamas"
+  },
+  "selection-114038cfe605516a71331d49": {
+    "kind": "without_team",
+    "team": "team:iran"
+  },
+  "selection-11ee0f0bcf2937358cd68ce8": {
+    "kind": "without_team",
+    "team": "team:serbia"
+  },
+  "selection-134f249899a908050bf9da50": {
+    "kind": "without_team",
+    "team": "team:north-korea"
+  },
+  "selection-13f08b4bad04ddb706e3cfac": {
+    "kind": "without_team",
+    "team": "team:faroe-islands"
+  },
+  "selection-1473fd5095a910bf12249c8c": {
+    "kind": "without_team",
+    "team": "team:central-african-republic"
+  },
+  "selection-16121cf4cc8df9dcf9a9dfcb": {
+    "kind": "without_team",
+    "team": "team:suriname"
+  },
+  "selection-17a08f723e1be99653ecd571": {
+    "kind": "without_year",
+    "year": 2012
+  },
+  "selection-17eaf276ca441e58bb86c88e": {
+    "kind": "without_team",
+    "team": "team:ivory-coast"
+  },
+  "selection-190ee7e49843d7025d74a9a2": {
+    "kind": "without_team",
+    "team": "team:mali"
+  },
+  "selection-19ec1f2d6390bf96eaadefff": {
+    "kind": "known_both"
+  },
+  "selection-1b9d24736a96b9ce67efea40": {
+    "kind": "without_team",
+    "team": "team:burundi"
+  },
+  "selection-1bef2be89ecb27d8dea84454": {
+    "kind": "without_team",
+    "team": "team:cuba"
+  },
+  "selection-1c00dac99c0c99e4255a693a": {
+    "kind": "without_team",
+    "team": "team:united-states-virgin-islands"
+  },
+  "selection-1e4a63364e0df13af3ce315b": {
+    "kind": "without_team",
+    "team": "team:cook-islands"
+  },
+  "selection-1ea0ed00d202aeca007cc5fe": {
+    "kind": "without_team",
+    "team": "team:sweden"
+  },
+  "selection-1eab1f4b7f59aad6f28c4e21": {
+    "kind": "without_team",
+    "team": "team:solomon-islands"
+  },
+  "selection-2090ea3c85f6eee58e1b3e64": {
+    "kind": "without_team",
+    "team": "team:ecuador"
+  },
+  "selection-211e9aab189e75bbef968710": {
+    "kind": "without_team",
+    "team": "team:slovenia"
+  },
+  "selection-22dd099463b3e8f25baac36d": {
+    "kind": "without_team",
+    "team": "team:antigua-and-barbuda"
+  },
+  "selection-246dd8f046a23a52c022047d": {
+    "kind": "without_team",
+    "team": "team:china"
+  },
+  "selection-248b5333c2ca346baa085571": {
+    "kind": "without_team",
+    "team": "team:mauritania"
+  },
+  "selection-2509bc58eb195e6bce7c110f": {
+    "kind": "without_team",
+    "team": "team:guinea"
+  },
+  "selection-2625358a4144c51202d3cc27": {
+    "kind": "all",
+    "tag": "Q2_equal_eras"
+  },
+  "selection-29d8e0bec8c87b419ca545f6": {
+    "kind": "without_year",
+    "year": 2018
+  },
+  "selection-2a49e8a1c159bca56249fd67": {
+    "kind": "without_team",
+    "team": "team:gambia"
+  },
+  "selection-2b2377fcd83ec4ccd162d011": {
+    "kind": "without_team",
+    "team": "team:indonesia"
+  },
+  "selection-2bd42f837a8ebf487eb3dd23": {
+    "kind": "without_team",
+    "team": "team:lithuania"
+  },
+  "selection-2ddc261b7c8318b02acc35c1": {
+    "kind": "without_team",
+    "team": "team:malawi"
+  },
+  "selection-2fba5c63f292cae67a2cfdc0": {
+    "kind": "without_team",
+    "team": "team:united-states"
+  },
+  "selection-2fde92c93694959114b60153": {
+    "kind": "without_team",
+    "team": "team:oman"
+  },
+  "selection-3091c9b8b64ad0c89b5ca534": {
+    "kind": "without_team",
+    "team": "team:armenia"
+  },
+  "selection-3211833ec6a0970406cc6a45": {
+    "kind": "without_team",
+    "team": "team:singapore"
+  },
+  "selection-327116974c4f3a88e049b1db": {
+    "kind": "without_team",
+    "team": "team:lebanon"
+  },
+  "selection-32a3a5bd91c85d765b8d6f25": {
+    "kind": "without_team",
+    "team": "team:barbados"
+  },
+  "selection-32d2f60682656ba63c49e6c7": {
+    "kind": "without_team",
+    "team": "team:maldives"
+  },
+  "selection-33c8f6ffa51770789781f7ec": {
+    "kind": "without_team",
+    "team": "team:israel"
+  },
+  "selection-33d9c1f1d87f5922c4c4a2df": {
+    "kind": "without_team",
+    "team": "team:ethiopia"
+  },
+  "selection-3490ea3029e9c315802a344e": {
+    "kind": "without_team",
+    "team": "team:macau"
+  },
+  "selection-35a356df73cda52958d623dc": {
+    "kind": "without_team",
+    "team": "team:myanmar"
+  },
+  "selection-3684d21ad0071ddcc2e9b18e": {
+    "kind": "relabel",
+    "removed": [
+      "team:turkey"
+    ]
+  },
+  "selection-37013a6be9ed29adbde7f296": {
+    "kind": "without_team",
+    "team": "team:argentina"
+  },
+  "selection-3ad97e9cf3dbd2f5bc0fc887": {
+    "kind": "without_team",
+    "team": "team:papua-new-guinea"
+  },
+  "selection-3b261a2c5d3bf0410bea589d": {
+    "kind": "without_team",
+    "team": "team:sri-lanka"
+  },
+  "selection-3b58ccbed4c1b97bf25a5a3d": {
+    "kind": "without_team",
+    "team": "team:finland"
+  },
+  "selection-3bda706be7257b29ca89fe1e": {
+    "kind": "without_year",
+    "year": 2015
+  },
+  "selection-3ed9fe5100511c7a45580b01": {
+    "kind": "without_team",
+    "team": "team:haiti"
+  },
+  "selection-3f2cfc8e731a41ef8bb6ab35": {
+    "kind": "without_team",
+    "team": "team:czechoslovakia"
+  },
+  "selection-3f6c84a3983639be9aceb7b1": {
+    "kind": "without_team",
+    "team": "team:benin"
+  },
+  "selection-405ff4595704f0dbca835020": {
+    "kind": "without_year",
+    "year": 2014
+  },
+  "selection-40a21797eaa1af2e2361ae75": {
+    "kind": "without_team",
+    "team": "team:iceland"
+  },
+  "selection-40e994bdb058619ded09bd3f": {
+    "kind": "without_team",
+    "team": "team:england"
+  },
+  "selection-414283d180d3cf9a17d77404": {
+    "kind": "without_team",
+    "team": "team:south-africa"
+  },
+  "selection-436479865d0eb070bd3f6874": {
+    "kind": "without_year",
+    "year": 1991
+  },
+  "selection-471f5e7e84bad49cfaee4361": {
+    "kind": "without_team",
+    "team": "team:somalia"
+  },
+  "selection-47d62507fa99f6183dd55c7e": {
+    "kind": "without_team",
+    "team": "team:mozambique"
+  },
+  "selection-484ccbd567ac5b9d3597873a": {
+    "kind": "without_team",
+    "team": "team:bahrain"
+  },
+  "selection-4a5a762153c10e3692f40ce7": {
+    "kind": "without_team",
+    "team": "team:timor-leste"
+  },
+  "selection-4ab0267ca45996557266d9b8": {
+    "kind": "without_team",
+    "team": "team:anguilla"
+  },
+  "selection-4b25a78724abd4ebbb6e6d84": {
+    "kind": "without_team",
+    "team": "team:puerto-rico"
+  },
+  "selection-4b98d6bbc55d1e2aea7bb1f5": {
+    "kind": "without_team",
+    "team": "team:dominica"
+  },
+  "selection-4bff8dbdde0594380767db4e": {
+    "kind": "without_year",
+    "year": 1982
+  },
+  "selection-4c6eb090ebdc1987257fd620": {
+    "kind": "without_team",
+    "team": "team:jordan"
+  },
+  "selection-4d7c7088a481b33944c45141": {
+    "kind": "without_team",
+    "team": "team:estonia"
+  },
+  "selection-4ed342675bb9b36725da877a": {
+    "kind": "without_team",
+    "team": "team:kuwait"
+  },
+  "selection-4ef2e1ea5235ab466ee8fa61": {
+    "kind": "without_year",
+    "year": 1998
+  },
+  "selection-4f5d10b02a80bf3298ebf643": {
+    "kind": "relabel",
+    "removed": [
+      "team:iran",
+      "team:australia",
+      "team:turkey"
+    ]
+  },
+  "selection-5013d02a50310d9ada7d91f8": {
+    "kind": "without_team",
+    "team": "team:azerbaijan"
+  },
+  "selection-5102b34c06de91982d527731": {
+    "kind": "without_team",
+    "team": "team:namibia"
+  },
+  "selection-52d39d4b90bfa4ec17d021ee": {
+    "kind": "without_year",
+    "year": 2003
+  },
+  "selection-53fbb574769467cfd3fddc9e": {
+    "kind": "without_team",
+    "team": "team:andorra"
+  },
+  "selection-54183805570f47480e391f9a": {
+    "kind": "without_team",
+    "team": "team:american-samoa"
+  },
+  "selection-54ca4fb1b1bb0877e5faeca2": {
+    "kind": "without_team",
+    "team": "team:vietnam"
+  },
+  "selection-54dda0c4874767c9b2582f4b": {
+    "kind": "without_team",
+    "team": "team:panama"
+  },
+  "selection-54e371b3adb0c191f67afcce": {
+    "kind": "without_year",
+    "year": 2023
+  },
+  "selection-57b8c5d3f60799aaf14947fb": {
+    "kind": "without_team",
+    "team": "team:trinidad-and-tobago"
+  },
+  "selection-587170eac478c0378e0070af": {
+    "kind": "without_team",
+    "team": "team:guam"
+  },
+  "selection-5884265b68f03c8425a4ed26": {
+    "kind": "without_team",
+    "team": "team:italy"
+  },
+  "selection-58a5847595e9769088a715e1": {
+    "kind": "all",
+    "tag": "Q3_equal_eras"
+  },
+  "selection-5a9fd0832d1be12553832b5d": {
+    "kind": "without_team",
+    "team": "team:pakistan"
+  },
+  "selection-5b936038447c8c5b4bebe394": {
+    "kind": "without_team",
+    "team": "team:saint-lucia"
+  },
+  "selection-5ccba7d2fde0a351515b5ad4": {
+    "kind": "without_year",
+    "year": 2000
+  },
+  "selection-5e442a000be34441e55e2e1c": {
+    "kind": "without_team",
+    "team": "team:republic-of-ireland"
+  },
+  "selection-60311d7893812b26911282d2": {
+    "kind": "without_team",
+    "team": "team:moldova"
+  },
+  "selection-60be225b59f5647c8737a8a2": {
+    "kind": "without_team",
+    "team": "team:fiji"
+  },
+  "selection-610805e91c96961e5615a224": {
+    "kind": "without_team",
+    "team": "team:algeria"
+  },
+  "selection-61506e28b318c1e4a73b0d6c": {
+    "kind": "without_team",
+    "team": "team:montenegro"
+  },
+  "selection-62edbfd964baee629a20b93d": {
+    "kind": "without_team",
+    "team": "team:belgium"
+  },
+  "selection-62f1859ad02cadfc68a42b98": {
+    "kind": "without_year",
+    "year": 1997
+  },
+  "selection-6394ff02cabc6715bb7640c1": {
+    "kind": "without_team",
+    "team": "team:senegal"
+  },
+  "selection-63ad13d17ec1f647f451a953": {
+    "kind": "without_team",
+    "team": "team:palestine"
+  },
+  "selection-63e5dfed6e9743b9deaf0cf7": {
+    "kind": "without_team",
+    "team": "team:libya"
+  },
+  "selection-65ee7e31d0aa01a75649162d": {
+    "kind": "without_team",
+    "team": "team:aruba"
+  },
+  "selection-668dd12979b197cbcea3322d": {
+    "kind": "without_team",
+    "team": "team:venezuela"
+  },
+  "selection-66bed333fe7b48c360c430b7": {
+    "kind": "without_team",
+    "team": "team:colombia"
+  },
+  "selection-670f762789b04fae181dd28e": {
+    "kind": "without_team",
+    "team": "team:croatia"
+  },
+  "selection-6784e58972648721cd11fdd7": {
+    "kind": "without_team",
+    "team": "team:cayman-islands"
+  },
+  "selection-67abe8452a2075895009ce3d": {
+    "kind": "without_team",
+    "team": "team:scotland"
+  },
+  "selection-68704ad47c1cda3cea7f3103": {
+    "kind": "without_team",
+    "team": "team:botswana"
+  },
+  "selection-6a8ab4e37d13bac05d2bcec2": {
+    "kind": "without_team",
+    "team": "team:uzbekistan"
+  },
+  "selection-6d850924b99709d6779c27d7": {
+    "kind": "without_team",
+    "team": "team:saint-kitts-and-nevis"
+  },
+  "selection-6dff50552408b246fb7e8d8e": {
+    "kind": "without_year",
+    "year": 1985
+  },
+  "selection-6e02927fa8020c0d04c75b00": {
+    "kind": "without_team",
+    "team": "team:bosnia-and-herzegovina"
+  },
+  "selection-6f8d12433eb2fb7874a29add": {
+    "kind": "without_team",
+    "team": "team:vanuatu"
+  },
+  "selection-7065d92b6cd7d8a89953840d": {
+    "kind": "relabel",
+    "removed": [
+      "team:australia"
+    ]
+  },
+  "selection-71586de5fb0404b703bf4421": {
+    "kind": "without_team",
+    "team": "team:kyrgyzstan"
+  },
+  "selection-71bab0bb05dd23e8c9bf5ad2": {
+    "kind": "without_team",
+    "team": "team:greece"
+  },
+  "selection-72860feb31f5a6d7617b9848": {
+    "kind": "without_team",
+    "team": "team:india"
+  },
+  "selection-7295361995d0d4c27ee3634d": {
+    "kind": "without_year",
+    "year": 1986
+  },
+  "selection-72a1a6250c9b429763302176": {
+    "kind": "without_team",
+    "team": "team:nigeria"
+  },
+  "selection-72b85a31e66e1178584f6764": {
+    "kind": "without_team",
+    "team": "team:norway"
+  },
+  "selection-74aaf890a0c08b5035ed27fd": {
+    "kind": "without_year",
+    "year": 1990
+  },
+  "selection-7560cc65777262e0ceebb0c5": {
+    "kind": "without_team",
+    "team": "team:tajikistan"
+  },
+  "selection-7593db1ac3a0aac77a793eea": {
+    "kind": "without_team",
+    "team": "team:brunei"
+  },
+  "selection-75f72060a50cd1ec84777411": {
+    "kind": "without_year",
+    "year": 1988
+  },
+  "selection-7616f14d2fd99fcf77760de5": {
+    "kind": "without_team",
+    "team": "team:afghanistan"
+  },
+  "selection-79041aeb1da2883122bcf373": {
+    "kind": "without_year",
+    "year": 1981
+  },
+  "selection-793cb1b9fd35c5c481b9328d": {
+    "kind": "without_team",
+    "team": "team:ukraine"
+  },
+  "selection-79bff035bfe5f635089d4ad4": {
+    "kind": "without_team",
+    "team": "team:cyprus"
+  },
+  "selection-7a1f286ba9f35c47b285f3a3": {
+    "kind": "without_team",
+    "team": "team:guyana"
+  },
+  "selection-7a7589c6e2b130a8bf110c05": {
+    "kind": "without_team",
+    "team": "team:denmark"
+  },
+  "selection-7b381d32d7a28700f2fade50": {
+    "kind": "without_year",
+    "year": 1996
+  },
+  "selection-7d758ff605ffb0ca934ce7ec": {
+    "kind": "all",
+    "tag": "Q1_equal_years"
+  },
+  "selection-7d8c1dd1020095d678ff6a38": {
+    "kind": "without_team",
+    "team": "team:tahiti"
+  },
+  "selection-7f5a85158a2aefb331aff129": {
+    "kind": "without_year",
+    "year": 2002
+  },
+  "selection-84100c300e48c13766dde303": {
+    "kind": "without_team",
+    "team": "team:ghana"
+  },
+  "selection-87af97fcf7ec7260291026dd": {
+    "kind": "without_team",
+    "team": "team:georgia"
+  },
+  "selection-8b37836c397699d24e68bcbb": {
+    "kind": "without_team",
+    "team": "team:syria"
+  },
+  "selection-8b750812a5ca10a49ec8eb40": {
+    "kind": "without_team",
+    "team": "team:uganda"
+  },
+  "selection-8bfe68454018d9ca538aa422": {
+    "kind": "without_team",
+    "team": "team:comoros"
+  },
+  "selection-8c9f379168db8552c3ee0591": {
+    "kind": "without_team",
+    "team": "team:honduras"
+  },
+  "selection-8e131eade018b1cc8b2bf108": {
+    "kind": "without_team",
+    "team": "team:bulgaria"
+  },
+  "selection-8fad55c1278d156b76c68b47": {
+    "kind": "without_year",
+    "year": 2017
+  },
+  "selection-92cd9091b66c7d42e03f6fd2": {
+    "kind": "without_year",
+    "year": 2016
+  },
+  "selection-9441292a77e947f7442f9d43": {
+    "kind": "without_team",
+    "team": "team:thailand"
+  },
+  "selection-947f74f04f501d89d9b23dfd": {
+    "kind": "without_team",
+    "team": "team:samoa"
+  },
+  "selection-9497da4bc9d3d9bc956bd050": {
+    "kind": "without_team",
+    "team": "team:peru"
+  },
+  "selection-954839ccd02dec48b2391853": {
+    "kind": "without_team",
+    "team": "team:costa-rica"
+  },
+  "selection-955be71e88d43a605ccecf95": {
+    "kind": "without_team",
+    "team": "team:dr-congo"
+  },
+  "selection-97eed8699e5bc2c38214a802": {
+    "kind": "without_team",
+    "team": "team:slovakia"
+  },
+  "selection-98176173bf4edd445b773652": {
+    "kind": "without_year",
+    "year": 1987
+  },
+  "selection-9883cc23f625241a80e8fe0e": {
+    "kind": "without_team",
+    "team": "team:romania"
+  },
+  "selection-9905f3e2f168065aa0b8e931": {
+    "kind": "relabel",
+    "removed": [
+      "team:iran"
+    ]
+  },
+  "selection-9978bad6d839b2f648fecb07": {
+    "kind": "without_team",
+    "team": "team:burkina-faso"
+  },
+  "selection-9a00e57d889294f53005a4c4": {
+    "kind": "without_team",
+    "team": "team:portugal"
+  },
+  "selection-9a07ecb5429812994f8f28b4": {
+    "kind": "without_team",
+    "team": "team:liberia"
+  },
+  "selection-9d41a2f50d0307d0c6f6e678": {
+    "kind": "without_team",
+    "team": "team:jamaica"
+  },
+  "selection-9d9dd2929b462aa298fd9722": {
+    "kind": "without_team",
+    "team": "team:taiwan"
+  },
+  "selection-a0455b706b9a90ff8e83556d": {
+    "kind": "without_team",
+    "team": "team:togo"
+  },
+  "selection-a04ddc558fea3a19ece07e7b": {
+    "kind": "without_team",
+    "team": "team:kazakhstan"
+  },
+  "selection-a0538378376ea36501ba72fe": {
+    "kind": "without_team",
+    "team": "team:zambia"
+  },
+  "selection-a13358cfd15edad4517809c9": {
+    "kind": "without_team",
+    "team": "team:cameroon"
+  },
+  "selection-a2155487ed2929ba36366189": {
+    "kind": "without_team",
+    "team": "team:hong-kong"
+  },
+  "selection-a24954171c442bb760f55f87": {
+    "kind": "without_team",
+    "team": "team:congo"
+  },
+  "selection-a46d93140a23a758333fdcec": {
+    "kind": "common_teams",
+    "teams": [
+      "team:albania",
+      "team:algeria",
+      "team:angola",
+      "team:antigua-and-barbuda",
+      "team:argentina",
+      "team:aruba",
+      "team:australia",
+      "team:austria",
+      "team:bahrain",
+      "team:bangladesh",
+      "team:barbados",
+      "team:belgium",
+      "team:benin",
+      "team:bermuda",
+      "team:bolivia",
+      "team:botswana",
+      "team:brazil",
+      "team:brunei",
+      "team:bulgaria",
+      "team:burkina-faso",
+      "team:burundi",
+      "team:cameroon",
+      "team:canada",
+      "team:cape-verde",
+      "team:central-african-republic",
+      "team:chad",
+      "team:chile",
+      "team:china",
+      "team:colombia",
+      "team:congo",
+      "team:costa-rica",
+      "team:cuba",
+      "team:curacao",
+      "team:cyprus",
+      "team:denmark",
+      "team:dominican-republic",
+      "team:dr-congo",
+      "team:ecuador",
+      "team:egypt",
+      "team:el-salvador",
+      "team:england",
+      "team:equatorial-guinea",
+      "team:eswatini",
+      "team:ethiopia",
+      "team:faroe-islands",
+      "team:fiji",
+      "team:finland",
+      "team:france",
+      "team:gabon",
+      "team:gambia",
+      "team:germany",
+      "team:ghana",
+      "team:greece",
+      "team:grenada",
+      "team:guatemala",
+      "team:guinea",
+      "team:guinea-bissau",
+      "team:guyana",
+      "team:haiti",
+      "team:honduras",
+      "team:hong-kong",
+      "team:hungary",
+      "team:iceland",
+      "team:india",
+      "team:indonesia",
+      "team:iran",
+      "team:iraq",
+      "team:israel",
+      "team:italy",
+      "team:ivory-coast",
+      "team:jamaica",
+      "team:japan",
+      "team:jordan",
+      "team:kenya",
+      "team:kuwait",
+      "team:lebanon",
+      "team:lesotho",
+      "team:liberia",
+      "team:libya",
+      "team:liechtenstein",
+      "team:luxembourg",
+      "team:macau",
+      "team:madagascar",
+      "team:malawi",
+      "team:malaysia",
+      "team:maldives",
+      "team:mali",
+      "team:malta",
+      "team:mauritania",
+      "team:mauritius",
+      "team:mexico",
+      "team:morocco",
+      "team:mozambique",
+      "team:myanmar",
+      "team:nepal",
+      "team:netherlands",
+      "team:new-zealand",
+      "team:nicaragua",
+      "team:niger",
+      "team:nigeria",
+      "team:north-korea",
+      "team:northern-ireland",
+      "team:norway",
+      "team:oman",
+      "team:pakistan",
+      "team:panama",
+      "team:papua-new-guinea",
+      "team:paraguay",
+      "team:peru",
+      "team:philippines",
+      "team:poland",
+      "team:portugal",
+      "team:puerto-rico",
+      "team:qatar",
+      "team:republic-of-ireland",
+      "team:romania",
+      "team:russia",
+      "team:rwanda",
+      "team:saint-lucia",
+      "team:saint-vincent-and-the-grenadines",
+      "team:sao-tome-and-principe",
+      "team:saudi-arabia",
+      "team:scotland",
+      "team:senegal",
+      "team:seychelles",
+      "team:sierra-leone",
+      "team:singapore",
+      "team:solomon-islands",
+      "team:somalia",
+      "team:south-korea",
+      "team:spain",
+      "team:sri-lanka",
+      "team:sudan",
+      "team:suriname",
+      "team:sweden",
+      "team:switzerland",
+      "team:syria",
+      "team:taiwan",
+      "team:tanzania",
+      "team:thailand",
+      "team:togo",
+      "team:trinidad-and-tobago",
+      "team:tunisia",
+      "team:turkey",
+      "team:uganda",
+      "team:united-arab-emirates",
+      "team:united-states",
+      "team:uruguay",
+      "team:vanuatu",
+      "team:venezuela",
+      "team:wales",
+      "team:zambia",
+      "team:zimbabwe"
+    ]
+  },
+  "selection-a49654c6a5b2b1916e8d1bc7": {
+    "kind": "without_team",
+    "team": "team:laos"
+  },
+  "selection-a5eccf55a7bd6446c16a3399": {
+    "kind": "without_team",
+    "team": "team:tonga"
+  },
+  "selection-a6d5913950e81f280580afc4": {
+    "kind": "without_team",
+    "team": "team:montserrat"
+  },
+  "selection-a80c43168f6b05d047c6da42": {
+    "kind": "without_team",
+    "team": "team:philippines"
+  },
+  "selection-a98cf5bb909509379b1ede0b": {
+    "kind": "without_team",
+    "team": "team:chad"
+  },
+  "selection-aa32753e3979d1b383219a88": {
+    "kind": "without_team",
+    "team": "team:albania"
+  },
+  "selection-aaf08c426ea4b9d65babe016": {
+    "kind": "without_year",
+    "year": 1995
+  },
+  "selection-ab01d6d55587c8eac5177200": {
+    "kind": "without_year",
+    "year": 1984
+  },
+  "selection-ab3213011c9417e537bf9e11": {
+    "kind": "without_team",
+    "team": "team:german-dr"
+  },
+  "selection-abd15f4349d244c4a1e542fe": {
+    "kind": "without_team",
+    "team": "team:kenya"
+  },
+  "selection-ac016c804ac0c57954d1aa02": {
+    "kind": "without_team",
+    "team": "team:cape-verde"
+  },
+  "selection-ad2f4e68aa14cd1f62b189ab": {
+    "kind": "without_team",
+    "team": "team:gabon"
+  },
+  "selection-adf4b803f380a0af11d1f880": {
+    "kind": "without_team",
+    "team": "team:north-macedonia"
+  },
+  "selection-ae59de094849766102e975c9": {
+    "kind": "without_team",
+    "team": "team:bhutan"
+  },
+  "selection-ae991ceef832a832b8390ebe": {
+    "kind": "without_team",
+    "team": "team:belize"
+  },
+  "selection-af2cba849c7cb8831b7ea0de": {
+    "kind": "without_team",
+    "team": "team:czech-republic"
+  },
+  "selection-b0777effabe1eebccc107877": {
+    "kind": "without_team",
+    "team": "team:saudi-arabia"
+  },
+  "selection-b121b07e573c11542afd7003": {
+    "kind": "without_team",
+    "team": "team:rwanda"
+  },
+  "selection-b250498bd9938fab860513ff": {
+    "kind": "without_team",
+    "team": "team:yemen"
+  },
+  "selection-b306299f3e8dd9a2049a1f4d": {
+    "kind": "without_year",
+    "year": 1992
+  },
+  "selection-b592590d8af98b4f0ec822dd": {
+    "kind": "without_year",
+    "year": 1980
+  },
+  "selection-b59d189679b61a9af08f4b67": {
+    "kind": "without_year",
+    "year": 1994
+  },
+  "selection-b6c2e5ad27def7bdccc144d3": {
+    "kind": "without_team",
+    "team": "team:mauritius"
+  },
+  "selection-b7447747fdcf0a4e62276f86": {
+    "kind": "without_team",
+    "team": "team:yugoslavia"
+  },
+  "selection-b9c0cbd0a2ca930ed2fe21bb": {
+    "kind": "without_team",
+    "team": "team:chile"
+  },
+  "selection-ba91be6063f6ebfcc0a75873": {
+    "kind": "without_team",
+    "team": "team:netherlands"
+  },
+  "selection-baa5165c6d1dd700ba71a15d": {
+    "kind": "without_team",
+    "team": "team:bermuda"
+  },
+  "selection-bab617eb4d86e0473536ee6e": {
+    "kind": "without_team",
+    "team": "team:france"
+  },
+  "selection-badf1d4f5b917527a31e6948": {
+    "kind": "without_team",
+    "team": "team:curacao"
+  },
+  "selection-bbfaac68b074d154e0f4a4ab": {
+    "kind": "without_team",
+    "team": "team:turkey"
+  },
+  "selection-bc0c7d7740fb1340ac16a9a6": {
+    "kind": "without_team",
+    "team": "team:australia"
+  },
+  "selection-bc16029c987c528b9622dff0": {
+    "kind": "without_team",
+    "team": "team:sao-tome-and-principe"
+  },
+  "selection-bc34f379b2124a6141002d0e": {
+    "kind": "without_team",
+    "team": "team:northern-ireland"
+  },
+  "selection-bd4853410e090818ae72af25": {
+    "kind": "without_year",
+    "year": 2024
+  },
+  "selection-bf46dd4572718d159e426264": {
+    "kind": "without_team",
+    "team": "team:russia"
+  },
+  "selection-c1426a7db80e11f22cb5f941": {
+    "kind": "without_team",
+    "team": "team:niger"
+  },
+  "selection-c16bf1f7cf6eca932c909bda": {
+    "kind": "without_team",
+    "team": "team:bangladesh"
+  },
+  "selection-c1b9357de8c09004329d9914": {
+    "kind": "without_year",
+    "year": 2022
+  },
+  "selection-c22509333eb57948fa09c988": {
+    "kind": "without_year",
+    "year": 2011
+  },
+  "selection-c3deeca8fdd44ae2864eafac": {
+    "kind": "all",
+    "tag": "NorthAfrica_allSSA"
+  },
+  "selection-c44fb5cb41e628dbcffbfcff": {
+    "kind": "without_team",
+    "team": "team:south-sudan"
+  },
+  "selection-c51862f37646e97a6f561757": {
+    "kind": "without_team",
+    "team": "team:hungary"
+  },
+  "selection-c6aee9cd634b68c7c3612914": {
+    "kind": "without_team",
+    "team": "team:sint-maarten"
+  },
+  "selection-c7e15a7020d06d0d5178b5bd": {
+    "kind": "without_team",
+    "team": "team:germany"
+  },
+  "selection-c92e6723059f06b8d4f49bcf": {
+    "kind": "without_team",
+    "team": "team:qatar"
+  },
+  "selection-cb0017e99bbdf9d26f360ff3": {
+    "kind": "without_team",
+    "team": "team:equatorial-guinea"
+  },
+  "selection-cd4b48d49cd237986847de4d": {
+    "kind": "without_team",
+    "team": "team:guatemala"
+  },
+  "selection-cdbe392b4e31c28b66a745ec": {
+    "kind": "without_team",
+    "team": "team:wales"
+  },
+  "selection-cf4808290f826887152e63e0": {
+    "kind": "without_team",
+    "team": "team:japan"
+  },
+  "selection-d06f3667868886a359ade14c": {
+    "kind": "without_team",
+    "team": "team:madagascar"
+  },
+  "selection-d15f66451057bdd93b097ebb": {
+    "kind": "without_team",
+    "team": "team:spain"
+  },
+  "selection-d329a80cf11e8fc8ac09923e": {
+    "kind": "without_team",
+    "team": "team:angola"
+  },
+  "selection-d569606052ada8e7137a2205": {
+    "kind": "without_team",
+    "team": "team:djibouti"
+  },
+  "selection-d606e8983bce1f6e6f42a7d5": {
+    "kind": "without_team",
+    "team": "team:switzerland"
+  },
+  "selection-d7f5edc30130a2a5d2d822cf": {
+    "kind": "without_year",
+    "year": 2020
+  },
+  "selection-d8b32354cb3e3e0828c2083d": {
+    "kind": "without_team",
+    "team": "team:tunisia"
+  },
+  "selection-da7af1cd31a924ac05eeb032": {
+    "kind": "without_team",
+    "team": "team:canada"
+  },
+  "selection-daf394a3588a9852f50d3cc0": {
+    "kind": "without_team",
+    "team": "team:turks-and-caicos-islands"
+  },
+  "selection-e0dd6f538c9729590d555f7d": {
+    "kind": "without_team",
+    "team": "team:egypt"
+  },
+  "selection-e291684ce8ca7fb75fd835a9": {
+    "kind": "without_year",
+    "year": 2006
+  },
+  "selection-e2a40e4a6e2537ecbbd43245": {
+    "kind": "without_year",
+    "year": 2013
+  },
+  "selection-e3e8efc2f137aba62d7c7ef7": {
+    "kind": "without_team",
+    "team": "team:iraq"
+  },
+  "selection-e47914d4ff846f0cb885bca5": {
+    "kind": "without_year",
+    "year": 2001
+  },
+  "selection-e484020f8f2b3088b7aeff7a": {
+    "kind": "without_year",
+    "year": 2005
+  },
+  "selection-e4e3cb42b312d294063f98bb": {
+    "kind": "without_team",
+    "team": "team:bolivia"
+  },
+  "selection-e604c0ab9f69a00cbbea9251": {
+    "kind": "without_team",
+    "team": "team:zimbabwe"
+  },
+  "selection-e66f07a9c89ed596d6242dd5": {
+    "kind": "without_year",
+    "year": 2008
+  },
+  "selection-e6eefa76ebe6098793547caf": {
+    "kind": "without_team",
+    "team": "team:cambodia"
+  },
+  "selection-e7a981d2a2a38354a3e9578a": {
+    "kind": "without_team",
+    "team": "team:paraguay"
+  },
+  "selection-e7c608264c2267bb21f826e9": {
+    "kind": "without_year",
+    "year": 1993
+  },
+  "selection-e970300da3a69e29604a7440": {
+    "kind": "without_team",
+    "team": "team:uruguay"
+  },
+  "selection-ea837a0435066bf7f6582773": {
+    "kind": "without_team",
+    "team": "team:british-virgin-islands"
+  },
+  "selection-ea8926858e7372d260731abc": {
+    "kind": "without_team",
+    "team": "team:sudan"
+  },
+  "selection-eb0fcec79c123b51a81471df": {
+    "kind": "without_team",
+    "team": "team:brazil"
+  },
+  "selection-eb85cc02f4705e323ec689f2": {
+    "kind": "without_team",
+    "team": "team:belarus"
+  },
+  "selection-ec3e15d88608b8ef1a6957b4": {
+    "kind": "without_team",
+    "team": "team:nepal"
+  },
+  "selection-eca22b0da12e6c5d14fa7085": {
+    "kind": "without_team",
+    "team": "team:austria"
+  },
+  "selection-ed65f110f04b5d39db932b15": {
+    "kind": "without_team",
+    "team": "team:south-korea"
+  },
+  "selection-edf66f416a2875d1d77ea173": {
+    "kind": "without_year",
+    "year": 2007
+  },
+  "selection-ee8819bffe31233d35be0e60": {
+    "kind": "without_team",
+    "team": "team:kosovo"
+  },
+  "selection-eee34fec325e1dafb49f1c51": {
+    "kind": "without_year",
+    "year": 1999
+  },
+  "selection-f0b3525a5fb9e3830116e4d1": {
+    "kind": "without_team",
+    "team": "team:seychelles"
+  },
+  "selection-f115ce330db46ca8a1f42df0": {
+    "kind": "without_year",
+    "year": 2004
+  },
+  "selection-f11ee34f01fc9164521fcb88": {
+    "kind": "without_team",
+    "team": "team:malta"
+  },
+  "selection-f37c2e15e7c5b075b1dc31c8": {
+    "kind": "without_team",
+    "team": "team:eritrea"
+  },
+  "selection-f386dc67ae82ceee28d3f3a6": {
+    "kind": "without_year",
+    "year": 1989
+  },
+  "selection-f3f27d5a5da920612af35258": {
+    "kind": "without_team",
+    "team": "team:turkmenistan"
+  },
+  "selection-f40f9a4c03af3d6ce6bfaa22": {
+    "kind": "without_year",
+    "year": 2019
+  },
+  "selection-f611a4120507900a36c08a6c": {
+    "kind": "without_team",
+    "team": "team:eswatini"
+  },
+  "selection-f6c5e3cfd283acfcd922e2af": {
+    "kind": "without_team",
+    "team": "team:new-zealand"
+  },
+  "selection-f7e080139b9c06ebb25e2a90": {
+    "kind": "without_team",
+    "team": "team:morocco"
+  },
+  "selection-f9d084eb6c19ae654134eb92": {
+    "kind": "without_team",
+    "team": "team:united-arab-emirates"
+  },
+  "selection-fac64e40ea9e63f862d2b981": {
+    "kind": "without_team",
+    "team": "team:malaysia"
+  },
+  "selection-fb7002c1f088252c985000ba": {
+    "kind": "without_team",
+    "team": "team:latvia"
+  },
+  "selection-ffcccdd16e7b0e0ecae93214": {
+    "kind": "historical",
+    "teams": [
+      "team:german-dr",
+      "team:czechoslovakia",
+      "team:yugoslavia"
+    ]
+  }
+}

@@ -1,0 +1,1802 @@
+[
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 37086265595235308294015514948685249001,
+        "state": 5240456070730278383366151082163499616
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 37086265595235308294015514948685249001,
+        "state": 50774043779006932802940211968918873219
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.171875,
+    "scenario": "C00",
+    "stage": "development",
+    "start": 0
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 266312084789261035603101425738685059063,
+        "state": 932108547719812594900096252563534838
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 266312084789261035603101425738685059063,
+        "state": 146824800896690203993533295720485161142
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.21875,
+    "scenario": "C00",
+    "stage": "development",
+    "start": 32
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 79849808138330117848359409637062470379,
+        "state": 131952090524905323090825178499908583973
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 79849808138330117848359409637062470379,
+        "state": 172787404945313874711265141024624591429
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.21875,
+    "scenario": "C00",
+    "stage": "development",
+    "start": 64
+  },
+  {
+    "B": 4,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 229046754238580286577715714570180995369,
+        "state": 127801255550209986434389502251436559113
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 229046754238580286577715714570180995369,
+        "state": 312198979640298342897589824314740587371
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.03125,
+    "scenario": "C00",
+    "stage": "development",
+    "start": 96
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 26899863024432329078684088098319122409,
+        "state": 280112423936878623123392511561973579979
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 26899863024432329078684088098319122409,
+        "state": 21617006626816061355012451287052450628
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.203125,
+    "scenario": "C01",
+    "stage": "development",
+    "start": 0
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 56301999245307078675297395321074706957,
+        "state": 158517117764348044029461250876737000909
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 56301999245307078675297395321074706957,
+        "state": 300997182270838051838888715358244371059
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.21875,
+    "scenario": "C01",
+    "stage": "development",
+    "start": 32
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 79698381338015603282036780999195777945,
+        "state": 303036129042607808804781239650053136644
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 79698381338015603282036780999195777945,
+        "state": 331456503829782972769570144003608245626
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.234375,
+    "scenario": "C01",
+    "stage": "development",
+    "start": 64
+  },
+  {
+    "B": 4,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 290197758190927826346894359709770124075,
+        "state": 326620412951040395393366219945067354204
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 290197758190927826346894359709770124075,
+        "state": 36384306366475798893887175521119138219
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.03125,
+    "scenario": "C01",
+    "stage": "development",
+    "start": 96
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 95814273574605654702868961635039373551,
+        "state": 136768665036788984397654323126369225397
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 95814273574605654702868961635039373551,
+        "state": 320226720358814844993708225897080850114
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.359375,
+    "scenario": "C02",
+    "stage": "development",
+    "start": 0
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 71531339671254071397176920702200918115,
+        "state": 193719953961380334849316925881199522251
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 71531339671254071397176920702200918115,
+        "state": 86527686320998943360337309250634605247
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.359375,
+    "scenario": "C02",
+    "stage": "development",
+    "start": 32
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 232137591373415485450727858359102059317,
+        "state": 286908679094695629213623948983966108304
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 232137591373415485450727858359102059317,
+        "state": 125445816840409793095685017557202341058
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.265625,
+    "scenario": "C02",
+    "stage": "development",
+    "start": 64
+  },
+  {
+    "B": 4,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 94278192732575027509519575042626841027,
+        "state": 45847895252607583934385470343269227584
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 94278192732575027509519575042626841027,
+        "state": 224101357328968515011779453853785434340
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.046875,
+    "scenario": "C02",
+    "stage": "development",
+    "start": 96
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 293675169911680642301510973284416461029,
+        "state": 32035317897764261102418157545353351221
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 293675169911680642301510973284416461029,
+        "state": 211578509360595506688665661439431569485
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.359375,
+    "scenario": "C03",
+    "stage": "development",
+    "start": 0
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 92805197575442938868486404517536849441,
+        "state": 205705780219430260513608921864763624684
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 92805197575442938868486404517536849441,
+        "state": 215729298672734783911448515004268061803
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.3125,
+    "scenario": "C03",
+    "stage": "development",
+    "start": 32
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 82121116453501885789579890618801577103,
+        "state": 66683418098170909028870125193894387382
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 82121116453501885789579890618801577103,
+        "state": 335879077748612020957698640426362504848
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.3125,
+    "scenario": "C03",
+    "stage": "development",
+    "start": 64
+  },
+  {
+    "B": 4,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 281174439800483023218159764197316699875,
+        "state": 56261341740103976155343809897457322469
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 281174439800483023218159764197316699875,
+        "state": 94648980551042815838347955276061844568
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.046875,
+    "scenario": "C03",
+    "stage": "development",
+    "start": 96
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 339341431631627873229235225452515144461,
+        "state": 219111589512032851275903292676610699294
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 339341431631627873229235225452515144461,
+        "state": 185195077775381637719155093338143893261
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.1875,
+    "scenario": "C04",
+    "stage": "development",
+    "start": 0
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 274533320452251110073675861136282230761,
+        "state": 210844752393346703729637296169760120367
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 274533320452251110073675861136282230761,
+        "state": 157190805774725959440487636022693266158
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.234375,
+    "scenario": "C04",
+    "stage": "development",
+    "start": 32
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 65834034228531159435904768804710166509,
+        "state": 29914003719175063533091347454810646766
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 65834034228531159435904768804710166509,
+        "state": 68715333202260420474358905553795560645
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.21875,
+    "scenario": "C04",
+    "stage": "development",
+    "start": 64
+  },
+  {
+    "B": 4,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 44258887880266362143447039369393960037,
+        "state": 327368137222068562028184507288905162050
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 44258887880266362143447039369393960037,
+        "state": 48593541020319425804519944675900428225
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.046875,
+    "scenario": "C04",
+    "stage": "development",
+    "start": 96
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 312707687066907900070369237345701246197,
+        "state": 254148188817080209152749571901998602722
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 312707687066907900070369237345701246197,
+        "state": 103488923011068295369779361539770169239
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.40625,
+    "scenario": "C05",
+    "stage": "development",
+    "start": 0
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 183955874639321721873773119131108296747,
+        "state": 195768313456855361927260334349160788147
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 183955874639321721873773119131108296747,
+        "state": 109878157756767342632726156249798938210
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.390625,
+    "scenario": "C05",
+    "stage": "development",
+    "start": 32
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 265591066880693348813643479767706466755,
+        "state": 188993596701216688848872719470564313074
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 265591066880693348813643479767706466755,
+        "state": 62294960334829896119289945495323093420
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.46875,
+    "scenario": "C05",
+    "stage": "development",
+    "start": 64
+  },
+  {
+    "B": 4,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 320391998806032456430508339546797866225,
+        "state": 181088652170296474592788633273165590716
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 320391998806032456430508339546797866225,
+        "state": 213640816993394952420291252659088696680
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.078125,
+    "scenario": "C05",
+    "stage": "development",
+    "start": 96
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 260698434209414562011090617175588424933,
+        "state": 108475131803168482323970636962036991837
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 260698434209414562011090617175588424933,
+        "state": 83690905799432513325938708904965417696
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.390625,
+    "scenario": "C06",
+    "stage": "development",
+    "start": 0
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 234235022805670942399261809376955066497,
+        "state": 325484723520352322530712610699956786773
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 234235022805670942399261809376955066497,
+        "state": 236207019907341167533621381707240518447
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.390625,
+    "scenario": "C06",
+    "stage": "development",
+    "start": 32
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 157275739045548469560239739530375370047,
+        "state": 222955611479405114754879837702561401722
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 157275739045548469560239739530375370047,
+        "state": 5318268761285009651668128705190162599
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.359375,
+    "scenario": "C06",
+    "stage": "development",
+    "start": 64
+  },
+  {
+    "B": 4,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 44109243833544337726179183920731155215,
+        "state": 205414312695027758122979453261300531136
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 44109243833544337726179183920731155215,
+        "state": 240598195813233742966957344472983077833
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.0625,
+    "scenario": "C06",
+    "stage": "development",
+    "start": 96
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 328020456207871408625707181602800376453,
+        "state": 144564567187900059393697135641674599842
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 328020456207871408625707181602800376453,
+        "state": 92242314530047508489265208191429889136
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.421875,
+    "scenario": "C07",
+    "stage": "development",
+    "start": 0
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 65608134340132598854743305228841752057,
+        "state": 175152105477382735064974126116224161804
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 65608134340132598854743305228841752057,
+        "state": 114935543987227321007922253309827483959
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.390625,
+    "scenario": "C07",
+    "stage": "development",
+    "start": 32
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 224164842065447597315634723022753807193,
+        "state": 226811093169917714434476422969130284562
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 224164842065447597315634723022753807193,
+        "state": 26980343345112439145574279275110411574
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.3125,
+    "scenario": "C07",
+    "stage": "development",
+    "start": 64
+  },
+  {
+    "B": 4,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 295565322897710411178501699846361202007,
+        "state": 260289433688479730893695613153177210988
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 295565322897710411178501699846361202007,
+        "state": 35490854994107627131322154420952910273
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.046875,
+    "scenario": "C07",
+    "stage": "development",
+    "start": 96
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 259412578477147171800106248083989138349,
+        "state": 28397205257034315283052518937073893799
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 259412578477147171800106248083989138349,
+        "state": 240965139624055647945697955045478911789
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.21875,
+    "scenario": "C08",
+    "stage": "development",
+    "start": 0
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 93949466272674506484994311825057219635,
+        "state": 69399346547492393219929485399170917079
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 93949466272674506484994311825057219635,
+        "state": 26278559615918683402231422008555208264
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.234375,
+    "scenario": "C08",
+    "stage": "development",
+    "start": 32
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 321785290189080894047232903406982229275,
+        "state": 123457558516341044323166339525170707876
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 321785290189080894047232903406982229275,
+        "state": 23691648456661446689014949089401867150
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.1875,
+    "scenario": "C08",
+    "stage": "development",
+    "start": 64
+  },
+  {
+    "B": 4,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 17770398425920665297504497654676139259,
+        "state": 247921457591467404046994939420962097766
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 17770398425920665297504497654676139259,
+        "state": 241754870520405476672209156722350844197
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.03125,
+    "scenario": "C08",
+    "stage": "development",
+    "start": 96
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 20277276790627381424952330112094669655,
+        "state": 19406103738537713435235436962413147659
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 20277276790627381424952330112094669655,
+        "state": 215090107556436768715465733789504721065
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.359375,
+    "scenario": "C09",
+    "stage": "development",
+    "start": 0
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 52788269359921497626787882636024391129,
+        "state": 82960299232508416576353514650946462077
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 52788269359921497626787882636024391129,
+        "state": 172931505150581416843150447813402979146
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.390625,
+    "scenario": "C09",
+    "stage": "development",
+    "start": 32
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 130676070573789149158515277357596355091,
+        "state": 38707271228461688739870868326980168521
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 130676070573789149158515277357596355091,
+        "state": 262572060340451938516616804535228395420
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.28125,
+    "scenario": "C09",
+    "stage": "development",
+    "start": 64
+  },
+  {
+    "B": 4,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 267092649657010415226569415975921312111,
+        "state": 286733132923636126222653633567469352163
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 267092649657010415226569415975921312111,
+        "state": 35490198643203926844897438310281077861
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.046875,
+    "scenario": "C09",
+    "stage": "development",
+    "start": 96
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 292193473353048680569940642602555339057,
+        "state": 174850685090240269228096591257773563096
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 292193473353048680569940642602555339057,
+        "state": 264542266856513366743101819704683148980
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.421875,
+    "scenario": "C10",
+    "stage": "development",
+    "start": 0
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 161328424975111540826633031042274728589,
+        "state": 152185757216610404773324999374233617149
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 161328424975111540826633031042274728589,
+        "state": 208891151513912538814912846759370841260
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.484375,
+    "scenario": "C10",
+    "stage": "development",
+    "start": 32
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 327054327814020305481504095876507813223,
+        "state": 37430348152784879642215801992972910235
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 327054327814020305481504095876507813223,
+        "state": 168992300423031999230320904290923390027
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.4375,
+    "scenario": "C10",
+    "stage": "development",
+    "start": 64
+  },
+  {
+    "B": 4,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 248407019625738540386580504359414189517,
+        "state": 89300155724342946481238479404081024392
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 248407019625738540386580504359414189517,
+        "state": 276758340533648926772879814521485703818
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.078125,
+    "scenario": "C10",
+    "stage": "development",
+    "start": 96
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 135677244729231972618026883506998436223,
+        "state": 298823607836074453229611735964445133022
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 135677244729231972618026883506998436223,
+        "state": 324927376375860566666259094220991783575
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.46875,
+    "scenario": "C11",
+    "stage": "development",
+    "start": 0
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 196766393261610619462617421472240206867,
+        "state": 180011191258713461023355713511243951507
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 196766393261610619462617421472240206867,
+        "state": 110867776642298952645271948117227164374
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.359375,
+    "scenario": "C11",
+    "stage": "development",
+    "start": 32
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 264238269965571858393823336493248214781,
+        "state": 27103679477999968094579121657968041572
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 264238269965571858393823336493248214781,
+        "state": 27934118608265836489399429243985925483
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.46875,
+    "scenario": "C11",
+    "stage": "development",
+    "start": 64
+  },
+  {
+    "B": 4,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 48735226817486157074586692243529647633,
+        "state": 7092803158225928735313420314114809078
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 48735226817486157074586692243529647633,
+        "state": 48094456593555556608956429304382166535
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.0625,
+    "scenario": "C11",
+    "stage": "development",
+    "start": 96
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 230103585560914515789593289585833807733,
+        "state": 27575509287400288586510189249220859452
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 230103585560914515789593289585833807733,
+        "state": 203195507928787511230446598639643462165
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.375,
+    "scenario": "C12",
+    "stage": "development",
+    "start": 0
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 277632407936350631990304210816507508673,
+        "state": 277949266169548801766818928499348424519
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 277632407936350631990304210816507508673,
+        "state": 230056580172087495886345753507551813814
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.40625,
+    "scenario": "C12",
+    "stage": "development",
+    "start": 32
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 140568119858515896948567262100837649311,
+        "state": 59587676560738906013946758489375055811
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 140568119858515896948567262100837649311,
+        "state": 92207875980990518252634539709171812860
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.4375,
+    "scenario": "C12",
+    "stage": "development",
+    "start": 64
+  },
+  {
+    "B": 4,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 264674773218774953937602059868337247851,
+        "state": 51130867757570079449229661203152517427
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 264674773218774953937602059868337247851,
+        "state": 316369213595870740628517205304308952046
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.0625,
+    "scenario": "C12",
+    "stage": "development",
+    "start": 96
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 177904948177448300095113921793245584935,
+        "state": 245536547640115910599198077402796116330
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 177904948177448300095113921793245584935,
+        "state": 90383877446913168532630470526747919957
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.25,
+    "scenario": "C13",
+    "stage": "development",
+    "start": 0
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 91679216164010046621141750922943382017,
+        "state": 329375270283610440747934170201222842465
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 91679216164010046621141750922943382017,
+        "state": 91293946905859352538139969917999476647
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.234375,
+    "scenario": "C13",
+    "stage": "development",
+    "start": 32
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 115054817217167952017658610512408560331,
+        "state": 208790809105675550689979820014989150579
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 115054817217167952017658610512408560331,
+        "state": 91703769451781098672847068306781772178
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.265625,
+    "scenario": "C13",
+    "stage": "development",
+    "start": 64
+  },
+  {
+    "B": 4,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 24745536647029872530635099129360036561,
+        "state": 139282565420627516510711332033211584359
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 24745536647029872530635099129360036561,
+        "state": 68583238350184498180502823507890625750
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.046875,
+    "scenario": "C13",
+    "stage": "development",
+    "start": 96
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 40412004373882593299296782974526994379,
+        "state": 294639419735208445679780931762743861320
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 40412004373882593299296782974526994379,
+        "state": 182203794935938142031993800144958084701
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.25,
+    "scenario": "C14",
+    "stage": "development",
+    "start": 0
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 315771865320203162445858325373218842755,
+        "state": 111969643811437636994626344129944210065
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 315771865320203162445858325373218842755,
+        "state": 249789899879170063580083384038565401974
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.1875,
+    "scenario": "C14",
+    "stage": "development",
+    "start": 32
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 299255973666033973852248533915179446247,
+        "state": 53465465484613102868443982242249740397
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 299255973666033973852248533915179446247,
+        "state": 108373921364880886770917957595819986016
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.1875,
+    "scenario": "C14",
+    "stage": "development",
+    "start": 64
+  },
+  {
+    "B": 4,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 169936191789749466353735664865927266295,
+        "state": 259307845276618109641118588253542284316
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 169936191789749466353735664865927266295,
+        "state": 114953906551514273184784317838687050380
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.015625,
+    "scenario": "C14",
+    "stage": "development",
+    "start": 96
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 71310595264210687101172117844655219291,
+        "state": 103411194301205903294853957689605211349
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 71310595264210687101172117844655219291,
+        "state": 121591584170289128815927836094822788366
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.4375,
+    "scenario": "C15",
+    "stage": "development",
+    "start": 0
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 148718892444772187185578416526702130513,
+        "state": 178908222834226661367808835074488340188
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 148718892444772187185578416526702130513,
+        "state": 28849270258153433962986107846185998656
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.4375,
+    "scenario": "C15",
+    "stage": "development",
+    "start": 32
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 328946357802901540835086114052044401913,
+        "state": 172918738482269846102331127337691282396
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 328946357802901540835086114052044401913,
+        "state": 330533819955044043531777238180167989138
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.46875,
+    "scenario": "C15",
+    "stage": "development",
+    "start": 64
+  },
+  {
+    "B": 4,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 166462900505705124120598602395461368051,
+        "state": 98055341945334486515535762083379330536
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 166462900505705124120598602395461368051,
+        "state": 82325397716809088807396118237517007973
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.0625,
+    "scenario": "C15",
+    "stage": "development",
+    "start": 96
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 80941543237715273542583359295092344219,
+        "state": 17143046647401736861633207248786850677
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 80941543237715273542583359295092344219,
+        "state": 237606928413673094181413969353040586890
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.328125,
+    "scenario": "C16",
+    "stage": "development",
+    "start": 0
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 254436190368029377568398259715868210493,
+        "state": 227785255985952050537293011325456992857
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 254436190368029377568398259715868210493,
+        "state": 274840484356311856824434484272008387059
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.390625,
+    "scenario": "C16",
+    "stage": "development",
+    "start": 32
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 236127381448050959524172903982077326621,
+        "state": 81468121879593965821488320821360202840
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 236127381448050959524172903982077326621,
+        "state": 291370793206787862577549144320261824780
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.390625,
+    "scenario": "C16",
+    "stage": "development",
+    "start": 64
+  },
+  {
+    "B": 4,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 185160408908609133108696987863796401827,
+        "state": 102987284350197216267945537833170219632
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 185160408908609133108696987863796401827,
+        "state": 168892985148496727154965818836245871562
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.078125,
+    "scenario": "C16",
+    "stage": "development",
+    "start": 96
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 67180539176503658827919451406881569609,
+        "state": 163403762745635840965793897385525719308
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 67180539176503658827919451406881569609,
+        "state": 313961131557056999367556014045565849452
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.328125,
+    "scenario": "C17",
+    "stage": "development",
+    "start": 0
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 231205998237340360097256420074448331681,
+        "state": 159842627485956052291529460158734208219
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 231205998237340360097256420074448331681,
+        "state": 181364391338616165774632859162829512456
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.34375,
+    "scenario": "C17",
+    "stage": "development",
+    "start": 32
+  },
+  {
+    "B": 32,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 151101249021686790336842388851027466787,
+        "state": 302403658512143088260199476565908453478
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 151101249021686790336842388851027466787,
+        "state": 15724768339307373921817933432535117189
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.34375,
+    "scenario": "C17",
+    "stage": "development",
+    "start": 64
+  },
+  {
+    "B": 4,
+    "after": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 158391009324693345883710993964884710555,
+        "state": 118917015621432164015490904475707010161
+      },
+      "uinteger": 0
+    },
+    "before": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 158391009324693345883710993964884710555,
+        "state": 63675844804826879870230572149534704846
+      },
+      "uinteger": 0
+    },
+    "cpu_seconds": 0.046875,
+    "scenario": "C17",
+    "stage": "development",
+    "start": 96
+  }
+]

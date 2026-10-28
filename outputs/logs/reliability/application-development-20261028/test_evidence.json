@@ -1,0 +1,37 @@
+{
+  "tests": 75,
+  "xml": "outputs/logs/reliability/application-development-20261028/final_tests.xml",
+  "sources": [
+    {
+      "source": "tests/test_reliability_design.py",
+      "sha256": "7b82fd1b87ff87945b3397ea80aacd2749f050c4b83e6c27664348aba1553f09",
+      "snapshot": "outputs/logs/reliability/application-development-20261028/test_source_snapshot/tests/test_reliability_design.py"
+    },
+    {
+      "source": "tests/test_reliability_models.py",
+      "sha256": "820d5645acd7b516484b0b9eadab0af4ce61adecbabc07f087f54909f183474d",
+      "snapshot": "outputs/logs/reliability/application-development-20261028/test_source_snapshot/tests/test_reliability_models.py"
+    },
+    {
+      "source": "tests/test_reliability_refinements.py",
+      "sha256": "bcd6597b434a0c93d3feec4b03d9c4321698ef017e4de35152b0e62a1c53c649",
+      "snapshot": "outputs/logs/reliability/application-development-20261028/test_source_snapshot/tests/test_reliability_refinements.py"
+    },
+    {
+      "source": "tests/test_reliability_joint.py",
+      "sha256": "27614428fcc3118b24a79d8f45eafbc1d8b4097dd8169fc6fd93cc6757adfcb2",
+      "snapshot": "outputs/logs/reliability/application-development-20261028/test_source_snapshot/tests/test_reliability_joint.py"
+    },
+    {
+      "source": "tests/test_reliability_graph_exact.py",
+      "sha256": "5153ea47ec4c6ace40878667a0c6820c059e6a825c13ee88f2a7cddc1e4fe314",
+      "snapshot": "outputs/logs/reliability/application-development-20261028/test_source_snapshot/tests/test_reliability_graph_exact.py"
+    },
+    {
+      "source": "tests/test_reliability_application.py",
+      "sha256": "564040fc623619d550d272100be84edad3d39b54f5f7179dba2d05fbeba911be",
+      "snapshot": "outputs/logs/reliability/application-development-20261028/test_source_snapshot/tests/test_reliability_application.py"
+    }
+  ],
+  "capture": "Source snapshots saved after completed test; sources unchanged since test run; no human review"
+}

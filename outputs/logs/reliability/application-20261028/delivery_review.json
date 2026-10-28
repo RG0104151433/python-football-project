@@ -1,0 +1,61 @@
+{
+  "decision_log_id": "R20261028-05",
+  "markdown_files": 13,
+  "local_link_checks": 998,
+  "missing": [],
+  "access_limited": [
+    {
+      "from": "README.md",
+      "to": "data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv",
+      "code": "EPERM"
+    },
+    {
+      "from": "README.md",
+      "to": "data/processed/prep-3fab808178cf8ad71d88/data_dictionary.md",
+      "code": "EPERM"
+    },
+    {
+      "from": "README.md",
+      "to": "data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json",
+      "code": "EPERM"
+    },
+    {
+      "from": "研究/03_地域差异/README.md",
+      "to": "../../data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv",
+      "code": "EPERM"
+    },
+    {
+      "from": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+      "to": "../../data/processed/prep-3fab808178cf8ad71d88/data_dictionary.md",
+      "code": "EPERM"
+    },
+    {
+      "from": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+      "to": "../../data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json",
+      "code": "EPERM"
+    },
+    {
+      "from": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+      "to": "../../data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv",
+      "code": "EPERM"
+    }
+  ],
+  "unique_hash_checks": 196,
+  "hash_errors": [],
+  "all_plots_visually_inspected": [
+    "q1_intervals",
+    "q2_overall_recent",
+    "q2_rolling_joint",
+    "q3_predefined_contrasts",
+    "q3_conditional_precision",
+    "core_sensitivity_shifts"
+  ],
+  "tests": 75,
+  "independent_checks": 871772,
+  "repeated_core_files": 31,
+  "human_review": "not_performed",
+  "original_bindings": 103,
+  "original_binding_errors": [],
+  "log_ids": 105,
+  "unique_log_ids": 105
+}

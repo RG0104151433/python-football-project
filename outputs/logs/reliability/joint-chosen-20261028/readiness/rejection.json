@@ -1,0 +1,16 @@
+{
+  "decision_log_id": "R20261028-03",
+  "status": "not_admitted",
+  "failure": {
+    "stage": "holdout",
+    "scenario": "C16",
+    "family": "ROLLING",
+    "covered": 945,
+    "R": 1000,
+    "lower99": 0.9258852019471621,
+    "required_lower99": 0.94
+  },
+  "audit_aborted_at_gate": true,
+  "real_football_intervals": false,
+  "retained_for_comparison": true
+}

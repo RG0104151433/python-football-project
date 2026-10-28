@@ -1,0 +1,101 @@
+{
+  "calibration_seen": false,
+  "candidates": [
+    {
+      "development_qualified": true,
+      "mean_CONDITIONAL_width": 0.9546722376068062,
+      "mean_CORE_width": 1.6418959766826162,
+      "mean_ROLLING_width": 0.17854064862016378,
+      "model": "J1_restricted_coarse@0.0025"
+    },
+    {
+      "development_qualified": true,
+      "mean_CONDITIONAL_width": 0.9463157680444009,
+      "mean_CORE_width": 1.4470865453990527,
+      "mean_ROLLING_width": 0.17655949012823763,
+      "model": "J1_restricted_coarse@0.01"
+    },
+    {
+      "development_qualified": true,
+      "mean_CONDITIONAL_width": 0.9196282425292218,
+      "mean_CORE_width": 1.2260023607393753,
+      "mean_ROLLING_width": 0.18014965993850038,
+      "model": "J1_restricted_coarse@0.025"
+    },
+    {
+      "development_qualified": true,
+      "mean_CONDITIONAL_width": 0.9112017492002139,
+      "mean_CORE_width": 1.1723828757963333,
+      "mean_ROLLING_width": 0.18013952783650938,
+      "model": "J1_restricted_coarse@0.05"
+    },
+    {
+      "development_qualified": true,
+      "mean_CONDITIONAL_width": 0.9409939944376838,
+      "mean_CORE_width": 1.1614079932122656,
+      "mean_ROLLING_width": 0.1801395278365093,
+      "model": "J1_restricted_coarse@0.1"
+    },
+    {
+      "development_qualified": true,
+      "mean_CONDITIONAL_width": 0.9538454152134181,
+      "mean_CORE_width": 1.672992096694312,
+      "mean_ROLLING_width": 0.18600740768325136,
+      "model": "J2_restricted_multiscale@0.0025"
+    },
+    {
+      "development_qualified": true,
+      "mean_CONDITIONAL_width": 0.9451410016973594,
+      "mean_CORE_width": 1.5077426850874112,
+      "mean_ROLLING_width": 0.18018422564377112,
+      "model": "J2_restricted_multiscale@0.01"
+    },
+    {
+      "development_qualified": true,
+      "mean_CONDITIONAL_width": 0.9181523458171608,
+      "mean_CORE_width": 1.2837792645146264,
+      "mean_ROLLING_width": 0.18023894729649423,
+      "model": "J2_restricted_multiscale@0.025"
+    },
+    {
+      "development_qualified": true,
+      "mean_CONDITIONAL_width": 0.9097748367747954,
+      "mean_CORE_width": 1.1931383641763142,
+      "mean_ROLLING_width": 0.180139691708555,
+      "model": "J2_restricted_multiscale@0.05"
+    },
+    {
+      "development_qualified": true,
+      "mean_CONDITIONAL_width": 0.9404057746504851,
+      "mean_CORE_width": 1.1591677369533695,
+      "mean_ROLLING_width": 0.1801395278365093,
+      "model": "J2_restricted_multiscale@0.1"
+    }
+  ],
+  "config_sha256": "b095279b409151736c2bbd6a2e549c4352c83132afd29116a807fbeabf34ba25",
+  "development_seen": true,
+  "locked_validation_seen": false,
+  "near_best_candidates": [
+    {
+      "development_qualified": true,
+      "mean_CONDITIONAL_width": 0.9409939944376838,
+      "mean_CORE_width": 1.1614079932122656,
+      "mean_ROLLING_width": 0.1801395278365093,
+      "model": "J1_restricted_coarse@0.1"
+    },
+    {
+      "development_qualified": true,
+      "mean_CONDITIONAL_width": 0.9404057746504851,
+      "mean_CORE_width": 1.1591677369533695,
+      "mean_ROLLING_width": 0.1801395278365093,
+      "model": "J2_restricted_multiscale@0.1"
+    }
+  ],
+  "production_approved": false,
+  "reason": "Numerical development minimum is not statistically established superiority. Simpler joint-corrected6-kernel model within1% width is the project choice.",
+  "selected_model": "J1_restricted_coarse@0.1",
+  "source": "outputs/logs/reliability/joint-v10-20261028/model_selection.json",
+  "source_sha256": "2349e35aa1d9aadc669d5cc9cb81994656624c9f1b105c8b1096f816fe73b2e4",
+  "status": "frozen_candidate_before_independent_calibration",
+  "width_tolerance_relative": 0.01
+}

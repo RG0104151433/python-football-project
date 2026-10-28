@@ -45,7 +45,15 @@
     "analysis_config": "config/confirmed_eras_reviewed.json",
     "previous_membership_analysis": "eras-fifa-24196f9d60d19c30658a",
     "descriptive_handoff_recheck": "outputs/logs/research_closeout/20261025/q1_independent_audit.json",
-    "joint_handoff_review": "outputs/logs/research_closeout/20261025/review.json"
+    "joint_handoff_review": "outputs/logs/research_closeout/20261025/review.json",
+    "shared_reliability_overlay": {
+      "decision_log_id": "R20261028-05",
+      "analysis_id": "applied-ab04b82da3b12ca434239452",
+      "adoption": "outputs/logs/reliability/application-20261028/adoption.json",
+      "document": "研究/04_共同可靠性/第四步_运行结果与复现.md",
+      "original_descriptive_outputs_preserved": true,
+      "summary": "原年代点值不变；两项共同范围跨零，2010年代差在删1988年后变负，不能确认年代改善方向。"
+    }
   },
   "question_2": {
     "must_not_reuse_unfiltered_26055_as_confirmed": true,
@@ -102,6 +110,14 @@
       "followup_interfaces_and_register": "ready_not_executed",
       "human_and_onsite_acceptance": "pending",
       "all_final_delivery_complete": false
+    },
+    "shared_reliability_overlay": {
+      "decision_log_id": "R20261028-05",
+      "analysis_id": "applied-ab04b82da3b12ca434239452",
+      "adoption": "outputs/logs/reliability/application-20261028/adoption.json",
+      "document": "研究/04_共同可靠性/第四步_运行结果与复现.md",
+      "original_descriptive_outputs_preserved": true,
+      "summary": "原描述值不变；全期、近期和36窗模型条件范围均跨零。删年对照保留全期负/近期正的描述方向，仍不支持稳定反转结论。"
     }
   },
   "reference_roles": {
@@ -631,8 +647,8 @@
       "study_team_registry": 217,
       "team_contributions": 39042
     },
-    "inference": "not_run",
-    "sensitivity": "not_run",
+    "inference": "completed_shared_question4_model_conditional_only",
+    "sensitivity": "completed_shared_question4_descriptive_variants",
     "strength_adjustment": "not_run",
     "human_replication": "not_performed",
     "descriptive_results": {
@@ -1803,11 +1819,19 @@
       "final_course_paper": "not_completed_deferred",
       "followup_interfaces": "ready_not_executed",
       "human_and_onsite_acceptance": "deferred_not_performed"
+    },
+    "shared_reliability_overlay": {
+      "decision_log_id": "R20261028-05",
+      "analysis_id": "applied-ab04b82da3b12ca434239452",
+      "adoption": "outputs/logs/reliability/application-20261028/adoption.json",
+      "document": "研究/04_共同可靠性/第四步_运行结果与复现.md",
+      "original_descriptive_outputs_preserved": true,
+      "summary": "原分组与表图不变；24项可算调整差中6项模型条件范围在零一侧，18项跨零，5项仍缺层；变体对照不带新校准区间，不作实力/因果解释。"
     }
   },
   "question_4": {
     "title": "前三问统一分析",
-    "status": "method_iteration_completed_no_informative_production_method_admitted",
+    "status": "completed_model_conditional_application_and_prespecified_descriptive_sensitivity",
     "decision_log_id": "R20261026-01",
     "task_document": "文档/05_团队协作/分工与交付/04_两题共同可靠性与敏感性.md",
     "scope": [
@@ -1815,13 +1839,13 @@
       "question_2",
       "question_3"
     ],
-    "inference": "not_run_real_football",
-    "sensitivity": "not_run",
-    "simulation": "full_graph_and_known_generator_completed_fitted_MP_pilot_only",
+    "inference": "completed_original_targets_model_conditional_only_real_law_not_certified",
+    "sensitivity": "completed_prespecified_point_variants_no_variant_intervals",
+    "simulation": "joint_v15_63968_calibration_162000_validation_16000_parameter_holdout_completed",
     "preanalysis_preparation": {
       "decision_log_id": "R20261026-05",
       "document": "文档/05_团队协作/分工与交付/04_两题共同可靠性与敏感性.md",
-      "status": "implementation_and_two_scale_experiments_completed_no_production_method_admission",
+      "status": "joint_method_validated_for_explicit_reference_laws_only",
       "requires": [
         "target catalog A home-background, B within-background relations, C within-macroregion detail with primary/auxiliary contrasts",
         "versioned geographic hierarchy, historical-entity exceptions and partial unknown handling",
@@ -1885,16 +1909,17 @@
       ],
       "inference_target_and_randomness_finalized": true,
       "uniform_coefficient_interface": "implemented_and_checked_exact_component_recipes_and_in_memory_match_vectors",
-      "method_theory_fit_validated": false,
-      "inference_target_definition_scope": "Fixed-design retrospective conditional mean/contrast; general random outcomes defined, specific joint law/variance identification not validated"
+      "method_theory_fit_validated": true,
+      "inference_target_definition_scope": "Fixed-design retrospective conditional mean/contrast; general random outcomes defined, specific joint law/variance identification not validated",
+      "method_theory_validation_scope": "Explicit finite-reference-law working method only; real law membership not certified"
     },
     "planning_document": "研究/04_共同可靠性/README.md",
     "verification_inventory": "outputs/logs/reliability/planning-20261027/verification_inventory.json",
     "verification_inventory_log_id": "R20261027-06",
     "verification_inventory_completed": true,
-    "results_generated": false,
-    "selected_inference_estimator": null,
-    "next_gate": "Repair long-term dependence estimation/mean separation, full-design calibration and feasible computation; lock fresh protocol. No real inference or new sensitivity approval.",
+    "results_generated": true,
+    "selected_inference_estimator": "J-RMC6-T-v15_model_conditional_only",
+    "next_gate": "Question4 scoped computational work closed. Question5 pre-match strength design remains not implemented; final HTML/paper and human review deferred.",
     "estimand_protocol": "outputs/logs/reliability/estimand-20261027/estimand_protocol.json",
     "estimand_document": "研究/04_共同可靠性/第一步_推断对象与固定条件.md",
     "estimand_definition_log_id": "R20261027-07",
@@ -1904,36 +1929,49 @@
       {
         "step": 1,
         "task": "estimand and fixed conditions",
-        "status": "definition_completed_method_fit_not_validated",
+        "status": "definition_completed",
         "evidence": "outputs/logs/reliability/estimand-20261027/estimand_protocol.json"
       },
       {
         "step": 2,
         "task": "concrete targets/families, coefficients, dependence and support",
-        "status": "completed_design_only_no_method_acceptance",
+        "status": "completed_frozen_design",
         "evidence": "outputs/logs/reliability/step2-20261027/model_readiness.json"
       },
       {
         "step": 3,
         "task": "theory/method fit, implementation and actual validation",
-        "status": "implementation_and_negative_adjudication_completed_fitted_formal_validation_not_admitted",
+        "status": "completed_joint_model_selection_and_scoped_admission",
         "evidence": {
-          "decision_log_id": "R20261028-02",
-          "document": "研究/04_共同可靠性/第三步_双路线演算与迭代记录.md",
-          "adjudication": "outputs/logs/reliability/implementation-20261028/method_adjudication.json",
-          "actual_runs": "outputs/logs/reliability/implementation-20261028/current_runs.json",
-          "independent_audit": "outputs/logs/reliability/implementation-20261028/independent_audit.json",
-          "production_estimator_approved": false
+          "decision_log_id": "R20261028-03",
+          "document": "研究/04_共同可靠性/第三步_联合模型选择与第四步交接.md",
+          "adjudication": "outputs/logs/reliability/joint-envelope-20261028/method_adjudication.json",
+          "independent_audit": "outputs/logs/reliability/joint-envelope-20261028/readiness-final/review.json",
+          "handoff": "outputs/logs/reliability/joint-envelope-20261028/fourth_step_contract.json",
+          "production_estimator_approved": true,
+          "approval_scope": "model_conditional_only",
+          "real_law_certified": false
         }
       },
       {
         "step": 4,
         "task": "approved real inference, planned sensitivity and conclusion revision",
-        "status": "not_run"
+        "status": "completed_with_explicit_scope_and_deferred_human_final_delivery",
+        "evidence": {
+          "decision_log_id": "R20261028-05",
+          "document": "研究/04_共同可靠性/第四步_运行结果与复现.md",
+          "adoption": "outputs/logs/reliability/application-20261028/adoption.json",
+          "run": "outputs/logs/reliability/applied-20261028T085135016736Z-34239452/run_manifest.json",
+          "repeat": "outputs/logs/reliability/applied-20261028T085541920014Z-34239452/run_manifest.json",
+          "audit": "outputs/logs/reliability/applied-20261028T085541920014Z-34239452/independent_audit.json",
+          "real_model_conditional_intervals_run": true,
+          "prespecified_point_sensitivity_run": true,
+          "unconditional_football_coverage_certified": false
+        }
       }
     ],
     "design_outputs_generated": true,
-    "inferential_results_generated": false,
+    "inferential_results_generated": true,
     "design_analysis_id": "design-e1ebd48827f8a5ff4be8",
     "design_run_manifest": "outputs/logs/reliability/design-20261027T131754720415Z-c2a82843/run_manifest.json",
     "design_repeat_manifest": "outputs/logs/reliability/design-20261027T132711991283Z-00082890/run_manifest.json",
@@ -1956,7 +1994,8 @@
       "register": "outputs/logs/reliability/method-planning-20261027/workflow_proposal.json",
       "substeps": 8,
       "executed_substeps": 0,
-      "historical_scope": "R20261027-09 proposal snapshot; executed_substeps0 means then, not current run state."
+      "historical_scope": "R20261027-09 proposal snapshot; executed_substeps0 means then, not current run state.",
+      "current_execution_reference": "研究/04_共同可靠性/第三步_联合模型选择与第四步交接.md"
     },
     "theory_screen": {
       "decision_log_id": "R20261028-01",
@@ -1971,9 +2010,10 @@
       ],
       "production_estimator_approved": false,
       "conditional_graph_bound": "mathematical_derivation_admitted_given_graph_independence_not_fact_certified",
-      "parametric_model": "coherent_candidate_oracle_only; estimated_parameter_coverage_unvalidated"
+      "parametric_model": "coherent_candidate_oracle_only; estimated_parameter_coverage_unvalidated",
+      "historical_scope": "R20261028-01 screening snapshot; not current admission"
     },
-    "latest_decision_log_id": "R20261028-02",
+    "latest_decision_log_id": "R20261028-05",
     "method_experiment_results_generated": true,
     "conditional_result_law_scope": "Working binary generators specified/tested; factual football law and finite graph independence not established.",
     "method_iteration": {
@@ -2015,7 +2055,140 @@
         "3.8": "iteration_path_and_handoff_documented"
       },
       "asymptotic_growth_sequence_simulations": "not_run_not_replaced_by_two_distinct_designs",
-      "scope_supplement": "outputs/logs/reliability/implementation-20261028/scope_supplement.json"
+      "scope_supplement": "outputs/logs/reliability/implementation-20261028/scope_supplement.json",
+      "historical_scope": "R20261028-02 failed two-stage prototype snapshot; retained without rewriting"
+    },
+    "joint_method": {
+      "decision_log_id": "R20261028-03",
+      "document": "研究/04_共同可靠性/第三步_联合模型选择与第四步交接.md",
+      "method": "J-RMC6-T-v15",
+      "raw_model": "J1_restricted_coarse@0.1",
+      "guard_eta": 0.1,
+      "tail_gamma": 1,
+      "reference_worlds": 32,
+      "calibration_alpha": 0.01,
+      "calibration_archives": 63968,
+      "validation_archives": 162000,
+      "parameter_holdout_archives": 16000,
+      "validation_cells_passed": 128,
+      "holdout_cells_passed": 64,
+      "minimum_validation_coverage": 0.986,
+      "minimum_holdout_coverage": 0.991,
+      "CORE_mean_width": 0.3694756809511164,
+      "CORE_width_reduction_vs_bounded": 0.8150909474387369,
+      "tests": 70,
+      "audit_checks": 716313,
+      "original_bindings_unchanged": 103,
+      "joint_mean_wave_implemented": true,
+      "real_football_intervals": false,
+      "real_law_certified": false,
+      "all198_global_coverage_claim": false,
+      "unsupported_retained": 94,
+      "steps": {
+        "3.5": "implemented_exact_checks_and_development",
+        "3.6": "full_design_independent_calibration_validation_holdout_completed",
+        "3.7": "scoped_primary_method_admitted_limits_retained",
+        "3.8": "full_iteration_trace_and_fourth_step_contract_saved"
+      },
+      "artifacts": {
+        "adjudication": "outputs/logs/reliability/joint-envelope-20261028/method_adjudication.json",
+        "contract": "outputs/logs/reliability/joint-envelope-20261028/fourth_step_contract.json",
+        "review": "outputs/logs/reliability/joint-envelope-20261028/readiness-final/review.json",
+        "display": "outputs/logs/reliability/joint-envelope-20261028/display_data.json",
+        "runs": "outputs/logs/reliability/joint-envelope-20261028/current_runs.json",
+        "bindings": "outputs/logs/reliability/joint-envelope-20261028/fourth_step_bindings.json",
+        "source_archive": "outputs/logs/reliability/joint-envelope-20261028/source_archive/index.json"
+      },
+      "human_review": "not_performed",
+      "historical_scope": "R03 method-selection/validation snapshot; actual football model-conditional application is recorded in application R05"
+    },
+    "step4_design": {
+      "decision_log_id": "R20261028-04",
+      "document": "研究/04_共同可靠性/第四步_分析流程与脚本设计.md",
+      "status": "design_only",
+      "prerequisites_verified": true,
+      "model": "J-RMC6-T-v15",
+      "primary_entries": 2,
+      "internal_modules": 4,
+      "planned_primary_entry": "scripts/analyze_reliability.py",
+      "planned_audit_entry": "scripts/audit_reliability_analysis.py",
+      "planned_config": "config/reliability_analysis.json",
+      "planned_files_created": false,
+      "baseline_catalogue_rows": 292,
+      "baseline_interval_targets": 198,
+      "baseline_unsupported": 94,
+      "sensitivity_default": "point_only_new_targets_not_calibrated",
+      "minimum_sensitivity": [
+        "CORE27 leave-one-year-out fixed/recomputed reference; Q2 recent raw5 applicable years",
+        "Q1/Q2 five-era common teams both roles fixed/recomputed reference",
+        "CORE27 and71 conditional rates leave-one-team-out for215 metadata-selected teams fixed reference",
+        "Q1 reuse current weight/reference sensitivity; Q2 equal-era/equal-year; Q3 equal-era conditional type reference",
+        "Q3 individual/combined3 exception reversion;3 historical carrier exclusions; known-both-geography subset; NorthAfrica vs allSSA supplementary point target"
+      ],
+      "real_inference": false,
+      "sensitivity_run": false,
+      "scope": "Specified working-model conditions only; no unconditional real football coverage, causal or prediction claims",
+      "historical_scope": "R04 design snapshot, executed under R05 application; original planned_files_created=false is then, not current"
+    },
+    "current_analysis_id": "applied-ab04b82da3b12ca434239452",
+    "application": {
+      "decision_log_id": "R20261028-05",
+      "status": "completed_and_adopted_model_conditional_application",
+      "analysis_id": "applied-ab04b82da3b12ca434239452",
+      "model": "J-RMC6-T-v15",
+      "run": "outputs/logs/reliability/applied-20261028T085135016736Z-34239452",
+      "repeat_run": "outputs/logs/reliability/applied-20261028T085541920014Z-34239452",
+      "tables": "outputs/tables/reliability/applied-ab04b82da3b12ca434239452",
+      "figures": "outputs/figures/reliability/applied-ab04b82da3b12ca434239452",
+      "catalogue_rows": 292,
+      "model_conditional_intervals": 198,
+      "unsupported_main_rows": 94,
+      "sensitivity_scenarios": 324,
+      "sensitivity_rows": 26704,
+      "unsupported_variant_rows": 1277,
+      "newly_estimable_variant_rows": 20,
+      "coarse_supplementary_new_target_rows": 1,
+      "common_teams": 153,
+      "common_subset_matches": 17760,
+      "tests": 75,
+      "independent_checks": 871772,
+      "first_final_audit_checks": 871769,
+      "repeated_core_files": 31,
+      "repeated_core_bytes_identical": true,
+      "registered_evidence": {
+        "outputs/logs/reliability/applied-20261028T085135016736Z-34239452/run_manifest.json": "368bbdf1dcb31de7d281fad3e5e8ab768785c62cbc46c7302666416fa3d7c288",
+        "outputs/logs/reliability/applied-20261028T085541920014Z-34239452/run_manifest.json": "d686232192db8b38cd3f311ff37e1300f3d4619631336412ced0f4aac5e48674",
+        "outputs/logs/reliability/applied-20261028T085135016736Z-34239452/independent_audit.json": "6f01c787a6998311d21f458041adb07b85b0fffc4ed3c1e557bd62651709c2fc",
+        "outputs/logs/reliability/applied-20261028T085541920014Z-34239452/independent_audit.json": "2c3f09c30328ce47131f1c087d70cf399dc13a18d414da12cef522e43335559c",
+        "outputs/logs/reliability/application-development-20261028/final_tests.xml": "4f3c4880298b651a9caf06c57cb9c499d16d191f37e622029648371e9fbc740f"
+      },
+      "source_state": "Uncommitted execution recorded by content SHA and per-run source_snapshot; no commit/push",
+      "raw_or_parent_results_overwritten": false,
+      "old_main_interpretation": "Original descriptive tables remain source records; current interpretation is overlaid in stage documents",
+      "human_review": "not_performed",
+      "deferred": [
+        "final HTML",
+        "paper body",
+        "A/B actual independent reproduction",
+        "presentation rehearsal"
+      ],
+      "limits": [
+        "finite reference laws do not certify actual football law",
+        "C14 permanent common-shock pressure failure retained",
+        "changed targets have no recalibrated intervals",
+        "no causal or pre-match strength adjustment"
+      ],
+      "history": {
+        "first_check_only": "outputs/logs/reliability/applied-20261028T083551605357Z-7b247e2c",
+        "unadopted_initial_application": "outputs/logs/reliability/applied-20261028T084005330283Z-65c98c15",
+        "corrections": "outputs/logs/reliability/application-development-20261028/iteration_record.json"
+      },
+      "document": "研究/04_共同可靠性/第四步_运行结果与复现.md",
+      "adoption": "outputs/logs/reliability/application-20261028/adoption.json",
+      "independent_audit": "outputs/logs/reliability/applied-20261028T085541920014Z-34239452/independent_audit.json",
+      "display": "outputs/tables/reliability/applied-ab04b82da3b12ca434239452/display_data.json",
+      "verification_closeout": "outputs/logs/reliability/application-20261028/verification_closeout.json",
+      "completion_scope": "All R04 minimum computations; optional analyses and unsupported scientific claims remain outside scope"
     }
   },
   "question_5": {

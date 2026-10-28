@@ -1,0 +1,70 @@
+{
+  "decision_log_id": "R20261028-03",
+  "development_only_versions": [
+    "v12",
+    "v13"
+  ],
+  "independent_replication_of_real_football": false,
+  "runs": [
+    {
+      "manifest": "outputs/logs/reliability/joint-20261028/development-20261028T043859501753Z/manifest.json",
+      "pointer": "outputs/logs/reliability/joint-20261028/development_latest.json",
+      "sha256": "9e5d9bad3a2c502d0599983daa983b0c38023f75e8a72b9ae00ca13d88c514cc"
+    },
+    {
+      "manifest": "outputs/logs/reliability/joint-20261028/probe-20261028T043748354906Z/manifest.json",
+      "pointer": "outputs/logs/reliability/joint-20261028/probe_latest.json",
+      "sha256": "1804e6bcb507279954086adc05c988fc9addceb78713c5a3b51e0b4bd5c564ac"
+    },
+    {
+      "manifest": "outputs/logs/reliability/joint-v10-20261028/development-20261028T045026413031Z/manifest.json",
+      "pointer": "outputs/logs/reliability/joint-v10-20261028/development_latest.json",
+      "sha256": "d2636e85a227af6e8ac7e3255820936798aaa4c1b37a4316e40f9a8bf3a8436e"
+    },
+    {
+      "manifest": "outputs/logs/reliability/joint-final-20261028/calibration-20261028T045629668647Z/manifest.json",
+      "pointer": "outputs/logs/reliability/joint-final-20261028/calibration_latest.json",
+      "sha256": "dc88e4343db57356e570948c05998909343fbc7bf8c38af3e94a4f1e52be48c2"
+    },
+    {
+      "manifest": "outputs/logs/reliability/joint-final-20261028/holdout-20261028T050054746025Z/manifest.json",
+      "pointer": "outputs/logs/reliability/joint-final-20261028/holdout_latest.json",
+      "sha256": "e22e3ec0c6a81ec903ec2b28c464d484ded6922f89b4b50ca1fbe1de2bc44138"
+    },
+    {
+      "manifest": "outputs/logs/reliability/joint-final-20261028/validation-20261028T045855886047Z/manifest.json",
+      "pointer": "outputs/logs/reliability/joint-final-20261028/validation_latest.json",
+      "sha256": "1bf582c833f1e4d216f108a094f03e9d77bd2cf726dc9860da95b4e2928a7775"
+    },
+    {
+      "manifest": "outputs/logs/reliability/joint-chosen-20261028/calibration-20261028T052512170280Z/manifest.json",
+      "pointer": "outputs/logs/reliability/joint-chosen-20261028/calibration_latest.json",
+      "sha256": "34f2cd47610b542f59d3187ab3b2caefc2973d3c8f7e7b220c1680f1bca8d082"
+    },
+    {
+      "manifest": "outputs/logs/reliability/joint-chosen-20261028/holdout-20261028T052927074802Z/manifest.json",
+      "pointer": "outputs/logs/reliability/joint-chosen-20261028/holdout_latest.json",
+      "sha256": "c15d93f1e2d324e2096a39d0f8dc03b756593d7ab46b47914d308b1f8756320d"
+    },
+    {
+      "manifest": "outputs/logs/reliability/joint-chosen-20261028/validation-20261028T052912766569Z/manifest.json",
+      "pointer": "outputs/logs/reliability/joint-chosen-20261028/validation_latest.json",
+      "sha256": "fc4ff1f94c08146c6e1435e924728ba8e845d19ac6beaeeda29da3c766ff01d4"
+    },
+    {
+      "manifest": "outputs/logs/reliability/joint-envelope-20261028/calibration-20261028T053522936453Z/manifest.json",
+      "pointer": "outputs/logs/reliability/joint-envelope-20261028/calibration_latest.json",
+      "sha256": "a2fb22d19bb3e9574b6f7a4f5dc466dce3788d05b1816e0cb5f1bfc073f1e71e"
+    },
+    {
+      "manifest": "outputs/logs/reliability/joint-envelope-20261028/holdout-20261028T053925927376Z/manifest.json",
+      "pointer": "outputs/logs/reliability/joint-envelope-20261028/holdout_latest.json",
+      "sha256": "ea71c57e844c88004b6d72f15e46a4064dfbdceaa4d8c1785d2e72a5fb259f2b"
+    },
+    {
+      "manifest": "outputs/logs/reliability/joint-envelope-20261028/validation-20261028T053908811245Z/manifest.json",
+      "pointer": "outputs/logs/reliability/joint-envelope-20261028/validation_latest.json",
+      "sha256": "8f94b0c667f7aada117ee56effe636979aa526542864e8b012e4a350a3523f98"
+    }
+  ]
+}

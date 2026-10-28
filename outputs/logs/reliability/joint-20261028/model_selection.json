@@ -1,0 +1,53 @@
+{
+  "candidates": [
+    {
+      "development_qualified": true,
+      "mean_CONDITIONAL_width": 0.9613126216930077,
+      "mean_CORE_width": 1.8008365673408888,
+      "mean_ROLLING_width": 0.18939539702946362,
+      "model": "J0_naive"
+    },
+    {
+      "development_qualified": true,
+      "mean_CONDITIONAL_width": 0.9658621023324607,
+      "mean_CORE_width": 1.8039141802374352,
+      "mean_ROLLING_width": 0.18640261816382822,
+      "model": "J1_restricted_coarse"
+    },
+    {
+      "development_qualified": true,
+      "mean_CONDITIONAL_width": 0.9660292776803876,
+      "mean_CORE_width": 1.8182711645438292,
+      "mean_ROLLING_width": 0.1941020751383309,
+      "model": "J2_restricted_multiscale"
+    }
+  ],
+  "development_trial_critical": {
+    "J0_naive": {
+      "AUX": 47.39107337079042,
+      "CONDITIONAL": 28.162374315148593,
+      "CORE": 45.33333308881402,
+      "ROLLING": 6.11540905357977
+    },
+    "J1_restricted_coarse": {
+      "AUX": 47.39107337079042,
+      "CONDITIONAL": 28.162374315148593,
+      "CORE": 44.63840835395169,
+      "ROLLING": 6.11540905357977
+    },
+    "J2_restricted_multiscale": {
+      "AUX": 47.39107337079042,
+      "CONDITIONAL": 28.162374315148593,
+      "CORE": 44.63840835395167,
+      "ROLLING": 6.11540905357977
+    }
+  },
+  "independent_calibration_completed": false,
+  "locked_validation_completed": false,
+  "production_approved": false,
+  "rule_sha256": "247de2995739d63282b3641865d32c98ee873504738a40d754bdb3a470811c7a",
+  "script_sha256": "9357061f8482e6739ed2b55e9f365e950e9c927d2f64b1b5eb4389a1266c9c7d",
+  "selected_model": "J0_naive",
+  "selection_scope": "minimum development width among tested eligible candidates; not a universal optimality theorem",
+  "source": "outputs/logs/reliability/joint-20261028/development-20261028T043859501753Z"
+}

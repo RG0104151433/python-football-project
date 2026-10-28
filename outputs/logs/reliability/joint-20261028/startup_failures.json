@@ -1,0 +1,17 @@
+{
+  "decision_log_id": "R20261028-03",
+  "stage": "final_choice_before_calibration",
+  "errors": [
+    {
+      "type": "SyntaxError",
+      "detail": "Missing space in else17 in initial selector; no choice/config was created."
+    },
+    {
+      "type": "FileNotFoundError",
+      "detail": "The following attempted calibration could not read absent v11 config; no stochastic experiment started."
+    }
+  ],
+  "repair": "Corrected token and ran dependent calls sequentially; final choice then saved successfully.",
+  "execution_hash_before_failure": "not_captured",
+  "not_a_statistical_method_failure": true
+}

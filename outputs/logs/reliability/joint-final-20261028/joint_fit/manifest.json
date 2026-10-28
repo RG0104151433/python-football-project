@@ -1,0 +1,28 @@
+{
+  "GLS_iterations": 66,
+  "cpu_seconds": 0.90625,
+  "human_review": "not_performed",
+  "mean_outside_unit_interval": 1267,
+  "mean_score_orthogonality_max": 3.97148980368911e-12,
+  "n": 24917,
+  "noise_ridge": 1.9930466740872511e-07,
+  "outputs": {
+    "outputs/logs/reliability/joint-final-20261028/joint_fit/mean_and_common_wave.csv": "b45b05d82c5442ca2dfe34524477686b2bf519505570f24ee18f150b90d9a2e4",
+    "outputs/logs/reliability/joint-final-20261028/joint_fit/target_scales.csv": "191ef52d24ac9da782c0cff0aa4796611798627d5951eae388d325210b44a730",
+    "outputs/logs/reliability/joint-final-20261028/joint_fit/variance_components.csv": "9c29460e9c2d7739ff4fc91150388a3c474dc55a9e453bdebbd3d226d230d3a8"
+  },
+  "predictor_is_not_probability": true,
+  "real_football_intervals": false,
+  "relative_joint_reconstruction_error": 5.375916417588638e-09,
+  "relative_projected_equation_error": 8.753282808632976e-09,
+  "scope": "Joint GLS/BLUP working decomposition; no causal/pre-match/physical-state identification claim; scale guard separate from variance parameter fit",
+  "selected_model": "J1_restricted_coarse@0.1",
+  "source_sha256": {
+    "config/reliability_joint_v11.json": "b095279b409151736c2bbd6a2e549c4352c83132afd29116a807fbeabf34ba25",
+    "scripts/fit_joint_mean_wave.py": "866557e36e9caba8e5ee2d6b4b73e87ad58fd6690a931aa28a1a69985d12ec8e",
+    "src/reliability/guard.py": "973d95dd9fa4c0b23a79124ca7bb4f0ca19d43f61c73f97c74f9c95a9ac7eee3",
+    "src/reliability/joint.py": "20ec3568fe1ea590b6f99748a9e64276339ad556a6fe3914301f1cec7859e058"
+  },
+  "supported_targets": 198,
+  "unsupported_targets": 94
+}

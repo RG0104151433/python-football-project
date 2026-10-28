@@ -1,0 +1,7 @@
+{
+  "decision_log_id": "R20261028-03",
+  "status": "statistical_checks_completed_contract_write_failed",
+  "error": "FileNotFoundError: inherited tail_weights lives in joint-chosen package, not joint-envelope; wrong assumed location only in contract artifact hash list.",
+  "repair": "Use config.tail_weights exact path; repeat audit in readiness-final, preserve this audit.",
+  "experiment_results_changed": false
+}
