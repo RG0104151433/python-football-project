@@ -404,6 +404,230 @@
       "reading_scope": "Online author PDF section2 opening quantile/rank lemma and section2.2 split discussion. Project rederives archive-level score calibration, not individual-match conformal confidence for unknown means.",
       "project_limits": "Independent units are complete GENERATED fixed-design outcome vectors. Real matches are not treated as iid. Finite reference-world guarantee does not establish a real-football law or continuous-nuisance uniform validity.",
       "git_policy": "public author-hosted original retained under user authorization; no commit/push"
+    },
+    {
+      "status": "web_read_only",
+      "id": "Q5-M01",
+      "title": "FIFA/Coca-Cola Men’s World Ranking Procedures",
+      "authors": "FIFA",
+      "requested_url": "https://inside.fifa.com/en/fifa-rankings/world-ranking/procedure-men",
+      "reading_scope": "Official indexed text: SUM effective August2018. Direct rendered text only navigation; not full-page/PDF verification.",
+      "project_limits": "Historical period coverage and optimality not established.",
+      "accessed_date": "2026-10-28",
+      "local_path": null,
+      "decision_log_id": "R20261028-08",
+      "implemented_in_project": false
+    },
+    {
+      "status": "web_read_only",
+      "id": "Q5-M02",
+      "title": "Cum se calculează punctajul în clasamentul FIFA",
+      "authors": "Football Association of Moldova (FMF)",
+      "requested_url": "https://www.fmf.md/noutate/2878/cum-se-calculeaza-punctajul-in-clasamentul-fifa?lang=en",
+      "reading_scope": "Official association explanation read: SUM formula, expected result, importance weights, penalty rules, knockout exceptions and initial2018 conversion.",
+      "project_limits": "Administrative ranking rules do not automatically maximize strength measurement quality.",
+      "accessed_date": "2026-10-28",
+      "local_path": null,
+      "decision_log_id": "R20261028-08",
+      "implemented_in_project": false
+    },
+    {
+      "status": "web_read_only",
+      "id": "Q5-M03",
+      "title": "FIFA/Coca-Cola World Rankings go live with real-time updates during men’s and women’s national team matches",
+      "authors": "FIFA",
+      "requested_url": "https://inside.fifa.com/fifa-rankings/world-ranking/news/fifa-coca-cola-world-rankings-live-real-time-updates-men-women",
+      "reading_scope": "Official18March2026 announcement;1992 start wording; approved senior matches and provisional vs official publication.",
+      "project_limits": "2026 update schedule is not assigned to1980–2024. Earliest complete historic data not verified.",
+      "accessed_date": "2026-10-28",
+      "local_path": null,
+      "decision_log_id": "R20261028-08",
+      "implemented_in_project": false
+    },
+    {
+      "status": "web_read_only",
+      "id": "Q5-M04",
+      "title": "Argentina reclaim top spot in the FIFA/Coca-Cola Men’s World Ranking",
+      "authors": "FIFA",
+      "requested_url": "https://inside.fifa.com/fifa-rankings/world-ranking/men/news/argentina-reclaim-top-spot-mens-world-ranking-fifa-coca-cola",
+      "reading_scope": "Official11June2026 text uses August1993 introduction wording; used only to register differing official start descriptions.",
+      "project_limits": "Not an independently acquired historical ranking dataset.",
+      "accessed_date": "2026-10-28",
+      "local_path": null,
+      "decision_log_id": "R20261028-08",
+      "implemented_in_project": false
+    },
+    {
+      "status": "web_read_only",
+      "id": "Q5-P01",
+      "title": "Bradley-Terry Models in R: The BradleyTerry2 Package",
+      "authors": "Heather Turner; David Firth",
+      "doi": "10.18637/jss.v048.i09",
+      "year": 2012,
+      "requested_url": "https://www.jstatsoft.org/article/view/v048i09",
+      "reading_scope": "Original publication abstract/metadata: covariate structures and home/contest-specific effects. No full-method review.",
+      "project_limits": "Basic static pair model alone does not supply dynamic prematch ratings, draw model or project inference.",
+      "accessed_date": "2026-10-28",
+      "local_path": null,
+      "decision_log_id": "R20261028-08",
+      "implemented_in_project": false
+    },
+    {
+      "status": "web_read_local_download_failed",
+      "id": "Q5-P02",
+      "title": "Example of the Glicko-2 system",
+      "authors": "Mark E. Glickman",
+      "version": "Author PDF dated March22,2022",
+      "requested_url": "https://glicko.net/glicko/glicko2.pdf",
+      "reading_scope": "Author PDF online text: strength/RD/volatility, rating periods, cold start and inactivity. No complete proof validation.",
+      "project_limits": "Sparse national matches and calendar-time dynamics require adaptation; original recommended period counts not automatically met.",
+      "error": "Local Node fetch failed; no original saved.",
+      "accessed_date": "2026-10-28",
+      "local_path": null,
+      "decision_log_id": "R20261028-08",
+      "implemented_in_project": false
+    },
+    {
+      "status": "abstract_read_local_download_failed",
+      "id": "Q5-P03",
+      "title": "TrueSkill(TM): A Bayesian Skill Rating System",
+      "authors": "Ralf Herbrich; Tom Minka; Thore Graepel",
+      "requested_url": "https://www.microsoft.com/en-us/research/publication/trueskilltm-a-bayesian-skill-rating-system/",
+      "additional_url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2006/01/TR-2006-80.pdf",
+      "reading_scope": "Author institution abstract: uncertainty, draws, team outcomes. Report PDF online extraction garbled; not reviewed as full methods.",
+      "project_limits": "Game/player setting does not establish national football transfer validity or player-level analysis with current data.",
+      "error": "Local Node fetch failed; no original saved.",
+      "accessed_date": "2026-10-28",
+      "local_path": null,
+      "decision_log_id": "R20261028-08",
+      "implemented_in_project": false
+    },
+    {
+      "status": "page_shell_only",
+      "id": "Q5-M05",
+      "title": "World Football Elo Ratings about page",
+      "authors": "World Football Elo Ratings",
+      "requested_url": "https://www.eloratings.net/about",
+      "reading_scope": "Only HTML application shell obtained; no current rule text verified.",
+      "project_limits": "No adoption of reposted100-point home bonus or detailed current formula on this basis.",
+      "accessed_date": "2026-10-28",
+      "local_path": null,
+      "decision_log_id": "R20261028-08",
+      "implemented_in_project": false
+    },
+    {
+      "id": "Q5-P04",
+      "title": "Parameter Estimation in Large Dynamic Paired Comparison Experiments",
+      "authors": "Mark E. Glickman",
+      "year": 1999,
+      "requested_url": "https://glicko.net/research/glicko.pdf",
+      "reading_scope": "Author PDF sections2–3: dynamic state/variance, prior and period updates; not all proofs or empirical examples reviewed.",
+      "project_limits": "Approximate dynamic pair model; draws half-score not a complete free WDL model; original period/independence assumptions require project adaptation.",
+      "accessed_date": "2026-10-28",
+      "decision_log_id": "R20261028-09",
+      "status": "web_read_only",
+      "local_path": null,
+      "implemented_in_project": false
+    },
+    {
+      "id": "Q5-P05",
+      "title": "Paired Comparison Models with Time Varying Parameters",
+      "authors": "Mark E. Glickman",
+      "year": 1993,
+      "requested_url": "https://glicko.net/research/thesis.pdf",
+      "reading_scope": "Author research-page bibliographic entry and original thesis availability/metadata only; original112-page thesis not read or validated.",
+      "project_limits": "Historical filtering and smoothing distinct; no theorem transfer or chosen football model.",
+      "accessed_date": "2026-10-28",
+      "decision_log_id": "R20261028-09",
+      "status": "web_read_only",
+      "local_path": null,
+      "implemented_in_project": false
+    },
+    {
+      "id": "Q5-P06",
+      "title": "G-Elo: Generalization of the Elo algorithm by modelling the discretized margin of victory",
+      "authors": "Leszek Szczecinski",
+      "version": "arXiv2010.11187v3, revised7February2022",
+      "requested_url": "https://arxiv.org/html/2010.11187v3",
+      "reading_scope": "Author full-text HTML relevant model, Elo update, discretized MOV and WDL aggregation sections; experiments not reproduced.",
+      "project_limits": "MOV optional later, no automatic rating uncertainty or robustness; extra time and sparse national matches not verified.",
+      "accessed_date": "2026-10-28",
+      "decision_log_id": "R20261028-09",
+      "status": "web_read_only",
+      "local_path": null,
+      "implemented_in_project": false
+    },
+    {
+      "id": "Q5-P07",
+      "title": "Rank Centrality: Ranking from Pair-wise Comparisons",
+      "authors": "Sahand Negahban; Sewoong Oh; Devavrat Shah",
+      "version": "arXiv1209.1688v4,12November2015; author/publication record consulted",
+      "requested_url": "https://arxiv.org/abs/1209.1688v4",
+      "additional_url": "https://devavrat.mit.edu/publication/rank-centrality-ranking-from-pair-wise-comparisons/",
+      "reading_scope": "Author abstract and research record: graph topology/spectral gap affects sample complexity and pairwise score estimation; no complete proof review.",
+      "project_limits": "Static BTL graph results do not establish dynamic football draw-model uncertainty or real-world calibration.",
+      "accessed_date": "2026-10-28",
+      "decision_log_id": "R20261028-09",
+      "status": "web_read_only",
+      "local_path": null,
+      "implemented_in_project": false
+    },
+    {
+      "id": "Q5-P08",
+      "title": "Expectation Propagation in the Large Data Limit",
+      "authors": "Guillaume Dehaene; Simon Barthelmé",
+      "year": 2018,
+      "requested_url": "https://academic.oup.com/jrsssb/article/80/1/199/7048420",
+      "accessed_date": "2026-10-28",
+      "decision_log_id": "R20261028-10",
+      "status": "indexed_primary_abstract_direct_page_unavailable",
+      "local_path": null,
+      "reading_scope": "Original publication search-index abstract/figure description: parallel EP oscillation, multiple fixed points, multimodal approximation. Direct open returned500 after CDN redirect; not full theorem review.",
+      "project_limits": "Used only to flag approximate-inference convergence/shape limits, not to certify project solver or transfer asymptotic guarantees.",
+      "implemented_in_project": false
+    },
+    {
+      "id": "Q5-P09",
+      "title": "Bayesian Online Changepoint Detection",
+      "authors": "Ryan Prescott Adams; David J. C. MacKay",
+      "year": 2007,
+      "requested_url": "https://arxiv.org/pdf/0710.3742",
+      "additional_url": "https://lips.cs.princeton.edu/pdfs/adams2007changepoint.pdf",
+      "reading_scope": "Original arXiv PDF: causal predictive filtering, run-length/hazard and path evidence recursion. Alternate author-host PDF403. Not all derivations validated.",
+      "project_limits": "Football has irregular paired observations and shared opponent/venue states. Additive level jumps are not independent-segment parameter resets; no conjugacy/complexity transfer.",
+      "accessed_date": "2026-10-29",
+      "decision_log_id": "R20261029-01",
+      "status": "web_read_only",
+      "local_path": null,
+      "implemented_in_project": false
+    },
+    {
+      "id": "Q5-P10",
+      "title": "Doubly Robust Bayesian Inference for Non-Stationary Streaming Data with beta-Divergences",
+      "authors": "Jeremias Knoblauch; Jack Jewson; Theodoros Damoulas",
+      "year": 2018,
+      "requested_url": "https://proceedings.neurips.cc/paper/2018/file/a3f390d88e4c41f2747bfa2f1b5f87db-Paper.pdf",
+      "reading_scope": "Original conference PDF introduction, model/run-length recursion and distinction between parameter/outlier and change-point robustness; not complete theorem/appendix verification.",
+      "project_limits": "Generalized-Bayes beta-divergence regression construction not adopted. Mixture football model is separate and inherits no stated robust theorem or computational bound.",
+      "accessed_date": "2026-10-29",
+      "decision_log_id": "R20261029-01",
+      "status": "web_read_only",
+      "local_path": null,
+      "implemented_in_project": false
+    },
+    {
+      "id": "Q5-P11",
+      "title": "Robust and Scalable Bayesian Online Changepoint Detection",
+      "authors": "Matias Altamirano; Francois-Xavier Briol; Jeremias Knoblauch",
+      "version": "arXiv2302.04759v2,12May2023",
+      "requested_url": "https://arxiv.org/abs/2302.04759v2",
+      "reading_scope": "Author abstract/metadata only: robust generalized-Bayes change-point inference and conjugate score-matching direction.",
+      "project_limits": "Not reviewed for adaptation, no transfer of exact updates, robustness or speed to nonconjugate dynamic football.",
+      "accessed_date": "2026-10-29",
+      "decision_log_id": "R20261029-01",
+      "status": "web_read_only",
+      "local_path": null,
+      "implemented_in_project": false
     }
   ],
   "reading_events": [
@@ -790,6 +1014,182 @@
         }
       ],
       "limits": "Own derivations and exact small probability checks are not a completed simulation or a real-data inference guarantee. M-P fitted-parameter theory/coverage remains open; no selected production estimator."
+    },
+    {
+      "date": "2026-10-28",
+      "decision_log_id": "R20261028-08",
+      "reader": "Codex (AI)",
+      "topic": "Q5 topic/value, external rankings, algorithm candidates, initial conditions, feedback and chronology before framework design",
+      "sources": [
+        {
+          "record_id": "Q5-M01",
+          "url": "https://inside.fifa.com/en/fifa-rankings/world-ranking/procedure-men",
+          "scope": "Official indexed text: SUM effective August2018. Direct rendered text only navigation; not full-page/PDF verification."
+        },
+        {
+          "record_id": "Q5-M02",
+          "url": "https://www.fmf.md/noutate/2878/cum-se-calculeaza-punctajul-in-clasamentul-fifa?lang=en",
+          "scope": "Official association explanation read: SUM formula, expected result, importance weights, penalty rules, knockout exceptions and initial2018 conversion."
+        },
+        {
+          "record_id": "Q5-M03",
+          "url": "https://inside.fifa.com/fifa-rankings/world-ranking/news/fifa-coca-cola-world-rankings-live-real-time-updates-men-women",
+          "scope": "Official18March2026 announcement;1992 start wording; approved senior matches and provisional vs official publication."
+        },
+        {
+          "record_id": "Q5-M04",
+          "url": "https://inside.fifa.com/fifa-rankings/world-ranking/men/news/argentina-reclaim-top-spot-mens-world-ranking-fifa-coca-cola",
+          "scope": "Official11June2026 text uses August1993 introduction wording; used only to register differing official start descriptions."
+        },
+        {
+          "record_id": "Q5-P01",
+          "url": "https://www.jstatsoft.org/article/view/v048i09",
+          "scope": "Original publication abstract/metadata: covariate structures and home/contest-specific effects. No full-method review."
+        },
+        {
+          "record_id": "Q5-P02",
+          "url": "https://glicko.net/glicko/glicko2.pdf",
+          "scope": "Author PDF online text: strength/RD/volatility, rating periods, cold start and inactivity. No complete proof validation."
+        },
+        {
+          "record_id": "Q5-P03",
+          "url": "https://www.microsoft.com/en-us/research/publication/trueskilltm-a-bayesian-skill-rating-system/",
+          "scope": "Author institution abstract: uncertainty, draws, team outcomes. Report PDF online extraction garbled; not reviewed as full methods."
+        },
+        {
+          "record_id": "Q5-M05",
+          "url": "https://www.eloratings.net/about",
+          "scope": "Only HTML application shell obtained; no current rule text verified."
+        }
+      ],
+      "local_download_this_event": [
+        {
+          "id": "Q5-P02",
+          "url": "https://glicko.net/glicko/glicko2.pdf",
+          "name": "Glickman_Glicko2_2022.pdf",
+          "status": "failed_no_local_original",
+          "local_path": null,
+          "error": "fetch failed"
+        },
+        {
+          "id": "Q5-P03",
+          "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2006/01/TR-2006-80.pdf",
+          "name": "Herbrich_Minka_Graepel_TrueSkill_TR2006_80.pdf",
+          "status": "failed_no_local_original",
+          "local_path": null,
+          "error": "fetch failed"
+        }
+      ],
+      "limits": "No historical FIFA dataset acquired, no ratings or statistical analysis. Glicko and TrueSkill local downloads failed. Official PDF legacy link redirects; no local copy claimed."
+    },
+    {
+      "date": "2026-10-28",
+      "decision_log_id": "R20261028-09",
+      "reader": "Codex (AI)",
+      "topic": "Q5 user choices, upset influence vs uncertainty, latent rating scale, six method mechanisms, venue-aware updates, warmup, cross-region graph and future evaluation",
+      "sources": [
+        {
+          "record_id": "Q5-P04",
+          "url": "https://glicko.net/research/glicko.pdf",
+          "scope": "Author PDF sections2–3: dynamic state/variance, prior and period updates; not all proofs or empirical examples reviewed."
+        },
+        {
+          "record_id": "Q5-P05",
+          "url": "https://glicko.net/research/thesis.pdf",
+          "scope": "Author research-page bibliographic entry and original thesis availability/metadata only; original112-page thesis not read or validated."
+        },
+        {
+          "record_id": "Q5-P06",
+          "url": "https://arxiv.org/html/2010.11187v3",
+          "scope": "Author full-text HTML relevant model, Elo update, discretized MOV and WDL aggregation sections; experiments not reproduced."
+        },
+        {
+          "record_id": "Q5-P07",
+          "url": "https://arxiv.org/abs/1209.1688v4",
+          "scope": "Author abstract and research record: graph topology/spectral gap affects sample complexity and pairwise score estimation; no complete proof review."
+        },
+        {
+          "record_id": "Q5-P02",
+          "url": "https://glicko.net/glicko/glicko2.pdf",
+          "scope": "Re-read RD/opponent information, sigma/tau numerical root update and inactivity; not a claim that larger uncertainty suppresses upset effects."
+        },
+        {
+          "record_id": "Q5-P03",
+          "url": "https://www.microsoft.com/en-us/research/project/trueskill-ranking-system/",
+          "scope": "Institution project description of Gaussian skill beliefs, match performance, draw threshold, approximate update and distinction from Glicko."
+        },
+        {
+          "record_id": "FORECAST-P02",
+          "url": "https://sites.stat.washington.edu/people/raftery/Research/PDF/Gneiting2007jasa.pdf",
+          "scope": "Re-read probability evaluation definitions and quadratic/logarithmic scoring descriptions; no transfer of random-fold or iid claims."
+        },
+        {
+          "record_id": "Q5-M02",
+          "url": "https://www.fmf.md/noutate/2878/cum-se-calculeaza-punctajul-in-clasamentul-fifa?lang=en",
+          "scope": "Rechecked SUM inputs/formula: no player technical/support covariates required."
+        }
+      ],
+      "local_download_this_event": [],
+      "limits": "No new local originals, code, ratings, predictions or empirical acceptance; existing download failures not retried unchanged. Candidate mixture weighting and log-scale/graph derivations explicitly project reasoning, no claimed novelty or validity."
+    },
+    {
+      "date": "2026-10-28",
+      "decision_log_id": "R20261028-10",
+      "reader": "Codex (AI)",
+      "topic": "Initial rating architecture, ordered-probit probabilities, Gaussian moment updates, outcome mixture responsibilities and daily batch inference limits",
+      "sources": [
+        {
+          "record_id": "Q5-P03",
+          "url": "https://www.microsoft.com/en-us/research/project/trueskill-ranking-system/",
+          "scope": "Institutional explanation of skill beliefs, performance noise, draws and approximate inference."
+        },
+        {
+          "record_id": "Q5-P04",
+          "url": "https://glicko.net/research/glicko.pdf",
+          "scope": "Dynamic distribution and no-drift variance transition; not all original proofs."
+        },
+        {
+          "record_id": "FORECAST-P02",
+          "url": "https://sites.stat.washington.edu/people/raftery/Research/PDF/Gneiting2007jasa.pdf",
+          "scope": "Probabilistic prediction/scoring definitions; no project calibration theorem."
+        },
+        {
+          "record_id": "Q5-P08",
+          "url": "https://academic.oup.com/jrsssb/article/80/1/199/7048420",
+          "scope": "Search-index primary abstract/figure description only; direct page unavailable."
+        }
+      ],
+      "local_download_this_event": [],
+      "project_derivations": "Gaussian ordered-outcome predictive integral, single-game conditional first/second moments, mixture responsibility and total covariance; hypothetical quadrature checks",
+      "evidence": "outputs/logs/strength/architecture-20261028/math_checks.json",
+      "limits": "No production rating code, football experiments, daily solver acceptance or selected optimal model. Proposed mixture is not identified as new published football method."
+    },
+    {
+      "date": "2026-10-29",
+      "decision_log_id": "R20261029-01",
+      "reader": "Codex (AI)",
+      "topic": "Cross-day framework completion: both teams learn, transient outcomes compete with persistent level changes, sequential evidence, Gaussian-mixture uncertainty and Q6 memory interface",
+      "sources": [
+        {
+          "record_id": "Q5-P09",
+          "url": "https://arxiv.org/pdf/0710.3742",
+          "scope": "Original arXiv PDF: causal predictive filtering, run-length/hazard and path evidence recursion. Alternate author-host PDF403. Not all derivations validated."
+        },
+        {
+          "record_id": "Q5-P10",
+          "url": "https://proceedings.neurips.cc/paper/2018/file/a3f390d88e4c41f2747bfa2f1b5f87db-Paper.pdf",
+          "scope": "Original conference PDF introduction, model/run-length recursion and distinction between parameter/outlier and change-point robustness; not complete theorem/appendix verification."
+        },
+        {
+          "record_id": "Q5-P11",
+          "url": "https://arxiv.org/abs/2302.04759v2",
+          "scope": "Author abstract/metadata only: robust generalized-Bayes change-point inference and conjugate score-matching direction."
+        }
+      ],
+      "local_download_this_event": [],
+      "project_derivations": "Calendar-time compound-Poisson level-increment moments, two-sided update symmetry, conditional path odds/KL identity, within/between covariance and local Gaussian memory interpretation",
+      "evidence": "outputs/logs/strength/framework-20261028/framework_math_checks.json",
+      "limits": "Seven structural checks and hypothetical single-opponent grid only; not the full multi-team Poisson/EP solver, no football-data validation, no guaranteed3/5-match detection, no source theorem transfer."
     }
   ],
   "maintenance_events": [

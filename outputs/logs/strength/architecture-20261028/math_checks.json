@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "scope": "Hypothetical scalar Gaussian-prior single-match probability/moment formula checks; no football data or rating experiment",
+  "integration": "Independent composite Simpson posterior integration; normal CDF from32-node Gauss-Legendre quadrature",
+  "tolerance": 2e-7,
+  "results": [
+    {
+      "parameters": {
+        "m": 0,
+        "v": 0.4,
+        "h": 0.2,
+        "delta": 0.3,
+        "kappa": 1,
+        "y": "H"
+      },
+      "closed_form": {
+        "P": 0.46632331948293804,
+        "Z": 0.46632331948293804,
+        "r": 1,
+        "mean": 0.28818266536636167,
+        "variance": 0.32518454182137857,
+        "informativeMean": 0.28818266536636167,
+        "informativeVariance": 0.32518454182137857
+      },
+      "numerical_integral": {
+        "Z": 0.46632331948293704,
+        "mean": 0.28818266536636084,
+        "variance": 0.32518454182137846
+      },
+      "absolute_errors": {
+        "Z": 9.992007221626409e-16,
+        "mean": 8.326672684688674e-16,
+        "variance": 1.1102230246251565e-16
+      }
+    },
+    {
+      "parameters": {
+        "m": 0.4,
+        "v": 0.6,
+        "h": 0,
+        "delta": 0.35,
+        "kappa": 0.8,
+        "y": "D"
+      },
+      "closed_form": {
+        "P": 0.2076195441075251,
+        "Z": 0.23276230195268674,
+        "r": 0.7135847767985304,
+        "mean": 0.2956648382358425,
+        "variance": 0.44786250131288946,
+        "informativeMean": 0.2537872931759376,
+        "informativeVariance": 0.38067525511491007
+      },
+      "numerical_integral": {
+        "Z": 0.23276230195268577,
+        "mean": 0.29566483823584216,
+        "variance": 0.447862501312891
+      },
+      "absolute_errors": {
+        "Z": 9.71445146547012e-16,
+        "mean": 3.3306690738754696e-16,
+        "variance": 1.5543122344752192e-15
+      }
+    },
+    {
+      "parameters": {
+        "m": -2,
+        "v": 0.5,
+        "h": 0,
+        "delta": 0.3,
+        "kappa": 0.8,
+        "y": "H"
+      },
+      "closed_form": {
+        "P": 0.030194540654635005,
+        "Z": 0.09082229919037466,
+        "r": 0.2659658777529386,
+        "mean": -1.7540051589810044,
+        "variance": 0.628082582973269,
+        "informativeMean": -1.075088717780912,
+        "informativeVariance": 0.35363776972514327
+      },
+      "numerical_integral": {
+        "Z": 0.0908222991903745,
+        "mean": -1.7540051589810066,
+        "variance": 0.6280825829732541
+      },
+      "absolute_errors": {
+        "Z": 1.5265566588595902e-16,
+        "mean": 2.220446049250313e-15,
+        "variance": 1.4876988529977098e-14
+      }
+    },
+    {
+      "parameters": {
+        "m": 2,
+        "v": 1,
+        "h": 0.1,
+        "delta": 0.3,
+        "kappa": 0.55,
+        "y": "A"
+      },
+      "closed_form": {
+        "P": 0.044843010885182,
+        "Z": 0.1746636559868501,
+        "r": 0.14120657126693234,
+        "mean": 1.789539228952392,
+        "variance": 1.208259189107176,
+        "informativeMean": 0.5095539877548623,
+        "informativeVariance": 0.5671058992767312
+      },
+      "numerical_integral": {
+        "Z": 0.17466365598685016,
+        "mean": 1.7895392289523855,
+        "variance": 1.208259189107205
+      },
+      "absolute_errors": {
+        "Z": 5.551115123125783e-17,
+        "mean": 6.439293542825908e-15,
+        "variance": 2.90878432451791e-14
+      }
+    },
+    {
+      "parameters": {
+        "m": 0.2,
+        "v": 0.3,
+        "h": 0.2,
+        "delta": 0.3,
+        "kappa": 0,
+        "y": "H"
+      },
+      "closed_form": {
+        "P": 0.5349447459381973,
+        "Z": 0.3333333333333333,
+        "r": 0,
+        "mean": 0.2,
+        "variance": 0.3,
+        "informativeMean": 0.395470108768652,
+        "informativeVariance": 0.2572805879140794
+      },
+      "numerical_integral": {
+        "Z": 0.3333333333333322,
+        "mean": 0.20000000000000043,
+        "variance": 0.29999999999999905
+      },
+      "absolute_errors": {
+        "Z": 1.1102230246251565e-15,
+        "mean": 4.163336342344337e-16,
+        "variance": 9.43689570931383e-16
+      }
+    },
+    {
+      "parameters": {
+        "m": -2,
+        "v": 0.5,
+        "h": 0,
+        "delta": 0.3,
+        "kappa": 1,
+        "y": "H"
+      },
+      "closed_form": {
+        "P": 0.030194540654635005,
+        "Z": 0.030194540654635005,
+        "r": 1,
+        "mean": -1.075088717780912,
+        "variance": 0.35363776972514327,
+        "informativeMean": -1.075088717780912,
+        "informativeVariance": 0.35363776972514327
+      },
+      "numerical_integral": {
+        "Z": 0.03019454065463471,
+        "mean": -1.075088717780914,
+        "variance": 0.3536377697251223
+      },
+      "absolute_errors": {
+        "Z": 2.949029909160572e-16,
+        "mean": 1.9984014443252818e-15,
+        "variance": 2.098321516541546e-14
+      }
+    },
+    {
+      "parameters": {
+        "m": -2,
+        "v": 0.5,
+        "h": 0,
+        "delta": 0.3,
+        "kappa": 0.4,
+        "y": "H"
+      },
+      "closed_form": {
+        "P": 0.030194540654635005,
+        "Z": 0.21207781626185399,
+        "r": 0.05694992750652165,
+        "mean": -1.947326369527659,
+        "variance": 0.5376086053483248,
+        "informativeMean": -1.075088717780912,
+        "informativeVariance": 0.35363776972514327
+      },
+      "numerical_integral": {
+        "Z": 0.21207781626185315,
+        "mean": -1.9473263695276744,
+        "variance": 0.5376086053482672
+      },
+      "absolute_errors": {
+        "Z": 8.326672684688674e-16,
+        "mean": 1.532107773982716e-14,
+        "variance": 5.762057497804562e-14
+      }
+    }
+  ],
+  "assertions": {
+    "variance_may_increase": true,
+    "lower_reliability_smaller_same_case_mean_update": true,
+    "zero_reliability_preserves_prior": true,
+    "neutral_equal_strength_symmetry": true,
+    "probabilities_sum_to_one": true
+  },
+  "source_sha256": "c37417838a6ba390217b73ce2f67b429d16fc038e5e41fc329305cfc03bc7d11",
+  "node_version": null,
+  "runtime": "mcp_node_repl; exact Node version not exposed",
+  "checked_at_utc": "2026-10-28T15:24:21.501Z"
+}
