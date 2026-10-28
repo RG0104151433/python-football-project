@@ -1,0 +1,12 @@
+{
+  "actual_football_results": false,
+  "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+  "matplotlib": "3.11.2",
+  "outputs": {
+    "outputs/figures/reliability/method-iterations-20261028/C09_diagnostic.png": "536369ae2d6cfca9ca06b63322843334ea00bf6f1b35f0967a25e393f2bfdadf",
+    "outputs/figures/reliability/method-iterations-20261028/C09_diagnostic.svg": "0306abbcfb35f84fe20025280b3a310c6502bc960cb5eb1e1cc2ae8365efb5cf"
+  },
+  "script_sha256": "76f5a54fcf47616b59df430944144e3aa8e66d42bd8969f3ee4b47189a62a610",
+  "source": "outputs/logs/reliability/iteration-20261028/failure_localization_metrics.csv",
+  "source_sha256": "3e3759684879133a09c0b5aa3f57efa416629b64cb651e931ef6a7439110cbd8"
+}

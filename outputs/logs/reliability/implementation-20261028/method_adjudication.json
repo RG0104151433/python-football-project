@@ -1,0 +1,78 @@
+{
+  "M_G": {
+    "adjudication_csv": "outputs/logs/reliability/implementation-20261028/graph_adjudication.csv",
+    "informative_status": "mostly_wide_or_nearly_full_logical_ranges",
+    "mathematical_status": "conditional_graph_guarantee_or_unconditional_boundedness_Markov_for_selected_targets",
+    "no_data_proof_of_finite_dependence": true,
+    "no_uniform_winner_G3_over_G2": true
+  },
+  "M_P": {
+    "computational_admission": false,
+    "cost_projection_note": "Audit weights each scenario by its protocol5000/1000 count; original manifest's equal-scenario estimate retained, not overwritten. One timing per scenario is a projection, not measured full-run cost or a cost confidence bound.",
+    "cost_projection_weighted_CPU_hours": 169.22309027777777,
+    "earlier_unweighted_projection_CPU_hours": 170.7470100308642,
+    "failure_localization": "outputs/logs/reliability/iteration-20261028/failure_localization.json",
+    "fitted_formal_validation_completed": false,
+    "full_pilot_each_scenario_R": 10,
+    "in_domain_counterexample_C09_CONDITIONAL": {
+      "R": "10",
+      "coverage_estimate": "0.5",
+      "coverage_lower99": "0.15044282190070099",
+      "coverage_numeric_gate": "False",
+      "coverage_upper99": "0.84955717809929898",
+      "covered": "5",
+      "failure_estimate": "0",
+      "failure_lower99": "0",
+      "failure_upper99": "0.36904265551980669",
+      "failures": "0",
+      "family": "CONDITIONAL",
+      "mean_span_fraction": "0.66231072012919578",
+      "method": "P3-trained-inflation",
+      "near_full_fraction": "0.22676056338028167",
+      "scenario": "C09"
+    },
+    "small_split_multiplier": 2,
+    "statistical_admission": false
+  },
+  "actual_football_intervals_published": false,
+  "decision_log_id": "R20261028-02",
+  "football_significance_claims": false,
+  "human_review": "not_performed",
+  "known_generator_oracle": {
+    "maximum_coverage": 0.9586,
+    "minimum_coverage": 0.9422,
+    "note": "Finite-MC non-certification can coexist with known-parameter exchangeability guarantee. Never substitute for fitted model validation or change thresholds after observing results.",
+    "numeric_gate_failures": 21,
+    "rows": 72
+  },
+  "manifests": [
+    "outputs/logs/reliability/methods-small-baseline-20261028T005405143223Z/run_manifest.json",
+    "outputs/logs/reliability/methods-small-development-20261028T005501323334Z/run_manifest.json",
+    "outputs/logs/reliability/methods-full-graph-20261028T005505661506Z/run_manifest.json",
+    "outputs/logs/reliability/methods-full-development-20261028T005622778442Z/run_manifest.json",
+    "outputs/logs/reliability/refined-graph-20261028T010916841071Z/run_manifest.json",
+    "outputs/logs/reliability/refined-full-pilot-20261028T010917282465Z/run_manifest.json",
+    "outputs/logs/reliability/refined-full-graph-oracle-20261028T011322589785Z/run_manifest.json"
+  ],
+  "next_work": {
+    "approved_real_inference": false,
+    "graph": "Defend independence/decay assumptions or accept broad ranges; no outcome-guided L selection.",
+    "required": "Improve and identify dependence estimation jointly with mean or develop defensible nuisance uncertainty set; lock a feasible fresh protocol before further statistical acceptance."
+  },
+  "production_estimator": null,
+  "retained_routes": [
+    "M-G",
+    "M-P"
+  ],
+  "schema_version": "method-adjudication-20261028-v1",
+  "script_sha256": "cef1a0aa0c0a1c2aa5ceee78b8d03c9b39ccb26abbfa5b72d096855e26d2722a",
+  "status": "no_informative_production_method_admitted_no_single_route_selected",
+  "step_3_5": "implemented_and_hand_checked_60_tests_passed",
+  "step_3_6": {
+    "M_G": "18scenarios_times5000_full_design_completed",
+    "M_P": "80fixture_development_and_full24917fixture_pilot_completed; fitted formal58000rounds_not_admitted_or_run",
+    "generator_oracle": "18independent9999_reference_pools_and5000validation_each_not_fitted_MP"
+  },
+  "step_3_7": "conditional_math_and_scope_adjudicated; both uncertainty_information_and_cost_constraints_remain",
+  "step_3_8": "iteration_path_and_failures_documented; no positive gate to major_step4"
+}

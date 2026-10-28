@@ -1,0 +1,24 @@
+{
+  "schema_version": "reliability-iteration-v4-before-holdout-read",
+  "decision_log_id": "R20261028-02",
+  "created_utc": "2026-10-28T01:01:48.334Z",
+  "parent_development": "config/reliability_development_v2.json",
+  "small_training_replications": "0..49",
+  "small_holdout_replications": "50..99",
+  "training_scenarios": "All10 MP_domain true scenarios; all small-design families, failures retained.",
+  "calibration_grid": [
+    1,
+    1.25,
+    1.5,
+    2,
+    3
+  ],
+  "selection_rule": "Smallest multiplier attaining at least49 of50 joint covers in EVERY in-domain scenario x small family, counting fit failures as uncovered; if none, no tuned route admitted.",
+  "holdout_rule": "Freeze selected multiplier before reading reps50..99; report heldout metrics with MC bounds. R50 is not the v1 formal5000 validation.",
+  "G2_optimization": "Target-specific chronological/reverse weighted first-fit, minimum C chosen using only A and metadata; compare with G0/G1.",
+  "G3_fallback": "For Z=(A Y-lo)/span in[0,1], E Z=(T-lo)/span, Markov gives [lo+delta*(AY-lo),hi-delta*(hi-AY)] with delta=alpha/(2m). Compare worst-case width to graph interval BEFORE seeing Y; choose one per target at the same Bonferroni per-target error. All-dependent graph thereby improves from full to nearly-full range, never claim useful precision.",
+  "P2_engineering": "Replace Python OU loops by exact stationary daily AR1 lfilter for common time and banded triangular solve for irregular team events; same finite-dimensional Gaussian law, different random-number consumption, versioned fresh streams.",
+  "P3_statistical_calibration": "Training-based critical multiplier applies to all small families, no real outcomes used. It is a candidate correction, not theorem, and cannot bypass fitted-parameter/full-design formal gates.",
+  "no_single_route_selected": true,
+  "formal_protocol_counts_unchanged": true
+}

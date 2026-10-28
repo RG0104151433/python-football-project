@@ -1,0 +1,63 @@
+{
+  "actual_football_outcomes_used": false,
+  "code_and_config": {
+    "config/reliability_iteration_v4.json": "dea3a4d20116d6fb2396e21fc8f40ca0664080758c6dfceb727148401364c907",
+    "config/reliability_refinement_v5.json": "ee0eacbc65c1670839dcdcab9814b67ed7d195a6a52c25104b28ccc77ff2c1ce",
+    "config/reliability_validation_v1.json": "26648b8c81c9311c71f9da0a0be9d9e3e3a8419b226e6e0b516e8a14d0b92e36",
+    "scripts/refine_reliability.py": "44e636fa561fd5cb06ecaeb681589e3de45a00d5c279d435626b97e4f80f615c",
+    "src/reliability/experiment.py": "cd2f105a4a058c3fd8c7f8299c164f92dc69effbd9a7a5fd4e9ccff4dc466492",
+    "src/reliability/models.py": "8167319fd351d2ba908181fb298c2b499c1b65331d3065341fcdb6efa61bedb0",
+    "src/reliability/refinements.py": "a9ba1f14a9e0947b379d7168df2deddd2f44001ab03636c1eb73170dc17f73d9"
+  },
+  "environment": {
+    "numpy": "2.5.4",
+    "platform": "win32",
+    "python": "3.14.8 (tags/v3.14.8:8e6e75d, Sep 30 2026, 18:19:33) [MSC v.1944 64 bit (AMD64)]",
+    "scipy": "1.18.1"
+  },
+  "execution": "Codex AI, uncommitted source hashes, no human review/commit/push",
+  "finished_utc": "2026-10-28T01:24:58.377507+00:00",
+  "formal_football_intervals_published": false,
+  "locked_small_training_multiplier": 2,
+  "outputs": {
+    "outputs/logs/reliability/refined-full-pilot-20261028T010917282465Z/design_binding.json": "241b37c4bbb7e48c9121dfe8e74e4e31fcca1f704baae33bf5d63e8b75b54e52",
+    "outputs/logs/reliability/refined-full-pilot-20261028T010917282465Z/metrics.csv": "5825c2b9f3fda5a39404aa0d83d25a5f39361ce3d1868ff6fa441ead3474ff45",
+    "outputs/logs/reliability/refined-full-pilot-20261028T010917282465Z/replications.jsonl": "431cae719d94f22bfd42d208611f18e43fadd37f660b08277349cb8b79975634",
+    "outputs/logs/reliability/refined-full-pilot-20261028T010917282465Z/source_snapshot/config/reliability_iteration_v4.json": "dea3a4d20116d6fb2396e21fc8f40ca0664080758c6dfceb727148401364c907",
+    "outputs/logs/reliability/refined-full-pilot-20261028T010917282465Z/source_snapshot/config/reliability_refinement_v5.json": "ee0eacbc65c1670839dcdcab9814b67ed7d195a6a52c25104b28ccc77ff2c1ce",
+    "outputs/logs/reliability/refined-full-pilot-20261028T010917282465Z/source_snapshot/config/reliability_validation_v1.json": "26648b8c81c9311c71f9da0a0be9d9e3e3a8419b226e6e0b516e8a14d0b92e36",
+    "outputs/logs/reliability/refined-full-pilot-20261028T010917282465Z/source_snapshot/scripts/refine_reliability.py": "44e636fa561fd5cb06ecaeb681589e3de45a00d5c279d435626b97e4f80f615c",
+    "outputs/logs/reliability/refined-full-pilot-20261028T010917282465Z/source_snapshot/src/reliability/experiment.py": "cd2f105a4a058c3fd8c7f8299c164f92dc69effbd9a7a5fd4e9ccff4dc466492",
+    "outputs/logs/reliability/refined-full-pilot-20261028T010917282465Z/source_snapshot/src/reliability/models.py": "8167319fd351d2ba908181fb298c2b499c1b65331d3065341fcdb6efa61bedb0",
+    "outputs/logs/reliability/refined-full-pilot-20261028T010917282465Z/source_snapshot/src/reliability/refinements.py": "a9ba1f14a9e0947b379d7168df2deddd2f44001ab03636c1eb73170dc17f73d9"
+  },
+  "parent_pair_sha256": "9922ab1f68e0a1be10d37e9ce28249172d457ddb7c0b7036677351eca01a103d",
+  "production_estimator": null,
+  "source_snapshot": {
+    "config/reliability_iteration_v4.json": "outputs/logs/reliability/refined-full-pilot-20261028T010917282465Z/source_snapshot/config/reliability_iteration_v4.json",
+    "config/reliability_refinement_v5.json": "outputs/logs/reliability/refined-full-pilot-20261028T010917282465Z/source_snapshot/config/reliability_refinement_v5.json",
+    "config/reliability_validation_v1.json": "outputs/logs/reliability/refined-full-pilot-20261028T010917282465Z/source_snapshot/config/reliability_validation_v1.json",
+    "scripts/refine_reliability.py": "outputs/logs/reliability/refined-full-pilot-20261028T010917282465Z/source_snapshot/scripts/refine_reliability.py",
+    "src/reliability/experiment.py": "outputs/logs/reliability/refined-full-pilot-20261028T010917282465Z/source_snapshot/src/reliability/experiment.py",
+    "src/reliability/models.py": "outputs/logs/reliability/refined-full-pilot-20261028T010917282465Z/source_snapshot/src/reliability/models.py",
+    "src/reliability/refinements.py": "outputs/logs/reliability/refined-full-pilot-20261028T010917282465Z/source_snapshot/src/reliability/refinements.py"
+  },
+  "stage": "full-pilot",
+  "status": "completed_experiment_not_production_inference",
+  "summary": {
+    "B999_benchmark_fits": 18,
+    "attempted": 180,
+    "computational_admission": false,
+    "cpu_seconds": 914.15625,
+    "formal_validation": false,
+    "mean_fit_plus_B999_CPU_seconds": 10.598090277777779,
+    "multiplier": 2,
+    "n": 24917,
+    "projected_formal_58000_CPU_hours": 170.7470100308642,
+    "real_football_intervals": false,
+    "requested_per_scenario": 10,
+    "stopped_budget": false,
+    "targets": 198,
+    "unsupported": 94
+  }
+}

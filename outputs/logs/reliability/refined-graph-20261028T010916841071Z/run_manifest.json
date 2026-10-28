@@ -1,0 +1,54 @@
+{
+  "actual_football_outcomes_used": false,
+  "code_and_config": {
+    "config/reliability_iteration_v4.json": "dea3a4d20116d6fb2396e21fc8f40ca0664080758c6dfceb727148401364c907",
+    "config/reliability_refinement_v5.json": "ee0eacbc65c1670839dcdcab9814b67ed7d195a6a52c25104b28ccc77ff2c1ce",
+    "config/reliability_validation_v1.json": "26648b8c81c9311c71f9da0a0be9d9e3e3a8419b226e6e0b516e8a14d0b92e36",
+    "scripts/refine_reliability.py": "44e636fa561fd5cb06ecaeb681589e3de45a00d5c279d435626b97e4f80f615c",
+    "src/reliability/experiment.py": "cd2f105a4a058c3fd8c7f8299c164f92dc69effbd9a7a5fd4e9ccff4dc466492",
+    "src/reliability/models.py": "8167319fd351d2ba908181fb298c2b499c1b65331d3065341fcdb6efa61bedb0",
+    "src/reliability/refinements.py": "a9ba1f14a9e0947b379d7168df2deddd2f44001ab03636c1eb73170dc17f73d9"
+  },
+  "environment": {
+    "numpy": "2.5.4",
+    "platform": "win32",
+    "python": "3.14.8 (tags/v3.14.8:8e6e75d, Sep 30 2026, 18:19:33) [MSC v.1944 64 bit (AMD64)]",
+    "scipy": "1.18.1"
+  },
+  "execution": "Codex AI, uncommitted source hashes, no human review/commit/push",
+  "finished_utc": "2026-10-28T01:12:12.747624+00:00",
+  "formal_football_intervals_published": false,
+  "outputs": {
+    "outputs/logs/reliability/refined-graph-20261028T010916841071Z/design_binding.json": "241b37c4bbb7e48c9121dfe8e74e4e31fcca1f704baae33bf5d63e8b75b54e52",
+    "outputs/logs/reliability/refined-graph-20261028T010916841071Z/graph_constants.json": "c6f8b59f55502b329817bbcff93aeb1fabefc5695c4f61e3fc64655bdba49e2c",
+    "outputs/logs/reliability/refined-graph-20261028T010916841071Z/graph_refinement.csv": "4f53c1f326315a1dc06b3358379060b77eb5c3c666d3f9830c5a6354809b7d64",
+    "outputs/logs/reliability/refined-graph-20261028T010916841071Z/source_snapshot/config/reliability_iteration_v4.json": "dea3a4d20116d6fb2396e21fc8f40ca0664080758c6dfceb727148401364c907",
+    "outputs/logs/reliability/refined-graph-20261028T010916841071Z/source_snapshot/config/reliability_refinement_v5.json": "ee0eacbc65c1670839dcdcab9814b67ed7d195a6a52c25104b28ccc77ff2c1ce",
+    "outputs/logs/reliability/refined-graph-20261028T010916841071Z/source_snapshot/config/reliability_validation_v1.json": "26648b8c81c9311c71f9da0a0be9d9e3e3a8419b226e6e0b516e8a14d0b92e36",
+    "outputs/logs/reliability/refined-graph-20261028T010916841071Z/source_snapshot/scripts/refine_reliability.py": "44e636fa561fd5cb06ecaeb681589e3de45a00d5c279d435626b97e4f80f615c",
+    "outputs/logs/reliability/refined-graph-20261028T010916841071Z/source_snapshot/src/reliability/experiment.py": "cd2f105a4a058c3fd8c7f8299c164f92dc69effbd9a7a5fd4e9ccff4dc466492",
+    "outputs/logs/reliability/refined-graph-20261028T010916841071Z/source_snapshot/src/reliability/models.py": "8167319fd351d2ba908181fb298c2b499c1b65331d3065341fcdb6efa61bedb0",
+    "outputs/logs/reliability/refined-graph-20261028T010916841071Z/source_snapshot/src/reliability/refinements.py": "a9ba1f14a9e0947b379d7168df2deddd2f44001ab03636c1eb73170dc17f73d9"
+  },
+  "production_estimator": null,
+  "source_snapshot": {
+    "config/reliability_iteration_v4.json": "outputs/logs/reliability/refined-graph-20261028T010916841071Z/source_snapshot/config/reliability_iteration_v4.json",
+    "config/reliability_refinement_v5.json": "outputs/logs/reliability/refined-graph-20261028T010916841071Z/source_snapshot/config/reliability_refinement_v5.json",
+    "config/reliability_validation_v1.json": "outputs/logs/reliability/refined-graph-20261028T010916841071Z/source_snapshot/config/reliability_validation_v1.json",
+    "scripts/refine_reliability.py": "outputs/logs/reliability/refined-graph-20261028T010916841071Z/source_snapshot/scripts/refine_reliability.py",
+    "src/reliability/experiment.py": "outputs/logs/reliability/refined-graph-20261028T010916841071Z/source_snapshot/src/reliability/experiment.py",
+    "src/reliability/models.py": "outputs/logs/reliability/refined-graph-20261028T010916841071Z/source_snapshot/src/reliability/models.py",
+    "src/reliability/refinements.py": "outputs/logs/reliability/refined-graph-20261028T010916841071Z/source_snapshot/src/reliability/refinements.py"
+  },
+  "stage": "graph",
+  "status": "completed_experiment_not_production_inference",
+  "summary": {
+    "Markov_guarantee_requires_only_boundedness": true,
+    "cpu_seconds": 154.140625,
+    "graph_guarantee_requires_declared_set_independence": true,
+    "n": 24917,
+    "no_outcome_selection": true,
+    "targets": 198,
+    "unsupported": 94
+  }
+}

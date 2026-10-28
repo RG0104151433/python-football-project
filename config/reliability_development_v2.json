@@ -1,0 +1,30 @@
+{
+  "schema_version": "reliability-development-v2-pre-run",
+  "decision_log_id": "R20261028-02",
+  "parent_protocol": "config/reliability_validation_v1.json",
+  "purpose": "Implementation, matched-data development and cost checks. Does not replace v1 formal acceptance counts.",
+  "master_seed": 20261028,
+  "baseline_reps_per_scenario": 3,
+  "small_reps_per_scenario": 100,
+  "full_pilot_reps_per_scenario": 100,
+  "inner_B": 199,
+  "association_starts": 9,
+  "optimized_margin_cell_ridge": 0.5,
+  "MP_CPU_seconds_cap": 1200,
+  "pilot_total_CPU_seconds_cap": 1200,
+  "full_cost_gate_min_fits": 8,
+  "formal_MP_outer_replications": 58000,
+  "formal_count_explanation": "Machine-checked before simulation:10 MP-in-domain scenarios times5000 plus8 stress scenarios times1000. A draft arithmetic count57000 was corrected before any projection used it.",
+  "G_optimization": "G0 chronological global coloring; G1 minimum C over global, target-chronological and target-reverse valid colorings. Metadata/coefficient-only, no outcomes.",
+  "P_optimization": "P0 unpenalized10 cell intercepts as v1; P1 adds0.5 ridge to cell intercepts for separation development. Team/slope ridge remains1. P1 changes the fitted working model and needs fresh validation, not a Firth or exact-coverage claim.",
+  "association_numerics": "Deterministic Owen-T bivariate normal probabilities with positive quadrature fallback; analytic gradient; constrained simplex weights so exact zero is allowed; 3weight starts x3tau starts; SLSQP ftol1e-10,maxiter300. Objective is mean pair negative loglikelihood. This is a documented numerical implementation supplement, not proof of statistical consistency.",
+  "scope_guards": [
+    "Small synthetic80-fixture6-target example is not the original198-target family and cannot approve football inference.",
+    "Full design uses all24917 fixtures and all198 supported targets;94 unsupported remain null.",
+    "No route selected using real p-values, significance or the narrowest real intervals.",
+    "Pilot and optimized fresh random streams differ; all methods within a run share outer Y.",
+    "No silent reduction of formal5000/1000 repetitions or inner999 count.",
+    "Budget/projection failure is a recorded non-admission, not a win for the other route.",
+    "Statistical confidence remains unapproved until all gates pass."
+  ]
+}

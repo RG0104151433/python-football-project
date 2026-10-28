@@ -1,0 +1,641 @@
+{
+  "schema_version": "reliability-validation-protocol-v1",
+  "decision_log_id": "R20261028-01",
+  "status": "protocol_defined_not_implemented_or_run",
+  "document": "研究/04_共同可靠性/第三步_条件论证与候选方法验收方案.md",
+  "parent_design_config": "config/reliability_design.json",
+  "parent_design_id": "design-e1ebd48827f8a5ff4be8",
+  "parent_design_manifest": "outputs/logs/reliability/design-20261027T131754720415Z-c2a82843/run_manifest.json",
+  "scope": {
+    "conditional_fixed_design": true,
+    "original_statistics": "A times Y unchanged, probability scale",
+    "families": {
+      "CORE": 27,
+      "AUX": 64,
+      "ROLLING": 36,
+      "CONDITIONAL": 71
+    },
+    "nominal_family_coverage": 0.95,
+    "cross_family_global_coverage": "not_claimed",
+    "unsupported_catalogue_rows": 94,
+    "unsupported_policy": "retain null; no simulated or imputed missing fixtures"
+  },
+  "methods": {
+    "M-G": {
+      "role": "finite_sample_conditional_graph_bound",
+      "theory_status": "project_derivation_admitted_under_explicit_setwise_independence_graph_not_fact_verified",
+      "graph": "shared team in either role OR absolute date difference <= L; finite L asserts joint independence of unconnected sets conditional on fixed design",
+      "L_days": [
+        90,
+        365,
+        730,
+        1460,
+        "all_dependent"
+      ],
+      "engineering_anchor_L_days": 730,
+      "anchor_not_empirically_optimal": true,
+      "coloring": "deterministic chronological greedy; within each color no team repeats and consecutive dates differ by more than L; no outcome input; all-dependent uses singleton colors",
+      "coefficient_constant": "C_j=(sum_colors sqrt(sum_{i in color} a_ji^2))^2",
+      "halfwidth": "sqrt(C_j/2 * log(2*m/alpha))",
+      "logical_clipping": "intersect with [sum negative coefficients, sum positive coefficients]",
+      "zero_vector": "exact target 0",
+      "variance_or_SE": "not_estimated_not_required",
+      "graph_range_truth_rule": "finite scenario range <= L; null range means only all_dependent is in-domain",
+      "implementation_status": "not_started"
+    },
+    "M-P": {
+      "role": "explicit_marginal_binary_gaussian_copula_and_parametric_bootstrap_candidate",
+      "theory_status": "valid_joint_model_and_known_parameter_oracle_only; fitted_plugin_coverage_not_established",
+      "marginal_model": {
+        "link": "logistic",
+        "features": [
+          "ten era x tournament intercepts",
+          "signed home-minus-away team-ID coefficients, sum-to-zero",
+          "five centered within-era year slopes"
+        ],
+        "regularization": {
+          "team_and_slope_L2": 1,
+          "cell_intercepts_penalized": false
+        },
+        "prediction_role": "retrospective nuisance model, not prematch strength or a forecasting result",
+        "probability_numerical_clip": 1e-8,
+        "clip_activation": "record; no unreported clipping",
+        "feature_scaling": "Era-type columns are0/1 without a separate intercept; team columns are+1 forhome and-1 foraway without variance normalization and with sum-to-zero coefficients; within-era year=(year-calendar_midpoint)/max(1,last_year-first_year).",
+        "penalized_objective": "negative SUM of marginal Bernoulli log likelihood plus0.5*lambda*(sum squared team coefficients+sum squared within-era slopes),lambda1; not average log likelihood plus the same penalty."
+      },
+      "latent_model": {
+        "equation": "sqrt(w_minus/2)*(S_home-S_away)+sqrt(w_plus/2)*(Q_home+Q_away)+sqrt(w_pair)*P_unordered_pair+sqrt(w_time)*U_time+sqrt(w_e)*epsilon",
+        "components_independent": true,
+        "weights_nonnegative_sum_one": true,
+        "w_e_min": 0.05,
+        "team_kernel": "exp(-absolute_day_gap/tau_team)",
+        "common_time_kernel": "exp(-absolute_day_gap/tau_time)",
+        "pair_kernel": "persistent random pair factor",
+        "tau_team_days_bounds": [
+          7,
+          3650
+        ],
+        "tau_time_days_bounds": [
+          1,
+          1460
+        ],
+        "threshold": "Y=1(Phi_inverse(p)+G>0)"
+      },
+      "fitting": {
+        "margin": "penalized marginal likelihood, not independence asserted for actual outcomes",
+        "association": "two-stage pairwise composite likelihood on metadata-only fixed pair subset",
+        "pair_relation_strata": [
+          "same_ordered_pair",
+          "reversed_pair",
+          "one_team_same_role",
+          "one_team_cross_role",
+          "no_shared_team"
+        ],
+        "day_gap_bins": [
+          "0",
+          "1..30",
+          "31..365",
+          "366..1460",
+          ">1460"
+        ],
+        "max_pairs_per_stratum": 1000,
+        "max_metadata_only_sampling_attempts": 1000000,
+        "underfilled_stratum": "record; no outcome-guided replacement",
+        "initial_weight_vectors": [
+          [
+            0.05,
+            0.05,
+            0.05,
+            0.05,
+            0.8
+          ],
+          [
+            0.2,
+            0.1,
+            0.1,
+            0.1,
+            0.5
+          ],
+          [
+            0.1,
+            0.1,
+            0.05,
+            0.25,
+            0.5
+          ]
+        ],
+        "max_iterations_per_start": 300,
+        "gradient_tolerance": 0.000001,
+        "normal_probability_absolute_error_tolerance": 1e-10,
+        "weak_identification": "record active-parameter flat profiles and competing fits; inactive tau fixed at preset365 instead of claiming identifiable",
+        "fit_failure": "explicit status, no silent successful fallback",
+        "pair_selection": "Draw at most1,000,000 unordered match-index pair proposals from a dedicated metadata-only seed; deduplicate and stratify by predefined role/day categories; keep lowest-hash1000 per stratum among proposed distinct pairs, report underfill and save set before fit. No outcome input.",
+        "initial_tau_days": [
+          30,
+          365,
+          1460
+        ]
+      },
+      "bootstrap": {
+        "outer_replications_refit_all_parameters": true,
+        "inner_statistic": "A times Y_star, centered at A times p(theta_hat), not at observed A times Y",
+        "fixed_design_scale": "d_j=sqrt(sum_i a_ji^2), not an estimated SE",
+        "family_pivot": "max_j abs(A_j*Y_star-A_j*p_hat)/d_j",
+        "critical_rank": "ceil((B+1)*0.95), ties conservative; rank>B => infinite",
+        "inner_refit": false,
+        "inner_refit_reason": "Observed statistic A*Y has no fitted parameter. A different fitted point statistic/studentization requires a new protocol.",
+        "pilot_B": 199,
+        "formal_B": 999,
+        "known_parameter_oracle": "separate shared reference pool B=9999 independent of validation draws; never treat as fitted-parameter validation",
+        "zero_design_scale": "If coefficient vector is identically zero, target and interval are exactly0; retain row, never divide by0. A nonzero vector with numerical scale failure is an explicit failure."
+      },
+      "implementation_status": "not_started"
+    }
+  },
+  "simulations": {
+    "master_seed": 20261028,
+    "pilot_R": 100,
+    "formal_in_domain_R": 5000,
+    "stress_R": 1000,
+    "seed_policy": "separate keyed streams by stage/scenario/replication; same outer dataset for all methods/targets; inner/reference streams separate and states saved",
+    "candidate_actual_Y_shared": true,
+    "no_dense_covariance_matrix": true,
+    "margin_truth_recipe": {
+      "constant_0.5": "p_i=0.5; all differences null and rate null values0.5",
+      "constant_0.02": "p_i=0.02",
+      "constant_0.98": "p_i=0.98",
+      "working_logistic_X_beta": "For parameter label, u=(first16 hex digits of SHA256(master_seed|scenario_id|parameter_label)+0.5)/2^64. Cell coefficients=0.8*(u-0.5); team coefficients=1.5*(u-0.5), then centered across team IDs; within-era slopes=0.4*(u-0.5). Fix before draws; no observed outcomes.",
+      "working_logistic_X_beta_plus_omitted_interaction": "Base working_logistic_X_beta plus signed home-minus-away team-by-era effect with coefficient (u-0.5), centered within each era, absent from fitted X.",
+      "Gaussian_truth": "Phi threshold with total unit latent variance makes the specified p exact.",
+      "t_truth": "t_df5 inverse CDF threshold after shared chi-square scale, not Phi threshold; specified p remains exact."
+    },
+    "finite_MA_definition": "unit-variance moving sum of independent daily normal innovations over days t-L..t, so independent when day gap>L",
+    "scenarios": [
+      {
+        "id": "C00",
+        "label": "independent_constant_null",
+        "margin": "constant_0.5",
+        "latent": {
+          "minus": 0,
+          "plus": 0,
+          "pair": 0,
+          "time": 0,
+          "e": 1
+        },
+        "time_kernel": "none",
+        "graph_range_days": 0,
+        "MP_domain": true,
+        "domain_MG_L_days": {
+          "90": true,
+          "365": true,
+          "730": true,
+          "1460": true,
+          "all_dependent": true
+        }
+      },
+      {
+        "id": "C01",
+        "label": "independent_heterogeneous_margin",
+        "margin": "working_logistic_X_beta",
+        "latent": {
+          "minus": 0,
+          "plus": 0,
+          "pair": 0,
+          "time": 0,
+          "e": 1
+        },
+        "time_kernel": "none",
+        "graph_range_days": 0,
+        "MP_domain": true,
+        "domain_MG_L_days": {
+          "90": true,
+          "365": true,
+          "730": true,
+          "1460": true,
+          "all_dependent": true
+        }
+      },
+      {
+        "id": "C02",
+        "label": "same_role_positive_team_process",
+        "margin": "working_logistic_X_beta",
+        "latent": {
+          "minus": 0,
+          "plus": 0.4,
+          "pair": 0,
+          "time": 0,
+          "e": 0.6
+        },
+        "team_tau_days": 365,
+        "time_kernel": "none",
+        "graph_range_days": 0,
+        "MP_domain": true,
+        "domain_MG_L_days": {
+          "90": true,
+          "365": true,
+          "730": true,
+          "1460": true,
+          "all_dependent": true
+        }
+      },
+      {
+        "id": "C03",
+        "label": "cross_role_signed_team_process",
+        "margin": "working_logistic_X_beta",
+        "latent": {
+          "minus": 0.4,
+          "plus": 0,
+          "pair": 0,
+          "time": 0,
+          "e": 0.6
+        },
+        "team_tau_days": 365,
+        "time_kernel": "none",
+        "graph_range_days": 0,
+        "MP_domain": true,
+        "domain_MG_L_days": {
+          "90": true,
+          "365": true,
+          "730": true,
+          "1460": true,
+          "all_dependent": true
+        }
+      },
+      {
+        "id": "C04",
+        "label": "persistent_repeated_pair",
+        "margin": "working_logistic_X_beta",
+        "latent": {
+          "minus": 0,
+          "plus": 0,
+          "pair": 0.4,
+          "time": 0,
+          "e": 0.6
+        },
+        "time_kernel": "none",
+        "graph_range_days": 0,
+        "MP_domain": true,
+        "domain_MG_L_days": {
+          "90": true,
+          "365": true,
+          "730": true,
+          "1460": true,
+          "all_dependent": true
+        }
+      },
+      {
+        "id": "C05",
+        "label": "mixed_team_role_pair",
+        "margin": "working_logistic_X_beta",
+        "latent": {
+          "minus": 0.2,
+          "plus": 0.1,
+          "pair": 0.1,
+          "time": 0,
+          "e": 0.6
+        },
+        "team_tau_days": 730,
+        "time_kernel": "none",
+        "graph_range_days": 0,
+        "MP_domain": true,
+        "domain_MG_L_days": {
+          "90": true,
+          "365": true,
+          "730": true,
+          "1460": true,
+          "all_dependent": true
+        }
+      },
+      {
+        "id": "C06",
+        "label": "finite_common_time_90_days",
+        "margin": "working_logistic_X_beta",
+        "latent": {
+          "minus": 0.2,
+          "plus": 0,
+          "pair": 0,
+          "time": 0.3,
+          "e": 0.5
+        },
+        "team_tau_days": 730,
+        "time_kernel": "finite_gaussian_MA",
+        "time_range_days": 90,
+        "graph_range_days": 90,
+        "MP_domain": false,
+        "domain_MG_L_days": {
+          "90": true,
+          "365": true,
+          "730": true,
+          "1460": true,
+          "all_dependent": true
+        }
+      },
+      {
+        "id": "C07",
+        "label": "finite_common_time_365_days",
+        "margin": "working_logistic_X_beta",
+        "latent": {
+          "minus": 0.2,
+          "plus": 0,
+          "pair": 0,
+          "time": 0.3,
+          "e": 0.5
+        },
+        "team_tau_days": 730,
+        "time_kernel": "finite_gaussian_MA",
+        "time_range_days": 365,
+        "graph_range_days": 365,
+        "MP_domain": false,
+        "domain_MG_L_days": {
+          "90": false,
+          "365": true,
+          "730": true,
+          "1460": true,
+          "all_dependent": true
+        }
+      },
+      {
+        "id": "C08",
+        "label": "OU_common_time_365_days",
+        "margin": "working_logistic_X_beta",
+        "latent": {
+          "minus": 0,
+          "plus": 0,
+          "pair": 0,
+          "time": 0.3,
+          "e": 0.7
+        },
+        "time_kernel": "OU",
+        "time_tau_days": 365,
+        "graph_range_days": null,
+        "MP_domain": true,
+        "domain_MG_L_days": {
+          "90": false,
+          "365": false,
+          "730": false,
+          "1460": false,
+          "all_dependent": true
+        }
+      },
+      {
+        "id": "C09",
+        "label": "OU_common_time_and_team",
+        "margin": "working_logistic_X_beta",
+        "latent": {
+          "minus": 0.3,
+          "plus": 0,
+          "pair": 0,
+          "time": 0.3,
+          "e": 0.4
+        },
+        "team_tau_days": 730,
+        "time_kernel": "OU",
+        "time_tau_days": 1460,
+        "graph_range_days": null,
+        "MP_domain": true,
+        "domain_MG_L_days": {
+          "90": false,
+          "365": false,
+          "730": false,
+          "1460": false,
+          "all_dependent": true
+        }
+      },
+      {
+        "id": "C10",
+        "label": "rare_home_win",
+        "margin": "constant_0.02",
+        "latent": {
+          "minus": 0.2,
+          "plus": 0.1,
+          "pair": 0.1,
+          "time": 0,
+          "e": 0.6
+        },
+        "team_tau_days": 730,
+        "time_kernel": "none",
+        "graph_range_days": 0,
+        "MP_domain": true,
+        "domain_MG_L_days": {
+          "90": true,
+          "365": true,
+          "730": true,
+          "1460": true,
+          "all_dependent": true
+        }
+      },
+      {
+        "id": "C11",
+        "label": "near_certain_home_win",
+        "margin": "constant_0.98",
+        "latent": {
+          "minus": 0.2,
+          "plus": 0.1,
+          "pair": 0.1,
+          "time": 0,
+          "e": 0.6
+        },
+        "team_tau_days": 730,
+        "time_kernel": "none",
+        "graph_range_days": 0,
+        "MP_domain": true,
+        "domain_MG_L_days": {
+          "90": true,
+          "365": true,
+          "730": true,
+          "1460": true,
+          "all_dependent": true
+        }
+      },
+      {
+        "id": "C12",
+        "label": "omitted_team_by_era_mean",
+        "margin": "working_logistic_X_beta_plus_omitted_interaction",
+        "latent": {
+          "minus": 0.2,
+          "plus": 0.1,
+          "pair": 0.1,
+          "time": 0,
+          "e": 0.6
+        },
+        "team_tau_days": 730,
+        "time_kernel": "none",
+        "graph_range_days": 0,
+        "MP_domain": false,
+        "domain_MG_L_days": {
+          "90": true,
+          "365": true,
+          "730": true,
+          "1460": true,
+          "all_dependent": true
+        }
+      },
+      {
+        "id": "C13",
+        "label": "OU_longer_than_model_range",
+        "margin": "working_logistic_X_beta",
+        "latent": {
+          "minus": 0,
+          "plus": 0,
+          "pair": 0,
+          "time": 0.3,
+          "e": 0.7
+        },
+        "time_kernel": "OU",
+        "time_tau_days": 2920,
+        "graph_range_days": null,
+        "MP_domain": false,
+        "domain_MG_L_days": {
+          "90": false,
+          "365": false,
+          "730": false,
+          "1460": false,
+          "all_dependent": true
+        }
+      },
+      {
+        "id": "C14",
+        "label": "permanent_global_common_shock",
+        "margin": "working_logistic_X_beta",
+        "latent": {
+          "minus": 0,
+          "plus": 0,
+          "pair": 0,
+          "time": 0.3,
+          "e": 0.7
+        },
+        "time_kernel": "one_global_normal",
+        "graph_range_days": null,
+        "MP_domain": false,
+        "domain_MG_L_days": {
+          "90": false,
+          "365": false,
+          "730": false,
+          "1460": false,
+          "all_dependent": true
+        }
+      },
+      {
+        "id": "C15",
+        "label": "non_gaussian_t5_copula_global_scale",
+        "margin": "working_logistic_X_beta",
+        "latent": {
+          "minus": 0.2,
+          "plus": 0.1,
+          "pair": 0.1,
+          "time": 0,
+          "e": 0.6
+        },
+        "team_tau_days": 730,
+        "time_kernel": "none",
+        "copula": "multivariate_t_df5_shared_chisquare_scale",
+        "graph_range_days": null,
+        "MP_domain": false,
+        "domain_MG_L_days": {
+          "90": false,
+          "365": false,
+          "730": false,
+          "1460": false,
+          "all_dependent": true
+        }
+      },
+      {
+        "id": "C16",
+        "label": "synthetic_competition_cluster",
+        "margin": "working_logistic_X_beta",
+        "latent": {
+          "minus": 0.2,
+          "plus": 0,
+          "pair": 0,
+          "time": 0,
+          "synthetic_competition": 0.3,
+          "e": 0.5
+        },
+        "team_tau_days": 730,
+        "time_kernel": "synthetic_competition_blocks",
+        "synthetic_groups": "Within each original tournament_name and calendar year sort by date then match_id; consecutive blocks of20 share one Gaussian shock. Stress labels only, not factual edition IDs.",
+        "graph_range_days": 365,
+        "MP_domain": false,
+        "domain_MG_L_days": {
+          "90": false,
+          "365": true,
+          "730": true,
+          "1460": true,
+          "all_dependent": true
+        }
+      },
+      {
+        "id": "C17",
+        "label": "nonstationary_common_time_loading",
+        "margin": "working_logistic_X_beta",
+        "latent": {
+          "minus": 0.2,
+          "plus": 0,
+          "pair": 0,
+          "time": 0.3,
+          "e": 0.5
+        },
+        "team_tau_days": 730,
+        "time_kernel": "OU",
+        "time_tau_days": 365,
+        "time_loading": "g_i=0.5 before2000-01-01 and1 thereafter, date chosen as synthetic stress regime not an observed break",
+        "innovation_weight": "1-w_minus-w_time*g_i^2; each marginal latent variance remains1",
+        "graph_range_days": null,
+        "MP_domain": false,
+        "domain_MG_L_days": {
+          "90": false,
+          "365": false,
+          "730": false,
+          "1460": false,
+          "all_dependent": true
+        }
+      }
+    ],
+    "unsupported_rows_checked_every_scenario": true,
+    "stopping_rule": "Complete fixed formal counts unless fatal implementation failure or engineering cap. Interrupted runs are incomplete/rejected, never accepted by early favorable coverage; preserve states for versioned resumption."
+  },
+  "acceptance": {
+    "target_nominal": 0.95,
+    "coverage_tolerance_pp": 1,
+    "coverage_CP_one_sided_level": 0.99,
+    "coverage_lower_bound_min": 0.94,
+    "failure_upper_bound_max": 0.01,
+    "all_null_error_upper_bound_max": 0.06,
+    "MC_intervals": "per scenario/family, not a simultaneous99% guarantee across all scenarios",
+    "required_metrics": [
+      "analytic or generator target truth",
+      "empirical bias",
+      "family delivered coverage and MC limit",
+      "success-conditional coverage separately",
+      "numeric/fitting failure rate and MC limit",
+      "interval width and fraction of logical span",
+      "uninformative full-span rate",
+      "runtime and model identification/fit diagnostics",
+      "all-null family error where applicable"
+    ],
+    "variance_estimation_metric": "M-G not applicable; M-P inner-vs-outer variation diagnostic only, not a separate standard-error estimator",
+    "null_values": "0 for differences,0.5 for rates in constant0.5 scenario",
+    "failure_handling": "failed replicate counted as no delivered valid family interval; full-range fallback remains a recorded failure; no dropping targets or failed draws",
+    "informative_status": "valid-but-full-logical-range is uninformative, not technical failure or strong evidence",
+    "in_domain_required": true,
+    "stress_failure": "report and narrow real use when plausible; cannot relabel failed in-domain scenes",
+    "MP_scope_even_if_passed": "model-conditional empirically calibrated approximation, not universal finite95% theorem for estimated nuisance parameters",
+    "coverage_CP_formula": "For k delivered joint covers out of R: lower=BetaQuantile(.01,k,R-k+1), with lower0 ifk=0. Failure/size upper=BetaQuantile(.99,f+1,R-f), with upper1 iff=R."
+  },
+  "engineering_gate": {
+    "pilot_CPU_minutes_per_route": 20,
+    "estimated_formal_CPU_hours_per_route_cap": 24,
+    "measurement_status": "not_measured",
+    "on_budget_exceeded": "computationally_not_admitted; preserve result, no silent repetition reduction; any revised budget/protocol gets a new version"
+  },
+  "stage_boundaries": {
+    "steps_3_1_to_3_4": "documented_theory_screen_and_protocol",
+    "steps_3_5_to_3_8": "not_completed",
+    "statistical_method_accepted": false,
+    "production_inference_estimator": null,
+    "formal_inference": "not_run",
+    "model_fitted": false,
+    "random_simulation_run": false,
+    "exact_enumeration_check": "outputs/logs/reliability/theory-20261028/exact_checks.json"
+  }
+}

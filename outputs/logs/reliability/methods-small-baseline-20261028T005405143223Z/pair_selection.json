@@ -1,0 +1,108 @@
+{
+  "counts": {
+    "0": {
+      "proposed": 40,
+      "retained": 40
+    },
+    "1": {
+      "proposed": 0,
+      "retained": 0
+    },
+    "10": {
+      "proposed": 0,
+      "retained": 0
+    },
+    "11": {
+      "proposed": 0,
+      "retained": 0
+    },
+    "12": {
+      "proposed": 40,
+      "retained": 40
+    },
+    "13": {
+      "proposed": 40,
+      "retained": 40
+    },
+    "14": {
+      "proposed": 320,
+      "retained": 320
+    },
+    "15": {
+      "proposed": 0,
+      "retained": 0
+    },
+    "16": {
+      "proposed": 0,
+      "retained": 0
+    },
+    "17": {
+      "proposed": 80,
+      "retained": 80
+    },
+    "18": {
+      "proposed": 100,
+      "retained": 100
+    },
+    "19": {
+      "proposed": 884,
+      "retained": 884
+    },
+    "2": {
+      "proposed": 0,
+      "retained": 0
+    },
+    "20": {
+      "proposed": 0,
+      "retained": 0
+    },
+    "21": {
+      "proposed": 0,
+      "retained": 0
+    },
+    "22": {
+      "proposed": 40,
+      "retained": 40
+    },
+    "23": {
+      "proposed": 220,
+      "retained": 220
+    },
+    "24": {
+      "proposed": 1140,
+      "retained": 1000
+    },
+    "3": {
+      "proposed": 0,
+      "retained": 0
+    },
+    "4": {
+      "proposed": 256,
+      "retained": 256
+    },
+    "5": {
+      "proposed": 0,
+      "retained": 0
+    },
+    "6": {
+      "proposed": 0,
+      "retained": 0
+    },
+    "7": {
+      "proposed": 0,
+      "retained": 0
+    },
+    "8": {
+      "proposed": 0,
+      "retained": 0
+    },
+    "9": {
+      "proposed": 0,
+      "retained": 0
+    }
+  },
+  "cpu_seconds": 0.0,
+  "n_pairs": 3020,
+  "outcomes_used": false,
+  "sha256": "81245546d366733c3a30e4093825f5d9b1ee3896b64c42385b56d2a03369156d"
+}

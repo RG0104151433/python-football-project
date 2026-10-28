@@ -142,7 +142,10 @@
     "three_question_handoff_review": "outputs/logs/regions/final-handoff-20261027/review.json",
     "verification_inventory": "outputs/logs/reliability/planning-20261027/verification_inventory.json",
     "estimand_protocol": "outputs/logs/reliability/estimand-20261027/estimand_protocol.json",
-    "design_preparation": "outputs/logs/reliability/step2-20261027/model_readiness.json"
+    "design_preparation": "outputs/logs/reliability/step2-20261027/model_readiness.json",
+    "latest_decision_log_id": "R20261028-02",
+    "latest_method_status": "method_iteration_completed_no_informative_production_method_admitted",
+    "actual_method_experiments": "outputs/logs/reliability/implementation-20261028/current_runs.json"
   },
   "descriptive_handoff": {
     "decision_log_id": "R20261025-18",
@@ -1804,7 +1807,7 @@
   },
   "question_4": {
     "title": "前三问统一分析",
-    "status": "step_3_substeps_1_4_documented_implementation_simulation_pending",
+    "status": "method_iteration_completed_no_informative_production_method_admitted",
     "decision_log_id": "R20261026-01",
     "task_document": "文档/05_团队协作/分工与交付/04_两题共同可靠性与敏感性.md",
     "scope": [
@@ -1812,13 +1815,13 @@
       "question_2",
       "question_3"
     ],
-    "inference": "not_run",
+    "inference": "not_run_real_football",
     "sensitivity": "not_run",
-    "simulation": "not_run",
+    "simulation": "full_graph_and_known_generator_completed_fitted_MP_pilot_only",
     "preanalysis_preparation": {
       "decision_log_id": "R20261026-05",
       "document": "文档/05_团队协作/分工与交付/04_两题共同可靠性与敏感性.md",
-      "status": "step_2_target_coefficient_dependence_support_prepared_theory_fit_not_accepted",
+      "status": "implementation_and_two_scale_experiments_completed_no_production_method_admission",
       "requires": [
         "target catalog A home-background, B within-background relations, C within-macroregion detail with primary/auxiliary contrasts",
         "versioned geographic hierarchy, historical-entity exceptions and partial unknown handling",
@@ -1831,9 +1834,9 @@
       ],
       "target_catalog_frozen": true,
       "classification_frozen": true,
-      "numerical_validation_thresholds_fixed": false,
+      "numerical_validation_thresholds_fixed": true,
       "coefficients_generated": true,
-      "simulation_run": false,
+      "simulation_run": true,
       "historical_confederation_mapping_required": false,
       "current_regional_protocol": "regions-study-v4",
       "regional_metric_count": 24,
@@ -1891,12 +1894,12 @@
     "verification_inventory_completed": true,
     "results_generated": false,
     "selected_inference_estimator": null,
-    "next_gate": "3.5 implement and hand-check new methods/profile cost; then3.6 actual protocol validation,3.7 adjudication,3.8 handoff. No real-data inference approval.",
+    "next_gate": "Repair long-term dependence estimation/mean separation, full-design calibration and feasible computation; lock fresh protocol. No real inference or new sensitivity approval.",
     "estimand_protocol": "outputs/logs/reliability/estimand-20261027/estimand_protocol.json",
     "estimand_document": "研究/04_共同可靠性/第一步_推断对象与固定条件.md",
     "estimand_definition_log_id": "R20261027-07",
     "estimand_definition_completed": true,
-    "conditional_result_law_specified": false,
+    "conditional_result_law_specified": true,
     "four_step_progress": [
       {
         "step": 1,
@@ -1913,21 +1916,14 @@
       {
         "step": 3,
         "task": "theory/method fit, implementation and actual validation",
-        "status": "substeps3.1_to3.4_documented_only_3.5_to3.8_pending",
+        "status": "implementation_and_negative_adjudication_completed_fitted_formal_validation_not_admitted",
         "evidence": {
-          "decision_log_id": "R20261028-01",
-          "status": "substeps_3_1_to_3_4_documented_formal_method_not_validated",
-          "document": "研究/04_共同可靠性/第三步_条件论证与候选方法验收方案.md",
-          "assessment": "outputs/logs/reliability/theory-20261028/method_assessment.json",
-          "protocol": "config/reliability_validation_v1.json",
-          "exact_checks": "outputs/logs/reliability/theory-20261028/exact_checks.json",
-          "retained_routes": [
-            "M-G",
-            "M-P"
-          ],
-          "production_estimator_approved": false,
-          "conditional_graph_bound": "mathematical_derivation_admitted_given_graph_independence_not_fact_certified",
-          "parametric_model": "coherent_candidate_oracle_only; estimated_parameter_coverage_unvalidated"
+          "decision_log_id": "R20261028-02",
+          "document": "研究/04_共同可靠性/第三步_双路线演算与迭代记录.md",
+          "adjudication": "outputs/logs/reliability/implementation-20261028/method_adjudication.json",
+          "actual_runs": "outputs/logs/reliability/implementation-20261028/current_runs.json",
+          "independent_audit": "outputs/logs/reliability/implementation-20261028/independent_audit.json",
+          "production_estimator_approved": false
         }
       },
       {
@@ -1959,7 +1955,8 @@
       "document": "研究/04_共同可靠性/README.md#9-第三步建议怎样推进八个子步骤与验收关卡",
       "register": "outputs/logs/reliability/method-planning-20261027/workflow_proposal.json",
       "substeps": 8,
-      "executed_substeps": 0
+      "executed_substeps": 0,
+      "historical_scope": "R20261027-09 proposal snapshot; executed_substeps0 means then, not current run state."
     },
     "theory_screen": {
       "decision_log_id": "R20261028-01",
@@ -1975,6 +1972,50 @@
       "production_estimator_approved": false,
       "conditional_graph_bound": "mathematical_derivation_admitted_given_graph_independence_not_fact_certified",
       "parametric_model": "coherent_candidate_oracle_only; estimated_parameter_coverage_unvalidated"
+    },
+    "latest_decision_log_id": "R20261028-02",
+    "method_experiment_results_generated": true,
+    "conditional_result_law_scope": "Working binary generators specified/tested; factual football law and finite graph independence not established.",
+    "method_iteration": {
+      "decision_log_id": "R20261028-02",
+      "document": "研究/04_共同可靠性/第三步_双路线演算与迭代记录.md",
+      "retained_routes": [
+        "M-G",
+        "M-P"
+      ],
+      "single_route_selected": false,
+      "formal_football_inference": false,
+      "tests": 60,
+      "independent_checks": 8214,
+      "original_bindings_unchanged": 103,
+      "full_design_matches": 24917,
+      "supported_targets": 198,
+      "unsupported_targets_retained": 94,
+      "graph_scenarios": 18,
+      "graph_R_each": 5000,
+      "generator_oracle_reference_B_each": 9999,
+      "oracle_does_not_replace_fitted_validation": true,
+      "small_fitted_development_R_total": 1800,
+      "full_fitted_development_R_total": 180,
+      "full_fitted_R_each": 10,
+      "fitted_formal_58000_completed": false,
+      "fitted_formal_admission": false,
+      "cost_weighted_projected_CPU_hours": 169.22309027777777,
+      "production_estimator": null,
+      "adjudication": "outputs/logs/reliability/implementation-20261028/method_adjudication.json",
+      "runs": "outputs/logs/reliability/implementation-20261028/current_runs.json",
+      "tests_evidence": "outputs/logs/reliability/implementation-20261028/final_tests.xml",
+      "audit": "outputs/logs/reliability/implementation-20261028/independent_audit.json",
+      "diagnostic_figure": "outputs/figures/reliability/method-iterations-20261028/C09_diagnostic.png",
+      "human_review": "not_performed",
+      "steps": {
+        "3.5": "implemented_and_hand_checked",
+        "3.6": "full_graph_completed_fitted_development_failed_formal_not_started",
+        "3.7": "scope_and_nonadmission_recorded",
+        "3.8": "iteration_path_and_handoff_documented"
+      },
+      "asymptotic_growth_sequence_simulations": "not_run_not_replaced_by_two_distinct_designs",
+      "scope_supplement": "outputs/logs/reliability/implementation-20261028/scope_supplement.json"
     }
   },
   "question_5": {

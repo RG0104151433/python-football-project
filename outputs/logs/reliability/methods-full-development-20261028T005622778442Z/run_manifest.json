@@ -1,0 +1,53 @@
+{
+  "actual_model_fit": false,
+  "code_and_config": {
+    "config/reliability_scale_pilot_v3.json": "060af85e7ee6a78059b30aa963ce2d64716fa73b6f2c427c16a5e976f861b07a",
+    "config/reliability_validation_v1.json": "26648b8c81c9311c71f9da0a0be9d9e3e3a8419b226e6e0b516e8a14d0b92e36",
+    "scripts/validate_reliability.py": "92d13f4b016e74be07fe02c57cd51ad30b90481a1110734bd910362cf24d6eeb",
+    "src/reliability/experiment.py": "cd2f105a4a058c3fd8c7f8299c164f92dc69effbd9a7a5fd4e9ccff4dc466492",
+    "src/reliability/models.py": "8167319fd351d2ba908181fb298c2b499c1b65331d3065341fcdb6efa61bedb0"
+  },
+  "code_state": "uncommitted content hashes; no commit created",
+  "environment": {
+    "numpy": "2.5.4",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "python": "3.14.8",
+    "scipy": "1.18.1"
+  },
+  "finished_utc": "2026-10-28T00:59:41.294101+00:00",
+  "formal_football_inference": false,
+  "human_review": "not_performed",
+  "outputs": {
+    "outputs/logs/reliability/methods-full-development-20261028T005622778442Z/association_pair_indices.csv": "9922ab1f68e0a1be10d37e9ce28249172d457ddb7c0b7036677351eca01a103d",
+    "outputs/logs/reliability/methods-full-development-20261028T005622778442Z/design_binding.json": "241b37c4bbb7e48c9121dfe8e74e4e31fcca1f704baae33bf5d63e8b75b54e52",
+    "outputs/logs/reliability/methods-full-development-20261028T005622778442Z/metrics.csv": "ae1801e051ccec7c27f96cb583d94d9086e381cb4c5e487f527de0adc5382915",
+    "outputs/logs/reliability/methods-full-development-20261028T005622778442Z/pair_selection.json": "206827ca5e50093e36c178fff0f286b59c7f98a1e6a06d84683bfd5a1aced1fc",
+    "outputs/logs/reliability/methods-full-development-20261028T005622778442Z/replication_status.csv": "5ebd7a787e7a16a344ed8d55d1ec9db0ca4e79bc04eb13bf8efe7cf16bb773c1",
+    "outputs/logs/reliability/methods-full-development-20261028T005622778442Z/replications.jsonl": "b30a23a59fec92dada6a50858105fda261e0e5f19e784955c2b35760632dcaff"
+  },
+  "production_estimator": null,
+  "schema_version": "reliability-method-run-v1",
+  "stage": "full-development",
+  "started_utc": "2026-10-28T00:56:22.779306+00:00",
+  "status": "completed_development_not_acceptance",
+  "summary": {
+    "MP_CPU_seconds": 72.09375,
+    "MP_attempted": 18,
+    "MP_mean_CPU_seconds": 4.005208333333333,
+    "MP_stopped_budget_or_projection": true,
+    "attempted_outer": 1800,
+    "cpu_seconds": 144.171875,
+    "empirical_acceptance": false,
+    "formal_replication_counts_completed": false,
+    "inner_B": 199,
+    "margin_cell_ridge": 0.5,
+    "n": 24917,
+    "nominal_outer_per_scenario": 100,
+    "pair_selection_CPU_seconds": 5.25,
+    "real_outcomes_fitted": false,
+    "scenarios": 18,
+    "stopped_total_budget": false,
+    "targets": 198,
+    "unsupported": 94
+  }
+}

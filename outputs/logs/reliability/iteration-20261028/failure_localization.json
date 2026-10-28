@@ -1,0 +1,1340 @@
+{
+  "actual_football_conclusion": false,
+  "config_sha256": "51003c44c66cc048cd344d284f56ba44c6c4b4601cd46422a448eff1c256aab6",
+  "cpu_seconds": 65.953125,
+  "diagnostic_not_deployable_model": true,
+  "inner_B": 199,
+  "not_independent_validation": true,
+  "random_states": [
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 286939024887871294412441027011330066739,
+          "state": 171043180541869253228924600674198597797
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 286939024887871294412441027011330066739,
+          "state": 292102099613691241872604998676112606321
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 4.086145998311344,
+          "CONDITIONAL": 2.362967054845801,
+          "CORE": 4.084135945203387,
+          "ROLLING": 1.6325536756722325
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 0,
+      "variant": "fitted_margin_fitted_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 57177216318923935429360746916610832377,
+          "state": 180940757002173987114877858154361496770
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 57177216318923935429360746916610832377,
+          "state": 10687844810022457970928205560036094833
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 5.059155695638169,
+          "CONDITIONAL": 2.7340622791159346,
+          "CORE": 4.865783567428293,
+          "ROLLING": 1.7520511983325124
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 0,
+      "variant": "true_margin_fitted_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 190229249106186057637293451405949917685,
+          "state": 14842127990830514611819059236827554631
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 190229249106186057637293451405949917685,
+          "state": 112668318162937212155613831753640976190
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 18.471926438505882,
+          "CONDITIONAL": 13.662481709221936,
+          "CORE": 17.806910504391407,
+          "ROLLING": 1.6694614167628972
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 0,
+      "variant": "fitted_margin_true_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 156074430013964058997034231156035454967,
+          "state": 118194705537666129910373844528892145642
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 156074430013964058997034231156035454967,
+          "state": 258082311441240912613954926515482246912
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 20.96133321840926,
+          "CONDITIONAL": 12.337204314661257,
+          "CORE": 20.463119388020584,
+          "ROLLING": 1.5958015151723957
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 0,
+      "variant": "true_margin_true_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 198367723140829026471842501174198893115,
+          "state": 141650273757239592188286434464188600101
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 198367723140829026471842501174198893115,
+          "state": 61096222113731803150785042052065334894
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 2.7867529039624106,
+          "CONDITIONAL": 2.494102125637197,
+          "CORE": 2.6812105466282357,
+          "ROLLING": 1.8770798015418204
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 1,
+      "variant": "fitted_margin_fitted_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 163075201953543547740900293919861830325,
+          "state": 125809797373871101341178070743288994208
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 163075201953543547740900293919861830325,
+          "state": 271044775577598395419507924965075771457
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 2.9346005907887966,
+          "CONDITIONAL": 2.5973942752379657,
+          "CORE": 2.775379304395121,
+          "ROLLING": 2.059767668417949
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 1,
+      "variant": "true_margin_fitted_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 7464215198932269959596710976198111133,
+          "state": 11494609837210620353809400712284495368
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 7464215198932269959596710976198111133,
+          "state": 238463528738194066688378301589960920938
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 18.41637200207415,
+          "CONDITIONAL": 12.60201652518776,
+          "CORE": 17.725080524883737,
+          "ROLLING": 1.544679934676691
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 1,
+      "variant": "fitted_margin_true_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 211865106010318977677881049943394126805,
+          "state": 282249297671666067188960397943568457728
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 211865106010318977677881049943394126805,
+          "state": 231951383371400616309593262346061963096
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 19.55004962613266,
+          "CONDITIONAL": 13.689120451929163,
+          "CORE": 18.82517098429592,
+          "ROLLING": 1.5792461636716415
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 1,
+      "variant": "true_margin_true_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 321592987965843454300655526091614124499,
+          "state": 328780831465659096370518623843216702115
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 321592987965843454300655526091614124499,
+          "state": 289095129642500746947117221066725701225
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 3.462245406765825,
+          "CONDITIONAL": 2.108804525308959,
+          "CORE": 3.3584855878287683,
+          "ROLLING": 1.3622307874918527
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 2,
+      "variant": "fitted_margin_fitted_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 276278433061566295199423946850443866507,
+          "state": 152522991610500124516335912435570535365
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 276278433061566295199423946850443866507,
+          "state": 311887017729295146126445793590606972666
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 4.193259430569384,
+          "CONDITIONAL": 2.3140847681029673,
+          "CORE": 4.0667914314519695,
+          "ROLLING": 1.7148921810386484
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 2,
+      "variant": "true_margin_fitted_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 193463589535160646054038418329593747117,
+          "state": 216196541439449805772642545415131656129
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 193463589535160646054038418329593747117,
+          "state": 15134771119389548376703917733415734053
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 16.634711701164015,
+          "CONDITIONAL": 10.642382972076192,
+          "CORE": 16.499241155421338,
+          "ROLLING": 1.558705037708653
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 2,
+      "variant": "fitted_margin_true_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 97175997365182826718740324601760958549,
+          "state": 68700250216370308106971364705279187598
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 97175997365182826718740324601760958549,
+          "state": 338643983691564457430007365799333171126
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 20.565515431843785,
+          "CONDITIONAL": 13.401471537940216,
+          "CORE": 19.875397779376723,
+          "ROLLING": 1.585459526393426
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 2,
+      "variant": "true_margin_true_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 98036791331668002326279727523094319245,
+          "state": 186482727673599203618162347249340341577
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 98036791331668002326279727523094319245,
+          "state": 171166628798392454874290684397989159472
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 2.543815671885399,
+          "CONDITIONAL": 1.878770615418718,
+          "CORE": 2.281066174935198,
+          "ROLLING": 1.9335647367050748
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 3,
+      "variant": "fitted_margin_fitted_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 108712612884279539954891415694210519675,
+          "state": 265455337299523749029772537811900612251
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 108712612884279539954891415694210519675,
+          "state": 263603055757023294631162821566126834119
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 2.5557089530407957,
+          "CONDITIONAL": 1.9538816553290212,
+          "CORE": 2.3654965978797557,
+          "ROLLING": 2.241830037391701
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 3,
+      "variant": "true_margin_fitted_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 51738154949710308255546298013558389857,
+          "state": 91182745130850830488582707260126111258
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 51738154949710308255546298013558389857,
+          "state": 219292271328580897886051960398997255369
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 17.884072873329714,
+          "CONDITIONAL": 11.78710906445254,
+          "CORE": 17.62342684415867,
+          "ROLLING": 1.6177033200671025
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 3,
+      "variant": "fitted_margin_true_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 71608237149853346654624351386405927467,
+          "state": 312336818931605756421437032130233649812
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 71608237149853346654624351386405927467,
+          "state": 51084745258666493079185273257095085032
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 20.406768866783302,
+          "CONDITIONAL": 14.914046634093285,
+          "CORE": 20.216675551446194,
+          "ROLLING": 1.5626848836312872
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 3,
+      "variant": "true_margin_true_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 193984300086835995046553711937733361173,
+          "state": 158242937743297009334958178938651614352
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 193984300086835995046553711937733361173,
+          "state": 201405976853333392064241692537529163204
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 2.971306364815037,
+          "CONDITIONAL": 2.090766314888471,
+          "CORE": 2.8091732745072133,
+          "ROLLING": 2.0357965441759798
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 4,
+      "variant": "fitted_margin_fitted_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 62090991173732947869855345888206364301,
+          "state": 336616725603545713959274991058906288204
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 62090991173732947869855345888206364301,
+          "state": 305576126044705810830760982821856577337
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 3.792772193011325,
+          "CONDITIONAL": 2.7790765022849544,
+          "CORE": 3.739458208785491,
+          "ROLLING": 2.288766335366221
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 4,
+      "variant": "true_margin_fitted_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 329582126710722397401244127632416560817,
+          "state": 305356477794129437137724920680969730694
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 329582126710722397401244127632416560817,
+          "state": 125526574832367183797613633366001966856
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 16.955591142901874,
+          "CONDITIONAL": 10.011496179867276,
+          "CORE": 16.62029113880516,
+          "ROLLING": 1.82191036374053
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 4,
+      "variant": "fitted_margin_true_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 147127524886024760101564572508009885517,
+          "state": 10441058271449754572592866967306043048
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 147127524886024760101564572508009885517,
+          "state": 238121005673120667840740415104214611153
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 18.537445382653342,
+          "CONDITIONAL": 13.371521179281936,
+          "CORE": 18.384183171201734,
+          "ROLLING": 1.6016568885761688
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 4,
+      "variant": "true_margin_true_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 109100058746844260202769248351279448423,
+          "state": 224076886036702385753659614598249094707
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 109100058746844260202769248351279448423,
+          "state": 166337664342953280753694878164068648171
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 3.5780060406161476,
+          "CONDITIONAL": 2.2692388335576625,
+          "CORE": 3.5600154265993473,
+          "ROLLING": 1.9314084810585526
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 5,
+      "variant": "fitted_margin_fitted_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 68459987763234795118765528982941776409,
+          "state": 222286199778597604800417175655263961619
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 68459987763234795118765528982941776409,
+          "state": 145157588149012514697052312039085028562
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 4.116724616078897,
+          "CONDITIONAL": 2.568439657595672,
+          "CORE": 3.9684506598245624,
+          "ROLLING": 2.011325654070139
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 5,
+      "variant": "true_margin_fitted_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 223340844700028210390582530560135999959,
+          "state": 250217680348035201822264296833772390659
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 223340844700028210390582530560135999959,
+          "state": 252925984885676530985810991649855121614
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 18.943453885229598,
+          "CONDITIONAL": 14.547288068380338,
+          "CORE": 18.312469542444024,
+          "ROLLING": 1.7384313141100396
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 5,
+      "variant": "fitted_margin_true_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 309608613682508074686915439406227776695,
+          "state": 50396848832919790218426375275587467801
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 309608613682508074686915439406227776695,
+          "state": 148444307592860468517264567393586908752
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 20.517155894362663,
+          "CONDITIONAL": 14.804219723409764,
+          "CORE": 19.94884544807786,
+          "ROLLING": 1.5674850004945102
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 5,
+      "variant": "true_margin_true_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 79109154091986241407247426706331400125,
+          "state": 223027130718088161641661385987172276975
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 79109154091986241407247426706331400125,
+          "state": 325288067119519023404302708835208006621
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 4.872232254001349,
+          "CONDITIONAL": 2.8133243212426002,
+          "CORE": 4.729218971048901,
+          "ROLLING": 1.4140532599239737
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 6,
+      "variant": "fitted_margin_fitted_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 216218076692626930152174716059904009425,
+          "state": 149117645443407319328879432308604619502
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 216218076692626930152174716059904009425,
+          "state": 65001137975576531621624266167138152719
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 6.081394731888494,
+          "CONDITIONAL": 3.8824516681530397,
+          "CORE": 5.966320458910098,
+          "ROLLING": 1.7888881368000826
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 6,
+      "variant": "true_margin_fitted_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 88344378804560200272432096133814588059,
+          "state": 249957339052363459271225931242990794657
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 88344378804560200272432096133814588059,
+          "state": 121965086198251543960303898493839370599
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 16.282349679051478,
+          "CONDITIONAL": 10.353296389606818,
+          "CORE": 15.750415099450986,
+          "ROLLING": 1.6408729220065181
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 6,
+      "variant": "fitted_margin_true_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 271242224147306908145388854061030127615,
+          "state": 206049980373320941992348361773492265453
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 271242224147306908145388854061030127615,
+          "state": 213494157438222054627787777039588457626
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 19.45350562585134,
+          "CONDITIONAL": 13.642752757610433,
+          "CORE": 19.297851699344516,
+          "ROLLING": 1.5825189589373678
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 6,
+      "variant": "true_margin_true_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 311327887046762066963484536737596623565,
+          "state": 285927623075184330603972628337192517168
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 311327887046762066963484536737596623565,
+          "state": 271686452008713131692091669548698785072
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 7.921970593787622,
+          "CONDITIONAL": 4.915287962400973,
+          "CORE": 7.7089374060403495,
+          "ROLLING": 1.6198793863128607
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 7,
+      "variant": "fitted_margin_fitted_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 196368825026193841435062147060214590885,
+          "state": 240842381144136589964011904719074837036
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 196368825026193841435062147060214590885,
+          "state": 31962949524236979328806089361172526151
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 8.138523555261841,
+          "CONDITIONAL": 5.781348836789291,
+          "CORE": 8.13137811645458,
+          "ROLLING": 1.6796738623960112
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 7,
+      "variant": "true_margin_fitted_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 235354636992592925514639766756128709993,
+          "state": 109766851923881100228883643118678304213
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 235354636992592925514639766756128709993,
+          "state": 38634743275333792870252030093668112652
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 17.063438340830704,
+          "CONDITIONAL": 12.36819561094992,
+          "CORE": 17.028023671889493,
+          "ROLLING": 1.7482492284013096
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 7,
+      "variant": "fitted_margin_true_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 188702981106816313768294701483451938743,
+          "state": 154074707077027555476125474586037387508
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 188702981106816313768294701483451938743,
+          "state": 191905943184194851340686982519213767170
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 19.53526382633128,
+          "CONDITIONAL": 14.277135393795326,
+          "CORE": 19.142527117909296,
+          "ROLLING": 1.600293874893982
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 7,
+      "variant": "true_margin_true_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 271286883536937995078417189499761034633,
+          "state": 83400996637465312636629394405798940799
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 271286883536937995078417189499761034633,
+          "state": 234990945421256241910751112985457535723
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 3.0790439329506016,
+          "CONDITIONAL": 2.663401411805854,
+          "CORE": 3.1214342443369105,
+          "ROLLING": 1.9069177679944773
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 8,
+      "variant": "fitted_margin_fitted_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 126350083041735931514936851123589426993,
+          "state": 298689915018326183124846294891979964870
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 126350083041735931514936851123589426993,
+          "state": 65891713975587143877747656727044621870
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 3.4264447068527826,
+          "CONDITIONAL": 2.8509182051957502,
+          "CORE": 3.2417298144418827,
+          "ROLLING": 2.1629359421605225
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 8,
+      "variant": "true_margin_fitted_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 333389515276151260812101510498976339023,
+          "state": 262354737649903094718662803498566919973
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 333389515276151260812101510498976339023,
+          "state": 284006223617695415264206609388119640761
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 18.993155152783586,
+          "CONDITIONAL": 10.978450231482423,
+          "CORE": 18.72977637457556,
+          "ROLLING": 1.5874632631967118
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 8,
+      "variant": "fitted_margin_true_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 257251869401676521999191758999981549191,
+          "state": 110950386158824554355250321863903774341
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 257251869401676521999191758999981549191,
+          "state": 159359589075084387436249729652468676205
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 19.732622110633464,
+          "CONDITIONAL": 13.30230271564756,
+          "CORE": 19.636781379345376,
+          "ROLLING": 1.5935364739539812
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 8,
+      "variant": "true_margin_true_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 124513728337686997605030727718362358723,
+          "state": 42556994881401722668446386552952614308
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 124513728337686997605030727718362358723,
+          "state": 329959449739823901967149834866352446376
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 3.7451678426434585,
+          "CONDITIONAL": 2.6800058818102954,
+          "CORE": 3.685702540032537,
+          "ROLLING": 2.1640617130027304
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 9,
+      "variant": "fitted_margin_fitted_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 204823021270466990851640038478437560417,
+          "state": 258660769542836794175843353105740931645
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 204823021270466990851640038478437560417,
+          "state": 154986016677668626010764073229824449809
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 4.78191694169955,
+          "CONDITIONAL": 3.225918494163363,
+          "CORE": 4.560359855382018,
+          "ROLLING": 2.180975110775015
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 9,
+      "variant": "true_margin_fitted_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 146240920008701492231827770897178777861,
+          "state": 130777167900726601285317026453735999212
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 146240920008701492231827770897178777861,
+          "state": 248980532372091019010792619204589782979
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 18.464069306382978,
+          "CONDITIONAL": 13.523477997760084,
+          "CORE": 18.035225044968875,
+          "ROLLING": 1.5262788922938189
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 9,
+      "variant": "fitted_margin_true_dependence"
+    },
+    {
+      "after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 280918133786827330484401105369869432863,
+          "state": 295720862650098957253068437864054476111
+        },
+        "uinteger": 0
+      },
+      "before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 280918133786827330484401105369869432863,
+          "state": 85375754472845997137906683302765893529
+        },
+        "uinteger": 0
+      },
+      "calibration": {
+        "B": 199,
+        "critical": {
+          "AUX": 20.729171830340263,
+          "CONDITIONAL": 14.372136598919415,
+          "CORE": 20.65689943540609,
+          "ROLLING": 1.5506337842437106
+        },
+        "design_scale_not_SE": true,
+        "rank": 190
+      },
+      "replication": 9,
+      "variant": "true_margin_true_dependence"
+    }
+  ],
+  "reused_outer_datasets": 10,
+  "script_sha256": "ec4be158db048bb491c0925a420a114d5da285cd334cec6347944b24c4d426c2",
+  "supplemental_negative_result": {
+    "Bonferroni144": 0.021851666881893814,
+    "family_alpha": 0.05,
+    "looked_at_cells": 144,
+    "null": "coverage>=.94",
+    "observed": "5/10",
+    "one_sided_exact_binomial_tail": 0.00015174768667981816
+  }
+}

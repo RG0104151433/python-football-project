@@ -1,0 +1,76 @@
+{
+  "schema_version": "reliability-iteration-delivery-20261028",
+  "decision_log_id": "R20261028-02",
+  "status": "passed_delivery_checks_no_production_inference_approval",
+  "unit_tests": 60,
+  "independent_audit_checks": 8214,
+  "parent_bindings_unchanged": 103,
+  "actual_runs": 7,
+  "local_link_checks": {
+    "checked": 815,
+    "missing": [],
+    "permission_limited": [
+      {
+        "document": "README.md",
+        "destination": "data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv",
+        "error": "EPERM"
+      },
+      {
+        "document": "README.md",
+        "destination": "data/processed/prep-3fab808178cf8ad71d88/data_dictionary.md",
+        "error": "EPERM"
+      },
+      {
+        "document": "README.md",
+        "destination": "data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json",
+        "error": "EPERM"
+      },
+      {
+        "document": "研究/03_地域差异/README.md",
+        "destination": "../../data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv",
+        "error": "EPERM"
+      },
+      {
+        "document": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+        "destination": "../../data/processed/prep-3fab808178cf8ad71d88/data_dictionary.md",
+        "error": "EPERM"
+      },
+      {
+        "document": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+        "destination": "../../data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json",
+        "error": "EPERM"
+      },
+      {
+        "document": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+        "destination": "../../data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv",
+        "error": "EPERM"
+      }
+    ]
+  },
+  "log_ids": 102,
+  "duplicate_log_ids": [],
+  "selected_production_estimator": null,
+  "real_football_inference": "not_run_real_football",
+  "known_generator_not_fitted_acceptance": true,
+  "documents_sha256": {
+    "README.md": "d7682c729f13bb3cb46e741b72ffc9b8d2f207ee8a0b0512949004b0b523b69e",
+    "研究/README.md": "7319b4d1fb862e680ebcdf91009897a6c3bd126d848c42a07bc8c82abaccded2",
+    "研究/01_年代变化/README.md": "5db00e2ac076d12288fd64d29f15d66354a39d7d79bf63c81a71a1b2708c189b",
+    "研究/02_赛事类型差异/README.md": "7f899edf0eb540775513aca483fedbae148d22b1825def6b03ec80aef6821f2e",
+    "研究/03_地域差异/README.md": "ebe427fdd38f4b508d52fac89fb6e3a2acd8b676486d248236ebf771b931f6c4",
+    "研究/04_共同可靠性/README.md": "589a05972eb068845cbb0e413ac0e1ba1f1f9687a212e39b979a59ca3418c2b6",
+    "研究/04_共同可靠性/第三步_条件论证与候选方法验收方案.md": "3c3252d367c0ed7d3439fb04553e9d8f5220e846b3c204e7c67565de71f974a5",
+    "研究/04_共同可靠性/第三步_双路线演算与迭代记录.md": "5267cd9ac62a6feb162c7865707de6ed81bcdffd04f119be6a21f1bb35f8c28e",
+    "文档/05_团队协作/分工与交付/04_两题共同可靠性与敏感性.md": "e17fc870403ed27a02cfea2937dd730d826f6477ccc35326fc5bcb65bfd3b937",
+    "文档/05_团队协作/论文与汇报支撑材料索引.md": "012856a7054e11fafe1faf511b258e66a7a28ad560735966396cdbc78b21a6e3",
+    "研究/pipeline_state.json": "7ffad866e05d2e71181d81e2e0281de9528eace363ee288a68bb68c25c7cb673",
+    "文档/01_项目方案/研究日志与决策记录.md": "c7021bfdf471b22b8775c3172928a3967a9dc148cc72a77ed3dac7e43f358e26"
+  },
+  "mathematical_scope": "conditional graph guarantee / boundedness fallback; model fitted inference not admitted",
+  "human_review": "not_performed",
+  "anchors": "Path existence checked; all heading anchors not parsed",
+  "recheck": "outputs/logs/reliability/implementation-20261028/independent_recheck-20261028T020019505172Z.json",
+  "scope_supplement": "outputs/logs/reliability/implementation-20261028/scope_supplement.json",
+  "growth_sequences": "not_run",
+  "figure_visual_review": "rendered_viewed_and_labels_repaired_same_data"
+}

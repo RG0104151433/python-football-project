@@ -1,0 +1,16 @@
+{
+  "schema_version": "reliability-full-graph-oracle-v6-pre-run",
+  "decision_log_id": "R20261028-02",
+  "parent_protocol": "config/reliability_validation_v1.json",
+  "iteration_protocol": "config/reliability_iteration_v4.json",
+  "G1_constants": "outputs/logs/reliability/methods-full-graph-20261028T005505661506Z/graph_constants.json",
+  "previous_full_pilot": "outputs/logs/reliability/methods-full-development-20261028T005622778442Z",
+  "full_refined_R": 10,
+  "graph_formal_R": 5000,
+  "refined_graph_constants": "outputs/logs/reliability/refined-graph-20261028T010916841071Z/graph_constants.json",
+  "stage_status": "Fixed5000 graph checks and separately labelled known-generator oracle; fitted-MP full protocol remains pending/non-admitted.",
+  "count_policy": "P full R10 is explicitly development only; no replacement of formal5000/1000 and inner999. G checks R5000 for all18 scenarios, exceeding the1000 stress count instead of reducing it. Generator-oracle reference9999 is separately labelled, never fitted-parameter validation.",
+  "cost_gate": "Measure full-fit plus actual B999 on first replicate of each scenario; estimate58000 such rounds against24CPU hours. Even if formal gate fails, finish planned R10 development unless20CPU minute pilot cap reached. No silent budget waiver.",
+  "selection_policy": "G candidates selected on metadata/A only. P multiplier locked from designated first50 small replicates, then evaluated on separate latter50 and full-size fresh streams. No real football Y used to choose route.",
+  "formal_MP_outer_replications": 58000
+}

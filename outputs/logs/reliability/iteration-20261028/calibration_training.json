@@ -1,0 +1,13 @@
+{
+  "config_sha256": "dea3a4d20116d6fb2396e21fc8f40ca0664080758c6dfceb727148401364c907",
+  "formal_R5000_not_completed": true,
+  "formal_acceptance": false,
+  "n_outer_rows": 900,
+  "note": "Training screen49/50 is tuning only. Heldout50 has MC uncertainty and does not establish95% full-design coverage.",
+  "replications": "0..49",
+  "script_sha256": "1e6f5f52ccb52279bc41c1b954a884e8cf56b625043facf5ede63e001c5e2905",
+  "selected_multiplier": 2,
+  "source": "outputs/logs/reliability/methods-small-development-20261028T005501323334Z",
+  "source_selected_rows_sha256": "e3f91ae1090c0c8b88f180cc1b2b03df511876f9846a98fd38c602eacdd4bfe1",
+  "stage": "select"
+}

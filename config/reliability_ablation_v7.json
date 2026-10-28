@@ -1,0 +1,13 @@
+{
+  "schema_version": "reliability-failure-localization-v7-before-results",
+  "decision_log_id": "R20261028-02",
+  "source": "outputs/logs/reliability/refined-full-pilot-20261028T010917282465Z",
+  "scenario": "C09",
+  "selection": "Chosen AFTER full-pilot failure. Diagnostic, not an independent holdout or new approved estimator.",
+  "replications": "Reuse all10 fixed completed outer datasets; do not drop unfavorable replicates.",
+  "inner_B_each_variant": 199,
+  "CPU_seconds_cap": 300,
+  "variants": ["fitted_margin_fitted_dependence", "true_margin_fitted_dependence", "fitted_margin_true_dependence", "true_margin_true_dependence"],
+  "interpretation": "Switch only the nuisance information used to generate bootstrap roots; actual point statistic staysA*Y. Known truths are available in simulation only. Compare both uninflated and prelocked2x intervals. No causal attribution or large-sample coverage proof from10 reused datasets.",
+  "negative_result_check": "Supplementary one-sided exact binomial tail under coverage>=.94, with Bonferroni144 for all18x2x4 previously inspected full-pilot cells. This checks a negative finding, does not replace original acceptance rules."
+}

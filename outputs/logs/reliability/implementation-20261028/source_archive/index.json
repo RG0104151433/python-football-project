@@ -1,0 +1,158 @@
+[
+  {
+    "run": "methods-full-development-20261028T005622778442Z",
+    "original": "config/reliability_scale_pilot_v3.json",
+    "sha256": "060af85e7ee6a78059b30aa963ce2d64716fa73b6f2c427c16a5e976f861b07a",
+    "archive": "outputs/logs/reliability/implementation-20261028/source_archive/060af85e7ee6a78059b30aa963ce2d64716fa73b6f2c427c16a5e976f861b07a/config/reliability_scale_pilot_v3.json"
+  },
+  {
+    "run": "methods-full-development-20261028T005622778442Z",
+    "original": "config/reliability_validation_v1.json",
+    "sha256": "26648b8c81c9311c71f9da0a0be9d9e3e3a8419b226e6e0b516e8a14d0b92e36",
+    "archive": "outputs/logs/reliability/implementation-20261028/source_archive/26648b8c81c9311c71f9da0a0be9d9e3e3a8419b226e6e0b516e8a14d0b92e36/config/reliability_validation_v1.json"
+  },
+  {
+    "run": "methods-full-development-20261028T005622778442Z",
+    "original": "scripts/validate_reliability.py",
+    "sha256": "92d13f4b016e74be07fe02c57cd51ad30b90481a1110734bd910362cf24d6eeb",
+    "archive": "outputs/logs/reliability/implementation-20261028/source_archive/92d13f4b016e74be07fe02c57cd51ad30b90481a1110734bd910362cf24d6eeb/scripts/validate_reliability.py"
+  },
+  {
+    "run": "methods-full-development-20261028T005622778442Z",
+    "original": "src/reliability/experiment.py",
+    "sha256": "cd2f105a4a058c3fd8c7f8299c164f92dc69effbd9a7a5fd4e9ccff4dc466492",
+    "archive": "outputs/logs/reliability/implementation-20261028/source_archive/cd2f105a4a058c3fd8c7f8299c164f92dc69effbd9a7a5fd4e9ccff4dc466492/src/reliability/experiment.py"
+  },
+  {
+    "run": "methods-full-development-20261028T005622778442Z",
+    "original": "src/reliability/models.py",
+    "sha256": "8167319fd351d2ba908181fb298c2b499c1b65331d3065341fcdb6efa61bedb0",
+    "archive": "outputs/logs/reliability/implementation-20261028/source_archive/8167319fd351d2ba908181fb298c2b499c1b65331d3065341fcdb6efa61bedb0/src/reliability/models.py"
+  },
+  {
+    "run": "methods-full-graph-20261028T005505661506Z",
+    "original": "config/reliability_development_v2.json",
+    "sha256": "2a4248496bf79493d3a186867520909d568ac8e3be69decdb3945b142c2d5da5",
+    "archive": "outputs/logs/reliability/implementation-20261028/source_archive/2a4248496bf79493d3a186867520909d568ac8e3be69decdb3945b142c2d5da5/config/reliability_development_v2.json"
+  },
+  {
+    "run": "methods-full-graph-20261028T005505661506Z",
+    "original": "config/reliability_validation_v1.json",
+    "sha256": "26648b8c81c9311c71f9da0a0be9d9e3e3a8419b226e6e0b516e8a14d0b92e36",
+    "archive": "outputs/logs/reliability/implementation-20261028/source_archive/26648b8c81c9311c71f9da0a0be9d9e3e3a8419b226e6e0b516e8a14d0b92e36/config/reliability_validation_v1.json"
+  },
+  {
+    "run": "methods-full-graph-20261028T005505661506Z",
+    "original": "scripts/validate_reliability.py",
+    "sha256": "92d13f4b016e74be07fe02c57cd51ad30b90481a1110734bd910362cf24d6eeb",
+    "archive": "outputs/logs/reliability/implementation-20261028/source_archive/92d13f4b016e74be07fe02c57cd51ad30b90481a1110734bd910362cf24d6eeb/scripts/validate_reliability.py"
+  },
+  {
+    "run": "methods-full-graph-20261028T005505661506Z",
+    "original": "src/reliability/experiment.py",
+    "sha256": "cd2f105a4a058c3fd8c7f8299c164f92dc69effbd9a7a5fd4e9ccff4dc466492",
+    "archive": "outputs/logs/reliability/implementation-20261028/source_archive/cd2f105a4a058c3fd8c7f8299c164f92dc69effbd9a7a5fd4e9ccff4dc466492/src/reliability/experiment.py"
+  },
+  {
+    "run": "methods-full-graph-20261028T005505661506Z",
+    "original": "src/reliability/models.py",
+    "sha256": "8167319fd351d2ba908181fb298c2b499c1b65331d3065341fcdb6efa61bedb0",
+    "archive": "outputs/logs/reliability/implementation-20261028/source_archive/8167319fd351d2ba908181fb298c2b499c1b65331d3065341fcdb6efa61bedb0/src/reliability/models.py"
+  },
+  {
+    "run": "methods-small-baseline-20261028T005405143223Z",
+    "original": "config/reliability_development_v2.json",
+    "sha256": "2a4248496bf79493d3a186867520909d568ac8e3be69decdb3945b142c2d5da5",
+    "archive": "outputs/logs/reliability/implementation-20261028/source_archive/2a4248496bf79493d3a186867520909d568ac8e3be69decdb3945b142c2d5da5/config/reliability_development_v2.json"
+  },
+  {
+    "run": "methods-small-baseline-20261028T005405143223Z",
+    "original": "config/reliability_validation_v1.json",
+    "sha256": "26648b8c81c9311c71f9da0a0be9d9e3e3a8419b226e6e0b516e8a14d0b92e36",
+    "archive": "outputs/logs/reliability/implementation-20261028/source_archive/26648b8c81c9311c71f9da0a0be9d9e3e3a8419b226e6e0b516e8a14d0b92e36/config/reliability_validation_v1.json"
+  },
+  {
+    "run": "methods-small-baseline-20261028T005405143223Z",
+    "original": "scripts/validate_reliability.py",
+    "sha256": "92d13f4b016e74be07fe02c57cd51ad30b90481a1110734bd910362cf24d6eeb",
+    "archive": "outputs/logs/reliability/implementation-20261028/source_archive/92d13f4b016e74be07fe02c57cd51ad30b90481a1110734bd910362cf24d6eeb/scripts/validate_reliability.py"
+  },
+  {
+    "run": "methods-small-baseline-20261028T005405143223Z",
+    "original": "src/reliability/experiment.py",
+    "sha256": "cd2f105a4a058c3fd8c7f8299c164f92dc69effbd9a7a5fd4e9ccff4dc466492",
+    "archive": "outputs/logs/reliability/implementation-20261028/source_archive/cd2f105a4a058c3fd8c7f8299c164f92dc69effbd9a7a5fd4e9ccff4dc466492/src/reliability/experiment.py"
+  },
+  {
+    "run": "methods-small-baseline-20261028T005405143223Z",
+    "original": "src/reliability/models.py",
+    "sha256": "bff31c3c9abc32e56ccae6c69a15a357373c775d9a27f097acd731289638a15d",
+    "archive": "outputs/logs/reliability/implementation-20261028/source_archive/bff31c3c9abc32e56ccae6c69a15a357373c775d9a27f097acd731289638a15d/src/reliability/models.py"
+  },
+  {
+    "run": "methods-small-development-20261028T005501323334Z",
+    "original": "config/reliability_development_v2.json",
+    "sha256": "2a4248496bf79493d3a186867520909d568ac8e3be69decdb3945b142c2d5da5",
+    "archive": "outputs/logs/reliability/implementation-20261028/source_archive/2a4248496bf79493d3a186867520909d568ac8e3be69decdb3945b142c2d5da5/config/reliability_development_v2.json"
+  },
+  {
+    "run": "methods-small-development-20261028T005501323334Z",
+    "original": "config/reliability_validation_v1.json",
+    "sha256": "26648b8c81c9311c71f9da0a0be9d9e3e3a8419b226e6e0b516e8a14d0b92e36",
+    "archive": "outputs/logs/reliability/implementation-20261028/source_archive/26648b8c81c9311c71f9da0a0be9d9e3e3a8419b226e6e0b516e8a14d0b92e36/config/reliability_validation_v1.json"
+  },
+  {
+    "run": "methods-small-development-20261028T005501323334Z",
+    "original": "scripts/validate_reliability.py",
+    "sha256": "92d13f4b016e74be07fe02c57cd51ad30b90481a1110734bd910362cf24d6eeb",
+    "archive": "outputs/logs/reliability/implementation-20261028/source_archive/92d13f4b016e74be07fe02c57cd51ad30b90481a1110734bd910362cf24d6eeb/scripts/validate_reliability.py"
+  },
+  {
+    "run": "methods-small-development-20261028T005501323334Z",
+    "original": "src/reliability/experiment.py",
+    "sha256": "cd2f105a4a058c3fd8c7f8299c164f92dc69effbd9a7a5fd4e9ccff4dc466492",
+    "archive": "outputs/logs/reliability/implementation-20261028/source_archive/cd2f105a4a058c3fd8c7f8299c164f92dc69effbd9a7a5fd4e9ccff4dc466492/src/reliability/experiment.py"
+  },
+  {
+    "run": "methods-small-development-20261028T005501323334Z",
+    "original": "src/reliability/models.py",
+    "sha256": "8167319fd351d2ba908181fb298c2b499c1b65331d3065341fcdb6efa61bedb0",
+    "archive": "outputs/logs/reliability/implementation-20261028/source_archive/8167319fd351d2ba908181fb298c2b499c1b65331d3065341fcdb6efa61bedb0/src/reliability/models.py"
+  },
+  {
+    "run": "calibration_training_and_holdout",
+    "original": "scripts/calibrate_reliability.py",
+    "sha256": "1e6f5f52ccb52279bc41c1b954a884e8cf56b625043facf5ede63e001c5e2905",
+    "archive": "outputs/logs/reliability/implementation-20261028/source_archive/1e6f5f52ccb52279bc41c1b954a884e8cf56b625043facf5ede63e001c5e2905/scripts/calibrate_reliability.py"
+  },
+  {
+    "run": "diagnostics_or_delivery_hardening",
+    "original": "scripts/profile_reliability_fit.py",
+    "sha256": "555417d8217011200c7c4fa88bdbbe6ebe16d702aec78e91947e6677fba1551d",
+    "archive": "outputs/logs/reliability/implementation-20261028/source_archive/555417d8217011200c7c4fa88bdbbe6ebe16d702aec78e91947e6677fba1551d/scripts/profile_reliability_fit.py"
+  },
+  {
+    "run": "diagnostics_or_delivery_hardening",
+    "original": "scripts/diagnose_reliability_failure.py",
+    "sha256": "ec4be158db048bb491c0925a420a114d5da285cd334cec6347944b24c4d426c2",
+    "archive": "outputs/logs/reliability/implementation-20261028/source_archive/ec4be158db048bb491c0925a420a114d5da285cd334cec6347944b24c4d426c2/scripts/diagnose_reliability_failure.py"
+  },
+  {
+    "run": "diagnostics_or_delivery_hardening",
+    "original": "scripts/calibrate_reliability.py",
+    "sha256": "ef3539f467d84ac3147383794e402410afe5e419d862733ff4ee5e459da7a3a6",
+    "archive": "outputs/logs/reliability/implementation-20261028/source_archive/ef3539f467d84ac3147383794e402410afe5e419d862733ff4ee5e459da7a3a6/scripts/calibrate_reliability.py"
+  },
+  {
+    "run": "independent_audit_initial",
+    "original": "scripts/audit_reliability_methods.py",
+    "sha256": "277712cc6d57bb829649e9b014f80d53741fc34f76946105adef37d3d3523bb3",
+    "archive": "outputs/logs/reliability/implementation-20261028/source_archive/277712cc6d57bb829649e9b014f80d53741fc34f76946105adef37d3d3523bb3/scripts/audit_reliability_methods.py"
+  },
+  {
+    "run": "independent_recheck",
+    "original": "scripts/audit_reliability_methods.py",
+    "sha256": "6cd8ffab89ddac8151f8c04d458bebf1acf51140b32daf08db0c9e24ae7c1a92",
+    "archive": "outputs/logs/reliability/implementation-20261028/source_archive/6cd8ffab89ddac8151f8c04d458bebf1acf51140b32daf08db0c9e24ae7c1a92/scripts/audit_reliability_methods.py"
+  }
+]

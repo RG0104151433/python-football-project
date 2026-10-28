@@ -1,0 +1,53 @@
+{
+  "actual_model_fit": false,
+  "code_and_config": {
+    "config/reliability_development_v2.json": "2a4248496bf79493d3a186867520909d568ac8e3be69decdb3945b142c2d5da5",
+    "config/reliability_validation_v1.json": "26648b8c81c9311c71f9da0a0be9d9e3e3a8419b226e6e0b516e8a14d0b92e36",
+    "scripts/validate_reliability.py": "92d13f4b016e74be07fe02c57cd51ad30b90481a1110734bd910362cf24d6eeb",
+    "src/reliability/experiment.py": "cd2f105a4a058c3fd8c7f8299c164f92dc69effbd9a7a5fd4e9ccff4dc466492",
+    "src/reliability/models.py": "8167319fd351d2ba908181fb298c2b499c1b65331d3065341fcdb6efa61bedb0"
+  },
+  "code_state": "uncommitted content hashes; no commit created",
+  "environment": {
+    "numpy": "2.5.4",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "python": "3.14.8",
+    "scipy": "1.18.1"
+  },
+  "finished_utc": "2026-10-28T01:07:33.176848+00:00",
+  "formal_football_inference": false,
+  "human_review": "not_performed",
+  "outputs": {
+    "outputs/logs/reliability/methods-small-development-20261028T005501323334Z/association_pair_indices.csv": "7e0a7e16a817193bede46f8cb58f51aff2ce1cf2c8f98d6b7b387e069d48d34b",
+    "outputs/logs/reliability/methods-small-development-20261028T005501323334Z/design_binding.json": "efa82530f0281abdf7bff98dbf617ee4427f964100fa5fe3f2e8673792b268cf",
+    "outputs/logs/reliability/methods-small-development-20261028T005501323334Z/metrics.csv": "78c23839b621e11f506c50ebca98d036e03196e267f60f8aaa419fdc8df6b7bb",
+    "outputs/logs/reliability/methods-small-development-20261028T005501323334Z/pair_selection.json": "6603bcd5f6c117c2511b2ffd396b5c8e1f6be7fb58077c2f1b74cfec6a7de9e0",
+    "outputs/logs/reliability/methods-small-development-20261028T005501323334Z/replication_status.csv": "2fe82d9f245343932b21604d99d68b39384ed7bf4c7fbf2daa77d9859f64c4fc",
+    "outputs/logs/reliability/methods-small-development-20261028T005501323334Z/replications.jsonl": "d5563fe6ccccebf2d7877abec08221865e07436782cec2d3c02779ab82e53d1d"
+  },
+  "production_estimator": null,
+  "schema_version": "reliability-method-run-v1",
+  "stage": "small-development",
+  "started_utc": "2026-10-28T00:55:01.324166+00:00",
+  "status": "completed_development_not_acceptance",
+  "summary": {
+    "MP_CPU_seconds": 743.046875,
+    "MP_attempted": 1800,
+    "MP_mean_CPU_seconds": 0.41280381944444444,
+    "MP_stopped_budget_or_projection": false,
+    "attempted_outer": 1800,
+    "cpu_seconds": 746.484375,
+    "empirical_acceptance": false,
+    "formal_replication_counts_completed": false,
+    "inner_B": 199,
+    "margin_cell_ridge": 0.5,
+    "n": 80,
+    "nominal_outer_per_scenario": 100,
+    "pair_selection_CPU_seconds": 0.015625,
+    "real_outcomes_fitted": false,
+    "scenarios": 18,
+    "stopped_total_budget": false,
+    "targets": 6,
+    "unsupported": 0
+  }
+}

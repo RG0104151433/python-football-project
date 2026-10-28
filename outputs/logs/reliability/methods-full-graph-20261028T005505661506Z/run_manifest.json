@@ -1,0 +1,39 @@
+{
+  "actual_model_fit": false,
+  "code_and_config": {
+    "config/reliability_development_v2.json": "2a4248496bf79493d3a186867520909d568ac8e3be69decdb3945b142c2d5da5",
+    "config/reliability_validation_v1.json": "26648b8c81c9311c71f9da0a0be9d9e3e3a8419b226e6e0b516e8a14d0b92e36",
+    "scripts/validate_reliability.py": "92d13f4b016e74be07fe02c57cd51ad30b90481a1110734bd910362cf24d6eeb",
+    "src/reliability/experiment.py": "cd2f105a4a058c3fd8c7f8299c164f92dc69effbd9a7a5fd4e9ccff4dc466492",
+    "src/reliability/models.py": "8167319fd351d2ba908181fb298c2b499c1b65331d3065341fcdb6efa61bedb0"
+  },
+  "code_state": "uncommitted content hashes; no commit created",
+  "environment": {
+    "numpy": "2.5.4",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "python": "3.14.8",
+    "scipy": "1.18.1"
+  },
+  "finished_utc": "2026-10-28T00:57:37.214946+00:00",
+  "formal_football_inference": false,
+  "human_review": "not_performed",
+  "outputs": {
+    "outputs/logs/reliability/methods-full-graph-20261028T005505661506Z/design_binding.json": "241b37c4bbb7e48c9121dfe8e74e4e31fcca1f704baae33bf5d63e8b75b54e52",
+    "outputs/logs/reliability/methods-full-graph-20261028T005505661506Z/graph_constants.json": "b68716bb3114e72b5fde49fef2ace62bf36ecf3b58886e154fedd5786f21b640",
+    "outputs/logs/reliability/methods-full-graph-20261028T005505661506Z/graph_widths.csv": "e7ff9ca639581ff31155507b578cde5cb21ec3eb3a9190566851b04f024c0f16"
+  },
+  "production_estimator": null,
+  "schema_version": "reliability-method-run-v1",
+  "stage": "full-graph",
+  "started_utc": "2026-10-28T00:55:05.662363+00:00",
+  "status": "completed_development_not_acceptance",
+  "summary": {
+    "conditional_theory_only": true,
+    "graph_independence_factually_certified": false,
+    "n": 24917,
+    "outcome_input_used": false,
+    "rows": 1980,
+    "targets": 198,
+    "unsupported": 94
+  }
+}

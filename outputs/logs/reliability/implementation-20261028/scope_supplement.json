@@ -1,0 +1,376 @@
+{
+  "decision_log_id": "R20261028-02",
+  "adjudication": "outputs/logs/reliability/implementation-20261028/method_adjudication.json",
+  "adjudication_sha256": "4bbc48ab7cd5c0ef9e5404043badaad8f2d9515e2db0bbdf947d70162d5b5186",
+  "growth_sequences": {
+    "status": "not_run",
+    "note": "80-fixture6-target toy and24917-fixture198-target actual design differ in metadata and targets. Their comparison is not an asymptotic growth sequence or consistency proof.",
+    "M_G": "finite-sample inequality does not require an asymptotic growth theorem",
+    "M_P": "growing-team/time consistency and nuisance identification remain unestablished; formal fitted acceptance not approved"
+  },
+  "all_null_C00": {
+    "source": "outputs/logs/reliability/refined-full-graph-oracle-20261028T011322589785Z/metrics.csv",
+    "null_rates": 0.5,
+    "null_differences": 0,
+    "metric_identity": "family null exclusion is1 minus joint coverage; upper99 is1 minus coverage lower99",
+    "rows": [
+      {
+        "method": "G2-weighted:L=1460",
+        "family": "AUX",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G2-weighted:L=1460",
+        "family": "CONDITIONAL",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G2-weighted:L=1460",
+        "family": "CORE",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G2-weighted:L=1460",
+        "family": "ROLLING",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G2-weighted:L=365",
+        "family": "AUX",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G2-weighted:L=365",
+        "family": "CONDITIONAL",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G2-weighted:L=365",
+        "family": "CORE",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G2-weighted:L=365",
+        "family": "ROLLING",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G2-weighted:L=730",
+        "family": "AUX",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G2-weighted:L=730",
+        "family": "CONDITIONAL",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G2-weighted:L=730",
+        "family": "CORE",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G2-weighted:L=730",
+        "family": "ROLLING",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G2-weighted:L=90",
+        "family": "AUX",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G2-weighted:L=90",
+        "family": "CONDITIONAL",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G2-weighted:L=90",
+        "family": "CORE",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G2-weighted:L=90",
+        "family": "ROLLING",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G2-weighted:L=all_dependent",
+        "family": "AUX",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G2-weighted:L=all_dependent",
+        "family": "CONDITIONAL",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G2-weighted:L=all_dependent",
+        "family": "CORE",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G2-weighted:L=all_dependent",
+        "family": "ROLLING",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G3-Markov-choice:L=1460",
+        "family": "AUX",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G3-Markov-choice:L=1460",
+        "family": "CONDITIONAL",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G3-Markov-choice:L=1460",
+        "family": "CORE",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G3-Markov-choice:L=1460",
+        "family": "ROLLING",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G3-Markov-choice:L=365",
+        "family": "AUX",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G3-Markov-choice:L=365",
+        "family": "CONDITIONAL",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G3-Markov-choice:L=365",
+        "family": "CORE",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G3-Markov-choice:L=365",
+        "family": "ROLLING",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G3-Markov-choice:L=730",
+        "family": "AUX",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G3-Markov-choice:L=730",
+        "family": "CONDITIONAL",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G3-Markov-choice:L=730",
+        "family": "CORE",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G3-Markov-choice:L=730",
+        "family": "ROLLING",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G3-Markov-choice:L=90",
+        "family": "AUX",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G3-Markov-choice:L=90",
+        "family": "CONDITIONAL",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G3-Markov-choice:L=90",
+        "family": "CORE",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G3-Markov-choice:L=90",
+        "family": "ROLLING",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G3-Markov-choice:L=all_dependent",
+        "family": "AUX",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G3-Markov-choice:L=all_dependent",
+        "family": "CONDITIONAL",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G3-Markov-choice:L=all_dependent",
+        "family": "CORE",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "G3-Markov-choice:L=all_dependent",
+        "family": "ROLLING",
+        "R": 5000,
+        "all_null_family_error_estimate": 0,
+        "all_null_family_error_upper99": 0.0009206100155382257,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "generator-oracle-not-fitted-MP",
+        "family": "AUX",
+        "R": 5000,
+        "all_null_family_error_estimate": 0.04139999999999999,
+        "all_null_family_error_upper99": 0.04842636515772358,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "generator-oracle-not-fitted-MP",
+        "family": "CONDITIONAL",
+        "R": 5000,
+        "all_null_family_error_estimate": 0.04420000000000002,
+        "all_null_family_error_upper99": 0.05143169076425369,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "generator-oracle-not-fitted-MP",
+        "family": "CORE",
+        "R": 5000,
+        "all_null_family_error_estimate": 0.04520000000000002,
+        "all_null_family_error_upper99": 0.052503196448148604,
+        "size_numeric_gate_passed": true
+      },
+      {
+        "method": "generator-oracle-not-fitted-MP",
+        "family": "ROLLING",
+        "R": 5000,
+        "all_null_family_error_estimate": 0.04139999999999999,
+        "all_null_family_error_upper99": 0.04842636515772358,
+        "size_numeric_gate_passed": true
+      }
+    ]
+  },
+  "standard_errors": {
+    "M_G": "not estimated",
+    "M_P": "designL2 scaling is not a fittedSE; no real standard errors published"
+  },
+  "production_estimator": null
+}

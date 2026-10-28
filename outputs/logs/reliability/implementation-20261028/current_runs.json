@@ -1,0 +1,14 @@
+{
+  "decision_log_id": "R20261028-02",
+  "runs": [
+    "outputs/logs/reliability/methods-small-baseline-20261028T005405143223Z/run_manifest.json",
+    "outputs/logs/reliability/methods-small-development-20261028T005501323334Z/run_manifest.json",
+    "outputs/logs/reliability/methods-full-graph-20261028T005505661506Z/run_manifest.json",
+    "outputs/logs/reliability/methods-full-development-20261028T005622778442Z/run_manifest.json",
+    "outputs/logs/reliability/refined-graph-20261028T010916841071Z/run_manifest.json",
+    "outputs/logs/reliability/refined-full-pilot-20261028T010917282465Z/run_manifest.json",
+    "outputs/logs/reliability/refined-full-graph-oracle-20261028T011322589785Z/run_manifest.json"
+  ],
+  "formal_fitted_MP_completed": false,
+  "production_estimator": null
+}

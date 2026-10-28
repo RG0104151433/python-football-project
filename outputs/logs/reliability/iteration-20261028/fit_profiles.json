@@ -1,0 +1,44 @@
+{
+  "actual_football_Y_fitted": false,
+  "confidence_set": false,
+  "constraints": "Weights simplex and tau bounds retained; inactive tau flatness is not evidence of an unidentified ACTIVE parameter.",
+  "cpu_seconds": 2.90625,
+  "diagnostics": [
+    {
+      "inactive_common_tau": true,
+      "inactive_team_tau": false,
+      "optimizer_success_is_not_identification": true,
+      "projected_gradient_inf": 1.990281162100871e-08,
+      "satisfies_mean_objective_tolerance_1e_minus6": true,
+      "scenario": "C00"
+    },
+    {
+      "inactive_common_tau": true,
+      "inactive_team_tau": false,
+      "optimizer_success_is_not_identification": true,
+      "projected_gradient_inf": 2.4700559569934555e-08,
+      "satisfies_mean_objective_tolerance_1e_minus6": true,
+      "scenario": "C05"
+    },
+    {
+      "inactive_common_tau": false,
+      "inactive_team_tau": false,
+      "optimizer_success_is_not_identification": true,
+      "projected_gradient_inf": 1.352869981041671e-07,
+      "satisfies_mean_objective_tolerance_1e_minus6": true,
+      "scenario": "C09"
+    },
+    {
+      "inactive_common_tau": true,
+      "inactive_team_tau": false,
+      "optimizer_success_is_not_identification": true,
+      "projected_gradient_inf": 3.728706232664081e-10,
+      "satisfies_mean_objective_tolerance_1e_minus6": true,
+      "scenario": "C10"
+    }
+  ],
+  "formal_model_approval": false,
+  "profile_rows": 36,
+  "script_sha256": "555417d8217011200c7c4fa88bdbbe6ebe16d702aec78e91947e6677fba1551d",
+  "source": "outputs/logs/reliability/refined-full-pilot-20261028T010917282465Z"
+}

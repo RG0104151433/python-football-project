@@ -1,0 +1,53 @@
+{
+  "actual_model_fit": false,
+  "code_and_config": {
+    "config/reliability_development_v2.json": "2a4248496bf79493d3a186867520909d568ac8e3be69decdb3945b142c2d5da5",
+    "config/reliability_validation_v1.json": "26648b8c81c9311c71f9da0a0be9d9e3e3a8419b226e6e0b516e8a14d0b92e36",
+    "scripts/validate_reliability.py": "92d13f4b016e74be07fe02c57cd51ad30b90481a1110734bd910362cf24d6eeb",
+    "src/reliability/experiment.py": "cd2f105a4a058c3fd8c7f8299c164f92dc69effbd9a7a5fd4e9ccff4dc466492",
+    "src/reliability/models.py": "bff31c3c9abc32e56ccae6c69a15a357373c775d9a27f097acd731289638a15d"
+  },
+  "code_state": "uncommitted content hashes; no commit created",
+  "environment": {
+    "numpy": "2.5.4",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "python": "3.14.8",
+    "scipy": "1.18.1"
+  },
+  "finished_utc": "2026-10-28T00:54:20.404894+00:00",
+  "formal_football_inference": false,
+  "human_review": "not_performed",
+  "outputs": {
+    "outputs/logs/reliability/methods-small-baseline-20261028T005405143223Z/association_pair_indices.csv": "7e0a7e16a817193bede46f8cb58f51aff2ce1cf2c8f98d6b7b387e069d48d34b",
+    "outputs/logs/reliability/methods-small-baseline-20261028T005405143223Z/design_binding.json": "efa82530f0281abdf7bff98dbf617ee4427f964100fa5fe3f2e8673792b268cf",
+    "outputs/logs/reliability/methods-small-baseline-20261028T005405143223Z/metrics.csv": "0449b65998e70a9f26e0d169c0577a03258c6ac519d115d5433fb343c6383b35",
+    "outputs/logs/reliability/methods-small-baseline-20261028T005405143223Z/pair_selection.json": "16e5a45d56d768450f473323eaa0b090155ead3dc261d24d5c45c2b4c4902266",
+    "outputs/logs/reliability/methods-small-baseline-20261028T005405143223Z/replication_status.csv": "b8cdc0eb50452304354cf5fef583a7929929169fb74532b7724a6fb368a9c5a7",
+    "outputs/logs/reliability/methods-small-baseline-20261028T005405143223Z/replications.jsonl": "0539e938ee605881a5467b1ac54541733fdf0b7ae423ebe2f020125f37869941"
+  },
+  "production_estimator": null,
+  "schema_version": "reliability-method-run-v1",
+  "stage": "small-baseline",
+  "started_utc": "2026-10-28T00:54:05.144058+00:00",
+  "status": "completed_development_not_acceptance",
+  "summary": {
+    "MP_CPU_seconds": 14.9375,
+    "MP_attempted": 54,
+    "MP_mean_CPU_seconds": 0.27662037037037035,
+    "MP_stopped_budget_or_projection": false,
+    "attempted_outer": 54,
+    "cpu_seconds": 15.140625,
+    "empirical_acceptance": false,
+    "formal_replication_counts_completed": false,
+    "inner_B": 199,
+    "margin_cell_ridge": 0.0,
+    "n": 80,
+    "nominal_outer_per_scenario": 3,
+    "pair_selection_CPU_seconds": 0.0,
+    "real_outcomes_fitted": false,
+    "scenarios": 18,
+    "stopped_total_budget": false,
+    "targets": 6,
+    "unsupported": 0
+  }
+}
