@@ -1,0 +1,6 @@
+{
+  "checks": 10124,
+  "failed": [],
+  "passed": true,
+  "scope": "independent arithmetic/identity/time checks, not model validity or independent human review"
+}

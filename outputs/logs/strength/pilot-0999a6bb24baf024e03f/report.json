@@ -1,0 +1,145 @@
+{
+  "empty_tables": [],
+  "failed_runs": 0,
+  "next": "Resolve recorded numerical/scope failures; no automatic full1980-2024 scoring or joint fit",
+  "numerical_acceptance": false,
+  "production_ready": false,
+  "protocol_fingerprint": "7f2fb10ddb815d196bc5aac9f93966c358251bb6d69e4dde3de9312567c3d851",
+  "real_pilot": {
+    "checkpoint_scope": "six-team-only development replay; cannot initialize production ratings",
+    "development_games": 21,
+    "no_post1980_results_used": true,
+    "numerically_best_pilot_row": {
+      "accuracy": 0.42857142857142855,
+      "brier": 0.598646071903448,
+      "count": 28,
+      "log_loss": 0.9948796899225083,
+      "model": "both_friendly_low",
+      "period": "selection_validation",
+      "start": 1960
+    },
+    "production_model_selected": false,
+    "selection_limits": "small restricted population; beam/EP checks, hyperparameter uncertainty and global predictive acceptance not complete",
+    "teams": [
+      "Argentina",
+      "Brazil",
+      "England",
+      "France",
+      "Italy",
+      "Spain"
+    ],
+    "validation_games": 28,
+    "validation_match_sets_equal": true,
+    "within_set_games": 133
+  },
+  "reference": {
+    "cases": [
+      {
+        "cov_max_error": 0.0009263548761922619,
+        "log_evidence_error": 0.00022737346454904106,
+        "mean_max_error": 0.0006584855100479903,
+        "next_gaussian_projection_probability_error": 0.00033344979644922557,
+        "outcomes": [
+          0,
+          0
+        ],
+        "reference_refinement_error": 5.291486360192721e-09
+      },
+      {
+        "cov_max_error": 0.0010271028523720638,
+        "log_evidence_error": 0.00022464461199289687,
+        "mean_max_error": 0.00029142426151318457,
+        "next_gaussian_projection_probability_error": 3.7770173678564056e-05,
+        "outcomes": [
+          0,
+          1
+        ],
+        "reference_refinement_error": 1.4009106985568565e-08
+      },
+      {
+        "cov_max_error": 0.0002091572947367365,
+        "log_evidence_error": 4.483466572935413e-05,
+        "mean_max_error": 0.0003106731393314188,
+        "next_gaussian_projection_probability_error": 4.475093304878719e-05,
+        "outcomes": [
+          0,
+          2
+        ],
+        "reference_refinement_error": 3.589966990347193e-09
+      },
+      {
+        "cov_max_error": 0.00011205127901536827,
+        "log_evidence_error": 9.676085371168597e-06,
+        "mean_max_error": 0.00036586746217999455,
+        "next_gaussian_projection_probability_error": 0.0001563856728740709,
+        "outcomes": [
+          1,
+          0
+        ],
+        "reference_refinement_error": 2.268265941740566e-08
+      },
+      {
+        "cov_max_error": 0.0006167413478294081,
+        "log_evidence_error": 0.00010419639328640429,
+        "mean_max_error": 1.2537773057614598e-16,
+        "next_gaussian_projection_probability_error": 2.631933798857844e-05,
+        "outcomes": [
+          1,
+          1
+        ],
+        "reference_refinement_error": 7.223507059173073e-08
+      },
+      {
+        "cov_max_error": 0.00011205127901554174,
+        "log_evidence_error": 9.676085371168597e-06,
+        "mean_max_error": 0.0003658674621800223,
+        "next_gaussian_projection_probability_error": 0.0001607250632593149,
+        "outcomes": [
+          1,
+          2
+        ],
+        "reference_refinement_error": 2.2682659084338752e-08
+      },
+      {
+        "cov_max_error": 0.00020915729473658384,
+        "log_evidence_error": 4.483466572957617e-05,
+        "mean_max_error": 0.00031067313933108576,
+        "next_gaussian_projection_probability_error": 3.995448454668926e-05,
+        "outcomes": [
+          2,
+          0
+        ],
+        "reference_refinement_error": 3.5899668793248907e-09
+      },
+      {
+        "cov_max_error": 0.0010271028523718417,
+        "log_evidence_error": 0.00022464461199289687,
+        "mean_max_error": 0.00029142426151312906,
+        "next_gaussian_projection_probability_error": 1.3162023772439468e-05,
+        "outcomes": [
+          2,
+          1
+        ],
+        "reference_refinement_error": 1.4009107318635472e-08
+      },
+      {
+        "cov_max_error": 0.0009263548761929401,
+        "log_evidence_error": 0.00022737346454881902,
+        "mean_max_error": 0.0006584855100478793,
+        "next_gaussian_projection_probability_error": 0.00027534183578425964,
+        "outcomes": [
+          2,
+          2
+        ],
+        "reference_refinement_error": 5.291485694058906e-09
+      }
+    ],
+    "gate": 0.01,
+    "limits": "two-game Gaussian-prior cases only; no global posterior error bound",
+    "maximum_probability_error": 0.00033344979644922557,
+    "passed": true
+  },
+  "simulation_completed_runs": 192,
+  "stage1_learning": "outputs/logs/strength/learning-b2889411cc93b44f88b6",
+  "status": "pilot_completed_no_production_acceptance"
+}

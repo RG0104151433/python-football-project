@@ -2193,17 +2193,17 @@
   },
   "question_5": {
     "additional_gate": "User accepted pre1980 warmup; determine eligible used history and visible entity boundaries; no new blanket permission or reopening117 required",
-    "status": "framework_specified_two_sided_persistent_change_proposed_math_checked_not_implemented",
+    "status": "stage2_first_four_pilot_delivered_numerical_gate_failed_no_full_rating",
     "title": "赛前实力评价与调整",
     "previous_question_number": 3,
     "decision_log_id": "R20261026-01",
-    "latest_decision_log_id": "R20261029-01",
+    "latest_decision_log_id": "R20261029-04",
     "goal_discussion": {
-      "status": "basic_distribution_prediction_supported_by_user_complete_extended_framework_proposed",
+      "status": "core_goal_confirmed_frozen_small_pilot_executed_global_acceptance_pending",
       "document": "研究/05_赛前实力/README.md",
       "central_question": "将基于赛前历史的双方实力作为正式因素，与年代、赛事、地域共同分析主队表现；考察实力关系、计入实力后的组差及可解释的主场信号。",
       "strength_role": "Explicit pre-match explanatory input in joint outcome analysis, not solely a matching or filtering criterion; rating itself requires validation",
-      "rating_implemented": false,
+      "rating_implemented": true,
       "analysis_run": false,
       "final_home_advantage_metric_selected": false,
       "new_parameters_selected": false,
@@ -2247,9 +2247,10 @@
         "user_requested_accuracy": true,
         "probability_scores_and_calibration": "Direction accepted by user in R20261028-10; exact metric priority, thresholds and split dates not finalized",
         "target_classification": "WDL versus binary-home-win not finalized",
-        "no_test_period_retuning": true
+        "no_test_period_retuning": true,
+        "pilot_target": "three_class_WDL_with_home_win_probability"
       },
-      "pre1980_warmup": "Direction accepted by user in R20261028-10; actual start, eligible history and boundary handling not finalized or run",
+      "pre1980_warmup": "Conditional learning ledger and six-team-only1950/1960 replay done; no global1979 initialization accepted",
       "method_checklist": [
         "Elo baseline",
         "Glicko",
@@ -2282,7 +2283,7 @@
         "math_check_source": "outputs/logs/strength/architecture-20261028/math_check_source.js",
         "math_checks_are_football_experiment": false,
         "solver_validated": false,
-        "football_data_used": false,
+        "football_data_used": true,
         "main_rating_implementation": false,
         "bilateral_updates": "One match contributes once to both teams; common base strength across home/away; no team-specific away coefficient in first model",
         "persistent_transition": "Zero-drift diffusion + compound-Poisson Gaussian level increments; symmetric rises/falls, calendar-time prior",
@@ -2292,8 +2293,129 @@
         "new_math_check_source": "outputs/logs/strength/framework-20261028/framework_math_source.js",
         "guaranteed_few_match_detection": false,
         "parameters_selected": false,
-        "change_detection_validation": "False alarms/delay/amplitude require known-truth simulations including misspecification; real outcomes alone do not label true strength shifts"
-      }
+        "change_detection_validation": "False alarms/delay/amplitude require known-truth simulations including misspecification; real outcomes alone do not label true strength shifts",
+        "nonlinearity_clarified": true,
+        "branch_meaning": "Persistent strength-history hypotheses; each branch predicts all three outcomes",
+        "minimal_rating_implementation": true,
+        "solver_validation_status": "single_match_and_small_batch_checks_pass; long_history_beam_stability_failed"
+      },
+      "predict_then_learn": {
+        "user_confirmed": true,
+        "every_eligible_learning_match_has_prediction": true,
+        "same_date_pre_day_predictions": true,
+        "all_prediction_records_are_final_test": false,
+        "development_validation_test_roles_required": true,
+        "no_rewrite_of_prior_predictions": true,
+        "implementation": "pilot_pre_day_forecasts_and_joint_day_updates_saved"
+      },
+      "learning_scope_proposal": {
+        "user_suggested_start": 1892,
+        "user_suggested_prewar_downweighting": true,
+        "assistant_proposed_default_start": 1950,
+        "alternative_starts": [
+          1892,
+          1872
+        ],
+        "start_year_selected": false,
+        "early_era_weight_selected": false,
+        "additional_era_weight_in_main_model": false,
+        "raw_1950_1979_rows": 8760,
+        "eligible_learning_rows_not_determined": false,
+        "inventory": "outputs/logs/strength/planning-20261029/learning_history_inventory.json",
+        "protocol_document": "研究/05_赛前实力/赛前实力学习与第二环节推进计划.md",
+        "initialization_check_starts_proposed": [
+          1950,
+          1960
+        ],
+        "extended_starts_population_condition": "1892/1872 require a separately defined early representative-team scope; FIFA founded1904, current member-at-date rule cannot label pre-founding matches eligible",
+        "suggested_partitions": {
+          "initial_accumulation": "1950-1969",
+          "development": "1970-1974",
+          "selection_validation": "1975-1979",
+          "checkpoint": "1979-12-31",
+          "status": "adopted_for_pilot; execution_only_six_team_subset_not_global_initialization"
+        },
+        "separate_learning_ledger_required": true,
+        "original_117_acceptance_reopened": false,
+        "post1980_holdout_dates_frozen": false,
+        "learning_scope_status": "38919_conditional_eligibility_rows; not_independently_verified_full_history",
+        "user_approved_direction": true
+      },
+      "parameter_status": {
+        "main_families": [
+          "q",
+          "lambda",
+          "tau_J",
+          "delta",
+          "alpha",
+          "epsilon"
+        ],
+        "finite_values_selected": true,
+        "estimated_states_not_observed_inputs": true,
+        "home_h_is_learned_state": true,
+        "kappa_is_derived": true,
+        "initialization_settings_separate": true,
+        "numerical_budget_separate": true,
+        "new_main_parameter_added": false,
+        "finite_values_scope": "frozen_small_pilot_candidates_only_not_selected_production_parameters"
+      },
+      "question5_six_stage_progress": {
+        "stage_1": "theme_and_core_goals_complete_output_schema_pending",
+        "stage_2": "first_four_items_initial_pilot_delivered; numerical_acceptance_failed; global_scoring_and_handoff_not_done",
+        "stage_3": "joint_strength_era_tournament_region_direction_only_not_implemented",
+        "stage_4": "comparisons_not_run",
+        "stage_5": "interpretive_results_not_generated",
+        "stage_6": "protocol_and_math_examples_only_no_empirical_acceptance"
+      },
+      "rating_before_joint_analysis": {
+        "status": "recommended_sequence_not_executed",
+        "main_output": "match-level pre-date ratings and probabilities; separate post-date states and resumable checkpoints",
+        "daily_all_team_ranking_required": false,
+        "arbitrary_date_query": "past checkpoint plus calendar propagation; no future interpolation/smoothing",
+        "joint_input": "one-to-one match_id join to current24917; report missingness and common-sample baseline"
+      },
+      "stage2_remaining": [
+        "localize_and_refine_long_path_pruning_or_alternative_joint_approximation",
+        "validate_numerics_and_predictive_quality_on_more_representative_development_data",
+        "freeze_global_selection_and_independent_acceptance_protocol",
+        "full_history_replay_and_global1979_checkpoint_then1980_2024_ratings",
+        "global_rating_acceptance_and_handoff_to_stage3"
+      ],
+      "rating_implementation_scope": "minimal_joint_mixture_pilot_only_no_accepted_global_rating",
+      "stage2_initial_six_item_plan": [
+        "learning_eligibility_ledger_and_coverage",
+        "versioned_finite_candidate_and_evaluation_protocol",
+        "minimal_joint_filter_and_numerical_checks",
+        "simulations_and_pre1980_development_validation",
+        "freeze_replay_checkpoint_then_post1980_stream_and_holdout",
+        "rating_acceptance_and_handoff_to_stage3"
+      ]
+    },
+    "current_pilot": {
+      "document": "研究/05_赛前实力/第二环节_首轮实现与验证.md",
+      "learning": "outputs/logs/strength/learning-b2889411cc93b44f88b6",
+      "pilot": "outputs/logs/strength/pilot-0999a6bb24baf024e03f",
+      "budget": "outputs/logs/strength/budget-b6687cb39711461cf7b0",
+      "review": "outputs/logs/strength/delivery-20261029/review.json",
+      "protocol": "config/strength_pilot.json",
+      "unit_tests_passed": 25,
+      "independent_output_checks_passed": 10124,
+      "handoff_checks_passed": 54,
+      "simulation_runs": 192,
+      "simulation_failed_runs": 0,
+      "real_pilot_matches": 133,
+      "real_validation_matches": 28,
+      "numerical_acceptance": false,
+      "production_ready": false,
+      "production_model_selected": false,
+      "repeat_executions": 2,
+      "core_artifacts_identical": 11,
+      "learning_included": 38919,
+      "pre1980_included": 5581,
+      "accepted_study_preserved": 24917,
+      "pending_extension": 4719,
+      "previously_excluded_preserved": 1138,
+      "human_review": "not_performed"
     }
   },
   "numbering_decision": {

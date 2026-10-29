@@ -1,0 +1,206 @@
+{
+  "identity": {
+    "code": {
+      "src/data_contract.py": "eb29fc528e25670e473bc8f2da4d794222b1f329442ee36a2fe393234188a390",
+      "src/strength/__init__.py": "b48ba25d80e7be21a57179718aa9bec57001088773f91cd7426f65133b1d10ca",
+      "src/strength/experiment.py": "693d463f35767f2ae65f0fd37fd4e1c57b8a2a61bc65c08655ca41a1ac766b74",
+      "src/strength/filter.py": "b38938cf4ba3c8f7609cbb10f59c72a9cd32535171ad5d8f3a97113ad9b5c282",
+      "src/strength/io.py": "ed10515eb8f9c50e57c6c51474c74c52aaa203674bc42d79794d66d149155e73",
+      "src/strength/prepare.py": "2d063fdc23c4ac03995abb5ba388a12b30003a9e241ded02cc0e8d5ee85b9655"
+    },
+    "config": {
+      "admission_events_path": "data/external/team_identity/fifa/20261024-v2/admission_events.json",
+      "clean_path": "data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv",
+      "clean_sha256": "69ba00073970fe011a62f5871c08ace6285d7fe75d5a0d79afdac0ef972de9dc",
+      "decision_log_id": "R20261029-04",
+      "former_names_path": "data/raw/international_results/former_names.csv",
+      "identity_dir": "data/processed/team_identity/identity-reviewed-29d880765c1623764940",
+      "identity_policy": {
+        "additional_review_windows": [
+          {
+            "basis": "existing historical exception; not an independently established succession date",
+            "end": "1990-12-31",
+            "label": "Yemen",
+            "start": "1950-01-01"
+          },
+          {
+            "basis": "conservative administrative-transition review boundary; not an asserted FIFA event",
+            "end": "1976-12-31",
+            "label": "Vietnam",
+            "start": "1950-01-01"
+          },
+          {
+            "basis": "conservative division/reunification boundary; no predecessor inheritance assumed",
+            "end": "1990-12-31",
+            "label": "Germany",
+            "start": "1950-01-01"
+          }
+        ],
+        "continuity": "conditional_after_latest_listed_admission; not_complete_membership_history",
+        "existing_study_acceptance": "retain_all24917; acceptance does not establish rating inheritance",
+        "former_name_intervals": "quarantine_extension_during_interval; split_rating_episode_at_all_interval_boundaries",
+        "version": "rating-eligibility-v1",
+        "year_only_admission": "pending_during_year; latest_affiliation_year_used_conservatively"
+      },
+      "learning_end": "2024-12-31",
+      "learning_start": "1950-01-01",
+      "numerics": {
+        "ep_damping": 0.5,
+        "ep_max_iter": 100,
+        "ep_tolerance": 1e-06,
+        "jump_total_cap": 2,
+        "max_children_per_parent": 256,
+        "max_components": 8,
+        "max_transition_prior_tail": 0.02,
+        "precision_checks": {
+          "larger_components": 16,
+          "larger_jump_cap": 3,
+          "probability_error_gate": 0.01,
+          "quadrature_order": 35
+        },
+        "pruned_weight_warning": 0.1,
+        "psd_tolerance": 1e-08,
+        "rank_tolerance": 1e-12
+      },
+      "periods": {
+        "accumulation_end": "1969-12-31",
+        "development_end": "1974-12-31",
+        "selection_end": "1979-12-31"
+      },
+      "pilot": {
+        "base": {
+          "alpha": 0.65,
+          "delta": 0.3,
+          "epsilon": 0.05,
+          "jump_rate": 0.08,
+          "jump_sd": 1.2,
+          "q": 0.03
+        },
+        "candidates": [
+          {
+            "epsilon": 0.0,
+            "id": "smooth",
+            "jump_rate": 0.0
+          },
+          {
+            "id": "robust",
+            "jump_rate": 0.0
+          },
+          {
+            "epsilon": 0.0,
+            "id": "jump"
+          },
+          {
+            "id": "both"
+          },
+          {
+            "id": "both_q_low",
+            "q": 0.01
+          },
+          {
+            "id": "both_q_high",
+            "q": 0.08
+          },
+          {
+            "delta": 0.2,
+            "id": "both_draw_low"
+          },
+          {
+            "alpha": 0.4,
+            "id": "both_friendly_low"
+          },
+          {
+            "epsilon": 0.12,
+            "id": "both_background_high"
+          },
+          {
+            "id": "both_rate_low",
+            "jump_rate": 0.03
+          },
+          {
+            "id": "both_jump_small",
+            "jump_sd": 0.7
+          }
+        ],
+        "end": "1979-12-31",
+        "initial_home_variance": 0.25,
+        "initial_team_variance": 1.0,
+        "initial_variance_check": [
+          0.5,
+          2.0
+        ],
+        "selection": {
+          "no_friendly_downweight_in_evaluation": true,
+          "primary": "mean_3class_log_loss",
+          "scope": "restricted_six_team_pilot_only; no_production_winner",
+          "secondary": [
+            "accuracy",
+            "brier_sum_over_3_classes",
+            "calibration",
+            "coverage",
+            "cost"
+          ],
+          "tie_action": "prefer_fewer_modules_then_stable_id; descriptive_pilot_only",
+          "tie_log_loss_margin": 0.01
+        },
+        "selection_basis": "predeclared manageable two-region set; only within-set matches, no outcome-based choice; not globally representative",
+        "starts": [
+          1950,
+          1960
+        ],
+        "teams": [
+          "Argentina",
+          "Brazil",
+          "England",
+          "France",
+          "Italy",
+          "Spain"
+        ]
+      },
+      "post1980_independent_acceptance": "not_opened_not_defined_by_this_pilot",
+      "schema_version": "strength-pilot-v1",
+      "simulation": {
+        "change_match": 40,
+        "change_team": "A",
+        "days_between_matches": 14,
+        "detection_mean_drop": 0.5,
+        "limits": "small_development_simulation; noisy estimates; false alarms are operational mean-drop signals, not calibrated change probabilities",
+        "matches_per_replicate": 80,
+        "replicates": 8,
+        "scenarios": [
+          "stable",
+          "isolated",
+          "persistent_drop",
+          "gradual_drop",
+          "home_shift",
+          "logistic_link"
+        ],
+        "seed": 20261029
+      },
+      "status": "frozen_before_first_pilot_not_production_selection"
+    },
+    "environment": {
+      "commit": "de19a56388e5b2c9ba40d1169b54711b71da830b",
+      "execution_code": "working tree; exact source hashes recorded, no commit made",
+      "numpy": "2.5.4",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "python": "3.14.8",
+      "scipy": "1.18.1"
+    },
+    "learning_id": "learning-a352cceeaba9b702d622",
+    "purpose": "pre1980_small_development_no_global_acceptance"
+  },
+  "outputs": {
+    "calibration.csv": "cb74fe28874b67a282b26e46b990d3ad217a8558661153128bd371d388884a6f",
+    "checkpoints.json": "4ea363c8d7896c0efb04a2bdd626eb14d5374730d493828d7cab83e6ec96f953",
+    "daily_diagnostics.csv": "a682669d02b3f655d5b693aee0c1462ec880b96bd6a9299e5465bd8b030d012f",
+    "failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "historical_metrics.csv": "c25502b8b6912589e70282e6f14ba35fa6479f7d0b4fe30e4d09d2a7121e88ad",
+    "pilot_predictions.csv": "8031d13ff51fcb8fb02ea9c0cf36982c60bc5e6982b2303d6cf9319589621275",
+    "report.json": "aba4d6db64fa174672b417d8c937c861f10d0388d97559ae20365f57622884ff",
+    "sensitivity.csv": "89bc8014a1e85fe33810542dca5018cff072c0925116d5033c20a889a530a0d7",
+    "simulation_metrics.csv": "c334e4de8037317b2ed05d40ccf598b2be32ceafe1d04063b0ba6fddc2d3684a",
+    "simulation_trajectories.csv": "c70e16bd1f6ffefc05e6908c72a161414d91c009aba383076262e4c62ced8dbd"
+  },
+  "stage_id": "pilot-a41a495cc63d6120327a"
+}

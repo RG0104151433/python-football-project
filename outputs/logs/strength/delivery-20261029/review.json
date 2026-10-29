@@ -1,0 +1,11 @@
+{
+  "checks": 54,
+  "current_pilot": "outputs/logs/strength/pilot-0999a6bb24baf024e03f",
+  "execution": "Codex (AI); no independent human review; working tree",
+  "failed": [],
+  "independent_output_checks": 10124,
+  "limits": "artifact and reproducibility acceptance only; numerical model acceptance remains false",
+  "passed": true,
+  "repeat_execution_count": 2,
+  "unit_test_source_sha256": "b7717b237e18499f1bee651328227208c508c689693c5dbd80eb317a5728ac4a"
+}

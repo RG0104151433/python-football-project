@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "local_link_checks": 56,
+  "failed": [],
+  "log_ids_unique": true,
+  "config_and_state_parse": true,
+  "current_log_id": "R20261029-04",
+  "production_ready": false
+}

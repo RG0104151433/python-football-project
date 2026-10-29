@@ -628,6 +628,35 @@
       "status": "web_read_only",
       "local_path": null,
       "implemented_in_project": false
+    },
+    {
+      "id": "Q5-P12",
+      "title": "Present Position and Potential Developments: Some Personal Views: Statistical Theory: The Prequential Approach",
+      "authors": "A. P. Dawid",
+      "year": 1984,
+      "doi": "10.2307/2981683",
+      "requested_url": "https://rss.onlinelibrary.wiley.com/doi/10.2307/2981683",
+      "accessed_date": "2026-10-29",
+      "decision_log_id": "R20261029-02",
+      "status": "publisher_abstract_read_only",
+      "local_path": null,
+      "reading_scope": "Original publisher abstract/metadata: sequential probability forecasts. Not full paper or a theorem review.",
+      "project_limits": "Supports predict-before-observe direction, not calibration or iid guarantees for adaptive football ratings.",
+      "implemented_in_project": false
+    },
+    {
+      "id": "Q5-M06",
+      "title": "Paris the capital of world football again as FIFA celebrates 120th birthday",
+      "authors": "FIFA",
+      "requested_url": "https://inside.fifa.com/organisation/news/paris-capital-of-world-football",
+      "publication_date": "2024-05-22",
+      "accessed_date": "2026-10-29",
+      "status": "official_article_text_read_online",
+      "reading_scope": "Article states FIFA founded21 May1904; used only for historical population-scope boundary.",
+      "project_limits": "Does not establish match-level eligibility, complete historical membership, national-team identity continuity or the optimal learning start.",
+      "local_path": null,
+      "decision_log_id": "R20261029-03",
+      "implemented_in_project": false
     }
   ],
   "reading_events": [
@@ -1190,6 +1219,62 @@
       "project_derivations": "Calendar-time compound-Poisson level-increment moments, two-sided update symmetry, conditional path odds/KL identity, within/between covariance and local Gaussian memory interpretation",
       "evidence": "outputs/logs/strength/framework-20261028/framework_math_checks.json",
       "limits": "Seven structural checks and hypothetical single-opponent grid only; not the full multi-team Poisson/EP solver, no football-data validation, no guaranteed3/5-match detection, no source theorem transfer."
+    },
+    {
+      "date": "2026-10-29",
+      "decision_log_id": "R20261029-02",
+      "reader": "Codex (AI)",
+      "topic": "Nonlinear score impact, branch meaning, historical warmup proposal, prequential protocol, parameter categories and actual Q5 progress",
+      "sources": [
+        {
+          "record_id": "Q5-P12",
+          "url": "https://rss.onlinelibrary.wiley.com/doi/10.2307/2981683",
+          "scope": "Publisher abstract/metadata only; no page-range claim."
+        },
+        {
+          "record_id": "FORECAST-M01",
+          "url": "https://otexts.com/fpp3/tscv.html",
+          "scope": "Rolling-origin section/text and indexed section excerpt. Direct URL now redirects to toolbox chapter; current section5.10 checked, no local HTML downloaded."
+        },
+        {
+          "record_id": "Q5-P03",
+          "url": "https://www.microsoft.com/en-us/research/project/trueskill-ranking-system/",
+          "scope": "Rechecked skill belief/performance interpretation."
+        },
+        {
+          "record_id": "Q5-P04",
+          "url": "https://glicko.net/research/glicko.pdf",
+          "scope": "Dynamic rating and variance background revisited."
+        },
+        {
+          "record_id": "Q5-P09",
+          "url": "https://arxiv.org/pdf/0710.3742",
+          "scope": "Run-history hypotheses versus outcome categories and causal filtering revisited; no independent-segment theorem transferred."
+        }
+      ],
+      "local_download_this_event": [],
+      "limits": "Raw CSV date-only inventory and analytic derivative clarifications; no new model experiment, production scoring, historical eligibility audit or chosen parameter values."
+    },
+    {
+      "date": "2026-10-29",
+      "decision_log_id": "R20261029-03",
+      "reader": "Codex (AI)",
+      "topic": "Rating before joint analysis; pre1980 learning and evaluation protocol; correction of pre1904 membership-scope omission",
+      "sources": [
+        {
+          "record_id": "Q5-M06",
+          "url": "https://inside.fifa.com/organisation/news/paris-capital-of-world-football",
+          "scope": "Official article body, founding date21 May1904; no membership list inferred."
+        },
+        {
+          "record_id": "FORECAST-M01",
+          "url": "https://otexts.com/fpp3/tscv.html",
+          "resolved_url": "https://otexts.com/fpp3/toolbox.html",
+          "scope": "Author textbook rolling-origin section5.10; temporal evaluation principle only, not proof of chosen start/splits or filter validity."
+        }
+      ],
+      "local_download_this_event": [],
+      "limits": "Planning and read-only local scope inspection only; no rating production, historical eligibility adjudication or new football experiment."
     }
   ],
   "maintenance_events": [

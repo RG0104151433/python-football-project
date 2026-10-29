@@ -1,0 +1,44 @@
+{
+  "accepted_study_rows_preserved": 24917,
+  "graphs": [
+    {
+      "component_sizes": [
+        110
+      ],
+      "cutoff": "1969-12-31",
+      "entities": 110,
+      "limit": "cumulative connectivity only; not evidence of strong/recent cross-region bridges",
+      "matches": 2697
+    },
+    {
+      "component_sizes": [
+        121
+      ],
+      "cutoff": "1974-12-31",
+      "entities": 121,
+      "limit": "cumulative connectivity only; not evidence of strong/recent cross-region bridges",
+      "matches": 4075
+    },
+    {
+      "component_sizes": [
+        132
+      ],
+      "cutoff": "1979-12-31",
+      "entities": 132,
+      "limit": "cumulative connectivity only; not evidence of strong/recent cross-region bridges",
+      "matches": 5581
+    }
+  ],
+  "included": 38919,
+  "neutral_included": 9685,
+  "no_ratings_generated": true,
+  "pre1980_included": 5581,
+  "scope_qualification": "conditional extension with explicit quarantine; not full independent membership/identity verification",
+  "status_counts": {
+    "included_conditional_extension": 14002,
+    "included_current_study": 24917,
+    "outside_learning_range": 3326,
+    "pending_extension": 5857
+  },
+  "total_clean_rows": 48102
+}

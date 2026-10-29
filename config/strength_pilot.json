@@ -1,0 +1,81 @@
+{
+  "schema_version": "strength-pilot-v1",
+  "decision_log_id": "R20261029-04",
+  "status": "frozen_before_first_pilot_not_production_selection",
+  "clean_path": "data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv",
+  "clean_sha256": "69ba00073970fe011a62f5871c08ace6285d7fe75d5a0d79afdac0ef972de9dc",
+  "identity_dir": "data/processed/team_identity/identity-reviewed-29d880765c1623764940",
+  "former_names_path": "data/raw/international_results/former_names.csv",
+  "admission_events_path": "data/external/team_identity/fifa/20261024-v2/admission_events.json",
+  "learning_start": "1950-01-01",
+  "learning_end": "2024-12-31",
+  "periods": {"accumulation_end": "1969-12-31", "development_end": "1974-12-31", "selection_end": "1979-12-31"},
+  "post1980_independent_acceptance": "not_opened_not_defined_by_this_pilot",
+  "identity_policy": {
+    "version": "rating-eligibility-v1",
+    "year_only_admission": "pending_during_year; latest_affiliation_year_used_conservatively",
+    "continuity": "conditional_after_latest_listed_admission; not_complete_membership_history",
+    "former_name_intervals": "quarantine_extension_during_interval; split_rating_episode_at_all_interval_boundaries",
+    "additional_review_windows": [
+      {"label": "Yemen", "start": "1950-01-01", "end": "1990-12-31", "basis": "existing historical exception; not an independently established succession date"},
+      {"label": "Vietnam", "start": "1950-01-01", "end": "1976-12-31", "basis": "conservative administrative-transition review boundary; not an asserted FIFA event"},
+      {"label": "Germany", "start": "1950-01-01", "end": "1990-12-31", "basis": "conservative division/reunification boundary; no predecessor inheritance assumed"}
+    ],
+    "existing_study_acceptance": "retain_all24917; acceptance does not establish rating inheritance"
+  },
+  "pilot": {
+    "teams": ["Argentina", "Brazil", "England", "France", "Italy", "Spain"],
+    "selection_basis": "predeclared manageable two-region set; only within-set matches, no outcome-based choice; not globally representative",
+    "starts": [1950, 1960],
+    "end": "1979-12-31",
+    "initial_team_variance": 1.0,
+    "initial_home_variance": 0.25,
+    "base": {"q": 0.03, "jump_rate": 0.08, "jump_sd": 1.2, "delta": 0.3, "alpha": 0.65, "epsilon": 0.05},
+    "candidates": [
+      {"id": "smooth", "epsilon": 0.0, "jump_rate": 0.0},
+      {"id": "robust", "jump_rate": 0.0},
+      {"id": "jump", "epsilon": 0.0},
+      {"id": "both"},
+      {"id": "both_q_low", "q": 0.01},
+      {"id": "both_q_high", "q": 0.08},
+      {"id": "both_draw_low", "delta": 0.2},
+      {"id": "both_friendly_low", "alpha": 0.4},
+      {"id": "both_background_high", "epsilon": 0.12},
+      {"id": "both_rate_low", "jump_rate": 0.03},
+      {"id": "both_jump_small", "jump_sd": 0.7}
+    ],
+    "initial_variance_check": [0.5, 2.0],
+    "selection": {
+      "primary": "mean_3class_log_loss",
+      "secondary": ["accuracy", "brier_sum_over_3_classes", "calibration", "coverage", "cost"],
+      "tie_log_loss_margin": 0.01,
+      "tie_action": "prefer_fewer_modules_then_stable_id; descriptive_pilot_only",
+      "no_friendly_downweight_in_evaluation": true,
+      "scope": "restricted_six_team_pilot_only; no_production_winner"
+    }
+  },
+  "numerics": {
+    "max_components": 8,
+    "jump_total_cap": 2,
+    "max_transition_prior_tail": 0.02,
+    "max_children_per_parent": 256,
+    "ep_max_iter": 100,
+    "ep_tolerance": 0.000001,
+    "ep_damping": 0.5,
+    "psd_tolerance": 0.00000001,
+    "rank_tolerance": 0.000000000001,
+    "pruned_weight_warning": 0.1,
+    "precision_checks": {"larger_components": 16, "larger_jump_cap": 3, "quadrature_order": 35, "probability_error_gate": 0.01}
+  },
+  "simulation": {
+    "seed": 20261029,
+    "replicates": 8,
+    "matches_per_replicate": 80,
+    "days_between_matches": 14,
+    "change_match": 40,
+    "change_team": "A",
+    "detection_mean_drop": 0.5,
+    "scenarios": ["stable", "isolated", "persistent_drop", "gradual_drop", "home_shift", "logistic_link"],
+    "limits": "small_development_simulation; noisy estimates; false alarms are operational mean-drop signals, not calibrated change probabilities"
+  }
+}
