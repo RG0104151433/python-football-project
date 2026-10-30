@@ -1,0 +1,24 @@
+{
+  "compared_files": 14,
+  "directory": "outputs/tables/strength_joint/stage6-preparation-662dd5a756b8c1bf7688",
+  "files_identical": {
+    "baseline_flags.csv.gz": true,
+    "curve_support.csv": true,
+    "data_dictionary.md": true,
+    "readiness.json": true,
+    "reference_membership.csv.gz": true,
+    "reference_scope.csv": true,
+    "scenario_mixtures.csv": true,
+    "score_inputs_baseline.csv.gz": true,
+    "score_inputs_repaired-initialization-146d3bc167c27a4a3466.csv.gz": true,
+    "score_inputs_repaired-initialization-1dc37caeddc61830a0af.csv.gz": true,
+    "score_inputs_repaired-initialization-d1f3771999bd8731b716.csv.gz": true,
+    "score_inputs_weak_jump.csv.gz": true,
+    "source_snapshot.zip": true,
+    "target_registry.csv": true
+  },
+  "manifest_identical": true,
+  "passed": true,
+  "scope": "all registries/references/five marginal input sets/compressed bytes/source archive; no scoring or model refits",
+  "seconds": 69.5708534999867
+}

@@ -1,0 +1,14 @@
+﻿fit_id,variant_id,model_id,estimation_rows,excluded_estimation_rows,log_loss,gradient,multistart_loss_spread,removed_parameter_names,numerical_fit_passed,scope,confidence_interval_admitted
+repaired-initialization-d1f3771999bd8731b716:M3_nested,repaired-initialization-d1f3771999bd8731b716,M3_nested,24917,0,0.5653448491,0.0000000087,0.0000000000,,true,changed score marginals + joint refit; same estimation IDs,false
+repaired-initialization-d1f3771999bd8731b716:M4_type_slope,repaired-initialization-d1f3771999bd8731b716,M4_type_slope,24917,0,0.5642314064,0.0000000082,0.0000000000,,true,changed score marginals + joint refit; same estimation IDs,false
+repaired-initialization-1dc37caeddc61830a0af:M3_nested,repaired-initialization-1dc37caeddc61830a0af,M3_nested,24917,0,0.5665985281,0.0000000064,0.0000000000,,true,changed score marginals + joint refit; same estimation IDs,false
+repaired-initialization-1dc37caeddc61830a0af:M4_type_slope,repaired-initialization-1dc37caeddc61830a0af,M4_type_slope,24917,0,0.5653584747,0.0000000058,0.0000000000,,true,changed score marginals + joint refit; same estimation IDs,false
+repaired-initialization-146d3bc167c27a4a3466:M3_nested,repaired-initialization-146d3bc167c27a4a3466,M3_nested,24917,0,0.5646793129,0.0000000100,0.0000000000,,true,changed score marginals + joint refit; same estimation IDs,false
+repaired-initialization-146d3bc167c27a4a3466:M4_type_slope,repaired-initialization-146d3bc167c27a4a3466,M4_type_slope,24917,0,0.5636122122,0.0000000094,0.0000000000,,true,changed score marginals + joint refit; same estimation IDs,false
+weak_jump:M3_nested,weak_jump,M3_nested,24917,0,0.5596842468,0.0000000076,0.0000000000,,true,changed score marginals + joint refit; same estimation IDs,false
+weak_jump:M4_type_slope,weak_jump,M4_type_slope,24917,0,0.5587967741,0.0000000114,0.0000000000,,true,changed score marginals + joint refit; same estimation IDs,false
+exclude_cold_start:M3_nested,exclude_cold_start,M3_nested,24558,359,0.5634940912,0.0000000050,0.0000000000,,true,joint estimation rows only; rating histories unchanged,false
+exclude_previously_disconnected:M3_nested,exclude_previously_disconnected,M3_nested,24837,80,0.5647327284,0.0000000165,0.0000000000,,true,joint estimation rows only; rating histories unchanged,false
+exclude_unknown_geography:M3_nested,exclude_unknown_geography,M3_nested,24818,99,0.5653431739,0.0000000070,0.0000000000,home:region:unknown;away:region:unknown,true,joint estimation rows only; rating histories unchanged,false
+exclude_history_or_geography_flags:M3_nested,exclude_history_or_geography_flags,M3_nested,24470,447,0.5636386092,0.0000000103,0.0000000000,home:region:unknown;away:region:unknown,true,joint estimation rows only; rating histories unchanged,false
+exclude_initialization_mean_sensitive:M3_nested,exclude_initialization_mean_sensitive,M3_nested,22012,2905,0.5640028308,0.0000000138,0.0000000000,,true,joint estimation rows only; rating histories unchanged,false

@@ -1,0 +1,10 @@
+{
+  "checks": 325766,
+  "directory": "outputs/tables/strength_joint/stage6-sensitivity-02dcd19cea534b1b944c",
+  "failed": [],
+  "fixed_population_and_estimable_subreference_audited": true,
+  "formal_inference_validated": false,
+  "human_review": false,
+  "independent_probability_kernel": true,
+  "passed": true
+}

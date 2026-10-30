@@ -1,0 +1,100 @@
+{
+  "identity": {
+    "code": {
+      "config/strength_stage6_preparation.json": "a40e666cdc11f40b5fca1bc1843ffa66fb4d7efce3d1e452d22a85e2371cf259",
+      "scripts/audit_strength_stage6_preparation.py": "c312c4fe35cb7efca21b3e5048905a6b9b888a7edba783b01dcff1952681fd80",
+      "scripts/prepare_strength_stage6.py": "bf0b05099bd4b01cbccb83ebbcda0c096d50e39b391ca76c05d3c68f06d39297",
+      "src/data_contract.py": "75d7c37a5d09867656098ab4fa3387721d8e1028dfde54d28c372d50f2a7d101",
+      "src/strength/global_run.py": "f872b362af6cb95ee9561f9c6dd5fa59d9b25a0d744d7d9b7bf56653f47755a9",
+      "src/strength/io.py": "f2befbd09af6d7dcf17b75dd790881a210e410d7c8f5f45a2bda1a66b3332104",
+      "src/strength_joint/__init__.py": "80cd9d9fb898f60d696323f057245dca927670bc20bb9ad14f3fdbb933080f43",
+      "src/strength_joint/contract.py": "8f47c10ac639ca2ef7c0c867cca84f36d6cd0d0dd54c41774f3b663f85df2abb",
+      "src/strength_joint/contrasts.py": "5c816886d9679781d932f79da4d5771a3ffab4455c92c4b36d1cdf68f39eb0b5",
+      "src/strength_joint/design.py": "0826815f44370435908fd74c36d98bda1cdcf70699e20ec1dc89626a67f2717d",
+      "src/strength_joint/model.py": "7c1410a84e7f224877892568a6359edb0ca1c766da5041ac1d14cf0e71698dc9",
+      "src/strength_joint/reporting.py": "73d4ea64181321b1d77fd22dded426fea507ad99cba0afb1dbd2ca49a7d16852",
+      "src/strength_joint/validation.py": "eadd1601797f7429fc8189d216d23015031004d0846453745507c255fc75eac7",
+      "src/strength_stage6_prepare.py": "1568d681aca80ec17c24ab244272301eea661a419b1320947fcb7c622b4b1a3d",
+      "tests/test_strength_stage6_prepare.py": "f171bb5f9a8f6c39ffb79ebee0aa9d7538cc62922d5e368185ad3c72df56bf20"
+    },
+    "environment": {
+      "commit": "02d71d148cbaf4b1318f8d24e59dd69d1c99e42a",
+      "execution_code": "working tree; exact source hashes recorded, no commit made",
+      "numpy": "2.5.4",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "python": "3.14.8",
+      "scipy": "1.18.1"
+    },
+    "inputs": {
+      "config/regions_study.json": "f29e8081a58c941ea6d51809ec69aacb9d5ad8c15a343866980afcf407d68c66",
+      "config/strength_global_v3.json": "a524b57c774eb61cbc677ee8edc2057a0c9cc3b8738a6fbcbcf67609d5555938",
+      "config/strength_joint.json": "ce2290aea22277750c953afb912b6837b27815c4807b7918385914d8aafb9182",
+      "config/strength_stage6_preparation.json": "a40e666cdc11f40b5fca1bc1843ffa66fb4d7efce3d1e452d22a85e2371cf259",
+      "data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8/manifest.json": "5b49b98027d3106fb44cdc0fb57e570858ec66ddcf007a1b41adb595e048bebd",
+      "data/processed/strength/jump-ratings-2011739ec6714deca2e6/manifest.json": "1c3f5dc23c5dc1237f12240dd75510431e890e0d910e71d9c9fd9d022bae624c",
+      "data/processed/strength/jump-ratings-451ecade0bf84ee0bfb6/manifest.json": "7d430275d6535e25cd7044888921aae3086dcc4755fec2f716016491ad76ba74",
+      "outputs/logs/strength/learning-b2889411cc93b44f88b6/learning_matches.csv": "51c18e65018fc0870c3c0cb1fc8da6fcee040654462e7bbc35df2af7bc9ab3f8",
+      "outputs/logs/strength/learning-b2889411cc93b44f88b6/manifest.json": "f4eb9f37a15263af844664f8c936fb903a84610539bf0b6a88ce74fab27507c8",
+      "outputs/logs/strength/repaired-initialization-146d3bc167c27a4a3466/manifest.json": "71355d37d1487bfd136c95245d891ad2df1058d207dc4c48e4676311b779488e",
+      "outputs/logs/strength/repaired-initialization-1dc37caeddc61830a0af/manifest.json": "5a689ae65519126be78cb46e5d0e06a2ac6d343bf27b3d354344a5356323cdf4",
+      "outputs/logs/strength/repaired-initialization-d1f3771999bd8731b716/manifest.json": "afa1cd6fc758a09dccfce6280ac037314a3502cdda5a9e9446f108a6698af50e",
+      "outputs/tables/regions/regions-0a1c61664a722e6c641f/analysis_matches.csv": "8b0ddb7f2e4d5eb2199c8c2b477e7873b1e46bc12421c4dddf5ac8809f91ca22",
+      "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/target_catalogue.csv": "567610a60f2498f335c1553ba5dd3d1567a95f29c7a9d50f2dcead09ac0d2d79",
+      "outputs/tables/strength_joint/joint-analysis-55371e4d4aa3d2060190/manifest.json": "32aa9dd43fef66e2102d580700a279c3abb08a6b2ca832fdaffccf45b2557fff",
+      "outputs/tables/strength_joint/strength-interpretation-35a760de1ec558401703/manifest.json": "255d311a9841b3a13be7dbaa687e291e43f2ca91837e8b759755d8839326a527"
+    },
+    "protocol": {
+      "analysis": "outputs/tables/strength_joint/joint-analysis-55371e4d4aa3d2060190",
+      "analysis_manifest_sha256": "32aa9dd43fef66e2102d580700a279c3abb08a6b2ca832fdaffccf45b2557fff",
+      "compression": "gzip mtime=0; underlying CSV UTF-8 BOM LF fixed10decimals",
+      "confidence_level": null,
+      "coverage_gate": null,
+      "decision_log_id": "R20261030-09",
+      "error_control_method": null,
+      "families": {
+        "F_AUX_REFERENCE": "32 targets x restricted-reference level and paired change =64; different target, not independent confirmation",
+        "F_DESCRIPTIVE_FIT": "eight previously defined in-sample fit comparisons; not inferential tests",
+        "F_EXPLORATORY_RELATIONS": "one log-slope difference, three tournament probability differences, two differences across means, one25-point grid =7",
+        "F_EXTRAPOLATION_ONLY": "5 originally missing targets x full-reference level and change =10; cannot restore original stratified support",
+        "F_PRIMARY_CONDITIONAL": "27 original supported targets x full-reference level and paired change =54; joint error control to be designed"
+      },
+      "historical_results_already_inspected": true,
+      "human_review_performed": false,
+      "interpretation": "outputs/tables/strength_joint/strength-interpretation-35a760de1ec558401703",
+      "interpretation_manifest_sha256": "255d311a9841b3a13be7dbaa687e291e43f2ca91837e8b759755d8839326a527",
+      "interval_simulations": false,
+      "joint_config": "config/strength_joint.json",
+      "joint_refits": false,
+      "new_scoring_runs": false,
+      "reconstruction_mean_gate": 2e-09,
+      "reconstruction_variance_gate": 2e-08,
+      "reference_inference_scope": "conditional_on_registered_empirical_reference; no fixed training-score-path assumption; additional reference-estimation uncertainty unresolved",
+      "registry_policy": "Preserve all32 CORE; original supported27 full-reference levels/changes form primary conditional family, original missing5 full targets remain extrapolation-only; all32 restricted targets auxiliary; relations exploratory after historical inspection",
+      "relation_mean_points": [
+        -2,
+        0,
+        2
+      ],
+      "relation_model": "M4_type_slope",
+      "schema_version": "strength-stage6-preparation-v1",
+      "sensitivity_reference_rule": "freeze baseline population membership and weights; variant-specific score input has separate identity; do not silently recompute overlap subset"
+    }
+  },
+  "outputs": {
+    "baseline_flags.csv.gz": "5b3c8e8ea322ae85c10d18ea54a29d238f68822d260d8d13f932bdffe34d4d55",
+    "curve_support.csv": "bbdb94aac8b773fa961b6bfd1e60443d352018b9bb61cc440b36ea66c026eca6",
+    "data_dictionary.md": "611f04153214fbe1f581810fa062cc9070f5b969eb91ec59a6d5130cdd2de489",
+    "readiness.json": "455e6b9a51fed33c3597e6495e452a498ccef62b5bfbb5a0c3a6f2c43e9c2aec",
+    "reference_membership.csv.gz": "4b6f50db1986b0d6728eb1a78543b960928cb672675990fc1eb678b6684754ad",
+    "reference_scope.csv": "bbbed33dedbeb9ffe4093ebf2b6692f9e79423010da0a3d6ef3313c7d7532ad0",
+    "scenario_mixtures.csv": "8df381dace63fcc8d00ca26ba661531968c66a1adf17614997314b80f5cd1e73",
+    "score_inputs_baseline.csv.gz": "03f194f808a12379f88bb66be3c1de62993d0327e30ca0e73a5d8f091077792f",
+    "score_inputs_repaired-initialization-146d3bc167c27a4a3466.csv.gz": "86c09d01e8f4a5cc0f6a1de2ae15066531a30fad1ebb06899a8ad1fb513f035b",
+    "score_inputs_repaired-initialization-1dc37caeddc61830a0af.csv.gz": "7aff2e470a6be59dd69363caf6b142481df9aff199b3ff90f4db996c02fa35f3",
+    "score_inputs_repaired-initialization-d1f3771999bd8731b716.csv.gz": "ba7d779a605db8a7090235b34f1b31d1421a9d240f2bc0f6718d636d746e8fbd",
+    "score_inputs_weak_jump.csv.gz": "a6171a55cc11a0f245fcee672fe9094b4f49a6e2e9b42ad97d43b7fe70f99985",
+    "source_snapshot.zip": "460b8a5bc58dc2c5d076ae05778d4fbad1fcc1f4672df6159fb5752a33b513d3",
+    "target_registry.csv": "b7c16e68dbd20be2595cdfd394a28a389d1f1dfbf7d5e4d0ca0322363354556f"
+  },
+  "stage_id": "stage6-preparation-662dd5a756b8c1bf7688"
+}

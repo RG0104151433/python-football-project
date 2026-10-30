@@ -1,0 +1,10 @@
+{
+  "schema_version": "strength-stage6-paired-v1",
+  "decision_log_id": "R20261030-13",
+  "sensitivity": "outputs/tables/strength_joint/stage6-sensitivity-02dcd19cea534b1b944c",
+  "sensitivity_manifest_sha256": "642d0d6c42761c5046e12294ececefe6ac578c3b4433e4e8c7bb0fddf165f863",
+  "additional_fits": "M0_nested for the same five estimation-row subsets; existing unchanged M0 for score-only variants",
+  "paired_scope": "all nine M3 variants x64 references; use the exact same common estimable reference as its M3 counterpart; original unidentified target remains empty",
+  "intervals": false,
+  "baseline_replaced": false
+}

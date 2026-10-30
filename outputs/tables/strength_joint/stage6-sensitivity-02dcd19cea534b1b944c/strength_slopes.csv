@@ -1,0 +1,14 @@
+﻿fit_id,model_id,slope_other,slope_friendly,log_slope_difference,formal_test_performed
+repaired-initialization-d1f3771999bd8731b716:M3_nested,M3_nested,0.5870603903,,,false
+repaired-initialization-d1f3771999bd8731b716:M4_type_slope,M4_type_slope,0.6439687852,0.4772372930,-0.2996364180,false
+repaired-initialization-1dc37caeddc61830a0af:M3_nested,M3_nested,0.5874947744,,,false
+repaired-initialization-1dc37caeddc61830a0af:M4_type_slope,M4_type_slope,0.6483361768,0.4720780219,-0.3172650805,false
+repaired-initialization-146d3bc167c27a4a3466:M3_nested,M3_nested,0.5805702314,,,false
+repaired-initialization-146d3bc167c27a4a3466:M4_type_slope,M4_type_slope,0.6353265628,0.4740927221,-0.2927362200,false
+weak_jump:M3_nested,M3_nested,0.6893224180,,,false
+weak_jump:M4_type_slope,M4_type_slope,0.7436401544,0.5801729826,-0.2482309495,false
+exclude_cold_start:M3_nested,M3_nested,0.5940409606,,,false
+exclude_previously_disconnected:M3_nested,M3_nested,0.5886438494,,,false
+exclude_unknown_geography:M3_nested,M3_nested,0.5872075097,,,false
+exclude_history_or_geography_flags:M3_nested,M3_nested,0.5942003765,,,false
+exclude_initialization_mean_sensitive:M3_nested,M3_nested,0.5898864446,,,false

@@ -1,0 +1,6 @@
+﻿variant_id,estimation_rows,log_loss,gradient,curvature_min,numerical_fit_passed
+exclude_cold_start,24558,0.6667741896,0.0000001776,0.0005743687,true
+exclude_previously_disconnected,24837,0.6666639090,0.0000000513,0.0006011079,true
+exclude_unknown_geography,24818,0.6670130240,0.0000000100,0.0024659041,true
+exclude_history_or_geography_flags,24470,0.6671144092,0.0000000076,0.0024579867,true
+exclude_initialization_mean_sensitive,22012,0.6674190803,0.0000000076,0.0004403200,true

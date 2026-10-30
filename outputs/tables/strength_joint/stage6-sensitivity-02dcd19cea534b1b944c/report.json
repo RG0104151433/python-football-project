@@ -1,0 +1,16 @@
+{
+  "actual_human_review": false,
+  "baseline_probability_interface_max_error": 4.999994862586732e-11,
+  "contrast_rows": 832,
+  "formal_inference_selected": false,
+  "intervals_computed": false,
+  "marginal_score_variants": 4,
+  "models": 13,
+  "original_scope_scenarios_not_estimable": 78,
+  "preparation": "outputs/tables/strength_joint/stage6-preparation-662dd5a756b8c1bf7688",
+  "scope": "predeclared marginal and estimation-row sensitivities, not exhaustive model misspecification or full posterior propagation",
+  "score_replay_performed": false,
+  "stage6_complete": false,
+  "step3_analysis_completed": true,
+  "subset_variants": 5
+}

@@ -1,0 +1,13 @@
+{
+  "checks": 471165,
+  "directory": "outputs/tables/strength_joint/stage6-preparation-662dd5a756b8c1bf7688",
+  "failed": [],
+  "human_review": false,
+  "independent_history_checks": 124585,
+  "max_reconstruction_rounding_error": 4.9997117557154525e-11,
+  "no_joint_refits": true,
+  "no_new_score_replay": true,
+  "passed": true,
+  "reference_membership_verified_against_adopted_hashes": true,
+  "statistical_inference_admitted": false
+}

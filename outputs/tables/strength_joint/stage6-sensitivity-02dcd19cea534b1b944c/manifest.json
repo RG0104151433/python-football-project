@@ -1,0 +1,92 @@
+{
+  "identity": {
+    "code": {
+      "config/strength_stage6_sensitivity.json": "979530c1b0def176bfe1bfaa863a478cb37b3f8d2609e7ef9cfdc16ff930c836",
+      "scripts/analyze_strength_stage6_sensitivity.py": "2122ace89c9175ed55075184616f1f4fe0cc95c54181222f470e6a365e5beb97",
+      "scripts/audit_strength_stage6_sensitivity.py": "785c2c3b86b3d46e28cd3fad5ef5301b31b062fc9a3eada2045dde93f6a9b8f7",
+      "src/data_contract.py": "75d7c37a5d09867656098ab4fa3387721d8e1028dfde54d28c372d50f2a7d101",
+      "src/strength/io.py": "f2befbd09af6d7dcf17b75dd790881a210e410d7c8f5f45a2bda1a66b3332104",
+      "src/strength_joint/__init__.py": "80cd9d9fb898f60d696323f057245dca927670bc20bb9ad14f3fdbb933080f43",
+      "src/strength_joint/contract.py": "8f47c10ac639ca2ef7c0c867cca84f36d6cd0d0dd54c41774f3b663f85df2abb",
+      "src/strength_joint/contrasts.py": "5c816886d9679781d932f79da4d5771a3ffab4455c92c4b36d1cdf68f39eb0b5",
+      "src/strength_joint/design.py": "0826815f44370435908fd74c36d98bda1cdcf70699e20ec1dc89626a67f2717d",
+      "src/strength_joint/model.py": "7c1410a84e7f224877892568a6359edb0ca1c766da5041ac1d14cf0e71698dc9",
+      "src/strength_joint/reporting.py": "73d4ea64181321b1d77fd22dded426fea507ad99cba0afb1dbd2ca49a7d16852",
+      "src/strength_joint/validation.py": "eadd1601797f7429fc8189d216d23015031004d0846453745507c255fc75eac7",
+      "src/strength_stage6_sensitivity.py": "b7342d22d4e8391bb3e4c5987f364521fc2bb28be4faa8a9e201ac95cca81090",
+      "tests/test_strength_stage6_sensitivity.py": "9fecd7e6376909ced1ed23150c1275c1217d32d043558619400d468f8eaf49ab"
+    },
+    "environment": {
+      "commit": "02d71d148cbaf4b1318f8d24e59dd69d1c99e42a",
+      "execution_code": "working tree; exact source hashes recorded, no commit made",
+      "numpy": "2.5.4",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "python": "3.14.8",
+      "scipy": "1.18.1"
+    },
+    "inputs": {
+      "config/regions_study.json": "f29e8081a58c941ea6d51809ec69aacb9d5ad8c15a343866980afcf407d68c66",
+      "config/strength_joint.json": "ce2290aea22277750c953afb912b6837b27815c4807b7918385914d8aafb9182",
+      "config/strength_stage6_sensitivity.json": "979530c1b0def176bfe1bfaa863a478cb37b3f8d2609e7ef9cfdc16ff930c836",
+      "data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8/manifest.json": "5b49b98027d3106fb44cdc0fb57e570858ec66ddcf007a1b41adb595e048bebd",
+      "outputs/tables/regions/regions-0a1c61664a722e6c641f/analysis_matches.csv": "8b0ddb7f2e4d5eb2199c8c2b477e7873b1e46bc12421c4dddf5ac8809f91ca22",
+      "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/target_catalogue.csv": "567610a60f2498f335c1553ba5dd3d1567a95f29c7a9d50f2dcead09ac0d2d79",
+      "outputs/tables/strength_joint/stage6-preparation-662dd5a756b8c1bf7688/manifest.json": "582bb0eb05cc43c2ac03971dd9a582c590361bd44cbcfff60f684f2649abbe65"
+    },
+    "protocol": {
+      "baseline_probability_gate": 2e-08,
+      "decision_log_id": "R20261030-11",
+      "formal_inference_method_selected": false,
+      "intervals": false,
+      "mixture_policy": "use registered rational scenario weights; conditionalize only on explicitly registered common reference, never reselect score-overlap intersection",
+      "nonestimable_reference_policy": "original target remains empty; optional common estimable reference gets a NEW ID and explicit changed-target label, with baseline model evaluated on same new reference",
+      "preparation": "outputs/tables/strength_joint/stage6-preparation-662dd5a756b8c1bf7688",
+      "preparation_manifest_sha256": "582bb0eb05cc43c2ac03971dd9a582c590361bd44cbcfff60f684f2649abbe65",
+      "rank_policy": "outcome-free pivoted QR; remove redundant parameters; original reference prediction only if all positive scenario rows lie in estimation row-space",
+      "relation_mean_points": [
+        -2,
+        0,
+        2
+      ],
+      "rowspace_tolerance": 1e-08,
+      "schema_version": "strength-stage6-sensitivity-v1",
+      "score_models": [
+        "M3_nested",
+        "M4_type_slope"
+      ],
+      "score_reference_policy": "same population membership and weights, variant-specific score distributions; separate score-input identity; not a causal decomposition",
+      "score_variants": [
+        "repaired-initialization-d1f3771999bd8731b716",
+        "repaired-initialization-1dc37caeddc61830a0af",
+        "repaired-initialization-146d3bc167c27a4a3466",
+        "weak_jump"
+      ],
+      "scoring_replays": false,
+      "subset_models": [
+        "M3_nested"
+      ],
+      "subset_rule": "only remove rows from joint-model estimation; keep previously learned rating histories and frozen baseline flag definitions",
+      "subset_variants": [
+        "exclude_cold_start",
+        "exclude_previously_disconnected",
+        "exclude_unknown_geography",
+        "exclude_history_or_geography_flags",
+        "exclude_initialization_mean_sensitive"
+      ]
+    }
+  },
+  "outputs": {
+    "contrasts.csv": "6224449e7c545d41e4dbf19213537ffce29832e14ca30c5b2128adfad2cd035c",
+    "data_dictionary.md": "46e2a1c6f33b201e94e7140d4d6dc1088a06bed9bbcf587ef6dd8a4c2a4fc131",
+    "fit_metrics.csv": "b73107d91cccd4c44972e5a30676a4b176867f46bf01708b866bc1d938c2bec7",
+    "fit_predictions.csv.gz": "84b66b6530cea84f6e5e3feeaf7e122e7811dde7f75e78ebb6b9e576e174bd12",
+    "mean_only_vs_full.csv": "6c4623e9c0c61c40ac6500d50689d5832f735812639a7f8b8e8a068c06336794",
+    "models.json": "b53ff1d9f5bce9e88fbe047236141502e986dc92819f510a4f107fc750468420",
+    "new_estimable_reference_members.csv.gz": "c5dbb9d50cd108e365011798ed339f67efd6b2758533aaf7cbe25e4eb9e3a37b",
+    "relation_points.csv": "242126d796b210e961458bd92c95919eb06b22f0d7483eb75365c8316d7ced2c",
+    "report.json": "f7d79111362d41f57793fd049ab5a3c5afdfbc50ad91039b0b73d6247bdad0d0",
+    "source_snapshot.zip": "38e9dc9cb92a7110aa664d67ce7e355588d234ba2e7104e34b64fe3ab7205bd2",
+    "strength_slopes.csv": "c9f47ba92b0ae5ebc194c6f85237654fb9e13feac7fcb3ed7f4433ebd8dd54a7"
+  },
+  "stage_id": "stage6-sensitivity-02dcd19cea534b1b944c"
+}

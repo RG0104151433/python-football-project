@@ -340,7 +340,27 @@
       "error": "HTTP Error 403: Forbidden",
       "download_attempt": "outputs/logs/reliability/method-planning-20261027/source_retrieval.json",
       "purpose": "Simulation design and Monte Carlo uncertainty; not a football dependence model or an accepted estimator",
-      "review_status": "Relevant planning guidance read; not all examples/proofs revalidated"
+      "review_status": "Relevant planning guidance read; not all examples/proofs revalidated",
+      "followup_retrievals": [
+        {
+          "decision_log_id": "R20261030-15",
+          "retrieved_at_utc": "2026-10-30T09:18:27.894134+00:00",
+          "reading_scope": "UCL online published PDF:ADEMP,computational considerations4,performance5 including Monte Carlo error and missing estimates; not all worked examples reproduced",
+          "attempts": [
+            {
+              "url": "https://discovery.ucl.ac.uk/id/eprint/10066118/1/2019%20-%20Morris%20-%20simulation%20studies%20tutorial%20-%20stat%20med.pdf",
+              "version": "UCL published PDF, early pagination1–29",
+              "status": "downloaded",
+              "local_path": "原文/Morris_White_Crowther_2019_simulation_UCL.pdf",
+              "bytes": 1870265,
+              "sha256": "3aec72851ec6dc1e61a8921c4e0fa69b4b7722b73d26a764b423e53d0e6f106d"
+            }
+          ],
+          "prior_failure_retained": true,
+          "not_a_statistical_run": true,
+          "not_committed_or_pushed": true
+        }
+      ]
     },
     {
       "id": "Q4-P09",
@@ -719,6 +739,57 @@
       "reading_scope": "log-probability affine+softmax and regularization; project6-parameter relative-logit restriction, dynamic GH and switching experts are adaptations,not paper guarantees",
       "redistribution_status": "user authorizes original copies; no public push performed",
       "git_policy": "existing original-PDF ignore policy remains; local file is not evidence of uploaded Git content"
+    },
+    {
+      "id": "Q5-P17",
+      "title": "The Dependent Wild Bootstrap",
+      "authors": "Xiaofeng Shao",
+      "version": "2010 JASA 105(489),218–235; DOI10.1198/jasa.2009.tm08744",
+      "requested_url": "https://publish.illinois.edu/xshao/files/2012/11/JASA-DWB.pdf",
+      "retrieved_at_utc": "2026-10-30T07:37:02.376930+00:00",
+      "local_path": "原文/Shao_2010_Dependent_Wild_Bootstrap.pdf",
+      "reading_scope": "Read introduction, dependent multipliers, regular/irregular time conditions and smooth-function scope; not a proof for our adaptive nonstationary rating process.",
+      "decision_log_id": "R20261030-12",
+      "redistribution_status": "not_evaluated",
+      "git_policy": "local_retained; existing_ignore_policy; not_committed_or_pushed",
+      "status": "downloaded",
+      "bytes": 643907,
+      "sha256": "133f712d8c2b708a6897facdde14b465a5c36a5652dab9ea3c7015291534ff9a",
+      "error": null
+    },
+    {
+      "id": "Q5-P18",
+      "title": "Maximum Likelihood and the Bootstrap for Nonlinear Dynamic Models",
+      "authors": "Silvia Goncalves; Halbert White",
+      "version": "CIRANO working paper 2002s-41, April2002; retained working version, not publisher typeset 2004 article",
+      "requested_url": "https://depot.erudit.org/dspace/bitstream/000170dd/1/2002s-41.pdf",
+      "retrieved_at_utc": "2026-10-30T07:37:11.057310+00:00",
+      "local_path": "原文/Goncalves_White_2002_CIRANO_dynamic_bootstrap.pdf",
+      "reading_scope": "Read introduction, QMLE/score representation, assumptions2.1–2.2 and theorem2.2, hypothesis-testing cautions. NED, mixing and heterogeneity restrictions not established for football.",
+      "decision_log_id": "R20261030-12",
+      "redistribution_status": "not_evaluated",
+      "git_policy": "local_retained; existing_ignore_policy; not_committed_or_pushed",
+      "status": "downloaded",
+      "bytes": 399266,
+      "sha256": "8257d872051dcbac5e2243c9dc113606f2a4d721668a92d58e94325492f4dab2",
+      "error": null
+    },
+    {
+      "id": "Q5-P19",
+      "title": "Universal Inference",
+      "authors": "Larry Wasserman; Aaditya Ramdas; Sivaraman Balakrishnan",
+      "version": "arXiv1912.11436v3 June2020 author manuscript; publication DOI10.1073/pnas.1922664117",
+      "requested_url": "https://arxiv.org/pdf/1912.11436v3",
+      "retrieved_at_utc": "2026-10-30T07:37:24.671666+00:00",
+      "local_path": "原文/Wasserman_Ramdas_Balakrishnan_2020_Universal_Inference_v3.pdf",
+      "reading_scope": "Read sections2,6 conditional likelihood and null-likelihood upper bound,7 misspecification,8 sequential construction. Not adopted; requires correct conditional law/predictability and certified null optimization, not merely a composite likelihood.",
+      "decision_log_id": "R20261030-12",
+      "redistribution_status": "not_evaluated",
+      "git_policy": "local_retained; existing_ignore_policy; not_committed_or_pushed",
+      "status": "downloaded",
+      "bytes": 573317,
+      "sha256": "b354f8d88ac3ee854e4ae191c54f602232b7b24046c461fb7e2222a6ac83771b",
+      "error": null
     }
   ],
   "reading_events": [
@@ -1405,6 +1476,18 @@
       ],
       "retrieval_record": "outputs/logs/reliability/joint-20261028/source_retrieval.json",
       "limits": "Own moment/GLS/score derivations; no transfer of Gaussian likelihood or individual-match conformal prediction theorem."
+    },
+    {
+      "decision_log_id": "R20261030-15",
+      "type": "stage6_protocol_theory_review",
+      "existing_ids": [
+        "Q4-P08",
+        "Q5-P17",
+        "Q5-P18"
+      ],
+      "new_reference_ids": [],
+      "source_record": "outputs/logs/strength_stage6/protocol-review-20261030/sources.json",
+      "new_model_or_inference_runs": false
     }
   ]
 }

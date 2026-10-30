@@ -1,0 +1,51 @@
+{
+  "additional_M0_fits": 5,
+  "all13_refits_repeated": false,
+  "contrast_rows": 832,
+  "decision_log_id": "R20261030-14",
+  "display_data": "outputs/logs/strength_stage6/delivery-618a9dd942fad38863e6/display_data.json",
+  "document": "研究/05_赛前实力/第六环节_清单评分敏感性与数学方法.md",
+  "identity": {
+    "paired_manifest_sha256": "954a4d5762a7b1be36a51b8147eb32104e1fdf882dbc13fbb9cc2b7b46341b4c",
+    "preparation_manifest_sha256": "582bb0eb05cc43c2ac03971dd9a582c590361bd44cbcfff60f684f2649abbe65",
+    "proofs": {
+      "paired_audit.json": "508be3c4cb04f69c563a695b2d1a6ad69b334be7372405643ac6e182878bd786",
+      "paired_reproducibility.json": "23f8aeefe9fba0a5158ac9fc674e616c49ab29292360f0c4c1eac11ae4014753",
+      "paired_summary.json": "d8257a5a5f723111230ac723145cc5300da953cba8e5e462e95de546e7fa6e7b",
+      "preparation_audit.json": "118656b46f4755d69a294da5acd7162a305ab8aa6826af95b876cf9e204d7354",
+      "preparation_reproducibility.json": "73f21536a3b636e67da34d4f0680255d9711e1819de4cc92286301cb7c3ec9c5",
+      "selected_refit_reproducibility.json": "f0855873d392cbe881e6780a368671a83469d6e558d36d4c1720d26f3e9d72a3",
+      "sensitivity_audit.json": "ec777e21eac745add63ba105da34920c47d502ed59579c7e32b29e1bf684f94c",
+      "sensitivity_summary.json": "a17d97b578b9ac1680fbd105974ec8ae56d4aa94a0bc60fa6f0efcceafde1028",
+      "source_retrieval.json": "5f95722d7a3468691bf3d835f486463f78b5eab75732abbe836ead25f4e06311",
+      "tests.xml": "5d87b052ef138b48ad946747be6127079aaa21940ed334e3333b7b962808da74"
+    },
+    "sensitivity_manifest_sha256": "642d0d6c42761c5046e12294ececefe6ac578c3b4433e4e8c7bb0fddf165f863"
+  },
+  "mathematical_method_selected": false,
+  "no_formal_intervals": true,
+  "no_human_review": true,
+  "no_new_rating_runs": true,
+  "no_prospective_validation": true,
+  "original_data_hashes": {
+    "data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv": "69ba00073970fe011a62f5871c08ace6285d7fe75d5a0d79afdac0ef972de9dc",
+    "data/raw/international_results/results.csv": "5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767"
+  },
+  "paired": "outputs/tables/strength_joint/stage6-paired-d3427ea45223384b8e42",
+  "paired_audit_checks": 123887,
+  "paired_outputs_repeated": 8,
+  "paired_rows": 576,
+  "preparation": "outputs/tables/strength_joint/stage6-preparation-662dd5a756b8c1bf7688",
+  "preparation_audit_checks": 471165,
+  "preparation_repeated_outputs": 14,
+  "purpose": "Adopt preparation and declared sensitivity diagnostics, not replace baseline or admit intervals",
+  "registry_rows": 143,
+  "sensitivity": "outputs/tables/strength_joint/stage6-sensitivity-02dcd19cea534b1b944c",
+  "sensitivity_audit_checks": 325766,
+  "sensitivity_refits": 13,
+  "sensitivity_repeated_selected_fits": 2,
+  "stage6_complete": false,
+  "study_population": 24917,
+  "tests": 83,
+  "total_new_fits": 18
+}

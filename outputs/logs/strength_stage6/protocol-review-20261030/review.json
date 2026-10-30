@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "checks": 66,
+  "failed": [],
+  "decision_log_id": "R20261030-15",
+  "unchanged_adoption": "outputs/logs/strength_stage6/delivery-618a9dd942fad38863e6/adoption.json",
+  "unchanged_adoption_sha256": "ddbc4966480022f063c4035c030c2b046000f3d2f4a765037f750f85843057ad",
+  "reference_registry_objects": 143,
+  "unique_relation_scalar_targets": 28,
+  "all_family_scalar_targets_if_formal": 156,
+  "planning_arithmetic_not_new_experiments": {
+    "old_two_world_seconds": 1326.5933984000003,
+    "old_average_world_seconds": 663.2966992000001,
+    "approximate2000world_serial_hours": 368.4981662222223,
+    "MCSE_at95coverage_2000worlds": 0.004873397172404482,
+    "proposed54target_Bonferroni_each_tail": 0.000462962962962963
+  },
+  "proposed_package_implemented": false,
+  "new_model_or_coverage_runs": false,
+  "old_tests_rerun": false,
+  "actual_human_review": false
+}

@@ -1,0 +1,10 @@
+{
+  "additional_fits": 5,
+  "checks": 123887,
+  "failed": [],
+  "formal_inference_validated": false,
+  "full_mixture_reduces_to_probit": true,
+  "human_review": false,
+  "paired_rows": 576,
+  "passed": true
+}

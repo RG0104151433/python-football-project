@@ -135,3 +135,17 @@ R20261029-05至09新增Q5-P13（Runnalls保矩合并相关原稿，本地存档/
 - Q5-P16：[Kull等2019官方论文](原文/Kull_2019_Dirichlet_calibration.pdf)，核对log概率线性映射与正则。项目的6参相对logit矩阵只是该族受限成员，在线高斯积分和专家切换另行检验；论文不保证本足球数据或已复用时期校准。
 
 来源、SHA、实际读取范围和下载记录见sources.json及outputs/logs/strength/repair-20261029/source_retrieval.json。两份PDF已本地保存，没有提交/推送；沿用现有PDF忽略政策，不能声称已上传GitHub。
+
+## 第五问第六环节：不确定性方法讨论（R20261030-12）
+
+- Q5-P17：[Shao2010作者原文](原文/Shao_2010_Dependent_Wild_Bootstrap.pdf)。核读相关乘子构造、平稳弱依赖及规则/不规则时间条件。本项目的非平稳、日期内相关、历史评分反馈尚未证明满足条件，未直接采用其定理。
+- Q5-P18：[Gonçalves与White2002工作稿](原文/Goncalves_White_2002_CIRANO_dynamic_bootstrap.pdf)。核读动态QMLE、得分表示、条件2.1—2.2/定理2.2及检验限制。保存版本是CIRANO2002s-41，不能冒称2004出版者排版；动态与异质性仍需要明确的衰减、矩和均值条件。
+- Q5-P19：[Wasserman等2020作者稿v3](原文/Wasserman_Ramdas_Balakrishnan_2020_Universal_Inference_v3.pdf)。核读条件似然、最大似然上界、错设与序贯构造。当前工作似然、历史选型和局部优化均不足以直接获得其有限样本保证，仅作理论参照。
+
+三份原文已实际下载，指纹和阅读范围见sources.json，实录为`outputs/logs/strength_stage6/source_retrieval.json`。未提交/推送，沿用既有忽略政策。具体项目推导、适配与限制见[第六环节方法讨论](../../研究/05_赛前实力/第六环节_清单评分敏感性与数学方法.md)；没有运行区间或宣布方法通过。
+
+## 第六环节逐项审定补记（R20261030-15）
+
+复核既有Q4-P08 Morris等2019的ADEMP、计算过程和性能评价章节，强调独立模拟世界、失败记录和蒙特卡洛误差。本次成功保存[UCL托管原文](原文/Morris_White_Crowther_2019_simulation_UCL.pdf)，其版面为1—29页；此前403与无本地原件状态保留为历史，新增下载实录见`outputs/logs/strength_stage6/protocol-review-20261030/sources.json`和sources.json中Q4-P08的followup_retrievals，不另造一个重复文献编号。没有提交或推送。
+
+同时复核Q5-P17/P18的弱依赖、光滑估计量和异质得分均值条件。项目新增的M0非鞅差、随机参考、真值投影和Bartlett移动平均构造论证见[第11—17节](../../研究/05_赛前实力/第六环节_清单评分敏感性与数学方法.md#11-按顺序审定后续事项本轮范围与结论r20261030-15)。它们是项目规格与适配分析，没有宣称已满足论文全部条件或已完成数值覆盖验证。

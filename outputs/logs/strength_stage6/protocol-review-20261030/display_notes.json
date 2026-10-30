@@ -1,0 +1,25 @@
+{
+  "decision_log_id": "R20261030-15",
+  "role": "workflow and limitations for later presentation; not new statistical results",
+  "current_result_adoption": "outputs/logs/strength_stage6/delivery-618a9dd942fad38863e6/adoption.json",
+  "document": "研究/05_赛前实力/第六环节_清单评分敏感性与数学方法.md",
+  "workflow": [
+    "generate full WDL history",
+    "define and verify truth",
+    "couple reference scores with each world",
+    "state fixed-rule selection limitation",
+    "compare feedback and score-based methods",
+    "freeze coverage and cost protocol",
+    "implement pilot then locked validation"
+  ],
+  "required_cautions": [
+    "M0 intentionally omits strength; M3 martingale argument does not automatically cover paired changes",
+    "fixed reference members are not fixed generated scores",
+    "143 registry objects are not143 scalar tests",
+    "old timing is a planning estimate, not new runtime measurement",
+    "no new coverage or significance results"
+  ],
+  "planned_code_status": "not_created",
+  "formal_protocol_frozen": false,
+  "actual_human_review": false
+}

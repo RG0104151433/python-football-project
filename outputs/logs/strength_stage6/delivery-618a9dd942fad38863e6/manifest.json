@@ -1,0 +1,33 @@
+{
+  "identity": {
+    "preparation_manifest_sha256": "582bb0eb05cc43c2ac03971dd9a582c590361bd44cbcfff60f684f2649abbe65",
+    "sensitivity_manifest_sha256": "642d0d6c42761c5046e12294ececefe6ac578c3b4433e4e8c7bb0fddf165f863",
+    "paired_manifest_sha256": "954a4d5762a7b1be36a51b8147eb32104e1fdf882dbc13fbb9cc2b7b46341b4c",
+    "proofs": {
+      "preparation_audit.json": "118656b46f4755d69a294da5acd7162a305ab8aa6826af95b876cf9e204d7354",
+      "preparation_reproducibility.json": "73f21536a3b636e67da34d4f0680255d9711e1819de4cc92286301cb7c3ec9c5",
+      "sensitivity_audit.json": "ec777e21eac745add63ba105da34920c47d502ed59579c7e32b29e1bf684f94c",
+      "selected_refit_reproducibility.json": "f0855873d392cbe881e6780a368671a83469d6e558d36d4c1720d26f3e9d72a3",
+      "sensitivity_summary.json": "a17d97b578b9ac1680fbd105974ec8ae56d4aa94a0bc60fa6f0efcceafde1028",
+      "source_retrieval.json": "5f95722d7a3468691bf3d835f486463f78b5eab75732abbe836ead25f4e06311",
+      "tests.xml": "5d87b052ef138b48ad946747be6127079aaa21940ed334e3333b7b962808da74",
+      "paired_audit.json": "508be3c4cb04f69c563a695b2d1a6ad69b334be7372405643ac6e182878bd786",
+      "paired_reproducibility.json": "23f8aeefe9fba0a5158ac9fc674e616c49ab29292360f0c4c1eac11ae4014753",
+      "paired_summary.json": "d8257a5a5f723111230ac723145cc5300da953cba8e5e462e95de546e7fa6e7b"
+    }
+  },
+  "outputs": {
+    "preparation_audit.json": "118656b46f4755d69a294da5acd7162a305ab8aa6826af95b876cf9e204d7354",
+    "preparation_reproducibility.json": "73f21536a3b636e67da34d4f0680255d9711e1819de4cc92286301cb7c3ec9c5",
+    "sensitivity_audit.json": "ec777e21eac745add63ba105da34920c47d502ed59579c7e32b29e1bf684f94c",
+    "selected_refit_reproducibility.json": "f0855873d392cbe881e6780a368671a83469d6e558d36d4c1720d26f3e9d72a3",
+    "sensitivity_summary.json": "a17d97b578b9ac1680fbd105974ec8ae56d4aa94a0bc60fa6f0efcceafde1028",
+    "source_retrieval.json": "5f95722d7a3468691bf3d835f486463f78b5eab75732abbe836ead25f4e06311",
+    "tests.xml": "5d87b052ef138b48ad946747be6127079aaa21940ed334e3333b7b962808da74",
+    "paired_audit.json": "508be3c4cb04f69c563a695b2d1a6ad69b334be7372405643ac6e182878bd786",
+    "paired_reproducibility.json": "23f8aeefe9fba0a5158ac9fc674e616c49ab29292360f0c4c1eac11ae4014753",
+    "paired_summary.json": "d8257a5a5f723111230ac723145cc5300da953cba8e5e462e95de546e7fa6e7b",
+    "adoption.json": "ddbc4966480022f063c4035c030c2b046000f3d2f4a765037f750f85843057ad",
+    "display_data.json": "be4e9f491ae5d4ab1c5cb7435d056f2b9c7e82224cf26c6e207f3dc0f4891605"
+  }
+}

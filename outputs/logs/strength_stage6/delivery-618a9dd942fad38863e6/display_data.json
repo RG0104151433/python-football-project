@@ -1,0 +1,4049 @@
+{
+  "actual_human_review": false,
+  "conclusion_notes": [
+    "M3 four score variants:26 of27 original primary full-reference contrasts retain baseline sign; north-minus-south Europe flips close to zero under initialization variance0.5.",
+    "Geographical magnitudes can change materially; all ranges are sensitivity ranges, not confidence intervals.",
+    "Unknown-geography and combined exclusion each require39 new reference estimands; original unidentified values stay empty.",
+    "Friendly strength relation remains an exploratory model scenario; no causal, significance or future-prediction claim."
+  ],
+  "decision_log_id": "R20261030-14",
+  "formal_inference_admitted": false,
+  "formula_and_scope_document": "研究/05_赛前实力/第六环节_清单评分敏感性与数学方法.md",
+  "model_summaries": [
+    {
+      "all_full_sign_flips": [],
+      "all_original_sign_flips": [],
+      "confidence_interval_admitted": "false",
+      "estimation_rows": "24917",
+      "excluded_estimation_rows": "0",
+      "fit_id": "repaired-initialization-d1f3771999bd8731b716:M3_nested",
+      "focus": [
+        {
+          "change_at_common_reference_pp": "0.0066192907",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-2.5617484472",
+          "common_reference_new_estimate_pp": "-2.5551291565",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-2.5551291565",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q1:2010s_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0068600033",
+          "common_estimable_reference_rows": "21196",
+          "common_reference_baseline_estimate_pp": "-2.6630527205",
+          "common_reference_new_estimate_pp": "-2.6561927172",
+          "original_reference_rows": "21196",
+          "original_target_new_estimate_pp": "-2.6561927172",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q1:2010s_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0003149496",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-4.5671201720",
+          "common_reference_new_estimate_pp": "-4.5674351216",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-4.5674351216",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q1:2020_2024_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0001589257",
+          "common_estimable_reference_rows": "19930",
+          "common_reference_baseline_estimate_pp": "-4.7670510114",
+          "common_reference_new_estimate_pp": "-4.7672099371",
+          "original_reference_rows": "19930",
+          "original_target_new_estimate_pp": "-4.7672099371",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q1:2020_2024_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0066071511",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-3.4957250574",
+          "common_reference_new_estimate_pp": "-3.5023322085",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-3.5023322085",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q2:difference:overall:all:era_standardized"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0066547018",
+          "common_estimable_reference_rows": "21581",
+          "common_reference_baseline_estimate_pp": "-3.6228729634",
+          "common_reference_new_estimate_pp": "-3.6295276652",
+          "original_reference_rows": "21581",
+          "original_target_new_estimate_pp": "-3.6295276652",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q2:difference:overall:all:era_standardized"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0084296424",
+          "common_estimable_reference_rows": "5899",
+          "common_reference_baseline_estimate_pp": "-4.0623677406",
+          "common_reference_new_estimate_pp": "-4.0707973830",
+          "original_reference_rows": "5899",
+          "original_target_new_estimate_pp": "-4.0707973830",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_ASIA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0057497989",
+          "common_estimable_reference_rows": "471",
+          "common_reference_baseline_estimate_pp": "-3.4157954898",
+          "common_reference_new_estimate_pp": "-3.4215452887",
+          "original_reference_rows": "471",
+          "original_target_new_estimate_pp": "-3.4215452887",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_ASIA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0111846704",
+          "common_estimable_reference_rows": "8175",
+          "common_reference_baseline_estimate_pp": "6.1933841782",
+          "common_reference_new_estimate_pp": "6.2045688486",
+          "original_reference_rows": "8175",
+          "original_target_new_estimate_pp": "6.2045688486",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0286331116",
+          "common_estimable_reference_rows": "244",
+          "common_reference_baseline_estimate_pp": "6.0870046563",
+          "common_reference_new_estimate_pp": "6.1156377679",
+          "original_reference_rows": "244",
+          "original_target_new_estimate_pp": "6.1156377679",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0803611955",
+          "common_estimable_reference_rows": "1687",
+          "common_reference_baseline_estimate_pp": "1.5456541046",
+          "common_reference_new_estimate_pp": "1.6260153001",
+          "original_reference_rows": "1687",
+          "original_target_new_estimate_pp": "1.6260153001",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0651319966",
+          "common_estimable_reference_rows": "8",
+          "common_reference_baseline_estimate_pp": "1.0792114327",
+          "common_reference_new_estimate_pp": "1.1443434293",
+          "original_reference_rows": "8",
+          "original_target_new_estimate_pp": "1.1443434293",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_SA:adjusted"
+        }
+      ],
+      "gradient": "0.0000000087",
+      "log_loss": "0.5653448491",
+      "model_id": "M3_nested",
+      "multistart_loss_spread": "0.0000000000",
+      "new_reference_ranges": [],
+      "new_reference_targets": 0,
+      "numerical_fit_passed": "true",
+      "original_estimable": 64,
+      "primary_original_estimable": 27,
+      "primary_sign_flips": [],
+      "removed_parameter_names": "",
+      "scope": "changed score marginals + joint refit; same estimation IDs",
+      "top_comparable_changes": [
+        {
+          "base_pp": 1.5456541046,
+          "change_pp": 0.0803611955,
+          "new_pp": 1.6260153001,
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        },
+        {
+          "base_pp": 13.4664461318,
+          "change_pp": 0.0663750705,
+          "new_pp": 13.5328212023,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        },
+        {
+          "base_pp": 1.0792114327,
+          "change_pp": 0.0651319966,
+          "new_pp": 1.1443434293,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_SA:adjusted"
+        },
+        {
+          "base_pp": 12.824854354,
+          "change_pp": 0.0599037917,
+          "new_pp": 12.8847581457,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        },
+        {
+          "base_pp": 8.31153204,
+          "change_pp": 0.0545521667,
+          "new_pp": 8.3660842067,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_AMER_FOCUS:adjusted"
+        }
+      ],
+      "top_full_changes": [
+        {
+          "base_pp": 1.5456541046,
+          "change_pp": 0.0803611955,
+          "new_pp": 1.6260153001,
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        },
+        {
+          "base_pp": 12.824854354,
+          "change_pp": 0.0599037917,
+          "new_pp": 12.8847581457,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        },
+        {
+          "base_pp": 7.7356784842,
+          "change_pp": 0.0483767835,
+          "new_pp": 7.7840552677,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_FOCUS:adjusted"
+        },
+        {
+          "base_pp": 2.1377030166,
+          "change_pp": 0.0406172798,
+          "new_pp": 2.1783202964,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_021:adjusted"
+        },
+        {
+          "base_pp": 4.3981032564,
+          "change_pp": 0.0378611884,
+          "new_pp": 4.4359644448,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_013:adjusted"
+        }
+      ],
+      "top_primary_changes": [
+        {
+          "base_pp": 12.824854354,
+          "change_pp": 0.0599037917,
+          "new_pp": 12.8847581457,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        },
+        {
+          "base_pp": 7.7356784842,
+          "change_pp": 0.0483767835,
+          "new_pp": 7.7840552677,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_FOCUS:adjusted"
+        },
+        {
+          "base_pp": 2.1377030166,
+          "change_pp": 0.0406172798,
+          "new_pp": 2.1783202964,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_021:adjusted"
+        },
+        {
+          "base_pp": 4.3981032564,
+          "change_pp": 0.0378611884,
+          "new_pp": 4.4359644448,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_013:adjusted"
+        },
+        {
+          "base_pp": -0.2017098064,
+          "change_pp": -0.0222886545,
+          "new_pp": -0.2239984609,
+          "reference_kind": "full",
+          "target_id": "Q3:C_EUR_155_VS_154:adjusted"
+        }
+      ],
+      "variant_id": "repaired-initialization-d1f3771999bd8731b716"
+    },
+    {
+      "all_full_sign_flips": [],
+      "all_original_sign_flips": [],
+      "confidence_interval_admitted": "false",
+      "estimation_rows": "24917",
+      "excluded_estimation_rows": "0",
+      "fit_id": "repaired-initialization-d1f3771999bd8731b716:M4_type_slope",
+      "focus": [
+        {
+          "change_at_common_reference_pp": "0.0004269039",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-2.2475089010",
+          "common_reference_new_estimate_pp": "-2.2470819971",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-2.2470819971",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q1:2010s_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0003223130",
+          "common_estimable_reference_rows": "21196",
+          "common_reference_baseline_estimate_pp": "-2.3291596307",
+          "common_reference_new_estimate_pp": "-2.3288373177",
+          "original_reference_rows": "21196",
+          "original_target_new_estimate_pp": "-2.3288373177",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q1:2010s_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0073356367",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-4.1959955347",
+          "common_reference_new_estimate_pp": "-4.2033311714",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-4.2033311714",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q1:2020_2024_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0079133200",
+          "common_estimable_reference_rows": "19930",
+          "common_reference_baseline_estimate_pp": "-4.3448583121",
+          "common_reference_new_estimate_pp": "-4.3527716321",
+          "original_reference_rows": "19930",
+          "original_target_new_estimate_pp": "-4.3527716321",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q1:2020_2024_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0056989230",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-3.5142131586",
+          "common_reference_new_estimate_pp": "-3.5199120816",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-3.5199120816",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q2:difference:overall:all:era_standardized"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0052126693",
+          "common_estimable_reference_rows": "21581",
+          "common_reference_baseline_estimate_pp": "-3.7195567088",
+          "common_reference_new_estimate_pp": "-3.7247693781",
+          "original_reference_rows": "21581",
+          "original_target_new_estimate_pp": "-3.7247693781",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q2:difference:overall:all:era_standardized"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0039174327",
+          "common_estimable_reference_rows": "5899",
+          "common_reference_baseline_estimate_pp": "-4.2746681563",
+          "common_reference_new_estimate_pp": "-4.2785855890",
+          "original_reference_rows": "5899",
+          "original_target_new_estimate_pp": "-4.2785855890",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_ASIA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0017789034",
+          "common_estimable_reference_rows": "471",
+          "common_reference_baseline_estimate_pp": "-3.8460182918",
+          "common_reference_new_estimate_pp": "-3.8442393884",
+          "original_reference_rows": "471",
+          "original_target_new_estimate_pp": "-3.8442393884",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_ASIA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0078579565",
+          "common_estimable_reference_rows": "8175",
+          "common_reference_baseline_estimate_pp": "6.3047716204",
+          "common_reference_new_estimate_pp": "6.3126295769",
+          "original_reference_rows": "8175",
+          "original_target_new_estimate_pp": "6.3126295769",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0249133234",
+          "common_estimable_reference_rows": "244",
+          "common_reference_baseline_estimate_pp": "6.3199547518",
+          "common_reference_new_estimate_pp": "6.3448680752",
+          "original_reference_rows": "244",
+          "original_target_new_estimate_pp": "6.3448680752",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0537092648",
+          "common_estimable_reference_rows": "1687",
+          "common_reference_baseline_estimate_pp": "2.5782463531",
+          "common_reference_new_estimate_pp": "2.6319556179",
+          "original_reference_rows": "1687",
+          "original_target_new_estimate_pp": "2.6319556179",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0451696431",
+          "common_estimable_reference_rows": "8",
+          "common_reference_baseline_estimate_pp": "2.1382411805",
+          "common_reference_new_estimate_pp": "2.1834108236",
+          "original_reference_rows": "8",
+          "original_target_new_estimate_pp": "2.1834108236",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_SA:adjusted"
+        }
+      ],
+      "gradient": "0.0000000082",
+      "log_loss": "0.5642314064",
+      "model_id": "M4_type_slope",
+      "multistart_loss_spread": "0.0000000000",
+      "new_reference_ranges": [],
+      "new_reference_targets": 0,
+      "numerical_fit_passed": "true",
+      "original_estimable": 64,
+      "primary_original_estimable": 27,
+      "primary_sign_flips": [],
+      "removed_parameter_names": "",
+      "scope": "changed score marginals + joint refit; same estimation IDs",
+      "top_comparable_changes": [
+        {
+          "base_pp": 2.5782463531,
+          "change_pp": 0.0537092648,
+          "new_pp": 2.6319556179,
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        },
+        {
+          "base_pp": 2.1382411805,
+          "change_pp": 0.0451696431,
+          "new_pp": 2.1834108236,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_SA:adjusted"
+        },
+        {
+          "base_pp": 14.7466225706,
+          "change_pp": 0.0412759392,
+          "new_pp": 14.7878985098,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        },
+        {
+          "base_pp": 13.807207519,
+          "change_pp": 0.0383412335,
+          "new_pp": 13.8455487525,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        },
+        {
+          "base_pp": 9.7024802498,
+          "change_pp": 0.0284666411,
+          "new_pp": 9.7309468909,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_AMER_FOCUS:adjusted"
+        }
+      ],
+      "top_full_changes": [
+        {
+          "base_pp": 2.5782463531,
+          "change_pp": 0.0537092648,
+          "new_pp": 2.6319556179,
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        },
+        {
+          "base_pp": 13.807207519,
+          "change_pp": 0.0383412335,
+          "new_pp": 13.8455487525,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        },
+        {
+          "base_pp": 10.0798368129,
+          "change_pp": 0.0255420943,
+          "new_pp": 10.1053789072,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_021_VS_029:adjusted"
+        },
+        {
+          "base_pp": 8.9155454562,
+          "change_pp": 0.0251153455,
+          "new_pp": 8.9406608017,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_FOCUS:adjusted"
+        },
+        {
+          "base_pp": 8.2153850206,
+          "change_pp": 0.0232406655,
+          "new_pp": 8.2386256861,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_013_VS_029:adjusted"
+        }
+      ],
+      "top_primary_changes": [
+        {
+          "base_pp": 13.807207519,
+          "change_pp": 0.0383412335,
+          "new_pp": 13.8455487525,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        },
+        {
+          "base_pp": 10.0798368129,
+          "change_pp": 0.0255420943,
+          "new_pp": 10.1053789072,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_021_VS_029:adjusted"
+        },
+        {
+          "base_pp": 8.9155454562,
+          "change_pp": 0.0251153455,
+          "new_pp": 8.9406608017,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_FOCUS:adjusted"
+        },
+        {
+          "base_pp": 8.2153850206,
+          "change_pp": 0.0232406655,
+          "new_pp": 8.2386256861,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_013_VS_029:adjusted"
+        },
+        {
+          "base_pp": -0.1711207201,
+          "change_pp": -0.0211729083,
+          "new_pp": -0.1922936284,
+          "reference_kind": "full",
+          "target_id": "Q3:C_EUR_155_VS_154:adjusted"
+        }
+      ],
+      "variant_id": "repaired-initialization-d1f3771999bd8731b716"
+    },
+    {
+      "all_full_sign_flips": [
+        {
+          "base": 0.1174996867,
+          "new": -0.0123136725,
+          "reference_kind": "full",
+          "target_id": "Q3:C_EUR_NORTH_SOUTH:adjusted"
+        }
+      ],
+      "all_original_sign_flips": [
+        {
+          "base": 0.1174996867,
+          "new": -0.0123136725,
+          "reference_kind": "full",
+          "target_id": "Q3:C_EUR_NORTH_SOUTH:adjusted"
+        },
+        {
+          "base": 0.1205323836,
+          "new": -0.0126225536,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_EUR_NORTH_SOUTH:adjusted"
+        }
+      ],
+      "confidence_interval_admitted": "false",
+      "estimation_rows": "24917",
+      "excluded_estimation_rows": "0",
+      "fit_id": "repaired-initialization-1dc37caeddc61830a0af:M3_nested",
+      "focus": [
+        {
+          "change_at_common_reference_pp": "0.0814080677",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-2.5617484472",
+          "common_reference_new_estimate_pp": "-2.4803403795",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-2.4803403795",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q1:2010s_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0860054787",
+          "common_estimable_reference_rows": "21196",
+          "common_reference_baseline_estimate_pp": "-2.6630527205",
+          "common_reference_new_estimate_pp": "-2.5770472418",
+          "original_reference_rows": "21196",
+          "original_target_new_estimate_pp": "-2.5770472418",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q1:2010s_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0535134559",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-4.5671201720",
+          "common_reference_new_estimate_pp": "-4.5136067161",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-4.5136067161",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q1:2020_2024_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0596639711",
+          "common_estimable_reference_rows": "19930",
+          "common_reference_baseline_estimate_pp": "-4.7670510114",
+          "common_reference_new_estimate_pp": "-4.7073870403",
+          "original_reference_rows": "19930",
+          "original_target_new_estimate_pp": "-4.7073870403",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q1:2020_2024_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0788622652",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-3.4957250574",
+          "common_reference_new_estimate_pp": "-3.5745873226",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-3.5745873226",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q2:difference:overall:all:era_standardized"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0798539012",
+          "common_estimable_reference_rows": "21581",
+          "common_reference_baseline_estimate_pp": "-3.6228729634",
+          "common_reference_new_estimate_pp": "-3.7027268646",
+          "original_reference_rows": "21581",
+          "original_target_new_estimate_pp": "-3.7027268646",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q2:difference:overall:all:era_standardized"
+        },
+        {
+          "change_at_common_reference_pp": "-0.1966177662",
+          "common_estimable_reference_rows": "5899",
+          "common_reference_baseline_estimate_pp": "-4.0623677406",
+          "common_reference_new_estimate_pp": "-4.2589855068",
+          "original_reference_rows": "5899",
+          "original_target_new_estimate_pp": "-4.2589855068",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_ASIA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.1603991429",
+          "common_estimable_reference_rows": "471",
+          "common_reference_baseline_estimate_pp": "-3.4157954898",
+          "common_reference_new_estimate_pp": "-3.5761946327",
+          "original_reference_rows": "471",
+          "original_target_new_estimate_pp": "-3.5761946327",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_ASIA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.5324675391",
+          "common_estimable_reference_rows": "8175",
+          "common_reference_baseline_estimate_pp": "6.1933841782",
+          "common_reference_new_estimate_pp": "6.7258517173",
+          "original_reference_rows": "8175",
+          "original_target_new_estimate_pp": "6.7258517173",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.5520420054",
+          "common_estimable_reference_rows": "244",
+          "common_reference_baseline_estimate_pp": "6.0870046563",
+          "common_reference_new_estimate_pp": "6.6390466617",
+          "original_reference_rows": "244",
+          "original_target_new_estimate_pp": "6.6390466617",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.5309461479",
+          "common_estimable_reference_rows": "1687",
+          "common_reference_baseline_estimate_pp": "1.5456541046",
+          "common_reference_new_estimate_pp": "1.0147079567",
+          "original_reference_rows": "1687",
+          "original_target_new_estimate_pp": "1.0147079567",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.4437094025",
+          "common_estimable_reference_rows": "8",
+          "common_reference_baseline_estimate_pp": "1.0792114327",
+          "common_reference_new_estimate_pp": "0.6355020302",
+          "original_reference_rows": "8",
+          "original_target_new_estimate_pp": "0.6355020302",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_SA:adjusted"
+        }
+      ],
+      "gradient": "0.0000000064",
+      "log_loss": "0.5665985281",
+      "model_id": "M3_nested",
+      "multistart_loss_spread": "0.0000000000",
+      "new_reference_ranges": [],
+      "new_reference_targets": 0,
+      "numerical_fit_passed": "true",
+      "original_estimable": 64,
+      "primary_original_estimable": 27,
+      "primary_sign_flips": [
+        {
+          "base": 0.1174996867,
+          "new": -0.0123136725,
+          "reference_kind": "full",
+          "target_id": "Q3:C_EUR_NORTH_SOUTH:adjusted"
+        }
+      ],
+      "removed_parameter_names": "",
+      "scope": "changed score marginals + joint refit; same estimation IDs",
+      "top_comparable_changes": [
+        {
+          "base_pp": 6.0870046563,
+          "change_pp": 0.5520420054,
+          "new_pp": 6.6390466617,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "base_pp": 6.1933841782,
+          "change_pp": 0.5324675391,
+          "new_pp": 6.7258517173,
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "base_pp": 1.5456541046,
+          "change_pp": -0.5309461479,
+          "new_pp": 1.0147079567,
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        },
+        {
+          "base_pp": 13.4664461318,
+          "change_pp": 0.4829015416,
+          "new_pp": 13.9493476734,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        },
+        {
+          "base_pp": 12.824854354,
+          "change_pp": 0.4707020967,
+          "new_pp": 13.2955564507,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        }
+      ],
+      "top_full_changes": [
+        {
+          "base_pp": 6.1933841782,
+          "change_pp": 0.5324675391,
+          "new_pp": 6.7258517173,
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "base_pp": 1.5456541046,
+          "change_pp": -0.5309461479,
+          "new_pp": 1.0147079567,
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        },
+        {
+          "base_pp": 12.824854354,
+          "change_pp": 0.4707020967,
+          "new_pp": 13.2955564507,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        },
+        {
+          "base_pp": 10.6871513374,
+          "change_pp": 0.3784962616,
+          "new_pp": 11.065647599,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_021_VS_029:adjusted"
+        },
+        {
+          "base_pp": -6.8611467508,
+          "change_pp": -0.3722914451,
+          "new_pp": -7.2334381959,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_034_VS_145:adjusted"
+        }
+      ],
+      "top_primary_changes": [
+        {
+          "base_pp": 6.1933841782,
+          "change_pp": 0.5324675391,
+          "new_pp": 6.7258517173,
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "base_pp": 12.824854354,
+          "change_pp": 0.4707020967,
+          "new_pp": 13.2955564507,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        },
+        {
+          "base_pp": 10.6871513374,
+          "change_pp": 0.3784962616,
+          "new_pp": 11.065647599,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_021_VS_029:adjusted"
+        },
+        {
+          "base_pp": -6.8611467508,
+          "change_pp": -0.3722914451,
+          "new_pp": -7.2334381959,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_034_VS_145:adjusted"
+        },
+        {
+          "base_pp": 8.4267510976,
+          "change_pp": 0.3685244438,
+          "new_pp": 8.7952755414,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_013_VS_029:adjusted"
+        }
+      ],
+      "variant_id": "repaired-initialization-1dc37caeddc61830a0af"
+    },
+    {
+      "all_full_sign_flips": [
+        {
+          "base": 0.0586741636,
+          "new": -0.0741464781,
+          "reference_kind": "full",
+          "target_id": "Q3:C_EUR_NORTH_SOUTH:adjusted"
+        }
+      ],
+      "all_original_sign_flips": [
+        {
+          "base": 0.0586741636,
+          "new": -0.0741464781,
+          "reference_kind": "full",
+          "target_id": "Q3:C_EUR_NORTH_SOUTH:adjusted"
+        },
+        {
+          "base": 0.0606804237,
+          "new": -0.0766353395,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_EUR_NORTH_SOUTH:adjusted"
+        }
+      ],
+      "confidence_interval_admitted": "false",
+      "estimation_rows": "24917",
+      "excluded_estimation_rows": "0",
+      "fit_id": "repaired-initialization-1dc37caeddc61830a0af:M4_type_slope",
+      "focus": [
+        {
+          "change_at_common_reference_pp": "0.0829993436",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-2.2475089010",
+          "common_reference_new_estimate_pp": "-2.1645095574",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-2.1645095574",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q1:2010s_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0874794353",
+          "common_estimable_reference_rows": "21196",
+          "common_reference_baseline_estimate_pp": "-2.3291596307",
+          "common_reference_new_estimate_pp": "-2.2416801954",
+          "original_reference_rows": "21196",
+          "original_target_new_estimate_pp": "-2.2416801954",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q1:2010s_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0579854907",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-4.1959955347",
+          "common_reference_new_estimate_pp": "-4.1380100440",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-4.1380100440",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q1:2020_2024_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0645712038",
+          "common_estimable_reference_rows": "19930",
+          "common_reference_baseline_estimate_pp": "-4.3448583121",
+          "common_reference_new_estimate_pp": "-4.2802871083",
+          "original_reference_rows": "19930",
+          "original_target_new_estimate_pp": "-4.2802871083",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q1:2020_2024_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0750697005",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-3.5142131586",
+          "common_reference_new_estimate_pp": "-3.5892828591",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-3.5892828591",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q2:difference:overall:all:era_standardized"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0772310187",
+          "common_estimable_reference_rows": "21581",
+          "common_reference_baseline_estimate_pp": "-3.7195567088",
+          "common_reference_new_estimate_pp": "-3.7967877275",
+          "original_reference_rows": "21581",
+          "original_target_new_estimate_pp": "-3.7967877275",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q2:difference:overall:all:era_standardized"
+        },
+        {
+          "change_at_common_reference_pp": "-0.1916942827",
+          "common_estimable_reference_rows": "5899",
+          "common_reference_baseline_estimate_pp": "-4.2746681563",
+          "common_reference_new_estimate_pp": "-4.4663624390",
+          "original_reference_rows": "5899",
+          "original_target_new_estimate_pp": "-4.4663624390",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_ASIA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.1716179639",
+          "common_estimable_reference_rows": "471",
+          "common_reference_baseline_estimate_pp": "-3.8460182918",
+          "common_reference_new_estimate_pp": "-4.0176362557",
+          "original_reference_rows": "471",
+          "original_target_new_estimate_pp": "-4.0176362557",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_ASIA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.4535867693",
+          "common_estimable_reference_rows": "8175",
+          "common_reference_baseline_estimate_pp": "6.3047716204",
+          "common_reference_new_estimate_pp": "6.7583583897",
+          "original_reference_rows": "8175",
+          "original_target_new_estimate_pp": "6.7583583897",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.4802536448",
+          "common_estimable_reference_rows": "244",
+          "common_reference_baseline_estimate_pp": "6.3199547518",
+          "common_reference_new_estimate_pp": "6.8002083966",
+          "original_reference_rows": "244",
+          "original_target_new_estimate_pp": "6.8002083966",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.3908911692",
+          "common_estimable_reference_rows": "1687",
+          "common_reference_baseline_estimate_pp": "2.5782463531",
+          "common_reference_new_estimate_pp": "2.1873551839",
+          "original_reference_rows": "1687",
+          "original_target_new_estimate_pp": "2.1873551839",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.3377808526",
+          "common_estimable_reference_rows": "8",
+          "common_reference_baseline_estimate_pp": "2.1382411805",
+          "common_reference_new_estimate_pp": "1.8004603279",
+          "original_reference_rows": "8",
+          "original_target_new_estimate_pp": "1.8004603279",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_SA:adjusted"
+        }
+      ],
+      "gradient": "0.0000000058",
+      "log_loss": "0.5653584747",
+      "model_id": "M4_type_slope",
+      "multistart_loss_spread": "0.0000000000",
+      "new_reference_ranges": [],
+      "new_reference_targets": 0,
+      "numerical_fit_passed": "true",
+      "original_estimable": 64,
+      "primary_original_estimable": 27,
+      "primary_sign_flips": [
+        {
+          "base": 0.0586741636,
+          "new": -0.0741464781,
+          "reference_kind": "full",
+          "target_id": "Q3:C_EUR_NORTH_SOUTH:adjusted"
+        }
+      ],
+      "removed_parameter_names": "",
+      "scope": "changed score marginals + joint refit; same estimation IDs",
+      "top_comparable_changes": [
+        {
+          "base_pp": 14.7466225706,
+          "change_pp": 0.4928261473,
+          "new_pp": 15.2394487179,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        },
+        {
+          "base_pp": 6.3199547518,
+          "change_pp": 0.4802536448,
+          "new_pp": 6.8002083966,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "base_pp": 13.807207519,
+          "change_pp": 0.4621738375,
+          "new_pp": 14.2693813565,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        },
+        {
+          "base_pp": 6.3047716204,
+          "change_pp": 0.4535867693,
+          "new_pp": 6.7583583897,
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "base_pp": 2.5782463531,
+          "change_pp": -0.3908911692,
+          "new_pp": 2.1873551839,
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        }
+      ],
+      "top_full_changes": [
+        {
+          "base_pp": 13.807207519,
+          "change_pp": 0.4621738375,
+          "new_pp": 14.2693813565,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        },
+        {
+          "base_pp": 6.3047716204,
+          "change_pp": 0.4535867693,
+          "new_pp": 6.7583583897,
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "base_pp": 2.5782463531,
+          "change_pp": -0.3908911692,
+          "new_pp": 2.1873551839,
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        },
+        {
+          "base_pp": -6.6821639016,
+          "change_pp": -0.3479798754,
+          "new_pp": -7.030143777,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_034_VS_145:adjusted"
+        },
+        {
+          "base_pp": 8.2153850206,
+          "change_pp": 0.3437862878,
+          "new_pp": 8.5591713084,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_013_VS_029:adjusted"
+        }
+      ],
+      "top_primary_changes": [
+        {
+          "base_pp": 13.807207519,
+          "change_pp": 0.4621738375,
+          "new_pp": 14.2693813565,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        },
+        {
+          "base_pp": 6.3047716204,
+          "change_pp": 0.4535867693,
+          "new_pp": 6.7583583897,
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "base_pp": -6.6821639016,
+          "change_pp": -0.3479798754,
+          "new_pp": -7.030143777,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_034_VS_145:adjusted"
+        },
+        {
+          "base_pp": 8.2153850206,
+          "change_pp": 0.3437862878,
+          "new_pp": 8.5591713084,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_013_VS_029:adjusted"
+        },
+        {
+          "base_pp": 10.0798368129,
+          "change_pp": 0.3321309286,
+          "new_pp": 10.4119677415,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_021_VS_029:adjusted"
+        }
+      ],
+      "variant_id": "repaired-initialization-1dc37caeddc61830a0af"
+    },
+    {
+      "all_full_sign_flips": [],
+      "all_original_sign_flips": [],
+      "confidence_interval_admitted": "false",
+      "estimation_rows": "24917",
+      "excluded_estimation_rows": "0",
+      "fit_id": "repaired-initialization-146d3bc167c27a4a3466:M3_nested",
+      "focus": [
+        {
+          "change_at_common_reference_pp": "-0.0593176188",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-2.5617484472",
+          "common_reference_new_estimate_pp": "-2.6210660660",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-2.6210660660",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q1:2010s_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0627639549",
+          "common_estimable_reference_rows": "21196",
+          "common_reference_baseline_estimate_pp": "-2.6630527205",
+          "common_reference_new_estimate_pp": "-2.7258166754",
+          "original_reference_rows": "21196",
+          "original_target_new_estimate_pp": "-2.7258166754",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q1:2010s_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0220951169",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-4.5671201720",
+          "common_reference_new_estimate_pp": "-4.5892152889",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-4.5892152889",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q1:2020_2024_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0262847586",
+          "common_estimable_reference_rows": "19930",
+          "common_reference_baseline_estimate_pp": "-4.7670510114",
+          "common_reference_new_estimate_pp": "-4.7933357700",
+          "original_reference_rows": "19930",
+          "original_target_new_estimate_pp": "-4.7933357700",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q1:2020_2024_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0805922033",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-3.4957250574",
+          "common_reference_new_estimate_pp": "-3.4151328541",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-3.4151328541",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q2:difference:overall:all:era_standardized"
+        },
+        {
+          "change_at_common_reference_pp": "0.0820832728",
+          "common_estimable_reference_rows": "21581",
+          "common_reference_baseline_estimate_pp": "-3.6228729634",
+          "common_reference_new_estimate_pp": "-3.5407896906",
+          "original_reference_rows": "21581",
+          "original_target_new_estimate_pp": "-3.5407896906",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q2:difference:overall:all:era_standardized"
+        },
+        {
+          "change_at_common_reference_pp": "0.1037654872",
+          "common_estimable_reference_rows": "5899",
+          "common_reference_baseline_estimate_pp": "-4.0623677406",
+          "common_reference_new_estimate_pp": "-3.9586022534",
+          "original_reference_rows": "5899",
+          "original_target_new_estimate_pp": "-3.9586022534",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_ASIA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0574022151",
+          "common_estimable_reference_rows": "471",
+          "common_reference_baseline_estimate_pp": "-3.4157954898",
+          "common_reference_new_estimate_pp": "-3.3583932747",
+          "original_reference_rows": "471",
+          "original_target_new_estimate_pp": "-3.3583932747",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_ASIA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.4313750591",
+          "common_estimable_reference_rows": "8175",
+          "common_reference_baseline_estimate_pp": "6.1933841782",
+          "common_reference_new_estimate_pp": "5.7620091191",
+          "original_reference_rows": "8175",
+          "original_target_new_estimate_pp": "5.7620091191",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.4583735306",
+          "common_estimable_reference_rows": "244",
+          "common_reference_baseline_estimate_pp": "6.0870046563",
+          "common_reference_new_estimate_pp": "5.6286311257",
+          "original_reference_rows": "244",
+          "original_target_new_estimate_pp": "5.6286311257",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.4778450632",
+          "common_estimable_reference_rows": "1687",
+          "common_reference_baseline_estimate_pp": "1.5456541046",
+          "common_reference_new_estimate_pp": "2.0234991678",
+          "original_reference_rows": "1687",
+          "original_target_new_estimate_pp": "2.0234991678",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.3832276232",
+          "common_estimable_reference_rows": "8",
+          "common_reference_baseline_estimate_pp": "1.0792114327",
+          "common_reference_new_estimate_pp": "1.4624390559",
+          "original_reference_rows": "8",
+          "original_target_new_estimate_pp": "1.4624390559",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_SA:adjusted"
+        }
+      ],
+      "gradient": "0.0000000100",
+      "log_loss": "0.5646793129",
+      "model_id": "M3_nested",
+      "multistart_loss_spread": "0.0000000000",
+      "new_reference_ranges": [],
+      "new_reference_targets": 0,
+      "numerical_fit_passed": "true",
+      "original_estimable": 64,
+      "primary_original_estimable": 27,
+      "primary_sign_flips": [],
+      "removed_parameter_names": "",
+      "scope": "changed score marginals + joint refit; same estimation IDs",
+      "top_comparable_changes": [
+        {
+          "base_pp": 1.5456541046,
+          "change_pp": 0.4778450632,
+          "new_pp": 2.0234991678,
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        },
+        {
+          "base_pp": 6.0870046563,
+          "change_pp": -0.4583735306,
+          "new_pp": 5.6286311257,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "base_pp": 13.4664461318,
+          "change_pp": -0.432063941,
+          "new_pp": 13.0343821908,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        },
+        {
+          "base_pp": 6.1933841782,
+          "change_pp": -0.4313750591,
+          "new_pp": 5.7620091191,
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "base_pp": 12.824854354,
+          "change_pp": -0.4149070368,
+          "new_pp": 12.4099473172,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        }
+      ],
+      "top_full_changes": [
+        {
+          "base_pp": 1.5456541046,
+          "change_pp": 0.4778450632,
+          "new_pp": 2.0234991678,
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        },
+        {
+          "base_pp": 6.1933841782,
+          "change_pp": -0.4313750591,
+          "new_pp": 5.7620091191,
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "base_pp": 12.824854354,
+          "change_pp": -0.4149070368,
+          "new_pp": 12.4099473172,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        },
+        {
+          "base_pp": 8.4267510976,
+          "change_pp": -0.3232881944,
+          "new_pp": 8.1034629032,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_013_VS_029:adjusted"
+        },
+        {
+          "base_pp": 10.6871513374,
+          "change_pp": -0.3160971805,
+          "new_pp": 10.3710541569,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_021_VS_029:adjusted"
+        }
+      ],
+      "top_primary_changes": [
+        {
+          "base_pp": 6.1933841782,
+          "change_pp": -0.4313750591,
+          "new_pp": 5.7620091191,
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "base_pp": 12.824854354,
+          "change_pp": -0.4149070368,
+          "new_pp": 12.4099473172,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        },
+        {
+          "base_pp": 8.4267510976,
+          "change_pp": -0.3232881944,
+          "new_pp": 8.1034629032,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_013_VS_029:adjusted"
+        },
+        {
+          "base_pp": 10.6871513374,
+          "change_pp": -0.3160971805,
+          "new_pp": 10.3710541569,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_021_VS_029:adjusted"
+        },
+        {
+          "base_pp": -6.8611467508,
+          "change_pp": 0.2581025089,
+          "new_pp": -6.6030442419,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_034_VS_145:adjusted"
+        }
+      ],
+      "variant_id": "repaired-initialization-146d3bc167c27a4a3466"
+    },
+    {
+      "all_full_sign_flips": [],
+      "all_original_sign_flips": [],
+      "confidence_interval_admitted": "false",
+      "estimation_rows": "24917",
+      "excluded_estimation_rows": "0",
+      "fit_id": "repaired-initialization-146d3bc167c27a4a3466:M4_type_slope",
+      "focus": [
+        {
+          "change_at_common_reference_pp": "-0.0617339468",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-2.2475089010",
+          "common_reference_new_estimate_pp": "-2.3092428478",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-2.3092428478",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q1:2010s_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0652187061",
+          "common_estimable_reference_rows": "21196",
+          "common_reference_baseline_estimate_pp": "-2.3291596307",
+          "common_reference_new_estimate_pp": "-2.3943783368",
+          "original_reference_rows": "21196",
+          "original_target_new_estimate_pp": "-2.3943783368",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q1:2010s_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0272190342",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-4.1959955347",
+          "common_reference_new_estimate_pp": "-4.2232145689",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-4.2232145689",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q1:2020_2024_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0322113152",
+          "common_estimable_reference_rows": "19930",
+          "common_reference_baseline_estimate_pp": "-4.3448583121",
+          "common_reference_new_estimate_pp": "-4.3770696273",
+          "original_reference_rows": "19930",
+          "original_target_new_estimate_pp": "-4.3770696273",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q1:2020_2024_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0776017966",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-3.5142131586",
+          "common_reference_new_estimate_pp": "-3.4366113620",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-3.4366113620",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q2:difference:overall:all:era_standardized"
+        },
+        {
+          "change_at_common_reference_pp": "0.0800416620",
+          "common_estimable_reference_rows": "21581",
+          "common_reference_baseline_estimate_pp": "-3.7195567088",
+          "common_reference_new_estimate_pp": "-3.6395150468",
+          "original_reference_rows": "21581",
+          "original_target_new_estimate_pp": "-3.6395150468",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q2:difference:overall:all:era_standardized"
+        },
+        {
+          "change_at_common_reference_pp": "0.1050740740",
+          "common_estimable_reference_rows": "5899",
+          "common_reference_baseline_estimate_pp": "-4.2746681563",
+          "common_reference_new_estimate_pp": "-4.1695940823",
+          "original_reference_rows": "5899",
+          "original_target_new_estimate_pp": "-4.1695940823",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_ASIA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0697344001",
+          "common_estimable_reference_rows": "471",
+          "common_reference_baseline_estimate_pp": "-3.8460182918",
+          "common_reference_new_estimate_pp": "-3.7762838917",
+          "original_reference_rows": "471",
+          "original_target_new_estimate_pp": "-3.7762838917",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_ASIA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.3711973408",
+          "common_estimable_reference_rows": "8175",
+          "common_reference_baseline_estimate_pp": "6.3047716204",
+          "common_reference_new_estimate_pp": "5.9335742796",
+          "original_reference_rows": "8175",
+          "original_target_new_estimate_pp": "5.9335742796",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.4042898789",
+          "common_estimable_reference_rows": "244",
+          "common_reference_baseline_estimate_pp": "6.3199547518",
+          "common_reference_new_estimate_pp": "5.9156648729",
+          "original_reference_rows": "244",
+          "original_target_new_estimate_pp": "5.9156648729",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.3629032702",
+          "common_estimable_reference_rows": "1687",
+          "common_reference_baseline_estimate_pp": "2.5782463531",
+          "common_reference_new_estimate_pp": "2.9411496233",
+          "original_reference_rows": "1687",
+          "original_target_new_estimate_pp": "2.9411496233",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.3017610066",
+          "common_estimable_reference_rows": "8",
+          "common_reference_baseline_estimate_pp": "2.1382411805",
+          "common_reference_new_estimate_pp": "2.4400021871",
+          "original_reference_rows": "8",
+          "original_target_new_estimate_pp": "2.4400021871",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_SA:adjusted"
+        }
+      ],
+      "gradient": "0.0000000094",
+      "log_loss": "0.5636122122",
+      "model_id": "M4_type_slope",
+      "multistart_loss_spread": "0.0000000000",
+      "new_reference_ranges": [],
+      "new_reference_targets": 0,
+      "numerical_fit_passed": "true",
+      "original_estimable": 64,
+      "primary_original_estimable": 27,
+      "primary_sign_flips": [],
+      "removed_parameter_names": "",
+      "scope": "changed score marginals + joint refit; same estimation IDs",
+      "top_comparable_changes": [
+        {
+          "base_pp": 14.7466225706,
+          "change_pp": -0.4388377332,
+          "new_pp": 14.3077848374,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        },
+        {
+          "base_pp": 13.807207519,
+          "change_pp": -0.4053424175,
+          "new_pp": 13.4018651015,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        },
+        {
+          "base_pp": 6.3199547518,
+          "change_pp": -0.4042898789,
+          "new_pp": 5.9156648729,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "base_pp": 6.3047716204,
+          "change_pp": -0.3711973408,
+          "new_pp": 5.9335742796,
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "base_pp": 2.5782463531,
+          "change_pp": 0.3629032702,
+          "new_pp": 2.9411496233,
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        }
+      ],
+      "top_full_changes": [
+        {
+          "base_pp": 13.807207519,
+          "change_pp": -0.4053424175,
+          "new_pp": 13.4018651015,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        },
+        {
+          "base_pp": 6.3047716204,
+          "change_pp": -0.3711973408,
+          "new_pp": 5.9335742796,
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "base_pp": 2.5782463531,
+          "change_pp": 0.3629032702,
+          "new_pp": 2.9411496233,
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        },
+        {
+          "base_pp": 8.2153850206,
+          "change_pp": -0.3014900901,
+          "new_pp": 7.9138949305,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_013_VS_029:adjusted"
+        },
+        {
+          "base_pp": 10.0798368129,
+          "change_pp": -0.2765583567,
+          "new_pp": 9.8032784562,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_021_VS_029:adjusted"
+        }
+      ],
+      "top_primary_changes": [
+        {
+          "base_pp": 13.807207519,
+          "change_pp": -0.4053424175,
+          "new_pp": 13.4018651015,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        },
+        {
+          "base_pp": 6.3047716204,
+          "change_pp": -0.3711973408,
+          "new_pp": 5.9335742796,
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "base_pp": 8.2153850206,
+          "change_pp": -0.3014900901,
+          "new_pp": 7.9138949305,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_013_VS_029:adjusted"
+        },
+        {
+          "base_pp": 10.0798368129,
+          "change_pp": -0.2765583567,
+          "new_pp": 9.8032784562,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_021_VS_029:adjusted"
+        },
+        {
+          "base_pp": -6.6821639016,
+          "change_pp": 0.2471721531,
+          "new_pp": -6.4349917485,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_034_VS_145:adjusted"
+        }
+      ],
+      "variant_id": "repaired-initialization-146d3bc167c27a4a3466"
+    },
+    {
+      "all_full_sign_flips": [
+        {
+          "base": 0.9898587744,
+          "new": -0.0824419552,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_030_VS_143:adjusted"
+        }
+      ],
+      "all_original_sign_flips": [
+        {
+          "base": 0.9898587744,
+          "new": -0.0824419552,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_030_VS_143:adjusted"
+        },
+        {
+          "base": 1.0119099427,
+          "new": -0.0843571962,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_ASIA_030_VS_143:adjusted"
+        }
+      ],
+      "confidence_interval_admitted": "false",
+      "estimation_rows": "24917",
+      "excluded_estimation_rows": "0",
+      "fit_id": "weak_jump:M3_nested",
+      "focus": [
+        {
+          "change_at_common_reference_pp": "-0.1407435113",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-2.5617484472",
+          "common_reference_new_estimate_pp": "-2.7024919585",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-2.7024919585",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q1:2010s_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.1451357088",
+          "common_estimable_reference_rows": "21196",
+          "common_reference_baseline_estimate_pp": "-2.6630527205",
+          "common_reference_new_estimate_pp": "-2.8081884293",
+          "original_reference_rows": "21196",
+          "original_target_new_estimate_pp": "-2.8081884293",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q1:2010s_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.2053807689",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-4.5671201720",
+          "common_reference_new_estimate_pp": "-4.7725009409",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-4.7725009409",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q1:2020_2024_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.2112954695",
+          "common_estimable_reference_rows": "19930",
+          "common_reference_baseline_estimate_pp": "-4.7670510114",
+          "common_reference_new_estimate_pp": "-4.9783464809",
+          "original_reference_rows": "19930",
+          "original_target_new_estimate_pp": "-4.9783464809",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q1:2020_2024_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0955877438",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-3.4957250574",
+          "common_reference_new_estimate_pp": "-3.4001373136",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-3.4001373136",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q2:difference:overall:all:era_standardized"
+        },
+        {
+          "change_at_common_reference_pp": "0.0994745154",
+          "common_estimable_reference_rows": "21581",
+          "common_reference_baseline_estimate_pp": "-3.6228729634",
+          "common_reference_new_estimate_pp": "-3.5233984480",
+          "original_reference_rows": "21581",
+          "original_target_new_estimate_pp": "-3.5233984480",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q2:difference:overall:all:era_standardized"
+        },
+        {
+          "change_at_common_reference_pp": "1.0771054152",
+          "common_estimable_reference_rows": "5899",
+          "common_reference_baseline_estimate_pp": "-4.0623677406",
+          "common_reference_new_estimate_pp": "-2.9852623254",
+          "original_reference_rows": "5899",
+          "original_target_new_estimate_pp": "-2.9852623254",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_ASIA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "1.0660763445",
+          "common_estimable_reference_rows": "471",
+          "common_reference_baseline_estimate_pp": "-3.4157954898",
+          "common_reference_new_estimate_pp": "-2.3497191453",
+          "original_reference_rows": "471",
+          "original_target_new_estimate_pp": "-2.3497191453",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_ASIA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-1.2016842529",
+          "common_estimable_reference_rows": "8175",
+          "common_reference_baseline_estimate_pp": "6.1933841782",
+          "common_reference_new_estimate_pp": "4.9916999253",
+          "original_reference_rows": "8175",
+          "original_target_new_estimate_pp": "4.9916999253",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-1.0892734609",
+          "common_estimable_reference_rows": "244",
+          "common_reference_baseline_estimate_pp": "6.0870046563",
+          "common_reference_new_estimate_pp": "4.9977311954",
+          "original_reference_rows": "244",
+          "original_target_new_estimate_pp": "4.9977311954",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.2937225123",
+          "common_estimable_reference_rows": "1687",
+          "common_reference_baseline_estimate_pp": "1.5456541046",
+          "common_reference_new_estimate_pp": "1.2519315923",
+          "original_reference_rows": "1687",
+          "original_target_new_estimate_pp": "1.2519315923",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.2070455630",
+          "common_estimable_reference_rows": "8",
+          "common_reference_baseline_estimate_pp": "1.0792114327",
+          "common_reference_new_estimate_pp": "0.8721658697",
+          "original_reference_rows": "8",
+          "original_target_new_estimate_pp": "0.8721658697",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_SA:adjusted"
+        }
+      ],
+      "gradient": "0.0000000076",
+      "log_loss": "0.5596842468",
+      "model_id": "M3_nested",
+      "multistart_loss_spread": "0.0000000000",
+      "new_reference_ranges": [],
+      "new_reference_targets": 0,
+      "numerical_fit_passed": "true",
+      "original_estimable": 64,
+      "primary_original_estimable": 27,
+      "primary_sign_flips": [],
+      "removed_parameter_names": "",
+      "scope": "changed score marginals + joint refit; same estimation IDs",
+      "top_comparable_changes": [
+        {
+          "base_pp": 9.603528897,
+          "change_pp": -2.523043827,
+          "new_pp": 7.08048507,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_ASIA_030_VS_034:adjusted"
+        },
+        {
+          "base_pp": 9.2072417876,
+          "change_pp": -2.3925633089,
+          "new_pp": 6.8146784787,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_030_VS_034:adjusted"
+        },
+        {
+          "base_pp": -7.135240695,
+          "change_pp": 2.0518614355,
+          "new_pp": -5.0833792595,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_ASIA_034_VS_145:adjusted"
+        },
+        {
+          "base_pp": -6.8611467508,
+          "change_pp": 1.9521760315,
+          "new_pp": -4.9089707193,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_034_VS_145:adjusted"
+        },
+        {
+          "base_pp": 12.824854354,
+          "change_pp": -1.5247722078,
+          "new_pp": 11.3000821462,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        }
+      ],
+      "top_full_changes": [
+        {
+          "base_pp": 9.2072417876,
+          "change_pp": -2.3925633089,
+          "new_pp": 6.8146784787,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_030_VS_034:adjusted"
+        },
+        {
+          "base_pp": -6.8611467508,
+          "change_pp": 1.9521760315,
+          "new_pp": -4.9089707193,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_034_VS_145:adjusted"
+        },
+        {
+          "base_pp": 12.824854354,
+          "change_pp": -1.5247722078,
+          "new_pp": 11.3000821462,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        },
+        {
+          "base_pp": -8.2173830131,
+          "change_pp": 1.3202625792,
+          "new_pp": -6.8971204339,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_034_VS_143:adjusted"
+        },
+        {
+          "base_pp": 8.4022813174,
+          "change_pp": -1.2289143787,
+          "new_pp": 7.1733669387,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AFR_015_VS_OTHER:adjusted"
+        }
+      ],
+      "top_primary_changes": [
+        {
+          "base_pp": 9.2072417876,
+          "change_pp": -2.3925633089,
+          "new_pp": 6.8146784787,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_030_VS_034:adjusted"
+        },
+        {
+          "base_pp": -6.8611467508,
+          "change_pp": 1.9521760315,
+          "new_pp": -4.9089707193,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_034_VS_145:adjusted"
+        },
+        {
+          "base_pp": 12.824854354,
+          "change_pp": -1.5247722078,
+          "new_pp": 11.3000821462,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        },
+        {
+          "base_pp": 8.4022813174,
+          "change_pp": -1.2289143787,
+          "new_pp": 7.1733669387,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AFR_015_VS_OTHER:adjusted"
+        },
+        {
+          "base_pp": 3.811965544,
+          "change_pp": -1.2042338354,
+          "new_pp": 2.6077317086,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_030_VS_035:adjusted"
+        }
+      ],
+      "variant_id": "weak_jump"
+    },
+    {
+      "all_full_sign_flips": [
+        {
+          "base": 0.822193899,
+          "new": -0.2649031028,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_030_VS_143:adjusted"
+        }
+      ],
+      "all_original_sign_flips": [
+        {
+          "base": 0.822193899,
+          "new": -0.2649031028,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_030_VS_143:adjusted"
+        },
+        {
+          "base": 0.8304569206,
+          "new": -0.26815909,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_ASIA_030_VS_143:adjusted"
+        }
+      ],
+      "confidence_interval_admitted": "false",
+      "estimation_rows": "24917",
+      "excluded_estimation_rows": "0",
+      "fit_id": "weak_jump:M4_type_slope",
+      "focus": [
+        {
+          "change_at_common_reference_pp": "-0.1727188392",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-2.2475089010",
+          "common_reference_new_estimate_pp": "-2.4202277402",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-2.4202277402",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q1:2010s_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.1793709925",
+          "common_estimable_reference_rows": "21196",
+          "common_reference_baseline_estimate_pp": "-2.3291596307",
+          "common_reference_new_estimate_pp": "-2.5085306232",
+          "original_reference_rows": "21196",
+          "original_target_new_estimate_pp": "-2.5085306232",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q1:2010s_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.2389918286",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-4.1959955347",
+          "common_reference_new_estimate_pp": "-4.4349873633",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-4.4349873633",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q1:2020_2024_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.2511807816",
+          "common_estimable_reference_rows": "19930",
+          "common_reference_baseline_estimate_pp": "-4.3448583121",
+          "common_reference_new_estimate_pp": "-4.5960390937",
+          "original_reference_rows": "19930",
+          "original_target_new_estimate_pp": "-4.5960390937",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q1:2020_2024_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0948015035",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-3.5142131586",
+          "common_reference_new_estimate_pp": "-3.4194116551",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-3.4194116551",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q2:difference:overall:all:era_standardized"
+        },
+        {
+          "change_at_common_reference_pp": "0.1072040696",
+          "common_estimable_reference_rows": "21581",
+          "common_reference_baseline_estimate_pp": "-3.7195567088",
+          "common_reference_new_estimate_pp": "-3.6123526392",
+          "original_reference_rows": "21581",
+          "original_target_new_estimate_pp": "-3.6123526392",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q2:difference:overall:all:era_standardized"
+        },
+        {
+          "change_at_common_reference_pp": "1.0680844262",
+          "common_estimable_reference_rows": "5899",
+          "common_reference_baseline_estimate_pp": "-4.2746681563",
+          "common_reference_new_estimate_pp": "-3.2065837301",
+          "original_reference_rows": "5899",
+          "original_target_new_estimate_pp": "-3.2065837301",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_ASIA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "1.1296843100",
+          "common_estimable_reference_rows": "471",
+          "common_reference_baseline_estimate_pp": "-3.8460182918",
+          "common_reference_new_estimate_pp": "-2.7163339818",
+          "original_reference_rows": "471",
+          "original_target_new_estimate_pp": "-2.7163339818",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_ASIA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-1.1490985033",
+          "common_estimable_reference_rows": "8175",
+          "common_reference_baseline_estimate_pp": "6.3047716204",
+          "common_reference_new_estimate_pp": "5.1556731171",
+          "original_reference_rows": "8175",
+          "original_target_new_estimate_pp": "5.1556731171",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-1.0958713681",
+          "common_estimable_reference_rows": "244",
+          "common_reference_baseline_estimate_pp": "6.3199547518",
+          "common_reference_new_estimate_pp": "5.2240833837",
+          "original_reference_rows": "244",
+          "original_target_new_estimate_pp": "5.2240833837",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.4312847501",
+          "common_estimable_reference_rows": "1687",
+          "common_reference_baseline_estimate_pp": "2.5782463531",
+          "common_reference_new_estimate_pp": "2.1469616030",
+          "original_reference_rows": "1687",
+          "original_target_new_estimate_pp": "2.1469616030",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.3930752596",
+          "common_estimable_reference_rows": "8",
+          "common_reference_baseline_estimate_pp": "2.1382411805",
+          "common_reference_new_estimate_pp": "1.7451659209",
+          "original_reference_rows": "8",
+          "original_target_new_estimate_pp": "1.7451659209",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_SA:adjusted"
+        }
+      ],
+      "gradient": "0.0000000114",
+      "log_loss": "0.5587967741",
+      "model_id": "M4_type_slope",
+      "multistart_loss_spread": "0.0000000000",
+      "new_reference_ranges": [],
+      "new_reference_targets": 0,
+      "numerical_fit_passed": "true",
+      "original_estimable": 64,
+      "primary_original_estimable": 27,
+      "primary_sign_flips": [],
+      "removed_parameter_names": "",
+      "scope": "changed score marginals + joint refit; same estimation IDs",
+      "top_comparable_changes": [
+        {
+          "base_pp": 9.2339014479,
+          "change_pp": -2.4566417553,
+          "new_pp": 6.7772596926,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_ASIA_030_VS_034:adjusted"
+        },
+        {
+          "base_pp": 8.9202218551,
+          "change_pp": -2.3522136131,
+          "new_pp": 6.568008242,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_030_VS_034:adjusted"
+        },
+        {
+          "base_pp": -6.9084027887,
+          "change_pp": 2.0089363671,
+          "new_pp": -4.8994664216,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_ASIA_034_VS_145:adjusted"
+        },
+        {
+          "base_pp": -6.6821639016,
+          "change_pp": 1.9246968616,
+          "new_pp": -4.75746704,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_034_VS_145:adjusted"
+        },
+        {
+          "base_pp": 14.7466225706,
+          "change_pp": -1.6458542725,
+          "new_pp": 13.1007682981,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        }
+      ],
+      "top_full_changes": [
+        {
+          "base_pp": 8.9202218551,
+          "change_pp": -2.3522136131,
+          "new_pp": 6.568008242,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_030_VS_034:adjusted"
+        },
+        {
+          "base_pp": -6.6821639016,
+          "change_pp": 1.9246968616,
+          "new_pp": -4.75746704,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_034_VS_145:adjusted"
+        },
+        {
+          "base_pp": 13.807207519,
+          "change_pp": -1.5817437925,
+          "new_pp": 12.2254637265,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        },
+        {
+          "base_pp": -8.0980279561,
+          "change_pp": 1.2651166112,
+          "new_pp": -6.8329113449,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_034_VS_143:adjusted"
+        },
+        {
+          "base_pp": 8.3464715427,
+          "change_pp": -1.2064895874,
+          "new_pp": 7.1399819553,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AFR_015_VS_OTHER:adjusted"
+        }
+      ],
+      "top_primary_changes": [
+        {
+          "base_pp": 8.9202218551,
+          "change_pp": -2.3522136131,
+          "new_pp": 6.568008242,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_030_VS_034:adjusted"
+        },
+        {
+          "base_pp": -6.6821639016,
+          "change_pp": 1.9246968616,
+          "new_pp": -4.75746704,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_034_VS_145:adjusted"
+        },
+        {
+          "base_pp": 13.807207519,
+          "change_pp": -1.5817437925,
+          "new_pp": 12.2254637265,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        },
+        {
+          "base_pp": 8.3464715427,
+          "change_pp": -1.2064895874,
+          "new_pp": 7.1399819553,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AFR_015_VS_OTHER:adjusted"
+        },
+        {
+          "base_pp": 8.9155454562,
+          "change_pp": -1.1955648046,
+          "new_pp": 7.7199806516,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_FOCUS:adjusted"
+        }
+      ],
+      "variant_id": "weak_jump"
+    },
+    {
+      "all_full_sign_flips": [],
+      "all_original_sign_flips": [],
+      "confidence_interval_admitted": "false",
+      "estimation_rows": "24558",
+      "excluded_estimation_rows": "359",
+      "fit_id": "exclude_cold_start:M3_nested",
+      "focus": [
+        {
+          "change_at_common_reference_pp": "-0.0099371157",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-2.5617484472",
+          "common_reference_new_estimate_pp": "-2.5716855629",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-2.5716855629",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q1:2010s_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0106996876",
+          "common_estimable_reference_rows": "21196",
+          "common_reference_baseline_estimate_pp": "-2.6630527205",
+          "common_reference_new_estimate_pp": "-2.6737524081",
+          "original_reference_rows": "21196",
+          "original_target_new_estimate_pp": "-2.6737524081",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q1:2010s_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0177313651",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-4.5671201720",
+          "common_reference_new_estimate_pp": "-4.5848515371",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-4.5848515371",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q1:2020_2024_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0193780962",
+          "common_estimable_reference_rows": "19930",
+          "common_reference_baseline_estimate_pp": "-4.7670510114",
+          "common_reference_new_estimate_pp": "-4.7864291076",
+          "original_reference_rows": "19930",
+          "original_target_new_estimate_pp": "-4.7864291076",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q1:2020_2024_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0974413496",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-3.4957250574",
+          "common_reference_new_estimate_pp": "-3.3982837078",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-3.3982837078",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q2:difference:overall:all:era_standardized"
+        },
+        {
+          "change_at_common_reference_pp": "0.0999394467",
+          "common_estimable_reference_rows": "21581",
+          "common_reference_baseline_estimate_pp": "-3.6228729634",
+          "common_reference_new_estimate_pp": "-3.5229335167",
+          "original_reference_rows": "21581",
+          "original_target_new_estimate_pp": "-3.5229335167",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q2:difference:overall:all:era_standardized"
+        },
+        {
+          "change_at_common_reference_pp": "0.3050904420",
+          "common_estimable_reference_rows": "5899",
+          "common_reference_baseline_estimate_pp": "-4.0623677406",
+          "common_reference_new_estimate_pp": "-3.7572772986",
+          "original_reference_rows": "5899",
+          "original_target_new_estimate_pp": "-3.7572772986",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_ASIA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.2838690959",
+          "common_estimable_reference_rows": "471",
+          "common_reference_baseline_estimate_pp": "-3.4157954898",
+          "common_reference_new_estimate_pp": "-3.1319263939",
+          "original_reference_rows": "471",
+          "original_target_new_estimate_pp": "-3.1319263939",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_ASIA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.3644833900",
+          "common_estimable_reference_rows": "8175",
+          "common_reference_baseline_estimate_pp": "6.1933841782",
+          "common_reference_new_estimate_pp": "5.8289007882",
+          "original_reference_rows": "8175",
+          "original_target_new_estimate_pp": "5.8289007882",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.3248770204",
+          "common_estimable_reference_rows": "244",
+          "common_reference_baseline_estimate_pp": "6.0870046563",
+          "common_reference_new_estimate_pp": "5.7621276359",
+          "original_reference_rows": "244",
+          "original_target_new_estimate_pp": "5.7621276359",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.3802941156",
+          "common_estimable_reference_rows": "1687",
+          "common_reference_baseline_estimate_pp": "1.5456541046",
+          "common_reference_new_estimate_pp": "1.9259482202",
+          "original_reference_rows": "1687",
+          "original_target_new_estimate_pp": "1.9259482202",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.3182538230",
+          "common_estimable_reference_rows": "8",
+          "common_reference_baseline_estimate_pp": "1.0792114327",
+          "common_reference_new_estimate_pp": "1.3974652557",
+          "original_reference_rows": "8",
+          "original_target_new_estimate_pp": "1.3974652557",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_SA:adjusted"
+        }
+      ],
+      "gradient": "0.0000000050",
+      "log_loss": "0.5634940912",
+      "model_id": "M3_nested",
+      "multistart_loss_spread": "0.0000000000",
+      "new_reference_ranges": [],
+      "new_reference_targets": 0,
+      "numerical_fit_passed": "true",
+      "original_estimable": 64,
+      "primary_original_estimable": 27,
+      "primary_sign_flips": [],
+      "removed_parameter_names": "",
+      "scope": "joint estimation rows only; rating histories unchanged",
+      "top_comparable_changes": [
+        {
+          "base_pp": 9.603528897,
+          "change_pp": 0.4536185795,
+          "new_pp": 10.0571474765,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_ASIA_030_VS_034:adjusted"
+        },
+        {
+          "base_pp": 9.2072417876,
+          "change_pp": 0.4308451568,
+          "new_pp": 9.6380869444,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_030_VS_034:adjusted"
+        },
+        {
+          "base_pp": -8.7968313019,
+          "change_pp": -0.4260865837,
+          "new_pp": -9.2229178856,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_ASIA_034_VS_143:adjusted"
+        },
+        {
+          "base_pp": 5.6139354174,
+          "change_pp": 0.4249059134,
+          "new_pp": 6.0388413308,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_ASIA_035_VS_034:adjusted"
+        },
+        {
+          "base_pp": -0.2059093616,
+          "change_pp": -0.4231119438,
+          "new_pp": -0.6290213054,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_EUR_155_VS_154:adjusted"
+        }
+      ],
+      "top_full_changes": [
+        {
+          "base_pp": 9.2072417876,
+          "change_pp": 0.4308451568,
+          "new_pp": 9.6380869444,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_030_VS_034:adjusted"
+        },
+        {
+          "base_pp": -0.2017098064,
+          "change_pp": -0.4142914763,
+          "new_pp": -0.6160012827,
+          "reference_kind": "full",
+          "target_id": "Q3:C_EUR_155_VS_154:adjusted"
+        },
+        {
+          "base_pp": 5.3952762435,
+          "change_pp": 0.4077460118,
+          "new_pp": 5.8030222553,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_035_VS_034:adjusted"
+        },
+        {
+          "base_pp": -8.2173830131,
+          "change_pp": -0.3898429971,
+          "new_pp": -8.6072260102,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_034_VS_143:adjusted"
+        },
+        {
+          "base_pp": 1.5456541046,
+          "change_pp": 0.3802941156,
+          "new_pp": 1.9259482202,
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        }
+      ],
+      "top_primary_changes": [
+        {
+          "base_pp": 9.2072417876,
+          "change_pp": 0.4308451568,
+          "new_pp": 9.6380869444,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_030_VS_034:adjusted"
+        },
+        {
+          "base_pp": -0.2017098064,
+          "change_pp": -0.4142914763,
+          "new_pp": -0.6160012827,
+          "reference_kind": "full",
+          "target_id": "Q3:C_EUR_155_VS_154:adjusted"
+        },
+        {
+          "base_pp": 5.3952762435,
+          "change_pp": 0.4077460118,
+          "new_pp": 5.8030222553,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_035_VS_034:adjusted"
+        },
+        {
+          "base_pp": 6.1933841782,
+          "change_pp": -0.36448339,
+          "new_pp": 5.8289007882,
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "base_pp": -4.0623677406,
+          "change_pp": 0.305090442,
+          "new_pp": -3.7572772986,
+          "reference_kind": "full",
+          "target_id": "Q3:B_ASIA:adjusted"
+        }
+      ],
+      "variant_id": "exclude_cold_start"
+    },
+    {
+      "all_full_sign_flips": [],
+      "all_original_sign_flips": [],
+      "confidence_interval_admitted": "false",
+      "estimation_rows": "24837",
+      "excluded_estimation_rows": "80",
+      "fit_id": "exclude_previously_disconnected:M3_nested",
+      "focus": [
+        {
+          "change_at_common_reference_pp": "-0.0252109148",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-2.5617484472",
+          "common_reference_new_estimate_pp": "-2.5869593620",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-2.5869593620",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q1:2010s_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0265625569",
+          "common_estimable_reference_rows": "21196",
+          "common_reference_baseline_estimate_pp": "-2.6630527205",
+          "common_reference_new_estimate_pp": "-2.6896152774",
+          "original_reference_rows": "21196",
+          "original_target_new_estimate_pp": "-2.6896152774",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q1:2010s_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0181250227",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-4.5671201720",
+          "common_reference_new_estimate_pp": "-4.5852451947",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-4.5852451947",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q1:2020_2024_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0195677724",
+          "common_estimable_reference_rows": "19930",
+          "common_reference_baseline_estimate_pp": "-4.7670510114",
+          "common_reference_new_estimate_pp": "-4.7866187838",
+          "original_reference_rows": "19930",
+          "original_target_new_estimate_pp": "-4.7866187838",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q1:2020_2024_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0529843519",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-3.4957250574",
+          "common_reference_new_estimate_pp": "-3.4427407055",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-3.4427407055",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q2:difference:overall:all:era_standardized"
+        },
+        {
+          "change_at_common_reference_pp": "0.0544614695",
+          "common_estimable_reference_rows": "21581",
+          "common_reference_baseline_estimate_pp": "-3.6228729634",
+          "common_reference_new_estimate_pp": "-3.5684114939",
+          "original_reference_rows": "21581",
+          "original_target_new_estimate_pp": "-3.5684114939",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q2:difference:overall:all:era_standardized"
+        },
+        {
+          "change_at_common_reference_pp": "0.0239058796",
+          "common_estimable_reference_rows": "5899",
+          "common_reference_baseline_estimate_pp": "-4.0623677406",
+          "common_reference_new_estimate_pp": "-4.0384618610",
+          "original_reference_rows": "5899",
+          "original_target_new_estimate_pp": "-4.0384618610",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_ASIA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0021994259",
+          "common_estimable_reference_rows": "471",
+          "common_reference_baseline_estimate_pp": "-3.4157954898",
+          "common_reference_new_estimate_pp": "-3.4179949157",
+          "original_reference_rows": "471",
+          "original_target_new_estimate_pp": "-3.4179949157",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_ASIA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.1202119332",
+          "common_estimable_reference_rows": "8175",
+          "common_reference_baseline_estimate_pp": "6.1933841782",
+          "common_reference_new_estimate_pp": "6.0731722450",
+          "original_reference_rows": "8175",
+          "original_target_new_estimate_pp": "6.0731722450",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0833943307",
+          "common_estimable_reference_rows": "244",
+          "common_reference_baseline_estimate_pp": "6.0870046563",
+          "common_reference_new_estimate_pp": "6.0036103256",
+          "original_reference_rows": "244",
+          "original_target_new_estimate_pp": "6.0036103256",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0778668023",
+          "common_estimable_reference_rows": "1687",
+          "common_reference_baseline_estimate_pp": "1.5456541046",
+          "common_reference_new_estimate_pp": "1.6235209069",
+          "original_reference_rows": "1687",
+          "original_target_new_estimate_pp": "1.6235209069",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0697021571",
+          "common_estimable_reference_rows": "8",
+          "common_reference_baseline_estimate_pp": "1.0792114327",
+          "common_reference_new_estimate_pp": "1.1489135898",
+          "original_reference_rows": "8",
+          "original_target_new_estimate_pp": "1.1489135898",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_SA:adjusted"
+        }
+      ],
+      "gradient": "0.0000000165",
+      "log_loss": "0.5647327284",
+      "model_id": "M3_nested",
+      "multistart_loss_spread": "0.0000000000",
+      "new_reference_ranges": [],
+      "new_reference_targets": 0,
+      "numerical_fit_passed": "true",
+      "original_estimable": 64,
+      "primary_original_estimable": 27,
+      "primary_sign_flips": [],
+      "removed_parameter_names": "",
+      "scope": "joint estimation rows only; rating histories unchanged",
+      "top_comparable_changes": [
+        {
+          "base_pp": 2.3369456459,
+          "change_pp": -0.2085317501,
+          "new_pp": 2.1284138958,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_AMER_005_VS_021:adjusted"
+        },
+        {
+          "base_pp": 2.1377030166,
+          "change_pp": -0.1923842613,
+          "new_pp": 1.9453187553,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_021:adjusted"
+        },
+        {
+          "base_pp": 9.603528897,
+          "change_pp": 0.1578103529,
+          "new_pp": 9.7613392499,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_ASIA_030_VS_034:adjusted"
+        },
+        {
+          "base_pp": 1.0119099427,
+          "change_pp": 0.1529378651,
+          "new_pp": 1.1648478078,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_ASIA_030_VS_143:adjusted"
+        },
+        {
+          "base_pp": 9.2072417876,
+          "change_pp": 0.1504678244,
+          "new_pp": 9.357709612,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_030_VS_034:adjusted"
+        }
+      ],
+      "top_full_changes": [
+        {
+          "base_pp": 2.1377030166,
+          "change_pp": -0.1923842613,
+          "new_pp": 1.9453187553,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_021:adjusted"
+        },
+        {
+          "base_pp": 9.2072417876,
+          "change_pp": 0.1504678244,
+          "new_pp": 9.357709612,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_030_VS_034:adjusted"
+        },
+        {
+          "base_pp": 0.9898587744,
+          "change_pp": 0.1491470284,
+          "new_pp": 1.1390058028,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_030_VS_143:adjusted"
+        },
+        {
+          "base_pp": 7.7356784842,
+          "change_pp": -0.1376811437,
+          "new_pp": 7.5979973405,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_FOCUS:adjusted"
+        },
+        {
+          "base_pp": -6.8611467508,
+          "change_pp": -0.1366548611,
+          "new_pp": -6.9978016119,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_034_VS_145:adjusted"
+        }
+      ],
+      "top_primary_changes": [
+        {
+          "base_pp": 2.1377030166,
+          "change_pp": -0.1923842613,
+          "new_pp": 1.9453187553,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_021:adjusted"
+        },
+        {
+          "base_pp": 9.2072417876,
+          "change_pp": 0.1504678244,
+          "new_pp": 9.357709612,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_030_VS_034:adjusted"
+        },
+        {
+          "base_pp": 7.7356784842,
+          "change_pp": -0.1376811437,
+          "new_pp": 7.5979973405,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_FOCUS:adjusted"
+        },
+        {
+          "base_pp": -6.8611467508,
+          "change_pp": -0.1366548611,
+          "new_pp": -6.9978016119,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_034_VS_145:adjusted"
+        },
+        {
+          "base_pp": 4.3981032564,
+          "change_pp": -0.1333871407,
+          "new_pp": 4.2647161157,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_013:adjusted"
+        }
+      ],
+      "variant_id": "exclude_previously_disconnected"
+    },
+    {
+      "all_full_sign_flips": [],
+      "all_original_sign_flips": [],
+      "confidence_interval_admitted": "false",
+      "estimation_rows": "24818",
+      "excluded_estimation_rows": "99",
+      "fit_id": "exclude_unknown_geography:M3_nested",
+      "focus": [
+        {
+          "change_at_common_reference_pp": "0.0261742853",
+          "common_estimable_reference_rows": "24818",
+          "common_reference_baseline_estimate_pp": "-2.5636271048",
+          "common_reference_new_estimate_pp": "-2.5374528194",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "",
+          "reference_change": "NEW narrower estimand, not original target",
+          "reference_kind": "full",
+          "target_id": "Q1:2010s_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0269776807",
+          "common_estimable_reference_rows": "21196",
+          "common_reference_baseline_estimate_pp": "-2.6630527205",
+          "common_reference_new_estimate_pp": "-2.6360750398",
+          "original_reference_rows": "21196",
+          "original_target_new_estimate_pp": "-2.6360750398",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q1:2010s_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0198326856",
+          "common_estimable_reference_rows": "24818",
+          "common_reference_baseline_estimate_pp": "-4.5706098199",
+          "common_reference_new_estimate_pp": "-4.5507771343",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "",
+          "reference_change": "NEW narrower estimand, not original target",
+          "reference_kind": "full",
+          "target_id": "Q1:2020_2024_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0201292755",
+          "common_estimable_reference_rows": "19930",
+          "common_reference_baseline_estimate_pp": "-4.7670510114",
+          "common_reference_new_estimate_pp": "-4.7469217359",
+          "original_reference_rows": "19930",
+          "original_target_new_estimate_pp": "-4.7469217359",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q1:2020_2024_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0114700550",
+          "common_estimable_reference_rows": "24818",
+          "common_reference_baseline_estimate_pp": "-3.4981399366",
+          "common_reference_new_estimate_pp": "-3.5096099916",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "",
+          "reference_change": "NEW narrower estimand, not original target",
+          "reference_kind": "full",
+          "target_id": "Q2:difference:overall:all:era_standardized"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0122345136",
+          "common_estimable_reference_rows": "21548",
+          "common_reference_baseline_estimate_pp": "-3.6240401885",
+          "common_reference_new_estimate_pp": "-3.6362747021",
+          "original_reference_rows": "21581",
+          "original_target_new_estimate_pp": "",
+          "reference_change": "NEW narrower estimand, not original target",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q2:difference:overall:all:era_standardized"
+        },
+        {
+          "change_at_common_reference_pp": "0.0069466529",
+          "common_estimable_reference_rows": "5899",
+          "common_reference_baseline_estimate_pp": "-4.0623677406",
+          "common_reference_new_estimate_pp": "-4.0554210877",
+          "original_reference_rows": "5899",
+          "original_target_new_estimate_pp": "-4.0554210877",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_ASIA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0021879563",
+          "common_estimable_reference_rows": "471",
+          "common_reference_baseline_estimate_pp": "-3.4157954898",
+          "common_reference_new_estimate_pp": "-3.4136075335",
+          "original_reference_rows": "471",
+          "original_target_new_estimate_pp": "-3.4136075335",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_ASIA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0342819706",
+          "common_estimable_reference_rows": "8175",
+          "common_reference_baseline_estimate_pp": "6.1933841782",
+          "common_reference_new_estimate_pp": "6.1591022076",
+          "original_reference_rows": "8175",
+          "original_target_new_estimate_pp": "6.1591022076",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0938157850",
+          "common_estimable_reference_rows": "244",
+          "common_reference_baseline_estimate_pp": "6.0870046563",
+          "common_reference_new_estimate_pp": "5.9931888713",
+          "original_reference_rows": "244",
+          "original_target_new_estimate_pp": "5.9931888713",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0894845886",
+          "common_estimable_reference_rows": "1687",
+          "common_reference_baseline_estimate_pp": "1.5456541046",
+          "common_reference_new_estimate_pp": "1.6351386932",
+          "original_reference_rows": "1687",
+          "original_target_new_estimate_pp": "1.6351386932",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0705497867",
+          "common_estimable_reference_rows": "8",
+          "common_reference_baseline_estimate_pp": "1.0792114327",
+          "common_reference_new_estimate_pp": "1.1497612194",
+          "original_reference_rows": "8",
+          "original_target_new_estimate_pp": "1.1497612194",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_SA:adjusted"
+        }
+      ],
+      "gradient": "0.0000000070",
+      "log_loss": "0.5653431739",
+      "model_id": "M3_nested",
+      "multistart_loss_spread": "0.0000000000",
+      "new_reference_ranges": [
+        [
+          5845,
+          5844
+        ],
+        [
+          5904,
+          5899
+        ],
+        [
+          6798,
+          6797
+        ],
+        [
+          13275,
+          13258
+        ],
+        [
+          13431,
+          13413
+        ],
+        [
+          13833,
+          13819
+        ],
+        [
+          14259,
+          14226
+        ],
+        [
+          15011,
+          14990
+        ],
+        [
+          15153,
+          15124
+        ],
+        [
+          21581,
+          21548
+        ],
+        [
+          24917,
+          24818
+        ],
+        [
+          24917,
+          24844
+        ]
+      ],
+      "new_reference_targets": 39,
+      "numerical_fit_passed": "true",
+      "original_estimable": 25,
+      "primary_original_estimable": 2,
+      "primary_sign_flips": [],
+      "removed_parameter_names": "home:region:unknown;away:region:unknown",
+      "scope": "joint estimation rows only; rating histories unchanged",
+      "top_comparable_changes": [
+        {
+          "base_pp": -0.4745078344,
+          "change_pp": 0.2096659614,
+          "new_pp": -0.264841873,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_EUR_151_VS_155:adjusted"
+        },
+        {
+          "base_pp": -0.4636768507,
+          "change_pp": 0.2048843758,
+          "new_pp": -0.258792475,
+          "reference_kind": "full",
+          "target_id": "Q3:C_EUR_151_VS_155:adjusted"
+        },
+        {
+          "base_pp": -0.2059465343,
+          "change_pp": -0.139293723,
+          "new_pp": -0.3452402574,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_EUR_155_VS_154:adjusted"
+        },
+        {
+          "base_pp": -0.2018298994,
+          "change_pp": -0.1365215093,
+          "new_pp": -0.3383514087,
+          "reference_kind": "full",
+          "target_id": "Q3:C_EUR_155_VS_154:adjusted"
+        },
+        {
+          "base_pp": -0.56196344,
+          "change_pp": 0.1143591319,
+          "new_pp": -0.4476043082,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_EUR_151_VS_039:adjusted"
+        }
+      ],
+      "top_full_changes": [
+        {
+          "base_pp": 1.5456541046,
+          "change_pp": 0.0894845886,
+          "new_pp": 1.6351386932,
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        },
+        {
+          "base_pp": 6.1933841782,
+          "change_pp": -0.0342819706,
+          "new_pp": 6.1591022076,
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "base_pp": -4.0623677406,
+          "change_pp": 0.0069466529,
+          "new_pp": -4.0554210877,
+          "reference_kind": "full",
+          "target_id": "Q3:B_ASIA:adjusted"
+        }
+      ],
+      "top_primary_changes": [
+        {
+          "base_pp": 6.1933841782,
+          "change_pp": -0.0342819706,
+          "new_pp": 6.1591022076,
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "base_pp": -4.0623677406,
+          "change_pp": 0.0069466529,
+          "new_pp": -4.0554210877,
+          "reference_kind": "full",
+          "target_id": "Q3:B_ASIA:adjusted"
+        }
+      ],
+      "variant_id": "exclude_unknown_geography"
+    },
+    {
+      "all_full_sign_flips": [],
+      "all_original_sign_flips": [],
+      "confidence_interval_admitted": "false",
+      "estimation_rows": "24470",
+      "excluded_estimation_rows": "447",
+      "fit_id": "exclude_history_or_geography_flags:M3_nested",
+      "focus": [
+        {
+          "change_at_common_reference_pp": "0.0243050626",
+          "common_estimable_reference_rows": "24818",
+          "common_reference_baseline_estimate_pp": "-2.5636271048",
+          "common_reference_new_estimate_pp": "-2.5393220421",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "",
+          "reference_change": "NEW narrower estimand, not original target",
+          "reference_kind": "full",
+          "target_id": "Q1:2010s_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0243708854",
+          "common_estimable_reference_rows": "21196",
+          "common_reference_baseline_estimate_pp": "-2.6630527205",
+          "common_reference_new_estimate_pp": "-2.6386818351",
+          "original_reference_rows": "21196",
+          "original_target_new_estimate_pp": "-2.6386818351",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q1:2010s_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0133042844",
+          "common_estimable_reference_rows": "24818",
+          "common_reference_baseline_estimate_pp": "-4.5706098199",
+          "common_reference_new_estimate_pp": "-4.5573055355",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "",
+          "reference_change": "NEW narrower estimand, not original target",
+          "reference_kind": "full",
+          "target_id": "Q1:2020_2024_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0119785291",
+          "common_estimable_reference_rows": "19930",
+          "common_reference_baseline_estimate_pp": "-4.7670510114",
+          "common_reference_new_estimate_pp": "-4.7550724823",
+          "original_reference_rows": "19930",
+          "original_target_new_estimate_pp": "-4.7550724823",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q1:2020_2024_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0781928463",
+          "common_estimable_reference_rows": "24818",
+          "common_reference_baseline_estimate_pp": "-3.4981399366",
+          "common_reference_new_estimate_pp": "-3.4199470903",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "",
+          "reference_change": "NEW narrower estimand, not original target",
+          "reference_kind": "full",
+          "target_id": "Q2:difference:overall:all:era_standardized"
+        },
+        {
+          "change_at_common_reference_pp": "0.0795804774",
+          "common_estimable_reference_rows": "21548",
+          "common_reference_baseline_estimate_pp": "-3.6240401885",
+          "common_reference_new_estimate_pp": "-3.5444597111",
+          "original_reference_rows": "21581",
+          "original_target_new_estimate_pp": "",
+          "reference_change": "NEW narrower estimand, not original target",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q2:difference:overall:all:era_standardized"
+        },
+        {
+          "change_at_common_reference_pp": "0.2885882562",
+          "common_estimable_reference_rows": "5899",
+          "common_reference_baseline_estimate_pp": "-4.0623677406",
+          "common_reference_new_estimate_pp": "-3.7737794844",
+          "original_reference_rows": "5899",
+          "original_target_new_estimate_pp": "-3.7737794844",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_ASIA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.2649297728",
+          "common_estimable_reference_rows": "471",
+          "common_reference_baseline_estimate_pp": "-3.4157954898",
+          "common_reference_new_estimate_pp": "-3.1508657170",
+          "original_reference_rows": "471",
+          "original_target_new_estimate_pp": "-3.1508657170",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_ASIA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.3573201328",
+          "common_estimable_reference_rows": "8175",
+          "common_reference_baseline_estimate_pp": "6.1933841782",
+          "common_reference_new_estimate_pp": "5.8360640454",
+          "original_reference_rows": "8175",
+          "original_target_new_estimate_pp": "5.8360640454",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.3745051297",
+          "common_estimable_reference_rows": "244",
+          "common_reference_baseline_estimate_pp": "6.0870046563",
+          "common_reference_new_estimate_pp": "5.7124995266",
+          "original_reference_rows": "244",
+          "original_target_new_estimate_pp": "5.7124995266",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.4288212628",
+          "common_estimable_reference_rows": "1687",
+          "common_reference_baseline_estimate_pp": "1.5456541046",
+          "common_reference_new_estimate_pp": "1.9744753674",
+          "original_reference_rows": "1687",
+          "original_target_new_estimate_pp": "1.9744753674",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.3551229725",
+          "common_estimable_reference_rows": "8",
+          "common_reference_baseline_estimate_pp": "1.0792114327",
+          "common_reference_new_estimate_pp": "1.4343344052",
+          "original_reference_rows": "8",
+          "original_target_new_estimate_pp": "1.4343344052",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_SA:adjusted"
+        }
+      ],
+      "gradient": "0.0000000103",
+      "log_loss": "0.5636386092",
+      "model_id": "M3_nested",
+      "multistart_loss_spread": "0.0000000000",
+      "new_reference_ranges": [
+        [
+          5845,
+          5844
+        ],
+        [
+          5904,
+          5899
+        ],
+        [
+          6798,
+          6797
+        ],
+        [
+          13275,
+          13258
+        ],
+        [
+          13431,
+          13413
+        ],
+        [
+          13833,
+          13819
+        ],
+        [
+          14259,
+          14226
+        ],
+        [
+          15011,
+          14990
+        ],
+        [
+          15153,
+          15124
+        ],
+        [
+          21581,
+          21548
+        ],
+        [
+          24917,
+          24818
+        ],
+        [
+          24917,
+          24844
+        ]
+      ],
+      "new_reference_targets": 39,
+      "numerical_fit_passed": "true",
+      "original_estimable": 25,
+      "primary_original_estimable": 2,
+      "primary_sign_flips": [],
+      "removed_parameter_names": "home:region:unknown;away:region:unknown",
+      "scope": "joint estimation rows only; rating histories unchanged",
+      "top_comparable_changes": [
+        {
+          "base_pp": 9.603528897,
+          "change_pp": 0.4575585899,
+          "new_pp": 10.0610874869,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_ASIA_030_VS_034:adjusted"
+        },
+        {
+          "base_pp": -0.2059465343,
+          "change_pp": -0.4521059522,
+          "new_pp": -0.6580524865,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_EUR_155_VS_154:adjusted"
+        },
+        {
+          "base_pp": -0.2018298994,
+          "change_pp": -0.4429055418,
+          "new_pp": -0.6447354412,
+          "reference_kind": "full",
+          "target_id": "Q3:C_EUR_155_VS_154:adjusted"
+        },
+        {
+          "base_pp": 9.2150064031,
+          "change_pp": 0.4324380022,
+          "new_pp": 9.6474444054,
+          "reference_kind": "full",
+          "target_id": "Q3:C_ASIA_030_VS_034:adjusted"
+        },
+        {
+          "base_pp": 1.5456541046,
+          "change_pp": 0.4288212628,
+          "new_pp": 1.9744753674,
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        }
+      ],
+      "top_full_changes": [
+        {
+          "base_pp": 1.5456541046,
+          "change_pp": 0.4288212628,
+          "new_pp": 1.9744753674,
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        },
+        {
+          "base_pp": 6.1933841782,
+          "change_pp": -0.3573201328,
+          "new_pp": 5.8360640454,
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "base_pp": -4.0623677406,
+          "change_pp": 0.2885882562,
+          "new_pp": -3.7737794844,
+          "reference_kind": "full",
+          "target_id": "Q3:B_ASIA:adjusted"
+        }
+      ],
+      "top_primary_changes": [
+        {
+          "base_pp": 6.1933841782,
+          "change_pp": -0.3573201328,
+          "new_pp": 5.8360640454,
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "base_pp": -4.0623677406,
+          "change_pp": 0.2885882562,
+          "new_pp": -3.7737794844,
+          "reference_kind": "full",
+          "target_id": "Q3:B_ASIA:adjusted"
+        }
+      ],
+      "variant_id": "exclude_history_or_geography_flags"
+    },
+    {
+      "all_full_sign_flips": [],
+      "all_original_sign_flips": [],
+      "confidence_interval_admitted": "false",
+      "estimation_rows": "22012",
+      "excluded_estimation_rows": "2905",
+      "fit_id": "exclude_initialization_mean_sensitive:M3_nested",
+      "focus": [
+        {
+          "change_at_common_reference_pp": "-0.0363852156",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-2.5617484472",
+          "common_reference_new_estimate_pp": "-2.5981336628",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-2.5981336628",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q1:2010s_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.0367267546",
+          "common_estimable_reference_rows": "21196",
+          "common_reference_baseline_estimate_pp": "-2.6630527205",
+          "common_reference_new_estimate_pp": "-2.6997794751",
+          "original_reference_rows": "21196",
+          "original_target_new_estimate_pp": "-2.6997794751",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q1:2010s_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0956121808",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-4.5671201720",
+          "common_reference_new_estimate_pp": "-4.4715079912",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-4.4715079912",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q1:2020_2024_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.1012345059",
+          "common_estimable_reference_rows": "19930",
+          "common_reference_baseline_estimate_pp": "-4.7670510114",
+          "common_reference_new_estimate_pp": "-4.6658165055",
+          "original_reference_rows": "19930",
+          "original_target_new_estimate_pp": "-4.6658165055",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q1:2020_2024_minus_1980s:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.0295607475",
+          "common_estimable_reference_rows": "24917",
+          "common_reference_baseline_estimate_pp": "-3.4957250574",
+          "common_reference_new_estimate_pp": "-3.4661643099",
+          "original_reference_rows": "24917",
+          "original_target_new_estimate_pp": "-3.4661643099",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q2:difference:overall:all:era_standardized"
+        },
+        {
+          "change_at_common_reference_pp": "0.0304499393",
+          "common_estimable_reference_rows": "21581",
+          "common_reference_baseline_estimate_pp": "-3.6228729634",
+          "common_reference_new_estimate_pp": "-3.5924230241",
+          "original_reference_rows": "21581",
+          "original_target_new_estimate_pp": "-3.5924230241",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q2:difference:overall:all:era_standardized"
+        },
+        {
+          "change_at_common_reference_pp": "0.6557300662",
+          "common_estimable_reference_rows": "5899",
+          "common_reference_baseline_estimate_pp": "-4.0623677406",
+          "common_reference_new_estimate_pp": "-3.4066376744",
+          "original_reference_rows": "5899",
+          "original_target_new_estimate_pp": "-3.4066376744",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_ASIA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "0.6632369627",
+          "common_estimable_reference_rows": "471",
+          "common_reference_baseline_estimate_pp": "-3.4157954898",
+          "common_reference_new_estimate_pp": "-2.7525585271",
+          "original_reference_rows": "471",
+          "original_target_new_estimate_pp": "-2.7525585271",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_ASIA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-1.0497505719",
+          "common_estimable_reference_rows": "8175",
+          "common_reference_baseline_estimate_pp": "6.1933841782",
+          "common_reference_new_estimate_pp": "5.1436336063",
+          "original_reference_rows": "8175",
+          "original_target_new_estimate_pp": "5.1436336063",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "-0.8990504180",
+          "common_estimable_reference_rows": "244",
+          "common_reference_baseline_estimate_pp": "6.0870046563",
+          "common_reference_new_estimate_pp": "5.1879542383",
+          "original_reference_rows": "244",
+          "original_target_new_estimate_pp": "5.1879542383",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_EUR:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "1.3538379889",
+          "common_estimable_reference_rows": "1687",
+          "common_reference_baseline_estimate_pp": "1.5456541046",
+          "common_reference_new_estimate_pp": "2.8994920935",
+          "original_reference_rows": "1687",
+          "original_target_new_estimate_pp": "2.8994920935",
+          "reference_change": "none",
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        },
+        {
+          "change_at_common_reference_pp": "1.1340791003",
+          "common_estimable_reference_rows": "8",
+          "common_reference_baseline_estimate_pp": "1.0792114327",
+          "common_reference_new_estimate_pp": "2.2132905330",
+          "original_reference_rows": "8",
+          "original_target_new_estimate_pp": "2.2132905330",
+          "reference_change": "none",
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:B_SA:adjusted"
+        }
+      ],
+      "gradient": "0.0000000138",
+      "log_loss": "0.5640028308",
+      "model_id": "M3_nested",
+      "multistart_loss_spread": "0.0000000000",
+      "new_reference_ranges": [],
+      "new_reference_targets": 0,
+      "numerical_fit_passed": "true",
+      "original_estimable": 64,
+      "primary_original_estimable": 27,
+      "primary_sign_flips": [],
+      "removed_parameter_names": "",
+      "scope": "joint estimation rows only; rating histories unchanged",
+      "top_comparable_changes": [
+        {
+          "base_pp": 4.753235683,
+          "change_pp": 2.1807911975,
+          "new_pp": 6.9340268805,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_AMER_005_VS_013:adjusted"
+        },
+        {
+          "base_pp": 4.3981032564,
+          "change_pp": 2.032230843,
+          "new_pp": 6.4303340994,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_013:adjusted"
+        },
+        {
+          "base_pp": 8.31153204,
+          "change_pp": 1.6990523257,
+          "new_pp": 10.0105843657,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_AMER_FOCUS:adjusted"
+        },
+        {
+          "base_pp": 7.7356784842,
+          "change_pp": 1.5896704792,
+          "new_pp": 9.3253489634,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_FOCUS:adjusted"
+        },
+        {
+          "base_pp": 13.4664461318,
+          "change_pp": 1.5045937629,
+          "new_pp": 14.9710398947,
+          "reference_kind": "cell_range_overlap",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        }
+      ],
+      "top_full_changes": [
+        {
+          "base_pp": 4.3981032564,
+          "change_pp": 2.032230843,
+          "new_pp": 6.4303340994,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_013:adjusted"
+        },
+        {
+          "base_pp": 7.7356784842,
+          "change_pp": 1.5896704792,
+          "new_pp": 9.3253489634,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_FOCUS:adjusted"
+        },
+        {
+          "base_pp": 12.824854354,
+          "change_pp": 1.4428984029,
+          "new_pp": 14.2677527569,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        },
+        {
+          "base_pp": 1.5456541046,
+          "change_pp": 1.3538379889,
+          "new_pp": 2.8994920935,
+          "reference_kind": "full",
+          "target_id": "Q3:B_SA:adjusted"
+        },
+        {
+          "base_pp": 2.1377030166,
+          "change_pp": 1.1747247457,
+          "new_pp": 3.3124277623,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_021:adjusted"
+        }
+      ],
+      "top_primary_changes": [
+        {
+          "base_pp": 4.3981032564,
+          "change_pp": 2.032230843,
+          "new_pp": 6.4303340994,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_013:adjusted"
+        },
+        {
+          "base_pp": 7.7356784842,
+          "change_pp": 1.5896704792,
+          "new_pp": 9.3253489634,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_FOCUS:adjusted"
+        },
+        {
+          "base_pp": 12.824854354,
+          "change_pp": 1.4428984029,
+          "new_pp": 14.2677527569,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_029:adjusted"
+        },
+        {
+          "base_pp": 2.1377030166,
+          "change_pp": 1.1747247457,
+          "new_pp": 3.3124277623,
+          "reference_kind": "full",
+          "target_id": "Q3:C_AMER_005_VS_021:adjusted"
+        },
+        {
+          "base_pp": 6.1933841782,
+          "change_pp": -1.0497505719,
+          "new_pp": 5.1436336063,
+          "reference_kind": "full",
+          "target_id": "Q3:B_EUR:adjusted"
+        }
+      ],
+      "variant_id": "exclude_initialization_mean_sensitive"
+    }
+  ],
+  "original_interpretation": "outputs/tables/strength_joint/strength-interpretation-35a760de1ec558401703",
+  "original_point_analysis": "outputs/tables/strength_joint/joint-analysis-55371e4d4aa3d2060190",
+  "paired": "outputs/tables/strength_joint/stage6-paired-d3427ea45223384b8e42",
+  "paired_summary": [
+    {
+      "fit_id": "repaired-initialization-d1f3771999bd8731b716:M3_nested",
+      "flips": [],
+      "top": {
+        "M0_baseline_delta_same_reference_pp": "9.1659529567",
+        "M0_refitted": "false",
+        "M0_variant_delta_pp": "9.1659529567",
+        "M3_baseline_delta_same_reference_pp": "1.5456541046",
+        "M3_variant_delta_pp": "1.6260153001",
+        "baseline_reference_id": "reference-9c54d83d3d72d958c87b",
+        "comparison_reference_id": "reference-9c54d83d3d72d958c87b",
+        "fit_id": "repaired-initialization-d1f3771999bd8731b716:M3_nested",
+        "inference_status": "NOT_ADMITTED",
+        "original_paired_variant_pp": "-7.5399376566",
+        "original_reference_all_scenarios_estimable": "true",
+        "paired_baseline_change_pp": "-7.6202988521",
+        "paired_variant_change_pp": "-7.5399376566",
+        "reference_change": "none",
+        "reference_kind": "full",
+        "reference_rows": "1687",
+        "sensitivity_of_paired_change_pp": "0.0803611955",
+        "target_id": "Q3:B_SA:adjusted"
+      }
+    },
+    {
+      "fit_id": "repaired-initialization-1dc37caeddc61830a0af:M3_nested",
+      "flips": [],
+      "top": {
+        "M0_baseline_delta_same_reference_pp": "15.3064441773",
+        "M0_refitted": "false",
+        "M0_variant_delta_pp": "15.3064441773",
+        "M3_baseline_delta_same_reference_pp": "6.1933841782",
+        "M3_variant_delta_pp": "6.7258517173",
+        "baseline_reference_id": "reference-073a39b60fefd7ea7e92",
+        "comparison_reference_id": "reference-073a39b60fefd7ea7e92",
+        "fit_id": "repaired-initialization-1dc37caeddc61830a0af:M3_nested",
+        "inference_status": "NOT_ADMITTED",
+        "original_paired_variant_pp": "-8.5805924600",
+        "original_reference_all_scenarios_estimable": "true",
+        "paired_baseline_change_pp": "-9.1130599991",
+        "paired_variant_change_pp": "-8.5805924600",
+        "reference_change": "none",
+        "reference_kind": "full",
+        "reference_rows": "8175",
+        "sensitivity_of_paired_change_pp": "0.5324675391",
+        "target_id": "Q3:B_EUR:adjusted"
+      }
+    },
+    {
+      "fit_id": "repaired-initialization-146d3bc167c27a4a3466:M3_nested",
+      "flips": [],
+      "top": {
+        "M0_baseline_delta_same_reference_pp": "9.1659529567",
+        "M0_refitted": "false",
+        "M0_variant_delta_pp": "9.1659529567",
+        "M3_baseline_delta_same_reference_pp": "1.5456541046",
+        "M3_variant_delta_pp": "2.0234991678",
+        "baseline_reference_id": "reference-9c54d83d3d72d958c87b",
+        "comparison_reference_id": "reference-9c54d83d3d72d958c87b",
+        "fit_id": "repaired-initialization-146d3bc167c27a4a3466:M3_nested",
+        "inference_status": "NOT_ADMITTED",
+        "original_paired_variant_pp": "-7.1424537889",
+        "original_reference_all_scenarios_estimable": "true",
+        "paired_baseline_change_pp": "-7.6202988521",
+        "paired_variant_change_pp": "-7.1424537889",
+        "reference_change": "none",
+        "reference_kind": "full",
+        "reference_rows": "1687",
+        "sensitivity_of_paired_change_pp": "0.4778450632",
+        "target_id": "Q3:B_SA:adjusted"
+      }
+    },
+    {
+      "fit_id": "weak_jump:M3_nested",
+      "flips": [],
+      "top": {
+        "M0_baseline_delta_same_reference_pp": "29.3292471469",
+        "M0_refitted": "false",
+        "M0_variant_delta_pp": "29.3292471469",
+        "M3_baseline_delta_same_reference_pp": "9.2072417876",
+        "M3_variant_delta_pp": "6.8146784787",
+        "baseline_reference_id": "reference-ff0edb4902d87d9acc5e",
+        "comparison_reference_id": "reference-ff0edb4902d87d9acc5e",
+        "fit_id": "weak_jump:M3_nested",
+        "inference_status": "NOT_ADMITTED",
+        "original_paired_variant_pp": "-22.5145686682",
+        "original_reference_all_scenarios_estimable": "true",
+        "paired_baseline_change_pp": "-20.1220053593",
+        "paired_variant_change_pp": "-22.5145686682",
+        "reference_change": "none",
+        "reference_kind": "full",
+        "reference_rows": "24917",
+        "sensitivity_of_paired_change_pp": "-2.3925633089",
+        "target_id": "Q3:C_ASIA_030_VS_034:adjusted"
+      }
+    },
+    {
+      "fit_id": "exclude_cold_start:M3_nested",
+      "flips": [],
+      "top": {
+        "M0_baseline_delta_same_reference_pp": "-6.9472886788",
+        "M0_refitted": "true",
+        "M0_variant_delta_pp": "-7.3862974233",
+        "M3_baseline_delta_same_reference_pp": "-2.8221067696",
+        "M3_variant_delta_pp": "-2.8042037549",
+        "baseline_reference_id": "reference-ff0edb4902d87d9acc5e",
+        "comparison_reference_id": "reference-ff0edb4902d87d9acc5e",
+        "fit_id": "exclude_cold_start:M3_nested",
+        "inference_status": "NOT_ADMITTED",
+        "original_paired_variant_pp": "4.5820936684",
+        "original_reference_all_scenarios_estimable": "true",
+        "paired_baseline_change_pp": "4.1251819092",
+        "paired_variant_change_pp": "4.5820936684",
+        "reference_change": "none",
+        "reference_kind": "full",
+        "reference_rows": "24917",
+        "sensitivity_of_paired_change_pp": "0.4569117592",
+        "target_id": "Q3:C_ASIA_035_VS_143:adjusted"
+      }
+    },
+    {
+      "fit_id": "exclude_previously_disconnected:M3_nested",
+      "flips": [],
+      "top": {
+        "M0_baseline_delta_same_reference_pp": "15.3064441773",
+        "M0_refitted": "true",
+        "M0_variant_delta_pp": "15.3184416112",
+        "M3_baseline_delta_same_reference_pp": "6.1933841782",
+        "M3_variant_delta_pp": "6.0731722450",
+        "baseline_reference_id": "reference-073a39b60fefd7ea7e92",
+        "comparison_reference_id": "reference-073a39b60fefd7ea7e92",
+        "fit_id": "exclude_previously_disconnected:M3_nested",
+        "inference_status": "NOT_ADMITTED",
+        "original_paired_variant_pp": "-9.2452693662",
+        "original_reference_all_scenarios_estimable": "true",
+        "paired_baseline_change_pp": "-9.1130599991",
+        "paired_variant_change_pp": "-9.2452693662",
+        "reference_change": "none",
+        "reference_kind": "full",
+        "reference_rows": "8175",
+        "sensitivity_of_paired_change_pp": "-0.1322093671",
+        "target_id": "Q3:B_EUR:adjusted"
+      }
+    },
+    {
+      "fit_id": "exclude_initialization_mean_sensitive:M3_nested",
+      "flips": [],
+      "top": {
+        "M0_baseline_delta_same_reference_pp": "18.0963981738",
+        "M0_refitted": "true",
+        "M0_variant_delta_pp": "15.2621724485",
+        "M3_baseline_delta_same_reference_pp": "8.4267510976",
+        "M3_variant_delta_pp": "7.8374186576",
+        "baseline_reference_id": "reference-ff0edb4902d87d9acc5e",
+        "comparison_reference_id": "reference-ff0edb4902d87d9acc5e",
+        "fit_id": "exclude_initialization_mean_sensitive:M3_nested",
+        "inference_status": "NOT_ADMITTED",
+        "original_paired_variant_pp": "-7.4247537909",
+        "original_reference_all_scenarios_estimable": "true",
+        "paired_baseline_change_pp": "-9.6696470762",
+        "paired_variant_change_pp": "-7.4247537909",
+        "reference_change": "none",
+        "reference_kind": "full",
+        "reference_rows": "24917",
+        "sensitivity_of_paired_change_pp": "2.2448932853",
+        "target_id": "Q3:C_AMER_013_VS_029:adjusted"
+      }
+    },
+    {
+      "fit_id": "exclude_unknown_geography:M3_nested",
+      "flips": [],
+      "top": {
+        "M0_baseline_delta_same_reference_pp": "10.0768124475",
+        "M0_refitted": "true",
+        "M0_variant_delta_pp": "10.2155578159",
+        "M3_baseline_delta_same_reference_pp": "2.1386121340",
+        "M3_variant_delta_pp": "2.1909573926",
+        "baseline_reference_id": "reference-ff0edb4902d87d9acc5e",
+        "comparison_reference_id": "estimable-reference-9f3e5939978996cc86c9",
+        "fit_id": "exclude_unknown_geography:M3_nested",
+        "inference_status": "NOT_ADMITTED",
+        "original_paired_variant_pp": "",
+        "original_reference_all_scenarios_estimable": "false",
+        "paired_baseline_change_pp": "-7.9382003135",
+        "paired_variant_change_pp": "-8.0246004233",
+        "reference_change": "NEW narrower estimand, not original target",
+        "reference_kind": "full",
+        "reference_rows": "24844",
+        "sensitivity_of_paired_change_pp": "-0.0864001098",
+        "target_id": "Q3:C_AMER_005_VS_021:adjusted"
+      }
+    },
+    {
+      "fit_id": "exclude_history_or_geography_flags:M3_nested",
+      "flips": [],
+      "top": {
+        "M0_baseline_delta_same_reference_pp": "-6.9575444212",
+        "M0_refitted": "true",
+        "M0_variant_delta_pp": "-7.3937822299",
+        "M3_baseline_delta_same_reference_pp": "-2.8242380052",
+        "M3_variant_delta_pp": "-2.7986568491",
+        "baseline_reference_id": "reference-ff0edb4902d87d9acc5e",
+        "comparison_reference_id": "estimable-reference-11d85ba27649dd9d2452",
+        "fit_id": "exclude_history_or_geography_flags:M3_nested",
+        "inference_status": "NOT_ADMITTED",
+        "original_paired_variant_pp": "",
+        "original_reference_all_scenarios_estimable": "false",
+        "paired_baseline_change_pp": "4.1333064160",
+        "paired_variant_change_pp": "4.5951253808",
+        "reference_change": "NEW narrower estimand, not original target",
+        "reference_kind": "full",
+        "reference_rows": "24844",
+        "sensitivity_of_paired_change_pp": "0.4618189647",
+        "target_id": "Q3:C_ASIA_035_VS_143:adjusted"
+      }
+    }
+  ],
+  "plot_policy": "Use existing point-analysis figures with stage6 sensitivity caveats; no confidence bars or significance stars",
+  "preparation": "outputs/tables/strength_joint/stage6-preparation-662dd5a756b8c1bf7688",
+  "relation_points": [
+    {
+      "difference_pp": "3.7758557840",
+      "fit_id": "repaired-initialization-d1f3771999bd8731b716:M4_type_slope",
+      "friendly_probability": "0.1658204797",
+      "inference_status": "NOT_ADMITTED",
+      "other_probability": "0.1280619219",
+      "role": "model scenario, not empirical stratified win rate",
+      "strength_mean": "-2"
+    },
+    {
+      "difference_pp": "-3.9372332384",
+      "fit_id": "repaired-initialization-d1f3771999bd8731b716:M4_type_slope",
+      "friendly_probability": "0.4681382950",
+      "inference_status": "NOT_ADMITTED",
+      "other_probability": "0.5075106274",
+      "role": "model scenario, not empirical stratified win rate",
+      "strength_mean": "0"
+    },
+    {
+      "difference_pp": "-8.8314276317",
+      "fit_id": "repaired-initialization-d1f3771999bd8731b716:M4_type_slope",
+      "friendly_probability": "0.7914696056",
+      "inference_status": "NOT_ADMITTED",
+      "other_probability": "0.8797838819",
+      "role": "model scenario, not empirical stratified win rate",
+      "strength_mean": "2"
+    },
+    {
+      "difference_pp": "4.1184877691",
+      "fit_id": "repaired-initialization-1dc37caeddc61830a0af:M4_type_slope",
+      "friendly_probability": "0.1677263441",
+      "inference_status": "NOT_ADMITTED",
+      "other_probability": "0.1265414664",
+      "role": "model scenario, not empirical stratified win rate",
+      "strength_mean": "-2"
+    },
+    {
+      "difference_pp": "-3.9810665278",
+      "fit_id": "repaired-initialization-1dc37caeddc61830a0af:M4_type_slope",
+      "friendly_probability": "0.4678418105",
+      "inference_status": "NOT_ADMITTED",
+      "other_probability": "0.5076524757",
+      "role": "model scenario, not empirical stratified win rate",
+      "strength_mean": "0"
+    },
+    {
+      "difference_pp": "-9.2541899641",
+      "fit_id": "repaired-initialization-1dc37caeddc61830a0af:M4_type_slope",
+      "friendly_probability": "0.7888290195",
+      "inference_status": "NOT_ADMITTED",
+      "other_probability": "0.8813709192",
+      "role": "model scenario, not empirical stratified win rate",
+      "strength_mean": "2"
+    },
+    {
+      "difference_pp": "3.6596389478",
+      "fit_id": "repaired-initialization-146d3bc167c27a4a3466:M4_type_slope",
+      "friendly_probability": "0.1677016654",
+      "inference_status": "NOT_ADMITTED",
+      "other_probability": "0.1311052760",
+      "role": "model scenario, not empirical stratified win rate",
+      "strength_mean": "-2"
+    },
+    {
+      "difference_pp": "-3.8575598545",
+      "fit_id": "repaired-initialization-146d3bc167c27a4a3466:M4_type_slope",
+      "friendly_probability": "0.4686859325",
+      "inference_status": "NOT_ADMITTED",
+      "other_probability": "0.5072615310",
+      "role": "model scenario, not empirical stratified win rate",
+      "strength_mean": "0"
+    },
+    {
+      "difference_pp": "-8.6511850649",
+      "fit_id": "repaired-initialization-146d3bc167c27a4a3466:M4_type_slope",
+      "friendly_probability": "0.7901058885",
+      "inference_status": "NOT_ADMITTED",
+      "other_probability": "0.8766177391",
+      "role": "model scenario, not empirical stratified win rate",
+      "strength_mean": "2"
+    },
+    {
+      "difference_pp": "3.1418275406",
+      "fit_id": "weak_jump:M4_type_slope",
+      "friendly_probability": "0.1192960739",
+      "inference_status": "NOT_ADMITTED",
+      "other_probability": "0.0878777985",
+      "role": "model scenario, not empirical stratified win rate",
+      "strength_mean": "-2"
+    },
+    {
+      "difference_pp": "-3.9103767328",
+      "fit_id": "weak_jump:M4_type_slope",
+      "friendly_probability": "0.4681757305",
+      "inference_status": "NOT_ADMITTED",
+      "other_probability": "0.5072794978",
+      "role": "model scenario, not empirical stratified win rate",
+      "strength_mean": "0"
+    },
+    {
+      "difference_pp": "-7.1930126493",
+      "fit_id": "weak_jump:M4_type_slope",
+      "friendly_probability": "0.8460294597",
+      "inference_status": "NOT_ADMITTED",
+      "other_probability": "0.9179595862",
+      "role": "model scenario, not empirical stratified win rate",
+      "strength_mean": "2"
+    }
+  ],
+  "sensitivity": "outputs/tables/strength_joint/stage6-sensitivity-02dcd19cea534b1b944c",
+  "stage6_complete": false,
+  "stage6_steps": {
+    "step1": "completed",
+    "step2": "completed",
+    "step3": "declared_sensitivity_complete",
+    "step4": "mathematical_discussion_only"
+  },
+  "strength_slopes": [
+    {
+      "fit_id": "repaired-initialization-d1f3771999bd8731b716:M3_nested",
+      "formal_test_performed": "false",
+      "log_slope_difference": "",
+      "model_id": "M3_nested",
+      "slope_friendly": "",
+      "slope_other": "0.5870603903"
+    },
+    {
+      "fit_id": "repaired-initialization-d1f3771999bd8731b716:M4_type_slope",
+      "formal_test_performed": "false",
+      "log_slope_difference": "-0.2996364180",
+      "model_id": "M4_type_slope",
+      "slope_friendly": "0.4772372930",
+      "slope_other": "0.6439687852"
+    },
+    {
+      "fit_id": "repaired-initialization-1dc37caeddc61830a0af:M3_nested",
+      "formal_test_performed": "false",
+      "log_slope_difference": "",
+      "model_id": "M3_nested",
+      "slope_friendly": "",
+      "slope_other": "0.5874947744"
+    },
+    {
+      "fit_id": "repaired-initialization-1dc37caeddc61830a0af:M4_type_slope",
+      "formal_test_performed": "false",
+      "log_slope_difference": "-0.3172650805",
+      "model_id": "M4_type_slope",
+      "slope_friendly": "0.4720780219",
+      "slope_other": "0.6483361768"
+    },
+    {
+      "fit_id": "repaired-initialization-146d3bc167c27a4a3466:M3_nested",
+      "formal_test_performed": "false",
+      "log_slope_difference": "",
+      "model_id": "M3_nested",
+      "slope_friendly": "",
+      "slope_other": "0.5805702314"
+    },
+    {
+      "fit_id": "repaired-initialization-146d3bc167c27a4a3466:M4_type_slope",
+      "formal_test_performed": "false",
+      "log_slope_difference": "-0.2927362200",
+      "model_id": "M4_type_slope",
+      "slope_friendly": "0.4740927221",
+      "slope_other": "0.6353265628"
+    },
+    {
+      "fit_id": "weak_jump:M3_nested",
+      "formal_test_performed": "false",
+      "log_slope_difference": "",
+      "model_id": "M3_nested",
+      "slope_friendly": "",
+      "slope_other": "0.6893224180"
+    },
+    {
+      "fit_id": "weak_jump:M4_type_slope",
+      "formal_test_performed": "false",
+      "log_slope_difference": "-0.2482309495",
+      "model_id": "M4_type_slope",
+      "slope_friendly": "0.5801729826",
+      "slope_other": "0.7436401544"
+    },
+    {
+      "fit_id": "exclude_cold_start:M3_nested",
+      "formal_test_performed": "false",
+      "log_slope_difference": "",
+      "model_id": "M3_nested",
+      "slope_friendly": "",
+      "slope_other": "0.5940409606"
+    },
+    {
+      "fit_id": "exclude_previously_disconnected:M3_nested",
+      "formal_test_performed": "false",
+      "log_slope_difference": "",
+      "model_id": "M3_nested",
+      "slope_friendly": "",
+      "slope_other": "0.5886438494"
+    },
+    {
+      "fit_id": "exclude_unknown_geography:M3_nested",
+      "formal_test_performed": "false",
+      "log_slope_difference": "",
+      "model_id": "M3_nested",
+      "slope_friendly": "",
+      "slope_other": "0.5872075097"
+    },
+    {
+      "fit_id": "exclude_history_or_geography_flags:M3_nested",
+      "formal_test_performed": "false",
+      "log_slope_difference": "",
+      "model_id": "M3_nested",
+      "slope_friendly": "",
+      "slope_other": "0.5942003765"
+    },
+    {
+      "fit_id": "exclude_initialization_mean_sensitive:M3_nested",
+      "formal_test_performed": "false",
+      "log_slope_difference": "",
+      "model_id": "M3_nested",
+      "slope_friendly": "",
+      "slope_other": "0.5898864446"
+    }
+  ],
+  "targets": {
+    "auxiliary": 64,
+    "descriptive_only": 8,
+    "exploratory_objects": 7,
+    "original_missing_extrapolation": 10,
+    "primary_conditional": 54,
+    "registry": 143
+  }
+}

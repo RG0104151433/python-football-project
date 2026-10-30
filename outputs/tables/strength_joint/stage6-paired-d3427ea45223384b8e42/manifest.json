@@ -1,0 +1,55 @@
+{
+  "identity": {
+    "code": {
+      "config/strength_stage6_paired.json": "dd32ffb85e22256af42e7eab9c6df25dfdf7f5f3ec267b7de1a284265d40fa99",
+      "scripts/analyze_strength_stage6_paired.py": "7ce3bd036337dad2cd5e2d95a81f24d15b5eb7f639a9b3ac7f2b9b282c0715d2",
+      "src/strength_joint/__init__.py": "80cd9d9fb898f60d696323f057245dca927670bc20bb9ad14f3fdbb933080f43",
+      "src/strength_joint/contract.py": "8f47c10ac639ca2ef7c0c867cca84f36d6cd0d0dd54c41774f3b663f85df2abb",
+      "src/strength_joint/contrasts.py": "5c816886d9679781d932f79da4d5771a3ffab4455c92c4b36d1cdf68f39eb0b5",
+      "src/strength_joint/design.py": "0826815f44370435908fd74c36d98bda1cdcf70699e20ec1dc89626a67f2717d",
+      "src/strength_joint/model.py": "7c1410a84e7f224877892568a6359edb0ca1c766da5041ac1d14cf0e71698dc9",
+      "src/strength_joint/reporting.py": "73d4ea64181321b1d77fd22dded426fea507ad99cba0afb1dbd2ca49a7d16852",
+      "src/strength_joint/validation.py": "eadd1601797f7429fc8189d216d23015031004d0846453745507c255fc75eac7",
+      "src/strength_stage6_paired.py": "51907f0b9478ef9f2bc5694d5951ea7cd712b58f9fe68e9bcca0d86234cbcc24",
+      "src/strength_stage6_sensitivity.py": "b7342d22d4e8391bb3e4c5987f364521fc2bb28be4faa8a9e201ac95cca81090"
+    },
+    "environment": {
+      "commit": "02d71d148cbaf4b1318f8d24e59dd69d1c99e42a",
+      "execution_code": "working tree; exact source hashes recorded, no commit made",
+      "numpy": "2.5.4",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "python": "3.14.8",
+      "scipy": "1.18.1"
+    },
+    "inputs": {
+      "config/regions_study.json": "f29e8081a58c941ea6d51809ec69aacb9d5ad8c15a343866980afcf407d68c66",
+      "config/strength_joint.json": "ce2290aea22277750c953afb912b6837b27815c4807b7918385914d8aafb9182",
+      "config/strength_stage6_paired.json": "dd32ffb85e22256af42e7eab9c6df25dfdf7f5f3ec267b7de1a284265d40fa99",
+      "data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8/manifest.json": "5b49b98027d3106fb44cdc0fb57e570858ec66ddcf007a1b41adb595e048bebd",
+      "outputs/tables/regions/regions-0a1c61664a722e6c641f/analysis_matches.csv": "8b0ddb7f2e4d5eb2199c8c2b477e7873b1e46bc12421c4dddf5ac8809f91ca22",
+      "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/target_catalogue.csv": "567610a60f2498f335c1553ba5dd3d1567a95f29c7a9d50f2dcead09ac0d2d79",
+      "outputs/tables/strength_joint/stage6-sensitivity-02dcd19cea534b1b944c/manifest.json": "642d0d6c42761c5046e12294ececefe6ac578c3b4433e4e8c7bb0fddf165f863"
+    },
+    "protocol": {
+      "additional_fits": "M0_nested for the same five estimation-row subsets; existing unchanged M0 for score-only variants",
+      "baseline_replaced": false,
+      "decision_log_id": "R20261030-13",
+      "intervals": false,
+      "paired_scope": "all nine M3 variants x64 references; use the exact same common estimable reference as its M3 counterpart; original unidentified target remains empty",
+      "schema_version": "strength-stage6-paired-v1",
+      "sensitivity": "outputs/tables/strength_joint/stage6-sensitivity-02dcd19cea534b1b944c",
+      "sensitivity_manifest_sha256": "642d0d6c42761c5046e12294ececefe6ac578c3b4433e4e8c7bb0fddf165f863"
+    }
+  },
+  "outputs": {
+    "arm_rates.csv": "3da47d054ea37ac4bfad89db66fcd6eb0717457cd8bea7e1dd15ad34b4d550c7",
+    "data_dictionary.md": "3f9381401ecbd7bde5f15fb3cbb1e71d1b49f9efc2f53405ab1a307c0359fc63",
+    "fit_metrics.csv": "8ea2cc61ce287c46c6cf267f8d6db70d5c40ee2ddeda9484f9731ad8a9822550",
+    "fit_predictions.csv.gz": "53bb25403350d5834568340b3b1433277836cc617588c8151b49acb76efca9a6",
+    "models.json": "a05bad201855d4cf95d5e4d4166663d74b015f0ce0a4af53edf1ac85c4d3b0a7",
+    "paired_changes.csv": "c4276e7180a7b6a74785c9216be9604aa61674f9f7838f3325b48dbb768e939e",
+    "report.json": "2d8d9ae3a591f196eee69ad56cc899da7366d96dcacb2f312766a6e73e507a8d",
+    "source_snapshot.zip": "06db3494acc2ccbadfdc7a52546b11af81367464821eace98bffab9a7374b317"
+  },
+  "stage_id": "stage6-paired-d3427ea45223384b8e42"
+}

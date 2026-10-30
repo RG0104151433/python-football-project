@@ -1,0 +1,32 @@
+{
+  "schema_version": "strength-stage6-preparation-v1",
+  "decision_log_id": "R20261030-09",
+  "analysis": "outputs/tables/strength_joint/joint-analysis-55371e4d4aa3d2060190",
+  "analysis_manifest_sha256": "32aa9dd43fef66e2102d580700a279c3abb08a6b2ca832fdaffccf45b2557fff",
+  "interpretation": "outputs/tables/strength_joint/strength-interpretation-35a760de1ec558401703",
+  "interpretation_manifest_sha256": "255d311a9841b3a13be7dbaa687e291e43f2ca91837e8b759755d8839326a527",
+  "joint_config": "config/strength_joint.json",
+  "registry_policy": "Preserve all32 CORE; original supported27 full-reference levels/changes form primary conditional family, original missing5 full targets remain extrapolation-only; all32 restricted targets auxiliary; relations exploratory after historical inspection",
+  "families": {
+    "F_PRIMARY_CONDITIONAL": "27 original supported targets x full-reference level and paired change =54; joint error control to be designed",
+    "F_AUX_REFERENCE": "32 targets x restricted-reference level and paired change =64; different target, not independent confirmation",
+    "F_EXTRAPOLATION_ONLY": "5 originally missing targets x full-reference level and change =10; cannot restore original stratified support",
+    "F_EXPLORATORY_RELATIONS": "one log-slope difference, three tournament probability differences, two differences across means, one25-point grid =7",
+    "F_DESCRIPTIVE_FIT": "eight previously defined in-sample fit comparisons; not inferential tests"
+  },
+  "relation_model": "M4_type_slope",
+  "relation_mean_points": [-2, 0, 2],
+  "reference_inference_scope": "conditional_on_registered_empirical_reference; no fixed training-score-path assumption; additional reference-estimation uncertainty unresolved",
+  "sensitivity_reference_rule": "freeze baseline population membership and weights; variant-specific score input has separate identity; do not silently recompute overlap subset",
+  "error_control_method": null,
+  "confidence_level": null,
+  "coverage_gate": null,
+  "new_scoring_runs": false,
+  "joint_refits": false,
+  "interval_simulations": false,
+  "reconstruction_variance_gate": 0.00000002,
+  "reconstruction_mean_gate": 0.000000002,
+  "compression": "gzip mtime=0; underlying CSV UTF-8 BOM LF fixed10decimals",
+  "historical_results_already_inspected": true,
+  "human_review_performed": false
+}

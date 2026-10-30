@@ -1,0 +1,39 @@
+STAGE6_REFERENCE Q1:2010s_minus_1980s:adjusted 24917 21196
+STAGE6_REFERENCE Q1:2020_2024_minus_1980s:adjusted 24917 19930
+STAGE6_REFERENCE Q2:difference:overall:all:era_standardized 24917 21581
+STAGE6_REFERENCE Q3:B_ASIA:adjusted 5899 471
+STAGE6_REFERENCE Q3:B_EUR:adjusted 8175 244
+STAGE6_REFERENCE Q3:B_SA:adjusted 1687 8
+STAGE6_REFERENCE Q3:C_AFR_011_VS_OTHER:adjusted 24917 6256
+STAGE6_REFERENCE Q3:C_AFR_015_VS_011:adjusted 24917 6059
+STAGE6_REFERENCE Q3:C_AFR_015_VS_OTHER:adjusted 24917 7826
+STAGE6_REFERENCE Q3:C_AMER_005_VS_013:adjusted 24917 6798
+STAGE6_REFERENCE Q3:C_AMER_005_VS_021:adjusted 24917 6453
+STAGE6_REFERENCE Q3:C_AMER_005_VS_029:adjusted 24917 5907
+STAGE6_REFERENCE Q3:C_AMER_013_VS_021:adjusted 24917 5904
+STAGE6_REFERENCE Q3:C_AMER_013_VS_029:adjusted 24917 5845
+STAGE6_REFERENCE Q3:C_AMER_021_VS_029:adjusted 24917 5560
+STAGE6_REFERENCE Q3:C_AMER_FOCUS:adjusted 24917 5158
+STAGE6_REFERENCE Q3:C_ASIA_030_VS_034:adjusted 24917 4806
+STAGE6_REFERENCE Q3:C_ASIA_030_VS_035:adjusted 24917 9775
+STAGE6_REFERENCE Q3:C_ASIA_030_VS_143:adjusted 24917 5799
+STAGE6_REFERENCE Q3:C_ASIA_030_VS_145:adjusted 24917 12810
+STAGE6_REFERENCE Q3:C_ASIA_034_VS_143:adjusted 24917 4018
+STAGE6_REFERENCE Q3:C_ASIA_034_VS_145:adjusted 24917 4874
+STAGE6_REFERENCE Q3:C_ASIA_035_VS_034:adjusted 24917 4870
+STAGE6_REFERENCE Q3:C_ASIA_035_VS_143:adjusted 24917 5245
+STAGE6_REFERENCE Q3:C_ASIA_035_VS_145:adjusted 24917 10334
+STAGE6_REFERENCE Q3:C_ASIA_143_VS_145:adjusted 24917 6997
+STAGE6_REFERENCE Q3:C_EUR_039_VS_155:adjusted 24917 15011
+STAGE6_REFERENCE Q3:C_EUR_151_VS_039:adjusted 24917 13833
+STAGE6_REFERENCE Q3:C_EUR_151_VS_154:adjusted 24917 13431
+STAGE6_REFERENCE Q3:C_EUR_151_VS_155:adjusted 24917 13275
+STAGE6_REFERENCE Q3:C_EUR_155_VS_154:adjusted 24917 14259
+STAGE6_REFERENCE Q3:C_EUR_NORTH_SOUTH:adjusted 24917 15153
+STAGE6_SCORE_INPUT baseline 24917
+STAGE6_SCORE_INPUT repaired-initialization-d1f3771999bd8731b716 24917
+STAGE6_SCORE_INPUT repaired-initialization-1dc37caeddc61830a0af 24917
+STAGE6_SCORE_INPUT repaired-initialization-146d3bc167c27a4a3466 24917
+STAGE6_SCORE_INPUT weak_jump 24917
+STAGE6_PREPARATION_COMPLETE outputs/tables/strength_joint/stage6-preparation-662dd5a756b8c1bf7688
+{"passed": true, "directory": "outputs/tables/strength_joint/stage6-preparation-662dd5a756b8c1bf7688", "compared_files": 14, "files_identical": {"baseline_flags.csv.gz": true, "curve_support.csv": true, "data_dictionary.md": true, "readiness.json": true, "reference_membership.csv.gz": true, "reference_scope.csv": true, "scenario_mixtures.csv": true, "score_inputs_baseline.csv.gz": true, "score_inputs_repaired-initialization-146d3bc167c27a4a3466.csv.gz": true, "score_inputs_repaired-initialization-1dc37caeddc61830a0af.csv.gz": true, "score_inputs_repaired-initialization-d1f3771999bd8731b716.csv.gz": true, "score_inputs_weak_jump.csv.gz": true, "source_snapshot.zip": true, "target_registry.csv": true}, "manifest_identical": true, "seconds": 69.5708534999867, "scope": "all registries/references/five marginal input sets/compressed bytes/source archive; no scoring or model refits"}

@@ -1,0 +1,13 @@
+PAIRED_M0_FIT exclude_cold_start 24558
+PAIRED_M0_FIT exclude_previously_disconnected 24837
+PAIRED_M0_FIT exclude_unknown_geography 24818
+PAIRED_M0_FIT exclude_history_or_geography_flags 24470
+PAIRED_M0_FIT exclude_initialization_mean_sensitive 22012
+PAIRED_REFERENCE_GROUP 0 Q1:2010s_minus_1980s:adjusted
+PAIRED_REFERENCE_GROUP 16 Q3:C_AFR_015_VS_OTHER:adjusted
+PAIRED_REFERENCE_GROUP 32 Q3:C_ASIA_030_VS_034:adjusted
+PAIRED_REFERENCE_GROUP 48 Q3:C_ASIA_035_VS_145:adjusted
+PAIRED_REFERENCE_GROUP 64 Q1:2010s_minus_1980s:adjusted
+PAIRED_REFERENCE_GROUP 80 Q3:C_AMER_FOCUS:adjusted
+PAIRED_REFERENCE_GROUP 96 Q3:C_EUR_151_VS_154:adjusted
+PAIRED_COMPLETE outputs/tables/strength_joint/stage6-paired-d3427ea45223384b8e42

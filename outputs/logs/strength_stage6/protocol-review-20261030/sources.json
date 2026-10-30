@@ -1,0 +1,18 @@
+{
+  "decision_log_id": "R20261030-15",
+  "retrieved_at_utc": "2026-10-30T09:18:27.894134+00:00",
+  "reading_scope": "UCL online published PDF:ADEMP,computational considerations4,performance5 including Monte Carlo error and missing estimates; not all worked examples reproduced",
+  "attempts": [
+    {
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10066118/1/2019%20-%20Morris%20-%20simulation%20studies%20tutorial%20-%20stat%20med.pdf",
+      "version": "UCL published PDF, early pagination1–29",
+      "status": "downloaded",
+      "local_path": "原文/Morris_White_Crowther_2019_simulation_UCL.pdf",
+      "bytes": 1870265,
+      "sha256": "3aec72851ec6dc1e61a8921c4e0fa69b4b7722b73d26a764b423e53d0e6f106d"
+    }
+  ],
+  "prior_failure_retained": true,
+  "not_a_statistical_run": true,
+  "not_committed_or_pushed": true
+}

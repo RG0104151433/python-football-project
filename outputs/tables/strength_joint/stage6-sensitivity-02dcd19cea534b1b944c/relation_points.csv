@@ -1,0 +1,13 @@
+﻿fit_id,strength_mean,friendly_probability,other_probability,difference_pp,inference_status,role
+repaired-initialization-d1f3771999bd8731b716:M4_type_slope,-2,0.1658204797,0.1280619219,3.7758557840,NOT_ADMITTED,"model scenario, not empirical stratified win rate"
+repaired-initialization-d1f3771999bd8731b716:M4_type_slope,0,0.4681382950,0.5075106274,-3.9372332384,NOT_ADMITTED,"model scenario, not empirical stratified win rate"
+repaired-initialization-d1f3771999bd8731b716:M4_type_slope,2,0.7914696056,0.8797838819,-8.8314276317,NOT_ADMITTED,"model scenario, not empirical stratified win rate"
+repaired-initialization-1dc37caeddc61830a0af:M4_type_slope,-2,0.1677263441,0.1265414664,4.1184877691,NOT_ADMITTED,"model scenario, not empirical stratified win rate"
+repaired-initialization-1dc37caeddc61830a0af:M4_type_slope,0,0.4678418105,0.5076524757,-3.9810665278,NOT_ADMITTED,"model scenario, not empirical stratified win rate"
+repaired-initialization-1dc37caeddc61830a0af:M4_type_slope,2,0.7888290195,0.8813709192,-9.2541899641,NOT_ADMITTED,"model scenario, not empirical stratified win rate"
+repaired-initialization-146d3bc167c27a4a3466:M4_type_slope,-2,0.1677016654,0.1311052760,3.6596389478,NOT_ADMITTED,"model scenario, not empirical stratified win rate"
+repaired-initialization-146d3bc167c27a4a3466:M4_type_slope,0,0.4686859325,0.5072615310,-3.8575598545,NOT_ADMITTED,"model scenario, not empirical stratified win rate"
+repaired-initialization-146d3bc167c27a4a3466:M4_type_slope,2,0.7901058885,0.8766177391,-8.6511850649,NOT_ADMITTED,"model scenario, not empirical stratified win rate"
+weak_jump:M4_type_slope,-2,0.1192960739,0.0878777985,3.1418275406,NOT_ADMITTED,"model scenario, not empirical stratified win rate"
+weak_jump:M4_type_slope,0,0.4681757305,0.5072794978,-3.9103767328,NOT_ADMITTED,"model scenario, not empirical stratified win rate"
+weak_jump:M4_type_slope,2,0.8460294597,0.9179595862,-7.1930126493,NOT_ADMITTED,"model scenario, not empirical stratified win rate"

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": 774,
+  "failed": [],
+  "delivery": "outputs/logs/strength_stage6/delivery-618a9dd942fad38863e6",
+  "same_artifact_and_current_documents": true,
+  "original_data_unchanged": true,
+  "statistical_inference_validated": false,
+  "human_review": false
+}

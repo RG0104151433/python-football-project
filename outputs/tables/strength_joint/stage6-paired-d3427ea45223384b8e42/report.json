@@ -1,0 +1,8 @@
+{
+  "actual_human_review": false,
+  "additional_models": 5,
+  "baseline_replaced": false,
+  "formal_inference": false,
+  "original_target_blanks": 78,
+  "paired_targets": 576
+}

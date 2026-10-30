@@ -1,0 +1,37 @@
+{
+  "audit_script_sha256": "5a4579ce8e55f3238e5e440dbf2b3b42535a25dc4924f4bf1c9b34d1e94c046a",
+  "comparison_seconds": 77.5017896000063,
+  "human_review": false,
+  "passed": true,
+  "refit_seconds": 118.7937668999657,
+  "results": [
+    {
+      "both_numeric_gates_passed": true,
+      "coefficient_names_identical": true,
+      "dropped_columns": [],
+      "estimation_rows": 24917,
+      "fit_id": "repaired-initialization-d1f3771999bd8731b716:M4_type_slope",
+      "loss_error": 0.0,
+      "max_parameter_error": 0.0,
+      "max_probability_error": 0.0,
+      "passed": true
+    },
+    {
+      "both_numeric_gates_passed": true,
+      "coefficient_names_identical": true,
+      "dropped_columns": [
+        "home:region:unknown",
+        "away:region:unknown"
+      ],
+      "estimation_rows": 24818,
+      "fit_id": "exclude_unknown_geography:M3_nested",
+      "loss_error": 0.0,
+      "max_parameter_error": 0.0,
+      "max_probability_error": 0.0,
+      "passed": true
+    }
+  ],
+  "scope": "two selected refits, three starts each; not all13 or byte-repeat of contrast package",
+  "source_manifest": "outputs/tables/strength_joint/stage6-sensitivity-02dcd19cea534b1b944c/manifest.json",
+  "source_manifest_sha256": "642d0d6c42761c5046e12294ececefe6ac578c3b4433e4e8c7bb0fddf165f863"
+}

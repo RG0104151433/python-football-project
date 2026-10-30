@@ -1,0 +1,26 @@
+{
+  "schema_version": "strength-stage6-sensitivity-v1",
+  "decision_log_id": "R20261030-11",
+  "preparation": "outputs/tables/strength_joint/stage6-preparation-662dd5a756b8c1bf7688",
+  "preparation_manifest_sha256": "582bb0eb05cc43c2ac03971dd9a582c590361bd44cbcfff60f684f2649abbe65",
+  "score_variants": [
+    "repaired-initialization-d1f3771999bd8731b716",
+    "repaired-initialization-1dc37caeddc61830a0af",
+    "repaired-initialization-146d3bc167c27a4a3466",
+    "weak_jump"
+  ],
+  "score_models": ["M3_nested", "M4_type_slope"],
+  "subset_models": ["M3_nested"],
+  "subset_variants": ["exclude_cold_start", "exclude_previously_disconnected", "exclude_unknown_geography", "exclude_history_or_geography_flags", "exclude_initialization_mean_sensitive"],
+  "subset_rule": "only remove rows from joint-model estimation; keep previously learned rating histories and frozen baseline flag definitions",
+  "rank_policy": "outcome-free pivoted QR; remove redundant parameters; original reference prediction only if all positive scenario rows lie in estimation row-space",
+  "nonestimable_reference_policy": "original target remains empty; optional common estimable reference gets a NEW ID and explicit changed-target label, with baseline model evaluated on same new reference",
+  "mixture_policy": "use registered rational scenario weights; conditionalize only on explicitly registered common reference, never reselect score-overlap intersection",
+  "score_reference_policy": "same population membership and weights, variant-specific score distributions; separate score-input identity; not a causal decomposition",
+  "relation_mean_points": [-2, 0, 2],
+  "intervals": false,
+  "scoring_replays": false,
+  "formal_inference_method_selected": false,
+  "rowspace_tolerance": 0.00000001,
+  "baseline_probability_gate": 0.00000002
+}

@@ -1,0 +1,27 @@
+STEP3_AUDIT_FIT exclude_cold_start:M3_nested 24558
+STEP3_AUDIT_FIT exclude_history_or_geography_flags:M3_nested 24470
+STEP3_AUDIT_FIT exclude_initialization_mean_sensitive:M3_nested 22012
+STEP3_AUDIT_FIT exclude_previously_disconnected:M3_nested 24837
+STEP3_AUDIT_FIT exclude_unknown_geography:M3_nested 24818
+STEP3_AUDIT_FIT repaired-initialization-146d3bc167c27a4a3466:M3_nested 24917
+STEP3_AUDIT_FIT repaired-initialization-146d3bc167c27a4a3466:M4_type_slope 24917
+STEP3_AUDIT_FIT repaired-initialization-1dc37caeddc61830a0af:M3_nested 24917
+STEP3_AUDIT_FIT repaired-initialization-1dc37caeddc61830a0af:M4_type_slope 24917
+STEP3_AUDIT_FIT repaired-initialization-d1f3771999bd8731b716:M3_nested 24917
+STEP3_AUDIT_FIT repaired-initialization-d1f3771999bd8731b716:M4_type_slope 24917
+STEP3_AUDIT_FIT weak_jump:M3_nested 24917
+STEP3_AUDIT_FIT weak_jump:M4_type_slope 24917
+STEP3_AUDIT_CONTRAST 0 repaired-initialization-d1f3771999bd8731b716:M3_nested
+STEP3_AUDIT_CONTRAST 64 repaired-initialization-d1f3771999bd8731b716:M4_type_slope
+STEP3_AUDIT_CONTRAST 128 repaired-initialization-1dc37caeddc61830a0af:M3_nested
+STEP3_AUDIT_CONTRAST 192 repaired-initialization-1dc37caeddc61830a0af:M4_type_slope
+STEP3_AUDIT_CONTRAST 256 repaired-initialization-146d3bc167c27a4a3466:M3_nested
+STEP3_AUDIT_CONTRAST 320 repaired-initialization-146d3bc167c27a4a3466:M4_type_slope
+STEP3_AUDIT_CONTRAST 384 weak_jump:M3_nested
+STEP3_AUDIT_CONTRAST 448 weak_jump:M4_type_slope
+STEP3_AUDIT_CONTRAST 512 exclude_cold_start:M3_nested
+STEP3_AUDIT_CONTRAST 576 exclude_previously_disconnected:M3_nested
+STEP3_AUDIT_CONTRAST 640 exclude_unknown_geography:M3_nested
+STEP3_AUDIT_CONTRAST 704 exclude_history_or_geography_flags:M3_nested
+STEP3_AUDIT_CONTRAST 768 exclude_initialization_mean_sensitive:M3_nested
+{"passed": true, "checks": 325766, "failed": [], "directory": "outputs/tables/strength_joint/stage6-sensitivity-02dcd19cea534b1b944c", "independent_probability_kernel": true, "fixed_population_and_estimable_subreference_audited": true, "formal_inference_validated": false, "human_review": false}

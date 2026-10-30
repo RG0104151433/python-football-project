@@ -1,0 +1,19 @@
+{
+  "compared_outputs": 8,
+  "directory": "outputs/tables/strength_joint/stage6-paired-d3427ea45223384b8e42",
+  "files_identical": {
+    "arm_rates.csv": true,
+    "data_dictionary.md": true,
+    "fit_metrics.csv": true,
+    "fit_predictions.csv.gz": true,
+    "manifest.json": true,
+    "models.json": true,
+    "paired_changes.csv": true,
+    "report.json": true,
+    "source_snapshot.zip": true
+  },
+  "human_review": false,
+  "manifest_identical": true,
+  "passed": true,
+  "scope": "all five M0 fits,576 paired rows, predictions, source archive and manifest; byte repeat"
+}
