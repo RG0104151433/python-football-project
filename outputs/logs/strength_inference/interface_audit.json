@@ -1,0 +1,9 @@
+{
+  "checks": 79,
+  "directory": "outputs/tables/strength_joint/inference-interface-976d91f2ca7b388f20f3",
+  "failed": [],
+  "formal_inference_admitted": false,
+  "human_review": false,
+  "passed": true,
+  "stage": "interface"
+}

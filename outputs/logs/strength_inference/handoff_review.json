@@ -1,0 +1,24 @@
+{
+  "checks": 305,
+  "failed": [],
+  "final_method_selected": false,
+  "formal_coverage_admitted": false,
+  "human_review": false,
+  "independent_selected_target_errors_pp": [
+    3.831057693304274e-11,
+    1.9702017794998028e-11,
+    3.532907300041188e-11,
+    4.5247583457808105e-11,
+    2.0612400675190656e-11,
+    1.8065771101305472e-11,
+    2.795141895717279e-11,
+    1.922106918073041e-11,
+    3.2943869854307195e-11,
+    1.1389555965024556e-11,
+    3.325517639041209e-11,
+    4.8020920573321746e-11
+  ],
+  "independent_target_scope": "three predeclared era/type targets x two axes x two worlds; explicit Poisson sum, b0 ordinary probit",
+  "passed": true,
+  "review_source_sha256": "9bf8676b7e8bdfa81643488e8e1ee3a5f953ecf4c9e3efa888b57fb598d8d21e"
+}

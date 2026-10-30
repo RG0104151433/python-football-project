@@ -1,0 +1,9 @@
+{
+  "checks": 177738,
+  "directory": "outputs/tables/strength_joint/inference-pilot-121f390b31e497032ff5",
+  "failed": [],
+  "formal_inference_admitted": false,
+  "human_review": false,
+  "passed": true,
+  "stage": "pilot"
+}

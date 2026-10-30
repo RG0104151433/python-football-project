@@ -1,0 +1,31 @@
+{
+  "coverage_admitted": false,
+  "decision_log_id": "R20261030-16",
+  "evidence": {
+    "diagnostic_audit.json": "42a013fc3c73f2246c11210dd526d20146244317f31b2737c36d13387f18d611",
+    "diagnostic_reproducibility.json": "323f5e2ec8f800225b92f14834edf5f07a10d75dec0d2b9fe0bd2486206dd374",
+    "display_notes.json": "08a90ccc8557afb52d4333ebae5800046d7759daea915978db6c1e4bbb7cc7ab",
+    "handoff_review.json": "3eb40708a46beef5f5916eee399521f1fa9236a718f0cbdd15a13d9d121c2373",
+    "interface_audit.json": "9cf5546ca59ac2fd1f1bd22def28f573f6a487b6e134fc68469d6f3ca5d99126",
+    "pilot_audit.json": "d71603458cf32e6757a82354cdfd35e7e4eac61e8ac65a81b3f91e6a139a8714",
+    "summary.json": "e8b8296994c1c98d99e56ccfca64d28e1e8f6345006b5576123bfa6e4527b9ec",
+    "tests.xml": "86a7bfd048a27e1bde2e776d93f0ef60d4c341661a09552b52ed22732df5f6dc"
+  },
+  "final_method_selected": false,
+  "human_review": false,
+  "pointers": {
+    "diagnostic": {
+      "directory": "outputs/tables/strength_joint/inference-diagnostic-c5cbdc0b4a91fa2fcdc7",
+      "manifest_sha256": "83312ec0ea689f606154a413fc1a434a427bf1e6b82a85799afffdfcf363b107"
+    },
+    "interface": {
+      "directory": "outputs/tables/strength_joint/inference-interface-976d91f2ca7b388f20f3",
+      "manifest_sha256": "4a3e86ba9a0b1f7ef56dbbbc6ed7a4e04de977a2074b9d27bcaea7731bff950e"
+    },
+    "pilot": {
+      "directory": "outputs/tables/strength_joint/inference-pilot-121f390b31e497032ff5",
+      "manifest_sha256": "2ff3c9cae2c0872f2192020f667dfc5aded64f9970e07ae6b3bb37dab761860c"
+    }
+  },
+  "scope": "development_only_no_formal_inference"
+}

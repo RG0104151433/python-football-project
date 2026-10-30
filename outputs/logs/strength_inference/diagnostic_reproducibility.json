@@ -1,0 +1,10 @@
+{
+  "first_directory": "outputs\\tables\\strength_joint\\inference-diagnostic-2807c7c7fcf02bcbc998",
+  "current_directory": "outputs\\tables\\strength_joint\\inference-diagnostic-c5cbdc0b4a91fa2fcdc7",
+  "same_core_outputs": {
+    "diagnostic_ranges.csv": true,
+    "multiplier_draws.csv.gz": true,
+    "calendar_influence.csv.gz": true
+  },
+  "scope": "two actual calculations; timings and test-source snapshots differ, not whole-bundle byte reproducibility"
+}

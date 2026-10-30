@@ -1,0 +1,82 @@
+{
+  "B_seconds": 114.5921798000345,
+  "M0_truth_status": "DEVELOPMENT_SAME_STREAM_NOT_ORACLE",
+  "bandwidths": [
+    {
+      "bandwidth_days": 1,
+      "max_t_critical": 3.2589306626,
+      "median_diagnostic_half_width_pp": 3.2776061202499993,
+      "median_diagnostic_se_pp": 1.0057305477,
+      "targets": 54
+    },
+    {
+      "bandwidth_days": 90,
+      "max_t_critical": 3.2646043053,
+      "median_diagnostic_half_width_pp": 4.243742093,
+      "median_diagnostic_se_pp": 1.2999254109,
+      "targets": 54
+    },
+    {
+      "bandwidth_days": 365,
+      "max_t_critical": 3.2419566692,
+      "median_diagnostic_half_width_pp": 4.208836392275,
+      "median_diagnostic_se_pp": 1.29823955765,
+      "targets": 54
+    },
+    {
+      "bandwidth_days": 1095,
+      "max_t_critical": 3.2700535985,
+      "median_diagnostic_half_width_pp": 4.40066712365,
+      "median_diagnostic_se_pp": 1.3457477045,
+      "targets": 54
+    }
+  ],
+  "clean_hash": "69ba00073970fe011a62f5871c08ace6285d7fe75d5a0d79afdac0ef972de9dc",
+  "development_only": true,
+  "diagnostic": {
+    "directory": "outputs/tables/strength_joint/inference-diagnostic-c5cbdc0b4a91fa2fcdc7",
+    "manifest_sha256": "83312ec0ea689f606154a413fc1a434a427bf1e6b82a85799afffdfcf363b107"
+  },
+  "final_method_selected": false,
+  "formal_inference_admitted": false,
+  "helper_sha256": "b1be106f09b5914f8593acf33ddf265bbd9f0ec5875755b7af386af1be627c64",
+  "independent_truth_worlds": 0,
+  "mean_full_world_seconds": 988.1198727999872,
+  "pilot": {
+    "directory": "outputs/tables/strength_joint/inference-pilot-121f390b31e497032ff5",
+    "manifest_sha256": "2ff3c9cae2c0872f2192020f667dfc5aded64f9970e07ae6b3bb37dab761860c"
+  },
+  "projection_batch_coefficient_max_difference": 0.717465316479706,
+  "raw_hash": "5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767",
+  "target_reconstruction_max_error_pp": 4.9036330551643914e-11,
+  "worlds": [
+    {
+      "diagnostic_known_truth_containment_count": 27,
+      "generation_seconds": 730.9722612000187,
+      "interpretation": "27 dependent targets in one world, NOT 27 independent coverage repetitions",
+      "known_M3_RMSE_pp": 2.0269281754753656,
+      "known_M3_mean_error_pp": 0.05621958608888891,
+      "known_M3_targets": 27,
+      "learning_matches": 38919,
+      "max_query_error": 8.881784197001252e-16,
+      "seconds": 989.4109144000104,
+      "seed": 61001,
+      "study_matches": 24917,
+      "target_and_B_seconds": 208.95777339994675
+    },
+    {
+      "diagnostic_known_truth_containment_count": 26,
+      "generation_seconds": 718.5581880999962,
+      "interpretation": "27 dependent targets in one world, NOT 27 independent coverage repetitions",
+      "known_M3_RMSE_pp": 1.2068022334773472,
+      "known_M3_mean_error_pp": -0.4904534753074074,
+      "known_M3_targets": 27,
+      "learning_matches": 38919,
+      "max_query_error": 8.881784197001252e-16,
+      "seconds": 986.828831199964,
+      "seed": 61002,
+      "study_matches": 24917,
+      "target_and_B_seconds": 220.96197489998303
+    }
+  ]
+}

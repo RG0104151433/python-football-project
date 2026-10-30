@@ -8,6 +8,9 @@ __pycache__/
 .pytest_cache/
 outputs/test_tmp/
 
+# Recomputable full-world resume cache; published experiment tables remain tracked.
+outputs/logs/strength_inference/checkpoints/
+
 # IDE
 .idea/
 .vscode/

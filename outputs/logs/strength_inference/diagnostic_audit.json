@@ -1,0 +1,9 @@
+{
+  "checks": 715,
+  "directory": "outputs/tables/strength_joint/inference-diagnostic-c5cbdc0b4a91fa2fcdc7",
+  "failed": [],
+  "formal_inference_admitted": false,
+  "human_review": false,
+  "passed": true,
+  "stage": "diagnostic"
+}

@@ -1,0 +1,31 @@
+{
+  "allowed": [
+    "实现流程",
+    "诊断成本",
+    "诊断对依赖长度敏感这一方法发现",
+    "此前第三步主要实质发现"
+  ],
+  "confidence_intervals_admitted": false,
+  "decision_log_id": "R20261030-16",
+  "final_html_created": false,
+  "findings_source": "outputs/logs/strength_stage6/delivery-618a9dd942fad38863e6/display_data.json",
+  "forbidden": [
+    "把诊断范围当置信区间",
+    "把两个世界当覆盖验收",
+    "把同世界27目标当27个独立重复",
+    "宣称最终路线优胜"
+  ],
+  "formal_inference_admitted": false,
+  "formal_method_selected": false,
+  "handoff_review": "outputs/logs/strength_inference/handoff_review.json",
+  "human_review": false,
+  "results_summary": "outputs/logs/strength_inference/summary.json",
+  "status": "development_methods_only_not_final_inference",
+  "two_route_summary": "A保留历史反馈但真值/中心和成本仍待审定；B快速保留配对信息但M0中心化和长期依赖仍待检验",
+  "workflow": [
+    "先核对54目标和只读评分接口",
+    "A重新生成完整历史并同场重拟合两模型",
+    "B按实际日历联合扰动两模型",
+    "独立真值和共同覆盖未通过前不选择路线"
+  ]
+}
