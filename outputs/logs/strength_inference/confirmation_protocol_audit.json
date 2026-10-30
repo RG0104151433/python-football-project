@@ -1,0 +1,42 @@
+{
+  "checks": {
+    "all_four_within_original": true,
+    "all_looks_in_frozen_cap": true,
+    "alternative_above_null": true,
+    "combined_single_gate_within_original": true,
+    "fresh_rule_within_remaining": true,
+    "probability_conserved": true
+  },
+  "combined_single_gate_exact_null_false_pass": 0.011815196766812875,
+  "config_sha256": "43da588617b189da80b44bb87e01dd57d36f7cfbe11ba303b1fcbba17616097d",
+  "first_screen_false_pass_at_null": 0.00961410160206668,
+  "four_gate_union_bound": 0.0472607870672515,
+  "fresh_exact_null_crossing_probability": 0.0022224621415821125,
+  "look_details": [
+    {
+      "additional_null_crossing_probability": 0.0009426773259036097,
+      "max_accepted_failures": 0,
+      "n": 96
+    },
+    {
+      "additional_null_crossing_probability": 0.0006678881520557697,
+      "max_accepted_failures": 1,
+      "n": 128
+    },
+    {
+      "additional_null_crossing_probability": 0.0003918684627705657,
+      "max_accepted_failures": 2,
+      "n": 160
+    },
+    {
+      "additional_null_crossing_probability": 0.00022002820085216751,
+      "max_accepted_failures": 3,
+      "n": 192
+    }
+  ],
+  "observed_fresh_world_outcomes_used": false,
+  "passed": true,
+  "remaining_error_budget": 0.0028858983979333213,
+  "scope": "conditional fixed generator; mathematical probability calculation only",
+  "source_sha256": "37e2e49b90f8ceeaba6a30846eb267ca299847ede25e65a93d0a0d8ad2c837a3"
+}

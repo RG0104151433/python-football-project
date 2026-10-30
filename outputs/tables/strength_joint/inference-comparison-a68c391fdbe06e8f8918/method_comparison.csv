@@ -1,0 +1,5 @@
+﻿scenario,route,planned,delivered,failures,point_truth_joint_containment,conservative_MC_truth_joint_containment,strict_joint_containment_rate,one_sided_MC_lower,numerical_failure_fraction,numerical_failure_MC_upper,truth_precision_passed,truth_max_MC_se_pp,median_half_width_pp,max_half_width_pp,admitted,original54_targets,MC_truth_error_certified_finite_sample
+conditional_independent_dates,A,64,64,0,64,64,1.0000000000,0.9338222530,0.0000000000,0.0661777470,false,2.4417690352,56.5448310008,110.2021681244,false,true,false
+conditional_independent_dates,B,64,64,0,64,64,1.0000000000,0.9338222530,0.0000000000,0.0661777470,false,2.4417690352,54.3179097615,105.8620446425,false,true,false
+same_day_shared_noise,A,64,64,0,64,63,0.9843750000,0.9043880424,0.0000000000,0.0661777470,false,3.2433606384,57.5938705718,112.2466774655,false,true,false
+same_day_shared_noise,B,64,64,0,64,63,0.9843750000,0.9043880424,0.0000000000,0.0661777470,false,3.2433606384,56.6076958628,110.3246876186,false,true,false

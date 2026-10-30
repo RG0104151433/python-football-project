@@ -1,0 +1,13 @@
+{
+  "dates": 300,
+  "passed": true,
+  "query_probability_max_error": 3.3306690738754696e-16,
+  "query_replay_seconds": 5.985482399992179,
+  "registered_target_max_error_pp": 4.9036330551643914e-11,
+  "sparse_jacobian_shape": [
+    54,
+    81
+  ],
+  "sparse_target_seconds": 32.25743610004429,
+  "targets": 54
+}

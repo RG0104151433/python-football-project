@@ -1,0 +1,22 @@
+{
+  "all_same_day_generated_before_update": true,
+  "away_wins": 15005,
+  "dates": 12174,
+  "day_correlation": 0.0,
+  "draw_odds_multiplier": 1.0,
+  "draws": 5330,
+  "exact_schedule_ids_sha256": "3436a715339a04d03feeda8158998e3f3f3884c500bc74ebc41ae0d7ab8f5fb3",
+  "full_feedback_replayed": true,
+  "home_wins": 18584,
+  "learning_matches": 38919,
+  "max_query_error": 8.881784197001252e-16,
+  "npz_sha256": "fe2b53cb62c17ce8eeda4e9f0ee65f3d03e04dddb8b495e929f24c7242b0f7e6",
+  "phase": "validation",
+  "scenario": "conditional_independent_dates",
+  "seconds": 378.9765749000362,
+  "seed": 730043,
+  "seed_is_independent_replication": true,
+  "selection_repeated": false,
+  "study_matches": 24917,
+  "total_generation_seconds": 379.8357258000178
+}

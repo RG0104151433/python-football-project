@@ -1,0 +1,68 @@
+{
+  "details": [
+    {
+      "MC_covariance_min_eigenvalue": 5.282144321748496e-08,
+      "era_type_MC_jackknife_bias_pp": [
+        -0.00016222400801724213,
+        -0.0002937492774488515,
+        -0.00012757134140728432
+      ],
+      "era_type_MC_jackknife_se_pp": [
+        0.1055700336171449,
+        0.1672912796740981,
+        0.1222691212756789
+      ],
+      "era_type_MC_linear_se_pp": [
+        0.12275540170359636,
+        0.137263099529772,
+        0.10559491391498341
+      ],
+      "independent_solver_max_parameter_difference": 1.3849757700412635e-07,
+      "independent_solver_max_target_difference_pp": 4.4446333333780785e-06,
+      "jackknife_to_linear_ratios": [
+        0.8600031619956975,
+        1.2187636753591817,
+        1.1579072963127772
+      ],
+      "minimum_curvature": 0.0006030170206813018,
+      "newton_gradient": 8.390499592176438e-14,
+      "passed": true,
+      "scenario": "conditional_independent_dates",
+      "sparse_directional_gradient_error": 1.5742172010391187e-09
+    },
+    {
+      "MC_covariance_min_eigenvalue": -9.742839228306243e-19,
+      "era_type_MC_jackknife_bias_pp": [
+        -0.00010914410266316121,
+        8.654122838414047e-05,
+        2.6338066874798116e-05
+      ],
+      "era_type_MC_jackknife_se_pp": [
+        0.20529665597759725,
+        0.13535337959574958,
+        0.11527361898909876
+      ],
+      "era_type_MC_linear_se_pp": [
+        0.18385346316645534,
+        0.18686698354287984,
+        0.14211570138386811
+      ],
+      "independent_solver_max_parameter_difference": 1.277305356206515e-07,
+      "independent_solver_max_target_difference_pp": 4.903803802136508e-06,
+      "jackknife_to_linear_ratios": [
+        1.1166319765852215,
+        0.7243300931471954,
+        0.8111251456848788
+      ],
+      "minimum_curvature": 0.0006345958452331547,
+      "newton_gradient": 3.048878189152715e-14,
+      "passed": true,
+      "scenario": "same_day_shared_noise",
+      "sparse_directional_gradient_error": 1.4736150077965249e-09
+    }
+  ],
+  "independent_solvers": true,
+  "jackknife_is_empirical_diagnostic_not_finite_sample_certificate": true,
+  "passed": true,
+  "source_sha256": "61bb1acb713dfc5671cb1f7448b438c2b5333eda661a52a6a0a7f464c1427245"
+}

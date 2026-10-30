@@ -1,0 +1,11 @@
+{
+  "schema_version": "strength-truth-margin-guard-v1",
+  "decision_log_id": "R20261031-04",
+  "reason": "independent truth audit shows modest linear-versus-jackknife MC-SE differences; use conservative allowance without changing the point-error coverage gate",
+  "standard_error": "max(linear_MC_SE,delete_block_jackknife_SE) for the three admitted M0 contrasts",
+  "additive_allowance": "Bonferroni-t times standard_error + absolute jackknife bias estimate + independent solver target discrepancy",
+  "precision_gate_unchanged_pp": 0.25,
+  "fixed_original_family_54_not_admitted": true,
+  "uses_validation_errors_for_margin_choice": false,
+  "finite_sample_truth_certificate": false
+}

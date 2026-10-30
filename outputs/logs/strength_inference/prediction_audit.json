@@ -1,0 +1,31 @@
+{
+  "background_to_joint_relative_loss_reduction": 0.1611851400468753,
+  "checks": 193061,
+  "failed": [],
+  "full_WDL_accuracy": false,
+  "human_review": false,
+  "joint_beats_background_years": 35,
+  "joint_beats_strength_years": 21,
+  "metrics": {
+    "M0_nested": {
+      "binary_accuracy": 0.58193620697707,
+      "brier": 0.23958012718856925,
+      "log_loss": 0.671936249967662
+    },
+    "M1_strength": {
+      "binary_accuracy": 0.6983141082519965,
+      "brier": 0.19369811221680508,
+      "log_loss": 0.5660201031172677
+    },
+    "M3_nested": {
+      "binary_accuracy": 0.7000887311446318,
+      "brier": 0.19265732433792968,
+      "log_loss": 0.5636301114140522
+    }
+  },
+  "new_blind_future_test": false,
+  "passed": true,
+  "predictions_per_model": 21413,
+  "strength_to_joint_relative_loss_reduction": 0.0042224502099006975,
+  "training_fits": 105
+}

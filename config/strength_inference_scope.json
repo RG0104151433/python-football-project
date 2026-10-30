@@ -1,0 +1,19 @@
+{
+  "schema_version": "strength-inference-reporting-scope-v1",
+  "decision_log_id": "R20261031-02",
+  "reason": "independent truth precision failed for24 regional paired changes; keep original54 and do not lower the original gate",
+  "original_family_retained": 54,
+  "original54_joint_admission": false,
+  "candidate_report_family": "27 level targets + Q1/Q2 three paired changes =30",
+  "selection_basis": "axis and research category plus independent truth MC precision; not observed effect direction or calibration/validation success",
+  "frozen_before_validation_worlds": true,
+  "target_precision_gate_pp": 0.25,
+  "MC_truth_alpha": 0.01,
+  "MC_truth_interval": "Bonferroni t for fixed M0 contrast functions, common to all worlds; approximate independent-world CLT",
+  "final_half_width": "fixed-scale calibrated half width plus MC truth contrast allowance",
+  "coverage_gate": "actual A estimator error versus numerical reference, plus truth allowance in final interval; one-sided exact MC lower>=0.93 across four route/scenario gates",
+  "interpretation": "fixed-generator model-conditional reference envelope; not unconditional real-world or selection-adjusted95% confidence certification",
+  "B_normalized_linearization_RMSE_gate": 0.2,
+  "B_whole_run_cost_advantage_required": 0.2,
+  "keep_unadmitted_targets": "all24 regional paired changes retain estimates and failure reasons; no formal interval, no causal contribution fraction"
+}

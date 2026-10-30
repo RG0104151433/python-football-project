@@ -1,0 +1,37 @@
+{
+  "final_teacher_acceptance": false,
+  "human_review": false,
+  "identity": {
+    "code_sha256": "253724e6de17ff6e2f3ba9b8ffe7b151389a5083ef6ea9b063cd7ac0df7b2d84",
+    "data_sha256": "89f3c0b74b8c02244722e3985fc507b9c118055ffca470d45201dc59360b82d3",
+    "environment": {
+      "commit": "4d208b430a3d09b1e8183b30180ea71b7a7b7847",
+      "execution_code": "working tree; exact source hashes recorded, no commit made",
+      "numpy": "2.5.4",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "python": "3.14.8",
+      "scipy": "1.18.1"
+    },
+    "font": "C:\\Windows\\Fonts\\msyh.ttc",
+    "font_sha256": "d79c55e68b1131eea0cc1c47be4f572d964f28c682e143db2ad09c1e4cb07a3f",
+    "matplotlib": "3.11.2"
+  },
+  "outputs": {
+    "outputs/figures/strength_q5/q5-closeout-1c4c593487304afa0f6a/all_level_reference_ranges.png": "3622b8121ab2c4bb372943d48f241520c6d3c18b846fa85753ece7e3688f1b6f",
+    "outputs/figures/strength_q5/q5-closeout-1c4c593487304afa0f6a/all_level_reference_ranges.svg": "0411763d871b353e2ad385262c933a21d405af01344db3770c4a1dc8c4eff731",
+    "outputs/figures/strength_q5/q5-closeout-1c4c593487304afa0f6a/main_reference_ranges.png": "eee7f6fe7b8707e0dec3208cb1b544f013727bad6de157fe147101a2ae09e7d0",
+    "outputs/figures/strength_q5/q5-closeout-1c4c593487304afa0f6a/main_reference_ranges.svg": "5cdafa7190404c5f1ec7c9d429cc2ae6d03b41225668f43c75402bea49762769",
+    "outputs/figures/strength_q5/q5-closeout-1c4c593487304afa0f6a/prediction_comparison.png": "848d68eea1c14d00a86dbfbb75a44a7eda91b017049f1239f817b892aff8fa67",
+    "outputs/figures/strength_q5/q5-closeout-1c4c593487304afa0f6a/prediction_comparison.svg": "37d919cfef2006f361479faee583695c00d9ae675b99edba27851850486bbbfc",
+    "outputs/figures/strength_q5/q5-closeout-1c4c593487304afa0f6a/route_validation.png": "83f27db18b7c35f7bc1973e21a403db8eccb366640eb776f978ffe488bf6c11d",
+    "outputs/figures/strength_q5/q5-closeout-1c4c593487304afa0f6a/route_validation.svg": "2fa2fcb3870dd22190fcc3ec5de54dd77573cbe7714dffd869435856df4ea200",
+    "outputs/figures/strength_q5/q5-closeout-1c4c593487304afa0f6a/yearly_increment.png": "39e05acd6e2bf75bd8842de12946549faa2262e3145edddd07317d67d49ab45b",
+    "outputs/figures/strength_q5/q5-closeout-1c4c593487304afa0f6a/yearly_increment.svg": "52918d0d47e2663fda3c0d7f7567e3cee2dd396dd5ceb42d4a53bdb83953b147",
+    "outputs/logs/strength_q5_closeout/q5-closeout-1c4c593487304afa0f6a/identity.json": "984845641f397f53f63001f75243e990429d61de646f5dd184091769917fde78",
+    "outputs/logs/strength_q5_closeout/q5-closeout-1c4c593487304afa0f6a/index.html": "2cb303417bbed13fd62f538131b9559d83a44e4a1ea01debc6d4c1618af105e7",
+    "outputs/logs/strength_q5_closeout/q5-closeout-1c4c593487304afa0f6a/object_disposition.csv": "cfdd32a82612830810c958dcfeecdea9ea2d6268b505189d71837ff2c6c44274",
+    "outputs/logs/strength_q5_closeout/q5-closeout-1c4c593487304afa0f6a/paper_notes.md": "e1cb6dc479abd64b95a80e8ab711a6c14a2b2536dbc749f23e0b144981e93c2e",
+    "outputs/logs/strength_q5_closeout/q5-closeout-1c4c593487304afa0f6a/presentation_data.json": "648728664c6e941f463fbc246e8343005407af1299c53c7cb60bd42cacaae4aa"
+  },
+  "schema_version": "q5-closeout-materials-v1"
+}

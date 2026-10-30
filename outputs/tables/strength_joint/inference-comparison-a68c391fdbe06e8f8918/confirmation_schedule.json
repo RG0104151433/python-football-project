@@ -1,0 +1,35 @@
+{
+  "calibration_sha256": "c9de2329f5090af0e553f5fb18fb26ac34e1f682c160f76a4e84b25fda541e62",
+  "comparison_identity_sha256": "d6c7ca43705adc35e6bdcc3747a9a9e66a6fbbb4a76d328c31fa7b7f0aaeb561",
+  "config": {
+    "alternative_probability": 0.99,
+    "decision_log_id": "R20261031-05",
+    "e_process": "product (0.99/0.93)^success * (0.01/0.07)^failure on NEW worlds only",
+    "first_stage_acceptance": "all64 actual estimator errors contained; original test unchanged",
+    "first_stage_actual_null_error": "0.93^64",
+    "first_stage_worlds": 64,
+    "fresh_stream_error_budget": "0.0125 - 0.93^64",
+    "gate_probability": 0.93,
+    "look_sizes": [
+      96,
+      128,
+      160,
+      192
+    ],
+    "models_scales_critical_values_family_and_ranges_changed": false,
+    "new_forecast_blind_holdout": false,
+    "numerical_failures": "count as noncontainment; preserve same-seed failure; no redraw",
+    "old_worlds_in_new_e_process": false,
+    "original_gate_error_budget": 0.0125,
+    "report_initial_failed_gate": true,
+    "scenario": "same_day_shared_noise",
+    "schema_version": "strength-inference-fresh-stream-confirmation-v1",
+    "seeds": [
+      840000,
+      840192
+    ],
+    "stop_rule": "both routes pass the fresh-stream e threshold or reach192; if either fails do not force adoption"
+  },
+  "config_sha256": "43da588617b189da80b44bb87e01dd57d36f7cfbe11ba303b1fcbba17616097d",
+  "source_sha256": "c43d0bbc68535a14a1c1ecb9951859680d9ff6531fb50e161cbbe08967b94c40"
+}

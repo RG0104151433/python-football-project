@@ -790,6 +790,23 @@
       "bytes": 573317,
       "sha256": "b354f8d88ac3ee854e4ae191c54f602232b7b24046c461fb7e2222a6ac83771b",
       "error": null
+    },
+    {
+      "adaptation": "independent units are complete generated histories; conditional on frozen generator/truth/calibration. Not a confidence sequence for dependent football matches or real plug-in coverage.",
+      "authors": "Steven R. Howard; Aaditya Ramdas; Jon McAuliffe; Jasjeet Sekhon",
+      "bytes": 1486700,
+      "decision_log_id": "R20261031-05",
+      "doi": "https://doi.org/10.1214/20-AOS1991",
+      "id": "Q5-P20",
+      "local_path": "原文/Howard_etal_2020v5_confidence_sequences.pdf",
+      "reading_scope": "Read introduction, time-uniform coverage, stopping validity, nonnegative-supermartingale framework and sequential testing discussion; own Bernoulli LR and first-screen budget proof written in project, not a claim to have rechecked every paper theorem",
+      "requested_url": "https://arxiv.org/pdf/1810.08240v5",
+      "retrieved_at_utc": "2026-10-30T18:16:29.739053+00:00",
+      "sha256": "b62464239fe7d443decdff2cd3545bd667794b5c0aba133f5605669da0451a42",
+      "status": "downloaded",
+      "title": "Time-uniform, nonparametric, nonasymptotic confidence sequences",
+      "version": "arXiv:1810.08240v5, 2020-05-30; published Annals of Statistics49(2),2021,1055–1080",
+      "web_read_url": "https://arxiv.org/html/1810.08240v5"
     }
   ],
   "reading_events": [

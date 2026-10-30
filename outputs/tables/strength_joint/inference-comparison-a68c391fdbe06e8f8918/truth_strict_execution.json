@@ -1,0 +1,18 @@
+{
+  "attempted": 1,
+  "failures": 0,
+  "previous_failures_preserved": true,
+  "records": [
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 485.92739789996995,
+      "seed": 710035,
+      "strict_same_date_retries": 1,
+      "success": true
+    }
+  ],
+  "requested": 1,
+  "successes": 1,
+  "wall_seconds": 490.507304299972
+}

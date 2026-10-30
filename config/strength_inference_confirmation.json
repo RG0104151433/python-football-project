@@ -1,0 +1,21 @@
+{
+  "schema_version": "strength-inference-fresh-stream-confirmation-v1",
+  "decision_log_id": "R20261031-05",
+  "scenario": "same_day_shared_noise",
+  "seeds": [840000, 840192],
+  "look_sizes": [96, 128, 160, 192],
+  "first_stage_worlds": 64,
+  "first_stage_acceptance": "all64 actual estimator errors contained; original test unchanged",
+  "gate_probability": 0.93,
+  "original_gate_error_budget": 0.0125,
+  "first_stage_actual_null_error": "0.93^64",
+  "fresh_stream_error_budget": "0.0125 - 0.93^64",
+  "alternative_probability": 0.99,
+  "e_process": "product (0.99/0.93)^success * (0.01/0.07)^failure on NEW worlds only",
+  "stop_rule": "both routes pass the fresh-stream e threshold or reach192; if either fails do not force adoption",
+  "old_worlds_in_new_e_process": false,
+  "models_scales_critical_values_family_and_ranges_changed": false,
+  "numerical_failures": "count as noncontainment; preserve same-seed failure; no redraw",
+  "report_initial_failed_gate": true,
+  "new_forecast_blind_holdout": false
+}

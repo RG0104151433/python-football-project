@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "damping": 0.25,
+      "max_iterations": 1500
+    },
+    {
+      "damping": 0.1,
+      "max_iterations": 6000
+    }
+  ],
+  "code": {
+    "scripts/run_strength_inference_final.py": "d6aceb67f3c1f0330a8b804e2b357abec59e38c749f23ae76ffa11da7c5aa2eb",
+    "src/strength_inference_numerics.py": "1501c87e5434ac72b5b092f0652ea5f3c52efee36cdc963f6a72830cda546b88"
+  },
+  "decision_log_id": "R20261031-01",
+  "prior_state_restore": true,
+  "reason": "default EP failed at seed710035; do not discard/reseed",
+  "strict_tolerances": [
+    1e-07,
+    1e-08
+  ],
+  "successful_default_histories_unchanged": true
+}

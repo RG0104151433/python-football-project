@@ -1,0 +1,47 @@
+{
+  "all_routes_passed": true,
+  "assessments": [
+    {
+      "combined_error_bound": 0.0125,
+      "e_value": 404.2179732490059,
+      "first_screen_actual_error": 0.00961410160206668,
+      "fresh_error_budget": 0.0028858983979333213,
+      "fresh_stream_CS_lower": 0.9314934142401682,
+      "gate_passed": true,
+      "log_e_value": 6.001954270208057,
+      "new_worlds": 96,
+      "numerical_failures": 0,
+      "old_worlds_in_e_process": false,
+      "original_critical_and_scales_unchanged": true,
+      "route": "A",
+      "scenario": "same_day_shared_noise",
+      "successes": 96,
+      "threshold": 346.51254552694235
+    },
+    {
+      "combined_error_bound": 0.0125,
+      "e_value": 404.2179732490059,
+      "first_screen_actual_error": 0.00961410160206668,
+      "fresh_error_budget": 0.0028858983979333213,
+      "fresh_stream_CS_lower": 0.9314934142401682,
+      "gate_passed": true,
+      "log_e_value": 6.001954270208057,
+      "new_worlds": 96,
+      "numerical_failures": 0,
+      "old_worlds_in_e_process": false,
+      "original_critical_and_scales_unchanged": true,
+      "route": "B",
+      "scenario": "same_day_shared_noise",
+      "successes": 96,
+      "threshold": 346.51254552694235
+    }
+  ],
+  "conditional_generator_only": true,
+  "current_stop": "both_passed",
+  "decision_log_id": "R20261031-05",
+  "first_stage_failed_result_preserved": true,
+  "max_worlds": 192,
+  "new_worlds": 96,
+  "numerical_failures": 0,
+  "schema_version": "strength-inference-fresh-stream-confirmation-v1"
+}

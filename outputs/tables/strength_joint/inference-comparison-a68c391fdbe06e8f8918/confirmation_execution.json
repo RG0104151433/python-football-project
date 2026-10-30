@@ -1,0 +1,774 @@
+{
+  "records": [
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 593.3081313999719,
+      "seed": 840015,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 598.0869939000113,
+      "seed": 840009,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 598.0790248999838,
+      "seed": 840010,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 602.436245799996,
+      "seed": 840007,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 603.663708200038,
+      "seed": 840014,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 603.7641639999929,
+      "seed": 840008,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 606.6833970000152,
+      "seed": 840006,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 606.9344198000035,
+      "seed": 840002,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 608.568329199974,
+      "seed": 840004,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 608.4503145000199,
+      "seed": 840013,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 609.4392022999818,
+      "seed": 840005,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 610.3027848000056,
+      "seed": 840000,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 610.4568316999939,
+      "seed": 840003,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 612.4545547000016,
+      "seed": 840001,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 614.6486549999681,
+      "seed": 840011,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 616.4733780000242,
+      "seed": 840012,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 527.047368599975,
+      "seed": 840016,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 523.7807746000472,
+      "seed": 840017,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 522.7558929999941,
+      "seed": 840020,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 523.3410966999945,
+      "seed": 840023,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 532.2485632000025,
+      "seed": 840018,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 533.4123053000076,
+      "seed": 840021,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 533.9319276000024,
+      "seed": 840022,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 534.7043992999825,
+      "seed": 840024,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 534.9466975000105,
+      "seed": 840026,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 537.6739439999801,
+      "seed": 840025,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 544.1563365000184,
+      "seed": 840019,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 537.5379153999966,
+      "seed": 840028,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 534.490546200017,
+      "seed": 840030,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 539.8873932000133,
+      "seed": 840027,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 540.9594245000044,
+      "seed": 840029,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 540.9677232000395,
+      "seed": 840031,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 512.4962000999949,
+      "seed": 840033,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 522.5075407000259,
+      "seed": 840032,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 521.9516958000022,
+      "seed": 840034,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 518.3525527999736,
+      "seed": 840036,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 520.1562765000272,
+      "seed": 840035,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 525.4599600000074,
+      "seed": 840037,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 525.6225490000215,
+      "seed": 840039,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 528.8290430000052,
+      "seed": 840038,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 524.0994909000001,
+      "seed": 840042,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 529.0423430999508,
+      "seed": 840040,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 526.0007133000181,
+      "seed": 840043,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 529.86298049998,
+      "seed": 840041,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 534.9029955000151,
+      "seed": 840044,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 534.1674092999892,
+      "seed": 840046,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 537.8508100000327,
+      "seed": 840045,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 530.2864618999884,
+      "seed": 840047,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 492.853072900034,
+      "seed": 840048,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 501.56833600002574,
+      "seed": 840050,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 504.01357159996405,
+      "seed": 840052,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 514.4927917000023,
+      "seed": 840049,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 525.2631496000104,
+      "seed": 840051,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 520.2384076000308,
+      "seed": 840053,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 520.2297500999994,
+      "seed": 840054,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 519.6407670999761,
+      "seed": 840056,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 522.6944260000018,
+      "seed": 840058,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 530.883454099996,
+      "seed": 840055,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 525.5245298999944,
+      "seed": 840059,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 531.9501461000182,
+      "seed": 840057,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 522.2772698999615,
+      "seed": 840060,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 525.673389500007,
+      "seed": 840061,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 527.8382071999949,
+      "seed": 840062,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 527.8786172000109,
+      "seed": 840063,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 522.2398077000398,
+      "seed": 840064,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 519.8878791999887,
+      "seed": 840065,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 521.1250953000272,
+      "seed": 840066,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 519.8538524999749,
+      "seed": 840067,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 528.4255717000342,
+      "seed": 840068,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 531.0380684999982,
+      "seed": 840070,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 538.8485243000323,
+      "seed": 840069,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 536.8996069999994,
+      "seed": 840071,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 533.8041045000427,
+      "seed": 840072,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 533.8625072999857,
+      "seed": 840074,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 537.3954931999906,
+      "seed": 840073,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 533.9636827000068,
+      "seed": 840076,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 536.6971536999918,
+      "seed": 840075,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 526.797510000004,
+      "seed": 840079,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 530.4166755999904,
+      "seed": 840078,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 534.2674385000137,
+      "seed": 840077,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 472.49436139996396,
+      "seed": 840080,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 486.35751489998074,
+      "seed": 840081,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 489.8790983000072,
+      "seed": 840082,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 504.0444349999889,
+      "seed": 840083,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 511.48130459996173,
+      "seed": 840084,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 514.368088999996,
+      "seed": 840086,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 519.388556699967,
+      "seed": 840085,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 512.4069866999635,
+      "seed": 840087,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 517.4742183000199,
+      "seed": 840088,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 520.680295499973,
+      "seed": 840089,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 514.0793873999501,
+      "seed": 840094,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 524.266114099999,
+      "seed": 840090,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 520.5517707000254,
+      "seed": 840092,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 516.716973099974,
+      "seed": 840095,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 523.9084616000182,
+      "seed": 840091,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "confirmation",
+      "scenario": "same_day_shared_noise",
+      "seconds": 522.6466517000226,
+      "seed": 840093,
+      "strict_same_date_retries": 0,
+      "success": true
+    }
+  ],
+  "wall_seconds": 3272.4670370999957,
+  "workers": 16
+}

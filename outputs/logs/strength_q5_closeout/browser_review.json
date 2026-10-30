@@ -1,0 +1,34 @@
+{
+  "HTML_sha256": "884f417de44b9ebc1c037c099c59888b5d9727681eaa0f821a747c77798db0dd",
+  "actual_browser_validation": false,
+  "actual_projector_validation": false,
+  "audit_code_sha256": "af840aacd6662c8fb7a2aba7c99613d087bd3d18e37c7bcda7a9188f110745ca",
+  "browser_attempt_status": "blocked_by_browser_security_policy",
+  "browser_blocked_action": "file:// local HTML preview; allowed browser URL protocols http/https; no alternate browser navigation attempted",
+  "control_check": {
+    "DOM_layout_engine": false,
+    "actual_browser": false,
+    "logical_checks": 19,
+    "method": "isolated Node vm and DOM stubs; no local HTML browser navigation",
+    "passed": true
+  },
+  "control_code_sha256": "27d488c3db3f54f36b0d751f8fb2a5ca2196d50a5ab1818e9064a89e17f18adc",
+  "executed_utc": "2026-10-30T19:13:39.484390+00:00",
+  "human_review": false,
+  "next_manual_check": "Open final HTML normally on the presentation computer; verify three pages, appendix, arrow keys, fullscreen, offline display and print.",
+  "passed": true,
+  "preview_only": false,
+  "rendered_figures_reviewed_by_AI": true,
+  "static_checks": {
+    "actual_prediction_sample": true,
+    "all_SVG_glyph_and_clip_references": true,
+    "binary_not_WDL": true,
+    "isolated_control_logic": true,
+    "no_external_resources": true,
+    "offline_source_links": true,
+    "required_controls": true,
+    "three_slides": true,
+    "unconditional_claim_absent": true,
+    "unique_ids": true
+  }
+}

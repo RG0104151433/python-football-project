@@ -1,0 +1,16 @@
+{
+  "checks": 6511,
+  "failed": [],
+  "full_worlds": 264,
+  "human_review": false,
+  "independent_scalar_generator_checks": 3168,
+  "independently_checked_array_values": 59202792,
+  "materials_checked": false,
+  "max_independent_generator_probability_error": 3.397282455352979e-14,
+  "original54_joint_admitted": false,
+  "paired_fit_worlds": 184,
+  "passed": true,
+  "real_unconditional_coverage_certified": false,
+  "source_sha256": "1712c9d13488509303fa3c72eaf7931cb619f8e521cdeff52c066afe3e066a37",
+  "strict_recovery_dates": 1
+}

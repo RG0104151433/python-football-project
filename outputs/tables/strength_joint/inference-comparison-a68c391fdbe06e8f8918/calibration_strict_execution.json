@@ -1,0 +1,458 @@
+{
+  "attempted": 56,
+  "failures": 0,
+  "previous_failures_preserved": true,
+  "records": [
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 582.6908865000005,
+      "seed": 720000,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 585.3898802000331,
+      "seed": 720015,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 589.9535174000193,
+      "seed": 720006,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 591.0686617000028,
+      "seed": 720007,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 597.1043818999897,
+      "seed": 720005,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 597.2105658000219,
+      "seed": 720008,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 597.41780689999,
+      "seed": 720012,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 601.2530727999983,
+      "seed": 720002,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 604.9223259999999,
+      "seed": 720004,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 607.9158303000149,
+      "seed": 720014,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 611.2916582999751,
+      "seed": 720011,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 611.4744539000094,
+      "seed": 720009,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 612.5268884999678,
+      "seed": 720010,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 614.4636467000237,
+      "seed": 720013,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 615.4432800999493,
+      "seed": 720003,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 621.4909484999953,
+      "seed": 720001,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 510.4610280999914,
+      "seed": 720016,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 515.9399203000357,
+      "seed": 720017,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 520.2525468000094,
+      "seed": 720019,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 523.6922054999741,
+      "seed": 720018,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 520.2988063999801,
+      "seed": 720020,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 524.4798643999966,
+      "seed": 720021,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 528.1413898000028,
+      "seed": 720022,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 525.3061489000102,
+      "seed": 720023,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 527.7884223999572,
+      "seed": 720027,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 536.8824991000001,
+      "seed": 720024,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 531.1099337000051,
+      "seed": 720026,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 532.6362449000007,
+      "seed": 720028,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 530.8237341999775,
+      "seed": 720029,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 537.577351999993,
+      "seed": 720025,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 530.676973900001,
+      "seed": 720030,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "conditional_independent_dates",
+      "seconds": 530.9493169999914,
+      "seed": 720031,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "same_day_shared_noise",
+      "seconds": 500.8915785999852,
+      "seed": 820000,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "same_day_shared_noise",
+      "seconds": 494.29424899996957,
+      "seed": 820001,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "same_day_shared_noise",
+      "seconds": 507.8523111999966,
+      "seed": 820002,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "same_day_shared_noise",
+      "seconds": 510.3462107999949,
+      "seed": 820003,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "same_day_shared_noise",
+      "seconds": 518.4683955000364,
+      "seed": 820004,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "same_day_shared_noise",
+      "seconds": 517.1174652000191,
+      "seed": 820005,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "same_day_shared_noise",
+      "seconds": 515.679841599951,
+      "seed": 820007,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "same_day_shared_noise",
+      "seconds": 518.501358199981,
+      "seed": 820006,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "same_day_shared_noise",
+      "seconds": 520.2594951000065,
+      "seed": 820008,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "same_day_shared_noise",
+      "seconds": 518.3679191999836,
+      "seed": 820009,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "same_day_shared_noise",
+      "seconds": 521.4617575000157,
+      "seed": 820010,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "same_day_shared_noise",
+      "seconds": 518.5820706000086,
+      "seed": 820013,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "same_day_shared_noise",
+      "seconds": 520.1106901000021,
+      "seed": 820014,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "same_day_shared_noise",
+      "seconds": 523.4218879999826,
+      "seed": 820012,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "same_day_shared_noise",
+      "seconds": 526.0971441000002,
+      "seed": 820011,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "same_day_shared_noise",
+      "seconds": 519.6948791000177,
+      "seed": 820015,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "same_day_shared_noise",
+      "seconds": 491.2110632999684,
+      "seed": 820017,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "same_day_shared_noise",
+      "seconds": 504.1928017999744,
+      "seed": 820016,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "same_day_shared_noise",
+      "seconds": 494.8556106000324,
+      "seed": 820018,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "same_day_shared_noise",
+      "seconds": 497.36656149994815,
+      "seed": 820019,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "same_day_shared_noise",
+      "seconds": 492.20972550002625,
+      "seed": 820020,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "same_day_shared_noise",
+      "seconds": 496.3975226000184,
+      "seed": 820021,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "same_day_shared_noise",
+      "seconds": 494.0462379999808,
+      "seed": 820022,
+      "strict_same_date_retries": 0,
+      "success": true
+    },
+    {
+      "phase": "calibration",
+      "scenario": "same_day_shared_noise",
+      "seconds": 503.2193877999671,
+      "seed": 820023,
+      "strict_same_date_retries": 0,
+      "success": true
+    }
+  ],
+  "requested": 56,
+  "successes": 56,
+  "wall_seconds": 2154.3558745000046
+}

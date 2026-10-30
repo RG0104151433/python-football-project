@@ -1,0 +1,573 @@
+{
+  "attempts": 80,
+  "failures": 1,
+  "planned": 80,
+  "records": [
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 354.1600989999715,
+      "seed": 710000,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 353.70045509998454,
+      "seed": 710001,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 359.48650569998426,
+      "seed": 710002,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 350.7597841999959,
+      "seed": 710003,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 355.2391467000125,
+      "seed": 710004,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 356.38057470001513,
+      "seed": 710005,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 352.96572510001715,
+      "seed": 710006,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 362.31098859995836,
+      "seed": 710007,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 361.21946220000973,
+      "seed": 710008,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 358.8867288000183,
+      "seed": 710009,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 350.5596603999729,
+      "seed": 710010,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 358.18643209995935,
+      "seed": 710011,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 363.9205989000038,
+      "seed": 710012,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 356.19404690002557,
+      "seed": 710013,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 360.30999069998506,
+      "seed": 710014,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 349.55791450000834,
+      "seed": 710015,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 362.67450040002586,
+      "seed": 710016,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 357.85372760001337,
+      "seed": 710017,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 358.75859709997894,
+      "seed": 710018,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 356.6695334999822,
+      "seed": 710019,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 360.69305830000667,
+      "seed": 710020,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 374.60286939999787,
+      "seed": 710021,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 362.28204029996414,
+      "seed": 710022,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 367.37689449999016,
+      "seed": 710023,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 367.6300587999867,
+      "seed": 710024,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 362.7919563999749,
+      "seed": 710025,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 363.78821299999254,
+      "seed": 710026,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 365.17709910002304,
+      "seed": 710027,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 369.452733299986,
+      "seed": 710028,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 359.6269350000075,
+      "seed": 710029,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 374.4430924000335,
+      "seed": 710030,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 368.32229449995793,
+      "seed": 710031,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 391.5080931999837,
+      "seed": 710032,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 384.05957159999525,
+      "seed": 710033,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 385.3660700999899,
+      "seed": 710034,
+      "success": true
+    },
+    {
+      "error": "EP did not converge",
+      "error_type": "NumericalFailure",
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 124.23174720001407,
+      "seed": 710035,
+      "success": false,
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\src\\strength_inference\\comparison.py\", line 97, in task\n    arrays,meta=cached_world(scenario,phase,seed)\n                ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\src\\strength_inference\\comparison.py\", line 65, in cached_world\n    rr,pp,meta=worlds.generate(c['games'],ctx['templates'],ctx['design'],ctx['models']['M3_nested'],\n               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        c['score_parameters'],c['score_numerics'],seed,scenario['day_correlation'],scenario['draw_odds_multiplier'])\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\src\\strength_inference\\worlds.py\", line 75, in generate\n    scored = engine.day(day, generated)\n  File \"C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\src\\strength\\collapsed_jump.py\", line 214, in day\n    self.mean,self.cov,it,blocks=jump_update(self.mean,self.cov,A,games,self.index,mus,self.params,self.numerics)\n                                 ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\src\\strength\\collapsed_jump.py\", line 140, in jump_update\n    cm,cv=cavity(qm,qc,ids);_,tm,tv=block_tilt(ids,cm,cv);inv=np.linalg.inv(tv[:len(ids),:len(ids)])\n                                    ~~~~~~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\src\\strength\\collapsed_jump.py\", line 128, in block_tilt\n    tm,tv=block_local(cm,cv,outcomes[ids],ks[ids],inc,[mus[t] for t in teams],params['delta'],jv,num,tol)\n          ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\src\\strength\\collapsed_jump.py\", line 81, in block_local\n    mm,vc,lz,_=batch_update(np.r_[mean,np.zeros(t)],cc,design,outcomes,kappas,delta,num)\n               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\src\\strength\\filter.py\", line 119, in batch_update\n    raise NumericalFailure(\"EP did not converge\")\nsrc.strength.filter.NumericalFailure: EP did not converge\n"
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 385.5709301000461,
+      "seed": 710036,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 378.2389119999716,
+      "seed": 710037,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 389.69580549997045,
+      "seed": 710038,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 391.02087519998895,
+      "seed": 710039,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 383.4960353000206,
+      "seed": 710040,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 385.9126105000032,
+      "seed": 710041,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 395.2774699999718,
+      "seed": 710042,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 382.3213585999911,
+      "seed": 710043,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 390.86403739999514,
+      "seed": 710044,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 388.60422589996597,
+      "seed": 710045,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 383.0351546999882,
+      "seed": 710046,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "conditional_independent_dates",
+      "seconds": 385.18201260000933,
+      "seed": 710047,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 385.8415448999731,
+      "seed": 810000,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 383.7933117999928,
+      "seed": 810001,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 383.25387559999945,
+      "seed": 810002,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 386.78794519999065,
+      "seed": 810003,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 385.5857976000407,
+      "seed": 810004,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 381.0203282000148,
+      "seed": 810005,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 382.9089333000011,
+      "seed": 810006,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 379.1973747999873,
+      "seed": 810007,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 384.6812064999831,
+      "seed": 810008,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 388.25613819999853,
+      "seed": 810009,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 379.70628340000985,
+      "seed": 810010,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 394.79651319998084,
+      "seed": 810011,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 381.61161309998715,
+      "seed": 810012,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 388.06996489997255,
+      "seed": 810013,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 386.17631559999427,
+      "seed": 810014,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 390.085121000011,
+      "seed": 810015,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 391.92540849995567,
+      "seed": 810016,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 380.8704783000285,
+      "seed": 810017,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 379.88233499997295,
+      "seed": 810018,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 384.89665189996595,
+      "seed": 810019,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 379.0583703999873,
+      "seed": 810020,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 373.43793269997695,
+      "seed": 810021,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 372.96133919997374,
+      "seed": 810022,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 375.0167059000232,
+      "seed": 810023,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 391.6483605999965,
+      "seed": 810024,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 390.5217695000465,
+      "seed": 810025,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 385.7299316999852,
+      "seed": 810026,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 389.3835971999797,
+      "seed": 810027,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 381.48683999996865,
+      "seed": 810028,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 385.1569487999659,
+      "seed": 810029,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 387.605628099991,
+      "seed": 810030,
+      "success": true
+    },
+    {
+      "phase": "truth",
+      "scenario": "same_day_shared_noise",
+      "seconds": 393.6355080999783,
+      "seed": 810031,
+      "success": true
+    }
+  ],
+  "successes": 79,
+  "wall_seconds": 1912.5752734999987,
+  "workers": 16
+}

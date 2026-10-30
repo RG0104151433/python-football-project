@@ -1,0 +1,58 @@
+{
+  "identity": {
+    "code": {
+      "scripts/analyze_strength_predictive_validation.py": "2bd30557e3bb25fbdae1be208dd80732e48962909812213ca2e3ff83ba68d36e",
+      "src/data_contract.py": "75d7c37a5d09867656098ab4fa3387721d8e1028dfde54d28c372d50f2a7d101",
+      "src/strength_joint/__init__.py": "80cd9d9fb898f60d696323f057245dca927670bc20bb9ad14f3fdbb933080f43",
+      "src/strength_joint/contract.py": "8f47c10ac639ca2ef7c0c867cca84f36d6cd0d0dd54c41774f3b663f85df2abb",
+      "src/strength_joint/contrasts.py": "5c816886d9679781d932f79da4d5771a3ffab4455c92c4b36d1cdf68f39eb0b5",
+      "src/strength_joint/design.py": "0826815f44370435908fd74c36d98bda1cdcf70699e20ec1dc89626a67f2717d",
+      "src/strength_joint/model.py": "7c1410a84e7f224877892568a6359edb0ca1c766da5041ac1d14cf0e71698dc9",
+      "src/strength_joint/reporting.py": "73d4ea64181321b1d77fd22dded426fea507ad99cba0afb1dbd2ca49a7d16852",
+      "src/strength_joint/validation.py": "eadd1601797f7429fc8189d216d23015031004d0846453745507c255fc75eac7",
+      "src/strength_predictive_validation.py": "00af338265aa521fad76f2791314ee72830138bbd1575f3c3722a8fed30e45ed"
+    },
+    "environment": {
+      "commit": "4d208b430a3d09b1e8183b30180ea71b7a7b7847",
+      "execution_code": "working tree; exact source hashes recorded, no commit made",
+      "numpy": "2.5.4",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "python": "3.14.8",
+      "scipy": "1.18.1"
+    },
+    "inputs": {
+      "config/regions_study.json": "f29e8081a58c941ea6d51809ec69aacb9d5ad8c15a343866980afcf407d68c66",
+      "config/strength_joint.json": "ce2290aea22277750c953afb912b6837b27815c4807b7918385914d8aafb9182",
+      "data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8/manifest.json": "5b49b98027d3106fb44cdc0fb57e570858ec66ddcf007a1b41adb595e048bebd",
+      "outputs/tables/regions/regions-0a1c61664a722e6c641f/analysis_matches.csv": "8b0ddb7f2e4d5eb2199c8c2b477e7873b1e46bc12421c4dddf5ac8809f91ca22",
+      "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/target_catalogue.csv": "567610a60f2498f335c1553ba5dd3d1567a95f29c7a9d50f2dcead09ac0d2d79"
+    },
+    "protocol": {
+      "decision_log_id": "R20261030-17",
+      "first_forecast_year": 1990,
+      "historical_choices_reused": true,
+      "last_forecast_year": 2024,
+      "models": [
+        "M0_nested",
+        "M1_strength",
+        "M3_nested"
+      ],
+      "new_blind_holdout": false,
+      "refit": "once each year; no same-year fitting outcomes; raw strength updates use prior dates only",
+      "ridge_precision": 1.0,
+      "schema_version": "strength-past-only-prediction-v1",
+      "target": "home win versus draw/away; not full WDL",
+      "training_start": 1980,
+      "vocabulary": "fixed original outcome-free design; unseen training columns use zero-centred ridge prior"
+    }
+  },
+  "outputs": {
+    "calibration_bins.csv": "0fba10112420049635d2fc764e0a1e22f2489e6fec7417400b7d596a814bfc22",
+    "group_metrics.csv": "fb7aee2a38c46a23107ed68b4f344b8a17ba35a2e0991c5f4d0a20a9d3800894",
+    "models.json": "266ca517c977184a3b65608b8d7b9341230faf29c244d4919a1dd9f0b0b9ef2b",
+    "predictions.csv": "e063122245e602388adeb508a10b536957c865f9c4286b3e6c6f2160f9627715",
+    "protocol.json": "9ff2773927a0a8f5392ff8efec63a60511c9794791cf75fa6883dde83d8d7ee7",
+    "source_snapshot.zip": "b7e986f21d6755ee00a582c2b9b8c14e9556fef161563413041ed33987cf18c0",
+    "yearly_metrics.csv": "a9344fe3acd8242f36602f0fac7f57c71fce3c029524c9be389b6f10d05dac17"
+  }
+}

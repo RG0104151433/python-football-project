@@ -1,0 +1,65 @@
+{
+  "details": [
+    {
+      "interpretation": "finite64 screen uncertainty; retain failure and check new independent histories, do not tune width",
+      "maximum_width_ratio": 0.9337427597322877,
+      "outside_worlds": [],
+      "route": "A",
+      "scenario": "conditional_independent_dates"
+    },
+    {
+      "interpretation": "finite64 screen uncertainty; retain failure and check new independent histories, do not tune width",
+      "maximum_width_ratio": 0.9396243487933066,
+      "outside_worlds": [],
+      "route": "B",
+      "scenario": "conditional_independent_dates"
+    },
+    {
+      "interpretation": "finite64 screen uncertainty; retain failure and check new independent histories, do not tune width",
+      "maximum_width_ratio": 1.0100750732583652,
+      "outside_worlds": [
+        {
+          "error_pp": 3.4109894810394006,
+          "gradients": {
+            "M0_nested": 4.074462732140764e-08,
+            "M3_nested": 3.7080456560402346e-09
+          },
+          "half_width_pp": 3.3769662981940654,
+          "multistart_loss_spreads": {
+            "M0_nested": 0.0,
+            "M3_nested": 2.1538326677728037e-14
+          },
+          "ratio": 1.0100750732583652,
+          "registry_id": "S6:paired_change:Q1:2010s_minus_1980s:adjusted:full",
+          "seed": 830030
+        }
+      ],
+      "route": "A",
+      "scenario": "same_day_shared_noise"
+    },
+    {
+      "interpretation": "finite64 screen uncertainty; retain failure and check new independent histories, do not tune width",
+      "maximum_width_ratio": 1.0162705059008632,
+      "outside_worlds": [
+        {
+          "error_pp": 3.4109894810394006,
+          "gradients": {
+            "M0_nested": 4.074462732140764e-08,
+            "M3_nested": 3.7080456560402346e-09
+          },
+          "half_width_pp": 3.356379488761963,
+          "multistart_loss_spreads": {
+            "M0_nested": 0.0,
+            "M3_nested": 2.1538326677728037e-14
+          },
+          "ratio": 1.0162705059008632,
+          "registry_id": "S6:paired_change:Q1:2010s_minus_1980s:adjusted:full",
+          "seed": 830030
+        }
+      ],
+      "route": "B",
+      "scenario": "same_day_shared_noise"
+    }
+  ],
+  "models_widths_and_gates_unchanged": true
+}

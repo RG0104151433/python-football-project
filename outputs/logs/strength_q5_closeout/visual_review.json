@@ -1,0 +1,19 @@
+{
+  "actual_browser": false,
+  "figures": {
+    "all_level_reference_ranges.png": "3622b8121ab2c4bb372943d48f241520c6d3c18b846fa85753ece7e3688f1b6f",
+    "main_reference_ranges.png": "eee7f6fe7b8707e0dec3208cb1b544f013727bad6de157fe147101a2ae09e7d0",
+    "prediction_comparison.png": "848d68eea1c14d00a86dbfbb75a44a7eda91b017049f1239f817b892aff8fa67",
+    "route_validation.png": "83f27db18b7c35f7bc1973e21a403db8eccb366640eb776f978ffe488bf6c11d",
+    "yearly_increment.png": "39e05acd6e2bf75bd8842de12946549faa2262e3145edddd07317d67d49ab45b"
+  },
+  "latest_route_figure_reviewed": true,
+  "passed": true,
+  "reviewer": "Codex AI; not human team review",
+  "unchanged_reviewed_exports": {
+    "all_level_reference_ranges": true,
+    "main_reference_ranges": true,
+    "prediction_comparison": true,
+    "yearly_increment": true
+  }
+}

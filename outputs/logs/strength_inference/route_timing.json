@@ -1,0 +1,31 @@
+{
+  "A_specific_mean_seconds": 58.29809759996715,
+  "B_specific_mean_seconds": 19.47156399997766,
+  "B_whole_run_relative_saving": 0.089269017656262,
+  "all_replayed_values_passed": true,
+  "generation_mean_seconds": 376.64041319998796,
+  "representative_worlds": [
+    {
+      "A_seconds": 56.04635799996322,
+      "B_seconds": 19.40211939997971,
+      "generation_seconds": 375.5021393999923,
+      "parameter_max_difference": 0.0,
+      "repeated_A_error_max_difference_pp": 0.0,
+      "repeated_B_error_max_difference_pp": 0.0,
+      "scenario": "conditional_independent_dates",
+      "seed": 720000
+    },
+    {
+      "A_seconds": 60.54983719997108,
+      "B_seconds": 19.541008599975612,
+      "generation_seconds": 377.7786869999836,
+      "parameter_max_difference": 0.0,
+      "repeated_A_error_max_difference_pp": 0.0,
+      "repeated_B_error_max_difference_pp": 0.0,
+      "scenario": "same_day_shared_noise",
+      "seed": 820000
+    }
+  ],
+  "scope": "two measured worlds under current load; shared setup/truth costs excluded, so B saving is optimistic",
+  "source_sha256": "a816913e381818a35b23177ae5ab760cac94db7e1c13b01f7bbacf98b3364be2"
+}

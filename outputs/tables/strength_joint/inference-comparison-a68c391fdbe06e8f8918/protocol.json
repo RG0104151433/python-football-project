@@ -1,0 +1,63 @@
+{
+  "calibration": "maximum absolute standardized target error, multiplied by1.35; common fixed positive scales from prior B365 diagnostic",
+  "calibration_safety_factor": 1.35,
+  "coverage_gate_lower": 0.93,
+  "decision_log_id": "R20261030-17",
+  "failure_upper_bound": "reported exact; not falsely certified below1% with small samples",
+  "family": "original54_primary_level_and_paired_change",
+  "frozen_before_new_truth_calibration_validation_results": true,
+  "historical_results_seen": true,
+  "mc_family_alpha": 0.05,
+  "mc_gates": 4,
+  "nominal_simultaneous_coverage": 0.95,
+  "numerical_failure_point_gate": 0.01,
+  "real_future_holdout_created": false,
+  "reference": "original_members_and_weights; rerate_each_world",
+  "route_B": "whole_feedback_score_linearization; retain predictable M0 drift; no per-date drift deletion",
+  "route_selection": "A priority for nonlinear replay; B may replace only if paired approximation and all coverage/truth gates pass with material cost advantage; otherwise neither formally admitted",
+  "scenarios": [
+    {
+      "calibration_seeds": [
+        720000,
+        720032
+      ],
+      "day_correlation": 0.0,
+      "draw_odds_multiplier": 1.0,
+      "id": "conditional_independent_dates",
+      "truth_seeds": [
+        710000,
+        710048
+      ],
+      "validation_seeds": [
+        730000,
+        730064
+      ]
+    },
+    {
+      "calibration_seeds": [
+        820000,
+        820024
+      ],
+      "day_correlation": 0.25,
+      "draw_odds_multiplier": 1.0,
+      "id": "same_day_shared_noise",
+      "truth_seeds": [
+        810000,
+        810032
+      ],
+      "validation_seeds": [
+        830000,
+        830064
+      ]
+    }
+  ],
+  "schema_version": "strength-inference-comparison-v2",
+  "scope": "fixed_selected_rating_and_plugin_complete_history_generator; not unconditional football or selection-adjusted guarantee",
+  "seed_range_convention": "start_inclusive_stop_exclusive",
+  "truth_definition": "cross_complete_history_expected_binary_log_loss_projection",
+  "truth_gate": "max_MC_SE<=0.25pp and batch/nonlinearity checks; otherwise no formal54-target admission",
+  "truth_mc_nominal": 0.99,
+  "truth_mc_target_max_se_pp": 0.25,
+  "truth_mc_uncertainty": "report and propagate; Gaussian/t approximation explicitly not a finite-sample truth certificate",
+  "workers": 16
+}

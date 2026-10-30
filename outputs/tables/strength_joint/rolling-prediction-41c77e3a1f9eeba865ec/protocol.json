@@ -1,0 +1,18 @@
+{
+  "decision_log_id": "R20261030-17",
+  "first_forecast_year": 1990,
+  "historical_choices_reused": true,
+  "last_forecast_year": 2024,
+  "models": [
+    "M0_nested",
+    "M1_strength",
+    "M3_nested"
+  ],
+  "new_blind_holdout": false,
+  "refit": "once each year; no same-year fitting outcomes; raw strength updates use prior dates only",
+  "ridge_precision": 1.0,
+  "schema_version": "strength-past-only-prediction-v1",
+  "target": "home win versus draw/away; not full WDL",
+  "training_start": 1980,
+  "vocabulary": "fixed original outcome-free design; unseen training columns use zero-centred ridge prior"
+}

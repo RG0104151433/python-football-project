@@ -1,0 +1,15 @@
+{
+  "code_sha256": "253724e6de17ff6e2f3ba9b8ffe7b151389a5083ef6ea9b063cd7ac0df7b2d84",
+  "data_sha256": "89f3c0b74b8c02244722e3985fc507b9c118055ffca470d45201dc59360b82d3",
+  "environment": {
+    "commit": "4d208b430a3d09b1e8183b30180ea71b7a7b7847",
+    "execution_code": "working tree; exact source hashes recorded, no commit made",
+    "numpy": "2.5.4",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "python": "3.14.8",
+    "scipy": "1.18.1"
+  },
+  "font": "C:\\Windows\\Fonts\\msyh.ttc",
+  "font_sha256": "d79c55e68b1131eea0cc1c47be4f572d964f28c682e143db2ad09c1e4cb07a3f",
+  "matplotlib": "3.11.2"
+}
