@@ -1,0 +1,28 @@
+{
+  "core_files": 18,
+  "directory": "C:/Users/EasonG/Desktop/Repository/python-football-project/outputs/tables/strength_joint/strength-interpretation-35a760de1ec558401703",
+  "files_identical": {
+    "data_dictionary.md": true,
+    "display_data.json": true,
+    "layer_comparison.png": true,
+    "layer_comparison.svg": true,
+    "layer_comparisons.csv": true,
+    "layer_group_diagnostics.csv": true,
+    "observed_score_composition.csv": true,
+    "original_new_estimand_bridge.csv": true,
+    "scope.json": true,
+    "source_snapshot.zip": true,
+    "strength_curves.csv": true,
+    "strength_probability_curves.png": true,
+    "strength_probability_curves.svg": true,
+    "strength_slopes.csv": true,
+    "target_evidence_ledger.csv": true,
+    "tournament_curve_differences.csv": true,
+    "tournament_difference_curve.png": true,
+    "tournament_difference_curve.svg": true
+  },
+  "manifest_identical": true,
+  "passed": true,
+  "scope": "all supplementary CSV/JSON/three PNG+SVG pairs/source archive; no underlying model refit needed",
+  "seconds": 33.76598950003972
+}

@@ -1,0 +1,5 @@
+{
+  "completed": false,
+  "config": "config/strength_interpretation.json",
+  "error": "TypeError('Object of type int64 is not JSON serializable')"
+}

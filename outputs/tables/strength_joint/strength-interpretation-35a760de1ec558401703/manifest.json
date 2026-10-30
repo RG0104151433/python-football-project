@@ -1,0 +1,133 @@
+{
+  "identity": {
+    "code": {
+      "config/strength_interpretation.json": "28dc6ec300eacae4f19adbd90ad56afc7830b82904913fa7a3a508678fb13164",
+      "scripts/analyze_strength_interpretation.py": "c29de46fd1e130d545e9eae87481cde5e209291db1270fe42997f078ede62574",
+      "scripts/audit_strength_interpretation.py": "1db705c3b76a6bab453bef846aaefc7092dcabdca65bc827bfd0b37f6a3c17ef",
+      "src/data_contract.py": "75d7c37a5d09867656098ab4fa3387721d8e1028dfde54d28c372d50f2a7d101",
+      "src/strength/io.py": "f2befbd09af6d7dcf17b75dd790881a210e410d7c8f5f45a2bda1a66b3332104",
+      "src/strength_interpretation.py": "bbc93ae7676f2483a3fdcd83343e4aa21bb477802475713c713ca3daac2ba450",
+      "src/strength_joint/__init__.py": "80cd9d9fb898f60d696323f057245dca927670bc20bb9ad14f3fdbb933080f43",
+      "src/strength_joint/contract.py": "8f47c10ac639ca2ef7c0c867cca84f36d6cd0d0dd54c41774f3b663f85df2abb",
+      "src/strength_joint/contrasts.py": "5c816886d9679781d932f79da4d5771a3ffab4455c92c4b36d1cdf68f39eb0b5",
+      "src/strength_joint/design.py": "0826815f44370435908fd74c36d98bda1cdcf70699e20ec1dc89626a67f2717d",
+      "src/strength_joint/model.py": "7c1410a84e7f224877892568a6359edb0ca1c766da5041ac1d14cf0e71698dc9",
+      "src/strength_joint/reporting.py": "73d4ea64181321b1d77fd22dded426fea507ad99cba0afb1dbd2ca49a7d16852",
+      "src/strength_joint/validation.py": "eadd1601797f7429fc8189d216d23015031004d0846453745507c255fc75eac7",
+      "tests/test_strength_interpretation.py": "51f48987f4913aeca90b3a2364be99db0f1958a35efbd21e56923da1e7080dbc"
+    },
+    "environment": {
+      "commit": "92b221d2e40b5cc09f637efd2fb31719957ad5a9",
+      "execution_code": "working tree; exact source hashes recorded, no commit made",
+      "numpy": "2.5.4",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "python": "3.14.8",
+      "scipy": "1.18.1"
+    },
+    "font": "Microsoft YaHei",
+    "inputs": {
+      "config/regions_study.json": "f29e8081a58c941ea6d51809ec69aacb9d5ad8c15a343866980afcf407d68c66",
+      "config/strength_interpretation.json": "28dc6ec300eacae4f19adbd90ad56afc7830b82904913fa7a3a508678fb13164",
+      "config/strength_joint.json": "ce2290aea22277750c953afb912b6837b27815c4807b7918385914d8aafb9182",
+      "data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8/manifest.json": "5b49b98027d3106fb44cdc0fb57e570858ec66ddcf007a1b41adb595e048bebd",
+      "outputs/tables/regions/regions-0a1c61664a722e6c641f/analysis_matches.csv": "8b0ddb7f2e4d5eb2199c8c2b477e7873b1e46bc12421c4dddf5ac8809f91ca22",
+      "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/target_catalogue.csv": "567610a60f2498f335c1553ba5dd3d1567a95f29c7a9d50f2dcead09ac0d2d79",
+      "outputs/tables/strength_joint/joint-analysis-55371e4d4aa3d2060190/manifest.json": "32aa9dd43fef66e2102d580700a279c3abb08a6b2ca832fdaffccf45b2557fff"
+    },
+    "protocol": {
+      "analysis": "outputs/tables/strength_joint/joint-analysis-55371e4d4aa3d2060190",
+      "analysis_manifest_sha256": "32aa9dd43fef66e2102d580700a279c3abb08a6b2ca832fdaffccf45b2557fff",
+      "confidence_intervals": false,
+      "curve_mean_max": 3,
+      "curve_mean_min": -3,
+      "curve_mean_step": 0.25,
+      "curve_models": [
+        "M1_strength",
+        "M3_nested",
+        "M4_type_slope"
+      ],
+      "curve_reference": "original24917_equal; set strength mean and tournament, keep each row variance/jump/era/geography fixed",
+      "decision_log_id": "R20261030-06",
+      "deferred_to_stage6": [
+        "complete initialization distribution and cold/unknown scope sensitivity",
+        "dependence, feedback, model-form misspecification and interval coverage acceptance"
+      ],
+      "evaluation_role": "retrospective_layer_and_association_description_not_independent_prediction",
+      "formal_model_selection": false,
+      "layer_pairs": [
+        [
+          "M0_regions",
+          "M2_common",
+          "same_region_background_add_strength"
+        ],
+        [
+          "M0_nested",
+          "M3_nested",
+          "same_subregion_background_add_strength"
+        ],
+        [
+          "M1_strength",
+          "M2_common",
+          "strength_add_era_type_regions_together"
+        ],
+        [
+          "M2_common",
+          "M3_nested",
+          "add_within_region_units"
+        ],
+        [
+          "M3_nested",
+          "M4_type_slope",
+          "allow_friendly_specific_strength_link"
+        ],
+        [
+          "M3_nested",
+          "M5_relation",
+          "add_two_opponent_relationships"
+        ],
+        [
+          "M3_plugin",
+          "M3_nested",
+          "replace_mean_only_with_score_distribution"
+        ],
+        [
+          "M3_total_normal",
+          "M3_nested",
+          "replace_total_variance_normal_with_poisson_shape"
+        ]
+      ],
+      "new_model_fits": false,
+      "schema_version": "strength-interpretation-v1",
+      "sources": [
+        "https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.roots_hermitenorm.html",
+        "https://scikit-learn.org/stable/modules/cross_validation.html"
+      ],
+      "target_model_comparison": [
+        "M3_nested",
+        "M4_type_slope",
+        "M5_relation"
+      ]
+    }
+  },
+  "outputs": {
+    "data_dictionary.md": "4400def19e23fa307500718813591bf6aa5d3be68c128fcdc1b05acc8615d0d4",
+    "display_data.json": "d4a7b058dbd57baa35e552645062f9f0abf5528337cc5d1bbfe33a856ad3c2ef",
+    "layer_comparison.png": "2847889334618b3ffe012140ebcb73a2db44b5e220556342fba4454834862bdd",
+    "layer_comparison.svg": "4f8a0a7cf36a97b36178a61f0382aa906b139884d9a55fa886b36340eeb14c4e",
+    "layer_comparisons.csv": "fc2154966f89116803c233a7150e34aa98add3e2046cc9ed5f122b47953de484",
+    "layer_group_diagnostics.csv": "804549fdd9cd94c8c5678a5228aeddffc56c982569b0966dfe505de8aef0cc0d",
+    "observed_score_composition.csv": "5e2012a13b4b4bbbd02bbaa323d5347b8ac2f54f8ab86ab3205534d5647ac2f7",
+    "original_new_estimand_bridge.csv": "d92d473dc017ada495cbb253fb07d5306f7e50092b73b4ed7377212fccb35bb6",
+    "scope.json": "97284c1ce54728e5808d234f97a62cb5a3245de93dd50469fc5824c10d6f728b",
+    "source_snapshot.zip": "6a97a95a2a18ef671217c13c98d3218cbbe37420bba23394468158bbc717e8f2",
+    "strength_curves.csv": "861c6571e4bd83079e3680d0236be90b86d5fd7fc603718339eb7c9cd40908fa",
+    "strength_probability_curves.png": "b65f39dd88ea98e1dd917394dc37af9cf3e13975e5c8a584218621db0c6a26c8",
+    "strength_probability_curves.svg": "19fb0f3a1f12f2713f07299828fd34686d7f3244b902ec604bcbc195c3bd3d6a",
+    "strength_slopes.csv": "f1b54d71bc9db4961ec39da0586be3f6a12a45f710f2aa7297ede0b416e7b313",
+    "target_evidence_ledger.csv": "491037196721de3a27b6711b7f9a1700957eac4713676c719ea9c59f7279a10f",
+    "tournament_curve_differences.csv": "4bf768e6e19bce0a24f706873f4c0bad39c4dd234ca7b2c9335ef5c4b6bca00c",
+    "tournament_difference_curve.png": "c740b85d74c9288538ddae89d24e87aebe3d4339f5c0eaa42631fae8e65b9d7d",
+    "tournament_difference_curve.svg": "e97b8d0d097ed45259b6bbc2f2ae8991ce617ce32bfba65eef083db83590a3f9"
+  },
+  "stage_id": "strength-interpretation-35a760de1ec558401703"
+}

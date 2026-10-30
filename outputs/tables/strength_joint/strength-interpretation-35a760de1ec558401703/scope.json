@@ -1,0 +1,13 @@
+{
+  "new_model_fits": false,
+  "note": "conditional retrospective interpretation; ranges of models are not CI; prior missing support retained",
+  "original_core_targets": 32,
+  "original_study_rows": 24917,
+  "source_manifest": "32aa9dd43fef66e2102d580700a279c3abb08a6b2ca832fdaffccf45b2557fff",
+  "stage6_complete": false,
+  "stages_completed": [
+    4,
+    5
+  ],
+  "statistical_inference": false
+}

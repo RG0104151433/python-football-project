@@ -1,0 +1,1 @@
+{"passed": true, "checks": 1404, "failed": [], "directory": "outputs/tables/strength_joint/strength-interpretation-35a760de1ec558401703", "actual_human_review": false, "interval_coverage_tested": false}

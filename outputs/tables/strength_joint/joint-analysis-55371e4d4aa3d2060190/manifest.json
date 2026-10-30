@@ -1,0 +1,133 @@
+{
+  "identity": {
+    "code": {
+      "config/strength_joint.json": "ce2290aea22277750c953afb912b6837b27815c4807b7918385914d8aafb9182",
+      "scripts/analyze_strength_joint.py": "959771f0bb98ddd7a88b746e5305a8fce2d4b26781da36f94ccd6dd00b6e0b15",
+      "scripts/audit_strength_joint.py": "b68432b8c42224ac029d626411b510949d6210f5e65d9b196937bbf306bfa44c",
+      "src/strength_joint/__init__.py": "80cd9d9fb898f60d696323f057245dca927670bc20bb9ad14f3fdbb933080f43",
+      "src/strength_joint/contract.py": "8f47c10ac639ca2ef7c0c867cca84f36d6cd0d0dd54c41774f3b663f85df2abb",
+      "src/strength_joint/contrasts.py": "5c816886d9679781d932f79da4d5771a3ffab4455c92c4b36d1cdf68f39eb0b5",
+      "src/strength_joint/design.py": "0826815f44370435908fd74c36d98bda1cdcf70699e20ec1dc89626a67f2717d",
+      "src/strength_joint/model.py": "7c1410a84e7f224877892568a6359edb0ca1c766da5041ac1d14cf0e71698dc9",
+      "src/strength_joint/reporting.py": "73d4ea64181321b1d77fd22dded426fea507ad99cba0afb1dbd2ca49a7d16852",
+      "src/strength_joint/validation.py": "eadd1601797f7429fc8189d216d23015031004d0846453745507c255fc75eac7",
+      "tests/test_strength_joint.py": "f9e5b62bfc74a2b5ef568ff1216cb022b6f0348011b59f3c97e7f1698a95185e"
+    },
+    "environment": {
+      "commit": "92b221d2e40b5cc09f637efd2fb31719957ad5a9",
+      "execution_code": "working tree; exact source hashes recorded, no commit made",
+      "numpy": "2.5.4",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "python": "3.14.8",
+      "scipy": "1.18.1"
+    },
+    "inputs": {
+      "config/regions_study.json": "f29e8081a58c941ea6d51809ec69aacb9d5ad8c15a343866980afcf407d68c66",
+      "config/strength_joint.json": "ce2290aea22277750c953afb912b6837b27815c4807b7918385914d8aafb9182",
+      "data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8/manifest.json": "5b49b98027d3106fb44cdc0fb57e570858ec66ddcf007a1b41adb595e048bebd",
+      "data/processed/strength/jump-ratings-2011739ec6714deca2e6/manifest.json": "1c3f5dc23c5dc1237f12240dd75510431e890e0d910e71d9c9fd9d022bae624c",
+      "outputs/logs/strength/repaired-initialization-146d3bc167c27a4a3466/study_differences.csv": "207e120488cc490091b4cc150e1e51c41f8f7eb854c8d55374fcd6a9a0304590",
+      "outputs/logs/strength/repaired-initialization-1dc37caeddc61830a0af/study_differences.csv": "6d69a05ab1fc3ddde09b019a46de7d633f426f82d49a95d7c3475b9e59e9fce0",
+      "outputs/logs/strength/repaired-initialization-d1f3771999bd8731b716/study_differences.csv": "e5f9c76699df1106b006ecc71e0d1d9675517931620394d5f4dd70a8f85dd6df",
+      "outputs/tables/regions/regions-0a1c61664a722e6c641f/analysis_matches.csv": "8b0ddb7f2e4d5eb2199c8c2b477e7873b1e46bc12421c4dddf5ac8809f91ca22",
+      "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/target_catalogue.csv": "567610a60f2498f335c1553ba5dd3d1567a95f29c7a9d50f2dcead09ac0d2d79"
+    },
+    "protocol": {
+      "decision_log_id": "R20261030-03",
+      "facts": "outputs/tables/regions/regions-0a1c61664a722e6c641f/analysis_matches.csv",
+      "initializations": [
+        "outputs/logs/strength/repaired-initialization-d1f3771999bd8731b716",
+        "outputs/logs/strength/repaired-initialization-1dc37caeddc61830a0af",
+        "outputs/logs/strength/repaired-initialization-146d3bc167c27a4a3466"
+      ],
+      "input": "data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8",
+      "input_manifest_sha256": "5b49b98027d3106fb44cdc0fb57e570858ec66ddcf007a1b41adb595e048bebd",
+      "interpretation": "retrospective_working_model_probability_differences; no causal or independent future-validation claim",
+      "learning_config": "config/strength_global_v3.json",
+      "main_model": "M3_nested",
+      "models": [
+        "M0_regions",
+        "M0_nested",
+        "M1_strength",
+        "M2_common",
+        "M3_nested",
+        "M4_type_slope",
+        "M5_relation",
+        "M3_plugin",
+        "M3_total_normal"
+      ],
+      "numerics": {
+        "coefficient_bound": 8,
+        "gradient_gate": 3e-06,
+        "gradient_reference_gate": 2e-06,
+        "gtol": 1e-08,
+        "maxiter": 1200,
+        "multistart_loss_gate": 1e-08,
+        "poisson_tail": 1e-12,
+        "probability_reference_gate": 2e-08,
+        "slope_bounds": [
+          0.0001,
+          8
+        ],
+        "starts": [
+          0.3,
+          1,
+          2
+        ],
+        "strict_tail": 1e-15
+      },
+      "raw_score": "data/processed/strength/jump-ratings-451ecade0bf84ee0bfb6",
+      "reference": "original24917_equal_weight; B relationships use explicit original parent-home subset and observed opponent-unit mixture conditional on home unit",
+      "regions_config": "config/regions_study.json",
+      "schema_version": "strength-joint-v1",
+      "secondary_reference": "intersection of observed nonempty era/type/home-unit/away-region/score-bin cells and within-cell-background score ranges in every positive-mixture arm; renormalize equal reference weights; distinct reference ID and target",
+      "simulation": {
+        "conditional_nonhome_draw_fraction": 0.35,
+        "global_role": "cost_and_feedback_pilot_not_interval_coverage_admission",
+        "global_seeds": [
+          35001
+        ],
+        "interval_status": "INFERENCE_NOT_ADMITTED",
+        "selection_repeated": false,
+        "small_seeds": [
+          34001,
+          34002,
+          34003,
+          34004
+        ],
+        "worlds": [
+          "score_conditional",
+          "latent_strength"
+        ]
+      },
+      "sparse_cell_warning": 20,
+      "support_bins": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "targets": "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/target_catalogue.csv",
+      "weak_jump_score": "data/processed/strength/jump-ratings-2011739ec6714deca2e6"
+    },
+    "run_sensitivity": true
+  },
+  "outputs": {
+    "calibration.csv": "38fd708b9557a6681e5b50cab09f931ceb6e04ab796c2924fa7e07551beec103",
+    "coefficients.csv": "5726ae45b292254857045d23ca0205243cf140ca028bd2b6352286d36dc13861",
+    "contrasts.csv": "5c608ece5953c214f4e2cff29c9a7521f03cadddd18e5eb2ef04b7d273a46571",
+    "data_dictionary.md": "681f956d7935276ea0c24fdf4fbe0c13d7be7456618c14363c371519bfc343f9",
+    "display_data.json": "d177ae99df8da53e7e6aac8a1500a81b3a4016f0921f0cfbc6cedb3f22456b0d",
+    "joint_predictions.csv": "b1996fa20614794ce3f6e395b3a1b2b8e264e1c5ce9254597baec0b9f02e9691",
+    "model_metrics.csv": "8bee9d92e594883b506ea32e3122c6178eec69a0b966ad4f5f9768f02f87dc4e",
+    "models.json": "55c28c93124e450db31ed67a8b49956da740f095355e44282e78316ef553b045",
+    "sensitivity.csv": "53ab999c9364992dae321da42d190873a220cb0a855604b60ac1ab4f5052576e",
+    "sensitivity_models.json": "97c4d2c5b3dcf394980dec4b5523ca6f2addab4186081fb18b66118337195b3a",
+    "source_snapshot.zip": "aee49b0074de0f73f0dae7ae2933d002c947f7708673aba04b4495bb715e7998",
+    "strength_changes.csv": "e1474c42f1dad303ebcee06666babcb846a8adcc756f5c5d41e37078ae85a627",
+    "support.csv": "23d62de7cb9ca039e08b7b47b56312523061f829361c86d07bd2cb18022acea4",
+    "validation.json": "9ebf22060ad8d4d2f4d909a39556f4b82633357604118cfb6320aaeb52a36ed3"
+  },
+  "stage_id": "joint-analysis-55371e4d4aa3d2060190"
+}

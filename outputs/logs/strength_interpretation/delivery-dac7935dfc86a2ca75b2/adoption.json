@@ -1,0 +1,32 @@
+{
+  "actual_human_review": false,
+  "base_analysis": "outputs/tables/strength_joint/joint-analysis-55371e4d4aa3d2060190",
+  "base_manifest_sha256": "32aa9dd43fef66e2102d580700a279c3abb08a6b2ca832fdaffccf45b2557fff",
+  "confidence_intervals_admitted": false,
+  "decision_log_id": "R20261030-07",
+  "evidence": {
+    "audit.json": "752e3dee1745e6b09fe06232a90c2cefb13cedd6e4de1076d70ce567754fc9d7",
+    "failures/failure-553a4f8c98b637ff96d2.json": "c6265675482feaca5d990a3af2ee6193d6b8aaf80feac121e15ffe68cec13233",
+    "reproducibility.json": "49ee6eb4e590d0ce2301664b460e63077aa83f0ea7ccaa4f5ce7fcbd467fff27",
+    "tests.xml": "49b058248856e0e90386fe6bd3a6efeec85878e5977c57d1584e1739a305d7ac"
+  },
+  "formal_model_selection_performed": false,
+  "independent_checks": 1404,
+  "next": "stage6 dependence/feedback/misspecification/complete score sensitivity and inference acceptance",
+  "repeated_files": 18,
+  "repeated_manifest_identical": true,
+  "scoring_or_model_refit_performed": false,
+  "stage4_5_computation_and_descriptive_materials_complete": true,
+  "stage6_complete": false,
+  "stages_completed": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "supplement": "outputs/tables/strength_joint/strength-interpretation-35a760de1ec558401703",
+  "supplement_manifest_sha256": "255d311a9841b3a13be7dbaa687e291e43f2ca91837e8b759755d8839326a527",
+  "tests_passed": 76,
+  "unchanged_original_study_matches": 24917
+}

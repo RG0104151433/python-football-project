@@ -1,0 +1,82 @@
+{
+  "identity": {
+    "code": {
+      "config/strength_joint.json": "ce2290aea22277750c953afb912b6837b27815c4807b7918385914d8aafb9182",
+      "scripts/analyze_strength_joint.py": "959771f0bb98ddd7a88b746e5305a8fce2d4b26781da36f94ccd6dd00b6e0b15",
+      "scripts/audit_strength_joint.py": "b68432b8c42224ac029d626411b510949d6210f5e65d9b196937bbf306bfa44c",
+      "src/strength_joint/__init__.py": "80cd9d9fb898f60d696323f057245dca927670bc20bb9ad14f3fdbb933080f43",
+      "src/strength_joint/contract.py": "8f47c10ac639ca2ef7c0c867cca84f36d6cd0d0dd54c41774f3b663f85df2abb",
+      "src/strength_joint/contrasts.py": "5c816886d9679781d932f79da4d5771a3ffab4455c92c4b36d1cdf68f39eb0b5",
+      "src/strength_joint/design.py": "0826815f44370435908fd74c36d98bda1cdcf70699e20ec1dc89626a67f2717d",
+      "src/strength_joint/model.py": "7c1410a84e7f224877892568a6359edb0ca1c766da5041ac1d14cf0e71698dc9",
+      "src/strength_joint/reporting.py": "73d4ea64181321b1d77fd22dded426fea507ad99cba0afb1dbd2ca49a7d16852",
+      "src/strength_joint/validation.py": "eadd1601797f7429fc8189d216d23015031004d0846453745507c255fc75eac7",
+      "tests/test_strength_joint.py": "f9e5b62bfc74a2b5ef568ff1216cb022b6f0348011b59f3c97e7f1698a95185e"
+    },
+    "environment": {
+      "commit": "92b221d2e40b5cc09f637efd2fb31719957ad5a9",
+      "execution_code": "working tree; exact source hashes recorded, no commit made",
+      "numpy": "2.5.4",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "python": "3.14.8",
+      "scipy": "1.18.1"
+    },
+    "evidence": {
+      "actual_human_review": false,
+      "analysis": "outputs/tables/strength_joint/joint-analysis-55371e4d4aa3d2060190",
+      "analysis_manifest_sha": "32aa9dd43fef66e2102d580700a279c3abb08a6b2ca832fdaffccf45b2557fff",
+      "audit_path": "outputs/logs/strength_joint/joint-analysis-55371e4d4aa3d2060190-audit.json",
+      "audit_sha": "07984bff4474b107a056c7ea461ac0c907d76b8bc6cbb5644025e8cd6d59a474",
+      "canonical_simulation_tables": [
+        {
+          "canonical_file": "simulation_inputs_score_conditional.csv",
+          "fitted_fields_unchanged": true,
+          "removed_unused_original_score_metadata": true,
+          "replay_required_for_schema_projection": false,
+          "rows": 24917,
+          "source": "outputs/tables/strength_joint/joint-feedback-5ff9fe3f672a8fe9a34e",
+          "source_manifest_sha": "0cba8c86ffe93a5428013546b785e8087936edeac6b7cdb3a56bd5d1224e1e2a"
+        },
+        {
+          "canonical_file": "simulation_inputs_latent_strength.csv",
+          "fitted_fields_unchanged": true,
+          "removed_unused_original_score_metadata": true,
+          "replay_required_for_schema_projection": false,
+          "rows": 24917,
+          "source": "outputs/tables/strength_joint/joint-feedback-0ece95d140a2e86035a7",
+          "source_manifest_sha": "108c62a92e410d87bc375907919297cdeb8e063df4fce2e9d92ea04dd6ec9477"
+        }
+      ],
+      "final_html_created": false,
+      "font": "Microsoft YaHei",
+      "global_coverage_admitted": false,
+      "global_feedback_path": "outputs/logs/strength_joint/global_feedback.json",
+      "global_feedback_sha": "5c476551468cbd0721b3c75b35b3f145a777dcc0374548a1517c0132b8d5fbf2",
+      "repeat_sha": "5e1837d1d1b4e7cddf1ffc414b83e32ac6e3344cf83ba9aefe304b5dd6c06755",
+      "repeated_core_files": 12,
+      "simulation_projection_checks": 49834,
+      "test_sha": "574c592149631191b0dcc5878d9bf411b6174074d016ef7ec1b5b3247f016daf",
+      "tests": 72
+    },
+    "runner_sha": "11c2a9f37fa96e7f3e707104b25932425d498d1f67ec511e403975e8bcf5a6ca"
+  },
+  "outputs": {
+    "all_strength_tests.xml": "574c592149631191b0dcc5878d9bf411b6174074d016ef7ec1b5b3247f016daf",
+    "display_data.json": "d177ae99df8da53e7e6aac8a1500a81b3a4016f0921f0cfbc6cedb3f22456b0d",
+    "global_feedback.json": "5c476551468cbd0721b3c75b35b3f145a777dcc0374548a1517c0132b8d5fbf2",
+    "handoff.json": "b5fba56653983b938764dcb3348b27c9cd8be8b51c7f3165bcdc4a743dd89e97",
+    "independent_audit.json": "07984bff4474b107a056c7ea461ac0c907d76b8bc6cbb5644025e8cd6d59a474",
+    "reference_support.png": "9a90c232b2e7d6f147bab11e0c4c9cedc89f33b4bebadb39b6451850d6d27314",
+    "reference_support.svg": "4c0df0419623707a6cc630fead02cd01a86c88c242190979f15f7b9e00370995",
+    "reproducibility.json": "5e1837d1d1b4e7cddf1ffc414b83e32ac6e3344cf83ba9aefe304b5dd6c06755",
+    "runner_snapshot.py": "11c2a9f37fa96e7f3e707104b25932425d498d1f67ec511e403975e8bcf5a6ca",
+    "simulation_inputs_latent_strength.csv": "6eaa89266a538df8f0b0da3e80ee5617fea1f78f410f10fcd7b89cdd5007362c",
+    "simulation_inputs_score_conditional.csv": "6e0b171c6258742e6a9c3f9ac187a8835856d9de7780cada14f0072cc0f6c980",
+    "simulation_model_latent_strength.json": "f40ebec316b3e9bea79b3e6a6777ba22b35390d7c3eb6b09398151e6b94a6378",
+    "simulation_model_score_conditional.json": "361aa21eb9a4f20072741487455838b257fe9c00426b71a7c61bd9b5cf4c7aca",
+    "source_snapshot.zip": "aee49b0074de0f73f0dae7ae2933d002c947f7708673aba04b4495bb715e7998",
+    "strength_adjustment.png": "96c915aa6f831474c4cb92e88d36f73392bac1c22c1b9611624866906db53f2b",
+    "strength_adjustment.svg": "e487fbeed3ec60d9aa8a0a03a1e6e3676feb9fef9f5fd58b1ee8859008d4fc6e"
+  },
+  "stage_id": "joint-materials-917398373f7b497c7aa3"
+}

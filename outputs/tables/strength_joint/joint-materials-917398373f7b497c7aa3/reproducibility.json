@@ -1,0 +1,72 @@
+{
+  "compared_files": {
+    "calibration.csv": {
+      "identical": true,
+      "original_sha256": "38fd708b9557a6681e5b50cab09f931ceb6e04ab796c2924fa7e07551beec103",
+      "replay_sha256": "38fd708b9557a6681e5b50cab09f931ceb6e04ab796c2924fa7e07551beec103"
+    },
+    "coefficients.csv": {
+      "identical": true,
+      "original_sha256": "5726ae45b292254857045d23ca0205243cf140ca028bd2b6352286d36dc13861",
+      "replay_sha256": "5726ae45b292254857045d23ca0205243cf140ca028bd2b6352286d36dc13861"
+    },
+    "contrasts.csv": {
+      "identical": true,
+      "original_sha256": "5c608ece5953c214f4e2cff29c9a7521f03cadddd18e5eb2ef04b7d273a46571",
+      "replay_sha256": "5c608ece5953c214f4e2cff29c9a7521f03cadddd18e5eb2ef04b7d273a46571"
+    },
+    "data_dictionary.md": {
+      "identical": true,
+      "original_sha256": "681f956d7935276ea0c24fdf4fbe0c13d7be7456618c14363c371519bfc343f9",
+      "replay_sha256": "681f956d7935276ea0c24fdf4fbe0c13d7be7456618c14363c371519bfc343f9"
+    },
+    "display_data.json": {
+      "identical": true,
+      "original_sha256": "d177ae99df8da53e7e6aac8a1500a81b3a4016f0921f0cfbc6cedb3f22456b0d",
+      "replay_sha256": "d177ae99df8da53e7e6aac8a1500a81b3a4016f0921f0cfbc6cedb3f22456b0d"
+    },
+    "joint_predictions.csv": {
+      "identical": true,
+      "original_sha256": "b1996fa20614794ce3f6e395b3a1b2b8e264e1c5ce9254597baec0b9f02e9691",
+      "replay_sha256": "b1996fa20614794ce3f6e395b3a1b2b8e264e1c5ce9254597baec0b9f02e9691"
+    },
+    "model_metrics.csv": {
+      "identical": true,
+      "original_sha256": "8bee9d92e594883b506ea32e3122c6178eec69a0b966ad4f5f9768f02f87dc4e",
+      "replay_sha256": "8bee9d92e594883b506ea32e3122c6178eec69a0b966ad4f5f9768f02f87dc4e"
+    },
+    "models.json": {
+      "identical": true,
+      "original_sha256": "55c28c93124e450db31ed67a8b49956da740f095355e44282e78316ef553b045",
+      "replay_sha256": "55c28c93124e450db31ed67a8b49956da740f095355e44282e78316ef553b045"
+    },
+    "source_snapshot.zip": {
+      "identical": true,
+      "original_sha256": "aee49b0074de0f73f0dae7ae2933d002c947f7708673aba04b4495bb715e7998",
+      "replay_sha256": "aee49b0074de0f73f0dae7ae2933d002c947f7708673aba04b4495bb715e7998"
+    },
+    "strength_changes.csv": {
+      "identical": true,
+      "original_sha256": "e1474c42f1dad303ebcee06666babcb846a8adcc756f5c5d41e37078ae85a627",
+      "replay_sha256": "e1474c42f1dad303ebcee06666babcb846a8adcc756f5c5d41e37078ae85a627"
+    },
+    "support.csv": {
+      "identical": true,
+      "original_sha256": "23d62de7cb9ca039e08b7b47b56312523061f829361c86d07bd2cb18022acea4",
+      "replay_sha256": "23d62de7cb9ca039e08b7b47b56312523061f829361c86d07bd2cb18022acea4"
+    },
+    "validation.json": {
+      "identical": true,
+      "original_sha256": "9ebf22060ad8d4d2f4d909a39556f4b82633357604118cfb6320aaeb52a36ed3",
+      "replay_sha256": "9ebf22060ad8d4d2f4d909a39556f4b82633357604118cfb6320aaeb52a36ed3"
+    }
+  },
+  "identical_core_files": 12,
+  "original": "outputs/tables/strength_joint/joint-analysis-55371e4d4aa3d2060190",
+  "passed": true,
+  "replay": "outputs/tables/strength_joint/joint-analysis-1c46affb117dbd31597e",
+  "runner_sha256": "f4ac38219688b38e43a97f86ff7333332066af207dd75d413e6114438ce21f9c",
+  "scope": "nine models/all32 full and overlap contrasts/small feedback; original four sensitivity variants audited separately, not rerun",
+  "seconds": 497.82584240002325,
+  "sensitivity_refits_repeated": false
+}

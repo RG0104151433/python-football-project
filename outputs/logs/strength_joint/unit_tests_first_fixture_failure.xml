@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="9" time="13.750" timestamp="2026-10-30T10:09:23.621118+08:00" hostname="LAPTOP-GKDG11UR"><testcase classname="tests.test_strength_joint" name="test_normal_integral_and_zero_slope" time="0.003" /><testcase classname="tests.test_strength_joint" name="test_poisson_shape_is_not_total_variance_normal" time="0.003" /><testcase classname="tests.test_strength_joint" name="test_gradient_including_distinct_friendly_slope[M3_nested]" time="0.015" /><testcase classname="tests.test_strength_joint" name="test_gradient_including_distinct_friendly_slope[M4_type_slope]" time="0.020" /><testcase classname="tests.test_strength_joint" name="test_within_parent_coding_weighted_zero_and_legal_scenario" time="0.002"><failure message="AssertionError: assert 'same_region_other_unit' == 'same_unit'&#10;  &#10;  - same_unit&#10;  + same_region_other_unit">def test_within_parent_coding_weighted_zero_and_legal_scenario():
+        rs = rows(); d = Design(rs); x, names = d.matrix(rs, "M3_nested")
+        for i, name in enumerate(names):
+            if ":within:" in name:
+                assert abs(x[:, i].sum()) &lt; 1e-12
+        new = d.set_home_unit(dict(rs[0], home_region="142"), "039")
+        assert new["home_region"] == "150"
+&gt;       assert relation(new) == "same_unit"
+E       AssertionError: assert 'same_region_other_unit' == 'same_unit'
+E         
+E         - same_unit
+E         + same_region_other_unit
+
+tests\test_strength_joint.py:60: AssertionError</failure></testcase><testcase classname="tests.test_strength_joint" name="test_outcomes_do_not_change_design_or_prior_probabilities" time="0.004" /><testcase classname="tests.test_strength_joint" name="test_input_contract_rejects_future_and_inconsistent_distribution" time="0.001" /><testcase classname="tests.test_strength_joint" name="test_extreme_likelihood_is_finite_without_probability_clipping" time="0.002" /><testcase classname="tests.test_strength_joint" name="test_feedback_query_matches_real_filter_and_does_not_update" time="0.017"><failure message="KeyError: 'psd_tolerance'">def test_feedback_query_matches_real_filter_and_does_not_update():
+        p = dict(q=.03, delta=.4, alpha=.65, epsilon=.05, home_q=.005, jump_rate=.08, jump_sd=1.2)
+        num = dict(ep_max_iter=300, ep_tolerance=1e-6, rank_tolerance=1e-12, ep_damping=.5, poisson_tail_tolerance=1e-12)
+        engine = CollapsedJumpFilter({"a", "b", "c"}, p, num)
+        first = dict(match_id="1", home="a", away="b", venue=1, friendly=True, outcome=0)
+        engine.day("2000-01-01", [first])
+        batch = [dict(first, match_id="2", outcome=2), dict(first, match_id="3", away="c", outcome=1)]
+        mean = engine.mean.copy(); cov = engine.cov.copy()
+        before = before_day(engine, "2001-01-01", batch)
+        assert np.array_equal(mean, engine.mean) and np.array_equal(cov, engine.cov)
+&gt;       scored = engine.day("2001-01-01", batch)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_strength_joint.py:95: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\strength\collapsed_jump.py:214: in day
+    self.mean,self.cov,it,blocks=jump_update(self.mean,self.cov,A,games,self.index,mus,self.params,self.numerics)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\strength\collapsed_jump.py:140: in jump_update
+    cm,cv=cavity(qm,qc,ids);_,tm,tv=block_tilt(ids,cm,cv);inv=np.linalg.inv(tv[:len(ids),:len(ids)])
+                                    ^^^^^^^^^^^^^^^^^^^^^
+src\strength\collapsed_jump.py:128: in block_tilt
+    tm,tv=block_local(cm,cv,outcomes[ids],ks[ids],inc,[mus[t] for t in teams],params['delta'],jv,num,tol)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\strength\collapsed_jump.py:81: in block_local
+    mm,vc,lz,_=batch_update(np.r_[mean,np.zeros(t)],cc,design,outcomes,kappas,delta,num)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+mean = array([0.78522274, 0.43623486, 0.        , 0.        , 0.        ])
+cov = array([[1.91600538, 1.06333402, 0.        , 0.        , 0.        ],
+       [1.06333402, 2.16188449, 0.        , 0.   ... 0.        , 0.        , 0.        , 0.        ],
+       [0.        , 0.        , 0.        , 0.        , 0.        ]])
+design = array([[ 1.,  0.,  1., -1.,  0.],
+       [ 0.,  1.,  1.,  0., -1.]])
+outcomes = array([2, 1]), kappas = array([0.6175, 0.6175]), delta = 0.4
+numerics = {'ep_max_iter': 300, 'ep_tolerance': 1e-06, 'rank_tolerance': 1e-12, 'ep_damping': 0.5, ...}
+
+    def batch_update(mean, cov, design, outcomes, kappas, delta, numerics):
+        """One joint daily posterior per component, including correlations and h."""
+        pm = design @ mean
+        cross = cov @ design.T
+        pc = design @ cross
+        if len(outcomes) == 1:
+            z, _, _, g, curvature = outcome_moments(pm[0], pc[0, 0], outcomes[0], delta, kappas[0])
+            m = mean + cross[:, 0] * g
+            c = cov + np.outer(cross[:, 0], cross[:, 0]) * curvature
+            return m, (c + c.T) / 2, math.log(z), {"iterations": 0, "method": "exact_single_match_moments"}
+        eig, vectors = np.linalg.eigh((pc + pc.T) / 2)
+&gt;       if eig.min() &lt; -numerics["psd_tolerance"]:
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       KeyError: 'psd_tolerance'
+
+src\strength\filter.py:80: KeyError</failure></testcase></testsuite></testsuites>

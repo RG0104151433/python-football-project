@@ -1,0 +1,13 @@
+{
+  "checks": 1050,
+  "failed": [],
+  "human_review": false,
+  "independent_overlap_membership_targets": 32,
+  "independent_probability_audit_checks": 224901,
+  "original_input_ids": 24917,
+  "passed": true,
+  "point_analysis_completed": true,
+  "repeated_files": 12,
+  "statistical_inference_admitted": false,
+  "subset_probabilities_checked_with_previously_independently_audited_kernel": true
+}

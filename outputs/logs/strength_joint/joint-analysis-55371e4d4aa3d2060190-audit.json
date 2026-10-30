@@ -1,0 +1,9 @@
+{
+  "checks": 224901,
+  "directory": "outputs/tables/strength_joint/joint-analysis-55371e4d4aa3d2060190",
+  "failed": [],
+  "human_review": false,
+  "independent_probability_and_main_contrast_reconstruction": true,
+  "passed": true,
+  "statistical_coverage_validated": false
+}

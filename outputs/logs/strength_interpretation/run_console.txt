@@ -1,0 +1,23 @@
+INTERPRET_LAYERS
+INTERPRET_CURVES
+Traceback (most recent call last):
+  File "C:\Users\EasonG\Desktop\Repository\python-football-project\scripts\analyze_strength_interpretation.py", line 12, in <module>
+    try:run(args.config)
+        ~~~^^^^^^^^^^^^^
+  File "C:\Users\EasonG\Desktop\Repository\python-football-project\src\strength_interpretation.py", line 242, in run
+    for name,obj in texts.items():content[name]=(json.dumps(obj,ensure_ascii=False,sort_keys=True,indent=2,allow_nan=False)+'\n').encode('utf-8')
+                                                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\EasonG\AppData\Local\Programs\Python\Python314\Lib\json\__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Users\EasonG\AppData\Local\Programs\Python\Python314\Lib\json\encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\EasonG\AppData\Local\Programs\Python\Python314\Lib\json\encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\EasonG\AppData\Local\Programs\Python\Python314\Lib\json\encoder.py", line 182, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type int64 is not JSON serializable
+when serializing dict item 'observed_nearby_matches'
+when serializing list item 0
+when serializing dict item 'curves'

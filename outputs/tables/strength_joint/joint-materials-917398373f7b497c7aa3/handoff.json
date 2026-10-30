@@ -1,0 +1,37 @@
+{
+  "actual_human_review": false,
+  "analysis": "outputs/tables/strength_joint/joint-analysis-55371e4d4aa3d2060190",
+  "analysis_manifest_sha": "32aa9dd43fef66e2102d580700a279c3abb08a6b2ca832fdaffccf45b2557fff",
+  "audit_path": "outputs/logs/strength_joint/joint-analysis-55371e4d4aa3d2060190-audit.json",
+  "audit_sha": "07984bff4474b107a056c7ea461ac0c907d76b8bc6cbb5644025e8cd6d59a474",
+  "canonical_simulation_tables": [
+    {
+      "canonical_file": "simulation_inputs_score_conditional.csv",
+      "fitted_fields_unchanged": true,
+      "removed_unused_original_score_metadata": true,
+      "replay_required_for_schema_projection": false,
+      "rows": 24917,
+      "source": "outputs/tables/strength_joint/joint-feedback-5ff9fe3f672a8fe9a34e",
+      "source_manifest_sha": "0cba8c86ffe93a5428013546b785e8087936edeac6b7cdb3a56bd5d1224e1e2a"
+    },
+    {
+      "canonical_file": "simulation_inputs_latent_strength.csv",
+      "fitted_fields_unchanged": true,
+      "removed_unused_original_score_metadata": true,
+      "replay_required_for_schema_projection": false,
+      "rows": 24917,
+      "source": "outputs/tables/strength_joint/joint-feedback-0ece95d140a2e86035a7",
+      "source_manifest_sha": "108c62a92e410d87bc375907919297cdeb8e063df4fce2e9d92ea04dd6ec9477"
+    }
+  ],
+  "final_html_created": false,
+  "font": "Microsoft YaHei",
+  "global_coverage_admitted": false,
+  "global_feedback_path": "outputs/logs/strength_joint/global_feedback.json",
+  "global_feedback_sha": "5c476551468cbd0721b3c75b35b3f145a777dcc0374548a1517c0132b8d5fbf2",
+  "repeat_sha": "5e1837d1d1b4e7cddf1ffc414b83e32ac6e3344cf83ba9aefe304b5dd6c06755",
+  "repeated_core_files": 12,
+  "simulation_projection_checks": 49834,
+  "test_sha": "574c592149631191b0dcc5878d9bf411b6174074d016ef7ec1b5b3247f016daf",
+  "tests": 72
+}

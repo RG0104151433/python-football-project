@@ -1,0 +1,217 @@
+{
+  "confidence_intervals_computed": false,
+  "core_targets": 32,
+  "forecast_validation_performed": false,
+  "global_feedback_pilot": "separate --stage global-feedback; not a coverage admission",
+  "inference_status": "INFERENCE_NOT_ADMITTED",
+  "kernel": {
+    "max_gradient_error": 8.820326413694346e-12,
+    "max_independent_probability_error": 3.774758283725532e-15,
+    "numerical_only_not_statistical_coverage": true,
+    "passed": true,
+    "samples": 14
+  },
+  "numerical_fit_passed": true,
+  "originally_supported_targets": 27,
+  "originally_unsupported_targets": 5,
+  "outstanding": [
+    "full-size coverage and dependence/misspecification acceptance",
+    "complete initialization-distribution refits (current initialization diagnostic changes mean only)",
+    "independent future forecast validation",
+    "A/B actual human replication"
+  ],
+  "precision": [
+    {
+      "max_tail_tightening_probability_change": 1.1102230246251565e-16,
+      "model_id": "M0_regions"
+    },
+    {
+      "max_tail_tightening_probability_change": 1.1102230246251565e-16,
+      "model_id": "M0_nested"
+    },
+    {
+      "max_tail_tightening_probability_change": 7.605027718682322e-15,
+      "model_id": "M1_strength"
+    },
+    {
+      "max_tail_tightening_probability_change": 5.551115123125783e-16,
+      "model_id": "M2_common"
+    },
+    {
+      "max_tail_tightening_probability_change": 2.0539125955565396e-15,
+      "model_id": "M3_nested"
+    },
+    {
+      "max_tail_tightening_probability_change": 3.0531133177191805e-15,
+      "model_id": "M4_type_slope"
+    },
+    {
+      "max_tail_tightening_probability_change": 3.219646771412954e-15,
+      "model_id": "M5_relation"
+    },
+    {
+      "max_tail_tightening_probability_change": 0.0,
+      "model_id": "M3_plugin"
+    },
+    {
+      "max_tail_tightening_probability_change": 0.0,
+      "model_id": "M3_total_normal"
+    }
+  ],
+  "score_learning_rows": 38919,
+  "small_feedback": [
+    {
+      "all_same_day_outcomes_generated_before_learning": true,
+      "away_wins": 117,
+      "dates": 360,
+      "draws": 63,
+      "estimated_intercept": -0.0027927812225719,
+      "estimated_slope": 0.7671884640539196,
+      "interpretation": "conditional world truth intercept .15/slope .8; latent world has a different target, not coefficient recovery test",
+      "learning_matches": 360,
+      "loss": 0.4742630692704132,
+      "max_prequery_score_error": 4.440892098500626e-16,
+      "numerical_fit_passed": true,
+      "probability_calibration_replayed": false,
+      "reason": "joint input uses raw strength distribution, not calibrated forecast probabilities",
+      "seed": 34001,
+      "selection_repeated": false,
+      "study_matches": 360,
+      "world": "score_conditional"
+    },
+    {
+      "all_same_day_outcomes_generated_before_learning": true,
+      "away_wins": 120,
+      "dates": 360,
+      "draws": 57,
+      "estimated_intercept": 0.02566859765037014,
+      "estimated_slope": 0.9830840959824994,
+      "interpretation": "conditional world truth intercept .15/slope .8; latent world has a different target, not coefficient recovery test",
+      "learning_matches": 360,
+      "loss": 0.3727042325385327,
+      "max_prequery_score_error": 3.3306690738754696e-16,
+      "numerical_fit_passed": true,
+      "probability_calibration_replayed": false,
+      "reason": "joint input uses raw strength distribution, not calibrated forecast probabilities",
+      "seed": 34002,
+      "selection_repeated": false,
+      "study_matches": 360,
+      "world": "score_conditional"
+    },
+    {
+      "all_same_day_outcomes_generated_before_learning": true,
+      "away_wins": 101,
+      "dates": 360,
+      "draws": 69,
+      "estimated_intercept": 0.08725045938270486,
+      "estimated_slope": 0.6947066326208206,
+      "interpretation": "conditional world truth intercept .15/slope .8; latent world has a different target, not coefficient recovery test",
+      "learning_matches": 360,
+      "loss": 0.5747170890143892,
+      "max_prequery_score_error": 3.3306690738754696e-16,
+      "numerical_fit_passed": true,
+      "probability_calibration_replayed": false,
+      "reason": "joint input uses raw strength distribution, not calibrated forecast probabilities",
+      "seed": 34003,
+      "selection_repeated": false,
+      "study_matches": 360,
+      "world": "score_conditional"
+    },
+    {
+      "all_same_day_outcomes_generated_before_learning": true,
+      "away_wins": 108,
+      "dates": 360,
+      "draws": 53,
+      "estimated_intercept": 0.2705574127864305,
+      "estimated_slope": 0.8632417372181193,
+      "interpretation": "conditional world truth intercept .15/slope .8; latent world has a different target, not coefficient recovery test",
+      "learning_matches": 360,
+      "loss": 0.46149177060301516,
+      "max_prequery_score_error": 3.3306690738754696e-16,
+      "numerical_fit_passed": true,
+      "probability_calibration_replayed": false,
+      "reason": "joint input uses raw strength distribution, not calibrated forecast probabilities",
+      "seed": 34004,
+      "selection_repeated": false,
+      "study_matches": 360,
+      "world": "score_conditional"
+    },
+    {
+      "all_same_day_outcomes_generated_before_learning": true,
+      "away_wins": 110,
+      "dates": 360,
+      "draws": 96,
+      "estimated_intercept": -0.220271414484891,
+      "estimated_slope": 0.6255154110707057,
+      "interpretation": "conditional world truth intercept .15/slope .8; latent world has a different target, not coefficient recovery test",
+      "learning_matches": 360,
+      "loss": 0.6286529746673766,
+      "max_prequery_score_error": 2.7755575615628914e-16,
+      "numerical_fit_passed": true,
+      "probability_calibration_replayed": false,
+      "reason": "joint input uses raw strength distribution, not calibrated forecast probabilities",
+      "seed": 34001,
+      "selection_repeated": false,
+      "study_matches": 360,
+      "world": "latent_strength"
+    },
+    {
+      "all_same_day_outcomes_generated_before_learning": true,
+      "away_wins": 120,
+      "dates": 360,
+      "draws": 88,
+      "estimated_intercept": -0.24557476909865522,
+      "estimated_slope": 0.6091672764934405,
+      "interpretation": "conditional world truth intercept .15/slope .8; latent world has a different target, not coefficient recovery test",
+      "learning_matches": 360,
+      "loss": 0.5983007742487285,
+      "max_prequery_score_error": 2.7755575615628914e-16,
+      "numerical_fit_passed": true,
+      "probability_calibration_replayed": false,
+      "reason": "joint input uses raw strength distribution, not calibrated forecast probabilities",
+      "seed": 34002,
+      "selection_repeated": false,
+      "study_matches": 360,
+      "world": "latent_strength"
+    },
+    {
+      "all_same_day_outcomes_generated_before_learning": true,
+      "away_wins": 99,
+      "dates": 360,
+      "draws": 104,
+      "estimated_intercept": -0.168883734253831,
+      "estimated_slope": 0.43184358628822805,
+      "interpretation": "conditional world truth intercept .15/slope .8; latent world has a different target, not coefficient recovery test",
+      "learning_matches": 360,
+      "loss": 0.6618028995780348,
+      "max_prequery_score_error": 2.7755575615628914e-16,
+      "numerical_fit_passed": true,
+      "probability_calibration_replayed": false,
+      "reason": "joint input uses raw strength distribution, not calibrated forecast probabilities",
+      "seed": 34003,
+      "selection_repeated": false,
+      "study_matches": 360,
+      "world": "latent_strength"
+    },
+    {
+      "all_same_day_outcomes_generated_before_learning": true,
+      "away_wins": 131,
+      "dates": 360,
+      "draws": 68,
+      "estimated_intercept": -0.19266107053588122,
+      "estimated_slope": 0.7218068905450832,
+      "interpretation": "conditional world truth intercept .15/slope .8; latent world has a different target, not coefficient recovery test",
+      "learning_matches": 360,
+      "loss": 0.5673882872168562,
+      "max_prequery_score_error": 3.3306690738754696e-16,
+      "numerical_fit_passed": true,
+      "probability_calibration_replayed": false,
+      "reason": "joint input uses raw strength distribution, not calibrated forecast probabilities",
+      "seed": 34004,
+      "selection_repeated": false,
+      "study_matches": 360,
+      "world": "latent_strength"
+    }
+  ],
+  "study_rows": 24917
+}

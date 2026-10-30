@@ -1,0 +1,7 @@
+{
+  "actual_raw_scoring_dependencies_unchanged": true,
+  "all_final_adopted_score_sources_unchanged": true,
+  "changed_file": "src/strength/calibration.py",
+  "initial_check_passed": false,
+  "reason": "Early raw archive includes later-developed, uncalled calibration.py; full equality was an overly broad raw dependency check"
+}

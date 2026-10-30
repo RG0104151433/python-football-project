@@ -1,0 +1,34 @@
+{
+  "schema_version": "strength-interpretation-v1",
+  "decision_log_id": "R20261030-06",
+  "analysis": "outputs/tables/strength_joint/joint-analysis-55371e4d4aa3d2060190",
+  "analysis_manifest_sha256": "32aa9dd43fef66e2102d580700a279c3abb08a6b2ca832fdaffccf45b2557fff",
+  "layer_pairs": [
+    ["M0_regions", "M2_common", "same_region_background_add_strength"],
+    ["M0_nested", "M3_nested", "same_subregion_background_add_strength"],
+    ["M1_strength", "M2_common", "strength_add_era_type_regions_together"],
+    ["M2_common", "M3_nested", "add_within_region_units"],
+    ["M3_nested", "M4_type_slope", "allow_friendly_specific_strength_link"],
+    ["M3_nested", "M5_relation", "add_two_opponent_relationships"],
+    ["M3_plugin", "M3_nested", "replace_mean_only_with_score_distribution"],
+    ["M3_total_normal", "M3_nested", "replace_total_variance_normal_with_poisson_shape"]
+  ],
+  "curve_models": ["M1_strength", "M3_nested", "M4_type_slope"],
+  "curve_mean_min": -3,
+  "curve_mean_max": 3,
+  "curve_mean_step": 0.25,
+  "curve_reference": "original24917_equal; set strength mean and tournament, keep each row variance/jump/era/geography fixed",
+  "target_model_comparison": ["M3_nested", "M4_type_slope", "M5_relation"],
+  "evaluation_role": "retrospective_layer_and_association_description_not_independent_prediction",
+  "formal_model_selection": false,
+  "new_model_fits": false,
+  "confidence_intervals": false,
+  "deferred_to_stage6": [
+    "complete initialization distribution and cold/unknown scope sensitivity",
+    "dependence, feedback, model-form misspecification and interval coverage acceptance"
+  ],
+  "sources": [
+    "https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.roots_hermitenorm.html",
+    "https://scikit-learn.org/stable/modules/cross_validation.html"
+  ]
+}

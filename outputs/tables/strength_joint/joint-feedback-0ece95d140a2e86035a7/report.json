@@ -1,0 +1,22 @@
+{
+  "all_same_day_outcomes_generated_before_learning": true,
+  "away_wins": 16253,
+  "dates": 12174,
+  "draws": 4572,
+  "fit_loss": 0.2932114798341939,
+  "fitted_intercept": -0.09236208020370569,
+  "fitted_strength_slope": 0.7773661019770653,
+  "interval_admission": false,
+  "learning_matches": 38919,
+  "max_prequery_score_error": 8.881784197001252e-16,
+  "numerical_fit_passed": true,
+  "probability_calibration_replayed": false,
+  "reason": "joint input uses raw strength distribution, not calibrated forecast probabilities",
+  "role": "single_full_schedule_cost_and_feedback_pilot_not_coverage_test",
+  "seed": 35001,
+  "selection_repeated": false,
+  "study_matches": 24917,
+  "true_conditional_intercept": null,
+  "true_conditional_slope": null,
+  "world": "latent_strength"
+}

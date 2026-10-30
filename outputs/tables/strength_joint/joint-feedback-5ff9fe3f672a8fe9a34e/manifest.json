@@ -1,0 +1,123 @@
+{
+  "identity": {
+    "code": {
+      "config/strength_joint.json": "ce2290aea22277750c953afb912b6837b27815c4807b7918385914d8aafb9182",
+      "scripts/analyze_strength_joint.py": "959771f0bb98ddd7a88b746e5305a8fce2d4b26781da36f94ccd6dd00b6e0b15",
+      "scripts/audit_strength_joint.py": "b68432b8c42224ac029d626411b510949d6210f5e65d9b196937bbf306bfa44c",
+      "src/strength_joint/__init__.py": "80cd9d9fb898f60d696323f057245dca927670bc20bb9ad14f3fdbb933080f43",
+      "src/strength_joint/contract.py": "8f47c10ac639ca2ef7c0c867cca84f36d6cd0d0dd54c41774f3b663f85df2abb",
+      "src/strength_joint/contrasts.py": "5c816886d9679781d932f79da4d5771a3ffab4455c92c4b36d1cdf68f39eb0b5",
+      "src/strength_joint/design.py": "0826815f44370435908fd74c36d98bda1cdcf70699e20ec1dc89626a67f2717d",
+      "src/strength_joint/model.py": "7c1410a84e7f224877892568a6359edb0ca1c766da5041ac1d14cf0e71698dc9",
+      "src/strength_joint/reporting.py": "73d4ea64181321b1d77fd22dded426fea507ad99cba0afb1dbd2ca49a7d16852",
+      "src/strength_joint/validation.py": "eadd1601797f7429fc8189d216d23015031004d0846453745507c255fc75eac7",
+      "tests/test_strength_joint.py": "f9e5b62bfc74a2b5ef568ff1216cb022b6f0348011b59f3c97e7f1698a95185e"
+    },
+    "environment": {
+      "commit": "92b221d2e40b5cc09f637efd2fb31719957ad5a9",
+      "execution_code": "working tree; exact source hashes recorded, no commit made",
+      "numpy": "2.5.4",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "python": "3.14.8",
+      "scipy": "1.18.1"
+    },
+    "inputs": {
+      "config/regions_study.json": "f29e8081a58c941ea6d51809ec69aacb9d5ad8c15a343866980afcf407d68c66",
+      "config/strength_global_v3.json": "a524b57c774eb61cbc677ee8edc2057a0c9cc3b8738a6fbcbcf67609d5555938",
+      "config/strength_joint.json": "ce2290aea22277750c953afb912b6837b27815c4807b7918385914d8aafb9182",
+      "data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8/manifest.json": "5b49b98027d3106fb44cdc0fb57e570858ec66ddcf007a1b41adb595e048bebd",
+      "outputs/logs/strength/learning-b2889411cc93b44f88b6/learning_matches.csv": "51c18e65018fc0870c3c0cb1fc8da6fcee040654462e7bbc35df2af7bc9ab3f8",
+      "outputs/logs/strength/learning-b2889411cc93b44f88b6/manifest.json": "f4eb9f37a15263af844664f8c936fb903a84610539bf0b6a88ce74fab27507c8",
+      "outputs/tables/regions/regions-0a1c61664a722e6c641f/analysis_matches.csv": "8b0ddb7f2e4d5eb2199c8c2b477e7873b1e46bc12421c4dddf5ac8809f91ca22",
+      "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/target_catalogue.csv": "567610a60f2498f335c1553ba5dd3d1567a95f29c7a9d50f2dcead09ac0d2d79"
+    },
+    "protocol": {
+      "decision_log_id": "R20261030-03",
+      "facts": "outputs/tables/regions/regions-0a1c61664a722e6c641f/analysis_matches.csv",
+      "initializations": [
+        "outputs/logs/strength/repaired-initialization-d1f3771999bd8731b716",
+        "outputs/logs/strength/repaired-initialization-1dc37caeddc61830a0af",
+        "outputs/logs/strength/repaired-initialization-146d3bc167c27a4a3466"
+      ],
+      "input": "data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8",
+      "input_manifest_sha256": "5b49b98027d3106fb44cdc0fb57e570858ec66ddcf007a1b41adb595e048bebd",
+      "interpretation": "retrospective_working_model_probability_differences; no causal or independent future-validation claim",
+      "learning_config": "config/strength_global_v3.json",
+      "main_model": "M3_nested",
+      "models": [
+        "M0_regions",
+        "M0_nested",
+        "M1_strength",
+        "M2_common",
+        "M3_nested",
+        "M4_type_slope",
+        "M5_relation",
+        "M3_plugin",
+        "M3_total_normal"
+      ],
+      "numerics": {
+        "coefficient_bound": 8,
+        "gradient_gate": 3e-06,
+        "gradient_reference_gate": 2e-06,
+        "gtol": 1e-08,
+        "maxiter": 1200,
+        "multistart_loss_gate": 1e-08,
+        "poisson_tail": 1e-12,
+        "probability_reference_gate": 2e-08,
+        "slope_bounds": [
+          0.0001,
+          8
+        ],
+        "starts": [
+          0.3,
+          1,
+          2
+        ],
+        "strict_tail": 1e-15
+      },
+      "raw_score": "data/processed/strength/jump-ratings-451ecade0bf84ee0bfb6",
+      "reference": "original24917_equal_weight; B relationships use explicit original parent-home subset and observed opponent-unit mixture conditional on home unit",
+      "regions_config": "config/regions_study.json",
+      "schema_version": "strength-joint-v1",
+      "secondary_reference": "intersection of observed nonempty era/type/home-unit/away-region/score-bin cells and within-cell-background score ranges in every positive-mixture arm; renormalize equal reference weights; distinct reference ID and target",
+      "simulation": {
+        "conditional_nonhome_draw_fraction": 0.35,
+        "global_role": "cost_and_feedback_pilot_not_interval_coverage_admission",
+        "global_seeds": [
+          35001
+        ],
+        "interval_status": "INFERENCE_NOT_ADMITTED",
+        "selection_repeated": false,
+        "small_seeds": [
+          34001,
+          34002,
+          34003,
+          34004
+        ],
+        "worlds": [
+          "score_conditional",
+          "latent_strength"
+        ]
+      },
+      "sparse_cell_warning": 20,
+      "support_bins": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "targets": "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/target_catalogue.csv",
+      "weak_jump_score": "data/processed/strength/jump-ratings-2011739ec6714deca2e6"
+    },
+    "seed": 35001,
+    "world": "score_conditional"
+  },
+  "outputs": {
+    "model.json": "361aa21eb9a4f20072741487455838b257fe9c00426b71a7c61bd9b5cf4c7aca",
+    "report.json": "a21cf1077ae013d26a9abfb41b97b5d16eea47bedd7d20e85c76baa9d1edb0ed",
+    "simulated_study_matches.csv": "a7a0254192c39a51916b05c5736bf1fa16b34dd3a63fd9993b5179f3e7cb52b4",
+    "source_snapshot.zip": "aee49b0074de0f73f0dae7ae2933d002c947f7708673aba04b4495bb715e7998"
+  },
+  "stage_id": "joint-feedback-5ff9fe3f672a8fe9a34e"
+}

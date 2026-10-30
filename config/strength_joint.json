@@ -1,0 +1,46 @@
+{
+  "schema_version": "strength-joint-v1",
+  "decision_log_id": "R20261030-03",
+  "input": "data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8",
+  "input_manifest_sha256": "5b49b98027d3106fb44cdc0fb57e570858ec66ddcf007a1b41adb595e048bebd",
+  "facts": "outputs/tables/regions/regions-0a1c61664a722e6c641f/analysis_matches.csv",
+  "targets": "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/target_catalogue.csv",
+  "regions_config": "config/regions_study.json",
+  "learning_config": "config/strength_global_v3.json",
+  "raw_score": "data/processed/strength/jump-ratings-451ecade0bf84ee0bfb6",
+  "weak_jump_score": "data/processed/strength/jump-ratings-2011739ec6714deca2e6",
+  "initializations": [
+    "outputs/logs/strength/repaired-initialization-d1f3771999bd8731b716",
+    "outputs/logs/strength/repaired-initialization-1dc37caeddc61830a0af",
+    "outputs/logs/strength/repaired-initialization-146d3bc167c27a4a3466"
+  ],
+  "main_model": "M3_nested",
+  "models": ["M0_regions", "M0_nested", "M1_strength", "M2_common", "M3_nested", "M4_type_slope", "M5_relation", "M3_plugin", "M3_total_normal"],
+  "reference": "original24917_equal_weight; B relationships use explicit original parent-home subset and observed opponent-unit mixture conditional on home unit",
+  "support_bins": [-2, -1, 0, 1, 2],
+  "sparse_cell_warning": 20,
+  "secondary_reference": "intersection of observed nonempty era/type/home-unit/away-region/score-bin cells and within-cell-background score ranges in every positive-mixture arm; renormalize equal reference weights; distinct reference ID and target",
+  "numerics": {
+    "poisson_tail": 1e-12,
+    "strict_tail": 1e-15,
+    "slope_bounds": [0.0001, 8],
+    "coefficient_bound": 8,
+    "starts": [0.3, 1, 2],
+    "maxiter": 1200,
+    "gtol": 1e-8,
+    "gradient_gate": 0.000003,
+    "multistart_loss_gate": 1e-8,
+    "gradient_reference_gate": 0.000002,
+    "probability_reference_gate": 0.00000002
+  },
+  "simulation": {
+    "small_seeds": [34001, 34002, 34003, 34004],
+    "worlds": ["score_conditional", "latent_strength"],
+    "global_seeds": [35001],
+    "global_role": "cost_and_feedback_pilot_not_interval_coverage_admission",
+    "conditional_nonhome_draw_fraction": 0.35,
+    "interval_status": "INFERENCE_NOT_ADMITTED",
+    "selection_repeated": false
+  },
+  "interpretation": "retrospective_working_model_probability_differences; no causal or independent future-validation claim"
+}

@@ -2193,11 +2193,11 @@
   },
   "question_5": {
     "additional_gate": "Operational conditional learning scope fixed; identity limitations visible; original24917 and117 adoption unchanged",
-    "status": "stage2_all_required_gates_passed_stage3_design_complete_no_joint_code",
+    "status": "stages1_to5_complete_with_declared_scope_stage6_statistical_acceptance_pending",
     "title": "赛前实力评价与调整",
     "previous_question_number": 3,
     "decision_log_id": "R20261026-01",
-    "latest_decision_log_id": "R20261030-02",
+    "latest_decision_log_id": "R20261030-07",
     "goal_discussion": {
       "status": "full_stage2_engineering_admitted_third_design_complete",
       "document": "研究/05_赛前实力/README.md",
@@ -2500,8 +2500,8 @@
       "planned_main_entry": "scripts/analyze_strength_joint.py",
       "planned_audit_entry": "scripts/audit_strength_joint.py",
       "planned_internal_modules": 6,
-      "joint_code_created": false,
-      "joint_fit_performed": false,
+      "joint_code_created": true,
+      "joint_fit_performed": true,
       "pending_required_stage2_tasks": [],
       "cold_start_rows": 359,
       "initialization_sensitive_rows": 2905,
@@ -2513,7 +2513,12 @@
       "global_optimality_proven": false,
       "final_review": "outputs/logs/strength/repair-20261029/final_handoff_review.json",
       "handoff_checks_passed": 125614,
-      "exact_current_sources": "outputs/logs/strength/repair-20261029/current_sources.json"
+      "exact_current_sources": "outputs/logs/strength/repair-20261029/current_sources.json",
+      "joint_flags_at_stage2_handoff": {
+        "joint_code_created": false,
+        "joint_fit_performed": false,
+        "asof_log": "R20261030-01"
+      }
     },
     "historical_acceptance_R11": {
       "document": "研究/05_赛前实力/第二环节_验收与正式交接.md",
@@ -2555,6 +2560,110 @@
       "prediction_gate_passed": false,
       "production_model_selected": false,
       "complex_jump_global_admission": false
+    },
+    "joint_analysis": {
+      "decision_log_id": "R20261030-05",
+      "directory": "outputs/tables/strength_joint/joint-analysis-55371e4d4aa3d2060190",
+      "manifest": "outputs/tables/strength_joint/joint-analysis-55371e4d4aa3d2060190/manifest.json",
+      "document": "研究/05_赛前实力/第三环节_运行结果与交接.md",
+      "scoring_explanation": "研究/05_赛前实力/实力评估_逻辑与运行说明.md",
+      "protocol": "config/strength_joint.json",
+      "main_entry": "scripts/analyze_strength_joint.py",
+      "independent_audit_entry": "scripts/audit_strength_joint.py",
+      "modules": 6,
+      "joint_fit_performed": true,
+      "study_rows": 24917,
+      "models": 9,
+      "core_targets": 32,
+      "original_supported": 27,
+      "original_unsupported": 5,
+      "contrast_rows": 268,
+      "strength_change_rows": 64,
+      "sensitivity_rows": 128,
+      "unit_tests": 72,
+      "independent_checks": 224901,
+      "independent_audit": "outputs/logs/strength_joint/joint-analysis-55371e4d4aa3d2060190-audit.json",
+      "repeat": "outputs/logs/strength_joint/reproducibility.json",
+      "identical_core_files": 12,
+      "sensitivity_repeated": false,
+      "small_feedback_worlds": 8,
+      "global_feedback_worlds": 2,
+      "learning_rows_per_global_world": 38919,
+      "global_feedback": "outputs/logs/strength_joint/global_feedback.json",
+      "materials": "outputs/tables/strength_joint/joint-materials-917398373f7b497c7aa3",
+      "display_data": "outputs/tables/strength_joint/joint-materials-917398373f7b497c7aa3/display_data.json",
+      "inference_admitted": false,
+      "confidence_intervals_computed": false,
+      "full_reference_contrasts_with_extrapolation": 32,
+      "full_initialization_distribution_sensitivity_completed": false,
+      "initialization_mean_only_diagnostic_completed": true,
+      "independent_future_validation": false,
+      "causal_identification": false,
+      "actual_human_review": false,
+      "next_tasks": [
+        "stage6 formal target/support and score distribution sensitivity",
+        "stage6 dependence/feedback/misspecification/coverage acceptance"
+      ],
+      "handoff_review": "outputs/logs/strength_joint/handoff_review.json",
+      "handoff_checks": 1050,
+      "execution_sources": "outputs/logs/strength_joint/execution-sources-cece771153f310179d8c/manifest.json"
+    },
+    "stage_progress": {
+      "1": {
+        "status": "completed",
+        "scope": "target and interpretation"
+      },
+      "2": {
+        "status": "accepted",
+        "scope": "adopted score engineering and conditional model gates; no prospective claim"
+      },
+      "3": {
+        "status": "point_analysis_completed",
+        "scope": "joint framework; statistical acceptance in stage6"
+      },
+      "4": {
+        "status": "completed",
+        "scope": "frozen nine models, layered and limited relationship descriptive comparisons"
+      },
+      "5": {
+        "status": "completed",
+        "scope": "conditional findings, probability curves, narrative and reusable figures; final HTML/paper deferred"
+      },
+      "6": {
+        "status": "pending_statistical_acceptance",
+        "existing": "numerical/reproducibility audits completed",
+        "outstanding": [
+          "full initialization distribution and cold/unknown scope sensitivity",
+          "dependence/feedback/misspecification/coverage protocol and acceptance"
+        ]
+      }
+    },
+    "interpretation": {
+      "decision_log_id": "R20261030-07",
+      "directory": "outputs/tables/strength_joint/strength-interpretation-35a760de1ec558401703",
+      "delivery": "outputs/logs/strength_interpretation/delivery-dac7935dfc86a2ca75b2",
+      "document": "研究/05_赛前实力/第四五环节_比较结果与研究解释.md",
+      "main_entry": "scripts/analyze_strength_interpretation.py",
+      "audit_entry": "scripts/audit_strength_interpretation.py",
+      "original_base_analysis": "outputs/tables/strength_joint/joint-analysis-55371e4d4aa3d2060190",
+      "same_study_rows": 24917,
+      "new_model_fits": false,
+      "layer_pairs": 8,
+      "layer_group_rows": 512,
+      "strength_curve_rows": 150,
+      "tournament_curve_difference_rows": 75,
+      "target_ledger_rows": 64,
+      "actual_arm_rows": 58,
+      "full_tests": 76,
+      "independent_checks": 1404,
+      "repeated_outputs": 18,
+      "repeated_manifest_identical": true,
+      "display_data": "outputs/logs/strength_interpretation/delivery-dac7935dfc86a2ca75b2/display_data.json",
+      "formal_statistical_inference": false,
+      "stage6_completed": false,
+      "actual_human_review": false,
+      "final_review": "outputs/logs/strength_interpretation/handoff-review-280ed56b4f487f071e88.json",
+      "final_handoff_checks": 1000
     }
   },
   "numbering_decision": {

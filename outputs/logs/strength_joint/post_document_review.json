@@ -1,0 +1,9 @@
+{
+  "execution_sources": "outputs/logs/strength_joint/execution-sources-cece771153f310179d8c",
+  "existing_path_checks": 926,
+  "failed": [],
+  "final_adopted_score_dependency_identity_unchanged": true,
+  "joint_code_identity_unchanged": true,
+  "passed": true,
+  "unique_log_ids": true
+}
