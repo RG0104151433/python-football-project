@@ -1,0 +1,25 @@
+{
+  "runs": [
+    {
+      "components": 8,
+      "scope": "twenty",
+      "seconds": 21.066985799989197
+    },
+    {
+      "components": 16,
+      "scope": "twenty",
+      "seconds": 43.20895050000399
+    },
+    {
+      "components": 32,
+      "scope": "twenty",
+      "seconds": 80.06384539999999
+    },
+    {
+      "components": 8,
+      "scope": "global_profile",
+      "seconds": 121.63369950000197
+    }
+  ],
+  "total_seconds": 266.27640339999925
+}

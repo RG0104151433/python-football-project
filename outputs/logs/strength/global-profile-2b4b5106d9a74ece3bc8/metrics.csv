@@ -1,0 +1,3 @@
+﻿model,count,accuracy,log_loss,brier,all_matches,entities,minimum_checkpoint_eigenvalue,max_ep_iterations
+smooth,1378,0.5566037736,0.9555797780,0.5650232509,4075,121,0.0008633990,21
+robust,1378,0.5573294630,0.9548565576,0.5649139615,4075,121,0.0010638824,22

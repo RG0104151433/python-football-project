@@ -1,0 +1,79 @@
+{
+  "adopted_pipeline": "data/processed/strength/strength-delivery-ca43fe498cd43ec8e21f",
+  "all_old_failed_candidates_relabelled_pass": false,
+  "all_required_stage2_checks_passed": true,
+  "checks": {
+    "final_audit": true,
+    "final_replay": true,
+    "initial_repaired-initialization-146d3bc167c27a4a3466": true,
+    "initial_repaired-initialization-1dc37caeddc61830a0af": true,
+    "initial_repaired-initialization-d1f3771999bd8731b716": true,
+    "local_reference": true,
+    "normal_forecast": true,
+    "raw_audit": true,
+    "raw_replay": true,
+    "simulation_selected_core": true,
+    "strict_forecast": true,
+    "tests": true,
+    "unseen_simulation": true
+  },
+  "cold_start": 359,
+  "evidence": {
+    "final_audit": {
+      "path": "outputs/logs/strength/repair-20261029/final_delivery_audit.json",
+      "sha256": "6a1427b90392941fbe0e3d7b0fdc9ff65b38760b19830d13722482206c52bc60"
+    },
+    "final_replay": {
+      "path": "outputs/logs/strength/repair-20261029/delivery_reproducibility.json",
+      "sha256": "2ee01702de86ac1ae6656f1796256baf9124e09ce9fa43ffd3eea7dd8799e4c6"
+    },
+    "initial_repaired-initialization-146d3bc167c27a4a3466": {
+      "path": "outputs/logs/strength/repaired-initialization-146d3bc167c27a4a3466/manifest.json",
+      "sha256": "71355d37d1487bfd136c95245d891ad2df1058d207dc4c48e4676311b779488e"
+    },
+    "initial_repaired-initialization-1dc37caeddc61830a0af": {
+      "path": "outputs/logs/strength/repaired-initialization-1dc37caeddc61830a0af/manifest.json",
+      "sha256": "5a689ae65519126be78cb46e5d0e06a2ac6d343bf27b3d354344a5356323cdf4"
+    },
+    "initial_repaired-initialization-d1f3771999bd8731b716": {
+      "path": "outputs/logs/strength/repaired-initialization-d1f3771999bd8731b716/manifest.json",
+      "sha256": "afa1cd6fc758a09dccfce6280ac037314a3502cdda5a9e9446f108a6698af50e"
+    },
+    "local_reference": {
+      "path": "outputs/logs/strength/collapsed-jump-reference-13545517c92599400545/report.json",
+      "sha256": "a1795c60e7804f96a68db76feccb94e6d72adb057d460ab7d308f90027d5976a"
+    },
+    "raw_audit": {
+      "path": "outputs/logs/strength/repair-20261029/raw_jump_audit.json",
+      "sha256": "40f5d843aac0360bf56e0a5c72730ac3410fda61cd58bed1f157f5c84d10912b"
+    },
+    "raw_replay": {
+      "path": "outputs/logs/strength/repair-20261029/replay_jump_full.json",
+      "sha256": "c06241596265dd5a87df3c3b1a42c072179bafc921ccee8a5daac04aea564ca1"
+    },
+    "simulations": {
+      "path": "outputs/logs/strength/jump-repair-simulation-434a1b6d1bf4f3eb4d37/report.json",
+      "sha256": "67679b2822665277ec80ef00089b16a83fec21439a28ddd220cb79238f68c29e"
+    },
+    "unseen_simulation": {
+      "path": "outputs/logs/strength/unseen-jump-validation-68be7631b8bd341ed48a/report.json",
+      "sha256": "846bf0768923c795a4d0eb645b8130888e77b85b1b31c813bbb7ada6e4cdf0a8"
+    }
+  },
+  "global_optimality_proven": false,
+  "human_review": "not_performed",
+  "initialization_sensitive": 2905,
+  "initialization_sensitivity_is_not_a_claim_of_point_invariance": true,
+  "joint_outcome_fit_performed": false,
+  "previously_disconnected": 80,
+  "prospective_test": false,
+  "selected_raw_core": "data/processed/strength/jump-ratings-451ecade0bf84ee0bfb6",
+  "selected_residual_diffusion": 0.02,
+  "selected_shape_method": "temperature_offset",
+  "source_forecast_metrics_unchanged": true,
+  "statistical_scope": "reused-history development/engineering acceptance; not independent prospective or causal certification",
+  "status": "all_required_stage2_engineering_gates_passed_ready_for_stage3_design",
+  "strict_pipeline": "data/processed/strength/strength-delivery-e67aeee4c7462a00cf50",
+  "study_rows": 24917,
+  "tests_passed": 61
+}

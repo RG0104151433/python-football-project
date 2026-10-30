@@ -1,0 +1,48 @@
+{
+  "schema_version": "strength-composed-v1",
+  "decision_log_id": "R20261029-19",
+  "normal_source": "data/processed/strength/jump-ratings-451ecade0bf84ee0bfb6",
+  "strict_source": "data/processed/strength/jump-ratings-0deb26fde40475629288",
+  "shape_methods": [
+    "temperature_offset",
+    "dirichlet_matrix"
+  ],
+  "offset_diffusions": [
+    0.02,
+    0.08,
+    0.32,
+    1.28
+  ],
+  "periods": [
+    [
+      1980,
+      1999
+    ],
+    [
+      2000,
+      2009
+    ],
+    [
+      2010,
+      2019
+    ],
+    [
+      2020,
+      2024
+    ],
+    [
+      1980,
+      2009
+    ],
+    [
+      2020,
+      2022
+    ],
+    [
+      2023,
+      2024
+    ]
+  ],
+  "status": "frozen_before_composition_trial",
+  "selection": "all original gates mandatory; prefer lower whole-study loss within eligible candidates; reused development not independent test"
+}

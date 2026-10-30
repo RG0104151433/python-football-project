@@ -1,0 +1,10 @@
+{'scope': 'twenty', 'order': 0, 'budget': 16, 'completed': 389, 'count': 89, 'accuracy': 0.5056179775280899, 'log_loss': 1.1012555057307865, 'brier': 0.6588785697818721}
+{'scope': 'twenty', 'order': 0, 'budget': 32, 'completed': 389, 'count': 89, 'accuracy': 0.5056179775280899, 'log_loss': 1.1014441913173019, 'brier': 0.6590298047332815}
+{'scope': 'twenty', 'order': 0, 'budget': 64, 'completed': 389, 'count': 89, 'accuracy': 0.5056179775280899, 'log_loss': 1.10077871169497, 'brier': 0.6587559175841795}
+{'scope': 'twenty', 'order': 1, 'budget': 16, 'completed': 389, 'count': 89, 'accuracy': 0.5168539325842697, 'log_loss': 1.0999403567438804, 'brier': 0.6581948161333425}
+{'scope': 'twenty', 'order': 1, 'budget': 32, 'completed': 389, 'count': 89, 'accuracy': 0.5168539325842697, 'log_loss': 1.0987372974764829, 'brier': 0.6574742782986354}
+{'scope': 'twenty', 'order': 1, 'budget': 64, 'completed': 389, 'count': 89, 'accuracy': 0.5168539325842697, 'log_loss': 1.0974447359356794, 'brier': 0.6565235863449449}
+{'scope': 'global_profile', 'order': 1, 'budget': 16, 'completed': 358, 'count': 358, 'accuracy': 0.5363128491620112, 'log_loss': 0.9933780120596826, 'brier': 0.5931895808536326}
+{'scope': 'global_profile', 'order': 1, 'budget': 32, 'completed': 358, 'count': 358, 'accuracy': 0.5363128491620112, 'log_loss': 0.9931734226521707, 'brier': 0.5930706400622661}
+{'scope': 'global_profile', 'order': 1, 'budget': 64, 'completed': 358, 'count': 358, 'accuracy': 0.5363128491620112, 'log_loss': 0.993004167132965, 'brier': 0.5929537811617378}
+FOLLOWUP outputs/logs/strength/streaming-followup-ca0db86dd4df83030df4

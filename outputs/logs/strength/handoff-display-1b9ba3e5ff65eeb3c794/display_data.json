@@ -1,0 +1,119 @@
+{
+  "experimental_joint_input_admitted": true,
+  "historical_tests_reused": true,
+  "joint_model_fitted": false,
+  "jump_comparisons": [
+    {
+      "first": "('twenty', 0, 16)",
+      "max_probability_difference": "0.0085516724",
+      "passed": "true",
+      "second": "('twenty', 0, 32)"
+    },
+    {
+      "first": "('twenty', 0, 32)",
+      "max_probability_difference": "0.0067376865",
+      "passed": "true",
+      "second": "('twenty', 0, 64)"
+    },
+    {
+      "first": "('twenty', 1, 16)",
+      "max_probability_difference": "0.0065673669",
+      "passed": "true",
+      "second": "('twenty', 1, 32)"
+    },
+    {
+      "first": "('twenty', 1, 32)",
+      "max_probability_difference": "0.0075480589",
+      "passed": "true",
+      "second": "('twenty', 1, 64)"
+    },
+    {
+      "first": "('twenty', 0, 16)",
+      "max_probability_difference": "0.0111295057",
+      "passed": "false",
+      "second": "('twenty', 1, 16)"
+    },
+    {
+      "first": "('twenty', 0, 32)",
+      "max_probability_difference": "0.0138178579",
+      "passed": "false",
+      "second": "('twenty', 1, 32)"
+    },
+    {
+      "first": "('twenty', 0, 64)",
+      "max_probability_difference": "0.0132788580",
+      "passed": "false",
+      "second": "('twenty', 1, 64)"
+    },
+    {
+      "first": "('global_profile', 1, 16)",
+      "max_probability_difference": "0.0053245446",
+      "passed": "true",
+      "second": "('global_profile', 1, 32)"
+    },
+    {
+      "first": "('global_profile', 1, 32)",
+      "max_probability_difference": "0.0082978250",
+      "passed": "true",
+      "second": "('global_profile', 1, 64)"
+    }
+  ],
+  "latest_2023_2024": {
+    "count": 1457,
+    "current_accuracy": 0.6149622512010982,
+    "current_log_loss": 0.8544606041345019,
+    "current_mean_home_bias_pp": 2.174031861619767,
+    "old_mean_home_bias_pp": 4.232786970405053
+  },
+  "mandatory_footnotes": [
+    "Historical rolling checks are reused, not independent blind tests",
+    "Recent pooled improvement does not erase2020-2022 or tournament-specific calibration failure",
+    "Jump route rejected for numerical approximation sensitivity, not proven inferior prediction",
+    "Conditional covariance and alternative-score ranges are not real-world unconditional confidence guarantees"
+  ],
+  "max_strict_probability_difference": 5.51e-07,
+  "max_type_bias_pp": 4.81698735,
+  "post1980_rolling_rows": 33338,
+  "remaining_failure_2020_2022": {
+    "count": 1638,
+    "mean_home_bias_pp": 3.0733674453540902,
+    "passed": false,
+    "threshold_pp": 3
+  },
+  "repeat_files": 87,
+  "repeat_passed": true,
+  "rows_per_full_candidate": 38919,
+  "sources": {
+    "current": {
+      "path": "outputs/logs/strength/rolling-handoff-1a1f052c0b16becafcad/report.json",
+      "sha256": "dbe86a95414a654ff752b40d03ba942b9547462f75be03e94f3890e9a143eed4"
+    },
+    "jump": {
+      "path": "outputs/logs/strength/streaming-followup-ca0db86dd4df83030df4/comparisons.csv",
+      "sha256": "d71bf42ddaaf1da753507a629dabda3bad9f77d4b4e937ca375a873683801e45"
+    },
+    "legacy_checks": {
+      "path": "data/processed/strength/joint-input-0812683da0560b0b687b/legacy_period_checks.json",
+      "sha256": "37cf32e243a65e36968a7d62dc7095384ea0679c124985d8f4fdd2dd383054d6"
+    },
+    "numeric": {
+      "path": "data/processed/strength/joint-input-0812683da0560b0b687b/full_scale_numeric_comparison.csv",
+      "sha256": "7f71408e5b261c76197f6b1dd2d1da10c731197df5dc41aae390ad9be632f846"
+    },
+    "old_failed_reference": {
+      "path": "data/processed/strength/ratings-27b4f4352e5aec283bde/rating_report.json",
+      "sha256": "d610c74d908e65d2bee2ea08b8c656d4a12062b5452edd29b50edec293d60448"
+    },
+    "release": {
+      "path": "data/processed/strength/joint-input-0812683da0560b0b687b/release.json",
+      "sha256": "7cd0eff038898ea74c9d6049f5ce16c1162c9ad582487c4a16da9fafff4860c4"
+    },
+    "repeat": {
+      "path": "outputs/logs/strength/review-20261029/reproducibility.json",
+      "sha256": "4acfb9f6bfd3a3a744609b4ffbf96509445ddd3b933ffa78d6cc0e24173fd0bb"
+    }
+  },
+  "status": "stage2_exploratory_handoff_not_full_forecast_pass",
+  "study_matches": 24917,
+  "unrestricted_forecast_admitted": false
+}

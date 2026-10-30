@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": 272485,
+  "failed": [],
+  "source": "data/processed/strength/ratings-86ac627935f0b706dc08",
+  "rows": 38919,
+  "study_rows": 24917,
+  "model_admission": false,
+  "scope": "independent arithmetic/input/chronology/restart only, not model validity or human review"
+}

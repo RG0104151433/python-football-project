@@ -1,0 +1,11 @@
+{
+  "changed": [],
+  "directory": "outputs/logs/strength/rolling-handoff-1a1f052c0b16becafcad",
+  "excludes": "execution_timing.json is nondeterministic and excluded by design",
+  "exit_code": 0,
+  "files_checked": 87,
+  "human_review": "not_performed",
+  "passed": true,
+  "runner_sha": "0f27f8ae6dbbb9391b4a9995e9a8770825b20a32a1a479275577b5dd37e0fda6",
+  "same_content_addressed_handoff": true
+}

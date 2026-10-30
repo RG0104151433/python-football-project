@@ -1,0 +1,7 @@
+{
+  "elapsed_seconds": 65.03896530001657,
+  "rating_directory": "data/processed/strength/ratings-86ac627935f0b706dc08",
+  "rating_manifest_sha256": "c4c5f7073ac453bd363169065c814894fd1bdeb877ccab463261789d6e496c3f",
+  "report_sha256": "e9232322e498282e551eceab51b1e7a832a6af2922b87e809b457f5fbd227ad4",
+  "status": "global_reference_prediction_gate_failed"
+}

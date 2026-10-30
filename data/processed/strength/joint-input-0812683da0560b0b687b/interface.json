@@ -1,0 +1,27 @@
+{
+  "alternative_gap_range_is_not_CI": true,
+  "forbidden_predictors": [
+    "home_win",
+    "outcome",
+    "home_score",
+    "away_score",
+    "p_home",
+    "p_draw",
+    "p_away",
+    "home_term"
+  ],
+  "geography": "unchanged Q3 mappings; nested main effects must not be entered redundantly",
+  "predictor_whitelist": [
+    "strength_difference",
+    "era",
+    "tournament_group",
+    "home_region",
+    "away_region",
+    "home_unit",
+    "away_unit",
+    "relation"
+  ],
+  "status": "design_input_only_no_joint_fit",
+  "strength_variance_is_not_case_weight": true,
+  "target": "home_win; draws remain in denominator"
+}

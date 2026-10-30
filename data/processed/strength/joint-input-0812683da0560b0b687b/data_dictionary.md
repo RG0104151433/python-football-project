@@ -1,0 +1,3 @@
+# 第五问第三环节的准备输入
+
+24917行，一场一行，主结果home_win、平局仍计分母；outcome留作三结果备选。strength_difference为当场双方赛前评分差，variance为同一候选联合协方差推得。home/away_mean和协方差仅作追踪，不把绝对原点当实质水平。home/away_rating_entity区分评分身份与地理球队。alternative_gap_min/max为七候选分差范围，绝非置信区间。initialization_gap_min/max和max_probability_change来自单峰固定规则的起点/方差对照，不是滚动评分的置信区间；initialization_sensitive只标记差异超过1个百分点，不证明该场评分错误。predictor_whitelist只是候选集合，不能把其全部冗余编码同时放进回归。此包没有联合模型拟合、系数或效果结论。

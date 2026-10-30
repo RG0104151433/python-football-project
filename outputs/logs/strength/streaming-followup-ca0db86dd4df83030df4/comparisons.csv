@@ -1,0 +1,10 @@
+﻿first,second,max_probability_difference,passed
+"('twenty', 0, 16)","('twenty', 0, 32)",0.0085516724,true
+"('twenty', 0, 32)","('twenty', 0, 64)",0.0067376865,true
+"('twenty', 1, 16)","('twenty', 1, 32)",0.0065673669,true
+"('twenty', 1, 32)","('twenty', 1, 64)",0.0075480589,true
+"('twenty', 0, 16)","('twenty', 1, 16)",0.0111295057,false
+"('twenty', 0, 32)","('twenty', 1, 32)",0.0138178579,false
+"('twenty', 0, 64)","('twenty', 1, 64)",0.0132788580,false
+"('global_profile', 1, 16)","('global_profile', 1, 32)",0.0053245446,true
+"('global_profile', 1, 32)","('global_profile', 1, 64)",0.0082978250,true

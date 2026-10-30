@@ -1,0 +1,10 @@
+[
+  {
+    "completed_matches": 43,
+    "components": 32,
+    "date": "1950-07-02",
+    "error": "NumericalFailure: Transition covariance memory estimate 1089746944 exceeds budget",
+    "method": "cluster",
+    "scope": "global_profile"
+  }
+]

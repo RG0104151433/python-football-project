@@ -47,11 +47,19 @@ def environment():
             "commit": commit, "execution_code": "working tree; exact source hashes recorded, no commit made"}
 
 
-def publish(kind, identity, csvs=None, jsons=None, texts=None):
-    """Immutable content-addressed stage; never overwrite a different artifact."""
+def identify(kind, identity, base_dir="outputs/logs/strength"):
     identity = {**identity, "code": code_hashes(), "environment": environment()}
-    stage_id = kind + "-" + fingerprint(identity)[:20]
-    folder = ROOT / "outputs/logs/strength" / stage_id
+    if base_dir != "outputs/logs/strength":
+        identity["artifact_base"] = base_dir
+    return kind + "-" + fingerprint(identity)[:20], identity
+
+
+def publish(kind, identity, csvs=None, jsons=None, texts=None, base_dir="outputs/logs/strength", prepared=None):
+    """Immutable content-addressed stage; never overwrite a different artifact."""
+    stage_id, identity = prepared or identify(kind, identity, base_dir)
+    folder = ROOT / base_dir / stage_id
+    if not folder.resolve().is_relative_to(ROOT.resolve()):
+        raise ValueError("Artifact outside workspace")
     content = {}
     archive = io.BytesIO()
     with zipfile.ZipFile(archive, "w", compression=zipfile.ZIP_STORED) as z:

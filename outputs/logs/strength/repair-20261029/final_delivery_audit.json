@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": 389393,
+  "failed": [],
+  "normal": "data/processed/strength/strength-delivery-ca43fe498cd43ec8e21f",
+  "strict": "data/processed/strength/strength-delivery-e67aeee4c7462a00cf50",
+  "max_complete_probability_difference": 4.777000000011355e-07,
+  "independent_baselines_reconstructed": true,
+  "complete_restart_verified": true,
+  "human_review": "not_performed",
+  "prospective_test": false
+}

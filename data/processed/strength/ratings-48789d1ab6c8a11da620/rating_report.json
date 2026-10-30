@@ -1,0 +1,174 @@
+{
+  "all_prediction_and_feature_rows": 38919,
+  "causal_claim": false,
+  "complex_jump_route_accepted": false,
+  "external_checks": [
+    {
+      "accuracy": 0.575462167895747,
+      "brier": 0.5339725396069449,
+      "count": 19798,
+      "fixed_step_accuracy": 0.5636933023537731,
+      "fixed_step_log_loss": 0.9312125510527464,
+      "frequency_accuracy": 0.4846449136276392,
+      "frequency_log_loss": 1.0469757889759757,
+      "home_probability_bias": 0.005721667987799429,
+      "log_loss": 0.9035061870497789,
+      "max_calibration_bin_error": 0.058224929570456885,
+      "passed": true,
+      "period": "reused_development_1980_2009",
+      "scope": "all_learning",
+      "tests": {
+        "accuracy_not_worse_than_frequency": true,
+        "calibration": true,
+        "fixed_step_noninferiority": true,
+        "home_probability_bias": true,
+        "log_loss_gain_over_frequency": true
+      }
+    },
+    {
+      "accuracy": 0.5816326530612245,
+      "brier": 0.5279489812907409,
+      "count": 15190,
+      "fixed_step_accuracy": 0.5703752468729427,
+      "fixed_step_log_loss": 0.9199419139397191,
+      "frequency_accuracy": 0.5026991441737986,
+      "frequency_log_loss": 1.0384666580641264,
+      "home_probability_bias": 0.011801662366226479,
+      "log_loss": 0.8938242293322722,
+      "max_calibration_bin_error": 0.05241578758147247,
+      "passed": true,
+      "period": "reused_development_1980_2009",
+      "scope": "accepted_study",
+      "tests": {
+        "accuracy_not_worse_than_frequency": true,
+        "calibration": true,
+        "fixed_step_noninferiority": true,
+        "home_probability_bias": true,
+        "log_loss_gain_over_frequency": true
+      }
+    },
+    {
+      "accuracy": 0.5939915671117357,
+      "brier": 0.5222826133259726,
+      "count": 11384,
+      "fixed_step_accuracy": 0.5835382993675334,
+      "fixed_step_log_loss": 0.8967978319229205,
+      "frequency_accuracy": 0.48146521433591005,
+      "frequency_log_loss": 1.0468918196874826,
+      "home_probability_bias": 0.010808410225455038,
+      "log_loss": 0.8884476794321798,
+      "max_calibration_bin_error": 0.05072918319928588,
+      "passed": true,
+      "period": "reused_validation_2010_2022",
+      "scope": "all_learning",
+      "tests": {
+        "accuracy_not_worse_than_frequency": true,
+        "calibration": true,
+        "fixed_step_noninferiority": true,
+        "home_probability_bias": true,
+        "log_loss_gain_over_frequency": true
+      }
+    },
+    {
+      "accuracy": 0.609310761789601,
+      "brier": 0.5105873736409197,
+      "count": 8270,
+      "fixed_step_accuracy": 0.5981862152357921,
+      "fixed_step_log_loss": 0.8780304035586656,
+      "frequency_accuracy": 0.5064087061668682,
+      "frequency_log_loss": 1.0345571074941076,
+      "home_probability_bias": 0.017270699486849752,
+      "log_loss": 0.8715741334165098,
+      "max_calibration_bin_error": 0.05550887511224356,
+      "passed": true,
+      "period": "reused_validation_2010_2022",
+      "scope": "accepted_study",
+      "tests": {
+        "accuracy_not_worse_than_frequency": true,
+        "calibration": true,
+        "fixed_step_noninferiority": true,
+        "home_probability_bias": true,
+        "log_loss_gain_over_frequency": true
+      }
+    },
+    {
+      "accuracy": 0.6006493506493507,
+      "brier": 0.5177737481118767,
+      "count": 2156,
+      "fixed_step_accuracy": 0.5941558441558441,
+      "fixed_step_log_loss": 0.8854820556938161,
+      "frequency_accuracy": 0.46335807050092764,
+      "frequency_log_loss": 1.0551164378553402,
+      "home_probability_bias": 0.032327896484924304,
+      "log_loss": 0.87977662964617,
+      "max_calibration_bin_error": 0.060559682512894786,
+      "passed": false,
+      "period": "last_time_holdout_2023_2024",
+      "scope": "all_learning",
+      "tests": {
+        "accuracy_not_worse_than_frequency": true,
+        "calibration": true,
+        "fixed_step_noninferiority": true,
+        "home_probability_bias": false,
+        "log_loss_gain_over_frequency": true
+      }
+    },
+    {
+      "accuracy": 0.6170212765957447,
+      "brier": 0.5026711960565082,
+      "count": 1457,
+      "fixed_step_accuracy": 0.609471516815374,
+      "fixed_step_log_loss": 0.8607127011135446,
+      "frequency_accuracy": 0.5024021962937543,
+      "frequency_log_loss": 1.0367276397151073,
+      "home_probability_bias": 0.041261949511859845,
+      "log_loss": 0.8579117596509901,
+      "max_calibration_bin_error": 0.07294977573025013,
+      "passed": false,
+      "period": "last_time_holdout_2023_2024",
+      "scope": "accepted_study",
+      "tests": {
+        "accuracy_not_worse_than_frequency": true,
+        "calibration": true,
+        "fixed_step_noninferiority": true,
+        "home_probability_bias": false,
+        "log_loss_gain_over_frequency": true
+      }
+    }
+  ],
+  "external_prediction_gate_passed": false,
+  "heldout_predictions_issued_historically": false,
+  "holdout_roles": [
+    {
+      "end": "2009-12-31",
+      "id": "reused_development_1980_2009",
+      "role": "reused_diagnostic_not_independent",
+      "start": "1980-01-01"
+    },
+    {
+      "end": "2022-12-31",
+      "id": "reused_validation_2010_2022",
+      "role": "reused_diagnostic_not_independent_for_v3",
+      "start": "2010-01-01"
+    },
+    {
+      "end": "2024-12-31",
+      "id": "last_time_holdout_2023_2024",
+      "role": "last_previously_unopened_in_scope_prediction_scores; fixed_before_v3_replay",
+      "start": "2023-01-01"
+    }
+  ],
+  "numerical_gate_passed": true,
+  "old_holdout_not_independent_after_revision": true,
+  "production_model_optimality_proven": false,
+  "reserve_period": [],
+  "reserve_rows_generated_but_scores_unopened": 0,
+  "reserve_scores_opened": false,
+  "rule_id": "rating-rules-511552f880ed429b1520",
+  "selection_path": "outputs/logs/strength/final-reference-selection-201f706b72b45175119d",
+  "status": "global_reference_prediction_gate_failed",
+  "study_rows": 24917,
+  "tighter_EP_max_probability_difference": 3.715538561266385e-07,
+  "uncertainty_basis": "conditional joint Gaussian covariance, not model/hyperparameter selection error",
+  "unopened_in_scope_holdout_remains": false
+}

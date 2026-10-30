@@ -1,0 +1,435 @@
+{
+  "identity": {
+    "artifact_base": "data/processed/strength",
+    "code": {
+      "src/data_contract.py": "eb29fc528e25670e473bc8f2da4d794222b1f329442ee36a2fe393234188a390",
+      "src/strength/__init__.py": "b48ba25d80e7be21a57179718aa9bec57001088773f91cd7426f65133b1d10ca",
+      "src/strength/audit.py": "e71e0440deef56dabf669c17a5b8cab6e7e96ede2cbd27f70454a7a99675e497",
+      "src/strength/baseline.py": "1cebf825686034b00adc127d39ef0dac76b6d1daf40939d79518c24399fb7cd1",
+      "src/strength/budget.py": "ce8a61dbe89594002f3d6fc453550216f928d2199129c01e52a60c21a55c5a81",
+      "src/strength/experiment.py": "df05565aaeccb1285ef92c9901f427cf9b05544ee87a6bd608f8297b64ff92c3",
+      "src/strength/filter.py": "71c4364a699c8ffd6c82f6fbb8235acc7c4e1c73da19d98a3fcebb8caee78b12",
+      "src/strength/gaussian.py": "9622226e843bf93de70be2bcfbfde31242330d3170029c3635e572e296973579",
+      "src/strength/global_run.py": "c4dfc7b421ecd4881b1fb65ad8c02be4e5dd236443afc73f1071a1eeefb0e156",
+      "src/strength/io.py": "c6abbc5f11e2183648377465494b3eaa0b3d9b79345fbde5a33bf5da47fdc052",
+      "src/strength/prepare.py": "4ea48b15afb22d61663885de3b204d0f06bcb763c6f1f36835b8560ad2390f29",
+      "src/strength/reduction.py": "54522cbd77f4fdf134f24fcb47adb01636c6223ddc69262efa535ae8a779181a"
+    },
+    "environment": {
+      "commit": "5c362b6dbf112538a3126f3ea4556cdbf1a73830",
+      "execution_code": "working tree; exact source hashes recorded, no commit made",
+      "numpy": "2.5.4",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "python": "3.14.8",
+      "scipy": "1.18.1"
+    },
+    "inputs": {
+      "config/strength_global_v2.json": "4086cd3e8b687d9a02a2af4889f8a9505ac923ea4aa4991f0893ce89120d5f2d",
+      "outputs/logs/strength/learning-b2889411cc93b44f88b6/learning_matches.csv": "51c18e65018fc0870c3c0cb1fc8da6fcee040654462e7bbc35df2af7bc9ab3f8",
+      "outputs/logs/strength/learning-b2889411cc93b44f88b6/manifest.json": "f4eb9f37a15263af844664f8c936fb903a84610539bf0b6a88ce74fab27507c8"
+    },
+    "protocol": {
+      "acceptance": {
+        "accuracy_noninferiority_margin": 0.01,
+        "calibration_max_bin_error": 0.1,
+        "calibration_min_bin_count": 200,
+        "fixed_step_log_loss_noninferiority_margin": 0.01,
+        "fixed_step_report_required": true,
+        "home_probability_mean_bias_max": 0.03,
+        "log_loss_gain_over_frequency_at_least": 0.005,
+        "numeric_probability_tolerance": 0.01,
+        "uncertainty_claim": "engineering_and_predictive_use_gate; not_a_confidence_or_causal_guarantee"
+      },
+      "admission": {
+        "candidate_pool": "numerically_admitted_Gaussian_special_case; compound_jump_challenger_requires_broader_numerical_and_cost_gate_before_global_selection",
+        "not_global_optimality_claim": true
+      },
+      "baselines": {
+        "fixed_step": {
+          "H": [
+            0,
+            60,
+            100
+          ],
+          "K": [
+            10,
+            20,
+            40
+          ],
+          "draw": [
+            0.5,
+            0.75,
+            1
+          ],
+          "formula": "Davidson WDL softmax(u,log(nu),-u); u=ln(10)*signed_gap/800; R+=K*(observed_score-expected_score); same_date_frozen",
+          "selection": "lowest1975_1979_log_loss_then_stable_grid_order",
+          "start": 1950
+        },
+        "frequency": "separate_neutral_non_neutral_Dirichlet1_counts"
+      },
+      "candidates": [
+        {
+          "id": "g00_smooth_base",
+          "modules": 0,
+          "parameters": {
+            "alpha": 0.65,
+            "delta": 0.3,
+            "epsilon": 0,
+            "jump_rate": 0,
+            "jump_sd": 1.2,
+            "q": 0.03
+          }
+        },
+        {
+          "id": "g01_smooth_q_low",
+          "modules": 0,
+          "parameters": {
+            "alpha": 0.65,
+            "delta": 0.3,
+            "epsilon": 0,
+            "jump_rate": 0,
+            "jump_sd": 1.2,
+            "q": 0.01
+          }
+        },
+        {
+          "id": "g02_smooth_q_high",
+          "modules": 0,
+          "parameters": {
+            "alpha": 0.65,
+            "delta": 0.3,
+            "epsilon": 0,
+            "jump_rate": 0,
+            "jump_sd": 1.2,
+            "q": 0.08
+          }
+        },
+        {
+          "id": "g03_smooth_draw_low",
+          "modules": 0,
+          "parameters": {
+            "alpha": 0.65,
+            "delta": 0.2,
+            "epsilon": 0,
+            "jump_rate": 0,
+            "jump_sd": 1.2,
+            "q": 0.03
+          }
+        },
+        {
+          "id": "g04_smooth_draw_high",
+          "modules": 0,
+          "parameters": {
+            "alpha": 0.65,
+            "delta": 0.5,
+            "epsilon": 0,
+            "jump_rate": 0,
+            "jump_sd": 1.2,
+            "q": 0.03
+          }
+        },
+        {
+          "id": "g05_smooth_friendly_low",
+          "modules": 0,
+          "parameters": {
+            "alpha": 0.4,
+            "delta": 0.3,
+            "epsilon": 0,
+            "jump_rate": 0,
+            "jump_sd": 1.2,
+            "q": 0.03
+          }
+        },
+        {
+          "id": "g06_smooth_friendly_high",
+          "modules": 0,
+          "parameters": {
+            "alpha": 0.85,
+            "delta": 0.3,
+            "epsilon": 0,
+            "jump_rate": 0,
+            "jump_sd": 1.2,
+            "q": 0.03
+          }
+        },
+        {
+          "id": "g07_robust_base",
+          "modules": 1,
+          "parameters": {
+            "alpha": 0.65,
+            "delta": 0.3,
+            "epsilon": 0.05,
+            "jump_rate": 0,
+            "jump_sd": 1.2,
+            "q": 0.03
+          }
+        },
+        {
+          "id": "g08_robust_q_low",
+          "modules": 1,
+          "parameters": {
+            "alpha": 0.65,
+            "delta": 0.3,
+            "epsilon": 0.05,
+            "jump_rate": 0,
+            "jump_sd": 1.2,
+            "q": 0.01
+          }
+        },
+        {
+          "id": "g09_robust_q_high",
+          "modules": 1,
+          "parameters": {
+            "alpha": 0.65,
+            "delta": 0.3,
+            "epsilon": 0.05,
+            "jump_rate": 0,
+            "jump_sd": 1.2,
+            "q": 0.08
+          }
+        },
+        {
+          "id": "g10_robust_draw_low",
+          "modules": 1,
+          "parameters": {
+            "alpha": 0.65,
+            "delta": 0.2,
+            "epsilon": 0.05,
+            "jump_rate": 0,
+            "jump_sd": 1.2,
+            "q": 0.03
+          }
+        },
+        {
+          "id": "g11_robust_draw_high",
+          "modules": 1,
+          "parameters": {
+            "alpha": 0.65,
+            "delta": 0.5,
+            "epsilon": 0.05,
+            "jump_rate": 0,
+            "jump_sd": 1.2,
+            "q": 0.03
+          }
+        },
+        {
+          "id": "g12_robust_friendly_low",
+          "modules": 1,
+          "parameters": {
+            "alpha": 0.4,
+            "delta": 0.3,
+            "epsilon": 0.05,
+            "jump_rate": 0,
+            "jump_sd": 1.2,
+            "q": 0.03
+          }
+        },
+        {
+          "id": "g13_robust_friendly_high",
+          "modules": 1,
+          "parameters": {
+            "alpha": 0.85,
+            "delta": 0.3,
+            "epsilon": 0.05,
+            "jump_rate": 0,
+            "jump_sd": 1.2,
+            "q": 0.03
+          }
+        },
+        {
+          "id": "g14_robust_background_high",
+          "modules": 1,
+          "parameters": {
+            "alpha": 0.65,
+            "delta": 0.3,
+            "epsilon": 0.12,
+            "jump_rate": 0,
+            "jump_sd": 1.2,
+            "q": 0.03
+          }
+        },
+        {
+          "id": "g15_smooth_draw_refined_0p35",
+          "modules": 0,
+          "parameters": {
+            "alpha": 0.65,
+            "delta": 0.35,
+            "epsilon": 0,
+            "jump_rate": 0,
+            "jump_sd": 1.2,
+            "q": 0.03
+          }
+        },
+        {
+          "id": "g16_smooth_draw_refined_0p4",
+          "modules": 0,
+          "parameters": {
+            "alpha": 0.65,
+            "delta": 0.4,
+            "epsilon": 0,
+            "jump_rate": 0,
+            "jump_sd": 1.2,
+            "q": 0.03
+          }
+        },
+        {
+          "id": "g17_smooth_draw_refined_0p45",
+          "modules": 0,
+          "parameters": {
+            "alpha": 0.65,
+            "delta": 0.45,
+            "epsilon": 0,
+            "jump_rate": 0,
+            "jump_sd": 1.2,
+            "q": 0.03
+          }
+        },
+        {
+          "id": "g18_robust_draw_refined_0p35",
+          "modules": 1,
+          "parameters": {
+            "alpha": 0.65,
+            "delta": 0.35,
+            "epsilon": 0.05,
+            "jump_rate": 0,
+            "jump_sd": 1.2,
+            "q": 0.03
+          }
+        },
+        {
+          "id": "g19_robust_draw_refined_0p4",
+          "modules": 1,
+          "parameters": {
+            "alpha": 0.65,
+            "delta": 0.4,
+            "epsilon": 0.05,
+            "jump_rate": 0,
+            "jump_sd": 1.2,
+            "q": 0.03
+          }
+        },
+        {
+          "id": "g20_robust_draw_refined_0p45",
+          "modules": 1,
+          "parameters": {
+            "alpha": 0.65,
+            "delta": 0.45,
+            "epsilon": 0.05,
+            "jump_rate": 0,
+            "jump_sd": 1.2,
+            "q": 0.03
+          }
+        }
+      ],
+      "decision_log_id": "R20261029-07",
+      "development": [
+        "1970-01-01",
+        "1974-12-31"
+      ],
+      "external_checks": [
+        {
+          "end": "2009-12-31",
+          "id": "reused_development_1980_2009",
+          "role": "diagnostic_already_observed_not_independent",
+          "start": "1980-01-01"
+        },
+        {
+          "end": "2019-12-31",
+          "id": "reused_validation_2010_2019",
+          "role": "previous_model_acceptance_observed_not_independent_for_revision",
+          "start": "2010-01-01"
+        },
+        {
+          "end": "2022-12-31",
+          "id": "new_time_holdout_2020_2022",
+          "role": "previously_unopened_probability_scores_for_this_revision",
+          "start": "2020-01-01"
+        }
+      ],
+      "holdout_reallocation": "2020-2022 used after fixed v2 selection;2023-2024 remains unopened. Earlier failed2010-2019 test is now explicitly reused validation, not rebranded independent.",
+      "initial_home_variance": 0.25,
+      "initial_team_variance": 1,
+      "learning": "outputs/logs/strength/learning-b2889411cc93b44f88b6",
+      "limits": [
+        "conditional_identity_eligibility",
+        "extra_time_included_no_shootout",
+        "single_dimension_strength",
+        "shared_static_home_state",
+        "no_goal_margin",
+        "hyperparameter_uncertainty_not_in_conditional_covariance"
+      ],
+      "numerics": {
+        "ep_damping": 0.5,
+        "ep_max_iter": 100,
+        "ep_tolerance": 1e-06,
+        "jump_total_cap": 2,
+        "max_children_per_parent": 256,
+        "max_components": 8,
+        "max_transition_prior_tail": 0.02,
+        "precision_checks": {
+          "larger_components": 16,
+          "larger_jump_cap": 3,
+          "probability_error_gate": 0.01,
+          "quadrature_order": 35
+        },
+        "pruned_weight_warning": 0.1,
+        "psd_check_every": 50,
+        "psd_tolerance": 1e-08,
+        "rank_tolerance": 1e-12
+      },
+      "protocol_version": "strength-global-calibrated-v2",
+      "reserve": [
+        "2023-01-01",
+        "2024-12-31"
+      ],
+      "reserve_use": "unopened_prediction_scores_reserved_for_later_work; causal_states/features_generated",
+      "revision_reason": "First locked model failed3pp home-probability bias gate. Pre1980 grid shows draw-bias changes sign between delta.3 and.5; refine bracket and apply class-mean calibration screen BEFORE tie-break. Original scores/results retained.",
+      "schema_version": "strength-global-v1",
+      "selection": {
+        "bias_screen_scope": "all three classes on1975-1979 selection data; not a claim of independent calibration",
+        "max_absolute_class_bias": 0.03,
+        "no_post1980_parameter_retuning": true,
+        "primary": "validation_log_loss",
+        "tie_margin": 0.01,
+        "tie_order": [
+          "fewer_modules",
+          "prespecified_candidate_order",
+          "earlier_start"
+        ]
+      },
+      "selection_validation": [
+        "1975-01-01",
+        "1979-12-31"
+      ],
+      "snapshots": [
+        "1979-12-31",
+        "1989-12-31",
+        "1999-12-31",
+        "2009-12-31",
+        "2019-12-31",
+        "2024-12-31"
+      ],
+      "starts": [
+        1950,
+        1960
+      ],
+      "status": "frozen_before_global_selection_and_time_holdout"
+    },
+    "rules_id": "rating-rules-1ec0ea6a18c7bbe7e1f3",
+    "selection_json": "8cba37b29352da37e8376e4a8db9e0d4b82e45c717b680f68bb5706b2cf43692",
+    "selection_manifest": "e6ac0bd9a04005521e96e45d31ce3cb2295f9d342c340d21d40b1b6170deb081"
+  },
+  "outputs": {
+    "checkpoints.json": "4549cdbd246bf15d857582de8e93609a68f4d01abba8ce2034e92b46f82894bf",
+    "coverage.csv": "ba9405520f6e5879824eb8141e5e1b7b09e43a968810268654ec62f7670fd535",
+    "data_dictionary.md": "a443efd154514e1aa926a82da48887dbe2bbb03d6afe32460fce7c37955806a5",
+    "external_metrics.csv": "ca8cc8885c0481c155aa8751e89f959d8f37f0c7d2b68dfbf13dec6f5a407033",
+    "prematch_features.csv": "efaf32101204e54f440e3eeac09bc6fd45f2de40d56f7e918d298c001da90a58",
+    "rating_report.json": "ff5e6c9bb06bd71a20acc9c0a0f52191c36d6be450a339f44ed82798962de95a",
+    "solver_diagnostics.csv": "00afb417cd07c94f668a1c1f16c01d189937b6b6afb9b0d02d2c47071edc18ff",
+    "source_snapshot.zip": "f54035093e0fe7b3d9a11432743f36cb71927bb96abe4cfcabaa49d95b0a5aad",
+    "study_prematch_features.csv": "acc556cf0aad0d64a2c97cd1b51fb3c2e2303647434bea448dd48fe41f95f104",
+    "yearly_metrics_before_reserve.csv": "a5989c207ea54b2c1e68e70ebd21fb29fba70814cfa08a8ee2616b01838edb51"
+  },
+  "stage_id": "ratings-11bb18c4f7e1637db39e"
+}

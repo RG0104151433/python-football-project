@@ -1,0 +1,44 @@
+{
+  "abrupt_decline_scenario_is_stress_diagnostic_only": true,
+  "matched_generator_check_passed": true,
+  "protocol": {
+    "caveat": "known synthetic truth under limited generators, not calibration proof for real football",
+    "day_step": 2,
+    "matched_acceptance": {
+      "conditional_90pct_gap_coverage_min": 0.8,
+      "gap_mse_less_than_zero_predictor": true
+    },
+    "matches": 900,
+    "models": [
+      "static",
+      "dynamic_shared",
+      "type_dynamic"
+    ],
+    "parameters": {
+      "alpha": 0.65,
+      "delta": 0.4,
+      "epsilon": 0.05,
+      "jump_rate": 0,
+      "jump_sd": 1.2,
+      "q": 0.03
+    },
+    "scenarios": [
+      "matched_static",
+      "matched_type_dynamic",
+      "unmodelled_abrupt_decline"
+    ],
+    "seeds": [
+      8710,
+      8711,
+      8712,
+      8713,
+      8714,
+      8715,
+      8716,
+      8717
+    ],
+    "teams": 12,
+    "warmup": 250
+  },
+  "real_data_calibration_proven": false
+}

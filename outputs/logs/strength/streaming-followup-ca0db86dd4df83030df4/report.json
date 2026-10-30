@@ -1,0 +1,6 @@
+{
+  "disposition": "reject_for_current_handoff_numerical_failure",
+  "global_prediction_admitted": false,
+  "local_numerical_pass": false,
+  "not_evidence_of_inferior_true_predictive_performance": true
+}

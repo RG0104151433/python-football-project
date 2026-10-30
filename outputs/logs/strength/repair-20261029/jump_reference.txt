@@ -1,0 +1,13 @@
+{'shared': False, 'mean': 0.0, 'outcomes': '[0, 1]', 'max_probability_error': 0.0005734310495560668, 'reference_order_gap': 4.720136441704881e-07, 'passed': True}
+{'shared': False, 'mean': 0.0, 'outcomes': '[2, 0]', 'max_probability_error': 0.0009541764686437915, 'reference_order_gap': 1.7680005631737217e-07, 'passed': True}
+{'shared': False, 'mean': 0.7, 'outcomes': '[0, 1]', 'max_probability_error': 0.0004434874441677783, 'reference_order_gap': 1.4931479985769158e-07, 'passed': True}
+{'shared': False, 'mean': 0.7, 'outcomes': '[2, 0]', 'max_probability_error': 0.0011310154601862354, 'reference_order_gap': 1.3383882124795576e-07, 'passed': True}
+{'shared': False, 'mean': 1.8, 'outcomes': '[0, 1]', 'max_probability_error': 0.0003990828095652432, 'reference_order_gap': 3.333196161442453e-08, 'passed': True}
+{'shared': False, 'mean': 1.8, 'outcomes': '[2, 0]', 'max_probability_error': 0.0011839678999759073, 'reference_order_gap': 3.1179019839566724e-07, 'passed': True}
+{'shared': True, 'mean': 0.0, 'outcomes': '[0, 1]', 'max_probability_error': 0.0009442224575718083, 'reference_order_gap': 1.8110051358544155e-07, 'passed': True}
+{'shared': True, 'mean': 0.0, 'outcomes': '[2, 0]', 'max_probability_error': 0.0008722100266960464, 'reference_order_gap': 1.4880281906659576e-07, 'passed': True}
+{'shared': True, 'mean': 0.7, 'outcomes': '[0, 1]', 'max_probability_error': 0.0006062408975292116, 'reference_order_gap': 4.66729129094956e-07, 'passed': True}
+{'shared': True, 'mean': 0.7, 'outcomes': '[2, 0]', 'max_probability_error': 0.0010123986225505088, 'reference_order_gap': 1.8489136033306153e-07, 'passed': True}
+{'shared': True, 'mean': 1.8, 'outcomes': '[0, 1]', 'max_probability_error': 0.0005698964498721537, 'reference_order_gap': 1.6296513190294792e-07, 'passed': True}
+{'shared': True, 'mean': 1.8, 'outcomes': '[2, 0]', 'max_probability_error': 0.0013705994031696367, 'reference_order_gap': 2.4852785578122205e-07, 'passed': True}
+REFERENCE outputs/logs/strength/collapsed-jump-reference-13545517c92599400545

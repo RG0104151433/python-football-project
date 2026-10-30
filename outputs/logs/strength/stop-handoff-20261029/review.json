@@ -1,0 +1,120 @@
+{
+  "clean_sha256": "69ba00073970fe011a62f5871c08ace6285d7fe75d5a0d79afdac0ef972de9dc",
+  "current_references": [
+    {
+      "last_checks": [
+        {
+          "accuracy": 0.5974025974025974,
+          "brier": 0.5174213994127159,
+          "count": 2156,
+          "fixed_step_accuracy": 0.5941558441558441,
+          "fixed_step_log_loss": 0.8854820556938161,
+          "frequency_accuracy": 0.46335807050092764,
+          "frequency_log_loss": 1.0551164378553402,
+          "home_probability_bias": 0.032771353541694914,
+          "log_loss": 0.878164683475009,
+          "max_calibration_bin_error": 0.06130114499852879,
+          "passed": false,
+          "period": "last_time_holdout_2023_2024",
+          "scope": "all_learning",
+          "tests": {
+            "accuracy_not_worse_than_frequency": true,
+            "calibration": true,
+            "fixed_step_noninferiority": true,
+            "home_probability_bias": false,
+            "log_loss_gain_over_frequency": true
+          }
+        },
+        {
+          "accuracy": 0.6149622512010982,
+          "brier": 0.5017177557891325,
+          "count": 1457,
+          "fixed_step_accuracy": 0.609471516815374,
+          "fixed_step_log_loss": 0.8607127011135446,
+          "frequency_accuracy": 0.5024021962937543,
+          "frequency_log_loss": 1.0367276397151073,
+          "home_probability_bias": 0.04232786970405053,
+          "log_loss": 0.8554180883718019,
+          "max_calibration_bin_error": 0.06210446793111046,
+          "passed": false,
+          "period": "last_time_holdout_2023_2024",
+          "scope": "accepted_study",
+          "tests": {
+            "accuracy_not_worse_than_frequency": true,
+            "calibration": true,
+            "fixed_step_noninferiority": true,
+            "home_probability_bias": false,
+            "log_loss_gain_over_frequency": true
+          }
+        }
+      ],
+      "output_files_checked": 10,
+      "output_hashes_passed": true,
+      "path": "data/processed/strength/ratings-27b4f4352e5aec283bde",
+      "prediction_gate_passed": false,
+      "status": "global_reference_prediction_gate_failed",
+      "study_rows": 24917,
+      "unique_study_ids": 24917
+    },
+    {
+      "last_checks": [
+        {
+          "accuracy": 0.6006493506493507,
+          "brier": 0.5177737481118767,
+          "count": 2156,
+          "fixed_step_accuracy": 0.5941558441558441,
+          "fixed_step_log_loss": 0.8854820556938161,
+          "frequency_accuracy": 0.46335807050092764,
+          "frequency_log_loss": 1.0551164378553402,
+          "home_probability_bias": 0.032327896484924304,
+          "log_loss": 0.87977662964617,
+          "max_calibration_bin_error": 0.060559682512894786,
+          "passed": false,
+          "period": "last_time_holdout_2023_2024",
+          "scope": "all_learning",
+          "tests": {
+            "accuracy_not_worse_than_frequency": true,
+            "calibration": true,
+            "fixed_step_noninferiority": true,
+            "home_probability_bias": false,
+            "log_loss_gain_over_frequency": true
+          }
+        },
+        {
+          "accuracy": 0.6170212765957447,
+          "brier": 0.5026711960565082,
+          "count": 1457,
+          "fixed_step_accuracy": 0.609471516815374,
+          "fixed_step_log_loss": 0.8607127011135446,
+          "frequency_accuracy": 0.5024021962937543,
+          "frequency_log_loss": 1.0367276397151073,
+          "home_probability_bias": 0.041261949511859845,
+          "log_loss": 0.8579117596509901,
+          "max_calibration_bin_error": 0.07294977573025013,
+          "passed": false,
+          "period": "last_time_holdout_2023_2024",
+          "scope": "accepted_study",
+          "tests": {
+            "accuracy_not_worse_than_frequency": true,
+            "calibration": true,
+            "fixed_step_noninferiority": true,
+            "home_probability_bias": false,
+            "log_loss_gain_over_frequency": true
+          }
+        }
+      ],
+      "output_files_checked": 10,
+      "output_hashes_passed": true,
+      "path": "data/processed/strength/ratings-48789d1ab6c8a11da620",
+      "prediction_gate_passed": false,
+      "status": "global_reference_prediction_gate_failed",
+      "study_rows": 24917,
+      "unique_study_ids": 24917
+    }
+  ],
+  "limit": "handoff inventory and file-hash checks only; not a new numerical or model acceptance test",
+  "new_experiments_started": false,
+  "raw_sha256": "5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767",
+  "same_study_ids": true,
+  "stopped_by_user": true
+}

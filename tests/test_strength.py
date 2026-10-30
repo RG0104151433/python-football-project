@@ -186,3 +186,12 @@ def test_poisson_enumerated_weights_and_prior_mean():
     assert abs(sum(c.weight for c in children) - 1) < 1e-12
     assert 0 < tail < e.numerics["max_transition_prior_tail"]
     assert all(np.array_equal(c.mean, e.components[0].mean) for c in children)
+
+
+def test_mixture_checkpoint_dictionary_does_not_follow_future_updates():
+    e=make_engine("smooth")
+    e.day("1979-01-01",[game()])
+    saved=e.state()
+    encoded=json.dumps(saved,sort_keys=True)
+    e.day("1980-01-01",[game("next",home="C",away="B")])
+    assert json.dumps(saved,sort_keys=True)==encoded

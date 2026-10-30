@@ -1,0 +1,40 @@
+{
+  "approximation": "exact scalar collapsed counts; local block Gaussian EP; Gaussian ADF after day",
+  "forecast_admission_not_yet_tested": true,
+  "gaussian_projection_error_not_zero": true,
+  "model": "jump_small",
+  "numerical_run_completed": true,
+  "numerics": {
+    "ep_damping": 0.5,
+    "ep_max_iter": 300,
+    "ep_tolerance": 1e-06,
+    "jump_total_cap": 2,
+    "max_children_per_parent": 256,
+    "max_components": 8,
+    "max_transition_prior_tail": 0.02,
+    "poisson_tail_tolerance": 1e-12,
+    "precision_checks": {
+      "larger_components": 16,
+      "larger_jump_cap": 3,
+      "probability_error_gate": 0.01,
+      "quadrature_order": 35
+    },
+    "pruned_weight_warning": 0.1,
+    "psd_check_every": 50,
+    "psd_tolerance": 1e-08,
+    "rank_tolerance": 1e-12
+  },
+  "parameters": {
+    "alpha": 0.65,
+    "delta": 0.4,
+    "epsilon": 0.05,
+    "home_q": 0.005,
+    "jump_rate": 0.03,
+    "jump_sd": 0.7,
+    "q": 0.03
+  },
+  "rows": 4075,
+  "scope": "development",
+  "strict": false,
+  "study_rows": 0
+}

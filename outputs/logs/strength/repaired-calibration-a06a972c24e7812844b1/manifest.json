@@ -1,0 +1,56 @@
+{
+  "identity": {
+    "code": {
+      "src/data_contract.py": "eb29fc528e25670e473bc8f2da4d794222b1f329442ee36a2fe393234188a390",
+      "src/strength/__init__.py": "b48ba25d80e7be21a57179718aa9bec57001088773f91cd7426f65133b1d10ca",
+      "src/strength/audit.py": "e71e0440deef56dabf669c17a5b8cab6e7e96ede2cbd27f70454a7a99675e497",
+      "src/strength/baseline.py": "1cebf825686034b00adc127d39ef0dac76b6d1daf40939d79518c24399fb7cd1",
+      "src/strength/budget.py": "ce8a61dbe89594002f3d6fc453550216f928d2199129c01e52a60c21a55c5a81",
+      "src/strength/calibration.py": "ef88d0a3a3cb24a73ae7ab4f99b3cf26ca461eeca685850e21f281e53717b9ba",
+      "src/strength/collapsed_jump.py": "f9d617f2d8c74ce2d075c84f59c9eb7e96ae61a6fb6a27346ef0e2e019f78caf",
+      "src/strength/experiment.py": "df05565aaeccb1285ef92c9901f427cf9b05544ee87a6bd608f8297b64ff92c3",
+      "src/strength/filter.py": "72caeb9a3a1bf5ead36756fc2810fb5ce6eab65600f5962013e7711ff6c73199",
+      "src/strength/gaussian.py": "1a6fb02d92653a018e853ceca60f5021c7cf194b587ffa3356f025a60d410463",
+      "src/strength/global_run.py": "fe2390f2c2d9833837f401d6db96153589640fba020c7a549afb3278e47cdc6e",
+      "src/strength/handoff.py": "9346feb5feaad73667e729a233061886ccc0a0fbf3918bc1c4e5d2efeabef73d",
+      "src/strength/io.py": "c6abbc5f11e2183648377465494b3eaa0b3d9b79345fbde5a33bf5da47fdc052",
+      "src/strength/jump_check.py": "548bd0fc6131a8b9872a000eb15b5504e25ae2ff586aa0b03e7390613ed92076",
+      "src/strength/prepare.py": "4ea48b15afb22d61663885de3b204d0f06bcb763c6f1f36835b8560ad2390f29",
+      "src/strength/reduction.py": "54522cbd77f4fdf134f24fcb47adb01636c6223ddc69262efa535ae8a779181a",
+      "src/strength/streaming.py": "203dc9bdcf04324197d4bfcda1384b948b0df9d4465f21f2f173aa6ea0469526"
+    },
+    "environment": {
+      "commit": "5c362b6dbf112538a3126f3ea4556cdbf1a73830",
+      "execution_code": "working tree; exact source hashes recorded, no commit made",
+      "numpy": "2.5.4",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "python": "3.14.8",
+      "scipy": "1.18.1"
+    },
+    "inputs": {
+      "config/strength_global_v3.json": "a524b57c774eb61cbc677ee8edc2057a0c9cc3b8738a6fbcbcf67609d5555938",
+      "outputs/logs/strength/learning-b2889411cc93b44f88b6/learning_matches.csv": "51c18e65018fc0870c3c0cb1fc8da6fcee040654462e7bbc35df2af7bc9ab3f8",
+      "outputs/logs/strength/learning-b2889411cc93b44f88b6/manifest.json": "f4eb9f37a15263af844664f8c936fb903a84610539bf0b6a88ce74fab27507c8"
+    },
+    "protocol_sha": "9a73c089eb04ccc83384402722e6c9692b183cbd411e6be1c3d4961687622793",
+    "runner_sha": "1fc5138538b48f7e39549cd2a43470daa58f2f9ffd1f5eb5f56d5648de253db0",
+    "sources": {
+      "data/processed/strength/ratings-259559997c232b8ca245": "53556909625f06cd198819861451c409808f68a0bf8e12ca455421ad991ea1af",
+      "data/processed/strength/ratings-349fdcd69f5562be555d": "a03eb66a5dcc1503ca14df899303a42fa86df6e8cfe0aa9eb576353307f9add6",
+      "data/processed/strength/ratings-4d69c3406d3ec0decffb": "a65a0174c2d96af93ac144d5188c9b51b6bca85c75247b912eaa343a4d3794d9",
+      "data/processed/strength/ratings-fe677f8de4c912933f6c": "6c9d3f5c4d2183a3c0f8dfdf427a7246500180fd9d1ab739db6ffcaa6a3f1766"
+    },
+    "strict": false
+  },
+  "outputs": {
+    "annual_choices.csv": "106a1d22d381fca784534dc9470b6ef5df019ac045fde9486241227891864b16",
+    "calibration_states.json": "5e049062386eba6f2e675c3d5058e8b75e2486e755c03111d57d5a5956557834",
+    "candidate_metrics.csv": "495857161f9dfa70041fa8a57af49360ff0f82828b726f00c11d69c04c9bc063",
+    "prematch_features.csv": "a9e45962f9989405d58a877595542270e782df1526c9b446ec2cea4c889a22fe",
+    "report.json": "821bd13727e6df1f4e42c0c138258d3f6f916518024cc64f15b442b55a37544c",
+    "runner_snapshot.py": "1fc5138538b48f7e39549cd2a43470daa58f2f9ffd1f5eb5f56d5648de253db0",
+    "source_snapshot.zip": "fbb84469fe5cd2535e670fa48f1eea8836456072a67c4915af578ce43103a1c0",
+    "study_prematch_features.csv": "81c3b686ccd78969af35ebba4a028e591bb98e13c0d86e8d33a201944f26787d"
+  },
+  "stage_id": "repaired-calibration-a06a972c24e7812844b1"
+}

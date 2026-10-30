@@ -1,0 +1,9 @@
+﻿first,second,count,max_probability_difference,passed
+"('twenty', 0, 4)","('twenty', 0, 8)",89,0.0109631228,false
+"('twenty', 0, 8)","('twenty', 0, 16)",89,0.0055416456,true
+"('twenty', 1, 4)","('twenty', 1, 8)",89,0.0211980655,false
+"('twenty', 1, 8)","('twenty', 1, 16)",89,0.0151588796,false
+"('twenty', 0, 4)","('twenty', 1, 4)",89,0.0127526842,false
+"('twenty', 0, 8)","('twenty', 1, 8)",89,0.0191332700,false
+"('twenty', 0, 16)","('twenty', 1, 16)",89,0.0111295057,false
+"('global_profile', 1, 4)","('global_profile', 1, 16)",358,0.0426071173,false

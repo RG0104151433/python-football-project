@@ -1,0 +1,17 @@
+{
+  "passed": false,
+  "checks": 272480,
+  "failed": [
+    "checkpoint_cutoff:1979-12-31",
+    "checkpoint_cutoff:1989-12-31",
+    "checkpoint_cutoff:1999-12-31",
+    "checkpoint_cutoff:2009-12-31",
+    "checkpoint_cutoff:2019-12-31",
+    "checkpoint1980_predictions_not_restorable_due_future_dates"
+  ],
+  "source": "data/processed/strength/ratings-27b4f4352e5aec283bde",
+  "rows": 38919,
+  "study_rows": 24917,
+  "model_admission": false,
+  "scope": "independent arithmetic/input/chronology/restart only, not model validity or human review"
+}

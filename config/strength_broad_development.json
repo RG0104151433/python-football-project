@@ -1,0 +1,20 @@
+{
+  "schema_version": "strength-broad-development-v1",
+  "decision_log_id": "R20261029-05",
+  "learning": "outputs/logs/strength/learning-b2889411cc93b44f88b6/learning_matches.csv",
+  "base": "config/strength_pilot.json",
+  "end": "1974-12-31",
+  "score_start": "1970-01-01",
+  "teams20": ["Argentina","Brazil","Chile","Uruguay","England","France","Italy","Spain","Japan","South Korea","Iran","Saudi Arabia","Morocco","Nigeria","Ghana","Cameroon","Mexico","United States","Australia","New Zealand"],
+  "selection_basis": "predeclared geographical spread without outcome filtering; conditional identity eligibility may reduce coverage",
+  "components20": [8,16,32],
+  "global_profile_components": 8,
+  "global_profile_days": 250,
+  "max_child_bytes": 536870912,
+  "full_child_psd_check": false,
+  "retained_psd_check_every": 25,
+  "probability_gate": 0.01,
+  "timing_budget_seconds_per_profile": 1200,
+  "timing_is_feasibility_not_predictive_merit": true,
+  "promotion": "Numerical stability, broader predictive validation and cost required; no automatic production winner"
+}

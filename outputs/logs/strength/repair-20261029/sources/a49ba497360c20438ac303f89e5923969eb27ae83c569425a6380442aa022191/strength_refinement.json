@@ -1,0 +1,19 @@
+{
+  "schema_version": "strength-refinement-v1",
+  "decision_log_id": "R20261029-05",
+  "base_protocol": "config/strength_pilot.json",
+  "learning": "outputs/logs/strength/learning-b2889411cc93b44f88b6",
+  "purpose": "development_only_numerical_repair_no_validation_retuning",
+  "analysis_end": "1974-12-31",
+  "comparison_start": "1970-01-01",
+  "models": ["both"],
+  "reducers": ["runnalls", "cluster"],
+  "components": [4, 8, 16, 32, 64],
+  "jump_total_cap": 3,
+  "maximum_children": 2048,
+  "probability_gate": 0.01,
+  "max_cluster_iterations": 30,
+  "cluster_tolerance": 0.00000001,
+  "additional_checks": ["moment_preservation", "PSD", "same_day_permutation", "checkpoint_restore", "small_integral_reference"],
+  "promotion": "requires_budget_stability_then_broader_development_and_predictive_checks; no_automatic_global_use"
+}

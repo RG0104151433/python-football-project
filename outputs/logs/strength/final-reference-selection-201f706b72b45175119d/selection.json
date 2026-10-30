@@ -1,0 +1,428 @@
+{
+  "caveat": "Numerically admitted candidate pool only; same-complexity parameter order corrected; no claim globally optimal",
+  "failures": 0,
+  "fixed_step_baseline": {
+    "H": 100,
+    "K": 40,
+    "accuracy": 0.5843293492695883,
+    "brier": 0.5423738028050875,
+    "count": 1506,
+    "draw": 0.75,
+    "log_loss": 0.9208127495603431
+  },
+  "minimum_validation_log_loss": 0.8907895129,
+  "parameters": {
+    "alpha": 0.65,
+    "delta": 0.4,
+    "epsilon": 0.05,
+    "jump_rate": 0,
+    "jump_sd": 1.2,
+    "q": 0.03
+  },
+  "protocol": {
+    "acceptance": {
+      "accuracy_noninferiority_margin": 0.01,
+      "calibration_max_bin_error": 0.1,
+      "calibration_min_bin_count": 200,
+      "fixed_step_log_loss_noninferiority_margin": 0.01,
+      "fixed_step_report_required": true,
+      "home_probability_mean_bias_max": 0.03,
+      "log_loss_gain_over_frequency_at_least": 0.005,
+      "numeric_probability_tolerance": 0.01,
+      "uncertainty_claim": "engineering_and_predictive_use_gate; not_a_confidence_or_causal_guarantee"
+    },
+    "admission": {
+      "candidate_pool": "numerically_admitted_Gaussian_special_case; compound_jump_challenger_requires_broader_numerical_and_cost_gate_before_global_selection",
+      "not_global_optimality_claim": true
+    },
+    "baselines": {
+      "fixed_step": {
+        "H": [
+          0,
+          60,
+          100
+        ],
+        "K": [
+          10,
+          20,
+          40
+        ],
+        "draw": [
+          0.5,
+          0.75,
+          1
+        ],
+        "formula": "Davidson WDL softmax(u,log(nu),-u); u=ln(10)*signed_gap/800; R+=K*(observed_score-expected_score); same_date_frozen",
+        "selection": "lowest1975_1979_log_loss_then_stable_grid_order",
+        "start": 1950
+      },
+      "frequency": "separate_neutral_non_neutral_Dirichlet1_counts"
+    },
+    "candidates": [
+      {
+        "id": "g00_smooth_base",
+        "modules": 0,
+        "parameters": {
+          "alpha": 0.65,
+          "delta": 0.3,
+          "epsilon": 0,
+          "jump_rate": 0,
+          "jump_sd": 1.2,
+          "q": 0.03
+        }
+      },
+      {
+        "id": "g01_smooth_q_low",
+        "modules": 0,
+        "parameters": {
+          "alpha": 0.65,
+          "delta": 0.3,
+          "epsilon": 0,
+          "jump_rate": 0,
+          "jump_sd": 1.2,
+          "q": 0.01
+        }
+      },
+      {
+        "id": "g02_smooth_q_high",
+        "modules": 0,
+        "parameters": {
+          "alpha": 0.65,
+          "delta": 0.3,
+          "epsilon": 0,
+          "jump_rate": 0,
+          "jump_sd": 1.2,
+          "q": 0.08
+        }
+      },
+      {
+        "id": "g03_smooth_draw_low",
+        "modules": 0,
+        "parameters": {
+          "alpha": 0.65,
+          "delta": 0.2,
+          "epsilon": 0,
+          "jump_rate": 0,
+          "jump_sd": 1.2,
+          "q": 0.03
+        }
+      },
+      {
+        "id": "g04_smooth_draw_high",
+        "modules": 0,
+        "parameters": {
+          "alpha": 0.65,
+          "delta": 0.5,
+          "epsilon": 0,
+          "jump_rate": 0,
+          "jump_sd": 1.2,
+          "q": 0.03
+        }
+      },
+      {
+        "id": "g05_smooth_friendly_low",
+        "modules": 0,
+        "parameters": {
+          "alpha": 0.4,
+          "delta": 0.3,
+          "epsilon": 0,
+          "jump_rate": 0,
+          "jump_sd": 1.2,
+          "q": 0.03
+        }
+      },
+      {
+        "id": "g06_smooth_friendly_high",
+        "modules": 0,
+        "parameters": {
+          "alpha": 0.85,
+          "delta": 0.3,
+          "epsilon": 0,
+          "jump_rate": 0,
+          "jump_sd": 1.2,
+          "q": 0.03
+        }
+      },
+      {
+        "id": "g07_robust_base",
+        "modules": 1,
+        "parameters": {
+          "alpha": 0.65,
+          "delta": 0.3,
+          "epsilon": 0.05,
+          "jump_rate": 0,
+          "jump_sd": 1.2,
+          "q": 0.03
+        }
+      },
+      {
+        "id": "g08_robust_q_low",
+        "modules": 1,
+        "parameters": {
+          "alpha": 0.65,
+          "delta": 0.3,
+          "epsilon": 0.05,
+          "jump_rate": 0,
+          "jump_sd": 1.2,
+          "q": 0.01
+        }
+      },
+      {
+        "id": "g09_robust_q_high",
+        "modules": 1,
+        "parameters": {
+          "alpha": 0.65,
+          "delta": 0.3,
+          "epsilon": 0.05,
+          "jump_rate": 0,
+          "jump_sd": 1.2,
+          "q": 0.08
+        }
+      },
+      {
+        "id": "g10_robust_draw_low",
+        "modules": 1,
+        "parameters": {
+          "alpha": 0.65,
+          "delta": 0.2,
+          "epsilon": 0.05,
+          "jump_rate": 0,
+          "jump_sd": 1.2,
+          "q": 0.03
+        }
+      },
+      {
+        "id": "g11_robust_draw_high",
+        "modules": 1,
+        "parameters": {
+          "alpha": 0.65,
+          "delta": 0.5,
+          "epsilon": 0.05,
+          "jump_rate": 0,
+          "jump_sd": 1.2,
+          "q": 0.03
+        }
+      },
+      {
+        "id": "g12_robust_friendly_low",
+        "modules": 1,
+        "parameters": {
+          "alpha": 0.4,
+          "delta": 0.3,
+          "epsilon": 0.05,
+          "jump_rate": 0,
+          "jump_sd": 1.2,
+          "q": 0.03
+        }
+      },
+      {
+        "id": "g13_robust_friendly_high",
+        "modules": 1,
+        "parameters": {
+          "alpha": 0.85,
+          "delta": 0.3,
+          "epsilon": 0.05,
+          "jump_rate": 0,
+          "jump_sd": 1.2,
+          "q": 0.03
+        }
+      },
+      {
+        "id": "g14_robust_background_high",
+        "modules": 1,
+        "parameters": {
+          "alpha": 0.65,
+          "delta": 0.3,
+          "epsilon": 0.12,
+          "jump_rate": 0,
+          "jump_sd": 1.2,
+          "q": 0.03
+        }
+      },
+      {
+        "id": "g15_smooth_draw_refined_0p35",
+        "modules": 0,
+        "parameters": {
+          "alpha": 0.65,
+          "delta": 0.35,
+          "epsilon": 0,
+          "jump_rate": 0,
+          "jump_sd": 1.2,
+          "q": 0.03
+        }
+      },
+      {
+        "id": "g16_smooth_draw_refined_0p4",
+        "modules": 0,
+        "parameters": {
+          "alpha": 0.65,
+          "delta": 0.4,
+          "epsilon": 0,
+          "jump_rate": 0,
+          "jump_sd": 1.2,
+          "q": 0.03
+        }
+      },
+      {
+        "id": "g17_smooth_draw_refined_0p45",
+        "modules": 0,
+        "parameters": {
+          "alpha": 0.65,
+          "delta": 0.45,
+          "epsilon": 0,
+          "jump_rate": 0,
+          "jump_sd": 1.2,
+          "q": 0.03
+        }
+      },
+      {
+        "id": "g18_robust_draw_refined_0p35",
+        "modules": 1,
+        "parameters": {
+          "alpha": 0.65,
+          "delta": 0.35,
+          "epsilon": 0.05,
+          "jump_rate": 0,
+          "jump_sd": 1.2,
+          "q": 0.03
+        }
+      },
+      {
+        "id": "g19_robust_draw_refined_0p4",
+        "modules": 1,
+        "parameters": {
+          "alpha": 0.65,
+          "delta": 0.4,
+          "epsilon": 0.05,
+          "jump_rate": 0,
+          "jump_sd": 1.2,
+          "q": 0.03
+        }
+      },
+      {
+        "id": "g20_robust_draw_refined_0p45",
+        "modules": 1,
+        "parameters": {
+          "alpha": 0.65,
+          "delta": 0.45,
+          "epsilon": 0.05,
+          "jump_rate": 0,
+          "jump_sd": 1.2,
+          "q": 0.03
+        }
+      }
+    ],
+    "decision_log_id": "R20261029-08",
+    "development": [
+      "1970-01-01",
+      "1974-12-31"
+    ],
+    "external_checks": [
+      {
+        "end": "2009-12-31",
+        "id": "reused_development_1980_2009",
+        "role": "reused_diagnostic_not_independent",
+        "start": "1980-01-01"
+      },
+      {
+        "end": "2022-12-31",
+        "id": "reused_validation_2010_2022",
+        "role": "reused_diagnostic_not_independent_for_v3",
+        "start": "2010-01-01"
+      },
+      {
+        "end": "2024-12-31",
+        "id": "last_time_holdout_2023_2024",
+        "role": "last_previously_unopened_in_scope_prediction_scores; fixed_before_v3_replay",
+        "start": "2023-01-01"
+      }
+    ],
+    "holdout_reallocation": "2023-2024 opened once for fixed v3 references. All earlier failed tests remain failed historical records; no old period relabeled as an independent new test.",
+    "initial_home_variance": 0.25,
+    "initial_team_variance": 1,
+    "learning": "outputs/logs/strength/learning-b2889411cc93b44f88b6",
+    "limits": [
+      "conditional_identity_eligibility",
+      "extra_time_included_no_shootout",
+      "single_dimension_strength",
+      "shared_static_home_state",
+      "no_goal_margin",
+      "hyperparameter_uncertainty_not_in_conditional_covariance"
+    ],
+    "numerics": {
+      "ep_damping": 0.5,
+      "ep_max_iter": 100,
+      "ep_tolerance": 1e-06,
+      "jump_total_cap": 2,
+      "max_children_per_parent": 256,
+      "max_components": 8,
+      "max_transition_prior_tail": 0.02,
+      "precision_checks": {
+        "larger_components": 16,
+        "larger_jump_cap": 3,
+        "probability_error_gate": 0.01,
+        "quadrature_order": 35
+      },
+      "pruned_weight_warning": 0.1,
+      "psd_check_every": 50,
+      "psd_tolerance": 1e-08,
+      "rank_tolerance": 1e-12
+    },
+    "protocol_version": "strength-global-calibrated-v3",
+    "reference_roles": [
+      "loss_and_complexity_selected_reference",
+      "epsilon_positive_functional_sensitivity_selected_only_on_pre1980"
+    ],
+    "reserve": [],
+    "reserve_use": "No unopened evaluation period remains inside1980-2024 after this run. Later model development must label reuse or use genuinely prospective matches; no2025/2026 inputs used here.",
+    "revision_reason": "Same-dimensional hyperparameter values are not different model complexity. Correct tie protocol: minimize pre1980 validation loss within each structural family, compare family minima with prespecified complexity margin, then choose exact-minimum parameters within chosen family. No acceptance threshold relaxed.",
+    "schema_version": "strength-global-v1",
+    "selection": {
+      "bias_screen_scope": "all three classes on1975-1979 selection data; not a claim of independent calibration",
+      "max_absolute_class_bias": 0.03,
+      "no_post1980_parameter_retuning": true,
+      "policy": "structural_family_then_minimum_loss",
+      "primary": "validation_log_loss",
+      "tie_margin": 0.01,
+      "tie_order": [
+        "family_minimum_loss_with_complexity_margin",
+        "exact_validation_loss_within_family",
+        "earlier_start_only_for_exact_ties"
+      ]
+    },
+    "selection_validation": [
+      "1975-01-01",
+      "1979-12-31"
+    ],
+    "snapshots": [
+      "1979-12-31",
+      "1989-12-31",
+      "1999-12-31",
+      "2009-12-31",
+      "2019-12-31",
+      "2024-12-31"
+    ],
+    "starts": [
+      1950,
+      1960
+    ],
+    "status": "frozen_before_global_selection_and_time_holdout"
+  },
+  "selection_role": "robust_functional_sensitivity",
+  "status": "locked_pre1980_selection_not_yet_external_acceptance",
+  "winner": {
+    "accuracy": "0.5982735724",
+    "away_bias": "0.0209363285",
+    "brier": "0.5244705766",
+    "candidate_order": 19,
+    "count": 1506,
+    "draw_bias": "-0.0004711791",
+    "home_bias": "-0.0204651495",
+    "log_loss": 0.8907895129,
+    "max_absolute_class_bias": 0.0209363285,
+    "model": "g19_robust_draw_refined_0p4",
+    "modules": 1,
+    "period": "selection_validation",
+    "start": 1950
+  }
+}

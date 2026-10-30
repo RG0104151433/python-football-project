@@ -1,0 +1,9 @@
+﻿model,count,accuracy,log_loss,brier,passed,failures
+temperature_offset__residual_0.02,24917,0.5852630734,0.8909487480,0.5253117590,true,0
+temperature_offset__residual_0.08,24917,0.5847413413,0.8929009246,0.5264681967,false,3
+temperature_offset__residual_0.32,24917,0.5834570775,0.8966940024,0.5287206788,false,8
+temperature_offset__residual_1.28,24917,0.5771962917,0.9040307418,0.5331306768,false,17
+dirichlet_matrix__residual_0.02,24917,0.5851426737,0.8912580894,0.5254681792,true,0
+dirichlet_matrix__residual_0.08,24917,0.5843801421,0.8932138551,0.5266323251,false,2
+dirichlet_matrix__residual_0.32,24917,0.5830958783,0.8970128912,0.5288989779,false,9
+dirichlet_matrix__residual_1.28,24917,0.5769956255,0.9043561110,0.5333314348,false,16

@@ -1,0 +1,34 @@
+{
+  "identity": {
+    "code": {
+      "src/data_contract.py": "eb29fc528e25670e473bc8f2da4d794222b1f329442ee36a2fe393234188a390",
+      "src/strength/__init__.py": "b48ba25d80e7be21a57179718aa9bec57001088773f91cd7426f65133b1d10ca",
+      "src/strength/audit.py": "e71e0440deef56dabf669c17a5b8cab6e7e96ede2cbd27f70454a7a99675e497",
+      "src/strength/baseline.py": "1cebf825686034b00adc127d39ef0dac76b6d1daf40939d79518c24399fb7cd1",
+      "src/strength/budget.py": "ce8a61dbe89594002f3d6fc453550216f928d2199129c01e52a60c21a55c5a81",
+      "src/strength/experiment.py": "df05565aaeccb1285ef92c9901f427cf9b05544ee87a6bd608f8297b64ff92c3",
+      "src/strength/filter.py": "71c4364a699c8ffd6c82f6fbb8235acc7c4e1c73da19d98a3fcebb8caee78b12",
+      "src/strength/gaussian.py": "9622226e843bf93de70be2bcfbfde31242330d3170029c3635e572e296973579",
+      "src/strength/global_run.py": "c4dfc7b421ecd4881b1fb65ad8c02be4e5dd236443afc73f1071a1eeefb0e156",
+      "src/strength/io.py": "c6abbc5f11e2183648377465494b3eaa0b3d9b79345fbde5a33bf5da47fdc052",
+      "src/strength/prepare.py": "4ea48b15afb22d61663885de3b204d0f06bcb763c6f1f36835b8560ad2390f29",
+      "src/strength/reduction.py": "54522cbd77f4fdf134f24fcb47adb01636c6223ddc69262efa535ae8a779181a"
+    },
+    "constraint": "modules>0; same calibration and tie rules",
+    "environment": {
+      "commit": "5c362b6dbf112538a3126f3ea4556cdbf1a73830",
+      "execution_code": "working tree; exact source hashes recorded, no commit made",
+      "numpy": "2.5.4",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "python": "3.14.8",
+      "scipy": "1.18.1"
+    },
+    "parent_manifest_sha": "e6ac0bd9a04005521e96e45d31ce3cb2295f9d342c340d21d40b1b6170deb081",
+    "runner_sha": "cc5066d5e7a5a0dd6d007ae86ed2b22c28e645349ca341ffa00967c593514d35"
+  },
+  "outputs": {
+    "selection.json": "efc8773ca89928c877d970025743eb51ec4e172592cda3a4ac83f6d4d236552a",
+    "source_snapshot.zip": "f54035093e0fe7b3d9a11432743f36cb71927bb96abe4cfcabaa49d95b0a5aad"
+  },
+  "stage_id": "robust-sensitivity-selection-825483aeceb9fdc931ca"
+}

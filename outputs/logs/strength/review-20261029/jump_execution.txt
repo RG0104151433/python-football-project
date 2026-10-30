@@ -1,0 +1,9 @@
+JUMP {'scope': 'twenty', 'partition_order': 0, 'budget': 4, 'completed_matches': 389, 'count': 89, 'accuracy': 0.5056179775280899, 'log_loss': 1.1042245217003275, 'brier': 0.6606204759713795}
+JUMP {'scope': 'twenty', 'partition_order': 0, 'budget': 8, 'completed_matches': 389, 'count': 89, 'accuracy': 0.5168539325842697, 'log_loss': 1.10159681968702, 'brier': 0.6590761936877158}
+JUMP {'scope': 'twenty', 'partition_order': 0, 'budget': 16, 'completed_matches': 389, 'count': 89, 'accuracy': 0.5056179775280899, 'log_loss': 1.1012555057307865, 'brier': 0.6588785697818721}
+JUMP {'scope': 'twenty', 'partition_order': 1, 'budget': 4, 'completed_matches': 389, 'count': 89, 'accuracy': 0.5056179775280899, 'log_loss': 1.1025975897907956, 'brier': 0.6597927866008875}
+JUMP {'scope': 'twenty', 'partition_order': 1, 'budget': 8, 'completed_matches': 389, 'count': 89, 'accuracy': 0.5168539325842697, 'log_loss': 1.10107109279138, 'brier': 0.659195420579174}
+JUMP {'scope': 'twenty', 'partition_order': 1, 'budget': 16, 'completed_matches': 389, 'count': 89, 'accuracy': 0.5168539325842697, 'log_loss': 1.0999403567438804, 'brier': 0.6581948161333425}
+JUMP {'scope': 'global_profile', 'partition_order': 1, 'budget': 4, 'completed_matches': 358, 'count': 358, 'accuracy': 0.5335195530726257, 'log_loss': 0.9942946416073322, 'brier': 0.5939232363543029}
+JUMP {'scope': 'global_profile', 'partition_order': 1, 'budget': 16, 'completed_matches': 358, 'count': 358, 'accuracy': 0.5363128491620112, 'log_loss': 0.9933780120596826, 'brier': 0.5931895808536326}
+JUMP_CHECK outputs/logs/strength/streaming-jump-check-95d0d51d8b19e3705870

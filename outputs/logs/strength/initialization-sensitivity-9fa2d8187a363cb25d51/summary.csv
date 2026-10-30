@@ -1,0 +1,7 @@
+﻿variant,scope,count,max_probability_difference,mean_probability_difference,max_absolute_gap_change
+later_start,all_study,24917,0.0361859536,0.0014079203,0.2260221525
+later_start,both_have_10_prior_games,24209,0.0361859536,0.0013260871,0.2260221525
+narrow_prior,all_study,24917,0.2073768828,0.0058763355,1.0617759466
+narrow_prior,both_have_10_prior_games,24209,0.1252238900,0.0048638061,0.5575006722
+wide_prior,all_study,24917,0.2006413104,0.0048224348,1.0254086207
+wide_prior,both_have_10_prior_games,24209,0.1170211235,0.0037768705,0.6352286119

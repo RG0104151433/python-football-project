@@ -1,0 +1,58 @@
+{
+  "runs": [
+    {
+      "budget": 16,
+      "order": 0,
+      "scope": "twenty",
+      "seconds": 4.00402390002273
+    },
+    {
+      "budget": 32,
+      "order": 0,
+      "scope": "twenty",
+      "seconds": 10.068621100042947
+    },
+    {
+      "budget": 64,
+      "order": 0,
+      "scope": "twenty",
+      "seconds": 19.46208620001562
+    },
+    {
+      "budget": 16,
+      "order": 1,
+      "scope": "twenty",
+      "seconds": 13.30981199996313
+    },
+    {
+      "budget": 32,
+      "order": 1,
+      "scope": "twenty",
+      "seconds": 25.21695729997009
+    },
+    {
+      "budget": 64,
+      "order": 1,
+      "scope": "twenty",
+      "seconds": 55.06985249998979
+    },
+    {
+      "budget": 16,
+      "order": 1,
+      "scope": "global_profile",
+      "seconds": 50.39423869998427
+    },
+    {
+      "budget": 32,
+      "order": 1,
+      "scope": "global_profile",
+      "seconds": 92.60218769998755
+    },
+    {
+      "budget": 64,
+      "order": 1,
+      "scope": "global_profile",
+      "seconds": 191.67888140003197
+    }
+  ]
+}

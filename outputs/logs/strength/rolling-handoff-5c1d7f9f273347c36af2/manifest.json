@@ -1,0 +1,52 @@
+{
+  "identity": {
+    "candidate_manifests": {
+      "robust_dynamic_shared": "edf1297c9e8f666ace458014e6bf625f3fb998d8ff3358caba2a6e7d55006dea",
+      "robust_dynamic_shared_fast": "652124fed5ad9f6dabe1cf5ccab98f63aa2bcd9f8d40d32363cf32f4124b6784",
+      "robust_static": "0d3024e605a06dec554cc5d5c0f28ce39d5afed86460850f5ed7529291e0dddf",
+      "robust_type_dynamic": "ab15c423162a35131cd2ccfb3f5b60a680a124accaa4badf2e6767c011b612c3",
+      "robust_type_dynamic_fast": "d0de38af19a96f099e1eaa9f633d0d2d3c48eb7ad36cc6e6a7e8cc999fa23388",
+      "robust_type_static": "c4960a133ecc84adfc027d1e1ff1a78abb200e95d1885dfbef5861a67b54e90e",
+      "smooth_static": "c4c5f7073ac453bd363169065c814894fd1bdeb877ccab463261789d6e496c3f"
+    },
+    "code": {
+      "src/data_contract.py": "eb29fc528e25670e473bc8f2da4d794222b1f329442ee36a2fe393234188a390",
+      "src/strength/__init__.py": "b48ba25d80e7be21a57179718aa9bec57001088773f91cd7426f65133b1d10ca",
+      "src/strength/audit.py": "e71e0440deef56dabf669c17a5b8cab6e7e96ede2cbd27f70454a7a99675e497",
+      "src/strength/baseline.py": "1cebf825686034b00adc127d39ef0dac76b6d1daf40939d79518c24399fb7cd1",
+      "src/strength/budget.py": "ce8a61dbe89594002f3d6fc453550216f928d2199129c01e52a60c21a55c5a81",
+      "src/strength/experiment.py": "df05565aaeccb1285ef92c9901f427cf9b05544ee87a6bd608f8297b64ff92c3",
+      "src/strength/filter.py": "72caeb9a3a1bf5ead36756fc2810fb5ce6eab65600f5962013e7711ff6c73199",
+      "src/strength/gaussian.py": "1a6fb02d92653a018e853ceca60f5021c7cf194b587ffa3356f025a60d410463",
+      "src/strength/global_run.py": "fe2390f2c2d9833837f401d6db96153589640fba020c7a549afb3278e47cdc6e",
+      "src/strength/handoff.py": "9346feb5feaad73667e729a233061886ccc0a0fbf3918bc1c4e5d2efeabef73d",
+      "src/strength/io.py": "c6abbc5f11e2183648377465494b3eaa0b3d9b79345fbde5a33bf5da47fdc052",
+      "src/strength/jump_check.py": "548bd0fc6131a8b9872a000eb15b5504e25ae2ff586aa0b03e7390613ed92076",
+      "src/strength/prepare.py": "4ea48b15afb22d61663885de3b204d0f06bcb763c6f1f36835b8560ad2390f29",
+      "src/strength/reduction.py": "54522cbd77f4fdf134f24fcb47adb01636c6223ddc69262efa535ae8a779181a",
+      "src/strength/streaming.py": "203dc9bdcf04324197d4bfcda1384b948b0df9d4465f21f2f173aa6ea0469526"
+    },
+    "environment": {
+      "commit": "5c362b6dbf112538a3126f3ea4556cdbf1a73830",
+      "execution_code": "working tree; exact source hashes recorded, no commit made",
+      "numpy": "2.5.4",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "python": "3.14.8",
+      "scipy": "1.18.1"
+    },
+    "protocol_sha": "5d2369641d1ddb836510db0090c78b06be0311db3220f9d35e3001763deab96e",
+    "strict": true
+  },
+  "outputs": {
+    "annual_choices.csv": "a475f0d361a9e9983774cc42d4825d3c33d0eeb09d6314710d3cb4ad44da6313",
+    "candidate_metrics.csv": "6335c841b0c21a558154333adce63143de66f5c761cd0b016edb67289a442b6f",
+    "data_dictionary.md": "275c517cbff4724c1ab69f8f58e404da49079acfe7125b57423eb70e4546c268",
+    "prematch_features.csv": "9d1e5136edeea3cbdfea3720943c9bac713005a19b2850f16cd8232edf4dd6bc",
+    "report.json": "407bb0fe915ea9a0471861a362ebc644ebe24d8ec83fb881d8dd0ce7442abe64",
+    "source_snapshot.zip": "e23fb26735f2ac971b863317b017713e14286827fc1c12509b79a360185cb6e5",
+    "study_prematch_features.csv": "b3fa5526f5290e38a5f96dcadb22658d1350d138e4987f9f98554a49b11506e7",
+    "type_metrics.csv": "df3d40190a58dd13c037285d413416d7e7fc4bd276f39a16d615e26e35f64f73",
+    "yearly_metrics.csv": "dc7dd37605bd16c217a94595f3db0077b75bf5e449de255fa5d170ac11ea5a0c"
+  },
+  "stage_id": "rolling-handoff-5c1d7f9f273347c36af2"
+}

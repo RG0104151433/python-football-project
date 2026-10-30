@@ -1,0 +1,76 @@
+{
+  "identity": {
+    "code": {
+      "src/data_contract.py": "eb29fc528e25670e473bc8f2da4d794222b1f329442ee36a2fe393234188a390",
+      "src/strength/__init__.py": "b48ba25d80e7be21a57179718aa9bec57001088773f91cd7426f65133b1d10ca",
+      "src/strength/audit.py": "e71e0440deef56dabf669c17a5b8cab6e7e96ede2cbd27f70454a7a99675e497",
+      "src/strength/baseline.py": "1cebf825686034b00adc127d39ef0dac76b6d1daf40939d79518c24399fb7cd1",
+      "src/strength/budget.py": "ce8a61dbe89594002f3d6fc453550216f928d2199129c01e52a60c21a55c5a81",
+      "src/strength/experiment.py": "df05565aaeccb1285ef92c9901f427cf9b05544ee87a6bd608f8297b64ff92c3",
+      "src/strength/filter.py": "72caeb9a3a1bf5ead36756fc2810fb5ce6eab65600f5962013e7711ff6c73199",
+      "src/strength/gaussian.py": "7db727e73805e7bad12f088afd327b472b21e1e5398c36f9fd1f0de9d5cca3fb",
+      "src/strength/global_run.py": "7602538cf358742e4d3cd7656921b97d5ae27b27e0270a3c440695abc1dbb5a5",
+      "src/strength/handoff.py": "4b73ffd31737f34b0b52eada4729472286cae34077dfdf1a3177b748481da189",
+      "src/strength/io.py": "c6abbc5f11e2183648377465494b3eaa0b3d9b79345fbde5a33bf5da47fdc052",
+      "src/strength/jump_check.py": "548bd0fc6131a8b9872a000eb15b5504e25ae2ff586aa0b03e7390613ed92076",
+      "src/strength/prepare.py": "4ea48b15afb22d61663885de3b204d0f06bcb763c6f1f36835b8560ad2390f29",
+      "src/strength/reduction.py": "54522cbd77f4fdf134f24fcb47adb01636c6223ddc69262efa535ae8a779181a",
+      "src/strength/streaming.py": "203dc9bdcf04324197d4bfcda1384b948b0df9d4465f21f2f173aa6ea0469526"
+    },
+    "environment": {
+      "commit": "5c362b6dbf112538a3126f3ea4556cdbf1a73830",
+      "execution_code": "working tree; exact source hashes recorded, no commit made",
+      "numpy": "2.5.4",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "python": "3.14.8",
+      "scipy": "1.18.1"
+    },
+    "protocol": {
+      "caveat": "known synthetic truth under limited generators, not calibration proof for real football",
+      "day_step": 2,
+      "matched_acceptance": {
+        "conditional_90pct_gap_coverage_min": 0.8,
+        "gap_mse_less_than_zero_predictor": true
+      },
+      "matches": 900,
+      "models": [
+        "static",
+        "dynamic_shared",
+        "type_dynamic"
+      ],
+      "parameters": {
+        "alpha": 0.65,
+        "delta": 0.4,
+        "epsilon": 0.05,
+        "jump_rate": 0,
+        "jump_sd": 1.2,
+        "q": 0.03
+      },
+      "scenarios": [
+        "matched_static",
+        "matched_type_dynamic",
+        "unmodelled_abrupt_decline"
+      ],
+      "seeds": [
+        8710,
+        8711,
+        8712,
+        8713,
+        8714,
+        8715,
+        8716,
+        8717
+      ],
+      "teams": 12,
+      "warmup": 250
+    },
+    "runner_sha": "1b0654ca15675c989c141f5a77e859ab2c93e3a62ae0eb2cc067bc971575ee0f"
+  },
+  "outputs": {
+    "replicates.csv": "2d1453198ca4c45165a1ae18bc1d17f8b57fc85e228762383cf42225cbfc0c92",
+    "report.json": "0421e9ac459a55429a02500eab142341d84e5b34f8427d1dc5750a46c046382e",
+    "source_snapshot.zip": "e898040d8451b13909a32348662a4a0dfb2cede7a2fbeba40cc14341b1cf083b",
+    "summary.csv": "d4857d629812e09e008c5ac59f9a10162f49d598ee449006c25d632e2df7c3d1"
+  },
+  "stage_id": "context-simulation-6f1c27922f0f78350fcc"
+}

@@ -1,0 +1,47 @@
+{
+  "comparison_scope": "six-team development<=1974 only",
+  "cross_method_highest_budget_difference": 0.006308532025649294,
+  "cross_method_within_gate": true,
+  "last_two_budget_increments_pass": {
+    "cluster": true,
+    "runnalls": true
+  },
+  "no_validation_or_post1980_used": true,
+  "production_ready": false,
+  "protocol": {
+    "additional_checks": [
+      "moment_preservation",
+      "PSD",
+      "same_day_permutation",
+      "checkpoint_restore",
+      "small_integral_reference"
+    ],
+    "analysis_end": "1974-12-31",
+    "base_protocol": "config/strength_pilot.json",
+    "cluster_tolerance": 1e-08,
+    "comparison_start": "1970-01-01",
+    "components": [
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "decision_log_id": "R20261029-05",
+    "jump_total_cap": 3,
+    "learning": "outputs/logs/strength/learning-b2889411cc93b44f88b6",
+    "max_cluster_iterations": 30,
+    "maximum_children": 2048,
+    "models": [
+      "both"
+    ],
+    "probability_gate": 0.01,
+    "promotion": "requires_budget_stability_then_broader_development_and_predictive_checks; no_automatic_global_use",
+    "purpose": "development_only_numerical_repair_no_validation_retuning",
+    "reducers": [
+      "runnalls",
+      "cluster"
+    ],
+    "schema_version": "strength-refinement-v1"
+  }
+}

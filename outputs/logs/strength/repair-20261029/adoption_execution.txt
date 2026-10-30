@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\EasonG\Desktop\Repository\python-football-project\scripts\finalize_strength_repair.py", line 107, in <module>
+    if __name__=='__main__':run()
+                            ~~~^^
+  File "C:\Users\EasonG\Desktop\Repository\python-football-project\scripts\finalize_strength_repair.py", line 43, in run
+    if not all(checks.values()):raise RuntimeError('Stage2 gate failure: '+str(checks))
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Stage2 gate failure: {'raw_audit': True, 'final_audit': True, 'raw_replay': True, 'final_replay': True, 'local_reference': True, 'unseen_simulation': True, 'simulation_selected_core': True, 'tests': False, 'normal_forecast': True, 'strict_forecast': True, 'initial_repaired-initialization-d1f3771999bd8731b716': True, 'initial_repaired-initialization-1dc37caeddc61830a0af': True, 'initial_repaired-initialization-146d3bc167c27a4a3466': True}

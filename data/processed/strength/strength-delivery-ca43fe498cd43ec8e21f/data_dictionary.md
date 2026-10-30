@@ -1,0 +1,3 @@
+# 第二环节最终接口
+
+一场一行，score不含当前赛果。p_*为先形状后动态残差的最终三概率；raw_p_*为评分器原概率。rating_run_id绑定最终管线，raw_rating_run_id绑定底层评分器。difference_variance为含当前Poisson位移的总方差；difference_base_variance、双方jump_intensity及jump_scale_sd共同描述赛前差值分布，不能将总方差一个数当完整正态分布。校准没有修改潜在实力。home/away均值和协方差含底层当前跳变的边际未知。calibration_cutoff为动态残差之前日期，shape_information_cutoff为年度形状拟合截止。1950—1959校准为恒等热身，1960起先预测后更新。没有联合年代/赛事/地域效果或因果结果。

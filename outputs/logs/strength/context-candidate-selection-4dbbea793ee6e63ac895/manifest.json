@@ -1,0 +1,162 @@
+{
+  "identity": {
+    "baseline_source_sha": "8ac91cfece1e9064a3cd6f551d2e148e00f34f3f2a70c5898fc4327d21cb37e6",
+    "candidate": {
+      "id": "smooth_static",
+      "modules": 0,
+      "parameters": {
+        "alpha": 0.65,
+        "delta": 0.4,
+        "epsilon": 0,
+        "jump_rate": 0,
+        "jump_sd": 1.2,
+        "q": 0.03
+      }
+    },
+    "candidate_config_sha": "598a0636667ac42184395c185a5a2a0637c76c6d5bf8a179b02b24a32f249b6d",
+    "code": {
+      "src/data_contract.py": "eb29fc528e25670e473bc8f2da4d794222b1f329442ee36a2fe393234188a390",
+      "src/strength/__init__.py": "b48ba25d80e7be21a57179718aa9bec57001088773f91cd7426f65133b1d10ca",
+      "src/strength/audit.py": "e71e0440deef56dabf669c17a5b8cab6e7e96ede2cbd27f70454a7a99675e497",
+      "src/strength/baseline.py": "1cebf825686034b00adc127d39ef0dac76b6d1daf40939d79518c24399fb7cd1",
+      "src/strength/budget.py": "ce8a61dbe89594002f3d6fc453550216f928d2199129c01e52a60c21a55c5a81",
+      "src/strength/experiment.py": "df05565aaeccb1285ef92c9901f427cf9b05544ee87a6bd608f8297b64ff92c3",
+      "src/strength/filter.py": "72caeb9a3a1bf5ead36756fc2810fb5ce6eab65600f5962013e7711ff6c73199",
+      "src/strength/gaussian.py": "1a6fb02d92653a018e853ceca60f5021c7cf194b587ffa3356f025a60d410463",
+      "src/strength/global_run.py": "fe2390f2c2d9833837f401d6db96153589640fba020c7a549afb3278e47cdc6e",
+      "src/strength/handoff.py": "9346feb5feaad73667e729a233061886ccc0a0fbf3918bc1c4e5d2efeabef73d",
+      "src/strength/io.py": "c6abbc5f11e2183648377465494b3eaa0b3d9b79345fbde5a33bf5da47fdc052",
+      "src/strength/jump_check.py": "548bd0fc6131a8b9872a000eb15b5504e25ae2ff586aa0b03e7390613ed92076",
+      "src/strength/prepare.py": "4ea48b15afb22d61663885de3b204d0f06bcb763c6f1f36835b8560ad2390f29",
+      "src/strength/reduction.py": "54522cbd77f4fdf134f24fcb47adb01636c6223ddc69262efa535ae8a779181a",
+      "src/strength/streaming.py": "203dc9bdcf04324197d4bfcda1384b948b0df9d4465f21f2f173aa6ea0469526"
+    },
+    "environment": {
+      "commit": "5c362b6dbf112538a3126f3ea4556cdbf1a73830",
+      "execution_code": "working tree; exact source hashes recorded, no commit made",
+      "numpy": "2.5.4",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "python": "3.14.8",
+      "scipy": "1.18.1"
+    },
+    "protocol": {
+      "base_protocol": "config/strength_global_v3.json",
+      "candidates": [
+        {
+          "epsilon": 0,
+          "id": "smooth_static",
+          "modules": 0
+        },
+        {
+          "id": "robust_static",
+          "modules": 1
+        },
+        {
+          "home_q": 0.005,
+          "id": "robust_dynamic_shared",
+          "modules": 2
+        },
+        {
+          "home_q": 0.02,
+          "id": "robust_dynamic_shared_fast",
+          "modules": 2
+        },
+        {
+          "home_by_type": true,
+          "id": "robust_type_static",
+          "modules": 2
+        },
+        {
+          "home_by_type": true,
+          "home_q": 0.005,
+          "id": "robust_type_dynamic",
+          "modules": 3
+        },
+        {
+          "home_by_type": true,
+          "home_q": 0.02,
+          "id": "robust_type_dynamic_fast",
+          "modules": 3
+        }
+      ],
+      "check_blocks": [
+        [
+          1980,
+          1999
+        ],
+        [
+          2000,
+          2009
+        ],
+        [
+          2010,
+          2019
+        ],
+        [
+          2020,
+          2024
+        ]
+      ],
+      "complex_jump": {
+        "component_budgets": [
+          4,
+          8,
+          16
+        ],
+        "covariance_buffer_bytes": 536870912,
+        "global_profile_days": 250,
+        "no_automatic_admission_on_cost_pass": true,
+        "per_profile_seconds": 300,
+        "probability_difference_gate": 0.01,
+        "transition_partitions": [
+          0,
+          1
+        ]
+      },
+      "decision_log_id": "R20261029-10",
+      "experimental_input_acceptance": {
+        "failed_calibration_must_remain_explicit": true,
+        "fixed_step_log_loss_noninferiority_margin": 0.01,
+        "log_loss_gain_over_frequency_at_least": 0.005,
+        "max_tightening_probability_difference": 0.01,
+        "same_study_ids": 24917,
+        "scope": "design_and_exploratory_input_only_not_confirmatory_or_causal",
+        "source_time_covariance_restart_audit_required": true,
+        "uncertainty": "conditional filter covariance does not cover model/selection/identity error"
+      },
+      "forecast_acceptance": "all original v3 engineering gates, per pooled predeclared blocks; reused historical checks only, no prospective certification",
+      "learning": "outputs/logs/strength/learning-b2889411cc93b44f88b6",
+      "parameters": {
+        "alpha": 0.65,
+        "delta": 0.4,
+        "epsilon": 0.05,
+        "jump_rate": 0,
+        "jump_sd": 1.2,
+        "q": 0.03
+      },
+      "prohibitions": [
+        "do_not_relax_original_forecast_gates",
+        "do_not_call_reused_years_unseen",
+        "no_modification_of_24917_or_117",
+        "no_confirmatory_joint_inference_from_experimental_admission"
+      ],
+      "rolling": {
+        "complexity_loss_margin": 0.002,
+        "first_year": 1980,
+        "last_year": 2024,
+        "lookback_years": 10,
+        "no_current_year_outcomes_for_selection": true,
+        "role": "past_only_rule_evaluation_on_reused_history_not_new_independent_test",
+        "selection_scope": "all_eligible_learning_matches_in_previous_ten_calendar_years"
+      },
+      "schema_version": "strength-handoff-v1",
+      "start": 1950
+    },
+    "strict": true
+  },
+  "outputs": {
+    "selection.json": "9544e4776de485e072ca8222f84da61853cbcf2b5ffbc1af55be0346529ae307",
+    "source_snapshot.zip": "e23fb26735f2ac971b863317b017713e14286827fc1c12509b79a360185cb6e5"
+  },
+  "stage_id": "context-candidate-selection-4dbbea793ee6e63ac895"
+}

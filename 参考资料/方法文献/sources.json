@@ -657,6 +657,68 @@
       "local_path": null,
       "decision_log_id": "R20261029-03",
       "implemented_in_project": false
+    },
+    {
+      "id": "Q5-P13",
+      "title": "A Kullback-Leibler Approach to Gaussian Mixture Reduction",
+      "authors": "Andrew R. Runnalls",
+      "version": "University-hosted author manuscript; copyright2006, journal2007",
+      "requested_url": "https://kar.kent.ac.uk/2782/1/A_Kullback-Leibler.pdf",
+      "readable_url": "https://www.cs.kent.ac.uk/pubs/2007/2797/content.pdf",
+      "doi": "10.1109/TAES.2007.4383588",
+      "accessed_date": "2026-10-29",
+      "local_path": "参考资料/方法文献/原文/Runnalls_2007_gaussian_mixture_reduction.pdf",
+      "bytes": 285868,
+      "sha256": "b16510f5eee28d1a6fe1053c7cacf89b7bc13828fb368aa265fbe77ed36ad959",
+      "status": "verified_pdf_saved_related_sections_read",
+      "reading_scope": "II moment-preserving merge, VI pair criterion, VII computational/optimality and accumulated-error limits; not all proofs/experiment reproduction",
+      "project_limits": "Current Gaussian-mixture reduction only; no real-football filtering or change-detection guarantee; cluster descriptors are a separate project heuristic.",
+      "redistribution_status": "Author manuscript contains IEEE repost notice; kept local under existing ignore policy, not uploaded.",
+      "decision_log_id": "R20261029-05"
+    },
+    {
+      "id": "Q5-P14",
+      "title": "On Extending the Bradley-Terry Model to Accommodate Ties in Paired Comparison Experiments",
+      "authors": "Roger R. Davidson",
+      "publication_year": 1970,
+      "requested_url": "https://www.tandfonline.com/doi/abs/10.1080/01621459.1970.10481082",
+      "doi": "10.1080/01621459.1970.10481082",
+      "accessed_date": "2026-10-29",
+      "status": "publisher_metadata_abstract_only",
+      "local_path": null,
+      "reading_scope": "Publisher indexed metadata/abstract on tie extension; no full paper reproduction claim.",
+      "project_limits": "The fixed-step predictor and its parameter grid are explicitly project-defined, not FIFA rules or a reproduction of all Davidson estimation results.",
+      "decision_log_id": "R20261029-06"
+    },
+    {
+      "id": "Q5-P15",
+      "title": "Expectation Propagation for Approximate Bayesian Inference",
+      "authors": "Thomas P. Minka",
+      "version": "Author-hosted UAI2001 paper; author page notes corrected version",
+      "requested_url": "https://tminka.github.io/papers/ep/minka-ep-uai.pdf",
+      "retrieved_at_utc": "2026-10-29T15:00:43.100172+00:00",
+      "local_path": "原文/Minka_2001_EP_UAI.pdf",
+      "status": "downloaded",
+      "bytes": 408106,
+      "sha256": "c61baeab3ff1379ab3db5882bd4451e0a40f8b727c32b133c4f623c4177ffc4a",
+      "reading_scope": "ADF/EP algorithm and convergence limitations; own collapsed Poisson/local block construction not supplied by paper",
+      "redistribution_status": "user authorizes original copies; no public push performed",
+      "git_policy": "existing original-PDF ignore policy remains; local file is not evidence of uploaded Git content"
+    },
+    {
+      "id": "Q5-P16",
+      "title": "Beyond temperature scaling: Obtaining well-calibrated multiclass probabilities with Dirichlet calibration",
+      "authors": "Meelis Kull et al.",
+      "version": "NeurIPS2019 official proceedings",
+      "requested_url": "https://papers.nips.cc/paper/2019/file/8ca01ea920679a0fe3728441494041b9-Paper.pdf",
+      "retrieved_at_utc": "2026-10-29T15:00:43.100197+00:00",
+      "local_path": "原文/Kull_2019_Dirichlet_calibration.pdf",
+      "status": "downloaded",
+      "bytes": 375419,
+      "sha256": "9af5e506f4c7baf03a24a3951a93bfee1af3f1b77b49d51adeef7842b3826921",
+      "reading_scope": "log-probability affine+softmax and regularization; project6-parameter relative-logit restriction, dynamic GH and switching experts are adaptations,not paper guarantees",
+      "redistribution_status": "user authorizes original copies; no public push performed",
+      "git_policy": "existing original-PDF ignore policy remains; local file is not evidence of uploaded Git content"
     }
   ],
   "reading_events": [
@@ -1275,6 +1337,41 @@
       ],
       "local_download_this_event": [],
       "limits": "Planning and read-only local scope inspection only; no rating production, historical eligibility adjudication or new football experiment."
+    },
+    {
+      "date": "2026-10-29",
+      "decision_log_id": "R20261029-16",
+      "reader": "Codex (AI)",
+      "topic": "complete stage2 gates; corrected calibration and collapsed jump EP",
+      "sources": [
+        {
+          "record_id": "Q5-P15",
+          "url": "https://tminka.github.io/papers/ep/minka-ep-uai.pdf",
+          "scope": "ADF/EP algorithm and convergence limitations; own collapsed Poisson/local block construction not supplied by paper"
+        },
+        {
+          "record_id": "Q5-P16",
+          "url": "https://papers.nips.cc/paper/2019/file/8ca01ea920679a0fe3728441494041b9-Paper.pdf",
+          "scope": "log-probability affine+softmax and regularization; project6-parameter relative-logit restriction, dynamic GH and switching experts are adaptations,not paper guarantees"
+        }
+      ],
+      "local_download_this_event": [
+        {
+          "url": "https://papers.nips.cc/paper/2019/file/8ca01ea920679a0fe3728441494041b9-Paper.pdf",
+          "path": "参考资料/方法文献/原文/Kull_2019_Dirichlet_calibration.pdf",
+          "status": "downloaded",
+          "bytes": 375419,
+          "sha256": "9af5e506f4c7baf03a24a3951a93bfee1af3f1b77b49d51adeef7842b3826921"
+        },
+        {
+          "url": "https://tminka.github.io/papers/ep/minka-ep-uai.pdf",
+          "path": "参考资料/方法文献/原文/Minka_2001_EP_UAI.pdf",
+          "status": "downloaded",
+          "bytes": 408106,
+          "sha256": "c61baeab3ff1379ab3db5882bd4451e0a40f8b727c32b133c4f623c4177ffc4a"
+        }
+      ],
+      "limits": "Read algorithm/mapping/regularization/convergence sections; not all supplementary proofs reproduced; no independent historical holdout available"
     }
   ],
   "maintenance_events": [

@@ -1,0 +1,220 @@
+{
+  "validation_candidates": [
+    {
+      "model": "g00_smooth_base",
+      "count": 1506,
+      "home_bias": -0.0008606879068393087,
+      "draw_bias": -0.04094028074123506,
+      "away_bias": 0.04180096864701195
+    },
+    {
+      "model": "g01_smooth_q_low",
+      "count": 1506,
+      "home_bias": -0.00227614480756972,
+      "draw_bias": -0.034166346146015936,
+      "away_bias": 0.03644249095411687
+    },
+    {
+      "model": "g02_smooth_q_high",
+      "count": 1506,
+      "home_bias": 0.0019617276588977414,
+      "draw_bias": -0.05039192267111554,
+      "away_bias": 0.04843019501075697
+    },
+    {
+      "model": "g03_smooth_draw_low",
+      "count": 1506,
+      "home_bias": 0.02017387901374502,
+      "draw_bias": -0.0854740246312085,
+      "away_bias": 0.06530014561494024
+    },
+    {
+      "model": "g04_smooth_draw_high",
+      "count": 1506,
+      "home_bias": -0.03926007239435591,
+      "draw_bias": 0.03975070856952191,
+      "away_bias": -0.0004906361725099606
+    },
+    {
+      "model": "g05_smooth_friendly_low",
+      "count": 1506,
+      "home_bias": -0.015033385215405046,
+      "draw_bias": -0.02787055458612218,
+      "away_bias": 0.04290393980086321
+    },
+    {
+      "model": "g06_smooth_friendly_high",
+      "count": 1506,
+      "home_bias": 0.005418174474833999,
+      "draw_bias": -0.04858942281181939,
+      "away_bias": 0.043171248338047814
+    },
+    {
+      "model": "g07_robust_base",
+      "count": 1506,
+      "home_bias": -0.0023851049138778222,
+      "draw_bias": -0.038429349350664006,
+      "away_bias": 0.040814454264276226
+    },
+    {
+      "model": "g08_robust_q_low",
+      "count": 1506,
+      "home_bias": -0.004026645552124834,
+      "draw_bias": -0.03152613065922975,
+      "away_bias": 0.03555277621381142
+    },
+    {
+      "model": "g09_robust_q_high",
+      "count": 1506,
+      "home_bias": 0.0008490578635458177,
+      "draw_bias": -0.04846127119123506,
+      "away_bias": 0.04761221332868525
+    },
+    {
+      "model": "g10_robust_draw_low",
+      "count": 1506,
+      "home_bias": 0.0176994643749004,
+      "draw_bias": -0.07937706596540504,
+      "away_bias": 0.06167760159150066
+    },
+    {
+      "model": "g11_robust_draw_high",
+      "count": 1506,
+      "home_bias": -0.03670544359316069,
+      "draw_bias": 0.034095109614010626,
+      "away_bias": 0.0026103339787516603
+    },
+    {
+      "model": "g12_robust_friendly_low",
+      "count": 1506,
+      "home_bias": -0.016129321366002657,
+      "draw_bias": -0.02581027510438247,
+      "away_bias": 0.04193959647197875
+    },
+    {
+      "model": "g13_robust_friendly_high",
+      "count": 1506,
+      "home_bias": 0.0036275978517264287,
+      "draw_bias": -0.045664673046547144,
+      "away_bias": 0.04203707519681275
+    },
+    {
+      "model": "g14_robust_background_high",
+      "count": 1506,
+      "home_bias": -0.00619285105305445,
+      "draw_bias": -0.03340437237961487,
+      "away_bias": 0.039597223431540506
+    }
+  ],
+  "early_external": [
+    {
+      "era": "1980s",
+      "tournament": "friendly",
+      "neutral": "false",
+      "count": 1656,
+      "home_bias": 0.015078288430374396,
+      "draw_bias": -0.05908285115410628,
+      "away_bias": 0.044004562725
+    },
+    {
+      "era": "1980s",
+      "tournament": "friendly",
+      "neutral": "true",
+      "count": 131,
+      "home_bias": 0.07839707942824428,
+      "draw_bias": -0.05519533143740458,
+      "away_bias": -0.023201747993893126
+    },
+    {
+      "era": "1980s",
+      "tournament": "non_friendly",
+      "neutral": "false",
+      "count": 1848,
+      "home_bias": 0.03913685032808442,
+      "draw_bias": -0.09833753481325758,
+      "away_bias": 0.059200684486255414
+    },
+    {
+      "era": "1980s",
+      "tournament": "non_friendly",
+      "neutral": "true",
+      "count": 862,
+      "home_bias": 0.036186742056032485,
+      "draw_bias": -0.10550442916264502,
+      "away_bias": 0.06931768710556845
+    },
+    {
+      "era": "1990s",
+      "tournament": "friendly",
+      "neutral": "false",
+      "count": 2013,
+      "home_bias": 0.013003264357824144,
+      "draw_bias": -0.06299341312767015,
+      "away_bias": 0.04999014877133632
+    },
+    {
+      "era": "1990s",
+      "tournament": "friendly",
+      "neutral": "true",
+      "count": 220,
+      "home_bias": -0.032879272177272725,
+      "draw_bias": -0.06305022261772728,
+      "away_bias": 0.09592949478909091
+    },
+    {
+      "era": "1990s",
+      "tournament": "non_friendly",
+      "neutral": "false",
+      "count": 2801,
+      "home_bias": 0.0423584018977865,
+      "draw_bias": -0.07873478908639772,
+      "away_bias": 0.03637638718779008
+    },
+    {
+      "era": "1990s",
+      "tournament": "non_friendly",
+      "neutral": "true",
+      "count": 1327,
+      "home_bias": -0.025125705591484547,
+      "draw_bias": -0.057378477053127354,
+      "away_bias": 0.08250418264287868
+    },
+    {
+      "era": "2000s",
+      "tournament": "friendly",
+      "neutral": "false",
+      "count": 2670,
+      "home_bias": 0.01186327172928839,
+      "draw_bias": -0.05815958855284645,
+      "away_bias": 0.046296316824269663
+    },
+    {
+      "era": "2000s",
+      "tournament": "friendly",
+      "neutral": "true",
+      "count": 500,
+      "home_bias": 0.0167228575984,
+      "draw_bias": -0.046656513425200004,
+      "away_bias": 0.029933655828399998
+    },
+    {
+      "era": "2000s",
+      "tournament": "non_friendly",
+      "neutral": "false",
+      "count": 4202,
+      "home_bias": 0.045830736894693004,
+      "draw_bias": -0.06906079205744883,
+      "away_bias": 0.023230055162041886
+    },
+    {
+      "era": "2000s",
+      "tournament": "non_friendly",
+      "neutral": "true",
+      "count": 1568,
+      "home_bias": 0.02269966533080357,
+      "draw_bias": -0.0412282409401148,
+      "away_bias": 0.018528575609311225
+    }
+  ],
+  "diagnostic_scope": "pre1980 selection plus1980-2009;2010-2019 acceptance already observed;2020-2024 untouched"
+}

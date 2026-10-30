@@ -1,0 +1,7 @@
+JUMP_PROGRESS jump_full development False 0 1950-02-17 1 0.01
+JUMP_PROGRESS jump_full development False 500 1957-09-05 705 9.94
+JUMP_PROGRESS jump_full development False 1000 1963-10-12 1435 22.08
+JUMP_PROGRESS jump_full development False 1500 1967-11-22 2220 51.0
+JUMP_PROGRESS jump_full development False 2000 1971-07-05 3020 66.31
+JUMP_PROGRESS jump_full development False 2500 1974-04-21 3879 99.42
+JUMP_COMPLETE data/processed/strength/jump-ratings-caf0650ef09f28e0c5c8

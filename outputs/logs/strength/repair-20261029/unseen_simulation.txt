@@ -1,0 +1,17 @@
+UNSEEN_SIM {'rate': 0.03, 'sd': 0.7} 9170 {'world_rate': 0.03, 'world_sd': 0.7, 'seed': 9170, 'gap_mse': 0.27233770356339004, 'zero_mse': 3.6788442568226953, 'coverage90': 0.9738461538461538}
+UNSEEN_SIM {'rate': 0.03, 'sd': 0.7} 9171 {'world_rate': 0.03, 'world_sd': 0.7, 'seed': 9171, 'gap_mse': 0.4014805920668406, 'zero_mse': 2.3539792407326696, 'coverage90': 0.9461538461538461}
+UNSEEN_SIM {'rate': 0.03, 'sd': 0.7} 9172 {'world_rate': 0.03, 'world_sd': 0.7, 'seed': 9172, 'gap_mse': 0.4563533171208185, 'zero_mse': 2.1303926961560107, 'coverage90': 0.9246153846153846}
+UNSEEN_SIM {'rate': 0.03, 'sd': 0.7} 9173 {'world_rate': 0.03, 'world_sd': 0.7, 'seed': 9173, 'gap_mse': 0.30771475858546854, 'zero_mse': 2.7890793871171122, 'coverage90': 0.9692307692307692}
+UNSEEN_SIM {'rate': 0.03, 'sd': 0.7} 9174 {'world_rate': 0.03, 'world_sd': 0.7, 'seed': 9174, 'gap_mse': 0.29894950987014907, 'zero_mse': 1.6338403111599633, 'coverage90': 0.9523076923076923}
+UNSEEN_SIM {'rate': 0.03, 'sd': 0.7} 9175 {'world_rate': 0.03, 'world_sd': 0.7, 'seed': 9175, 'gap_mse': 0.3355821257979056, 'zero_mse': 3.793643263160793, 'coverage90': 0.9769230769230769}
+UNSEEN_SIM {'rate': 0.03, 'sd': 0.7} 9176 {'world_rate': 0.03, 'world_sd': 0.7, 'seed': 9176, 'gap_mse': 0.3140827175007117, 'zero_mse': 3.0442195667206797, 'coverage90': 0.9569230769230769}
+UNSEEN_SIM {'rate': 0.03, 'sd': 0.7} 9177 {'world_rate': 0.03, 'world_sd': 0.7, 'seed': 9177, 'gap_mse': 0.2604103660411048, 'zero_mse': 2.787262394822208, 'coverage90': 0.9723076923076923}
+UNSEEN_SIM {'rate': 0.12, 'sd': 1.0} 9170 {'world_rate': 0.12, 'world_sd': 1.0, 'seed': 9170, 'gap_mse': 0.3621259531423628, 'zero_mse': 3.9094386884134025, 'coverage90': 0.9507692307692308}
+UNSEEN_SIM {'rate': 0.12, 'sd': 1.0} 9171 {'world_rate': 0.12, 'world_sd': 1.0, 'seed': 9171, 'gap_mse': 0.7753896256443165, 'zero_mse': 5.739668882060514, 'coverage90': 0.8830769230769231}
+UNSEEN_SIM {'rate': 0.12, 'sd': 1.0} 9172 {'world_rate': 0.12, 'world_sd': 1.0, 'seed': 9172, 'gap_mse': 0.4695307385168805, 'zero_mse': 2.9667590002041972, 'coverage90': 0.8923076923076924}
+UNSEEN_SIM {'rate': 0.12, 'sd': 1.0} 9173 {'world_rate': 0.12, 'world_sd': 1.0, 'seed': 9173, 'gap_mse': 0.4314139544539076, 'zero_mse': 3.612183313446647, 'coverage90': 0.936923076923077}
+UNSEEN_SIM {'rate': 0.12, 'sd': 1.0} 9174 {'world_rate': 0.12, 'world_sd': 1.0, 'seed': 9174, 'gap_mse': 0.3715433464482553, 'zero_mse': 2.3644327720555753, 'coverage90': 0.9446153846153846}
+UNSEEN_SIM {'rate': 0.12, 'sd': 1.0} 9175 {'world_rate': 0.12, 'world_sd': 1.0, 'seed': 9175, 'gap_mse': 0.4600349824441469, 'zero_mse': 4.574088204780633, 'coverage90': 0.9292307692307692}
+UNSEEN_SIM {'rate': 0.12, 'sd': 1.0} 9176 {'world_rate': 0.12, 'world_sd': 1.0, 'seed': 9176, 'gap_mse': 0.3942073096899052, 'zero_mse': 5.3599044682541965, 'coverage90': 0.94}
+UNSEEN_SIM {'rate': 0.12, 'sd': 1.0} 9177 {'world_rate': 0.12, 'world_sd': 1.0, 'seed': 9177, 'gap_mse': 0.43486122313024506, 'zero_mse': 5.194763283837776, 'coverage90': 0.9353846153846154}
+UNSEEN_COMPLETE outputs/logs/strength/unseen-jump-validation-68be7631b8bd341ed48a True

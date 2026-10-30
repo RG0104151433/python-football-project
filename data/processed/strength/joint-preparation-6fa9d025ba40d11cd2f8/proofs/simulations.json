@@ -1,0 +1,36 @@
+{
+  "engineering_simulation_gate_by_model": {
+    "jump_full": true,
+    "jump_small": false,
+    "smooth": false
+  },
+  "protocol": {
+    "change_at": 450,
+    "day_step": 6,
+    "detection_threshold": 0.75,
+    "engineering_coverage_max": 0.97,
+    "engineering_coverage_min": 0.85,
+    "matches": 900,
+    "nominal_gap_coverage": 0.9,
+    "scenarios": [
+      "smooth",
+      "single_upset",
+      "forced_decline",
+      "matched_compound_jumps"
+    ],
+    "scope": "synthetic finite cases,not guaranteed detection/coverage in real data",
+    "seeds": [
+      9150,
+      9151,
+      9152,
+      9153,
+      9154,
+      9155,
+      9156,
+      9157
+    ],
+    "teams": 12,
+    "warmup": 250
+  },
+  "real_data_coverage_proven": false
+}

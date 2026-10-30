@@ -1,0 +1,72 @@
+{
+  "identity": {
+    "code": {
+      "src/data_contract.py": "eb29fc528e25670e473bc8f2da4d794222b1f329442ee36a2fe393234188a390",
+      "src/strength/__init__.py": "b48ba25d80e7be21a57179718aa9bec57001088773f91cd7426f65133b1d10ca",
+      "src/strength/audit.py": "e71e0440deef56dabf669c17a5b8cab6e7e96ede2cbd27f70454a7a99675e497",
+      "src/strength/baseline.py": "1cebf825686034b00adc127d39ef0dac76b6d1daf40939d79518c24399fb7cd1",
+      "src/strength/budget.py": "ce8a61dbe89594002f3d6fc453550216f928d2199129c01e52a60c21a55c5a81",
+      "src/strength/calibration.py": "956687f9a2bf9c47330a93495644696e98ab1ce7c6d9fa9d2750de14d8e9d266",
+      "src/strength/collapsed_jump.py": "f9d617f2d8c74ce2d075c84f59c9eb7e96ae61a6fb6a27346ef0e2e019f78caf",
+      "src/strength/delivery.py": "b413b74fe5456b8c9bf37e1e00d02972da94775cd0b111dcb2e227f97b6fee53",
+      "src/strength/experiment.py": "df05565aaeccb1285ef92c9901f427cf9b05544ee87a6bd608f8297b64ff92c3",
+      "src/strength/filter.py": "72caeb9a3a1bf5ead36756fc2810fb5ce6eab65600f5962013e7711ff6c73199",
+      "src/strength/gaussian.py": "1a6fb02d92653a018e853ceca60f5021c7cf194b587ffa3356f025a60d410463",
+      "src/strength/global_run.py": "fe2390f2c2d9833837f401d6db96153589640fba020c7a549afb3278e47cdc6e",
+      "src/strength/handoff.py": "9346feb5feaad73667e729a233061886ccc0a0fbf3918bc1c4e5d2efeabef73d",
+      "src/strength/io.py": "c6abbc5f11e2183648377465494b3eaa0b3d9b79345fbde5a33bf5da47fdc052",
+      "src/strength/jump_check.py": "548bd0fc6131a8b9872a000eb15b5504e25ae2ff586aa0b03e7390613ed92076",
+      "src/strength/prepare.py": "4ea48b15afb22d61663885de3b204d0f06bcb763c6f1f36835b8560ad2390f29",
+      "src/strength/reduction.py": "54522cbd77f4fdf134f24fcb47adb01636c6223ddc69262efa535ae8a779181a",
+      "src/strength/streaming.py": "203dc9bdcf04324197d4bfcda1384b948b0df9d4465f21f2f173aa6ea0469526"
+    },
+    "environment": {
+      "commit": "5c362b6dbf112538a3126f3ea4556cdbf1a73830",
+      "execution_code": "working tree; exact source hashes recorded, no commit made",
+      "numpy": "2.5.4",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "python": "3.14.8",
+      "scipy": "1.18.1"
+    },
+    "protocol": {
+      "coverage_gate": [
+        0.85,
+        0.97
+      ],
+      "matches": 900,
+      "model_rate": 0.08,
+      "model_sd": 1.2,
+      "not_real_football_holdout": true,
+      "seeds": [
+        9170,
+        9171,
+        9172,
+        9173,
+        9174,
+        9175,
+        9176,
+        9177
+      ],
+      "warmup": 250,
+      "worlds": [
+        {
+          "rate": 0.03,
+          "sd": 0.7
+        },
+        {
+          "rate": 0.12,
+          "sd": 1.0
+        }
+      ]
+    },
+    "runner_sha": "cac4bb66bf9ab9680a34cd03145dfb307e8ffca4c754047d082db12c61348776"
+  },
+  "outputs": {
+    "replicates.csv": "a8fec7586052e172ea4b70fc4b05c0664a63b27b134fa9480335884304b94440",
+    "report.json": "846bf0768923c795a4d0eb645b8130888e77b85b1b31c813bbb7ada6e4cdf0a8",
+    "runner_snapshot.py": "cac4bb66bf9ab9680a34cd03145dfb307e8ffca4c754047d082db12c61348776",
+    "source_snapshot.zip": "e74303c5e29ebe2c4940688b16689567e3b0de970e7d61289eea5a6a258253e1",
+    "summary.csv": "d56ddb19848834d5ad0f31a4b79729ddb7a735595c3643ff0779a5181e4faf40"
+  },
+  "stage_id": "unseen-jump-validation-68be7631b8bd341ed48a"
+}

@@ -1,0 +1,281 @@
+{
+  "identity": {
+    "artifact_base": "data/processed/strength",
+    "code": {
+      "src/data_contract.py": "eb29fc528e25670e473bc8f2da4d794222b1f329442ee36a2fe393234188a390",
+      "src/strength/__init__.py": "b48ba25d80e7be21a57179718aa9bec57001088773f91cd7426f65133b1d10ca",
+      "src/strength/audit.py": "e71e0440deef56dabf669c17a5b8cab6e7e96ede2cbd27f70454a7a99675e497",
+      "src/strength/baseline.py": "1cebf825686034b00adc127d39ef0dac76b6d1daf40939d79518c24399fb7cd1",
+      "src/strength/budget.py": "ce8a61dbe89594002f3d6fc453550216f928d2199129c01e52a60c21a55c5a81",
+      "src/strength/experiment.py": "df05565aaeccb1285ef92c9901f427cf9b05544ee87a6bd608f8297b64ff92c3",
+      "src/strength/filter.py": "72caeb9a3a1bf5ead36756fc2810fb5ce6eab65600f5962013e7711ff6c73199",
+      "src/strength/gaussian.py": "1a6fb02d92653a018e853ceca60f5021c7cf194b587ffa3356f025a60d410463",
+      "src/strength/global_run.py": "fe2390f2c2d9833837f401d6db96153589640fba020c7a549afb3278e47cdc6e",
+      "src/strength/handoff.py": "9346feb5feaad73667e729a233061886ccc0a0fbf3918bc1c4e5d2efeabef73d",
+      "src/strength/io.py": "c6abbc5f11e2183648377465494b3eaa0b3d9b79345fbde5a33bf5da47fdc052",
+      "src/strength/jump_check.py": "548bd0fc6131a8b9872a000eb15b5504e25ae2ff586aa0b03e7390613ed92076",
+      "src/strength/prepare.py": "4ea48b15afb22d61663885de3b204d0f06bcb763c6f1f36835b8560ad2390f29",
+      "src/strength/reduction.py": "54522cbd77f4fdf134f24fcb47adb01636c6223ddc69262efa535ae8a779181a",
+      "src/strength/streaming.py": "203dc9bdcf04324197d4bfcda1384b948b0df9d4465f21f2f173aa6ea0469526"
+    },
+    "environment": {
+      "commit": "5c362b6dbf112538a3126f3ea4556cdbf1a73830",
+      "execution_code": "working tree; exact source hashes recorded, no commit made",
+      "numpy": "2.5.4",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "python": "3.14.8",
+      "scipy": "1.18.1"
+    },
+    "inputs": {
+      "config/strength_context_v4.json": "167c59fd5abc4baff095b396403f4c2e531b6cf5080651e5bc24986b1a84552d",
+      "outputs/logs/strength/learning-b2889411cc93b44f88b6/learning_matches.csv": "51c18e65018fc0870c3c0cb1fc8da6fcee040654462e7bbc35df2af7bc9ab3f8",
+      "outputs/logs/strength/learning-b2889411cc93b44f88b6/manifest.json": "f4eb9f37a15263af844664f8c936fb903a84610539bf0b6a88ce74fab27507c8"
+    },
+    "protocol": {
+      "acceptance": {
+        "accuracy_noninferiority_margin": 0.01,
+        "calibration_max_bin_error": 0.1,
+        "calibration_min_bin_count": 200,
+        "fixed_step_log_loss_noninferiority_margin": 0.01,
+        "fixed_step_report_required": true,
+        "home_probability_mean_bias_max": 0.03,
+        "log_loss_gain_over_frequency_at_least": 0.005,
+        "numeric_probability_tolerance": 0.01,
+        "uncertainty_claim": "engineering_and_predictive_use_gate; not_a_confidence_or_causal_guarantee"
+      },
+      "admission": {
+        "candidate_pool": "numerically_admitted_Gaussian_special_case; compound_jump_challenger_requires_broader_numerical_and_cost_gate_before_global_selection",
+        "not_global_optimality_claim": true
+      },
+      "baselines": {
+        "fixed_step": {
+          "H": [
+            0,
+            60,
+            100
+          ],
+          "K": [
+            10,
+            20,
+            40
+          ],
+          "draw": [
+            0.5,
+            0.75,
+            1
+          ],
+          "formula": "Davidson WDL softmax(u,log(nu),-u); u=ln(10)*signed_gap/800; R+=K*(observed_score-expected_score); same_date_frozen",
+          "selection": "lowest1975_1979_log_loss_then_stable_grid_order",
+          "start": 1950
+        },
+        "frequency": "separate_neutral_non_neutral_Dirichlet1_counts"
+      },
+      "candidates": [
+        {
+          "id": "smooth_static",
+          "modules": 0,
+          "parameters": {
+            "alpha": 0.65,
+            "delta": 0.4,
+            "epsilon": 0,
+            "jump_rate": 0,
+            "jump_sd": 1.2,
+            "q": 0.03
+          }
+        },
+        {
+          "id": "robust_static",
+          "modules": 1,
+          "parameters": {
+            "alpha": 0.65,
+            "delta": 0.4,
+            "epsilon": 0.05,
+            "jump_rate": 0,
+            "jump_sd": 1.2,
+            "q": 0.03
+          }
+        },
+        {
+          "id": "robust_dynamic_shared",
+          "modules": 2,
+          "parameters": {
+            "alpha": 0.65,
+            "delta": 0.4,
+            "epsilon": 0.05,
+            "home_q": 0.005,
+            "jump_rate": 0,
+            "jump_sd": 1.2,
+            "q": 0.03
+          }
+        },
+        {
+          "id": "robust_dynamic_shared_fast",
+          "modules": 2,
+          "parameters": {
+            "alpha": 0.65,
+            "delta": 0.4,
+            "epsilon": 0.05,
+            "home_q": 0.02,
+            "jump_rate": 0,
+            "jump_sd": 1.2,
+            "q": 0.03
+          }
+        },
+        {
+          "id": "robust_type_static",
+          "modules": 2,
+          "parameters": {
+            "alpha": 0.65,
+            "delta": 0.4,
+            "epsilon": 0.05,
+            "home_by_type": true,
+            "jump_rate": 0,
+            "jump_sd": 1.2,
+            "q": 0.03
+          }
+        },
+        {
+          "id": "robust_type_dynamic",
+          "modules": 3,
+          "parameters": {
+            "alpha": 0.65,
+            "delta": 0.4,
+            "epsilon": 0.05,
+            "home_by_type": true,
+            "home_q": 0.005,
+            "jump_rate": 0,
+            "jump_sd": 1.2,
+            "q": 0.03
+          }
+        },
+        {
+          "id": "robust_type_dynamic_fast",
+          "modules": 3,
+          "parameters": {
+            "alpha": 0.65,
+            "delta": 0.4,
+            "epsilon": 0.05,
+            "home_by_type": true,
+            "home_q": 0.02,
+            "jump_rate": 0,
+            "jump_sd": 1.2,
+            "q": 0.03
+          }
+        }
+      ],
+      "decision_log_id": "R20261029-10",
+      "development": [
+        "1970-01-01",
+        "1974-12-31"
+      ],
+      "external_checks": [
+        {
+          "end": "1999-12-31",
+          "id": "reused_1980_1999",
+          "role": "reused_history_not_independent",
+          "start": "1980-01-01"
+        },
+        {
+          "end": "2009-12-31",
+          "id": "reused_2000_2009",
+          "role": "reused_history_not_independent",
+          "start": "2000-01-01"
+        },
+        {
+          "end": "2019-12-31",
+          "id": "reused_2010_2019",
+          "role": "reused_history_not_independent",
+          "start": "2010-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "id": "reused_2020_2024",
+          "role": "reused_history_not_independent",
+          "start": "2020-01-01"
+        }
+      ],
+      "holdout_reallocation": "2023-2024 opened once for fixed v3 references. All earlier failed tests remain failed historical records; no old period relabeled as an independent new test.",
+      "initial_home_variance": 0.25,
+      "initial_team_variance": 1,
+      "learning": "outputs/logs/strength/learning-b2889411cc93b44f88b6",
+      "limits": [
+        "conditional_identity",
+        "conditional_covariance_not_selection_error",
+        "reused_history"
+      ],
+      "numerics": {
+        "ep_damping": 0.5,
+        "ep_max_iter": 100,
+        "ep_tolerance": 1e-06,
+        "jump_total_cap": 2,
+        "max_children_per_parent": 256,
+        "max_components": 8,
+        "max_transition_prior_tail": 0.02,
+        "precision_checks": {
+          "larger_components": 16,
+          "larger_jump_cap": 3,
+          "probability_error_gate": 0.01,
+          "quadrature_order": 35
+        },
+        "pruned_weight_warning": 0.1,
+        "psd_check_every": 50,
+        "psd_tolerance": 1e-08,
+        "rank_tolerance": 1e-12
+      },
+      "protocol_version": "strength-context-rolling-reused-v4",
+      "reference_roles": [
+        "loss_and_complexity_selected_reference",
+        "epsilon_positive_functional_sensitivity_selected_only_on_pre1980"
+      ],
+      "reserve": [],
+      "reserve_use": "No unopened evaluation period remains inside1980-2024 after this run. Later model development must label reuse or use genuinely prospective matches; no2025/2026 inputs used here.",
+      "revision_reason": "Same-dimensional hyperparameter values are not different model complexity. Correct tie protocol: minimize pre1980 validation loss within each structural family, compare family minima with prespecified complexity margin, then choose exact-minimum parameters within chosen family. No acceptance threshold relaxed.",
+      "schema_version": "strength-global-v1",
+      "selection": {
+        "bias_screen_scope": "all three classes on1975-1979 selection data; not a claim of independent calibration",
+        "max_absolute_class_bias": 0.03,
+        "no_post1980_parameter_retuning": true,
+        "policy": "structural_family_then_minimum_loss",
+        "primary": "validation_log_loss",
+        "tie_margin": 0.01,
+        "tie_order": [
+          "family_minimum_loss_with_complexity_margin",
+          "exact_validation_loss_within_family",
+          "earlier_start_only_for_exact_ties"
+        ]
+      },
+      "selection_validation": [
+        "1975-01-01",
+        "1979-12-31"
+      ],
+      "snapshots": [
+        "1979-12-31",
+        "1989-12-31",
+        "1999-12-31",
+        "2009-12-31",
+        "2019-12-31",
+        "2024-12-31"
+      ],
+      "starts": [
+        1950
+      ],
+      "status": "frozen_before_global_selection_and_time_holdout"
+    },
+    "rules_id": "rating-rules-0b376e7637038a8adcec",
+    "selection_json": "a193d2451db3f57d4043ab2f5937f4d8589a373ea050af4748ab37ce58505f04",
+    "selection_manifest": "d661eff4ccf08d33ab47f8088147dcd4e870424295203cc36798d53a4cad5db0"
+  },
+  "outputs": {
+    "checkpoints.json": "ea304a920286b68915ad56cb832093c9fbd9506e4d7087111f50955c3f3e7824",
+    "coverage.csv": "c6bbafc8d7d8a4ed280b7301ec11f67b65ee5a10fab397ad774e42355a96fd20",
+    "data_dictionary.md": "a443efd154514e1aa926a82da48887dbe2bbb03d6afe32460fce7c37955806a5",
+    "external_metrics.csv": "6ffb33b99def4f443b54e714de99e160dd1e320eccef6d4e57a34faab45b269d",
+    "prematch_features.csv": "9ee3ebe57525b2250c1c523b5614b22ffeb6beb8b1a557e3ebe86178d82d7683",
+    "rating_report.json": "4e2947f4dac8aaaffbd47318a23103071d256423d72d92d6cd3c3c037389a25f",
+    "solver_diagnostics.csv": "ac9850f8ef50d3e5dd40a6fcfcb1226ff9f678d9594fa0324fcc4b8eb7b6949e",
+    "source_snapshot.zip": "e23fb26735f2ac971b863317b017713e14286827fc1c12509b79a360185cb6e5",
+    "study_prematch_features.csv": "85b3f0d8f64eecbf05c1de886e6fe593b9edca4d11034d6a74683bc41ad2a7cb",
+    "yearly_metrics_before_reserve.csv": "6da2d4782b8d2394a9223dc67ca040229416fc2f4110e863aac856600792187e"
+  },
+  "stage_id": "ratings-4d69c3406d3ec0decffb"
+}

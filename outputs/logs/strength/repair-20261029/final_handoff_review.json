@@ -1,0 +1,15 @@
+{
+  "actual_human_review": false,
+  "adopted_packet": "data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8",
+  "checks": 125614,
+  "cold_start": 359,
+  "earlier_disconnected": 80,
+  "failed": [],
+  "initialization_sensitive": 2905,
+  "passed": true,
+  "study_rows": 24917,
+  "third_design_document_exists": true,
+  "third_model_code_created": false,
+  "unknown_away_region": 73,
+  "unknown_home_region": 26
+}

@@ -1,0 +1,8 @@
+﻿model,matches,max_probability_difference,max_strength_difference,passed
+robust_dynamic_shared,38919,0.0000004324,0.0000026955,true
+robust_dynamic_shared_fast,38919,0.0000005510,0.0000034593,true
+robust_static,38919,0.0000004304,0.0000024978,true
+robust_type_dynamic,38919,0.0000005302,0.0000033651,true
+robust_type_dynamic_fast,38919,0.0000005386,0.0000034021,true
+robust_type_static,38919,0.0000005168,0.0000033340,true
+smooth_static,38919,0.0000003943,0.0000028668,true

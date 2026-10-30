@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "files": {
+    "prematch_features.csv": true,
+    "study_prematch_features.csv": true,
+    "diagnostics.csv": true,
+    "checkpoints.json": true
+  },
+  "rows": 38919,
+  "study_rows": 24917,
+  "directory": "data/processed/strength/jump-ratings-451ecade0bf84ee0bfb6",
+  "archived_source_replayed": true,
+  "seconds": 638.436191899993,
+  "final_checkpoint": "outputs/logs/strength/repair-20261029/replays/jump-ratings-451ecade0bf84ee0bfb6/recovered_final_state.json",
+  "final_checkpoint_sha": "eba612abfa6992a6c4d1656928347fcd35f9de600febd90c380bb5092e4369e0",
+  "human_review": "not_performed"
+}

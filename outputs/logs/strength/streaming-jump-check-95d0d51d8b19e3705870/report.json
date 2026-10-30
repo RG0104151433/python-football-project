@@ -1,0 +1,126 @@
+{
+  "all_event_mass_retained": true,
+  "comparison_passed": false,
+  "conditional_event_count_gaussianization": true,
+  "cost_and_local_checks_only": true,
+  "covariance_growth_fixed_by_streaming": true,
+  "disposition": "not_admitted_due_numerical_or_cost_failure",
+  "full_global_prediction_admitted": false,
+  "full_global_replay_required_if_promoted": true,
+  "means_and_covariances_preserved_by_each_merge": true,
+  "no_exact_posterior_jump_date_claim": true,
+  "omitted_uncertainty": "conditional count higher moments, online merge/EP/time accumulated error",
+  "protocol": {
+    "base_protocol": "config/strength_global_v3.json",
+    "candidates": [
+      {
+        "epsilon": 0,
+        "id": "smooth_static",
+        "modules": 0
+      },
+      {
+        "id": "robust_static",
+        "modules": 1
+      },
+      {
+        "home_q": 0.005,
+        "id": "robust_dynamic_shared",
+        "modules": 2
+      },
+      {
+        "home_q": 0.02,
+        "id": "robust_dynamic_shared_fast",
+        "modules": 2
+      },
+      {
+        "home_by_type": true,
+        "id": "robust_type_static",
+        "modules": 2
+      },
+      {
+        "home_by_type": true,
+        "home_q": 0.005,
+        "id": "robust_type_dynamic",
+        "modules": 3
+      },
+      {
+        "home_by_type": true,
+        "home_q": 0.02,
+        "id": "robust_type_dynamic_fast",
+        "modules": 3
+      }
+    ],
+    "check_blocks": [
+      [
+        1980,
+        1999
+      ],
+      [
+        2000,
+        2009
+      ],
+      [
+        2010,
+        2019
+      ],
+      [
+        2020,
+        2024
+      ]
+    ],
+    "complex_jump": {
+      "component_budgets": [
+        4,
+        8,
+        16
+      ],
+      "covariance_buffer_bytes": 536870912,
+      "global_profile_days": 250,
+      "no_automatic_admission_on_cost_pass": true,
+      "per_profile_seconds": 300,
+      "probability_difference_gate": 0.01,
+      "transition_partitions": [
+        0,
+        1
+      ]
+    },
+    "decision_log_id": "R20261029-10",
+    "experimental_input_acceptance": {
+      "failed_calibration_must_remain_explicit": true,
+      "fixed_step_log_loss_noninferiority_margin": 0.01,
+      "log_loss_gain_over_frequency_at_least": 0.005,
+      "max_tightening_probability_difference": 0.01,
+      "same_study_ids": 24917,
+      "scope": "design_and_exploratory_input_only_not_confirmatory_or_causal",
+      "source_time_covariance_restart_audit_required": true,
+      "uncertainty": "conditional filter covariance does not cover model/selection/identity error"
+    },
+    "forecast_acceptance": "all original v3 engineering gates, per pooled predeclared blocks; reused historical checks only, no prospective certification",
+    "learning": "outputs/logs/strength/learning-b2889411cc93b44f88b6",
+    "parameters": {
+      "alpha": 0.65,
+      "delta": 0.4,
+      "epsilon": 0.05,
+      "jump_rate": 0,
+      "jump_sd": 1.2,
+      "q": 0.03
+    },
+    "prohibitions": [
+      "do_not_relax_original_forecast_gates",
+      "do_not_call_reused_years_unseen",
+      "no_modification_of_24917_or_117",
+      "no_confirmatory_joint_inference_from_experimental_admission"
+    ],
+    "rolling": {
+      "complexity_loss_margin": 0.002,
+      "first_year": 1980,
+      "last_year": 2024,
+      "lookback_years": 10,
+      "no_current_year_outcomes_for_selection": true,
+      "role": "past_only_rule_evaluation_on_reused_history_not_new_independent_test",
+      "selection_scope": "all_eligible_learning_matches_in_previous_ten_calendar_years"
+    },
+    "schema_version": "strength-handoff-v1",
+    "start": 1950
+  }
+}

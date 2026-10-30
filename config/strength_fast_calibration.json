@@ -1,0 +1,15 @@
+{
+  "final_gate_unchanged": true,
+  "purpose": "finite response-speed sensitivity; no future-independent claim",
+  "rates": [
+    0.08,
+    0.32,
+    1.28,
+    5.12
+  ],
+  "representations": [
+    "raw",
+    "informative_component"
+  ],
+  "source": "data/processed/strength/jump-ratings-451ecade0bf84ee0bfb6"
+}

@@ -1,0 +1,35 @@
+{
+  "do_not_discard_cold_teams_to_hide_sensitivity": true,
+  "protocol": {
+    "history_threshold": 10,
+    "parameters": {
+      "alpha": 0.65,
+      "delta": 0.4,
+      "epsilon": 0,
+      "jump_rate": 0,
+      "jump_sd": 1.2,
+      "q": 0.03
+    },
+    "prior_sd_unit": "performance_noise_sd fixed at1; prior variance changes uncertainty not location",
+    "scope": "fixed_rule_full_study_sensitivity_not_parameter_selection",
+    "variants": [
+      {
+        "id": "later_start",
+        "start": 1960,
+        "variance": 1
+      },
+      {
+        "id": "narrow_prior",
+        "start": 1950,
+        "variance": 0.5
+      },
+      {
+        "id": "wide_prior",
+        "start": 1950,
+        "variance": 2
+      }
+    ]
+  },
+  "study_rows_each": 24917,
+  "uniform_initialization_independence_claim": false
+}

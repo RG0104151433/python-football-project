@@ -1,0 +1,25 @@
+{
+  "case_means": [
+    0.0,
+    0.7,
+    1.8
+  ],
+  "orders": [
+    21,
+    31
+  ],
+  "outcomes": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      0
+    ]
+  ],
+  "probability_gate": 0.01,
+  "reference_count_tail": 1e-11,
+  "scope": "finite predeclared local fixtures; no exact full-history posterior claim",
+  "shared_and_disjoint": true
+}

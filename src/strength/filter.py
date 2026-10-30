@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import itertools
 import math
+import copy
 from dataclasses import dataclass
 from datetime import date
 
@@ -187,6 +188,17 @@ class StrengthFilter:
         self.counts = {t: 0 for t in self.teams}
         self.diagnostics = []
 
+    def reduce_components(self, updated, posterior):
+        indices = sorted(range(len(posterior)), key=lambda k: (-posterior[k], k))[:self.numerics["max_components"]]
+        kept_mass = float(posterior[indices].sum())
+        kept = []
+        for k in indices:
+            c = updated[k]
+            c.weight = float(posterior[k] / kept_mass)
+            kept.append(c)
+        return kept, {"approximate_posterior_pruned_mass": max(0.0, 1 - kept_mass),
+                      "pruning_warning": 1 - kept_mass > self.numerics["pruned_weight_warning"]}
+
     def design(self, games):
         a = np.zeros((len(games), len(self.teams) + 1))
         for k, g in enumerate(games):
@@ -217,6 +229,9 @@ class StrengthFilter:
                 counts.append((v, math.exp(logp) / (1 - tail)))
         if len(counts) > self.numerics["max_children_per_parent"]:
             raise NumericalFailure("Transition enumeration budget exceeded")
+        memory = len(counts)*len(self.components)*(len(self.teams)+1)**2*8
+        if memory > self.numerics.get("max_child_bytes", math.inf):
+            raise NumericalFailure(f"Transition covariance memory estimate {memory} exceeds budget")
         children = []
         for parent in self.components:
             for v, prob in counts:
@@ -273,19 +288,18 @@ class StrengthFilter:
         for c in children:
             m, cov, logz, diag = batch_update(c.mean, c.cov, design, outcomes, kappas,
                                              self.params["delta"], self.numerics)
-            if not np.isfinite(cov).all() or np.linalg.eigvalsh(cov).min() < -self.numerics["psd_tolerance"]:
+            if not np.isfinite(cov).all() or np.diag(cov).min() <= 0:
+                raise NumericalFailure("Invalid posterior covariance")
+            if self.numerics.get("full_child_psd_check", True) and np.linalg.eigvalsh(cov).min() < -self.numerics["psd_tolerance"]:
                 raise NumericalFailure("Posterior covariance not PSD")
             updated.append(Component(0, m, cov, c.path))
             logweights.append(math.log(c.weight) + logz)
             iterations.append(diag["iterations"])
         posterior = np.exp(np.array(logweights) - logsumexp(logweights))
-        indices = sorted(range(len(posterior)), key=lambda k: (-posterior[k], k))[:self.numerics["max_components"]]
-        kept_mass = float(posterior[indices].sum())
-        self.components = []
-        for k in indices:
-            c = updated[k]
-            c.weight = float(posterior[k] / kept_mass)
-            self.components.append(c)
+        self.components, reduction = self.reduce_components(updated, posterior)
+        if not self.numerics.get("full_child_psd_check", True) and (len(self.diagnostics)+1)%self.numerics.get("retained_psd_check_every",25)==0:
+            if any(np.linalg.eigvalsh(c.cov).min() < -self.numerics["psd_tolerance"] for c in self.components):
+                raise NumericalFailure("Retained posterior covariance not PSD")
         for t in active:
             self.last[t] = day
         for g in games:
@@ -294,14 +308,14 @@ class StrengthFilter:
         self.last_day = day
         self.diagnostics.append({"date": day, "matches": len(games), "candidate_components": len(children),
                                  "retained_components": len(self.components), "transition_prior_tail": tail,
-                                 "approximate_posterior_pruned_mass": max(0.0, 1 - kept_mass),
-                                 "pruning_warning": 1 - kept_mass > self.numerics["pruned_weight_warning"],
-                                 "max_ep_iterations": max(iterations)})
+                                 "approximate_posterior_pruned_mass": reduction["approximate_posterior_pruned_mass"],
+                                 "pruning_warning": reduction["pruning_warning"],
+                                 "max_ep_iterations": max(iterations), **reduction})
         return rows
 
     def state(self):
-        return {"schema_version": "strength-filter-pilot-v1", "teams": self.teams, "params": self.params,
-                "numerics": self.numerics, "last": self.last, "last_day": self.last_day, "counts": self.counts,
+        return {"schema_version": "strength-filter-pilot-v1", "teams": list(self.teams), "params": copy.deepcopy(self.params),
+                "numerics": copy.deepcopy(self.numerics), "last": self.last.copy(), "last_day": self.last_day, "counts": self.counts.copy(),
                 "components": [{"weight": c.weight, "mean": c.mean.tolist(), "cov": c.cov.tolist(), "path": c.path}
                                for c in self.components]}
 

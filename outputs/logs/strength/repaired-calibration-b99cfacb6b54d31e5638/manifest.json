@@ -1,0 +1,58 @@
+{
+  "identity": {
+    "code": {
+      "src/data_contract.py": "eb29fc528e25670e473bc8f2da4d794222b1f329442ee36a2fe393234188a390",
+      "src/strength/__init__.py": "b48ba25d80e7be21a57179718aa9bec57001088773f91cd7426f65133b1d10ca",
+      "src/strength/audit.py": "e71e0440deef56dabf669c17a5b8cab6e7e96ede2cbd27f70454a7a99675e497",
+      "src/strength/baseline.py": "1cebf825686034b00adc127d39ef0dac76b6d1daf40939d79518c24399fb7cd1",
+      "src/strength/budget.py": "ce8a61dbe89594002f3d6fc453550216f928d2199129c01e52a60c21a55c5a81",
+      "src/strength/calibration.py": "956687f9a2bf9c47330a93495644696e98ab1ce7c6d9fa9d2750de14d8e9d266",
+      "src/strength/collapsed_jump.py": "f9d617f2d8c74ce2d075c84f59c9eb7e96ae61a6fb6a27346ef0e2e019f78caf",
+      "src/strength/experiment.py": "df05565aaeccb1285ef92c9901f427cf9b05544ee87a6bd608f8297b64ff92c3",
+      "src/strength/filter.py": "72caeb9a3a1bf5ead36756fc2810fb5ce6eab65600f5962013e7711ff6c73199",
+      "src/strength/gaussian.py": "1a6fb02d92653a018e853ceca60f5021c7cf194b587ffa3356f025a60d410463",
+      "src/strength/global_run.py": "fe2390f2c2d9833837f401d6db96153589640fba020c7a549afb3278e47cdc6e",
+      "src/strength/handoff.py": "9346feb5feaad73667e729a233061886ccc0a0fbf3918bc1c4e5d2efeabef73d",
+      "src/strength/io.py": "c6abbc5f11e2183648377465494b3eaa0b3d9b79345fbde5a33bf5da47fdc052",
+      "src/strength/jump_check.py": "548bd0fc6131a8b9872a000eb15b5504e25ae2ff586aa0b03e7390613ed92076",
+      "src/strength/prepare.py": "4ea48b15afb22d61663885de3b204d0f06bcb763c6f1f36835b8560ad2390f29",
+      "src/strength/reduction.py": "54522cbd77f4fdf134f24fcb47adb01636c6223ddc69262efa535ae8a779181a",
+      "src/strength/streaming.py": "203dc9bdcf04324197d4bfcda1384b948b0df9d4465f21f2f173aa6ea0469526"
+    },
+    "environment": {
+      "commit": "5c362b6dbf112538a3126f3ea4556cdbf1a73830",
+      "execution_code": "working tree; exact source hashes recorded, no commit made",
+      "numpy": "2.5.4",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "python": "3.14.8",
+      "scipy": "1.18.1"
+    },
+    "inputs": {
+      "config/strength_global_v3.json": "a524b57c774eb61cbc677ee8edc2057a0c9cc3b8738a6fbcbcf67609d5555938",
+      "outputs/logs/strength/learning-b2889411cc93b44f88b6/learning_matches.csv": "51c18e65018fc0870c3c0cb1fc8da6fcee040654462e7bbc35df2af7bc9ab3f8",
+      "outputs/logs/strength/learning-b2889411cc93b44f88b6/manifest.json": "f4eb9f37a15263af844664f8c936fb903a84610539bf0b6a88ce74fab27507c8"
+    },
+    "protocol_sha": "9c489410dcfa3ae70afd9cfe86fd65295495c6f2dc821928cc0dac3958a1cf51",
+    "runner_sha": "88571073ff1d5cf0481f86e31ea4d0d5c2960789a7daf7b9a528724663d2b6dc",
+    "sources": {
+      "data/processed/strength/jump-ratings-2011739ec6714deca2e6": "1c3f5dc23c5dc1237f12240dd75510431e890e0d910e71d9c9fd9d022bae624c",
+      "data/processed/strength/jump-ratings-451ecade0bf84ee0bfb6": "7d430275d6535e25cd7044888921aae3086dcc4755fec2f716016491ad76ba74",
+      "data/processed/strength/ratings-259559997c232b8ca245": "53556909625f06cd198819861451c409808f68a0bf8e12ca455421ad991ea1af",
+      "data/processed/strength/ratings-349fdcd69f5562be555d": "a03eb66a5dcc1503ca14df899303a42fa86df6e8cfe0aa9eb576353307f9add6",
+      "data/processed/strength/ratings-4d69c3406d3ec0decffb": "a65a0174c2d96af93ac144d5188c9b51b6bca85c75247b912eaa343a4d3794d9",
+      "data/processed/strength/ratings-fe677f8de4c912933f6c": "6c9d3f5c4d2183a3c0f8dfdf427a7246500180fd9d1ab739db6ffcaa6a3f1766"
+    },
+    "strict": false
+  },
+  "outputs": {
+    "annual_choices.csv": "9a04173bb93772a13fa5770c6a81b64cb84da94b1a1da40746096621dfe592fe",
+    "calibration_states.json": "992a93151830f4c88328fffa4c576ee9619abc86c082756a6ca3a6bbca0a056f",
+    "candidate_metrics.csv": "3c6fe8188912818c33625ce264c2cd748099219eae5ffe03a2158123fcb8037a",
+    "prematch_features.csv": "e8c542aea7586b00770c49741e76ea22ad5ef46bd8b9df24825b67577a12a24b",
+    "report.json": "5655643c1c0a031d05df0922ef491b0c9816b2066e967e1b6c30a5f6a9027685",
+    "runner_snapshot.py": "88571073ff1d5cf0481f86e31ea4d0d5c2960789a7daf7b9a528724663d2b6dc",
+    "source_snapshot.zip": "76670274083e546accb0301ea694ffa957a9bfad31513a17b4693d7787312680",
+    "study_prematch_features.csv": "791215fbd027489113c1a5bf68046198b9c290617a68b48fe532f6c9d33459e7"
+  },
+  "stage_id": "repaired-calibration-b99cfacb6b54d31e5638"
+}

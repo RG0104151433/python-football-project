@@ -1,0 +1,26 @@
+JUMP_PROGRESS jump_small global False 0 1950-02-17 1 0.01
+JUMP_PROGRESS jump_small global False 500 1957-09-05 705 10.97
+JUMP_PROGRESS jump_small global False 1000 1963-10-12 1435 27.21
+JUMP_PROGRESS jump_small global False 1500 1967-11-22 2220 60.41
+JUMP_PROGRESS jump_small global False 2000 1971-07-05 3020 81.12
+JUMP_PROGRESS jump_small global False 2500 1974-04-21 3879 124.27
+JUMP_PROGRESS jump_small global False 3000 1977-04-03 4769 142.41
+JUMP_PROGRESS jump_small global False 3500 1980-05-07 5681 163.17
+JUMP_PROGRESS jump_small global False 4000 1982-08-29 6714 177.38
+JUMP_PROGRESS jump_small global False 4500 1985-02-28 7818 201.64
+JUMP_PROGRESS jump_small global False 5000 1987-08-18 8883 216.08
+JUMP_PROGRESS jump_small global False 5500 1989-12-14 10072 231.93
+JUMP_PROGRESS jump_small global False 6000 1992-08-14 11190 247.06
+JUMP_PROGRESS jump_small global False 6500 1994-10-11 12589 266.28
+JUMP_PROGRESS jump_small global False 7000 1996-12-08 14105 294.72
+JUMP_PROGRESS jump_small global False 7500 1999-01-03 15719 314.21
+JUMP_PROGRESS jump_small global False 8000 2001-01-24 17505 344.12
+JUMP_PROGRESS jump_small global False 8500 2003-03-05 19257 364.44
+JUMP_PROGRESS jump_small global False 9000 2005-06-19 21422 389.0
+JUMP_PROGRESS jump_small global False 9500 2008-01-10 23500 412.92
+JUMP_PROGRESS jump_small global False 10000 2010-06-23 25676 439.71
+JUMP_PROGRESS jump_small global False 10500 2013-01-11 28175 472.44
+JUMP_PROGRESS jump_small global False 11000 2015-11-25 30761 501.31
+JUMP_PROGRESS jump_small global False 11500 2019-06-10 33632 531.23
+JUMP_PROGRESS jump_small global False 12000 2023-08-26 37200 568.38
+JUMP_COMPLETE data/processed/strength/jump-ratings-2011739ec6714deca2e6

@@ -1,0 +1,14 @@
+ARCHIVED_REPLAY 0 1950-02-17
+ARCHIVED_REPLAY 1000 1963-10-12
+ARCHIVED_REPLAY 2000 1971-07-05
+ARCHIVED_REPLAY 3000 1977-04-03
+ARCHIVED_REPLAY 4000 1982-08-29
+ARCHIVED_REPLAY 5000 1987-08-18
+ARCHIVED_REPLAY 6000 1992-08-14
+ARCHIVED_REPLAY 7000 1996-12-08
+ARCHIVED_REPLAY 8000 2001-01-24
+ARCHIVED_REPLAY 9000 2005-06-19
+ARCHIVED_REPLAY 10000 2010-06-23
+ARCHIVED_REPLAY 11000 2015-11-25
+ARCHIVED_REPLAY 12000 2023-08-26
+ARCHIVED_PROOF {"passed": true, "files": {"prematch_features.csv": true, "study_prematch_features.csv": true, "diagnostics.csv": true, "checkpoints.json": true}, "rows": 38919, "study_rows": 24917, "directory": "data/processed/strength/jump-ratings-451ecade0bf84ee0bfb6", "archived_source_replayed": true, "seconds": 638.436191899993, "final_checkpoint": "outputs/logs/strength/repair-20261029/replays/jump-ratings-451ecade0bf84ee0bfb6/recovered_final_state.json", "final_checkpoint_sha": "eba612abfa6992a6c4d1656928347fcd35f9de600febd90c380bb5092e4369e0", "human_review": "not_performed"}

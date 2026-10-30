@@ -1,0 +1,40 @@
+{
+  "runs": [
+    {
+      "components": 64,
+      "method": "cluster",
+      "scope": "twenty",
+      "seconds": 123.66813870001351
+    },
+    {
+      "components": 128,
+      "method": "cluster",
+      "scope": "twenty",
+      "seconds": 340.0418569999747
+    },
+    {
+      "components": 16,
+      "method": "hybrid",
+      "scope": "twenty",
+      "seconds": 44.47994910000125
+    },
+    {
+      "components": 32,
+      "method": "hybrid",
+      "scope": "twenty",
+      "seconds": 110.08216609997908
+    },
+    {
+      "components": 64,
+      "method": "hybrid",
+      "scope": "twenty",
+      "seconds": 223.3347233000095
+    },
+    {
+      "components": 32,
+      "method": "cluster",
+      "scope": "global_profile",
+      "seconds": 49.55811990000075
+    }
+  ]
+}

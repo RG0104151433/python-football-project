@@ -1,0 +1,23 @@
+{
+  "distribution": "normal_plus_compound_Poisson; do not replace by a normal with total variance",
+  "forbidden_predictors": [
+    "home_win",
+    "outcome",
+    "home_score",
+    "away_score",
+    "p_home",
+    "p_draw",
+    "p_away",
+    "home_term"
+  ],
+  "initialization_range_is_not_confidence_interval": true,
+  "old_q4_interval_reuse_allowed": false,
+  "score_support_bins": [
+    -2,
+    -1,
+    0,
+    1,
+    2
+  ],
+  "status": "handoff_only_no_joint_fit"
+}

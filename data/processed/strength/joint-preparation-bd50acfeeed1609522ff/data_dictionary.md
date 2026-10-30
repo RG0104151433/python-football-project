@@ -1,0 +1,3 @@
+# 新版共同分析准备表
+
+仍为原24917场，非联合拟合结果。strength_difference为赛前差均值；base_variance与双方Poisson强度及jump_scale_sd给出当前分布，total_variance只是二阶摘要。目标home_win含平局分母，outcome为辅助三结果。初始化标记基于本轮完整跳变核心的原概率变动，不能当最终校准概率的置信区间或删行依据。support_cells仅场数，不产生地区胜率或第三环节结论。

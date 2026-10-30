@@ -1,0 +1,15 @@
+{
+  "checks": 100522,
+  "cold_start": 359,
+  "experimental_input_admitted": true,
+  "failed": [],
+  "human_review": "not_performed",
+  "initialization_sensitive": 3692,
+  "joint_fit_performed": false,
+  "original_forecast_gates_passed": false,
+  "passed": true,
+  "previously_disconnected": 80,
+  "stage2_acceptance_completed": true,
+  "study_rows": 24917,
+  "unrestricted_forecast_admitted": false
+}

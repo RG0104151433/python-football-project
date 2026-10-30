@@ -1,0 +1,186 @@
+{
+  "source": "outputs/logs/strength/budget-b6687cb39711461cf7b0",
+  "inputs": {
+    "budget_comparisons.csv": "16c71349d1e2ebd6a444748f4f8c65e5340aa427dd9b6d5bc2912f88ee534d87",
+    "daily_diagnostics.csv": "86290d3203c0a06167e30d6fe26efdcecd3f55d36552990728828d51f587c53b",
+    "development_predictions.csv": "0ef6f4e525e78910da81d59fae8700b59f85a0d36d2e7e9880ecfb8e79eb52f1"
+  },
+  "same_poisson_cap": 3,
+  "all_comparison_matches": 105,
+  "development_matches": 21,
+  "worst_development": [
+    {
+      "match_id": "results:b9610d3d7a3ee1171d79644314e0b331430d701598f6484127262cb9fa38014c",
+      "date": "1971-07-28",
+      "home": "team:argentina@base",
+      "away": "team:brazil@base",
+      "max_probability_difference": 0.01113983070000002,
+      "difference_mean_delta": -0.04145486109999996,
+      "difference_variance_delta": 0.04511478399999991,
+      "home_term_delta": 0.0015062383999999707
+    },
+    {
+      "match_id": "results:6e0898819f5f579c72bb2da876a77fef79ba01d4284a0f04f26c0938d775ce2c",
+      "date": "1971-07-31",
+      "home": "team:argentina@base",
+      "away": "team:brazil@base",
+      "max_probability_difference": 0.008490613500000022,
+      "difference_mean_delta": -0.02978823070000003,
+      "difference_variance_delta": 0.021106200099999972,
+      "home_term_delta": 0.0028355672
+    },
+    {
+      "match_id": "results:cf681752e215dcff75ec0c36dd110c0e95f1eb160bf96facf844d21b54002534",
+      "date": "1970-06-21",
+      "home": "team:brazil@base",
+      "away": "team:italy@base",
+      "max_probability_difference": 0.006988875599999944,
+      "difference_mean_delta": 0.029853751500000025,
+      "difference_variance_delta": 0.062496820599999836,
+      "home_term_delta": 0.0014178564999999255
+    },
+    {
+      "match_id": "results:b7d6f54c4408b7a6e3338d3445737699db514b12d856aea6848da8ed5eef2e33",
+      "date": "1974-06-30",
+      "home": "team:argentina@base",
+      "away": "team:brazil@base",
+      "max_probability_difference": 0.006441842899999939,
+      "difference_mean_delta": -0.02350482679999999,
+      "difference_variance_delta": 0.0022490575999999374,
+      "home_term_delta": 0.0024960120999999447
+    },
+    {
+      "match_id": "results:d79530e3a4fd1b627d21146b12f10361bbcc65ac8f0f13bdfed90cf61f209c6b",
+      "date": "1974-06-19",
+      "home": "team:argentina@base",
+      "away": "team:italy@base",
+      "max_probability_difference": 0.004919313799999991,
+      "difference_mean_delta": -0.024705090700000043,
+      "difference_variance_delta": 0.05076405849999999,
+      "home_term_delta": 0.00237829579999993
+    },
+    {
+      "match_id": "results:7f4799c126f7ea33fdfa726d382cc98cda85d882cd83b698509a7e8a12d95f0f",
+      "date": "1973-06-09",
+      "home": "team:italy@base",
+      "away": "team:brazil@base",
+      "max_probability_difference": 0.004532239499999979,
+      "difference_mean_delta": -0.032555726699999954,
+      "difference_variance_delta": 0.05680046750000001,
+      "home_term_delta": 0.002664540100000057
+    },
+    {
+      "match_id": "results:ff6e4a379d9fd8454df02bd532958df186e31e040fad7bc88e0cf045ff25fa68",
+      "date": "1974-10-12",
+      "home": "team:argentina@base",
+      "away": "team:spain@base",
+      "max_probability_difference": 0.003917118800000008,
+      "difference_mean_delta": 0.03494428260000004,
+      "difference_variance_delta": 0.002903866100000041,
+      "home_term_delta": 0.0029577464999999137
+    },
+    {
+      "match_id": "results:076dd36bed03bd85c3a1764178a43d5930477cf463f00301a0c91393466bfafd",
+      "date": "1971-03-17",
+      "home": "team:spain@base",
+      "away": "team:france@base",
+      "max_probability_difference": 0.0036735158000000268,
+      "difference_mean_delta": -0.02206622459999999,
+      "difference_variance_delta": 0.0398856300999999,
+      "home_term_delta": 0.0013339450000000586
+    },
+    {
+      "match_id": "results:3bedf04da42b50684c1692fdc2ce55fdb0692ba621c4d2766fc40c41dac510e0",
+      "date": "1972-10-11",
+      "home": "team:spain@base",
+      "away": "team:argentina@base",
+      "max_probability_difference": 0.003650496000000003,
+      "difference_mean_delta": -0.025842781499999967,
+      "difference_variance_delta": 0.015553232600000078,
+      "home_term_delta": 0.0034120763000000665
+    },
+    {
+      "match_id": "results:21f53dac31b9fe04b6a815b6b5413af6464ea6525bde15b3370916c3bec03c30",
+      "date": "1973-11-14",
+      "home": "team:england@base",
+      "away": "team:italy@base",
+      "max_probability_difference": 0.0032988899999999988,
+      "difference_mean_delta": -0.01740761199999996,
+      "difference_variance_delta": 0.06186299550000007,
+      "home_term_delta": 0.002020001600000043
+    }
+  ],
+  "first_all_history_over_gate": {
+    "match_id": "results:fd0fd927fe6d0224d68ccd2dc03b7a8a89c4d99b77dfebf60c39e014dc0bca33",
+    "date": "1957-07-10",
+    "home": "team:brazil@base",
+    "away": "team:argentina@base",
+    "max_probability_difference": 0.010014706400000017,
+    "difference_mean_delta": -0.03649558779999995,
+    "difference_variance_delta": 0.042925504999999975,
+    "home_term_delta": 0.0016784863000000039
+  },
+  "largest_pruning_days": [
+    {
+      "components": "64",
+      "count_cap": "3",
+      "date": "1968-08-07",
+      "matches": "1",
+      "candidate_components": "640",
+      "retained_components": "64",
+      "transition_prior_tail": "0.0008997347",
+      "approximate_posterior_pruned_mass": "0.2833694940",
+      "pruning_warning": "true",
+      "max_ep_iterations": "0"
+    },
+    {
+      "components": "64",
+      "count_cap": "3",
+      "date": "1970-02-21",
+      "matches": "1",
+      "candidate_components": "640",
+      "retained_components": "64",
+      "transition_prior_tail": "0.0007853526",
+      "approximate_posterior_pruned_mass": "0.2779420140",
+      "pruning_warning": "true",
+      "max_ep_iterations": "0"
+    },
+    {
+      "components": "64",
+      "count_cap": "3",
+      "date": "1965-12-08",
+      "matches": "1",
+      "candidate_components": "640",
+      "retained_components": "64",
+      "transition_prior_tail": "0.0004913049",
+      "approximate_posterior_pruned_mass": "0.2741296068",
+      "pruning_warning": "true",
+      "max_ep_iterations": "0"
+    },
+    {
+      "components": "64",
+      "count_cap": "3",
+      "date": "1973-06-09",
+      "matches": "1",
+      "candidate_components": "640",
+      "retained_components": "64",
+      "transition_prior_tail": "0.0003918433",
+      "approximate_posterior_pruned_mass": "0.2629046655",
+      "pruning_warning": "true",
+      "max_ep_iterations": "0"
+    },
+    {
+      "components": "64",
+      "count_cap": "3",
+      "date": "1974-05-18",
+      "matches": "1",
+      "candidate_components": "640",
+      "retained_components": "64",
+      "transition_prior_tail": "0.0002035085",
+      "approximate_posterior_pruned_mass": "0.2395041737",
+      "pruning_warning": "true",
+      "max_ep_iterations": "0"
+    }
+  ],
+  "inference": "same-cap beam changes affect both centers and uncertainty; pruning is a candidate cause, not yet a proven unique cause"
+}

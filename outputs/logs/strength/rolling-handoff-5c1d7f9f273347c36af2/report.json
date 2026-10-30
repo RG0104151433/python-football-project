@@ -1,0 +1,314 @@
+{
+  "candidate_directories": {
+    "robust_dynamic_shared": "data/processed/strength/ratings-840c2d734d6e1ea050ed",
+    "robust_dynamic_shared_fast": "data/processed/strength/ratings-4731c14ab8b8bb669118",
+    "robust_static": "data/processed/strength/ratings-86d0d4e286a204663c1a",
+    "robust_type_dynamic": "data/processed/strength/ratings-79227f69403c233e39ac",
+    "robust_type_dynamic_fast": "data/processed/strength/ratings-25fdad65c247180b28d3",
+    "robust_type_static": "data/processed/strength/ratings-3a0b572154392054d414",
+    "smooth_static": "data/processed/strength/ratings-86ac627935f0b706dc08"
+  },
+  "complex_jump_admission": false,
+  "experimental_input_performance_gate_passed": true,
+  "external_checks": [
+    {
+      "accuracy": 0.5648369865536931,
+      "brier": 0.5436021786827805,
+      "count": 10858,
+      "fixed_step_accuracy": 0.5531405415361945,
+      "fixed_step_log_loss": 0.946815682248184,
+      "frequency_accuracy": 0.48277767544667527,
+      "frequency_log_loss": 1.0507592130621257,
+      "home_probability_bias": 0.002851513779637134,
+      "log_loss": 0.9171019555603915,
+      "max_calibration_bin_error": 0.08124100348094576,
+      "passed": true,
+      "period": "reused_1980_1999",
+      "scope": "all_learning",
+      "tests": {
+        "accuracy_not_worse_than_frequency": true,
+        "calibration": true,
+        "fixed_step_noninferiority": true,
+        "home_probability_bias": true,
+        "log_loss_gain_over_frequency": true
+      }
+    },
+    {
+      "accuracy": 0.5705698485212791,
+      "brier": 0.5389704209245739,
+      "count": 8318,
+      "fixed_step_accuracy": 0.5584275066121663,
+      "fixed_step_log_loss": 0.9397745529721915,
+      "frequency_accuracy": 0.4979562394806444,
+      "frequency_log_loss": 1.0423854132771904,
+      "home_probability_bias": 0.0111431432053258,
+      "log_loss": 0.909957135795977,
+      "max_calibration_bin_error": 0.055339098686885135,
+      "passed": true,
+      "period": "reused_1980_1999",
+      "scope": "accepted_study",
+      "tests": {
+        "accuracy_not_worse_than_frequency": true,
+        "calibration": true,
+        "fixed_step_noninferiority": true,
+        "home_probability_bias": true,
+        "log_loss_gain_over_frequency": true
+      }
+    },
+    {
+      "accuracy": 0.5880313199105145,
+      "brier": 0.5213359498182537,
+      "count": 8940,
+      "fixed_step_accuracy": 0.5765100671140939,
+      "fixed_step_log_loss": 0.9122619024487122,
+      "frequency_accuracy": 0.48691275167785236,
+      "frequency_log_loss": 1.0423806638386803,
+      "home_probability_bias": 0.010815241597337807,
+      "log_loss": 0.8852186063203634,
+      "max_calibration_bin_error": 0.04125082490033172,
+      "passed": true,
+      "period": "reused_2000_2009",
+      "scope": "all_learning",
+      "tests": {
+        "accuracy_not_worse_than_frequency": true,
+        "calibration": true,
+        "fixed_step_noninferiority": true,
+        "home_probability_bias": true,
+        "log_loss_gain_over_frequency": true
+      }
+    },
+    {
+      "accuracy": 0.5948777648428405,
+      "brier": 0.5135086735483539,
+      "count": 6872,
+      "fixed_step_accuracy": 0.584837019790454,
+      "fixed_step_log_loss": 0.8959361090107166,
+      "frequency_accuracy": 0.5084400465657741,
+      "frequency_log_loss": 1.033723321937487,
+      "home_probability_bias": 0.01470111707233702,
+      "log_loss": 0.8722116112496575,
+      "max_calibration_bin_error": 0.06397258828493824,
+      "passed": true,
+      "period": "reused_2000_2009",
+      "scope": "accepted_study",
+      "tests": {
+        "accuracy_not_worse_than_frequency": true,
+        "calibration": true,
+        "fixed_step_noninferiority": true,
+        "home_probability_bias": true,
+        "log_loss_gain_over_frequency": true
+      }
+    },
+    {
+      "accuracy": 0.5900344789233678,
+      "brier": 0.524028409335449,
+      "count": 8991,
+      "fixed_step_accuracy": 0.5780224669113558,
+      "fixed_step_log_loss": 0.9027600598435,
+      "frequency_accuracy": 0.48081414748081414,
+      "frequency_log_loss": 1.0479371522652783,
+      "home_probability_bias": 0.009586642235858079,
+      "log_loss": 0.8908921755961394,
+      "max_calibration_bin_error": 0.06183193407281462,
+      "passed": true,
+      "period": "reused_2010_2019",
+      "scope": "all_learning",
+      "tests": {
+        "accuracy_not_worse_than_frequency": true,
+        "calibration": true,
+        "fixed_step_noninferiority": true,
+        "home_probability_bias": true,
+        "log_loss_gain_over_frequency": true
+      }
+    },
+    {
+      "accuracy": 0.6087153196622437,
+      "brier": 0.5096740976868722,
+      "count": 6632,
+      "fixed_step_accuracy": 0.5952955367913149,
+      "fixed_step_log_loss": 0.8807927221726396,
+      "frequency_accuracy": 0.5045235223160435,
+      "frequency_log_loss": 1.0358772713476871,
+      "home_probability_bias": 0.014987380237545233,
+      "log_loss": 0.8703261234243169,
+      "max_calibration_bin_error": 0.06807301403610289,
+      "passed": true,
+      "period": "reused_2010_2019",
+      "scope": "accepted_study",
+      "tests": {
+        "accuracy_not_worse_than_frequency": true,
+        "calibration": true,
+        "fixed_step_noninferiority": true,
+        "home_probability_bias": true,
+        "log_loss_gain_over_frequency": true
+      }
+    },
+    {
+      "accuracy": 0.6040888107276324,
+      "brier": 0.5153511827259888,
+      "count": 4549,
+      "fixed_step_accuracy": 0.5994724115190152,
+      "fixed_step_log_loss": 0.8796505017879722,
+      "frequency_accuracy": 0.4741701472851176,
+      "frequency_log_loss": 1.0487238028844363,
+      "home_probability_bias": 0.017880160309584524,
+      "log_loss": 0.8779304599047868,
+      "max_calibration_bin_error": 0.05198351133677803,
+      "passed": true,
+      "period": "reused_2020_2024",
+      "scope": "all_learning",
+      "tests": {
+        "accuracy_not_worse_than_frequency": true,
+        "calibration": true,
+        "fixed_step_noninferiority": true,
+        "home_probability_bias": true,
+        "log_loss_gain_over_frequency": true
+      }
+    },
+    {
+      "accuracy": 0.6132471728594507,
+      "brier": 0.5070153085858504,
+      "count": 3095,
+      "fixed_step_accuracy": 0.6096930533117932,
+      "fixed_step_log_loss": 0.8639588075940718,
+      "frequency_accuracy": 0.5085621970920841,
+      "frequency_log_loss": 1.032750044091541,
+      "home_probability_bias": 0.026499972652019383,
+      "log_loss": 0.8653649511842828,
+      "max_calibration_bin_error": 0.05177803244937618,
+      "passed": true,
+      "period": "reused_2020_2024",
+      "scope": "accepted_study",
+      "tests": {
+        "accuracy_not_worse_than_frequency": true,
+        "calibration": true,
+        "fixed_step_noninferiority": true,
+        "home_probability_bias": true,
+        "log_loss_gain_over_frequency": true
+      }
+    }
+  ],
+  "forecast_engineering_gate_passed": true,
+  "independent_historical_test_remaining": false,
+  "model_optimality_proven": false,
+  "prospective_validation_completed": false,
+  "protocol": {
+    "base_protocol": "config/strength_global_v3.json",
+    "candidates": [
+      {
+        "epsilon": 0,
+        "id": "smooth_static",
+        "modules": 0
+      },
+      {
+        "id": "robust_static",
+        "modules": 1
+      },
+      {
+        "home_q": 0.005,
+        "id": "robust_dynamic_shared",
+        "modules": 2
+      },
+      {
+        "home_q": 0.02,
+        "id": "robust_dynamic_shared_fast",
+        "modules": 2
+      },
+      {
+        "home_by_type": true,
+        "id": "robust_type_static",
+        "modules": 2
+      },
+      {
+        "home_by_type": true,
+        "home_q": 0.005,
+        "id": "robust_type_dynamic",
+        "modules": 3
+      },
+      {
+        "home_by_type": true,
+        "home_q": 0.02,
+        "id": "robust_type_dynamic_fast",
+        "modules": 3
+      }
+    ],
+    "check_blocks": [
+      [
+        1980,
+        1999
+      ],
+      [
+        2000,
+        2009
+      ],
+      [
+        2010,
+        2019
+      ],
+      [
+        2020,
+        2024
+      ]
+    ],
+    "complex_jump": {
+      "component_budgets": [
+        4,
+        8,
+        16
+      ],
+      "covariance_buffer_bytes": 536870912,
+      "global_profile_days": 250,
+      "no_automatic_admission_on_cost_pass": true,
+      "per_profile_seconds": 300,
+      "probability_difference_gate": 0.01,
+      "transition_partitions": [
+        0,
+        1
+      ]
+    },
+    "decision_log_id": "R20261029-10",
+    "experimental_input_acceptance": {
+      "failed_calibration_must_remain_explicit": true,
+      "fixed_step_log_loss_noninferiority_margin": 0.01,
+      "log_loss_gain_over_frequency_at_least": 0.005,
+      "max_tightening_probability_difference": 0.01,
+      "same_study_ids": 24917,
+      "scope": "design_and_exploratory_input_only_not_confirmatory_or_causal",
+      "source_time_covariance_restart_audit_required": true,
+      "uncertainty": "conditional filter covariance does not cover model/selection/identity error"
+    },
+    "forecast_acceptance": "all original v3 engineering gates, per pooled predeclared blocks; reused historical checks only, no prospective certification",
+    "learning": "outputs/logs/strength/learning-b2889411cc93b44f88b6",
+    "parameters": {
+      "alpha": 0.65,
+      "delta": 0.4,
+      "epsilon": 0.05,
+      "jump_rate": 0,
+      "jump_sd": 1.2,
+      "q": 0.03
+    },
+    "prohibitions": [
+      "do_not_relax_original_forecast_gates",
+      "do_not_call_reused_years_unseen",
+      "no_modification_of_24917_or_117",
+      "no_confirmatory_joint_inference_from_experimental_admission"
+    ],
+    "rolling": {
+      "complexity_loss_margin": 0.002,
+      "first_year": 1980,
+      "last_year": 2024,
+      "lookback_years": 10,
+      "no_current_year_outcomes_for_selection": true,
+      "role": "past_only_rule_evaluation_on_reused_history_not_new_independent_test",
+      "selection_scope": "all_eligible_learning_matches_in_previous_ten_calendar_years"
+    },
+    "schema_version": "strength-handoff-v1",
+    "start": 1950
+  },
+  "rows": 33338,
+  "strict_numerical_replay": true,
+  "study_rows": 24917,
+  "technical_audit_required_before_input_release": true,
+  "uncertainty": "conditional rating covariance; does not include model selection/parameter/identity errors",
+  "use": "exploratory_joint_design_only_until_separate_joint_model_validation"
+}

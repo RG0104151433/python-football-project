@@ -1,0 +1,3 @@
+# 滚动研究输入
+
+赛前字段同全局评分器。每年仅按此前十年选择候选，当年内继续逐日学习。rating_run_id绑定各行实际候选；selected_model和selector_information_cutoff记录年度选择。候选检查点在各candidate_directories，不能只恢复一个候选就当作完整滚动选择器。outcome_index不进入特征表。全部历史为复用诊断，不是新独立盲测。

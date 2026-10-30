@@ -1,0 +1,5 @@
+﻿scope,components,count,accuracy,log_loss,brier,completed_matches,previous_probability_difference,within_gate
+twenty,8,89,0.5056179775,1.1023170396,0.6594378826,389,,
+twenty,16,89,0.5168539326,1.1006002783,0.6588287441,389,0.0171729906,false
+twenty,32,89,0.5168539326,1.0999402733,0.6582044347,389,0.0151979262,false
+global_profile,8,0,,,,358,,

@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://papers.nips.cc/paper/2019/file/8ca01ea920679a0fe3728441494041b9-Paper.pdf",
+    "path": "参考资料/方法文献/原文/Kull_2019_Dirichlet_calibration.pdf",
+    "status": "downloaded",
+    "bytes": 375419,
+    "sha256": "9af5e506f4c7baf03a24a3951a93bfee1af3f1b77b49d51adeef7842b3826921"
+  },
+  {
+    "url": "https://tminka.github.io/papers/ep/minka-ep-uai.pdf",
+    "path": "参考资料/方法文献/原文/Minka_2001_EP_UAI.pdf",
+    "status": "downloaded",
+    "bytes": 408106,
+    "sha256": "c61baeab3ff1379ab3db5882bd4451e0a40f8b727c32b133c4f623c4177ffc4a"
+  }
+]

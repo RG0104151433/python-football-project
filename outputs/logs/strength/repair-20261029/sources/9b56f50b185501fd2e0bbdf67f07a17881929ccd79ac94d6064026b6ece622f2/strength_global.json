@@ -1,0 +1,302 @@
+{
+  "schema_version": "strength-global-v1",
+  "decision_log_id": "R20261029-06",
+  "status": "frozen_before_global_selection_and_time_holdout",
+  "learning": "outputs/logs/strength/learning-b2889411cc93b44f88b6",
+  "starts": [
+    1950,
+    1960
+  ],
+  "development": [
+    "1970-01-01",
+    "1974-12-31"
+  ],
+  "selection_validation": [
+    "1975-01-01",
+    "1979-12-31"
+  ],
+  "external_checks": [
+    {
+      "id": "early_external",
+      "start": "1980-01-01",
+      "end": "2009-12-31"
+    },
+    {
+      "id": "time_holdout",
+      "start": "2010-01-01",
+      "end": "2019-12-31"
+    }
+  ],
+  "reserve": [
+    "2020-01-01",
+    "2024-12-31"
+  ],
+  "reserve_use": "state_updates_and_features_only; prediction_scores_not_opened_by_this_stage",
+  "initial_team_variance": 1,
+  "initial_home_variance": 0.25,
+  "candidates": [
+    {
+      "id": "g00_smooth_base",
+      "parameters": {
+        "q": 0.03,
+        "jump_rate": 0,
+        "jump_sd": 1.2,
+        "delta": 0.3,
+        "alpha": 0.65,
+        "epsilon": 0
+      },
+      "modules": 0
+    },
+    {
+      "id": "g01_smooth_q_low",
+      "parameters": {
+        "q": 0.01,
+        "jump_rate": 0,
+        "jump_sd": 1.2,
+        "delta": 0.3,
+        "alpha": 0.65,
+        "epsilon": 0
+      },
+      "modules": 0
+    },
+    {
+      "id": "g02_smooth_q_high",
+      "parameters": {
+        "q": 0.08,
+        "jump_rate": 0,
+        "jump_sd": 1.2,
+        "delta": 0.3,
+        "alpha": 0.65,
+        "epsilon": 0
+      },
+      "modules": 0
+    },
+    {
+      "id": "g03_smooth_draw_low",
+      "parameters": {
+        "q": 0.03,
+        "jump_rate": 0,
+        "jump_sd": 1.2,
+        "delta": 0.2,
+        "alpha": 0.65,
+        "epsilon": 0
+      },
+      "modules": 0
+    },
+    {
+      "id": "g04_smooth_draw_high",
+      "parameters": {
+        "q": 0.03,
+        "jump_rate": 0,
+        "jump_sd": 1.2,
+        "delta": 0.5,
+        "alpha": 0.65,
+        "epsilon": 0
+      },
+      "modules": 0
+    },
+    {
+      "id": "g05_smooth_friendly_low",
+      "parameters": {
+        "q": 0.03,
+        "jump_rate": 0,
+        "jump_sd": 1.2,
+        "delta": 0.3,
+        "alpha": 0.4,
+        "epsilon": 0
+      },
+      "modules": 0
+    },
+    {
+      "id": "g06_smooth_friendly_high",
+      "parameters": {
+        "q": 0.03,
+        "jump_rate": 0,
+        "jump_sd": 1.2,
+        "delta": 0.3,
+        "alpha": 0.85,
+        "epsilon": 0
+      },
+      "modules": 0
+    },
+    {
+      "id": "g07_robust_base",
+      "parameters": {
+        "q": 0.03,
+        "jump_rate": 0,
+        "jump_sd": 1.2,
+        "delta": 0.3,
+        "alpha": 0.65,
+        "epsilon": 0.05
+      },
+      "modules": 1
+    },
+    {
+      "id": "g08_robust_q_low",
+      "parameters": {
+        "q": 0.01,
+        "jump_rate": 0,
+        "jump_sd": 1.2,
+        "delta": 0.3,
+        "alpha": 0.65,
+        "epsilon": 0.05
+      },
+      "modules": 1
+    },
+    {
+      "id": "g09_robust_q_high",
+      "parameters": {
+        "q": 0.08,
+        "jump_rate": 0,
+        "jump_sd": 1.2,
+        "delta": 0.3,
+        "alpha": 0.65,
+        "epsilon": 0.05
+      },
+      "modules": 1
+    },
+    {
+      "id": "g10_robust_draw_low",
+      "parameters": {
+        "q": 0.03,
+        "jump_rate": 0,
+        "jump_sd": 1.2,
+        "delta": 0.2,
+        "alpha": 0.65,
+        "epsilon": 0.05
+      },
+      "modules": 1
+    },
+    {
+      "id": "g11_robust_draw_high",
+      "parameters": {
+        "q": 0.03,
+        "jump_rate": 0,
+        "jump_sd": 1.2,
+        "delta": 0.5,
+        "alpha": 0.65,
+        "epsilon": 0.05
+      },
+      "modules": 1
+    },
+    {
+      "id": "g12_robust_friendly_low",
+      "parameters": {
+        "q": 0.03,
+        "jump_rate": 0,
+        "jump_sd": 1.2,
+        "delta": 0.3,
+        "alpha": 0.4,
+        "epsilon": 0.05
+      },
+      "modules": 1
+    },
+    {
+      "id": "g13_robust_friendly_high",
+      "parameters": {
+        "q": 0.03,
+        "jump_rate": 0,
+        "jump_sd": 1.2,
+        "delta": 0.3,
+        "alpha": 0.85,
+        "epsilon": 0.05
+      },
+      "modules": 1
+    },
+    {
+      "id": "g14_robust_background_high",
+      "parameters": {
+        "q": 0.03,
+        "jump_rate": 0,
+        "jump_sd": 1.2,
+        "delta": 0.3,
+        "alpha": 0.65,
+        "epsilon": 0.12
+      },
+      "modules": 1
+    }
+  ],
+  "numerics": {
+    "max_components": 8,
+    "jump_total_cap": 2,
+    "max_transition_prior_tail": 0.02,
+    "max_children_per_parent": 256,
+    "ep_max_iter": 100,
+    "ep_tolerance": 0.000001,
+    "ep_damping": 0.5,
+    "psd_tolerance": 1e-8,
+    "rank_tolerance": 1e-12,
+    "pruned_weight_warning": 0.1,
+    "precision_checks": {
+      "larger_components": 16,
+      "larger_jump_cap": 3,
+      "quadrature_order": 35,
+      "probability_error_gate": 0.01
+    },
+    "psd_check_every": 50
+  },
+  "selection": {
+    "primary": "validation_log_loss",
+    "tie_margin": 0.01,
+    "tie_order": [
+      "fewer_modules",
+      "prespecified_candidate_order",
+      "earlier_start"
+    ],
+    "no_post1980_parameter_retuning": true
+  },
+  "baselines": {
+    "frequency": "separate_neutral_non_neutral_Dirichlet1_counts",
+    "fixed_step": {
+      "K": [
+        10,
+        20,
+        40
+      ],
+      "H": [
+        0,
+        60,
+        100
+      ],
+      "draw": [
+        0.5,
+        0.75,
+        1
+      ],
+      "start": 1950,
+      "selection": "lowest1975_1979_log_loss_then_stable_grid_order",
+      "formula": "Davidson WDL softmax(u,log(nu),-u); u=ln(10)*signed_gap/800; R+=K*(observed_score-expected_score); same_date_frozen"
+    }
+  },
+  "admission": {
+    "candidate_pool": "numerically_admitted_Gaussian_special_case; compound_jump_challenger_requires_broader_numerical_and_cost_gate_before_global_selection",
+    "not_global_optimality_claim": true
+  },
+  "acceptance": {
+    "numeric_probability_tolerance": 0.01,
+    "log_loss_gain_over_frequency_at_least": 0.005,
+    "accuracy_noninferiority_margin": 0.01,
+    "calibration_min_bin_count": 200,
+    "calibration_max_bin_error": 0.1,
+    "home_probability_mean_bias_max": 0.03,
+    "fixed_step_report_required": true,
+    "fixed_step_log_loss_noninferiority_margin": 0.01,
+    "uncertainty_claim": "engineering_and_predictive_use_gate; not_a_confidence_or_causal_guarantee"
+  },
+  "snapshots": [
+    "1979-12-31",
+    "1989-12-31",
+    "1999-12-31",
+    "2009-12-31",
+    "2019-12-31",
+    "2024-12-31"
+  ],
+  "limits": [
+    "conditional_identity_eligibility",
+    "extra_time_included_no_shootout",
+    "single_dimension_strength",
+    "shared_static_home_state",
+    "no_goal_margin",
+    "hyperparameter_uncertainty_not_in_conditional_covariance"
+  ]
+}

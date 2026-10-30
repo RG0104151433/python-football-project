@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "checks": 2085911,
+  "failed": [],
+  "candidate_audits": {
+    "robust_dynamic_shared": {
+      "passed": true,
+      "checks": 272485,
+      "failed": [],
+      "source": "data/processed/strength/ratings-57aceb7b96e4445782d4",
+      "rows": 38919,
+      "study_rows": 24917,
+      "model_admission": true,
+      "scope": "independent arithmetic/input/chronology/restart only, not model validity or human review"
+    },
+    "robust_dynamic_shared_fast": {
+      "passed": true,
+      "checks": 272485,
+      "failed": [],
+      "source": "data/processed/strength/ratings-438950a3479c1bc3867f",
+      "rows": 38919,
+      "study_rows": 24917,
+      "model_admission": true,
+      "scope": "independent arithmetic/input/chronology/restart only, not model validity or human review"
+    },
+    "robust_static": {
+      "passed": true,
+      "checks": 272485,
+      "failed": [],
+      "source": "data/processed/strength/ratings-1f7976798efedad69226",
+      "rows": 38919,
+      "study_rows": 24917,
+      "model_admission": false,
+      "scope": "independent arithmetic/input/chronology/restart only, not model validity or human review"
+    },
+    "robust_type_dynamic": {
+      "passed": true,
+      "checks": 272485,
+      "failed": [],
+      "source": "data/processed/strength/ratings-ecbaef30269f886c7b49",
+      "rows": 38919,
+      "study_rows": 24917,
+      "model_admission": true,
+      "scope": "independent arithmetic/input/chronology/restart only, not model validity or human review"
+    },
+    "robust_type_dynamic_fast": {
+      "passed": true,
+      "checks": 272485,
+      "failed": [],
+      "source": "data/processed/strength/ratings-aac5885c8faf44a7a870",
+      "rows": 38919,
+      "study_rows": 24917,
+      "model_admission": true,
+      "scope": "independent arithmetic/input/chronology/restart only, not model validity or human review"
+    },
+    "robust_type_static": {
+      "passed": true,
+      "checks": 272485,
+      "failed": [],
+      "source": "data/processed/strength/ratings-18c6ac3b7b250cebe5cc",
+      "rows": 38919,
+      "study_rows": 24917,
+      "model_admission": false,
+      "scope": "independent arithmetic/input/chronology/restart only, not model validity or human review"
+    },
+    "smooth_static": {
+      "passed": true,
+      "checks": 272485,
+      "failed": [],
+      "source": "data/processed/strength/ratings-b80fed0da8871f5d33e1",
+      "rows": 38919,
+      "study_rows": 24917,
+      "model_admission": false,
+      "scope": "independent arithmetic/input/chronology/restart only, not model validity or human review"
+    }
+  },
+  "fixed_checkpoint_replay_equality": {
+    "smooth_static": {
+      "rows": 38919,
+      "identical_rows": 38919,
+      "ignored": [
+        "rating_rules_version",
+        "rating_run_id"
+      ]
+    },
+    "robust_static": {
+      "rows": 38919,
+      "identical_rows": 38919,
+      "ignored": [
+        "rating_rules_version",
+        "rating_run_id"
+      ]
+    }
+  },
+  "source": "outputs/logs/strength/rolling-handoff-1cd3ad86ea1d84cb2d4a",
+  "human_review": "not_performed",
+  "scope": "saved arithmetic/chronology/source/restart; not latent truth or prospective validation"
+}
