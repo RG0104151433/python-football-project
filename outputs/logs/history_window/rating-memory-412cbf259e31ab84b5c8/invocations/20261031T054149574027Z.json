@@ -1,0 +1,88 @@
+{
+  "cache_requests": 0,
+  "computed_requests": 16,
+  "mode": "development",
+  "stage": "rating",
+  "task_requests": [
+    {
+      "job": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\outputs\\logs\\history_window\\rating-memory-412cbf259e31ab84b5c8\\jobs\\cumulative_reference",
+      "request_seconds": 346.48460409999825,
+      "source": "computed"
+    },
+    {
+      "job": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\outputs\\logs\\history_window\\rating-memory-412cbf259e31ab84b5c8\\jobs\\real\\2000-2y",
+      "request_seconds": 18.983094299968798,
+      "source": "computed"
+    },
+    {
+      "job": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\outputs\\logs\\history_window\\rating-memory-412cbf259e31ab84b5c8\\jobs\\real\\2000-4y",
+      "request_seconds": 25.964988499996252,
+      "source": "computed"
+    },
+    {
+      "job": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\outputs\\logs\\history_window\\rating-memory-412cbf259e31ab84b5c8\\jobs\\real\\2000-8y",
+      "request_seconds": 60.00196609995328,
+      "source": "computed"
+    },
+    {
+      "job": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\outputs\\logs\\history_window\\rating-memory-412cbf259e31ab84b5c8\\jobs\\real\\2000-12y",
+      "request_seconds": 72.90934309997829,
+      "source": "computed"
+    },
+    {
+      "job": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\outputs\\logs\\history_window\\rating-memory-412cbf259e31ab84b5c8\\jobs\\real\\2000-20y",
+      "request_seconds": 99.49382710002828,
+      "source": "computed"
+    },
+    {
+      "job": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\outputs\\logs\\history_window\\rating-memory-412cbf259e31ab84b5c8\\jobs\\real\\2004-2y",
+      "request_seconds": 9.92102030001115,
+      "source": "computed"
+    },
+    {
+      "job": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\outputs\\logs\\history_window\\rating-memory-412cbf259e31ab84b5c8\\jobs\\real\\2004-4y",
+      "request_seconds": 30.634949000028428,
+      "source": "computed"
+    },
+    {
+      "job": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\outputs\\logs\\history_window\\rating-memory-412cbf259e31ab84b5c8\\jobs\\real\\2004-8y",
+      "request_seconds": 42.79527780000353,
+      "source": "computed"
+    },
+    {
+      "job": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\outputs\\logs\\history_window\\rating-memory-412cbf259e31ab84b5c8\\jobs\\real\\2004-12y",
+      "request_seconds": 75.78091949998634,
+      "source": "computed"
+    },
+    {
+      "job": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\outputs\\logs\\history_window\\rating-memory-412cbf259e31ab84b5c8\\jobs\\real\\2004-20y",
+      "request_seconds": 101.9790137000382,
+      "source": "computed"
+    },
+    {
+      "job": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\outputs\\logs\\history_window\\rating-memory-412cbf259e31ab84b5c8\\jobs\\real\\2009-2y",
+      "request_seconds": 9.505104999989271,
+      "source": "computed"
+    },
+    {
+      "job": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\outputs\\logs\\history_window\\rating-memory-412cbf259e31ab84b5c8\\jobs\\real\\2009-4y",
+      "request_seconds": 14.95808880002005,
+      "source": "computed"
+    },
+    {
+      "job": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\outputs\\logs\\history_window\\rating-memory-412cbf259e31ab84b5c8\\jobs\\real\\2009-8y",
+      "request_seconds": 28.46748649998335,
+      "source": "computed"
+    },
+    {
+      "job": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\outputs\\logs\\history_window\\rating-memory-412cbf259e31ab84b5c8\\jobs\\real\\2009-12y",
+      "request_seconds": 54.33835600002203,
+      "source": "computed"
+    },
+    {
+      "job": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\outputs\\logs\\history_window\\rating-memory-412cbf259e31ab84b5c8\\jobs\\real\\2009-20y",
+      "request_seconds": 98.6337183000287,
+      "source": "computed"
+    }
+  ]
+}

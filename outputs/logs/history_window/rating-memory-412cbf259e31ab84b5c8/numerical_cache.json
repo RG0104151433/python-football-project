@@ -1,0 +1,12 @@
+{
+  "exact_count_keys": true,
+  "hits": 3695944,
+  "maxsize": 8192,
+  "misses": 15855,
+  "single_factor_cavity": {
+    "calls": 209,
+    "numerical_fallbacks": 0,
+    "reuses": 199
+  },
+  "thresholds_changed": false
+}

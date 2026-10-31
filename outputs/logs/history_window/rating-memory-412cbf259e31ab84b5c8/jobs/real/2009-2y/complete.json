@@ -1,0 +1,9 @@
+{
+  "outputs": {
+    "features.json": "e97e87ac96bf10c06b1f507f90af1da70017686a32f18343d13ea165e44cf1c3",
+    "final_state.json": "7fb2bb4d8d1ebaf3699805cda5a28defa2f75aeac9b4535024c9f6535a537cf3",
+    "pairs.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "telemetry.json": "9befd76017afd01b46610305ce62689748ae7a828c732ac13a193bc8481ac8c3"
+  },
+  "task_sha": "5a031954be8d813cd599e070c1cba3c572df011dcc34f8cb554eb82816146f79"
+}

@@ -1,0 +1,14 @@
+{
+  "emitted_rows": 798,
+  "history_dates": 3044,
+  "history_rows": 10116,
+  "left": "1992-01-01",
+  "peak_rss_mib": 394.46484375,
+  "phase_guard": "cooperative checks before each full date, not hard process kill",
+  "policy": "annual_reset_12y",
+  "prior_checkpoint_seconds": 0.0,
+  "resumed": false,
+  "right": "2005-01-01",
+  "seconds": 75.53915079997387,
+  "years": 12
+}

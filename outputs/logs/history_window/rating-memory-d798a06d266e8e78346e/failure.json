@@ -1,0 +1,8 @@
+{
+  "error": "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\EasonG\\\\Desktop\\\\Repository\\\\python-football-project\\\\outputs\\\\logs\\\\history_window\\\\rating-memory-d798a06d266e8e78346e\\\\jobs\\\\cumulative_reference\\\\.prep-7zid8leo' -> 'C:\\\\Users\\\\EasonG\\\\Desktop\\\\Repository\\\\python-football-project\\\\outputs\\\\logs\\\\history_window\\\\rating-memory-d798a06d266e8e78346e\\\\jobs\\\\cumulative_reference\\\\checkpoint.json'",
+  "error_type": "PermissionError",
+  "incomplete": true,
+  "mode": "development",
+  "no_silent_dropping": true,
+  "stage": "rating"
+}

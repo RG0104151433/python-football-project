@@ -1,0 +1,84 @@
+{
+  "checkpoint_dates": 50,
+  "count_weight_cache": "bounded deterministic memoization; verify against uncached original filter; no numerical thresholds changed",
+  "decision_log_id": "R20261031-13",
+  "development_years": [
+    2000,
+    2004,
+    2009
+  ],
+  "evaluation_years": [
+    2000,
+    2024
+  ],
+  "first_year": 1980,
+  "formal_inference": false,
+  "historical_choices_reused": true,
+  "last_year": 2024,
+  "learning_config": "config/strength_global_v3.json",
+  "max_job_seconds": 600,
+  "max_rss_mib": 2048,
+  "model": "M3_nested",
+  "new_blind_holdout": false,
+  "outcome_training_policy": "cumulative_since1980",
+  "outcome_training_start": "1980-01-01",
+  "phase_seconds": {
+    "downstream_evaluation": 3600,
+    "formal_simulation": 14400,
+    "independent_audit": 3600,
+    "real_annual_features": 21600,
+    "real_development": 2700,
+    "simulation_development": 2700,
+    "strict_probes": 7200
+  },
+  "policy": "annual reset using preceding W complete years, update all subsequent prior dates; not strict W-year",
+  "probability_clip": 1e-06,
+  "raw_score": "data/processed/strength/jump-ratings-451ecade0bf84ee0bfb6",
+  "ridge_precision": 1.0,
+  "schema_version": "history-window-rating-v1",
+  "simulation": {
+    "development_seeds": [
+      631201,
+      631202
+    ],
+    "evaluation_start_month": 240,
+    "formal_seeds": [
+      631211,
+      631212,
+      631213,
+      631214,
+      631215,
+      631216,
+      631217,
+      631218,
+      631219,
+      631220
+    ],
+    "independent_unit": "seed group; six scenarios within group may be dependent",
+    "jump_month": 288,
+    "links": [
+      "probit",
+      "logistic"
+    ],
+    "months": 360,
+    "paths": [
+      "constant",
+      "drift",
+      "jump"
+    ],
+    "start_year": 2000,
+    "version": "latent-v2"
+  },
+  "strict_scope": "predeclared12development dates, native ratings and probabilities only",
+  "study_config": "config/strength_joint.json",
+  "threads": 1,
+  "windows": [
+    2,
+    4,
+    8,
+    12,
+    20,
+    null
+  ],
+  "workers": 1
+}
