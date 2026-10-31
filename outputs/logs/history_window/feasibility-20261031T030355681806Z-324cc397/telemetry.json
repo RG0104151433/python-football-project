@@ -1,0 +1,296 @@
+{
+  "hardware": {
+    "logical_cpus": 32,
+    "processor": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+    "ram_mb": 31797.84375
+  },
+  "records": [
+    {
+      "baseline_rss_mb": 254.03515625,
+      "budget_passed": true,
+      "cpu_seconds": 0.671875,
+      "job": "outcome:2000:2y",
+      "memory_sample_seconds": 0.01,
+      "peak_increment_mb": 1.36328125,
+      "sampled_peak_rss_mb": 255.3984375,
+      "seconds": 0.6740732000325806,
+      "status": "completed"
+    },
+    {
+      "baseline_rss_mb": 255.3828125,
+      "budget_passed": true,
+      "cpu_seconds": 1.28125,
+      "job": "outcome:2000:4y",
+      "memory_sample_seconds": 0.01,
+      "peak_increment_mb": 3.46484375,
+      "sampled_peak_rss_mb": 258.84765625,
+      "seconds": 1.2663608000148088,
+      "status": "completed"
+    },
+    {
+      "baseline_rss_mb": 255.69140625,
+      "budget_passed": true,
+      "cpu_seconds": 6.609375,
+      "job": "outcome:2000:cumulative",
+      "memory_sample_seconds": 0.01,
+      "peak_increment_mb": 15.71484375,
+      "sampled_peak_rss_mb": 271.40625,
+      "seconds": 6.580533400003333,
+      "status": "completed"
+    },
+    {
+      "baseline_rss_mb": 256.15234375,
+      "budget_passed": true,
+      "cpu_seconds": 0.515625,
+      "job": "outcome:2005:2y",
+      "memory_sample_seconds": 0.01,
+      "peak_increment_mb": 0.0,
+      "sampled_peak_rss_mb": 256.15234375,
+      "seconds": 0.5370025000302121,
+      "status": "completed"
+    },
+    {
+      "baseline_rss_mb": 255.46875,
+      "budget_passed": true,
+      "cpu_seconds": 0.78125,
+      "job": "outcome:2005:4y",
+      "memory_sample_seconds": 0.01,
+      "peak_increment_mb": 2.234375,
+      "sampled_peak_rss_mb": 257.703125,
+      "seconds": 0.7958237000275403,
+      "status": "completed"
+    },
+    {
+      "baseline_rss_mb": 254.7109375,
+      "budget_passed": true,
+      "cpu_seconds": 8.515625,
+      "job": "outcome:2005:cumulative",
+      "memory_sample_seconds": 0.01,
+      "peak_increment_mb": 22.38671875,
+      "sampled_peak_rss_mb": 277.09765625,
+      "seconds": 8.680041100014932,
+      "status": "completed"
+    },
+    {
+      "baseline_rss_mb": 320.93359375,
+      "budget_passed": true,
+      "cpu_seconds": 17.8125,
+      "job": "rating:2000-01-04:2y",
+      "memory_sample_seconds": 0.01,
+      "peak_increment_mb": 2.60546875,
+      "sampled_peak_rss_mb": 323.5390625,
+      "seconds": 17.444977699953597,
+      "status": "completed"
+    },
+    {
+      "baseline_rss_mb": 323.62890625,
+      "budget_passed": true,
+      "cpu_seconds": 17.84375,
+      "job": "rating:2000-01-04:2y:repeat_mutation",
+      "memory_sample_seconds": 0.01,
+      "peak_increment_mb": 10.6328125,
+      "sampled_peak_rss_mb": 334.26171875,
+      "seconds": 17.49893990001874,
+      "status": "completed"
+    },
+    {
+      "baseline_rss_mb": 334.18359375,
+      "budget_passed": true,
+      "cpu_seconds": 24.140625,
+      "job": "rating:2000-01-04:2y:strict_numerics",
+      "memory_sample_seconds": 0.01,
+      "peak_increment_mb": 0.03125,
+      "sampled_peak_rss_mb": 334.21484375,
+      "seconds": 23.26803989999462,
+      "status": "completed"
+    },
+    {
+      "baseline_rss_mb": 334.19140625,
+      "budget_passed": true,
+      "cpu_seconds": 38.8125,
+      "job": "rating:2000-01-04:4y",
+      "memory_sample_seconds": 0.01,
+      "peak_increment_mb": 0.234375,
+      "sampled_peak_rss_mb": 334.42578125,
+      "seconds": 38.01287149998825,
+      "status": "completed"
+    },
+    {
+      "baseline_rss_mb": 334.609375,
+      "budget_passed": true,
+      "cpu_seconds": 17.703125,
+      "job": "rating:2000-01-07:2y",
+      "memory_sample_seconds": 0.01,
+      "peak_increment_mb": 0.109375,
+      "sampled_peak_rss_mb": 334.71875,
+      "seconds": 17.144929400004912,
+      "status": "completed"
+    },
+    {
+      "baseline_rss_mb": 334.7265625,
+      "budget_passed": true,
+      "cpu_seconds": 38.8125,
+      "job": "rating:2000-01-07:4y",
+      "memory_sample_seconds": 0.01,
+      "peak_increment_mb": 0.1640625,
+      "sampled_peak_rss_mb": 334.890625,
+      "seconds": 37.85254399996484,
+      "status": "completed"
+    },
+    {
+      "baseline_rss_mb": 335.22265625,
+      "budget_passed": true,
+      "cpu_seconds": 10.09375,
+      "job": "simulation:61031:constant:probit",
+      "memory_sample_seconds": 0.01,
+      "peak_increment_mb": 0.03125,
+      "sampled_peak_rss_mb": 335.25390625,
+      "seconds": 9.90198079997208,
+      "status": "completed"
+    },
+    {
+      "baseline_rss_mb": 335.2890625,
+      "budget_passed": true,
+      "cpu_seconds": 10.265625,
+      "job": "simulation:61031:constant:logistic",
+      "memory_sample_seconds": 0.01,
+      "peak_increment_mb": 0.03125,
+      "sampled_peak_rss_mb": 335.3203125,
+      "seconds": 9.857330200029537,
+      "status": "completed"
+    },
+    {
+      "baseline_rss_mb": 335.36328125,
+      "budget_passed": true,
+      "cpu_seconds": 9.890625,
+      "job": "simulation:61031:drift:probit",
+      "memory_sample_seconds": 0.01,
+      "peak_increment_mb": 0.03125,
+      "sampled_peak_rss_mb": 335.39453125,
+      "seconds": 9.819045400014147,
+      "status": "completed"
+    },
+    {
+      "baseline_rss_mb": 335.4453125,
+      "budget_passed": true,
+      "cpu_seconds": 10.09375,
+      "job": "simulation:61031:drift:logistic",
+      "memory_sample_seconds": 0.01,
+      "peak_increment_mb": 0.0390625,
+      "sampled_peak_rss_mb": 335.484375,
+      "seconds": 9.82318430003943,
+      "status": "completed"
+    },
+    {
+      "baseline_rss_mb": 335.5390625,
+      "budget_passed": true,
+      "cpu_seconds": 9.828125,
+      "job": "simulation:61031:jump:probit",
+      "memory_sample_seconds": 0.01,
+      "peak_increment_mb": 0.03515625,
+      "sampled_peak_rss_mb": 335.57421875,
+      "seconds": 9.534883400017861,
+      "status": "completed"
+    },
+    {
+      "baseline_rss_mb": 335.6328125,
+      "budget_passed": true,
+      "cpu_seconds": 9.859375,
+      "job": "simulation:61031:jump:logistic",
+      "memory_sample_seconds": 0.01,
+      "peak_increment_mb": 0.03125,
+      "sampled_peak_rss_mb": 335.6640625,
+      "seconds": 9.603777199983597,
+      "status": "completed"
+    },
+    {
+      "baseline_rss_mb": 335.7109375,
+      "budget_passed": true,
+      "cpu_seconds": 9.703125,
+      "job": "simulation:61032:constant:probit",
+      "memory_sample_seconds": 0.01,
+      "peak_increment_mb": 0.03515625,
+      "sampled_peak_rss_mb": 335.74609375,
+      "seconds": 9.347422799968626,
+      "status": "completed"
+    },
+    {
+      "baseline_rss_mb": 335.796875,
+      "budget_passed": true,
+      "cpu_seconds": 9.859375,
+      "job": "simulation:61032:constant:logistic",
+      "memory_sample_seconds": 0.01,
+      "peak_increment_mb": 0.0390625,
+      "sampled_peak_rss_mb": 335.8359375,
+      "seconds": 9.658702399989124,
+      "status": "completed"
+    },
+    {
+      "baseline_rss_mb": 335.8828125,
+      "budget_passed": true,
+      "cpu_seconds": 9.765625,
+      "job": "simulation:61032:drift:probit",
+      "memory_sample_seconds": 0.01,
+      "peak_increment_mb": 0.0390625,
+      "sampled_peak_rss_mb": 335.921875,
+      "seconds": 9.429713700024877,
+      "status": "completed"
+    },
+    {
+      "baseline_rss_mb": 335.97265625,
+      "budget_passed": true,
+      "cpu_seconds": 10.171875,
+      "job": "simulation:61032:drift:logistic",
+      "memory_sample_seconds": 0.01,
+      "peak_increment_mb": 0.0390625,
+      "sampled_peak_rss_mb": 336.01171875,
+      "seconds": 9.96183149999706,
+      "status": "completed"
+    },
+    {
+      "baseline_rss_mb": 336.0546875,
+      "budget_passed": true,
+      "cpu_seconds": 9.75,
+      "job": "simulation:61032:jump:probit",
+      "memory_sample_seconds": 0.01,
+      "peak_increment_mb": 0.04296875,
+      "sampled_peak_rss_mb": 336.09765625,
+      "seconds": 9.638636199990287,
+      "status": "completed"
+    },
+    {
+      "baseline_rss_mb": 336.14453125,
+      "budget_passed": true,
+      "cpu_seconds": 10.03125,
+      "job": "simulation:61032:jump:logistic",
+      "memory_sample_seconds": 0.01,
+      "peak_increment_mb": 0.04296875,
+      "sampled_peak_rss_mb": 336.1875,
+      "seconds": 9.828251699975226,
+      "status": "completed"
+    }
+  ],
+  "scope": "wall/cpu and10ms process RSS sampling; warm imports and input loading excluded; no inference of universal runtime or exact OS peak",
+  "threadpools": [
+    {
+      "architecture": "SkylakeX",
+      "filepath": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\.venv\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "threading_layer": "pthreads",
+      "user_api": "blas",
+      "version": "0.3.34.106.0"
+    },
+    {
+      "architecture": "SkylakeX",
+      "filepath": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\.venv\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "threading_layer": "pthreads",
+      "user_api": "blas",
+      "version": "0.3.31.dev"
+    }
+  ]
+}

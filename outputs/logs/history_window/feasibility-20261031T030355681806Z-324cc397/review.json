@@ -1,0 +1,222 @@
+{
+  "checks": [
+    {
+      "check": "outcome:2000:2y:past_only",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "outcome:2000:2y:probability",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "outcome:2000:4y:past_only",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "outcome:2000:4y:probability",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "outcome:2000:cumulative:past_only",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "outcome:2000:cumulative:probability",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "outcome:2005:2y:past_only",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "outcome:2005:2y:probability",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "outcome:2005:4y:past_only",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "outcome:2005:4y:probability",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "outcome:2005:cumulative:past_only",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "outcome:2005:cumulative:probability",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "rating:2000-01-04:2y:membership",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "rating:2000-01-04:2y:forecast",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "rating:2000-01-04:2y:outside_and_current_outcomes_invariant",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "rating:2000-01-04:2y:strict_numerical_reference",
+      "details": {
+        "max_probability_difference": 8.293413544802064e-08
+      },
+      "passed": true
+    },
+    {
+      "check": "rating:2000-01-04:4y:membership",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "rating:2000-01-04:4y:forecast",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "cumulative_archive:2000-01-04",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "rating:2000-01-07:2y:membership",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "rating:2000-01-07:2y:forecast",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "rating:2000-01-07:4y:membership",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "rating:2000-01-07:4y:forecast",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "cumulative_archive:2000-01-07",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "simulation:61031:constant:probit:finite",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "simulation:61031:constant:logistic:finite",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "simulation:61031:drift:probit:finite",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "simulation:61031:drift:logistic:finite",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "simulation:61031:jump:probit:finite",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "simulation:61031:jump:logistic:finite",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "simulation:61032:constant:probit:finite",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "simulation:61032:constant:logistic:finite",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "simulation:61032:drift:probit:finite",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "simulation:61032:drift:logistic:finite",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "simulation:61032:jump:probit:finite",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "simulation:61032:jump:logistic:finite",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "paired_sample:2000",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "paired_sample:2005",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "all_job_budgets",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "no_evaluation_period_forecasts",
+      "details": null,
+      "passed": true
+    }
+  ],
+  "conditional_bound_example_radius": 42.13851171115578,
+  "development_reused": true,
+  "failures": [],
+  "fit_count": 6,
+  "independent_human_review": false,
+  "new_best_window_selected": false,
+  "new_blind_holdout": false,
+  "passed": true,
+  "prediction_rows": 4152,
+  "production_window_comparison_completed": false,
+  "rating_prediction_rows": 4,
+  "simulated_histories": 12,
+  "simulation_diagnostic_rows": 216,
+  "step1_scope_implemented": true,
+  "step2_math_protocol_documented": true,
+  "step3_development_feasibility": true
+}

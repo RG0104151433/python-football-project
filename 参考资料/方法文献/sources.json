@@ -1499,6 +1499,33 @@
       ],
       "new_model_or_prediction_runs": false,
       "local_download_this_event": true
+    },
+    {
+      "date": "2026-10-31",
+      "reader": "Codex (AI)",
+      "decision_log_id": "R20261031-08",
+      "topic": "Q6 chronological protocol and own predictable-batch bounded-loss derivation",
+      "sources": [
+        {
+          "record_id": "FORECAST-M01",
+          "url": "https://otexts.com/fpp3/toolbox.html#time-series-cross-validation",
+          "scope": "Chronological cross-validation section; previous choices remain historical reuse"
+        },
+        {
+          "record_id": "Q6-P01",
+          "url": "https://brb.nci.nih.gov/techreport/Varma-Simon-CrossValid.pdf",
+          "scope": "Previous abstract/conclusion scope retained; web PDF again timed out; no new full-paper review claimed"
+        },
+        {
+          "record_id": "Q5-P20",
+          "url": "https://arxiv.org/html/1810.08240v9",
+          "local_version": "v5 retained unchanged",
+          "scope": "Read introduction, time-uniform definition, linear supermartingale framework and limits in web v9; own finite-grid Ville/Hoeffding proof in Q6 protocol, not a transfer of Q5 coverage"
+        }
+      ],
+      "new_model_or_prediction_runs": true,
+      "run_scope": "development feasibility only; no optimal-window or formal coverage admission",
+      "new_local_download_this_event": false
     }
   ],
   "maintenance_events": [

@@ -1,0 +1,8 @@
+{
+  "checks": 4575,
+  "failures": [],
+  "formal_window_selection": false,
+  "human_review": false,
+  "passed": true,
+  "run_directory": "outputs/logs/history_window/feasibility-20261031T030355681806Z-324cc397"
+}

@@ -1,0 +1,124 @@
+{
+  "adaptive_evaluation_years": [
+    2010,
+    2024
+  ],
+  "candidate_years": [
+    2,
+    4,
+    8,
+    12,
+    20,
+    null
+  ],
+  "decision_log_id": "R20261031-08",
+  "development_years": [
+    2000,
+    2009
+  ],
+  "failure_policy": "preserve error and incomplete outputs; no silent dropping, replacement prior or threshold relaxation; fail stage gate",
+  "fixed_comparison_years": [
+    2000,
+    2024
+  ],
+  "joint_candidate_selection": "development-only; maximum6 policies, register before evaluation",
+  "latent_truth": "independent centred relative-strength paths; probit and variance-matched logistic observations",
+  "leap_day": "February29 maps to February28 when anniversary year has no leap day",
+  "model": "M3_nested",
+  "new_blind_holdout": false,
+  "outcome_start": "1980-01-01",
+  "pairwise_inference": {
+    "alpha": 0.05,
+    "lambda_powers": [
+      -18,
+      -17,
+      -16,
+      -15,
+      -14,
+      -13,
+      -12,
+      -11,
+      -10,
+      -9,
+      -8,
+      -7,
+      -6,
+      -5,
+      -4,
+      -3,
+      -2,
+      -1,
+      0
+    ],
+    "maximum_registered_pairs": 60,
+    "method": "predictable daily-batch bounded-loss exponential supermartingale",
+    "real_historical_nominal_coverage_claim": false,
+    "reason": "research and hyperparameters have reused historical data; valid prospective/prespecified conditional assumptions must be checked"
+  },
+  "pilot": {
+    "budget_role": "operational pilot guard, not a scientific equivalence or optimum criterion",
+    "gate_probability_sum": 1e-08,
+    "gate_reference_probability": 2e-06,
+    "max_rss_mb": 2048,
+    "max_single_job_seconds": 600,
+    "outcome_windows": [
+      2,
+      4,
+      null
+    ],
+    "outcome_years": [
+      2000,
+      2005
+    ],
+    "rating_dates": [
+      "2000-01-04",
+      "2000-01-07"
+    ],
+    "rating_windows": [
+      2,
+      4
+    ],
+    "simulation_links": [
+      "probit",
+      "logistic"
+    ],
+    "simulation_months": 60,
+    "simulation_paths": [
+      "constant",
+      "drift",
+      "jump"
+    ],
+    "simulation_seeds": [
+      61031,
+      61032
+    ],
+    "simulation_target_months": [
+      36,
+      48,
+      59
+    ],
+    "simulation_windows": [
+      2,
+      4,
+      null
+    ],
+    "threads": 1
+  },
+  "primary_metric": "log_loss_probability_clip_1e-6",
+  "probability_clip": 1e-06,
+  "production_admissible_loss_tolerance": null,
+  "production_cost_budget": null,
+  "rating_start": "1950-01-01",
+  "rating_window": "strict_calendar_anniversary_inclusive_left_exclusive_target_day",
+  "ridge_precision": 1.0,
+  "schema_version": "history-window-v1",
+  "scope": "steps1-3; retrospective feasibility, not best-window selection",
+  "secondary_metrics": [
+    "brier",
+    "calibration_bias_pp",
+    "binary_accuracy",
+    "year_and_tournament_slices"
+  ],
+  "selection": "minimum pooled past-match log loss from2000 through preceding year; exact ties prefer cumulative then longer years",
+  "target": "home_win_vs_draw_or_away"
+}

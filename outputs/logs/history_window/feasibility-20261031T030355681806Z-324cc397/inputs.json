@@ -1,0 +1,12 @@
+{
+  "config/history_window.json": "b21a1e5c435f9b2056954232f99e511747ea6fdb9999d21b00ce3b90a3c4197c",
+  "config/regions_study.json": "f29e8081a58c941ea6d51809ec69aacb9d5ad8c15a343866980afcf407d68c66",
+  "config/strength_global_v3.json": "a524b57c774eb61cbc677ee8edc2057a0c9cc3b8738a6fbcbcf67609d5555938",
+  "config/strength_joint.json": "ce2290aea22277750c953afb912b6837b27815c4807b7918385914d8aafb9182",
+  "data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8/manifest.json": "5b49b98027d3106fb44cdc0fb57e570858ec66ddcf007a1b41adb595e048bebd",
+  "data/processed/strength/jump-ratings-451ecade0bf84ee0bfb6/manifest.json": "7d430275d6535e25cd7044888921aae3086dcc4755fec2f716016491ad76ba74",
+  "outputs/logs/strength/learning-b2889411cc93b44f88b6/learning_matches.csv": "51c18e65018fc0870c3c0cb1fc8da6fcee040654462e7bbc35df2af7bc9ab3f8",
+  "outputs/logs/strength/learning-b2889411cc93b44f88b6/manifest.json": "f4eb9f37a15263af844664f8c936fb903a84610539bf0b6a88ce74fab27507c8",
+  "outputs/tables/regions/regions-0a1c61664a722e6c641f/analysis_matches.csv": "8b0ddb7f2e4d5eb2199c8c2b477e7873b1e46bc12421c4dddf5ac8809f91ca22",
+  "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/target_catalogue.csv": "567610a60f2498f335c1553ba5dd3d1567a95f29c7a9d50f2dcead09ac0d2d79"
+}
