@@ -60,6 +60,11 @@ def audit(folder):
     return report
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('--run');args=p.parse_args()
-    path=args.run or json.loads((ROOT/'outputs/logs/history_window/feasibility_pointer.json').read_text())['directory']
-    audit(path)
+    p=argparse.ArgumentParser();p.add_argument('--run');p.add_argument('--stage',choices=['pilot','outcome'],default='pilot')
+    p.add_argument('--refit-examples',action='store_true');args=p.parse_args()
+    if args.stage=='outcome':
+        from src.history_window.audit_outcome import audit_outcome
+        audit_outcome(args.run,args.refit_examples)
+    else:
+        path=args.run or json.loads((ROOT/'outputs/logs/history_window/feasibility_pointer.json').read_text())['directory']
+        audit(path)

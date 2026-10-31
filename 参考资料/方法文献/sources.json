@@ -1526,6 +1526,22 @@
       "new_model_or_prediction_runs": true,
       "run_scope": "development feasibility only; no optimal-window or formal coverage admission",
       "new_local_download_this_event": false
+    },
+    {
+      "date": "2026-10-31",
+      "decision_log_id": "R20261031-09",
+      "reader": "Codex (AI)",
+      "topic": "rolling feedback and prequential training architecture",
+      "sources": [
+        {
+          "record_id": "FORECAST-M01",
+          "url": "https://otexts.com/fpp3/toolbox.html#time-series-cross-validation",
+          "scope": "section5.10 past-only rolling-origin evaluation; not evidence for choosing annual versus monthly cadence"
+        }
+      ],
+      "new_model_or_prediction_runs": false,
+      "new_local_download_this_event": false,
+      "limits": "Design only; user requested reviewing structure before production implementation"
     }
   ],
   "maintenance_events": [

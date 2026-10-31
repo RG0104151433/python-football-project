@@ -11,6 +11,10 @@ outputs/test_tmp/
 # Recomputable full-world resume cache; published experiment tables remain tracked.
 outputs/logs/strength_inference/checkpoints/
 
+# Q6 resumable per-job cache; final predictions, models, boundaries and source
+# snapshots outside jobs/ remain versioned and sufficient for independent audit.
+outputs/logs/history_window/outcome-*/jobs/
+
 # IDE
 .idea/
 .vscode/

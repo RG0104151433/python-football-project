@@ -1,0 +1,8 @@
+{
+  "adoption": "outputs/logs/history_window/outcome-0a52e15e2ae493570acb/adoption.json",
+  "independent_audit_pending": false,
+  "log_directory": "outputs/logs/history_window/outcome-0a52e15e2ae493570acb",
+  "manifest_sha256": "cd8299ec286177f90ebe5367a22a69b7e242aaa81f355d6eb499382b6e766f10",
+  "run_id": "outcome-0a52e15e2ae493570acb",
+  "table_directory": "outputs/tables/history_window/outcome-0a52e15e2ae493570acb"
+}

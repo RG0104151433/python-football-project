@@ -1,0 +1,5001 @@
+{
+  "checks": 1242,
+  "checks_detail": [
+    {
+      "check": "unchanged_executed_code:scripts/audit_history_window.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:scripts/check_history_window.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/data_contract.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/history_window/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/history_window/pilot.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/history_window/protocol.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/history_window/replay.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/history_window/simulation.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/strength/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/strength/audit.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/strength/baseline.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/strength/budget.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/strength/calibration.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/strength/collapsed_jump.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/strength/delivery.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/strength/experiment.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/strength/filter.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/strength/gaussian.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/strength/global_run.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/strength/handoff.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/strength/io.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/strength/jump_check.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/strength/prepare.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/strength/reduction.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/strength/streaming.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/strength_joint/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/strength_joint/contract.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/strength_joint/contrasts.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/strength_joint/design.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/strength_joint/model.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/strength_joint/reporting.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/strength_joint/validation.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:src/strength_predictive_validation.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_executed_code:tests/test_history_window.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_previous_input:config/history_window.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged_previous_input:config/regions_study.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged_previous_input:config/strength_global_v3.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged_previous_input:config/strength_joint.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged_previous_input:data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged_previous_input:data/processed/strength/jump-ratings-451ecade0bf84ee0bfb6/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged_previous_input:outputs/logs/strength/learning-b2889411cc93b44f88b6/learning_matches.csv",
+      "passed": true
+    },
+    {
+      "check": "unchanged_previous_input:outputs/logs/strength/learning-b2889411cc93b44f88b6/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged_previous_input:outputs/tables/regions/regions-0a1c61664a722e6c641f/analysis_matches.csv",
+      "passed": true
+    },
+    {
+      "check": "unchanged_previous_input:outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/target_catalogue.csv",
+      "passed": true
+    },
+    {
+      "check": "unchanged_pilot:inputs.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged_pilot:models.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged_pilot:pilot_fit_boundaries.csv",
+      "passed": true
+    },
+    {
+      "check": "unchanged_pilot:pilot_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "unchanged_pilot:pilot_predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "unchanged_pilot:protocol.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged_pilot:rating_boundaries.csv",
+      "passed": true
+    },
+    {
+      "check": "unchanged_pilot:rating_history_membership.csv",
+      "passed": true
+    },
+    {
+      "check": "unchanged_pilot:rating_predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "unchanged_pilot:review.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged_pilot:simulation_diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "unchanged_pilot:simulation_truth.csv",
+      "passed": true
+    },
+    {
+      "check": "unchanged_pilot:source_snapshot.zip",
+      "passed": true
+    },
+    {
+      "check": "unchanged_pilot:started.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged_pilot:telemetry.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged_pilot:training_boundaries.csv",
+      "passed": true
+    },
+    {
+      "check": "readonly_counts",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/05_赛前实力/第五问_收尾与下一问交接.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/05_赛前实力/展示/index.html",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/05_赛前实力/第六环节_清单评分敏感性与数学方法.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/06_历史参考周期/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/06_历史参考周期/第四第五步_滚动训练与脚本结构设计.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/05_赛前实力/第六环节_清单评分敏感性与数学方法.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/05_赛前实力/第六环节_清单评分敏感性与数学方法.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/05_赛前实力/第六环节_清单评分敏感性与数学方法.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/pipeline_state.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:文档/01_项目方案/前三项研究的数据标准与清洗脚本设计.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/00_数据再次确认/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/01_年代变化/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/02_赛事类型差异/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/02_赛事类型差异/本地运行与复现.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/03_地域差异/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/03_地域差异/两版计算范围对照.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/03_地域差异/本地运行与复现.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/03_地域差异/结果审读与展示提纲.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:outputs/logs/regions/final-handoff-20261027/review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:outputs/logs/regions/closeout-20261027/support/support_audit.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:data/external/geography_sources/m49-20261026/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/04_共同可靠性/第四步_运行结果与复现.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:scripts/analyze_reliability.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:outputs/logs/reliability/application-20261028/adoption.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/05_赛前实力/第五问_收尾与下一问交接.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/05_赛前实力/展示/index.html",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/pipeline_state.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:outputs/logs/team_identity/reviewed-q1-closeout-20261025/independent_audit.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:outputs/logs/team_identity/reviewed-q1-closeout-20261025/display_data.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/run_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:outputs/logs/tournaments/closeout-20261025/independent_audit.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/display_data.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/02_赛事类型差异/收尾核查与汇报提纲.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:outputs/logs/research_closeout/20261025/review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/02_赛事类型差异/收尾核查与汇报提纲.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:文档/05_团队协作/分工与交付/04_两题共同可靠性与敏感性.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:文档/05_团队协作/分工与交付/03_后续分析与展示.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/02_赛事类型差异/收尾核查与汇报提纲.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:文档/05_团队协作/论文与汇报支撑材料索引.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:文档/02_环境配置/克隆仓库后的快速上手.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:文档/05_团队协作/分工与交付/00_先看这里.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:文档/05_团队协作/汇报要求与HTML方案.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:文档/01_项目方案/研究日志与决策记录.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:AGENTS.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:文档/01_项目方案/前三项研究的数据标准与清洗脚本设计.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:文档/01_项目方案/足球分析项目_实施路线与风险.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:文档/01_项目方案/研究日志与决策记录.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:文档/01_项目方案/数据准备全流程指南.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:文档/01_项目方案/补充数据获取清单与爬虫需求.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:文档/01_项目方案/前三项研究的数据标准与清洗脚本设计.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:文档/02_环境配置/克隆仓库后的快速上手.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:文档/02_环境配置/队友环境配置_AI协作指南.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:文档/02_环境配置/环境配置_PyCharm.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:文档/02_环境配置/环境配置_VSCode.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:文档/05_团队协作/交付包/足球项目_环境配置交接包.zip",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:data/processed/prep-3fab808178cf8ad71d88/data_dictionary.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:outputs/logs/data_prep/clean-20261021T143720171975Z-7cf580f2/clean_log.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:outputs/logs/data_prep/clean-20261021T143720171975Z-7cf580f2/validation_report.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:outputs/logs/data_prep/clean-20261023T014412125078Z-82241e6c/team_handoff/A/",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:outputs/logs/data_prep/clean-20261023T014412125078Z-82241e6c/team_handoff/B/",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/00_数据再次确认/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/01_年代变化/本地运行与复现.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/02_赛事类型差异/本地运行与复现.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/03_地域差异/本地运行与复现.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:文档/04_整理记录/文件整理记录_2026-10-20.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:研究/04_共同可靠性/第三步_双路线演算与迭代记录.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:README.md:outputs/figures/reliability/method-iterations-20261028/C09_diagnostic.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:../研究/05_赛前实力/第五问_收尾与下一问交接.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:../研究/05_赛前实力/展示/index.html",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:../研究/05_赛前实力/第六环节_清单评分敏感性与数学方法.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:../研究/06_历史参考周期/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:06_历史参考周期/第四第五步_滚动训练与脚本结构设计.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:05_赛前实力/第六环节_清单评分敏感性与数学方法.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:05_赛前实力/第六环节_清单评分敏感性与数学方法.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:05_赛前实力/第六环节_清单评分敏感性与数学方法.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:05_赛前实力/第四五环节_比较结果与研究解释.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:04_共同可靠性/第四步_运行结果与复现.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:04_共同可靠性/第四步_分析流程与脚本设计.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:04_共同可靠性/第三步_联合模型选择与第四步交接.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:04_共同可靠性/第三步_双路线演算与迭代记录.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:03_地域差异/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:03_地域差异/结果审读与展示提纲.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:pipeline_state.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:../文档/01_项目方案/前三项研究的数据标准与清洗脚本设计.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:00_数据再次确认/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:01_年代变化/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:02_赛事类型差异/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:03_地域差异/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:03_地域差异/两版计算范围对照.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:03_地域差异/本地运行与复现.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:03_地域差异/结果审读与展示提纲.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:04_共同可靠性/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:../outputs/logs/reliability/planning-20261027/verification_inventory.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:04_共同可靠性/第一步_推断对象与固定条件.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:04_共同可靠性/第二步_目标清单与模型适配资料.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:04_共同可靠性/第三步_条件论证与候选方法验收方案.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:../文档/05_团队协作/分工与交付/04_两题共同可靠性与敏感性.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:05_赛前实力/第五问_收尾与下一问交接.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:05_赛前实力/展示/index.html",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:06_历史参考周期/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:06_历史参考周期/前三步_研究协议与数学依据.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:pipeline_state.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/README.md:../文档/05_团队协作/论文与汇报支撑材料索引.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/06_历史参考周期/README.md:第四第五步_滚动训练与脚本结构设计.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/06_历史参考周期/README.md:../05_赛前实力/第五问_收尾与下一问交接.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/06_历史参考周期/README.md:前三步_研究协议与数学依据.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/06_历史参考周期/README.md:../../config/history_window.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/06_历史参考周期/README.md:../../scripts/check_history_window.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/06_历史参考周期/README.md:../../scripts/audit_history_window.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/06_历史参考周期/README.md:../../outputs/logs/history_window/feasibility_pointer.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:研究/06_历史参考周期/README.md:第四第五步_滚动训练与脚本结构设计.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:数据准备全流程指南.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:../../研究/05_赛前实力/第六环节_清单评分敏感性与数学方法.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:../../研究/05_赛前实力/第六环节_清单评分敏感性与数学方法.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:../../outputs/logs/team_identity/batch-review-20261024-batch02/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:../../outputs/logs/team_identity/batch-review-20261024-batch01/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:../../研究/00_数据再次确认/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:第一题_年代变化研究五步规划.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:../../研究/01_年代变化/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:../../研究/01_年代变化/脚本设计.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:../../研究/01_年代变化/本地运行与复现.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:../../参考资料/方法文献/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:../05_团队协作/汇报要求与HTML方案.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:../../研究/01_年代变化/最终审查与后续衔接.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:../../研究/02_赛事类型差异/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:../05_团队协作/分工与交付/04_两题共同可靠性与敏感性.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:../../outputs/logs/team_identity/baseline-20261024T081427984102Z-9845b62e/summary.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:../../outputs/logs/team_identity/inventory-20261024T082841542266Z-14396c78/summary.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:前三项研究的数据标准与清洗脚本设计.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:前三项研究的数据标准与清洗脚本设计.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:../../data/raw/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:../../outputs/logs/data_prep/clean-20261023T014412125078Z-82241e6c/clean_log.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:../../outputs/logs/data_prep/clean-20261023T014412125078Z-82241e6c/validation_report.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:足球分析项目_实施路线与风险.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:补充数据获取清单与爬虫需求.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:数据准备全流程指南.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:补充数据获取清单与爬虫需求.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:补充数据获取清单与爬虫需求.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:数据准备全流程指南.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:前三项研究的数据标准与清洗脚本设计.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:前三项研究的数据标准与清洗脚本设计.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:数据准备全流程指南.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/01_项目方案/研究日志与决策记录.md:前三项研究的数据标准与清洗脚本设计.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/05_赛前实力/第五问_收尾与下一问交接.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/05_赛前实力/第六环节_清单评分敏感性与数学方法.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/strength_inference_validation.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/strength_inference_scope.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/strength_inference_truth_margin.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/strength_inference_confirmation.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/inference-comparison-a68c391fdbe06e8f8918/identity.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/inference-comparison-a68c391fdbe06e8f8918/source_snapshot.zip",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/inference-comparison-a68c391fdbe06e8f8918/numerical_extension.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/inference-comparison-a68c391fdbe06e8f8918/method_decision.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/inference-comparison-a68c391fdbe06e8f8918/scope_decision.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/inference-comparison-a68c391fdbe06e8f8918/scope_calibration.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/inference-comparison-a68c391fdbe06e8f8918/scope_method_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/inference-comparison-a68c391fdbe06e8f8918/scope_reference_ranges.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/inference-comparison-a68c391fdbe06e8f8918/scope_decision_first_stage.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/inference-comparison-a68c391fdbe06e8f8918/scope_method_comparison_first_stage.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/inference-comparison-a68c391fdbe06e8f8918/confirmation_schedule.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/inference-comparison-a68c391fdbe06e8f8918/confirmation_result.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/inference-comparison-a68c391fdbe06e8f8918/conditional_independent_dates/truth.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/inference-comparison-a68c391fdbe06e8f8918/same_day_shared_noise/truth.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_inference/truth_audit.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_inference/route_timing.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_inference/full_fast_equivalence.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_inference/q5_all_tests.xml",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_inference/q5_calculation_audit.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_inference/prediction_audit.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/rolling-prediction-4722c7b1b5f63cef35e3/predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/rolling-prediction-4722c7b1b5f63cef35e3/yearly_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/rolling-prediction-4722c7b1b5f63cef35e3/group_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/rolling-prediction-4722c7b1b5f63cef35e3/calibration_bins.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/rolling-prediction-4722c7b1b5f63cef35e3/models.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/rolling-prediction-4722c7b1b5f63cef35e3/protocol.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/rolling-prediction-4722c7b1b5f63cef35e3/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/rolling-prediction-4722c7b1b5f63cef35e3/source_snapshot.zip",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/run_strength_inference_final.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength_inference_numerics.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength_inference/comparison.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength_inference_report.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/audit_strength_inference_truth.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/report_strength_inference.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/audit_strength_q5_final.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/confirm_strength_inference.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/audit_strength_q5_html.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/audit_strength_q5_html.cjs",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_inference/confirmation_protocol_audit.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/方法文献/sources.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/方法文献/原文/Howard_etal_2020v5_confidence_sequences.pdf",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength_predictive_validation.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/analyze_strength_predictive_validation.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/audit_strength_predictive_validation.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/06_历史参考周期/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/05_赛前实力/展示/index.html",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/05_赛前实力/第五问_收尾与下一问交接.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_q5_closeout/q5-closeout-1c4c593487304afa0f6a/presentation_data.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_q5_closeout/q5-closeout-1c4c593487304afa0f6a/object_disposition.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_q5_closeout/q5-closeout-1c4c593487304afa0f6a/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/strength_q5/q5-closeout-1c4c593487304afa0f6a/all_level_reference_ranges.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/strength_q5/q5-closeout-1c4c593487304afa0f6a/all_level_reference_ranges.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/strength_q5/q5-closeout-1c4c593487304afa0f6a/main_reference_ranges.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/strength_q5/q5-closeout-1c4c593487304afa0f6a/main_reference_ranges.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/strength_q5/q5-closeout-1c4c593487304afa0f6a/prediction_comparison.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/strength_q5/q5-closeout-1c4c593487304afa0f6a/prediction_comparison.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/strength_q5/q5-closeout-1c4c593487304afa0f6a/route_validation.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/strength_q5/q5-closeout-1c4c593487304afa0f6a/route_validation.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/strength_q5/q5-closeout-1c4c593487304afa0f6a/yearly_increment.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/strength_q5/q5-closeout-1c4c593487304afa0f6a/yearly_increment.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_inference/q5_final_audit.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_q5_closeout/browser_review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_q5_closeout/visual_review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_inference/handoff_review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_inference/development_delivery.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/05_赛前实力/第六环节_清单评分敏感性与数学方法.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/strength_inference.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/analyze_strength_inference.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/audit_strength_inference.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength_inference/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength_inference/contract.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength_inference/worlds.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength_inference/targets.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength_inference/methods.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength_inference/experiment.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength_inference/reporting.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../tests/test_strength_inference.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/inference-interface-976d91f2ca7b388f20f3/review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/inference-diagnostic-c5cbdc0b4a91fa2fcdc7/report.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/inference-diagnostic-c5cbdc0b4a91fa2fcdc7/diagnostic_ranges.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/inference-diagnostic-c5cbdc0b4a91fa2fcdc7/calendar_influence.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/inference-diagnostic-c5cbdc0b4a91fa2fcdc7/multiplier_draws.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/inference-pilot-121f390b31e497032ff5/report.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/inference-pilot-121f390b31e497032ff5/models.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/inference-pilot-121f390b31e497032ff5/world_probabilities.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/inference-pilot-121f390b31e497032ff5/world_score_marginals.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/inference-pilot-121f390b31e497032ff5/world_estimates.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/inference-pilot-121f390b31e497032ff5/method_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_inference/tests.xml",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_inference/interface_audit.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_inference/diagnostic_audit.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_inference/pilot_audit.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_inference/summary.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_inference/diagnostic_reproducibility.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_stage6/protocol-review-20261030/review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/05_赛前实力/第六环节_清单评分敏感性与数学方法.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_stage6/protocol-review-20261030/sources.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_stage6/protocol-review-20261030/display_notes.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/方法文献/sources.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/方法文献/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/方法文献/原文/Morris_White_Crowther_2019_simulation_UCL.pdf",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_stage6/final_review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/05_赛前实力/第六环节_清单评分敏感性与数学方法.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/strength_stage6_preparation.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/strength_stage6_sensitivity.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength_stage6_prepare.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength_stage6_sensitivity.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/prepare_strength_stage6.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/audit_strength_stage6_preparation.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/analyze_strength_stage6_sensitivity.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/audit_strength_stage6_sensitivity.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/reproduce_strength_stage6_selected.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../tests/test_strength_stage6_prepare.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../tests/test_strength_stage6_sensitivity.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-preparation-662dd5a756b8c1bf7688/baseline_flags.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-preparation-662dd5a756b8c1bf7688/curve_support.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-preparation-662dd5a756b8c1bf7688/data_dictionary.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-preparation-662dd5a756b8c1bf7688/readiness.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-preparation-662dd5a756b8c1bf7688/reference_membership.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-preparation-662dd5a756b8c1bf7688/reference_scope.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-preparation-662dd5a756b8c1bf7688/scenario_mixtures.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-preparation-662dd5a756b8c1bf7688/score_inputs_baseline.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-preparation-662dd5a756b8c1bf7688/score_inputs_repaired-initialization-146d3bc167c27a4a3466.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-preparation-662dd5a756b8c1bf7688/score_inputs_repaired-initialization-1dc37caeddc61830a0af.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-preparation-662dd5a756b8c1bf7688/score_inputs_repaired-initialization-d1f3771999bd8731b716.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-preparation-662dd5a756b8c1bf7688/score_inputs_weak_jump.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-preparation-662dd5a756b8c1bf7688/source_snapshot.zip",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-preparation-662dd5a756b8c1bf7688/target_registry.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-preparation-662dd5a756b8c1bf7688/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-sensitivity-02dcd19cea534b1b944c/contrasts.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-sensitivity-02dcd19cea534b1b944c/data_dictionary.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-sensitivity-02dcd19cea534b1b944c/fit_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-sensitivity-02dcd19cea534b1b944c/fit_predictions.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-sensitivity-02dcd19cea534b1b944c/mean_only_vs_full.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-sensitivity-02dcd19cea534b1b944c/models.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-sensitivity-02dcd19cea534b1b944c/new_estimable_reference_members.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-sensitivity-02dcd19cea534b1b944c/relation_points.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-sensitivity-02dcd19cea534b1b944c/report.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-sensitivity-02dcd19cea534b1b944c/source_snapshot.zip",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-sensitivity-02dcd19cea534b1b944c/strength_slopes.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-sensitivity-02dcd19cea534b1b944c/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/strength_stage6_paired.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength_stage6_paired.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/analyze_strength_stage6_paired.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-paired-d3427ea45223384b8e42/arm_rates.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-paired-d3427ea45223384b8e42/data_dictionary.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-paired-d3427ea45223384b8e42/fit_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-paired-d3427ea45223384b8e42/fit_predictions.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-paired-d3427ea45223384b8e42/models.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-paired-d3427ea45223384b8e42/paired_changes.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-paired-d3427ea45223384b8e42/report.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-paired-d3427ea45223384b8e42/source_snapshot.zip",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-paired-d3427ea45223384b8e42/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_stage6/delivery-618a9dd942fad38863e6/preparation_audit.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_stage6/delivery-618a9dd942fad38863e6/preparation_reproducibility.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_stage6/delivery-618a9dd942fad38863e6/sensitivity_audit.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_stage6/delivery-618a9dd942fad38863e6/selected_refit_reproducibility.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_stage6/delivery-618a9dd942fad38863e6/sensitivity_summary.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_stage6/delivery-618a9dd942fad38863e6/source_retrieval.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_stage6/delivery-618a9dd942fad38863e6/tests.xml",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_stage6/delivery-618a9dd942fad38863e6/paired_audit.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_stage6/delivery-618a9dd942fad38863e6/paired_reproducibility.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_stage6/delivery-618a9dd942fad38863e6/paired_summary.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_stage6/delivery-618a9dd942fad38863e6/adoption.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_stage6/delivery-618a9dd942fad38863e6/display_data.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_stage6/delivery-618a9dd942fad38863e6/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/方法文献/sources.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/方法文献/原文/Shao_2010_Dependent_Wild_Bootstrap.pdf",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/方法文献/原文/Goncalves_White_2002_CIRANO_dynamic_bootstrap.pdf",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/方法文献/原文/Wasserman_Ramdas_Balakrishnan_2020_Universal_Inference_v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/05_赛前实力/第六环节_清单评分敏感性与数学方法.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_stage6/delivery-618a9dd942fad38863e6/display_data.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-sensitivity-02dcd19cea534b1b944c/contrasts.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/stage6-sensitivity-02dcd19cea534b1b944c/relation_points.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/05_赛前实力/第四五环节_比较结果与研究解释.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/strength_interpretation.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength_interpretation.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/analyze_strength_interpretation.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/audit_strength_interpretation.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../tests/test_strength_interpretation.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/strength-interpretation-35a760de1ec558401703/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/strength-interpretation-35a760de1ec558401703/source_snapshot.zip",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/strength-interpretation-35a760de1ec558401703/data_dictionary.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/strength-interpretation-35a760de1ec558401703/layer_comparisons.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/strength-interpretation-35a760de1ec558401703/layer_group_diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/strength-interpretation-35a760de1ec558401703/strength_curves.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/strength-interpretation-35a760de1ec558401703/tournament_curve_differences.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/strength-interpretation-35a760de1ec558401703/target_evidence_ledger.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/strength-interpretation-35a760de1ec558401703/observed_score_composition.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/strength-interpretation-35a760de1ec558401703/original_new_estimand_bridge.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/strength-interpretation-35a760de1ec558401703/strength_slopes.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/strength-interpretation-35a760de1ec558401703/scope.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_interpretation/delivery-dac7935dfc86a2ca75b2/adoption.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_interpretation/delivery-dac7935dfc86a2ca75b2/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_interpretation/delivery-dac7935dfc86a2ca75b2/tests.xml",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_interpretation/delivery-dac7935dfc86a2ca75b2/audit.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_interpretation/delivery-dac7935dfc86a2ca75b2/reproducibility.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/strength-interpretation-35a760de1ec558401703/layer_comparison.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/strength-interpretation-35a760de1ec558401703/layer_comparison.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/strength-interpretation-35a760de1ec558401703/strength_probability_curves.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/strength-interpretation-35a760de1ec558401703/strength_probability_curves.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/strength-interpretation-35a760de1ec558401703/tournament_difference_curve.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/strength-interpretation-35a760de1ec558401703/tournament_difference_curve.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_interpretation/delivery-dac7935dfc86a2ca75b2/display_data.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/05_赛前实力/实力评估_逻辑与运行说明.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/05_赛前实力/第三环节_联合分析准备与接口.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/05_赛前实力/第三环节_运行结果与交接.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/strength_joint.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/analyze_strength_joint.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/audit_strength_joint.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/reproduce_strength_joint.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/check_strength_joint_handoff.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../tests/test_strength_joint.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength_joint/contract.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength_joint/design.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength_joint/model.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength_joint/contrasts.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength_joint/validation.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength_joint/reporting.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/joint-analysis-55371e4d4aa3d2060190/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/joint-analysis-55371e4d4aa3d2060190/source_snapshot.zip",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/joint-analysis-55371e4d4aa3d2060190/model_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/joint-analysis-55371e4d4aa3d2060190/models.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/joint-analysis-55371e4d4aa3d2060190/coefficients.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/joint-analysis-55371e4d4aa3d2060190/joint_predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/joint-analysis-55371e4d4aa3d2060190/contrasts.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/joint-analysis-55371e4d4aa3d2060190/strength_changes.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/joint-analysis-55371e4d4aa3d2060190/support.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/joint-analysis-55371e4d4aa3d2060190/sensitivity.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/joint-analysis-55371e4d4aa3d2060190/sensitivity_models.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/joint-analysis-55371e4d4aa3d2060190/calibration.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/joint-analysis-55371e4d4aa3d2060190/validation.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/joint-analysis-55371e4d4aa3d2060190/data_dictionary.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_joint/reproducibility.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_joint/global_feedback.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_joint/joint-analysis-55371e4d4aa3d2060190-audit.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/joint-materials-917398373f7b497c7aa3/all_strength_tests.xml",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/joint-materials-917398373f7b497c7aa3/independent_audit.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/joint-materials-917398373f7b497c7aa3/reproducibility.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/joint-materials-917398373f7b497c7aa3/global_feedback.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/joint-materials-917398373f7b497c7aa3/simulation_inputs_score_conditional.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/joint-materials-917398373f7b497c7aa3/simulation_inputs_latent_strength.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/joint-materials-917398373f7b497c7aa3/simulation_model_score_conditional.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/joint-materials-917398373f7b497c7aa3/simulation_model_latent_strength.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/joint-materials-917398373f7b497c7aa3/handoff.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/joint-materials-917398373f7b497c7aa3/display_data.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/joint-materials-917398373f7b497c7aa3/strength_adjustment.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/joint-materials-917398373f7b497c7aa3/strength_adjustment.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/joint-materials-917398373f7b497c7aa3/reference_support.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/strength_joint/joint-materials-917398373f7b497c7aa3/reference_support.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/build_strength_joint_materials.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../AGENTS.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/pipeline_state.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../01_项目方案/研究日志与决策记录.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/research_closeout/20261025/review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../01_项目方案/数据准备全流程指南.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../01_项目方案/前三项研究的数据标准与清洗脚本设计.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/raw/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/raw/international_results/former_names.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/raw/international_results/goalscorers.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/raw/international_results/LICENSE",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/raw/international_results/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/raw/international_results/results.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/raw/international_results/shootouts.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/prep-3fab808178cf8ad71d88/data_dictionary.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/prep-3fab808178cf8ad71d88/dataset_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/prep-3fab808178cf8ad71d88/matches_clean.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/team_registry.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/tournament_groups.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/snapshot.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/audit.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/clean.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/data_contract.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/validate.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/data_prep/clean-20261023T014412125078Z-82241e6c/clean_log.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/data_prep/clean-20261023T014412125078Z-82241e6c/clean_log.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/data_prep/clean-20261023T014412125078Z-82241e6c/duplicate_candidates.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/data_prep/clean-20261023T014412125078Z-82241e6c/input_audit.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/data_prep/clean-20261023T014412125078Z-82241e6c/issues.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/data_prep/clean-20261023T014412125078Z-82241e6c/quarantine.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/data_prep/clean-20261023T014412125078Z-82241e6c/review_cases.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/data_prep/clean-20261023T014412125078Z-82241e6c/row_lineage.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/data_prep/clean-20261023T014412125078Z-82241e6c/run_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/data_prep/clean-20261023T014412125078Z-82241e6c/unmatched_supplement.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/data_prep/clean-20261023T014412125078Z-82241e6c/validation_report.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../tests/test_data_rules.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../tests/test_data_pipeline.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/01_年代变化/收尾核查与汇报提纲.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/00_数据再次确认/展示素材.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/data_prep/clean-20261023T014412125078Z-82241e6c/clean_log.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/data_prep/clean-20261023T014412125078Z-82241e6c/validation_report.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/00_数据再次确认/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/membership_review_adoption.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/team_identity/accepted/20261025/user_approval.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/team_identity/fifa/20261024-v2/sources.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/数据来源/FIFA/FIFA_Financial_Report_2018.pdf",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/team_identity/submissions/20261025-batch06/task_coverage.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/team_identity/submissions/20261025-batch05/policy_provisional_membership.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/team_identity/submissions/20261024-batch01/evidence.jsonl",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/team_identity/submissions/20261024-batch01/claims.jsonl",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/team_identity/submissions/20261024-batch01/case_assessments.jsonl",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/team_identity/submissions/20261024-batch02/evidence.jsonl",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/team_identity/submissions/20261024-batch02/claims.jsonl",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/team_identity/submissions/20261024-batch02/case_assessments.jsonl",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/team_identity/submissions/20261024-batch03/evidence.jsonl",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/team_identity/submissions/20261024-batch03/claims.jsonl",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/team_identity/submissions/20261024-batch03/case_assessments.jsonl",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/team_identity/submissions/20261024-batch04/evidence.jsonl",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/team_identity/submissions/20261024-batch04/claims.jsonl",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/team_identity/submissions/20261024-batch04/case_assessments.jsonl",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/team_identity/submissions/20261025-batch05/evidence.jsonl",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/team_identity/submissions/20261025-batch05/claims.jsonl",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/team_identity/submissions/20261025-batch05/case_assessments.jsonl",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/team_identity/submissions/20261025-batch06/evidence.jsonl",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/team_identity/submissions/20261025-batch06/claims.jsonl",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/team_identity/submissions/20261025-batch06/case_assessments.jsonl",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/team_identity/identity-reviewed-29d880765c1623764940/adopted_decisions.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/team_identity/identity-reviewed-29d880765c1623764940/association_registry.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/team_identity/identity-reviewed-29d880765c1623764940/checks.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/team_identity/identity-reviewed-29d880765c1623764940/data_dictionary.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/team_identity/identity-reviewed-29d880765c1623764940/historical_exceptions.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/team_identity/identity-reviewed-29d880765c1623764940/identity_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/team_identity/identity-reviewed-29d880765c1623764940/label_crosswalk.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/team_identity/identity-reviewed-29d880765c1623764940/match_identity.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/team_identity/identity-reviewed-29d880765c1623764940/membership_changes.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/team_identity/identity-reviewed-29d880765c1623764940/population_policy.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/team_identity/identity-reviewed-29d880765c1623764940/user_approval.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/adopt_membership_reviews.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/build_team_identity.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../tests/test_membership_review_adoption.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/team_identity/reviewed-q1-closeout-20261025/population_and_curve_checks.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/team_identity/reviewed-q1-closeout-20261025/compare_previous.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/00_数据再次确认/展示素材.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/01_年代变化/收尾核查与汇报提纲.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../01_项目方案/第一题_年代变化研究五步规划.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/01_年代变化/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/01_年代变化/脚本设计.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/01_年代变化/本地运行与复现.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/01_年代变化/最终审查与后续衔接.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/confirmed_eras_reviewed.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/eras_reviewed.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/analyze_confirmed_eras.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/audit_confirmed_eras.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/closeout_reviewed_eras.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/analyze_eras.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/eras/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/eras/checks.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/eras/data.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/eras/inference.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/eras/reporting.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/eras/standardize.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/eras/statistics.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../tests/test_eras.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../requirements.txt",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../pytest.ini",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/research_closeout/20261025/q1_independent_audit.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/analysis_membership.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/before_after.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/data_dictionary.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_contrasts.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_estimates.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_tournament_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/reference_weights.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/sample_flow.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/schedule_diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/team_schedule.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/weight_sensitivity.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/year_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/checks.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/summary.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/summary.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/team_identity/reviewed-q1-closeout-20261025/compare_previous.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/team_identity/reviewed-q1-closeout-20261025/display_data.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/team_identity/reviewed-q1-closeout-20261025/independent_audit.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/team_identity/reviewed-q1-closeout-20261025/interface_and_scope.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/team_identity/reviewed-q1-closeout-20261025/population_and_curve_checks.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/team_identity/reviewed-q1-closeout-20261025/pytest.txt",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/team_identity/reviewed-q1-closeout-20261025/pytest.xml",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/team_identity/reviewed-q1-closeout-20261025/pytest_run.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/team_identity/reviewed-q1-closeout-20261025/review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/team_identity/confirmed-eras-20261025T013459339533Z-595d970e/run_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/01_年代变化/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/01_年代变化/收尾核查与汇报提纲.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/team_identity/reviewed-q1-closeout-20261025/display_data.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/eras/eras-fifa-dddf11dd6dc0b7531b88/era_results.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/eras/eras-fifa-dddf11dd6dc0b7531b88/era_results.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/eras/eras-fifa-dddf11dd6dc0b7531b88/tournament_composition.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/eras/eras-fifa-dddf11dd6dc0b7531b88/tournament_composition.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/eras/eras-fifa-dddf11dd6dc0b7531b88/weight_sensitivity.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/eras/eras-fifa-dddf11dd6dc0b7531b88/weight_sensitivity.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_estimates.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_contrasts.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_tournament_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/reference_weights.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/weight_sensitivity.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/02_赛事类型差异/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/02_赛事类型差异/脚本设计.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/02_赛事类型差异/本地运行与复现.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/02_赛事类型差异/收尾核查与汇报提纲.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/tournaments.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/analyze_tournaments.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/audit_tournaments.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/tournaments/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/tournaments/checks.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/tournaments/data.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/tournaments/reporting.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/tournaments/rolling.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/tournaments/standardize.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/tournaments/statistics.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../tests/test_tournaments.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/research_closeout/20261025/q2_scope_review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/research_closeout/20261025/review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/tournaments/conclusion-review-20261025/review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/02_赛事类型差异/收尾核查与汇报提纲.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/analysis_membership.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/data_dictionary.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/grouped_counts.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/reference_weights.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/rolling_counts.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/rolling_windows.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/sample_flow.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/target_definitions.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/type_differences.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/type_estimates.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/window_membership.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/checks.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/config_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/display_data.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/issues.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/run_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/summary.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/summary.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/tournaments/closeout-20261025/independent_audit.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/tournaments/closeout-20261025/independent_audit_first.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/tournaments/closeout-20261025/pytest.txt",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/tournaments/closeout-20261025/pytest.xml",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/tournaments/closeout-20261025/pytest_run.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/tournaments/closeout-20261025/review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/tournaments/tournaments-20261025T021852784046Z-327e8f72/run_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:分工与交付/03_后续分析与展示.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/research_closeout/20261025/review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/tournaments/conclusion-review-20261025/review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/02_赛事类型差异/收尾核查与汇报提纲.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/display_data.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/tournaments/tournaments-4893e38db46f83f6c219/era_comparison.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/tournaments/tournaments-4893e38db46f83f6c219/era_comparison.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/tournaments/tournaments-4893e38db46f83f6c219/overall_comparison.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/tournaments/tournaments-4893e38db46f83f6c219/overall_comparison.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/tournaments/tournaments-4893e38db46f83f6c219/rolling_comparison.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/tournaments/tournaments-4893e38db46f83f6c219/rolling_comparison.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/pipeline_state.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/03_地域差异/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/03_地域差异/脚本设计.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/03_地域差异/本地运行与复现.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/03_地域差异/两版计算范围对照.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/regions_study.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/regions_study_overrides.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/build_region_protocol.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/analyze_regions.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/verify_region_analysis.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/verify_region_preparation.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/regions/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/regions/io.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/regions/groups.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/regions/describe.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/regions/standardize.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/regions/export.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../tests/test_regions.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../tests/test_regions_expanded.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/geography_sources/study-overrides-20261027/sources.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/geography_sources/m49-20261026/sources.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/geography_sources/m49-20261026/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/regions/rendering.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/audit_region_support.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../tests/test_region_handoff.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/final-handoff-20261027/review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/final-handoff-20261027/conclusion_cards.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/final-handoff-20261027/build_handoff.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/regions/regions-0a1c61664a722e6c641f/analysis_matches.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/regions/regions-0a1c61664a722e6c641f/analysis_membership.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/regions/regions-0a1c61664a722e6c641f/analysis_metadata.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/regions/regions-0a1c61664a722e6c641f/contrast_results.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/regions/regions-0a1c61664a722e6c641f/data_dictionary.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/regions/regions-0a1c61664a722e6c641f/group_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/regions/regions-0a1c61664a722e6c641f/layer_contributions.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/regions/regions-0a1c61664a722e6c641f/match_coefficients.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/regions/regions-0a1c61664a722e6c641f/matchup_rates.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/regions/regions-0a1c61664a722e6c641f/opponent_composition.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/regions/regions-0a1c61664a722e6c641f/reference_weights.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/regions/regions-0a1c61664a722e6c641f/stratum_counts.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/regions/regions-0a1c61664a722e6c641f/study_team_registry.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/regions/regions-0a1c61664a722e6c641f/team_contributions.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/closeout-20261027/regions-20261027T084412226301Z-f05899a3/run_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/closeout-20261027/regions-20261027T084412226301Z-f05899a3/checks.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/closeout-20261027/regions-20261027T084412226301Z-f05899a3/summary.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/closeout-20261027/regions-20261027T084444698281Z-cb3b3de4/run_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/closeout-20261027/review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/closeout-20261027/independent_audit_first.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/closeout-20261027/independent_audit_repeat.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/closeout-20261027/tests.xml",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/expanded-20261027/legacy_retention.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/expanded-20261027/previous_questions.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/storage-migration-20261026/verification-regions-study-v4.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/closeout-20261027/support/support_audit.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/closeout-20261027/support/support_inventory.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/closeout-20261027/run_closeout.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/final-handoff-20261027/presentation_assets.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/final-handoff-20261027/conclusion_cards.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/regions/presentation/regions-0a1c61664a722e6c641f/finding_01_africa.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/regions/presentation/regions-0a1c61664a722e6c641f/finding_01_africa.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/regions/presentation/regions-0a1c61664a722e6c641f/finding_02_americas.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/regions/presentation/regions-0a1c61664a722e6c641f/finding_02_americas.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/regions/presentation/regions-0a1c61664a722e6c641f/finding_03_relations.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/regions/presentation/regions-0a1c61664a722e6c641f/finding_03_relations.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/03_地域差异/结果审读与展示提纲.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/03_地域差异/两版计算范围对照.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/closeout-20261027/regions-20261027T084412226301Z-f05899a3/display_data.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/regions/regions-0a1c61664a722e6c641f/overview.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/regions/regions-0a1c61664a722e6c641f/overview.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/regions/regions-0a1c61664a722e6c641f/europe.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/regions/regions-0a1c61664a722e6c641f/europe.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/regions/regions-0a1c61664a722e6c641f/asia.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/regions/regions-0a1c61664a722e6c641f/asia.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/regions/regions-0a1c61664a722e6c641f/africa.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/regions/regions-0a1c61664a722e6c641f/africa.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/regions/regions-0a1c61664a722e6c641f/americas.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/regions/regions-0a1c61664a722e6c641f/americas.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/regions/regions-0a1c61664a722e6c641f/matrix_macro.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/regions/regions-0a1c61664a722e6c641f/matrix_macro.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/regions/regions-0a1c61664a722e6c641f/matrix_eur.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/regions/regions-0a1c61664a722e6c641f/matrix_eur.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/regions/regions-0a1c61664a722e6c641f/matrix_asia.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/regions/regions-0a1c61664a722e6c641f/matrix_asia.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/regions/regions-0a1c61664a722e6c641f/matrix_afr.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/regions/regions-0a1c61664a722e6c641f/matrix_afr.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/regions/regions-0a1c61664a722e6c641f/matrix_amer.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/regions/regions-0a1c61664a722e6c641f/matrix_amer.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/expanded-20261027/comparison_catalogue.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/archive-v4-20261027/index.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/expanded-20261027/regions-20261027T015835582785Z-28a5b4de/run_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/regions/regions-5c79095fe5e46b7f4755/analysis_metadata.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/archive/regions_study_v3.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/archive-v3-20261027/index.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/regions-20261026T135956693371Z-182ec8a6/run_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/regions/regions-6f5915b013976712736b/analysis_metadata.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/closeout-20261026/review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/regions_study.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/archive/regions_study_v2.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/multigroup-design-20261026/review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/multigroup-design-20261026/audit_multigroup.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/storage-migration-20261026/verification-regions-study-v3.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/03_地域差异/脚本设计.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/geography_sources/m49-20261026/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/geography_sources/m49-20261026/sources.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/design-review-20261026/review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/design-review-20261026/audit_design.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/regions_study.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/archive/regions_study_v1.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/build_region_roster.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/regions/preparation/regions-study-v2/team_geography_roster.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/regions/preparation/regions-study-v2/partition_teams.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/geography_sources/m49-20261026/m49_page.html",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/geography_sources/m49-20261026/m49_overview.html",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/geography_sources/m49-20261026/relocations.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/verify_region_preparation.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/deduplicate_m49_sources.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/artifact_store.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/storage-migration-20261026/verification.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/storage-migration-20261026/tests.xml",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/storage-migration-20261026/preparation-20261026T114028454866Z-82cd5e84-shared-replay/replay_check.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/regions_study.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/prepare_region_mapping.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../tests/test_region_preparation_contract.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/grouping-acceptance-20261026/review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/grouping-acceptance-20261026/scope_counts.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/grouping-acceptance-20261026/audit_grouping.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/grouping-acceptance-20261026/contract_tests.xml",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/grouping-acceptance-20261026/preparation-20261026T090739Z-82cd5e84-accepted-r1/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/grouping-acceptance-20261026/preparation-20261026T090739Z-82cd5e84-accepted-r1/inputs/inputs_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/grouping-acceptance-20261026/preparation-20261026T090739Z-82cd5e84-accepted-r1/match_region_relations.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/grouping-acceptance-20261026/preparation-20261026T090739Z-82cd5e84-accepted-r1/team_contributions.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/grouping-acceptance-20261026/preparation-20261026T091035Z-82cd5e84-replay-r1/replay_check.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/geography_preparation/geo-prep-v3/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/review-20261026-geo-prep-v2/review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/review-20261026-geo-prep-v2/audit_preparation.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/preparation-20261026T074311Z-af547658-r1/handoff.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/preparation-20261026T074311Z-af547658-r1/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/preparation-20261026T074311Z-af547658-r1/team_geography_rules.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/preparation-20261026T074311Z-af547658-r1/match_region_relations.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/preparation-20261026T074311Z-af547658-r1/candidate_reference_support.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/preparation-20261026T074344Z-af547658-r2/repeat_check.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/geography_preparation/geo-prep-v2/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/geography_preparation/geo-prep-v2/candidate_specs.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/geography_preparation/geo-prep-v2/sources.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/review-20261026-geo-prep-v1/review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/review-20261026-geo-prep-v1/audit_preparation.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/preparation-20261026T040745Z-52745246/handoff.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/preparation-20261026T040745Z-52745246/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/external/geography_preparation/geo-prep-v1/sources.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/03_地域差异/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:分工与交付/04_两题共同可靠性与敏感性.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/方法文献/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/方法文献/sources.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/regions/planning-20261026/input_readiness.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../01_项目方案/前三项研究的数据标准与清洗脚本设计.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/04_共同可靠性/第四步_运行结果与复现.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/analyze_reliability.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/audit_reliability_analysis.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/reliability/application.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/reliability/sensitivity.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/reliability/interpretation.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/reliability/reporting.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/reliability_analysis.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../tests/test_reliability_application.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/application-20261028/adoption.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/applied-20261028T085135016736Z-34239452/run_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/applied-20261028T085135016736Z-34239452/independent_audit.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/applied-20261028T085541920014Z-34239452/run_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/applied-20261028T085541920014Z-34239452/independent_audit.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/application-development-20261028/final_tests.xml",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/application-development-20261028/test_evidence.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/application-development-20261028/protocol_before_application.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/application-development-20261028/iteration_record.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/application-development-20261028/technical_revision_comparison.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/applied-ab04b82da3b12ca434239452/bounded_reference.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/applied-ab04b82da3b12ca434239452/common_teams.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/applied-ab04b82da3b12ca434239452/conclusion_review.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/applied-ab04b82da3b12ca434239452/data_dictionary.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/applied-ab04b82da3b12ca434239452/display_data.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/applied-ab04b82da3b12ca434239452/interval_results.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/applied-ab04b82da3b12ca434239452/method_scope.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/applied-ab04b82da3b12ca434239452/model_fit.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/applied-ab04b82da3b12ca434239452/selection_definitions.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/applied-ab04b82da3b12ca434239452/selector_definitions.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/applied-ab04b82da3b12ca434239452/sensitivity_cells.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/applied-ab04b82da3b12ca434239452/sensitivity_groups.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/applied-ab04b82da3b12ca434239452/sensitivity_membership_changes.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/applied-ab04b82da3b12ca434239452/sensitivity_references.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/applied-ab04b82da3b12ca434239452/sensitivity_results.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/applied-ab04b82da3b12ca434239452/sensitivity_scenarios.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/applied-ab04b82da3b12ca434239452/sensitivity_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/applied-ab04b82da3b12ca434239452/target_templates.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/application-20261028/verification_closeout.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/application-20261028/delivery_review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/reliability/applied-ab04b82da3b12ca434239452/core_sensitivity_shifts.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/reliability/applied-ab04b82da3b12ca434239452/core_sensitivity_shifts.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/reliability/applied-ab04b82da3b12ca434239452/figure_sources.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/reliability/applied-ab04b82da3b12ca434239452/q1_intervals.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/reliability/applied-ab04b82da3b12ca434239452/q1_intervals.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/reliability/applied-ab04b82da3b12ca434239452/q2_overall_recent.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/reliability/applied-ab04b82da3b12ca434239452/q2_overall_recent.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/reliability/applied-ab04b82da3b12ca434239452/q2_rolling_joint.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/reliability/applied-ab04b82da3b12ca434239452/q2_rolling_joint.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/reliability/applied-ab04b82da3b12ca434239452/q3_conditional_precision.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/reliability/applied-ab04b82da3b12ca434239452/q3_conditional_precision.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/reliability/applied-ab04b82da3b12ca434239452/q3_predefined_contrasts.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/reliability/applied-ab04b82da3b12ca434239452/q3_predefined_contrasts.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/applied-ab04b82da3b12ca434239452/display_data.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/04_共同可靠性/第四步_分析流程与脚本设计.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/step4-planning-20261028/preflight.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/step4-planning-20261028/review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/04_共同可靠性/第三步_联合模型选择与第四步交接.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/reliability/joint.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/reliability/guard.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/reliability/graph_exact.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/develop_reliability_joint.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/select_reliability_joint.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/finalize_joint_choice.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/adapt_joint_target_scales.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/prepare_joint_guard.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/refine_graph_chernoff.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/fit_joint_mean_wave.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/audit_joint_readiness.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/summarize_joint_handoff.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../tests/test_reliability_joint.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../tests/test_reliability_graph_exact.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/reliability_joint_v8.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/reliability_joint_selection_v9.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/reliability_joint_v10.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/reliability_joint_v11.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/reliability_joint_v12.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/reliability_joint_v13.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/reliability_joint_v14.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/reliability_joint_v15.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/joint-envelope-20261028/current_runs.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/joint-envelope-20261028/method_adjudication.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/joint-envelope-20261028/fourth_step_contract.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/joint-envelope-20261028/calibration.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/joint-envelope-20261028/readiness-final/review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/joint-envelope-20261028/readiness-final/checks.jsonl.gz",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/joint-envelope-20261028/readiness-final/validated_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/joint-envelope-20261028/readiness-final/current_target_scales.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/joint-envelope-20261028/bias_diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/joint-envelope-20261028/summary_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/joint-envelope-20261028/final_tests.xml",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/joint-20261028/graph_chernoff.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/joint-20261028/graph_chernoff.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/joint-20261028/guard_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/joint-20261028/source_retrieval.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/joint-20261028/startup_failures.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/joint-final-20261028/joint_fit/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/joint-final-20261028/joint_fit/mean_and_common_wave.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/joint-final-20261028/joint_fit/variance_components.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/joint-chosen-20261028/readiness/rejection.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/joint-envelope-20261028/readiness/contract_failure.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/方法文献/原文/Lei_etal_2018_conformal_author.pdf",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/joint-envelope-20261028/fourth_step_bindings.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/joint-envelope-20261028/source_archive/index.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/joint-envelope-20261028/delivery_review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/04_共同可靠性/第三步_联合模型选择与第四步交接.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/joint-envelope-20261028/display_data.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/joint-envelope-20261028/readiness-final/validated_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/04_共同可靠性/第三步_双路线演算与迭代记录.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/reliability/models.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/reliability/refinements.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/reliability/experiment.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/validate_reliability.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/calibrate_reliability.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/refine_reliability.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/profile_reliability_fit.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/diagnose_reliability_failure.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/summarize_reliability_iterations.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/audit_reliability_methods.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../tests/test_reliability_models.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../tests/test_reliability_refinements.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/reliability_development_v2.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/reliability_scale_pilot_v3.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/reliability_iteration_v4.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/reliability_refinement_v5.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/reliability_full_graph_v6.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/reliability_ablation_v7.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/implementation-20261028/current_runs.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/implementation-20261028/method_adjudication.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/implementation-20261028/scope_supplement.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/implementation-20261028/delivery_review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/implementation-20261028/graph_adjudication.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/implementation-20261028/cost_projection_audit.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/implementation-20261028/final_tests.xml",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/implementation-20261028/independent_audit.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/implementation-20261028/source_archive/index.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/iteration-20261028/calibration_training.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/iteration-20261028/calibration_training_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/iteration-20261028/calibration_holdout.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/iteration-20261028/calibration_holdout_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/iteration-20261028/fit_profiles.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/iteration-20261028/fit_profiles.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/iteration-20261028/failure_localization.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/iteration-20261028/failure_localization_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/methods-small-baseline-20261028T005405143223Z/run_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/methods-small-development-20261028T005501323334Z/run_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/methods-full-development-20261028T005622778442Z/run_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/refined-graph-20261028T010916841071Z/graph_refinement.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/refined-full-pilot-20261028T010917282465Z/run_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/refined-full-pilot-20261028T010917282465Z/metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/refined-full-graph-oracle-20261028T011322589785Z/run_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/refined-full-graph-oracle-20261028T011322589785Z/metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/refined-full-graph-oracle-20261028T011322589785Z/target_diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/04_共同可靠性/第三步_双路线演算与迭代记录.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/reliability/method-iterations-20261028/C09_diagnostic.png",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/figures/reliability/method-iterations-20261028/C09_diagnostic.svg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/implementation-20261028/diagnostic_figure.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/plot_reliability_diagnostic.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/implementation-20261028/method_adjudication.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/iteration-20261028/failure_localization_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/04_共同可靠性/第三步_条件论证与候选方法验收方案.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/reliability_validation_v1.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/theory-20261028/method_assessment.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/theory-20261028/exact_checks.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/theory-20261028/check_derivations.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/theory-20261028/source_retrieval.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/04_共同可靠性/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/method-planning-20261027/workflow_proposal.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/method-planning-20261027/source_retrieval.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/04_共同可靠性/第一步_推断对象与固定条件.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/estimand-20261027/estimand_protocol.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/estimand-20261027/review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/04_共同可靠性/第一步_推断对象与固定条件.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/step2-20261027/delivery_review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/step2-20261027/additional_design_facts.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/step2-20261027/unit_tests.xml",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/04_共同可靠性/第二步_目标清单与模型适配资料.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/reliability_design.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/reliability/design.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/prepare_reliability.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/audit_reliability_design.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../tests/test_reliability_design.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/calendar_counts.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/checks.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/coefficient_recipes.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/competition_context.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/data_dictionary.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/dyad_schedule.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/summary.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/target_catalogue.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/target_overlap.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/target_support.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/team_exposure.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/year_exposure.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/step2-20261027/model_readiness.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/design-20261027T131754720415Z-c2a82843/run_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/design-20261027T132711991283Z-00082890/run_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/step2-20261027/independent_audit_final.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/方法文献/原文/Abadie_Athey_Imbens_Wooldridge_2022_author.pdf",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/方法文献/原文/Cameron_Gelbach_Miller_2009_multiway.pdf",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/方法文献/原文/Romano_Wolf_2005_stepwise.pdf",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/04_共同可靠性/第二步_目标清单与模型适配资料.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/summary.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/target_catalogue.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/step2-20261027/model_readiness.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/04_共同可靠性/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/reliability/planning-20261027/verification_inventory.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:分工与交付/04_两题共同可靠性与敏感性.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/方法文献/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/方法文献/sources.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/方法文献/原文/Aronow_Samii_Assenova_2015_dyadic_v8.pdf",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/方法文献/原文/Cameron_Miller_2015_cluster_robust.pdf",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/方法文献/原文/Canen_Sugiura_network_spillovers_v5.pdf",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/方法文献/原文/CDC_Klein_Schoenborn_2001_standardization.pdf",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/方法文献/原文/NIST_Wilson_intervals.html",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/方法文献/原文/Tabord_Meehan_dyadic_inference_v6.pdf",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/05_赛前实力/第二环节_验收与正式交接.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/05_赛前实力/第三环节_联合分析准备与接口.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/strength_final_delivery.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/strength_composed_calibration.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength/collapsed_jump.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength/calibration.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength/delivery.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/audit_final_strength_delivery.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/replay_archived_jump.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/repeat_strength_delivery.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/finalize_strength_repair.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/strength/strength-delivery-ca43fe498cd43ec8e21f/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/strength/strength-delivery-ca43fe498cd43ec8e21f/report.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/strength/strength-delivery-ca43fe498cd43ec8e21f/study_prematch_features.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/strength/strength-delivery-ca43fe498cd43ec8e21f/checkpoints.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/strength/strength-delivery-e67aeee4c7462a00cf50/report.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8/adoption.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8/analysis_matches.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8/interface.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8/tests.xml",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8/proofs/raw_audit.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8/proofs/final_audit.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8/proofs/raw_replay.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8/proofs/final_replay.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/composed-calibration-8176105d420b3f2400eb/candidate_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/collapsed-jump-reference-13545517c92599400545/cases.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/jump-repair-simulation-434a1b6d1bf4f3eb4d37/summary.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/unseen-jump-validation-68be7631b8bd341ed48a/summary.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/repaired-initialization-d1f3771999bd8731b716/summary.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/repaired-initialization-1dc37caeddc61830a0af/summary.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/repaired-initialization-146d3bc167c27a4a3466/summary.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/方法文献/sources.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/strength-final-display-8e78ec65a9376c23e2c1/display_data.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/05_赛前实力/第二环节_验收与正式交接.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/05_赛前实力/第三环节_联合分析准备与接口.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8/support.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8/support_cells.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/repair-20261029/final_handoff_review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/repair-20261029/current_sources.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/check_final_strength_handoff.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/05_赛前实力/第二环节_验收与正式交接.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/05_赛前实力/第三环节_联合分析准备与接口.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/strength_handoff.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/strength_context_v4.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/strength_context_v4_strict.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength/gaussian.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength/handoff.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength/streaming.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength/jump_check.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/audit_strength_global_outputs.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/audit_strength_handoff.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/reproduce_strength_handoff.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/finalize_strength_handoff.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/rolling-handoff-1a1f052c0b16becafcad/report.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/rolling-handoff-1a1f052c0b16becafcad/candidate_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/rolling-handoff-1a1f052c0b16becafcad/annual_choices.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/rolling-handoff-1a1f052c0b16becafcad/yearly_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/rolling-handoff-1a1f052c0b16becafcad/type_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/rolling-handoff-5c1d7f9f273347c36af2/report.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/strength/joint-input-0812683da0560b0b687b/release.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/strength/joint-input-0812683da0560b0b687b/legacy_period_checks.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/strength/joint-input-0812683da0560b0b687b/full_scale_numeric_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/strength/joint-input-0812683da0560b0b687b/interface.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/review-20261029/rolling-handoff-1a1f052c0b16becafcad.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/review-20261029/reproducibility.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/review-20261029/final_strength_tests.xml",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/context-simulation-6f1c27922f0f78350fcc/summary.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/initialization-sensitivity-9fa2d8187a363cb25d51/summary.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/initialization-sensitivity-9fa2d8187a363cb25d51/study_differences.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/streaming-jump-check-95d0d51d8b19e3705870/comparisons.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/streaming-followup-ca0db86dd4df83030df4/comparisons.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/05_赛前实力/第二环节_验收与正式交接.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/05_赛前实力/第三环节_联合分析准备与接口.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/rolling-handoff-1a1f052c0b16becafcad/study_prematch_features.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/strength/joint-input-0812683da0560b0b687b/analysis_matches.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/strength/joint-input-0812683da0560b0b687b/support.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/review-20261029/delivery_review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/review-20261029/auxiliary_sources.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/handoff-display-1b9ba3e5ff65eeb3c794/display_data.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/check_strength_delivery.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../scripts/build_strength_handoff_display.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/05_赛前实力/自主推进_停止交接与下一步.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/strength_global.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/strength_global_v2.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/strength_global_v3.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength/reduction.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength/gaussian.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength/global_run.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength/baseline.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/reduction-b62d08b6791f254c1016/report.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/extended-numerics-a67bcce4304cf4b8f69d/failures.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/strength/ratings-27b4f4352e5aec283bde/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/strength/ratings-27b4f4352e5aec283bde/rating_report.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/strength/ratings-27b4f4352e5aec283bde/study_prematch_features.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/strength/ratings-48789d1ab6c8a11da620/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/strength/ratings-48789d1ab6c8a11da620/rating_report.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/strength/ratings-48789d1ab6c8a11da620/study_prematch_features.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/stop-handoff-20261029/review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/05_赛前实力/自主推进_停止交接与下一步.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/05_赛前实力/第二环节_首轮实现与验证.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../config/strength_pilot.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength/filter.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength/prepare.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength/experiment.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength/budget.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../src/strength/audit.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../tests/test_strength.py",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/learning-b2889411cc93b44f88b6/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/learning-b2889411cc93b44f88b6/summary.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/pilot-0999a6bb24baf024e03f/report.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/pilot-0999a6bb24baf024e03f/historical_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/pilot-0999a6bb24baf024e03f/simulation_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/pilot-0999a6bb24baf024e03f/independent_audit.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/budget-b6687cb39711461cf7b0/budget_comparisons.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/delivery-20261029/review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/delivery-20261029/unit_tests.xml",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/05_赛前实力/第二环节_首轮实现与验证.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/pilot-0999a6bb24baf024e03f/simulation_trajectories.csv",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/05_赛前实力/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/05_赛前实力/实力评估算法_初步架构与数学依据.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/05_赛前实力/赛前实力学习与第二环节推进计划.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/planning-20261029/learning_history_inventory.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/architecture-20261028/math_checks.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/architecture-20261028/math_check_source.js",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/framework-20261028/framework_math_checks.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength/framework-20261028/framework_math_source.js",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/方法文献/sources.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../研究/README.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../01_项目方案/前三项研究的数据标准与清洗脚本设计.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:汇报要求与HTML方案.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:分工与交付/00_先看这里.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:分工与交付/01_A_复核与改进.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:分工与交付/02_B_资料与案例.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:分工与交付/03_后续分析与展示.md",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/课程原始截图/微信图片_20260929151833_45_315.jpg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/课程原始截图/微信图片_20260929224329_85_315.jpg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/课程原始截图/微信图片_20260929224329_86_315.jpg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/课程原始截图/微信图片_20260929224329_87_315.jpg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/课程原始截图/微信图片_20260929224329_88_315.jpg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/课程原始截图/微信图片_20260929224329_89_315.jpg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/课程原始截图/微信图片_20260929224329_90_315.jpg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/课程原始截图/微信图片_20260929224329_91_315.jpg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/课程原始截图/微信图片_20260929224329_92_315.jpg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../参考资料/课程原始截图/微信图片_20260929224329_93_315.jpg",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../data/processed/team_identity/identity-fifa-f4b591a95719b634d9de/identity_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/team_identity/confirmed-eras-20261025T002437005064Z-f19d8184/run_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/eras/eras-20261024T013933600718Z-425e4920/run_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/team_identity/full-chain-review-20261025/review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_joint/handoff_review.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_joint/execution-sources-cece771153f310179d8c/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_joint/execution-sources-cece771153f310179d8c/source_snapshot.zip",
+      "passed": true
+    },
+    {
+      "check": "local_link:文档/05_团队协作/论文与汇报支撑材料索引.md:../../outputs/logs/strength_interpretation/handoff-review-280ed56b4f487f071e88.json",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:研究/06_历史参考周期/第四第五步_滚动训练与脚本结构设计.md",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:研究/06_历史参考周期/README.md",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:研究/06_历史参考周期/前三步_研究协议与数学依据.md",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:config/history_window.json",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:src/history_window/protocol.py",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:src/history_window/replay.py",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:src/history_window/simulation.py",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:src/history_window/pilot.py",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:scripts/check_history_window.py",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:scripts/audit_history_window.py",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:tests/test_history_window.py",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:参考资料/方法文献/sources.json",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:参考资料/方法文献/原文/Varma_Simon_2006_model_selection_bias.pdf",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:参考资料/方法文献/原文/Howard_etal_2020v5_confidence_sequences.pdf",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8/analysis_matches.csv",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:outputs/logs/strength/learning-b2889411cc93b44f88b6/learning_matches.csv",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:outputs/tables/strength_joint/rolling-prediction-4722c7b1b5f63cef35e3/predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:outputs/logs/history_window/feasibility-20261031T030355681806Z-324cc397/protocol.json",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:outputs/logs/history_window/feasibility-20261031T030355681806Z-324cc397/started.json",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:outputs/logs/history_window/feasibility-20261031T030355681806Z-324cc397/inputs.json",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:outputs/logs/history_window/feasibility-20261031T030355681806Z-324cc397/source_snapshot.zip",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:outputs/logs/history_window/feasibility-20261031T030355681806Z-324cc397/training_boundaries.csv",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:outputs/logs/history_window/feasibility-20261031T030355681806Z-324cc397/pilot_fit_boundaries.csv",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:outputs/logs/history_window/feasibility-20261031T030355681806Z-324cc397/models.json",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:outputs/logs/history_window/feasibility-20261031T030355681806Z-324cc397/pilot_predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:outputs/logs/history_window/feasibility-20261031T030355681806Z-324cc397/pilot_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:outputs/logs/history_window/feasibility-20261031T030355681806Z-324cc397/rating_predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:outputs/logs/history_window/feasibility-20261031T030355681806Z-324cc397/rating_boundaries.csv",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:outputs/logs/history_window/feasibility-20261031T030355681806Z-324cc397/rating_history_membership.csv",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:outputs/logs/history_window/feasibility-20261031T030355681806Z-324cc397/simulation_truth.csv",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:outputs/logs/history_window/feasibility-20261031T030355681806Z-324cc397/simulation_diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:outputs/logs/history_window/feasibility-20261031T030355681806Z-324cc397/telemetry.json",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:outputs/logs/history_window/feasibility-20261031T030355681806Z-324cc397/review.json",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:outputs/logs/history_window/feasibility-20261031T030355681806Z-324cc397/independent_audit.json",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:outputs/logs/history_window/feasibility-20261031T030355681806Z-324cc397/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:研究/06_历史参考周期/README.md",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:研究/06_历史参考周期/前三步_研究协议与数学依据.md",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:outputs/logs/history_window/feasibility_pointer.json",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:研究/pipeline_state.json",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:文档/01_项目方案/研究日志与决策记录.md",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:outputs/logs/history_window/planning-20261031/planning_review.json",
+      "passed": true
+    },
+    {
+      "check": "indexed_exists:outputs/logs/history_window/planning-20261031/source_retrieval.json",
+      "passed": true
+    },
+    {
+      "check": "production_not_implemented",
+      "passed": true
+    },
+    {
+      "check": "wait_for_structure_review",
+      "passed": true
+    },
+    {
+      "check": "old_code_only_no_new_production_files",
+      "passed": true
+    },
+    {
+      "check": "git_diff_check",
+      "passed": true
+    }
+  ],
+  "decision_log_id": "R20261031-09",
+  "design_status": "awaiting user review before implementation",
+  "documents": {
+    "README.md": "60b031dc287f9272e475d13ffe78cc64ebb52bc92ac6ccbd088420f6b64b72fb",
+    "文档/01_项目方案/研究日志与决策记录.md": "a6f06a65f77f962b63260313713b38031e44365e33837d4422825fefb233094f",
+    "文档/05_团队协作/论文与汇报支撑材料索引.md": "43d5bcb61b974f6459f9f65ce34e9271fda397f110e8dffda753f21e0d72a4ad",
+    "研究/06_历史参考周期/README.md": "621d270965dfd57cce24b0fa182bff146974ab80845baa1572dcf5721378518d",
+    "研究/06_历史参考周期/第四第五步_滚动训练与脚本结构设计.md": "e37461714b03d5f6aa1a5432a4491a7f1d67fe432abb72eb277bfee3891fb068",
+    "研究/README.md": "dc1d0d578ba511f83c1b6abe0f78168ed9c27757429f23e34d3cc5668cadc3c4"
+  },
+  "existing_material_entries_checked": 42,
+  "failures": [],
+  "historical_step3_handoff_document_hashes": "remain historical R08; current planning documents intentionally changed and hashed here",
+  "human_review": false,
+  "local_links_checked": 1135,
+  "new_algorithm_tests": 0,
+  "new_model_fits": 0,
+  "new_predictions": 0,
+  "new_production_modules_written": 0,
+  "original_code_config_and_pilot_unchanged": true,
+  "passed": true,
+  "readonly_workload_counts": {
+    "before2000_training_matches": 8318,
+    "common_test_matches": 16599,
+    "post2000_target_dates": 3490,
+    "study_matches": 24917,
+    "target_dates": 7164
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "adaptive_predictions": 9727,
+  "completed": true,
+  "formal_inference_admitted": false,
+  "independent_audit_pending": true,
+  "logical_tasks": 150,
+  "new_blind_holdout": false,
+  "numerical_gates_passed": true,
+  "predictions": 99594,
+  "prior_predictions_overwritten": false,
+  "ratings_recomputed": false
+}

@@ -1,0 +1,48 @@
+{
+  "annual_update_total": 1481655,
+  "by_window": [
+    {
+      "annual_historical_plus_current_year_updates": 97543,
+      "annual_rebuild_tasks": 45,
+      "strict_date_rebuild_tasks": 7164,
+      "strict_historical_match_updates": 10002869,
+      "window": 2
+    },
+    {
+      "annual_historical_plus_current_year_updates": 159119,
+      "annual_rebuild_tasks": 45,
+      "strict_date_rebuild_tasks": 7164,
+      "strict_historical_match_updates": 19576042,
+      "window": 4
+    },
+    {
+      "annual_historical_plus_current_year_updates": 276334,
+      "annual_rebuild_tasks": 45,
+      "strict_date_rebuild_tasks": 7164,
+      "strict_historical_match_updates": 37330824,
+      "window": 8
+    },
+    {
+      "annual_historical_plus_current_year_updates": 383888,
+      "annual_rebuild_tasks": 45,
+      "strict_date_rebuild_tasks": 7164,
+      "strict_historical_match_updates": 53346596,
+      "window": 12
+    },
+    {
+      "annual_historical_plus_current_year_updates": 564771,
+      "annual_rebuild_tasks": 45,
+      "strict_date_rebuild_tasks": 7164,
+      "strict_historical_match_updates": 79790212,
+      "window": 20
+    }
+  ],
+  "finite_policies": 5,
+  "learning_sha256": "51c18e65018fc0870c3c0cb1fc8da6fcee040654462e7bbc35df2af7bc9ab3f8",
+  "limits": "counts do not account for EP iterations, roster dimensions, cache reuse, prediction overhead; not runtime ratio; annual and strict policies use different left boundaries",
+  "proposed_annual_rebuild_tasks": 225,
+  "role": "readonly task-size arithmetic, not executed rating experiment or measured runtime",
+  "strict_rebuild_tasks": 35820,
+  "strict_update_total": 200046543,
+  "study_dates": 7164
+}

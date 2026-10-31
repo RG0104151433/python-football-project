@@ -1,0 +1,258 @@
+{
+  "adaptive_summary": {
+    "binary_accuracy": 0.7039169322504369,
+    "brier": 0.19102038600995366,
+    "calibration_bias_pp": 0.03846046312223701,
+    "group": "adaptive_evaluation",
+    "id_set_sha256": "55434893059100069861bae788e8436f74c14ae3259d553aa0f01fd173899d84",
+    "loss_sum": 5448.6648846315,
+    "matches": 9727,
+    "mean_probability": 0.5061931787033926,
+    "observed_home_win_rate": 0.5058085740721703,
+    "primary_log_loss": 0.5601588243684126,
+    "primary_probability_clips": 0,
+    "raw_log_loss": 0.5601588243684126,
+    "window": "adaptive-prior-years"
+  },
+  "decisions": [
+    {
+      "selected_window": "12y",
+      "selection_last_year": 2009,
+      "selection_loss_sum": 3831.9227679081,
+      "selection_matches": 6872,
+      "selection_uses_current_year_outcomes": false,
+      "target_matches": 530,
+      "year": 2010
+    },
+    {
+      "selected_window": "20y",
+      "selection_last_year": 2010,
+      "selection_loss_sum": 4142.9277113387,
+      "selection_matches": 7402,
+      "selection_uses_current_year_outcomes": false,
+      "target_matches": 809,
+      "year": 2011
+    },
+    {
+      "selected_window": "20y",
+      "selection_last_year": 2011,
+      "selection_loss_sum": 4586.5675609185,
+      "selection_matches": 8211,
+      "selection_uses_current_year_outcomes": false,
+      "target_matches": 670,
+      "year": 2012
+    },
+    {
+      "selected_window": "12y",
+      "selection_last_year": 2012,
+      "selection_loss_sum": 4967.0404055898,
+      "selection_matches": 8881,
+      "selection_uses_current_year_outcomes": false,
+      "target_matches": 692,
+      "year": 2013
+    },
+    {
+      "selected_window": "20y",
+      "selection_last_year": 2013,
+      "selection_loss_sum": 5365.6514441201,
+      "selection_matches": 9573,
+      "selection_uses_current_year_outcomes": false,
+      "target_matches": 552,
+      "year": 2014
+    },
+    {
+      "selected_window": "cumulative",
+      "selection_last_year": 2014,
+      "selection_loss_sum": 5700.5561007458,
+      "selection_matches": 10125,
+      "selection_uses_current_year_outcomes": false,
+      "target_matches": 713,
+      "year": 2015
+    },
+    {
+      "selected_window": "cumulative",
+      "selection_last_year": 2015,
+      "selection_loss_sum": 6091.478355248,
+      "selection_matches": 10838,
+      "selection_uses_current_year_outcomes": false,
+      "target_matches": 659,
+      "year": 2016
+    },
+    {
+      "selected_window": "20y",
+      "selection_last_year": 2016,
+      "selection_loss_sum": 6450.1525906681,
+      "selection_matches": 11497,
+      "selection_uses_current_year_outcomes": false,
+      "target_matches": 638,
+      "year": 2017
+    },
+    {
+      "selected_window": "cumulative",
+      "selection_last_year": 2017,
+      "selection_loss_sum": 6816.8993320416,
+      "selection_matches": 12135,
+      "selection_uses_current_year_outcomes": false,
+      "target_matches": 619,
+      "year": 2018
+    },
+    {
+      "selected_window": "cumulative",
+      "selection_last_year": 2018,
+      "selection_loss_sum": 7169.1648769785,
+      "selection_matches": 12754,
+      "selection_uses_current_year_outcomes": false,
+      "target_matches": 750,
+      "year": 2019
+    },
+    {
+      "selected_window": "cumulative",
+      "selection_last_year": 2019,
+      "selection_loss_sum": 7564.4063849526,
+      "selection_matches": 13504,
+      "selection_uses_current_year_outcomes": false,
+      "target_matches": 308,
+      "year": 2020
+    },
+    {
+      "selected_window": "cumulative",
+      "selection_last_year": 2020,
+      "selection_loss_sum": 7755.2487669506,
+      "selection_matches": 13812,
+      "selection_uses_current_year_outcomes": false,
+      "target_matches": 758,
+      "year": 2021
+    },
+    {
+      "selected_window": "cumulative",
+      "selection_last_year": 2021,
+      "selection_loss_sum": 8145.6290278992,
+      "selection_matches": 14570,
+      "selection_uses_current_year_outcomes": false,
+      "target_matches": 572,
+      "year": 2022
+    },
+    {
+      "selected_window": "cumulative",
+      "selection_last_year": 2022,
+      "selection_loss_sum": 8476.0630532031,
+      "selection_matches": 15142,
+      "selection_uses_current_year_outcomes": false,
+      "target_matches": 706,
+      "year": 2023
+    },
+    {
+      "selected_window": "cumulative",
+      "selection_last_year": 2023,
+      "selection_loss_sum": 8851.9242101214,
+      "selection_matches": 15848,
+      "selection_uses_current_year_outcomes": false,
+      "target_matches": 751,
+      "year": 2024
+    }
+  ],
+  "font": "Microsoft YaHei",
+  "job_seconds_by_window": {
+    "12y": 105.29362289980054,
+    "20y": 196.49202999996487,
+    "2y": 11.591180800052825,
+    "4y": 22.581807600159664,
+    "8y": 60.04919259995222,
+    "cumulative": 312.57793029997265
+  },
+  "matplotlib": "3.11.2",
+  "scope": "retrospective point results; no new blind test or inference",
+  "whole_period": [
+    {
+      "binary_accuracy": 0.6924513524911139,
+      "brier": 0.1970975228666725,
+      "calibration_bias_pp": 0.2781784168998134,
+      "group": "all",
+      "id_set_sha256": "5a22c46ec94f8620b9449d47dfae90d013206d99823db8be8525eebbce3982c8",
+      "loss_sum": 9556.8834149279,
+      "matches": 16599,
+      "mean_probability": 0.5096797900729683,
+      "observed_home_win_rate": 0.5068980059039702,
+      "primary_log_loss": 0.5757505521373525,
+      "primary_probability_clips": 0,
+      "raw_log_loss": 0.5757505521373525,
+      "window": "2y"
+    },
+    {
+      "binary_accuracy": 0.7003433941803723,
+      "brier": 0.19299204522113445,
+      "calibration_bias_pp": 0.15253549560575938,
+      "group": "all",
+      "id_set_sha256": "5a22c46ec94f8620b9449d47dfae90d013206d99823db8be8525eebbce3982c8",
+      "loss_sum": 9374.6993110443,
+      "matches": 16599,
+      "mean_probability": 0.5084233608600276,
+      "observed_home_win_rate": 0.5068980059039702,
+      "primary_log_loss": 0.5647749449391131,
+      "primary_probability_clips": 0,
+      "raw_log_loss": 0.5647749449391131,
+      "window": "4y"
+    },
+    {
+      "binary_accuracy": 0.70094584011085,
+      "brier": 0.19149676604533647,
+      "calibration_bias_pp": 0.19678493074763545,
+      "group": "all",
+      "id_set_sha256": "5a22c46ec94f8620b9449d47dfae90d013206d99823db8be8525eebbce3982c8",
+      "loss_sum": 9309.9120017157,
+      "matches": 16599,
+      "mean_probability": 0.5088658552114466,
+      "observed_home_win_rate": 0.5068980059039702,
+      "primary_log_loss": 0.5608718598539493,
+      "primary_probability_clips": 0,
+      "raw_log_loss": 0.5608718598539493,
+      "window": "8y"
+    },
+    {
+      "binary_accuracy": 0.7034761130188566,
+      "brier": 0.1910120077785927,
+      "calibration_bias_pp": 0.1773898812000723,
+      "group": "all",
+      "id_set_sha256": "5a22c46ec94f8620b9449d47dfae90d013206d99823db8be8525eebbce3982c8",
+      "loss_sum": 9290.0440877726,
+      "matches": 16599,
+      "mean_probability": 0.5086719047159708,
+      "observed_home_win_rate": 0.5068980059039702,
+      "primary_log_loss": 0.5596749254637381,
+      "primary_probability_clips": 0,
+      "raw_log_loss": 0.5596749254637381,
+      "window": "12y"
+    },
+    {
+      "binary_accuracy": 0.7036568467979999,
+      "brier": 0.19072905563350537,
+      "calibration_bias_pp": 0.20935170384480997,
+      "group": "all",
+      "id_set_sha256": "5a22c46ec94f8620b9449d47dfae90d013206d99823db8be8525eebbce3982c8",
+      "loss_sum": 9278.2788216423,
+      "matches": 16599,
+      "mean_probability": 0.5089915229424182,
+      "observed_home_win_rate": 0.5068980059039702,
+      "primary_log_loss": 0.5589661317936216,
+      "primary_probability_clips": 0,
+      "raw_log_loss": 0.5589661317936216,
+      "window": "20y"
+    },
+    {
+      "binary_accuracy": 0.7036568467979999,
+      "brier": 0.1906644939256425,
+      "calibration_bias_pp": 0.25011292727272727,
+      "group": "all",
+      "id_set_sha256": "5a22c46ec94f8620b9449d47dfae90d013206d99823db8be8525eebbce3982c8",
+      "loss_sum": 9274.6986412139,
+      "matches": 16599,
+      "mean_probability": 0.5093991351766974,
+      "observed_home_win_rate": 0.5068980059039702,
+      "primary_log_loss": 0.5587504452806723,
+      "primary_probability_clips": 0,
+      "raw_log_loss": 0.5587504452806723,
+      "window": "cumulative"
+    }
+  ],
+  "windows_fitted_each_year": 6
+}

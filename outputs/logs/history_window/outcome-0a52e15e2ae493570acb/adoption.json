@@ -1,0 +1,8 @@
+{
+  "decision_log_id": "R20261031-10",
+  "formal_inference_admitted": false,
+  "independent_audit_sha256": "a6a544c7b890fc152af974166c1c434ed6ba02a59b4cceb55b9fb19d73a97ea2",
+  "manifest_sha256": "cd8299ec286177f90ebe5367a22a69b7e242aaa81f355d6eb499382b6e766f10",
+  "numerical_and_descriptive_admitted": true,
+  "run_id": "outcome-0a52e15e2ae493570acb"
+}

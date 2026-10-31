@@ -1,0 +1,30 @@
+{
+  "adaptive_rows": 9727,
+  "checks": 211771,
+  "failures": [],
+  "formal_inference": false,
+  "human_review": false,
+  "independent_arithmetic": true,
+  "legacy_cumulative_max_probability_difference": 9.000000189551827e-10,
+  "model_prediction_reconstruction": true,
+  "passed": true,
+  "prediction_rows": 99594,
+  "refit_examples": [
+    {
+      "identical_probabilities": true,
+      "window": 2,
+      "year": 2000
+    },
+    {
+      "identical_probabilities": true,
+      "window": 20,
+      "year": 2024
+    },
+    {
+      "identical_probabilities": true,
+      "window": null,
+      "year": 2024
+    }
+  ],
+  "run_id": "outcome-0a52e15e2ae493570acb"
+}
