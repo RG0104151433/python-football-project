@@ -1,0 +1,49 @@
+{
+  "schema_version": "history-window-planning-review-v1",
+  "decision_log_id": "R20261031-07",
+  "executed_utc": "2026-10-31T02:30:17.923625+00:00",
+  "passed": true,
+  "checks": {
+    "same16599": true,
+    "same9727": true,
+    "development6872": true,
+    "planning_not_results": true,
+    "raw_unchanged": true,
+    "clean_unchanged": true,
+    "new_primary_source_hash": true,
+    "prior_Q5_seal_exists": true,
+    "local_links_exist": true,
+    "indexed_resources_exist": true
+  },
+  "local_links_checked": 1153,
+  "indexed_existing_resources": 20,
+  "failed": [],
+  "existing_prediction_directory": "outputs/tables/strength_joint/rolling-prediction-4722c7b1b5f63cef35e3",
+  "existing_predictions_sha256": "ecb48f718bf1324dcce0e299457a17ea276748cd57083390f0ea48098229b509",
+  "cohort_counts": {
+    "M0_nested": {
+      "2000": 16599,
+      "2010": 9727
+    },
+    "M1_strength": {
+      "2000": 16599,
+      "2010": 9727
+    },
+    "M3_nested": {
+      "2000": 16599,
+      "2010": 9727
+    }
+  },
+  "new_model_fits": 0,
+  "new_predictions": 0,
+  "experiments_started": false,
+  "numerical_method_validated": false,
+  "human_review": false,
+  "documents_sha256": {
+    "README.md": "60fbf42ae27e6f3de84b506ce2fc70c5fcde48ee7cb830c1cdbb90d4170d6fe9",
+    "研究/README.md": "def20afc2bd9bb41f373042a26dddd0d7dbda1d8db7d8c62877f243b316a961f",
+    "研究/06_历史参考周期/README.md": "36ba9c6a4f9687cd67608317db2fb9eb7ab91ae9a7e9c9ea87562be05fcbed88",
+    "文档/05_团队协作/论文与汇报支撑材料索引.md": "3a8e124cae681f514d9baa6b4ee67007b27b3b617f91a6701996d3292e6834be",
+    "参考资料/方法文献/README.md": "20a471b1ab1bb4fc717f8f5a0100747c02401799a3cb1e7ae6d5c7501a2e77ba"
+  }
+}

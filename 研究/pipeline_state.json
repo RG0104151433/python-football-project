@@ -2831,12 +2831,50 @@
     "user_stop_active": false
   },
   "question_6": {
+    "acceptable_loss_tolerance": null,
+    "adaptive_selection_proposal": {
+      "development_matches": 6872,
+      "development_period": "2000-2009",
+      "evaluation_matches": 9727,
+      "evaluation_period": "2010-2024",
+      "new_blind_holdout": false,
+      "selection_uses_prior_years_only": true
+    },
+    "best_outcome_period": null,
+    "best_rating_period": null,
+    "candidate_set_confirmed": false,
     "common_test_matches": 16599,
     "comparison_start_candidate": 2000,
-    "decision_log_id": "R20261031-06",
+    "cost_budget": null,
+    "decision_log_id": "R20261031-07",
+    "existing_score_engine_has_verified_evict_interface": false,
+    "fixed_candidate_comparison_proposal": {
+      "matches": 16599,
+      "period": "2000-2024",
+      "role": "retrospective fixed-policy comparison; hindsight winner not independent confirmation"
+    },
+    "implementation_started": false,
+    "latent_strength_generator_implemented": false,
     "preparation": "研究/06_历史参考周期/README.md",
+    "previous_Q5_simulations_are_latent_strength_truth": false,
+    "proposed_candidates": [
+      "2y",
+      "4y",
+      "8y",
+      "12y",
+      "20y",
+      "cumulative"
+    ],
+    "protocol_frozen": false,
+    "rating_window_definition_confirmed": false,
+    "research_goals": [
+      "rating_memory_usefulness_and_conditional_latent_tracking",
+      "outcome_prediction_training_history_and_limited_joint_policies",
+      "compute_performance_tradeoff"
+    ],
     "results_generated": false,
-    "status": "handoff_prepared_not_started",
+    "source_record": "参考资料/方法文献/sources.json",
+    "status": "three_goal_research_plan_prepared_math_and_protocol_pending",
     "title": "最合理的历史参考周期"
   },
   "question_7": {

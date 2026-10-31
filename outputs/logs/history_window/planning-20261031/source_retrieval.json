@@ -1,0 +1,22 @@
+{
+  "record": {
+    "id": "Q6-P01",
+    "title": "Bias in error estimation when using cross-validation for model selection",
+    "authors": "Sudhir Varma; Richard Simon",
+    "year": 2006,
+    "doi": "10.1186/1471-2105-7-91",
+    "requested_url": "https://brb.nci.nih.gov/techreport/Varma-Simon-CrossValid.pdf",
+    "decision_log_id": "R20261031-07",
+    "accessed_date": "2026-10-31",
+    "retrieved_at_utc": "2026-10-31T02:22:49.833572+00:00",
+    "reading_scope": "Primary NCI-hosted search-extracted abstract and conclusion read; direct web PDF timed out and PMC showed a browser challenge. This task does not claim full-paper theorem review. Local retrieval status is independent of reading scope.",
+    "project_fit": "Supports separating parameter/window selection from performance evaluation. Original classifier CV results are not a theorem for temporally dependent national-team matches; chronological nested adaptation still needs review.",
+    "redistribution_status": "Paper search-extracted publisher notice states Creative Commons Attribution2.0; original attribution retained.",
+    "status": "downloaded",
+    "local_path": "原文/Varma_Simon_2006_model_selection_bias.pdf",
+    "bytes": 274697,
+    "sha256": "d7786bfe58c9b1c715bc3233d3ed1516d97a6b1b989aa73e660f950c280b5fe3"
+  },
+  "model_runs": false,
+  "new_forecasts": false
+}
