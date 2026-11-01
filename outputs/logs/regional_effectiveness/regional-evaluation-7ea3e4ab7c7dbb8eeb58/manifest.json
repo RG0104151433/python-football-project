@@ -1,0 +1,117 @@
+{
+  "identity": {
+    "code": {
+      "scripts/analyze_regional_effectiveness.py": "1082b061fdaa24b90bd479d18fdc0af13c553a8eaf8674518aeebe4c6451c4c8",
+      "src/data_contract.py": "75d7c37a5d09867656098ab4fa3387721d8e1028dfde54d28c372d50f2a7d101",
+      "src/history_window/protocol.py": "738ee82ecbec004d146e8bdf7918b16e3f6980355afabf5becbd25862b543114",
+      "src/regional_effectiveness.py": "7419b71e9241da919cda72ca14b059f4a54f2f88570870f28a94d40b010c1678",
+      "src/strength/io.py": "f2befbd09af6d7dcf17b75dd790881a210e410d7c8f5f45a2bda1a66b3332104",
+      "tests/test_regional_effectiveness.py": "7fd66ee370cdf859410d501b1f28a6d47c8be01f8be7bf04094f3012e7c88325"
+    },
+    "environment": {
+      "commit": "c058885170a83d4a1b4ad75c9ae1f05c67807b23",
+      "execution_code": "working tree; exact source hashes recorded, no commit made",
+      "numpy": "2.5.4",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "python": "3.14.8",
+      "scipy": "1.18.1"
+    },
+    "inputs": {
+      "config/regional_effectiveness.json": "24fec632c85a157d5ad915eeb85d4862d2ae4023f58e137944f4c9806e755cde",
+      "config/regions_study.json": "f29e8081a58c941ea6d51809ec69aacb9d5ad8c15a343866980afcf407d68c66",
+      "config/strength_joint.json": "ce2290aea22277750c953afb912b6837b27815c4807b7918385914d8aafb9182",
+      "data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8/analysis_matches.csv": "ff63f0fc870a9692246a81c6f9f309776385474e2203e3c235a8f0d061bc47ba",
+      "data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8/manifest.json": "5b49b98027d3106fb44cdc0fb57e570858ec66ddcf007a1b41adb595e048bebd",
+      "outputs/logs/history_window/outcome-0a52e15e2ae493570acb/manifest.json": "cd8299ec286177f90ebe5367a22a69b7e242aaa81f355d6eb499382b6e766f10",
+      "outputs/logs/history_window/outcome-0a52e15e2ae493570acb/models.json": "9839ecb3b6fed97ee4292348b5039861c8c1c947af463414febf89f5f3439efa",
+      "outputs/tables/history_window/outcome-0a52e15e2ae493570acb/predictions.csv": "65ea532decafe4098708d9b7b8e78b19bb2678872fe83f1dc2f666ce12433a02",
+      "outputs/tables/regions/regions-0a1c61664a722e6c641f/analysis_matches.csv": "8b0ddb7f2e4d5eb2199c8c2b477e7873b1e46bc12421c4dddf5ac8809f91ca22",
+      "outputs/tables/reliability/design-e1ebd48827f8a5ff4be8/target_catalogue.csv": "567610a60f2498f335c1553ba5dd3d1567a95f29c7a9d50f2dcead09ac0d2d79",
+      "outputs/tables/strength_joint/rolling-prediction-4722c7b1b5f63cef35e3/manifest.json": "d914ffe6ff54026067a69a3e05047f37b33e0914265e51b97062b401ea5f18b6",
+      "outputs/tables/strength_joint/rolling-prediction-4722c7b1b5f63cef35e3/models.json": "da758c148f0e8e90d888de8fc1610494e1cd2feab7a645c6b8dc4bda575c8a53",
+      "outputs/tables/strength_joint/rolling-prediction-4722c7b1b5f63cef35e3/predictions.csv": "ecb48f718bf1324dcce0e299457a17ea276748cd57083390f0ea48098229b509"
+    },
+    "plotting": {
+      "font_path": "C:\\Windows\\Fonts\\msyh.ttc",
+      "font_sha256": "d79c55e68b1131eea0cc1c47be4f572d964f28c682e143db2ad09c1e4cb07a3f",
+      "matplotlib": "3.11.2"
+    },
+    "protocol": {
+      "background_years": [
+        2000,
+        2024
+      ],
+      "bridge_probability_tolerance": 2e-08,
+      "coverage_warning_matches": 200,
+      "decision_log_id": "R20261101-14",
+      "empty_cells": "retain with zero count and blank metrics",
+      "expected_background_matches": 16599,
+      "expected_main_matches": 9727,
+      "historical_choices_reused": true,
+      "inference": "retrospective descriptive only; no CI, significance, equivalence or real-world coverage claims",
+      "joint_config": "config/strength_joint.json",
+      "main_reference": "strength",
+      "main_years": [
+        2010,
+        2024
+      ],
+      "models": [
+        "joint",
+        "strength",
+        "past_frequency"
+      ],
+      "new_blind_test": false,
+      "no_new_fit_or_rating": true,
+      "outcome_run": "outcome-0a52e15e2ae493570acb",
+      "primary_regions": {
+        "002": "非洲",
+        "009": "大洋洲",
+        "019": "美洲",
+        "142": "亚洲",
+        "150": "欧洲"
+      },
+      "probability_bins": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "probability_clip": 1e-06,
+      "sanity_reference": "past_frequency",
+      "schema_version": "regional-effectiveness-v1",
+      "stage4_strata_thresholds": null,
+      "steps_completed_by_this_program": [
+        1,
+        2,
+        3
+      ],
+      "strength_prediction_run": "rolling-prediction-4722c7b1b5f63cef35e3",
+      "supplemental_home_unit": "005",
+      "supplemental_role": "South America versus other Americas; overlapping primary Americas, not independent replication",
+      "training_start": "1980-01-01",
+      "warning_role": "display reminder only, not statistical admission or exclusion; keep all nonempty groups"
+    }
+  },
+  "outputs": {
+    "outputs/figures/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_calibration.png": "4f89e14b173a4ae2b263e8f194da839c828c3406a0546bca0ddefc6c0a36e7b3",
+    "outputs/figures/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_calibration.svg": "2613510995f14e4ddbaad8bb1216ac2794ed27f5e0d3da74dc7d9db4967530ee",
+    "outputs/figures/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_performance.png": "c093e5537453f3623ff29fc0b17b130774dc450ddafedbfb3b15b5c2c8f783cf",
+    "outputs/figures/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_performance.svg": "5eb312e6bf8eb45c81164586d07e6053cbbbe6665e2b8f3de65fc47c8749ed2e",
+    "outputs/logs/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/compatibility.json": "6ef196fb199ee9e8ac4ce9e91cd6764c33af60587c9f6fe6bc539f9bacfaefbb",
+    "outputs/logs/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/protocol.json": "513718f9a136d9a749d68fb98b61682aa3541bc004c239aa115003533e79cea7",
+    "outputs/logs/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/review.json": "3ffc0b2170942a0f938d13abab4b4f710b8c5e0686484f2f73aeaa0f1c4b042b",
+    "outputs/logs/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/source_snapshot.zip": "c5e7b0196644367a17afa8c0d34fdfd469607628120af1c521a5f4d76dc69381",
+    "outputs/logs/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/started.json": "9da330dddec765b4bf96f6c6b5a394d378cd9cc86f9213160ab23158adeeb47d",
+    "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/annual_source_compatibility.csv": "ac97c647b9f5b7ccd213e0437a252e0aad60c07b30f3b7b546b5b851a44b3457",
+    "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/calibration.csv": "14b3e4f37f492875f124279bb8a8e127121841a186b592015a4a621fc3c67270",
+    "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/coverage.csv": "da725e7fc2400b8bbb47ef6a798d556d362f8c737dc3580483ff1f774679d92b",
+    "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/data_dictionary.json": "db4d2a29c4911cc168428125f35bc5a6936c737fb19504a865fdc0d71c498641",
+    "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/display_data.json": "44148ee2138a748d138a966efbdc6fe1d7c922e19bbadcfac49209cf2c975d91",
+    "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/evaluation_matches.csv": "dd18f8047a78ebbab086e29cf36e163e9e3b75b424ef420fef0e84e491dc0a31",
+    "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/home_team_counts.csv": "319e02bd90a53eb2ffe68a6cc06766185b1b2017408b85cc1f46b5b4916fbec3",
+    "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/paired_differences.csv": "2d4269be43e10a5d1cc0062a45b826f082651909b271e60d6ad204f1a13b4d2e",
+    "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_metrics.csv": "f981a6962f7429951d485f5f71fc4c6ce8a7bd4c73b7580f4ed7d720feddfb56"
+  }
+}

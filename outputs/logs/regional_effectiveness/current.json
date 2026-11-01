@@ -1,0 +1,12 @@
+{
+  "figure_directory": "outputs/figures/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58",
+  "formal_inference": false,
+  "log_directory": "outputs/logs/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58",
+  "run_id": "regional-evaluation-7ea3e4ab7c7dbb8eeb58",
+  "steps_completed": [
+    1,
+    2,
+    3
+  ],
+  "table_directory": "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58"
+}

@@ -1,0 +1,8 @@
+{
+  "annual_models_checked": 75,
+  "main_matches": 9727,
+  "maximum_M3_bridge_probability_error": 9.000000189551827e-10,
+  "new_fits": 0,
+  "only_strength_intercept_and_positive_strength_slope": true,
+  "unique_target_matches": 16599
+}

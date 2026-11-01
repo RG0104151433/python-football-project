@@ -1,0 +1,1110 @@
+{
+  "auditor_source_sha256": "ec4dc2aeebea79267b4d6dbe00bf5f4479416fb86efc00f7c3f353822dcfbf9e",
+  "checks": 275,
+  "checks_detail": [
+    {
+      "name": "count:main:ALL:joint",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:main:ALL:joint",
+      "passed": true
+    },
+    {
+      "name": "count:main:ALL:strength",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:main:ALL:strength",
+      "passed": true
+    },
+    {
+      "name": "count:main:ALL:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:main:ALL:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "count:main:150:joint",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:main:150:joint",
+      "passed": true
+    },
+    {
+      "name": "count:main:150:strength",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:main:150:strength",
+      "passed": true
+    },
+    {
+      "name": "count:main:150:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:main:150:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "count:main:142:joint",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:main:142:joint",
+      "passed": true
+    },
+    {
+      "name": "count:main:142:strength",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:main:142:strength",
+      "passed": true
+    },
+    {
+      "name": "count:main:142:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:main:142:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "count:main:002:joint",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:main:002:joint",
+      "passed": true
+    },
+    {
+      "name": "count:main:002:strength",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:main:002:strength",
+      "passed": true
+    },
+    {
+      "name": "count:main:002:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:main:002:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "count:main:019:joint",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:main:019:joint",
+      "passed": true
+    },
+    {
+      "name": "count:main:019:strength",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:main:019:strength",
+      "passed": true
+    },
+    {
+      "name": "count:main:019:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:main:019:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "count:main:009:joint",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:main:009:joint",
+      "passed": true
+    },
+    {
+      "name": "count:main:009:strength",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:main:009:strength",
+      "passed": true
+    },
+    {
+      "name": "count:main:009:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:main:009:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "count:main:UNKNOWN:joint",
+      "passed": true
+    },
+    {
+      "name": "empty blank:main:UNKNOWN:joint",
+      "passed": true
+    },
+    {
+      "name": "count:main:UNKNOWN:strength",
+      "passed": true
+    },
+    {
+      "name": "empty blank:main:UNKNOWN:strength",
+      "passed": true
+    },
+    {
+      "name": "count:main:UNKNOWN:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "empty blank:main:UNKNOWN:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "count:main:SOUTH_AMERICA:joint",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:main:SOUTH_AMERICA:joint",
+      "passed": true
+    },
+    {
+      "name": "count:main:SOUTH_AMERICA:strength",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:main:SOUTH_AMERICA:strength",
+      "passed": true
+    },
+    {
+      "name": "count:main:SOUTH_AMERICA:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:main:SOUTH_AMERICA:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "count:main:OTHER_AMERICAS:joint",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:main:OTHER_AMERICAS:joint",
+      "passed": true
+    },
+    {
+      "name": "count:main:OTHER_AMERICAS:strength",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:main:OTHER_AMERICAS:strength",
+      "passed": true
+    },
+    {
+      "name": "count:main:OTHER_AMERICAS:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:main:OTHER_AMERICAS:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "count:background:ALL:joint",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:background:ALL:joint",
+      "passed": true
+    },
+    {
+      "name": "count:background:ALL:strength",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:background:ALL:strength",
+      "passed": true
+    },
+    {
+      "name": "count:background:ALL:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:background:ALL:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "count:background:150:joint",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:background:150:joint",
+      "passed": true
+    },
+    {
+      "name": "count:background:150:strength",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:background:150:strength",
+      "passed": true
+    },
+    {
+      "name": "count:background:150:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:background:150:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "count:background:142:joint",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:background:142:joint",
+      "passed": true
+    },
+    {
+      "name": "count:background:142:strength",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:background:142:strength",
+      "passed": true
+    },
+    {
+      "name": "count:background:142:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:background:142:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "count:background:002:joint",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:background:002:joint",
+      "passed": true
+    },
+    {
+      "name": "count:background:002:strength",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:background:002:strength",
+      "passed": true
+    },
+    {
+      "name": "count:background:002:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:background:002:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "count:background:019:joint",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:background:019:joint",
+      "passed": true
+    },
+    {
+      "name": "count:background:019:strength",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:background:019:strength",
+      "passed": true
+    },
+    {
+      "name": "count:background:019:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:background:019:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "count:background:009:joint",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:background:009:joint",
+      "passed": true
+    },
+    {
+      "name": "count:background:009:strength",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:background:009:strength",
+      "passed": true
+    },
+    {
+      "name": "count:background:009:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:background:009:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "count:background:UNKNOWN:joint",
+      "passed": true
+    },
+    {
+      "name": "empty blank:background:UNKNOWN:joint",
+      "passed": true
+    },
+    {
+      "name": "count:background:UNKNOWN:strength",
+      "passed": true
+    },
+    {
+      "name": "empty blank:background:UNKNOWN:strength",
+      "passed": true
+    },
+    {
+      "name": "count:background:UNKNOWN:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "empty blank:background:UNKNOWN:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "count:background:SOUTH_AMERICA:joint",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:background:SOUTH_AMERICA:joint",
+      "passed": true
+    },
+    {
+      "name": "count:background:SOUTH_AMERICA:strength",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:background:SOUTH_AMERICA:strength",
+      "passed": true
+    },
+    {
+      "name": "count:background:SOUTH_AMERICA:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:background:SOUTH_AMERICA:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "count:background:OTHER_AMERICAS:joint",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:background:OTHER_AMERICAS:joint",
+      "passed": true
+    },
+    {
+      "name": "count:background:OTHER_AMERICAS:strength",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:background:OTHER_AMERICAS:strength",
+      "passed": true
+    },
+    {
+      "name": "count:background:OTHER_AMERICAS:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "scalar metrics:background:OTHER_AMERICAS:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin partition:main:ALL:joint",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:main:ALL:joint",
+      "passed": true
+    },
+    {
+      "name": "bin partition:main:ALL:strength",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:main:ALL:strength",
+      "passed": true
+    },
+    {
+      "name": "bin partition:main:ALL:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:main:ALL:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin partition:main:150:joint",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:main:150:joint",
+      "passed": true
+    },
+    {
+      "name": "bin partition:main:150:strength",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:main:150:strength",
+      "passed": true
+    },
+    {
+      "name": "bin partition:main:150:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:main:150:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin partition:main:142:joint",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:main:142:joint",
+      "passed": true
+    },
+    {
+      "name": "bin partition:main:142:strength",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:main:142:strength",
+      "passed": true
+    },
+    {
+      "name": "bin partition:main:142:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:main:142:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin partition:main:002:joint",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:main:002:joint",
+      "passed": true
+    },
+    {
+      "name": "bin partition:main:002:strength",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:main:002:strength",
+      "passed": true
+    },
+    {
+      "name": "bin partition:main:002:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:main:002:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin partition:main:019:joint",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:main:019:joint",
+      "passed": true
+    },
+    {
+      "name": "bin partition:main:019:strength",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:main:019:strength",
+      "passed": true
+    },
+    {
+      "name": "bin partition:main:019:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:main:019:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin partition:main:009:joint",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:main:009:joint",
+      "passed": true
+    },
+    {
+      "name": "bin partition:main:009:strength",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:main:009:strength",
+      "passed": true
+    },
+    {
+      "name": "bin partition:main:009:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:main:009:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin partition:main:UNKNOWN:joint",
+      "passed": true
+    },
+    {
+      "name": "bin partition:main:UNKNOWN:strength",
+      "passed": true
+    },
+    {
+      "name": "bin partition:main:UNKNOWN:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin partition:main:SOUTH_AMERICA:joint",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:main:SOUTH_AMERICA:joint",
+      "passed": true
+    },
+    {
+      "name": "bin partition:main:SOUTH_AMERICA:strength",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:main:SOUTH_AMERICA:strength",
+      "passed": true
+    },
+    {
+      "name": "bin partition:main:SOUTH_AMERICA:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:main:SOUTH_AMERICA:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin partition:main:OTHER_AMERICAS:joint",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:main:OTHER_AMERICAS:joint",
+      "passed": true
+    },
+    {
+      "name": "bin partition:main:OTHER_AMERICAS:strength",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:main:OTHER_AMERICAS:strength",
+      "passed": true
+    },
+    {
+      "name": "bin partition:main:OTHER_AMERICAS:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:main:OTHER_AMERICAS:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin partition:background:ALL:joint",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:background:ALL:joint",
+      "passed": true
+    },
+    {
+      "name": "bin partition:background:ALL:strength",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:background:ALL:strength",
+      "passed": true
+    },
+    {
+      "name": "bin partition:background:ALL:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:background:ALL:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin partition:background:150:joint",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:background:150:joint",
+      "passed": true
+    },
+    {
+      "name": "bin partition:background:150:strength",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:background:150:strength",
+      "passed": true
+    },
+    {
+      "name": "bin partition:background:150:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:background:150:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin partition:background:142:joint",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:background:142:joint",
+      "passed": true
+    },
+    {
+      "name": "bin partition:background:142:strength",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:background:142:strength",
+      "passed": true
+    },
+    {
+      "name": "bin partition:background:142:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:background:142:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin partition:background:002:joint",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:background:002:joint",
+      "passed": true
+    },
+    {
+      "name": "bin partition:background:002:strength",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:background:002:strength",
+      "passed": true
+    },
+    {
+      "name": "bin partition:background:002:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:background:002:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin partition:background:019:joint",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:background:019:joint",
+      "passed": true
+    },
+    {
+      "name": "bin partition:background:019:strength",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:background:019:strength",
+      "passed": true
+    },
+    {
+      "name": "bin partition:background:019:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:background:019:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin partition:background:009:joint",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:background:009:joint",
+      "passed": true
+    },
+    {
+      "name": "bin partition:background:009:strength",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:background:009:strength",
+      "passed": true
+    },
+    {
+      "name": "bin partition:background:009:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:background:009:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin partition:background:UNKNOWN:joint",
+      "passed": true
+    },
+    {
+      "name": "bin partition:background:UNKNOWN:strength",
+      "passed": true
+    },
+    {
+      "name": "bin partition:background:UNKNOWN:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin partition:background:SOUTH_AMERICA:joint",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:background:SOUTH_AMERICA:joint",
+      "passed": true
+    },
+    {
+      "name": "bin partition:background:SOUTH_AMERICA:strength",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:background:SOUTH_AMERICA:strength",
+      "passed": true
+    },
+    {
+      "name": "bin partition:background:SOUTH_AMERICA:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:background:SOUTH_AMERICA:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin partition:background:OTHER_AMERICAS:joint",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:background:OTHER_AMERICAS:joint",
+      "passed": true
+    },
+    {
+      "name": "bin partition:background:OTHER_AMERICAS:strength",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:background:OTHER_AMERICAS:strength",
+      "passed": true
+    },
+    {
+      "name": "bin partition:background:OTHER_AMERICAS:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "bin weighted mean:background:OTHER_AMERICAS:past_frequency",
+      "passed": true
+    },
+    {
+      "name": "paired mean:mainALLstrength",
+      "passed": true
+    },
+    {
+      "name": "paired mean:mainALLpast_frequency",
+      "passed": true
+    },
+    {
+      "name": "paired mean:main150strength",
+      "passed": true
+    },
+    {
+      "name": "paired mean:main150past_frequency",
+      "passed": true
+    },
+    {
+      "name": "paired mean:main142strength",
+      "passed": true
+    },
+    {
+      "name": "paired mean:main142past_frequency",
+      "passed": true
+    },
+    {
+      "name": "paired mean:main002strength",
+      "passed": true
+    },
+    {
+      "name": "paired mean:main002past_frequency",
+      "passed": true
+    },
+    {
+      "name": "paired mean:main019strength",
+      "passed": true
+    },
+    {
+      "name": "paired mean:main019past_frequency",
+      "passed": true
+    },
+    {
+      "name": "paired mean:main009strength",
+      "passed": true
+    },
+    {
+      "name": "paired mean:main009past_frequency",
+      "passed": true
+    },
+    {
+      "name": "paired mean:mainUNKNOWNstrength",
+      "passed": true
+    },
+    {
+      "name": "paired mean:mainUNKNOWNpast_frequency",
+      "passed": true
+    },
+    {
+      "name": "paired mean:mainSOUTH_AMERICAstrength",
+      "passed": true
+    },
+    {
+      "name": "paired mean:mainSOUTH_AMERICApast_frequency",
+      "passed": true
+    },
+    {
+      "name": "paired mean:mainOTHER_AMERICASstrength",
+      "passed": true
+    },
+    {
+      "name": "paired mean:mainOTHER_AMERICASpast_frequency",
+      "passed": true
+    },
+    {
+      "name": "paired mean:backgroundALLstrength",
+      "passed": true
+    },
+    {
+      "name": "paired mean:backgroundALLpast_frequency",
+      "passed": true
+    },
+    {
+      "name": "paired mean:background150strength",
+      "passed": true
+    },
+    {
+      "name": "paired mean:background150past_frequency",
+      "passed": true
+    },
+    {
+      "name": "paired mean:background142strength",
+      "passed": true
+    },
+    {
+      "name": "paired mean:background142past_frequency",
+      "passed": true
+    },
+    {
+      "name": "paired mean:background002strength",
+      "passed": true
+    },
+    {
+      "name": "paired mean:background002past_frequency",
+      "passed": true
+    },
+    {
+      "name": "paired mean:background019strength",
+      "passed": true
+    },
+    {
+      "name": "paired mean:background019past_frequency",
+      "passed": true
+    },
+    {
+      "name": "paired mean:background009strength",
+      "passed": true
+    },
+    {
+      "name": "paired mean:background009past_frequency",
+      "passed": true
+    },
+    {
+      "name": "paired mean:backgroundUNKNOWNstrength",
+      "passed": true
+    },
+    {
+      "name": "paired mean:backgroundUNKNOWNpast_frequency",
+      "passed": true
+    },
+    {
+      "name": "paired mean:backgroundSOUTH_AMERICAstrength",
+      "passed": true
+    },
+    {
+      "name": "paired mean:backgroundSOUTH_AMERICApast_frequency",
+      "passed": true
+    },
+    {
+      "name": "paired mean:backgroundOTHER_AMERICASstrength",
+      "passed": true
+    },
+    {
+      "name": "paired mean:backgroundOTHER_AMERICASpast_frequency",
+      "passed": true
+    },
+    {
+      "name": "Americas partition:main",
+      "passed": true
+    },
+    {
+      "name": "primary partition:main",
+      "passed": true
+    },
+    {
+      "name": "Americas partition:background",
+      "passed": true
+    },
+    {
+      "name": "primary partition:background",
+      "passed": true
+    },
+    {
+      "name": "BOM LF:annual_source_compatibility.csv",
+      "passed": true
+    },
+    {
+      "name": "BOM LF:calibration.csv",
+      "passed": true
+    },
+    {
+      "name": "BOM LF:coverage.csv",
+      "passed": true
+    },
+    {
+      "name": "BOM LF:evaluation_matches.csv",
+      "passed": true
+    },
+    {
+      "name": "BOM LF:home_team_counts.csv",
+      "passed": true
+    },
+    {
+      "name": "BOM LF:paired_differences.csv",
+      "passed": true
+    },
+    {
+      "name": "BOM LF:regional_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/figures/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_calibration.png",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/figures/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_calibration.svg",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/figures/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_performance.png",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/figures/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_performance.svg",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/logs/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/compatibility.json",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/logs/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/protocol.json",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/logs/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/review.json",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/logs/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/source_snapshot.zip",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/logs/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/started.json",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/annual_source_compatibility.csv",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/calibration.csv",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/coverage.csv",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/data_dictionary.json",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/display_data.json",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/evaluation_matches.csv",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/home_team_counts.csv",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/paired_differences.csv",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_metrics.csv",
+      "passed": true
+    }
+  ],
+  "human_review": false,
+  "passed": true,
+  "run_id": "regional-evaluation-7ea3e4ab7c7dbb8eeb58",
+  "scope": "independent scalar arithmetic and saved-source/format check; no model fitting or rating replay"
+}

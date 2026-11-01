@@ -3264,9 +3264,9 @@
     }
   },
   "question_7": {
-    "decision_log_id": "R20261026-02",
-    "results_generated": false,
-    "status": "number_confirmed_not_designed",
+    "decision_log_id": "R20261101-15",
+    "results_generated": true,
+    "status": "steps1_3_completed_descriptive_stage4_handoff_ready",
     "title": "不同地区的方法有效性",
     "handoff_from_question6": {
       "ready": true,
@@ -3279,7 +3279,75 @@
       "research_question": "regional predictive performance and systematic over/underprediction; distinct from regional home-win rates",
       "regional_optimal_window_tuning_approved": false,
       "results_generated": false
-    }
+    },
+    "preparation": "研究/07_地区有效性/README.md",
+    "workflow_risk_review": "研究/07_地区有效性/AI辅助研究流程自查.md",
+    "analysis_code_written": true,
+    "proposal_not_final_protocol": false,
+    "next_step": "step4: fix a small number of past-only strength-gap/information strata before calculating new subgroup errors; explain composition without causality or regional retuning",
+    "planned_steps": [
+      "fix_targets_comparators_metrics_and_evidence_rules",
+      "align_existing_predictions_strength_distributions_and_regions",
+      "regional_paired_performance_and_probability_calibration",
+      "strength_gap_and_information_diagnostics",
+      "stability_and_evidence_grading",
+      "conditional_applicability_report_and_handoff"
+    ],
+    "proposed_main_years": [
+      2010,
+      2024
+    ],
+    "real_historical_new_blind_test": false,
+    "regional_tuning_part_of_this_stage": false,
+    "read_only_existing_main_cohort_coverage": {
+      "source": "outputs/tables/history_window/outcome-0a52e15e2ae493570acb/predictions.csv",
+      "selector": "window=cumulative and2010<=year<=2024",
+      "matches": 9727,
+      "home_region_counts": {
+        "150": 3322,
+        "142": 2540,
+        "002": 2058,
+        "019": 1659,
+        "009": 148
+      },
+      "is_new_performance_result": false
+    },
+    "strength_and_uncertainty_note": "研究/07_地区有效性/README.md#6-实力不确定性与分地区统计之后的分析r20261101-12讨论补充",
+    "default_already_integrates_strength_uncertainty": true,
+    "primary_metric_proposal": "paired clipped log loss",
+    "secondary_metric_proposal": "Brier, calibration bias and limited reliability bins; binary accuracy supplementary",
+    "uncertainty_diagnostic_proposal": "prior-only fixed strength-gap and information strata; thresholds not yet decided",
+    "new_uncertainty_ablation_run": false,
+    "steps_executed": 3,
+    "formal_protocol_finalized": false,
+    "descriptive_protocol_finalized": true,
+    "formal_inference_protocol_finalized": false,
+    "completed_steps": [
+      1,
+      2,
+      3
+    ],
+    "current_run_id": "regional-evaluation-7ea3e4ab7c7dbb8eeb58",
+    "config": "config/regional_effectiveness.json",
+    "handoff": "研究/07_地区有效性/前三步_运行结果与第四步交接.md",
+    "log_directory": "outputs/logs/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58",
+    "table_directory": "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58",
+    "figure_directory": "outputs/figures/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58",
+    "adoption": "outputs/logs/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/handoff_adoption.json",
+    "main_matches": 9727,
+    "background_matches": 16599,
+    "primary_regions": 5,
+    "supplemental_south_america_matches": 568,
+    "supplemental_other_americas_matches": 1091,
+    "new_fits": 0,
+    "new_ratings": 0,
+    "new_simulations": 0,
+    "source_compatibility_M3_max_probability_error": 9.000000189551827e-10,
+    "targeted_tests_passed": 6,
+    "independent_checks": 275,
+    "formal_statistical_inference": false,
+    "human_review": false,
+    "question_closed": false
   },
   "question_8": {
     "decision_log_id": "R20261026-02",

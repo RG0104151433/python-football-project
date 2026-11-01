@@ -1,0 +1,57 @@
+{
+  "background_years": [
+    2000,
+    2024
+  ],
+  "bridge_probability_tolerance": 2e-08,
+  "coverage_warning_matches": 200,
+  "decision_log_id": "R20261101-14",
+  "empty_cells": "retain with zero count and blank metrics",
+  "expected_background_matches": 16599,
+  "expected_main_matches": 9727,
+  "historical_choices_reused": true,
+  "inference": "retrospective descriptive only; no CI, significance, equivalence or real-world coverage claims",
+  "joint_config": "config/strength_joint.json",
+  "main_reference": "strength",
+  "main_years": [
+    2010,
+    2024
+  ],
+  "models": [
+    "joint",
+    "strength",
+    "past_frequency"
+  ],
+  "new_blind_test": false,
+  "no_new_fit_or_rating": true,
+  "outcome_run": "outcome-0a52e15e2ae493570acb",
+  "primary_regions": {
+    "002": "非洲",
+    "009": "大洋洲",
+    "019": "美洲",
+    "142": "亚洲",
+    "150": "欧洲"
+  },
+  "probability_bins": [
+    0,
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1
+  ],
+  "probability_clip": 1e-06,
+  "sanity_reference": "past_frequency",
+  "schema_version": "regional-effectiveness-v1",
+  "stage4_strata_thresholds": null,
+  "steps_completed_by_this_program": [
+    1,
+    2,
+    3
+  ],
+  "strength_prediction_run": "rolling-prediction-4722c7b1b5f63cef35e3",
+  "supplemental_home_unit": "005",
+  "supplemental_role": "South America versus other Americas; overlapping primary Americas, not independent replication",
+  "training_start": "1980-01-01",
+  "warning_role": "display reminder only, not statistical admission or exclusion; keep all nonempty groups"
+}

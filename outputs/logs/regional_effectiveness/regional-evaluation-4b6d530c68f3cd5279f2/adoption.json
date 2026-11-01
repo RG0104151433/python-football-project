@@ -1,0 +1,11 @@
+{
+  "full_question_closed": false,
+  "human_review": false,
+  "manifest_sha256": "cfbf6dd36a29b33bf5739a79b766894a6ed1ba5a2efb8ec0631bee3e444e1a44",
+  "run_id": "regional-evaluation-4b6d530c68f3cd5279f2",
+  "steps_completed": [
+    1,
+    2,
+    3
+  ]
+}

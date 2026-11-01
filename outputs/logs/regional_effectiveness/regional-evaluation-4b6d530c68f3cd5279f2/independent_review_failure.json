@@ -1,0 +1,5 @@
+{
+  "stage": "independent CSV scalar review",
+  "issue": "Past-frequency probability persisted at10 decimals while summary used full precision; bias in percentage points exceeds same raw-probability numeric tolerance.",
+  "resolution": "Round newly derived past-frequency probability to published10decimals before all metrics, retain old run, new identity; no joint/strength forecast change."
+}

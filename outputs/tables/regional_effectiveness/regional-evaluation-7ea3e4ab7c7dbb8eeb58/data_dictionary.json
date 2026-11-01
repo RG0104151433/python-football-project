@@ -1,0 +1,16 @@
+{
+  "bias": "probability percentage points",
+  "calibration": "five fixed bins, final includes1; empty metrics blank; no uncertainty interval",
+  "groups": "ALL and primary mutually-exclusive parents plus UNKNOWN; SOUTH_AMERICA/OTHER_AMERICAS overlap Americas parent",
+  "old_initialization_diagnostics": "deliberately not copied as new-policy validation",
+  "outcome_variance_joint": "p*(1-p), not CI or strength uncertainty",
+  "probabilities": [
+    "p_joint",
+    "p_strength",
+    "p_past_frequency"
+  ],
+  "score": "natural-log clipped loss; not percent accuracy",
+  "stage4": "fields prepared only; no strata analysis, cause or statistical admission",
+  "strength_uncertainty": "base variance plus (home_jump_intensity+away_jump_intensity)*jump_scale_sd^2; includes covariance",
+  "target": "home_win 1 versus draw/away 0"
+}

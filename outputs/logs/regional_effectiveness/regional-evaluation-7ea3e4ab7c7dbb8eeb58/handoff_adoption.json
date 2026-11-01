@@ -1,0 +1,30 @@
+{
+  "audit_source_sha256": "ec4dc2aeebea79267b4d6dbe00bf5f4479416fb86efc00f7c3f353822dcfbf9e",
+  "documentation_sha256": "8f5199eed0e8158ad4d533c63c0e24941c1e55fac1214c37012de74786e66bc5",
+  "failed_or_superseded_run": "regional-evaluation-4b6d530c68f3cd5279f2",
+  "figures_visually_reviewed": true,
+  "formal_inference": false,
+  "git_diff_check": true,
+  "handoff_source_snapshot_sha256": "a7ae6495974bbb05a411fe4881ec9634916857cdfc24f9c313e50c6aeea15ada",
+  "human_review": false,
+  "independent_audit_sha256": "e2dcd5e21682bd2f4e8506cf7e225c2a265bc5ef3dfd8e19c536f7aaa9928f45",
+  "independent_checks": 275,
+  "index_paths_checked": 29,
+  "manifest_sha256": "9316f74a640af420565ea059ed9591349772af89890cfa43ed129b7658c41494",
+  "missing_paths": [],
+  "original_adoption_sha256": "4507f40d07f5645c4b9ac3ed8cbb7c25fa70f7ed915ce82aed726efcf2711f90",
+  "passed": true,
+  "run_id": "regional-evaluation-7ea3e4ab7c7dbb8eeb58",
+  "scope": "Q7 descriptive first3 steps and stage4 handoff; not final regional reliability",
+  "steps4_6_completed": false,
+  "steps_completed": [
+    1,
+    2,
+    3
+  ],
+  "tests": {
+    "passed": 6,
+    "seconds": 0.34
+  },
+  "visual_reuse_basis": "current PNGs byte-identical to viewed first-run PNGs; only published precision of frequency comparator fixed"
+}
