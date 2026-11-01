@@ -1,0 +1,8 @@
+{
+  "human_review": false,
+  "internal_step8_ready": true,
+  "manifest_sha256": "1d88b58dd4fd27ee6b350d5f8345d6084c8e5165276f5acb76e02c40b12b117c",
+  "question6_fully_closed": false,
+  "run_id": "reliability-c3586b1614a4ba59c9c5",
+  "scope": "Q6 step7 limited-scope reliability and sensitivity; no formal real-world inference"
+}

@@ -1,0 +1,17 @@
+{
+  "baseline_lowest_historical_point": true,
+  "controlled_cost_scope": "same R10 outcome design/fit/predict only; 66.31percent saving is not end-to-end",
+  "default_retained": "cumulative_1950__outcome_cumulative",
+  "equivalence_established": false,
+  "formal_statistical_winner_established": false,
+  "human_review": false,
+  "initialization_scope": "local native endpoint diagnostic; cannot validate full outcome-prediction pipeline",
+  "native_endpoint_replay_jobs": 6,
+  "new_large_simulations": 0,
+  "new_outcome_fits": 0,
+  "next_step": "internal step8 interpretation, paper/showcase archive, same-version sources and final handoff",
+  "no_unique_optimal_cycle": true,
+  "prior_probe_max_abs_native_home_probability_change": 0.024546303303041805,
+  "real_historical_nominal_coverage": false,
+  "step7_closed_scope": "conditional-reference failure documented; descriptive sensitivity and local prior probes complete"
+}

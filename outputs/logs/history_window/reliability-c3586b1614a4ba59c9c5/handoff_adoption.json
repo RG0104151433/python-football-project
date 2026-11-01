@@ -1,0 +1,18 @@
+{
+  "human_review": false,
+  "independent_handoff_review_sha256": "665fe0f111139495d567ce6a9b2f1f15f73f5414d60c1247d13c6b007ac3e80e",
+  "manifest_sha256": "1d88b58dd4fd27ee6b350d5f8345d6084c8e5165276f5acb76e02c40b12b117c",
+  "original_adoption_sha256": "191c897352cb66d022efe093af617fd465600684a7c1c45d1d5ca9ee263f4ee7",
+  "question6_fully_closed": false,
+  "run_id": "reliability-c3586b1614a4ba59c9c5",
+  "scope": "step7 complete within declared limitations; internal step8 ready; no real-world coverage/equivalence certification",
+  "supplemental_unchanged_study_loader_code": {
+    "src/strength_joint/__init__.py": "80cd9d9fb898f60d696323f057245dca927670bc20bb9ad14f3fdbb933080f43",
+    "src/strength_joint/contract.py": "8f47c10ac639ca2ef7c0c867cca84f36d6cd0d0dd54c41774f3b663f85df2abb",
+    "src/strength_joint/contrasts.py": "5c816886d9679781d932f79da4d5771a3ffab4455c92c4b36d1cdf68f39eb0b5",
+    "src/strength_joint/design.py": "0826815f44370435908fd74c36d98bda1cdcf70699e20ec1dc89626a67f2717d",
+    "src/strength_joint/model.py": "7c1410a84e7f224877892568a6359edb0ca1c766da5041ac1d14cf0e71698dc9",
+    "src/strength_joint/reporting.py": "73d4ea64181321b1d77fd22dded426fea507ad99cba0afb1dbd2ca49a7d16852",
+    "src/strength_joint/validation.py": "eadd1601797f7429fc8189d216d23015031004d0846453745507c255fc75eac7"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "alpha": 0.05,
+  "analytical_radius_lower_bound": 0.6488510451092505,
+  "conditional_reference_radius": 3.0368582825648818,
+  "day_counts_sum": 9727,
+  "formal_inference_admitted": false,
+  "history_reused": true,
+  "independent_matches_assumed": false,
+  "maximum_registered_pairs": 60,
+  "prior_probe": "two annual endpoints, one prespecified day, joint variance scaling; native only",
+  "prior_probe_target_date": "2010-01-02",
+  "real_historical_nominal_coverage": false,
+  "reason": "researcher selection and retrospective cohort predictability not established; conditional formula only",
+  "reference_target": "average conditional expected paired clipped log loss along the fixed observed schedule",
+  "simulation_unit": "10 independent seed groups; MCSE only",
+  "subset_diagnostics": "fixed issued predictions; no retraining; changed evaluation populations",
+  "sum_squared_day_counts": 199087,
+  "unverified": [
+    "full-period downstream initialization sensitivity",
+    "cumulative-rating initialization sensitivity",
+    "strict-W full-period calibrated predictions",
+    "new blind future test",
+    "scientific noninferiority margin and end-to-end standardized cost frontier"
+  ]
+}

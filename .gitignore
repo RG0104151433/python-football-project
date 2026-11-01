@@ -16,6 +16,7 @@ outputs/logs/strength_inference/checkpoints/
 outputs/logs/history_window/outcome-*/jobs/
 outputs/logs/history_window/rating-memory-*/jobs/
 outputs/logs/history_window/joint-*/jobs/
+outputs/logs/history_window/reliability-*/probe_jobs/
 
 # IDE
 .idea/

@@ -5,11 +5,15 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from src.history_window.outcome import run
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('--stage',choices=['outcome','rating','latent','all','joint','joint-review'],default='outcome')
+    p=argparse.ArgumentParser();p.add_argument('--stage',choices=['outcome','rating','latent','all','joint','joint-review','reliability'],default='outcome')
     p.add_argument('--config');p.add_argument('--resume',action='store_true')
     p.add_argument('--mode',choices=['plan','development','full'],default='full')
     p.add_argument('--plan-only',action='store_true');a=p.parse_args()
-    if a.stage=='joint-review':
+    if a.stage=='reliability':
+        from src.history_window.reliability import run as run_reliability
+        if a.plan_only or a.mode!='full':p.error('reliability uses frozen existing inputs and six native probes; use default full mode')
+        run_reliability(a.config or 'config/history_window_reliability.json')
+    elif a.stage=='joint-review':
         from src.history_window.joint_review import run as review_joint
         if a.plan_only or a.mode!='full':p.error('joint-review reads existing completed predictions; use default full mode')
         review_joint(a.config or 'config/history_window_joint_review.json')

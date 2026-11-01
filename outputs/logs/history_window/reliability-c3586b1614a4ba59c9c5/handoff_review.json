@@ -1,0 +1,606 @@
+{
+  "checks": 148,
+  "checks_detail": [
+    {
+      "name": "sealed:outputs/logs/history_window/reliability-c3586b1614a4ba59c9c5/applicability.json",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/logs/history_window/reliability-c3586b1614a4ba59c9c5/conclusions.json",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/logs/history_window/reliability-c3586b1614a4ba59c9c5/native_prior_ledger.json",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/logs/history_window/reliability-c3586b1614a4ba59c9c5/protocol.json",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/logs/history_window/reliability-c3586b1614a4ba59c9c5/review.json",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/logs/history_window/reliability-c3586b1614a4ba59c9c5/source_snapshot.zip",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/logs/history_window/reliability-c3586b1614a4ba59c9c5/started.json",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/tables/history_window/reliability-c3586b1614a4ba59c9c5/comparison_registry.csv",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/tables/history_window/reliability-c3586b1614a4ba59c9c5/conditional_reference.csv",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/tables/history_window/reliability-c3586b1614a4ba59c9c5/daily_paired_losses.csv",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/tables/history_window/reliability-c3586b1614a4ba59c9c5/display_data.json",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/tables/history_window/reliability-c3586b1614a4ba59c9c5/evidence_grades.csv",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/tables/history_window/reliability-c3586b1614a4ba59c9c5/native_prior_probes.csv",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/tables/history_window/reliability-c3586b1614a4ba59c9c5/sensitivity.csv",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/tables/history_window/reliability-c3586b1614a4ba59c9c5/simulation_paired_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/tables/history_window/reliability-c3586b1614a4ba59c9c5/yearly_paired.csv",
+      "passed": true
+    },
+    {
+      "name": "paired facts:T02",
+      "passed": true
+    },
+    {
+      "name": "independent loss:T02",
+      "passed": true
+    },
+    {
+      "name": "independent radius:T02",
+      "passed": true
+    },
+    {
+      "name": "daily aggregation:T02",
+      "passed": true
+    },
+    {
+      "name": "paired facts:R02",
+      "passed": true
+    },
+    {
+      "name": "independent loss:R02",
+      "passed": true
+    },
+    {
+      "name": "independent radius:R02",
+      "passed": true
+    },
+    {
+      "name": "daily aggregation:R02",
+      "passed": true
+    },
+    {
+      "name": "paired facts:T04",
+      "passed": true
+    },
+    {
+      "name": "independent loss:T04",
+      "passed": true
+    },
+    {
+      "name": "independent radius:T04",
+      "passed": true
+    },
+    {
+      "name": "daily aggregation:T04",
+      "passed": true
+    },
+    {
+      "name": "paired facts:R04",
+      "passed": true
+    },
+    {
+      "name": "independent loss:R04",
+      "passed": true
+    },
+    {
+      "name": "independent radius:R04",
+      "passed": true
+    },
+    {
+      "name": "daily aggregation:R04",
+      "passed": true
+    },
+    {
+      "name": "paired facts:T08",
+      "passed": true
+    },
+    {
+      "name": "independent loss:T08",
+      "passed": true
+    },
+    {
+      "name": "independent radius:T08",
+      "passed": true
+    },
+    {
+      "name": "daily aggregation:T08",
+      "passed": true
+    },
+    {
+      "name": "paired facts:R08",
+      "passed": true
+    },
+    {
+      "name": "independent loss:R08",
+      "passed": true
+    },
+    {
+      "name": "independent radius:R08",
+      "passed": true
+    },
+    {
+      "name": "daily aggregation:R08",
+      "passed": true
+    },
+    {
+      "name": "paired facts:T12",
+      "passed": true
+    },
+    {
+      "name": "independent loss:T12",
+      "passed": true
+    },
+    {
+      "name": "independent radius:T12",
+      "passed": true
+    },
+    {
+      "name": "daily aggregation:T12",
+      "passed": true
+    },
+    {
+      "name": "paired facts:R12",
+      "passed": true
+    },
+    {
+      "name": "independent loss:R12",
+      "passed": true
+    },
+    {
+      "name": "independent radius:R12",
+      "passed": true
+    },
+    {
+      "name": "daily aggregation:R12",
+      "passed": true
+    },
+    {
+      "name": "paired facts:T20",
+      "passed": true
+    },
+    {
+      "name": "independent loss:T20",
+      "passed": true
+    },
+    {
+      "name": "independent radius:T20",
+      "passed": true
+    },
+    {
+      "name": "daily aggregation:T20",
+      "passed": true
+    },
+    {
+      "name": "paired facts:R20",
+      "passed": true
+    },
+    {
+      "name": "independent loss:R20",
+      "passed": true
+    },
+    {
+      "name": "independent radius:R20",
+      "passed": true
+    },
+    {
+      "name": "daily aggregation:R20",
+      "passed": true
+    },
+    {
+      "name": "paired facts:J20T12",
+      "passed": true
+    },
+    {
+      "name": "independent loss:J20T12",
+      "passed": true
+    },
+    {
+      "name": "independent radius:J20T12",
+      "passed": true
+    },
+    {
+      "name": "daily aggregation:J20T12",
+      "passed": true
+    },
+    {
+      "name": "paired facts:J12T12",
+      "passed": true
+    },
+    {
+      "name": "independent loss:J12T12",
+      "passed": true
+    },
+    {
+      "name": "independent radius:J12T12",
+      "passed": true
+    },
+    {
+      "name": "daily aggregation:J12T12",
+      "passed": true
+    },
+    {
+      "name": "paired facts:A",
+      "passed": true
+    },
+    {
+      "name": "independent loss:A",
+      "passed": true
+    },
+    {
+      "name": "independent radius:A",
+      "passed": true
+    },
+    {
+      "name": "daily aggregation:A",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:constant:probit:annual_reset_2y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:constant:probit:annual_reset_2y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:constant:probit:annual_reset_4y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:constant:probit:annual_reset_4y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:constant:probit:annual_reset_8y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:constant:probit:annual_reset_8y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:constant:probit:annual_reset_12y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:constant:probit:annual_reset_12y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:constant:probit:annual_reset_20y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:constant:probit:annual_reset_20y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:constant:logistic:annual_reset_2y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:constant:logistic:annual_reset_2y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:constant:logistic:annual_reset_4y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:constant:logistic:annual_reset_4y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:constant:logistic:annual_reset_8y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:constant:logistic:annual_reset_8y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:constant:logistic:annual_reset_12y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:constant:logistic:annual_reset_12y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:constant:logistic:annual_reset_20y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:constant:logistic:annual_reset_20y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:drift:probit:annual_reset_2y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:drift:probit:annual_reset_2y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:drift:probit:annual_reset_4y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:drift:probit:annual_reset_4y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:drift:probit:annual_reset_8y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:drift:probit:annual_reset_8y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:drift:probit:annual_reset_12y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:drift:probit:annual_reset_12y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:drift:probit:annual_reset_20y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:drift:probit:annual_reset_20y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:drift:logistic:annual_reset_2y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:drift:logistic:annual_reset_2y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:drift:logistic:annual_reset_4y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:drift:logistic:annual_reset_4y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:drift:logistic:annual_reset_8y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:drift:logistic:annual_reset_8y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:drift:logistic:annual_reset_12y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:drift:logistic:annual_reset_12y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:drift:logistic:annual_reset_20y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:drift:logistic:annual_reset_20y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:jump:probit:annual_reset_2y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:jump:probit:annual_reset_2y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:jump:probit:annual_reset_4y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:jump:probit:annual_reset_4y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:jump:probit:annual_reset_8y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:jump:probit:annual_reset_8y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:jump:probit:annual_reset_12y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:jump:probit:annual_reset_12y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:jump:probit:annual_reset_20y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:jump:probit:annual_reset_20y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:jump:logistic:annual_reset_2y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:jump:logistic:annual_reset_2y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:jump:logistic:annual_reset_4y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:jump:logistic:annual_reset_4y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:jump:logistic:annual_reset_8y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:jump:logistic:annual_reset_8y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:jump:logistic:annual_reset_12y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:jump:logistic:annual_reset_12y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:jump:logistic:annual_reset_20y:gap_mse",
+      "passed": true
+    },
+    {
+      "name": "paired simulation:jump:logistic:annual_reset_20y:native_probability_mse",
+      "passed": true
+    },
+    {
+      "name": "BOM/LF:comparison_registry.csv",
+      "passed": true
+    },
+    {
+      "name": "BOM/LF:conditional_reference.csv",
+      "passed": true
+    },
+    {
+      "name": "BOM/LF:daily_paired_losses.csv",
+      "passed": true
+    },
+    {
+      "name": "BOM/LF:evidence_grades.csv",
+      "passed": true
+    },
+    {
+      "name": "BOM/LF:native_prior_probes.csv",
+      "passed": true
+    },
+    {
+      "name": "BOM/LF:sensitivity.csv",
+      "passed": true
+    },
+    {
+      "name": "BOM/LF:simulation_paired_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "BOM/LF:yearly_paired.csv",
+      "passed": true
+    },
+    {
+      "name": "native probability:2:0.5000000000:results:0e92bab1426cb85915c6efff4c57f235d4a0cdbe6841b016bdc6c6b23216b6c5",
+      "passed": true
+    },
+    {
+      "name": "native probability:2:0.5000000000:results:78150adcf45dffdf4dec413e543eb37ee242bc1b3eb2ae451496b69b6b18d84f",
+      "passed": true
+    },
+    {
+      "name": "native probability:2:1.0000000000:results:0e92bab1426cb85915c6efff4c57f235d4a0cdbe6841b016bdc6c6b23216b6c5",
+      "passed": true
+    },
+    {
+      "name": "native probability:2:1.0000000000:results:78150adcf45dffdf4dec413e543eb37ee242bc1b3eb2ae451496b69b6b18d84f",
+      "passed": true
+    },
+    {
+      "name": "native probability:2:2.0000000000:results:0e92bab1426cb85915c6efff4c57f235d4a0cdbe6841b016bdc6c6b23216b6c5",
+      "passed": true
+    },
+    {
+      "name": "native probability:2:2.0000000000:results:78150adcf45dffdf4dec413e543eb37ee242bc1b3eb2ae451496b69b6b18d84f",
+      "passed": true
+    },
+    {
+      "name": "native probability:20:0.5000000000:results:0e92bab1426cb85915c6efff4c57f235d4a0cdbe6841b016bdc6c6b23216b6c5",
+      "passed": true
+    },
+    {
+      "name": "native probability:20:0.5000000000:results:78150adcf45dffdf4dec413e543eb37ee242bc1b3eb2ae451496b69b6b18d84f",
+      "passed": true
+    },
+    {
+      "name": "native probability:20:1.0000000000:results:0e92bab1426cb85915c6efff4c57f235d4a0cdbe6841b016bdc6c6b23216b6c5",
+      "passed": true
+    },
+    {
+      "name": "native probability:20:1.0000000000:results:78150adcf45dffdf4dec413e543eb37ee242bc1b3eb2ae451496b69b6b18d84f",
+      "passed": true
+    },
+    {
+      "name": "native probability:20:2.0000000000:results:0e92bab1426cb85915c6efff4c57f235d4a0cdbe6841b016bdc6c6b23216b6c5",
+      "passed": true
+    },
+    {
+      "name": "native probability:20:2.0000000000:results:78150adcf45dffdf4dec413e543eb37ee242bc1b3eb2ae451496b69b6b18d84f",
+      "passed": true
+    }
+  ],
+  "human_review": false,
+  "passed": true,
+  "run_id": "reliability-c3586b1614a4ba59c9c5",
+  "scope": "one independent scalar-formula/source/format check; no replays, refits or resimulation",
+  "tests": {
+    "file": "tests/test_history_window_reliability.py",
+    "passed": 8,
+    "seconds": 1.61
+  }
+}

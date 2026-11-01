@@ -1,0 +1,21 @@
+{
+  "baseline_comparisons": 13,
+  "checks": "source hashes and manifests, exact facts and aliases, finite forecasts, common subsets, complete seeds, analytical radius lower bound, stored native default reproduction",
+  "common_matches": 9727,
+  "daily_rows": 21775,
+  "dates": 1675,
+  "default_native_probe_max_probability_error": 4.956346444373594e-11,
+  "distinct_series": 14,
+  "formal_real_world_inference": false,
+  "human_review": false,
+  "independent_simulation_seed_groups": 10,
+  "native_probe_jobs": 6,
+  "native_probe_rows": 12,
+  "new_large_simulation_histories": 0,
+  "new_outcome_fits": 0,
+  "passed": true,
+  "registry_rows": 19,
+  "sensitivity_rows": 286,
+  "simulation_comparisons": 30,
+  "yearly_rows": 195
+}

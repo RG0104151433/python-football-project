@@ -1,0 +1,132 @@
+{
+  "alpha": 0.05,
+  "decision_log_id": "R20261101-08",
+  "expected_matches": 9727,
+  "failure_policy": "preserve failed run; reject changed inputs, mismatched samples and missing seeds; never silently drop rows",
+  "frozen_prediction_sha256": {
+    "adaptive": "48c295ec09bde6d460b8433152f50eedc44e100d7d50381d628e52c6e30802f9",
+    "joint": "4590d4baee435370b81c85aa1da724455488bf2b7310939e6be8c5c18320ccf0",
+    "outcome": "65ea532decafe4098708d9b7b8e78b19bb2678872fe83f1dc2f666ce12433a02",
+    "rating": "c8d68fb23aef06d7306e201ef576d78923a8b1700c96373f6cf987acc40e0d35",
+    "simulation": "5f4bf1fc7003a884972a4bbdb0938e66da048161e9153c88e26f94cd08751737"
+  },
+  "joint_review_run": "joint-review-4888d987645daee73e19",
+  "joint_run": "joint-2783034e52fe6deb282a",
+  "lambda_powers": [
+    -18,
+    -17,
+    -16,
+    -15,
+    -14,
+    -13,
+    -12,
+    -11,
+    -10,
+    -9,
+    -8,
+    -7,
+    -6,
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    0
+  ],
+  "main_years": [
+    2010,
+    2024
+  ],
+  "maximum_registered_pairs": 60,
+  "native_prior_probe": {
+    "annual_window_years": [
+      2,
+      20
+    ],
+    "base_home_variance": 0.25,
+    "base_team_variance": 1.0,
+    "date_rule": "earliest target date in the fixed main evaluation cohort; not chosen by observed errors",
+    "joint_prior_variance_scales": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "max_job_seconds": 600,
+    "scope": "native scoring only, annual left boundary and all past dates through target; not downstream refit or cumulative-prior sensitivity"
+  },
+  "no_new_large_simulation": true,
+  "no_new_outcome_model_fit": true,
+  "outcome_run": "outcome-0a52e15e2ae493570acb",
+  "probability_clip": 1e-06,
+  "production_admissible_loss_tolerance": null,
+  "production_cost_budget": null,
+  "rating_run": "rating-memory-1c8aebdf661ccdddff05",
+  "real_historical_nominal_coverage": false,
+  "schema_version": "history-window-reliability-v1",
+  "sensitivity": {
+    "calendar_month_groups": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    ],
+    "common_non_cold_start_minimum_both_team_history": 5,
+    "leave_one_evaluation_year_out": true,
+    "periods": [
+      [
+        2010,
+        2016
+      ],
+      [
+        2017,
+        2024
+      ]
+    ],
+    "retraining_for_subset_diagnostics": false,
+    "tournament_groups": [
+      "friendly",
+      "non_friendly"
+    ]
+  },
+  "simulation_links": [
+    "probit",
+    "logistic"
+  ],
+  "simulation_paths": [
+    "constant",
+    "drift",
+    "jump"
+  ],
+  "simulation_seeds": [
+    631211,
+    631212,
+    631213,
+    631214,
+    631215,
+    631216,
+    631217,
+    631218,
+    631219,
+    631220
+  ],
+  "threads": 1,
+  "windows": [
+    2,
+    4,
+    8,
+    12,
+    20
+  ]
+}
