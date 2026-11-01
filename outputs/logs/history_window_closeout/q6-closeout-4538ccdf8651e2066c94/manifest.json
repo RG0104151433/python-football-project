@@ -1,0 +1,45 @@
+{
+  "identity": {
+    "code": {
+      "scripts/build_history_window_materials.py": "2f13407b7f23bd33baf24719e956715fbfea6252d63b73cbad05e72f82fd0488"
+    },
+    "environment": {
+      "commit": "91adb7d05b0b2a5c13286ffd89d01f064f4bbf89",
+      "execution_code": "working tree; exact source hashes recorded, no commit made",
+      "numpy": "2.5.4",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "python": "3.14.8",
+      "scipy": "1.18.1"
+    },
+    "inputs": {
+      "outputs/logs/history_window/joint-review-4888d987645daee73e19/conclusions.json": "696d4997ea7f5bd820229542afe827f23f7ac9ac99442e003a48a8443f5dafc4",
+      "outputs/logs/history_window/joint-review-4888d987645daee73e19/manifest.json": "d5119fd1e411e2d4a04b1c682c4bf8f252d1173a81331cc2fc9d267762c01ed5",
+      "outputs/logs/history_window/outcome-0a52e15e2ae493570acb/manifest.json": "cd8299ec286177f90ebe5367a22a69b7e242aaa81f355d6eb499382b6e766f10",
+      "outputs/logs/history_window/rating-memory-1c8aebdf661ccdddff05/manifest.json": "1a1deb253d47eed065ba84a12072cc921ef62d22bf4b75575dfe7a88b215ded1",
+      "outputs/logs/history_window/reliability-c3586b1614a4ba59c9c5/adoption.json": "191c897352cb66d022efe093af617fd465600684a7c1c45d1d5ca9ee263f4ee7",
+      "outputs/logs/history_window/reliability-c3586b1614a4ba59c9c5/applicability.json": "cd4984e78d0a305bda090eefbf72ca075a6345f32abcf78a24127a2d84c59d9b",
+      "outputs/logs/history_window/reliability-c3586b1614a4ba59c9c5/conclusions.json": "db1b3347892670828b7f5747ba85cca9ad1badfe60994fcd62c4281c2051c4b4",
+      "outputs/logs/history_window/reliability-c3586b1614a4ba59c9c5/handoff_adoption.json": "0ad33236bdc3f00d982287dd25c752c129dbc1c2bfd5861b509bee5a976bc522",
+      "outputs/logs/history_window/reliability-c3586b1614a4ba59c9c5/handoff_review.json": "665fe0f111139495d567ce6a9b2f1f15f73f5414d60c1247d13c6b007ac3e80e",
+      "outputs/logs/history_window/reliability-c3586b1614a4ba59c9c5/manifest.json": "1d88b58dd4fd27ee6b350d5f8345d6084c8e5165276f5acb76e02c40b12b117c",
+      "outputs/tables/history_window/joint-review-4888d987645daee73e19/combination_metrics.csv": "95d1b236f57c1a41ef041cbf11ff2507eae5da4a55dfb441a01095ce25539c4a",
+      "outputs/tables/history_window/joint-review-4888d987645daee73e19/cost_components.csv": "449ef98c159aec00c6a7c6d8a369785e7b1937399d75fff17a18423ebf1eb85d",
+      "outputs/tables/history_window/outcome-0a52e15e2ae493570acb/adaptive_metrics.csv": "62248e1a13c2071636d306708953216ab1c912f300ba9124afe72c9c0a4b9735",
+      "outputs/tables/history_window/outcome-0a52e15e2ae493570acb/group_metrics.csv": "9230b3800b7b57135d08c5fc8980b04e71e0a6f00b413c40f4983fef08626381",
+      "outputs/tables/history_window/rating-memory-1c8aebdf661ccdddff05/rating_metrics.csv": "332445749debcb7e20ad6ad930687d0f1f6e2d0da5514d1feb27ea7000611a4e",
+      "outputs/tables/history_window/reliability-c3586b1614a4ba59c9c5/conditional_reference.csv": "64b95a0e34fc539454a9ae953571514e8fe2f233ea2f69cb2e8892ce7d5b85e7",
+      "outputs/tables/history_window/reliability-c3586b1614a4ba59c9c5/native_prior_probes.csv": "385f8adf1497f58d2d4ebfefb59f4b8c8c99b669bdcb7b2b48c8a82b205f0b5e",
+      "outputs/tables/history_window/reliability-c3586b1614a4ba59c9c5/sensitivity.csv": "5785f5b9ab071f3f2b81527f300b905082ed89249b8dece2748237cdeb3c8a72",
+      "outputs/tables/history_window/reliability-c3586b1614a4ba59c9c5/simulation_paired_summary.csv": "08cce400e4cd699562a73011c8f1ef8cfbad6a5d2719abfbbe4c450a6533284e",
+      "研究/06_历史参考周期/第六问_研究说明与收尾交接.md": "d7cde54c7e4b3b4a1adf92b62fa4d237fd70099771a2f09521da4e9a3f30577b"
+    },
+    "purpose": "Q6 step8 explanation and material archive; no refitting"
+  },
+  "outputs": {
+    "outputs/logs/history_window_closeout/q6-closeout-4538ccdf8651e2066c94/index.html": "79e411c3f77e64ed03f0597a9c18040d07bf97d2289d6cb962886840d15fe24a",
+    "outputs/logs/history_window_closeout/q6-closeout-4538ccdf8651e2066c94/paper_support.json": "4fe5bcf902268dd991a2172739ac108e628560ecf4aa2c162d85e336bfff6413",
+    "outputs/logs/history_window_closeout/q6-closeout-4538ccdf8651e2066c94/presentation_data.json": "85efab05fe1427c7f547a891d83fe5576401e3e83d69800fc65c0c63da0d7903",
+    "outputs/logs/history_window_closeout/q6-closeout-4538ccdf8651e2066c94/review.json": "510f57b19f8d98b94d22a5f714617d108bd103ef3b8b1e96e966084258f489a5",
+    "outputs/logs/history_window_closeout/q6-closeout-4538ccdf8651e2066c94/source_snapshot.zip": "64b5054caea43e51d2d4b094d7b59e295da16ecd6061c20152557c8f72c3165f"
+  }
+}

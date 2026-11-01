@@ -2847,7 +2847,7 @@
     "common_test_matches": 16599,
     "comparison_start_candidate": 2000,
     "cost_budget": null,
-    "decision_log_id": "R20261101-09",
+    "decision_log_id": "R20261101-10",
     "existing_score_engine_has_verified_evict_interface": false,
     "fixed_candidate_comparison_proposal": {
       "matches": 16599,
@@ -2876,11 +2876,11 @@
     ],
     "results_generated": true,
     "source_record": "参考资料/方法文献/sources.json",
-    "status": "step7_complete_in_declared_scope_internal_step8_ready",
+    "status": "all8steps_research_closed_in_declared_scope_course_delivery_pending",
     "title": "最合理的历史参考周期",
     "candidate_confirmation_basis": "agent execution decision under user authorization; not a claim of itemwise human review",
     "protocol_freeze_scope": "v1 boundaries/metrics/time/candidates and pilot; no scientific equivalence margin or production cost budget",
-    "results_scope": "stages4/5/6 retrospective descriptive comparisons, including six fixed joint policies and component costs; no full strict-W or formal inference",
+    "results_scope": "stages4-7 retrospective descriptive evidence with non-admitted real-world coverage; step8 explanation, offline materials and handoff complete",
     "latent_strength_generator_admission": "60 formal scenario histories in10 independent seed groups; point tracking comparison, not real-world uncertainty coverage",
     "config": "config/history_window.json",
     "mathematical_protocol": "研究/06_历史参考周期/前三步_研究协议与数学依据.md",
@@ -2907,9 +2907,9 @@
       "5": "completed_all7substeps_with_one_required_audit",
       "6": "completed_all4route_steps_numerical_descriptive_and_handoff",
       "7": "completed13comparisons_conditional_resolution_failure_documented_descriptive_sensitivity_and6native_prior_probes",
-      "8": "handoff_ready_not_closed_question6"
+      "8": "completed_plain_language_explanation_offline_materials_archive_and_question7_handoff"
     },
-    "next_step": "internal step8: synthesize three research answers, prepare final paper/HTML materials and archive handoff; no new scoring or inference required",
+    "next_step": "question7 regional method effectiveness design; freeze targets/sample/default before any new fits",
     "display_preparation": "研究/06_历史参考周期/第四步_运行结果与第五步交接.md#71-给普通观众讲先分清今天的实力和过去的经验",
     "handoff_review": "outputs/logs/history_window/step4-handoff-20261031/review.json",
     "production_design": "研究/06_历史参考周期/第四第五步_滚动训练与脚本结构设计.md",
@@ -3235,13 +3235,51 @@
     "reliability_table_directory": "outputs/tables/history_window/reliability-c3586b1614a4ba59c9c5",
     "reliability_pointer": "outputs/logs/history_window/reliability_pointer.json",
     "reliability_adoption": "outputs/logs/history_window/reliability-c3586b1614a4ba59c9c5/handoff_adoption.json",
-    "reliability_mathematical_coverage_admitted": false
+    "reliability_mathematical_coverage_admitted": false,
+    "research_closed_in_declared_scope": true,
+    "final_group_delivery_complete": false,
+    "closeout": {
+      "decision_log_id": "R20261101-10",
+      "material_id": "q6-closeout-750d3ed8ec54c1309358",
+      "directory": "outputs/logs/history_window_closeout/q6-closeout-750d3ed8ec54c1309358",
+      "explanation": "研究/06_历史参考周期/第六问_研究说明与收尾交接.md",
+      "html_entry": "研究/06_历史参考周期/展示/index.html",
+      "current_pointer": "outputs/logs/history_window_closeout/current.json",
+      "builder": "scripts/build_history_window_materials.py",
+      "source_runs": {
+        "joint": "joint-review-4888d987645daee73e19",
+        "outcome": "outcome-0a52e15e2ae493570acb",
+        "rating": "rating-memory-1c8aebdf661ccdddff05",
+        "reliability": "reliability-c3586b1614a4ba59c9c5"
+      },
+      "source_files_checked": 20,
+      "isolated_js_control_checks": 12,
+      "browser_attempted": true,
+      "browser_blocked_by_url_policy": true,
+      "browser_runtime_checked": false,
+      "projector_checked": false,
+      "human_review": false,
+      "teacher_html_permission_confirmed": false,
+      "formal_course_report_complete": false
+    }
   },
   "question_7": {
     "decision_log_id": "R20261026-02",
     "results_generated": false,
     "status": "number_confirmed_not_designed",
-    "title": "不同地区的方法有效性"
+    "title": "不同地区的方法有效性",
+    "handoff_from_question6": {
+      "ready": true,
+      "source_closeout_material_id": "q6-closeout-750d3ed8ec54c1309358",
+      "retained_default": "cumulative_1950__outcome_cumulative",
+      "rating_history_start": "1950-01-01",
+      "outcome_history_start": "1980-01-01",
+      "sample_and_evaluation_years": "to be designed; do not mix Q5 21413 matches with Q6 16599/9727",
+      "geographic_definitions": "retain existing Q3/Q5 coding until an explicit revised protocol",
+      "research_question": "regional predictive performance and systematic over/underprediction; distinct from regional home-win rates",
+      "regional_optimal_window_tuning_approved": false,
+      "results_generated": false
+    }
   },
   "question_8": {
     "decision_log_id": "R20261026-02",

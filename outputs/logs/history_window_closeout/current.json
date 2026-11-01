@@ -1,0 +1,16 @@
+{
+  "directory": "outputs/logs/history_window_closeout/q6-closeout-750d3ed8ec54c1309358",
+  "final_group_delivery_complete": false,
+  "html_entry": "研究/06_历史参考周期/展示/index.html",
+  "html_sha256": "861ddb0dbae36cb7cda96b482efbf4bb71579a05711412890a391d4682bb5815",
+  "human_review": false,
+  "manifest_sha256": "6ba4573e1a4ff111bc087d8bb3f6f4f1c6a29c454e9cd22f8900917ac4d15bb2",
+  "material_id": "q6-closeout-750d3ed8ec54c1309358",
+  "research_closed_in_declared_scope": true,
+  "source_runs": {
+    "joint": "joint-review-4888d987645daee73e19",
+    "outcome": "outcome-0a52e15e2ae493570acb",
+    "rating": "rating-memory-1c8aebdf661ccdddff05",
+    "reliability": "reliability-c3586b1614a4ba59c9c5"
+  }
+}

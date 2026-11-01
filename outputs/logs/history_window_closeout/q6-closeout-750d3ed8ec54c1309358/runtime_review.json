@@ -1,0 +1,19 @@
+{
+  "browser_attempted": true,
+  "browser_blocked": true,
+  "browser_runtime_checked": false,
+  "control_logic": {
+    "checks": 12,
+    "passed": true,
+    "scope": "isolated JavaScript controls with DOM stubs; not a browser render"
+  },
+  "control_logic_reused_from": "outputs/logs/history_window_closeout/q6-closeout-4538ccdf8651e2066c94/runtime_review.json",
+  "control_script_sha256": "959cf30d4438e467517b4ddc8e833203afd77c23be2997ea3d16f73b4b00d10b",
+  "human_review": false,
+  "network_requests_in_code": false,
+  "print_styles_present": true,
+  "projector_checked": false,
+  "reason": "Browser URL policy rejected file: protocol; only http/https permitted. No workaround attempted.",
+  "reuse_basis": "identical exact executable script; the refused browser URL is the unchanged stable local file path",
+  "source": "CUA browser tool response plus isolated Node control check; no actual screenshot or rendered-page verification"
+}

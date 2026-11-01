@@ -1,0 +1,211 @@
+{
+  "browser_runtime_checked": false,
+  "checks": 46,
+  "checks_detail": [
+    {
+      "name": "sealed:outputs/logs/history_window_closeout/q6-closeout-750d3ed8ec54c1309358/index.html",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/logs/history_window_closeout/q6-closeout-750d3ed8ec54c1309358/paper_support.json",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/logs/history_window_closeout/q6-closeout-750d3ed8ec54c1309358/presentation_data.json",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/logs/history_window_closeout/q6-closeout-750d3ed8ec54c1309358/review.json",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/logs/history_window_closeout/q6-closeout-750d3ed8ec54c1309358/source_snapshot.zip",
+      "passed": true
+    },
+    {
+      "name": "inputs:outputs/logs/history_window/joint-review-4888d987645daee73e19/conclusions.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:outputs/logs/history_window/joint-review-4888d987645daee73e19/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:outputs/logs/history_window/outcome-0a52e15e2ae493570acb/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:outputs/logs/history_window/rating-memory-1c8aebdf661ccdddff05/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:outputs/logs/history_window/reliability-c3586b1614a4ba59c9c5/adoption.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:outputs/logs/history_window/reliability-c3586b1614a4ba59c9c5/applicability.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:outputs/logs/history_window/reliability-c3586b1614a4ba59c9c5/conclusions.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:outputs/logs/history_window/reliability-c3586b1614a4ba59c9c5/handoff_adoption.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:outputs/logs/history_window/reliability-c3586b1614a4ba59c9c5/handoff_review.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:outputs/logs/history_window/reliability-c3586b1614a4ba59c9c5/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:outputs/tables/history_window/joint-review-4888d987645daee73e19/combination_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "inputs:outputs/tables/history_window/joint-review-4888d987645daee73e19/cost_components.csv",
+      "passed": true
+    },
+    {
+      "name": "inputs:outputs/tables/history_window/outcome-0a52e15e2ae493570acb/adaptive_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "inputs:outputs/tables/history_window/outcome-0a52e15e2ae493570acb/group_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "inputs:outputs/tables/history_window/rating-memory-1c8aebdf661ccdddff05/rating_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "inputs:outputs/tables/history_window/reliability-c3586b1614a4ba59c9c5/conditional_reference.csv",
+      "passed": true
+    },
+    {
+      "name": "inputs:outputs/tables/history_window/reliability-c3586b1614a4ba59c9c5/native_prior_probes.csv",
+      "passed": true
+    },
+    {
+      "name": "inputs:outputs/tables/history_window/reliability-c3586b1614a4ba59c9c5/sensitivity.csv",
+      "passed": true
+    },
+    {
+      "name": "inputs:outputs/tables/history_window/reliability-c3586b1614a4ba59c9c5/simulation_paired_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "inputs:研究/06_历史参考周期/第六问_研究说明与收尾交接.md",
+      "passed": true
+    },
+    {
+      "name": "code:scripts/build_history_window_materials.py",
+      "passed": true
+    },
+    {
+      "name": "code:src/data_contract.py",
+      "passed": true
+    },
+    {
+      "name": "code:src/strength/io.py",
+      "passed": true
+    },
+    {
+      "name": "stable HTML equals archive",
+      "passed": true
+    },
+    {
+      "name": "HTML embedded data equals JSON",
+      "passed": true
+    },
+    {
+      "name": "indexed paths exist",
+      "passed": true
+    },
+    {
+      "name": "pipeline uses current material",
+      "passed": true
+    },
+    {
+      "name": "Q7 not falsely run",
+      "passed": true
+    },
+    {
+      "name": "link:研究/06_历史参考周期/第六问_研究说明与收尾交接.md:../../文档/05_团队协作/论文与汇报支撑材料索引.md",
+      "passed": true
+    },
+    {
+      "name": "link:研究/06_历史参考周期/第六问_研究说明与收尾交接.md:展示/index.html",
+      "passed": true
+    },
+    {
+      "name": "link:研究/06_历史参考周期/README.md:第六问_研究说明与收尾交接.md",
+      "passed": true
+    },
+    {
+      "name": "link:研究/06_历史参考周期/README.md:展示/index.html",
+      "passed": true
+    },
+    {
+      "name": "link:研究/06_历史参考周期/README.md:第四步_运行结果与第五步交接.md",
+      "passed": true
+    },
+    {
+      "name": "link:研究/06_历史参考周期/README.md:../../scripts/analyze_history_window.py",
+      "passed": true
+    },
+    {
+      "name": "link:研究/06_历史参考周期/README.md:../../config/history_window_analysis.json",
+      "passed": true
+    },
+    {
+      "name": "link:研究/06_历史参考周期/README.md:../../outputs/logs/history_window/outcome_pointer.json",
+      "passed": true
+    },
+    {
+      "name": "link:研究/06_历史参考周期/README.md:前三步_研究协议与数学依据.md",
+      "passed": true
+    },
+    {
+      "name": "link:研究/06_历史参考周期/README.md:第四第五步_滚动训练与脚本结构设计.md",
+      "passed": true
+    },
+    {
+      "name": "link:研究/06_历史参考周期/README.md:第六问_研究说明与收尾交接.md",
+      "passed": true
+    },
+    {
+      "name": "link:研究/06_历史参考周期/README.md:展示/index.html",
+      "passed": true
+    },
+    {
+      "name": "git diff check",
+      "passed": true
+    }
+  ],
+  "documentation": {
+    "README.md": "1546c49a4fc63bff66b73c432d8e75b061c73c0333a93d237d9c1c9c227133b8",
+    "文档/01_项目方案/研究日志与决策记录.md": "c9860b0dc4d6278ba81a2f6b243ef9923640ef1093dea0d1b10951750d43d609",
+    "文档/05_团队协作/论文与汇报支撑材料索引.md": "8c0c3a5429a70876e0364f8f6eb3a5ef6decb65629b6cf6368a9a6f0aae6a38d",
+    "研究/06_历史参考周期/README.md": "ced09572386c17ade20a06387fc0e35d0dce989c60451e85f2b59f3fbbbcf7e1",
+    "研究/README.md": "72af819051f645ce9d882fd79ae56848db334b255f2ab9a0eefbe31998ec5e83",
+    "研究/pipeline_state.json": "fc8f0b2fd00c79def4d8f21288ac021d28c75d721b47884db8c5ba5e5896f594"
+  },
+  "final_group_delivery_complete": false,
+  "formal_real_world_coverage": false,
+  "html_entry_sha256": "861ddb0dbae36cb7cda96b482efbf4bb71579a05711412890a391d4682bb5815",
+  "human_review": false,
+  "manifest_sha256": "6ba4573e1a4ff111bc087d8bb3f6f4f1c6a29c454e9cd22f8900917ac4d15bb2",
+  "material_id": "q6-closeout-750d3ed8ec54c1309358",
+  "material_index_paths_checked": 179,
+  "missing_paths": [],
+  "passed": true,
+  "projector_checked": false,
+  "question7_handoff_ready": true,
+  "research_closed_in_declared_scope": true,
+  "runtime_review_sha256": "a507a4cd2faa73ce69b334ffb5fa27ea65a0b80ff23d56df94d2fdec31d70637"
+}

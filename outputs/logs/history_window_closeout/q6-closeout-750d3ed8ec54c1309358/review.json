@@ -1,0 +1,23 @@
+{
+  "browser_runtime_checked": false,
+  "controls_present": true,
+  "html_bytes": 23274,
+  "html_pages": 4,
+  "human_review": false,
+  "main_matches": 9727,
+  "model_fits": 0,
+  "no_remote_assets": true,
+  "passed": true,
+  "projector_checked": false,
+  "scope": "sealed sources, exact source cohorts, published claims and basic offline HTML structure",
+  "scoring_replays": 0,
+  "simulations": 0,
+  "source_files": 20,
+  "source_runs": {
+    "joint": "joint-review-4888d987645daee73e19",
+    "outcome": "outcome-0a52e15e2ae493570acb",
+    "rating": "rating-memory-1c8aebdf661ccdddff05",
+    "reliability": "reliability-c3586b1614a4ba59c9c5"
+  },
+  "unique_ids": true
+}

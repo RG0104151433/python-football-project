@@ -1,0 +1,49 @@
+{
+  "course_report_submitted": false,
+  "existing_files": [
+    "outputs/logs/history_window/outcome-0a52e15e2ae493570acb/manifest.json",
+    "outputs/logs/history_window/rating-memory-1c8aebdf661ccdddff05/manifest.json",
+    "outputs/logs/history_window/joint-review-4888d987645daee73e19/manifest.json",
+    "outputs/logs/history_window/reliability-c3586b1614a4ba59c9c5/manifest.json",
+    "outputs/tables/history_window/outcome-0a52e15e2ae493570acb/group_metrics.csv",
+    "outputs/tables/history_window/rating-memory-1c8aebdf661ccdddff05/rating_metrics.csv",
+    "outputs/tables/history_window/outcome-0a52e15e2ae493570acb/adaptive_metrics.csv",
+    "outputs/tables/history_window/joint-review-4888d987645daee73e19/combination_metrics.csv",
+    "outputs/tables/history_window/joint-review-4888d987645daee73e19/cost_components.csv",
+    "outputs/logs/history_window/joint-review-4888d987645daee73e19/conclusions.json",
+    "outputs/tables/history_window/reliability-c3586b1614a4ba59c9c5/conditional_reference.csv",
+    "outputs/tables/history_window/reliability-c3586b1614a4ba59c9c5/sensitivity.csv",
+    "outputs/tables/history_window/reliability-c3586b1614a4ba59c9c5/simulation_paired_summary.csv",
+    "outputs/tables/history_window/reliability-c3586b1614a4ba59c9c5/native_prior_probes.csv",
+    "outputs/logs/history_window/reliability-c3586b1614a4ba59c9c5/conclusions.json",
+    "outputs/logs/history_window/reliability-c3586b1614a4ba59c9c5/applicability.json",
+    "outputs/logs/history_window/reliability-c3586b1614a4ba59c9c5/adoption.json",
+    "outputs/logs/history_window/reliability-c3586b1614a4ba59c9c5/handoff_review.json",
+    "outputs/logs/history_window/reliability-c3586b1614a4ba59c9c5/handoff_adoption.json",
+    "研究/06_历史参考周期/第六问_研究说明与收尾交接.md"
+  ],
+  "explanation": "研究/06_历史参考周期/第六问_研究说明与收尾交接.md",
+  "human_review": false,
+  "prohibited_claims": [
+    "现实唯一最佳年限",
+    "未来95%准确或覆盖保证",
+    "未显著所以等效",
+    "全系统省时66%",
+    "准确率下降0.36个百分点",
+    "单日初值检查认证完整流程"
+  ],
+  "sections": [
+    "前文联系与两个历史用途",
+    "向前比较的边界与概率评价",
+    "两层历史、选窗与六组合结果",
+    "计算取舍",
+    "敏感性、理论分辨力和未准入范围",
+    "保留默认与地区有效性交接"
+  ],
+  "source_runs": {
+    "joint": "joint-review-4888d987645daee73e19",
+    "outcome": "outcome-0a52e15e2ae493570acb",
+    "rating": "rating-memory-1c8aebdf661ccdddff05",
+    "reliability": "reliability-c3586b1614a4ba59c9c5"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "browser_attempted": true,
+  "browser_blocked": true,
+  "browser_runtime_checked": false,
+  "control_logic": {
+    "checks": 12,
+    "passed": true,
+    "scope": "isolated JavaScript controls with DOM stubs; not a browser render"
+  },
+  "human_review": false,
+  "network_requests_in_code": false,
+  "print_styles_present": true,
+  "projector_checked": false,
+  "reason": "Browser URL policy rejected file: protocol; only http/https permitted. No workaround attempted.",
+  "source": "CUA browser tool response plus isolated Node control check; no actual screenshot or rendered-page verification"
+}
