@@ -1,0 +1,84 @@
+{
+  "identity": {
+    "code": {
+      "scripts/analyze_history_window.py": "6e4c35a6ef23fdf2afe8df6c24837ac9d00f56a56a42e17646754e82c5f83dda",
+      "src/data_contract.py": "75d7c37a5d09867656098ab4fa3387721d8e1028dfde54d28c372d50f2a7d101",
+      "src/history_window/contracts.py": "aec0ba8eeb9d4308ccf9b6891e1d24b6b71c0a6fdf233e5f4056cfe9fce09417",
+      "src/history_window/evaluation.py": "eebbf4bd65fb3d736371f2c2991d672fb43fdd74a7bddd605fc1df72af97cf3d",
+      "src/history_window/joint_review.py": "422ee5a28ac7d03059ad81e258012ef23518bbf2227a7fb81dab2e34b72d75f9",
+      "src/history_window/protocol.py": "738ee82ecbec004d146e8bdf7918b16e3f6980355afabf5becbd25862b543114",
+      "src/strength/io.py": "f2befbd09af6d7dcf17b75dd790881a210e410d7c8f5f45a2bda1a66b3332104",
+      "tests/test_history_window_joint_review.py": "bff093a1a38bee8325169693baeff61347b12ab90dd944cb0cd68ed5865e5f99"
+    },
+    "environment": {
+      "commit": "121ce148e1a9c19a3e9fc69bfd207b8c34a03c0d",
+      "execution_code": "working tree; exact source hashes recorded, no commit made",
+      "numpy": "2.5.4",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "python": "3.14.8",
+      "scipy": "1.18.1"
+    },
+    "inputs": {
+      "config/history_window_joint_review.json": "eda66910ad6ebf167654162cfb84d1fda20c5ba2b7c92b99c0c0623ba55321eb",
+      "outputs/logs/history_window/joint-2783034e52fe6deb282a/generation_checks.json": "29acd7b8331e87c5882b6597126e9447a6f5b2da62f7f7fc55bcf400ad7438ee",
+      "outputs/logs/history_window/joint-2783034e52fe6deb282a/manifest.json": "bef620500a195bb99c72f8d71cc3731d6119edb974d7d88ffee6aead7c372923",
+      "outputs/logs/history_window/joint-2783034e52fe6deb282a/new_models.json": "63ac08e18d26e041799237612fab0902a898c4af5632f1752ec893ba9cc32913",
+      "outputs/logs/history_window/joint-2783034e52fe6deb282a/protocol.json": "79656aa08607d058c599b339f3d7c614c4c2ad53258465d3a3966b698ee6f84e",
+      "outputs/logs/history_window/joint-2783034e52fe6deb282a/telemetry.json": "e201e3c4e57e49f618f7597308684cf7781213c7e34b27b9ff1dbaaffdfdb570",
+      "outputs/logs/history_window/outcome-0a52e15e2ae493570acb/manifest.json": "cd8299ec286177f90ebe5367a22a69b7e242aaa81f355d6eb499382b6e766f10",
+      "outputs/logs/history_window/outcome-0a52e15e2ae493570acb/telemetry.json": "ef48dcd0f5d9128ab4879d884b1e68f4b0722df1bed06360ec5fde7f5021bed1",
+      "outputs/logs/history_window/rating-memory-1c8aebdf661ccdddff05/manifest.json": "1a1deb253d47eed065ba84a12072cc921ef62d22bf4b75575dfe7a88b215ded1",
+      "outputs/logs/history_window/rating-memory-1c8aebdf661ccdddff05/rating_outcome.json": "1ddc2d3236c8613d12b3940e6d724ecdd4c1db32766625f854affa66722d28df",
+      "outputs/logs/history_window/rating-memory-1c8aebdf661ccdddff05/real_development.json": "c439bd15ae9fd5d6912777b978b65d0d2133f9710b725cf680058707b8670168",
+      "outputs/logs/history_window/rating-memory-1c8aebdf661ccdddff05/real_features.json": "de5476b7d42d98915d7f411f345618cb1f7ea1923c140e9c8aa3ba0e96dbe06b",
+      "outputs/tables/history_window/joint-2783034e52fe6deb282a/combination_plan.csv": "2e4bfb31229edec5415906f8636a675f08eba3436b82342a717fbe6e19426da0",
+      "outputs/tables/history_window/joint-2783034e52fe6deb282a/predictions.csv": "4590d4baee435370b81c85aa1da724455488bf2b7310939e6be8c5c18320ccf0",
+      "outputs/tables/history_window/joint-2783034e52fe6deb282a/training_boundaries.csv": "0f06c15fc27a34a59528da1c2cf97046cc6a2533448c8ca08b2528a9433ea3cf"
+    },
+    "protocol": {
+      "baseline": "cumulative_1950__outcome_cumulative",
+      "cost_policy": "record components separately; same-R10-batch cumulative-rating12/cumulative-outcome timing is comparable; no pooled end-to-end timing or unique cost optimum",
+      "decision_log_id": "R20261101-05",
+      "formal_inference": false,
+      "main_evaluation_years": [
+        2010,
+        2024
+      ],
+      "new_model_fits": 0,
+      "probability_clip": 1e-06,
+      "rating_replays": 0,
+      "schema_version": "history-window-joint-review-v1",
+      "scopes": {
+        "all": [
+          2000,
+          2024
+        ],
+        "development": [
+          2000,
+          2009
+        ],
+        "evaluation": [
+          2010,
+          2024
+        ]
+      },
+      "source_run": "joint-2783034e52fe6deb282a"
+    }
+  },
+  "outputs": {
+    "outputs/figures/history_window/joint-review-4888d987645daee73e19/joint_cost_components.png": "42e81dc25d8ee1516bffe9fb44ce3ddc5fb34146750da97b43c70f9acf1c1225",
+    "outputs/figures/history_window/joint-review-4888d987645daee73e19/joint_cost_components.svg": "9d6d9a64f294a4fba0301c4787f2dc742e87113ab5c5174050991cfc441de55c",
+    "outputs/figures/history_window/joint-review-4888d987645daee73e19/joint_prediction_comparison.png": "6ef816416920c787d1fa8833a898a3335b64f596fbc29c9f21876ec6bff2154c",
+    "outputs/figures/history_window/joint-review-4888d987645daee73e19/joint_prediction_comparison.svg": "f57875845a073a34c1268d3975355c6ba871ada4da313b3da4acc4fd439f6ea9",
+    "outputs/logs/history_window/joint-review-4888d987645daee73e19/conclusions.json": "696d4997ea7f5bd820229542afe827f23f7ac9ac99442e003a48a8443f5dafc4",
+    "outputs/logs/history_window/joint-review-4888d987645daee73e19/protocol.json": "091fde8d76f3485e64a28c3ad96414531b6f3576667a0702122cc0e842a9e29b",
+    "outputs/logs/history_window/joint-review-4888d987645daee73e19/review.json": "240ff269e9fb38013d1f065eb473e1225ce33e963c05d1e138e1148ba090dfe8",
+    "outputs/logs/history_window/joint-review-4888d987645daee73e19/source_snapshot.zip": "df2473bb5ec67c9eb78d23065ab35e7430abb3243572bf7964168cce0b811ec6",
+    "outputs/logs/history_window/joint-review-4888d987645daee73e19/started.json": "fc789d48860e296a67b31fbbe94a83c0eeca1d505e012feda6dc32cb3adf68bd",
+    "outputs/tables/history_window/joint-review-4888d987645daee73e19/combination_metrics.csv": "95d1b236f57c1a41ef041cbf11ff2507eae5da4a55dfb441a01095ce25539c4a",
+    "outputs/tables/history_window/joint-review-4888d987645daee73e19/cost_components.csv": "449ef98c159aec00c6a7c6d8a369785e7b1937399d75fff17a18423ebf1eb85d",
+    "outputs/tables/history_window/joint-review-4888d987645daee73e19/display_data.json": "0fd4cef57c80795c3cc582485a8775c068b53bc7a1746c653ae5d30fea699088",
+    "outputs/tables/history_window/joint-review-4888d987645daee73e19/tournament_metrics.csv": "6ba31d59ca109b3001e013ba64cbe025af2ba60f16674d2c3b89fb8ceefeb29e",
+    "outputs/tables/history_window/joint-review-4888d987645daee73e19/yearly_metrics.csv": "cb6ef35cd17846fcfb0d3d8a7999f31b869c65e836c1c85cfc54ba8e1988392e"
+  }
+}

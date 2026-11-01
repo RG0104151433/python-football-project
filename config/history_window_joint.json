@@ -1,0 +1,20 @@
+{
+  "schema_version": "history-window-joint-v1",
+  "decision_log_id": "R20261101-04",
+  "rating_run": "rating-memory-1c8aebdf661ccdddff05",
+  "outcome_run": "outcome-0a52e15e2ae493570acb",
+  "rating_candidates": ["annual_reset_20y", "annual_reset_12y", "cumulative_1950"],
+  "outcome_windows": [12, null],
+  "first_year": 2000,
+  "last_year": 2024,
+  "main_evaluation_years": [2010, 2024],
+  "outcome_start": "1980-01-01",
+  "model": "M3_nested",
+  "ridge_precision": 1.0,
+  "probability_storage_decimals": 10,
+  "threads": 1,
+  "max_single_job_seconds": 600,
+  "max_run_seconds": 3600,
+  "max_rss_mib": 2048,
+  "scope": "step6 first two route steps only: freeze six combinations and fill two missing cells; no new rating, simulation, performance ranking or formal inference"
+}

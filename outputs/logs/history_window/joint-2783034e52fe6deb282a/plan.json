@@ -1,0 +1,73 @@
+{
+  "combinations": [
+    {
+      "annual_models": 25,
+      "baseline": false,
+      "combination_id": "annual_reset_20y__outcome_12y",
+      "execution": "new_fit",
+      "outcome_window": "12y",
+      "prediction_rows": 16599,
+      "rating_policy": "annual_reset_20y",
+      "source_run_id": "joint-2783034e52fe6deb282a"
+    },
+    {
+      "annual_models": 25,
+      "baseline": false,
+      "combination_id": "annual_reset_20y__outcome_cumulative",
+      "execution": "verified_reuse",
+      "outcome_window": "cumulative",
+      "prediction_rows": 16599,
+      "rating_policy": "annual_reset_20y",
+      "source_run_id": "rating-memory-1c8aebdf661ccdddff05"
+    },
+    {
+      "annual_models": 25,
+      "baseline": false,
+      "combination_id": "annual_reset_12y__outcome_12y",
+      "execution": "new_fit",
+      "outcome_window": "12y",
+      "prediction_rows": 16599,
+      "rating_policy": "annual_reset_12y",
+      "source_run_id": "joint-2783034e52fe6deb282a"
+    },
+    {
+      "annual_models": 25,
+      "baseline": false,
+      "combination_id": "annual_reset_12y__outcome_cumulative",
+      "execution": "verified_reuse",
+      "outcome_window": "cumulative",
+      "prediction_rows": 16599,
+      "rating_policy": "annual_reset_12y",
+      "source_run_id": "rating-memory-1c8aebdf661ccdddff05"
+    },
+    {
+      "annual_models": 25,
+      "baseline": false,
+      "combination_id": "cumulative_1950__outcome_12y",
+      "execution": "verified_reuse",
+      "outcome_window": "12y",
+      "prediction_rows": 16599,
+      "rating_policy": "cumulative_1950",
+      "source_run_id": "outcome-0a52e15e2ae493570acb"
+    },
+    {
+      "annual_models": 25,
+      "baseline": true,
+      "combination_id": "cumulative_1950__outcome_cumulative",
+      "execution": "verified_reuse",
+      "outcome_window": "cumulative",
+      "prediction_rows": 16599,
+      "rating_policy": "cumulative_1950",
+      "source_run_id": "rating-memory-1c8aebdf661ccdddff05"
+    }
+  ],
+  "main_evaluation_period": "2010-2024",
+  "new_annual_fits": 50,
+  "new_combinations": 2,
+  "rating_replays": 0,
+  "reused_combinations": 4,
+  "sample_size": 16599,
+  "selection_period": "2000-2009",
+  "simulations": 0,
+  "total_combinations": 6
+}

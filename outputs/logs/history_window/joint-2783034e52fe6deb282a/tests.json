@@ -1,0 +1,7 @@
+{
+  "passed": 3,
+  "seconds": 2.67,
+  "command": "python -m pytest tests/test_history_window_joint.py --basetemp outputs/test_tmp/q6joint-01 -q",
+  "scope": "targeted annual-boundary, current-label isolation and cache-tamper fixtures; not full regression",
+  "human_review": false
+}

@@ -2847,7 +2847,7 @@
     "common_test_matches": 16599,
     "comparison_start_candidate": 2000,
     "cost_budget": null,
-    "decision_log_id": "R20261101-02",
+    "decision_log_id": "R20261101-06",
     "existing_score_engine_has_verified_evict_interface": false,
     "fixed_candidate_comparison_proposal": {
       "matches": 16599,
@@ -2876,11 +2876,11 @@
     ],
     "results_generated": true,
     "source_record": "参考资料/方法文献/sources.json",
-    "status": "step5_completed_numerical_descriptive_handoff_step6_design_ready",
+    "status": "step6_all4route_steps_completed_descriptive_closeout_step7_pending",
     "title": "最合理的历史参考周期",
     "candidate_confirmation_basis": "agent execution decision under user authorization; not a claim of itemwise human review",
     "protocol_freeze_scope": "v1 boundaries/metrics/time/candidates and pilot; no scientific equivalence margin or production cost budget",
-    "results_scope": "stage4 outcome-training history and stage5 annual-reset rating-memory comparisons, separately controlled; no joint or full strict-W inference",
+    "results_scope": "stages4/5/6 retrospective descriptive comparisons, including six fixed joint policies and component costs; no full strict-W or formal inference",
     "latent_strength_generator_admission": "60 formal scenario histories in10 independent seed groups; point tracking comparison, not real-world uncertainty coverage",
     "config": "config/history_window.json",
     "mathematical_protocol": "研究/06_历史参考周期/前三步_研究协议与数学依据.md",
@@ -2905,11 +2905,11 @@
       "3": "passed_predeclared_development_feasibility_and_independent_reconstruction",
       "4": "completed150fresh_annual_fits_and_all_model_predictions_independently_reconstructed",
       "5": "completed_all7substeps_with_one_required_audit",
-      "6": "joint_structure_and_candidates_ready_not_run",
-      "7": "not_run_full_reliability_and_sensitivity",
+      "6": "completed_all4route_steps_numerical_descriptive_and_handoff",
+      "7": "four_step_reliability_plan_ready_not_run",
       "8": "not_closed_question6"
     },
-    "next_step": "review existing step6 joint design: 3 rating policies x2 outcome histories, reuse4 cells and compute2 new cells; no additional full rating replay",
+    "next_step": "question6 internal step7: freeze deduplicated comparisons, assess mathematical applicability/resolution, targeted sensitivity then evidence grading; no new reliability run yet",
     "display_preparation": "研究/06_历史参考周期/第四步_运行结果与第五步交接.md#71-给普通观众讲先分清今天的实力和过去的经验",
     "handoff_review": "outputs/logs/history_window/step4-handoff-20261031/review.json",
     "production_design": "研究/06_历史参考周期/第四第五步_滚动训练与脚本结构设计.md",
@@ -2933,7 +2933,7 @@
       "step5_policy_feature_rows_expected": 149502,
       "new_model_fits_this_turn": 0
     },
-    "formal_window_comparison_scope": "separate stage4 and stage5 retrospective comparisons",
+    "formal_window_comparison_scope": "stage4 outcome history, stage5 annual rating history and stage6 six joint policies; retrospective point comparisons",
     "current_outcome_run_id": "outcome-0a52e15e2ae493570acb",
     "outcome_log_directory": "outputs/logs/history_window/outcome-0a52e15e2ae493570acb",
     "outcome_table_directory": "outputs/tables/history_window/outcome-0a52e15e2ae493570acb",
@@ -3085,7 +3085,7 @@
       "annual_reset_20y": 0.5589613078,
       "cumulative_1950": 0.5587504453
     },
-    "current_handoff_review": "outputs/logs/history_window/step5-handoff-20261101/checks.json",
+    "current_handoff_review": "outputs/logs/history_window/joint-review-4888d987645daee73e19/review.json",
     "step6_preparation": {
       "rating_candidates": [
         "annual_reset_20y",
@@ -3108,8 +3108,82 @@
         }
       ],
       "new_fits_planned": 50,
-      "joint_code_written": false,
-      "joint_run": false
+      "joint_code_written": true,
+      "joint_run": true,
+      "route_steps": [
+        "freeze6combinations_and_reuse4existing_cells",
+        "compute2missing_cells_with50past_only_annual_fits",
+        "compare_same_match_prediction_and_disaggregated_compute_cost",
+        "one_basic_check_then_document_and_handoff"
+      ],
+      "new_simulation_planned": false,
+      "new_rating_replay_planned": false,
+      "formal_reliability_deferred_to_step7": true,
+      "extra_cost_measurement": "only small matched-condition tasks if existing records cannot support comparison",
+      "run_id": "joint-2783034e52fe6deb282a",
+      "route_steps_completed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "new_fits_actual": 50,
+      "reused_annual_models": 100,
+      "common_matches": 16599,
+      "total_prediction_rows": 99594,
+      "new_prediction_rows": 33198,
+      "reused_prediction_rows": 66396,
+      "comparison_completed": true,
+      "final_review_completed": true,
+      "targeted_tests_passed": 3,
+      "generation_checks_passed": true,
+      "review_run_id": "joint-review-4888d987645daee73e19",
+      "new_fits_during_review": 0,
+      "formal_inference": false
+    },
+    "current_joint_run_id": "joint-2783034e52fe6deb282a",
+    "joint_log_directory": "outputs/logs/history_window/joint-2783034e52fe6deb282a",
+    "joint_table_directory": "outputs/tables/history_window/joint-2783034e52fe6deb282a",
+    "joint_generation_checks": "outputs/logs/history_window/joint-2783034e52fe6deb282a/generation_checks.json",
+    "current_joint_review_run_id": "joint-review-4888d987645daee73e19",
+    "joint_review_log_directory": "outputs/logs/history_window/joint-review-4888d987645daee73e19",
+    "joint_review_table_directory": "outputs/tables/history_window/joint-review-4888d987645daee73e19",
+    "joint_review_figure_directory": "outputs/figures/history_window/joint-review-4888d987645daee73e19",
+    "joint_review_adoption": "outputs/logs/history_window/joint-review-4888d987645daee73e19/adoption.json",
+    "joint_default_retained": "cumulative_1950__outcome_cumulative",
+    "joint_controlled_model_time_saving_fraction": 0.6631444107434166,
+    "joint_controlled_model_time_saving_not_pipeline_saving": true,
+    "joint_evaluation_loss_by_combination": {
+      "annual_reset_20y__outcome_12y": 0.5612523553,
+      "annual_reset_20y__outcome_cumulative": 0.5592984749,
+      "annual_reset_12y__outcome_12y": 0.5619381168,
+      "annual_reset_12y__outcome_cumulative": 0.5600980138,
+      "cumulative_1950__outcome_12y": 0.5611310085,
+      "cumulative_1950__outcome_cumulative": 0.5591345107
+    },
+    "joint_comparison_tests_passed": 2,
+    "step7_plan": {
+      "status": "planned_not_run",
+      "document": "研究/06_历史参考周期/第五步_评分记忆与长模拟运行交接.md#12-第七步任务目标与四步路线r20261101-06仅规划",
+      "route": [
+        "freeze deduplicated claims and existing evidence",
+        "review mathematical applicability and uncertainty resolution",
+        "targeted sensitivity using existing tables then necessary small probes",
+        "grade evidence and handoff to internal step8"
+      ],
+      "main_period": [
+        2010,
+        2024
+      ],
+      "main_matches": 9727,
+      "named_prediction_series_readonly_checked": 19,
+      "distinct_prediction_vectors_readonly_checked": 14,
+      "primary_baseline_comparisons": 13,
+      "comparison_dedup_basis": "registered source reuse plus equal stored predictions, not approximate numerical closeness",
+      "previous_pair_slot_ceiling_preserved": 60,
+      "new_models_or_uncertainty_code_run": false,
+      "initialization_sensitivity_for_new_policies_not_claimed_complete": true,
+      "no_new_equivalence_margin": true
     }
   },
   "question_7": {

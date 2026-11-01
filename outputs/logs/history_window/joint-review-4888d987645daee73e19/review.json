@@ -1,0 +1,17 @@
+{
+  "annual_boundary_rows": 150,
+  "checks": "source hashes, paired labels/IDs, annual boundaries, independent basic loss arithmetic",
+  "combinations": 6,
+  "formal_inference": false,
+  "human_review": false,
+  "matches": 16599,
+  "metric_rows": 18,
+  "new_fits": 0,
+  "passed": true,
+  "prediction_rows": 99594,
+  "rating_replays": 0,
+  "scope": "step6 four route steps completed, numerical/descriptive only",
+  "simulations": 0,
+  "tournament_rows": 24,
+  "yearly_rows": 150
+}

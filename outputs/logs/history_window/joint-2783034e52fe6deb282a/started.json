@@ -1,0 +1,85 @@
+{
+  "frozen_before_new_fits": true,
+  "identity": {
+    "code": {
+      "scripts/analyze_history_window.py": "f9fc48920704d3e474b409fb2ef79db79acca45b07e5d100a34b745a404c871a",
+      "src/data_contract.py": "75d7c37a5d09867656098ab4fa3387721d8e1028dfde54d28c372d50f2a7d101",
+      "src/history_window/contracts.py": "aec0ba8eeb9d4308ccf9b6891e1d24b6b71c0a6fdf233e5f4056cfe9fce09417",
+      "src/history_window/joint.py": "b9cbea74f633572e23fb9e585a76a56ceba61c653f2aa3f0d6d578b03adc2a9b",
+      "src/history_window/protocol.py": "738ee82ecbec004d146e8bdf7918b16e3f6980355afabf5becbd25862b543114",
+      "src/strength/io.py": "f2befbd09af6d7dcf17b75dd790881a210e410d7c8f5f45a2bda1a66b3332104",
+      "src/strength_joint/__init__.py": "80cd9d9fb898f60d696323f057245dca927670bc20bb9ad14f3fdbb933080f43",
+      "src/strength_joint/contract.py": "8f47c10ac639ca2ef7c0c867cca84f36d6cd0d0dd54c41774f3b663f85df2abb",
+      "src/strength_joint/contrasts.py": "5c816886d9679781d932f79da4d5771a3ffab4455c92c4b36d1cdf68f39eb0b5",
+      "src/strength_joint/design.py": "0826815f44370435908fd74c36d98bda1cdcf70699e20ec1dc89626a67f2717d",
+      "src/strength_joint/model.py": "7c1410a84e7f224877892568a6359edb0ca1c766da5041ac1d14cf0e71698dc9",
+      "src/strength_joint/reporting.py": "73d4ea64181321b1d77fd22dded426fea507ad99cba0afb1dbd2ca49a7d16852",
+      "src/strength_joint/validation.py": "eadd1601797f7429fc8189d216d23015031004d0846453745507c255fc75eac7",
+      "src/strength_predictive_validation.py": "d62262ba1dbcfe96ff9c6d086e40cc89ab2b814d68ea13042c52ff5458785cb2",
+      "tests/test_history_window_joint.py": "b1869ff8c8b5022f98f4e0363c7b23303e771a085f8b7a4169b466bf36b23f13"
+    },
+    "environment": {
+      "commit": "121ce148e1a9c19a3e9fc69bfd207b8c34a03c0d",
+      "execution_code": "working tree; exact source hashes recorded, no commit made",
+      "numpy": "2.5.4",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "python": "3.14.8",
+      "scipy": "1.18.1"
+    },
+    "inputs": {
+      "config/history_window_joint.json": "c152159344010c28dd9e2b55438116e765ea495c47278e9f2a37a28b06790d5a",
+      "config/strength_joint.json": "ce2290aea22277750c953afb912b6837b27815c4807b7918385914d8aafb9182",
+      "data/processed/history_window/annual_reset_12y-1c8aebdf661c/analysis_matches.csv": "e19b7a9da547d1d5178eeab3278394bbcfd650fb533d4532602f8882f318cd3d",
+      "data/processed/history_window/annual_reset_20y-1c8aebdf661c/analysis_matches.csv": "44acb26f6e378d8fc9b9d7425102cecfa76ce994f8cdc8893b31473a3ab4eb08",
+      "data/processed/history_window/cumulative_1950-1c8aebdf661c/analysis_matches.csv": "061e43e7f2df27a84b965d424bf6c0d17d9d8cb5333e9bda557837c024cdd5f4",
+      "data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8/analysis_matches.csv": "ff63f0fc870a9692246a81c6f9f309776385474e2203e3c235a8f0d061bc47ba",
+      "data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8/manifest.json": "5b49b98027d3106fb44cdc0fb57e570858ec66ddcf007a1b41adb595e048bebd",
+      "outputs/logs/history_window/outcome-0a52e15e2ae493570acb/adoption.json": "90e0086bf991e683984d28b7a354e2d405ef4d6771cae9c7b33ca3941d7674e6",
+      "outputs/logs/history_window/outcome-0a52e15e2ae493570acb/independent_audit.json": "a6a544c7b890fc152af974166c1c434ed6ba02a59b4cceb55b9fb19d73a97ea2",
+      "outputs/logs/history_window/outcome-0a52e15e2ae493570acb/manifest.json": "cd8299ec286177f90ebe5367a22a69b7e242aaa81f355d6eb499382b6e766f10",
+      "outputs/logs/history_window/outcome-0a52e15e2ae493570acb/models.json": "9839ecb3b6fed97ee4292348b5039861c8c1c947af463414febf89f5f3439efa",
+      "outputs/logs/history_window/outcome-0a52e15e2ae493570acb/protocol.json": "a9a0dd22a4c3dada29218c67f10fbea906479f14812a948f8b6f6e83319f83bc",
+      "outputs/logs/history_window/rating-memory-1c8aebdf661ccdddff05/adoption.json": "d8050173920bf00b6677072a8c79ac80b42b93503c3ca95fa25dd9e622dc1145",
+      "outputs/logs/history_window/rating-memory-1c8aebdf661ccdddff05/independent_audit.json": "416c66260836600530482a80ef859bc6c0090906521d5514241f6e629872c82b",
+      "outputs/logs/history_window/rating-memory-1c8aebdf661ccdddff05/manifest.json": "1a1deb253d47eed065ba84a12072cc921ef62d22bf4b75575dfe7a88b215ded1",
+      "outputs/logs/history_window/rating-memory-1c8aebdf661ccdddff05/protocol.json": "653c5692366f8046295bf4ecddcc43ce52c7e713b9ed99cba9c3b58c9949963f",
+      "outputs/logs/history_window/rating-memory-1c8aebdf661ccdddff05/rating_models.json": "d1c93ea64f03bc21f8bdc8b82f6bc675bbb2f87574299e21d400fa0e7f8cda58",
+      "outputs/logs/history_window/rating-memory-1c8aebdf661ccdddff05/real_features.json": "de5476b7d42d98915d7f411f345618cb1f7ea1923c140e9c8aa3ba0e96dbe06b",
+      "outputs/tables/history_window/outcome-0a52e15e2ae493570acb/group_metrics.csv": "9230b3800b7b57135d08c5fc8980b04e71e0a6f00b413c40f4983fef08626381",
+      "outputs/tables/history_window/outcome-0a52e15e2ae493570acb/predictions.csv": "65ea532decafe4098708d9b7b8e78b19bb2678872fe83f1dc2f666ce12433a02",
+      "outputs/tables/history_window/rating-memory-1c8aebdf661ccdddff05/rating_metrics.csv": "332445749debcb7e20ad6ad930687d0f1f6e2d0da5514d1feb27ea7000611a4e",
+      "outputs/tables/history_window/rating-memory-1c8aebdf661ccdddff05/rating_predictions.csv": "c8d68fb23aef06d7306e201ef576d78923a8b1700c96373f6cf987acc40e0d35"
+    },
+    "protocol": {
+      "decision_log_id": "R20261101-04",
+      "first_year": 2000,
+      "last_year": 2024,
+      "main_evaluation_years": [
+        2010,
+        2024
+      ],
+      "max_rss_mib": 2048,
+      "max_run_seconds": 3600,
+      "max_single_job_seconds": 600,
+      "model": "M3_nested",
+      "outcome_run": "outcome-0a52e15e2ae493570acb",
+      "outcome_start": "1980-01-01",
+      "outcome_windows": [
+        12,
+        null
+      ],
+      "probability_storage_decimals": 10,
+      "rating_candidates": [
+        "annual_reset_20y",
+        "annual_reset_12y",
+        "cumulative_1950"
+      ],
+      "rating_run": "rating-memory-1c8aebdf661ccdddff05",
+      "ridge_precision": 1.0,
+      "schema_version": "history-window-joint-v1",
+      "scope": "step6 first two route steps only: freeze six combinations and fill two missing cells; no new rating, simulation, performance ranking or formal inference",
+      "threads": 1
+    }
+  },
+  "started_at_utc": "2026-11-01T07:51:05.970111+00:00"
+}

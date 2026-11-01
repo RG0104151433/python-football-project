@@ -1,0 +1,16 @@
+{
+  "comparison_pending": false,
+  "final_review_pending": false,
+  "log_directory": "outputs/logs/history_window/joint-2783034e52fe6deb282a",
+  "manifest_sha256": "bef620500a195bb99c72f8d71cc3731d6119edb974d7d88ffee6aead7c372923",
+  "review_log_directory": "outputs/logs/history_window/joint-review-4888d987645daee73e19",
+  "review_run_id": "joint-review-4888d987645daee73e19",
+  "run_id": "joint-2783034e52fe6deb282a",
+  "steps_completed": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "table_directory": "outputs/tables/history_window/joint-2783034e52fe6deb282a"
+}

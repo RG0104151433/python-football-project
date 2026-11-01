@@ -1,0 +1,7 @@
+﻿combination_id,rating_policy,outcome_window,execution,source_run_id,annual_models,prediction_rows,baseline
+annual_reset_20y__outcome_12y,annual_reset_20y,12y,new_fit,joint-2783034e52fe6deb282a,25,16599,false
+annual_reset_20y__outcome_cumulative,annual_reset_20y,cumulative,verified_reuse,rating-memory-1c8aebdf661ccdddff05,25,16599,false
+annual_reset_12y__outcome_12y,annual_reset_12y,12y,new_fit,joint-2783034e52fe6deb282a,25,16599,false
+annual_reset_12y__outcome_cumulative,annual_reset_12y,cumulative,verified_reuse,rating-memory-1c8aebdf661ccdddff05,25,16599,false
+cumulative_1950__outcome_12y,cumulative_1950,12y,verified_reuse,outcome-0a52e15e2ae493570acb,25,16599,false
+cumulative_1950__outcome_cumulative,cumulative_1950,cumulative,verified_reuse,rating-memory-1c8aebdf661ccdddff05,25,16599,true

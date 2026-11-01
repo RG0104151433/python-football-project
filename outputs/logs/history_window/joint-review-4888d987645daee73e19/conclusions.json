@@ -1,0 +1,17 @@
+{
+  "budget_alternative": "cumulative rating with12year outcome history saves measured coefficient computation in R10 but worsens evaluation point loss; not adopted without budget/tolerance and reliability assessment",
+  "controlled_outcome_compute_saving_fraction": 0.6631444107434166,
+  "controlled_short_outcome_evaluation_loss_increase": 0.001996497814532705,
+  "controlled_short_outcome_evaluation_relative_loss_increase": 0.003570693234472566,
+  "cost_limits": "component times only; no end-to-end standardized frontier, unique cost optimum or universal66percent saving",
+  "default_retained": "cumulative_1950__outcome_cumulative",
+  "formal_inference": false,
+  "full_period_point_winner": "cumulative_1950__outcome_cumulative",
+  "independent_repeats": false,
+  "main_evaluation_point_winner": "cumulative_1950__outcome_cumulative",
+  "new_blind_test": false,
+  "next_step": "question6 internal step7 reliability and sensitivity; keep all six paired forecasts and frozen selection history",
+  "recommendation": "retain original cumulative baseline; no evidence here to switch to annual-reset joint variants",
+  "scope": "historical point comparison; no formal equivalence/noninferiority or real-world coverage",
+  "sharing": "same rating features shared by two combinations; do not sum six cost rows as actual new experiment cost"
+}

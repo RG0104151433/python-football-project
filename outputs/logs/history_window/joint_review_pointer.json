@@ -1,0 +1,14 @@
+{
+  "figure_directory": "outputs/figures/history_window/joint-review-4888d987645daee73e19",
+  "formal_inference": false,
+  "log_directory": "outputs/logs/history_window/joint-review-4888d987645daee73e19",
+  "run_id": "joint-review-4888d987645daee73e19",
+  "source_prediction_run": "joint-2783034e52fe6deb282a",
+  "steps_completed": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "table_directory": "outputs/tables/history_window/joint-review-4888d987645daee73e19"
+}

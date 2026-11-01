@@ -1,0 +1,25 @@
+{
+  "annual_models": 150,
+  "combinations": 6,
+  "common_matches": 16599,
+  "formal_inference": false,
+  "human_review": false,
+  "new_model_fits": 50,
+  "new_prediction_rows": 33198,
+  "numerical_fit_gates_unchanged": true,
+  "passed": true,
+  "prediction_rows": 99594,
+  "rating_replays": 0,
+  "reused_prediction_rows": 66396,
+  "same_match_labels_and_cutoffs_checked": true,
+  "simulations": 0,
+  "source_artifact_hashes_checked": true,
+  "source_model_code_checked": true,
+  "step3_comparison_pending": true,
+  "step4_final_review_pending": true,
+  "steps_completed": [
+    1,
+    2
+  ],
+  "training_membership_checked": true
+}

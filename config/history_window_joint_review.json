@@ -1,0 +1,13 @@
+{
+  "schema_version": "history-window-joint-review-v1",
+  "decision_log_id": "R20261101-05",
+  "source_run": "joint-2783034e52fe6deb282a",
+  "probability_clip": 0.000001,
+  "main_evaluation_years": [2010, 2024],
+  "scopes": {"all": [2000, 2024], "development": [2000, 2009], "evaluation": [2010, 2024]},
+  "baseline": "cumulative_1950__outcome_cumulative",
+  "rating_replays": 0,
+  "new_model_fits": 0,
+  "formal_inference": false,
+  "cost_policy": "record components separately; same-R10-batch cumulative-rating12/cumulative-outcome timing is comparable; no pooled end-to-end timing or unique cost optimum"
+}
