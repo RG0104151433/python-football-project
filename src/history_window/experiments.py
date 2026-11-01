@@ -5,6 +5,9 @@ from itertools import combinations
 from pathlib import Path
 import math,time
 from datetime import datetime,timezone
+import os
+from concurrent.futures import ProcessPoolExecutor,wait,FIRST_COMPLETED
+import psutil
 import numpy as np
 from threadpoolctl import threadpool_limits
 from src.data_contract import atomic_bytes,csv_bytes,file_hash,fingerprint,write_json
@@ -19,6 +22,100 @@ from .protocol import log_losses,anniversary
 from .replay import strict_replay
 from .ratings import create_run,Guard,numerical_cache,annual_job,segment,adapt_facts,full_forecast,features,TASK_REQUESTS
 from .simulation_long import generate,extend,TEAMS
+
+_WORKER=None
+_WORKER_CACHE=None
+_WORKER_LIMIT=None
+
+
+def import_equivalent_jobs(ctx):
+    """Reuse completed numerical tasks only after code/data/settings checks.
+
+    Worker count/aggregate RSS and dependency location are runtime settings;
+    they are not a new rating policy. Each copied task retains producer hashes.
+    """
+    parent_name=ctx['cfg'].get('equivalent_parent_run')
+    if not parent_name or (ctx['log']/'equivalent_dependency.json').exists():return
+    parent=ROOT/'outputs/logs/history_window'/parent_name
+    if not (parent/'real_development.json').exists():return
+    previous=read_json(parent/'started.json')['identity'];pcfg=read_json(parent/'protocol.json')
+    ignored={'workers','max_total_rss_mib','equivalent_parent_run'}
+    if {k:v for k,v in pcfg.items() if k not in ignored}!={k:v for k,v in ctx['cfg'].items() if k not in ignored}:
+        raise ValueError('DEPENDENCY_SCIENTIFIC_CONFIG_MISMATCH')
+    numerical=[p for p in previous['code'] if p.startswith('src/strength/') or p in ('src/history_window/ratings.py','src/history_window/replay.py','src/history_window/simulation_long.py')]
+    for p in numerical:
+        if file_hash(ROOT/p)!=previous['code'][p]:raise ValueError('DEPENDENCY_NUMERICAL_SOURCE_CHANGED:'+p)
+    for p,h in previous['inputs'].items():
+        if p=='config/history_window_rating.json':continue
+        if file_hash(ROOT/p)!=h:raise ValueError('DEPENDENCY_INPUT_CHANGED:'+p)
+    adopted=[]
+    for completion in sorted((parent/'jobs').rglob('complete.json')):
+        meta=read_json(completion);relative=completion.parent.relative_to(parent);destination=ctx['log']/relative
+        for n,h in meta['outputs'].items():
+            if file_hash(completion.parent/n)!=h:raise ValueError('DEPENDENCY_TASK_CHANGED')
+            target=destination/n;content=(completion.parent/n).read_bytes()
+            if target.exists() and target.read_bytes()!=content:raise ValueError('DEPENDENCY_COLLISION')
+            if not target.exists():atomic_bytes(target,content)
+        atomic_bytes(destination/'complete.json',completion.read_bytes())
+        adopted.append(dict(task=relative.as_posix(),producer_run=parent_name,complete_sha256=file_hash(completion)))
+    report=read_json(parent/'real_development.json')
+    write_json(ctx['log']/'real_development.json',dict(report,adopted_from_run=parent_name,runtime_workers_changed_only=True))
+    write_json(ctx['log']/'equivalent_dependency.json',dict(parent_run=parent_name,tasks=adopted,
+        numerical_sources_verified=numerical,scientific_parameters_equal=True,not_new_fits=True))
+
+
+def worker_init(config_path,run_id):
+    global _WORKER,_WORKER_CACHE,_WORKER_LIMIT
+    from .ratings import load_inputs
+    cfg,games,facts,joint,p,n,inputs=load_inputs(config_path)
+    _WORKER=dict(cfg=cfg,games=games,facts=facts,joint=joint,params=p,num=n,inputs=inputs,rid=run_id,
+                 log=ROOT/'outputs/logs/history_window'/run_id)
+    _WORKER_LIMIT=threadpool_limits(limits=1);_WORKER_CACHE=numerical_cache();_WORKER_CACHE.__enter__()
+
+
+def worker_job(task):
+    kind,args=task
+    TASK_REQUESTS.clear()
+    if kind=='real':
+        y,w=args;_,_,_,result=real_job(_WORKER,y,w,Guard(_WORKER['cfg'],'real_annual_features'))
+    elif kind=='world':
+        seed,path,link,phase=args;result=world_job(_WORKER,seed,path,link,Guard(_WORKER['cfg'],phase))
+    elif kind=='strict':result=strict_one(_WORKER,*args,Guard(_WORKER['cfg'],'strict_probes'))
+    else:raise ValueError('UNKNOWN_PARALLEL_TASK')
+    return result,list(TASK_REQUESTS),os.getpid()
+
+
+def parallel_tasks(ctx,tasks,phase):
+    """At most configured independent workers, each retaining full chronology."""
+    begin=time.perf_counter();workers=ctx['cfg']['workers'];pending={};next_index=0;results={};requests=[];pids=set();peak=0.
+    pool=ProcessPoolExecutor(max_workers=workers,initializer=worker_init,initargs=(ctx['config_path'],ctx['rid']))
+    try:
+        while next_index<len(tasks) or pending:
+            while next_index<len(tasks) and len(pending)<workers:
+                future=pool.submit(worker_job,tasks[next_index]);pending[future]=next_index;next_index+=1
+            ready,_=wait(pending,timeout=10,return_when=FIRST_COMPLETED)
+            procs=[psutil.Process(),*psutil.Process().children(recursive=True)]
+            rss=0
+            for proc in procs:
+                try:rss+=proc.memory_info().rss
+                except (psutil.NoSuchProcess,psutil.AccessDenied):pass
+            peak=max(peak,rss/2**20)
+            if peak>ctx['cfg']['max_total_rss_mib']:raise MemoryError('AGGREGATE_WORKER_RSS_BUDGET')
+            if time.perf_counter()-begin>ctx['cfg']['phase_seconds'][phase]:raise TimeoutError('PARALLEL_PHASE_BUDGET')
+            for future in ready:
+                index=pending.pop(future);result,rr,pid=future.result();results[index]=result;requests+=rr;pids.add(pid)
+                print('PARALLEL_PROGRESS',phase,len(results),'/',len(tasks),'seconds',round(time.perf_counter()-begin,1),flush=True)
+        pool.shutdown(wait=True)
+    except Exception:
+        for future in pending:future.cancel()
+        if hasattr(pool,'terminate_workers'):pool.terminate_workers()
+        else:pool.shutdown(wait=False,cancel_futures=True)
+        raise
+    TASK_REQUESTS.extend(requests)
+    write_json(ctx['log']/f'parallel_{phase}.json',dict(workers_max=workers,worker_pids=sorted(pids),numerical_threads_per_worker=1,
+        tasks=len(tasks),wall_seconds=time.perf_counter()-begin,aggregate_sampled_peak_rss_mib=peak,
+        warning='parallel wall time is not serial compute cost; task chronology and numerical inputs unchanged'))
+    return [results[i] for i in range(len(tasks))]
 
 
 def put_table(folder,name,rows):
@@ -102,6 +199,8 @@ def real_features(ctx):
     if not (ctx['log']/'real_development.json').exists():development(ctx)
     if not read_json(ctx['log']/'real_development.json')['passed']:raise ValueError('REAL_DEVELOPMENT_REQUIRED')
     guard=Guard(ctx['cfg'],'real_annual_features');policies={};records=[]
+    tasks=[('real',(y,w)) for w in ctx['cfg']['windows'][:-1] for y in range(1980,2025)]
+    parallel_tasks(ctx,tasks,'real_annual_features')
     for w in ctx['cfg']['windows'][:-1]:
         rows=[]
         for y in range(1980,2025):
@@ -114,6 +213,25 @@ def real_features(ctx):
     return policies
 
 
+def strict_one(ctx,day,w,guard):
+    job=ctx['log']/'jobs/strict'/f'{day}-{w}y'
+    if (job/'result.json').exists():return read_json(job/'result.json')
+    targets=[g for g in ctx['games'] if g['date']==day]
+    start=time.perf_counter();guard.check(start)
+    rr,ledger,_=strict_replay(ctx['games'],targets,day,w,ctx['params'],ctx['num'],budget_seconds=ctx['cfg']['max_job_seconds'])
+    ar,_,_,_=real_job(ctx,int(day[:4]),w,guard);lookup={r['match_id']:r for r in ar};pp=[]
+    for r in rr:
+        if r['match_id'] not in lookup:continue
+        a=lookup[r['match_id']]
+        pp.append(dict(date=day,window=w,match_id=r['match_id'],strict_difference=r['difference'],annual_difference=a['difference'],
+            strict_variance=r['difference_variance'],annual_variance=a['difference_variance'],
+            strict_p_home=r['p_home'],annual_p_home=a['p_home'],strict_home_term=r['home_term'],annual_home_term=a['home_term'],
+            strict_left=ledger['left_inclusive'],annual_left=a['window_left'],
+            scope='native rating diagnostic, not complete downstream policy evaluation'))
+    payload=dict(rows=pp,ledger=ledger,seconds=time.perf_counter()-start);write_json(job/'result.json',payload)
+    return payload
+
+
 def probes(ctx):
     guard=Guard(ctx['cfg'],'strict_probes');results=[];reset=[]
     facts_byday=defaultdict(list)
@@ -121,26 +239,8 @@ def probes(ctx):
     dates=[]
     for y in ctx['cfg']['development_years']:
         for quarter in range(4):dates.append(min(d for d in facts_byday if int(d[:4])==y and (int(d[5:7])-1)//3==quarter))
-    for day in dates:
-        targets=[g for g in ctx['games'] if g['date']==day]
-        for w in ctx['cfg']['windows'][:-1]:
-            job=ctx['log']/'jobs/strict'/f'{day}-{w}y';print('STRICT_PROBE',day,w,flush=True)
-            if (job/'result.json').exists():payload=read_json(job/'result.json')
-            else:
-                start=time.perf_counter();guard.check(start)
-                rr,ledger,_=strict_replay(ctx['games'],targets,day,w,ctx['params'],ctx['num'],budget_seconds=ctx['cfg']['max_job_seconds'])
-                ar,_,_,_=real_job(ctx,int(day[:4]),w,guard);lookup={r['match_id']:r for r in ar}
-                pp=[]
-                for r in rr:
-                    if r['match_id'] not in lookup:continue
-                    a=lookup[r['match_id']]
-                    pp.append(dict(date=day,window=w,match_id=r['match_id'],strict_difference=r['difference'],annual_difference=a['difference'],
-                        strict_variance=r['difference_variance'],annual_variance=a['difference_variance'],
-                        strict_p_home=r['p_home'],annual_p_home=a['p_home'],strict_home_term=r['home_term'],annual_home_term=a['home_term'],
-                        strict_left=ledger['left_inclusive'],annual_left=a['window_left'],
-                        scope='native rating diagnostic, not complete downstream policy evaluation'))
-                payload=dict(rows=pp,ledger=ledger,seconds=time.perf_counter()-start);write_json(job/'result.json',payload)
-            results+=payload['rows']
+    for payload in parallel_tasks(ctx,[('strict',(day,w)) for day in dates for w in ctx['cfg']['windows'][:-1]],'strict_probes'):
+        results+=payload['rows']
     # Same-date diagnostic at the first research day of each available year.
     for w in ctx['cfg']['windows'][:-1]:
         for y in range(1981,2025):
@@ -252,11 +352,9 @@ def world_job(ctx,seed,path,link,guard):
 def simulation(ctx,development_only=False):
     phase='simulation_development' if development_only else 'formal_simulation';guard=Guard(ctx['cfg'],phase)
     seeds=ctx['cfg']['simulation']['development_seeds' if development_only else 'formal_seeds'];monthly=[];native=[];truth=[];games=[];times=[]
-    for seed in seeds:
-        for path in ctx['cfg']['simulation']['paths']:
-            for link in ctx['cfg']['simulation']['links']:
-                print('LONG_SIMULATION',phase,seed,path,link,flush=True)
-                mm,nn,gg,tt,ts=world_job(ctx,seed,path,link,guard);monthly+=mm;native+=nn;truth+=tt;games+=gg;times+=ts
+    tasks=[('world',(seed,path,link,phase)) for seed in seeds for path in ctx['cfg']['simulation']['paths'] for link in ctx['cfg']['simulation']['links']]
+    for mm,nn,gg,tt,ts in parallel_tasks(ctx,tasks,phase):
+        monthly+=mm;native+=nn;truth+=tt;games+=gg;times+=ts
     if development_only:
         # Projection uses all six scenarios, not whichever policy happened to win.
         total=sum(t['seconds'] for t in times);estimate=1.5*total*len(ctx['cfg']['simulation']['formal_seeds'])/len(seeds)
@@ -367,20 +465,27 @@ def build_materials(ctx):
 
 def run(stage='all',mode='full',config='config/history_window_rating.json'):
     ctx=create_run(config)
+    ctx['config_path']=str(Path(config).resolve())
     TASK_REQUESTS.clear()
     if mode=='plan':
         print(dict(run_id=ctx['rid'],annual_tasks=225,strict_tasks=60,real_feature_rows=149502,real_predictions=99594,
                    formal_seed_groups=10,formal_scenarios=60));return ctx
+    if stage=='all' and mode=='full' and (ctx['log']/'manifest.json').exists():
+        for p,h in read_json(ctx['log']/'manifest.json')['outputs'].items():
+            if file_hash(ROOT/p)!=h:raise ValueError('COMPLETED_RUN_OUTPUT_CHANGED:'+p)
+        print('RATING_MEMORY_VERIFIED_COMPLETE',ctx['rid'],flush=True);return ctx
+    import_equivalent_jobs(ctx)
     try:
         with threadpool_limits(limits=1),numerical_cache() as cache:
             if stage in ('all','rating'):
-                development(ctx)
+                if not (ctx['log']/'real_development.json').exists():development(ctx)
                 if mode=='full':real_features(ctx);probes(ctx);evaluate_real(ctx)
             if stage in ('all','latent'):
-                simulation(ctx,True)
+                if not (ctx['log']/'simulation_development.json').exists():simulation(ctx,True)
                 if mode=='full':simulation(ctx,False)
             write_json(ctx['log']/'numerical_cache.json',dict(hits=cache.cache_info().hits,misses=cache.cache_info().misses,
-                maxsize=8192,exact_count_keys=True,single_factor_cavity=cache.factor_stats,thresholds_changed=False))
+                maxsize=8192,exact_count_keys=True,single_factor_cavity=cache.factor_stats,thresholds_changed=False,
+                scope='parent process only; parallel workers have separate caches'))
             if stage=='all' and mode=='full':seal(ctx)
     except Exception as e:
         write_json(ctx['log']/'failure.json',dict(stage=stage,mode=mode,error_type=type(e).__name__,error=str(e),

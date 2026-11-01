@@ -1,0 +1,7 @@
+{
+  "audit_sha256": "416c66260836600530482a80ef859bc6c0090906521d5514241f6e629872c82b",
+  "decision_log_id": "R20261031-13",
+  "manifest_sha256": "1a1deb253d47eed065ba84a12072cc921ef62d22bf4b75575dfe7a88b215ded1",
+  "run_id": "rating-memory-1c8aebdf661ccdddff05",
+  "scope": "step5 numerical/descriptive completion; annual policies not strict full-W-year; no formal inference"
+}

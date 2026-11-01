@@ -1,0 +1,157 @@
+{
+  "status": "completed",
+  "tests": {
+    "passed": 53,
+    "seconds": 48.99,
+    "command": "python -m pytest tests/test_history_window.py tests/test_history_window_outcome.py tests/test_history_window_ratings.py tests/test_history_window_long_simulation.py tests/test_history_window_policy_adapter.py tests/test_strength_gaussian.py tests/test_strength_joint.py tests/test_strength_repair.py --basetemp outputs/test_tmp/q6rating-v13-06 -q",
+    "actual_exit_code": 0
+  },
+  "full_run": "rating-memory-1c8aebdf661ccdddff05",
+  "validation_policy": "one required independent arithmetic and boundary audit; no additional repeated fitting or nested cross-validation",
+  "human_review": false,
+  "audit": "outputs/logs/history_window/rating-memory-1c8aebdf661ccdddff05/independent_audit.json",
+  "audit_passed": true,
+  "audit_checks": 659288,
+  "simulator_reference_probability_max_error": 8.42483860452603e-11,
+  "csv_format_files_checked": 23,
+  "csv_bom_lf_passed": true,
+  "annual_replayed_rows": 1481655,
+  "cost_by_policy": {
+    "2": {
+      "tasks": 45,
+      "replayed_rows": 97543,
+      "producer_job_elapsed_seconds": 494.92314209992765
+    },
+    "4": {
+      "tasks": 45,
+      "replayed_rows": 159119,
+      "producer_job_elapsed_seconds": 857.5029047999415
+    },
+    "8": {
+      "tasks": 45,
+      "replayed_rows": 276334,
+      "producer_job_elapsed_seconds": 1667.1365562998108
+    },
+    "12": {
+      "tasks": 45,
+      "replayed_rows": 383888,
+      "producer_job_elapsed_seconds": 2521.1007671000552
+    },
+    "20": {
+      "tasks": 45,
+      "replayed_rows": 564771,
+      "producer_job_elapsed_seconds": 4272.314873400028
+    }
+  },
+  "boundary_diagnostics": {
+    "2": {
+      "strict_rows": 70,
+      "strict_median_pp": 1.1996246749999968,
+      "reset_rows": 59,
+      "reset_median_pp": 1.89016305
+    },
+    "4": {
+      "strict_rows": 70,
+      "strict_median_pp": 0.3327201599999968,
+      "reset_rows": 59,
+      "reset_median_pp": 0.9221347499999999
+    },
+    "8": {
+      "strict_rows": 70,
+      "strict_median_pp": 0.04684900000000436,
+      "reset_rows": 59,
+      "reset_median_pp": 0.12190938999999999
+    },
+    "12": {
+      "strict_rows": 70,
+      "strict_median_pp": 0.0105838600000005,
+      "reset_rows": 59,
+      "reset_median_pp": 0.06563825
+    },
+    "20": {
+      "strict_rows": 70,
+      "strict_median_pp": 0.003327529999996859,
+      "reset_rows": 59,
+      "reset_median_pp": 0.00964876
+    }
+  },
+  "simulation_point_means_over_links": {
+    "constant": {
+      "annual_reset_2y": 0.24898858115,
+      "annual_reset_4y": 0.23899153755,
+      "annual_reset_8y": 0.24465329795,
+      "annual_reset_12y": 0.24673305595,
+      "annual_reset_20y": 0.2476876944,
+      "cumulative": 0.24756056520000003
+    },
+    "drift": {
+      "annual_reset_2y": 0.24072759979999997,
+      "annual_reset_4y": 0.2247799949,
+      "annual_reset_8y": 0.22750003959999998,
+      "annual_reset_12y": 0.22899100225000002,
+      "annual_reset_20y": 0.22889857705,
+      "cumulative": 0.22882679555000002
+    },
+    "jump": {
+      "annual_reset_2y": 0.3899384577,
+      "annual_reset_4y": 0.3780718063,
+      "annual_reset_8y": 0.3779435417,
+      "annual_reset_12y": 0.37937286335,
+      "annual_reset_20y": 0.37998136065,
+      "cumulative": 0.3798092843
+    }
+  },
+  "stage6_preparation": {
+    "rating_candidates": [
+      "annual_reset_20y",
+      "annual_reset_12y",
+      "cumulative_1950"
+    ],
+    "outcome_candidates": [
+      "12y",
+      "cumulative"
+    ],
+    "basis": "2000-2009 primary loss only; historical data reused, not new blind evaluation",
+    "new_joint_cells": [
+      {
+        "rating": "annual_reset_20y",
+        "outcome": "12y"
+      },
+      {
+        "rating": "annual_reset_12y",
+        "outcome": "12y"
+      }
+    ],
+    "new_fits_planned": 50,
+    "joint_code_written": false,
+    "joint_run": false
+  },
+  "full_question6_closed": false,
+  "independent_human_review": false,
+  "figures_visually_reviewed": [
+    "outputs/figures/history_window/rating-memory-1c8aebdf661ccdddff05/real_rating_memory.png",
+    "outputs/figures/history_window/rating-memory-1c8aebdf661ccdddff05/latent_tracking.png",
+    "outputs/figures/history_window/rating-memory-1c8aebdf661ccdddff05/policy_boundary_diagnostics.png"
+  ],
+  "full_run_finished": true,
+  "independent_audit_passed": true,
+  "repeated_full_pipeline_run": false,
+  "additional_representative_refits_run": false,
+  "document_links_checked": 13,
+  "indexed_paths_checked": 108,
+  "missing_paths": [],
+  "document_sha256": {
+    "README.md": "cad1e2d6d53d114212b29f15daf43c77de21e99cb603434a4117635ae17c323d",
+    "研究/README.md": "d8407f62e21e542a869ee0d32dfbbe039706492973f36aa71b8cc20f20788e7c",
+    "研究/06_历史参考周期/README.md": "611afcbdfa3516f21b0f48b0c4e9dc1a6f11ba32a2c3dc78031310765d691876",
+    "研究/06_历史参考周期/第五步_评分记忆与长模拟运行交接.md": "44719563f21f0392434f2423d61abf7b5ad5317a0a4c0fc32d8d943cb13c3e6e",
+    "研究/06_历史参考周期/第四第五步_滚动训练与脚本结构设计.md": "28e1ee46ed88a002e041ff069cc970f8585a5f0046cff7e1e409e5d03a4c82e6",
+    "文档/05_团队协作/论文与汇报支撑材料索引.md": "a77fd43b28ee0cfb052cd99defbe34b26ef5f5a490ef07202b688cd13fa2bdb8",
+    "研究/pipeline_state.json": "6a5d5f2508dea64278a259e72cda5737a4c37d592f02fe5045ac7b8b7a3fdb76",
+    "文档/01_项目方案/研究日志与决策记录.md": "b1e16e3224987bc411f4350ec26e03004cf30749dc2eb0d0d2ae1652ed3180ac"
+  },
+  "source_run": "rating-memory-1c8aebdf661ccdddff05",
+  "git_diff_check_passed": true,
+  "git_diff_output_capture": "binary; avoids Windows console-codepage decoding of path warnings",
+  "largest_published_file_bytes": 26523761
+}

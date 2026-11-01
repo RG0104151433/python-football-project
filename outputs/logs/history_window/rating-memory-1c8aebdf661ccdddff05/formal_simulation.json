@@ -1,0 +1,13 @@
+{
+  "completed": true,
+  "full_inference_admitted": false,
+  "independent_seed_groups": 10,
+  "job_seconds": 4346.77838480135,
+  "jobs": 3060,
+  "monthly_rows": 43200,
+  "native_rows": 86400,
+  "prefix_checked": true,
+  "scenario_histories": 60,
+  "simulated_games": 43200,
+  "truth_rows": 21600
+}

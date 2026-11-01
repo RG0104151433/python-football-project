@@ -1,0 +1,122 @@
+{
+  "annual_not_strict_W_year": true,
+  "annual_reset_max_native_probability_change": {
+    "12": 0.0095726335,
+    "2": 0.1601681517,
+    "20": 0.0015607642,
+    "4": 0.049082122,
+    "8": 0.0132970595
+  },
+  "figures": [
+    "outputs/figures/history_window/rating-memory-1c8aebdf661ccdddff05/real_rating_memory.png",
+    "outputs/figures/history_window/rating-memory-1c8aebdf661ccdddff05/real_rating_memory.svg",
+    "outputs/figures/history_window/rating-memory-1c8aebdf661ccdddff05/latent_tracking.png",
+    "outputs/figures/history_window/rating-memory-1c8aebdf661ccdddff05/latent_tracking.svg",
+    "outputs/figures/history_window/rating-memory-1c8aebdf661ccdddff05/policy_boundary_diagnostics.png",
+    "outputs/figures/history_window/rating-memory-1c8aebdf661ccdddff05/policy_boundary_diagnostics.svg"
+  ],
+  "font": "Microsoft YaHei",
+  "matplotlib": "3.11.2",
+  "no_formal_intervals": true,
+  "real_results": [
+    {
+      "binary_accuracy": "0.6892583891",
+      "brier": "0.1987265017",
+      "calibration_bias_pp": "0.1994514921",
+      "group": "all",
+      "id_set_sha256": "5a22c46ec94f8620b9449d47dfae90d013206d99823db8be8525eebbce3982c8",
+      "loss_sum": "9617.0961357411",
+      "matches": "16599",
+      "mean_probability": "0.5088925208",
+      "observed_home_win_rate": "0.5068980059",
+      "policy_name": "annual_reset_2y",
+      "primary_log_loss": "0.5793780430",
+      "primary_probability_clips": "0",
+      "raw_log_loss": "0.5793780430"
+    },
+    {
+      "binary_accuracy": "0.7002831496",
+      "brier": "0.1933812732",
+      "calibration_bias_pp": "0.2472705213",
+      "group": "all",
+      "id_set_sha256": "5a22c46ec94f8620b9449d47dfae90d013206d99823db8be8525eebbce3982c8",
+      "loss_sum": "9393.7471060484",
+      "matches": "16599",
+      "mean_probability": "0.5093707111",
+      "observed_home_win_rate": "0.5068980059",
+      "policy_name": "annual_reset_4y",
+      "primary_log_loss": "0.5659224716",
+      "primary_probability_clips": "0",
+      "raw_log_loss": "0.5659224716"
+    },
+    {
+      "binary_accuracy": "0.7036568468",
+      "brier": "0.1913845939",
+      "calibration_bias_pp": "0.2568565197",
+      "group": "all",
+      "id_set_sha256": "5a22c46ec94f8620b9449d47dfae90d013206d99823db8be8525eebbce3982c8",
+      "loss_sum": "9307.8967915674",
+      "matches": "16599",
+      "mean_probability": "0.5094665711",
+      "observed_home_win_rate": "0.5068980059",
+      "policy_name": "annual_reset_8y",
+      "primary_log_loss": "0.5607504543",
+      "primary_probability_clips": "0",
+      "raw_log_loss": "0.5607504543"
+    },
+    {
+      "binary_accuracy": "0.7031146455",
+      "brier": "0.1909644390",
+      "calibration_bias_pp": "0.2558733765",
+      "group": "all",
+      "id_set_sha256": "5a22c46ec94f8620b9449d47dfae90d013206d99823db8be8525eebbce3982c8",
+      "loss_sum": "9288.6383457164",
+      "matches": "16599",
+      "mean_probability": "0.5094567397",
+      "observed_home_win_rate": "0.5068980059",
+      "policy_name": "annual_reset_12y",
+      "primary_log_loss": "0.5595902371",
+      "primary_probability_clips": "0",
+      "raw_log_loss": "0.5595902371"
+    },
+    {
+      "binary_accuracy": "0.7035363576",
+      "brier": "0.1907438221",
+      "calibration_bias_pp": "0.2544262370",
+      "group": "all",
+      "id_set_sha256": "5a22c46ec94f8620b9449d47dfae90d013206d99823db8be8525eebbce3982c8",
+      "loss_sum": "9278.1987485078",
+      "matches": "16599",
+      "mean_probability": "0.5094422683",
+      "observed_home_win_rate": "0.5068980059",
+      "policy_name": "annual_reset_20y",
+      "primary_log_loss": "0.5589613078",
+      "primary_probability_clips": "0",
+      "raw_log_loss": "0.5589613078"
+    },
+    {
+      "binary_accuracy": "0.7036568468",
+      "brier": "0.1906644939",
+      "calibration_bias_pp": "0.2501129273",
+      "group": "all",
+      "id_set_sha256": "5a22c46ec94f8620b9449d47dfae90d013206d99823db8be8525eebbce3982c8",
+      "loss_sum": "9274.6986412139",
+      "matches": "16599",
+      "mean_probability": "0.5093991352",
+      "observed_home_win_rate": "0.5068980059",
+      "policy_name": "cumulative_1950",
+      "primary_log_loss": "0.5587504453",
+      "primary_probability_clips": "0",
+      "raw_log_loss": "0.5587504453"
+    }
+  ],
+  "simulation_scenarios": 60,
+  "simulation_seed_groups": 10,
+  "strict_max_native_probability_difference": {
+    "12": 0.001607335500000029,
+    "2": 0.094034225,
+    "20": 0.0008744657000000489,
+    "4": 0.05858042529999999,
+    "8": 0.005031645799999929
+  }
+}

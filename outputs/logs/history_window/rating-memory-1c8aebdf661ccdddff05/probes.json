@@ -1,0 +1,9 @@
+{
+  "completed": true,
+  "reset_first_year": 1981,
+  "reset_missing1980_reason": "no prior1979 annual task in study",
+  "reset_rows": 295,
+  "strict_dates": 12,
+  "strict_jobs": 60,
+  "strict_rows": 350
+}

@@ -1,0 +1,10 @@
+{
+  "processor": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+  "physical_cores": 16,
+  "logical_cores": 32,
+  "system_memory_gib": 31.052581787109375,
+  "workers": 3,
+  "numerical_threads_per_worker": 1,
+  "cost_scope": "this machine and invocation; imported development jobs executed on same machine in preceding run; wall times not portable",
+  "portable_cost_admission": false
+}

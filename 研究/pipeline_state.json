@@ -2847,7 +2847,7 @@
     "common_test_matches": 16599,
     "comparison_start_candidate": 2000,
     "cost_budget": null,
-    "decision_log_id": "R20261031-12",
+    "decision_log_id": "R20261101-02",
     "existing_score_engine_has_verified_evict_interface": false,
     "fixed_candidate_comparison_proposal": {
       "matches": 16599,
@@ -2876,12 +2876,12 @@
     ],
     "results_generated": true,
     "source_record": "参考资料/方法文献/sources.json",
-    "status": "step5_precode_design_ready_no_step5_scripts_or_runs",
+    "status": "step5_completed_numerical_descriptive_handoff_step6_design_ready",
     "title": "最合理的历史参考周期",
     "candidate_confirmation_basis": "agent execution decision under user authorization; not a claim of itemwise human review",
     "protocol_freeze_scope": "v1 boundaries/metrics/time/candidates and pilot; no scientific equivalence margin or production cost budget",
-    "results_scope": "full stage4 retrospective outcome-history comparison; stage5 scores/long simulations not run",
-    "latent_strength_generator_admission": "12 scenario histories in2 seed groups; truth generated without estimator; no independent12-world performance or coverage admission",
+    "results_scope": "stage4 outcome-training history and stage5 annual-reset rating-memory comparisons, separately controlled; no joint or full strict-W inference",
+    "latent_strength_generator_admission": "60 formal scenario histories in10 independent seed groups; point tracking comparison, not real-world uncertainty coverage",
     "config": "config/history_window.json",
     "mathematical_protocol": "研究/06_历史参考周期/前三步_研究协议与数学依据.md",
     "current_feasibility_run": "outputs/logs/history_window/feasibility-20261031T030355681806Z-324cc397",
@@ -2896,7 +2896,7 @@
     "pilot_simulation_histories": 12,
     "pilot_simulation_diagnostic_rows": 216,
     "formal_window_comparison_run": true,
-    "production_rating_scale_admitted": false,
+    "production_rating_scale_admitted": true,
     "formal_conditional_inference_admitted": false,
     "human_review": false,
     "steps": {
@@ -2904,12 +2904,12 @@
       "2": "completed_mathematical_evaluation_protocol_with_declared_limits",
       "3": "passed_predeclared_development_feasibility_and_independent_reconstruction",
       "4": "completed150fresh_annual_fits_and_all_model_predictions_independently_reconstructed",
-      "5": "precode_contract_and_script_structure_ready_no_implementation",
-      "6": "not_run_joint_and_cost_tradeoff",
+      "5": "completed_all7substeps_with_one_required_audit",
+      "6": "joint_structure_and_candidates_ready_not_run",
       "7": "not_run_full_reliability_and_sensitivity",
       "8": "not_closed_question6"
     },
-    "next_step": "implement stage5 per R12 contract only after user requests coding; run small correctness fixtures and development cost admission before full execution",
+    "next_step": "review existing step6 joint design: 3 rating policies x2 outcome histories, reuse4 cells and compute2 new cells; no additional full rating replay",
     "display_preparation": "研究/06_历史参考周期/第四步_运行结果与第五步交接.md#71-给普通观众讲先分清今天的实力和过去的经验",
     "handoff_review": "outputs/logs/history_window/step4-handoff-20261031/review.json",
     "production_design": "研究/06_历史参考周期/第四第五步_滚动训练与脚本结构设计.md",
@@ -2933,7 +2933,7 @@
       "step5_policy_feature_rows_expected": 149502,
       "new_model_fits_this_turn": 0
     },
-    "formal_window_comparison_scope": "outcome training only, not rating memory",
+    "formal_window_comparison_scope": "separate stage4 and stage5 retrospective comparisons",
     "current_outcome_run_id": "outcome-0a52e15e2ae493570acb",
     "outcome_log_directory": "outputs/logs/history_window/outcome-0a52e15e2ae493570acb",
     "outcome_table_directory": "outputs/tables/history_window/outcome-0a52e15e2ae493570acb",
@@ -2961,7 +2961,7 @@
     "outcome_warm_job_seconds": 708.5857641999028,
     "outcome_sampled_peak_rss_mb": 326.46875,
     "fifth_replanning": {
-      "status": "precode_execution_contract_complete_not_implemented",
+      "status": "completed_numerical_descriptive_tasks_and_handoff",
       "document": "研究/06_历史参考周期/第四第五步_滚动训练与脚本结构设计.md",
       "operational_policy_proposal": "annual_reset_with_daily_learning; nominalW to approximately W+1 history",
       "strict_policy_preserved_as_distinct_reference": true,
@@ -2971,7 +2971,7 @@
       "readonly_annual_match_update_count": 1481655,
       "counts_are_not_runtime_measurements": true,
       "simulation_extension": "20year prefix then annual extension to30; fixed absolute change times, prefix-stable random streams",
-      "production_scoring_or_long_simulation_run": false,
+      "production_scoring_or_long_simulation_run": true,
       "new_policy_not_adopted_into_frozen_strict_protocol": true,
       "execution_flow": [
         "freeze policy and time boundaries",
@@ -2987,7 +2987,7 @@
         "src/history_window/simulation_long.py",
         "src/history_window/experiments.py"
       ],
-      "planned_modules_created": false,
+      "planned_modules_created": true,
       "policy_start_year_reset_jump_diagnostic_required": true,
       "simulation_independent_seed_groups_proposed": 10,
       "simulation_scenarios_per_seed": 6,
@@ -3001,7 +3001,7 @@
       "precode_design_ready": true,
       "planning_missing_information": [],
       "design_basis": "agent choices under user request to finish precode preparation; not itemwise human review",
-      "implementation_authorized_this_turn": false,
+      "implementation_authorized_this_turn": true,
       "planning_contract": "研究/06_历史参考周期/第四第五步_滚动训练与脚本结构设计.md#9-编码前定稿执行规范与脚本结构r12",
       "operational_policy_design": "annual_reset_2/4/8/12/20y and cumulative_1950; strict probes separately labelled",
       "strict_probe_scope": "native rating/state/probability diagnostics; no full-policy downstream comparison without its historical features",
@@ -3022,7 +3022,7 @@
         631220
       ],
       "scientific_repetition_unit": "independent seed group;6 dependent scenario histories per group",
-      "simulation_generator_version": "v2 planned; not old60month v1 extension",
+      "simulation_generator_version": "latent-v2 implemented, prefix tests passed",
       "simulation_start": "2000-01-01 synthetic calendar only",
       "simulation_months": 360,
       "simulation_primary_metric": "mean6unordered_pair_pre_result_gap_squared_error over months240..359; scenarios separate, optional within-seed6scenario mean",
@@ -3040,7 +3040,7 @@
       },
       "runtime_limits_role": "technical ceilings, not predicted runtime or statistical equivalence margin",
       "threads": 1,
-      "workers": 1,
+      "workers": 3,
       "max_rss_mib": 2048,
       "max_single_job_seconds": 600,
       "checkpoint_every_learning_dates": 50,
@@ -3050,23 +3050,67 @@
         "history_and_dates": "exact; connectivity partition equal"
       },
       "strict_numerics_reference_probability_gate": 2e-06,
-      "remaining_work_is_execution_not_missing_plan": [
-        "write modules and adapters",
-        "run correctness fixtures",
-        "measure development costs",
-        "run admitted full tasks",
-        "independent numeric and handoff audit"
-      ],
+      "remaining_work_is_execution_not_missing_plan": [],
       "planned_config": "config/history_window_rating.json",
       "planned_config_schema": "history-window-rating-v1",
       "planned_test_files": [
         "tests/test_history_window_ratings.py",
         "tests/test_history_window_long_simulation.py",
         "tests/test_history_window_policy_adapter.py"
-      ]
+      ],
+      "max_total_rss_mib": 2048,
+      "portable_cost_admission": false
     },
     "audience_explanation": "研究/06_历史参考周期/第四步_运行结果与第五步交接.md#71-给普通观众讲先分清今天的实力和过去的经验",
-    "current_planning_review": "outputs/logs/history_window/step5-planning-20261031/precode_readiness.json"
+    "current_planning_review": "outputs/logs/history_window/step5-planning-20261031/precode_readiness.json",
+    "rating_run_in_progress": null,
+    "rating_handoff": "研究/06_历史参考周期/第五步_评分记忆与长模拟运行交接.md",
+    "rating_related_tests_passed": 53,
+    "strict_full_window_rating_comparison_completed": false,
+    "current_rating_run_id": "rating-memory-1c8aebdf661ccdddff05",
+    "rating_log_directory": "outputs/logs/history_window/rating-memory-1c8aebdf661ccdddff05",
+    "rating_table_directory": "outputs/tables/history_window/rating-memory-1c8aebdf661ccdddff05",
+    "rating_figure_directory": "outputs/figures/history_window/rating-memory-1c8aebdf661ccdddff05",
+    "rating_independent_checks": 659288,
+    "rating_adoption": "outputs/logs/history_window/rating-memory-1c8aebdf661ccdddff05/adoption.json",
+    "rating_features": 149502,
+    "rating_prediction_rows": 99594,
+    "rating_fresh_annual_fits": 125,
+    "rating_reused_cumulative_models": 25,
+    "rating_loss_by_policy": {
+      "annual_reset_2y": 0.579378043,
+      "annual_reset_4y": 0.5659224716,
+      "annual_reset_8y": 0.5607504543,
+      "annual_reset_12y": 0.5595902371,
+      "annual_reset_20y": 0.5589613078,
+      "cumulative_1950": 0.5587504453
+    },
+    "current_handoff_review": "outputs/logs/history_window/step5-handoff-20261101/checks.json",
+    "step6_preparation": {
+      "rating_candidates": [
+        "annual_reset_20y",
+        "annual_reset_12y",
+        "cumulative_1950"
+      ],
+      "outcome_candidates": [
+        "12y",
+        "cumulative"
+      ],
+      "basis": "2000-2009 primary loss only; historical data reused, not new blind evaluation",
+      "new_joint_cells": [
+        {
+          "rating": "annual_reset_20y",
+          "outcome": "12y"
+        },
+        {
+          "rating": "annual_reset_12y",
+          "outcome": "12y"
+        }
+      ],
+      "new_fits_planned": 50,
+      "joint_code_written": false,
+      "joint_run": false
+    }
   },
   "question_7": {
     "decision_log_id": "R20261026-02",

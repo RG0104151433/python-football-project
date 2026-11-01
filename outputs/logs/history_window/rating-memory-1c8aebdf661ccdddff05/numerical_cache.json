@@ -1,0 +1,13 @@
+{
+  "exact_count_keys": true,
+  "hits": 3366,
+  "maxsize": 8192,
+  "misses": 86,
+  "scope": "parent process only; parallel workers have separate caches",
+  "single_factor_cavity": {
+    "calls": 0,
+    "numerical_fallbacks": 0,
+    "reuses": 0
+  },
+  "thresholds_changed": false
+}

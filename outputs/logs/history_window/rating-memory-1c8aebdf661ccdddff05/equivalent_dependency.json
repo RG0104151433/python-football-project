@@ -1,0 +1,109 @@
+{
+  "not_new_fits": true,
+  "numerical_sources_verified": [
+    "src/history_window/ratings.py",
+    "src/history_window/replay.py",
+    "src/history_window/simulation_long.py",
+    "src/strength/__init__.py",
+    "src/strength/audit.py",
+    "src/strength/baseline.py",
+    "src/strength/budget.py",
+    "src/strength/calibration.py",
+    "src/strength/collapsed_jump.py",
+    "src/strength/delivery.py",
+    "src/strength/experiment.py",
+    "src/strength/filter.py",
+    "src/strength/gaussian.py",
+    "src/strength/global_run.py",
+    "src/strength/handoff.py",
+    "src/strength/io.py",
+    "src/strength/jump_check.py",
+    "src/strength/prepare.py",
+    "src/strength/reduction.py",
+    "src/strength/streaming.py"
+  ],
+  "parent_run": "rating-memory-412cbf259e31ab84b5c8",
+  "scientific_parameters_equal": true,
+  "tasks": [
+    {
+      "complete_sha256": "d0d7b271863476b2fdbe486956f64305c4c453451e251266f56dfe6a3bf970c0",
+      "producer_run": "rating-memory-412cbf259e31ab84b5c8",
+      "task": "jobs/cumulative_reference"
+    },
+    {
+      "complete_sha256": "86606fec9e9565e07b3e20a62a09b2f3b5e39bb52ca087eb81e63fd184dd903a",
+      "producer_run": "rating-memory-412cbf259e31ab84b5c8",
+      "task": "jobs/real/2000-12y"
+    },
+    {
+      "complete_sha256": "447b7fd9acd09187ed85218a82b2529dae52916373ef702fe6eb2cee2a67603a",
+      "producer_run": "rating-memory-412cbf259e31ab84b5c8",
+      "task": "jobs/real/2000-20y"
+    },
+    {
+      "complete_sha256": "5749d622f9896dcd477cd331c3c9e7341f5759a8193644110f1595f25e60fe4b",
+      "producer_run": "rating-memory-412cbf259e31ab84b5c8",
+      "task": "jobs/real/2000-2y"
+    },
+    {
+      "complete_sha256": "151dd52413bd3ff94d1f49f4975415156627b4c1814208b744836de5c4f875c8",
+      "producer_run": "rating-memory-412cbf259e31ab84b5c8",
+      "task": "jobs/real/2000-4y"
+    },
+    {
+      "complete_sha256": "54b4d4fc7b8d64522e8fe7f8894b2e7e4b51e8a7dd0fb5b6d09ea99cea35474e",
+      "producer_run": "rating-memory-412cbf259e31ab84b5c8",
+      "task": "jobs/real/2000-8y"
+    },
+    {
+      "complete_sha256": "2d7d4d30c80539e42dd9c5b78bdabd1e0dbd1e84c51c8b34ce2dfdb84ef2dad4",
+      "producer_run": "rating-memory-412cbf259e31ab84b5c8",
+      "task": "jobs/real/2004-12y"
+    },
+    {
+      "complete_sha256": "e3115780113bc87abf942aeb71adafc1ded899c3c09e39a15b3a9573ba355360",
+      "producer_run": "rating-memory-412cbf259e31ab84b5c8",
+      "task": "jobs/real/2004-20y"
+    },
+    {
+      "complete_sha256": "633dfa14310f0cf0023fea2222d17d7317014afdbcfcb3a4d29938ee739bb4ae",
+      "producer_run": "rating-memory-412cbf259e31ab84b5c8",
+      "task": "jobs/real/2004-2y"
+    },
+    {
+      "complete_sha256": "6d406d2ba5831a66db05fc591bd2e5b8926bcf414b92dd63870df3f4f0a0d7e2",
+      "producer_run": "rating-memory-412cbf259e31ab84b5c8",
+      "task": "jobs/real/2004-4y"
+    },
+    {
+      "complete_sha256": "c2d8fd4f6f0837d1e1ac78c8e2608600a134e594818fff843dc8b29930cd4e9a",
+      "producer_run": "rating-memory-412cbf259e31ab84b5c8",
+      "task": "jobs/real/2004-8y"
+    },
+    {
+      "complete_sha256": "99e89cccc8a1c53153a927620cc0d8895c875466d8e56642096a0d530676a00a",
+      "producer_run": "rating-memory-412cbf259e31ab84b5c8",
+      "task": "jobs/real/2009-12y"
+    },
+    {
+      "complete_sha256": "75e57afa82cc1ac683b526f340af541c1c5d28d4c3a610580f7c5cb4fbc4d4a3",
+      "producer_run": "rating-memory-412cbf259e31ab84b5c8",
+      "task": "jobs/real/2009-20y"
+    },
+    {
+      "complete_sha256": "25f506a7f9bb2290722c6e4b85c33c131fba1edab344c4bc0151ce0403c8a915",
+      "producer_run": "rating-memory-412cbf259e31ab84b5c8",
+      "task": "jobs/real/2009-2y"
+    },
+    {
+      "complete_sha256": "b3a6c23fcdaec8179aa771b00969bd879ba3a5982a382223b3b9cb504239449a",
+      "producer_run": "rating-memory-412cbf259e31ab84b5c8",
+      "task": "jobs/real/2009-4y"
+    },
+    {
+      "complete_sha256": "1bc77a17bf968b6a2a764ea2bb3c00e036afe71fbc5cf2a06fbcb8164b4edd00",
+      "producer_run": "rating-memory-412cbf259e31ab84b5c8",
+      "task": "jobs/real/2009-8y"
+    }
+  ]
+}

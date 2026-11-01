@@ -1,0 +1,13 @@
+{
+  "aggregate_sampled_peak_rss_mib": 1098.6171875,
+  "numerical_threads_per_worker": 1,
+  "tasks": 12,
+  "wall_seconds": 303.12769759993535,
+  "warning": "parallel wall time is not serial compute cost; task chronology and numerical inputs unchanged",
+  "worker_pids": [
+    14924,
+    23356,
+    68496
+  ],
+  "workers_max": 3
+}

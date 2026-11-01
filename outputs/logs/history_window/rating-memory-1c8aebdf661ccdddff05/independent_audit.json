@@ -1,0 +1,14 @@
+{
+  "checks": 659288,
+  "failures": [],
+  "feature_rows": 149502,
+  "formal_inference": false,
+  "human_review": false,
+  "independent_seed_groups": 10,
+  "monthly_rows": 43200,
+  "passed": true,
+  "real_prediction_rows": 99594,
+  "repeats": [],
+  "run_id": "rating-memory-1c8aebdf661ccdddff05",
+  "simulated_scenario_histories": 60
+}

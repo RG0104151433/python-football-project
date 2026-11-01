@@ -14,6 +14,7 @@ outputs/logs/strength_inference/checkpoints/
 # Q6 resumable per-job cache; final predictions, models, boundaries and source
 # snapshots outside jobs/ remain versioned and sufficient for independent audit.
 outputs/logs/history_window/outcome-*/jobs/
+outputs/logs/history_window/rating-memory-*/jobs/
 
 # IDE
 .idea/
