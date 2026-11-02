@@ -1,0 +1,56 @@
+{
+  "checked_on": "2026-11-02",
+  "date_convention": "date < 2026-11-02, provisionally through Nov1; no match timestamps available",
+  "local_raw": {
+    "path": "data/raw/international_results/results.csv",
+    "sha256": "5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767",
+    "rows": 49945,
+    "min_date": "1872-11-30",
+    "max_date": "2026-10-06",
+    "recent_year_counts": {
+      "2024": 1231,
+      "2025": 1002,
+      "2026": 801
+    }
+  },
+  "production_analysis": {
+    "path": "data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8/analysis_matches.csv",
+    "sha256": "ff63f0fc870a9692246a81c6f9f309776385474e2203e3c235a8f0d061bc47ba",
+    "rows": 24917,
+    "max_date": "2024-12-31"
+  },
+  "cleaning_config": {
+    "path": "config.json",
+    "sha256": "e12cb80ac22ded100337808457148a3cdfc6fcfe23290c271c4954f4a99f2d6a",
+    "cutoff_date": "2024-12-31"
+  },
+  "web_observation": {
+    "url": "https://raw.githubusercontent.com/martj42/international_results/master/results.csv",
+    "last_displayed_match_date": "2026-10-06",
+    "complete_byte_download": false,
+    "upstream_sha256": null,
+    "latest_commit": null,
+    "full_row_diff_done": false,
+    "current_completeness_verified": false
+  },
+  "network_limits": [
+    "Local Python HTTP attempts denied with WinError 10013",
+    "Web API inaccessible; commit-history page cached earlier date, not used as latest commit evidence"
+  ],
+  "initial_lookup_correction": "international_matches returned 404; project manifest and source guide confirmed international_results",
+  "calendar_context": {
+    "url": "https://www.englandfootball.com/articles/2026/Sep/11/when-are-england-men-playing-in-2026-27-season-20260911",
+    "listed_windows": [
+      "2026-09-21/2026-10-06",
+      "2026-11-09/2026-11-17"
+    ],
+    "is_global_completeness_evidence": false
+  },
+  "conclusion": "Raw through October6, production through 2024; complete coverage before November2 not established. No confirmed omission count.",
+  "new_snapshot_adopted": false,
+  "raw_overwritten": false,
+  "new_model_fits": 0,
+  "future_predictions_issued": false,
+  "executor": "Codex (AI)",
+  "human_review": false
+}

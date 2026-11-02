@@ -1,0 +1,35 @@
+{
+  "run_id": "future-unl-61f639846da9193d4cca",
+  "passed": true,
+  "manifest_sha256": "c5a2e4e0e1fcf0bce39ef93e524125af69c7d12e5688ccd6e4d3e439aa69f6e6",
+  "independent_audit_sha256": "7d97f76e122eda643081d433dd37bb952c62b07e01a514759369abef85c9c18b",
+  "supplemental_sources": {
+    "scripts/audit_future_predictions.py": "ec884174a6dba66a5cfe87f42479bf91286423f355b6428bc0e5c2ddd036977e",
+    "scripts/evaluate_future_matches.py": "970a0534c28d0c84e783e6c660e6ca6a8164cc6d9d454d2802b2beb1a4170d46",
+    "tests/test_future_evaluation.py": "9a1f43539222d5e6f5cc6f86232aa124349ca13d396906efbaa628e31e6b36dd",
+    "研究/08_未来比赛预测/运行结果与预测清单.md": "6fd1402a8c63663c11f70ba9ddb0cb439494ce00291cbda02899a775e6487f2f"
+  },
+  "handoff_source_snapshot_sha256": "783ecf9874f72c6edb72a30c297d8f9f774a3d2c943ad594de39ca91051f8797",
+  "tests": [
+    {
+      "file": "tests/test_future_predictions.py",
+      "passed": 3,
+      "seconds": 1.61
+    },
+    {
+      "file": "tests/test_future_evaluation.py",
+      "passed": 3,
+      "seconds": 0.36
+    }
+  ],
+  "independent_checks": 2275,
+  "main_binary_forecasts": 49,
+  "main_withheld": 3,
+  "native_auxiliary_threeway": 52,
+  "formal_inference": false,
+  "human_review": false,
+  "postmatch_complete": false,
+  "round6_information_scope": "current_preliminary_no_round5_actual_outcomes",
+  "material_paths_checked": 26,
+  "missing_paths": []
+}

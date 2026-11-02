@@ -1,0 +1,18 @@
+{
+  "total": 52,
+  "main": 49,
+  "withheld": 3,
+  "main_home_pick": 21,
+  "main_nonhome_pick": 28,
+  "conditional_range_crosses_half": 32,
+  "actual_results_received": 0,
+  "actual_accuracy": null,
+  "forecast_run_id": "future-unl-61f639846da9193d4cca",
+  "issued_at_utc": "2026-11-02T04:07:15.368719+00:00",
+  "latest_learning_date": "2026-10-06",
+  "coefficients_last_date": "2025-12-29",
+  "round6_scope": "Nov2 early forecast; no round5 results",
+  "human_review": false,
+  "scope": "pre-match application; no empirical future accuracy yet",
+  "uncertainty": "fixed-coefficient latent strength central90 probability range; not real coverage"
+}

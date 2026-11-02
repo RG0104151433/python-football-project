@@ -1,0 +1,8 @@
+{
+  "issued_at_utc": "2026-11-02T04:07:15.368719+00:00",
+  "log_directory": "outputs/logs/future_predictions/future-unl-61f639846da9193d4cca",
+  "manifest_sha256": "c5a2e4e0e1fcf0bce39ef93e524125af69c7d12e5688ccd6e4d3e439aa69f6e6",
+  "postmatch_pending": true,
+  "run_id": "future-unl-61f639846da9193d4cca",
+  "table_directory": "outputs/tables/future_predictions/future-unl-61f639846da9193d4cca"
+}

@@ -1,0 +1,36 @@
+{
+  "identity": {
+    "forecast_run_id": "future-unl-61f639846da9193d4cca",
+    "inputs": {
+      "outputs/logs/future_predictions/future-unl-61f639846da9193d4cca/manifest.json": "c5a2e4e0e1fcf0bce39ef93e524125af69c7d12e5688ccd6e4d3e439aa69f6e6",
+      "outputs/logs/future_predictions/future-unl-61f639846da9193d4cca/independent_audit.json": "7d97f76e122eda643081d433dd37bb952c62b07e01a514759369abef85c9c18b",
+      "outputs/logs/future_predictions/future-unl-61f639846da9193d4cca/handoff_adoption.json": "ebbbd4d6f3d936312b89e3641c086db5df952b4dd1672ec31d03cc10bf8f172f",
+      "outputs/tables/future_predictions/future-unl-61f639846da9193d4cca/forecasts.csv": "58fba7aaad2b1708c13133fe7cdc201a75adfe23405ca77edb27e636ff4c7280",
+      "研究/08_未来比赛预测/第八问_研究说明与收尾交接.md": "66f6c4deb0c1f3b21d47e5b7ea9d3b7958368e73bb8fbf3c553dec5ac5df586b",
+      "研究/08_未来比赛预测/运行结果与预测清单.md": "0c5db5eaab1e00319fc60d0d4afa147a384363f8ab8ecdcad89d673a4cb8a8c0"
+    },
+    "code": {
+      "scripts/build_future_prediction_materials.py": "3f0ac7037ea82895a5806607cb763eb98337ae7ef939945e4d94151d9586ba27"
+    },
+    "environment": {
+      "python": "3.14.8",
+      "matplotlib": "3.11.2",
+      "font": "Microsoft YaHei",
+      "font_sha256": "d79c55e68b1131eea0cc1c47be4f572d964f28c682e143db2ad09c1e4cb07a3f"
+    },
+    "decision": "R20261102-13",
+    "scope": "pre-match application; no empirical future accuracy yet"
+  },
+  "outputs": {
+    "outputs/logs/future_predictions/q8-closeout-7bf020e93213562df8de/forecast_examples.png": "d06e636cd3461ad22a770e07067ecbc4728d779acc3394ffa6f0eb5d5d76e2b8",
+    "outputs/logs/future_predictions/q8-closeout-7bf020e93213562df8de/forecast_examples.svg": "36b5c1915b73976ad27e65d71e44690e75a873eb7720913935bbe11f4123f6c7",
+    "outputs/logs/future_predictions/q8-closeout-7bf020e93213562df8de/forecast_overview.png": "173620ce0afb1b433ed4571204ed13d09fee068e813d3b5e98dbb2185c18edde",
+    "outputs/logs/future_predictions/q8-closeout-7bf020e93213562df8de/forecast_overview.svg": "f2dbbd3de937573f4d0dd9d47e88e87e9194972310dfd94e9c02026077a50109",
+    "outputs/logs/future_predictions/q8-closeout-7bf020e93213562df8de/paper_support.json": "07bcbc12da3ceaa2ffd0e8e16b95c4327c36d16dc416004d14397c29867f6eac",
+    "outputs/logs/future_predictions/q8-closeout-7bf020e93213562df8de/presentation_story.json": "d81fb84c3cc849be96dc1172fdf2ff5d42622b3290441f88971ee8a3b0c52025",
+    "outputs/logs/future_predictions/q8-closeout-7bf020e93213562df8de/review.json": "918ee89798f5afd7098383d7ad10fd91f6ac8af3a51a533cd47382d5aa5f4f16",
+    "outputs/logs/future_predictions/q8-closeout-7bf020e93213562df8de/selected_cases.csv": "f69b7a13a3da0f5bd414c0bb265aa52e17d1df418d1022f81227f20d388d4739",
+    "outputs/logs/future_predictions/q8-closeout-7bf020e93213562df8de/source_snapshot.zip": "ef9b90da458927db396a463dc0447027b31b187278105e6c60a809ce177ed998",
+    "outputs/logs/future_predictions/q8-closeout-7bf020e93213562df8de/summary.json": "abc6a968a6c63f264de4321243a09375bdbe780962b2bdbf8834662372601351"
+  }
+}

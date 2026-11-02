@@ -1,0 +1,8 @@
+{
+  "material_run_id": "q8-closeout-7bf020e93213562df8de",
+  "forecast_run_id": "future-unl-61f639846da9193d4cca",
+  "directory": "outputs/logs/future_predictions/q8-closeout-7bf020e93213562df8de",
+  "manifest_sha256": "6de683c7ad2371e2cbce7a3389ae4d2532016b84f4a665f685312fecae84f449",
+  "submission_scope": "pre-match application; no empirical future accuracy yet",
+  "actual_postmatch_complete": false
+}

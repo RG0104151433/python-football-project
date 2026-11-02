@@ -1,0 +1,20 @@
+{
+  "source_run": "future-unl-61f639846da9193d4cca",
+  "narrative": "研究/08_未来比赛预测/第八问_研究说明与收尾交接.md",
+  "methods": [
+    "src/future_predictions.py",
+    "config/future_predictions.json",
+    "outputs/logs/future_predictions/future-unl-61f639846da9193d4cca/models.json"
+  ],
+  "results": [
+    "outputs/tables/future_predictions/future-unl-61f639846da9193d4cca/forecasts.csv",
+    "summary.json",
+    "selected_cases.csv",
+    "forecast_overview.svg",
+    "forecast_examples.svg"
+  ],
+  "historical_validation_is_separate": "研究/05_赛前实力/第五问_收尾与下一问交接.md",
+  "limitations": "fixed-coefficient latent strength central90 probability range; not real coverage",
+  "actual_results": null,
+  "path_base": "generated filenames relative to this material folder; repository paths otherwise"
+}

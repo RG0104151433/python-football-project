@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="828pt" height="1231.2pt" viewBox="0 0 828 1231.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-02T15:07:38.611314</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Q8 sealed forecast materials</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 1231.2 
+L 828 1231.2 
+L 828 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 167.094297 1108.063406 
+L 808.56 1108.063406 
+L 808.56 39.6 
+L 167.094297 39.6 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 167.094297 1108.063406 
+L 167.094297 39.6 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.15; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="mc538c56a21" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mc538c56a21" x="167.094297" y="1108.063406" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="167.094297" y="1123.183523" transform="rotate(-0 167.094297 1123.183523)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 295.387438 1108.063406 
+L 295.387438 39.6 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.15; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mc538c56a21" x="295.387438" y="1108.063406" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="295.387438" y="1123.183523" transform="rotate(-0 295.387438 1123.183523)">20</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 423.680578 1108.063406 
+L 423.680578 39.6 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.15; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#mc538c56a21" x="423.680578" y="1108.063406" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="423.680578" y="1123.183523" transform="rotate(-0 423.680578 1123.183523)">40</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 551.973719 1108.063406 
+L 551.973719 39.6 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.15; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#mc538c56a21" x="551.973719" y="1108.063406" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="551.973719" y="1123.183523" transform="rotate(-0 551.973719 1123.183523)">60</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 680.266859 1108.063406 
+L 680.266859 39.6 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.15; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#mc538c56a21" x="680.266859" y="1108.063406" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="680.266859" y="1123.183523" transform="rotate(-0 680.266859 1123.183523)">80</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 808.56 1108.063406 
+L 808.56 39.6 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.15; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#mc538c56a21" x="808.56" y="1108.063406" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="808.56" y="1123.183523" transform="rotate(-0 808.56 1123.183523)">100</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="487.827148" y="1138.111453" transform="rotate(-0 487.827148 1138.111453)">共同模型主胜概率（%）；圆点为预测，横线为实力条件中央90%范围</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_13">
+      <defs>
+       <path id="m1f8b525bea" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="88.166518" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="92.324331" transform="rotate(-0 160.094297 92.324331)">11-12  土耳其—比利时</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="108.402568" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="112.618974" transform="rotate(-0 160.094297 112.618974)">11-12  亚美尼亚—塞浦路斯</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="128.638617" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="132.855023" transform="rotate(-0 160.094297 132.855023)">11-12  意大利—法国</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="148.874667" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="153.041854" transform="rotate(-0 160.094297 153.041854)">11-12  捷克—西班牙</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="169.110716" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="173.283372" transform="rotate(-0 160.094297 173.283372)">11-12  英格兰—克罗地亚</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="189.346765" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="193.509265" transform="rotate(-0 160.094297 193.509265)">11-12  阿尔巴尼亚—芬兰</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="209.582815" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="213.784377" transform="rotate(-0 160.094297 213.784377)">11-12  圣马力诺—白俄罗斯</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="229.818864" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="234.000895" transform="rotate(-0 160.094297 234.000895)">11-12  黑山—拉脱维亚</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_21">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="250.054913" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="254.22757" transform="rotate(-0 160.094297 254.22757)">11-13  摩尔多瓦—哈萨克斯坦</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="270.290963" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="274.472994" transform="rotate(-0 160.094297 274.472994)">11-13  荷兰—希腊</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_23">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="290.527012" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="294.704356" transform="rotate(-0 160.094297 294.704356)">11-13  塞尔维亚—德国</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="310.763061" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="314.935718" transform="rotate(-0 160.094297 314.935718)">11-13  苏格兰—北马其顿</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_25">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="330.999111" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="335.191298" transform="rotate(-0 160.094297 335.191298)">11-13  斯洛文尼亚—瑞士</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="351.23516" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_21">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="355.427348" transform="rotate(-0 160.094297 355.427348)">11-13  斯洛伐克—法罗群岛</text>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_27">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="371.47121" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_22">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="375.653241" transform="rotate(-0 160.094297 375.653241)">11-13  保加利亚—冰岛</text>
+     </g>
+    </g>
+    <g id="ytick_16">
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="391.707259" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_23">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="395.884603" transform="rotate(-0 160.094297 395.884603)">11-13  卢森堡—爱沙尼亚</text>
+     </g>
+    </g>
+    <g id="ytick_17">
+     <g id="line2d_29">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="411.943308" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_24">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="416.149558" transform="rotate(-0 160.094297 416.149558)">11-13  安道尔—直布罗陀</text>
+     </g>
+    </g>
+    <g id="ytick_18">
+     <g id="line2d_30">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="432.179358" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_25">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="436.356701" transform="rotate(-0 160.094297 436.356701)">11-13  列支敦士登—阿塞拜疆</text>
+     </g>
+    </g>
+    <g id="ytick_19">
+     <g id="line2d_31">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="452.415407" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_26">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="456.621657" transform="rotate(-0 160.094297 456.621657)">11-14  科索沃—以色列</text>
+     </g>
+    </g>
+    <g id="ytick_20">
+     <g id="line2d_32">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="472.651456" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_27">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="476.813956" transform="rotate(-0 160.094297 476.813956)">11-14  挪威—威尔士</text>
+     </g>
+    </g>
+    <g id="ytick_21">
+     <g id="line2d_33">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="492.887506" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_28">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="497.074224" transform="rotate(-0 160.094297 497.074224)">11-14  格鲁吉亚—匈牙利</text>
+     </g>
+    </g>
+    <g id="ytick_22">
+     <g id="line2d_34">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="513.123555" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_29">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="517.310274" transform="rotate(-0 160.094297 517.310274)">11-14  葡萄牙—丹麦</text>
+     </g>
+    </g>
+    <g id="ytick_23">
+     <g id="line2d_35">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="533.359604" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_30">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="537.541636" transform="rotate(-0 160.094297 537.541636)">11-14  北爱尔兰—乌克兰</text>
+     </g>
+    </g>
+    <g id="ytick_24">
+     <g id="line2d_36">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="553.595654" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_31">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="557.762841" transform="rotate(-0 160.094297 557.762841)">11-14  奥地利—爱尔兰</text>
+     </g>
+    </g>
+    <g id="ytick_25">
+     <g id="line2d_37">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="573.831703" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_32">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="577.994203" transform="rotate(-0 160.094297 577.994203)">11-14  罗马尼亚—波兰</text>
+     </g>
+    </g>
+    <g id="ytick_26">
+     <g id="line2d_38">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="594.067752" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_33">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="598.220877" transform="rotate(-0 160.094297 598.220877)">11-14  瑞典—波黑</text>
+     </g>
+    </g>
+    <g id="ytick_27">
+     <g id="line2d_39">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="614.303802" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_34">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="618.490521" transform="rotate(-0 160.094297 618.490521)">11-15  塞浦路斯—黑山</text>
+     </g>
+    </g>
+    <g id="ytick_28">
+     <g id="line2d_40">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="634.539851" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_35">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="638.756257" transform="rotate(-0 160.094297 638.756257)">11-15  拉脱维亚—亚美尼亚</text>
+     </g>
+    </g>
+    <g id="ytick_29">
+     <g id="line2d_41">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="654.775901" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_36">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="658.938401" transform="rotate(-0 160.094297 658.938401)">11-15  芬兰—圣马力诺</text>
+     </g>
+    </g>
+    <g id="ytick_30">
+     <g id="line2d_42">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="675.01195" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_37">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="679.228356" transform="rotate(-0 160.094297 679.228356)">11-15  比利时—意大利</text>
+     </g>
+    </g>
+    <g id="ytick_31">
+     <g id="line2d_43">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="695.247999" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_38">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="699.405812" transform="rotate(-0 160.094297 699.405812)">11-15  法国—土耳其</text>
+     </g>
+    </g>
+    <g id="ytick_32">
+     <g id="line2d_44">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="715.484049" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_39">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="719.651236" transform="rotate(-0 160.094297 719.651236)">11-15  克罗地亚—捷克</text>
+     </g>
+    </g>
+    <g id="ytick_33">
+     <g id="line2d_45">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="735.720098" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_40">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="739.892754" transform="rotate(-0 160.094297 739.892754)">11-15  西班牙—英格兰</text>
+     </g>
+    </g>
+    <g id="ytick_34">
+     <g id="line2d_46">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="755.956147" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_41">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="760.142866" transform="rotate(-0 160.094297 760.142866)">11-16  法罗群岛—摩尔多瓦</text>
+     </g>
+    </g>
+    <g id="ytick_35">
+     <g id="line2d_47">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="776.192197" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_42">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="780.384384" transform="rotate(-0 160.094297 780.384384)">11-16  哈萨克斯坦—斯洛伐克</text>
+     </g>
+    </g>
+    <g id="ytick_36">
+     <g id="line2d_48">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="796.428246" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_43">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="800.600902" transform="rotate(-0 160.094297 800.600902)">11-16  爱沙尼亚—保加利亚</text>
+     </g>
+    </g>
+    <g id="ytick_37">
+     <g id="line2d_49">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="816.664295" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_44">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="820.846327" transform="rotate(-0 160.094297 820.846327)">11-16  冰岛—卢森堡</text>
+     </g>
+    </g>
+    <g id="ytick_38">
+     <g id="line2d_50">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="836.900345" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_45">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="841.116751" transform="rotate(-0 160.094297 841.116751)">11-16  立陶宛—列支敦士登</text>
+     </g>
+    </g>
+    <g id="ytick_39">
+     <g id="line2d_51">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="857.136394" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_46">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="861.298894" transform="rotate(-0 160.094297 861.298894)">11-16  德国—荷兰</text>
+     </g>
+    </g>
+    <g id="ytick_40">
+     <g id="line2d_52">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="877.372444" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_47">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="881.554475" transform="rotate(-0 160.094297 881.554475)">11-16  希腊—塞尔维亚</text>
+     </g>
+    </g>
+    <g id="ytick_41">
+     <g id="line2d_53">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="897.608493" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_48">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="901.80068" transform="rotate(-0 160.094297 901.80068)">11-16  北马其顿—斯洛文尼亚</text>
+     </g>
+    </g>
+    <g id="ytick_42">
+     <g id="line2d_54">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="917.844542" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_49">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="922.017199" transform="rotate(-0 160.094297 922.017199)">11-16  瑞士—苏格兰</text>
+     </g>
+    </g>
+    <g id="ytick_43">
+     <g id="line2d_55">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="938.080592" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_50">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="942.262623" transform="rotate(-0 160.094297 942.262623)">11-16  直布罗陀—马耳他</text>
+     </g>
+    </g>
+    <g id="ytick_44">
+     <g id="line2d_56">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="958.316641" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_51">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="962.50336" transform="rotate(-0 160.094297 962.50336)">11-17  丹麦—挪威</text>
+     </g>
+    </g>
+    <g id="ytick_45">
+     <g id="line2d_57">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="978.55269" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_52">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="982.71519" transform="rotate(-0 160.094297 982.71519)">11-17  威尔士—葡萄牙</text>
+     </g>
+    </g>
+    <g id="ytick_46">
+     <g id="line2d_58">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="998.78874" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_53">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="1002.966083" transform="rotate(-0 160.094297 1002.966083)">11-17  匈牙利—北爱尔兰</text>
+     </g>
+    </g>
+    <g id="ytick_47">
+     <g id="line2d_59">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="1019.024789" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_54">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="1023.197445" transform="rotate(-0 160.094297 1023.197445)">11-17  爱尔兰—科索沃</text>
+     </g>
+    </g>
+    <g id="ytick_48">
+     <g id="line2d_60">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="1039.260838" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_55">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="1043.413963" transform="rotate(-0 160.094297 1043.413963)">11-17  波黑—罗马尼亚</text>
+     </g>
+    </g>
+    <g id="ytick_49">
+     <g id="line2d_61">
+      <g>
+       <use xlink:href="#m1f8b525bea" x="167.094297" y="1059.496888" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_56">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end" x="160.094297" y="1063.659388" transform="rotate(-0 160.094297 1063.659388)">11-17  波兰—瑞典</text>
+     </g>
+    </g>
+    <g id="text_57">
+     <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="19.056992" y="573.831703" transform="rotate(-90 19.056992 573.831703)">比赛日期与主队—客队（赛事当地日期）</text>
+    </g>
+   </g>
+   <g id="LineCollection_1">
+    <path d="M 268.684541 88.166518 
+L 496.378735 88.166518 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_2">
+    <path d="M 302.029324 108.402568 
+L 571.700653 108.402568 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_3">
+    <path d="M 242.242234 128.638617 
+L 452.578663 128.638617 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_4">
+    <path d="M 171.994537 148.874667 
+L 227.265288 148.874667 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_5">
+    <path d="M 446.396428 169.110716 
+L 688.45205 169.110716 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_6">
+    <path d="M 320.240334 189.346765 
+L 610.886199 189.346765 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_7">
+    <path d="M 167.586146 209.582815 
+L 196.980248 209.582815 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_8">
+    <path d="M 510.252635 229.818864 
+L 739.146694 229.818864 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_9">
+    <path d="M 362.701699 250.054913 
+L 636.275356 250.054913 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_10">
+    <path d="M 366.052981 270.290963 
+L 614.05051 270.290963 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_11">
+    <path d="M 203.153691 290.527012 
+L 375.964558 290.527012 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_12">
+    <path d="M 435.55058 310.763061 
+L 691.373892 310.763061 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_13">
+    <path d="M 231.694878 330.999111 
+L 425.42703 330.999111 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_14">
+    <path d="M 472.126775 351.23516 
+L 708.499094 351.23516 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_15">
+    <path d="M 252.727768 371.47121 
+L 493.812746 371.47121 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_16">
+    <path d="M 256.010279 391.707259 
+L 499.198981 391.707259 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_17">
+    <path d="M 307.70245 411.943308 
+L 593.802246 411.943308 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_18">
+    <path d="M 171.363672 432.179358 
+L 330.665025 432.179358 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_19">
+    <path d="M 415.416234 452.415407 
+L 668.027968 452.415407 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_20">
+    <path d="M 480.192734 472.651456 
+L 720.706362 472.651456 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_21">
+    <path d="M 227.084822 492.887506 
+L 430.540133 492.887506 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_22">
+    <path d="M 461.692004 513.123555 
+L 698.248972 513.123555 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_23">
+    <path d="M 312.974664 533.359604 
+L 578.382965 533.359604 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_24">
+    <path d="M 407.647569 553.595654 
+L 648.910382 553.595654 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_25">
+    <path d="M 245.228367 573.831703 
+L 471.597251 573.831703 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_26">
+    <path d="M 371.64073 594.067752 
+L 602.907642 594.067752 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_27">
+    <path d="M 232.628248 614.303802 
+L 467.296923 614.303802 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_28">
+    <path d="M 276.57573 634.539851 
+L 526.927473 634.539851 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_29">
+    <path d="M 715.756576 654.775901 
+L 805.032446 654.775901 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_30">
+    <path d="M 273.757852 675.01195 
+L 516.035014 675.01195 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_31">
+    <path d="M 497.438326 695.247999 
+L 717.291432 695.247999 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_32">
+    <path d="M 441.122319 715.484049 
+L 690.552651 715.484049 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_33">
+    <path d="M 435.538238 735.720098 
+L 680.554201 735.720098 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_34">
+    <path d="M 375.311935 755.956147 
+L 637.826871 755.956147 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_35">
+    <path d="M 210.576543 776.192197 
+L 392.101207 776.192197 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_36">
+    <path d="M 342.806356 796.428246 
+L 604.603869 796.428246 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_37">
+    <path d="M 434.525118 816.664295 
+L 699.726501 816.664295 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_38">
+    <path d="M 551.159347 836.900345 
+L 791.25991 836.900345 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_39">
+    <path d="M 294.358677 857.136394 
+L 520.652616 857.136394 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_40">
+    <path d="M 428.630277 877.372444 
+L 694.833725 877.372444 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_41">
+    <path d="M 211.175748 897.608493 
+L 398.210309 897.608493 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_42">
+    <path d="M 466.219752 917.844542 
+L 698.644208 917.844542 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_43">
+    <path d="M 195.62457 938.080592 
+L 398.808255 938.080592 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_44">
+    <path d="M 295.49675 958.316641 
+L 547.687206 958.316641 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_45">
+    <path d="M 186.018513 978.55269 
+L 307.219051 978.55269 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_46">
+    <path d="M 363.445442 998.78874 
+L 626.400713 998.78874 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_47">
+    <path d="M 293.464684 1019.024789 
+L 540.380299 1019.024789 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_48">
+    <path d="M 442.380694 1039.260838 
+L 680.777709 1039.260838 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="LineCollection_49">
+    <path d="M 268.247731 1059.496888 
+L 488.657795 1059.496888 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke: #275c83; stroke-width: 1.5"/>
+   </g>
+   <g id="line2d_62">
+    <path d="M 487.827148 1108.063406 
+L 487.827148 39.6 
+" clip-path="url(#p728399e3b7)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #8c8c8c; stroke-width: 0.8"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 167.094297 1108.063406 
+L 167.094297 39.6 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 167.094297 1108.063406 
+L 808.56 1108.063406 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="m8759709088" d="M 0 2.291288 
+C 0.607657 2.291288 1.190507 2.049863 1.620185 1.620185 
+C 2.049863 1.190507 2.291288 0.607657 2.291288 0 
+C 2.291288 -0.607657 2.049863 -1.190507 1.620185 -1.620185 
+C 1.190507 -2.049863 0.607657 -2.291288 0 -2.291288 
+C -0.607657 -2.291288 -1.190507 -2.049863 -1.620185 -1.620185 
+C -2.049863 -1.190507 -2.291288 -0.607657 -2.291288 0 
+C -2.291288 0.607657 -2.049863 1.190507 -1.620185 1.620185 
+C -1.190507 2.049863 -0.607657 2.291288 0 2.291288 
+z
+" style="stroke: #275c83"/>
+    </defs>
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="373.885309" y="88.166518" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_2">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="431.352263" y="108.402568" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_3">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="336.335894" y="128.638617" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_4">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="191.662503" y="148.874667" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_5">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="574.44274" y="169.110716" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_6">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="462.757461" y="189.346765" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_7">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="175.914211" y="209.582815" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_8">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="637.804346" y="229.818864" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_9">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="500.745506" y="250.054913" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_10">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="490.240389" y="270.290963" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_11">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="274.743328" y="290.527012" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_12">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="571.019986" y="310.763061" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_13">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="317.112252" y="330.999111" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_14">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="599.444771" y="351.23516" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_15">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="362.039177" y="371.47121" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_16">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="366.754731" y="391.707259" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_17">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="446.197946" y="411.943308" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_18">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="221.715441" y="432.179358" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_19">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="546.71006" y="452.415407" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_20">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="611.329" y="472.651456" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_21">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="315.910077" y="492.887506" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_22">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="587.915964" y="513.123555" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_23">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="441.353796" y="533.359604" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_24">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="531.567321" y="553.595654" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_25">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="346.831289" y="573.831703" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_26">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="487.23445" y="594.067752" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_27">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="335.816002" y="614.303802" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_28">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="393.372414" y="634.539851" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_29">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="776.183466" y="654.775901" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_30">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="386.379243" y="675.01195" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_31">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="616.874583" y="695.247999" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_32">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="573.202079" y="715.484049" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_33">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="564.276636" y="735.720098" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_34">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="508.400713" y="755.956147" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_35">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="287.28212" y="776.192197" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_36">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="472.337519" y="796.428246" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_37">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="575.869687" y="816.664295" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_38">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="701.985699" y="836.900345" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_39">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="401.486873" y="857.136394" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_40">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="569.839756" y="877.372444" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_41">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="290.222087" y="897.608493" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_42">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="590.306053" y="917.844542" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_43">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="276.698949" y="938.080592" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_44">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="415.348722" y="958.316641" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_45">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="233.599097" y="978.55269" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_46">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="495.615694" y="998.78874" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_47">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="410.510364" y="1019.024789" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_48">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="567.745981" y="1039.260838" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="PathCollection_49">
+    <g clip-path="url(#p728399e3b7)">
+     <use xlink:href="#m8759709088" x="370.047425" y="1059.496888" style="fill: #275c83; stroke: #275c83"/>
+    </g>
+   </g>
+   <g id="text_58">
+    <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: start" x="167.094297" y="21.6" transform="rotate(-0 167.094297 21.6)">11月欧国联：49场赛前主胜概率与实力条件范围</text>
+   </g>
+  </g>
+  <g id="text_59">
+   <text style="font-size: 8px; font-family: 'Microsoft YaHei'" transform="translate(16.56 1186.999828)">来源：future-unl-61f639846da9193d4cca / forecasts.csv</text>
+   <text style="font-size: 8px; font-family: 'Microsoft YaHei'" transform="translate(16.56 1195.761078)">11月2日封存；第6轮为提前版。范围固定模型系数，不是现实置信保证；赛果尚未发生。</text>
+   <text style="font-size: 8px; font-family: 'Microsoft YaHei'" transform="translate(16.56 1204.531078)">另3场第三国场地未套用主模型；完整52场见原清单。</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p728399e3b7">
+   <rect x="167.094297" y="39.6" width="641.465703" height="1068.463406"/>
+  </clipPath>
+ </defs>
+</svg>

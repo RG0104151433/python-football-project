@@ -1,0 +1,5 @@
+﻿match_id,date,label_zh,main_home_probability,latent_probability_p05,latent_probability_p95,native_home_probability,native_draw_probability,native_away_probability,main_status,round6_preliminary,venue_basis,role
+future:unl-2026:004,2026-11-12,捷克—西班牙,0.0383001087,0.0076391302,0.0938023518,0.0237166544,0.0472200733,0.9290632724,issued_binary,false,nominal home per UEFA fixture; subject to venue change,主胜倾向低
+future:unl-2026:010,2026-11-13,荷兰—希腊,0.5037620732,0.3101626214,0.6967733592,0.5976972809,0.2326264202,0.1696762990,issued_binary,false,nominal home per UEFA fixture; subject to venue change,接近五五开
+future:unl-2026:005,2026-11-12,英格兰—克罗地亚,0.6350276272,0.4354124155,0.8127601376,0.7641698772,0.1550197279,0.0808103949,issued_binary,false,nominal home per UEFA fixture; subject to venue change,有倾向仍需谨慎
+future:unl-2026:048,2026-11-17,乌克兰—格鲁吉亚,,,,0.5225728366,0.2538866820,0.2235404814,withheld_third_country_venue,true,UEFA third-country venue; geographical neutral proxy,第三国场地不外推

@@ -1,0 +1,21 @@
+{
+  "actual_postmatch_evaluation_complete": false,
+  "coefficient_training_max": "2025-12-29",
+  "coefficient_training_rows": 25599,
+  "earlier_results_overwritten": false,
+  "excluded_or_pending": 84,
+  "forecasts": 52,
+  "formal_inference": false,
+  "human_review": false,
+  "included_learning_rows": 1719,
+  "native_auxiliary_forecasts": 52,
+  "new_analysis_rows": 1147,
+  "new_fits": 2,
+  "new_raw_rows": 1803,
+  "no_future_outcomes": true,
+  "passed": true,
+  "primary_issued": 49,
+  "rating_last_day": "2026-10-06",
+  "raw_overwritten": false,
+  "withheld_main": 3
+}

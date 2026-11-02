@@ -1,0 +1,114 @@
+{
+  "source_run": "future-unl-61f639846da9193d4cca",
+  "summary": {
+    "total": 52,
+    "main": 49,
+    "withheld": 3,
+    "main_home_pick": 21,
+    "main_nonhome_pick": 28,
+    "conditional_range_crosses_half": 32,
+    "actual_results_received": 0,
+    "actual_accuracy": null,
+    "forecast_run_id": "future-unl-61f639846da9193d4cca",
+    "issued_at_utc": "2026-11-02T04:07:15.368719+00:00",
+    "latest_learning_date": "2026-10-06",
+    "coefficients_last_date": "2025-12-29",
+    "round6_scope": "Nov2 early forecast; no round5 results",
+    "human_review": false,
+    "scope": "pre-match application; no empirical future accuracy yet",
+    "uncertainty": "fixed-coefficient latent strength central90 probability range; not real coverage"
+  },
+  "cases": [
+    {
+      "match_id": "future:unl-2026:004",
+      "date": "2026-11-12",
+      "label_zh": "捷克—西班牙",
+      "main_home_probability": "0.0383001087",
+      "latent_probability_p05": "0.0076391302",
+      "latent_probability_p95": "0.0938023518",
+      "native_home_probability": "0.0237166544",
+      "native_draw_probability": "0.0472200733",
+      "native_away_probability": "0.9290632724",
+      "main_status": "issued_binary",
+      "round6_preliminary": "false",
+      "venue_basis": "nominal home per UEFA fixture; subject to venue change",
+      "role": "主胜倾向低"
+    },
+    {
+      "match_id": "future:unl-2026:010",
+      "date": "2026-11-13",
+      "label_zh": "荷兰—希腊",
+      "main_home_probability": "0.5037620732",
+      "latent_probability_p05": "0.3101626214",
+      "latent_probability_p95": "0.6967733592",
+      "native_home_probability": "0.5976972809",
+      "native_draw_probability": "0.2326264202",
+      "native_away_probability": "0.1696762990",
+      "main_status": "issued_binary",
+      "round6_preliminary": "false",
+      "venue_basis": "nominal home per UEFA fixture; subject to venue change",
+      "role": "接近五五开"
+    },
+    {
+      "match_id": "future:unl-2026:005",
+      "date": "2026-11-12",
+      "label_zh": "英格兰—克罗地亚",
+      "main_home_probability": "0.6350276272",
+      "latent_probability_p05": "0.4354124155",
+      "latent_probability_p95": "0.8127601376",
+      "native_home_probability": "0.7641698772",
+      "native_draw_probability": "0.1550197279",
+      "native_away_probability": "0.0808103949",
+      "main_status": "issued_binary",
+      "round6_preliminary": "false",
+      "venue_basis": "nominal home per UEFA fixture; subject to venue change",
+      "role": "有倾向仍需谨慎"
+    },
+    {
+      "match_id": "future:unl-2026:048",
+      "date": "2026-11-17",
+      "label_zh": "乌克兰—格鲁吉亚",
+      "main_home_probability": "",
+      "latent_probability_p05": "",
+      "latent_probability_p95": "",
+      "native_home_probability": "0.5225728366",
+      "native_draw_probability": "0.2538866820",
+      "native_away_probability": "0.2235404814",
+      "main_status": "withheld_third_country_venue",
+      "round6_preliminary": "true",
+      "venue_basis": "UEFA third-country venue; geographical neutral proxy",
+      "role": "第三国场地不外推"
+    }
+  ],
+  "full_list": "研究/08_未来比赛预测/运行结果与预测清单.md",
+  "full_forecasts": "outputs/tables/future_predictions/future-unl-61f639846da9193d4cca/forecasts.csv",
+  "selection_basis": "explanatory roles chosen before outcomes, not performance selection",
+  "screens": [
+    {
+      "title": "从历史走到未来",
+      "text": "更新真实赛果 → 更新球队判断 → 输入未来赛程 → 封存概率与范围"
+    },
+    {
+      "title": "模型有倾向，也有犹豫",
+      "figure": "forecast_examples.png",
+      "case_ids": [
+        "future:unl-2026:004",
+        "future:unl-2026:010",
+        "future:unl-2026:005",
+        "future:unl-2026:048"
+      ]
+    },
+    {
+      "title": "交付一份可追溯的赛前预测",
+      "text": "52场完整保留；49场主预测、3场不外推；实际表现尚未知"
+    }
+  ],
+  "not_claimed": [
+    "future accuracy",
+    "causal home effect",
+    "real90 coverage",
+    "lineups included"
+  ],
+  "html_created": false,
+  "browser_or_projector_verified": false
+}

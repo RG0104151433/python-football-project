@@ -1,0 +1,60 @@
+{
+  "checked_on": "2026-11-02",
+  "scope": "senior men participating in November UEFA Nations League, not every geographical European entity",
+  "period_checked": [
+    "2026-10-07",
+    "2026-11-01"
+  ],
+  "official_unl_gap_confirmed": true,
+  "official_rounds": {
+    "4": [
+      "2026-10-04",
+      "2026-10-06"
+    ],
+    "5": [
+      "2026-11-12",
+      "2026-11-14"
+    ],
+    "6": [
+      "2026-11-15",
+      "2026-11-17"
+    ]
+  },
+  "primary_sources": [
+    "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000–2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+    "https://www.uefa.com/uefanationsleague/news/02a1-1fc60cd57c4d-de2c1d716ed6-1000/",
+    "https://www.englandfootball.com/england/mens-senior-team/fixtures-results"
+  ],
+  "friendly_cross_checks": [
+    "https://www.footballwebpages.co.uk/international-friendly/fixtures-results",
+    "https://insights.betfred.com/football/competitions/international/friendlies/results/"
+  ],
+  "additional_target_team_senior_matches_found": false,
+  "all_54_association_logs_exhaustively_verified": false,
+  "local_prior_four_round_coverage": {
+    "matches": 104,
+    "team_labels": 54,
+    "by_date": {
+      "2026-09-24": 8,
+      "2026-09-25": 8,
+      "2026-09-26": 10,
+      "2026-09-27": 8,
+      "2026-09-28": 8,
+      "2026-09-29": 10,
+      "2026-10-01": 8,
+      "2026-10-02": 10,
+      "2026-10-03": 8,
+      "2026-10-04": 8,
+      "2026-10-05": 8,
+      "2026-10-06": 10
+    },
+    "every_row_score_and_venue_verified": false
+  },
+  "unavailable_source": "eu-football.info/_matches.php?year=2026 returned404; not used as evidence",
+  "decision": "Begin targeted forecast preparation without requiring global completeness; existing new-year records must be cleaned and rating model updated before publication",
+  "global_completeness_verified": false,
+  "production_data_updated": false,
+  "forecasts_issued": false,
+  "executor": "Codex (AI)",
+  "human_review": false
+}
