@@ -1,0 +1,14 @@
+{
+  "figure_directory": "outputs/figures/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df",
+  "formal_inference": false,
+  "log_directory": "outputs/logs/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df",
+  "run_id": "regional-diagnostics-3e4473ad441fd44fe4df",
+  "source_run": "regional-evaluation-7ea3e4ab7c7dbb8eeb58",
+  "steps_completed": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "table_directory": "outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df"
+}

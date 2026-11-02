@@ -1,0 +1,21 @@
+{
+  "formal_inference": false,
+  "human_review": false,
+  "main_matches": 9727,
+  "new_fits": 0,
+  "new_ratings": 0,
+  "new_simulations": 0,
+  "passed": true,
+  "scope": "source and membership checks; independent arithmetic audit to be attached separately",
+  "step4_complete": true,
+  "step5_complete": false,
+  "table_rows": {
+    "africa_calibration": 30,
+    "composition": 234,
+    "reference_weights": 18,
+    "standardization_support": 9,
+    "standardized_metrics": 18,
+    "stratum_metrics": 468
+  },
+  "training_rows": 15190
+}

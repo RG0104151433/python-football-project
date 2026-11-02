@@ -1,0 +1,92 @@
+{
+  "identity": {
+    "code": {
+      "scripts/analyze_regional_diagnostics.py": "bc9fe09a8a77fe4851190fb83209ad4ed141431b0d93933aae772994d6323425",
+      "src/data_contract.py": "75d7c37a5d09867656098ab4fa3387721d8e1028dfde54d28c372d50f2a7d101",
+      "src/history_window/protocol.py": "738ee82ecbec004d146e8bdf7918b16e3f6980355afabf5becbd25862b543114",
+      "src/regional_diagnostics.py": "225d406d362071b29091b33e8a4d573c3d1457e910c4b39f7aa7bd78bab7b420",
+      "src/regional_effectiveness.py": "7419b71e9241da919cda72ca14b059f4a54f2f88570870f28a94d40b010c1678",
+      "src/strength/io.py": "f2befbd09af6d7dcf17b75dd790881a210e410d7c8f5f45a2bda1a66b3332104",
+      "tests/test_regional_diagnostics.py": "9978974bec3b4b592010508b3c587c9d2fda81c2090fec35aec1674b54b49787"
+    },
+    "environment": {
+      "commit": "cf51ae9f34171a4e0f305a09130289ddfb208deb",
+      "execution_code": "working tree; exact source hashes recorded, no commit made",
+      "numpy": "2.5.4",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "python": "3.14.8",
+      "scipy": "1.18.1"
+    },
+    "inputs": {
+      "config/regional_effectiveness_diagnostics.json": "c3ef57fc4fa9e3a4d66c44a4bc4713a93cadcb26ce86f0dc3d0ad3bb7ab7efbb",
+      "config/strength_joint.json": "ce2290aea22277750c953afb912b6837b27815c4807b7918385914d8aafb9182",
+      "data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8/analysis_matches.csv": "ff63f0fc870a9692246a81c6f9f309776385474e2203e3c235a8f0d061bc47ba",
+      "outputs/logs/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/manifest.json": "9316f74a640af420565ea059ed9591349772af89890cfa43ed129b7658c41494",
+      "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/evaluation_matches.csv": "dd18f8047a78ebbab086e29cf36e163e9e3b75b424ef420fef0e84e491dc0a31"
+    },
+    "plotting": {
+      "font_path": "C:\\Windows\\Fonts\\msyh.ttc",
+      "font_sha256": "d79c55e68b1131eea0cc1c47be4f572d964f28c682e143db2ad09c1e4cb07a3f",
+      "matplotlib": "3.11.2"
+    },
+    "protocol": {
+      "absolute_gap_quantiles": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "africa_calibration": "five already-fixed probability bins, separately by signed-gap3 and uncertainty3; no threshold search",
+      "decision_log_id": "R20261102-01",
+      "gap_rule": "signed mean strength gap: away_advantage if D<-median(abs(D)); home_advantage if D>median(abs(D)); otherwise relatively_close",
+      "history_minimum": 5,
+      "inference": "descriptive composition analysis only; not causal attribution, validated intervals or proof of information insufficiency",
+      "main_years": [
+        2010,
+        2024
+      ],
+      "new_fits": 0,
+      "new_ratings": 0,
+      "one_way_diagnostics": [
+        "signed_gap",
+        "absolute_gap",
+        "uncertainty",
+        "history",
+        "tournament_group",
+        "relation"
+      ],
+      "probability_clip": 1e-06,
+      "schema_version": "regional-diagnostics-v1",
+      "source_run": "regional-evaluation-7ea3e4ab7c7dbb8eeb58",
+      "sparse_warning_count": 20,
+      "standardization": {
+        "americas_set": [
+          "SOUTH_AMERICA",
+          "OTHER_AMERICAS"
+        ],
+        "cells": "signed_gap3 by strength_uncertainty3, nine cells",
+        "no_common_support": "blank adjusted metrics, explicit unsupported status",
+        "primary_set": [
+          "150",
+          "142",
+          "002",
+          "019",
+          "009"
+        ],
+        "support": "retain only cells with at least one game in every member; report all exclusions and sparse counts, no filling",
+        "weights": "pooled evaluation-cohort cell counts in each comparison set, renormalized over common cells; label-free descriptive target"
+      },
+      "step5_reliability_run": false,
+      "strength_uncertainty_quantiles": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "threshold_rule": "linear empirical quantiles of pre2010 predictors only; no losses or outcomes used",
+      "threshold_training_end_exclusive": "2010-01-01",
+      "threshold_training_start": "1980-01-01",
+      "uncertainty_measure": "sqrt(strength_difference_variance), including covariance and jump variance; model-implied SD, not actual score error",
+      "warning_is_not_admission_or_exclusion": true
+    }
+  },
+  "steps_completed_by_run": [
+    4
+  ]
+}

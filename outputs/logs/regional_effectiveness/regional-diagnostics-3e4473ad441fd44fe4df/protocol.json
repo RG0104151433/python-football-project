@@ -1,0 +1,56 @@
+{
+  "absolute_gap_quantiles": [
+    0.3333333333333333,
+    0.6666666666666666
+  ],
+  "africa_calibration": "five already-fixed probability bins, separately by signed-gap3 and uncertainty3; no threshold search",
+  "decision_log_id": "R20261102-01",
+  "gap_rule": "signed mean strength gap: away_advantage if D<-median(abs(D)); home_advantage if D>median(abs(D)); otherwise relatively_close",
+  "history_minimum": 5,
+  "inference": "descriptive composition analysis only; not causal attribution, validated intervals or proof of information insufficiency",
+  "main_years": [
+    2010,
+    2024
+  ],
+  "new_fits": 0,
+  "new_ratings": 0,
+  "one_way_diagnostics": [
+    "signed_gap",
+    "absolute_gap",
+    "uncertainty",
+    "history",
+    "tournament_group",
+    "relation"
+  ],
+  "probability_clip": 1e-06,
+  "schema_version": "regional-diagnostics-v1",
+  "source_run": "regional-evaluation-7ea3e4ab7c7dbb8eeb58",
+  "sparse_warning_count": 20,
+  "standardization": {
+    "americas_set": [
+      "SOUTH_AMERICA",
+      "OTHER_AMERICAS"
+    ],
+    "cells": "signed_gap3 by strength_uncertainty3, nine cells",
+    "no_common_support": "blank adjusted metrics, explicit unsupported status",
+    "primary_set": [
+      "150",
+      "142",
+      "002",
+      "019",
+      "009"
+    ],
+    "support": "retain only cells with at least one game in every member; report all exclusions and sparse counts, no filling",
+    "weights": "pooled evaluation-cohort cell counts in each comparison set, renormalized over common cells; label-free descriptive target"
+  },
+  "step5_reliability_run": false,
+  "strength_uncertainty_quantiles": [
+    0.3333333333333333,
+    0.6666666666666666
+  ],
+  "threshold_rule": "linear empirical quantiles of pre2010 predictors only; no losses or outcomes used",
+  "threshold_training_end_exclusive": "2010-01-01",
+  "threshold_training_start": "1980-01-01",
+  "uncertainty_measure": "sqrt(strength_difference_variance), including covariance and jump variance; model-implied SD, not actual score error",
+  "warning_is_not_admission_or_exclusion": true
+}

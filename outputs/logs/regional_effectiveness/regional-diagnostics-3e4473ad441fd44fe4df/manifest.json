@@ -1,0 +1,108 @@
+{
+  "identity": {
+    "code": {
+      "scripts/analyze_regional_diagnostics.py": "bc9fe09a8a77fe4851190fb83209ad4ed141431b0d93933aae772994d6323425",
+      "src/data_contract.py": "75d7c37a5d09867656098ab4fa3387721d8e1028dfde54d28c372d50f2a7d101",
+      "src/history_window/protocol.py": "738ee82ecbec004d146e8bdf7918b16e3f6980355afabf5becbd25862b543114",
+      "src/regional_diagnostics.py": "0cb11938c8b0d22382b6725a079901535c48adb2e161b8b1b6901136409d863b",
+      "src/regional_effectiveness.py": "7419b71e9241da919cda72ca14b059f4a54f2f88570870f28a94d40b010c1678",
+      "src/strength/io.py": "f2befbd09af6d7dcf17b75dd790881a210e410d7c8f5f45a2bda1a66b3332104",
+      "tests/test_regional_diagnostics.py": "60a0da8adb0628d7b0552eff8caf6bfe63c690ce90365fb6c55ebfc72cf2590a"
+    },
+    "environment": {
+      "commit": "cf51ae9f34171a4e0f305a09130289ddfb208deb",
+      "execution_code": "working tree; exact source hashes recorded, no commit made",
+      "numpy": "2.5.4",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "python": "3.14.8",
+      "scipy": "1.18.1"
+    },
+    "inputs": {
+      "config/regional_effectiveness_diagnostics.json": "c3ef57fc4fa9e3a4d66c44a4bc4713a93cadcb26ce86f0dc3d0ad3bb7ab7efbb",
+      "config/strength_joint.json": "ce2290aea22277750c953afb912b6837b27815c4807b7918385914d8aafb9182",
+      "data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8/analysis_matches.csv": "ff63f0fc870a9692246a81c6f9f309776385474e2203e3c235a8f0d061bc47ba",
+      "outputs/logs/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/manifest.json": "9316f74a640af420565ea059ed9591349772af89890cfa43ed129b7658c41494",
+      "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/evaluation_matches.csv": "dd18f8047a78ebbab086e29cf36e163e9e3b75b424ef420fef0e84e491dc0a31"
+    },
+    "plotting": {
+      "font_path": "C:\\Windows\\Fonts\\msyh.ttc",
+      "font_sha256": "d79c55e68b1131eea0cc1c47be4f572d964f28c682e143db2ad09c1e4cb07a3f",
+      "matplotlib": "3.11.2"
+    },
+    "protocol": {
+      "absolute_gap_quantiles": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "africa_calibration": "five already-fixed probability bins, separately by signed-gap3 and uncertainty3; no threshold search",
+      "decision_log_id": "R20261102-01",
+      "gap_rule": "signed mean strength gap: away_advantage if D<-median(abs(D)); home_advantage if D>median(abs(D)); otherwise relatively_close",
+      "history_minimum": 5,
+      "inference": "descriptive composition analysis only; not causal attribution, validated intervals or proof of information insufficiency",
+      "main_years": [
+        2010,
+        2024
+      ],
+      "new_fits": 0,
+      "new_ratings": 0,
+      "one_way_diagnostics": [
+        "signed_gap",
+        "absolute_gap",
+        "uncertainty",
+        "history",
+        "tournament_group",
+        "relation"
+      ],
+      "probability_clip": 1e-06,
+      "schema_version": "regional-diagnostics-v1",
+      "source_run": "regional-evaluation-7ea3e4ab7c7dbb8eeb58",
+      "sparse_warning_count": 20,
+      "standardization": {
+        "americas_set": [
+          "SOUTH_AMERICA",
+          "OTHER_AMERICAS"
+        ],
+        "cells": "signed_gap3 by strength_uncertainty3, nine cells",
+        "no_common_support": "blank adjusted metrics, explicit unsupported status",
+        "primary_set": [
+          "150",
+          "142",
+          "002",
+          "019",
+          "009"
+        ],
+        "support": "retain only cells with at least one game in every member; report all exclusions and sparse counts, no filling",
+        "weights": "pooled evaluation-cohort cell counts in each comparison set, renormalized over common cells; label-free descriptive target"
+      },
+      "step5_reliability_run": false,
+      "strength_uncertainty_quantiles": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "threshold_rule": "linear empirical quantiles of pre2010 predictors only; no losses or outcomes used",
+      "threshold_training_end_exclusive": "2010-01-01",
+      "threshold_training_start": "1980-01-01",
+      "uncertainty_measure": "sqrt(strength_difference_variance), including covariance and jump variance; model-implied SD, not actual score error",
+      "warning_is_not_admission_or_exclusion": true
+    }
+  },
+  "outputs": {
+    "outputs/figures/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/regional_common_mix.png": "20de509cea33440af63196d7c1aaf8d68fd93abf5382afbbe8cdd09e4b56c84f",
+    "outputs/figures/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/regional_common_mix.svg": "467737278a8d7c2f28dac7b986d05cde9fc82c3de1a0d3c9d30f9967c37b9e02",
+    "outputs/figures/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/regional_match_composition.png": "36d1ec439cc4303ad8645faf24e12f4e3cbf490ce114a0fb359eda23bd24202e",
+    "outputs/figures/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/regional_match_composition.svg": "021fd3ad2cc6ed24068ed2301669ba04198aabed5606dd3fd2857447b622046a",
+    "outputs/logs/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/protocol.json": "bc8178674be2f9e4a89589576475d3ea4acb2a8be01707f7fecfcefea9d7fb2e",
+    "outputs/logs/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/review.json": "8d08af74cf5da7cf90750748e81940e7257d3e6f9535d3cb6a1de8c9a4262715",
+    "outputs/logs/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/source_snapshot.zip": "91bdae76378af1a8bda2fcf6a6753e1cb701101bededd30c8be2cce6c47503d4",
+    "outputs/logs/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/started.json": "a838654ffcc4fc9dc8139bf6bd209b06d9180966c621dcb8c1f7043180393b66",
+    "outputs/logs/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/thresholds.json": "ae3c0dbfc542cf384250b29289db301fc70a4ce55ec3e8cc27ccab4e56fbdcfb",
+    "outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/africa_calibration.csv": "51eabcbc71f1ed87daeed4469537959fe97c44771619085d1a0caa31948525fd",
+    "outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/composition.csv": "2f2a5e52aa27485e12dd7a4c8d3a5b5ed256020087da44e312ebc23d3ecf148a",
+    "outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/display_data.json": "3b03b617a9013f5f62ad116122111dfd4c3e7eb7e5d1e735af6623fbfa4adda1",
+    "outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/reference_weights.csv": "ac371af936419966fad935abe15171739b1247852ae17fe5afe564dc106abdb5",
+    "outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/standardization_support.csv": "afe854374849743eb3ffb6f6a89b5624cc329d42225480892c93a1a9ba552eca",
+    "outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/standardized_metrics.csv": "1387639c75f223cb9256577ebba8fa2fd5cd0d0684e78b0b3d31a321da4a98b6",
+    "outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/strata_membership.csv": "0526c91639278d7d362ddedf40047bdf7456fecd1009a8d062ec898ee6f30b0b",
+    "outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/stratum_metrics.csv": "03ddedad58d323a59be87820f4a42ceca4a9644090682157c2a4cd3aa9726522"
+  }
+}

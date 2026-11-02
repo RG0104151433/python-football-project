@@ -1,0 +1,655 @@
+{
+  "audit_source_sha256": "9b27e93b640cfa4ff4ea7a7eece26446b0e345ef1e61f5209e8d0a13402ad980",
+  "checks": 161,
+  "checks_detail": [
+    {
+      "name": "sealed:outputs/figures/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/regional_common_mix.png",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/figures/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/regional_common_mix.svg",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/figures/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/regional_match_composition.png",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/figures/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/regional_match_composition.svg",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/logs/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/protocol.json",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/logs/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/review.json",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/logs/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/source_snapshot.zip",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/logs/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/started.json",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/logs/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/thresholds.json",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/africa_calibration.csv",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/composition.csv",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/display_data.json",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/reference_weights.csv",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/standardization_support.csv",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/standardized_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/strata_membership.csv",
+      "passed": true
+    },
+    {
+      "name": "sealed:outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/stratum_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "past training count and maximum",
+      "passed": true
+    },
+    {
+      "name": "signed median",
+      "passed": true
+    },
+    {
+      "name": "absolute quantiles",
+      "passed": true
+    },
+    {
+      "name": "uncertainty quantiles",
+      "passed": true
+    },
+    {
+      "name": "same unique target IDs",
+      "passed": true
+    },
+    {
+      "name": "all predictor classifications independently rebuilt",
+      "passed": true
+    },
+    {
+      "name": "label-free reference:primary5",
+      "passed": true
+    },
+    {
+      "name": "retained count:primary5150joint",
+      "passed": true
+    },
+    {
+      "name": "scalar standardized:primary5150joint",
+      "passed": true
+    },
+    {
+      "name": "retained count:primary5150strength",
+      "passed": true
+    },
+    {
+      "name": "scalar standardized:primary5150strength",
+      "passed": true
+    },
+    {
+      "name": "retained count:primary5142joint",
+      "passed": true
+    },
+    {
+      "name": "scalar standardized:primary5142joint",
+      "passed": true
+    },
+    {
+      "name": "retained count:primary5142strength",
+      "passed": true
+    },
+    {
+      "name": "scalar standardized:primary5142strength",
+      "passed": true
+    },
+    {
+      "name": "retained count:primary5002joint",
+      "passed": true
+    },
+    {
+      "name": "scalar standardized:primary5002joint",
+      "passed": true
+    },
+    {
+      "name": "retained count:primary5002strength",
+      "passed": true
+    },
+    {
+      "name": "scalar standardized:primary5002strength",
+      "passed": true
+    },
+    {
+      "name": "retained count:primary5019joint",
+      "passed": true
+    },
+    {
+      "name": "scalar standardized:primary5019joint",
+      "passed": true
+    },
+    {
+      "name": "retained count:primary5019strength",
+      "passed": true
+    },
+    {
+      "name": "scalar standardized:primary5019strength",
+      "passed": true
+    },
+    {
+      "name": "retained count:primary5009joint",
+      "passed": true
+    },
+    {
+      "name": "scalar standardized:primary5009joint",
+      "passed": true
+    },
+    {
+      "name": "retained count:primary5009strength",
+      "passed": true
+    },
+    {
+      "name": "scalar standardized:primary5009strength",
+      "passed": true
+    },
+    {
+      "name": "retained count:primary5ALLjoint",
+      "passed": true
+    },
+    {
+      "name": "scalar standardized:primary5ALLjoint",
+      "passed": true
+    },
+    {
+      "name": "retained count:primary5ALLstrength",
+      "passed": true
+    },
+    {
+      "name": "scalar standardized:primary5ALLstrength",
+      "passed": true
+    },
+    {
+      "name": "label-free reference:americas2",
+      "passed": true
+    },
+    {
+      "name": "retained count:americas2SOUTH_AMERICAjoint",
+      "passed": true
+    },
+    {
+      "name": "scalar standardized:americas2SOUTH_AMERICAjoint",
+      "passed": true
+    },
+    {
+      "name": "retained count:americas2SOUTH_AMERICAstrength",
+      "passed": true
+    },
+    {
+      "name": "scalar standardized:americas2SOUTH_AMERICAstrength",
+      "passed": true
+    },
+    {
+      "name": "retained count:americas2OTHER_AMERICASjoint",
+      "passed": true
+    },
+    {
+      "name": "scalar standardized:americas2OTHER_AMERICASjoint",
+      "passed": true
+    },
+    {
+      "name": "retained count:americas2OTHER_AMERICASstrength",
+      "passed": true
+    },
+    {
+      "name": "scalar standardized:americas2OTHER_AMERICASstrength",
+      "passed": true
+    },
+    {
+      "name": "retained count:americas2ALLjoint",
+      "passed": true
+    },
+    {
+      "name": "scalar standardized:americas2ALLjoint",
+      "passed": true
+    },
+    {
+      "name": "retained count:americas2ALLstrength",
+      "passed": true
+    },
+    {
+      "name": "scalar standardized:americas2ALLstrength",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:002absolute_gap",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:002history",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:002joint_cell",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:002relation",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:002signed_gap",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:002tournament_group",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:002uncertainty",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:009absolute_gap",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:009history",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:009joint_cell",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:009relation",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:009signed_gap",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:009tournament_group",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:009uncertainty",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:019absolute_gap",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:019history",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:019joint_cell",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:019relation",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:019signed_gap",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:019tournament_group",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:019uncertainty",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:142absolute_gap",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:142history",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:142joint_cell",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:142relation",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:142signed_gap",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:142tournament_group",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:142uncertainty",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:150absolute_gap",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:150history",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:150joint_cell",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:150relation",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:150signed_gap",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:150tournament_group",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:150uncertainty",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:ALLabsolute_gap",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:ALLhistory",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:ALLjoint_cell",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:ALLrelation",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:ALLsigned_gap",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:ALLtournament_group",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:ALLuncertainty",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:OTHER_AMERICASabsolute_gap",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:OTHER_AMERICAShistory",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:OTHER_AMERICASjoint_cell",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:OTHER_AMERICASrelation",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:OTHER_AMERICASsigned_gap",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:OTHER_AMERICAStournament_group",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:OTHER_AMERICASuncertainty",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:SOUTH_AMERICAabsolute_gap",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:SOUTH_AMERICAhistory",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:SOUTH_AMERICAjoint_cell",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:SOUTH_AMERICArelation",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:SOUTH_AMERICAsigned_gap",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:SOUTH_AMERICAtournament_group",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:SOUTH_AMERICAuncertainty",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:UNKNOWNabsolute_gap",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:UNKNOWNhistory",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:UNKNOWNjoint_cell",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:UNKNOWNrelation",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:UNKNOWNsigned_gap",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:UNKNOWNtournament_group",
+      "passed": true
+    },
+    {
+      "name": "factor metric block:UNKNOWNuncertainty",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:signed_gapaway_advantage0",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:signed_gapaway_advantage1",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:signed_gapaway_advantage2",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:signed_gapaway_advantage3",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:signed_gapaway_advantage4",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:signed_gaprelatively_close0",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:signed_gaprelatively_close1",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:signed_gaprelatively_close2",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:signed_gaprelatively_close3",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:signed_gaprelatively_close4",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:signed_gaphome_advantage0",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:signed_gaphome_advantage1",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:signed_gaphome_advantage2",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:signed_gaphome_advantage3",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:signed_gaphome_advantage4",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:uncertaintylow0",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:uncertaintylow1",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:uncertaintylow2",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:uncertaintylow3",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:uncertaintylow4",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:uncertaintymiddle0",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:uncertaintymiddle1",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:uncertaintymiddle2",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:uncertaintymiddle3",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:uncertaintymiddle4",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:uncertaintyhigh0",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:uncertaintyhigh1",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:uncertaintyhigh2",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:uncertaintyhigh3",
+      "passed": true
+    },
+    {
+      "name": "Africa bin:uncertaintyhigh4",
+      "passed": true
+    },
+    {
+      "name": "BOM/LF:africa_calibration.csv",
+      "passed": true
+    },
+    {
+      "name": "BOM/LF:composition.csv",
+      "passed": true
+    },
+    {
+      "name": "BOM/LF:reference_weights.csv",
+      "passed": true
+    },
+    {
+      "name": "BOM/LF:standardization_support.csv",
+      "passed": true
+    },
+    {
+      "name": "BOM/LF:standardized_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "BOM/LF:strata_membership.csv",
+      "passed": true
+    },
+    {
+      "name": "BOM/LF:stratum_metrics.csv",
+      "passed": true
+    }
+  ],
+  "human_review": false,
+  "passed": true,
+  "run_id": "regional-diagnostics-3e4473ad441fd44fe4df",
+  "scalar_metric_cells": 468,
+  "scope": "one scalar/source/partition audit; no statistical uncertainty, fits or repeated ratings"
+}

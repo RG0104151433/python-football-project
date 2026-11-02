@@ -1,0 +1,17 @@
+{
+  "absolute_gap_cuts": [
+    0.5097018064,
+    1.1553677714
+  ],
+  "signed_gap_magnitude": 0.7952589911,
+  "training_id_sha256": "f800503a19e599ab1e287584936d0b5227069a0003c6b27fb4cb687650cb5976",
+  "training_max": "2009-12-31",
+  "training_min": "1980-01-06",
+  "training_rows": 15190,
+  "uncertainty_sd_cuts": [
+    0.6576612112630636,
+    0.7469021190222986
+  ],
+  "uses_target_outcomes": false,
+  "uses_training_outcomes": false
+}

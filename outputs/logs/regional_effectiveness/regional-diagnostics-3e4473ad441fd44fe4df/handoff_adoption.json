@@ -1,0 +1,30 @@
+{
+  "auditor_sha256": "9b27e93b640cfa4ff4ea7a7eece26446b0e345ef1e61f5209e8d0a13402ad980",
+  "causal_claim": false,
+  "documentation_sha256": "bd55dc378484752aa4e7dd373757320651dbaf0724445f93e4968fbd4974e4fc",
+  "figures_visually_reviewed": true,
+  "formal_inference": false,
+  "git_diff_check": true,
+  "handoff_source_snapshot_sha256": "2272e2e81014009cd21ecd03dade3cb56f385a2c6982b777099cd4b461bc64ed",
+  "human_review": false,
+  "independent_audit_sha256": "d5212fb117c87447f664e75d849f568ced198b90f0d2f60ec724885675c46573",
+  "independent_checks": 161,
+  "manifest_sha256": "f472cada74f033f72b9fff0886400742b2a2246298158f7f664043939770956d",
+  "material_paths_checked": 55,
+  "missing_paths": [],
+  "original_adoption_sha256": "74b95be1553c750c461b10878a57c375b03d42e17579ce19b41718eb930d16ce",
+  "passed": true,
+  "question_closed": false,
+  "run_id": "regional-diagnostics-3e4473ad441fd44fe4df",
+  "step5_complete": false,
+  "steps_completed": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "tests": {
+    "passed": 6,
+    "seconds": 0.35
+  }
+}

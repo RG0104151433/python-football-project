@@ -3264,9 +3264,9 @@
     }
   },
   "question_7": {
-    "decision_log_id": "R20261101-15",
+    "decision_log_id": "R20261102-02",
     "results_generated": true,
-    "status": "steps1_3_completed_descriptive_stage4_handoff_ready",
+    "status": "step4_descriptive_composition_diagnostics_complete_step5_pending",
     "title": "不同地区的方法有效性",
     "handoff_from_question6": {
       "ready": true,
@@ -3284,7 +3284,7 @@
     "workflow_risk_review": "研究/07_地区有效性/AI辅助研究流程自查.md",
     "analysis_code_written": true,
     "proposal_not_final_protocol": false,
-    "next_step": "step4: fix a small number of past-only strength-gap/information strata before calculating new subgroup errors; explain composition without causality or regional retuning",
+    "next_step": "step5: freeze limited reliability targets and suitable methods; assess sparse common-mix sensitivity and key regional claims; do not assume real-world coverage",
     "planned_steps": [
       "fix_targets_comparators_metrics_and_evidence_rules",
       "align_existing_predictions_strength_distributions_and_regions",
@@ -3318,22 +3318,23 @@
     "secondary_metric_proposal": "Brier, calibration bias and limited reliability bins; binary accuracy supplementary",
     "uncertainty_diagnostic_proposal": "prior-only fixed strength-gap and information strata; thresholds not yet decided",
     "new_uncertainty_ablation_run": false,
-    "steps_executed": 3,
+    "steps_executed": 4,
     "formal_protocol_finalized": false,
     "descriptive_protocol_finalized": true,
     "formal_inference_protocol_finalized": false,
     "completed_steps": [
       1,
       2,
-      3
+      3,
+      4
     ],
-    "current_run_id": "regional-evaluation-7ea3e4ab7c7dbb8eeb58",
+    "current_run_id": "regional-diagnostics-3e4473ad441fd44fe4df",
     "config": "config/regional_effectiveness.json",
-    "handoff": "研究/07_地区有效性/前三步_运行结果与第四步交接.md",
-    "log_directory": "outputs/logs/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58",
-    "table_directory": "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58",
-    "figure_directory": "outputs/figures/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58",
-    "adoption": "outputs/logs/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/handoff_adoption.json",
+    "handoff": "研究/07_地区有效性/第四步_差异解释与第五步交接.md",
+    "log_directory": "outputs/logs/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df",
+    "table_directory": "outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df",
+    "figure_directory": "outputs/figures/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df",
+    "adoption": "outputs/logs/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/handoff_adoption.json",
     "main_matches": 9727,
     "background_matches": 16599,
     "primary_regions": 5,
@@ -3347,7 +3348,29 @@
     "independent_checks": 275,
     "formal_statistical_inference": false,
     "human_review": false,
-    "question_closed": false
+    "question_closed": false,
+    "evaluation_run_id": "regional-evaluation-7ea3e4ab7c7dbb8eeb58",
+    "current_diagnostics_run_id": "regional-diagnostics-3e4473ad441fd44fe4df",
+    "step4": {
+      "config": "config/regional_effectiveness_diagnostics.json",
+      "source_run": "regional-evaluation-7ea3e4ab7c7dbb8eeb58",
+      "run_id": "regional-diagnostics-3e4473ad441fd44fe4df",
+      "training_rows": 15190,
+      "target_matches": 9727,
+      "training_end_exclusive": "2010-01-01",
+      "threshold_outcomes_used": false,
+      "common_cells_primary": 9,
+      "common_cells_americas": 9,
+      "excluded_matches": 0,
+      "minimum_oceania_cell_count": 2,
+      "targeted_tests_passed": 6,
+      "independent_checks": 161,
+      "new_fits": 0,
+      "new_ratings": 0,
+      "new_simulations": 0,
+      "causal_attribution": false,
+      "step5_complete": false
+    }
   },
   "question_8": {
     "decision_log_id": "R20261026-02",
