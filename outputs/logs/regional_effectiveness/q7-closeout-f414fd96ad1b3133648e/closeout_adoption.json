@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "material_id": "q7-closeout-f414fd96ad1b3133648e",
+  "manifest_sha256": "2bd5efe995e3f4cc71f9185c6d5fdf61192608ee3354b4d70745b668c673a8f5",
+  "documentation_sha256": "61118e8145707d85e6636c68488ab5de47c00aa340a961f9aa9cce7378841d03",
+  "source_files_checked": 22,
+  "source_and_output_hashes_match": true,
+  "parent_documents_unchanged": true,
+  "applicability_rows": 8,
+  "figure_rendering_rechecked": false,
+  "prior_figure_hashes_verified": true,
+  "new_research_tests": 0,
+  "completed_steps": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "research_closed_in_declared_scope": true,
+  "formal_inference": false,
+  "human_review": false,
+  "final_group_delivery_complete": false,
+  "material_paths_checked": 90,
+  "missing_paths": [],
+  "explanation_links_checked": 2
+}

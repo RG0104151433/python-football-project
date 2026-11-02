@@ -1,0 +1,17 @@
+﻿target_id,comparison_set,variant,alias_of,value,brier_difference,original_matches,remaining_matches,removed_matches,removed_share,remaining_by_group,status,reason,affected,original_reference_mass,common_cells,original_value,direction_changed
+T07,primary5,pooled,,0.0527035538,,5380,5380,0,0.0000000000,"{""002"":2058,""150"":3322}",calculated,,false,1.0000000000,9,0.0527035538,false
+T12,primary5,pooled,,0.0043680469,0.0023652626,148,148,0,0.0000000000,"{""009"":148}",calculated,,false,1.0000000000,9,0.0043680469,false
+T13,primary5,pooled,,8.4424078013,,148,148,0,0.0000000000,"{""009"":148}",calculated,,false,1.0000000000,9,8.4424078013,false
+T07,primary5,equal_region,,0.0602643148,,5380,5380,0,0.0000000000,"{""002"":2058,""150"":3322}",calculated,,false,1.0000000000,9,0.0527035538,false
+T12,primary5,equal_region,,0.0023606807,0.0014903876,148,148,0,0.0000000000,"{""009"":148}",calculated,,false,1.0000000000,9,0.0043680469,false
+T13,primary5,equal_region,,7.4891999377,,148,148,0,0.0000000000,"{""009"":148}",calculated,,false,1.0000000000,9,8.4424078013,false
+T07,primary5,minimum_10,,0.0552117929,,5380,3327,2053,0.3815985130,"{""002"":1381,""150"":1946}",calculated,,true,0.6321579110,5,0.0527035538,false
+T12,primary5,minimum_10,,0.0040477365,0.0026101989,148,128,20,0.1351351351,"{""009"":128}",calculated,,true,0.6321579110,5,0.0043680469,false
+T13,primary5,minimum_10,,7.1258935066,,148,128,20,0.1351351351,"{""009"":128}",calculated,,true,0.6321579110,5,8.4424078013,false
+T07,primary5,minimum_20,,0.1147343501,,5380,1063,4317,0.8024163569,"{""002"":395,""150"":668}",calculated,,true,0.2426236250,3,0.0527035538,false
+T12,primary5,minimum_20,,-0.0119822843,-0.0047799108,148,101,47,0.3175675676,"{""009"":101}",calculated,,true,0.2426236250,3,0.0043680469,true
+T13,primary5,minimum_20,,1.2061555599,,148,101,47,0.3175675676,"{""009"":101}",calculated,,true,0.2426236250,3,8.4424078013,false
+T11,americas2,pooled,,-0.0032112275,,1659,1659,0,0.0000000000,"{""OTHER_AMERICAS"":1091,""SOUTH_AMERICA"":568}",calculated,,false,1.0000000000,9,-0.0032112275,false
+T11,americas2,equal_region,,0.0006445060,,1659,1659,0,0.0000000000,"{""OTHER_AMERICAS"":1091,""SOUTH_AMERICA"":568}",calculated,,false,1.0000000000,9,-0.0032112275,true
+T11,americas2,minimum_10,,-0.0186605993,,1659,1501,158,0.0952380952,"{""OTHER_AMERICAS"":939,""SOUTH_AMERICA"":562}",calculated,,true,0.9047619048,8,-0.0032112275,false
+T11,americas2,minimum_20,minimum_10,-0.0186605993,,1659,1501,158,0.0952380952,"{""OTHER_AMERICAS"":939,""SOUTH_AMERICA"":562}",calculated,,true,0.9047619048,8,-0.0032112275,false

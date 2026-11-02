@@ -1,0 +1,9 @@
+﻿group,label,matches,joint_log_loss,joint_minus_strength_loss,mean_bias_pp,target_ids,allowed_statement,limits,future_probability_adjustment,formal_inference,human_review
+150,欧洲,3322,0.5394983123,-0.0037411481,0.2188855719,T01,历史小幅增量在所查删年删队中保留,不能推及欧洲每个子区域或保证未来,none_adopted,false,false
+142,亚洲,2540,0.5450408491,-0.0018531486,-0.8764839430,T02,历史小幅增量在所查删年删队中保留,不能推及亚洲每个子区域或保证未来,none_adopted,false,false
+002,非洲,2058,0.6126066840,-0.0010106908,0.6854465542,T03;T06;T07;T08;T09,背景增量敏感；残余误差差和两档偏差保留方向,不能宣称整套方法无用、地区因果或已找到偏差原因,none_adopted,false,false
+019,美洲,1659,0.5545780233,-0.0046983820,0.1857596514,T04,大区历史小幅增量保留；内部排名另行限制,大区结论不认证南美内部比较或每个小区,none_adopted,false,false
+009,大洋洲,148,0.5492887783,-0.0058410912,2.9571822822,T05;T12;T13,原始增量保留；共同构成比较敏感且有支持缺口,148场、小格放大；暂不判整个地区可靠或失效,none_adopted,false,false
+SOUTH_AMERICA,南美（补充）,568,0.5735819705,-0.0012482624,-1.2655445137,T10;T11,与其余美洲的先后顺序敏感，不作可靠排名,属于美洲补充；地理005不等同CONMEBOL十会员,none_adopted,false,false
+OTHER_AMERICAS,其余美洲（补充）,1091,0.5446841259,-0.0064945947,0.9413423881,T10;T11,与南美的先后顺序敏感，不作可靠排名,与美洲大区结果重叠，不是独立地区试验,none_adopted,false,false
+UNKNOWN,地区未知,0,,,,,本期无比赛，不能评价,保留空项，不替无资料地区作结论,none_adopted,false,false

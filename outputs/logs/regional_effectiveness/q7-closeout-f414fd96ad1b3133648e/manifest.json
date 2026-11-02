@@ -1,0 +1,46 @@
+{
+  "identity": {
+    "code": {
+      "scripts/build_regional_effectiveness_materials.py": "eed29d2dc10310f147ec730d7cd9a0836feb023a128201de58b4ba98463ba261",
+      "src/data_contract.py": "75d7c37a5d09867656098ab4fa3387721d8e1028dfde54d28c372d50f2a7d101",
+      "src/strength/io.py": "f2befbd09af6d7dcf17b75dd790881a210e410d7c8f5f45a2bda1a66b3332104"
+    },
+    "inputs": {
+      "outputs/figures/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/regional_common_mix.png": "20de509cea33440af63196d7c1aaf8d68fd93abf5382afbbe8cdd09e4b56c84f",
+      "outputs/figures/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/regional_match_composition.png": "36d1ec439cc4303ad8645faf24e12f4e3cbf490ce114a0fb359eda23bd24202e",
+      "outputs/figures/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_calibration.png": "4f89e14b173a4ae2b263e8f194da839c828c3406a0546bca0ddefc6c0a36e7b3",
+      "outputs/figures/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_performance.png": "c093e5537453f3623ff29fc0b17b130774dc450ddafedbfb3b15b5c2c8f783cf",
+      "outputs/logs/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/handoff_adoption.json": "017ef4289529a7b69f3c310e0c19002a94c2a7f918d59bfe0bfd850f97f36805",
+      "outputs/logs/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/independent_audit.json": "d5212fb117c87447f664e75d849f568ced198b90f0d2f60ec724885675c46573",
+      "outputs/logs/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/manifest.json": "f472cada74f033f72b9fff0886400742b2a2246298158f7f664043939770956d",
+      "outputs/logs/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/handoff_adoption.json": "6a433babd7b7844eecc8d5747f31ea322562421650f83243cf963bd71f97be2c",
+      "outputs/logs/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/independent_audit.json": "e2dcd5e21682bd2f4e8506cf7e225c2a265bc5ef3dfd8e19c536f7aaa9928f45",
+      "outputs/logs/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/manifest.json": "9316f74a640af420565ea059ed9591349772af89890cfa43ed129b7658c41494",
+      "outputs/logs/regional_effectiveness/regional-stability-366606ed5bca8e0fe6b8/handoff_adoption.json": "b44be4d6dc63c8762fe16a3e9042d9d0c0d7ce07c357c050d3b5ec7457d79fce",
+      "outputs/logs/regional_effectiveness/regional-stability-366606ed5bca8e0fe6b8/independent_audit.json": "f412dca6da3ac8a6c7c536f5e8d2af484c54be8f46fa190bd0c485762d74be5a",
+      "outputs/logs/regional_effectiveness/regional-stability-366606ed5bca8e0fe6b8/manifest.json": "faca845a10531bc996d8a49d7c8b0eae7712ea2528ac130debf589086bfd0f89",
+      "outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/africa_calibration.csv": "51eabcbc71f1ed87daeed4469537959fe97c44771619085d1a0caa31948525fd",
+      "outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/standardized_metrics.csv": "1387639c75f223cb9256577ebba8fa2fd5cd0d0684e78b0b3d31a321da4a98b6",
+      "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/paired_differences.csv": "2d4269be43e10a5d1cc0062a45b826f082651909b271e60d6ad204f1a13b4d2e",
+      "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_metrics.csv": "f981a6962f7429951d485f5f71fc4c6ce8a7bd4c73b7580f4ed7d720feddfb56",
+      "outputs/tables/regional_effectiveness/regional-stability-366606ed5bca8e0fe6b8/conclusion_review.csv": "8e439b5290533580fbcd7f9eb8dbeb765e3aebb20a8bb4e92d5988d3f295bc9e",
+      "outputs/tables/regional_effectiveness/regional-stability-366606ed5bca8e0fe6b8/reference_sensitivity.csv": "955bf01836f3769e65086e47c61394b774e0c99af7129cc1914576d2f1fe1995",
+      "研究/06_历史参考周期/第六问_研究说明与收尾交接.md": "d7cde54c7e4b3b4a1adf92b62fa4d237fd70099771a2f09521da4e9a3f30577b",
+      "研究/07_地区有效性/第七问_研究说明与收尾交接.md": "61118e8145707d85e6636c68488ab5de47c00aa340a961f9aa9cce7378841d03",
+      "研究/07_地区有效性/第五步_可靠性检查与脚本规划.md": "b99a4d2431ad11185b0836bbe652e058bc7d2534ba32a147b24be325e28fab8a"
+    },
+    "scope": "adopted historical diagnosis; not formal future guarantee",
+    "source_runs": {
+      "diagnostics": "regional-diagnostics-3e4473ad441fd44fe4df",
+      "evaluation": "regional-evaluation-7ea3e4ab7c7dbb8eeb58",
+      "stability": "regional-stability-366606ed5bca8e0fe6b8"
+    }
+  },
+  "outputs": {
+    "outputs/logs/regional_effectiveness/q7-closeout-f414fd96ad1b3133648e/applicability.csv": "f8a68c7e75f9e17738c86a4056f321e9aca051f18d496edc76134dbe7c4e91bf",
+    "outputs/logs/regional_effectiveness/q7-closeout-f414fd96ad1b3133648e/paper_support.json": "45c3ce06f66100881e1472756d2b968e843ded5047dae468bd3e25d520df18bc",
+    "outputs/logs/regional_effectiveness/q7-closeout-f414fd96ad1b3133648e/presentation_data.json": "0d7f057ee2840d33733656208a4eb00ad17dc554afa054bae3902d9eaa03c424",
+    "outputs/logs/regional_effectiveness/q7-closeout-f414fd96ad1b3133648e/review.json": "660a39f9252ae1f047be0600ba8977f50b250c9ed9685696aea83db20da8edba",
+    "outputs/logs/regional_effectiveness/q7-closeout-f414fd96ad1b3133648e/source_snapshot.zip": "eae5c7991b34bfe8ac18a7199f8b61a36d49a64486ffc696ab4aa072834aa773"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "passed": false,
+  "run_id": "regional-stability-d0ff62a520bc8c33e73c",
+  "stage": "independent scalar audit before handoff",
+  "error_type": "KeyError",
+  "message": "probability_bin missing from exported targets.csv because the header was taken from the first heterogeneous target record",
+  "disposition": "superseded; preserve old output and failure, export uniform target definitions and union field headers in a new content identity",
+  "model_probabilities_changed": false,
+  "thresholds_or_acceptance_tolerances_changed": false,
+  "human_review": false
+}

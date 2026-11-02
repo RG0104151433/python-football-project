@@ -1,0 +1,14 @@
+﻿target_id,kind,group_a,group_b,comparison_set,weighted,metric,label,unit,probability_bin,value,brier_difference,original_matches,remaining_matches,removed_matches,removed_share,remaining_by_group,status,reason,affected,original_sign
+T01,paired,150,,,false,loss_difference,欧洲：联合减仅实力,log_loss,,-0.0037411481,-0.0017303867,3322,3322,0,0.0000000000,"{""150"":3322}",calculated,,false,-1
+T02,paired,142,,,false,loss_difference,亚洲：联合减仅实力,log_loss,,-0.0018531486,-0.0005417243,2540,2540,0,0.0000000000,"{""142"":2540}",calculated,,false,-1
+T03,paired,002,,,false,loss_difference,非洲：联合减仅实力,log_loss,,-0.0010106908,-0.0006093726,2058,2058,0,0.0000000000,"{""002"":2058}",calculated,,false,-1
+T04,paired,019,,,false,loss_difference,美洲：联合减仅实力,log_loss,,-0.0046983820,-0.0019036286,1659,1659,0,0.0000000000,"{""019"":1659}",calculated,,false,-1
+T05,paired,009,,,false,loss_difference,大洋洲：联合减仅实力,log_loss,,-0.0058410912,-0.0019877439,148,148,0,0.0000000000,"{""009"":148}",calculated,,false,-1
+T06,between,002,150,,false,joint_loss,非洲减欧洲：原始损失差,log_loss,,0.0731083717,,5380,5380,0,0.0000000000,"{""002"":2058,""150"":3322}",calculated,,false,1
+T07,between,002,150,primary5,true,joint_loss,非洲减欧洲：共同构成损失差,log_loss,,0.0527035538,,5380,5380,0,0.0000000000,"{""002"":2058,""150"":3322}",calculated,,false,1
+T08,calibration,002,,,false,joint_bias,非洲低评分不确定性：概率档1偏差,percentage_points,1,-3.0127860287,,225,225,0,0.0000000000,"{""002"":225}",calculated,,false,-1
+T09,calibration,002,,,false,joint_bias,非洲低评分不确定性：概率档3偏差,percentage_points,3,3.3153995246,,287,287,0,0.0000000000,"{""002"":287}",calculated,,false,1
+T10,between,SOUTH_AMERICA,OTHER_AMERICAS,,false,joint_loss,南美减其余美洲：原始损失差,log_loss,,0.0288978446,,1659,1659,0,0.0000000000,"{""OTHER_AMERICAS"":1091,""SOUTH_AMERICA"":568}",calculated,,false,1
+T11,between,SOUTH_AMERICA,OTHER_AMERICAS,americas2,true,joint_loss,南美减其余美洲：共同构成损失差,log_loss,,-0.0032112275,,1659,1659,0,0.0000000000,"{""OTHER_AMERICAS"":1091,""SOUTH_AMERICA"":568}",calculated,,false,-1
+T12,paired,009,,primary5,true,loss_difference,大洋洲：共同构成联合减仅实力,log_loss,,0.0043680469,0.0023652626,148,148,0,0.0000000000,"{""009"":148}",calculated,,false,1
+T13,bias,009,,primary5,true,joint_bias,大洋洲：共同构成平均偏差,percentage_points,,8.4424078013,,148,148,0,0.0000000000,"{""009"":148}",calculated,,false,1

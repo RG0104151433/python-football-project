@@ -1,0 +1,19 @@
+{
+  "schema_version": "regional-stability-v1",
+  "decision_log_id": "R20261102-04",
+  "evaluation_run": "regional-evaluation-7ea3e4ab7c7dbb8eeb58",
+  "diagnostics_run": "regional-diagnostics-3e4473ad441fd44fe4df",
+  "main_years": [2010, 2024],
+  "expected_matches": 9727,
+  "probability_clip": 0.000001,
+  "sparse_minimums": [10, 20],
+  "target_ids": ["T01", "T02", "T03", "T04", "T05", "T06", "T07", "T08", "T09", "T10", "T11", "T12", "T13"],
+  "deletions": "each calendar year and each distinct team in either role; fixed forecasts and original reference weights",
+  "reference_checks": "full sample only: pooled original, equal regional shares, restricted original at common cell minimum 10/20",
+  "sign_zero_tolerance": 0.000000000001,
+  "zero_tolerance_is_numeric_not_equivalence": true,
+  "formal_inference": false,
+  "refitted": false,
+  "human_review": false,
+  "selection": "focused checks selected after seeing prior results; no new blind test"
+}

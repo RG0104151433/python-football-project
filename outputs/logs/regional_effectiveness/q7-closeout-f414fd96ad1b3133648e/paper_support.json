@@ -1,0 +1,52 @@
+{
+  "mathematical_support": [
+    "研究/07_地区有效性/第四步_差异解释与第五步交接.md#3-数学与分组规则",
+    "研究/07_地区有效性/第五步_可靠性检查与脚本规划.md#5-数学上为什么这样查以及它不能证明什么"
+  ],
+  "method_and_plain_explanation": "研究/07_地区有效性/第七问_研究说明与收尾交接.md",
+  "not_claimed": [
+    "新盲测",
+    "完整胜平负",
+    "现实95%保证",
+    "地区因果识别",
+    "正式报告已提交",
+    "真人已复核"
+  ],
+  "sections": [
+    "前文衔接与问题",
+    "同场概率评价",
+    "构成及不确定性诊断",
+    "关键对象稳健性",
+    "适用说明与限制",
+    "第八九问交接"
+  ],
+  "source_file_paths": [
+    "outputs/figures/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/regional_common_mix.png",
+    "outputs/figures/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/regional_match_composition.png",
+    "outputs/figures/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_calibration.png",
+    "outputs/figures/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_performance.png",
+    "outputs/logs/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/handoff_adoption.json",
+    "outputs/logs/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/independent_audit.json",
+    "outputs/logs/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/manifest.json",
+    "outputs/logs/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/handoff_adoption.json",
+    "outputs/logs/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/independent_audit.json",
+    "outputs/logs/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/manifest.json",
+    "outputs/logs/regional_effectiveness/regional-stability-366606ed5bca8e0fe6b8/handoff_adoption.json",
+    "outputs/logs/regional_effectiveness/regional-stability-366606ed5bca8e0fe6b8/independent_audit.json",
+    "outputs/logs/regional_effectiveness/regional-stability-366606ed5bca8e0fe6b8/manifest.json",
+    "outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/africa_calibration.csv",
+    "outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/standardized_metrics.csv",
+    "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/paired_differences.csv",
+    "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_metrics.csv",
+    "outputs/tables/regional_effectiveness/regional-stability-366606ed5bca8e0fe6b8/conclusion_review.csv",
+    "outputs/tables/regional_effectiveness/regional-stability-366606ed5bca8e0fe6b8/reference_sensitivity.csv",
+    "研究/06_历史参考周期/第六问_研究说明与收尾交接.md",
+    "研究/07_地区有效性/第七问_研究说明与收尾交接.md",
+    "研究/07_地区有效性/第五步_可靠性检查与脚本规划.md"
+  ],
+  "source_runs": {
+    "diagnostics": "regional-diagnostics-3e4473ad441fd44fe4df",
+    "evaluation": "regional-evaluation-7ea3e4ab7c7dbb8eeb58",
+    "stability": "regional-stability-366606ed5bca8e0fe6b8"
+  }
+}

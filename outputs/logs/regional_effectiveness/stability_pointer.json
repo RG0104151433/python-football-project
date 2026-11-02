@@ -1,0 +1,13 @@
+{
+  "formal_inference": false,
+  "log_directory": "outputs/logs/regional_effectiveness/regional-stability-366606ed5bca8e0fe6b8",
+  "run_id": "regional-stability-366606ed5bca8e0fe6b8",
+  "steps_completed": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "table_directory": "outputs/tables/regional_effectiveness/regional-stability-366606ed5bca8e0fe6b8"
+}

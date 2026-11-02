@@ -1,0 +1,22 @@
+{
+  "directory": "outputs/logs/regional_effectiveness/q7-closeout-f414fd96ad1b3133648e",
+  "final_group_delivery_complete": false,
+  "formal_inference": false,
+  "human_review": false,
+  "manifest_sha256": "2bd5efe995e3f4cc71f9185c6d5fdf61192608ee3354b4d70745b668c673a8f5",
+  "material_id": "q7-closeout-f414fd96ad1b3133648e",
+  "research_closed_in_declared_scope": true,
+  "source_runs": {
+    "diagnostics": "regional-diagnostics-3e4473ad441fd44fe4df",
+    "evaluation": "regional-evaluation-7ea3e4ab7c7dbb8eeb58",
+    "stability": "regional-stability-366606ed5bca8e0fe6b8"
+  },
+  "steps_completed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ]
+}

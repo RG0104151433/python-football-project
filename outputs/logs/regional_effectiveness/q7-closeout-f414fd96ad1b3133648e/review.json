@@ -1,0 +1,18 @@
+{
+  "applicability_rows": 8,
+  "existing_figures_hash_verified": 4,
+  "final_group_delivery_complete": false,
+  "formal_inference": false,
+  "html_created": false,
+  "human_review": false,
+  "main_matches": 9727,
+  "new_model_fits": 0,
+  "new_ratings": 0,
+  "new_simulations": 0,
+  "no_new_unit_tests_needed": true,
+  "parent_runs_checked": 3,
+  "passed": true,
+  "prior_independent_audits_verified": true,
+  "research_closed_in_declared_scope": true,
+  "source_files_checked": 22
+}

@@ -1,0 +1,32 @@
+{
+  "run_id": "regional-stability-366606ed5bca8e0fe6b8",
+  "passed": true,
+  "manifest_sha256": "faca845a10531bc996d8a49d7c8b0eae7712ea2528ac130debf589086bfd0f89",
+  "original_adoption_sha256": "049f6b7b140a28332d7c661dfbbd8042b47567902f92e9bb6df6653d7d26b3e1",
+  "independent_audit_sha256": "f412dca6da3ac8a6c7c536f5e8d2af484c54be8f46fa190bd0c485762d74be5a",
+  "auditor_sha256": "936f53983ead4001996287ee267ab017c974e56c6bb1aa7b1965cef510a05154",
+  "documentation_sha256": "b99a4d2431ad11185b0836bbe652e058bc7d2534ba32a147b24be325e28fab8a",
+  "handoff_source_snapshot_sha256": "24f5b56c2989f620183920e12457f187e501eb9ace21eef04f4c85cabc8ac37f",
+  "tests": {
+    "passed": 7,
+    "seconds": 0.38,
+    "scope": "tests/test_regional_stability.py"
+  },
+  "independent_checks": 40285,
+  "independent_audit_pending": false,
+  "steps_completed": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "step5_complete": true,
+  "step6_complete": false,
+  "formal_inference": false,
+  "human_review": false,
+  "question_closed": false,
+  "source_revision": "uncommitted working tree; exact source hashes and available base commit in original manifest",
+  "material_paths_checked": 80,
+  "missing_paths": []
+}

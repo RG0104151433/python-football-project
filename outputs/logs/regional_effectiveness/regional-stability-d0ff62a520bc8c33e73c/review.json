@@ -1,0 +1,91 @@
+{
+  "baseline_checks": [
+    {
+      "error": 4.244723929985872e-11,
+      "name": "T01",
+      "passed": true
+    },
+    {
+      "error": 1.7896511746509636e-11,
+      "name": "T02",
+      "passed": true
+    },
+    {
+      "error": 5.789328565153351e-11,
+      "name": "T03",
+      "passed": true
+    },
+    {
+      "error": 4.6508385684318476e-11,
+      "name": "T04",
+      "passed": true
+    },
+    {
+      "error": 7.019004301389575e-12,
+      "name": "T05",
+      "passed": true
+    },
+    {
+      "error": 4.426015109970649e-11,
+      "name": "T06",
+      "passed": true
+    },
+    {
+      "error": 4.409250742298809e-12,
+      "name": "T07",
+      "passed": true
+    },
+    {
+      "error": 1.9332868639310163e-11,
+      "name": "T10",
+      "passed": true
+    },
+    {
+      "error": 5.402234215523549e-12,
+      "name": "T11",
+      "passed": true
+    },
+    {
+      "error": 1.1110667941238717e-11,
+      "name": "T08",
+      "passed": true
+    },
+    {
+      "error": 3.554001537509066e-11,
+      "name": "T09",
+      "passed": true
+    },
+    {
+      "error": 6.016723837903859e-11,
+      "name": "T12",
+      "passed": true
+    },
+    {
+      "error": 8.970602038971265e-12,
+      "name": "T13",
+      "passed": true
+    }
+  ],
+  "formal_inference": false,
+  "human_review": false,
+  "main_matches": 9727,
+  "new_fits": 0,
+  "new_ratings": 0,
+  "new_simulations": 0,
+  "passed": true,
+  "question_closed": false,
+  "step5_complete": true,
+  "table_rows": {
+    "conclusion_review": 13,
+    "deletion_results": 2938,
+    "match_weights": 11386,
+    "reference_sensitivity": 16,
+    "reference_support": 28,
+    "reference_weights": 72,
+    "story_results": 908,
+    "targets": 13,
+    "weight_concentration": 818
+  },
+  "unique_teams": 211,
+  "years": 15
+}

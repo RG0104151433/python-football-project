@@ -1,0 +1,11 @@
+{
+  "conclusion_review": "Direction stability on observed finite history only, not p-values, confidence intervals or future guarantee.",
+  "deletion_results": "All years/union of team IDs; both roles removed once; affected=false identifies no-op. Fixed original weights.",
+  "match_weights": "Weight w_cell / observed group-cell count, normalized separately in each set/group.",
+  "reference_sensitivity": "Changes target population. original_matches is the full arm; remaining_matches retains only weighted supported cells; reference_support gives each arm separately.",
+  "reference_support": "Retained actual counts and original reference mass; minimum 10/20 are sensitivity settings, not evidence admission.",
+  "shared": "status=unsupported => value blank; no imputation. refitted/formal_inference/human_review false.",
+  "story_results": "Paired narrative checked within the same deletion; unsupported when either contrast cannot be calculated.",
+  "targets": "Definitions plus baseline; negative paired loss difference favors joint model; bias is percentage points.",
+  "weight_concentration": "Equivalent count measures weighting only; not an independent sample size. Team weights overlap."
+}
