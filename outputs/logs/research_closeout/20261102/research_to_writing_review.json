@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "decision_log_id": "R20261102-22",
+  "checked_at_utc": "2026-11-02T15:45:19.7827807Z",
+  "scope": "adopted source entries, sealed output integrity and writing handoff; not a new statistical or runtime validation",
+  "course_research_scope_closed": true,
+  "ready_for_writing": true,
+  "executor": "Codex AI",
+  "human_review": false,
+  "new_models_or_tests_run": false,
+  "adopted_manifests": {
+    "outputs/logs/team_identity/confirmed-eras-20261025T013539824757Z-45eb57c2/run_manifest.json": {
+      "sha256": "a24a84ee948234131a7bcf48d09a2c7a9527fd3c1483fc7bbf246455ddba0afa",
+      "outputs_verified": 22
+    },
+    "outputs/logs/tournaments/tournaments-20261025T022318417600Z-78d8e623/run_manifest.json": {
+      "sha256": "c25cb3672ff004939171a59e460de8ba4c7f960fc35e1dbf033b1dbe2cced0ca",
+      "outputs_verified": 23
+    },
+    "outputs/logs/regions/closeout-20261027/regions-20261027T084412226301Z-f05899a3/run_manifest.json": {
+      "sha256": "6953f47bd876c86fbd73a13ca44c813ecf9955a0208ff2671a1d56261c20434b",
+      "outputs_verified": 34
+    },
+    "outputs/logs/reliability/applied-20261028T085135016736Z-34239452/run_manifest.json": {
+      "sha256": "368bbdf1dcb31de7d281fad3e5e8ab768785c62cbc46c7302666416fa3d7c288",
+      "outputs_verified": 31
+    },
+    "outputs/logs/strength_q5_closeout/q5-closeout-1c4c593487304afa0f6a/manifest.json": {
+      "sha256": "6e8bffdd602405c526ce8fb84418581b417cadbe4f9ea385a84c1b515ffbd9ee",
+      "outputs_verified": 15
+    },
+    "outputs/logs/history_window_closeout/q6-closeout-750d3ed8ec54c1309358/manifest.json": {
+      "sha256": "6ba4573e1a4ff111bc087d8bb3f6f4f1c6a29c454e9cd22f8900917ac4d15bb2",
+      "outputs_verified": 5
+    },
+    "outputs/logs/regional_effectiveness/q7-closeout-f414fd96ad1b3133648e/manifest.json": {
+      "sha256": "2bd5efe995e3f4cc71f9185c6d5fdf61192608ee3354b4d70745b668c673a8f5",
+      "outputs_verified": 5
+    },
+    "outputs/logs/future_predictions/future-unl-61f639846da9193d4cca/manifest.json": {
+      "sha256": "c5a2e4e0e1fcf0bce39ef93e524125af69c7d12e5688ccd6e4d3e439aa69f6e6",
+      "outputs_verified": 11
+    },
+    "outputs/logs/future_predictions/q8-closeout-7bf020e93213562df8de/manifest.json": {
+      "sha256": "6de683c7ad2371e2cbce7a3389ae4d2532016b84f4a665f685312fecae84f449",
+      "outputs_verified": 10
+    }
+  },
+  "adopted_manifest_count": 9,
+  "sealed_output_hash_checks": 156,
+  "indexed_paths_checked": 322,
+  "missing_indexed_paths": [],
+  "document_links_checked": 1190,
+  "current_documents": {
+    "README.md": "3cc18290ff061a8a20d362784587f62837ab8fa8331c5737980d5abd9294872a",
+    "研究/README.md": "1b603bfd897c88d1e3bd3dbeb9724fae2ee907c688cbbe6344711b5a16fa4585",
+    "研究/09_预测优化展望/README.md": "84f59b390b42ec54af1e5f43ea0dd6334a3b12e47fcbb75ff7988e39b439b1fd",
+    "研究/pipeline_state.json": "e573a9a128b81b87f0b4225f8a9d31a054e4e3835e91732c8fb3601c3b8eddbb",
+    "文档/05_团队协作/论文与汇报支撑材料索引.md": "07b7d67be51dfa29e87a2e537f4636932e09ff76292a20d40d38f05b5a0c0f80",
+    "文档/05_团队协作/研究收尾与撰写交接.md": "4cca4893d1501f8a06a18f8a9294e5ae4f44a5092e13e92b33727920bb0aac01",
+    "文档/05_团队协作/汇报要求与HTML方案.md": "c5cea8fb379ea4eb37379e0433095dc2c51a402357c00bfca3eb5c1ceb08d3cf"
+  },
+  "adopted_stage_statuses": {
+    "data_cleaning": "program_validated_not_frozen",
+    "data_confirmation": "study_population_owner_accepted",
+    "question_1": "description_completed_owner_reviewed_population",
+    "question_2": "description_completed_owner_reviewed_population",
+    "question_3": "descriptive_stage_closed_with_authorized_deferred_followups",
+    "question_4": "completed_model_conditional_application_and_prespecified_descriptive_sensitivity",
+    "question_5": "closed_with_declared_conditional_scope_and_explicit_nonadmission",
+    "question_6": "all8steps_research_closed_in_declared_scope_course_delivery_pending",
+    "question_7": "closed_in_declared_historical_diagnostic_scope",
+    "question_8": "closed_for_pre_match_course_submission_postmatch_optional",
+    "question_9": "closed_in_document_only_course_scope_with_integrated_conclusion",
+    "question_10": "number_confirmed_not_designed"
+  },
+  "mutable_log_reference": "文档/01_项目方案/研究日志与决策记录.md#R20261102-22",
+  "historical_adoption_document_hashes": "time-specific; mutable current documents are bound above, historical source snapshots retained",
+  "final_environment_reproduction_complete": false,
+  "final_group_paper_presentation_and_device_acceptance_complete": false,
+  "actual_november_results_evaluated": false,
+  "club_experiments_implemented": false
+}
