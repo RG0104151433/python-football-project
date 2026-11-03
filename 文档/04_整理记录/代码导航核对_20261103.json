@@ -1,0 +1,1504 @@
+{
+  "decision_log_id": "R20261103-03",
+  "executor": "Codex AI",
+  "human_review": false,
+  "scope": "Documentation navigation only; no scientific computation or source edits.",
+  "script_count": 123,
+  "python_script_count": 122,
+  "node_script_count": 1,
+  "stage_counts": {
+    "q4": 21,
+    "identity": 4,
+    "q1": 5,
+    "q6": 4,
+    "q7": 7,
+    "q3": 8,
+    "q5": 68,
+    "q2": 2,
+    "q8": 4
+  },
+  "locally_declared_help_count": 68,
+  "entries": [
+    {
+      "path": "scripts/adapt_joint_target_scales.py",
+      "stage": "q4",
+      "role": "开发与方法验收",
+      "purpose": "调整第四问目标范围尺度，并要求新的独立检查。",
+      "source_sha256": "e6bb71b4ab5c1f2a1f1d0715fb7bd8ee8401eb1b46d92f235459a8a78e104d9c",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--long-memory",
+        "--wide-target-scales"
+      ]
+    },
+    {
+      "path": "scripts/adopt_membership_reviews.py",
+      "stage": "identity",
+      "role": "正式入口",
+      "purpose": "按组长已采纳判断发布当前研究成员范围。",
+      "source_sha256": "153941e62a0b38c94b85b9b910f3c1c8b87ea29c8a7d3ec23c80a2e833260e2d",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--config"
+      ]
+    },
+    {
+      "path": "scripts/analyze_confirmed_eras.py",
+      "stage": "q1",
+      "role": "正式入口",
+      "purpose": "接入身份范围，重算第一问；当前配置必须显式用reviewed版。",
+      "source_sha256": "947db21fdd8109e32cc169333c7a92264d993b527586388aa8f89416016b67aa",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--config",
+        "--verify-run"
+      ]
+    },
+    {
+      "path": "scripts/analyze_history_window.py",
+      "stage": "q6",
+      "role": "正式入口",
+      "purpose": "按阶段比较历史长度、评分记忆、组合与有限检查；部分阶段为长计算。",
+      "source_sha256": "7bce1dbbc77684916af294b4c7ebd18533fef50d45d00e5733e00ce02e8ee1b9",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--config",
+        "--mode",
+        "--plan-only",
+        "--resume",
+        "--stage"
+      ]
+    },
+    {
+      "path": "scripts/analyze_regional_diagnostics.py",
+      "stage": "q7",
+      "role": "正式入口",
+      "purpose": "解释第七问各地区表现与实力、信息构成的关系。",
+      "source_sha256": "bc9fe09a8a77fe4851190fb83209ad4ed141431b0d93933aae772994d6323425",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--config"
+      ]
+    },
+    {
+      "path": "scripts/analyze_regional_effectiveness.py",
+      "stage": "q7",
+      "role": "正式入口",
+      "purpose": "用既有赛前预测描述各地区表现，不重训模型。",
+      "source_sha256": "1082b061fdaa24b90bd479d18fdc0af13c553a8eaf8674518aeebe4c6451c4c8",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--config"
+      ]
+    },
+    {
+      "path": "scripts/analyze_regional_stability.py",
+      "stage": "q7",
+      "role": "正式入口",
+      "purpose": "计算第七问删年、删队后的有限稳定性对照。",
+      "source_sha256": "1ba378d05b009ce9968dbf83e395505ab6934dceed399ce808d8a66f67c82110",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--config"
+      ]
+    },
+    {
+      "path": "scripts/analyze_regions.py",
+      "stage": "q3",
+      "role": "正式入口",
+      "purpose": "按已采用分组和比较清单计算第三问地域统计。",
+      "source_sha256": "e3ea5fb0f7462e2f005ccde4edfbd9c37a6de556cbc6fba89bf00044c4735cad",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--config",
+        "--font-file",
+        "--inference",
+        "--root",
+        "--run-root",
+        "--verify-run"
+      ]
+    },
+    {
+      "path": "scripts/analyze_reliability.py",
+      "stage": "q4",
+      "role": "正式入口",
+      "purpose": "将第四问采用方法应用于实际目标，并计算规定敏感性。",
+      "source_sha256": "38ecef60b3b04443792df2e2c668fcfdb380fafb7c26b73743602089da85d46a",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--config",
+        "--run",
+        "--stage"
+      ]
+    },
+    {
+      "path": "scripts/analyze_strength_inference.py",
+      "stage": "q5",
+      "role": "开发与方法验收",
+      "purpose": "第五问早期双路线接口、诊断与完整历史试算；不是最终验收的唯一入口。",
+      "source_sha256": "3b244c2d7fe3e9e7a94acc95405c8c5009e9fa9ca124219b29967421af4aa898",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--config",
+        "--stage"
+      ]
+    },
+    {
+      "path": "scripts/analyze_strength_interpretation.py",
+      "stage": "q5",
+      "role": "结果解释",
+      "purpose": "整理第五问第四、第五环节的比较、曲线与证据账本。",
+      "source_sha256": "c29de46fd1e130d545e9eae87481cde5e209291db1270fe42997f078ede62574",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--config"
+      ]
+    },
+    {
+      "path": "scripts/analyze_strength_joint.py",
+      "stage": "q5",
+      "role": "正式入口",
+      "purpose": "拟合含赛前实力与背景的共同分析；另有全历史反馈试算阶段。",
+      "source_sha256": "959771f0bb98ddd7a88b746e5305a8fce2d4b26781da36f94ccd6dd00b6e0b15",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--config",
+        "--skip-sensitivity",
+        "--stage"
+      ]
+    },
+    {
+      "path": "scripts/analyze_strength_predictive_validation.py",
+      "stage": "q5",
+      "role": "正式入口",
+      "purpose": "按年只用过去信息比较背景、实力和共同预测；可能长时间计算。",
+      "source_sha256": "2bd30557e3bb25fbdae1be208dd80732e48962909812213ca2e3ff83ba68d36e",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/analyze_strength_stage6_paired.py",
+      "stage": "q5",
+      "role": "敏感性分析",
+      "purpose": "补齐样本限制后的成对变化及对应核验。",
+      "source_sha256": "7ce3bd036337dad2cd5e2d95a81f24d15b5eb7f639a9b3ac7f2b9b282c0715d2",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--audit"
+      ]
+    },
+    {
+      "path": "scripts/analyze_strength_stage6_sensitivity.py",
+      "stage": "q5",
+      "role": "敏感性分析",
+      "purpose": "重新计算规定的评分分布与估计样本敏感性。",
+      "source_sha256": "2122ace89c9175ed55075184616f1f4fe0cc95c54181222f470e6a365e5beb97",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--config"
+      ]
+    },
+    {
+      "path": "scripts/analyze_tournaments.py",
+      "stage": "q2",
+      "role": "正式入口",
+      "purpose": "计算第二问赛事差异、共同年代构成和滚动窗口，或核对已有运行。",
+      "source_sha256": "c2108cd7ea5b603f693b90e05f9a69d193257f501fcbb545e531c6b5cebfa6e4",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--config",
+        "--verify-run"
+      ]
+    },
+    {
+      "path": "scripts/audit_confirmed_eras.py",
+      "stage": "q1",
+      "role": "核验",
+      "purpose": "从比分独立核对身份确认后的第一问，显式指定配置和两个运行。",
+      "source_sha256": "f2652d8cc2348808c1a5ec193ddd2964bf0a365d78e0dadf91b675e80e845a0f",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--compare",
+        "--config",
+        "--output",
+        "--run"
+      ]
+    },
+    {
+      "path": "scripts/audit_eras_outputs.py",
+      "stage": "q1",
+      "role": "历史基线核验",
+      "purpose": "复算早期第一问基线；默认目录不是当前成员采纳版。",
+      "source_sha256": "c3dafbe23da0608de8737472c4f45c572c378eefbb6baeb1c6ece935a909569e",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--manifest",
+        "--output"
+      ]
+    },
+    {
+      "path": "scripts/audit_final_strength_delivery.py",
+      "stage": "q5",
+      "role": "核验",
+      "purpose": "核对最终评分交接的算术、分布、时间顺序与恢复接口。",
+      "source_sha256": "8ff343bdf3da85d1aa257198f2f909082e3e9bd1c941729e34a0960e4417aa8b",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/audit_future_predictions.py",
+      "stage": "q8",
+      "role": "核验",
+      "purpose": "独立重建第八问预测概率与范围，并写核验报告。",
+      "source_sha256": "ec884174a6dba66a5cfe87f42479bf91286423f355b6428bc0e5c2ddd036977e",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--run-id"
+      ]
+    },
+    {
+      "path": "scripts/audit_history_window.py",
+      "stage": "q6",
+      "role": "核验",
+      "purpose": "核对第六问可行性或正式outcome/rating结果；可选重新计算代表例子。",
+      "source_sha256": "b818f95b854d48837c54be0e91ef3d5c37a3399452597d7050d5db3b4e76ba4c",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--refit-examples",
+        "--run",
+        "--stage"
+      ]
+    },
+    {
+      "path": "scripts/audit_joint_readiness.py",
+      "stage": "q4",
+      "role": "阶段交接",
+      "purpose": "核对第四问已冻结校准/测试资料并登记应用前门槛。",
+      "source_sha256": "6e8a328e2b7490e2a8c6d87c88c2b52531b6000d9b36921e697aed21e4eef577",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/audit_region_support.py",
+      "stage": "q3",
+      "role": "核验",
+      "purpose": "登记第三问零场、缺层和稀疏情况，不估计不确定性。",
+      "source_sha256": "4a407592a697c14c640299c6228d6fa1cc021e6f719d382dbd9be57b9bf6d892",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--output",
+        "--run"
+      ]
+    },
+    {
+      "path": "scripts/audit_regional_diagnostics.py",
+      "stage": "q7",
+      "role": "核验",
+      "purpose": "独立复算第七问共同构成与解释用表。",
+      "source_sha256": "9b27e93b640cfa4ff4ea7a7eece26446b0e345ef1e61f5209e8d0a13402ad980",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--run-id"
+      ]
+    },
+    {
+      "path": "scripts/audit_regional_effectiveness.py",
+      "stage": "q7",
+      "role": "核验",
+      "purpose": "从保存结果独立核对第七问地区预测表现。",
+      "source_sha256": "ec4dc2aeebea79267b4d6dbe00bf5f4479416fb86efc00f7c3f353822dcfbf9e",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--run-id"
+      ]
+    },
+    {
+      "path": "scripts/audit_regional_stability.py",
+      "stage": "q7",
+      "role": "核验",
+      "purpose": "独立核对第七问有限删除敏感性的算术与接口。",
+      "source_sha256": "936f53983ead4001996287ee267ab017c974e56c6bb1aa7b1965cef510a05154",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--run-id"
+      ]
+    },
+    {
+      "path": "scripts/audit_reliability_analysis.py",
+      "stage": "q4",
+      "role": "核验",
+      "purpose": "从整数、集合和分数独立复算第四问实际应用及敏感性。",
+      "source_sha256": "178289392b04dd2e5a2bc30e7ff93b2760d2efa09df4ad3cf31c9aa9405ac47c",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--compare",
+        "--run"
+      ]
+    },
+    {
+      "path": "scripts/audit_reliability_design.py",
+      "stage": "q4",
+      "role": "核验",
+      "purpose": "核对第四问目标、参考和设计表，不运行区间模型。",
+      "source_sha256": "1c49a292295c2e98053bc0a320dc62f500328280f0273969366bea92001ca657",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--manifest",
+        "--output"
+      ]
+    },
+    {
+      "path": "scripts/audit_reliability_methods.py",
+      "stage": "q4",
+      "role": "核验",
+      "purpose": "核对第四问方法产物、计数和公式，不替代统计覆盖验收。",
+      "source_sha256": "6cd8ffab89ddac8151f8c04d458bebf1acf51140b32daf08db0c9e24ae7c1a92",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/audit_repaired_strength.py",
+      "stage": "q5",
+      "role": "阶段核验",
+      "purpose": "核对评分修正阶段的输出、来源、时间与恢复。",
+      "source_sha256": "110f85cfe616049ad0d403a7d232bbffa72616400234b97fc00036d113fb55aa",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--normal",
+        "--strict"
+      ]
+    },
+    {
+      "path": "scripts/audit_strength_confirmation_protocol.py",
+      "stage": "q5",
+      "role": "核验（含演算）",
+      "purpose": "计算最终顺序确认规则的有限路径概率，检查错误预算。",
+      "source_sha256": "37e2e49b90f8ceeaba6a30846eb267ca299847ede25e65a93d0a0d8ad2c837a3",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/audit_strength_global_outputs.py",
+      "stage": "q5",
+      "role": "阶段核验",
+      "purpose": "核对完整评分运行的输入、时间顺序和检查点。",
+      "source_sha256": "b60f80072b7c13f7d18f3fa7d370987a70fff42de0645653c6c6661509a33ab5",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "directories"
+      ]
+    },
+    {
+      "path": "scripts/audit_strength_handoff.py",
+      "stage": "q5",
+      "role": "阶段核验",
+      "purpose": "从保存的预测和赛果重建早期评分交接选择与比较。",
+      "source_sha256": "c30fc1ce990d9fa8e4138bc34b469dba96b2419ceaa41499ac1d3938f93c4ad5",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "folder"
+      ]
+    },
+    {
+      "path": "scripts/audit_strength_inference.py",
+      "stage": "q5",
+      "role": "核验",
+      "purpose": "核对第五问早期双路线产物、代数与模拟记录，不替代覆盖验证。",
+      "source_sha256": "1ff666711f6d451ba2e62a253b64dff9f4734fdccc3603d52cad40240345af01",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--stage"
+      ]
+    },
+    {
+      "path": "scripts/audit_strength_inference_truth.py",
+      "stage": "q5",
+      "role": "核验（含演算）",
+      "purpose": "独立检查模拟标准答案的数值解与Monte Carlo精度。",
+      "source_sha256": "61bb1acb713dfc5671cb1f7448b438c2b5333eda661a52a6a0a7f464c1427245",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/audit_strength_interpretation.py",
+      "stage": "q5",
+      "role": "核验",
+      "purpose": "核对第五问解释表、系数、曲线及比较。",
+      "source_sha256": "1db705c3b76a6bab453bef846aaefc7092dcabdca65bc827bfd0b37f6a3c17ef",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "directory"
+      ]
+    },
+    {
+      "path": "scripts/audit_strength_joint.py",
+      "stage": "q5",
+      "role": "核验",
+      "purpose": "独立重建共同分析的系数、概率与差异。",
+      "source_sha256": "b68432b8c42224ac029d626411b510949d6210f5e65d9b196937bbf306bfa44c",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "directory"
+      ]
+    },
+    {
+      "path": "scripts/audit_strength_predictive_validation.py",
+      "stage": "q5",
+      "role": "核验",
+      "purpose": "独立核对第五问历史预测的时间顺序和逐场概率。",
+      "source_sha256": "e215cddbcd19feb8a724f53ec988d17a37130d9cd18e3a8afdabdc389f905e2e",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/audit_strength_q5_final.py",
+      "stage": "q5",
+      "role": "核验",
+      "purpose": "核对最终第五问模拟、方法采用范围及材料。",
+      "source_sha256": "f3aaa0fe3442866c84a18124c14fd2bbf15647ae35c7a4b431beb5a2462c97f0",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--initial",
+        "--materials"
+      ]
+    },
+    {
+      "path": "scripts/audit_strength_q5_html.cjs",
+      "stage": "q5",
+      "role": "页面核验",
+      "purpose": "在Node隔离环境检查页面控制逻辑，需要HTML路径，不是浏览器渲染测试。",
+      "source_sha256": "27d488c3db3f54f36b0d751f8fb2a5ca2196d50a5ab1818e9064a89e17f18adc",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/audit_strength_q5_html.py",
+      "stage": "q5",
+      "role": "页面核验",
+      "purpose": "核对第五问页面资源与控制，并保留实际浏览器验收受阻记录。",
+      "source_sha256": "af840aacd6662c8fb7a2aba7c99613d087bd3d18e37c7bcda7a9188f110745ca",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--preview"
+      ]
+    },
+    {
+      "path": "scripts/audit_strength_stage6_preparation.py",
+      "stage": "q5",
+      "role": "核验",
+      "purpose": "独立核对第五问第六环节目标、参考和赛前评分重建。",
+      "source_sha256": "c312c4fe35cb7efca21b3e5048905a6b9b888a7edba783b01dcff1952681fd80",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "directory"
+      ]
+    },
+    {
+      "path": "scripts/audit_strength_stage6_sensitivity.py",
+      "stage": "q5",
+      "role": "核验",
+      "purpose": "独立复算评分敏感性的概率和共同参考。",
+      "source_sha256": "785c2c3b86b3d46e28cd3fad5ef5301b31b062fc9a3eada2045dde93f6a9b8f7",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/audit_team_identity.py",
+      "stage": "identity",
+      "role": "前置准备",
+      "purpose": "只读盘点球队名称及出现记录，不直接作身份裁定。",
+      "source_sha256": "1a25924bc819a606c1b31512fecdf677393418073a6eaf527cf179daa9df0f6e",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--config",
+        "--verify-run"
+      ]
+    },
+    {
+      "path": "scripts/audit_tournaments.py",
+      "stage": "q2",
+      "role": "核验",
+      "purpose": "从整数赛果独立核对第二问，报告写入指定的新路径。",
+      "source_sha256": "de4671057a393286c5dd79287f9d6f20c6fb5f40c51682c8573a4db4df81976d",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--compare",
+        "--output",
+        "--run"
+      ]
+    },
+    {
+      "path": "scripts/broaden_strength_development.py",
+      "stage": "q5",
+      "role": "开发与方法验收",
+      "purpose": "扩大早期评分开发样本并评估完整范围的计算成本。",
+      "source_sha256": "231a8ebfecd3786eb56ddd132a4cbf5362b870c93782a38cc1f7eba61404b6bc",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/build_final_strength_display.py",
+      "stage": "q5",
+      "role": "历史阶段材料",
+      "purpose": "提取第五问第二环节交接事实，不是整题最终展示。",
+      "source_sha256": "9d8e2f96999c48d85f9ec4d880a0962ed8f0f83f7363ed7c66b3fde88c0e878f",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/build_future_prediction_materials.py",
+      "stage": "q8",
+      "role": "材料生成",
+      "purpose": "从封存预测生成第八问图、案例、讲稿和论文材料，不训练。",
+      "source_sha256": "3f0ac7037ea82895a5806607cb763eb98337ae7ef939945e4d94151d9586ba27",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/build_history_window_materials.py",
+      "stage": "q6",
+      "role": "材料生成",
+      "purpose": "从已采用结果整理第六问讲解、页面与论文材料。",
+      "source_sha256": "1351bf54e8e82f97c70122807ba25201498b3897448bcbebfaf2d48874d5c5f7",
+      "has_local_argparse": true,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/build_region_protocol.py",
+      "stage": "q3",
+      "role": "前置准备",
+      "purpose": "从保留协议生成第三问正式比较配置，默认会写配置文件。",
+      "source_sha256": "ab7d773a284ef40ecdd81e7967e79efde002ff69ee6a0cf374fca1fbce86daa2",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--output"
+      ]
+    },
+    {
+      "path": "scripts/build_region_roster.py",
+      "stage": "q3",
+      "role": "前置准备",
+      "purpose": "导出已采用的球队日期分区名单，不读取赛果。",
+      "source_sha256": "600b9473f861d2bfde159219ded70b1b25c745fb484473353a7501631d77df0b",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/build_regional_effectiveness_materials.py",
+      "stage": "q7",
+      "role": "材料生成",
+      "purpose": "包装第七问现有结果和适用说明，不重新计算研究。",
+      "source_sha256": "eed29d2dc10310f147ec730d7cd9a0836feb023a128201de58b4ba98463ba261",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/build_strength_handoff_display.py",
+      "stage": "q5",
+      "role": "历史阶段材料",
+      "purpose": "提取早期评分交接的展示事实与来源。",
+      "source_sha256": "bf9793eb24f6dfeedc341f508d26344981de3e3782999462ce82b3bbe467b428",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/build_strength_joint_materials.py",
+      "stage": "q5",
+      "role": "阶段材料",
+      "purpose": "从共同分析结果制作阶段研究图和交接证据。",
+      "source_sha256": "11c2a9f37fa96e7f3e707104b25932425d498d1f67ec511e403975e8bcf5a6ca",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/build_strength_q5_materials.py",
+      "stage": "q5",
+      "role": "材料生成",
+      "purpose": "从最终采用结果制作第五问图、HTML与论文支撑。",
+      "source_sha256": "c41d4aa13b57108ab8806125195de4a4efed8ba93fc81e7ef71c8c6815b98727",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/build_team_identity.py",
+      "stage": "identity",
+      "role": "前置准备/核验",
+      "purpose": "发布身份覆盖，或用--verify核对已有身份包；两种操作不同。",
+      "source_sha256": "e482504e3630dbfc5c3b709c9668b87334f2e1cfbbe78c2b019f4e5b9c527766",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--config",
+        "--verify"
+      ]
+    },
+    {
+      "path": "scripts/calibrate_reliability.py",
+      "stage": "q4",
+      "role": "开发与方法验收",
+      "purpose": "校准并检查第四问早期候选尺度，保留训练与留出边界。",
+      "source_sha256": "ef3539f467d84ac3147383794e402410afe5e419d862733ff4ee5e459da7a3a6",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--source",
+        "--stage"
+      ]
+    },
+    {
+      "path": "scripts/check_final_strength_handoff.py",
+      "stage": "q5",
+      "role": "阶段核验",
+      "purpose": "核对评分第二环节正式采用包、来源和当时交接说明。",
+      "source_sha256": "f8edc623d1ac1877e1ed5f88d43b8076a70021707eb6687ae6abb089950bffd5",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/check_history_window.py",
+      "stage": "q6",
+      "role": "前置可行性",
+      "purpose": "运行第六问前三步可行性，不是完整周期比较。",
+      "source_sha256": "2789c6ecd822ea0263b0b61ed545d20807c60284f9720881342928b0549c9ed3",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--config"
+      ]
+    },
+    {
+      "path": "scripts/check_repaired_initialization.py",
+      "stage": "q5",
+      "role": "敏感性分析",
+      "purpose": "在采用评分核心上检查起点和初始方差，另存各变体。",
+      "source_sha256": "fbfd84e4764a6e072c6d429ef606858f9152c9131be46be9f587147470dacec5",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--start",
+        "--variance"
+      ]
+    },
+    {
+      "path": "scripts/check_strength_delivery.py",
+      "stage": "q5",
+      "role": "阶段核验",
+      "purpose": "核对早期评分交接的接口、来源与已记录证明。",
+      "source_sha256": "9555ba0d9d5721f2902d7a9b191eb9f860d87348e927a3f8a786cb81aefba4d3",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/check_strength_inference_replay.py",
+      "stage": "q5",
+      "role": "专门复现",
+      "purpose": "用相同种子完整重放第五问早期完整历史，比较原记录。",
+      "source_sha256": "bad803e9b07936b48ac35ceac765d634ccc9bd4268a4849097f4c90339893b77",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/check_strength_initialization.py",
+      "stage": "q5",
+      "role": "敏感性分析",
+      "purpose": "重放早期完整评分的固定初始化变体，不用于事后选参数。",
+      "source_sha256": "2ad0f4d6e9bfa6ac72db73bd119c2241b27ac9cb2479dd8bc33286fbfb69913f",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/check_strength_joint_handoff.py",
+      "stage": "q5",
+      "role": "阶段核验",
+      "purpose": "核对共同分析样本交叠、子集差异与交接说明。",
+      "source_sha256": "b9d20c24a4b412dac9116acf2471ee0a5e2a082f8692f6cec9887ef2322bc665",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/check_strength_streaming_followup.py",
+      "stage": "q5",
+      "role": "开发与方法验收",
+      "purpose": "在首次失败后检查更大的连续变化预算，保留原门槛。",
+      "source_sha256": "679f1331e96dbaf9dca6643993b1e9b081201bb5a88a9c01628381a81675c067",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/closeout_reviewed_eras.py",
+      "stage": "q1",
+      "role": "阶段交接/材料",
+      "purpose": "核对当前成员采纳并导出第一问展示资料，保留旧版。",
+      "source_sha256": "c220f66d1aa6d857a1fd17860a628bcd0080f20d2fa8cd847a5e4197ac19ff2e",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--config",
+        "--output-dir",
+        "--run"
+      ]
+    },
+    {
+      "path": "scripts/confirm_strength_inference.py",
+      "stage": "q5",
+      "role": "正式长实验",
+      "purpose": "用新随机流执行第五问顺序确认，并计入首次筛选错误预算。",
+      "source_sha256": "c43d0bbc68535a14a1c1ecb9951859680d9ff6531fb50e161cbbe08967b94c40",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--workers"
+      ]
+    },
+    {
+      "path": "scripts/deduplicate_m49_sources.py",
+      "stage": "q3",
+      "role": "资料维护",
+      "purpose": "定位共享M49网页并保留旧指纹迁移记录；--apply会实际移动资料。",
+      "source_sha256": "cd739150ff3f104a439a1840d4f9c8f60571846cf1ea3ad540ef4a33c7c79005",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--apply"
+      ]
+    },
+    {
+      "path": "scripts/develop_reliability_joint.py",
+      "stage": "q4",
+      "role": "开发与方法验收",
+      "purpose": "第四问联合均值/波动方法的分阶段开发和验收，需按采用协议选配置。",
+      "source_sha256": "424364ca5ecc90a6d9e91aac8fdad436adeb0e8d155fed1c856d5e685a82f5f3",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--config",
+        "--stage",
+        "--workers"
+      ]
+    },
+    {
+      "path": "scripts/diagnose_fast_calibration.py",
+      "stage": "q5",
+      "role": "开发诊断",
+      "purpose": "比较预定的快速校正候选，报告全部门槛，不自动采纳。",
+      "source_sha256": "fc7cee9a19eb4fb8de6345366e8e86dcd32bf71ff87735f9c019392be8378882",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/diagnose_reliability_failure.py",
+      "stage": "q4",
+      "role": "开发诊断",
+      "purpose": "用已知模拟真值定位第四问候选失败，真值信息不能用于现实拟合。",
+      "source_sha256": "ec4be158db048bb491c0925a420a114d5da285cd334cec6347944b24c4d426c2",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/diagnose_strength_beam.py",
+      "stage": "q5",
+      "role": "开发诊断",
+      "purpose": "定位早期评分混合分支近似的数值不稳定。",
+      "source_sha256": "6597d28f296596e944c174266f84bd60159bb11e8733f8d63504a191fdd52647",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/diagnose_strength_calibration.py",
+      "stage": "q5",
+      "role": "开发诊断",
+      "purpose": "用早期开发资料定位原评分概率偏差。",
+      "source_sha256": "0de368250926884b273ff3f2ca5ddc3bd90e856af1c844021f289404b0d62564",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/diagnose_strength_inference_screen.py",
+      "stage": "q5",
+      "role": "开发诊断",
+      "purpose": "解释保留的第五问首轮筛选失败，不修改验收门槛。",
+      "source_sha256": "dd4ad9e47f2a1f5723e45a18dcf9182ca43b605233bb9151c96af173bd8d382f",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/evaluate_future_matches.py",
+      "stage": "q8",
+      "role": "赛后扩展",
+      "purpose": "接收真实已确认赛果，给封存预测评分，不覆盖预测或自动调参。",
+      "source_sha256": "970a0534c28d0c84e783e6c660e6ca6a8164cc6d9d454d2802b2beb1a4170d46",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--results",
+        "--run-id"
+      ]
+    },
+    {
+      "path": "scripts/extend_strength_numerics.py",
+      "stage": "q5",
+      "role": "开发与方法验收",
+      "purpose": "检查早期数值合并规则的误差与成本。",
+      "source_sha256": "b3c2c6963c6eef709ef5330af7b51a22eb850a80588bab31351e432e113b98c6",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/fetch_joint_method_sources.py",
+      "stage": "q4",
+      "role": "资料维护",
+      "purpose": "下载方法原文并记录取得或失败情况，涉及网络与来源文件写入。",
+      "source_sha256": "0b83a4aad788a5618b1298c940461934e9d1d31bc9a365ce7e95b778772daf7e",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/finalize_joint_choice.py",
+      "stage": "q4",
+      "role": "阶段交接",
+      "purpose": "登记第四问开发后方法选择，不代替后续校准和测试。",
+      "source_sha256": "8db993c8335f4d7f0687bd1affb2e54c49ed2cd97dbc54adf7fdf3dd1c09e627",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/finalize_strength_handoff.py",
+      "stage": "q5",
+      "role": "阶段交接",
+      "purpose": "汇总早期评分接受范围并准备共同分析接口，不拟合共同模型。",
+      "source_sha256": "c256a6c8e0a2e46602db6dd7dd2e9eb50559d97de3df3e320a4273ea85865923",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--initialization",
+        "--jump",
+        "--normal",
+        "--simulation",
+        "--strict"
+      ]
+    },
+    {
+      "path": "scripts/finalize_strength_repair.py",
+      "stage": "q5",
+      "role": "阶段交接",
+      "purpose": "从已验证第二环节结果发布最终采用与同版交接。",
+      "source_sha256": "7adae01b822ec56ee1a49ba11db6adfb56d9f33e3d69bb58ee7aab004095d95c",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/fit_joint_mean_wave.py",
+      "stage": "q4",
+      "role": "开发与方法验收",
+      "purpose": "拟合第四问联合均值和慢波动候选，不直接生成现实足球区间。",
+      "source_sha256": "866557e36e9caba8e5ee2d6b4b73e87ad58fd6690a931aa28a1a69985d12ec8e",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/lock_strength_v3.py",
+      "stage": "q5",
+      "role": "阶段交接",
+      "purpose": "依据预1980候选评分锁定早期正式参照，不读取新测试成绩。",
+      "source_sha256": "f6a61ce7b07dea7fa35823812a3a2c331431e2380c5941a00ce333dd9e8cf285",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/plan_team_identity.py",
+      "stage": "identity",
+      "role": "前置准备",
+      "purpose": "校验身份建议、预演影响，不发布新裁定或改比赛。",
+      "source_sha256": "456da24e594cd74bf533a54514cedca0ea5fc9af5054c8625614b6b02cfae3e2",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--config",
+        "--verify-run"
+      ]
+    },
+    {
+      "path": "scripts/plot_reliability_diagnostic.py",
+      "stage": "q4",
+      "role": "阶段材料",
+      "purpose": "绘制模拟失败诊断图，不能当真实比赛结论。",
+      "source_sha256": "76f5a54fcf47616b59df430944144e3aa8e66d42bd8969f3ee4b47189a62a610",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--refresh-layout"
+      ]
+    },
+    {
+      "path": "scripts/predict_future_matches.py",
+      "stage": "q8",
+      "role": "正式入口",
+      "purpose": "按固定配置发布赛前欧国联预测；不解析--help或--config。",
+      "source_sha256": "73869fb9cc23b5b35e209816dbd9a8f0ee08849df599c4ab423af9d01128b7e6",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/prepare_era_display_data.py",
+      "stage": "q1",
+      "role": "历史基线材料",
+      "purpose": "导出早期年代基线展示取数；默认路径不是当前成员确认版。",
+      "source_sha256": "b9c7037a04d87bf9725c5d64c52cfa613d1a61d005b2741b8e9606486d789d5c",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--audit",
+        "--manifest"
+      ]
+    },
+    {
+      "path": "scripts/prepare_joint_guard.py",
+      "stage": "q4",
+      "role": "前置准备",
+      "purpose": "准备第四问不使用赛果的分组保护及来源绑定。",
+      "source_sha256": "fd3266c26b415333cf6fb292980345f46c89aa4122ea3ae01239759b9ee8d522",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/prepare_region_mapping.py",
+      "stage": "q3",
+      "role": "前置准备",
+      "purpose": "整理第三问地理分组、关联、场数覆盖与核验，不计算胜率。",
+      "source_sha256": "d27a64593664adbe6995503b8b9be5567ee015ffb60e75fe2fba1f672a65c497",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--clean",
+        "--identity",
+        "--package",
+        "--q2",
+        "--root",
+        "--run",
+        "--run-root",
+        "--tag",
+        "run_dir"
+      ]
+    },
+    {
+      "path": "scripts/prepare_reliability.py",
+      "stage": "q4",
+      "role": "前置准备",
+      "purpose": "整理第四问目标、共同参考与设计，不计算标准误或区间。",
+      "source_sha256": "59d766ba5256dd1a1d759f559ff3717a963b73f031dd5a35d88a1c77bef2491c",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--config",
+        "--run-root"
+      ]
+    },
+    {
+      "path": "scripts/prepare_strength_stage6.py",
+      "stage": "q5",
+      "role": "前置准备",
+      "purpose": "登记第五问第六环节目标、参考与评分边际分布。",
+      "source_sha256": "bf0b05099bd4b01cbccb83ebbcda0c096d50e39b391ca76c05d3c68f06d39297",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--config"
+      ]
+    },
+    {
+      "path": "scripts/profile_reliability_fit.py",
+      "stage": "q4",
+      "role": "开发诊断",
+      "purpose": "检查第四问拟合驻点和约束参数剖面，不是置信区间。",
+      "source_sha256": "555417d8217011200c7c4fa88bdbbe6ebe16d702aec78e91947e6677fba1551d",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/profile_strength_global.py",
+      "stage": "q5",
+      "role": "开发诊断",
+      "purpose": "检查早期全球评分的计算规模，不是独立预测测试。",
+      "source_sha256": "6bc609084fd7deec7e4b003ca2a996d19663066be54c834871f5bf6fc20b6426",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/profile_strength_inference.py",
+      "stage": "q5",
+      "role": "开发诊断",
+      "purpose": "测试第五问双路线开发程序的等价性和成本，不作统计准入。",
+      "source_sha256": "3cced6bff308ae05f1b57b3b0d5b867bddbb3413e7de0a878f7fbac396e027bd",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--dates"
+      ]
+    },
+    {
+      "path": "scripts/profile_strength_inference_routes.py",
+      "stage": "q5",
+      "role": "开发诊断",
+      "purpose": "以同一模拟世界比较A/B两条路线的重放与成本。",
+      "source_sha256": "a816913e381818a35b23177ae5ab760cac94db7e1c13b01f7bbacf98b3364be2",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/refine_graph_chernoff.py",
+      "stage": "q5",
+      "role": "开发与方法验收",
+      "purpose": "改进第四问有界图路线并保留相应条件。",
+      "source_sha256": "15ba756ba41ed1cc75614ae4cec44160bfd84e45b793ecf6915e9719593680c9",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/refine_reliability.py",
+      "stage": "q4",
+      "role": "开发与方法验收",
+      "purpose": "运行第四问早期候选改进与完整设计试算，各版独立保存。",
+      "source_sha256": "44e636fa561fd5cb06ecaeb681589e3de45a00d5c279d435626b97e4f80f615c",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--config",
+        "--stage"
+      ]
+    },
+    {
+      "path": "scripts/refine_strength_mixture.py",
+      "stage": "q5",
+      "role": "开发与方法验收",
+      "purpose": "比较早期混合分支缩减规则，不按最终测试成绩选型。",
+      "source_sha256": "6dc7386e352143bfcb351521bdf28f50ed44482a04625dd9651734882b54192c",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/register_strength_confirmation_source.py",
+      "stage": "q5",
+      "role": "资料维护",
+      "purpose": "保存顺序推断理论原文及实际检索状态。",
+      "source_sha256": "8b5cc74af7eff3095fe92989402b8fbb02a095de6505f2a995b1df012c12c2d3",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/repair_composed_calibration.py",
+      "stage": "q5",
+      "role": "开发与方法验收",
+      "purpose": "比较概率形状修正与动态偏移组合，保留全部候选结果。",
+      "source_sha256": "56610215b7d1ba5508eaca6c6c06c545fb25a034bbbf3e08bc45aa43569fdf01",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--strict"
+      ]
+    },
+    {
+      "path": "scripts/repair_strength_calibration.py",
+      "stage": "q5",
+      "role": "开发与方法验收",
+      "purpose": "重放早期各版过去信息校正及选择规则，默认不是最终交接入口。",
+      "source_sha256": "f0d744591391fb5b4944f24911c3d18777ca13680ac2e7b7d4be24ba9df0dfe3",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--config",
+        "--extra",
+        "--strict"
+      ]
+    },
+    {
+      "path": "scripts/repair_strength_jump.py",
+      "stage": "q5",
+      "role": "开发与方法验收",
+      "purpose": "重新开发并重放跳变评分候选；精确复现旧采用版应使用归档重放。",
+      "source_sha256": "d84fe7cec582f0bef12aab060c228e2b0df9453fcf67efeec18ea8aef54355ee",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--model",
+        "--scope",
+        "--strict"
+      ]
+    },
+    {
+      "path": "scripts/repeat_strength_delivery.py",
+      "stage": "q5",
+      "role": "专门复现",
+      "purpose": "重复最终校正和评分接口，底层评分的完整重放另有入口。",
+      "source_sha256": "50c883ebc40ed6ec5e9fa8e4a55fc8f1299af7f08b2ca9add5a430d609fa694c",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/replay_archived_jump.py",
+      "stage": "q5",
+      "role": "专门复现",
+      "purpose": "使用归档实际源码重放底层评分并比较核心产物。",
+      "source_sha256": "2aba02884c6afbfe1b1766018fc25c5855f11dd7bc00f778af1dfbc2c0ab779e",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "folder"
+      ]
+    },
+    {
+      "path": "scripts/report_strength_inference.py",
+      "stage": "q5",
+      "role": "正式推断应用",
+      "purpose": "整理精度支持的第五问范围，分开30项参照与原54项未全准入。",
+      "source_sha256": "e3ddb2429b389b6be380ebc2f08c29c48e89bc14994c6a69ab98b1a6600c9874",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--phase"
+      ]
+    },
+    {
+      "path": "scripts/reproduce_strength_handoff.py",
+      "stage": "q5",
+      "role": "专门复现",
+      "purpose": "重复早期完整评分交接并记录原核心文件比较。",
+      "source_sha256": "0f27f8ae6dbbb9391b4a9995e9a8770825b20a32a1a479275577b5dd37e0fda6",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "directory"
+      ]
+    },
+    {
+      "path": "scripts/reproduce_strength_joint.py",
+      "stage": "q5",
+      "role": "专门复现",
+      "purpose": "重算共同分析核心、比较字节并恢复完整敏感性采用指针。",
+      "source_sha256": "f4ac38219688b38e43a97f86ff7333332066af207dd75d413e6114438ce21f9c",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/reproduce_strength_stage6_selected.py",
+      "stage": "q5",
+      "role": "专门复现",
+      "purpose": "重复两个代表敏感性拟合，不重跑全部13个。",
+      "source_sha256": "5a4579ce8e55f3238e5e440dbf2b3b42535a25dc4924f4bf1c9b34d1e94c046a",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--compare-only",
+        "--fit-only"
+      ]
+    },
+    {
+      "path": "scripts/run_strength_inference_final.py",
+      "stage": "q5",
+      "role": "正式长实验",
+      "purpose": "按冻结协议重放最终双路线比较，数值失败时严格恢复同日重试。",
+      "source_sha256": "d6aceb67f3c1f0330a8b804e2b357abec59e38c749f23ae76ffa11da7c5aa2eb",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--phase",
+        "--seed",
+        "--workers"
+      ]
+    },
+    {
+      "path": "scripts/seal_strength_q5_closeout.py",
+      "stage": "q5",
+      "role": "最终封存",
+      "purpose": "封存第五问当前说明、源码扩展、证据和材料，会写交付记录。",
+      "source_sha256": "0da4abbb038c701d07301fe3bf8e5239f62b7bd72d04360ed5b9d681f5df2e5d",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/select_reliability_joint.py",
+      "stage": "q4",
+      "role": "开发与方法验收",
+      "purpose": "从第四问开发检查选择候选，选择通过不等于最终验收通过。",
+      "source_sha256": "7ac5d16a9a61ca45132922aa7de70da0ceda77e5c901958a80566a93a9c650d1",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--config"
+      ]
+    },
+    {
+      "path": "scripts/select_strength_robust_sensitivity.py",
+      "stage": "q5",
+      "role": "阶段交接",
+      "purpose": "从预1980候选锁定稳健性参照，不按后期成绩选择。",
+      "source_sha256": "cc5066d5e7a5a0dd6d007ae86ed2b22c28e645349ca341ffa00967c593514d35",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/simulate_strength_context.py",
+      "stage": "q5",
+      "role": "开发与方法验收",
+      "purpose": "用已知实力模拟检查场地变化、连续变化与突然下滑。",
+      "source_sha256": "1b0654ca15675c989c141f5a77e859ab2c93e3a62ae0eb2cc067bc971575ee0f",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/simulate_strength_jump_repair.py",
+      "stage": "q5",
+      "role": "开发与方法验收",
+      "purpose": "用已知真值比较连续变化与两个跳变评分候选。",
+      "source_sha256": "31a1b5875484dd2b6fedd604c4c5e861f45a45d98de6ef26aadf5739059fb332",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/summarize_joint_handoff.py",
+      "stage": "q4",
+      "role": "阶段交接",
+      "purpose": "汇总第四问方法选择与完成范围，不生成实际比赛区间。",
+      "source_sha256": "7d2858acfde59b63cdf4123384a83e5a867bbb9378ed9618952f9814fc0cfff3",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/summarize_reliability_iterations.py",
+      "stage": "q4",
+      "role": "阶段交接",
+      "purpose": "裁定第四问早期迭代结果，不把失败路线自动升级为通过。",
+      "source_sha256": "cef1a0aa0c0a1c2aa5ceee78b8d03c9b39ccb26abbfa5b72d096855e26d2722a",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/sync_strength_q5_closeout.py",
+      "stage": "q5",
+      "role": "最终同步",
+      "purpose": "按实际核验结果同步第五问采用说明和材料路径，会改写导航文件。",
+      "source_sha256": "c473586a256b82c783c196766d0714bf8d0153647fb5f119ad97208e1217763d",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/validate_reliability.py",
+      "stage": "q4",
+      "role": "开发与方法验收",
+      "purpose": "执行第四问早期双路线开发与规模演算，不直接发布实际区间。",
+      "source_sha256": "92d13f4b016e74be07fe02c57cd51ad30b90481a1110734bd910362cf24d6eeb",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--config",
+        "--stage"
+      ]
+    },
+    {
+      "path": "scripts/validate_strength_inference.py",
+      "stage": "q5",
+      "role": "正式长实验",
+      "purpose": "生成统一标准答案并进行第五问两路线完整历史比较，按冻结阶段运行。",
+      "source_sha256": "342f33c6b25781bdb51c6aa8666635693f84cc58c6bfb0c71659b380d5230b1d",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--phase",
+        "--scenario",
+        "--workers"
+      ]
+    },
+    {
+      "path": "scripts/validate_unseen_strength_jumps.py",
+      "stage": "q5",
+      "role": "开发与方法验收",
+      "purpose": "用此前未用跳变尺度和种子作额外检查，不据此反复调参。",
+      "source_sha256": "cac4bb66bf9ab9680a34cd03145dfb307e8ffca4c754047d082db12c61348776",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/verify_region_analysis.py",
+      "stage": "q3",
+      "role": "核验",
+      "purpose": "用整数和精确分数从原比分独立重建第三问。",
+      "source_sha256": "1f434be9dcf1f8ea7a74c067f787038b406c9e604f79b90fd4e62207500301c4",
+      "has_local_argparse": true,
+      "local_argument_names": [
+        "--compare",
+        "--compare-statistics",
+        "--output",
+        "--root",
+        "--run"
+      ]
+    },
+    {
+      "path": "scripts/verify_region_preparation.py",
+      "stage": "q3",
+      "role": "核验",
+      "purpose": "按明确原件迁移记录核对第三问保留运行，不重写旧清单。",
+      "source_sha256": "e224342a8b20edb18bc1523634d72149df132ca6e33d95e9647d8061c07d0ac7",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/verify_strength_handoff.py",
+      "stage": "q5",
+      "role": "历史阶段核验",
+      "purpose": "核对首次评分试算的保存记录，不是最终采用模型的完整验证。",
+      "source_sha256": "b745062b79c6439a8e9c53eb2cfa26c517fcf42193f5b388813063f213b0064c",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    },
+    {
+      "path": "scripts/verify_strength_jump_reference.py",
+      "stage": "q5",
+      "role": "核验（含演算）",
+      "purpose": "用独立积分与计数参照核对跳变评分及下一场概率。",
+      "source_sha256": "271da966efa9b15f99712295435e7a7bc8f06eefa419fb7a8cc675c37b79e4a9",
+      "has_local_argparse": false,
+      "local_argument_names": []
+    }
+  ],
+  "validation_status": "passed",
+  "help_probe_results": [
+    {
+      "entry": "-m src.clean",
+      "argument": "--help",
+      "returncode": 0,
+      "help_displayed": true,
+      "stdout_sha256": "1367f4d0c453ddcf73e7faeb085746291749ec7ae02150ea09779595207257a5",
+      "stderr": "",
+      "research_job_requested": false
+    },
+    {
+      "entry": "-m src.strength.delivery",
+      "argument": "--help",
+      "returncode": 0,
+      "help_displayed": true,
+      "stdout_sha256": "3beaf01df1fcde8cb219e746b869609c6e7630277e46c3432cf9fa5965a487f6",
+      "stderr": "",
+      "research_job_requested": false
+    },
+    {
+      "entry": "scripts/analyze_confirmed_eras.py",
+      "argument": "--help",
+      "returncode": 0,
+      "help_displayed": true,
+      "stdout_sha256": "de6dd7c9e5ce25c6d0fcc1bb123170c523125383c5b2844b1d3e8889655b240f",
+      "stderr": "",
+      "research_job_requested": false
+    },
+    {
+      "entry": "scripts/analyze_history_window.py",
+      "argument": "--help",
+      "returncode": 0,
+      "help_displayed": true,
+      "stdout_sha256": "57f9034c93d0fb5bd70f806ebd997a8555e42236d40bf257286096821d899697",
+      "stderr": "",
+      "research_job_requested": false
+    },
+    {
+      "entry": "scripts/analyze_regional_stability.py",
+      "argument": "--help",
+      "returncode": 0,
+      "help_displayed": true,
+      "stdout_sha256": "c751fb87babd588181203f287cb2890742a4ffcca3921904ff49004936423d37",
+      "stderr": "",
+      "research_job_requested": false
+    },
+    {
+      "entry": "scripts/audit_future_predictions.py",
+      "argument": "--help",
+      "returncode": 0,
+      "help_displayed": true,
+      "stdout_sha256": "ed30be55b379e0545154f7510249ffe24d1917653714ecb159ab9514cd66372c",
+      "stderr": "",
+      "research_job_requested": false
+    }
+  ],
+  "research_results_changed": false,
+  "validation": {
+    "passed": true,
+    "failures": [],
+    "documented_command_count": 15,
+    "help_checks": 6,
+    "local_link_targets_checked": 1663,
+    "guide_anchors_checked": 10,
+    "missing_links": [],
+    "indexed_paths_checked": 421,
+    "adopted_manifest_hashes_checked": 9,
+    "scientific_outputs_recomputed": false,
+    "all_156_outputs_rehashed_again": false,
+    "source_or_configuration_changes": ""
+  },
+  "documented_commands": [
+    {
+      "command": ".\\.venv\\Scripts\\python.exe -m src.snapshot --verify --config config.json",
+      "entry": "src/snapshot.py",
+      "options_checked": true
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe -m src.audit --config config.json",
+      "entry": "src/audit.py",
+      "options_checked": true
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe -m src.clean --config config.json",
+      "entry": "src/clean.py",
+      "options_checked": true
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe scripts/adopt_membership_reviews.py --config config/membership_review_adoption.json",
+      "entry": "scripts/adopt_membership_reviews.py",
+      "options_checked": true
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe scripts/analyze_confirmed_eras.py --config config/confirmed_eras_reviewed.json",
+      "entry": "scripts/analyze_confirmed_eras.py",
+      "options_checked": true
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe scripts/analyze_tournaments.py --config config/tournaments.json",
+      "entry": "scripts/analyze_tournaments.py",
+      "options_checked": true
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe scripts/analyze_regions.py --config config/regions_study.json",
+      "entry": "scripts/analyze_regions.py",
+      "options_checked": true
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe -m scripts.analyze_reliability --config config/reliability_analysis.json --stage all",
+      "entry": "scripts/analyze_reliability.py",
+      "options_checked": true
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe -m src.strength.delivery",
+      "entry": "src/strength/delivery.py",
+      "options_checked": true
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe scripts/analyze_strength_joint.py --config config/strength_joint.json --stage analysis",
+      "entry": "scripts/analyze_strength_joint.py",
+      "options_checked": true
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe scripts/analyze_history_window.py --stage outcome --config config/history_window_analysis.json --resume",
+      "entry": "scripts/analyze_history_window.py",
+      "options_checked": true
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe scripts/analyze_regional_effectiveness.py --config config/regional_effectiveness.json",
+      "entry": "scripts/analyze_regional_effectiveness.py",
+      "options_checked": true
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe scripts/analyze_regional_diagnostics.py --config config/regional_effectiveness_diagnostics.json",
+      "entry": "scripts/analyze_regional_diagnostics.py",
+      "options_checked": true
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe scripts/analyze_regional_stability.py --config config/regional_effectiveness_stability.json",
+      "entry": "scripts/analyze_regional_stability.py",
+      "options_checked": true
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe scripts/predict_future_matches.py",
+      "entry": "scripts/predict_future_matches.py",
+      "options_checked": true
+    }
+  ],
+  "current_document_sha256": {
+    "README.md": "c812f8b884263554617b67b4770a3ac804971ad2e88517a87937e98ca08bd02a",
+    "scripts/README.md": "a4a6461fdda3bacdc584dfa08128409a5da365c871d0f941536f94345b95adac",
+    "scripts/脚本用途目录.md": "fec88b973cb3f3857bcab53c2b222941fda8589d552849383e040d06cbe186a4",
+    "src/README.md": "1898b661a84b6de62a1413ddc0c8caa15fb34daf0b542735b1a34b1d45d6adf8",
+    "研究/README.md": "4dee870aade6b0b96c0f2fb4329d6eb59430a4d13d67f58d7ef089bcbf8a0a35",
+    "研究/00_数据再次确认/README.md": "254e5e0d445ae8d53991b2b66a78e71d6aaa124bd89e5d3d5129b046e791e031",
+    "研究/01_年代变化/README.md": "c6884203347343691231420b85702972d39366536f8d3ef1c2538d5893fe2b0f",
+    "研究/02_赛事类型差异/README.md": "9994261d4e0bc1e42bdbe48d6e198c67c81aa687f0dce3bcaa85a29330e04ec8",
+    "研究/03_地域差异/README.md": "d6ddfea185fbd638c2e0415683682795c87ef9cd319b87a30f5e21108487237a",
+    "研究/04_共同可靠性/README.md": "f29af303c108bac6f47d920ec6a144a87f28aa5bf558663cd3d573bc381f5696",
+    "研究/05_赛前实力/README.md": "19691cc920c1396477da6401ef09b2a6703e091d9d19c92e77ae3711efc4df00",
+    "研究/06_历史参考周期/README.md": "e586cda9a9d656819eda502c34f85c587f825c1dc738ee978d5cce289ac6213d",
+    "研究/07_地区有效性/README.md": "5a07d4fc82cc65af4120e70e344225b870a5593ed117f247b41062dda9f9b0d7",
+    "研究/08_未来比赛预测/README.md": "e2feaa1252d5f09b4f6be63cf3a8fc7eef19d58456445c91b9491ce09127e0b2",
+    "研究/09_预测优化展望/README.md": "0a819652da70f25d669ccf73091727dd5150b02e24bb504a98a1c38a497f8e64",
+    "文档/02_环境配置/克隆仓库后的快速上手.md": "0a7a916777102e6e62dced937442520be2babdc5393d9254cdac4f89b59fe92e",
+    "文档/05_团队协作/研究收尾与撰写交接.md": "5ee7fef93189ab6bc4f83f754730ae57c34308e86ff43885a06272ee6797f64f",
+    "文档/05_团队协作/论文与汇报支撑材料索引.md": "a39d9af030ae938371e4fd27ecb7ffd7841c1256bde78862741c4aea71b3a3ac",
+    "paper/README.md": "8ab5d79714a7a9ff8b8bc5022fa8375bfeb24fb4967ecb8c245c813aad6d3424"
+  },
+  "mutable_log_reference": "R20261103-03; research log is append-only and intentionally not hash-bound."
+}

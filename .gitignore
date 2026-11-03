@@ -33,3 +33,6 @@ Thumbs.db
 # NOTE: data/raw/ (frozen snapshot), data/processed/, data/external/ and
 # outputs/figures|tables|logs are deliberately NOT ignored:
 # the snapshot and results must be committed so the project runs offline.
+
+# LaTeX local compilation products; keep TeX/Bib sources versioned.
+/paper/build/
