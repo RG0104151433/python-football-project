@@ -61,6 +61,17 @@
       "paper_entry": "paper/main.tex",
       "paper_readme": "paper/README.md",
       "paper_status": "skeleton_only_not_written",
+      "paper_asset_review": {
+        "decision_log_id": "R20261103-04",
+        "scope": "course_paper_only_not_presentation_or_new_research",
+        "status": "requirements_and_assets_reviewed_outline_proposed",
+        "requirements_original_images_viewed": 10,
+        "plan": "paper/论文要求核对与结构规划.md",
+        "review": "文档/04_整理记录/论文资产核对_20261103.json",
+        "formal_body_written": false,
+        "outline_owner_review": "pending",
+        "new_research_required_before_drafting": false
+      },
       "paper_compilation_passed": false,
       "paper_compilation_note": "No usable TeX Live tools detected; bundled Tectonic smoke compile failed because its bundle was unavailable. No paper PDF compiled.",
       "figures_selected": 0,

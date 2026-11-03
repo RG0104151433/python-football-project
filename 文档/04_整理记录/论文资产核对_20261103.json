@@ -1,0 +1,235 @@
+{
+  "decision_log_id": "R20261103-04",
+  "checked_at_utc": "2026-11-03T05:07:23.578947+00:00",
+  "executor": "Codex AI",
+  "human_review": false,
+  "scope": "paper requirements and materials only; excludes oral/HTML delivery and new research",
+  "original_images": [
+    {
+      "path": "参考资料/课程原始截图/微信图片_20260929151833_45_315.jpg",
+      "sha256": "9c448d9486c22c4971562db11f6d3938d4429b34e6dd6402b5533574bbae715b",
+      "visually_viewed": true
+    },
+    {
+      "path": "参考资料/课程原始截图/微信图片_20260929224329_85_315.jpg",
+      "sha256": "1ba8db567b00740718a915971789fae9b69f46e4401003a34d0ba01e8ff3a1bc",
+      "visually_viewed": true
+    },
+    {
+      "path": "参考资料/课程原始截图/微信图片_20260929224329_86_315.jpg",
+      "sha256": "ea82d80965f5c8e83c7266da58f6dcae47cea14e9c529208a9cd5e98cb20b51a",
+      "visually_viewed": true
+    },
+    {
+      "path": "参考资料/课程原始截图/微信图片_20260929224329_87_315.jpg",
+      "sha256": "eca48ffc96c0cfddaa8056303b27830f23b10a0a2afa6963cf6e6b1075b853fa",
+      "visually_viewed": true
+    },
+    {
+      "path": "参考资料/课程原始截图/微信图片_20260929224329_88_315.jpg",
+      "sha256": "dad70d780bf32ed9492e41cea3b3feefeac525474a36405f23d1f5804451cee4",
+      "visually_viewed": true
+    },
+    {
+      "path": "参考资料/课程原始截图/微信图片_20260929224329_89_315.jpg",
+      "sha256": "5341a818797b1d9c04143cf20bee63a3a9522cd74ad5fd6e4daf9242b6b2ae9a",
+      "visually_viewed": true
+    },
+    {
+      "path": "参考资料/课程原始截图/微信图片_20260929224329_90_315.jpg",
+      "sha256": "4d11e0cd5dbb15932148a509b09bdfa502df8e1472285c0e4b99a49ba8885f87",
+      "visually_viewed": true
+    },
+    {
+      "path": "参考资料/课程原始截图/微信图片_20260929224329_91_315.jpg",
+      "sha256": "f31d40842d415fe68609f2f5196deaac3d7b2c8f4636eef0d73cb218a89c4d11",
+      "visually_viewed": true
+    },
+    {
+      "path": "参考资料/课程原始截图/微信图片_20260929224329_92_315.jpg",
+      "sha256": "d6c1992ea518172119cef6a784f2cb766c9a27c1b6c14e7ad37f2f8b89251ed5",
+      "visually_viewed": true
+    },
+    {
+      "path": "参考资料/课程原始截图/微信图片_20260929224329_93_315.jpg",
+      "sha256": "b9f6f4216bbf78efc61bbf92a081f0815ff3be562bcf4278a5571306456a4533",
+      "visually_viewed": true
+    }
+  ],
+  "original_image_count": 10,
+  "asset_categories": {
+    "relatively_complete": [
+      "data_scope_and_versions",
+      "method_and_implementation_materials",
+      "adopted_results_and_interpretation",
+      "bounded_checks_failures_and_limits",
+      "prospective_application_and_outlook"
+    ],
+    "materials_not_assembled": [
+      "introduction_story",
+      "method_chapter",
+      "results_and_figure_selection",
+      "discussion_and_conclusion"
+    ],
+    "fragmented": [
+      "related_work_and_method_positioning",
+      "citation_metadata_chain",
+      "cross_stage_notation_parameters_and_evaluation_setup",
+      "own_contribution_and_implementation_sources",
+      "paper_data_description_consistency"
+    ],
+    "formal_artifact_missing": [
+      "completed_body_and_abstract",
+      "confirmed_final_title_and_author_information",
+      "populated_bibliography_and_intext_citations",
+      "adopted_paper_figures_and_captions",
+      "compiled_paper_pdf"
+    ]
+  },
+  "source_records": 54,
+  "local_method_pdf_files": 18,
+  "source_status_does_not_imply_full_reading": true,
+  "later_q9_citation_examples_not_in_source_registry": [
+    "Guo",
+    "Dixon",
+    "Koopman"
+  ],
+  "raw_csv_inventory": {
+    "rows": 49945,
+    "earliest": "1872-11-30",
+    "latest": "2026-10-06"
+  },
+  "upstream_readme_reports_old_row_count": 49459,
+  "upstream_readme_not_edited": true,
+  "code_quantity_sample": {
+    "path": "src/strength/collapsed_jump.py",
+    "physical_lines": 234,
+    "nonblank_noncomment_nondocstring_lines": 204
+  },
+  "bibliography_formal_entries": 0,
+  "selected_paper_image_files": [],
+  "tex_body_and_bib_sha256": {
+    "paper/main.tex": "1cc8e152de62e2f5669e2b0dfbd5085ae84a4f5bde4d602822cc6190b8540386",
+    "paper/sections/discussion.tex": "25c69e9b8e275453bcd0bd11839c460fac463a36184ed6ddfab309d26116de69",
+    "paper/sections/introduction.tex": "a45c311da7f9055fa54313949610c9d5f06a0a6e724f27ef6101eb6c93468ba7",
+    "paper/sections/method.tex": "c57efbc30fcb52ced02223bd44d31c4db336fe4cff24884956afaeb1dcf5cb9d",
+    "paper/sections/results.tex": "c7f9b73e512e69ca188d7d1506b850b3dae3eb6447b6cfb6896b2a660b13e35c",
+    "paper/references.bib": "e7b7e117a1ed65184b863b20e98d2678432444c20cc5e6b589e0a4e32bd990d8"
+  },
+  "formal_body_still_placeholder": true,
+  "evidence": {
+    "teacher_project_requirements": {
+      "path": "参考资料/课程原始截图/微信图片_20260929224329_88_315.jpg",
+      "sha256": "dad70d780bf32ed9492e41cea3b3feefeac525474a36405f23d1f5804451cee4"
+    },
+    "teacher_main_template": {
+      "path": "参考资料/课程原始截图/微信图片_20260929224329_89_315.jpg",
+      "sha256": "5341a818797b1d9c04143cf20bee63a3a9522cd74ad5fd6e4daf9242b6b2ae9a"
+    },
+    "teacher_discussion_references": {
+      "path": "参考资料/课程原始截图/微信图片_20260929224329_90_315.jpg",
+      "sha256": "4d11e0cd5dbb15932148a509b09bdfa502df8e1472285c0e4b99a49ba8885f87"
+    },
+    "dataset_manifest": {
+      "path": "data/raw/manifest.json",
+      "sha256": "cdf515adfc61471f73acfce534e94b27639702e76a05c16c5dff88215732288f"
+    },
+    "upstream_readme": {
+      "path": "data/raw/international_results/README.md",
+      "sha256": "0d50b5f6fe2b658eba52a4477e4e48af6ca61e89e2c5265b153e3c12d7305b76"
+    },
+    "upstream_license": {
+      "path": "data/raw/international_results/LICENSE",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    "study_scope": {
+      "path": "研究/00_数据再次确认/README.md",
+      "sha256": "254e5e0d445ae8d53991b2b66a78e71d6aaa124bd89e5d3d5129b046e791e031"
+    },
+    "source_registry": {
+      "path": "参考资料/方法文献/sources.json",
+      "sha256": "aa8bb52209f51444badcc5a4ce8c1f59b1c524f1851a6bf11f8d9cf72374ed13"
+    },
+    "q5_paper_notes": {
+      "path": "outputs/logs/strength_q5_closeout/q5-closeout-1c4c593487304afa0f6a/paper_notes.md",
+      "sha256": "e1cb6dc479abd64b95a80e8ab711a6c14a2b2536dbc749f23e0b144981e93c2e"
+    },
+    "q6_paper_support": {
+      "path": "outputs/logs/history_window_closeout/q6-closeout-750d3ed8ec54c1309358/paper_support.json",
+      "sha256": "4fe5bcf902268dd991a2172739ac108e628560ecf4aa2c162d85e336bfff6413"
+    },
+    "q7_paper_support": {
+      "path": "outputs/logs/regional_effectiveness/q7-closeout-f414fd96ad1b3133648e/paper_support.json",
+      "sha256": "45c3ce06f66100881e1472756d2b968e843ded5047dae468bd3e25d520df18bc"
+    },
+    "q8_paper_support": {
+      "path": "outputs/logs/future_predictions/q8-closeout-7bf020e93213562df8de/paper_support.json",
+      "sha256": "07bcbc12da3ceaa2ffd0e8e16b95c4327c36d16dc416004d14397c29867f6eac"
+    },
+    "q9_outlook": {
+      "path": "研究/09_预测优化展望/README.md",
+      "sha256": "0a819652da70f25d669ccf73091727dd5150b02e24bb504a98a1c38a497f8e64"
+    },
+    "code_evidence": {
+      "path": "src/strength/collapsed_jump.py",
+      "sha256": "728e598b117bb47d6598264c0db2b0711e9590a3eb675812bb5980ee748e92e4"
+    },
+    "optimizer_evidence": {
+      "path": "src/strength_joint/model.py",
+      "sha256": "7c1410a84e7f224877892568a6359edb0ca1c766da5041ac1d14cf0e71698dc9"
+    },
+    "plotting_evidence": {
+      "path": "src/strength_q5_closeout.py",
+      "sha256": "253724e6de17ff6e2f3ba9b8ffe7b151389a5083ef6ea9b063cd7ac0df7b2d84"
+    },
+    "paper_main": {
+      "path": "paper/main.tex",
+      "sha256": "1cc8e152de62e2f5669e2b0dfbd5085ae84a4f5bde4d602822cc6190b8540386"
+    },
+    "paper_bib": {
+      "path": "paper/references.bib",
+      "sha256": "e7b7e117a1ed65184b863b20e98d2678432444c20cc5e6b589e0a4e32bd990d8"
+    },
+    "paper_figure_registry": {
+      "path": "paper/图表来源说明.md",
+      "sha256": "ac43a4c9359994bd020e0c62a654fe145cb151311e6005984a727754f2db0d63"
+    },
+    "paper_plan": {
+      "path": "paper/论文要求核对与结构规划.md",
+      "sha256": "c5cdaabea879722c57c814f06361cb5d4ed6d2001b187fec21f6102d3b725bdd"
+    },
+    "material_index": {
+      "path": "文档/05_团队协作/论文与汇报支撑材料索引.md",
+      "sha256": "bd6d10868aadd2ae89284d90ac32d029decf8a1236deb9c0723d45c5139d07af"
+    },
+    "prior_compile_status": {
+      "path": "文档/04_整理记录/仓库整理记录_20261103.json",
+      "sha256": "9d0570d26bb2ac40ec5f80e5561f2d5b60b53657cc8bec098cc5fbefa7550c3b"
+    }
+  },
+  "outline_status": "proposed_for_owner_review_not_teacher_requirements",
+  "new_experiments_required_before_drafting": false,
+  "research_runs_performed": false,
+  "new_figures_created": false,
+  "tex_body_modified": false,
+  "new_reference_entries_written": false,
+  "paper_compile_attempted_this_task": false,
+  "validation": {
+    "status": "passed",
+    "local_link_targets_checked": 1080,
+    "missing_links": [],
+    "indexed_paths_checked": 424,
+    "missing_indexed_paths": [],
+    "tex_body_and_bib_unchanged": true,
+    "source_or_config_changes": "",
+    "external_urls_or_all_fragment_anchors_reverified": false
+  },
+  "current_document_sha256": {
+    "paper/论文要求核对与结构规划.md": "c5cdaabea879722c57c814f06361cb5d4ed6d2001b187fec21f6102d3b725bdd",
+    "paper/README.md": "c310684df45a9653e59bed9fa8f2e72a0bc6ee3c1665548ebb7c4e21ca5ecea9",
+    "README.md": "26386a201d5a63d8211a8efbf133be5af20a24d169064aaa09b7e467fb9396ea",
+    "文档/05_团队协作/论文与汇报支撑材料索引.md": "bd6d10868aadd2ae89284d90ac32d029decf8a1236deb9c0723d45c5139d07af",
+    "文档/05_团队协作/研究收尾与撰写交接.md": "aeffe28614aaea845aaf9b275a19f170bb0ca83f027c185af9428beec9098506",
+    "研究/pipeline_state.json": "d8289754a998a1f1a820ce88a7228f8c1ccfcd706a15f951efef62500de02c86"
+  }
+}
