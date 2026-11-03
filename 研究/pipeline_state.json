@@ -50,6 +50,22 @@
   ],
   "research_to_writing": {
     "decision_log_id": "R20261102-22",
+    "delivery_language": {
+      "decision_log_id": "R20261103-06",
+      "source": "explicit_project_owner_course_requirement",
+      "paper": "English",
+      "presentation": "English",
+      "english_tex_scaffold_prepared": true,
+      "final_english_paper_complete": false,
+      "final_english_figures_and_presentation_complete": false,
+      "historical_chinese_research_materials_retained": true
+    },
+    "independent_review_entry": {
+      "decision_log_id": "R20261103-06",
+      "path": "REVIEW_START_HERE.md",
+      "scope": "neutral_navigation_and_reporting_only",
+      "reviewer_verdict_recorded_by_this_task": false
+    },
     "current_phase": "code_confirmation_presentation_and_course_paper",
     "course_research_scope_closed": true,
     "ready_for_writing": true,
@@ -70,6 +86,10 @@
         "review": "文档/04_整理记录/论文资产核对_20261103.json",
         "formal_body_written": false,
         "outline_owner_review": "pending",
+        "outline_revision_decision_log_id": "R20261103-06",
+        "preferred_outline": "Add_Data_and_Study_Design_while_retaining_all_required_template_sections",
+        "strict_template_fallback": "Keep_five_required_parts_and_place_data_and_study_design_at_start_of_Method",
+        "revised_outline_applied_to_tex_sections": false,
         "new_research_required_before_drafting": false
       },
       "paper_compilation_passed": false,
