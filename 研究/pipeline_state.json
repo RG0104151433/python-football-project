@@ -128,7 +128,22 @@
     "actual_member_review_complete": false,
     "projector_and_teacher_html_acceptance_complete": false,
     "pending_delivery": ["targeted_formal_environment_reproduction", "same_version_figures_and_citations", "integrated_group_presentation", "course_paper", "actual_contributions_and_person_device_acceptance", "submission_packages"],
-    "deferred_extensions": ["actual_november_results_and_rolling_versions", "Q9_model_implementation", "Q10_club_experiments", "out_of_scope_global_completeness_certification"]
+    "deferred_extensions": ["actual_november_results_and_rolling_versions", "Q9_model_implementation", "Q10_club_experiments", "out_of_scope_global_completeness_certification"],
+    "writing_preparation": {
+      "decision_log_id": "R20261105-02",
+      "structure_review": "paper/论文规划审查与开工准备_v2_20261105.md",
+      "five_part_research_spine": true,
+      "draft_figures": 5,
+      "figure_manifest": "paper/figures/manifest.json",
+      "citation_candidates": "paper/citation_candidates.md",
+      "citation_checker": "paper/check_citations.py",
+      "quick_check": "quick_check.py",
+      "figure_generator": "paper/make_paper_figures.py",
+      "task_board": "文档/05_团队协作/论文写作任务板_20261105.md",
+      "paper_body_written": false,
+      "final_figures_selected": false,
+      "references_verified": 0
+    }
   },
   "numbering_decision": {
     "date": "2026-10-26",

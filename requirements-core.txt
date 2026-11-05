@@ -1,0 +1,10 @@
+# Minimal runtime for the research code and the paper checks.
+# The full machine freeze remains in requirements.txt; use this file when the
+# grading machine does not need Jupyter/Seaborn/scikit-learn.
+#
+# quick_check.py itself uses only the Python standard library.
+
+numpy>=2.0
+scipy>=1.13
+matplotlib>=3.8
+pytest>=8

@@ -1,0 +1,83 @@
+{
+  "status": "draft_candidates_not_final_selection",
+  "generated_at_utc": "2026-11-05T04:20:11.016186+00:00",
+  "generator": "paper/make_paper_figures.py",
+  "generator_sha256": "c47955a56cf56f302faa39ffe2086648df726fc85d69cfe54ed21c9cc3b13dca",
+  "figures": [
+    {
+      "stem": "fig2_era_rates",
+      "pdf": {
+        "path": "paper/figures/fig2_era_rates.pdf",
+        "sha256": "51cb81a6c293b2b7d7e26bfa30b6f0f4cd57fedd3b4be7836c902a6dadd6421b"
+      },
+      "png": {
+        "path": "paper/figures/fig2_era_rates.png",
+        "sha256": "fd393b215ccf123017d2c0f0608761b72de82922730bfcbe2183bdc2c972c9d5"
+      },
+      "sources": [
+        "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_estimates.csv",
+        "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_summary.csv"
+      ]
+    },
+    {
+      "stem": "fig3_model_comparison",
+      "pdf": {
+        "path": "paper/figures/fig3_model_comparison.pdf",
+        "sha256": "a1c92c2b413d0be13ed799e5eebbebb31a4621599447b948a75d38dee7cbbd86"
+      },
+      "png": {
+        "path": "paper/figures/fig3_model_comparison.png",
+        "sha256": "accf0d3c3cc8f29541a1ca65635094a8b9070f140bc8de0636525bbd6c4019e4"
+      },
+      "sources": [
+        "outputs/tables/strength_joint/rolling-prediction-4722c7b1b5f63cef35e3/yearly_metrics.csv"
+      ]
+    },
+    {
+      "stem": "fig4_history_windows",
+      "pdf": {
+        "path": "paper/figures/fig4_history_windows.pdf",
+        "sha256": "82fafb390fbd539adb59a135f6fd31fb9a9bad13fab77dd44ab10cf85a42f5f8"
+      },
+      "png": {
+        "path": "paper/figures/fig4_history_windows.png",
+        "sha256": "e57f8ce53a3ccb96595df76d2b303fa53d16d30f5158062b344c4913c3b1e8f6"
+      },
+      "sources": [
+        "outputs/tables/history_window/joint-review-4888d987645daee73e19/combination_metrics.csv",
+        "outputs/tables/history_window/joint-review-4888d987645daee73e19/cost_components.csv"
+      ]
+    },
+    {
+      "stem": "fig5_regional_metrics",
+      "pdf": {
+        "path": "paper/figures/fig5_regional_metrics.pdf",
+        "sha256": "0d7d4fd5c4dd1dd7d72989d5efc8bc85a4b2806e4eb088a8c4f6e05ffc5b0294"
+      },
+      "png": {
+        "path": "paper/figures/fig5_regional_metrics.png",
+        "sha256": "68de56d0be6fca83770aa1e8405eed4d5a9999aa9d4863de6b3f01f1301b6d0e"
+      },
+      "sources": [
+        "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_metrics.csv"
+      ]
+    },
+    {
+      "stem": "fig6_forecast_examples",
+      "pdf": {
+        "path": "paper/figures/fig6_forecast_examples.pdf",
+        "sha256": "65e13052a1be177eaf070581a2d561ba770ca7cb381538f2ced84b85bc1eb12e"
+      },
+      "png": {
+        "path": "paper/figures/fig6_forecast_examples.png",
+        "sha256": "b09b8f19ad8abb5cdc8f63cf4e024d6631e665b8d821b253bbe1e34ed114e0d4"
+      },
+      "sources": [
+        "outputs/tables/future_predictions/future-unl-61f639846da9193d4cca/forecasts.csv"
+      ]
+    }
+  ],
+  "manual_tasks": [
+    "fig1_study_design"
+  ]
+}

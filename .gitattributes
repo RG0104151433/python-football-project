@@ -4,6 +4,8 @@
 *.cjs text eol=lf
 *.json text eol=lf
 *.md text eol=lf
+*.tex text eol=lf
+*.bib text eol=lf
 requirements.* text eol=lf
 # Preserve registered input/artifact bytes; override extension defaults above.
 data/raw/** -text
