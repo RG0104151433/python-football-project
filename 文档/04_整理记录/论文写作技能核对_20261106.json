@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-06",
+  "executor": "Codex (AI)",
+  "human_review": "not performed",
+  "source_pdf": {
+    "path": "C:/Users/EasonG/Desktop/howIwritepapers-MichaelLevin.pdf",
+    "physical_pages": 19,
+    "sha256": "2b76ec1cce2dbdf3427ada9c33955f5621ea5adac6e691062d2b65b2986db81d"
+  },
+  "checks": {
+    "quick_validate_repository": "passed",
+    "quick_validate_installed": "passed",
+    "installed_files_match": true,
+    "skill_lines": 91,
+    "skill_relative_references_exist": true,
+    "ui_yaml_and_invocation": "passed",
+    "pdf_text": "all 19 pages read",
+    "pdf_visual": "physical page 7 rendered and inspected"
+  },
+  "files": [
+    {
+      "repository_path": "文档/05_团队协作/论文写作技能/levin-paper-writing/agents/openai.yaml",
+      "installed_path": "C:/Users/EasonG/.codex/skills/levin-paper-writing/agents/openai.yaml",
+      "sha256": "0a3e7e5977a83b9e781222008d2c63a66d279d81312447ea493161e5c92d5798"
+    },
+    {
+      "repository_path": "文档/05_团队协作/论文写作技能/levin-paper-writing/references/source-notes.md",
+      "installed_path": "C:/Users/EasonG/.codex/skills/levin-paper-writing/references/source-notes.md",
+      "sha256": "c1774584b104789965957d727bf07043de2a88192203ce740c27acfa8e9aee85"
+    },
+    {
+      "repository_path": "文档/05_团队协作/论文写作技能/levin-paper-writing/SKILL.md",
+      "installed_path": "C:/Users/EasonG/.codex/skills/levin-paper-writing/SKILL.md",
+      "sha256": "570fdae275ece9e43c5f2c9dad1c62148807550948bc2d91db458a38eaabfed4"
+    }
+  ],
+  "limitations": [
+    "No end-to-end invocation in a new chat; current session skill catalog is not refreshed by this check.",
+    "No expert/human review, research computation, paper compilation or source-blog verification.",
+    "Repository changes are uncommitted."
+  ]
+}
