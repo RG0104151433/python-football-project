@@ -184,3 +184,8 @@ Results 3.2 now presents the strength estimator itself: selected pre-match state
 The eight-candidate composition report is outputs/logs/strength/composed-calibration-8176105d420b3f2400eb/report.json. Its two admitted candidates' losses 0.8909487480 and 0.8912580894 are weighted over the four accepted_study periods (24,917), rather than all_learning. This denominator has been rechecked in the presentation generator; the original scientific report remains unchanged. Numerical-reference, cold-start, initialization, simulation, replay, and test counts are prior recorded checks, not newly rerun experiments. Development and failed versions remain indexed in 研究/05_赛前实力/第二环节_验收与正式交接.md; final contrast-route choices are indexed in 研究/05_赛前实力/第五问_收尾与下一问交接.md.
 
 Current manuscript and PDF fingerprints and the scope of the writing checks are in paper/method_expansion_manifest.json. Earlier dated draft/review manifests retain historical fingerprints and must not be used to authenticate this revision. No external FIFA/Elo evaluation or new prospective accuracy is claimed.
+
+
+## Separate language revision (R20261107-10)
+
+The preferred reading version is paper/language_revision_20261107/main.tex, compiled to its own build/main.pdf. The previous paper/main.tex, sections, and build/main.pdf remain unchanged for comparison. Figures and generated table rows are shared from paper/figures and retain their recorded hashes. The language_changes.diff and revision_manifest.json in the revision directory record the edits and checks. This revision changes wording and paragraph organization without rerunning the models or changing numerical claims, displayed equations, citation sequences, or study scope. Both PDFs have 22 pages.

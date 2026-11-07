@@ -1,0 +1,51 @@
+[
+  {
+    "file": "main.tex",
+    "numbers_unchanged": true,
+    "displayed_equations_unchanged": true,
+    "citation_sequence_unchanged": true,
+    "labels_unchanged": true
+  },
+  {
+    "file": "sections/discussion.tex",
+    "numbers_unchanged": true,
+    "displayed_equations_unchanged": true,
+    "citation_sequence_unchanged": true,
+    "labels_unchanged": true
+  },
+  {
+    "file": "sections/introduction.tex",
+    "numbers_unchanged": true,
+    "displayed_equations_unchanged": true,
+    "citation_sequence_unchanged": true,
+    "labels_unchanged": true
+  },
+  {
+    "file": "sections/method.tex",
+    "numbers_unchanged": true,
+    "displayed_equations_unchanged": true,
+    "citation_sequence_unchanged": true,
+    "labels_unchanged": true
+  },
+  {
+    "file": "sections/model_selection.tex",
+    "numbers_unchanged": true,
+    "displayed_equations_unchanged": true,
+    "citation_sequence_unchanged": true,
+    "labels_unchanged": true
+  },
+  {
+    "file": "sections/results.tex",
+    "numbers_unchanged": true,
+    "displayed_equations_unchanged": true,
+    "citation_sequence_unchanged": true,
+    "labels_unchanged": true
+  },
+  {
+    "file": "sections/strength_development.tex",
+    "numbers_unchanged": true,
+    "displayed_equations_unchanged": true,
+    "citation_sequence_unchanged": true,
+    "labels_unchanged": true
+  }
+]

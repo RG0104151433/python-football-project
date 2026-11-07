@@ -70,13 +70,13 @@
     "course_research_scope_closed": true,
     "ready_for_writing": true,
     "writing_setup": {
-      "decision_log_id": "R20261107-09",
+      "decision_log_id": "R20261107-10",
       "root_navigation_simplified": true,
       "stage_reading_overviews_prepared": 10,
       "paper_directory": "paper",
-      "paper_entry": "paper/main.tex",
+      "paper_entry": "paper/language_revision_20261107/main.tex",
       "paper_readme": "paper/README.md",
-      "paper_status": "expanded_method_argument_and_strength_results_working_paper_authors_deferred",
+      "paper_status": "separate_academic_language_revision_complete_authors_and_submission_pending",
       "paper_asset_review": {
         "decision_log_id": "R20261103-04",
         "scope": "course_paper_only_not_presentation_or_new_research",
@@ -99,8 +99,8 @@
         "new_research_required_before_drafting": false
       },
       "paper_compilation_passed": true,
-      "paper_compilation_scope": "Expanded argument, strength presentation and paragraph/caption layout; no new model execution",
-      "paper_compilation_note": "R20261107-09: 22 pages, 7 figures, 5 tables, 12 equations, 15 references; prefix pages visually checked and byte-identical after final layout edit; final tail checked. Author-side verification only.",
+      "paper_compilation_scope": "Language revision compiled independently; isolated citation/numerical/equation preservation and layout checks",
+      "paper_compilation_note": "R20261107-10: separate 22-page language version compiled and all pages reviewed; original 18 source/PDF/asset hashes unchanged; no model rerun.",
       "figures_selected": 7,
       "figures_selection_scope": "Flow, historical overview, four-team strength-state illustration, joint comparison, windows, regional diagnostics, issued forecasts",
       "bibliography_entries_verified": 15,
@@ -121,15 +121,18 @@
       },
       "adopted_research_results_changed": false,
       "current_working_preview": {
-        "decision_log_id": "R20261107-09",
-        "manifest": "paper/method_expansion_manifest.json",
-        "pdf": "paper/build/main.pdf",
+        "decision_log_id": "R20261107-10",
+        "manifest": "paper/language_revision_20261107/revision_manifest.json",
+        "pdf": "paper/language_revision_20261107/build/main.pdf",
         "pages": 22,
         "figures": 7,
         "tables": 5,
         "displayed_equations": 12,
-        "final_paper": false
-      }
+        "final_paper": false,
+        "original_preserved": true
+      },
+      "comparison_original_entry": "paper/main.tex",
+      "comparison_original_preview": "paper/build/main.pdf"
     },
     "new_research_experiments_required_before_writing": false,
     "scope": "Q1_to_Q7_declared_adopted_results; Q8_pre_match_predictions; Q9_document_only_discussion; Q10_actual_experiments_optional",

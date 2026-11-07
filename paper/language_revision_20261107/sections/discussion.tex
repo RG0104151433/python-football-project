@@ -1,0 +1,47 @@
+% !TeX root = ../main.tex
+% Language revision R20261107-10; numerical and inferential scope retained.
+\section{Discussion and Conclusion}
+\subsection{Findings and Contributions}
+
+For RQ1, adjustment for era composition reduced the friendly--other-match gap, and geographic comparisons depended on the opponents represented. Several model-conditional ranges were too broad to resolve the direction of a difference. These comparisons provide a common descriptive basis for the strength-adjusted analysis, without identifying a pure home effect or a universal regional ranking.
+
+For RQ2, adding strength to background produced a larger aggregate loss reduction than adding context to strength. The relative reductions have different denominators and cannot be interpreted as additive shares of information or as results for every subgroup with a high home-win rate. The model draws on dynamic paired comparisons~\citep{glickman1999dynamic}, with study-specific jump dynamics, information weights, and an outcome model. The empirical comparison uses internal predictors; FIFA rankings, Elo, and other external systems were not evaluated.
+
+For RQ3, cumulative history performed best in the main comparison among the tested choices and remains the default. A shorter outcome-fitting window reduced computation at a small predictive cost. Regional diagnostics qualified the aggregate context gain: in Africa, its direction was sensitive to particular years and teams, while opposing probability biases persisted in selected uncertainty groups. These findings identify specific targets for further evaluation and calibration.
+
+The analysis connects historical comparisons with a prospective forecast whose information dates and withholding rule are documented. Proper probability scores~\citep{gneiting2007scoring} identify differences that mean bias or accuracy alone may obscure. The archived release permits subsequent evaluation against outcomes unavailable at issue time.
+
+\subsection{Limitations}
+
+The findings apply to the documented study population. Some historical identity and membership decisions rely on records accepted by the project lead, and the full archive has not been independently verified. Geographic classifications include study-specific overrides, while sparse opponent combinations limit comparability. Because some scores include extra time, the target cannot consistently be interpreted as a regulation-time result.
+
+Approximate strength inference, assumed jump dynamics, and restricted context terms may leave substantial variation unexplained. The conditional comparisons do not account for all differences in travel, team selection, venues, or match importance. The main model combines draws and away wins, whereas the auxiliary model distinguishes three outcomes; their classification accuracies address different targets.
+
+Some limitations have measurable consequences. The ordinary and strict numerical replays differed little, whereas initialization alternatives changed raw probabilities by more than $1$~pp in 2,905 study matches. These changes measure sensitivity and do not provide additional confidence bounds for corrected predictions. The final pipeline's recent-period loss was also slightly higher than that of the fixed-step baseline, limiting claims about the benefit of persistent jumps and probability correction. The separate effects of Gaussian projection, unmeasured squad changes, weak cross-region connections, and historical identity errors have not been quantified.
+
+Model revision introduces selection risk. Numerical-reference failures led to a revised integration order, and residual probability bias led to separate shape and drift corrections. These changes brought the system within the documented operational requirements. However, repeated inspection of the same archive can favour revisions specific to that history. Retrospective improvement does not eliminate this risk. The prospective release records predictions made before their outcomes, but neither its accuracy nor the benefit of subsequent refinements is yet known.
+
+Chronological prediction excludes the current result from its own inputs, while development and model selection still reuse the archive. The historical evaluation is therefore not an untouched final test. Simulation results apply to the specified generators; no dependence-adjusted interval from real match data establishes the persistence of the small contextual gain. Deletion checks assess evaluation composition without reconstructing the learning history. Wider application requires prospective evaluation and continued regional diagnostics.
+
+The historical uncertainty procedure also failed under a permanent global-shock generator. Its envelopes therefore remain conditional on the generating mechanisms for which the procedure met the validation criteria, rather than providing guarantees for arbitrary football histories.
+
+\subsection{Future Work}
+
+Four extensions warrant investigation. First, a three-class joint model could use a draw interval, as in TrueSkill~\citep{herbrich2006trueskill}, or divide non-home-win probability between draws and away wins. Both formulations require evaluation against the existing auxiliary model.
+
+Second, calibration mappings learned from earlier predictions and outcomes could reduce systematic bias. Temperature scaling~\citep{guo2017calibration} is one candidate, although its published evidence concerns neural classifiers. Benefits require chronological and regional evaluation, and improved calibration need not improve classification accuracy.
+
+Third, goal-based models~\citep{dixon1997scores} could estimate richer outcomes, subject to consistent score definitions and joint treatment of scores and match results. Verified venue or squad information must be available before prediction. These variables remain untested explanations of the observed biases.
+
+Fourth, club-football analysis requires new ratings and parameters for seasons, transfers, promotion and relegation, and connections between leagues. An initial single-league study could model seasonal transitions explicitly. The predictive benefits of these proposed extensions remain unestablished.
+
+\subsection{Conclusion}
+
+Pre-match strength provided the larger reduction in aggregate predictive loss, with a smaller increment from context. Historical-window and regional analyses qualify its application. The archived prospective release permits future evaluation, supported by documented data, model development, performance, and limitations.
+
+\paragraph{Data and code availability.}
+Source match data are available under CC0 from martj42~\citep{martj42_data}. The accompanying repository provides code, configurations, build instructions, experiment records, and input/output fingerprints identifying the reported versions.
+
+The English guide \path{paper/SUPPORTING_RESULTS.md} indexes all stage tables, methods, reproduction instructions, windows, geographic matchups, sensitivity outputs, and the 52-fixture forecast ledger. The main text reports selected results.
+
+% Author identities and truthful contribution details deferred by the project owner.

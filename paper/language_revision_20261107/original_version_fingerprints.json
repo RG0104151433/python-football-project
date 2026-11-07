@@ -1,0 +1,20 @@
+{
+  "paper/main.tex": "acfb28c75c5443e66aecb1596132a975b82df42ba5b95bb0d9a3f287f9f88f2b",
+  "paper/references.bib": "30c0919b08c936edc12ed1035996f59343a5aa0d6b3abd801f6cd70d7c74a185",
+  "paper/sections/discussion.tex": "240a17799c927dd4d31587e41f2acd0543e35d14f57ff675d2df168619b054fd",
+  "paper/sections/introduction.tex": "9850edd96d4e9d8438a8e415482b51fc312eb05b1d860a0674f3c72f5f3251e0",
+  "paper/sections/method.tex": "d9ba1de195614b8a5828762dc9b660f490e05738d8700af48142a47303921428",
+  "paper/sections/model_selection.tex": "bc77cfe9c7ebaeb6eab169641aca8c8325a20cda95045f26fade94928a283855",
+  "paper/sections/results.tex": "304478b7e655b3a0ef44fbe8b31a112e9752536a3598a856bb0eb7b3d59a4123",
+  "paper/sections/strength_development.tex": "e38aa1773fba1c533e2382311028a67a2bc1fb40f0c48343b61cb45cce1409fa",
+  "paper/build/main.pdf": "eb3635c478d744aabc91932be9b759859b1eef53c2c8152e1598a5328ffc9b79",
+  "paper/figures/fig2_era_rates.pdf": "51cb81a6c293b2b7d7e26bfa30b6f0f4cd57fedd3b4be7836c902a6dadd6421b",
+  "paper/figures/fig3_model_comparison.pdf": "a1c92c2b413d0be13ed799e5eebbebb31a4621599447b948a75d38dee7cbbd86",
+  "paper/figures/fig4_history_windows.pdf": "82fafb390fbd539adb59a135f6fd31fb9a9bad13fab77dd44ab10cf85a42f5f8",
+  "paper/figures/fig5_regional_metrics.pdf": "0d7d4fd5c4dd1dd7d72989d5efc8bc85a4b2806e4eb088a8c4f6e05ffc5b0294",
+  "paper/figures/fig6_forecast_examples.pdf": "65e13052a1be177eaf070581a2d561ba770ca7cb381538f2ced84b85bc1eb12e",
+  "paper/figures/fig_historical_overview.pdf": "50ea56785dd05ec99568a6b6cc6bcbdb8855de15b450e312be1c194412610aab",
+  "paper/figures/fig_strength_states.pdf": "59e6399102fd84097fcb2f822c588a4c536c709c0838775b0cb343b357e1c537",
+  "paper/figures/study_design.tex": "194c893c60ced8b25b26ccff60ecdd921b3e85c0a8b6311d7a73cfc42455a70d",
+  "paper/figures/strength_validation_rows.tex": "78a2d99bf4998a95c86b3648923d1cc716fd4f4ead6276686fdeb590b99d0fe2"
+}

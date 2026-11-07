@@ -1,0 +1,72 @@
+% !TeX program = xelatex
+% !TeX encoding = UTF-8
+% Separate language revision R20261107-10; original source and PDF retained.
+% Method first draft R20261106-06; Results R20261106-05; section plan R20261106-03.
+% Standard natbib/BibTeX is used because local Biber cannot start; bibliography data remain in references.bib.
+\documentclass[a4paper,11pt]{article}
+\usepackage[english]{babel}
+\usepackage{csquotes}
+\usepackage{fontspec}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath,amssymb,graphicx,booktabs}
+\usepackage{placeins}
+\usepackage{indentfirst,tabularx}
+\usepackage[font=small,labelfont=bf,justification=raggedright,singlelinecheck=false]{caption}
+% A shared title/note hierarchy for every numbered figure and table.
+\newcommand{\papercaption}[2]{\caption{\textbf{#1}\protect\newline\textit{Note.} #2}}
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+\usepackage[numbers,sort&compress]{natbib}
+\graphicspath{{../figures/}}
+% Consistent paragraph indentation, including the first paragraph after headings.
+\setlength{\parindent}{1.5em}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{1.5em}
+\raggedbottom
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+\brokenpenalty=10000
+% Keep text/equation paragraphs intact so floats cannot interrupt them.
+\interlinepenalty=10000
+\predisplaypenalty=10000
+\postdisplaypenalty=10000
+% Allow figures to share pages with their discussion rather than accumulating.
+\setcounter{topnumber}{3}
+\setcounter{totalnumber}{5}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.85}
+\renewcommand{\textfraction}{0.08}
+\renewcommand{\floatpagefraction}{0.75}
+\setlength{\textfloatsep}{12pt plus 2pt minus 2pt}
+\setlength{\floatsep}{10pt plus 2pt minus 2pt}
+\makeatletter
+\setlength{\@fptop}{0pt}
+\setlength{\@fpsep}{12pt plus 2pt minus 2pt}
+\setlength{\@fpbot}{0pt plus 1fil}
+\makeatother
+\title{Home-Win Prediction in International Football:\\
+Team Strength, Historical Information, and Regional Variation}
+\author{Names, student IDs, and classes to be confirmed}
+\date{}
+\begin{document}
+\maketitle
+\begin{abstract}
+Historical home-win rates in international football may reflect team strength, match composition, and venue-related conditions. This study assesses their contribution to pre-match prediction. Comparisons across eras, match types, and regions use 24,917 non-neutral matches from 1980--2024. A dynamic model estimates strength from earlier results, including eligible neutral matches; a joint model combines the resulting strength distribution with match context. Retrospective chronological evaluation compares background-only, strength-only, and joint predictions on 21,413 matches from 1990--2024. The joint model reduced log loss by 16.12\% relative to background alone and 0.42\% relative to strength alone, achieving 70.01\% binary accuracy for home win versus non-home win. Historical-window comparisons identified a trade-off between fitting cost and probability quality, without establishing a universally optimal window. Regional diagnostics revealed differences in robustness and probability bias, distinct from descriptive geographic differences in home-win rates. A prospective release contains 52 fixtures, with 49 main predictions and three withheld under the venue rule; outcomes remain unevaluated. In the aggregate loss comparison, strength provided the larger improvement. Context contributed a smaller increment, whose interpretation remains conditional on model assumptions and the reuse of historical data during development.
+\end{abstract}
+\noindent\textbf{Keywords:} international football; pre-match strength; home-win probability; probabilistic prediction
+% One compact front page, not a mostly empty title-only cover.
+\clearpage
+\input{sections/introduction}
+\input{sections/method}
+\input{sections/results}
+\input{sections/discussion}
+\begingroup
+\fontsize{10}{11}\selectfont
+\setlength{\emergencystretch}{2em}
+\setlength{\bibsep}{1pt}
+\interlinepenalty=10000
+\bibliographystyle{unsrtnat}
+\bibliography{references}
+\endgroup
+\end{document}

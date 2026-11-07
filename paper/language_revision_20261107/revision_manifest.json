@@ -1,0 +1,137 @@
+{
+  "decision_log_id": "R20261107-10",
+  "date": "2026-11-07",
+  "executor": "Codex (AI)",
+  "member_or_native_editor_review": false,
+  "scope": "Separate formal academic English revision; language and paragraph organization only",
+  "original": {
+    "entry": "paper/main.tex",
+    "pdf": "paper/build/main.pdf",
+    "baseline": "paper/language_revision_20261107/original_version_fingerprints.json",
+    "files_checked": 18,
+    "all_hashes_unchanged": true
+  },
+  "revised": {
+    "entry": "paper/language_revision_20261107/main.tex",
+    "pdf": "paper/language_revision_20261107/build/main.pdf",
+    "pages": 22,
+    "figures": 7,
+    "tables": 5,
+    "displayed_equations": 12,
+    "captions": 12,
+    "bibliography_entries": 15
+  },
+  "standards": {
+    "course": "Full English; concise writing without unnecessary repetition; five required parts",
+    "source": "paper/论文要求核对与结构规划.md, section 7; no specified journal language style",
+    "editorial": "Formal, specific academic prose; appropriate tense and terminology; preserve evidential qualifications",
+    "ai_detector_used": false,
+    "official_language_certification": false
+  },
+  "content_checks": [
+    {
+      "file": "main.tex",
+      "numbers_unchanged": true,
+      "displayed_equations_unchanged": true,
+      "citation_sequence_unchanged": true,
+      "labels_unchanged": true
+    },
+    {
+      "file": "sections/discussion.tex",
+      "numbers_unchanged": true,
+      "displayed_equations_unchanged": true,
+      "citation_sequence_unchanged": true,
+      "labels_unchanged": true
+    },
+    {
+      "file": "sections/introduction.tex",
+      "numbers_unchanged": true,
+      "displayed_equations_unchanged": true,
+      "citation_sequence_unchanged": true,
+      "labels_unchanged": true
+    },
+    {
+      "file": "sections/method.tex",
+      "numbers_unchanged": true,
+      "displayed_equations_unchanged": true,
+      "citation_sequence_unchanged": true,
+      "labels_unchanged": true
+    },
+    {
+      "file": "sections/model_selection.tex",
+      "numbers_unchanged": true,
+      "displayed_equations_unchanged": true,
+      "citation_sequence_unchanged": true,
+      "labels_unchanged": true
+    },
+    {
+      "file": "sections/results.tex",
+      "numbers_unchanged": true,
+      "displayed_equations_unchanged": true,
+      "citation_sequence_unchanged": true,
+      "labels_unchanged": true
+    },
+    {
+      "file": "sections/strength_development.tex",
+      "numbers_unchanged": true,
+      "displayed_equations_unchanged": true,
+      "citation_sequence_unchanged": true,
+      "labels_unchanged": true
+    }
+  ],
+  "citation_check_scope": "New revision alone, excluding original text: 15 cited keys equal 15 copied BibTeX entries",
+  "validation": {
+    "compile_exit_code": 0,
+    "warnings": [],
+    "labels_unique_and_resolved": true,
+    "all_fonts_embedded": true,
+    "embedded_fonts": 29,
+    "all_22_pages_rendered_and_visually_reviewed": true,
+    "original_font_size_and_margins_retained": true,
+    "model_or_simulation_runs": false,
+    "git_diff_check": "passed"
+  },
+  "layout_note": "A paragraph split at the covariance-component/range definition and concise restatement of Future Work/Conclusion resolved underfull text and an isolated reference page without changing fonts or dropping references.",
+  "shared_figures": "Original paper/figures reused, no figures redrawn or duplicated; revision requires parent paper directory",
+  "source_sha256": {
+    "paper/language_revision_20261107/main.tex": "90bc0a7ef89efef682b022a5ec5c7a752e30ecab3ccea3f1d615c0c89edab112",
+    "paper/language_revision_20261107/sections/discussion.tex": "1c53f23a42f007ffa751a37962f49b09f45a92a9f92390259a8185ba4877bb7c",
+    "paper/language_revision_20261107/sections/introduction.tex": "e99da0e9b6f8d9453fb4ee8b6518eb927918e66d819156e773a41e5326634481",
+    "paper/language_revision_20261107/sections/method.tex": "ec4d56ca29eda833d2aa863ca095a583d65e11986a94bf8128a582ca018bc0d8",
+    "paper/language_revision_20261107/sections/model_selection.tex": "c46c99b479a8aa923c7b52dc5a788622cc8708789d3db6bd31c4c25cf222622e",
+    "paper/language_revision_20261107/sections/results.tex": "54f64c32745d4a1be9fb9d95a1810008f7332237648544c4b1f2f278132f2faa",
+    "paper/language_revision_20261107/sections/strength_development.tex": "5e2dd37d657fde5589526b83a98471658e26d4215a0f3ce7e0a18bf2fd5e6d26",
+    "paper/language_revision_20261107/references.bib": "30c0919b08c936edc12ed1035996f59343a5aa0d6b3abd801f6cd70d7c74a185",
+    "paper/language_revision_20261107/README.md": "2dabd54af93debbcdd9b95dda573709e3e5dfc239b336155a5149562b4201421",
+    "paper/language_revision_20261107/.gitignore": "020c2606e8ed484089c2083e0be438b9d0736bee1558a6b76af0d58bd23f69cf",
+    "paper/language_revision_20261107/language_changes.diff": "6c4fe7c3f1e70300247261d952d453d44300f9b6dab8336baa8cfbc3391f4d7a",
+    "paper/language_revision_20261107/original_version_fingerprints.json": "24056a6db9de8575465e9a8e66db35ded34cf211b5d7242bbf66fe34f9197560",
+    "paper/language_revision_20261107/content_preservation_checks.json": "b2db1bd278b530cf545fd5949e5f32f93c018917bf76ac2becd15db9867ff958"
+  },
+  "documentation_sha256": {
+    "README.md": "26b26f2fa08e28d31001ebe8676098c882d7bca89d2ca71b32c8f99e497835c5",
+    "paper/README.md": "c7a06103b2901ebc01b821e2096e1c21572b89203f644de1f34172c64ae536b8",
+    "paper/论文写作框架.md": "aec2af3742e0b31f90f1dc2e185eca5c4b2d3c0d1d43eb61851edcf5f58e5c24",
+    "paper/图表来源说明.md": "458b57a956a7e0eaae8c5223f05573ee93248d00df62f6685fff97e81e261ebc",
+    "paper/SUPPORTING_RESULTS.md": "1a5d9e413ac9ae8dd70c5a8aa1c37c51ccd5459972cf15d6e5ba390d09ef0523",
+    "研究/README.md": "dc62026e4c81e918538bf8a42765b042db294937793e12b5973f44b77d6a85a8",
+    "研究/pipeline_state.json": "e6b75eccbe1d30c4e0c7195befa2555828516723dfd2176cc70ef6bcde91f159",
+    "文档/05_团队协作/论文与汇报支撑材料索引.md": "17d79fda1d1827397324d6f07030b73f4a253c14a1cdcf76a4ae4cfef72f2eb7",
+    "文档/05_团队协作/研究收尾与撰写交接.md": "69ae200d13a3cc5b0590df1c3448c7e99c9c35e7794cf2f5eb6fc25b15248128",
+    "文档/05_团队协作/论文写作任务板_20261105.md": "979451652352b3a74bac618abb9f93b684a0718be4f1ced4b17ef1d4863ed00c",
+    "文档/01_项目方案/研究日志与决策记录.md": "bbbc4ebb75b6c2c7326e7fbf5680bbcac9aeb3b87abf445e26e8366705f8957f",
+    "paper/verification_log.md": "2fc3ba52f7664fa3966d7d69941a19e499c2d13e3f342f85b8d31b988b227ee5"
+  },
+  "output_sha256": {
+    "paper/language_revision_20261107/build/main.pdf": "c5aa661388157cdb61493ec6756fd912bbbc1eb90d07a2fafe6e59ce7fe674dd"
+  },
+  "code_identity": {
+    "head_at_recording": "29c3976db82b0c4add3b6dc23df99cf2268b2350",
+    "uncommitted_writing_changes": true
+  },
+  "pending": [
+    "Author identities/contributions deferred by user",
+    "Actual member review",
+    "Final submission acceptance"
+  ]
+}
