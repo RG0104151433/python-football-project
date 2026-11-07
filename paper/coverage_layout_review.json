@@ -1,0 +1,227 @@
+{
+  "decision_log_id": "R20261107-03",
+  "date": "2026-11-07",
+  "executor": "Codex (AI)",
+  "human_review": false,
+  "execution_version": "HEAD e9d6882 plus uncommitted writing changes; exact files below",
+  "scope": "Research-theme coverage, main versus complete supporting outputs, mathematical representation, exported PDF layout",
+  "coverage": [
+    {
+      "stage": "data_cleaning",
+      "main_sections": [
+        "2.1"
+      ],
+      "coverage": "Original snapshot, validation/dispositions and frozen preparation",
+      "status": "main_theme_and_key_evidence_covered_complete_outputs_indexed",
+      "complete_output_guide": "paper/SUPPORTING_RESULTS.md"
+    },
+    {
+      "stage": "data_confirmation",
+      "main_sections": [
+        "2.1"
+      ],
+      "coverage": "Study eligibility, identities and owner-accepted records",
+      "status": "main_theme_and_key_evidence_covered_complete_outputs_indexed",
+      "complete_output_guide": "paper/SUPPORTING_RESULTS.md"
+    },
+    {
+      "stage": "question_1",
+      "main_sections": [
+        "2.2",
+        "3.1"
+      ],
+      "coverage": "Five eras and tournament-composition adjustment",
+      "status": "main_theme_and_key_evidence_covered_complete_outputs_indexed",
+      "complete_output_guide": "paper/SUPPORTING_RESULTS.md"
+    },
+    {
+      "stage": "question_2",
+      "main_sections": [
+        "2.2",
+        "3.1"
+      ],
+      "coverage": "Match types, era adjustment and 36 overlapping windows",
+      "status": "main_theme_and_key_evidence_covered_complete_outputs_indexed",
+      "complete_output_guide": "paper/SUPPORTING_RESULTS.md"
+    },
+    {
+      "stage": "question_3",
+      "main_sections": [
+        "2.1",
+        "2.2",
+        "3.1"
+      ],
+      "coverage": "Four geographic scopes, 29 contrasts and 155 directional matchups",
+      "status": "main_theme_and_key_evidence_covered_complete_outputs_indexed",
+      "complete_output_guide": "paper/SUPPORTING_RESULTS.md"
+    },
+    {
+      "stage": "question_4",
+      "main_sections": [
+        "2.2",
+        "3.1",
+        "4.2"
+      ],
+      "coverage": "Historical conditional uncertainty, sensitivity and permanent-shock boundary",
+      "status": "main_theme_and_key_evidence_covered_complete_outputs_indexed",
+      "complete_output_guide": "paper/SUPPORTING_RESULTS.md"
+    },
+    {
+      "stage": "question_5",
+      "main_sections": [
+        "2.3",
+        "2.4",
+        "2.5",
+        "3.2"
+      ],
+      "coverage": "Dynamic strength, joint prediction and feedback-aware conditional comparison",
+      "status": "main_theme_and_key_evidence_covered_complete_outputs_indexed",
+      "complete_output_guide": "paper/SUPPORTING_RESULTS.md"
+    },
+    {
+      "stage": "question_6",
+      "main_sections": [
+        "2.5",
+        "3.3"
+      ],
+      "coverage": "Rating/outcome history, adaptive choice, cost and finite reliability checks",
+      "status": "main_theme_and_key_evidence_covered_complete_outputs_indexed",
+      "complete_output_guide": "paper/SUPPORTING_RESULTS.md"
+    },
+    {
+      "stage": "question_7",
+      "main_sections": [
+        "2.5",
+        "3.4"
+      ],
+      "coverage": "Regional performance, composition, calibration diagnostics and fixed-prediction deletions",
+      "status": "main_theme_and_key_evidence_covered_complete_outputs_indexed",
+      "complete_output_guide": "paper/SUPPORTING_RESULTS.md"
+    },
+    {
+      "stage": "question_8",
+      "main_sections": [
+        "3.5"
+      ],
+      "coverage": "Sealed 52-target application, 49 joint/3 withheld and auxiliary forecasts",
+      "status": "main_theme_and_key_evidence_covered_complete_outputs_indexed",
+      "complete_output_guide": "paper/SUPPORTING_RESULTS.md"
+    },
+    {
+      "stage": "question_9",
+      "main_sections": [
+        "4.3"
+      ],
+      "coverage": "Four document-only proposals; no optimization or club experiment claimed",
+      "status": "main_theme_and_key_evidence_covered_complete_outputs_indexed",
+      "complete_output_guide": "paper/SUPPORTING_RESULTS.md"
+    }
+  ],
+  "coverage_verdict": "Data preparation/confirmation and all nine declared study themes are covered; main text is selective, complete adopted output families are indexed. No claim to plot every stored row or reproduce every derivation in the PDF.",
+  "findings_resolved": [
+    "Earlier historical themes had weak graphical coverage: added one descriptive three-panel figure from adopted outputs",
+    "Q4 computational scope and failure boundary were too implicit: stated 198/94 targets and 324/26704 sensitivity scope",
+    "No English route to full adopted outputs: added SUPPORTING_RESULTS.md without moving files",
+    "Paired strength-adjusted comparison was described only in prose: added equivalent fixed-reference expectation equation",
+    "Heading-first paragraphs followed the class default: chose uniform 1.5em body indentation using indentfirst",
+    "Float placement and forced bibliography break produced large interior white space: adjusted float policy and let references follow text",
+    "Tight bibliography continuation could leave an almost empty last page: used a consistent 10pt font/11pt leading and 1pt item spacing",
+    "Protected numeric pp units and page breaks at hyphenated words; improved sample-table width",
+    "Clarified four separately calibrated historical families and error parameter 0.01; no joint all-198 guarantee"
+  ],
+  "format_basis": {
+    "course_originals": [
+      "参考资料/课程原始截图/微信图片_20260929224329_89_315.jpg",
+      "参考资料/课程原始截图/微信图片_20260929224329_90_315.jpg"
+    ],
+    "course_requires_five_sections": true,
+    "journal_template_or_mandatory_indent_in_originals": false,
+    "chosen_layout": "A4, single column, 11pt body, 2.5cm margins, 1.5em paragraph indentation including first body paragraphs after headings; caption labels bold, captions small; references 10pt/11pt",
+    "documentation": [
+      "https://ctan.org/pkg/indentfirst",
+      "https://ctan.org/pkg/placeins",
+      "https://www.latex-project.org/help/documentation/"
+    ],
+    "note": "An internally consistent course-paper layout; no claim of compliance with every journal or PDF/A standard"
+  },
+  "counts": {
+    "pages": 14,
+    "figures": 6,
+    "tables": 4,
+    "displayed_equations": 8,
+    "references": 15,
+    "words": {
+      "introduction": 558,
+      "method": 1748,
+      "results": 1904,
+      "discussion": 802,
+      "body": 5012
+    }
+  },
+  "new_figure": "paper/historical_overview_manifest.json",
+  "new_equation": {
+    "label": "eq:strength-contrast",
+    "meaning": "Registered-reference expectation of paired scenario probabilities; equivalent summary of the existing contrast implementation, not a new estimator",
+    "implementation": "src/strength_joint/contrasts.py"
+  },
+  "checked_output_counts": {
+    "historical_targets": 292,
+    "model_conditional_ranges": 198,
+    "unsupported_targets": 94,
+    "sensitivity_scenarios": 324,
+    "sensitivity_rows": 26704,
+    "regional_matchups": 155,
+    "observed_matchups": 153,
+    "fully_adjusted_matchups": 71
+  },
+  "files": {
+    "paper/main.tex": "7b405fec37a46ff84b06c36153478eee1552cd749e67a91317cbbcb86d473c1c",
+    "paper/sections/introduction.tex": "fc98119e3eaffa74da40ad64b25e373669ed94eb32dfa30e737bc8f21f2099b5",
+    "paper/sections/method.tex": "216ba3500764b229d6c09b3ef86e81c0a1a36e672dc096c0f2c91936d26c44d4",
+    "paper/sections/results.tex": "880c46251b16cfd84b9790d401aa7248c9722ab77b8fa69ea0fd8f2d31b6f8ed",
+    "paper/sections/discussion.tex": "219fd226bca4df538f9ee71956b272a8dbd766b973d22e9d4e1ac6e019b81991",
+    "paper/references.bib": "30c0919b08c936edc12ed1035996f59343a5aa0d6b3abd801f6cd70d7c74a185",
+    "paper/SUPPORTING_RESULTS.md": "fedac47a978aa5e9746dc9b2a9efdc546bb8dcba5f16ae2efe41925234113753",
+    "paper/make_historical_overview.py": "6a5e46957dea22378db20ed728c1779c1544ba2541ae7f16c624cad82fd0a336",
+    "paper/historical_overview_manifest.json": "2fb367966e843c3294a75c85b8db4715d3582fb8319d513bd038a78adc5e969c"
+  },
+  "sources": {
+    "src/strength_joint/contrasts.py": "5c816886d9679781d932f79da4d5771a3ffab4455c92c4b36d1cdf68f39eb0b5",
+    "outputs/tables/reliability/applied-ab04b82da3b12ca434239452/interval_results.csv": "47e882078fa013b387f152b8fd903d5d46c43f1695ffdd805dd78960e86ddbb1",
+    "outputs/tables/reliability/applied-ab04b82da3b12ca434239452/sensitivity_results.csv": "1fd3fe7d145c0e54db4c9d6d8400eacb2ec0b7464f1668d7434df83e428467c7",
+    "outputs/tables/regions/regions-0a1c61664a722e6c641f/matchup_rates.csv": "76bd0eaff66d50e7c7d817bdaa740913b5ddaeb885bcd990a3a213496319bcee",
+    "研究/04_共同可靠性/第三步_联合模型选择与第四步交接.md": "22793498fc00696308ebc6a3f134a866c26343e0f0326867a03c76ef5e4ab7c5",
+    "outputs/logs/reliability/joint-envelope-20261028/fourth_step_contract.json": "9adbd541ada6777974d8c3cafa15d8fcdbdadcc0f3cd6e0078cd2946cd15fe69"
+  },
+  "previous_editorial_manifest": {
+    "path": "paper/editorial_revision_manifest.json",
+    "sha256": "e98f3d445ede6299ddfcfd4291b5beaaac0ab1eccb43302f1e3300ab2afde238",
+    "preserved": true
+  },
+  "checks": {
+    "final_compile_exit_code": 0,
+    "final_log_warnings": 0,
+    "all_pages_visually_inspected": true,
+    "all_fonts_embedded": true,
+    "font_count": 26,
+    "local_guide_paths_checked": true,
+    "citation_and_cross_reference_checks": true,
+    "git_diff_check_passed": true,
+    "guide_paths": 49,
+    "unique_labels": 30,
+    "references": 19
+  },
+  "pdf": {
+    "path": "paper/build/main.pdf",
+    "sha256": "21a8122bf9bb81ee1fa7b570c9780ecae88c669ece13de73636360aef6c0687a",
+    "pages": 14
+  },
+  "scientific_models_or_data_changed": false,
+  "research_models_or_simulations_rerun": false,
+  "new_work": "Presentation-only plotting from adopted CSVs; clarification of existing formulas and evidence scope",
+  "remaining": [
+    "Author identities/contributions explicitly deferred by owner",
+    "Actual member review and final course submission/package acceptance",
+    "Known modeling assumptions/limits remain; no universal real-world coverage claim"
+  ]
+}

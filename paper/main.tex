@@ -1,6 +1,6 @@
 % !TeX program = xelatex
 % !TeX encoding = UTF-8
-% English editorial revision R20261107-02; authors and submission acceptance pending.
+% Coverage/layout review R20261107-03; authors and submission acceptance pending.
 % Method first draft R20261106-06; Results R20261106-05; section plan R20261106-03.
 % Standard natbib/BibTeX is used because local Biber cannot start; bibliography data remain in references.bib.
 \documentclass[a4paper,11pt]{article}
@@ -10,10 +10,34 @@
 \usepackage[margin=2.5cm]{geometry}
 \usepackage{amsmath,amssymb,graphicx,booktabs}
 \usepackage{placeins}
+\usepackage{indentfirst,tabularx}
+\usepackage[font=small,labelfont=bf]{caption}
 \usepackage{xurl}
 \usepackage[hidelinks]{hyperref}
 \usepackage[numbers,sort&compress]{natbib}
 \graphicspath{{figures/}}
+% Consistent paragraph indentation, including the first paragraph after headings.
+\setlength{\parindent}{1.5em}
+\setlength{\parskip}{0pt}
+\raggedbottom
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+\brokenpenalty=10000
+% Allow figures to share pages with their discussion rather than accumulating.
+\setcounter{topnumber}{3}
+\setcounter{totalnumber}{5}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.85}
+\renewcommand{\textfraction}{0.08}
+\renewcommand{\floatpagefraction}{0.75}
+\setlength{\textfloatsep}{12pt plus 2pt minus 2pt}
+\setlength{\floatsep}{10pt plus 2pt minus 2pt}
+\makeatletter
+\setlength{\@fptop}{0pt}
+\setlength{\@fpsep}{12pt plus 2pt minus 2pt}
+\setlength{\@fpbot}{0pt plus 1fil}
+\makeatother
 \title{Home-Win Prediction in International Football:\\
 Team Strength, Historical Information, and Regional Variation}
 \author{Names, student IDs, and classes to be confirmed}
@@ -28,10 +52,11 @@ Historical home-win rates in international football may reflect differences in t
 \input{sections/method}
 \input{sections/results}
 \input{sections/discussion}
-\clearpage
 \begingroup
+\fontsize{10}{11}\selectfont
 \setlength{\emergencystretch}{2em}
-\setlength{\bibsep}{2pt}
+\setlength{\bibsep}{1pt}
+\interlinepenalty=10000
 \bibliographystyle{unsrtnat}
 \bibliography{references}
 \endgroup

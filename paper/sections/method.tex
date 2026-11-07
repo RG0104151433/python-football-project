@@ -34,12 +34,12 @@ Era comparisons fix the friendly/non-friendly composition; match-type comparison
 
 Observed proportions describe a fixed history. Uncertainty assessment concerns the average tendencies that could generate outcomes under the same schedule, groups, denominators, and reference. Each comparison is a weighted sum $\widehat\theta_j=a_j^\top Y$. Shared teams and repeated pairings motivate dependence modelling~\cite{aronow2015dyadic}; our procedure uses a specified covariance model rather than a conventional dyadic sandwich estimator.
 
-Mean fitting removes part of the variation used to estimate dependence. To account for this, let $X$ contain the fixed mean-model terms, $H=X(X^\top X)^+X^\top$, and $M=I-H$. Under $E[Y]=X\beta$, residuals satisfy $E[(MY)(MY)^\top]=M\Sigma M^\top$. We therefore fit covariance components after the same residual projection. Six non-negative components represent independent noise, repeated pairs, same/opposite-role team processes, and two shared calendar-time processes. A scale $s_j(Y)$ combines estimated quadratic variation with predefined protection against slow common changes. Separate complete-history simulations calibrate a maximum-error multiplier $c_F$ jointly across the comparisons, giving
+Mean fitting removes part of the variation used to estimate dependence. To account for this, let $X$ contain the fixed mean-model terms, $H=X(X^\top X)^+X^\top$, and $M=I-H$. Under $E[Y]=X\beta$, residuals satisfy $E[(MY)(MY)^\top]=M\Sigma M^\top$. We therefore fit covariance components after the same residual projection. Six non-negative components represent independent noise, repeated pairs, same/opposite-role team processes, and two shared calendar-time processes. A scale $s_j(Y)$ combines estimated quadratic variation with predefined protection against slow common changes. Separate complete-history simulations calibrate a maximum-error multiplier $c_F$ within each prespecified target family, giving
 \begin{equation}
  I_j=\bigl[\widehat\theta_j-c_Fs_j(Y),\widehat\theta_j+c_Fs_j(Y)\bigr]\cap\mathcal L_j,
  \label{eq:conditional-envelope}
 \end{equation}
-where $\mathcal L_j$ is the comparison's logical range. These model-conditional envelopes depend on the mean and covariance assumptions and simulated calibration mechanisms; $s_j$ is not a conventional standard error. Full component definitions, protection rules, and calibration records are retained in the repository.
+Here $\mathcal L_j$ is the logical range and $s_j$ is not a conventional standard error. Final rank calibration uses error parameter $0.01$ separately in four prespecified families of 27, 64, 36, and 71 quantities. Its guarantee concerns frozen reference generators over calibration and new synthetic histories, not all 198 quantities jointly or arbitrary football processes. Detailed assumptions and numerical validation gates are indexed in the supporting-results guide.
 
 \subsection{Dynamic Pre-Match Team Strength}
 \label{sec:strength-method}
@@ -82,6 +82,14 @@ where $\sigma_{D,i}^2$ is the base variance of the difference, including the opp
  \label{eq:joint-probability}
 \end{equation}
 Here $\Phi$ is the standard normal distribution function. Context $x_i$ includes era, friendly status, both teams' geographic regions, and within-region groups centred by their frequencies. The estimated positive slope $b$ maps strength to the probability scale; integrating over the distribution avoids treating estimated strength as known. Background-only uses context without strength ($b=0$); strength-only retains an intercept and strength while excluding other contextual terms.
+
+For two allowed context scenarios $a,b$, their strength-adjusted contrast is
+\begin{equation}
+ \widehat\Delta^{\mathrm{str}}_{a,b}
+ =\widehat E_{\mathcal R}\!\left[\widehat p(X^{(a)},D)-\widehat p(X^{(b)},D)\right].
+ \label{eq:strength-contrast}
+\end{equation}
+Here $\widehat E_{\mathcal R}$ uses the registered reference weights and scenario mixtures while retaining the reference strength distributions. Computing the corresponding contrast before and after adding strength gives the paired change reported in the results. This expresses a model-based comparison, not a change in physical venue or team identity.
 
 Two fitting tasks are distinct. Conditional analysis fits the 24,917-match cohort and averages paired predictions under allowed context combinations on a fixed reference. Historical prediction refits using matches from 1980 through the preceding year and evaluates 1990--2024. Geographic coding uses that year's training rows only; unseen within-region groups receive the region-centred zero effect. The annual objective is mean Bernoulli negative log likelihood plus $\|\theta\|^2/(2n)$, where $\theta$ includes contextual coefficients and log slope; conditional analysis is unpenalized. L-BFGS-B uses initial slopes $0.3,1,2$, coefficient bounds $[-8,8]$, and slope bounds $[10^{-4},8]$, with gradient and multistart checks. Poisson tails use tolerance $10^{-12}$, checked separately at tighter tolerance.
 

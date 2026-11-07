@@ -1,5 +1,7 @@
 # 论文选图目录
 
+**R20261107-03当前采用：** 现有6幅正文图。新增`fig_historical_overview.pdf/.png`为Figure 2，原模型/历史周期/地区/预测图顺延Figure 3—6，Figure 1流程图不变。新图由`python paper/make_historical_overview.py`只读采用CSV重绘，来源/选取行在`../historical_overview_manifest.json`；旧`manifest.json`仍是早期候选记录。
+
 **当前采用（R20261106-06）：** 新增study_design.tex原生矢量流程图，由主文件编译为当前Figure 1，不存在另造的fig1_study_design.pdf；原fig3—fig6当前顺延为Figure 2—5。源图未复制或改写；采用/指纹见../method_draft_manifest.json及../图表来源说明.md，原manifest.json仍表示11月5日五个候选图的生成记录。
 
 **2026-11-05 准备状态：** 已生成 5 张英文**候选图**（fig2—fig6），由 `paper/make_paper_figures.py` 从当前采用结果 CSV 重绘，尚未作为最终论文选图。fig1（研究流程）仍需手工/Agent 绘制。

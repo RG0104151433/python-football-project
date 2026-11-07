@@ -9,7 +9,7 @@ We first describe historical patterns, then assess strength-informed predictions
 \centering\small
 \caption{Samples used in the results. Rows represent analytical uses rather than successive exclusions from one denominator. The main window and regional comparisons share the same 9,727 matches.}
 \label{tab:analysis-samples}
-\begin{tabular}{p{6.1cm}rr}
+\begin{tabularx}{\linewidth}{@{}Xrr@{}}
 \toprule
 Analytical use & Period & Matches \\
 \midrule
@@ -19,7 +19,7 @@ Complete history-window evaluation & 2000--2024 & 16,599 \\
 Main window and regional comparisons & 2010--2024 & 9,727 \\
 Issued prospective targets & 12--17 Nov 2026 & 52 \\
 \bottomrule
-\end{tabular}
+\end{tabularx}
 \end{table}
 
 \subsection{Historical Patterns and Their Limits}
@@ -28,9 +28,18 @@ Issued prospective targets & 12--17 Nov 2026 & 52 \\
 
 For RQ1, we compared eras, match types, and geographic settings in the same 24,917 non-neutral matches. Direct rates summarize what occurred; common-reference comparisons additionally hold selected aspects of match composition fixed.
 
-Holding tournament composition fixed, the adjusted home-win difference was $+0.5019$ pp for the 2010s versus the 1980s and $+1.8100$ pp for 2020--2024 versus the 1980s. Corresponding ranges were approximately $[-61.66,62.66]$ and $[-100,100]$ pp (Table~\ref{tab:historical-contrasts}). The latter reaches the logical limits of a rate difference. Under the permitted long-term common variation, one observed history gives too little precision to resolve the direction of change. These broad ranges indicate uncertainty, not evidence that extreme changes occurred or that the true difference is zero.
+Holding tournament composition fixed, the adjusted home-win difference was $+0.5019$~pp for the 2010s versus the 1980s and $+1.8100$~pp for 2020--2024 versus the 1980s. Corresponding ranges were approximately $[-61.66,62.66]$ and $[-100,100]$~pp (Table~\ref{tab:historical-contrasts}). The latter reaches the logical limits of a rate difference. Under the permitted long-term common variation, one observed history gives too little precision to resolve the direction of change. These broad ranges indicate uncertainty, not evidence that extreme changes occurred or that the true difference is zero.
 
-Friendlies had a lower observed home-win rate: $48.3955\%$ in 9,598 matches, compared with $51.6418\%$ in 15,319 other matches. The direct difference was $-3.2463$ pp; standardizing era composition reduced it to $-2.8831$ pp. Thus the distribution of years explains part of the aggregate gap. The conditional range, $[-7.2039,1.4377]$ pp, still crosses zero. The lower observed rate is a clear description of this history, while its direction under the specified generating mechanisms remains unresolved. The adjustment and overlapping rolling windows do not identify a causal match-type effect.
+Friendlies had a lower observed home-win rate: $48.3955\%$ in 9,598 matches, compared with $51.6418\%$ in 15,319 other matches. The direct difference was $-3.2463$~pp; standardizing era composition reduced it to $-2.8831$~pp. Thus the distribution of years explains part of the aggregate gap. The conditional range, $[-7.2039,1.4377]$~pp, still crosses zero. The lower observed rate is a clear description of this history, while its direction under the specified generating mechanisms remains unresolved. The adjustment and overlapping rolling windows do not identify a causal match-type effect.
+
+Figure~\ref{fig:historical-overview} summarizes all five eras and the 36 overlapping ten-year windows. The recent positive friendly-minus-other gap is descriptive: the windows reuse matches, and their conditional ranges do not establish a stable reversal.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{fig_historical_overview.pdf}
+\caption{Historical patterns in the common 24,917-match cohort. (A) Direct and common-tournament-composition era rates; the vertical axis is zoomed and the last era spans five years. (B) Direct friendly-minus-other gaps in 36 overlapping ten-year windows, indexed by ending year. (C) Four predefined regional contrasts: external opponents are outside the home continent; rest denotes other American subregions. Raw and adjusted differences use their own references and are not a regional ranking. All panels are descriptive; interval evidence is separate. Complete windows, 29 contrasts, and 155 directional matchups are indexed in the supporting-results guide.}
+\label{fig:historical-overview}
+\end{figure}
 
 \begin{table}[htbp]
 \centering\small
@@ -48,9 +57,11 @@ Friendly minus other, era composition & $-2.8831$ & $[-7.2039,1.4377]$ \\
 \end{tabular}
 \end{table}
 
-Geographic comparisons depended on the opponents. Asian home teams won $13.6160$ pp less often against opponents from outside Asia than against opponents from the same study subregion. These groups contained 1,743 and 1,934 matches; the adjusted difference was $-14.6057$ pp. This comparison uses the study classifications in Section~\ref{sec:data-design} and describes a direction of play, not a ranking of regional ability.
+Geographic comparisons depended on the opponents. Asian home teams won $13.6160$~pp less often against opponents from outside Asia than against opponents from the same study subregion. These groups contained 1,743 and 1,934 matches; the adjusted difference was $-14.6057$~pp. This comparison uses the study classifications in Section~\ref{sec:data-design} and describes a direction of play, not a ranking of regional ability.
 
 Of 29 predefined regional contrasts, 24 supported adjustment and five lacked required cells. Six of the 24 conditional ranges lay on one side of zero and 18 crossed it; missing comparisons were retained as unsupported. These differences describe the observed schedules and references. Their interpretation requires the explicit treatment of strength developed next.
+
+The full regional output also contains 155 directional matchups: 153 have observations and 71 support the complete adjustment. Across the historical analyses, 198 of 292 registered targets received model-conditional ranges, while 94 lacked required cells. The 324 sensitivity scenarios produced 26,704 comparison rows; altered targets remain descriptive unless separately recalibrated. Complete records are listed in the supporting-results guide.
 
 \subsection{Strength versus Context}
 \label{sec:strength-results}
@@ -75,7 +86,7 @@ Strength and context & 0.563630 & 0.192657 & 70.01 & $+0.2398$ \\
 \end{tabular}
 \end{table}
 
-Adding context also reduced the Brier score from $0.193698$ to $0.192657$ and mean bias from $+0.9308$ to $+0.2398$ pp. Yet background-only had the smallest absolute mean bias while producing the worst probability scores. Matching the overall frequency can therefore conceal weak individual predictions; bias alone does not establish calibration across probability levels or groups.
+Adding context also reduced the Brier score from $0.193698$ to $0.192657$ and mean bias from $+0.9308$ to $+0.2398$~pp. Yet background-only had the smallest absolute mean bias while producing the worst probability scores. Matching the overall frequency can therefore conceal weak individual predictions; bias alone does not establish calibration across probability levels or groups.
 
 \begin{figure}[htbp]
 \centering
@@ -84,7 +95,7 @@ Adding context also reduced the Brier score from $0.193698$ to $0.192657$ and me
 \label{fig:predictive-models}
 \end{figure}
 
-The separate conditional analysis uses 24,917 matches and a fixed reference. Its strength-adjusted friendly-minus-other contrast was $-3.4957$ pp, with a range from $-7.6712$ to $0.6797$ pp. The paired change after adding strength was $+0.3624$ pp, ranging from $-2.8619$ to $3.5868$ pp. The estimated change is modest and its direction unresolved. Because the reference and target differ, these values cannot be subtracted from the descriptive contrast in Table~\ref{tab:historical-contrasts}.
+The separate conditional analysis uses 24,917 matches and a fixed reference. Its strength-adjusted friendly-minus-other contrast was $-3.4957$~pp, with a range from $-7.6712$ to $0.6797$~pp. The paired change after adding strength was $+0.3624$~pp, ranging from $-2.8619$ to $3.5868$~pp. The estimated change is modest and its direction unresolved. Because the reference and target differ, these values cannot be subtracted from the descriptive contrast in Table~\ref{tab:historical-contrasts}.
 
 Of 54 principal quantities assessed by simulation, 30 met the acceptance criteria. For 24 regional pre/post-strength changes, simulated reference truths were insufficiently precise, so those changes remain descriptive. This does not establish that their effects are absent. The adopted complete-history route validates conditional comparisons under the specified generators (Section~\ref{sec:evaluation-method}). Separately, the $0.42\%$ predictive loss gain lacks a real-data dependence-adjusted interval and is not established as a persistent future advantage.
 
@@ -121,7 +132,7 @@ Europe & 3,322 & 0.543239 & 0.539498 & $+0.2189$ & Increment retained \\
 Asia & 2,540 & 0.546894 & 0.545041 & $-0.8765$ & Increment retained \\
 Africa & 2,058 & 0.613617 & 0.612607 & $+0.6854$ & Increment sensitive \\
 Americas & 1,659 & 0.559276 & 0.554578 & $+0.1858$ & Increment retained \\
-Oceania & 148 & 0.555130 & 0.549289 & $+2.9572$ & Sparse adjusted support \\
+Oceania & 148 & 0.555130 & 0.549289 & $+2.9572$ & Sparse support \\
 Overall & 9,727 & 0.562000 & 0.559135 & $+0.0676$ & Pooled comparison \\
 \bottomrule
 \end{tabular}
