@@ -825,6 +825,23 @@
       "local_path": "原文/Varma_Simon_2006_model_selection_bias.pdf",
       "bytes": 274697,
       "sha256": "d7786bfe58c9b1c715bc3233d3ed1516d97a6b1b989aa73e660f950c280b5fe3"
+    },
+    {
+      "id": "P55",
+      "title": "Modeling and Prediction of the UEFA EURO 2024 via Combined Statistical Learning Approaches",
+      "authors": "Andreas Groll; Lars M. Hvattum; Christophe Ley; Jonas Sternemann; Gunther Schauberger; Achim Zeileis",
+      "version": "arXiv:2410.09068v1",
+      "requested_url": "https://arxiv.org/pdf/2410.09068v1",
+      "retrieved_on": "2026-11-07",
+      "retrieved_at_utc": null,
+      "local_path": "原文/Groll_etal_2024_EURO_combined.pdf",
+      "status": "downloaded",
+      "bytes": 503481,
+      "sha256": "ef264dea50cf14a62a6d934fbf2e4303aeabb77f7b7a7b50e68f53dd9c48efaa",
+      "error": null,
+      "redistribution_status": "not_evaluated",
+      "git_policy": "original_retained_under_prior_user_authorization; not_committed_or_pushed",
+      "decision_log_id": "R20261107-11"
     }
   ],
   "reading_events": [
@@ -1542,6 +1559,16 @@
       "new_model_or_prediction_runs": false,
       "new_local_download_this_event": false,
       "limits": "Design only; user requested reviewing structure before production implementation"
+    },
+    {
+      "date": "2026-11-07",
+      "reader": "Codex (AI)",
+      "title": "Groll et al. EURO 2024 combined statistical learning",
+      "url": "https://arxiv.org/abs/2410.09068v1",
+      "reading_extent": "primary metadata and abstract; PDF pages 1-2 checked, no full-method or performance replication",
+      "local_download_this_event": true,
+      "purpose": "Contemporary comparison of model classes and covariate scope for course-paper Method; not a tested benchmark",
+      "decision_log_id": "R20261107-11"
     }
   ],
   "maintenance_events": [

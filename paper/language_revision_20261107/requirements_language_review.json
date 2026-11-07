@@ -1,0 +1,190 @@
+{
+  "decision_log_id": "R20261107-11",
+  "date": "2026-11-07",
+  "executor": "Codex (AI)",
+  "member_review": false,
+  "scope": "Assignment-image requirements and formal academic language; edited current language version; no model or full reproduction run",
+  "counts": {
+    "pages": 23,
+    "bibliography_entries": 18,
+    "figures": 7,
+    "tables": 5,
+    "displayed_equations": 12,
+    "captions": 12
+  },
+  "teacher_requirements": {
+    "five_body_parts_present": true,
+    "title_present": true,
+    "student_names_ids_classes_present": false,
+    "identity_fields_deferred_by_owner": true,
+    "method_rationale_implementation_results_contributions_limitations_and_references_covered": true,
+    "code_example_physical_lines": 234,
+    "code_example_effective_lines": 204,
+    "used_and_cited_libraries": [
+      "NumPy",
+      "SciPy",
+      "Matplotlib"
+    ],
+    "no_teacher_page_limit_in_inspected_images": true,
+    "final_submission_certified": false
+  },
+  "course_image_sha256": {
+    "参考资料/课程原始截图/微信图片_20260929224329_88_315.jpg": "dad70d780bf32ed9492e41cea3b3feefeac525474a36405f23d1f5804451cee4",
+    "参考资料/课程原始截图/微信图片_20260929224329_89_315.jpg": "5341a818797b1d9c04143cf20bee63a3a9522cd74ad5fd6e4daf9242b6b2ae9a",
+    "参考资料/课程原始截图/微信图片_20260929224329_90_315.jpg": "4d11e0cd5dbb15932148a509b09bdfa502df8e1472285c0e4b99a49ba8885f87",
+    "参考资料/课程原始截图/微信图片_20260929224329_92_315.jpg": "d6c1992ea518172119cef6a784f2cb766c9a27c1b6c14e7ad37f2f8b89251ed5",
+    "参考资料/课程原始截图/微信图片_20260929224329_93_315.jpg": "b9f6f4216bbf78efc61bbf92a081f0815ff3be562bcf4278a5571306456a4533"
+  },
+  "content_checks": [
+    {
+      "source": "main.tex",
+      "displayed_equations_unchanged": true,
+      "result_numbers_unchanged": true,
+      "allowed_added_year": null,
+      "new_citations": [],
+      "old_citation_sequence_preserved": true,
+      "labels_unchanged": true
+    },
+    {
+      "source": "sections/discussion.tex",
+      "displayed_equations_unchanged": true,
+      "result_numbers_unchanged": true,
+      "allowed_added_year": null,
+      "new_citations": [],
+      "old_citation_sequence_preserved": true,
+      "labels_unchanged": true
+    },
+    {
+      "source": "sections/introduction.tex",
+      "displayed_equations_unchanged": true,
+      "result_numbers_unchanged": true,
+      "allowed_added_year": null,
+      "new_citations": [],
+      "old_citation_sequence_preserved": true,
+      "labels_unchanged": true
+    },
+    {
+      "source": "sections/method.tex",
+      "displayed_equations_unchanged": true,
+      "result_numbers_unchanged": true,
+      "allowed_added_year": null,
+      "new_citations": [
+        "fifa2018affiliations"
+      ],
+      "old_citation_sequence_preserved": true,
+      "labels_unchanged": true
+    },
+    {
+      "source": "sections/model_selection.tex",
+      "displayed_equations_unchanged": true,
+      "result_numbers_unchanged": true,
+      "allowed_added_year": "2024, literature context only",
+      "new_citations": [
+        "groll2024combined"
+      ],
+      "old_citation_sequence_preserved": true,
+      "labels_unchanged": true
+    },
+    {
+      "source": "sections/results.tex",
+      "displayed_equations_unchanged": true,
+      "result_numbers_unchanged": true,
+      "allowed_added_year": null,
+      "new_citations": [
+        "uefa2026fixtures"
+      ],
+      "old_citation_sequence_preserved": true,
+      "labels_unchanged": true
+    },
+    {
+      "source": "sections/strength_development.tex",
+      "displayed_equations_unchanged": true,
+      "result_numbers_unchanged": true,
+      "allowed_added_year": null,
+      "new_citations": [],
+      "old_citation_sequence_preserved": true,
+      "labels_unchanged": true
+    }
+  ],
+  "original_files_checked": 18,
+  "original_source_figures_and_pdf_hashes_unchanged": true,
+  "citations": {
+    "current_version_entries": 18,
+    "current_version_cited_keys": 18,
+    "original_version_entries": 15,
+    "isolated_cli_checks_passed": true,
+    "new_keys": [
+      "fifa2018affiliations",
+      "uefa2026fixtures",
+      "groll2024combined"
+    ],
+    "old_bibliography_prefix_unchanged": true
+  },
+  "source_scope": {
+    "fifa": "Archived affiliation list is partial identity evidence; not full membership verification",
+    "uefa": "Live provider page verified for attribution only; frozen fixture inputs/predictions unchanged",
+    "groll": "Primary metadata, abstract and PDF pages 1-2; comparison of model classes and covariates only, not a benchmark or reproduction"
+  },
+  "validation": {
+    "compile_exit": 0,
+    "warnings": [],
+    "labels_resolve": true,
+    "all_23_pages_rendered_and_visually_checked": true,
+    "embedded_fonts": 29,
+    "all_fonts_embedded": true,
+    "model_or_simulation_execution": false,
+    "full_cross_machine_reproduction": false,
+    "git_diff_check": "passed"
+  },
+  "source_sha256": {
+    "paper/language_revision_20261107/main.tex": "90bc0a7ef89efef682b022a5ec5c7a752e30ecab3ccea3f1d615c0c89edab112",
+    "paper/language_revision_20261107/sections/discussion.tex": "a022dd1efaf4e6fa06937c674913645cf2b2bd9e3f5653fed207e20f110f5452",
+    "paper/language_revision_20261107/sections/introduction.tex": "aeb5fa6028a1b36dfe045fe27b5bfd04d6eae6da60c96f483f4fa5fa721afef9",
+    "paper/language_revision_20261107/sections/method.tex": "34b5e44d1fec31bf011be35d98fef02297cabe761c1e3ac632835b878c375d52",
+    "paper/language_revision_20261107/sections/model_selection.tex": "75ce28ab1c6a8684f07d26106a961341abc45f5380c9e3e2bf0d029fe78cb836",
+    "paper/language_revision_20261107/sections/results.tex": "bba7ec7dc6fcfe2fe8d7cd47283d87cb2cbc0bd8169b65a17aa60ea3979f98b6",
+    "paper/language_revision_20261107/sections/strength_development.tex": "5e2dd37d657fde5589526b83a98471658e26d4215a0f3ce7e0a18bf2fd5e6d26",
+    "paper/language_revision_20261107/references.bib": "ecc1a116093561ea1fc1e9c1ba5bcca912e0a11aba4c3d8a3ab6786e1ed97edd",
+    "paper/language_revision_20261107/README.md": "b890efdb5405aa3bb316273442fc2536b7c9f54cd92ab178998628ecc75f2e90",
+    "paper/language_revision_20261107/language_changes.diff": "f8586664f9b306e5a74ac9a04fccad853c9c30e9b1866f5685ed6322cff2b5b8",
+    "paper/language_revision_20261107/requirements_language_review.md": "6ad1b658803586ae5e34974b96d50fedb42e0eeb245ec12bcb034d362bc3fe98",
+    "paper/check_citations.py": "8c32aeb4510b062f46dc98569062f721dd81aacea1371b6c0b28c86a5831930f",
+    "研究/pipeline_state.json": "26bb2038f78454cf0d23508aa0129f9731274ffac13f266b6e59b560f8af9d88",
+    "文档/01_项目方案/研究日志与决策记录.md": "ccc592c59ccd7c61a56bfbeb9c3b6fceaa02718d97fc8a4a18b3030a944361fc",
+    "文档/05_团队协作/论文与汇报支撑材料索引.md": "d3ccf4acdfbf53b30a8d052f845270877942e6fb5d15bd5e77a7c2eaf127b80f",
+    "参考资料/方法文献/sources.json": "d95087a356d807974923d62173dee31987b58db99949478b41e209ff63e8d97c"
+  },
+  "support_sha256": {
+    "参考资料/数据来源/FIFA/FIFA_Financial_Report_2018.pdf": "751f68183be6a70f4eb461bedd1956a9be9dc1d212b1763faa12bdd22575a032",
+    "data/external/team_identity/fifa/20261024-v2/sources.json": "59c3db7184a04fa33b4106c99bbd083e82e300a9a5a59bf0009d2cb22a724251",
+    "data/external/future_predictions/unl-november-2026/fixtures.csv": "f9a31be21d21da1fe5b79ec80429eca0f1f061ccfbc35144d80359e36460dbf7",
+    "参考资料/方法文献/原文/Groll_etal_2024_EURO_combined.pdf": "ef264dea50cf14a62a6d934fbf2e4303aeabb77f7b7a7b50e68f53dd9c48efaa",
+    "src/strength/collapsed_jump.py": "728e598b117bb47d6598264c0db2b0711e9590a3eb675812bb5980ee748e92e4"
+  },
+  "output_sha256": {
+    "paper/language_revision_20261107/build/main.pdf": "7d5b646e4316ce8831542b5c137a0fe09084c57064f186d627446b8131fc2ba2"
+  },
+  "web_sources": [
+    {
+      "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.09068v1",
+      "accessed_on": "2026-11-07"
+    }
+  ],
+  "checkpoint": {
+    "previous_stage": "R20261107-10",
+    "local_path": "paper/language_revision_20261107/build/pre_requirements_R20261107-10",
+    "historical_manifest": "paper/language_revision_20261107/revision_manifest.json"
+  },
+  "code_identity": {
+    "head_at_recording": "eb9c5be3c41597e288abca7a29dfb2de5456cb63",
+    "uncommitted_changes": true
+  },
+  "pending": [
+    "Student names, IDs, classes deferred by owner",
+    "Actual independent reproduction and final submission-package acceptance"
+  ]
+}

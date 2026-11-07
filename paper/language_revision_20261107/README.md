@@ -1,12 +1,14 @@
-# 英文语言精修版（R20261107-10）
+# 英文语言精修版（当前R20261107-11）
+
+**当前核查（R20261107-11）：** 已对照教师原图88/89/90/92/93号修订新版，当前23页、7图5表/12公式/18引用。补明本项目贡献、计算流程、FIFA/UEFA数据出处与2024集成预测的方法对照，进一步收紧统计措辞。详细判定见[课程要求与语言核查](requirements_language_review.md)，当前指纹见`requirements_language_review.json`。原版不覆盖；R10的revision_manifest.json/content_preservation_checks.json保留历史，不认证当前PDF。姓名/学号/班级按组长安排继续后置，正式提交/实际复现尚待验收。
 
 本目录保存单独的语言修订版，原稿没有覆盖。
 
-- **修订版源文件：** `main.tex`、`sections/`；参考文献副本为`references.bib`。
-- **修订版PDF：** `build/main.pdf`（22页）。
+- **修订版源文件：** `main.tex`、`sections/`；当前参考文献为`references.bib`（18条；比原版增加3项）。
+- **修订版PDF：** `build/main.pdf`（23页）。
 - **保留的原版：** 上一级`../main.tex`、`../sections/`及`../build/main.pdf`（22页）。
 - **逐行对照：** `language_changes.diff`；`-`为原句，`+`为修改句，也包含独立目录必要的图源相对路径调整。
-- **核查记录：** `content_preservation_checks.json`、`revision_manifest.json`；原18个源文件/PDF/共享图表的SHA见`original_version_fingerprints.json`。
+- **核查记录：** 当前使用`requirements_language_review.md/.json`；R10检查文件保留历史。原18个源文件/PDF/共享图表的SHA见`original_version_fingerprints.json`。
 
 ## 本轮语言标准
 
@@ -25,3 +27,6 @@
 在LaTeX编辑器中打开本目录`main.tex`，将其设为根文档，使用XeLaTeX + BibTeX；输出到本目录`build/`。不要以原版`../main.tex`为本版的编译入口。当前字号、边距和图注样式与原版相同。
 
 `build/`保存PDF、编译日志和页面检查缓存，不纳入版本管理；提交源文件后可重新编译。PDF已经本地生成并逐页检查；目录存在不代表成员已独立复核。
+
+
+引用核查在仓库根目录运行：`python paper/check_citations.py --paper-dir paper/language_revision_20261107 --strict`。工具按所选版本检查，避免将原版和新版引用混算；默认不带目录仍检查上级原版15条。

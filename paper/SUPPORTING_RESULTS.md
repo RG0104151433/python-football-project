@@ -189,3 +189,10 @@ Current manuscript and PDF fingerprints and the scope of the writing checks are 
 ## Separate language revision (R20261107-10)
 
 The preferred reading version is paper/language_revision_20261107/main.tex, compiled to its own build/main.pdf. The previous paper/main.tex, sections, and build/main.pdf remain unchanged for comparison. Figures and generated table rows are shared from paper/figures and retain their recorded hashes. The language_changes.diff and revision_manifest.json in the revision directory record the edits and checks. This revision changes wording and paragraph organization without rerunning the models or changing numerical claims, displayed equations, citation sequences, or study scope. Both PDFs have 22 pages.
+
+
+## Course requirements and academic-language check (R20261107-11)
+
+The current language version has 23 pages and 18 references. Its requirements_language_review.md/.json records direct comparison with the assignment images, source attribution, implementation-flow and contribution clarifications, and cautious statistical wording. Three references were added: FIFA affiliation records, the UEFA schedule underlying the archived fixture ledger, and Groll et al. (2024) as contemporary methodological context. No ranking data, fixture inputs, predictions, model parameters, or empirical results were updated. The Groll paper was not implemented as a benchmark; metadata, abstract, and the first two PDF pages were inspected.
+
+The original paper sources/PDF remain unchanged. Names, student IDs, and classes remain deferred by the project lead; actual independent reproduction and final submission-package checks are not certified by this editorial review. Cite checking must select the current version: python paper/check_citations.py --paper-dir paper/language_revision_20261107 --strict. Earlier R10/R09 manifests identify historical artifacts.

@@ -3,11 +3,12 @@
 Usage (from the repository root):
     python paper/check_citations.py
     python paper/check_citations.py --strict
+    python paper/check_citations.py --paper-dir paper/language_revision_20261107 --strict
 
 It prints:
-- cited keys missing from paper/references.bib (error)
+- cited keys missing from the selected version's references.bib (error)
 - duplicate BibTeX keys (error)
-- BibTeX keys never cited in paper/**/*.tex (warning)
+- BibTeX keys never cited in that version's manuscript sources (warning)
 - summary counts
 
 Exit code 1 on missing/duplicate keys, or on uncited keys when --strict is used.
@@ -23,8 +24,6 @@ from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-BIB = ROOT / "paper/references.bib"
-PAPER = ROOT / "paper"
 
 BIB_KEY = re.compile(r"@\w+\s*\{\s*([^,\s]+)\s*,")
 CITE = re.compile(r"\\cite[a-zA-Z]*\s*(?:\[[^\]]*\]\s*){0,2}\{([^}]+)\}")
@@ -33,18 +32,26 @@ CITE = re.compile(r"\\cite[a-zA-Z]*\s*(?:\[[^\]]*\]\s*){0,2}\{([^}]+)\}")
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--strict", action="store_true", help="fail on uncited BibTeX keys")
+    parser.add_argument("--paper-dir", default="paper", help="manuscript directory, relative to the repository root or absolute")
     args = parser.parse_args()
+    paper = Path(args.paper_dir)
+    if not paper.is_absolute():
+        paper = ROOT / paper
+    bib = paper / "references.bib"
 
-    if not BIB.exists():
-        print(f"ERROR: missing {BIB}")
+    if not bib.exists():
+        print(f"ERROR: missing {bib}")
         return 1
 
-    bib_text = BIB.read_text(encoding="utf-8")
+    bib_text = bib.read_text(encoding="utf-8")
     keys = BIB_KEY.findall(bib_text)
     duplicates = sorted(key for key, count in Counter(keys).items() if count > 1)
 
     cited: set[str] = set()
-    tex_files = sorted(PAPER.rglob("*.tex"))
+    # Exclude other saved manuscript versions and their build caches.
+    tex_files = [paper / "main.tex"] if (paper / "main.tex").exists() else []
+    for directory in ("sections", "figures"):
+        tex_files.extend(sorted((paper / directory).rglob("*.tex")))
     for path in tex_files:
         text = path.read_text(encoding="utf-8", errors="ignore")
         for group in CITE.findall(text):

@@ -1,5 +1,7 @@
 # 课程论文：LaTeX写作入口
 
+**R20261107-11当前稿：** 教师要求与学术语言复核已完成，继续使用[独立新版](language_revision_20261107/README.md)及其[PDF](language_revision_20261107/build/main.pdf)，当前23页/18引用；新增项目贡献/计算流程与三项正式来源，原稿22页/15引用不改。[核查记录](language_revision_20261107/requirements_language_review.md)区分正文覆盖与姓名/学号/班级、最终复现/提交等待办。当前指纹为`language_revision_20261107/requirements_language_review.json`；此前R10/R09为历史。
+
 **R20261107-10：语言精修版已单独保存。** 当前优先研读[语言精修版](language_revision_20261107/README.md)及其[PDF](language_revision_20261107/build/main.pdf)。[原版PDF](build/main.pdf)、原`main.tex`和`sections/`均保留，18个原文件指纹未变。两版均22页，7图5表/12公式/15引用；[逐行差异](language_revision_20261107/language_changes.diff)供对照。修订限正式学术英语、措辞/段落组织和去冗；数值、公式、引用和研究边界保留，未重跑模型。当前语言版清单见`language_revision_20261107/revision_manifest.json`，下方R09是保留原版。
 
 **R20261107-09：根据组长反馈扩充论证和实力模型结果。** 当前22页，7图5表、12个显示公式、15条引用；题目/署名占位/摘要/关键词同一首页，正文从第二页开始。图表统一为粗体编号与题名、另行小字号Note；正文及与公式相连的段落保持完整，图表不能插入段落中间。数学部分补模型取舍、推导、在线学习及局限；结果增加实力状态图、评分管线独立三分类表现和实际迭代。当前指纹/验证见`paper/method_expansion_manifest.json`（paper目录内使用`method_expansion_manifest.json`）。未重训模型；署名/真人复核/正式提交继续后置。此前带日期的页数和清单均为历史状态。
