@@ -17,7 +17,7 @@ Every match on a date is predicted before any result from that date updates stre
 \begin{figure}[htbp]
 \centering
 \input{figures/study_design}
-\caption{Information flow and analytical branches. The 24,917-match comparative cohort and the 38,919-match strength-learning set overlap; neutral and pre-1980 matches contribute to learning without entering the principal historical home-win comparisons. Only actual earlier results update later states. The sealed prospective release uses its own stated cutoff.}
+\papercaption{Information flow and analytical branches.}{The 24,917-match comparative cohort and the 38,919-match strength-learning set overlap; neutral and pre-1980 matches contribute to learning without entering the principal historical home-win comparisons. Only actual earlier results update later states. The sealed prospective release uses its own stated cutoff.}
 \label{fig:study-design}
 \end{figure}
 
@@ -41,6 +41,12 @@ Mean fitting removes part of the variation used to estimate dependence. To accou
 \end{equation}
 Here $\mathcal L_j$ is the logical range and $s_j$ is not a conventional standard error. Final rank calibration uses error parameter $0.01$ separately in four prespecified families of 27, 64, 36, and 71 quantities. Its guarantee concerns frozen reference generators over calibration and new synthetic histories, not all 198 quantities jointly or arbitrary football processes. Detailed assumptions and numerical validation gates are indexed in the supporting-results guide.
 
+The uncertainty design addresses a specific failure of treating matches as independent Bernoulli trials. Even with the same marginal win probabilities, $\operatorname{Var}(a_j^\top Y)=a_j^\top\Sigma a_j$ includes off-diagonal terms from shared teams and calendar conditions. Large match counts do not force these terms to vanish. The residual projection above also shows why fitting covariance directly to residual products as if their expectation were $\Sigma$ can understate variation: their expectation is $M\Sigma M^\top$. Our component model corrects that fitting target, but still restricts which dependence structures can occur. Sparse comparison cells cannot be repaired by a more elaborate covariance estimator.
+
+We compared covariance estimation and calibration routes against common simulated reference truths. The adopted historical method estimates both mean and long-term common variation, then calibrates family maxima over complete generated histories. This choice protects the specified simultaneous comparisons more directly than reporting independent binomial intervals or an uncalibrated residual-only scale. Its cost is sometimes a very broad range, especially for era changes observed along only one historical path. A permanent global-shock generator remains a documented failure boundary: its recorded conditional coverage was 866 of 1,000 histories. We therefore restrict claims to admitted mechanisms rather than interpreting successful calibration as a distribution-free guarantee. Likewise, overlapping ten-year windows visualize continuity, but do not constitute independent repetitions that increase the effective sample size tenfold.
+
+\input{sections/model_selection}
+
 \subsection{Dynamic Pre-Match Team Strength}
 \label{sec:strength-method}
 
@@ -53,6 +59,14 @@ Strength is an unobserved relative state inferred from results. Dynamic paired c
 \end{equation}
 The innovations have zero prior mean. Inactivity therefore increases uncertainty without mechanically lowering the strength centre. A jump is a persistent change in state, not an additional label assigned only to an upset.
 
+The two components encode different hypotheses about change, not two types of observed match. Independence and the law of total variance give
+\begin{equation}
+ E[s_u(t+\Delta)-s_u(t)]=0,\qquad
+ \operatorname{Var}[s_u(t+\Delta)-s_u(t)]=(q+\lambda\tau^2)\Delta.
+ \label{eq:transition-moments}
+\end{equation}
+Indeed, conditional on $N_u=n$, the jump sum has mean zero and variance $n\tau^2$; averaging over $E[N_u]=\lambda\Delta$ gives the second term. Matching this variance with a single Gaussian would not preserve the jump mixture's tails. A long absence therefore permits a wider set of strengths without supplying evidence that the team has improved or declined. Once play resumes, actual results determine the direction of learning.
+
 For a match between home team $h$ and away team $a$, the performance variable is $Z_i=s_h-s_a+v_iH_t+\varepsilon_i$, with $\varepsilon_i\sim N(0,1)$, shared home term $H_t$, and venue sign $v_i\in\{-1,0,1\}$. Neutral venues have $v_i=0$. Outcomes correspond to $Z_i>\delta$ (home win), $|Z_i|\leq\delta$ (draw), and $Z_i<-\delta$ (away win). We mix these informative probabilities with a uniform three-outcome component:
 \begin{equation}
  P(R_i=r\mid\mathrm{state})=\kappa_i P(Z_i\in A_r\mid\mathrm{state})+(1-\kappa_i)/3,\qquad
@@ -61,11 +75,39 @@ For a match between home team $h$ and away team $a$, the performance variable is
 \end{equation}
 The mixture reduces how informative a friendly result is about strength. Its coefficient does not directly multiply the win rate, match count, or rating update. The same likelihood handles every result: a single surprise can reflect noise, while repeated evidence can support a persistent change.
 
+For a given latent state, write $d=s_h-s_a+vH$. The informative probabilities are $\ell_H=\Phi(d-\delta)$, $\ell_A=\Phi(-\delta-d)$, and $\ell_D=\Phi(\delta-d)-\Phi(-\delta-d)$. The difference is thus an input to a nonlinear probability map, not a claim that a one-unit ability advantage always produces the same win-rate change. Integrating these probabilities over the uncertain state also distinguishes a well-supported advantage from an equally large but poorly known one.
+
+Bayes' rule makes the handling of surprises explicit. If $S$ denotes the full pre-match state, $f^-(S)$ its prior density, and $r$ the observed result, then
+\begin{equation}
+ f^+(S)=\frac{f^-(S)\{\kappa\ell_r(S)+(1-\kappa)/3\}}{\int f^-(u)\{\kappa\ell_r(u)+(1-\kappa)/3\}\,du},\qquad
+ \nabla\log P(r\mid S)=w_r(S)\nabla\log\ell_r(S),
+ \label{eq:robust-learning}
+\end{equation}
+where $w_r(S)=\kappa\ell_r(S)/\{\kappa\ell_r(S)+(1-\kappa)/3\}$. This is the posterior responsibility of the informative component. An outcome very unlikely under a particular state has small responsibility there, reducing its leverage relative to the informative likelihood alone. The multiplier is bounded between zero and one, but the update is not a fixed linear multiple of the match result: responsibilities, state probabilities, and posterior moments change together. Other states, including jump-supported states, may explain the result better. Repeated surprising results can accumulate support for a lasting shift, although no theorem here guarantees recovery within a specified number of games. Stronger robustness can also delay recognition of a genuine decline; this trade-off requires diagnostics rather than an upset-specific exception.
+
 The adopted parameters are $q=0.03$, $\lambda=0.08$ per year, $\tau=1.2$, $\delta=0.4$, $\alpha=0.65$, and $\epsilon=0.05$; the shared home term has variance rate $0.005$ per year. Team priors have mean zero and variance one; the home-term prior has mean zero and variance $0.25$. Unit performance-noise variance defines the rating scale. Parameter and initialization choices were assessed through finite development checks.
+
+These values are empirical design choices, not constants deduced from the cited rating papers. The initial global protocol registered 21 settings, including friendly information coefficients $0.4$, $0.65$, and $0.85$, and compared loss, class bias, structural complexity, and numerical admissibility. The jump challenger initially required further numerical and cost work before admission; its later repair and probability-correction selection reused history. Thus $\alpha=0.65$ has a finite model-development basis, but it is neither a measured universal fraction of friendly-match effort nor a globally optimal weight. The final eight-way correction comparison used a separate frozen candidate list and unchanged acceptance gates. The development sequence, including its failures, is reported in Section~\ref{sec:strength-development} rather than recast as a single successful pre-1980 selection.
 
 These parameters identify the adopted full-jump rating input. Its authoritative parameter record is the registered rating report, distinguished from the zero-jump special case used in an earlier handoff rule-evaluation exercise. Table~\ref{tab:predictive-models} uses the full-jump input and the v2 annual prediction protocol; the supporting guide gives the exact configuration and output identifiers.
 
 At each date, Bayesian updating combines outcome likelihoods with the joint prior, retaining means and covariances for both opponents. Poisson-count likelihoods use controlled tail truncation; a team's matches on the same date share its latent changes. Damped expectation propagation and end-of-date Gaussian projection provide an approximate sequential calculation~\cite{minka2001ep}. Both teams learn from each result without a separate away-strength parameter.
+
+The covariance is essential: for opponents with marginal variances $V_h,V_a$ and covariance $C_{ha}$, $\operatorname{Var}(s_h-s_a)=V_h+V_a-2C_{ha}$. Treating them as independent would generally change predictive uncertainty. At a single Gaussian-prior update, the moment identities $m^+=m+V\nabla_m\log\mathcal Z$ and $V^+=V+V(\nabla_m^2\log\mathcal Z)V$ follow by differentiating the integrated likelihood $\mathcal Z$ with respect to the prior mean. They explain why likelihood evidence updates both the centre and uncertainty. They are not a claim that repeated mixture updates remain exactly Gaussian. The implementation first integrates local jump counts, jointly treats matches sharing a team on the date, then projects the resulting joint moments at the day boundary. This avoids expanding every team's jump history as a global collection of branches. The unresolved loss of multimodality and the lack of a general EP convergence guarantee remain approximation limits.
+
+We initialize in 1950 rather than impose an arbitrary downweighting on all pre-war results. This is an implemented scope choice, not a mathematically optimal historical boundary. The 5,581 eligible 1950--1979 games give the model a learning period before the principal cohort; dynamic changes reduce the need to treat old outcomes as equally informative about current ability. Starting in 1960 and changing the initial variance to $0.5$ or $2$ were also checked. Cold starts and historically weak links between opponent groups remain flagged rather than being removed or declared solved by a common prior.
+
+\subsubsection{Online Learning and the Separate Probability Correction}
+
+This is a form of supervised probabilistic learning: an observed result is the label, and posterior states are updated for subsequent predictions. The latent-strength model is not a neural network. Its finite parameter search and the outcome layer's numerical optimization are different operations from updating a team's state after a match. Predicting first and learning later prevents the current result from explaining its own prediction; it does not remove bias from reusing history to choose a model.
+
+Development exposed probability-shape errors and persistent recent residual bias, which require different corrections. For the auxiliary three-class branch, let $p_H,p_D,p_A$ be raw rating probabilities and $u=(\log(p_H/p_A),\log(p_D/p_A))$. Within the registered friendly/neutral contexts, the adopted annual correction uses the preceding ten years to fit a shared slope $a$ and two offsets $c$. For fixed fitted parameters,
+\begin{equation}
+ (\widetilde p_H,\widetilde p_D,\widetilde p_A)
+ =\operatorname{softmax}(a u_H+c_H,\ a u_D+c_D,\ 0).
+ \label{eq:shape-correction}
+\end{equation}
+The regularized likelihood shrinks toward the identity map $(a,c)=(1,0)$, with sparse contexts falling back to their registered parent group. Parameter uncertainty is handled approximately by local Gaussian integration. A second, zero-drift two-offset state tracks remaining time-local bias, with diffusion $0.02$ per year and same-day joint updates. Its predictive probabilities integrate the offsets before learning the day's outcomes. These corrections change probabilities, not the underlying team means or covariances. They must not be fed into the joint model as another supposedly independent strength observation. The joint model below instead receives the uncorrected latent team-difference distribution, excludes the rating model's home term, and estimates its own context effects.
 
 \subsection{Joint Probability Model}
 \label{sec:joint-method}
@@ -84,6 +126,15 @@ where $\sigma_{D,i}^2$ is the base variance of the difference, including the opp
  \label{eq:joint-probability}
 \end{equation}
 Here $\Phi$ is the standard normal distribution function. Context $x_i$ includes era, friendly status, both teams' geographic regions, and within-region groups centred by their frequencies. The estimated positive slope $b$ maps strength to the probability scale; integrating over the distribution avoids treating estimated strength as known. Background-only uses context without strength ($b=0$); strength-only retains an intercept and strength while excluding other contextual terms.
+
+The denominator in Equation~\ref{eq:joint-probability} follows analytically rather than from a fitted uncertainty penalty. Conditional on a jump count, let $D\sim N(\mu,v)$ and independently $U\sim N(0,1)$. Then
+\begin{equation}
+ E_D[\Phi(\eta+bD)]
+ =P\{U-b(D-\mu)\leq\eta+b\mu\}
+ =\Phi\!\left(\frac{\eta+b\mu}{\sqrt{1+b^2v}}\right).
+ \label{eq:probit-integral}
+\end{equation}
+Applying this identity at $v=\sigma_D^2+k\tau^2$ and averaging over $k$ gives the adopted mixture. Larger uncertain variance moderates extreme probabilities conditional on the same numerator; it is not a rule that every uncertain match becomes a draw. This binary layer does not separately assign draw and away-win probabilities.
 
 For two allowed context scenarios $a,b$, their strength-adjusted contrast is
 \begin{equation}
@@ -111,6 +162,8 @@ Lower scores indicate better probability forecasts~\cite{gneiting2007scoring}. W
 Three uncertainty statements serve different purposes: the rating distribution represents uncertain strength; simulation assesses conditional comparisons; match probabilities describe uncertain outcomes. The prospective central 90\% ranges propagate latent strength uncertainty with coefficients fixed, excluding coefficient and model error.
 
 Conditional contrasts require additional validation because outcomes update the strength estimates used later. Route A generates a full history, updates strength, and refits the analysis; route B uses a first-order total-score approximation. Separate reference-truth, calibration, and validation streams assess maximum standardized error across the comparisons, allowing for Monte Carlo truth error. We adopt A and report only quantities meeting the simulation acceptance criteria. Generators include date-conditionally independent outcomes and a same-day latent common-shock setting of $0.25$, which is a generator parameter rather than the correlation of all match pairs. Follow-up simulations use a preallocated sequential error budget, following time-uniform control principles~\cite{howard2021confidence}. This validation concerns conditional contrasts under those generators, separately from predictive loss comparisons.
+
+The two routes account for a feedback absent from a regression with externally known strength: changing an early result can change later ratings, later predictions, and fitted context coefficients. Route A recomputes that chain on each generated history. Route B approximates the change through a first-order expansion of the full score, Hessian, and target gradient; its validity also depends on small linearization remainder. A preliminary date-multiplier approach did not establish control of predictable mean drift and long-term feedback, so it was not accepted as the final B route. Both final routes used the same generators and truth targets. They showed close numerical agreement, but A was adopted because complete refitting avoids substituting a first-order approximation for the full change. B's optimistic total-cost saving in two representative histories was about $8.93\%$, below the prespecified $20\%$ replacement threshold. This is a methodological reason supported by finite comparisons, not proof that A dominates every alternative or that two agreeing routes give independent real-world evidence. Finite Monte Carlo truth error still prevented admission of some regional changes, as reported in the results.
 
 History-window comparisons vary strength memory and outcome-learning history separately. Finite-memory states are reconstructed annually; an adaptive choice uses past performance only. Outcome parameters stay fixed within each evaluation year while strength updates from earlier actual results. Timings distinguish the measured outcome-fitting component from total costs. Regional diagnostics hold predictions fixed, standardize nine cells combining strength-gap and strength-uncertainty categories, and use cutpoints learned before 2010. Leave-one-year/team checks omit affected evaluation matches, in either team role, without rebuilding the learning history.
 

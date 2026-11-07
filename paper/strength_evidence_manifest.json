@@ -1,0 +1,1554 @@
+{
+  "purpose": "Presentation of existing adopted rating states and three-class checks; no new model run",
+  "sources": {
+    "data/processed/strength/strength-delivery-ca43fe498cd43ec8e21f/study_prematch_features.csv": "f43d6c03c03f389ab3897a5a1502408c99cf2979413df41a779ca80c3f6c110f",
+    "data/processed/strength/strength-delivery-ca43fe498cd43ec8e21f/report.json": "6641ba6b17bd60cdad6cac4024bd2aaa0522f3700ffdff10735ec94f209439a1",
+    "outputs/logs/strength/composed-calibration-8176105d420b3f2400eb/report.json": "96c43c7e26c8fee50d5f0c77b876c98903268ef384ecd87aa91db00f8b8ab83c"
+  },
+  "selectors": {
+    "scope": "accepted_study",
+    "periods": [
+      "reused_1980_1999",
+      "reused_2000_2009",
+      "reused_2010_2019",
+      "reused_2020_2024"
+    ],
+    "trajectories": "Latest comparative-cohort pre-match date per team/year; match_id tie-break; both roles"
+  },
+  "strength_units": "Unit performance-noise scale; not FIFA/Elo points or known true ability",
+  "uncertainty": "Whiskers: marginal mean +/- one SD (including jump variance), not confidence or quantile intervals",
+  "historical_reuse": true,
+  "composition_losses_on_24917_study_matches": {
+    "dirichlet_matrix__residual_0.02": 0.8912580894450406,
+    "temperature_offset__residual_0.02": 0.89094874800652
+  },
+  "checks": [
+    {
+      "accuracy": 0.5629959124789613,
+      "brier": 0.5440407362515789,
+      "count": 8318,
+      "fixed_step_accuracy": 0.5584275066121663,
+      "fixed_step_log_loss": 0.9397745529721915,
+      "frequency_accuracy": 0.4979562394806444,
+      "frequency_log_loss": 1.0423854132771904,
+      "home_probability_bias": 0.001807332079711559,
+      "log_loss": 0.9173393984878453,
+      "max_calibration_bin_error": 0.029897156458524587,
+      "passed": true,
+      "period": "reused_1980_1999",
+      "scope": "accepted_study",
+      "tests": {
+        "accuracy_not_worse_than_frequency": true,
+        "calibration": true,
+        "fixed_step_noninferiority": true,
+        "home_probability_bias": true,
+        "log_loss_gain_over_frequency": true
+      }
+    },
+    {
+      "accuracy": 0.590221187427241,
+      "brier": 0.5189550786438268,
+      "count": 6872,
+      "fixed_step_accuracy": 0.584837019790454,
+      "fixed_step_log_loss": 0.8959361090107166,
+      "frequency_accuracy": 0.5084400465657741,
+      "frequency_log_loss": 1.033723321937487,
+      "home_probability_bias": -0.0001733948868094512,
+      "log_loss": 0.8809760024581436,
+      "max_calibration_bin_error": 0.041945758500485875,
+      "passed": true,
+      "period": "reused_2000_2009",
+      "scope": "accepted_study",
+      "tests": {
+        "accuracy_not_worse_than_frequency": true,
+        "calibration": true,
+        "fixed_step_noninferiority": true,
+        "home_probability_bias": true,
+        "log_loss_gain_over_frequency": true
+      }
+    },
+    {
+      "accuracy": 0.5999698431845597,
+      "brier": 0.5152809764572269,
+      "count": 6632,
+      "fixed_step_accuracy": 0.5952955367913149,
+      "fixed_step_log_loss": 0.8807927221726396,
+      "frequency_accuracy": 0.5045235223160435,
+      "frequency_log_loss": 1.0358772713476871,
+      "home_probability_bias": 4.68186325576206e-05,
+      "log_loss": 0.8784951520055821,
+      "max_calibration_bin_error": 0.023946298822696388,
+      "passed": true,
+      "period": "reused_2010_2019",
+      "scope": "accepted_study",
+      "tests": {
+        "accuracy_not_worse_than_frequency": true,
+        "calibration": true,
+        "fixed_step_noninferiority": true,
+        "home_probability_bias": true,
+        "log_loss_gain_over_frequency": true
+      }
+    },
+    {
+      "accuracy": 0.6025848142164781,
+      "brier": 0.5105846589174726,
+      "count": 3095,
+      "fixed_step_accuracy": 0.6096930533117932,
+      "fixed_step_log_loss": 0.8639588075940718,
+      "frequency_accuracy": 0.5085621970920841,
+      "frequency_log_loss": 1.032750044091541,
+      "home_probability_bias": -0.00390994271275877,
+      "log_loss": 0.8688510179202515,
+      "max_calibration_bin_error": 0.04932124531338011,
+      "passed": true,
+      "period": "reused_2020_2024",
+      "scope": "accepted_study",
+      "tests": {
+        "accuracy_not_worse_than_frequency": true,
+        "calibration": true,
+        "fixed_step_noninferiority": true,
+        "home_probability_bias": true,
+        "log_loss_gain_over_frequency": true
+      }
+    }
+  ],
+  "plotted_points": {
+    "Brazil": [
+      {
+        "date": "1980-12-21",
+        "match_id": "results:88af8328ba9e6afbb1e9fcde8d58842ae37ffa0da751130d32505f067fa64651",
+        "role": "home",
+        "team_id": "team:brazil@base",
+        "mean": 2.895816518,
+        "sd": 0.616044643999118
+      },
+      {
+        "date": "1981-10-28",
+        "match_id": "results:90f96c9002c63e5c6cf303ad95e4b3472a1528ea02d18fbc955767c50f3c1194",
+        "role": "home",
+        "team_id": "team:brazil@base",
+        "mean": 3.119404313,
+        "sd": 0.5638498471224409
+      },
+      {
+        "date": "1982-05-27",
+        "match_id": "results:11eab33f99e81367340af753b51a95408337f886c6418f62ef6e5a5d7772e348",
+        "role": "home",
+        "team_id": "team:brazil@base",
+        "mean": 3.1941875124,
+        "sd": 0.6042446361367224
+      },
+      {
+        "date": "1983-11-04",
+        "match_id": "results:488f6c3ce87c1f0a6ba45f2ec76da6b5074c5eb708a5d63b956f780587bc4b0a",
+        "role": "home",
+        "team_id": "team:brazil@base",
+        "mean": 2.4718189794,
+        "sd": 0.4680708328875022
+      },
+      {
+        "date": "1984-06-21",
+        "match_id": "results:d5a6a1cb5e3298d7d6aea995b04f4b17265e3c709f98ae0fb3eb8dcf8ca077e4",
+        "role": "home",
+        "team_id": "team:brazil@base",
+        "mean": 2.0884807748,
+        "sd": 0.5627047051518229
+      },
+      {
+        "date": "1985-06-30",
+        "match_id": "results:ea1c9c732566f10fbc05991dc4af62b180c8a4ff62f370eaf143c136d0bf5a72",
+        "role": "home",
+        "team_id": "team:brazil@base",
+        "mean": 2.4020452877,
+        "sd": 0.5349815016428139
+      },
+      {
+        "date": "1986-05-07",
+        "match_id": "results:0cf77761e2a6bd813d75bc8bfd4c87059f2470cb324676550309720663674a32",
+        "role": "home",
+        "team_id": "team:brazil@base",
+        "mean": 2.3964877145,
+        "sd": 0.5410607953825521
+      },
+      {
+        "date": "1987-12-12",
+        "match_id": "results:7d8319f2d1db5a6d610315207c5daf5da4bac46d2385af5d6fa70db407b24b81",
+        "role": "home",
+        "team_id": "team:brazil@base",
+        "mean": 2.8850153887,
+        "sd": 0.5068884348651091
+      },
+      {
+        "date": "1988-10-12",
+        "match_id": "results:f9cf71f0a129af0c6aa575781fa618d252d07d9ba4da9a2ce36edffeaede44a0",
+        "role": "away",
+        "team_id": "team:brazil@base",
+        "mean": 2.8255448645,
+        "sd": 0.49659401959749777
+      },
+      {
+        "date": "1989-12-20",
+        "match_id": "results:10e9360806b0005a95ecf0048d23bdbf947dae1c2e8919e0eae54f7f7b933fd6",
+        "role": "away",
+        "team_id": "team:brazil@base",
+        "mean": 2.7566926018,
+        "sd": 0.4813440738183031
+      },
+      {
+        "date": "1990-11-08",
+        "match_id": "results:d3855945eb64b0daabb0a559949a5a9b748eec771b79795739be61e9ce2058c2",
+        "role": "home",
+        "team_id": "team:brazil@base",
+        "mean": 2.6845893837,
+        "sd": 0.5202472957161816
+      },
+      {
+        "date": "1991-12-18",
+        "match_id": "results:199087f7da84de208d0064b0c3028032adf5d053b346c8b9016c693f1093a45f",
+        "role": "home",
+        "team_id": "team:brazil@base",
+        "mean": 2.6227695825,
+        "sd": 0.4787168030265911
+      },
+      {
+        "date": "1992-12-16",
+        "match_id": "results:87fa86c0f31d513928eb32342735e0dd94869037096fe2ffd144d12726025731",
+        "role": "home",
+        "team_id": "team:brazil@base",
+        "mean": 2.9128944865,
+        "sd": 0.5684595816766571
+      },
+      {
+        "date": "1993-12-16",
+        "match_id": "results:12051414f5916a71f21664baf7cf2967f9532fdd7195749f5465ab4cc461e2da",
+        "role": "away",
+        "team_id": "team:brazil@base",
+        "mean": 2.473208718,
+        "sd": 0.42740901745283755
+      },
+      {
+        "date": "1994-12-23",
+        "match_id": "results:eb015bc06e6a151b701584e5ecc9f79df31190df19916cd3a11e6b24bdb1c0ed",
+        "role": "home",
+        "team_id": "team:brazil@base",
+        "mean": 2.8861224485,
+        "sd": 0.4501737370171654
+      },
+      {
+        "date": "1995-12-20",
+        "match_id": "results:345ffb553d485f58373e25946e93abc6e3a6ca0c24d097d1aa55e72e555fecbb",
+        "role": "home",
+        "team_id": "team:brazil@base",
+        "mean": 3.3224424521,
+        "sd": 0.44131838586218003
+      },
+      {
+        "date": "1996-12-18",
+        "match_id": "results:fb8334e9d87847f37e6be0174f04284b192b6b1e556dbe46a1e970f1f8103eeb",
+        "role": "home",
+        "team_id": "team:brazil@base",
+        "mean": 3.36591241,
+        "sd": 0.49579159744796
+      },
+      {
+        "date": "1997-12-12",
+        "match_id": "results:f854d7a6c07badf3d55dc2abf90958e8d16193b022a9b294b9fff69d68d55338",
+        "role": "away",
+        "team_id": "team:brazil@base",
+        "mean": 3.7518590823,
+        "sd": 0.4428429347974291
+      },
+      {
+        "date": "1998-11-18",
+        "match_id": "results:a8f6d0b5c38196aa67e8ed07534752cc28271eef2298438fc5e4506b77663088",
+        "role": "home",
+        "team_id": "team:brazil@base",
+        "mean": 3.0528654556,
+        "sd": 0.4532438871071512
+      },
+      {
+        "date": "1999-11-13",
+        "match_id": "results:0fe83f83f19e843bf8ab1aa579179bec6d1a4e2d0156450ee92c1b91e52df397",
+        "role": "away",
+        "team_id": "team:brazil@base",
+        "mean": 3.4102969877,
+        "sd": 0.4337879328658187
+      },
+      {
+        "date": "2000-11-15",
+        "match_id": "results:e2bda096ca23a8435c1ad6f5dde5bde458055da19daaed97f8e5397c8389d27d",
+        "role": "home",
+        "team_id": "team:brazil@base",
+        "mean": 3.1179413126,
+        "sd": 0.46097828658191703
+      },
+      {
+        "date": "2001-11-14",
+        "match_id": "results:619447a439be193ef50ce1293eb890615ac5aace3020098ddddbc483bd3ab058",
+        "role": "home",
+        "team_id": "team:brazil@base",
+        "mean": 2.2406962529,
+        "sd": 0.40960746331091186
+      },
+      {
+        "date": "2002-11-20",
+        "match_id": "results:60b69913efd3f73f97612446bd13375cebffa0b8ba2e507da2f79b2706355e48",
+        "role": "away",
+        "team_id": "team:brazil@base",
+        "mean": 3.2182972352,
+        "sd": 0.4628726837911263
+      },
+      {
+        "date": "2003-11-19",
+        "match_id": "results:847ebc6e16cbde0d9ceb9e68535c5391ddfed409080c66e81a5cb8a8a741b426",
+        "role": "home",
+        "team_id": "team:brazil@base",
+        "mean": 3.0329159229,
+        "sd": 0.40352398243474946
+      },
+      {
+        "date": "2004-11-17",
+        "match_id": "results:d45c695425a3fbe213bd009b8996b1cf27429782043ceecaa0c1f0be65ca4094",
+        "role": "away",
+        "team_id": "team:brazil@base",
+        "mean": 3.052881578,
+        "sd": 0.3871892471389153
+      },
+      {
+        "date": "2005-11-12",
+        "match_id": "results:e755b93a72bcc81bde393e28a0290d3fe196f175d3c4c2ac42e8c0be91825698",
+        "role": "away",
+        "team_id": "team:brazil@base",
+        "mean": 2.9593000073,
+        "sd": 0.4029823976304672
+      },
+      {
+        "date": "2006-11-15",
+        "match_id": "results:68bf3b6bf9058cd99eaffbbd803a73da85a1baebabf57302999469cedcf8536d",
+        "role": "away",
+        "team_id": "team:brazil@base",
+        "mean": 3.3319639883,
+        "sd": 0.445227503979707
+      },
+      {
+        "date": "2007-11-21",
+        "match_id": "results:c4483ba1b0e55d822422412f56b263b51a788d565774f6ff264a69198c533e5d",
+        "role": "home",
+        "team_id": "team:brazil@base",
+        "mean": 3.4797853401,
+        "sd": 0.4081930979328288
+      },
+      {
+        "date": "2008-11-19",
+        "match_id": "results:63937fc78c41bd111659b65d3b601d7e30c3fa0e59a59477a14cf4ba9dde69d6",
+        "role": "home",
+        "team_id": "team:brazil@base",
+        "mean": 3.0582957044,
+        "sd": 0.46932408685257143
+      },
+      {
+        "date": "2009-11-17",
+        "match_id": "results:5ea5defbde49f475d79a31def6d7aca389edf56c86a9dc3d23411664eecf693a",
+        "role": "away",
+        "team_id": "team:brazil@base",
+        "mean": 3.5638490234,
+        "sd": 0.5082611916131311
+      },
+      {
+        "date": "2010-08-10",
+        "match_id": "results:9fc04f562e1606073acfe25d6173d6a840e8deed0313f27696af9cd92740b875",
+        "role": "away",
+        "team_id": "team:brazil@base",
+        "mean": 3.5573470715,
+        "sd": 0.469671593669449
+      },
+      {
+        "date": "2011-11-10",
+        "match_id": "results:e3f00416134e04ffb364e6e96a23eb834955fdccf903e5126d678c67884471d0",
+        "role": "away",
+        "team_id": "team:brazil@base",
+        "mean": 3.4773584106,
+        "sd": 0.4253797941839739
+      },
+      {
+        "date": "2012-11-21",
+        "match_id": "results:5dd862be74a9b206e5aea9a4d68aa9fec92d458acc3e4819f8ed88c71ad9e790",
+        "role": "away",
+        "team_id": "team:brazil@base",
+        "mean": 3.8171888769,
+        "sd": 0.47329619172353377
+      },
+      {
+        "date": "2013-10-12",
+        "match_id": "results:e4dfd274c735ddc7bebb64e5dc85700a9446ca7b1071fdada459d93b6f9e4934",
+        "role": "away",
+        "team_id": "team:brazil@base",
+        "mean": 3.8010260759,
+        "sd": 0.4668059872152456
+      },
+      {
+        "date": "2014-11-18",
+        "match_id": "results:ba9dd547800e41e5b70d266c16ec8fa3a1df8d5f44e1d55f79b19c5441d33c96",
+        "role": "away",
+        "team_id": "team:brazil@base",
+        "mean": 3.6990310436,
+        "sd": 0.46454969142170355
+      },
+      {
+        "date": "2015-11-17",
+        "match_id": "results:297b32f1d0e1781368edf63bb31193e7b7c6135dd26ca4d740cc82ef59f90fa3",
+        "role": "home",
+        "team_id": "team:brazil@base",
+        "mean": 3.6494794281,
+        "sd": 0.4422144579273726
+      },
+      {
+        "date": "2016-11-15",
+        "match_id": "results:9c8ce09533269c46326d46e19c1f24667f0209ed3d080c5833a3da4c76cd011a",
+        "role": "away",
+        "team_id": "team:brazil@base",
+        "mean": 3.7458487924,
+        "sd": 0.4466918339302835
+      },
+      {
+        "date": "2017-11-14",
+        "match_id": "results:fc60268c877333cea13f7f304ecc920101147d75aff8eea1e264d50a9b0cbf8b",
+        "role": "away",
+        "team_id": "team:brazil@base",
+        "mean": 3.7458826813,
+        "sd": 0.45755451369208455
+      },
+      {
+        "date": "2018-10-12",
+        "match_id": "results:2a317ef0d8d40a8c780b564109a9b0554732b60357bbd4437ad737977146af92",
+        "role": "away",
+        "team_id": "team:brazil@base",
+        "mean": 3.8946206133,
+        "sd": 0.4524537660358238
+      },
+      {
+        "date": "2019-07-07",
+        "match_id": "results:e4365a252f77543162e0de336704d84f084afd87d347ae7f5286450d6a5a278e",
+        "role": "home",
+        "team_id": "team:brazil@base",
+        "mean": 3.8222997485,
+        "sd": 0.5035757088065309
+      },
+      {
+        "date": "2020-11-17",
+        "match_id": "results:f0fd90bff25b9f2d420dfa6632d07fbb57f25cfec43646d19d4ed9d544d9bb4a",
+        "role": "away",
+        "team_id": "team:brazil@base",
+        "mean": 3.6095311576,
+        "sd": 0.5486239971966228
+      },
+      {
+        "date": "2021-11-16",
+        "match_id": "results:090173c9ada2aa354dd7ff39e95e74866c252327111fbc01095a58cd2d7f1143",
+        "role": "away",
+        "team_id": "team:brazil@base",
+        "mean": 3.9753776261,
+        "sd": 0.46466009211035114
+      },
+      {
+        "date": "2022-06-06",
+        "match_id": "results:9cc292f9da25dd32b4eeccd05bd2d11d5182db4102eebefb752e5d42b6ab31ff",
+        "role": "away",
+        "team_id": "team:brazil@base",
+        "mean": 4.0850269142,
+        "sd": 0.46569357038722364
+      },
+      {
+        "date": "2023-11-21",
+        "match_id": "results:be8d67dafec4cd50efab697aee945d0c088f40dea9b28014caac3fbdf6dab0fe",
+        "role": "home",
+        "team_id": "team:brazil@base",
+        "mean": 3.1843576458,
+        "sd": 0.5306009636252087
+      },
+      {
+        "date": "2024-11-19",
+        "match_id": "results:f92c09cd8dbc530ce7a3631afded9ebe700a10e262dd607abb77f0c660e21daf",
+        "role": "home",
+        "team_id": "team:brazil@base",
+        "mean": 3.096098719,
+        "sd": 0.4393969620969176
+      }
+    ],
+    "France": [
+      {
+        "date": "1980-11-19",
+        "match_id": "results:0d2677df45935e9df9b0662852f4202345b348bcfc63d0cd8c6f9f722cbb39b3",
+        "role": "away",
+        "team_id": "team:france@base",
+        "mean": 2.5762515341,
+        "sd": 0.6523604733580967
+      },
+      {
+        "date": "1981-12-05",
+        "match_id": "results:08ffaa60af59cb38885d72d377ef1af2f2b860fb078f96ecd63cd80b9451d678",
+        "role": "home",
+        "team_id": "team:france@base",
+        "mean": 2.014581485,
+        "sd": 0.5751463402474192
+      },
+      {
+        "date": "1982-11-10",
+        "match_id": "results:a7089668c47d99c20426a37b99ae7cf813d02688d3716852aa554d10d073115b",
+        "role": "away",
+        "team_id": "team:france@base",
+        "mean": 2.0224050076,
+        "sd": 0.5312209849958867
+      },
+      {
+        "date": "1983-11-12",
+        "match_id": "results:26fb0110a0381eae3b8c3401728d766f9b68fcd4c0d468b6e2903d3fd71917e5",
+        "role": "away",
+        "team_id": "team:france@base",
+        "mean": 2.2431777115,
+        "sd": 0.5720424808526023
+      },
+      {
+        "date": "1984-12-08",
+        "match_id": "results:c714712ff51a253df8b70733329f050fbba7d94a7f3e065f37c96d69a29360d1",
+        "role": "home",
+        "team_id": "team:france@base",
+        "mean": 3.1146921705,
+        "sd": 0.5357258790650308
+      },
+      {
+        "date": "1985-11-06",
+        "match_id": "results:c24f427d812726f1f3cfbfad18ce46e34d2f98828722ef12d4b0b708169f0cd6",
+        "role": "home",
+        "team_id": "team:france@base",
+        "mean": 2.7682659712,
+        "sd": 0.5310857671788992
+      },
+      {
+        "date": "1986-11-19",
+        "match_id": "results:c9c5224e64d040ba05d01132ebb06d6c5435850322d98bda0bdf8b3bd8100108",
+        "role": "away",
+        "team_id": "team:france@base",
+        "mean": 2.5023630895,
+        "sd": 0.5620760278645586
+      },
+      {
+        "date": "1987-11-18",
+        "match_id": "results:59bc2d401373ad3f48dea161d45c8225a30d0fe24ece6eb97e8b078da4d650b2",
+        "role": "home",
+        "team_id": "team:france@base",
+        "mean": 2.1807452687,
+        "sd": 0.5425511204485712
+      },
+      {
+        "date": "1988-11-19",
+        "match_id": "results:67ec2d9cf52dbcdeac5ad629cfc1725a45a2edf922b58e54a64d1bd8aee8b33b",
+        "role": "away",
+        "team_id": "team:france@base",
+        "mean": 1.9443458164,
+        "sd": 0.5396600908905531
+      },
+      {
+        "date": "1989-11-18",
+        "match_id": "results:97928f21d95ce24b7841f55cd777873acd6c0c76412a046e6290fa2bb3a6a188",
+        "role": "home",
+        "team_id": "team:france@base",
+        "mean": 2.0791410548,
+        "sd": 0.5377294182021289
+      },
+      {
+        "date": "1990-11-17",
+        "match_id": "results:47ac103e49fd56b190ce0ff5bde74786e580e8d83110b9346553ff560951ddcc",
+        "role": "away",
+        "team_id": "team:france@base",
+        "mean": 2.7741948767,
+        "sd": 0.5504712000640906
+      },
+      {
+        "date": "1991-11-20",
+        "match_id": "results:191b8f180620fa0bf2224a0589227d539879d606151abd604bf7c65253330b63",
+        "role": "home",
+        "team_id": "team:france@base",
+        "mean": 3.5955449419,
+        "sd": 0.5718253440518355
+      },
+      {
+        "date": "1992-11-14",
+        "match_id": "results:006bfa3fdbcccb5b3add35339c223d0591e7509af058e31e76d188704fa82e67",
+        "role": "home",
+        "team_id": "team:france@base",
+        "mean": 2.2469634111,
+        "sd": 0.5255362996977468
+      },
+      {
+        "date": "1993-11-17",
+        "match_id": "results:24015aebdbaa3ecaf99cb30c1c25fd69af35b5cf4fb8ee6aab8f5e271785961a",
+        "role": "home",
+        "team_id": "team:france@base",
+        "mean": 2.7058140162,
+        "sd": 0.5925037214229123
+      },
+      {
+        "date": "1994-11-16",
+        "match_id": "results:1965e78a28e009a2026893c28b8d98fa0787e418ce15fd88163fe059102cc005",
+        "role": "away",
+        "team_id": "team:france@base",
+        "mean": 2.4237626694,
+        "sd": 0.5858650719235616
+      },
+      {
+        "date": "1995-11-15",
+        "match_id": "results:df53ead331be13b70b6a1ac4e46729516a9e5bd1855e493493c3cd06d9f25cfd",
+        "role": "home",
+        "team_id": "team:france@base",
+        "mean": 2.5047283283,
+        "sd": 0.5399199002629927
+      },
+      {
+        "date": "1996-11-09",
+        "match_id": "results:798972be1e0f22185969963eaa7c324dac609a366ff62f540cdfbdf3049e14b2",
+        "role": "away",
+        "team_id": "team:france@base",
+        "mean": 2.9476227117,
+        "sd": 0.46793273416165276
+      },
+      {
+        "date": "1997-11-12",
+        "match_id": "results:7cc98da1d815310d279b1e322301b28d5ffd541928e97f72b82e38dcae99f131",
+        "role": "home",
+        "team_id": "team:france@base",
+        "mean": 2.7552489138,
+        "sd": 0.4871804514756313
+      },
+      {
+        "date": "1998-10-14",
+        "match_id": "results:3987bcbcd46021c9f3a177a31b8b0a23d053649fe73df5a0033d734202040277",
+        "role": "home",
+        "team_id": "team:france@base",
+        "mean": 2.9856388652,
+        "sd": 0.40640825902040917
+      },
+      {
+        "date": "1999-11-13",
+        "match_id": "results:38f0730ff8fa62de8ed6b96e1fe1984a679622b57c512b778d2ef02908eaac00",
+        "role": "home",
+        "team_id": "team:france@base",
+        "mean": 2.8515984368,
+        "sd": 0.5231256838466259
+      },
+      {
+        "date": "2000-11-15",
+        "match_id": "results:aa7a18ada2742a9c71287535f8be6a023c1c8e621f67b4e54900a6ecb72ccac1",
+        "role": "away",
+        "team_id": "team:france@base",
+        "mean": 3.4636396647,
+        "sd": 0.4856369677032423
+      },
+      {
+        "date": "2001-11-11",
+        "match_id": "results:f085695e74c7cc983a046be8cdab1186ef2633e6fd579b7018ba4dcd4df47e67",
+        "role": "away",
+        "team_id": "team:france@base",
+        "mean": 3.6454780041,
+        "sd": 0.5067725437511389
+      },
+      {
+        "date": "2002-11-20",
+        "match_id": "results:a13023e695a804cde0fd67bbd282a1d3e52651d3ac54aff237fcbf3651b83fa2",
+        "role": "home",
+        "team_id": "team:france@base",
+        "mean": 2.8791977726,
+        "sd": 0.49987495666416415
+      },
+      {
+        "date": "2003-11-15",
+        "match_id": "results:f4c11113f38949dad0b3520054eabe19d725496d6ebcd79290197b9be09b770c",
+        "role": "away",
+        "team_id": "team:france@base",
+        "mean": 3.4475272274,
+        "sd": 0.4896136633101654
+      },
+      {
+        "date": "2004-11-17",
+        "match_id": "results:6c2cffad90b35d6ee8c61a8e0068be7cdd25ae4dd78c9fa49c3ed05cae26fa07",
+        "role": "home",
+        "team_id": "team:france@base",
+        "mean": 2.9789491319,
+        "sd": 0.4740431906482784
+      },
+      {
+        "date": "2005-11-12",
+        "match_id": "results:2acc98b43cb1e140d874fc5ce1050e15a380744a77b96a9fd649bd51e2e0224b",
+        "role": "home",
+        "team_id": "team:france@base",
+        "mean": 3.0635844598,
+        "sd": 0.455054753189108
+      },
+      {
+        "date": "2006-11-15",
+        "match_id": "results:4bc6878b3cd847b95c747f82730b96eb8c3738196a129e6b76b69eb4a55cc710",
+        "role": "home",
+        "team_id": "team:france@base",
+        "mean": 3.2930207909,
+        "sd": 0.43340659512748536
+      },
+      {
+        "date": "2007-11-21",
+        "match_id": "results:d766a35eb638a31383c130f2f779c13a82fe2b877612436f252f5931bc7b59d0",
+        "role": "away",
+        "team_id": "team:france@base",
+        "mean": 3.3134197473,
+        "sd": 0.5249406226422185
+      },
+      {
+        "date": "2008-11-19",
+        "match_id": "results:aa705b22dee2a43026d873ebe6f88753fe2107f096c68989d5808bfdb65e1b18",
+        "role": "home",
+        "team_id": "team:france@base",
+        "mean": 2.8803383007,
+        "sd": 0.46433642275832726
+      },
+      {
+        "date": "2009-11-18",
+        "match_id": "results:b37f648bed1e229d6d079d7454ce518cb03268e4027dafd17b18f855ab029222",
+        "role": "home",
+        "team_id": "team:france@base",
+        "mean": 2.8287643015,
+        "sd": 0.47825588830666793
+      },
+      {
+        "date": "2010-11-17",
+        "match_id": "results:3f7151c0a8e48cdd684930a16cfd7855c2bb0e8900829a0d814e7f46d3712bd6",
+        "role": "away",
+        "team_id": "team:france@base",
+        "mean": 2.1389303214,
+        "sd": 0.45719341476009906
+      },
+      {
+        "date": "2011-11-15",
+        "match_id": "results:0ca48bfca61fb2850f8722a6daca4760edf19d5197e9b6a2e4d460f1d164ecd8",
+        "role": "home",
+        "team_id": "team:france@base",
+        "mean": 2.5214145241,
+        "sd": 0.44716131787085517
+      },
+      {
+        "date": "2012-11-14",
+        "match_id": "results:60e697836fad5d2d396ed5d41301d69abefc284bd2a9b091dcb50f2dd29b5ea0",
+        "role": "away",
+        "team_id": "team:france@base",
+        "mean": 2.9138303702,
+        "sd": 0.475632232086935
+      },
+      {
+        "date": "2013-11-19",
+        "match_id": "results:d369d0015bfb2a27d1bc3bee595cd9ab5f97ac4f9a5af11d8ca19b4cc7d0bc0d",
+        "role": "home",
+        "team_id": "team:france@base",
+        "mean": 2.7099759141,
+        "sd": 0.4563911467151833
+      },
+      {
+        "date": "2014-11-18",
+        "match_id": "results:672aea0546f6a46030de19874c1355be03d9871686682b2d3e52aab531aefbe6",
+        "role": "home",
+        "team_id": "team:france@base",
+        "mean": 3.0700078811,
+        "sd": 0.4504321673681843
+      },
+      {
+        "date": "2015-11-17",
+        "match_id": "results:69f90c436278880ad14cdc963bc18a2d7a236a60ebaf472f6d7f1a82166f6598",
+        "role": "away",
+        "team_id": "team:france@base",
+        "mean": 3.240042628,
+        "sd": 0.5472444422741998
+      },
+      {
+        "date": "2016-11-15",
+        "match_id": "results:94d0fa2042e7e42fadf38b4a8fe930ede3191bc01a68babe622e0d36b4c792bc",
+        "role": "home",
+        "team_id": "team:france@base",
+        "mean": 3.4085322986,
+        "sd": 0.4604718178129906
+      },
+      {
+        "date": "2017-11-14",
+        "match_id": "results:005d66723cdc828070165614bd5f4399c952ec0fb25fe6615ed8f48dfa368a1e",
+        "role": "away",
+        "team_id": "team:france@base",
+        "mean": 3.3186025641,
+        "sd": 0.5205282105707625
+      },
+      {
+        "date": "2018-11-20",
+        "match_id": "results:ffe39d140c60098d61b954111f3daaccb71b136109ed3eea6b7cd1330291a929",
+        "role": "home",
+        "team_id": "team:france@base",
+        "mean": 3.921019625,
+        "sd": 0.4402252206541556
+      },
+      {
+        "date": "2019-11-17",
+        "match_id": "results:4b8265d00d17a3d7edd022480d56482c0fa48b8f7ce9c2ce63cde5de246a0ced",
+        "role": "away",
+        "team_id": "team:france@base",
+        "mean": 3.5203283273,
+        "sd": 0.505867460111836
+      },
+      {
+        "date": "2020-11-17",
+        "match_id": "results:526a094eb315fe3d359abb6ce86d71668cafff767c4e70ced86e300247bb7eca",
+        "role": "home",
+        "team_id": "team:france@base",
+        "mean": 4.0072182236,
+        "sd": 0.5028305938385212
+      },
+      {
+        "date": "2021-11-16",
+        "match_id": "results:5ccb9068e676f60cdda0d8b3e165660ca4e62eed7cd8225a33739db04da2729c",
+        "role": "away",
+        "team_id": "team:france@base",
+        "mean": 3.7079914206,
+        "sd": 0.4649377803534576
+      },
+      {
+        "date": "2022-09-25",
+        "match_id": "results:060d2663740f79fa656c797ba9d98af774b2882edaca99407afd239de2d7487f",
+        "role": "away",
+        "team_id": "team:france@base",
+        "mean": 3.1666102225,
+        "sd": 0.4972535570511286
+      },
+      {
+        "date": "2023-11-21",
+        "match_id": "results:2f6a19fa76daf53b25e6955872fb7087e6044cc71fdfabb4ed51e665d4b5fdcc",
+        "role": "away",
+        "team_id": "team:france@base",
+        "mean": 3.6375063755,
+        "sd": 0.48634870556011556
+      },
+      {
+        "date": "2024-11-17",
+        "match_id": "results:57aab7b6e9242a081a172ec45ec93a9eb096e6ba10c37a5e9ae336d78558ef19",
+        "role": "away",
+        "team_id": "team:france@base",
+        "mean": 3.1143975412,
+        "sd": 0.4800228032083476
+      }
+    ],
+    "Spain": [
+      {
+        "date": "1980-11-12",
+        "match_id": "results:20f7b36acdcb6fd41fe478f6df455d99ad64362b0745182bd5fd06595b287c89",
+        "role": "home",
+        "team_id": "team:spain@base",
+        "mean": 2.1450975633,
+        "sd": 0.5440761447628447
+      },
+      {
+        "date": "1981-12-16",
+        "match_id": "results:892c04f841d57fd64bc2b2e5255867f6b8296bf7e23789362d416d6a0e8e745e",
+        "role": "home",
+        "team_id": "team:spain@base",
+        "mean": 2.1784473399,
+        "sd": 0.62004020643826
+      },
+      {
+        "date": "1982-11-17",
+        "match_id": "results:21086604f9d1c014faf97c450f6f45a3d3aa036cae8c17070c92b0ef265649bf",
+        "role": "away",
+        "team_id": "team:spain@base",
+        "mean": 1.8057237945,
+        "sd": 0.5341403842624146
+      },
+      {
+        "date": "1983-12-21",
+        "match_id": "results:afddf96a822486e075f109e3677688ba33f58c6292060f34cae61fb2797a6a15",
+        "role": "home",
+        "team_id": "team:spain@base",
+        "mean": 2.0965473316,
+        "sd": 0.5382973055849342
+      },
+      {
+        "date": "1984-11-14",
+        "match_id": "results:84450bd25fb8c9552c4de1de3e5c90c019e1baa9ce1b5c17203e02db45d0dc4f",
+        "role": "away",
+        "team_id": "team:spain@base",
+        "mean": 2.2435843182,
+        "sd": 0.49482818482782487
+      },
+      {
+        "date": "1985-12-18",
+        "match_id": "results:f02cb43a7a4c970df3a70f5a330acf22a461a658c3865ab60726bbd93bacb88e",
+        "role": "home",
+        "team_id": "team:spain@base",
+        "mean": 2.0052006952,
+        "sd": 0.5288773727434366
+      },
+      {
+        "date": "1986-12-03",
+        "match_id": "results:8c5cff9184feb8efc190bbe72d81d404f5fe9f04076347fe02e7ec36b74456d3",
+        "role": "away",
+        "team_id": "team:spain@base",
+        "mean": 2.6893433789,
+        "sd": 0.4840117684519665
+      },
+      {
+        "date": "1987-11-18",
+        "match_id": "results:1b85ac063ca5f34f30f93fe1b78bad0a0ad03298914e2b2ac57c2c3dbc0c9dc5",
+        "role": "home",
+        "team_id": "team:spain@base",
+        "mean": 2.6539134643,
+        "sd": 0.5586083591390304
+      },
+      {
+        "date": "1988-12-21",
+        "match_id": "results:4c1d66175ba75cfffa3d36967ed5d6f45744fa62ba62880026d95bf61dca30ab",
+        "role": "home",
+        "team_id": "team:spain@base",
+        "mean": 2.0639517589,
+        "sd": 0.5213374563562453
+      },
+      {
+        "date": "1989-12-13",
+        "match_id": "results:4fadb5b04fe159bf49b33e8a69aedc4f50de3c874df53c8b04a9ebae8cf88014",
+        "role": "home",
+        "team_id": "team:spain@base",
+        "mean": 2.4245371622,
+        "sd": 0.5128697750891545
+      },
+      {
+        "date": "1990-12-19",
+        "match_id": "results:443b275b4d7828f27cf1504f2dabf019a8f6326e709385f2b3344827cf78f54f",
+        "role": "home",
+        "team_id": "team:spain@base",
+        "mean": 2.8067809745,
+        "sd": 0.5226706523232388
+      },
+      {
+        "date": "1991-11-13",
+        "match_id": "results:5ab91a2adb81c97d8c6fc5d5fa03b7ffa1e6dde12839012ad27dd1538deef9b7",
+        "role": "home",
+        "team_id": "team:spain@base",
+        "mean": 1.9980508211,
+        "sd": 0.5698531337985253
+      },
+      {
+        "date": "1992-12-16",
+        "match_id": "results:e9f45f55faaf8e0a468cb00e1b7eb1205b6bfbc46995897499f655342341723c",
+        "role": "home",
+        "team_id": "team:spain@base",
+        "mean": 1.97337157,
+        "sd": 0.4917074322196076
+      },
+      {
+        "date": "1993-11-17",
+        "match_id": "results:756c68c50514e3013761bfa2c8fef05a4ca676800f4e09a249c0ce939676715f",
+        "role": "home",
+        "team_id": "team:spain@base",
+        "mean": 2.410212185,
+        "sd": 0.5152729732869753
+      },
+      {
+        "date": "1994-12-17",
+        "match_id": "results:3704d406e9b8b31694b9d342352274e2cfa3998c114a99fd4ae194e485dce79b",
+        "role": "away",
+        "team_id": "team:spain@base",
+        "mean": 2.629980097,
+        "sd": 0.4529362590917181
+      },
+      {
+        "date": "1995-11-15",
+        "match_id": "results:79d270fd0889e523b7918a6ddafac5d7511818dbea27f3238bff103eb55323bd",
+        "role": "home",
+        "team_id": "team:spain@base",
+        "mean": 2.6972429131,
+        "sd": 0.4851621604164941
+      },
+      {
+        "date": "1996-12-18",
+        "match_id": "results:75f1a7c1c60ee432f1c017ca34d5e36c504d11a7176e352cbd1904bb6674da2c",
+        "role": "away",
+        "team_id": "team:spain@base",
+        "mean": 2.96866969,
+        "sd": 0.4393668041625357
+      },
+      {
+        "date": "1997-11-19",
+        "match_id": "results:c4a3e9911f25ac7971fce208cd817d6c01fb286088ff43e2920fc29c9f44a13c",
+        "role": "home",
+        "team_id": "team:spain@base",
+        "mean": 3.2260930704,
+        "sd": 0.50143184033326
+      },
+      {
+        "date": "1998-11-18",
+        "match_id": "results:e029aad11502191c142e9ab23aee20fefdfdf445fb15bc20d85f5541c6bf44e8",
+        "role": "away",
+        "team_id": "team:spain@base",
+        "mean": 2.6938374787,
+        "sd": 0.5301364527175999
+      },
+      {
+        "date": "1999-11-17",
+        "match_id": "results:58a769c43e048db7797f92b34f9d3e3261f2765f6940586412068b9a308c2e90",
+        "role": "home",
+        "team_id": "team:spain@base",
+        "mean": 3.2191483052,
+        "sd": 0.5176311260927032
+      },
+      {
+        "date": "2000-11-15",
+        "match_id": "results:aaa473fe537dedeea948a14c6b320ba1b0a968b5fcfceaaca29f84e38ba670d0",
+        "role": "home",
+        "team_id": "team:spain@base",
+        "mean": 2.8072013981,
+        "sd": 0.46801946412515794
+      },
+      {
+        "date": "2001-11-14",
+        "match_id": "results:1cd9657abe4659d2aa7870cc48f18fd939f0bca4699f6de6fe8f080269811b8f",
+        "role": "home",
+        "team_id": "team:spain@base",
+        "mean": 2.7332721853,
+        "sd": 0.5294097025933696
+      },
+      {
+        "date": "2002-11-20",
+        "match_id": "results:b75077ed36014d3aa4c584b71727580f636dfb2540df711b796b7c4528acc950",
+        "role": "home",
+        "team_id": "team:spain@base",
+        "mean": 2.8997223823,
+        "sd": 0.4620958236123759
+      },
+      {
+        "date": "2003-11-19",
+        "match_id": "results:b0a822a1c54e66dc45bbac559d4791a541e1228f11b021a9a10d8652b68d6175",
+        "role": "away",
+        "team_id": "team:spain@base",
+        "mean": 2.8213853181,
+        "sd": 0.5175890354325524
+      },
+      {
+        "date": "2004-11-17",
+        "match_id": "results:365445e6ae6bf0d9994007ad4237f9830f7b08186f24fb9b0d18b59ddb2f6a7f",
+        "role": "home",
+        "team_id": "team:spain@base",
+        "mean": 2.8230341818,
+        "sd": 0.45581994230178213
+      },
+      {
+        "date": "2005-11-16",
+        "match_id": "results:73eb952677199b9c57d9797c16c1cfd0c2bfe420bd4f3a11604e6e45cf63cf7e",
+        "role": "away",
+        "team_id": "team:spain@base",
+        "mean": 2.8556983196,
+        "sd": 0.4679302856195568
+      },
+      {
+        "date": "2006-11-15",
+        "match_id": "results:7eafd40353851536633f98a5d9c8a5e3eaa2d3571e1ce0c88d9b9673e5320b13",
+        "role": "home",
+        "team_id": "team:spain@base",
+        "mean": 2.613764598,
+        "sd": 0.48571084638908363
+      },
+      {
+        "date": "2007-11-21",
+        "match_id": "results:0c5def60705dbb45ea3fb694ca1b0e11325ee864a43af676ccb1e12e1adabc79",
+        "role": "home",
+        "team_id": "team:spain@base",
+        "mean": 2.9989602128,
+        "sd": 0.5096742404713034
+      },
+      {
+        "date": "2008-11-19",
+        "match_id": "results:af368b29a87d1775e86c29998b7f0bd11df99134e9fb98b35a4e568a394aa7eb",
+        "role": "home",
+        "team_id": "team:spain@base",
+        "mean": 3.9448462835,
+        "sd": 0.46156014418491553
+      },
+      {
+        "date": "2009-11-18",
+        "match_id": "results:d6ad486a51e53f23f20369c12d534f22357acb7e33fc4c82160010c1bf212f78",
+        "role": "away",
+        "team_id": "team:spain@base",
+        "mean": 3.9861457879,
+        "sd": 0.50432634702145
+      },
+      {
+        "date": "2010-11-17",
+        "match_id": "results:5ff43ce4525ca073b928abbdc8f340ba0d62875d1c1a2ae8c9a384b529ec9345",
+        "role": "away",
+        "team_id": "team:spain@base",
+        "mean": 4.3293681204,
+        "sd": 0.5168078056686064
+      },
+      {
+        "date": "2011-11-15",
+        "match_id": "results:d81e768f28ce3674bedbd7e0d5374d6d3e24124fe8510b4b589ad4383fa64c5c",
+        "role": "away",
+        "team_id": "team:spain@base",
+        "mean": 4.3934927279,
+        "sd": 0.6093603154128105
+      },
+      {
+        "date": "2012-11-14",
+        "match_id": "results:573508b222d32b7928da902d6ad43a79a6e2ee7afe8f2c1699d216fbbf58cddb",
+        "role": "away",
+        "team_id": "team:spain@base",
+        "mean": 3.9587656925,
+        "sd": 0.5188565668853002
+      },
+      {
+        "date": "2013-11-19",
+        "match_id": "results:b73b3d785aa436f427dad687c6fc6c96770f8fb7275ea773d0c4bbab4d3621b5",
+        "role": "away",
+        "team_id": "team:spain@base",
+        "mean": 4.0180483584,
+        "sd": 0.4956126774004071
+      },
+      {
+        "date": "2014-11-18",
+        "match_id": "results:97d425ef40fd874af3a14efe273bac14c23cf7edd72c4b5bd7874594a1e5f454",
+        "role": "home",
+        "team_id": "team:spain@base",
+        "mean": 3.1722960761,
+        "sd": 0.5124385107503143
+      },
+      {
+        "date": "2015-11-13",
+        "match_id": "results:35e3c4b2242132c7cc1a84d020d3ade4f44393d19aca1f3391a7b4dd5fd85970",
+        "role": "home",
+        "team_id": "team:spain@base",
+        "mean": 3.4338316582,
+        "sd": 0.5129822729880634
+      },
+      {
+        "date": "2016-11-15",
+        "match_id": "results:68c4c997c3fa1910bf89375b845ce6769e2a686f67f6223aa5b0ba0a81e203da",
+        "role": "away",
+        "team_id": "team:spain@base",
+        "mean": 3.4600476755,
+        "sd": 0.46877326288942717
+      },
+      {
+        "date": "2017-11-14",
+        "match_id": "results:3bb62a6487ab2a567acca910d43c14a747f738606a208fea6d0dafe1853bb5d7",
+        "role": "away",
+        "team_id": "team:spain@base",
+        "mean": 3.7140297591,
+        "sd": 0.5089022219444517
+      },
+      {
+        "date": "2018-11-18",
+        "match_id": "results:37860ea62b0e7034e301deaffd4ce6fcd7d9f60164fb3d6117f5ebe80dd2cf3d",
+        "role": "home",
+        "team_id": "team:spain@base",
+        "mean": 3.3874091568,
+        "sd": 0.44910251903101145
+      },
+      {
+        "date": "2019-11-18",
+        "match_id": "results:db5cd1c83482a2dd364e370de998a9cc6bd211ebeac4ec25b3b7b6beea69f7a4",
+        "role": "home",
+        "team_id": "team:spain@base",
+        "mean": 3.411613318,
+        "sd": 0.4672716380222536
+      },
+      {
+        "date": "2020-11-17",
+        "match_id": "results:c48c9d8100754bed3826c2f0c4622dc891e4a8ec154f487ed6564e8d8d277e93",
+        "role": "home",
+        "team_id": "team:spain@base",
+        "mean": 3.3523016615,
+        "sd": 0.4271118646209679
+      },
+      {
+        "date": "2021-11-14",
+        "match_id": "results:46cd4e05a00aff4c18e17ce1b39ccb00f55e5652840b775c04603d4a777dbf00",
+        "role": "home",
+        "team_id": "team:spain@base",
+        "mean": 3.2174394024,
+        "sd": 0.4263940258727835
+      },
+      {
+        "date": "2022-11-17",
+        "match_id": "results:f00595a8688012f22dea2a1b5c7913cf833b2fa5af4427e4a95a04babd575942",
+        "role": "away",
+        "team_id": "team:spain@base",
+        "mean": 3.3650078346,
+        "sd": 0.5180803067092977
+      },
+      {
+        "date": "2023-11-19",
+        "match_id": "results:4c00be09108437c412961fe30b08b60684a0a217f164055259dbdc6b2b60353c",
+        "role": "home",
+        "team_id": "team:spain@base",
+        "mean": 3.302062588,
+        "sd": 0.4565369992673102
+      },
+      {
+        "date": "2024-11-18",
+        "match_id": "results:d5f3490971795c98403d3f549695266382a6b1e5e61783322e32f428a8efc86a",
+        "role": "home",
+        "team_id": "team:spain@base",
+        "mean": 3.9765624531,
+        "sd": 0.42275059787065944
+      }
+    ],
+    "Japan": [
+      {
+        "date": "1981-08-30",
+        "match_id": "results:f4be79e112265e9b4813c368c23b1a5c0f38207365794c91b5ebfcfe90009b24",
+        "role": "away",
+        "team_id": "team:japan@base",
+        "mean": 0.1490234977,
+        "sd": 0.49313140084565693
+      },
+      {
+        "date": "1982-06-02",
+        "match_id": "results:97efb312dab66b3b6ddd507625762b1f4eb55b89eebfb9613690a2a3a82baabe",
+        "role": "home",
+        "team_id": "team:japan@base",
+        "mean": 0.1348675532,
+        "sd": 0.5168532507395112
+      },
+      {
+        "date": "1983-06-07",
+        "match_id": "results:d2924eb46526b8a990901f2b832d8a93f348633e08493ccfd0249324af4d3594",
+        "role": "home",
+        "team_id": "team:japan@base",
+        "mean": 0.5439133663,
+        "sd": 0.5734373720817296
+      },
+      {
+        "date": "1984-09-30",
+        "match_id": "results:9c59682a84278e6a8cfe909639d0548f0d3a9c7d6fd69dd4f742f16599cd18c2",
+        "role": "away",
+        "team_id": "team:japan@base",
+        "mean": 0.9176154383,
+        "sd": 0.6455474912041715
+      },
+      {
+        "date": "1985-11-03",
+        "match_id": "results:0f3dd52980e10756443d28ea8bf11a0833e5eec5a04e613e692295e173223293",
+        "role": "away",
+        "team_id": "team:japan@base",
+        "mean": 0.9992941311,
+        "sd": 0.5764332041095481
+      },
+      {
+        "date": "1986-08-01",
+        "match_id": "results:d07185db46bf3dd4607a99d9106c587dc900273c9c5b3c639270cb9d1e8a4471",
+        "role": "away",
+        "team_id": "team:japan@base",
+        "mean": 1.1700696946,
+        "sd": 0.5669762259566092
+      },
+      {
+        "date": "1987-05-27",
+        "match_id": "results:cdf53248fdc6f171c16c5ba05ffad02b05e122ac2a686810f65006e49f72d870",
+        "role": "home",
+        "team_id": "team:japan@base",
+        "mean": 0.5665606978,
+        "sd": 0.582118854788264
+      },
+      {
+        "date": "1988-12-12",
+        "match_id": "results:9d73eb06b283ac4c67de54c22d9da3672928d5c651f59aeeb293e53c488dadbf",
+        "role": "away",
+        "team_id": "team:japan@base",
+        "mean": -0.0260381834,
+        "sd": 0.4701661797705148
+      },
+      {
+        "date": "1989-07-23",
+        "match_id": "results:1dcc0d8f5974af39eaae096afeb3189535a118f1158b5f535a0c0f12ad3ece64",
+        "role": "away",
+        "team_id": "team:japan@base",
+        "mean": -0.0075407479,
+        "sd": 0.43563751743852364
+      },
+      {
+        "date": "1990-07-29",
+        "match_id": "results:80043acce0c281426a5628460d20f26aa499918f1a3d3b716e411dac44dfa981",
+        "role": "away",
+        "team_id": "team:japan@base",
+        "mean": -0.1194911721,
+        "sd": 0.5346495465255722
+      },
+      {
+        "date": "1991-07-27",
+        "match_id": "results:bc71dbc2e44378e6720ade3a361cf3877a10e11c902799795548271917aef130",
+        "role": "home",
+        "team_id": "team:japan@base",
+        "mean": -0.3095452954,
+        "sd": 0.5628188557608922
+      },
+      {
+        "date": "1992-11-08",
+        "match_id": "results:c29ddbffcfb0ef70c845c1a256486eb3c0e9af5f37fff7061cdd45d13a54d1eb",
+        "role": "home",
+        "team_id": "team:japan@base",
+        "mean": 0.5122298598,
+        "sd": 0.44666390172029796
+      },
+      {
+        "date": "1993-10-04",
+        "match_id": "results:29804022a11f6d3dd3fd88c9a9965b4783db572fb17678df55dc889ef5083648",
+        "role": "home",
+        "team_id": "team:japan@base",
+        "mean": 1.120279759,
+        "sd": 0.4769937700851029
+      },
+      {
+        "date": "1994-10-11",
+        "match_id": "results:7d4ab0aa3d75cc5d3ec36ced8ac987095dfe1f8393df5825986254364d953e6f",
+        "role": "home",
+        "team_id": "team:japan@base",
+        "mean": 0.9612280293,
+        "sd": 0.4112185828729047
+      },
+      {
+        "date": "1995-10-28",
+        "match_id": "results:2642b44d489203afa7ec94b8b85ee9109b338bc5bed236f0981abf172efeca70",
+        "role": "home",
+        "team_id": "team:japan@base",
+        "mean": 0.9605174172,
+        "sd": 0.40594390154305804
+      },
+      {
+        "date": "1996-10-13",
+        "match_id": "results:0ce317d45918e213a06a5a6c0a0d72ad99e1bf662a395d6885e3251f08b03bdb",
+        "role": "home",
+        "team_id": "team:japan@base",
+        "mean": 1.7697405079,
+        "sd": 0.483808756535059
+      },
+      {
+        "date": "1997-11-08",
+        "match_id": "results:91dad04ba7c1ea05d8c259bfa709e8a21b96f96d6c2739b941f58462c00fbada",
+        "role": "home",
+        "team_id": "team:japan@base",
+        "mean": 1.3869432585,
+        "sd": 0.3883653348330667
+      },
+      {
+        "date": "1998-10-28",
+        "match_id": "results:aa442280f3e433e140688eb7bbaf36d3dc365f2e019085b7c37de8bd7e4cdbd5",
+        "role": "home",
+        "team_id": "team:japan@base",
+        "mean": 1.2179658266,
+        "sd": 0.44041211495598076
+      },
+      {
+        "date": "1999-09-08",
+        "match_id": "results:1d1068d0549463f72fdb798495023da57d6004a5ecc23d640bb5106231ac473e",
+        "role": "home",
+        "team_id": "team:japan@base",
+        "mean": 1.1408781322,
+        "sd": 0.4177228052189634
+      },
+      {
+        "date": "2000-12-20",
+        "match_id": "results:ed4a8221fe8dc98f59b3d897cebb35d29ae6a8731e11b035970628b088b73ea3",
+        "role": "home",
+        "team_id": "team:japan@base",
+        "mean": 2.0382831007,
+        "sd": 0.40912549773877455
+      },
+      {
+        "date": "2001-11-07",
+        "match_id": "results:a2d668725784395e37ba78761f0bf13178c413e7f95542e9201373ca60c3add6",
+        "role": "home",
+        "team_id": "team:japan@base",
+        "mean": 2.3030174722,
+        "sd": 0.4440908702056371
+      },
+      {
+        "date": "2002-11-20",
+        "match_id": "results:0c2f1beef87aa1589b5867bd525de7a85cf15ef1d33b230e68874cc217292a59",
+        "role": "home",
+        "team_id": "team:japan@base",
+        "mean": 2.0554131609,
+        "sd": 0.4597083523278645
+      },
+      {
+        "date": "2003-12-10",
+        "match_id": "results:661697d6f0f1e9d9c309dd229929fe49b35dfab9c6cab3c58d1c5c33d95fd6ba",
+        "role": "home",
+        "team_id": "team:japan@base",
+        "mean": 1.9665991094,
+        "sd": 0.4552817574865042
+      },
+      {
+        "date": "2004-12-16",
+        "match_id": "results:266d9b24641ce385a994ea65235144550d4ccee7b9cb4e3ff044e360117d12ff",
+        "role": "home",
+        "team_id": "team:japan@base",
+        "mean": 2.4116674349,
+        "sd": 0.4232487168320773
+      },
+      {
+        "date": "2005-11-16",
+        "match_id": "results:3f742005543ed9f8a62792f77291e03f234e3128be8e94608fc27fceaa00d4c7",
+        "role": "home",
+        "team_id": "team:japan@base",
+        "mean": 2.1652515093,
+        "sd": 0.45572523838383144
+      },
+      {
+        "date": "2006-11-15",
+        "match_id": "results:a138a0fb37307f3b1d62cf7927304e47f89fe59c383ecaa57a88398021d67be9",
+        "role": "home",
+        "team_id": "team:japan@base",
+        "mean": 1.7775017079,
+        "sd": 0.4332761590487065
+      },
+      {
+        "date": "2007-10-17",
+        "match_id": "results:f4617e13505cc75ce3a875b3ca7d379c60d8a554621de21e2bb36a6c79cdc300",
+        "role": "home",
+        "team_id": "team:japan@base",
+        "mean": 1.9965002039,
+        "sd": 0.4091955940623017
+      },
+      {
+        "date": "2008-11-19",
+        "match_id": "results:8d81317455c92f224f086f9b9e54c500f5996e9b2769d035114665be221628bb",
+        "role": "away",
+        "team_id": "team:japan@base",
+        "mean": 1.9777602274,
+        "sd": 0.4302676100986455
+      },
+      {
+        "date": "2009-11-18",
+        "match_id": "results:d82a75088fa219118355c994e6d094ba36e4dfd12fbbd11a4099721439a8db74",
+        "role": "away",
+        "team_id": "team:japan@base",
+        "mean": 2.2270470508,
+        "sd": 0.43032977401058364
+      },
+      {
+        "date": "2010-10-12",
+        "match_id": "results:b5ce0447c8c493dae3ec671b994475d5d6caeea214d2403317f2688ad361ab85",
+        "role": "away",
+        "team_id": "team:japan@base",
+        "mean": 2.167531495,
+        "sd": 0.44594991288260166
+      },
+      {
+        "date": "2011-11-15",
+        "match_id": "results:c619b2344f6f68bfd43a94c172325c75be0007ebf74e8c0bf906f10f1db4192a",
+        "role": "away",
+        "team_id": "team:japan@base",
+        "mean": 2.5305668356,
+        "sd": 0.42140862746270397
+      },
+      {
+        "date": "2012-11-14",
+        "match_id": "results:e51b05164f7f65c6c91715f80c5b953c60aa43e6386801a926a08c779563ac67",
+        "role": "away",
+        "team_id": "team:japan@base",
+        "mean": 2.3361964256,
+        "sd": 0.4734300006336734
+      },
+      {
+        "date": "2013-11-19",
+        "match_id": "results:741a96c5b73d79db2b421ec15e544690835350a70a07df9e52f1f35dbaecbd26",
+        "role": "away",
+        "team_id": "team:japan@base",
+        "mean": 1.9199842091,
+        "sd": 0.42115971815927505
+      },
+      {
+        "date": "2014-11-18",
+        "match_id": "results:73029134a0a898d2e93122d372daf7f5f86bf2268e84612a06bb03c2eec3c269",
+        "role": "home",
+        "team_id": "team:japan@base",
+        "mean": 1.9657942815,
+        "sd": 0.4395383707937226
+      },
+      {
+        "date": "2015-11-17",
+        "match_id": "results:7d5bbe26855652ec8bb5b103f38d993cc32bc527e9f82bc6397a44e734a3bc09",
+        "role": "away",
+        "team_id": "team:japan@base",
+        "mean": 2.0235397854,
+        "sd": 0.4483388504245422
+      },
+      {
+        "date": "2016-11-15",
+        "match_id": "results:4147c7ebb725fa5ce7625e8647dd40cd404acfbbda3b0852006cd2a428da8fbb",
+        "role": "home",
+        "team_id": "team:japan@base",
+        "mean": 2.0780009317,
+        "sd": 0.49802986938536126
+      },
+      {
+        "date": "2017-12-16",
+        "match_id": "results:986fac18c023a4028f90b9286eebc5cf6ec7088ec60be8bae54292a79729f1a4",
+        "role": "home",
+        "team_id": "team:japan@base",
+        "mean": 2.0097775242,
+        "sd": 0.43837411887564715
+      },
+      {
+        "date": "2018-11-20",
+        "match_id": "results:9476791411ec338ac3e18c10672f7d85b15a25e10d268f8d53b2c46cf3640130",
+        "role": "home",
+        "team_id": "team:japan@base",
+        "mean": 2.1806053946,
+        "sd": 0.4264831099820953
+      },
+      {
+        "date": "2019-12-18",
+        "match_id": "results:fb01093e4946ea2a25e773a7f9a09506bf8f044aa7391e84b13f83f0480b706d",
+        "role": "away",
+        "team_id": "team:japan@base",
+        "mean": 2.2821697465,
+        "sd": 0.4286251615339445
+      },
+      {
+        "date": "2021-11-16",
+        "match_id": "results:7df8bb0d24a36a0b82fbff7172f83cd052c4515aa441ae0a1824c24e0a42fef6",
+        "role": "away",
+        "team_id": "team:japan@base",
+        "mean": 2.3957814479,
+        "sd": 0.5277034966721369
+      },
+      {
+        "date": "2022-07-27",
+        "match_id": "results:63a2df71be04bcbde0c7712d602b0518633fd6523a23592a752c612921814c3f",
+        "role": "home",
+        "team_id": "team:japan@base",
+        "mean": 2.0592275957,
+        "sd": 0.5148069645022297
+      },
+      {
+        "date": "2023-11-16",
+        "match_id": "results:c91d2f9bd75a38bb3bd1818e3a8b8c4ee5d33caee31313d5a8ebad9873f208d2",
+        "role": "home",
+        "team_id": "team:japan@base",
+        "mean": 2.8975407187,
+        "sd": 0.5077869475478864
+      },
+      {
+        "date": "2024-11-19",
+        "match_id": "results:c2550e9543779a64567c5d182f1f8747bcfa3cfcfc4e3ff9ddfe4e3e7494a7c3",
+        "role": "away",
+        "team_id": "team:japan@base",
+        "mean": 2.6457659641,
+        "sd": 0.4833285161254196
+      }
+    ]
+  },
+  "outputs": {
+    "paper/figures/strength_validation_rows.tex": "78a2d99bf4998a95c86b3648923d1cc716fd4f4ead6276686fdeb590b99d0fe2",
+    "paper/figures/fig_strength_states.pdf": "59e6399102fd84097fcb2f822c588a4c536c709c0838775b0cb343b357e1c537",
+    "paper/figures/fig_strength_states.png": "301695fdc8a964991259db078fabc297c0021c3bb7a5350ba157ed9e49e2320f"
+  }
+}

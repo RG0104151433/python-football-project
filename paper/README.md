@@ -1,5 +1,7 @@
 # 课程论文：LaTeX写作入口
 
+**R20261107-09：根据组长反馈扩充论证和实力模型结果。** 当前22页，7图5表、12个显示公式、15条引用；题目/署名占位/摘要/关键词同一首页，正文从第二页开始。图表统一为粗体编号与题名、另行小字号Note；正文及与公式相连的段落保持完整，图表不能插入段落中间。数学部分补模型取舍、推导、在线学习及局限；结果增加实力状态图、评分管线独立三分类表现和实际迭代。当前指纹/验证见`paper/method_expansion_manifest.json`（paper目录内使用`method_expansion_manifest.json`）。未重训模型；署名/真人复核/正式提交继续后置。此前带日期的页数和清单均为历史状态。
+
 **R20261107-08审查回应：** 已按三层报告核对并修正文中配置用途、复现路径、整体损失解释和证据覆盖范围。当前15页/6图4表/8公式/15引用；详见[逐条回应](review_response_20261107.md)与[当前指纹](review_response_20261107.json)。署名/贡献继续按组长要求后置，资助/利益冲突不猜填；原审查报告保持不动。下方R03为当时14页状态。
 
 **当前状态（R20261107-03）：完成研究覆盖、图式与导出排版检查。** 当前14页、6图4表、8个显示公式、15条引用。四个正文章节约5,012词，摘要177词（空格计，口径不同）。已对照清洗/身份及九问当前采用范围，主文保留核心证据，完整结果通过[英文支撑指南](SUPPORTING_RESULTS.md)查阅；不能将主文几幅图说成逐行展示所有输出。
@@ -46,16 +48,16 @@
 
 - `main.tex`：总入口、标题、摘要、样式和章节组合。
 - `sections/introduction.tex`：问题背景、研究价值与整条研究主线。
-- `sections/method.tex`：已写的英文Method，覆盖数据、比较、实力、共同模型和评价/实现。
+- `sections/method.tex`与`sections/model_selection.tex`：六节Method，含模型取舍、推导、在线学习、概率校正及检验依据。
 - `method_evidence.json`、`method_draft_manifest.json`：26条方法来源绑定、稿件/引用/流程图指纹与实际验证。
 - `citation_report.md`：10条已用引用的核实范围及借鉴边界。
-- `sections/results.tex`：已写的英文Results初稿，按五节组织实际发现，包含4表4图。
+- `sections/results.tex`：六节Results；调用`sections/strength_development.tex`解释实力输出、开发迭代及独立三分类历史评价。
 - `results_evidence.json`与`results_draft_manifest.json`：具体记录/源SHA、初稿采用图表及验证范围。
 - `sections/discussion.tex`：结论、限制、四项优化/迁移展望。
-- `references.bib`：待核对后录入的参考文献库；当前只有注释，没有虚构条目。
+- `references.bib`：15条已用英文文献，元数据与借鉴范围见`citation_report.md`，不把有限阅读范围写成全文证明复核。
 - `citation_candidates.md`、`citation_map.csv`与`check_citations.py`：20—25条引用候选、章节/claim/文献映射模板、BibTeX/正文引用一致性检查。
 - `make_paper_figures.py`：从当前采用CSV生成5张英文候选图（PDF/PNG+manifest）；不重跑模型。
-- `figures/README.md`与`图表来源说明.md`：选图规则、源文件路径与版本登记；**已生成5张英文候选图（fig2—fig6）**，尚未最终选定；fig1仍需绘制。
+- `figures/README.md`与`图表来源说明.md`：当前7图5表的标签、源文件与边界；旧候选图/旧编号作为历史。
 - `论文规划审查与开工准备_v2_20261105.md`：五部分+研究主线、Agent任务卡和提示词；`论文规划与交付建议_20261105.md`保留课程要求/取数单/提交清单。
 - `verification_log.md`：`quick_check.py`/`pytest`/编译/提交前检查的实际输出模板与2026-11-05基线。
 - `build/`：本机编译中间文件和PDF，忽略版本管理；不是研究成果目录。

@@ -70,13 +70,13 @@
     "course_research_scope_closed": true,
     "ready_for_writing": true,
     "writing_setup": {
-      "decision_log_id": "R20261103-02",
+      "decision_log_id": "R20261107-09",
       "root_navigation_simplified": true,
       "stage_reading_overviews_prepared": 10,
       "paper_directory": "paper",
       "paper_entry": "paper/main.tex",
       "paper_readme": "paper/README.md",
-      "paper_status": "independent_review_response_edits_completed_reacceptance_pending",
+      "paper_status": "expanded_method_argument_and_strength_results_working_paper_authors_deferred",
       "paper_asset_review": {
         "decision_log_id": "R20261103-04",
         "scope": "course_paper_only_not_presentation_or_new_research",
@@ -85,10 +85,10 @@
         "plan": "paper/论文要求核对与结构规划.md",
         "review": "文档/04_整理记录/论文资产核对_20261103.json",
         "formal_body_written": true,
-        "formal_body_written_scope": "All four sections/Abstract with study coverage reviewed, supporting guide and 8 equations; authors deferred; final submission acceptance pending",
+        "formal_body_written_scope": "Four sections/abstract; six Method and six Results subsections; 12 equations and separate strength-development evidence; authors and final submission pending",
         "full_paper_body_written": true,
         "outline_owner_review": "structure_finalized_at_owner_request_AI_review_only",
-        "outline_revision_decision_log_id": "R20261106-03",
+        "outline_revision_decision_log_id": "R20261107-09",
         "preferred_outline": "Five_required_parts_with_data_and_study_design_in_Method_2_1",
         "strict_template_fallback": "Keep_five_required_parts_and_place_data_and_study_design_at_start_of_Method",
         "detailed_subsection_plan_prepared": true,
@@ -99,10 +99,10 @@
         "new_research_required_before_drafting": false
       },
       "paper_compilation_passed": true,
-      "paper_compilation_scope": "coverage_and_layout_reviewed_working_paper",
-      "paper_compilation_note": "R20261107-08: response edits compiled, 15 pages; changed pages checked, 15 citations; no model rerun or reviewer reacceptance.",
-      "figures_selected": 6,
-      "figures_selection_scope": "Current full-paper working selection: native flow diagram, historical overview and four existing result graphics",
+      "paper_compilation_scope": "Expanded argument, strength presentation and paragraph/caption layout; no new model execution",
+      "paper_compilation_note": "R20261107-09: 22 pages, 7 figures, 5 tables, 12 equations, 15 references; prefix pages visually checked and byte-identical after final layout edit; final tail checked. Author-side verification only.",
+      "figures_selected": 7,
+      "figures_selection_scope": "Flow, historical overview, four-team strength-state illustration, joint comparison, windows, regional diagnostics, issued forecasts",
       "bibliography_entries_verified": 15,
       "bibliography_verification_scope": "primary metadata and limited claim support; not full-text proof replication",
       "organization_record": "文档/04_整理记录/仓库整理记录_20261103.json",
@@ -121,10 +121,13 @@
       },
       "adopted_research_results_changed": false,
       "current_working_preview": {
-        "decision_log_id": "R20261107-08",
-        "manifest": "paper/review_response_20261107.json",
+        "decision_log_id": "R20261107-09",
+        "manifest": "paper/method_expansion_manifest.json",
         "pdf": "paper/build/main.pdf",
-        "pages": 15,
+        "pages": 22,
+        "figures": 7,
+        "tables": 5,
+        "displayed_equations": 12,
         "final_paper": false
       }
     },
@@ -281,7 +284,8 @@
         "manifest": "paper/review_response_20261107.json",
         "reviewer_reacceptance": false
       }
-    }
+    },
+    "adopted_research_results_changed": false
   },
   "numbering_decision": {
     "date": "2026-10-26",

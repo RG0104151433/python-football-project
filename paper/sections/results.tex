@@ -3,11 +3,11 @@
 \label{sec:results}
 % Editorial revision R20261107-02; evidence IDs refer to results_evidence.json.
 
-We first describe historical patterns, then assess strength-informed predictions and their conditions of use. Table~\ref{tab:analysis-samples} distinguishes the samples for each task. Throughout, observed rates describe the retained history, model-conditional ranges use the assumptions in Section~\ref{sec:comparison-method}, and predictive scores concern home win versus draw or away win.
+We first describe historical patterns, then assess strength-informed predictions and their conditions of use. Table~\ref{tab:analysis-samples} distinguishes the samples for each task. Throughout, observed rates describe the retained history, model-conditional ranges use the assumptions in Section~\ref{sec:comparison-method}, and predictive scores concern home win versus draw or away win, except for the explicitly labelled three-class strength-pipeline check.
 
 \begin{table}[htbp]
 \centering\small
-\caption{Samples used in the results. Rows represent analytical uses rather than successive exclusions from one denominator. The main window and regional comparisons share the same 9,727 matches.}
+\papercaption{Samples used in the results.}{Rows represent analytical uses rather than successive exclusions from one denominator. The main window and regional comparisons share the same 9,727 matches.}
 \label{tab:analysis-samples}
 \begin{tabularx}{\linewidth}{@{}Xrr@{}}
 \toprule
@@ -37,13 +37,13 @@ Figure~\ref{fig:historical-overview} summarizes all five eras and the 36 overlap
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\linewidth]{fig_historical_overview.pdf}
-\caption{Historical patterns in the common 24,917-match cohort. (A) Direct and common-tournament-composition era rates; the vertical axis is zoomed and the last era spans five years. (B) Direct friendly-minus-other gaps in 36 overlapping ten-year windows, indexed by ending year. (C) Four predefined regional contrasts: external opponents are outside the home continent; rest denotes other American subregions. Raw and adjusted differences use their own references and are not a regional ranking. All panels are descriptive; interval evidence is separate. Complete windows, 29 contrasts, and 155 directional matchups are indexed in the supporting-results guide.}
+\papercaption{Historical patterns in the common 24,917-match cohort.}{(A) Direct and common-tournament-composition era rates; the vertical axis is zoomed and the last era spans five years. (B) Direct friendly-minus-other gaps in 36 overlapping ten-year windows, indexed by ending year. (C) Four predefined regional contrasts: external opponents are outside the home continent; rest denotes other American subregions. Raw and adjusted differences use their own references and are not a regional ranking. All panels are descriptive; interval evidence is separate. Complete windows, 29 contrasts, and 155 directional matchups are indexed in the supporting-results guide.}
 \label{fig:historical-overview}
 \end{figure}
 
 \begin{table}[htbp]
 \centering\small
-\caption{Selected contrasts in the 24,917-match historical sample, in percentage points. Ranges are model-conditional envelopes, not unconditional confidence intervals. Each adjustment uses its specified reference; the rows are not estimates of one interchangeable effect.}
+\papercaption{Selected contrasts in the 24,917-match historical sample, in percentage points.}{Ranges are model-conditional envelopes, not unconditional confidence intervals. Each adjustment uses its specified reference; the rows are not estimates of one interchangeable effect.}
 \label{tab:historical-contrasts}
 \begin{tabular}{p{7.4cm}rr}
 \toprule
@@ -63,6 +63,8 @@ Of 29 predefined regional contrasts, 24 supported adjustment and five lacked req
 
 The full regional output also contains 155 directional matchups: 153 have observations and 71 support the complete adjustment. Across the historical analyses, 198 of 292 registered targets received model-conditional ranges, while 94 lacked required cells. The 324 sensitivity scenarios produced 26,704 comparison rows; altered targets remain descriptive unless separately recalibrated. Complete records are listed in the supporting-results guide.
 
+\input{sections/strength_development}
+
 \subsection{Strength versus Context}
 \label{sec:strength-results}
 % E32_M0_nested/M1_strength/M3_nested, E32_CONTEXT_*, E32_ADMISSION.
@@ -73,7 +75,7 @@ Strength supplied most of the improvement (Table~\ref{tab:predictive-models}; Fi
 
 \begin{table}[htbp]
 \centering\small
-\caption{Same-match retrospective comparison, 1990--2024 ($n=21,413$). Bias is mean predicted home-win probability minus the observed rate, in percentage points. Lower loss and Brier score are preferable.}
+\papercaption{Same-match retrospective comparison, 1990--2024 ($n=21,413$).}{Bias is mean predicted home-win probability minus the observed rate, in percentage points. Lower loss and Brier score are preferable.}
 \label{tab:predictive-models}
 \begin{tabular}{lrrrr}
 \toprule
@@ -91,7 +93,7 @@ Adding context also reduced the Brier score from $0.193698$ to $0.192657$ and me
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\linewidth]{fig3_model_comparison.pdf}
-\caption{Strength accounts for most of the improvement in the same-match historical comparison ($n=21,413$, 1990--2024). Context supplies a smaller increment. Both vertical axes are truncated; magnitudes should be read from the labelled values rather than bar-height ratios. Accuracy is binary; no real-world significance interval for the loss difference is shown.}
+\papercaption{Strength accounts for most of the improvement in the same-match historical comparison ($n=21,413$, 1990--2024).}{Context supplies a smaller increment. Both vertical axes are truncated; magnitudes should be read from the labelled values rather than bar-height ratios. Accuracy is binary; no real-world significance interval for the loss difference is shown.}
 \label{fig:predictive-models}
 \end{figure}
 
@@ -110,7 +112,7 @@ A 12-year outcome-learning window, with cumulative strength estimation fixed, in
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\linewidth]{fig4_history_windows.pdf}
-\caption{Six tested combinations of rating memory and outcome-learning history. Left: loss on the common 2010--2024 sample ($n=9,727$); segments only guide the eye between discrete choices. Right: recorded outcome-learning component times, not total pipeline times. The controlled saving in the text compares only all/12y with all/all; other producer batches are not standardized.}
+\papercaption{Six tested combinations of rating memory and outcome-learning history.}{Left: loss on the common 2010--2024 sample ($n=9,727$); segments only guide the eye between discrete choices. Right: recorded outcome-learning component times, not total pipeline times. The controlled saving in the text compares only all/12y with all/all; other producer batches are not standardized.}
 \label{fig:history-windows}
 \end{figure}
 
@@ -122,7 +124,7 @@ The same 9,727-match main sample was used to ask whether the joint predictor was
 
 \begin{table}[htbp]
 \centering\small
-\caption{Regional diagnostics, 2010--2024. Losses compare identical matches within each row; bias concerns the joint predictor, in percentage points. Interpretations summarize finite checks, not confidence statements or a ranking between regions. Americas includes South America; Overall is not an independent additional sample.}
+\papercaption{Regional diagnostics, 2010--2024.}{Losses compare identical matches within each row; bias concerns the joint predictor, in percentage points. Interpretations summarize finite checks, not confidence statements or a ranking between regions. Americas includes South America; Overall is not an independent additional sample.}
 \label{tab:regional-diagnostics}
 \begin{tabular}{lrrrrp{3.4cm}}
 \toprule
@@ -147,7 +149,7 @@ Additional comparisons require restraint. South America's ordering relative to t
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\linewidth]{fig5_regional_metrics.pdf}
-\caption{Regional probability quality and mean bias on the main 2010--2024 sample. The displayed regional groups contain 9,579 of 9,727 matches; Overall additionally includes Oceania's 148 matches. Positive bias means average overprediction. Point scores alone do not establish stable increments: finite checks supply the separate sensitivity evidence discussed in the text.}
+\papercaption{Regional probability quality and mean bias on the main 2010--2024 sample.}{The displayed regional groups contain 9,579 of 9,727 matches; Overall additionally includes Oceania's 148 matches. Positive bias means average overprediction. Point scores alone do not establish stable increments: finite checks supply the separate sensitivity evidence discussed in the text.}
 \label{fig:regional-metrics}
 \end{figure}
 
@@ -162,11 +164,10 @@ Of the 49 joint predictions, 21 favoured a home win and 28 a non-home win; 32 st
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\linewidth]{fig6_forecast_examples.pdf}
-\caption{Examples from the sealed 2 November 2026 release for 12--17 November fixtures. Left: joint binary probabilities with fixed-coefficient latent-strength central 90\% ranges. Right: auxiliary native win--draw--loss probabilities for Ukraine--Georgia, for which the main model withheld its estimate under the venue rule. Actual outcomes are absent; Table~\ref{tab:predictive-models}'s historical accuracy is not an accuracy estimate for these fixtures.}
+\papercaption{Examples from the sealed 2 November 2026 release for 12--17 November fixtures.}{Left: joint binary probabilities with fixed-coefficient latent-strength central 90\% ranges. Right: auxiliary native win--draw--loss probabilities for Ukraine--Georgia, for which the main model withheld its estimate under the venue rule. Actual outcomes are absent; Table~\ref{tab:predictive-models}'s historical accuracy is not an accuracy estimate for these fixtures.}
 \label{fig:issued-forecasts}
 \end{figure}
 
 With outcomes still absent from the sealed ledger, this release demonstrates prospective application. Its predictive performance remains to be evaluated.
 
-% Keep Results floats before Discussion without forcing an otherwise empty page.
-\FloatBarrier
+% Final placement is checked in the rendered PDF; no forced float-only page.

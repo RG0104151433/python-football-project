@@ -11,7 +11,9 @@
 \usepackage{amsmath,amssymb,graphicx,booktabs}
 \usepackage{placeins}
 \usepackage{indentfirst,tabularx}
-\usepackage[font=small,labelfont=bf]{caption}
+\usepackage[font=small,labelfont=bf,justification=raggedright,singlelinecheck=false]{caption}
+% A shared title/note hierarchy for every numbered figure and table.
+\newcommand{\papercaption}[2]{\caption{\textbf{#1}\protect\newline\textit{Note.} #2}}
 \usepackage{xurl}
 \usepackage[hidelinks]{hyperref}
 \usepackage[numbers,sort&compress]{natbib}
@@ -19,11 +21,16 @@
 % Consistent paragraph indentation, including the first paragraph after headings.
 \setlength{\parindent}{1.5em}
 \setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{1.5em}
 \raggedbottom
 \clubpenalty=10000
 \widowpenalty=10000
 \displaywidowpenalty=10000
 \brokenpenalty=10000
+% Keep text/equation paragraphs intact so floats cannot interrupt them.
+\interlinepenalty=10000
+\predisplaypenalty=10000
+\postdisplaypenalty=10000
 % Allow figures to share pages with their discussion rather than accumulating.
 \setcounter{topnumber}{3}
 \setcounter{totalnumber}{5}
@@ -48,6 +55,8 @@ Team Strength, Historical Information, and Regional Variation}
 Historical home-win rates in international football may reflect differences in team strength and match composition as well as venue-related conditions. We investigate how much these patterns contribute to pre-match prediction. A cohort of 24,917 non-neutral matches from 1980--2024 supports comparisons across eras, match types, and regions. A dynamic model learns strength from earlier results, including eligible neutral matches; a joint model then combines the strength distribution with match context. Retrospective chronological evaluation on 21,413 matches from 1990--2024 compares background-only, strength-only, and joint predictions. The joint model reduces log loss by 16.12\% relative to background alone and 0.42\% relative to strength alone, with 70.01\% binary accuracy for home-win/non-home-win decisions. Historical-window comparisons identify a trade-off between fitting cost and probability quality, without establishing a universally best length. Descriptive geographic differences and regional prediction diagnostics answer separate questions; the latter reveal uneven robustness and probability bias. A sealed release covers 52 future fixtures, with 49 main predictions and three withheld under the venue rule; outcomes remain unevaluated. In this aggregate loss comparison, strength supplies the larger improvement, while context adds a modest increment whose interpretation is limited by historical reuse and model assumptions.
 \end{abstract}
 \noindent\textbf{Keywords:} international football; pre-match strength; home-win probability; probabilistic prediction
+% One compact front page, not a mostly empty title-only cover.
+\clearpage
 \input{sections/introduction}
 \input{sections/method}
 \input{sections/results}

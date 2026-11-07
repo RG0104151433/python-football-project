@@ -1,0 +1,37 @@
+% !TeX root = ../main.tex
+\subsection{Strength Estimation: Development, Outputs, and Checks}
+\label{sec:strength-development}
+
+Before assessing its role in the joint predictor, we examine the strength model as a separate learning system. Its primary output is a dated distribution for each team's latent ability, not an observed true-strength label. Figure~\ref{fig:strength-states} presents four illustrative teams chosen for a readable account of this output, rather than selected as the best-performing cases. A point is the state immediately before the selected match; the current result has not yet been learned. Both home and away appearances supply such states. Whiskers summarize marginal uncertainty on the model's fixed performance-noise scale. They are not confidence intervals for independently measured football quality, nor are their widths a complete measure of model error.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{fig_strength_states.pdf}
+\papercaption{Illustrative pre-match strength states, 1980--2024.}{For Brazil, France, Spain, and Japan, one point selects the latest eligible comparative-cohort match in each year, using either team role. Whiskers are the marginal mean plus/minus one standard deviation, including jump variance; they are not normal-quantile intervals or a world ranking. The zero line is the prior reference. Selected dates do not display every update, and gaps contain no interpolated state estimates.}
+\label{fig:strength-states}
+\end{figure}
+
+\subsubsection{What the Development Results Changed}
+
+The development sequence provides evidence about implementation and model adequacy, rather than a theoretical proof of an optimal rating algorithm. First, expanding global jump combinations caused memory growth. A later moment-collapse approximation still differed from independent numerical references by about $1.328$~pp in match probability, above the original $1$~pp accuracy tolerance. The adopted implementation instead integrates local Poisson counts before processing results, shares a jump variable across a team's same-day matches, and retains the joint covariance. Its final ordinary-versus-strict full-pipeline maximum probability difference was approximately $4.777\times10^{-7}$. This checks numerical stability on the recorded computation; it does not establish that the latent process is a correct description of real teams.
+
+Second, global probability improvements did not remove a specific friendly-match bias. Earlier correction candidates underpredicted home wins in the 415 friendlies of 2020--2022 by approximately $3.32$--$4.51$~pp. Separate context fits, switching mixtures, and richer matrix corrections did not all meet the unchanged requirements. Diagnoses distinguished probability shape from a recent systematic offset. The final pipeline therefore applies past-only shape correction followed by online residual correction, as described in Section~\ref{sec:strength-method}. In those 415 matches, underprediction became $2.3913$~pp; the corresponding non-friendly bias was $-0.7689$~pp. For 2023--2024, friendly and other-match biases were $+0.9619$ and $+0.3622$~pp. These are residual diagnostics, not estimated causal tournament effects.
+
+The final composition exercise retained eight candidates: two shape maps crossed with four residual-diffusion choices. Two met all registered checks. With diffusion $0.02$, the shared-temperature version had recorded comparative-cohort loss $0.890949$, compared with $0.891258$ for the matrix version. These aggregates cover the same 24,917 study matches, not the larger learning population. The decision rule admitted candidates first, then preferred lower loss and simpler structure; it selected the shared-temperature version. All these historical checks had been reused during development. Failed candidates remain recorded, and the selected result must not be described as success on an untouched final holdout. The corrections improve the auxiliary probability branch; they do not retrospectively change the strength distributions delivered to the joint analysis.
+
+\subsubsection{Separate Three-Class Evaluation and Remaining Weaknesses}
+
+Table~\ref{tab:rating-validation} reports the adopted rating-and-correction pipeline on four disjoint historical periods of the comparative cohort. Its target is home win, draw, or away win. The frequency baseline uses earlier venue-specific outcome counts; the internal fixed-step baseline updates both teams from expected-score errors and uses a Davidson-form draw probability. Its registered settings are update size $40$, home offset $100$, and draw parameter $0.75$, on its own rating scale. This is an Elo-style internal comparator, not an implementation of the official FIFA system. All three issue probabilities before learning the current date's results.
+
+\begin{table}[htbp]
+\centering\small
+\papercaption{Adopted rating-pipeline diagnostics on the comparative cohort.}{The four periods partition 24,917 matches. Loss is three-class negative log probability of the actual result; accuracy selects the most probable of the three outcomes. Bias is predicted minus observed home-win frequency in pp. These results include the probability corrections and reuse development history. They are not directly comparable with the binary scores in Table~\ref{tab:predictive-models}.}
+\label{tab:rating-validation}
+\input{figures/strength_validation_rows}
+\end{table}
+
+The pipeline improves loss over the frequency comparator in each displayed period. It improves over the fixed-step comparator in the first three, but in 2020--2024 its loss is $0.868851$ versus $0.863959$, and its accuracy is $60.26\%$ versus $60.97\%$. This is within the registered $0.01$ loss non-inferiority tolerance, not a win in every period. The requirements also checked loss improvement of at least $0.005$ against frequency, accuracy no more than $1$~pp below frequency, absolute home-win bias at most $3$~pp, and probability-bin error at most $10$~pp for bins with at least 200 games. Passing these finite tolerances defines operational acceptance, not universal superiority or proof of calibration in every subgroup.
+
+The implementation records 63 targeted tests, independent integration checks, full-history replay, and checkpoint continuation. Simulation under two alternative jump-parameter settings gave nominal $90\%$ strength-difference range coverage of approximately $95.90\%$ and $92.65\%$. These checks answer different questions: implementation consistency, numerical approximation, and behaviour in stipulated worlds. They do not supply observed true-strength labels in real football. Initialization checks also found 2,905 study matches with a raw home-probability change exceeding $1$~pp under at least one registered alternative, 359 cold starts, and 80 matches whose prior cumulative opponent graph was disconnected. Rare match-level initialization effects were much larger than the average. We retain these flags and uncertainty information rather than interpret a common scale as proof of equally reliable comparisons everywhere.
+
+This establishes the role of the strength model in the next analysis. Its latent distributions supply a useful, audited input with explicit weaknesses; corrected three-class probabilities provide a separate forecasting diagnostic. Whether strength contributes information about the binary home-win target, and whether context adds anything further, require the common-sample comparison below.

@@ -1,0 +1,98 @@
+{
+  "decision_log_id": "R20261107-09",
+  "date": "2026-11-07",
+  "executor": "Codex (AI)",
+  "member_review": false,
+  "code_identity": {
+    "head_at_recording": "20793fe4689a46e06928f77b146b075bcb366ba7",
+    "uncommitted_writing_changes": true
+  },
+  "purpose": "Expand mathematical reasoning and adopted strength-model evidence; improve front matter/captions/paragraph integrity",
+  "counts": {
+    "pages": 22,
+    "figures": 7,
+    "tables": 5,
+    "displayed_equations": 12,
+    "bibliography_entries": 15
+  },
+  "source_sha256": {
+    "paper/main.tex": "acfb28c75c5443e66aecb1596132a975b82df42ba5b95bb0d9a3f287f9f88f2b",
+    "paper/references.bib": "30c0919b08c936edc12ed1035996f59343a5aa0d6b3abd801f6cd70d7c74a185",
+    "paper/sections/discussion.tex": "240a17799c927dd4d31587e41f2acd0543e35d14f57ff675d2df168619b054fd",
+    "paper/sections/introduction.tex": "9850edd96d4e9d8438a8e415482b51fc312eb05b1d860a0674f3c72f5f3251e0",
+    "paper/sections/method.tex": "d9ba1de195614b8a5828762dc9b660f490e05738d8700af48142a47303921428",
+    "paper/sections/model_selection.tex": "bc77cfe9c7ebaeb6eab169641aca8c8325a20cda95045f26fade94928a283855",
+    "paper/sections/results.tex": "304478b7e655b3a0ef44fbe8b31a112e9752536a3598a856bb0eb7b3d59a4123",
+    "paper/sections/strength_development.tex": "e38aa1773fba1c533e2382311028a67a2bc1fb40f0c48343b61cb45cce1409fa",
+    "paper/make_strength_evidence.py": "cee2708c0c919a4f7d3b73fe69d3d18da93f333c3e8f36df8fc38842d5b6930a",
+    "paper/strength_evidence_manifest.json": "aff9ba6b702b43531e5be8bd19e654533b7d4412b08ab1a14e1977700205e2c0",
+    "paper/论文写作框架.md": "b38a2b66fb9c4bae74c90393c1b20179c37e75f25503ff698ebafa8ffda5d94b",
+    "paper/图表来源说明.md": "1dbb1ddd773122650b3b299990e41c38e6406d61ec92e5bc0f87541e612cdc6a",
+    "paper/SUPPORTING_RESULTS.md": "ccb3296aa7b86d7d60c3089ef20bc62c2ff7e63ec89c34f9c72da53ab4d03261",
+    "研究/pipeline_state.json": "9906992e595fed55b35394f00dc2124674091d0e6d2e22c98c91241260835cb3",
+    "文档/01_项目方案/研究日志与决策记录.md": "aa320a12fa4e45556c4c4d2414cc294809825b4bd2689b305b39ed42a508396d",
+    "文档/05_团队协作/论文与汇报支撑材料索引.md": "512d3c925d4d5fb5be1027a257da9e9c6b35b4e7ff8c0378e92fba3945b2a64c"
+  },
+  "support_record_sha256": {
+    "研究/05_赛前实力/第二环节_验收与正式交接.md": "19184f0c82747fe5a5167e88381cca397fbf4e379bbf135f26af4359314b441c",
+    "研究/05_赛前实力/第五问_收尾与下一问交接.md": "e1cb6dc479abd64b95a80e8ab711a6c14a2b2536dbc749f23e0b144981e93c2e",
+    "config/strength_global_v3.json": "a524b57c774eb61cbc677ee8edc2057a0c9cc3b8738a6fbcbcf67609d5555938",
+    "config/strength_final_delivery.json": "15f47271d20a12cc3a9f8aaf8f8389e24640ebe6589f500dae17abc9a4a07d89",
+    "src/strength/baseline.py": "d39fc56eb16ef08fcc9b25d94940d4c6e9a3456313a2c08d4973351fe87813e2",
+    "src/strength/calibration.py": "166a313a7b4cbfb1bf92b29125713f8368bb1ae739586b84777d0af712e91752",
+    "src/strength/delivery.py": "717e6f06f6ea86768bbe140dabe090723672097a329443548fca6a88dee3cb8b",
+    "src/strength/collapsed_jump.py": "728e598b117bb47d6598264c0db2b0711e9590a3eb675812bb5980ee748e92e4"
+  },
+  "output_sha256": {
+    "paper/build/main.pdf": "63c017669a5d095db20260ac5fe4c24456f8aeacd914f29dc966cd39c9f1eb67",
+    "paper/figures/strength_validation_rows.tex": "78a2d99bf4998a95c86b3648923d1cc716fd4f4ead6276686fdeb590b99d0fe2",
+    "paper/figures/fig_strength_states.pdf": "59e6399102fd84097fcb2f822c588a4c536c709c0838775b0cb343b357e1c537",
+    "paper/figures/fig_strength_states.png": "301695fdc8a964991259db078fabc297c0021c3bb7a5350ba157ed9e49e2320f"
+  },
+  "model_results_rerun": false,
+  "scientific_inputs_parameters_and_outputs_changed": false,
+  "mathematical_scope": [
+    "Transition moment derivation under stated independence",
+    "Bayes responsibility and nonlinear learning",
+    "Opponent covariance and single-factor Gaussian moment identities, not an exact sequential posterior",
+    "Conditional Gaussian/probit integration and Poisson averaging",
+    "Separate correction and learning objectives",
+    "Mean/dependence calibration and complete-history versus first-order contrast inference"
+  ],
+  "evidence_checks": {
+    "registered_source_hashes": 3,
+    "four_disjoint_period_total": 24917,
+    "selected_state_dates": 178,
+    "team_entity_alias_unique": true,
+    "existing_composition_candidates": 8,
+    "admitted_composition_candidates": 2,
+    "composition_losses_denominator": "24917 accepted_study matches, not all_learning",
+    "composition_losses": {
+      "dirichlet_matrix__residual_0.02": 0.8912580894450406,
+      "temperature_offset__residual_0.02": 0.89094874800652
+    }
+  },
+  "checks": {
+    "citation_keys": "15 entries / 15 cited keys; strict checker exit 0",
+    "compile_exit": 0,
+    "warnings": [],
+    "labels_unique": true,
+    "references_resolve": true,
+    "unified_captions": 12,
+    "embedded_font_count": 29,
+    "all_fonts_embedded": true,
+    "page_review": "All pages rendered and inspected; final prefix 1-18 PNG identical to inspected 22-page version, final 19-22 inspected separately",
+    "layout": "Title/authors placeholder/abstract/keywords together on page 1; body page 2. Complete text/equation paragraphs prevent float interruption; all captions bold title + separate small Note.",
+    "git_diff_check": "passed",
+    "new_model_test_or_simulation_execution": false
+  },
+  "earlier_failed_build": "Initial table input produced Misplaced noalign; generator now emits complete tabular; final compile succeeded",
+  "title_page_reference": "https://www.latex-project.org/help/documentation/classes.pdf (article default does not require separate titlepage)",
+  "limitations": [
+    "No external ranking benchmark or untouched final historical test",
+    "Past recorded test/simulation counts are not new runs",
+    "One-SD strength bars are not real-world confidence bounds",
+    "Recent-period fixed-step loss better than adopted pipeline; admissibility is not uniform superiority",
+    "Authors/contributions deferred by user; final submission and member review pending"
+  ]
+}
