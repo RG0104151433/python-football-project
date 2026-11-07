@@ -1,0 +1,993 @@
+PDF_SNAPSHOT: paper/build/main.pdf
+PAGES: 14
+
+========== [PDF PAGE 1] ==========
+Home-Win Prediction in International Football:
+Team Strength, Historical Information, and Regional Variation
+Names, student IDs, and classes to be confirmed
+Abstract
+Historical home-win rates in international football may reflect differences in team strength
+and match composition as well as venue-related conditions. We investigate how much these
+patterns contribute to pre-match prediction. A cohort of 24,917 non-neutral matches from
+1980–2024 supports comparisons across eras, match types, and regions. A dynamic model
+learns strength from earlier results, including eligible neutral matches; a joint model then
+combines the strength distribution with match context. Retrospective chronological eval-
+uation on 21,413 matches from 1990–2024 compares background-only, strength-only, and
+joint predictions. The joint model reduces log loss by 16.12% relative to background alone
+and 0.42% relative to strength alone, with 70.01% binary accuracy for home-win/non-home-
+win decisions. Historical-window comparisons identify a trade-off between fitting cost and
+probability quality, without establishing a universally best length. Regional checks reveal
+uneven robustness and probability bias. A sealed release covers 52 future fixtures, with 49
+main predictions and three withheld under the venue rule; outcomes remain unevaluated.
+Strength supplies most of the predictive gain, while context adds a modest increment whose
+interpretation is limited by historical reuse and model assumptions.
+Keywords: international football; pre-match strength; home-win probability; probabilistic pre-
+diction
+1
+Introduction
+1.1
+Motivation: From Historical Rates to Pre-Match Decisions
+An international team’s historical home-win rate is easy to calculate but diﬀicult to interpret.
+A high rate may reflect strong home teams, weak opponents, or the competitions and periods
+represented. Comparing regions or decades without accounting for these differences can confuse
+changes in the schedule with changes in performance. For an upcoming match, the practical
+question is how much these historical patterns help once both teams’ recent performances are
+known.
+Description identifies where home-win rates differ; prediction asks whether those differences
+help assign probabilities to future outcomes.
+A group difference may add little information
+once team strength is considered, while a plausible overall average can conceal poor individual
+predictions. National-team records also involve irregular match intervals, changing identities,
+neutral venues, and uneven opponent combinations. These features require a documented sample
+and clear rules about which information is available before each prediction.
+We study home-win probability, combining draws and away wins as the alternative outcome.
+Here, context means the era, match type, and geographic groups of both teams. We assess what
+strength and context contribute to prediction. The design supports historical and model-based
+comparisons, but does not identify the causal effect of relocating the same match from a neutral
+venue to a home ground.
+1
+
+
+========== [PDF PAGE 2] ==========
+1.2
+Related Work and Study Positioning
+Pollard and Armatas [1] examined home advantage in the group stages of qualification for the
+2006, 2010, and 2014 World Cups. Their competition-specific setting provides background for
+our broader comparison of eras, friendlies, and geographic groups. Our home-win percentages
+describe a different target and sample from other measures of home advantage.
+Ratings turn past results into measures of current strength. Hvattum and Arntzen [2] used
+Elo-derived covariates in ordered-logit football prediction models. Glickman [3] developed dy-
+namic paired comparisons that represent uncertainty about changing ability. Dixon and Coles [4]
+modelled English league and cup scores with a dynamic Poisson-regression approach. These
+studies motivate distinguishing how past results inform strength from how strength is converted
+into an outcome probability.
+Proper scoring rules provide a basis for evaluating probabilities beyond counting correctly
+predicted outcomes [5].
+Repeated team appearances also motivate attention to dependence
+between matches [6]. We use these ideas to compare models on common samples and to assess
+uncertainty under explicit assumptions. Our implementations and their limits are set out in the
+Method section.
+1.3
+Research Questions, Contributions, and Roadmap
+We organize the study around three questions:
+1. RQ1: How do historical home-win rates differ across eras, match types, and regions, and
+how far do composition adjustment and uncertainty assessment support their interpreta-
+tion?
+2. RQ2: How much predictive information does pre-match strength supply, and how much
+does match context add once strength is included?
+3. RQ3: How do historical information length and geographic setting affect predictive per-
+formance, computational cost, and the conditions for using the model?
+The contribution is a traceable analysis linking historical comparisons, strength-informed
+prediction, and practical use. We compare background-only, strength-only, and joint predic-
+tions on the same matches, examine information length and regional applicability, and issue a
+sealed future prediction set. Strength carries the main predictive gain, context adds a smaller
+increment, and the evidence does not establish a universally best historical window or equal
+regional applicability.
+Section 2 presents the data, models, and evaluation protocol. Section 3 reports the historical
+comparisons, predictive evidence, and prospective application. The discussion draws together
+their implications and proposed extensions. Future outcomes are outside the present evaluation.
+2
+Method
+2.1
+Study Design and Data
+We used the International Football Results dataset maintained by martj42 [7]. The registered
+snapshot contains 49,945 matches dated 30 November 1872–6 October 2026, recording dates,
+teams, scores, tournaments, locations, and neutral-venue status. It is licensed under CC0 and
+identified by SHA-256; the upstream commit and original acquisition time are unknown. Scores
+include extra time where recorded and exclude penalty-shootout goals. The main outcome is
+Yi = 1 for a home win and 0 for a draw or away win. A nominal home-team label at a neutral
+venue does not establish home advantage.
+2
+
+
+========== [PDF PAGE 3] ==========
+Preparation preserves the originals and records each row’s disposition. Audits validate dates,
+integer scores, and venue flags, and flag duplicate candidates, conflicting scores, and reversed
+pairings. Critical unresolved records are quarantined; optional missing fields restrict eligibility
+for particular analyses.
+At the 31 December 2024 preparation cutoff, 48,102 matches were
+included, 1,803 were outside the window, and 40 were isolated. Identity and eligibility review
+then retained 24,917 of 26,055 study candidates, excluding 1,138. This includes 117 matches
+accepted following the project owner’s manual verification, without a new independent oﬀicial-
+source audit. Team identifiers denote football entities, which need not be sovereign countries;
+historical names and administrative changes are handled through explicit registry decisions.
+The comparative cohort covers non-neutral matches in 1980–2024; earlier eligible records
+initialize strength.
+Eras are 1980–1989, 1990–1999, 2000–2009, 2010–2019, and the shorter
+2020–2024 period. Normalized Friendly identifies friendlies; all other retained tournaments
+form the non-friendly group. Geographic labels begin with UN M49 [8], with study overrides in
+both team roles: Turkey is in Europe/Southern Europe, Iran in Western Asia, and Australia in
+Asia/South-eastern Asia. Africa uses North, West, and remaining sub-Saharan groups; Oceania
+is not subdivided. These are fixed research labels, not historical confederation memberships.
+Every match on a date is predicted before any result from that date updates strength,
+because reliable intraday order is unavailable. Outcome-model coeﬀicients are refitted annually
+using previous years only. Strength learning uses 38,919 eligible matches from 1950: 5,581 pre-
+1980 matches, 8,421 later neutral matches, and the 24,917-match comparative cohort. Initial
+development and selection used 1970–1974 and 1975–1979, respectively, but later diagnostics
+and revisions reused subsequent history. Evaluation is therefore retrospective. Figure 1 shows
+the overlapping learning and comparison samples.
+Registered results snapshot: 49,945 matches
+Deterministic preparation and explicit identity/eligibility rules
+	
+@
+@
+R
+Comparative cohort: 24,917
+Non-neutral, 1980–2024
+Historical rates and fixed references
+Strength learning: 38,919
+Eligible matches, 1950–2024
+Includes earlier and neutral matches
+?
+?
+Historical comparisons −→strength-informed probability analysis
+Time-forward evaluation −→history/region checks −→prospective release
+Distinct targets and samples; see Table 1
+Figure 1: Information flow and analytical branches. The 24,917-match comparative cohort and the
+38,919-match strength-learning set overlap; neutral and pre-1980 matches contribute to learning without
+entering the principal historical home-win comparisons. Only actual earlier results update later states.
+The sealed prospective release uses its own stated cutoff.
+2.2
+Historical Comparison Framework
+For a group g with ng observed matches, the direct rate is brg = n−1
+g
+P
+i∈g Yi. To compare
+different compositions, define strata c and a common reference distribution wc ≥0, P
+c wc = 1.
+We calculate
+br ref
+g
+=
+X
+c
+wcbrgc,
+b∆g,h = br ref
+g
+−br ref
+h .
+(1)
+Era comparisons fix the friendly/non-friendly composition; match-type comparisons fix the era
+composition. Regional comparisons use their specified era/type reference and retain the direction
+3
+
+
+========== [PDF PAGE 4] ==========
+from home group to opponent group. A missing, positively weighted cell makes a comparison un-
+supported. Ten-year windows advance one calendar year and overlap. The descriptive sensitivity
+analysis of friendly weights is separate from their information weight in strength learning.
+Observed proportions describe a fixed history. Uncertainty assessment concerns the average
+tendencies that could generate outcomes under the same schedule, groups, denominators, and
+reference. Each comparison is a weighted sum bθj = a⊤
+j Y . Shared teams and repeated pairings
+motivate dependence modelling [6]; our procedure uses a specified covariance model rather than
+a conventional dyadic sandwich estimator.
+Mean fitting removes part of the variation used to estimate dependence. To account for this,
+let X contain the fixed mean-model terms, H = X(X⊤X)+X⊤, and M = I −H. Under E[Y ] =
+Xβ, residuals satisfy E[(MY )(MY )⊤] = MΣM⊤.
+We therefore fit covariance components
+after the same residual projection. Six non-negative components represent independent noise,
+repeated pairs, same/opposite-role team processes, and two shared calendar-time processes.
+A scale sj(Y ) combines estimated quadratic variation with predefined protection against slow
+common changes. Separate complete-history simulations calibrate a maximum-error multiplier
+cF within each prespecified target family, giving
+Ij =
+bθj −cF sj(Y ), bθj + cF sj(Y )
+
+∩Lj,
+(2)
+Here Lj is the logical range and sj is not a conventional standard error. Final rank calibration
+uses error parameter 0.01 separately in four prespecified families of 27, 64, 36, and 71 quantities.
+Its guarantee concerns frozen reference generators over calibration and new synthetic histories,
+not all 198 quantities jointly or arbitrary football processes. Detailed assumptions and numerical
+validation gates are indexed in the supporting-results guide.
+2.3
+Dynamic Pre-Match Team Strength
+Strength is an unobserved relative state inferred from results. Dynamic paired comparisons
+distinguish changes in ability from uncertainty about it [3].
+We combine gradual Gaussian
+changes with persistent Poisson jumps. For team u, over elapsed time ∆in years (days divided
+by 365.2425),
+su(t+∆) = su(t)+Gu +
+Nu
+X
+ℓ=1
+Juℓ,
+Gu ∼N(0, q∆),
+Nu ∼Poisson(λ∆),
+Juℓ∼N(0, τ 2). (3)
+The innovations have zero prior mean. Inactivity therefore increases uncertainty without me-
+chanically lowering the strength centre. A jump is a persistent change in state, not an additional
+label assigned only to an upset.
+For a match between home team h and away team a, the performance variable is Zi =
+sh −sa + viHt + εi, with εi ∼N(0, 1), shared home term Ht, and venue sign vi ∈{−1, 0, 1}.
+Neutral venues have vi = 0. Outcomes correspond to Zi > δ (home win), |Zi| ≤δ (draw), and
+Zi < −δ (away win). We mix these informative probabilities with a uniform three-outcome
+component:
+P(Ri = r | state) = κiP(Zi ∈Ar | state) + (1 −κi)/3,
+κi = (1 −ϵ)
+(
+α,
+friendly,
+1,
+otherwise.
+(4)
+The mixture reduces how informative a friendly result is about strength. Its coeﬀicient does
+not directly multiply the win rate, match count, or rating update. The same likelihood handles
+every result: a single surprise can reflect noise, while repeated evidence can support a persistent
+change.
+The adopted parameters are q = 0.03, λ = 0.08 per year, τ = 1.2, δ = 0.4, α = 0.65, and
+ϵ = 0.05; the shared home term has variance rate 0.005 per year. Team priors have mean zero and
+4
+
+
+========== [PDF PAGE 5] ==========
+variance one; the home-term prior has mean zero and variance 0.25. Unit performance-noise
+variance defines the rating scale. Parameter and initialization choices were assessed through
+finite development checks.
+At each date, Bayesian updating combines outcome likelihoods with the joint prior, retain-
+ing means and covariances for both opponents. Poisson-count likelihoods use controlled tail
+truncation; a team’s matches on the same date share its latent changes. Damped expectation
+propagation and end-of-date Gaussian projection provide an approximate sequential calcula-
+tion [9]. Both teams learn from each result without a separate away-strength parameter.
+2.4
+Joint Probability Model
+The joint model receives the team-strength difference distribution, with the filter’s shared
+home term excluded so that context is handled in the outcome model. Write the pre-match
+difference as
+Di | Ki = k ∼N(µi, σ2
+D,i + kτ 2),
+Ki ∼Poisson(νi),
+(5)
+where σ2
+D,i is the base variance of the difference, including the opponents’ covariance, and νi
+is their expected total count of unobserved jumps. With Poisson weights πk(ν) = e−ννk/k!,
+integrating the probit predictor over uncertain strength gives
+pi =
+∞
+X
+k=0
+πk(νi)Φ
+
+
+ηi + bµi
+q
+1 + b2(σ2
+D,i + kτ 2)
+
+,
+ηi = x⊤
+i γ,
+b > 0.
+(6)
+Here Φ is the standard normal distribution function. Context xi includes era, friendly status,
+both teams’ geographic regions, and within-region groups centred by their frequencies. The
+estimated positive slope b maps strength to the probability scale; integrating over the distribution
+avoids treating estimated strength as known. Background-only uses context without strength
+(b = 0); strength-only retains an intercept and strength while excluding other contextual terms.
+For two allowed context scenarios a, b, their strength-adjusted contrast is
+b∆str
+a,b = bER
+h
+bp(X(a), D) −bp(X(b), D)
+i
+.
+(7)
+Here bER uses the registered reference weights and scenario mixtures while retaining the reference
+strength distributions. Computing the corresponding contrast before and after adding strength
+gives the paired change reported in the results. This expresses a model-based comparison, not
+a change in physical venue or team identity.
+Two fitting tasks are distinct. Conditional analysis fits the 24,917-match cohort and averages
+paired predictions under allowed context combinations on a fixed reference. Historical prediction
+refits using matches from 1980 through the preceding year and evaluates 1990–2024. Geographic
+coding uses that year’s training rows only; unseen within-region groups receive the region-centred
+zero effect. The annual objective is mean Bernoulli negative log likelihood plus ∥θ∥2/(2n), where
+θ includes contextual coeﬀicients and log slope; conditional analysis is unpenalized. L-BFGS-B
+uses initial slopes 0.3, 1, 2, coeﬀicient bounds [−8, 8], and slope bounds [10−4, 8], with gradient
+and multistart checks. Poisson tails use tolerance 10−12, checked separately at tighter tolerance.
+Fixed-reference comparisons retain flags for empty or sparse cells and out-of-range strength.
+Narrower overlap references are sensitivity analyses. Auxiliary win–draw–loss forecasts are a
+separate branch: temperature/offset fitting over the past ten years and an online residual cor-
+rection act on native probabilities, with residual diffusion 0.02 per year. They do not alter the
+joint model’s strength input or its binary target.
+5
+
+
+========== [PDF PAGE 6] ==========
+2.5
+Evaluation, Uncertainty, and Implementation
+For the same evaluation matches, we measure probability quality by mean log loss L and
+Brier score B:
+L = −1
+n
+X
+i
+{Yi log pi + (1 −Yi) log(1 −pi)},
+B = 1
+n
+X
+i
+(pi −Yi)2.
+(8)
+Lower scores indicate better probability forecasts [5]. We also report binary accuracy with home
+win chosen at pi ≥0.5, and bias 100(¯p−¯Y ) in percentage points (pp). Relative loss reduction is
+(Lreference −Ljoint)/Lreference, distinct from an accuracy-point gain. Loss comparisons use paired
+matches; no real-data dependence-adjusted interval for the mean difference is available.
+Three uncertainty statements serve different purposes: the rating distribution represents
+uncertain strength; simulation assesses conditional comparisons; match probabilities describe
+uncertain outcomes. The prospective central 90% ranges propagate latent strength uncertainty
+with coeﬀicients fixed, excluding coeﬀicient and model error.
+Conditional contrasts require additional validation because outcomes update the strength
+estimates used later. Route A generates a full history, updates strength, and refits the analy-
+sis; route B uses a first-order total-score approximation. Separate reference-truth, calibration,
+and validation streams assess maximum standardized error across the comparisons, allowing for
+Monte Carlo truth error. We adopt A and report only quantities meeting the simulation ac-
+ceptance criteria. Generators include date-conditionally independent outcomes and a same-day
+latent common-shock setting of 0.25, which is a generator parameter rather than the correlation
+of all match pairs. Follow-up simulations use a preallocated sequential error budget, following
+time-uniform control principles [10]. This validation concerns conditional contrasts under those
+generators, separately from predictive loss comparisons.
+History-window comparisons vary strength memory and outcome-learning history separately.
+Finite-memory states are reconstructed annually; an adaptive choice uses past performance only.
+Outcome parameters stay fixed within each evaluation year while strength updates from earlier
+actual results. Timings distinguish the measured outcome-fitting component from total costs.
+Regional diagnostics hold predictions fixed, standardize nine cells combining strength-gap and
+strength-uncertainty categories, and use cutpoints learned before 2010. Leave-one-year/team
+checks omit affected evaluation matches, in either team role, without rebuilding the learning
+history.
+The Python implementation uses NumPy for arrays and covariances, SciPy for distributions
+and optimization, and Matplotlib for figures [11–13]. Repository records identify adopted inputs,
+configurations, source hashes, environment, and stage entry points.
+Evidence registers link
+manuscript claims to those records; detailed settings, identity/group mappings, derivations, and
+failed candidates are retained for inspection and reproduction.
+3
+Experimental Results and Analysis
+We first describe historical patterns, then assess strength-informed predictions and their
+conditions of use. Table 1 distinguishes the samples for each task. Throughout, observed rates
+describe the retained history, model-conditional ranges use the assumptions in Section 2.2, and
+predictive scores concern home win versus draw or away win.
+3.1
+Historical Patterns and Their Limits
+For RQ1, we compared eras, match types, and geographic settings in the same 24,917 non-
+neutral matches. Direct rates summarize what occurred; common-reference comparisons addi-
+tionally hold selected aspects of match composition fixed.
+6
+
+
+========== [PDF PAGE 7] ==========
+Table 1: Samples used in the results. Rows represent analytical uses rather than successive exclusions
+from one denominator. The main window and regional comparisons share the same 9,727 matches.
+Analytical use
+Period
+Matches
+Historical patterns and conditional analysis
+1980–2024
+24,917
+Time-forward predictive comparison
+1990–2024
+21,413
+Complete history-window evaluation
+2000–2024
+16,599
+Main window and regional comparisons
+2010–2024
+9,727
+Issued prospective targets
+12–17 Nov 2026
+52
+Holding tournament composition fixed, the adjusted home-win difference was +0.5019 pp
+for the 2010s versus the 1980s and +1.8100 pp for 2020–2024 versus the 1980s. Corresponding
+ranges were approximately [−61.66, 62.66] and [−100, 100] pp (Table 2).
+The latter reaches
+the logical limits of a rate difference. Under the permitted long-term common variation, one
+observed history gives too little precision to resolve the direction of change. These broad ranges
+indicate uncertainty, not evidence that extreme changes occurred or that the true difference is
+zero.
+Friendlies had a lower observed home-win rate: 48.3955% in 9,598 matches, compared with
+51.6418% in 15,319 other matches. The direct difference was −3.2463 pp; standardizing era com-
+position reduced it to −2.8831 pp. Thus the distribution of years explains part of the aggregate
+gap. The conditional range, [−7.2039, 1.4377] pp, still crosses zero. The lower observed rate is
+a clear description of this history, while its direction under the specified generating mechanisms
+remains unresolved. The adjustment and overlapping rolling windows do not identify a causal
+match-type effect.
+Figure 2 summarizes all five eras and the 36 overlapping ten-year windows. The recent pos-
+itive friendly-minus-other gap is descriptive: the windows reuse matches, and their conditional
+ranges do not establish a stable reversal.
+Table 2: Selected contrasts in the 24,917-match historical sample, in percentage points. Ranges are
+model-conditional envelopes, not unconditional confidence intervals. Each adjustment uses its specified
+reference; the rows are not estimates of one interchangeable effect.
+Contrast and adjustment
+Estimate
+Conditional range
+2010s minus 1980s, tournament composition
++0.5019
+[−61.66, 62.66]
+2020–2024 minus 1980s, tournament composition
++1.8100
+[−100, 100]
+Friendly minus other, direct
+−3.2463
+—
+Friendly minus other, era composition
+−2.8831
+[−7.2039, 1.4377]
+Geographic comparisons depended on the opponents. Asian home teams won 13.6160 pp less
+often against opponents from outside Asia than against opponents from the same study subre-
+gion. These groups contained 1,743 and 1,934 matches; the adjusted difference was −14.6057 pp.
+This comparison uses the study classifications in Section 2.1 and describes a direction of play,
+not a ranking of regional ability.
+Of 29 predefined regional contrasts, 24 supported adjustment and five lacked required cells.
+Six of the 24 conditional ranges lay on one side of zero and 18 crossed it; missing comparisons
+were retained as unsupported. These differences describe the observed schedules and references.
+Their interpretation requires the explicit treatment of strength developed next.
+The full regional output also contains 155 directional matchups: 153 have observations and
+71 support the complete adjustment. Across the historical analyses, 198 of 292 registered targets
+received model-conditional ranges, while 94 lacked required cells. The 324 sensitivity scenarios
+produced 26,704 comparison rows; altered targets remain descriptive unless separately recali-
+brated. Complete records are listed in the supporting-results guide.
+7
+
+
+========== [PDF PAGE 8] ==========
+1980s
+1990s
+2000s
+2010s
+2020-24
+49.5
+50.0
+50.5
+51.0
+51.5
+Home-win rate (%)
+A  Era rates (zoomed scale)
+Direct
+Adjusted
+1989
+2000
+2010
+2024
+Ten-year window ending in
+−8
+−6
+−4
+−2
+0
+2
+Home-win difference (pp)
+B  Friendly minus other matches
+−20
+−15
+−10
+−5
+0
+5
+10
+15
+20
+Home-win difference (percentage points)
+Asia:
+external - same subregion
+Europe:
+external - same subregion
+Africa:
+North Africa - West Africa
+Americas:
+South America - rest
+C  Selected regional contrasts (different references)
+Direct
+Adjusted
+Figure 2: Historical patterns in the common 24,917-match cohort. (A) Direct and common-tournament-
+composition era rates; the vertical axis is zoomed and the last era spans five years. (B) Direct friendly-
+minus-other gaps in 36 overlapping ten-year windows, indexed by ending year.
+(C) Four predefined
+regional contrasts: external opponents are outside the home continent; rest denotes other American
+subregions. Raw and adjusted differences use their own references and are not a regional ranking. All
+panels are descriptive; interval evidence is separate. Complete windows, 29 contrasts, and 155 directional
+matchups are indexed in the supporting-results guide.
+3.2
+Strength versus Context
+For RQ2, background-only, strength-only, and joint predictors were evaluated on the same
+21,413 matches from 1990–2024, each using earlier information. This is a retrospective chrono-
+logical comparison: the archive also informed development and selection, as described in Sec-
+tion 2.1.
+Strength supplied most of the improvement (Table 3; Figure 3). Mean log loss declined from
+0.671936 for background alone to 0.566020 for strength alone and 0.563630 for the joint predictor.
+The joint model’s relative reductions were 16.12% against background alone and 0.42% against
+strength alone.
+Binary accuracy followed the same ordering: 58.19%, 69.83%, and 70.01%.
+These are home-win/non-home-win accuracies; relative loss reductions are a separate measure.
+Adding context also reduced the Brier score from 0.193698 to 0.192657 and mean bias from
++0.9308 to +0.2398 pp. Yet background-only had the smallest absolute mean bias while produc-
+ing the worst probability scores. Matching the overall frequency can therefore conceal weak in-
+dividual predictions; bias alone does not establish calibration across probability levels or groups.
+The separate conditional analysis uses 24,917 matches and a fixed reference. Its strength-
+adjusted friendly-minus-other contrast was −3.4957 pp, with a range from −7.6712 to 0.6797 pp.
+The paired change after adding strength was +0.3624 pp, ranging from −2.8619 to 3.5868 pp.
+8
+
+
+========== [PDF PAGE 9] ==========
+Table 3: Same-match retrospective comparison, 1990–2024 (n = 21, 413). Bias is mean predicted home-
+win probability minus the observed rate, in percentage points. Lower loss and Brier score are preferable.
+Predictor
+Log loss
+Brier score
+Accuracy (%)
+Bias (pp)
+Background only
+0.671936
+0.239580
+58.19
+−0.0973
+Strength only
+0.566020
+0.193698
+69.83
++0.9308
+Strength and context
+0.563630
+0.192657
+70.01
++0.2398
+Background only
+Strength only
+Strength + context
+0.500
+0.525
+0.550
+0.575
+0.600
+0.625
+0.650
+0.675
+0.700
+Mean log loss (lower is better)
+0.6719
+0.5660
+0.5636
+Probability quality
+Background only
+Strength only
+Strength + context
+50
+55
+60
+65
+70
+75
+Binary accuracy (%)
+58.19%
+69.83%
+70.01%
+Home-win / non-home accuracy
+Same-match time-forward comparison, 1990–2024 (n = 21,413)
+Figure 3: Strength accounts for most of the improvement in the same-match historical comparison
+(n = 21, 413, 1990–2024).
+Context supplies a smaller increment.
+Both vertical axes are truncated;
+magnitudes should be read from the labelled values rather than bar-height ratios. Accuracy is binary; no
+real-world significance interval for the loss difference is shown.
+The estimated change is modest and its direction unresolved. Because the reference and target
+differ, these values cannot be subtracted from the descriptive contrast in Table 2.
+Of 54 principal quantities assessed by simulation, 30 met the acceptance criteria. For 24
+regional pre/post-strength changes, simulated reference truths were insuﬀiciently precise, so
+those changes remain descriptive. This does not establish that their effects are absent. The
+adopted complete-history route validates conditional comparisons under the specified generators
+(Section 2.5). Separately, the 0.42% predictive loss gain lacks a real-data dependence-adjusted
+interval and is not established as a persistent future advantage.
+3.3
+Historical Information and Computational Trade-offs
+For RQ3, we varied the history used to reconstruct strength separately from the history
+used to estimate outcome probabilities. Evaluation covered 16,599 matches in 2000–2024, with
+9,727 in the main 2010–2024 comparison. Among six tested combinations, cumulative history
+at both stages gave the lowest main-comparison log loss, 0.559135 (Figure 4). Annual selection
+using past performance gave 0.560159. We therefore retain the cumulative default within these
+choices. This does not imply equal influence for every old match: the dynamic strength process
+allows ability to change.
+A 12-year outcome-learning window, with cumulative strength estimation fixed, increased
+loss from 0.559135 to 0.561131, or 0.3571% using unrounded values. In the controlled timing
+batch, this component took 105.29 rather than 312.58 seconds, a 66.31% saving. This quantifies
+a cost–prediction trade-off for that component.
+Other bars in Figure 4 came from different
+producer batches and are not standardized whole-pipeline benchmarks.
+9
+
+
+========== [PDF PAGE 10] ==========
+20y / 12y
+20y / all
+12y / 12y
+12y / all
+all / 12y
+all / all
+0.5585
+0.5590
+0.5595
+0.5600
+0.5605
+0.5610
+0.5615
+0.5620
+0.5625
+Mean log loss
+Rating memory / outcome-training window. Cost is the outcome-training component only; lower log loss is better.
+Evaluation performance (9,727 matches)
+Cumulative / cumulative
+20y / 12y
+20y / all
+12y / 12y
+12y / all
+all / 12y
+all / all
+0
+50
+100
+150
+200
+250
+300
+Outcome-training time (s)
+69
+246
+69
+247
+105
+313
+Cost of the outcome-training component
+History-window combinations: performance and cost
+Figure 4: Six tested combinations of rating memory and outcome-learning history. Left: loss on the
+common 2010–2024 sample (n = 9, 727); segments only guide the eye between discrete choices. Right:
+recorded outcome-learning component times, not total pipeline times. The controlled saving in the text
+compares only all/12y with all/all; other producer batches are not standardized.
+3.4
+Regional Applicability and Probability Bias
+The same 9,727-match main sample was used to ask whether the joint predictor was equally
+applicable across regions. Overall, its log loss was 0.559135, compared with 0.562000 for strength
+alone. This later-period comparison is separate from the 21,413-match evaluation above. Re-
+gional scores and bias varied (Table 4; Figure 5), but opponent balance and strength uncertainty
+also change which matches each region contains. The scores describe performance on those ob-
+served matches, not the inherent diﬀiculty or quality of a region.
+Table 4: Regional diagnostics, 2010–2024.
+Losses compare identical matches within each row; bias
+concerns the joint predictor, in percentage points. Interpretations summarize finite checks, not confidence
+statements or a ranking between regions. Americas includes South America; Overall is not an independent
+additional sample.
+Home region
+n
+Strength loss
+Joint loss
+Bias (pp)
+Interpretation
+Europe
+3,322
+0.543239
+0.539498
++0.2189
+Increment retained
+Asia
+2,540
+0.546894
+0.545041
+−0.8765
+Increment retained
+Africa
+2,058
+0.613617
+0.612607
++0.6854
+Increment sensitive
+Americas
+1,659
+0.559276
+0.554578
++0.1858
+Increment retained
+Oceania
+148
+0.555130
+0.549289
++2.9572
+Sparse support
+Overall
+9,727
+0.562000
+0.559135
++0.0676
+Pooled comparison
+The small context increments for Europe, Asia, and the Americas retained their direction
+under the checked year and team deletions and alternative references. This provides limited
+historical support for a complementary role of context in these groups. The African increment
+was more sensitive: its sign reversed after removing 2011 or evaluation matches involving Egypt.
+This does not imply that strength-based prediction has no value in Africa; it concerns the smaller
+increment from adding context to strength.
+10
+
+
+========== [PDF PAGE 11] ==========
+Africa illustrates how overall mean bias can conceal diagnostic structure. In the low strength-
+uncertainty category, the 20–40% predicted-probability bin contained 225 matches, with mean
+predicted probability 31.21% and observed home-win rate 34.22%.
+In the 60–80% bin, 287
+matches had mean predicted probability 69.17% and observed rate 65.85%.
+The lower bin
+was underpredicted and the higher bin overpredicted; these directions persisted in the specified
+checks. Standardizing the broad strength-gap and uncertainty composition narrowed the Africa–
+Europe loss gap but did not remove it.
+This identifies a residual diagnostic issue without
+establishing its cause or demonstrating that all uncertainty has been captured.
+Additional comparisons require restraint. South America’s ordering relative to the rest of
+the Americas changed under some deletions and alternative references. In Oceania, 148 matches
+were spread over nine adjustment cells, one containing only two matches; deleting matches
+involving certain teams left a required cell empty. The adjusted comparison was consequently
+sensitive to a few observations and could become unsupported. These checks held predictions
+fixed: they did not erase deleted matches from the original learning history or refit each model.
+They assess sensitivity of the evaluation summary, not a wholly retrained system or a real-world
+confidence interval.
+Overall
+Europe
+Asia
+Africa
+Americas
+0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+Mean log loss
+Probability quality
+Strength only
+Strength + context
+Overall
+Europe
+Asia
+Africa
+Americas
+−1
+0
+1
+2
+3
+4
+Mean predicted − observed (pp)
+Calibration bias
+Strength only
+Strength + context
+Regional applicability, 2010–2024 (9,727 matches)
+n = 9,727 (Overall), 3,322 (Europe), 2,540 (Asia), 2,058 (Africa), 1,659 (Americas). Descriptive; not a ranking or causal effect.
+Figure 5: Regional probability quality and mean bias on the main 2010–2024 sample. The displayed
+regional groups contain 9,579 of 9,727 matches; Overall additionally includes Oceania’s 148 matches.
+Positive bias means average overprediction. Point scores alone do not establish stable increments: finite
+checks supply the separate sensitivity evidence discussed in the text.
+3.5
+Prospective Application
+We applied the model to 52 Nations League fixtures scheduled for 12–17 November 2026
+and sealed the release on 2 November at 04:07:15 UTC. Strength used accepted results through
+6 October 2026; coeﬀicient training ended on 29 December 2025. Both rounds use this same
+information set.
+The joint model issued 49 binary predictions and withheld three involving
+third-country venues outside its application rule. The rating model separately supplied auxiliary
+win–draw–loss probabilities for all 52 targets; these do not replace withheld joint predictions.
+11
+
+
+========== [PDF PAGE 12] ==========
+Of the 49 joint predictions, 21 favoured a home win and 28 a non-home win; 32 strength-
+induced ranges crossed the 50% decision threshold. England–Croatia had home-win probabil-
+ity 63.50% (range 43.54–81.28%); Netherlands–Greece had 50.38% (31.02–69.68%); and Czech
+Republic–Spain had 3.83% (0.76–9.38%). For Ukraine–Georgia, the joint estimate was withheld
+and auxiliary home/draw/away probabilities were 52.26%, 25.39%, and 22.35%. Figure 6 dis-
+plays central 90% ranges from latent strength uncertainty with coeﬀicients fixed; they exclude
+parameter and model error.
+0
+20
+40
+60
+80
+100
+Home-win probability (%)
+Czech Republic–Spain
+12 Nov
+Netherlands–Greece
+13 Nov
+England–Croatia
+12 Nov
+3.8%
+50.4%
+63.5%
+Main binary model
+Home win
+Draw
+Away win
+0
+20
+40
+60
+80
+100
+Probability (%)
+52.3%
+25.4%
+22.4%
+Withheld from the main model:
+third-country venue
+Ukraine–Georgia
+(auxiliary three-class)
+Prospective examples sealed on 2 Nov 2026 (outcomes unknown)
+Error bars are strength-condition central 90% ranges, not confidence intervals. The auxiliary three-class model is shown separately and is not the main binary model.
+Figure 6: Examples from the sealed 2 November 2026 release for 12–17 November fixtures. Left: joint
+binary probabilities with fixed-coeﬀicient latent-strength central 90% ranges. Right: auxiliary native
+win–draw–loss probabilities for Ukraine–Georgia, for which the main model withheld its estimate under
+the venue rule. Actual outcomes are absent; Table 3’s historical accuracy is not an accuracy estimate for
+these fixtures.
+With outcomes still absent from the sealed ledger, this release demonstrates prospective
+application. Its predictive performance remains to be evaluated.
+4
+Discussion and Conclusion
+4.1
+Answers to the Research Questions and Contributions
+For RQ1, historical rates identify patterns that require explanation. Era adjustment reduces
+the friendly–other-match gap, and geographic comparisons depend on the opponents represented.
+Several conditional ranges remain too broad to resolve a direction.
+These results establish
+comparable observations for the strength-based analysis, while leaving pure home effects and
+universal regional rankings unidentified.
+For RQ2, pre-match strength supplies most of the predictive information, with a smaller
+contribution from context. A high historical group rate can therefore add little once both teams’
+strengths are considered. Our approach shares the motivation of dynamic paired comparisons [3],
+with project-specific choices for jumps, information weights, and the outcome model. Its value
+is demonstrated against our internal predictors; comparisons with FIFA rankings, Elo, or other
+external systems remain unperformed.
+For RQ3, cumulative history remains the default among the tested choices.
+A shorter
+outcome-fitting window offers a practical saving with a small predictive cost. Regional diag-
+nostics qualify the aggregate gain: Africa’s contextual increment is sensitive to particular years
+or teams, and opposite biases remain in selected uncertainty groups. These findings identify
+where further testing and calibration would be useful.
+12
+
+
+========== [PDF PAGE 13] ==========
+Together, the stages connect historical observations to a forecast with documented infor-
+mation dates and an explicit withholding rule.
+Probability scores [5] reveal differences that
+average bias or accuracy alone can miss. The sealed release makes that connection concrete and
+preserves predictions for later evaluation.
+4.2
+Limitations and Lessons Learned
+The evidence applies to the registered population. Some historical identities and membership
+decisions rely on owner-accepted records, and the global archive has not been independently ver-
+ified in full. Geographic overrides are research definitions, while sparse opponent combinations
+limit comparability. Scores can include extra time, so the target cannot uniformly be described
+as regulation-time results.
+Estimated strength, approximate filtering, jump assumptions, and restricted context terms
+may leave important variation unexplained. Conditional comparisons do not account for all
+differences in travel, team selection, venues, or match importance. The main model also com-
+bines draws and away wins, unlike the auxiliary three-class model; their accuracies are not
+interchangeable.
+Chronological prediction excludes each match’s own outcome from its inputs, but historical
+development and selection reuse the archive. It is not an untouched final test set. Simulated
+validation establishes results under specified generators, and no real-data dependence-adjusted
+interval establishes persistence of the small contextual gain. Deletion checks diagnose evaluation
+composition without rebuilding the learning history.
+Consequently, prospective testing and
+regional diagnostics remain necessary to assess wider use.
+The historical uncertainty model also retains a documented failure boundary under perma-
+nent global shocks. This reinforces the restriction of its envelopes to the admitted generating
+mechanisms; broad interval results cannot be treated as guarantees for arbitrary football histo-
+ries.
+4.3
+Future Work
+Four proposed extensions address these gaps. First, the joint layer could estimate home-
+win, draw, and away-win probabilities together. A draw interval, as used in TrueSkill [14], is
+one starting point. Another model could instead divide the non-home-win probability between
+draws and away wins. Both require three-class evaluation against the existing auxiliary model.
+Second, calibration could address systematic probability bias using mappings learned from
+earlier predictions and subsequently observed outcomes. Temperature scaling provides a method-
+ological example [15], although its published evidence concerns neural classifiers. Benefits here
+require chronological and regional evaluation; improved calibration need not increase classifica-
+tion accuracy.
+Third, goal-based models could provide richer outcomes, following the direction illustrated
+by Dixon and Coles [4]. Score definitions must be checked, and results and their underlying goals
+must not be counted as independent evidence. Reliable venue or pre-match squad information
+is another candidate, provided availability at the prediction date is recorded. These inputs have
+not been tested as explanations of the present biases.
+Fourth, club transfer would require new ratings and parameters to handle seasons, transfers,
+promotion and relegation, and links between leagues. A single-league study with explicit season
+transitions would be a feasible first test of the reusable evaluation framework.
+These four
+extensions remain proposals rather than demonstrated improvements.
+4.4
+Conclusion
+Historical home-win patterns become useful for prediction when considered alongside pre-
+match strength. Strength carries most of the observed gain; context adds a modest increment
+13
+
+
+========== [PDF PAGE 14] ==========
+whose use depends on historical and regional conditions. The sealed release preserves this quali-
+fied application for future evaluation. The study’s central contribution is a forecast accompanied
+by a traceable account of its information, performance, and limits.
+Data and code availability.
+Source match data are distributed under CC0 in the martj42
+repository [7]. Analysis code, configurations, and manuscript build instructions are maintained
+in the accompanying project repository. Registered input/output fingerprints and experiment
+ledgers identify the adopted computational versions behind the reported results.
+The English guide paper/SUPPORTING_RESULTS.md maps every research stage to its complete
+adopted tables, method records, and reproduction entry points. Main-text figures show selected
+results; the guide retains access to the full windows, geographic matchups, sensitivity outputs,
+and 52-fixture forecast ledger.
+References
+[1] Richard Pollard and Vasilis Armatas.
+Factors affecting home advantage in football World Cup
+qualification. International Journal of Performance Analysis in Sport, 17(1–2):121–135, 2017. doi:
+10.1080/24748668.2017.1304031.
+[2] Lars Magnus Hvattum and Halvard Arntzen.
+Using ELO ratings for match result prediction in
+association football. International Journal of Forecasting, 26(3):460–470, 2010. doi: 10.1016/j.ijfore
+cast.2009.10.002.
+[3] Mark E. Glickman. Parameter estimation in large dynamic paired comparison experiments. Journal
+of the Royal Statistical Society: Series C (Applied Statistics), 48(3):377–394, 1999. URL https:
+//www.glicko.net/research/glicko.pdf.
+[4] Mark J. Dixon and Stuart G. Coles. Modelling association football scores and ineﬀiciencies in the
+football betting market. Journal of the Royal Statistical Society: Series C (Applied Statistics), 46
+(2):265–280, 1997. doi: 10.1111/1467-9876.00065.
+[5] Tilmann Gneiting and Adrian E. Raftery. Strictly proper scoring rules, prediction, and estimation.
+Journal of the American Statistical Association, 102(477):359–378, 2007. doi: 10.1198/0162145060
+00001437.
+[6] Peter M. Aronow, Cyrus Samii, and Valentina A. Assenova. Cluster-robust variance estimation for
+dyadic data. Political Analysis, 23(4):564–577, 2015. doi: 10.1093/pan/mpv018.
+[7] martj42. International football results. URL https://github.com/martj42/international_res
+ults. Accessed 6 November 2026. Registered local snapshot: 49,945 results through 6 October 2026;
+CC0. Original acquisition time and upstream commit unknown.
+[8] United Nations Statistics Division. Standard country or area codes for statistical use (M49). URL
+https://unstats.un.org/unsd/methodology/m49/. Accessed 6 November 2026.
+[9] Thomas P. Minka. Expectation propagation for approximate Bayesian inference. In Proceedings
+of the Seventeenth Conference on Uncertainty in Artificial Intelligence, pages 362–369, 2001. URL
+https://tminka.github.io/papers/ep/. Author page provides a corrected version dated 30
+January 2004.
+[10] Steven R. Howard, Aaditya Ramdas, Jon McAuliffe, and Jasjeet Sekhon. Time-uniform, nonpara-
+metric, nonasymptotic confidence sequences. The Annals of Statistics, 49(2):1055–1080, 2021. doi:
+10.1214/20-AOS1991.
+[11] Charles R. Harris, K. Jarrod Millman, Stéfan J. van der Walt, et al. Array programming with
+NumPy. Nature, 585(7825):357–362, 2020. doi: 10.1038/s41586-020-2649-2.
+[12] Pauli Virtanen, Ralf Gommers, Travis E. Oliphant, et al. SciPy 1.0: Fundamental algorithms for
+scientific computing in Python. Nature Methods, 17(3):261–272, 2020. doi: 10.1038/s41592-019-068
+6-2.
+[13] John D. Hunter. Matplotlib: A 2D graphics environment. Computing in Science & Engineering, 9
+(3):90–95, 2007. doi: 10.1109/MCSE.2007.55.
+[14] Ralf Herbrich, Tom Minka, and Thore Graepel.
+TrueSkill: A Bayesian skill rating system.
+In
+Advances in Neural Information Processing Systems, volume 19, 2006. URL https://proceeding
+s.neurips.cc/paper/2006/hash/f44ee263952e65b3610b8ba51229d1f9-Abstract.html.
+[15] Chuan Guo, Geoff Pleiss, Yu Sun, and Kilian Q. Weinberger.
+On calibration of modern neural
+networks. In Proceedings of the 34th International Conference on Machine Learning, volume 70 of
+Proceedings of Machine Learning Research, pages 1321–1330, 2017. URL https://proceedings.
+mlr.press/v70/guo17a.html.
+14
+
