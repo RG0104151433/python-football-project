@@ -76,7 +76,7 @@
       "paper_directory": "paper",
       "paper_entry": "paper/main.tex",
       "paper_readme": "paper/README.md",
-      "paper_status": "research_coverage_and_layout_review_completed_submission_pending",
+      "paper_status": "independent_review_response_edits_completed_reacceptance_pending",
       "paper_asset_review": {
         "decision_log_id": "R20261103-04",
         "scope": "course_paper_only_not_presentation_or_new_research",
@@ -100,7 +100,7 @@
       },
       "paper_compilation_passed": true,
       "paper_compilation_scope": "coverage_and_layout_reviewed_working_paper",
-      "paper_compilation_note": "R20261107-03: 14 pages, 6 figures, 4 tables, 8 displayed equations, 15 references; final-log warnings absent, exported pages visually inspected and all fonts embedded. Scientific models/data unchanged.",
+      "paper_compilation_note": "R20261107-08: response edits compiled, 15 pages; changed pages checked, 15 citations; no model rerun or reviewer reacceptance.",
       "figures_selected": 6,
       "figures_selection_scope": "Current full-paper working selection: native flow diagram, historical overview and four existing result graphics",
       "bibliography_entries_verified": 15,
@@ -121,11 +121,10 @@
       },
       "adopted_research_results_changed": false,
       "current_working_preview": {
-        "decision_log_id": "R20261107-03",
-        "manifest": "paper/coverage_layout_review.json",
+        "decision_log_id": "R20261107-08",
+        "manifest": "paper/review_response_20261107.json",
         "pdf": "paper/build/main.pdf",
-        "pages": 14,
-        "all_pages_visually_inspected": true,
+        "pages": 15,
         "final_paper": false
       }
     },
@@ -275,6 +274,12 @@
         "equations": 8,
         "main_text_is_selected_evidence": true,
         "final_submission_acceptance": false
+      },
+      "review_response": {
+        "decision_log_id": "R20261107-08",
+        "response": "paper/review_response_20261107.md",
+        "manifest": "paper/review_response_20261107.json",
+        "reviewer_reacceptance": false
       }
     }
   },
