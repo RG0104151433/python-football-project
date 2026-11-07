@@ -1,8 +1,29 @@
 # 课程论文：LaTeX写作入口
 
+**当前状态（R20261107-02）：已完成一轮英文全文精修。** 四个正文章节TeXcount合计4,665词（引言558、方法1,664、结果1,721、讨论722），相较第一稿5,860词减少20.39%；摘要按空格统计177词，计数规则不同。现有14页、5图4表、15条引用；编译、关键数字/公式/引用检查与全篇页面查看通过。署名与真实贡献按组长要求后置；本轮不是成员独立复核或正式提交验收。
+
+**本轮改了什么：** 删去重复限制和结果复述，明确context与背景模型的关系，集中区分三类不确定性；保留参数、同日信息规则、样本/地理例外、获准/未准入比较、区域诊断和全部表图。实力差方差符号改为sigma以区别场地符号，补写Poisson权重定义，7个显示公式数学含义不变。三处历史窗口损失显示至六位小数，比例仍按原始精度计算。
+
+当前稿件/PDF指纹：[全文修订清单](editorial_revision_manifest.json)。[内容第一稿清单](content_draft_manifest.json)与R05—R07章节清单均保留历史状态；当前引用核实范围仍见[citation_report.md](citation_report.md)，没有把本轮编辑称为所有原文已全文复核。研究源数据、参数、代码、图源和结果不变，未重跑实验。
+
+**下一步：** 核对课程正式提交要求、附件与成品包；按组长后续安排补真实署名/贡献，并完成成员复核和提交前最终验收。本轮不额外展开新研究或重训。
+
+**编译设置已更新：** 使用XeLaTeX + natbib/BibTeX数字引用（unsrtnat）。本机Biber因Windows DLL重定位错误无法启动；兼容后端也有反复重跑提示，最终改用标准BibTeX流程，不安装或覆盖系统工具。下面保留的早期biber/骨架状态只作历史记录。
+
+<details>
+<summary>前期结构、工具与Results准备记录（历史状态）</summary>
+
+**Results英文初稿已完成（R20261106-05）：** [结果正文](sections/results.tex)包含五小节、4表4图，TeXcount合计2257词；[采用与核查清单](results_draft_manifest.json)记录源证据、图表和检查，[证据登记](results_evidence.json)补至17源/57条。已编译并查看8页工作稿，预览在`build/main.pdf`。引言/方法/讨论/摘要仍是骨架，文献尚未录入，不能当作整篇论文完成。下一步应写Method以补齐结果依赖的定义和数学条件。
+
+**Results起草第一步已完成（R20261106-04）：** [当前框架](论文写作框架.md)第7节给出五小节、14个段落的结论/证据/边界与过渡；[结果证据登记](results_evidence.json)绑定14个实际源文件、41条记录或汇总及来源SHA。后续可据此展开英文Results；尚未写正式段落、制作最终表图或核实外部引用。
+
+**结构已定稿（R20261106-03）：** [论文写作框架](论文写作框架.md)为唯一当前目录依据。维持五部分，Results分为历史、实力、历史周期、地区适用、赛前应用五节；TeX四个分章已同步标题和注释，正文仍待写。旧规划中的“尚未应用目录”是此前状态，后续按本条执行。
+
+**当前起草入口（2026-11-06）：[论文写作框架](论文写作框架.md)。** 已承接v2五部分结构，按段落给出主张、证据、九问对应和图题链；先写结果，再补方法与讨论，最后对齐引言和摘要。v1取数单与v2开工准备继续作为支撑，本框架不代表正文或最终选图已完成。
+
 **2026-11-06写作技能：** 已根据用户提供的 Michael Levin 写作 PDF 整理[论文写作技能](../文档/05_团队协作/论文写作技能/levin-paper-writing/SKILL.md)，并安装为个人技能 `$levin-paper-writing`。采用先逐层提纲、图题串联证据、再起草与修订的流程；[来源与适配说明](../文档/05_团队协作/论文写作技能/levin-paper-writing/references/source-notes.md)记录物理页码及适配边界。它指导工作方法，不替代下述 v2 结构、全英文要求和实际证据口径。
 
-本目录是2026-11-03建立的**论文骨架**，不是完成稿。各章目前只有写作任务与待写提示；作者、题目、摘要、正文、最终选图和参考文献仍需整理。研究已经按课程范围收尾，不等于论文已写完。**2026-11-05已准备5张英文候选图（fig2—fig6）和快速检查入口，见下文；fig1仍需绘制。**
+本目录从2026-11-03的论文骨架推进为**Results已写、其他章节待写的工作稿**，不是完成稿。作者、最终题目、摘要、其余正文、全文最终选图和参考文献仍需整理。研究已经按课程范围收尾，不等于论文已写完。**2026-11-05已准备5张英文候选图（fig2—fig6）和快速检查入口，见下文；fig1仍需绘制。**
 
 **开始写正文前先读[论文要求核对与结构规划](论文要求核对与结构规划.md)。** R20261103-06曾推荐在原模板必需部分之外单列Data and Study Design；**2026-11-05 v2 已改为五部分+研究主线，执行以下文 v2 为准**，数据/设计放在 Method 2.1，不单列数据章。推荐结构尚未应用到TeX分章，没有撰写正文；R04原始资产核对记录保留，见[论文资产核对](../文档/04_整理记录/论文资产核对_20261103.json)。
 
@@ -14,12 +35,18 @@
 
 **课程论文与展示必须全英文（组长在R20261103-06明确）。** 正文、标题、图表文字和最终展示讲稿均按英文准备。内部中文记录保留；已有中文阶段素材需要另作英文呈现，不能直接当最终英文成品。
 
+
+</details>
+
 ## 文件分工
 
 - `main.tex`：总入口、标题、摘要、样式和章节组合。
 - `sections/introduction.tex`：问题背景、研究价值与整条研究主线。
-- `sections/method.tex`：数据、实力评价、共同分析、评价指标及数学条件。
-- `sections/results.tex`：按证据主线组织实际发现，引用同版表图。
+- `sections/method.tex`：已写的英文Method，覆盖数据、比较、实力、共同模型和评价/实现。
+- `method_evidence.json`、`method_draft_manifest.json`：26条方法来源绑定、稿件/引用/流程图指纹与实际验证。
+- `citation_report.md`：10条已用引用的核实范围及借鉴边界。
+- `sections/results.tex`：已写的英文Results初稿，按五节组织实际发现，包含4表4图。
+- `results_evidence.json`与`results_draft_manifest.json`：具体记录/源SHA、初稿采用图表及验证范围。
 - `sections/discussion.tex`：结论、限制、四项优化/迁移展望。
 - `references.bib`：待核对后录入的参考文献库；当前只有注释，没有虚构条目。
 - `citation_candidates.md`、`citation_map.csv`与`check_citations.py`：20—25条引用候选、章节/claim/文献映射模板、BibTeX/正文引用一致性检查。
@@ -31,16 +58,19 @@
 
 ## 本地编辑与生成PDF
 
-建议Windows安装TeX Live，编辑器选择TeXstudio，或VS Code配LaTeX Workshop。PDF可用编辑器内置预览。当前全英文骨架使用article、英文babel与fontspec，继续采用XeLaTeX；参考文献采用biblatex/biber数字引用，仅为当前骨架设置，教师专用模板与引用规则优先。主文件和四个分章的可见提示已改为英文，引用条目与正式正文仍未填写。
+建议Windows安装TeX Live，编辑器选择TeXstudio，或VS Code配LaTeX Workshop。PDF可用编辑器内置预览。当前全英文骨架使用article、英文babel与fontspec，继续采用XeLaTeX；参考文献采用natbib/BibTeX数字引用，按首次引用顺序列出，仅为当前工程设置，教师专用模板与引用规则优先。主文件和四个分章的可见提示已改为英文，Method/Results已有初稿与10条正式引用，其余章节仍待填写。
 
 在仓库根目录打开终端，进入本目录后生成PDF：
 
 ```powershell
 Set-Location paper
+$paperProjectDir = (Get-Location).Path
+$paperBuildDir = Join-Path $paperProjectDir "build"
+$env:BIBINPUTS = "$paperProjectDir;$paperBuildDir;"
 latexmk -xelatex -outdir=build main.tex
 ```
 
-生成后查看`build/main.pdf`。这是TeX环境命令，与Python虚拟环境分开；初次使用先确认XeLaTeX、latexmk、biber可用。TeXstudio可打开`main.tex`并按同样的编译引擎和输出目录配置。VS Code也以`main.tex`为主文件，不逐个编译分章。
+生成后查看`build/main.pdf`。这是TeX环境命令，与Python虚拟环境分开；初次使用先确认XeLaTeX、latexmk、bibtex可用。BIBINPUTS仅设置本终端的文献查找目录，尾部分号保留默认查找路径。TeXstudio可打开`main.tex`并按同样的编译引擎和输出目录配置。VS Code也以`main.tex`为主文件，不逐个编译分章。
 
 如果使用Overleaf，应上传整个paper目录，并补齐正式采用的图片，选择XeLaTeX；不要依赖未上传的仓库外文件。作者信息只填实际组员，不把AI写成人类组员。
 

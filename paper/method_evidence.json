@@ -1,0 +1,207 @@
+{
+  "decision_log_id": "R20261106-06",
+  "status": "method_first_draft_source_register",
+  "executor": "Codex (AI)",
+  "human_review": false,
+  "scope": "Adopted implementation and protocol, not re-running analyses or claiming mathematical conditions empirically true.",
+  "claims": [
+    {
+      "id": "M21_DATA",
+      "section": "2.1",
+      "claim": "Registered snapshot, local counts, unknown acquisition/commit and CC0",
+      "path": "data/raw/manifest.json",
+      "sha256": "cdf515adfc61471f73acfce534e94b27639702e76a05c16c5dff88215732288f"
+    },
+    {
+      "id": "M21_SCORES",
+      "section": "2.1",
+      "claim": "Scores include extra time but not shootout goals; team labels are not identical to venue-country names",
+      "path": "data/raw/international_results/README.md",
+      "sha256": "0d50b5f6fe2b658eba52a4477e4e48af6ca61e89e2c5265b153e3c12d7305b76"
+    },
+    {
+      "id": "M21_IDENTITY",
+      "section": "2.1",
+      "claim": "Retained study population and owner-accepted scope",
+      "path": "data/processed/team_identity/identity-reviewed-29d880765c1623764940/identity_manifest.json",
+      "sha256": "f61cddaccc4e68c6c9872d315fb6ab71e898cea4799143da2239cbe2d36dabaa"
+    },
+    {
+      "id": "M21_PREP",
+      "section": "2.1",
+      "claim": "Preparation cutoff, included/outside/isolated checks",
+      "path": "outputs/logs/data_prep/clean-20261023T014412125078Z-82241e6c/validation_report.json",
+      "sha256": "b9097b7144a5501c68072495f973bac9c54636095925e2b881f230da5594e82b"
+    },
+    {
+      "id": "M21_LEARNING",
+      "section": "2.1/2.3",
+      "claim": "38919 learning matches, warmup/neutral roles, same-day ordering, starting priors",
+      "path": "研究/05_赛前实力/实力评估_逻辑与运行说明.md",
+      "sha256": "442a220b4296bce2be74f63681919d0665ef747bef3e56713ec938bc16205970"
+    },
+    {
+      "id": "M22_ERAS",
+      "section": "2.2",
+      "claim": "Era boundaries, pooled reference and separate alternative weights",
+      "path": "config/eras_reviewed.json",
+      "sha256": "27bf38b406085ab83979628a04b2fca4d6d08d9c2bb5a06bfaea2e009932b65b"
+    },
+    {
+      "id": "M22_TYPES",
+      "section": "2.2",
+      "claim": "Friendly split and overlapping trailing ten-year windows",
+      "path": "config/tournaments.json",
+      "sha256": "93d6ec435b9d47481845e1d16a8ac389138c5551c21b8f93b17e9065f05d561d"
+    },
+    {
+      "id": "M21_GEOGRAPHY",
+      "section": "2.1/2.2",
+      "claim": "Explicit geographical research groups",
+      "path": "config/regions_study.json",
+      "sha256": "f29e8081a58c941ea6d51809ec69aacb9d5ad8c15a343866980afcf407d68c66"
+    },
+    {
+      "id": "M22_INFERENCE",
+      "section": "2.2",
+      "claim": "Six projected covariance kernels, guarded scale, calibration and limitations",
+      "path": "研究/04_共同可靠性/第三步_联合模型选择与第四步交接.md",
+      "sha256": "22793498fc00696308ebc6a3f134a866c26343e0f0326867a03c76ef5e4ab7c5"
+    },
+    {
+      "id": "M23_PARAMETERS",
+      "section": "2.3",
+      "claim": "Adopted parameters, not a guessed candidate configuration",
+      "path": "data/processed/strength/jump-ratings-451ecade0bf84ee0bfb6/report.json",
+      "sha256": "13f80db0cfcec118025744e9660c55979c2cf5ce510265f4ec9087d4395cdce7"
+    },
+    {
+      "id": "M23_FILTER",
+      "section": "2.3",
+      "claim": "Date-batched Poisson/normal filtering, shared teams, covariance and moment projection",
+      "path": "src/strength/collapsed_jump.py",
+      "sha256": "728e598b117bb47d6598264c0db2b0711e9590a3eb675812bb5980ee748e92e4"
+    },
+    {
+      "id": "M23_OBSERVATION",
+      "section": "2.3",
+      "claim": "Normal-threshold outcome likelihood plus uniform component",
+      "path": "src/strength/filter.py",
+      "sha256": "490369b0620ecd5695729d70c716453286a9e6c0ad9cbeff5db92a002fefd06f"
+    },
+    {
+      "id": "M23_PRIOR",
+      "section": "2.3",
+      "claim": "Joint mean/covariance priors and home-state dimension",
+      "path": "src/strength/gaussian.py",
+      "sha256": "7ea8c28e26aac1dfcdc9c1d5b571cca4e11841c7a475e63668b9e622ab9a066b"
+    },
+    {
+      "id": "M24_DISTRIBUTION",
+      "section": "2.4",
+      "claim": "Difference mean/base variance, jump intensities and no home-state injection",
+      "path": "src/strength_joint/contract.py",
+      "sha256": "8f47c10ac639ca2ef7c0c867cca84f36d6cd0d0dd54c41774f3b663f85df2abb"
+    },
+    {
+      "id": "M24_KERNEL",
+      "section": "2.4",
+      "claim": "Integrated probit, unpenalized conditional objective and numerical gates",
+      "path": "src/strength_joint/model.py",
+      "sha256": "7c1410a84e7f224877892568a6359edb0ca1c766da5041ac1d14cf0e71698dc9"
+    },
+    {
+      "id": "M24_DESIGN",
+      "section": "2.4",
+      "claim": "Background and weighted within-region coding, model ablations",
+      "path": "src/strength_joint/design.py",
+      "sha256": "0826815f44370435908fd74c36d98bda1cdcf70699e20ec1dc89626a67f2717d"
+    },
+    {
+      "id": "M24_ROLLING",
+      "section": "2.4/2.5",
+      "claim": "Past-only yearly fitting, ridge precision 1, past-only vocabulary, unseen units and metrics",
+      "path": "src/strength_predictive_validation.py",
+      "sha256": "d62262ba1dbcfe96ff9c6d086e40cc89ab2b814d68ea13042c52ff5458785cb2"
+    },
+    {
+      "id": "M24_NUMERICS",
+      "section": "2.4",
+      "claim": "Slope/parameter bounds, tail tolerances, initial slopes",
+      "path": "config/strength_joint.json",
+      "sha256": "ce2290aea22277750c953afb912b6837b27815c4807b7918385914d8aafb9182"
+    },
+    {
+      "id": "M24_AUXILIARY",
+      "section": "2.4",
+      "claim": "Separate shape calibration and residual correction",
+      "path": "config/strength_final_delivery.json",
+      "sha256": "15f47271d20a12cc3a9f8aaf8f8389e24640ebe6589f500dae17abc9a4a07d89"
+    },
+    {
+      "id": "M24_AUXILIARY_FLOW",
+      "section": "2.4",
+      "claim": "Past ten-year calibration, exact-context/parent fallback and daily residual flow",
+      "path": "src/strength/delivery.py",
+      "sha256": "717e6f06f6ea86768bbe140dabe090723672097a329443548fca6a88dee3cb8b"
+    },
+    {
+      "id": "M25_VALIDATION",
+      "section": "2.5",
+      "claim": "Complete A route, fixed generators, family scope, truth error and sequential budget",
+      "path": "研究/05_赛前实力/第五问_收尾与下一问交接.md",
+      "sha256": "e1cb6dc479abd64b95a80e8ab711a6c14a2b2536dbc749f23e0b144981e93c2e"
+    },
+    {
+      "id": "M25_WINDOWS",
+      "section": "2.5",
+      "claim": "History candidates, calendar window and past-performance selection protocol",
+      "path": "config/history_window.json",
+      "sha256": "b21a1e5c435f9b2056954232f99e511747ea6fdb9999d21b00ce3b90a3c4197c"
+    },
+    {
+      "id": "M25_REGION",
+      "section": "2.5",
+      "claim": "Pre-2010 cutpoints and nine strength-gap/uncertainty cells",
+      "path": "研究/07_地区有效性/第四步_差异解释与第五步交接.md",
+      "sha256": "bd55dc378484752aa4e7dd373757320651dbaf0724445f93e4968fbd4974e4fc"
+    },
+    {
+      "id": "M25_STABILITY",
+      "section": "2.5",
+      "claim": "Fixed-forecast leave-year/team summaries and limitations",
+      "path": "研究/07_地区有效性/第七问_研究说明与收尾交接.md",
+      "sha256": "61118e8145707d85e6636c68488ab5de47c00aa340a961f9aa9cce7378841d03"
+    },
+    {
+      "id": "M21_AUDIT_CODE",
+      "section": "2.1",
+      "claim": "Date/score/venue validation, duplicate/score conflict/reversed-pair flags",
+      "path": "src/audit.py",
+      "sha256": "687b6fdf5835c4f5ed6202ed7c7ac2e7062375fa36e76028fac284aec882aa9d"
+    },
+    {
+      "id": "M21_CLEAN_CODE",
+      "section": "2.1",
+      "claim": "Critical isolation, outside-window handling, per-analysis eligibility, preserved lineage",
+      "path": "src/clean.py",
+      "sha256": "e696669b69fe8f748c33af6ed2f085170243162556fe592646c2fce6b04c9fd1"
+    }
+  ],
+  "adopted_parameters": {
+    "alpha": 0.65,
+    "delta": 0.4,
+    "epsilon": 0.05,
+    "home_q": 0.005,
+    "jump_rate": 0.08,
+    "jump_sd": 1.2,
+    "q": 0.03
+  },
+  "important_distinctions": [
+    "Annual past-only ridge prediction is distinct from unpenalized full-cohort conditional fitting.",
+    "The joint model receives score differences, not native home/calibrated win probabilities.",
+    "Root config.json legacy Elo and time_split fields are not the adopted strength/prediction protocol.",
+    "Q4 covariance-scale calibration and Q5 feedback validation are different procedures.",
+    "Sources support method choices only within the reading scopes in citation_report.md."
+  ]
+}

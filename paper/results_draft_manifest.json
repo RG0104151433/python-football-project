@@ -1,0 +1,134 @@
+{
+  "decision_log_id": "R20261106-05",
+  "status": "results_first_draft_not_complete_paper",
+  "executor": "Codex (AI)",
+  "human_review": false,
+  "results_tex": {
+    "path": "paper/sections/results.tex",
+    "sha256": "3b858c4f2a3f2a0cf52ed398f7663eb3e8b67469fb96f8f1dc5102dfde3c580f"
+  },
+  "evidence_registry": {
+    "path": "paper/results_evidence.json",
+    "sha256": "32778ebdf82c9afd1a526175b901710d478667970f565bd68217bb660d5d66e5",
+    "sources": 17,
+    "entries": 57
+  },
+  "figures_adopted_for_draft": [
+    {
+      "draft_figure_number": 1,
+      "latex_label": "fig:predictive-models",
+      "section": "3.2",
+      "paper_path": "paper/figures/fig3_model_comparison.pdf",
+      "source_figure_path": "paper/figures/fig3_model_comparison.pdf",
+      "source_sha256": "a1c92c2b413d0be13ed799e5eebbebb31a4621599447b948a75d38dee7cbbd86",
+      "paper_sha256": "a1c92c2b413d0be13ed799e5eebbebb31a4621599447b948a75d38dee7cbbd86",
+      "same_file_adopted_without_copy": true,
+      "data_sources": [
+        {
+          "path": "outputs/tables/strength_joint/rolling-prediction-4722c7b1b5f63cef35e3/yearly_metrics.csv",
+          "sha256": "cb11da83ff19ff22d3acbd7c4d1f8e8a5d6c5c076a66805a9553631a0bf80d3d"
+        }
+      ]
+    },
+    {
+      "draft_figure_number": 2,
+      "latex_label": "fig:history-windows",
+      "section": "3.3",
+      "paper_path": "paper/figures/fig4_history_windows.pdf",
+      "source_figure_path": "paper/figures/fig4_history_windows.pdf",
+      "source_sha256": "82fafb390fbd539adb59a135f6fd31fb9a9bad13fab77dd44ab10cf85a42f5f8",
+      "paper_sha256": "82fafb390fbd539adb59a135f6fd31fb9a9bad13fab77dd44ab10cf85a42f5f8",
+      "same_file_adopted_without_copy": true,
+      "data_sources": [
+        {
+          "path": "outputs/tables/history_window/joint-review-4888d987645daee73e19/combination_metrics.csv",
+          "sha256": "95d1b236f57c1a41ef041cbf11ff2507eae5da4a55dfb441a01095ce25539c4a"
+        },
+        {
+          "path": "outputs/tables/history_window/joint-review-4888d987645daee73e19/cost_components.csv",
+          "sha256": "449ef98c159aec00c6a7c6d8a369785e7b1937399d75fff17a18423ebf1eb85d"
+        }
+      ]
+    },
+    {
+      "draft_figure_number": 3,
+      "latex_label": "fig:regional-metrics",
+      "section": "3.4",
+      "paper_path": "paper/figures/fig5_regional_metrics.pdf",
+      "source_figure_path": "paper/figures/fig5_regional_metrics.pdf",
+      "source_sha256": "0d7d4fd5c4dd1dd7d72989d5efc8bc85a4b2806e4eb088a8c4f6e05ffc5b0294",
+      "paper_sha256": "0d7d4fd5c4dd1dd7d72989d5efc8bc85a4b2806e4eb088a8c4f6e05ffc5b0294",
+      "same_file_adopted_without_copy": true,
+      "data_sources": [
+        {
+          "path": "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_metrics.csv",
+          "sha256": "f981a6962f7429951d485f5f71fc4c6ce8a7bd4c73b7580f4ed7d720feddfb56"
+        }
+      ]
+    },
+    {
+      "draft_figure_number": 4,
+      "latex_label": "fig:issued-forecasts",
+      "section": "3.5",
+      "paper_path": "paper/figures/fig6_forecast_examples.pdf",
+      "source_figure_path": "paper/figures/fig6_forecast_examples.pdf",
+      "source_sha256": "65e13052a1be177eaf070581a2d561ba770ca7cb381538f2ced84b85bc1eb12e",
+      "paper_sha256": "65e13052a1be177eaf070581a2d561ba770ca7cb381538f2ced84b85bc1eb12e",
+      "same_file_adopted_without_copy": true,
+      "data_sources": [
+        {
+          "path": "outputs/tables/future_predictions/future-unl-61f639846da9193d4cca/forecasts.csv",
+          "sha256": "58fba7aaad2b1708c13133fe7cdc201a75adfe23405ca77edb27e636ff4c7280"
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "draft_number": 1,
+      "latex_label": "tab:analysis-samples"
+    },
+    {
+      "draft_number": 2,
+      "latex_label": "tab:historical-contrasts"
+    },
+    {
+      "draft_number": 3,
+      "latex_label": "tab:predictive-models"
+    },
+    {
+      "draft_number": 4,
+      "latex_label": "tab:regional-diagnostics"
+    }
+  ],
+  "checks": {
+    "source_hash_checks": 17,
+    "unique_row_value_checks": 53,
+    "figure_hash_checks": 4,
+    "plot_aggregate_checks": 6,
+    "latex_labels_and_refs": "passed",
+    "english_results": "passed",
+    "texcount_sum_words": 2257,
+    "compile_exit_code": 0,
+    "full_working_pdf_pages": 8,
+    "visual_review": "Eight working-draft pages inspected; page 2 re-rendered after local reflow fix and checked; no clipping or overlapping content observed. Other chapters remain outline placeholders.",
+    "empty_bibliography_expected": true,
+    "citation_key_check": "passed with 0 Bib entries and 0 cite keys; external literature verification is pending",
+    "final_latex_log": "No undefined references or overfull/underfull boxes; empty bibliography warning expected."
+  },
+  "pdf_preview": "paper/build/main.pdf",
+  "pending": [
+    "Other chapters and abstract prose",
+    "Verified external bibliography for the full paper",
+    "Study design figure",
+    "Full-paper review and final member information"
+  ],
+  "compiled_pdf": {
+    "path": "paper/build/main.pdf",
+    "sha256": "ddb8b4291896b1f041c8c03eea8b59f04b18f54e1105e17971d097dc1d3cab15",
+    "pages": 8,
+    "scope": "Results prose and figures plus outline placeholders for other chapters; not a finished paper"
+  },
+  "word_count_method": "TeXcount -brief -sum paper/sections/results.tex (default tool counting rules)",
+  "execution_version": "HEAD e9d6882 plus uncommitted drafting changes; source hashes identify this draft."
+}

@@ -1,1 +1,20 @@
 section,claim_id,bib_keys,note
+2.1,data_source,martj42_data,"Dataset identity; local counts/version are from the registered snapshot, not the live page."
+2.1,geography_basis,un_m49,Official grouping basis; project overrides remain explicitly separate.
+2.2,dyadic_dependence_motivation,aronow2015dyadic,Shared-unit dependence only; the original sandwich estimator is not claimed as implemented.
+2.3,dynamic_strength_motivation,glickman1999dynamic,Dynamic paired comparison and ability uncertainty; not identity with Glicko.
+2.3,approximate_inference,minka2001ep,General EP approximation basis; no exact-filtering theorem transferred.
+2.5,probability_scores,gneiting2007scoring,Logarithmic/quadratic probability scoring; not future performance certification.
+2.5,simulation_sequential_control,howard2021confidence,General time-uniform error-control principle; project-specific budget and generator assumptions remain separate.
+2.5,software,numpy2020;scipy2020;matplotlib2007,"Actual numerical/plotting libraries, not claims that their citation papers prove the football model."
+4.1,dynamic_uncertainty_positioning,glickman1999dynamic,General motivation; no equivalence or external-system superiority claimed.
+4.1,probability_evaluation_positioning,gneiting2007scoring,Proper scoring motivation; not proof of future performance.
+4.3,joint_three_class_extension,herbrich2006trueskill,Section 2 draw interval as a methodological starting point; not adopted as a new experiment.
+4.3,calibration_extension,guo2017calibration,Published neural-classifier calibration example; football transfer untested.
+4.3,goal_model_extension,dixon1997scores,Institutional abstract supports English league/cup dynamic Poisson-model example; no full-text replication.
+1.2,international_home_advantage_context,pollard2017qualification,Publisher search-visible abstract supports the qualification setting; no causal mechanism or numerical conclusion borrowed.
+1.2,ratings_as_predictors,hvattum2010elo,Publisher search-visible abstract supports Elo covariates and ordered-logit prediction; no superiority transferred.
+1.2,dynamic_strength_positioning,glickman1999dynamic,Previously checked general dynamic ability/uncertainty motivation.
+1.2,score_model_positioning,dixon1997scores,Previously checked institutional abstract; no additional full-text claims.
+1.2,probability_and_dependence,gneiting2007scoring;aronow2015dyadic,General motivation under previously recorded reading limits; project procedures remain distinct.
+4.back_matter,data_availability,martj42_data,CC0 source dataset; analysis code and version ledgers are local repository materials rather than a claimed archival deposit.

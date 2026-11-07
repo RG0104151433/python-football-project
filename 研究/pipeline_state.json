@@ -76,7 +76,7 @@
       "paper_directory": "paper",
       "paper_entry": "paper/main.tex",
       "paper_readme": "paper/README.md",
-      "paper_status": "skeleton_only_not_written",
+      "paper_status": "english_content_editorial_revision_completed_submission_pending",
       "paper_asset_review": {
         "decision_log_id": "R20261103-04",
         "scope": "course_paper_only_not_presentation_or_new_research",
@@ -84,22 +84,27 @@
         "requirements_original_images_viewed": 10,
         "plan": "paper/论文要求核对与结构规划.md",
         "review": "文档/04_整理记录/论文资产核对_20261103.json",
-        "formal_body_written": false,
-        "outline_owner_review": "pending",
-        "outline_revision_decision_log_id": "R20261104-01",
-        "preferred_outline": "Add_Data_and_Study_Design_while_retaining_all_required_template_sections",
+        "formal_body_written": true,
+        "formal_body_written_scope": "All four sections and Abstract editorially revised; authors deferred by owner; final submission acceptance pending",
+        "full_paper_body_written": true,
+        "outline_owner_review": "structure_finalized_at_owner_request_AI_review_only",
+        "outline_revision_decision_log_id": "R20261106-03",
+        "preferred_outline": "Five_required_parts_with_data_and_study_design_in_Method_2_1",
         "strict_template_fallback": "Keep_five_required_parts_and_place_data_and_study_design_at_start_of_Method",
         "detailed_subsection_plan_prepared": true,
         "question_to_section_mapping_prepared": true,
         "abstract_keywords_and_back_matter_planned": true,
         "planned_appendices_written": false,
-        "revised_outline_applied_to_tex_sections": false,
+        "revised_outline_applied_to_tex_sections": true,
         "new_research_required_before_drafting": false
       },
-      "paper_compilation_passed": false,
-      "paper_compilation_note": "No usable TeX Live tools detected; bundled Tectonic smoke compile failed because its bundle was unavailable. No paper PDF compiled.",
-      "figures_selected": 0,
-      "bibliography_entries_verified": 0,
+      "paper_compilation_passed": true,
+      "paper_compilation_scope": "editorially_revised_content_not_final_submission",
+      "paper_compilation_note": "R20261107-02: 14-page editorial revision compiled with XeLaTeX/natbib/BibTeX; 15 references, no final-log warnings; all 14 pages visually inspected. Scientific data/results and graphic assets unchanged.",
+      "figures_selected": 5,
+      "figures_selection_scope": "Method native diagram and four Results figures; first drafts, not whole-paper final selection",
+      "bibliography_entries_verified": 15,
+      "bibliography_verification_scope": "primary metadata and limited claim support; not full-text proof replication",
       "organization_record": "文档/04_整理记录/仓库整理记录_20261103.json",
       "code_navigation": {
         "decision_log_id": "R20261103-03",
@@ -114,7 +119,15 @@
         "research_programs_moved_or_changed": false,
         "all_scientific_jobs_rerun": false
       },
-      "adopted_research_results_changed": false
+      "adopted_research_results_changed": false,
+      "current_working_preview": {
+        "decision_log_id": "R20261107-02",
+        "manifest": "paper/editorial_revision_manifest.json",
+        "pdf": "paper/build/main.pdf",
+        "pages": 14,
+        "all_pages_visually_inspected": true,
+        "final_paper": false
+      }
     },
     "new_research_experiments_required_before_writing": false,
     "scope": "Q1_to_Q7_declared_adopted_results; Q8_pre_match_predictions; Q9_document_only_discussion; Q10_actual_experiments_optional",
@@ -127,11 +140,65 @@
     "final_group_presentation_complete": false,
     "actual_member_review_complete": false,
     "projector_and_teacher_html_acceptance_complete": false,
-    "pending_delivery": ["targeted_formal_environment_reproduction", "same_version_figures_and_citations", "integrated_group_presentation", "course_paper", "actual_contributions_and_person_device_acceptance", "submission_packages"],
-    "deferred_extensions": ["actual_november_results_and_rolling_versions", "Q9_model_implementation", "Q10_club_experiments", "out_of_scope_global_completeness_certification"],
+    "pending_delivery": [
+      "targeted_formal_environment_reproduction",
+      "same_version_figures_and_citations",
+      "integrated_group_presentation",
+      "course_paper",
+      "actual_contributions_and_person_device_acceptance",
+      "submission_packages"
+    ],
+    "deferred_extensions": [
+      "actual_november_results_and_rolling_versions",
+      "Q9_model_implementation",
+      "Q10_club_experiments",
+      "out_of_scope_global_completeness_certification"
+    ],
     "writing_preparation": {
       "decision_log_id": "R20261105-02",
       "structure_review": "paper/论文规划审查与开工准备_v2_20261105.md",
+      "writing_framework": "paper/论文写作框架.md",
+      "framework_decision_log_id": "R20261106-03",
+      "framework_status": "finalized_for_drafting",
+      "results_outline": {
+        "decision_log_id": "R20261106-04",
+        "status": "results_first_draft_written",
+        "plan": "paper/论文写作框架.md",
+        "evidence_registry": "paper/results_evidence.json",
+        "source_files": 17,
+        "evidence_bindings": 57,
+        "paragraph_units": 14,
+        "formal_results_prose_written": true,
+        "new_models_or_experiments_run": false
+      },
+      "result_subsections": 5,
+      "method_draft": {
+        "decision_log_id": "R20261106-06",
+        "path": "paper/sections/method.tex",
+        "evidence": "paper/method_evidence.json",
+        "manifest": "paper/method_draft_manifest.json",
+        "citation_report": "paper/citation_report.md",
+        "source_claims": 26,
+        "words_texcount_sum": 1914,
+        "core_equations": 7,
+        "bibliography_entries": 10,
+        "compile_passed": true,
+        "current_working_pdf_pages": 12,
+        "full_paper_complete": false
+      },
+      "results_draft": {
+        "decision_log_id": "R20261106-05",
+        "path": "paper/sections/results.tex",
+        "manifest": "paper/results_draft_manifest.json",
+        "tables": 4,
+        "figures_adopted_for_draft": 4,
+        "compile_passed": true,
+        "rendered_pages_inspected": 8,
+        "external_reference_verification_complete": false,
+        "full_paper_complete": false
+      },
+      "independent_human_structure_review_performed": false,
+      "paragraph_evidence_and_figure_title_outline_prepared": true,
       "five_part_research_spine": true,
       "draft_figures": 5,
       "figure_manifest": "paper/figures/manifest.json",
@@ -140,9 +207,61 @@
       "quick_check": "quick_check.py",
       "figure_generator": "paper/make_paper_figures.py",
       "task_board": "文档/05_团队协作/论文写作任务板_20261105.md",
-      "paper_body_written": false,
+      "paper_body_written": true,
+      "paper_body_status": "editorially_revised_english_content_submission_pending",
       "final_figures_selected": false,
-      "references_verified": 0
+      "references_verified": 15,
+      "reference_verification_scope": "metadata_and_used_claims_not_all_full_texts",
+      "discussion_draft": {
+        "decision_log_id": "R20261106-07",
+        "path": "paper/sections/discussion.tex",
+        "manifest": "paper/discussion_draft_manifest.json",
+        "subsections": 4,
+        "words_texcount_sum": 972,
+        "new_bibliography_entries": 3,
+        "total_bibliography_entries": 13,
+        "compile_passed": true,
+        "full_paper_complete": false,
+        "new_models_or_experiments_run": false
+      },
+      "content_draft": {
+        "decision_log_id": "R20261107-01",
+        "manifest": "paper/content_draft_manifest.json",
+        "introduction": "paper/sections/introduction.tex",
+        "introduction_words_texcount_sum": 672,
+        "abstract": "paper/main.tex",
+        "abstract_words_whitespace": 173,
+        "four_sections_words_texcount_sum": 5860,
+        "sections_present": [
+          "Introduction",
+          "Method",
+          "Experimental Results and Analysis",
+          "Discussion and Conclusion"
+        ],
+        "bibliography_entries": 15,
+        "compile_passed": true,
+        "pages": 15,
+        "author_information_confirmed": false,
+        "full_paper_final_acceptance": false,
+        "research_results_changed": false,
+        "author_details_status": "deferred_by_owner_2026-11-07",
+        "data_code_availability_written": true
+      },
+      "editorial_revision": {
+        "decision_log_id": "R20261107-02",
+        "manifest": "paper/editorial_revision_manifest.json",
+        "words_texcount_sum": 4665,
+        "abstract_words_whitespace": 177,
+        "body_reduction_percent": 20.39,
+        "pages": 14,
+        "tables": 4,
+        "figures": 5,
+        "references": 15,
+        "compile_passed": true,
+        "scientific_results_changed": false,
+        "author_details_status": "deferred_by_owner",
+        "final_submission_acceptance": false
+      }
     }
   },
   "numbering_decision": {
@@ -3568,7 +3687,12 @@
     "closeout_narrative": "研究/08_未来比赛预测/第八问_研究说明与收尾交接.md",
     "closeout_adoption": "outputs/logs/future_predictions/q8-closeout-7bf020e93213562df8de/closeout_adoption.json",
     "material_checks": 169,
-    "forecast_interpretation": {"main_home_pick": 21, "main_nonhome_pick": 28, "conditional_range_crosses_half": 32, "counts_are_not_accuracy": true},
+    "forecast_interpretation": {
+      "main_home_pick": 21,
+      "main_nonhome_pick": 28,
+      "conditional_range_crosses_half": 32,
+      "counts_are_not_accuracy": true
+    },
     "presentation_materials_ready": true,
     "paper_support_ready": true,
     "q9_handoff_ready": true,
@@ -3708,8 +3832,17 @@
       "problem_analysis": "prepared",
       "preliminary_theory": "prepared_not_empirically_validated",
       "reuse_scope": "time_ordered_strength_probability_evaluation_and_provenance_framework",
-      "must_rebuild": ["club_identity_and_result_scope", "season_and_promoted_team_initialization", "background_design_and_parameters", "actual_time_cutoffs_and_update_schedule"],
-      "theory_limits": ["constant_context_columns_not_identifiable", "disconnected_league_rating_origins_not_comparable", "calendar_and_per_match_units_not_interchangeable"],
+      "must_rebuild": [
+        "club_identity_and_result_scope",
+        "season_and_promoted_team_initialization",
+        "background_design_and_parameters",
+        "actual_time_cutoffs_and_update_schedule"
+      ],
+      "theory_limits": [
+        "constant_context_columns_not_identifiable",
+        "disconnected_league_rating_origins_not_comparable",
+        "calendar_and_per_match_units_not_interchangeable"
+      ],
       "minimum_candidate": "one_league_consecutive_seasons_then_expand_if_supported",
       "specific_league_or_source_selected": false,
       "new_data_collected": false,
@@ -3717,17 +3850,35 @@
       "new_performance_results": false
     },
     "all_four_preliminary_analyses_prepared": true,
-    "future_directions": ["joint_three_way_predictions", "probability_calibration", "score_venue_and_prematch_information_improvements", "club_comparison_and_transfer_methodology"],
+    "future_directions": [
+      "joint_three_way_predictions",
+      "probability_calibration",
+      "score_venue_and_prematch_information_improvements",
+      "club_comparison_and_transfer_methodology"
+    ],
     "final_group_paper_or_presentation_complete": false,
-    "proposal_sections": ["complete_three_way_prediction", "probability_calibration", "further_prediction_model_improvements", "national_and_club_differences_and_transfer"],
+    "proposal_sections": [
+      "complete_three_way_prediction",
+      "probability_calibration",
+      "further_prediction_model_improvements",
+      "national_and_club_differences_and_transfer"
+    ],
     "result_explanation_is_research_direction": false,
     "result_explanation_handoff": "group_presentation_and_course_paper",
     "club_methodology_is_core_q9_topic": true,
     "actual_club_experiments_remain_optional_question10": true,
     "predictive_improvement_demonstrated": false,
-    "next_delivery_tasks": ["code_execution_and_adopted_output_confirmation", "group_presentation", "course_paper"],
+    "next_delivery_tasks": [
+      "code_execution_and_adopted_output_confirmation",
+      "group_presentation",
+      "course_paper"
+    ],
     "q8_handoff": "研究/08_未来比赛预测/第八问_研究说明与收尾交接.md",
-    "candidate_directions_not_selected": ["probability_calibration", "special_venue_handling", "validated_three_way_joint_output"],
+    "candidate_directions_not_selected": [
+      "probability_calibration",
+      "special_venue_handling",
+      "validated_three_way_joint_output"
+    ],
     "new_model_or_test_period_selected": false,
     "november_outcomes_available": false
   },

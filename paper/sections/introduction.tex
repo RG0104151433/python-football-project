@@ -1,4 +1,31 @@
 % !TeX root = ../main.tex
 \section{Introduction}
-% Introduce the motivation, related work, research questions, and contributions.
-Draft section: substantive text has not been written.
+% Editorial revision R20261107-02; follows the finalized R20261106-03 structure.
+\subsection{Motivation: From Historical Rates to Pre-Match Decisions}
+
+An international team's historical home-win rate is easy to calculate but difficult to interpret. A high rate may reflect strong home teams, weak opponents, or the competitions and periods represented. Comparing regions or decades without accounting for these differences can confuse changes in the schedule with changes in performance. For an upcoming match, the practical question is how much these historical patterns help once both teams' recent performances are known.
+
+Description identifies where home-win rates differ; prediction asks whether those differences help assign probabilities to future outcomes. A group difference may add little information once team strength is considered, while a plausible overall average can conceal poor individual predictions. National-team records also involve irregular match intervals, changing identities, neutral venues, and uneven opponent combinations. These features require a documented sample and clear rules about which information is available before each prediction.
+
+We study home-win probability, combining draws and away wins as the alternative outcome. Here, context means the era, match type, and geographic groups of both teams. We assess what strength and context contribute to prediction. The design supports historical and model-based comparisons, but does not identify the causal effect of relocating the same match from a neutral venue to a home ground.
+
+\subsection{Related Work and Study Positioning}
+
+Pollard and Armatas~\citep{pollard2017qualification} examined home advantage in the group stages of qualification for the 2006, 2010, and 2014 World Cups. Their competition-specific setting provides background for our broader comparison of eras, friendlies, and geographic groups. Our home-win percentages describe a different target and sample from other measures of home advantage.
+
+Ratings turn past results into measures of current strength. Hvattum and Arntzen~\citep{hvattum2010elo} used Elo-derived covariates in ordered-logit football prediction models. Glickman~\citep{glickman1999dynamic} developed dynamic paired comparisons that represent uncertainty about changing ability. Dixon and Coles~\citep{dixon1997scores} modelled English league and cup scores with a dynamic Poisson-regression approach. These studies motivate distinguishing how past results inform strength from how strength is converted into an outcome probability.
+
+Proper scoring rules provide a basis for evaluating probabilities beyond counting correctly predicted outcomes~\citep{gneiting2007scoring}. Repeated team appearances also motivate attention to dependence between matches~\citep{aronow2015dyadic}. We use these ideas to compare models on common samples and to assess uncertainty under explicit assumptions. Our implementations and their limits are set out in the Method section.
+
+\subsection{Research Questions, Contributions, and Roadmap}
+
+We organize the study around three questions:
+\begin{enumerate}
+\item \textbf{RQ1:} How do historical home-win rates differ across eras, match types, and regions, and how far do composition adjustment and uncertainty assessment support their interpretation?
+\item \textbf{RQ2:} How much predictive information does pre-match strength supply, and how much does match context add once strength is included?
+\item \textbf{RQ3:} How do historical information length and geographic setting affect predictive performance, computational cost, and the conditions for using the model?
+\end{enumerate}
+
+The contribution is a traceable analysis linking historical comparisons, strength-informed prediction, and practical use. We compare background-only, strength-only, and joint predictions on the same matches, examine information length and regional applicability, and issue a sealed future prediction set. Strength carries the main predictive gain, context adds a smaller increment, and the evidence does not establish a universally best historical window or equal regional applicability.
+
+Section~\ref{sec:method} presents the data, models, and evaluation protocol. Section~\ref{sec:results} reports the historical comparisons, predictive evidence, and prospective application. The discussion draws together their implications and proposed extensions. Future outcomes are outside the present evaluation.

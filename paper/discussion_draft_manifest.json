@@ -1,0 +1,69 @@
+{
+  "decision_log_id": "R20261106-07",
+  "status": "method_results_discussion_first_drafts_not_complete_paper",
+  "executor": "Codex (AI)",
+  "human_review": false,
+  "execution_version": "HEAD e9d6882 plus uncommitted writing changes; exact files below",
+  "files": {
+    "paper/main.tex": "1d67ab10b1b67c9e065cce5d6c00a8ec0c2d617f72988265e99dd21a30701a94",
+    "paper/sections/discussion.tex": "98535fd46dfa651b4d978dcc9da9f84f0b4aa8e73a0e71facd40ad8f35a6af46",
+    "paper/sections/method.tex": "15886c342aa92181bbfd78d0be03b96e0661337b214f40c5af5dab0a82f43012",
+    "paper/sections/results.tex": "57483a81b8223221553c1e35f54ffbe76076d5e1891706abf4bba94615ed4f5b",
+    "paper/references.bib": "c30b9ad576a30a70f3fba09cc33ed2c22823361e0cc8c4c8165e001a390ff560",
+    "paper/citation_map.csv": "3140a970ce5de0273af6904791dc613e6d87a85f82f3d17b3338ae618d838553",
+    "paper/citation_report.md": "5118e03c3c2b7f6c97629f35acc56a234f536d1b0d49f7641ac0f1c10a3337f3"
+  },
+  "project_sources": {
+    "paper/results_evidence.json": "32778ebdf82c9afd1a526175b901710d478667970f565bd68217bb660d5d66e5",
+    "paper/method_evidence.json": "683719a87173ad2895e45fbb58ffecfc8b22926d492d3f84c95d3b3177f518c1",
+    "研究/09_预测优化展望/README.md": "0a819652da70f25d669ccf73091727dd5150b02e24bb504a98a1c38a497f8e64"
+  },
+  "discussion_subsections": 4,
+  "discussion_words_texcount_sum": 972,
+  "bibliography": {
+    "entries": 13,
+    "cited_keys": 13,
+    "new_keys": [
+      "herbrich2006trueskill",
+      "guo2017calibration",
+      "dixon1997scores"
+    ],
+    "metadata_and_limited_claims_checked": true,
+    "all_papers_full_read_or_replicated": false,
+    "report": "paper/citation_report.md"
+  },
+  "checks": {
+    "method_source_unchanged_from_R06": true,
+    "results_unchanged_from_R05_except_pagination_comment": true,
+    "citation_keys_consistent": true,
+    "internal_labels_and_references_checked": true,
+    "local_document_paths_checked": true,
+    "git_diff_check_passed": true,
+    "local_document_paths_count": 92,
+    "rendered_bibliography_items": 13
+  },
+  "compilation": {
+    "engine": "XeLaTeX / natbib + BibTeX / unsrtnat",
+    "exit_code": 0,
+    "pages": 14,
+    "final_log_warnings": 0,
+    "pdf": "paper/build/main.pdf",
+    "pdf_sha256": "2ef6942631dd28d4a0d6c005219277320552a53fa34f0346a01cc0dab3fa9226",
+    "rendered_pages_inspected": [
+      11,
+      12,
+      13,
+      14
+    ],
+    "visual_findings": "No clipping or overlap observed on inspected pages; earlier pages were inspected at R06. Not final whole-paper acceptance."
+  },
+  "research_results_changed": false,
+  "models_or_simulations_rerun": false,
+  "pending": [
+    "Introduction",
+    "Abstract",
+    "Confirmed author identities and contributions",
+    "Whole-paper compression, consistency and final layout acceptance",
+    "Actual member review and submission packages"
+  ]
+}

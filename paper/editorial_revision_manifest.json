@@ -1,0 +1,105 @@
+{
+  "decision_log_id": "R20261107-02",
+  "date": "2026-11-07",
+  "status": "editorial_revision_completed_not_final_submission",
+  "executor": "Codex (AI)",
+  "human_review": false,
+  "execution_version": "HEAD e9d6882 plus uncommitted writing changes; exact files below",
+  "first_content_draft": {
+    "manifest": "paper/content_draft_manifest.json",
+    "sha256": "7844531404cb9d272f6bd4fe069c16eb4657e9d1e7a0f909116b19745cee1349",
+    "historical_manifest_preserved": true
+  },
+  "files": {
+    "paper/main.tex": "dd3e5103e1834b731d4ad0f3e3cf9ea13e3f04857107c9267240efca9f8004e9",
+    "paper/sections/introduction.tex": "fc98119e3eaffa74da40ad64b25e373669ed94eb32dfa30e737bc8f21f2099b5",
+    "paper/sections/method.tex": "3064f1d9720163fa3a0e8304a6f96ba3ff18b7c492c49ff83b91d66a5176c2e3",
+    "paper/sections/results.tex": "e7236c95854741ad9e1838605c93f8630a968db7cb8e7e91b4c0ffb372cc6152",
+    "paper/sections/discussion.tex": "8ad78c9c06ab77b0e3679c64aff60bdd17b2feeecbc5159fcbfd803a098a4eec",
+    "paper/references.bib": "30c0919b08c936edc12ed1035996f59343a5aa0d6b3abd801f6cd70d7c74a185",
+    "paper/citation_map.csv": "5f8e70c4751a48ecb06060a9effe7a8e6ae4e99bd991a46da537461ba52b9a38",
+    "paper/citation_report.md": "59cd555e7ce7c0748a7d05e3e5c542db677ba38196f86877afa88b93745bdc54",
+    "paper/figures/study_design.tex": "194c893c60ced8b25b26ccff60ecdd921b3e85c0a8b6311d7a73cfc42455a70d"
+  },
+  "project_sources": {
+    "paper/results_evidence.json": "32778ebdf82c9afd1a526175b901710d478667970f565bd68217bb660d5d66e5",
+    "paper/method_evidence.json": "683719a87173ad2895e45fbb58ffecfc8b22926d492d3f84c95d3b3177f518c1"
+  },
+  "word_counts_before": {
+    "Introduction_TeXcount_sum": 672,
+    "Method_TeXcount_sum": 1914,
+    "Results_TeXcount_sum": 2257,
+    "Discussion_TeXcount_sum": 1017,
+    "four_sections_TeXcount_sum": 5860,
+    "Abstract_whitespace_tokens": 173,
+    "note": "TeXcount -brief -sum includes its default components; abstract uses whitespace count, so counts have different rules."
+  },
+  "word_counts_after": {
+    "introduction": 558,
+    "method": 1664,
+    "results": 1721,
+    "discussion": 722,
+    "abstract_whitespace": 177,
+    "four_sections": 4665,
+    "body_reduction_percent": 20.39
+  },
+  "changes": [
+    "Condensed repeated explanations and general limitations while preserving local boundaries",
+    "Defined context and distinguished three uses of uncertainty",
+    "Replaced ambiguous v^D with sigma_D^2 and defined Poisson weights; seven displayed equations are equivalent",
+    "Rounded three history-window losses to six decimals in prose; underlying data/ratios unchanged",
+    "Retained all four tables, five figures, 17 subsections, parameters, sample/geography rules and 15 references"
+  ],
+  "display_precision_map": {
+    "0.5591345107": "0.559135",
+    "0.5601588244": "0.560159",
+    "0.5611310085": "0.561131"
+  },
+  "checks": {
+    "citation_keys_consistent": true,
+    "displayed_equation_equivalence": true,
+    "displayed_equations": 7,
+    "scientific_data_or_models_changed": false,
+    "local_document_paths_checked": true,
+    "git_diff_check_passed": true,
+    "local_document_paths_count": 93,
+    "unique_labels": 28,
+    "cross_references": 19,
+    "table_contents_unchanged": true,
+    "four_result_graphic_hashes_unchanged": true,
+    "numeric_token_changes_limited_to_registered_rounding_and_removed_counterexamples": true,
+    "rendered_bibliography_items": 15
+  },
+  "compilation": {
+    "engine": "XeLaTeX / natbib + BibTeX / unsrtnat",
+    "exit_code": 0,
+    "pages": 14,
+    "final_log_warnings": 0,
+    "pdf": "paper/build/main.pdf",
+    "pdf_sha256": "0ae0fb44d10bb13790993c236d7bf46d73167bb76d34c9d8cf7b244d9a20e332",
+    "pages_visually_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "visual_findings": "One inline range overflow fixed by rephrasing. Final inspected pages show no clipping/overlap. Fonts and margins retained."
+  },
+  "new_models_or_experiments_run": false,
+  "pending": [
+    "Formal course requirements and submission-package acceptance",
+    "Author identities/contributions deferred by owner",
+    "Actual member review and final submission acceptance",
+    "Integrated presentation/device acceptance"
+  ]
+}

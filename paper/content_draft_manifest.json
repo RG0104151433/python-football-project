@@ -1,0 +1,90 @@
+{
+  "decision_log_id": "R20261107-01",
+  "started": "2026-11-06",
+  "completed": "2026-11-07",
+  "status": "complete_english_content_first_draft_not_final_submission",
+  "executor": "Codex (AI)",
+  "human_review": false,
+  "execution_version": "HEAD e9d6882 plus uncommitted writing changes; exact files below",
+  "files": {
+    "paper/main.tex": "1a38f85f9cab0c704d4cc696bcb34c732b5f75ad7af01b5431b0818e3a890c35",
+    "paper/sections/introduction.tex": "5e192601e52ac3ee63fe1f5bdd734900c227777fcfbeffe54817b65747e53331",
+    "paper/sections/method.tex": "15886c342aa92181bbfd78d0be03b96e0661337b214f40c5af5dab0a82f43012",
+    "paper/sections/results.tex": "5300c36f98e35f439eceb3dbbf2835162177e817af0b5bd45fd6b5e78116f2e4",
+    "paper/sections/discussion.tex": "2f328af58984e1cdc81577ddcc7fa6d6bcc3d947837a631a9fbf270e04ee1e8f",
+    "paper/references.bib": "30c0919b08c936edc12ed1035996f59343a5aa0d6b3abd801f6cd70d7c74a185",
+    "paper/citation_map.csv": "5f8e70c4751a48ecb06060a9effe7a8e6ae4e99bd991a46da537461ba52b9a38",
+    "paper/citation_report.md": "d93ac20e5d10f9ead7e917830e5dfcf5f03f59ac8bd4eba64563d44861bd5e36",
+    "paper/figures/study_design.tex": "194c893c60ced8b25b26ccff60ecdd921b3e85c0a8b6311d7a73cfc42455a70d"
+  },
+  "project_sources": {
+    "paper/results_evidence.json": "32778ebdf82c9afd1a526175b901710d478667970f565bd68217bb660d5d66e5",
+    "paper/method_evidence.json": "683719a87173ad2895e45fbb58ffecfc8b22926d492d3f84c95d3b3177f518c1",
+    "研究/09_预测优化展望/README.md": "0a819652da70f25d669ccf73091727dd5150b02e24bb504a98a1c38a497f8e64"
+  },
+  "word_counts": {
+    "Introduction_TeXcount_sum": 672,
+    "Method_TeXcount_sum": 1914,
+    "Results_TeXcount_sum": 2257,
+    "Discussion_TeXcount_sum": 1017,
+    "four_sections_TeXcount_sum": 5860,
+    "Abstract_whitespace_tokens": 173,
+    "note": "TeXcount -brief -sum includes its default components; abstract uses whitespace count, so counts have different rules."
+  },
+  "abstract_evidence": {
+    "cohort": "Method 2.1 / Results Table 1: 24917 matches, 1980-2024",
+    "same_match_predictions": "Results Table 3: 21413 matches, 1990-2024",
+    "relative_log_loss_reduction": "Results 3.2: 16.12% versus background, 0.42% versus strength",
+    "binary_accuracy": "Results Table 3: 70.01% home win/non-home win",
+    "sealed_targets": "Results 3.5: 52 targets, 49 main forecasts, 3 withheld, no received actual outcomes"
+  },
+  "bibliography": {
+    "entries": 15,
+    "cited_keys": 15,
+    "new_keys": [
+      "pollard2017qualification",
+      "hvattum2010elo"
+    ],
+    "reading_scope": "New sources limited to publisher search-visible metadata/abstract; direct opens returned 403; no full-text claims or replication",
+    "report": "paper/citation_report.md"
+  },
+  "checks": {
+    "citation_keys_consistent": true,
+    "internal_labels_and_references_checked": true,
+    "local_document_paths_checked": true,
+    "git_diff_check_passed": true,
+    "unique_labels": 28,
+    "cross_references": 15,
+    "local_document_paths_count": 99,
+    "scientific_method_and_prior_results_unchanged": true,
+    "abstract_key_values_match_results": true,
+    "rendered_bibliography_items": 15
+  },
+  "compilation": {
+    "engine": "XeLaTeX / natbib + BibTeX / unsrtnat",
+    "exit_code": 0,
+    "pages": 15,
+    "final_log_warnings": 0,
+    "pdf": "paper/build/main.pdf",
+    "pdf_sha256": "7f68a2dd95a6a46a0a534e52bea0d584509b187c3249faa5a7515b64fe3d85cb",
+    "all_pages_layout_overview_inspected": true,
+    "detailed_pages_inspected": [
+      1,
+      2,
+      13,
+      14,
+      15
+    ],
+    "visual_findings": "No clipping or overlap observed; Results barrier removes forced near-empty page; References start together on page 15. Not final submission acceptance."
+  },
+  "research_results_changed": false,
+  "models_or_simulations_rerun": false,
+  "source_changes_outside_new_prose": "Results only changes pagination comment and clearpage to FloatBarrier; Method unchanged; Discussion adds truthful Data and code availability paragraph and owner-deferred authorship comment. Main adds placeins and bibliography page/spacing.",
+  "pending": [
+    "Confirmed author identities and truthful contributions",
+    "Whole-paper editorial revision and final requirements/availability/back-matter review",
+    "Actual member review",
+    "Final submission packages and presentation/device acceptance"
+  ],
+  "author_details_status": "explicitly deferred by owner on 2026-11-07"
+}

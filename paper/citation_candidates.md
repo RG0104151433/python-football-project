@@ -1,5 +1,11 @@
 # 论文引用候选与核对工作包
 
+**R20261107-01更新：** Introduction新增Pollard/Armatas2017与Hvattum/Arntzen2010，共15条已用来源；实际可读范围为出版者搜索可见元数据/摘要，直接页面访问受限，详见[citation_report.md](citation_report.md)。本轮没有全文复现或新增外部模型对比；下方候选仍按原形成日期理解。
+
+**R20261106-07更新：** Discussion新增TrueSkill、Guo等校正论文、Dixon/Coles进球模型三条，共13条实际采用。它们仅支撑拟议方向，不代表本组已实施优化；元数据和真实阅读范围见[citation_report.md](citation_report.md)。下方候选包按形成日期保留，不要求凑数或把全部候选当已核实。
+
+**R20261106-06更新：** Method实际采用的10条已核实元数据/有限主张，写入references.bib及citation_map.csv，具体阅读范围见[citation_report.md](citation_report.md)。下方为11月5日候选工作包，未采用项仍是候选；不要求补足固定数量。当前使用natbib/BibTeX构建，早期biber说明不再是执行设置。
+
 **日期：** 2026-11-05  
 **执行：** Codex（AI）；未经组员本人复核。  
 **用途：** 给后续写作 Agent 一个可直接执行的引用清单；不是已完成的 `references.bib`。所有条目的作者、年份、题名、期刊/会议、卷期、页码、DOI/URL 必须逐条核对后才能写入 BibTeX。

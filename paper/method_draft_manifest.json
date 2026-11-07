@@ -1,0 +1,65 @@
+{
+  "decision_log_id": "R20261106-06",
+  "status": "method_and_results_first_drafts_not_complete_paper",
+  "executor": "Codex (AI)",
+  "human_review": false,
+  "execution_version": "HEAD e9d6882 plus uncommitted writing changes; exact files below",
+  "files": {
+    "paper/main.tex": "c62a9222396413248a67b04c07d8c2746bb5352fd969931f5e584552d757fd36",
+    "paper/sections/method.tex": "15886c342aa92181bbfd78d0be03b96e0661337b214f40c5af5dab0a82f43012",
+    "paper/figures/study_design.tex": "194c893c60ced8b25b26ccff60ecdd921b3e85c0a8b6311d7a73cfc42455a70d",
+    "paper/references.bib": "8a8a839d2ad2db1c3eaf66eaa0eb63b6062e6416937fa38d2a551e6f89205c90",
+    "paper/citation_map.csv": "c8a0ac25cec078b9f04fa537632b222a9e6946556181d0badea81d38b2206fb2",
+    "paper/citation_report.md": "5e29a212beee1dfd3455d8557c1f0a90de0ea1858136f56b9eeff35448cc8588",
+    "paper/method_evidence.json": "683719a87173ad2895e45fbb58ffecfc8b22926d492d3f84c95d3b3177f518c1"
+  },
+  "method_source_claims": 26,
+  "method_equations": 7,
+  "method_word_count": 1914,
+  "word_count_method": "TeXcount -brief -sum (default rules)",
+  "bibliography": {
+    "entries": 10,
+    "cited_keys": 10,
+    "metadata_and_limited_claims_checked": true,
+    "all_papers_full_read_or_replicated": false,
+    "report": "paper/citation_report.md",
+    "backend": "natbib with BibTeX, unsrtnat"
+  },
+  "figure_labels": {
+    "fig:study-design": 1,
+    "fig:predictive-models": 2,
+    "fig:history-windows": 3,
+    "fig:regional-metrics": 4,
+    "fig:issued-forecasts": 5
+  },
+  "new_figure": {
+    "path": "paper/figures/study_design.tex",
+    "kind": "native editable LaTeX vector diagram; no standalone PDF asserted",
+    "sha256": "194c893c60ced8b25b26ccff60ecdd921b3e85c0a8b6311d7a73cfc42455a70d"
+  },
+  "checks": {
+    "method_source_hashes_passed": 26,
+    "parameters_match_adopted_report": true,
+    "internal_labels_and_refs": "passed",
+    "citation_keys": "10/10; no missing or uncited entries",
+    "compile_exit_code": 0,
+    "final_log_warnings": [],
+    "rendered_pages": 12,
+    "visual_review": "All 12 draft pages inspected; revised Method and bibliography pages re-rendered and inspected. Other sections remain placeholders.",
+    "Results_source_unchanged": true,
+    "research_rerun": false
+  },
+  "pdf_preview": {
+    "path": "paper/build/main.pdf",
+    "sha256": "6926eb07c81ad3251e37fb9fe73966dec9d5e6b56ea62ba8a257b7afc17067c8",
+    "pages": 12
+  },
+  "previous_results_record": "paper/results_draft_manifest.json",
+  "pending": [
+    "Discussion and Conclusion",
+    "Introduction",
+    "Abstract",
+    "Verified author/contribution information",
+    "Whole-paper final references, compression and layout acceptance"
+  ]
+}

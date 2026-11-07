@@ -1,4 +1,161 @@
 % !TeX root = ../main.tex
 \section{Experimental Results and Analysis}
-% Organize the evidence by research question; identify the sample and scope.
-Draft section: substantive text has not been written.
+\label{sec:results}
+% Editorial revision R20261107-02; evidence IDs refer to results_evidence.json.
+
+We first describe historical patterns, then assess strength-informed predictions and their conditions of use. Table~\ref{tab:analysis-samples} distinguishes the samples for each task. Throughout, observed rates describe the retained history, model-conditional ranges use the assumptions in Section~\ref{sec:comparison-method}, and predictive scores concern home win versus draw or away win.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Samples used in the results. Rows represent analytical uses rather than successive exclusions from one denominator. The main window and regional comparisons share the same 9,727 matches.}
+\label{tab:analysis-samples}
+\begin{tabular}{p{6.1cm}rr}
+\toprule
+Analytical use & Period & Matches \\
+\midrule
+Historical patterns and conditional analysis & 1980--2024 & 24,917 \\
+Time-forward predictive comparison & 1990--2024 & 21,413 \\
+Complete history-window evaluation & 2000--2024 & 16,599 \\
+Main window and regional comparisons & 2010--2024 & 9,727 \\
+Issued prospective targets & 12--17 Nov 2026 & 52 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Historical Patterns and Their Limits}
+\label{sec:historical-results}
+% E31_ERA1/2, *_RANGE, E31_TYPE_*, E31_REGION_EXAMPLE/SUPPORT.
+
+For RQ1, we compared eras, match types, and geographic settings in the same 24,917 non-neutral matches. Direct rates summarize what occurred; common-reference comparisons additionally hold selected aspects of match composition fixed.
+
+Holding tournament composition fixed, the adjusted home-win difference was $+0.5019$ pp for the 2010s versus the 1980s and $+1.8100$ pp for 2020--2024 versus the 1980s. Corresponding ranges were approximately $[-61.66,62.66]$ and $[-100,100]$ pp (Table~\ref{tab:historical-contrasts}). The latter reaches the logical limits of a rate difference. Under the permitted long-term common variation, one observed history gives too little precision to resolve the direction of change. These broad ranges indicate uncertainty, not evidence that extreme changes occurred or that the true difference is zero.
+
+Friendlies had a lower observed home-win rate: $48.3955\%$ in 9,598 matches, compared with $51.6418\%$ in 15,319 other matches. The direct difference was $-3.2463$ pp; standardizing era composition reduced it to $-2.8831$ pp. Thus the distribution of years explains part of the aggregate gap. The conditional range, $[-7.2039,1.4377]$ pp, still crosses zero. The lower observed rate is a clear description of this history, while its direction under the specified generating mechanisms remains unresolved. The adjustment and overlapping rolling windows do not identify a causal match-type effect.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Selected contrasts in the 24,917-match historical sample, in percentage points. Ranges are model-conditional envelopes, not unconditional confidence intervals. Each adjustment uses its specified reference; the rows are not estimates of one interchangeable effect.}
+\label{tab:historical-contrasts}
+\begin{tabular}{p{7.4cm}rr}
+\toprule
+Contrast and adjustment & Estimate & Conditional range \\
+\midrule
+2010s minus 1980s, tournament composition & $+0.5019$ & $[-61.66,62.66]$ \\
+2020--2024 minus 1980s, tournament composition & $+1.8100$ & $[-100,100]$ \\
+Friendly minus other, direct & $-3.2463$ & --- \\
+Friendly minus other, era composition & $-2.8831$ & $[-7.2039,1.4377]$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Geographic comparisons depended on the opponents. Asian home teams won $13.6160$ pp less often against opponents from outside Asia than against opponents from the same study subregion. These groups contained 1,743 and 1,934 matches; the adjusted difference was $-14.6057$ pp. This comparison uses the study classifications in Section~\ref{sec:data-design} and describes a direction of play, not a ranking of regional ability.
+
+Of 29 predefined regional contrasts, 24 supported adjustment and five lacked required cells. Six of the 24 conditional ranges lay on one side of zero and 18 crossed it; missing comparisons were retained as unsupported. These differences describe the observed schedules and references. Their interpretation requires the explicit treatment of strength developed next.
+
+\subsection{Strength versus Context}
+\label{sec:strength-results}
+% E32_M0_nested/M1_strength/M3_nested, E32_CONTEXT_*, E32_ADMISSION.
+
+For RQ2, background-only, strength-only, and joint predictors were evaluated on the same 21,413 matches from 1990--2024, each using earlier information. This is a retrospective chronological comparison: the archive also informed development and selection, as described in Section~\ref{sec:data-design}.
+
+Strength supplied most of the improvement (Table~\ref{tab:predictive-models}; Figure~\ref{fig:predictive-models}). Mean log loss declined from $0.671936$ for background alone to $0.566020$ for strength alone and $0.563630$ for the joint predictor. The joint model's relative reductions were $16.12\%$ against background alone and $0.42\%$ against strength alone. Binary accuracy followed the same ordering: $58.19\%$, $69.83\%$, and $70.01\%$. These are home-win/non-home-win accuracies; relative loss reductions are a separate measure.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Same-match retrospective comparison, 1990--2024 ($n=21,413$). Bias is mean predicted home-win probability minus the observed rate, in percentage points. Lower loss and Brier score are preferable.}
+\label{tab:predictive-models}
+\begin{tabular}{lrrrr}
+\toprule
+Predictor & Log loss & Brier score & Accuracy (\%) & Bias (pp) \\
+\midrule
+Background only & 0.671936 & 0.239580 & 58.19 & $-0.0973$ \\
+Strength only & 0.566020 & 0.193698 & 69.83 & $+0.9308$ \\
+Strength and context & 0.563630 & 0.192657 & 70.01 & $+0.2398$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Adding context also reduced the Brier score from $0.193698$ to $0.192657$ and mean bias from $+0.9308$ to $+0.2398$ pp. Yet background-only had the smallest absolute mean bias while producing the worst probability scores. Matching the overall frequency can therefore conceal weak individual predictions; bias alone does not establish calibration across probability levels or groups.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{fig3_model_comparison.pdf}
+\caption{Strength accounts for most of the improvement in the same-match historical comparison ($n=21,413$, 1990--2024). Context supplies a smaller increment. Both vertical axes are truncated; magnitudes should be read from the labelled values rather than bar-height ratios. Accuracy is binary; no real-world significance interval for the loss difference is shown.}
+\label{fig:predictive-models}
+\end{figure}
+
+The separate conditional analysis uses 24,917 matches and a fixed reference. Its strength-adjusted friendly-minus-other contrast was $-3.4957$ pp, with a range from $-7.6712$ to $0.6797$ pp. The paired change after adding strength was $+0.3624$ pp, ranging from $-2.8619$ to $3.5868$ pp. The estimated change is modest and its direction unresolved. Because the reference and target differ, these values cannot be subtracted from the descriptive contrast in Table~\ref{tab:historical-contrasts}.
+
+Of 54 principal quantities assessed by simulation, 30 met the acceptance criteria. For 24 regional pre/post-strength changes, simulated reference truths were insufficiently precise, so those changes remain descriptive. This does not establish that their effects are absent. The adopted complete-history route validates conditional comparisons under the specified generators (Section~\ref{sec:evaluation-method}). Separately, the $0.42\%$ predictive loss gain lacks a real-data dependence-adjusted interval and is not established as a persistent future advantage.
+
+\subsection{Historical Information and Computational Trade-offs}
+\label{sec:history-results}
+% E33_LOSS_*, E33_COST_*, E33_SIX_COMBINATIONS, E33_ADAPTIVE.
+
+For RQ3, we varied the history used to reconstruct strength separately from the history used to estimate outcome probabilities. Evaluation covered 16,599 matches in 2000--2024, with 9,727 in the main 2010--2024 comparison. Among six tested combinations, cumulative history at both stages gave the lowest main-comparison log loss, $0.559135$ (Figure~\ref{fig:history-windows}). Annual selection using past performance gave $0.560159$. We therefore retain the cumulative default within these choices. This does not imply equal influence for every old match: the dynamic strength process allows ability to change.
+
+A 12-year outcome-learning window, with cumulative strength estimation fixed, increased loss from $0.559135$ to $0.561131$, or $0.3571\%$ using unrounded values. In the controlled timing batch, this component took $105.29$ rather than $312.58$ seconds, a $66.31\%$ saving. This quantifies a cost--prediction trade-off for that component. Other bars in Figure~\ref{fig:history-windows} came from different producer batches and are not standardized whole-pipeline benchmarks.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{fig4_history_windows.pdf}
+\caption{Six tested combinations of rating memory and outcome-learning history. Left: loss on the common 2010--2024 sample ($n=9,727$); segments only guide the eye between discrete choices. Right: recorded outcome-learning component times, not total pipeline times. The controlled saving in the text compares only all/12y with all/all; other producer batches are not standardized.}
+\label{fig:history-windows}
+\end{figure}
+
+\subsection{Regional Applicability and Probability Bias}
+\label{sec:regional-results}
+% E34_*; calibration and composition evidence extended in R20261106-05.
+
+The same 9,727-match main sample was used to ask whether the joint predictor was equally applicable across regions. Overall, its log loss was $0.559135$, compared with $0.562000$ for strength alone. This later-period comparison is separate from the 21,413-match evaluation above. Regional scores and bias varied (Table~\ref{tab:regional-diagnostics}; Figure~\ref{fig:regional-metrics}), but opponent balance and strength uncertainty also change which matches each region contains. The scores describe performance on those observed matches, not the inherent difficulty or quality of a region.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Regional diagnostics, 2010--2024. Losses compare identical matches within each row; bias concerns the joint predictor, in percentage points. Interpretations summarize finite checks, not confidence statements or a ranking between regions. Americas includes South America; Overall is not an independent additional sample.}
+\label{tab:regional-diagnostics}
+\begin{tabular}{lrrrrp{3.4cm}}
+\toprule
+Home region & $n$ & Strength loss & Joint loss & Bias (pp) & Interpretation \\
+\midrule
+Europe & 3,322 & 0.543239 & 0.539498 & $+0.2189$ & Increment retained \\
+Asia & 2,540 & 0.546894 & 0.545041 & $-0.8765$ & Increment retained \\
+Africa & 2,058 & 0.613617 & 0.612607 & $+0.6854$ & Increment sensitive \\
+Americas & 1,659 & 0.559276 & 0.554578 & $+0.1858$ & Increment retained \\
+Oceania & 148 & 0.555130 & 0.549289 & $+2.9572$ & Sparse adjusted support \\
+Overall & 9,727 & 0.562000 & 0.559135 & $+0.0676$ & Pooled comparison \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The small context increments for Europe, Asia, and the Americas retained their direction under the checked year and team deletions and alternative references. This provides limited historical support for a complementary role of context in these groups. The African increment was more sensitive: its sign reversed after removing 2011 or evaluation matches involving Egypt. This does not imply that strength-based prediction has no value in Africa; it concerns the smaller increment from adding context to strength.
+
+Africa illustrates how overall mean bias can conceal diagnostic structure. In the low strength-uncertainty category, the 20--40\% predicted-probability bin contained 225 matches, with mean predicted probability $31.21\%$ and observed home-win rate $34.22\%$. In the 60--80\% bin, 287 matches had mean predicted probability $69.17\%$ and observed rate $65.85\%$. The lower bin was underpredicted and the higher bin overpredicted; these directions persisted in the specified checks. Standardizing the broad strength-gap and uncertainty composition narrowed the Africa--Europe loss gap but did not remove it. This identifies a residual diagnostic issue without establishing its cause or demonstrating that all uncertainty has been captured.
+
+Additional comparisons require restraint. South America's ordering relative to the rest of the Americas changed under some deletions and alternative references. In Oceania, 148 matches were spread over nine adjustment cells, one containing only two matches; deleting matches involving certain teams left a required cell empty. The adjusted comparison was consequently sensitive to a few observations and could become unsupported. These checks held predictions fixed: they did not erase deleted matches from the original learning history or refit each model. They assess sensitivity of the evaluation summary, not a wholly retrained system or a real-world confidence interval.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{fig5_regional_metrics.pdf}
+\caption{Regional probability quality and mean bias on the main 2010--2024 sample. The displayed regional groups contain 9,579 of 9,727 matches; Overall additionally includes Oceania's 148 matches. Positive bias means average overprediction. Point scores alone do not establish stable increments: finite checks supply the separate sensitivity evidence discussed in the text.}
+\label{fig:regional-metrics}
+\end{figure}
+
+\subsection{Prospective Application}
+\label{sec:prospective-results}
+% E35_ISSUED and E35_CASE_005/010/048/CZE_SPA.
+
+We applied the model to 52 Nations League fixtures scheduled for 12--17 November 2026 and sealed the release on 2 November at 04:07:15 UTC. Strength used accepted results through 6 October 2026; coefficient training ended on 29 December 2025. Both rounds use this same information set. The joint model issued 49 binary predictions and withheld three involving third-country venues outside its application rule. The rating model separately supplied auxiliary win--draw--loss probabilities for all 52 targets; these do not replace withheld joint predictions.
+
+Of the 49 joint predictions, 21 favoured a home win and 28 a non-home win; 32 strength-induced ranges crossed the $50\%$ decision threshold. England--Croatia had home-win probability $63.50\%$ (range $43.54$--$81.28\%$); Netherlands--Greece had $50.38\%$ ($31.02$--$69.68\%$); and Czech Republic--Spain had $3.83\%$ ($0.76$--$9.38\%$). For Ukraine--Georgia, the joint estimate was withheld and auxiliary home/draw/away probabilities were $52.26\%$, $25.39\%$, and $22.35\%$. Figure~\ref{fig:issued-forecasts} displays central 90\% ranges from latent strength uncertainty with coefficients fixed; they exclude parameter and model error.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{fig6_forecast_examples.pdf}
+\caption{Examples from the sealed 2 November 2026 release for 12--17 November fixtures. Left: joint binary probabilities with fixed-coefficient latent-strength central 90\% ranges. Right: auxiliary native win--draw--loss probabilities for Ukraine--Georgia, for which the main model withheld its estimate under the venue rule. Actual outcomes are absent; Table~\ref{tab:predictive-models}'s historical accuracy is not an accuracy estimate for these fixtures.}
+\label{fig:issued-forecasts}
+\end{figure}
+
+With outcomes still absent from the sealed ledger, this release demonstrates prospective application. Its predictive performance remains to be evaluated.
+
+% Keep Results floats before Discussion without forcing an otherwise empty page.
+\FloatBarrier

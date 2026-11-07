@@ -1,0 +1,1049 @@
+{
+  "schema_version": 1,
+  "decision_log_id": "R20261106-04",
+  "status": "source_bound_results_first_draft_support",
+  "executor": "Codex (AI)",
+  "human_review": false,
+  "scope": "Selected evidence for finalized Results 3.1--3.5; source rows preserved; no new model estimates.",
+  "sources": {
+    "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_contrasts.csv": {
+      "sha256": "2118c13a38217d193f873a6e6acfb90bc1bd112be3761b74c231b37c03523e72"
+    },
+    "outputs/tables/reliability/applied-ab04b82da3b12ca434239452/interval_results.csv": {
+      "sha256": "47e882078fa013b387f152b8fd903d5d46c43f1695ffdd805dd78960e86ddbb1"
+    },
+    "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/type_estimates.csv": {
+      "sha256": "ca14f604568b54905c6800201152609877f43c0db9228e41dd789219eb8468ef"
+    },
+    "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/type_differences.csv": {
+      "sha256": "db684da0d555f1704642caa411f6f8adccbabff941dde76cdb8ae8def6f4088a"
+    },
+    "outputs/tables/regions/regions-0a1c61664a722e6c641f/contrast_results.csv": {
+      "sha256": "c7baa604defcaca867fab2b460b12f9a61d1af690620ba12829ad5695452b27f"
+    },
+    "outputs/tables/strength_joint/rolling-prediction-4722c7b1b5f63cef35e3/group_metrics.csv": {
+      "sha256": "704b076b325d06e751f13357a237e6a6213d8230fc3ba362606902443137a70d"
+    },
+    "outputs/logs/strength_q5_closeout/q5-closeout-1c4c593487304afa0f6a/presentation_data.json": {
+      "sha256": "648728664c6e941f463fbc246e8343005407af1299c53c7cb60bd42cacaae4aa"
+    },
+    "outputs/logs/strength_q5_closeout/q5-closeout-1c4c593487304afa0f6a/object_disposition.csv": {
+      "sha256": "cfdd32a82612830810c958dcfeecdea9ea2d6268b505189d71837ff2c6c44274"
+    },
+    "outputs/tables/history_window/joint-review-4888d987645daee73e19/combination_metrics.csv": {
+      "sha256": "95d1b236f57c1a41ef041cbf11ff2507eae5da4a55dfb441a01095ce25539c4a"
+    },
+    "outputs/tables/history_window/joint-review-4888d987645daee73e19/cost_components.csv": {
+      "sha256": "449ef98c159aec00c6a7c6d8a369785e7b1937399d75fff17a18423ebf1eb85d"
+    },
+    "outputs/tables/history_window/outcome-0a52e15e2ae493570acb/adaptive_metrics.csv": {
+      "sha256": "62248e1a13c2071636d306708953216ab1c912f300ba9124afe72c9c0a4b9735"
+    },
+    "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_metrics.csv": {
+      "sha256": "f981a6962f7429951d485f5f71fc4c6ce8a7bd4c73b7580f4ed7d720feddfb56"
+    },
+    "outputs/tables/regional_effectiveness/regional-stability-366606ed5bca8e0fe6b8/conclusion_review.csv": {
+      "sha256": "8e439b5290533580fbcd7f9eb8dbeb765e3aebb20a8bb4e92d5988d3f295bc9e"
+    },
+    "outputs/tables/future_predictions/future-unl-61f639846da9193d4cca/forecasts.csv": {
+      "sha256": "58fba7aaad2b1708c13133fe7cdc201a75adfe23405ca77edb27e636ff4c7280"
+    },
+    "outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/africa_calibration.csv": {
+      "sha256": "51eabcbc71f1ed87daeed4469537959fe97c44771619085d1a0caa31948525fd"
+    },
+    "outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/standardized_metrics.csv": {
+      "sha256": "1387639c75f223cb9256577ebba8fa2fd5cd0d0684e78b0b3d31a321da4a98b6"
+    },
+    "outputs/tables/regional_effectiveness/regional-stability-366606ed5bca8e0fe6b8/deletion_results.csv": {
+      "sha256": "5476d548bd4b7b6ad03714c29da41b29dc1364083e6aeebec6e9ffd77d62f95d"
+    }
+  },
+  "entries": [
+    {
+      "id": "E31_ERA1",
+      "section": "3.1",
+      "source": "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_contrasts.csv",
+      "row_selector": {
+        "contrast_id": "2010s_minus_1980s",
+        "estimand": "standardized_difference",
+        "reference_id": "reference-90003d0bdb8d6f65cead"
+      },
+      "values": {
+        "estimate": "0.5019322388",
+        "unit": "percentage_points",
+        "sample_id": "sample-3bc69e2cc4f843242018"
+      }
+    },
+    {
+      "id": "E31_ERA1_RANGE",
+      "section": "3.1",
+      "source": "outputs/tables/reliability/applied-ab04b82da3b12ca434239452/interval_results.csv",
+      "row_selector": {
+        "target_id": "Q1:2010s_minus_1980s:adjusted"
+      },
+      "values": {
+        "point_display": "0.50193223879741988",
+        "lower_display": "-61.655329818430168",
+        "upper_display": "62.659194296025014",
+        "status": "model_conditional",
+        "scope": "Model-conditional original-design envelope; finite-reference-law calibration does not certify real football coverage. Variants are descriptive only."
+      }
+    },
+    {
+      "id": "E31_ERA2",
+      "section": "3.1",
+      "source": "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_contrasts.csv",
+      "row_selector": {
+        "contrast_id": "2020_2024_minus_1980s",
+        "estimand": "standardized_difference",
+        "reference_id": "reference-90003d0bdb8d6f65cead"
+      },
+      "values": {
+        "estimate": "1.8100294841",
+        "unit": "percentage_points",
+        "sample_id": "sample-3bc69e2cc4f843242018"
+      }
+    },
+    {
+      "id": "E31_ERA2_RANGE",
+      "section": "3.1",
+      "source": "outputs/tables/reliability/applied-ab04b82da3b12ca434239452/interval_results.csv",
+      "row_selector": {
+        "target_id": "Q1:2020_2024_minus_1980s:adjusted"
+      },
+      "values": {
+        "point_display": "1.8100294840621263",
+        "lower_display": "-100",
+        "upper_display": "100",
+        "status": "model_conditional",
+        "scope": "Model-conditional original-design envelope; finite-reference-law calibration does not certify real football coverage. Variants are descriptive only."
+      }
+    },
+    {
+      "id": "E31_RATE_friendly",
+      "section": "3.1",
+      "source": "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/type_estimates.csv",
+      "row_selector": {
+        "scope": "overall",
+        "period_id": "all",
+        "estimand": "raw",
+        "tournament_group": "friendly"
+      },
+      "values": {
+        "n_matches": "9598",
+        "estimate": "0.4839549906",
+        "unit": "probability"
+      }
+    },
+    {
+      "id": "E31_RATE_non_friendly",
+      "section": "3.1",
+      "source": "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/type_estimates.csv",
+      "row_selector": {
+        "scope": "overall",
+        "period_id": "all",
+        "estimand": "raw",
+        "tournament_group": "non_friendly"
+      },
+      "values": {
+        "n_matches": "15319",
+        "estimate": "0.5164175207",
+        "unit": "probability"
+      }
+    },
+    {
+      "id": "E31_TYPE_raw",
+      "section": "3.1",
+      "source": "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/type_differences.csv",
+      "row_selector": {
+        "contrast_id": "difference:overall:all:raw"
+      },
+      "values": {
+        "estimate": "-3.2462530103",
+        "unit": "percentage_points",
+        "n_friendly": "9598",
+        "n_non_friendly": "15319"
+      }
+    },
+    {
+      "id": "E31_TYPE_era_standardized",
+      "section": "3.1",
+      "source": "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/type_differences.csv",
+      "row_selector": {
+        "contrast_id": "difference:overall:all:era_standardized"
+      },
+      "values": {
+        "estimate": "-2.8830739281",
+        "unit": "percentage_points",
+        "n_friendly": "9598",
+        "n_non_friendly": "15319"
+      }
+    },
+    {
+      "id": "E31_TYPE_RANGE",
+      "section": "3.1",
+      "source": "outputs/tables/reliability/applied-ab04b82da3b12ca434239452/interval_results.csv",
+      "row_selector": {
+        "target_id": "Q2:difference:overall:all:era_standardized"
+      },
+      "values": {
+        "point_display": "-2.8830739281218429",
+        "lower_display": "-7.2038973025815771",
+        "upper_display": "1.4377494463378913",
+        "status": "model_conditional"
+      }
+    },
+    {
+      "id": "E31_REGION_EXAMPLE",
+      "section": "3.1",
+      "source": "outputs/tables/regions/regions-0a1c61664a722e6c641f/contrast_results.csv",
+      "row_selector": {
+        "contrast_id": "B_ASIA"
+      },
+      "values": {
+        "label": "亚洲主队：洲外减同分区",
+        "arm1": "B_ASIA_CROSS",
+        "arm2": "B_ASIA_SAME",
+        "n_arm1": "1743",
+        "n_arm2": "1934",
+        "direct_difference_pp": "-13.616024149782763",
+        "adjusted_difference_pp": "-14.605655997311768",
+        "adjusted_status": "ok"
+      }
+    },
+    {
+      "id": "E31_REGION_SUPPORT",
+      "section": "3.1",
+      "source": "outputs/tables/reliability/applied-ab04b82da3b12ca434239452/interval_results.csv",
+      "row_filter": {
+        "question": "Q3",
+        "family": "CORE",
+        "kind": "difference"
+      },
+      "operation": "Count statuses; among model_conditional rows test lower>0 or upper<0; not an unconditional significance claim.",
+      "result": {
+        "registered": 29,
+        "model_conditional": 24,
+        "unsupported": 5,
+        "one_sided": 6,
+        "cross_zero": 18
+      }
+    },
+    {
+      "id": "E32_M0_nested",
+      "section": "3.2",
+      "source": "outputs/tables/strength_joint/rolling-prediction-4722c7b1b5f63cef35e3/group_metrics.csv",
+      "row_selector": {
+        "group": "all",
+        "model_id": "M0_nested"
+      },
+      "values": {
+        "matches": "21413",
+        "log_loss": "0.6719362500",
+        "brier": "0.2395801272",
+        "binary_accuracy": "0.5819362070",
+        "calibration_bias_pp": "-0.0972651198"
+      }
+    },
+    {
+      "id": "E32_M1_strength",
+      "section": "3.2",
+      "source": "outputs/tables/strength_joint/rolling-prediction-4722c7b1b5f63cef35e3/group_metrics.csv",
+      "row_selector": {
+        "group": "all",
+        "model_id": "M1_strength"
+      },
+      "values": {
+        "matches": "21413",
+        "log_loss": "0.5660201031",
+        "brier": "0.1936981122",
+        "binary_accuracy": "0.6983141083",
+        "calibration_bias_pp": "0.9307606420"
+      }
+    },
+    {
+      "id": "E32_M3_nested",
+      "section": "3.2",
+      "source": "outputs/tables/strength_joint/rolling-prediction-4722c7b1b5f63cef35e3/group_metrics.csv",
+      "row_selector": {
+        "group": "all",
+        "model_id": "M3_nested"
+      },
+      "values": {
+        "matches": "21413",
+        "log_loss": "0.5636301114",
+        "brier": "0.1926573243",
+        "binary_accuracy": "0.7000887311",
+        "calibration_bias_pp": "0.2397569104"
+      }
+    },
+    {
+      "id": "E32_CONTEXT_level",
+      "section": "3.2",
+      "source": "outputs/logs/strength_q5_closeout/q5-closeout-1c4c593487304afa0f6a/presentation_data.json",
+      "json_array": "ranges",
+      "row_selector": {
+        "registry_id": "S6:level:Q2:difference:overall:all:era_standardized:full"
+      },
+      "values": {
+        "reference_id": "reference-ff0edb4902d87d9acc5e",
+        "estimate_pp": "-3.4957250574",
+        "lower_pp": "-7.6711548663",
+        "upper_pp": "0.6797047515",
+        "status": "MODEL_CONDITIONAL_REFERENCE",
+        "adopted_route": "A",
+        "unconditional_real_coverage_certified": "false"
+      }
+    },
+    {
+      "id": "E32_CONTEXT_paired_change",
+      "section": "3.2",
+      "source": "outputs/logs/strength_q5_closeout/q5-closeout-1c4c593487304afa0f6a/presentation_data.json",
+      "json_array": "ranges",
+      "row_selector": {
+        "registry_id": "S6:paired_change:Q2:difference:overall:all:era_standardized:full"
+      },
+      "values": {
+        "reference_id": "reference-ff0edb4902d87d9acc5e",
+        "estimate_pp": "0.3624486383",
+        "lower_pp": "-2.8619058658",
+        "upper_pp": "3.5868031424",
+        "status": "MODEL_CONDITIONAL_REFERENCE",
+        "adopted_route": "A",
+        "unconditional_real_coverage_certified": "false"
+      }
+    },
+    {
+      "id": "E32_ADMISSION",
+      "section": "3.2",
+      "source": "outputs/logs/strength_q5_closeout/q5-closeout-1c4c593487304afa0f6a/object_disposition.csv",
+      "row_filter": {
+        "family": "F_PRIMARY_CONDITIONAL"
+      },
+      "operation": "Count primary object status; auxiliary and exploratory objects excluded.",
+      "result": {
+        "MODEL_CONDITIONAL_REFERENCE": 30,
+        "TRUTH_PRECISION_NOT_ADMITTED": 24
+      }
+    },
+    {
+      "id": "E33_LOSS_cumulative_1950__outcome_cumulative",
+      "section": "3.3",
+      "source": "outputs/tables/history_window/joint-review-4888d987645daee73e19/combination_metrics.csv",
+      "row_selector": {
+        "combination_id": "cumulative_1950__outcome_cumulative",
+        "scope": "evaluation"
+      },
+      "values": {
+        "matches": "9727",
+        "primary_log_loss": "0.5591345107",
+        "mean_loss_minus_baseline": "0.0000000000"
+      }
+    },
+    {
+      "id": "E33_COST_cumulative_1950__outcome_cumulative",
+      "section": "3.3",
+      "source": "outputs/tables/history_window/joint-review-4888d987645daee73e19/cost_components.csv",
+      "row_selector": {
+        "combination_id": "cumulative_1950__outcome_cumulative"
+      },
+      "values": {
+        "rating_policy": "cumulative_1950",
+        "outcome_window": "cumulative",
+        "outcome_job_seconds": "312.5779303000",
+        "outcome_cost_scope": "R10 controlled batch",
+        "cross_batch_times_not_standardized": "true"
+      }
+    },
+    {
+      "id": "E33_LOSS_cumulative_1950__outcome_12y",
+      "section": "3.3",
+      "source": "outputs/tables/history_window/joint-review-4888d987645daee73e19/combination_metrics.csv",
+      "row_selector": {
+        "combination_id": "cumulative_1950__outcome_12y",
+        "scope": "evaluation"
+      },
+      "values": {
+        "matches": "9727",
+        "primary_log_loss": "0.5611310085",
+        "mean_loss_minus_baseline": "0.0019964978"
+      }
+    },
+    {
+      "id": "E33_COST_cumulative_1950__outcome_12y",
+      "section": "3.3",
+      "source": "outputs/tables/history_window/joint-review-4888d987645daee73e19/cost_components.csv",
+      "row_selector": {
+        "combination_id": "cumulative_1950__outcome_12y"
+      },
+      "values": {
+        "rating_policy": "cumulative_1950",
+        "outcome_window": "12y",
+        "outcome_job_seconds": "105.2936228998",
+        "outcome_cost_scope": "R10 controlled batch",
+        "cross_batch_times_not_standardized": "true"
+      }
+    },
+    {
+      "id": "E33_SIX_COMBINATIONS",
+      "section": "3.3",
+      "source": "outputs/tables/history_window/joint-review-4888d987645daee73e19/combination_metrics.csv",
+      "row_filter": {
+        "scope": "evaluation"
+      },
+      "operation": "Descriptive minimum among the six evaluated combinations; no universal optimality claim.",
+      "result": {
+        "comparisons": 6,
+        "lowest_loss_combination": "cumulative_1950__outcome_cumulative",
+        "losses": {
+          "annual_reset_20y__outcome_12y": "0.5612523553",
+          "annual_reset_20y__outcome_cumulative": "0.5592984749",
+          "annual_reset_12y__outcome_12y": "0.5619381168",
+          "annual_reset_12y__outcome_cumulative": "0.5600980138",
+          "cumulative_1950__outcome_12y": "0.5611310085",
+          "cumulative_1950__outcome_cumulative": "0.5591345107"
+        }
+      }
+    },
+    {
+      "id": "E33_ADAPTIVE",
+      "section": "3.3",
+      "source": "outputs/tables/history_window/outcome-0a52e15e2ae493570acb/adaptive_metrics.csv",
+      "row_selector": {
+        "group": "adaptive_evaluation",
+        "window": "adaptive-prior-years"
+      },
+      "values": {
+        "matches": "9727",
+        "primary_log_loss": "0.5601588244"
+      }
+    },
+    {
+      "id": "E34_ALL_joint",
+      "section": "3.4",
+      "source": "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_metrics.csv",
+      "row_selector": {
+        "scope": "main",
+        "group": "ALL",
+        "model": "joint"
+      },
+      "values": {
+        "label": "全体",
+        "matches": "9727",
+        "log_loss": "0.5591345107",
+        "accuracy": "0.7045337720",
+        "bias_pp": "0.0675805390"
+      }
+    },
+    {
+      "id": "E34_ALL_strength",
+      "section": "3.4",
+      "source": "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_metrics.csv",
+      "row_selector": {
+        "scope": "main",
+        "group": "ALL",
+        "model": "strength"
+      },
+      "values": {
+        "label": "全体",
+        "matches": "9727",
+        "log_loss": "0.5620001621",
+        "accuracy": "0.7030944793",
+        "bias_pp": "1.5383479122"
+      }
+    },
+    {
+      "id": "E34_002_joint",
+      "section": "3.4",
+      "source": "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_metrics.csv",
+      "row_selector": {
+        "scope": "main",
+        "group": "002",
+        "model": "joint"
+      },
+      "values": {
+        "label": "非洲",
+        "matches": "2058",
+        "log_loss": "0.6126066840",
+        "accuracy": "0.6618075802",
+        "bias_pp": "0.6854465542"
+      }
+    },
+    {
+      "id": "E34_002_strength",
+      "section": "3.4",
+      "source": "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_metrics.csv",
+      "row_selector": {
+        "scope": "main",
+        "group": "002",
+        "model": "strength"
+      },
+      "values": {
+        "label": "非洲",
+        "matches": "2058",
+        "log_loss": "0.6136173749",
+        "accuracy": "0.6520894072",
+        "bias_pp": "-0.4591893423"
+      }
+    },
+    {
+      "id": "E34_STABILITY_T01",
+      "section": "3.4",
+      "source": "outputs/tables/regional_effectiveness/regional-stability-366606ed5bca8e0fe6b8/conclusion_review.csv",
+      "row_selector": {
+        "target_id": "T01"
+      },
+      "values": {
+        "label": "欧洲：联合减仅实力",
+        "evidence": "direction_preserved_in_checked_variations",
+        "deletion_sign_changes": "0",
+        "reference_sign_changes": "0",
+        "unsupported_variations": "0",
+        "formal_inference": "false",
+        "refitted": "false"
+      }
+    },
+    {
+      "id": "E34_STABILITY_T02",
+      "section": "3.4",
+      "source": "outputs/tables/regional_effectiveness/regional-stability-366606ed5bca8e0fe6b8/conclusion_review.csv",
+      "row_selector": {
+        "target_id": "T02"
+      },
+      "values": {
+        "label": "亚洲：联合减仅实力",
+        "evidence": "direction_preserved_in_checked_variations",
+        "deletion_sign_changes": "0",
+        "reference_sign_changes": "0",
+        "unsupported_variations": "0",
+        "formal_inference": "false",
+        "refitted": "false"
+      }
+    },
+    {
+      "id": "E34_STABILITY_T03",
+      "section": "3.4",
+      "source": "outputs/tables/regional_effectiveness/regional-stability-366606ed5bca8e0fe6b8/conclusion_review.csv",
+      "row_selector": {
+        "target_id": "T03"
+      },
+      "values": {
+        "label": "非洲：联合减仅实力",
+        "evidence": "sensitive",
+        "deletion_sign_changes": "2",
+        "reference_sign_changes": "0",
+        "unsupported_variations": "0",
+        "formal_inference": "false",
+        "refitted": "false"
+      }
+    },
+    {
+      "id": "E34_STABILITY_T04",
+      "section": "3.4",
+      "source": "outputs/tables/regional_effectiveness/regional-stability-366606ed5bca8e0fe6b8/conclusion_review.csv",
+      "row_selector": {
+        "target_id": "T04"
+      },
+      "values": {
+        "label": "美洲：联合减仅实力",
+        "evidence": "direction_preserved_in_checked_variations",
+        "deletion_sign_changes": "0",
+        "reference_sign_changes": "0",
+        "unsupported_variations": "0",
+        "formal_inference": "false",
+        "refitted": "false"
+      }
+    },
+    {
+      "id": "E34_STABILITY_T10",
+      "section": "3.4",
+      "source": "outputs/tables/regional_effectiveness/regional-stability-366606ed5bca8e0fe6b8/conclusion_review.csv",
+      "row_selector": {
+        "target_id": "T10"
+      },
+      "values": {
+        "label": "南美减其余美洲：原始损失差",
+        "evidence": "sensitive",
+        "deletion_sign_changes": "1",
+        "reference_sign_changes": "0",
+        "unsupported_variations": "0",
+        "formal_inference": "false",
+        "refitted": "false"
+      }
+    },
+    {
+      "id": "E34_STABILITY_T11",
+      "section": "3.4",
+      "source": "outputs/tables/regional_effectiveness/regional-stability-366606ed5bca8e0fe6b8/conclusion_review.csv",
+      "row_selector": {
+        "target_id": "T11"
+      },
+      "values": {
+        "label": "南美减其余美洲：共同构成损失差",
+        "evidence": "sensitive",
+        "deletion_sign_changes": "17",
+        "reference_sign_changes": "1",
+        "unsupported_variations": "0",
+        "formal_inference": "false",
+        "refitted": "false"
+      }
+    },
+    {
+      "id": "E34_STABILITY_T12",
+      "section": "3.4",
+      "source": "outputs/tables/regional_effectiveness/regional-stability-366606ed5bca8e0fe6b8/conclusion_review.csv",
+      "row_selector": {
+        "target_id": "T12"
+      },
+      "values": {
+        "label": "大洋洲：共同构成联合减仅实力",
+        "evidence": "sensitive",
+        "deletion_sign_changes": "3",
+        "reference_sign_changes": "1",
+        "unsupported_variations": "2",
+        "formal_inference": "false",
+        "refitted": "false"
+      }
+    },
+    {
+      "id": "E34_STABILITY_T13",
+      "section": "3.4",
+      "source": "outputs/tables/regional_effectiveness/regional-stability-366606ed5bca8e0fe6b8/conclusion_review.csv",
+      "row_selector": {
+        "target_id": "T13"
+      },
+      "values": {
+        "label": "大洋洲：共同构成平均偏差",
+        "evidence": "direction_preserved_with_support_gaps",
+        "deletion_sign_changes": "0",
+        "reference_sign_changes": "0",
+        "unsupported_variations": "2",
+        "formal_inference": "false",
+        "refitted": "false"
+      }
+    },
+    {
+      "id": "E35_ISSUED",
+      "section": "3.5",
+      "source": "outputs/tables/future_predictions/future-unl-61f639846da9193d4cca/forecasts.csv",
+      "row_filter": {},
+      "operation": "Count issued/withheld statuses, picks, p05<=0.5<=p95, and received flags in the sealed ledger; does not fetch current results.",
+      "result": {
+        "targets": 52,
+        "issued_binary": 49,
+        "withheld": 3,
+        "home_picks": 21,
+        "nonhome_picks": 28,
+        "ranges_cross_0_5": 32,
+        "actual_results_received": 0
+      }
+    },
+    {
+      "id": "E35_CASE_005",
+      "section": "3.5",
+      "source": "outputs/tables/future_predictions/future-unl-61f639846da9193d4cca/forecasts.csv",
+      "row_selector": {
+        "match_id": "future:unl-2026:005"
+      },
+      "values": {
+        "date": "2026-11-12",
+        "home_team": "England",
+        "away_team": "Croatia",
+        "main_status": "issued_binary",
+        "main_home_probability": "0.6350276272",
+        "latent_probability_p05": "0.4354124155",
+        "latent_probability_p95": "0.8127601376",
+        "native_home_probability": "0.7641698772",
+        "native_draw_probability": "0.1550197279",
+        "native_away_probability": "0.0808103949",
+        "issued_at_utc": "2026-11-02T04:07:15.368719+00:00",
+        "actual_latest_learning_date": "2026-10-06",
+        "coefficient_training_max": "2025-12-29",
+        "uncertainty_type": "conditional latent-strength90, not confidence/parameter/model error interval"
+      }
+    },
+    {
+      "id": "E35_CASE_010",
+      "section": "3.5",
+      "source": "outputs/tables/future_predictions/future-unl-61f639846da9193d4cca/forecasts.csv",
+      "row_selector": {
+        "match_id": "future:unl-2026:010"
+      },
+      "values": {
+        "date": "2026-11-13",
+        "home_team": "Netherlands",
+        "away_team": "Greece",
+        "main_status": "issued_binary",
+        "main_home_probability": "0.5037620732",
+        "latent_probability_p05": "0.3101626214",
+        "latent_probability_p95": "0.6967733592",
+        "native_home_probability": "0.5976972809",
+        "native_draw_probability": "0.2326264202",
+        "native_away_probability": "0.1696762990",
+        "issued_at_utc": "2026-11-02T04:07:15.368719+00:00",
+        "actual_latest_learning_date": "2026-10-06",
+        "coefficient_training_max": "2025-12-29",
+        "uncertainty_type": "conditional latent-strength90, not confidence/parameter/model error interval"
+      }
+    },
+    {
+      "id": "E35_CASE_048",
+      "section": "3.5",
+      "source": "outputs/tables/future_predictions/future-unl-61f639846da9193d4cca/forecasts.csv",
+      "row_selector": {
+        "match_id": "future:unl-2026:048"
+      },
+      "values": {
+        "date": "2026-11-17",
+        "home_team": "Ukraine",
+        "away_team": "Georgia",
+        "main_status": "withheld_third_country_venue",
+        "main_home_probability": "",
+        "latent_probability_p05": "",
+        "latent_probability_p95": "",
+        "native_home_probability": "0.5225728366",
+        "native_draw_probability": "0.2538866820",
+        "native_away_probability": "0.2235404814",
+        "issued_at_utc": "2026-11-02T04:07:15.368719+00:00",
+        "actual_latest_learning_date": "2026-10-06",
+        "coefficient_training_max": "2025-12-29",
+        "uncertainty_type": "conditional latent-strength90, not confidence/parameter/model error interval"
+      }
+    },
+    {
+      "id": "E34_STABILITY_T08",
+      "section": "3.4",
+      "source": "outputs/tables/regional_effectiveness/regional-stability-366606ed5bca8e0fe6b8/conclusion_review.csv",
+      "row_selector": {
+        "target_id": "T08"
+      },
+      "values": {
+        "label": "非洲低评分不确定性：概率档1偏差",
+        "evidence": "direction_preserved_in_checked_variations",
+        "deletion_sign_changes": "0",
+        "reference_sign_changes": "0",
+        "unsupported_variations": "0",
+        "formal_inference": "false",
+        "refitted": "false"
+      }
+    },
+    {
+      "id": "E34_STABILITY_T09",
+      "section": "3.4",
+      "source": "outputs/tables/regional_effectiveness/regional-stability-366606ed5bca8e0fe6b8/conclusion_review.csv",
+      "row_selector": {
+        "target_id": "T09"
+      },
+      "values": {
+        "label": "非洲低评分不确定性：概率档3偏差",
+        "evidence": "direction_preserved_in_checked_variations",
+        "deletion_sign_changes": "0",
+        "reference_sign_changes": "0",
+        "unsupported_variations": "0",
+        "formal_inference": "false",
+        "refitted": "false"
+      }
+    },
+    {
+      "id": "E34_AFRICA_BIN_1",
+      "section": "3.4",
+      "source": "outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/africa_calibration.csv",
+      "row_selector": {
+        "dimension": "uncertainty",
+        "level": "low",
+        "probability_bin": "1"
+      },
+      "values": {
+        "matches": "225",
+        "mean_probability": "0.3120943619",
+        "observed_home_win_rate": "0.3422222222",
+        "bias_pp": "-3.0127860287",
+        "status": "descriptive"
+      }
+    },
+    {
+      "id": "E34_AFRICA_BIN_3",
+      "section": "3.4",
+      "source": "outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/africa_calibration.csv",
+      "row_selector": {
+        "dimension": "uncertainty",
+        "level": "low",
+        "probability_bin": "3"
+      },
+      "values": {
+        "matches": "287",
+        "mean_probability": "0.6916905806",
+        "observed_home_win_rate": "0.6585365854",
+        "bias_pp": "3.3153995246",
+        "status": "descriptive"
+      }
+    },
+    {
+      "id": "E34_STANDARDIZED_150",
+      "section": "3.4",
+      "source": "outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/standardized_metrics.csv",
+      "row_selector": {
+        "comparison_set": "primary5",
+        "group": "150",
+        "model": "joint"
+      },
+      "values": {
+        "full_matches": "3322",
+        "retained_matches": "3322",
+        "common_cells": "9",
+        "full_loss": "0.5394983123",
+        "standardized_loss": "0.5419162561",
+        "status": "descriptive_common_mix"
+      }
+    },
+    {
+      "id": "E34_STANDARDIZED_002",
+      "section": "3.4",
+      "source": "outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/standardized_metrics.csv",
+      "row_selector": {
+        "comparison_set": "primary5",
+        "group": "002",
+        "model": "joint"
+      },
+      "values": {
+        "full_matches": "2058",
+        "retained_matches": "2058",
+        "common_cells": "9",
+        "full_loss": "0.6126066840",
+        "standardized_loss": "0.5946198099",
+        "status": "descriptive_common_mix"
+      }
+    },
+    {
+      "id": "E34_150_joint",
+      "section": "3.4",
+      "source": "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_metrics.csv",
+      "row_selector": {
+        "scope": "main",
+        "group": "150",
+        "model": "joint"
+      },
+      "values": {
+        "label": "欧洲",
+        "matches": "3322",
+        "log_loss": "0.5394983123",
+        "accuracy": "0.7239614690",
+        "bias_pp": "0.2188855719"
+      }
+    },
+    {
+      "id": "E34_150_strength",
+      "section": "3.4",
+      "source": "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_metrics.csv",
+      "row_selector": {
+        "scope": "main",
+        "group": "150",
+        "model": "strength"
+      },
+      "values": {
+        "label": "欧洲",
+        "matches": "3322",
+        "log_loss": "0.5432394604",
+        "accuracy": "0.7209512342",
+        "bias_pp": "4.4901744596"
+      }
+    },
+    {
+      "id": "E34_142_joint",
+      "section": "3.4",
+      "source": "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_metrics.csv",
+      "row_selector": {
+        "scope": "main",
+        "group": "142",
+        "model": "joint"
+      },
+      "values": {
+        "label": "亚洲",
+        "matches": "2540",
+        "log_loss": "0.5450408491",
+        "accuracy": "0.7106299213",
+        "bias_pp": "-0.8764839430"
+      }
+    },
+    {
+      "id": "E34_142_strength",
+      "section": "3.4",
+      "source": "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_metrics.csv",
+      "row_selector": {
+        "scope": "main",
+        "group": "142",
+        "model": "strength"
+      },
+      "values": {
+        "label": "亚洲",
+        "matches": "2540",
+        "log_loss": "0.5468939977",
+        "accuracy": "0.7157480315",
+        "bias_pp": "0.6907893178"
+      }
+    },
+    {
+      "id": "E34_019_joint",
+      "section": "3.4",
+      "source": "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_metrics.csv",
+      "row_selector": {
+        "scope": "main",
+        "group": "019",
+        "model": "joint"
+      },
+      "values": {
+        "label": "美洲",
+        "matches": "1659",
+        "log_loss": "0.5545780233",
+        "accuracy": "0.7106690778",
+        "bias_pp": "0.1857596514"
+      }
+    },
+    {
+      "id": "E34_019_strength",
+      "section": "3.4",
+      "source": "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_metrics.csv",
+      "row_selector": {
+        "scope": "main",
+        "group": "019",
+        "model": "strength"
+      },
+      "values": {
+        "label": "美洲",
+        "matches": "1659",
+        "log_loss": "0.5592764053",
+        "accuracy": "0.7118746233",
+        "bias_pp": "-0.5638622161"
+      }
+    },
+    {
+      "id": "E34_009_joint",
+      "section": "3.4",
+      "source": "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_metrics.csv",
+      "row_selector": {
+        "scope": "main",
+        "group": "009",
+        "model": "joint"
+      },
+      "values": {
+        "label": "大洋洲",
+        "matches": "148",
+        "log_loss": "0.5492887783",
+        "accuracy": "0.6891891892",
+        "bias_pp": "2.9571822822"
+      }
+    },
+    {
+      "id": "E34_009_strength",
+      "section": "3.4",
+      "source": "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_metrics.csv",
+      "row_selector": {
+        "scope": "main",
+        "group": "009",
+        "model": "strength"
+      },
+      "values": {
+        "label": "大洋洲",
+        "matches": "148",
+        "log_loss": "0.5551298695",
+        "accuracy": "0.6959459459",
+        "bias_pp": "1.1689513718"
+      }
+    },
+    {
+      "id": "E35_CASE_CZE_SPA",
+      "section": "3.5",
+      "source": "outputs/tables/future_predictions/future-unl-61f639846da9193d4cca/forecasts.csv",
+      "row_selector": {
+        "match_id": "future:unl-2026:004"
+      },
+      "values": {
+        "date": "2026-11-12",
+        "home_team": "Czech Republic",
+        "away_team": "Spain",
+        "main_status": "issued_binary",
+        "main_home_probability": "0.0383001087",
+        "latent_probability_p05": "0.0076391302",
+        "latent_probability_p95": "0.0938023518",
+        "uncertainty_type": "conditional latent-strength90, not confidence/parameter/model error interval"
+      }
+    },
+    {
+      "id": "E33_FULL_SAMPLE",
+      "section": "3.3",
+      "source": "outputs/tables/history_window/joint-review-4888d987645daee73e19/combination_metrics.csv",
+      "row_selector": {
+        "scope": "all",
+        "combination_id": "cumulative_1950__outcome_cumulative"
+      },
+      "values": {
+        "matches": "16599",
+        "primary_log_loss": "0.5587504453"
+      }
+    },
+    {
+      "id": "E34_AFRICA_FLIP_year_2011",
+      "section": "3.4",
+      "source": "outputs/tables/regional_effectiveness/regional-stability-366606ed5bca8e0fe6b8/deletion_results.csv",
+      "row_selector": {
+        "target_id": "T03",
+        "scenario_kind": "year",
+        "scenario_key": "2011"
+      },
+      "values": {
+        "value": "0.0004851629",
+        "original_value": "-0.0010106908",
+        "direction_changed": "true",
+        "removed_matches": "171",
+        "remaining_matches": "1887",
+        "status": "calculated"
+      }
+    },
+    {
+      "id": "E34_AFRICA_FLIP_team_team:egypt",
+      "section": "3.4",
+      "source": "outputs/tables/regional_effectiveness/regional-stability-366606ed5bca8e0fe6b8/deletion_results.csv",
+      "row_selector": {
+        "target_id": "T03",
+        "scenario_kind": "team",
+        "scenario_key": "team:egypt"
+      },
+      "values": {
+        "value": "0.0002322943",
+        "original_value": "-0.0010106908",
+        "direction_changed": "true",
+        "removed_matches": "109",
+        "remaining_matches": "1949",
+        "status": "calculated"
+      }
+    }
+  ],
+  "derived_from_selected_rows": {
+    "joint_relative_log_loss_reduction_percent": {
+      "M0_nested": 16.118514010815765,
+      "M1_strength": 0.42224502043485507
+    },
+    "outcome_12y_relative_log_loss_increase_percent": 0.35706932085100007,
+    "outcome_learning_component_time_reduction_percent": 66.31444107434478
+  },
+  "limitations": [
+    "Source binding and small arithmetic checks do not revalidate mathematical assumptions or full experimental pipelines.",
+    "The prospective ledger remains the sealed issuance; no live outcomes fetched.",
+    "Figure and literature adoption remains pending."
+  ],
+  "source_binding_check": {
+    "status": "passed",
+    "source_sha256_checks": 17,
+    "unique_row_value_checks": 53,
+    "experiment_rerun": false,
+    "external_sources_checked": false
+  },
+  "revision_history": [
+    {
+      "decision_log_id": "R20261106-05",
+      "purpose": "Fill source-level gaps for Results prose, adopted chart cases, regional table and calibration/standardization examples.",
+      "previous_entries": 41,
+      "new_entries": 57
+    }
+  ]
+}
