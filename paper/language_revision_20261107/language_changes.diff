@@ -15,7 +15,7 @@
  \usepackage[margin=2.5cm]{geometry}
  \usepackage{amsmath,amssymb,graphicx,booktabs}
  \usepackage{placeins}
-@@ -16,8 +17,14 @@
+@@ -16,8 +17,16 @@
  \newcommand{\papercaption}[2]{\caption{\textbf{#1}\protect\newline\textit{Note.} #2}}
  \usepackage{xurl}
  \usepackage[hidelinks]{hyperref}
@@ -27,11 +27,13 @@
 +}
  \usepackage[numbers,sort&compress]{natbib}
 -\graphicspath{{figures/}}
++\setcounter{tocdepth}{2}
++\renewcommand{\bibsection}{\section*{\refname}\phantomsection\addcontentsline{toc}{section}{\refname}}
 +\graphicspath{{../figures/}}
  % Consistent paragraph indentation, including the first paragraph after headings.
  \setlength{\parindent}{1.5em}
  \setlength{\parskip}{0pt}
-@@ -47,12 +54,16 @@
+@@ -47,16 +56,26 @@
  \makeatother
  \title{Home-Win Prediction in International Football:\\
  Team Strength, Historical Information, and Regional Variation}
@@ -43,13 +45,24 @@
 +\end{tabular}}
  \date{}
  \begin{document}
++\pagenumbering{roman}
  \maketitle
++\phantomsection
++\addcontentsline{toc}{section}{Abstract}
  \begin{abstract}
 -Historical home-win rates in international football may reflect differences in team strength and match composition as well as venue-related conditions. We investigate how much these patterns contribute to pre-match prediction. A cohort of 24,917 non-neutral matches from 1980--2024 supports comparisons across eras, match types, and regions. A dynamic model learns strength from earlier results, including eligible neutral matches; a joint model then combines the strength distribution with match context. Retrospective chronological evaluation on 21,413 matches from 1990--2024 compares background-only, strength-only, and joint predictions. The joint model reduces log loss by 16.12\% relative to background alone and 0.42\% relative to strength alone, with 70.01\% binary accuracy for home-win/non-home-win decisions. Historical-window comparisons identify a trade-off between fitting cost and probability quality, without establishing a universally best length. Descriptive geographic differences and regional prediction diagnostics answer separate questions; the latter reveal uneven robustness and probability bias. A sealed release covers 52 future fixtures, with 49 main predictions and three withheld under the venue rule; outcomes remain unevaluated. In this aggregate loss comparison, strength supplies the larger improvement, while context adds a modest increment whose interpretation is limited by historical reuse and model assumptions.
 +Historical home-win rates combine differences in team strength, opponent composition, and match context. We assess whether context contributes predictive information after accounting for uncertain pre-match strength. The descriptive analysis uses 24,917 non-neutral matches from 1980--2024 to compare eras, match types, and regions. A dynamic model estimates strength from earlier results, including eligible neutral matches, and a joint model integrates that strength distribution with context. Retrospective chronological evaluation compares background-only, strength-only, and joint predictions on 21,413 matches from 1990--2024. The joint model reduced log loss by 16.12\% relative to background alone and 0.42\% relative to strength alone, achieving 70.01\% binary accuracy for home win versus non-home win. Historical-window comparisons identified a trade-off between fitting cost and probability quality without establishing a universally optimal window. Regional diagnostics showed uneven stability of the contextual increment and residual probability bias. A prospective release contains 52 fixtures, with 49 main predictions and three withheld under the venue rule; outcomes remain unevaluated. In this archive, strength provided the larger predictive improvement. Context added a smaller increment, whose interpretation remains conditional on model assumptions and historical reuse during development.
  \end{abstract}
  \noindent\textbf{Keywords:} international football; pre-match strength; home-win probability; probabilistic prediction
- % One compact front page, not a mostly empty title-only cover.
+-% One compact front page, not a mostly empty title-only cover.
++% Front matter uses Roman numerals; the main text starts at Arabic page 1.
+ \clearpage
++\tableofcontents
++\clearpage
++\pagenumbering{arabic}
+ \input{sections/introduction}
+ \input{sections/method}
+ \input{sections/results}
 --- paper/sections/discussion.tex
 +++ paper/language_revision_20261107/sections/discussion.tex
 @@ -1,47 +1,51 @@

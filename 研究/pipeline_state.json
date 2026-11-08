@@ -70,7 +70,7 @@
     "course_research_scope_closed": true,
     "ready_for_writing": true,
     "writing_setup": {
-      "decision_log_id": "R20261108-03",
+      "decision_log_id": "R20261108-04",
       "root_navigation_simplified": true,
       "stage_reading_overviews_prepared": 10,
       "paper_directory": "paper",
@@ -100,7 +100,7 @@
       },
       "paper_compilation_passed": true,
       "paper_compilation_scope": "Language revision compiled independently; isolated citation/numerical/equation preservation and layout checks",
-      "paper_compilation_note": "R20261108-02: final 23-page manuscript with author names, IDs, assigned roles and AI-use statement; content/evidence/math/citation/visual checks passed. Class information not supplied; no member reproduction certified. R03: Chinese class line added, compilation/first-page check passed; body PDF text unchanged.",
+      "paper_compilation_note": "R20261108-02: final 23-page manuscript with author names, IDs, assigned roles and AI-use statement; content/evidence/math/citation/visual checks passed. Class information not supplied; no member reproduction certified. R03: Chinese class line added, compilation/first-page check passed; body PDF text unchanged. R04: linked Contents added; 24 pages; body text unchanged excluding page numbers.",
       "figures_selected": 7,
       "figures_selection_scope": "Flow, historical overview, four-team strength-state illustration, joint comparison, windows, regional diagnostics, issued forecasts",
       "bibliography_entries_verified": 18,
@@ -121,10 +121,10 @@
       },
       "adopted_research_results_changed": false,
       "current_working_preview": {
-        "decision_log_id": "R20261108-03",
+        "decision_log_id": "R20261108-04",
         "manifest": "paper/final_paper_manifest.json",
         "pdf": "paper/final_paper.pdf",
-        "pages": 23,
+        "pages": 24,
         "figures": 7,
         "tables": 5,
         "displayed_equations": 12,
@@ -164,7 +164,11 @@
         "manuscript_finalized": true,
         "actual_submission_performed": false,
         "class_name": "睿信2526班",
-        "class_name_language": "Chinese_per_owner_request"
+        "class_name_language": "Chinese_per_owner_request",
+        "table_of_contents": true,
+        "contents_depth": 2,
+        "front_matter_pagination": "i-ii",
+        "main_text_pagination": "1-22"
       }
     },
     "new_research_experiments_required_before_writing": false,

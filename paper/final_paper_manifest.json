@@ -1,6 +1,6 @@
 {
   "schema_version": "final-course-paper-v1",
-  "decision_log_id": "R20261108-03",
+  "decision_log_id": "R20261108-04",
   "date": "2026-11-08",
   "executor": "Codex (AI)",
   "git_head": "cd44588102aaa2fc79947cd225b7b84f7e995253",
@@ -35,13 +35,13 @@
   "manuscript_finalized": true,
   "all_submission_requirements_certified": false,
   "human_independent_review_or_reproduction_certified": false,
-  "pages": 23,
+  "pages": 24,
   "figures": 7,
   "tables": 5,
   "displayed_equations": 12,
   "references": 18,
   "fingerprints": {
-    "paper/language_revision_20261107/main.tex": "41e45143ff92a329da537f833d2ae0c7969db80e00e45bb1b8e8929645c8b52a",
+    "paper/language_revision_20261107/main.tex": "b79c359f1a510b55642d620edc06040809cddd6cf10c235a484e7457e229846a",
     "paper/language_revision_20261107/sections/discussion.tex": "358bbcbb5abd4a2d0fd905f051649f7d9c2a6dd751755385bb83aa82cad62f49",
     "paper/language_revision_20261107/sections/introduction.tex": "40e3704ceddf8dbccf19e283e378e1c2440a79e9aeebce87e13422ec0aec8e60",
     "paper/language_revision_20261107/sections/method.tex": "61eb9e6b6d74127d9cd49b41ec821e7d82105d3f351af5c1d90b9fc59fbaba50",
@@ -49,10 +49,10 @@
     "paper/language_revision_20261107/sections/results.tex": "7de0ea654c145bfb17fd942537d69b59e89eae00976f36dcb42b98c16c43dd7c",
     "paper/language_revision_20261107/sections/strength_development.tex": "3f2d47cb2679bb9a57ab09f7c9e9ec21fea985aa9fa99c745703f517a8c79f0c",
     "paper/language_revision_20261107/references.bib": "ecc1a116093561ea1fc1e9c1ba5bcca912e0a11aba4c3d8a3ab6786e1ed97edd",
-    "paper/final_paper.pdf": "d171fec6a3bbed92c4ff247ea4f67382b0da66a1b002734a99dad20992219921",
-    "paper/final_review_20261108.md": "a8e278b5b6024a0d1a037f87edd91608e7b0db20408971a4200bee45e43e533b",
-    "paper/language_revision_20261107/final_changes.diff": "cf4fe40cae91bbb937b951607f740be31b81d8ed57fd4d9e3deceb9314280444",
-    "paper/language_revision_20261107/language_changes.diff": "65221cb825c4241259b4c694a076bd36085c18bd0bbd4782a2f487dcd2cc83b3"
+    "paper/final_paper.pdf": "d11cea93694ef78f7adeb78f9b53a3761dc9ae50b45cdbc8bdd5003dbe71893d",
+    "paper/final_review_20261108.md": "ad2d10865da04eccf143344dfbd1eab131dddd9e57170fea2763d4b352a3faa1",
+    "paper/language_revision_20261107/final_changes.diff": "70a03c7a88caa097c4e669646de3c7f2801bfe5dfc18e42c137b30e6258a34c9",
+    "paper/language_revision_20261107/language_changes.diff": "7f9a82cedbf9caf87330e9dd78cae3aa5269f71a0e045b947d7a6963443b5a79"
   },
   "edits": [
     {
@@ -187,9 +187,11 @@
     "all_fonts_embedded": true,
     "author_names_ids_pdf_text_verified": true,
     "placeholder_found": false,
-    "pages_rendered_and_visually_reviewed": 23,
+    "pages_rendered_and_visually_reviewed": 2,
     "visible_clipping_overlap_or_paragraph_float_split": false,
-    "final_pdf_matches_compiled": true
+    "final_pdf_matches_compiled": true,
+    "pre_toc_full_visual_review_pages": 23,
+    "current_visual_review_scope": "Contents and renumbered introduction; full body text compared to prior inspected version excluding page numbers."
   },
   "evidence_checks": {
     "source_hashes": {
@@ -331,5 +333,18 @@
     "log_flags": [],
     "first_page_visually_checked": true,
     "all_fonts_embedded": true
+  },
+  "toc_update_checks": {
+    "pages": 24,
+    "toc_pages": 1,
+    "toc_depth": 2,
+    "front_matter_pagination": "i, ii",
+    "main_text_pagination": "1-22",
+    "contents_visual_check": true,
+    "introduction_visual_check": true,
+    "body_pages_text_unchanged_ignoring_footer_numbers": true,
+    "tex_log_warnings": false,
+    "pdf_link_annotations": 100,
+    "visible_toc_targets_in_pdf": true
   }
 }

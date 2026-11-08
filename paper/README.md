@@ -1,6 +1,6 @@
 # 课程论文：LaTeX写作入口
 
-**最终稿R20261108-02：** [定稿PDF](final_paper.pdf)及[最终审阅说明](final_review_20261108.md)为交付入口；可编辑源仍用`language_revision_20261107/main.tex`。当前23页、7图5表/12公式/18引用，已加入姓名/学号、分工和AI辅助说明。当前指纹为`final_paper_manifest.json`；三位成员班级已按R20261108-03统一补为中文“睿信2526班”，成员独立复现和实际提交未代办。下方旧页数/清单保留历史。
+**最终稿R20261108-02：** [定稿PDF](final_paper.pdf)及[最终审阅说明](final_review_20261108.md)为交付入口；可编辑源仍用`language_revision_20261107/main.tex`。当前24页、7图5表/12公式/18引用，已加入姓名/学号、分工和AI辅助说明。当前指纹为`final_paper_manifest.json`；三位成员班级已按R20261108-03统一补为中文“睿信2526班”，成员独立复现和实际提交未代办。下方旧页数/清单保留历史。 R20261108-04已加入独立Contents页，前置页为i/ii、正文1—22，目录覆盖摘要/一级二级标题/参考文献，正文内容未改。
 
 **当前R20261108-01：** [CCFA反向推导与15项修改说明](language_revision_20261107/ccfa_revision_report.md)已完成；以[独立新版](language_revision_20261107/README.md)及其[PDF](language_revision_20261107/build/main.pdf)为当前审读稿。23页、7图5表/12公式/18引用；本轮公式、数值、引用和共享图表未改，原稿保留。当前指纹为`language_revision_20261107/ccfa_revision_manifest.json`；下方R11及更早清单仅认证各自历史版本。
 
