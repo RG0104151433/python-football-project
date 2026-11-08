@@ -1,5 +1,5 @@
 --- R20261108-01/main.tex
-+++ R20261108-04-final/main.tex
++++ R20261108-08-final/main.tex
 @@ -7,6 +7,7 @@
  \usepackage[english]{babel}
  \usepackage{csquotes}
@@ -24,7 +24,7 @@
  \graphicspath{{../figures/}}
  % Consistent paragraph indentation, including the first paragraph after headings.
  \setlength{\parindent}{1.5em}
-@@ -47,16 +56,26 @@
+@@ -47,16 +56,27 @@
  \makeatother
  \title{Home-Win Prediction in International Football:\\
  Team Strength, Historical Information, and Regional Variation}
@@ -36,8 +36,10 @@
 +\end{tabular}}
  \date{}
  \begin{document}
+-\maketitle
++\pagenumbering{gobble}
++\input{cover}
 +\pagenumbering{roman}
- \maketitle
 +\phantomsection
 +\addcontentsline{toc}{section}{Abstract}
  \begin{abstract}
@@ -54,7 +56,7 @@
  \input{sections/method}
  \input{sections/results}
 --- R20261108-01/sections/discussion.tex
-+++ R20261108-04-final/sections/discussion.tex
++++ R20261108-08-final/sections/discussion.tex
 @@ -44,4 +44,8 @@
  
  The English guide \path{paper/SUPPORTING_RESULTS.md} indexes all stage tables, methods, reproduction instructions, windows, geographic matchups, sensitivity outputs, and the 52-fixture forecast ledger. The main text reports selected results.
@@ -66,7 +68,7 @@
 +\paragraph{Use of AI-assisted tools.}
 +AI-assisted tools supported code development, documentation, and manuscript revision. Empirical claims are supported by the archived data and computational outputs, rather than by generated text alone.
 --- R20261108-01/sections/introduction.tex
-+++ R20261108-04-final/sections/introduction.tex
++++ R20261108-08-final/sections/introduction.tex
 @@ -7,7 +7,7 @@
  
  Descriptive rates and rating models address different parts of this question. Rates summarize observed outcomes but do not distinguish a strong home team from favourable opposition. Ratings summarize previous results, but their predictive value does not establish whether context adds information. National-team records further involve irregular playing schedules, historical identity changes, neutral venues, and uneven coverage of opponent combinations. The analysis therefore needs both date-specific strength estimates and comparisons that hold the prediction targets and information cutoffs constant.
@@ -77,7 +79,7 @@
  \subsection{Related Work and Study Positioning}
  
 --- R20261108-01/sections/method.tex
-+++ R20261108-04-final/sections/method.tex
++++ R20261108-08-final/sections/method.tex
 @@ -10,7 +10,7 @@
  
  Data preparation preserved the source files and recorded the disposition of each row. Audits checked dates, integer scores, and venue indicators, and identified potential duplicates, conflicting scores, and reversed pairings. Unresolved critical records were isolated; missing optional fields restricted eligibility for particular analyses. At the 31 December 2024 preparation cutoff, 48,102 matches were included, 1,803 were outside the window, and 40 were isolated. Identity and eligibility review then retained 24,917 of 26,055 study candidates, excluding 1,138. The retained sample includes 117 matches accepted after manual verification by the project lead; these records did not undergo a further independent audit against official sources. Team identifiers denote football entities, which need not be sovereign countries. The identity registry draws partly on FIFA affiliation records~\cite{fifa2018affiliations}, with explicit decisions for historical names and administrative changes; the affiliation list alone does not establish complete membership histories.
@@ -109,7 +111,7 @@
  Conditional contrasts require additional validation because outcomes update the strength estimates used later. Route A generates a full history, updates strength, and refits the analysis; route B uses a first-order total-score approximation. Separate simulation streams estimate reference values, calibrate the procedure, and evaluate the maximum standardized error across comparisons, accounting for Monte Carlo error in the reference values. Route A was selected, with interval claims restricted to quantities meeting the simulation acceptance criteria. Generators include date-conditionally independent outcomes and a same-day latent common-shock setting of $0.25$, which is a generator parameter rather than the correlation of all match pairs. Follow-up simulations use a preallocated sequential error budget, following time-uniform control principles~\cite{howard2021confidence}. This validation concerns conditional contrasts under those generators, separately from predictive loss comparisons.
  
 --- R20261108-01/sections/results.tex
-+++ R20261108-04-final/sections/results.tex
++++ R20261108-08-final/sections/results.tex
 @@ -71,7 +71,7 @@
  
  For RQ2, we evaluated background-only, strength-only, and joint predictors on the same 21,413 matches from 1990--2024, using only information available before each prediction. This is a retrospective chronological comparison: the archive also informed development and selection, as described in Section~\ref{sec:data-design}.
@@ -128,3 +130,42 @@
  
  \begin{figure}[htbp]
  \centering
+--- /dev/null
++++ paper/language_revision_20261107/cover.tex
+@@ -0,0 +1,36 @@
++% Cover adapted from the owner-provided Word reference. Only the school,
++% paper title, class, names and student IDs are retained. The original JPEG
++% is unmodified; trimming reproduces the reference's cropped school mark.
++\begin{titlepage}
++\thispagestyle{empty}
++\centering
++\vspace*{1.4cm}
++\includegraphics[width=10.8cm,trim=0bp 43.60bp 0bp 41.25bp,clip]{../figures/bit_school_header.jpeg}
++
++\vspace{2.0cm}
++{\sffamily\bfseries\fontsize{23}{30}\selectfont
++Home-Win Prediction\\
++in International Football:\par}
++\vspace{0.45cm}
++{\sffamily\fontsize{17}{24}\selectfont
++Team Strength, Historical Information,\\
++and Regional Variation\par}
++
++\vspace{2.0cm}
++\begin{minipage}{11.7cm}
++{\Large
++\noindent\textbf{Class}\hspace{0.7cm}\rlap{\rule[-3pt]{9.0cm}{0.4pt}}\makebox[9.0cm][c]{{\classfont 睿信2526班}}\par}
++\vspace{1.0cm}
++{\Large
++\renewcommand{\arraystretch}{1.6}
++\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lr@{}}
++\textbf{Name} & \textbf{Student ID} \\
++\midrule
++Ruiyi Gao & 1120251392 \\
++Zhenglin Chen & 1120250540 \\
++Wenyu Jiang & 1120252594 \\
++\bottomrule
++\end{tabular*}}
++\end{minipage}
++\vfill
++\end{titlepage}

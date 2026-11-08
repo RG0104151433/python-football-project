@@ -48,11 +48,23 @@
     }
   ],
   "final_archive_sha256": {
+    "Report": "a3261d570e303d02338c74743ea3e13a0a5c474e153338a03b381ff3bb4db437",
+    "Code": "21a1be972e31523df3517d6dea44a1929edd925c6719ec92bea7217bd62fd97f",
+    "Data": "af4331872c6694979e359e2c03a0720db787db373e0a3b7d930bcf9ba6020092"
+  },
+  "standalone_report_sha256": "31299c2161d00f19cb32a7c0a942a5b2a4b368dd1931f78dd3de38ac40b821ee",
+  "final_small_archive_refresh_verified": true,
+  "verification_extraction_cleaned_after_success": true,
+  "cover_update": {
+    "decision_log_id": "R20261108-08",
+    "verification": "cover_update_verification.json",
+    "report_source_recompiled": true,
+    "scientific_code_or_data_changed": false,
+    "R06_targeted_tests_not_rerun_for_cover_only_change": true
+  },
+  "previous_archive_sha256_before_cover": {
     "Report": "578bc0425ee0eb92bb138d890564ff5a227d3973ff03253f25f2163f06f52629",
     "Code": "a60ac40b8a18861823a023208cacbb232c3c9afb390030860aae828bcb0b6658",
     "Data": "af4331872c6694979e359e2c03a0720db787db373e0a3b7d930bcf9ba6020092"
-  },
-  "standalone_report_sha256": "d11cea93694ef78f7adeb78f9b53a3761dc9ae50b45cdbc8bdd5003dbe71893d",
-  "final_small_archive_refresh_verified": true,
-  "verification_extraction_cleaned_after_success": true
+  }
 }

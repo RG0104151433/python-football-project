@@ -70,13 +70,13 @@
     "course_research_scope_closed": true,
     "ready_for_writing": true,
     "writing_setup": {
-      "decision_log_id": "R20261108-04",
+      "decision_log_id": "R20261108-08",
       "root_navigation_simplified": true,
       "stage_reading_overviews_prepared": 10,
       "paper_directory": "paper",
       "paper_entry": "paper/language_revision_20261107/main.tex",
       "paper_readme": "paper/README.md",
-      "paper_status": "final_manuscript_and_author_front_matter_complete_actual_submission_pending",
+      "paper_status": "final_manuscript_with_simplified_institutional_cover",
       "paper_asset_review": {
         "decision_log_id": "R20261103-04",
         "scope": "course_paper_only_not_presentation_or_new_research",
@@ -100,7 +100,7 @@
       },
       "paper_compilation_passed": true,
       "paper_compilation_scope": "Language revision compiled independently; isolated citation/numerical/equation preservation and layout checks",
-      "paper_compilation_note": "R20261108-02: final 23-page manuscript with author names, IDs, assigned roles and AI-use statement; content/evidence/math/citation/visual checks passed. Class information not supplied; no member reproduction certified. R03: Chinese class line added, compilation/first-page check passed; body PDF text unchanged. R04: linked Contents added; 24 pages; body text unchanged excluding page numbers.",
+      "paper_compilation_note": "R20261108-02: final 23-page manuscript with author names, IDs, assigned roles and AI-use statement; content/evidence/math/citation/visual checks passed. Class information not supplied; no member reproduction certified. R03: Chinese class line added, compilation/first-page check passed; body PDF text unchanged. R04: linked Contents added; 24 pages; body text unchanged excluding page numbers. R08: simplified institutional cover added; 25 physical pages; body text 1-22 unchanged.",
       "figures_selected": 7,
       "figures_selection_scope": "Flow, historical overview, four-team strength-state illustration, joint comparison, windows, regional diagnostics, issued forecasts",
       "bibliography_entries_verified": 18,
@@ -121,10 +121,10 @@
       },
       "adopted_research_results_changed": false,
       "current_working_preview": {
-        "decision_log_id": "R20261108-04",
+        "decision_log_id": "R20261108-08",
         "manifest": "paper/final_paper_manifest.json",
         "pdf": "paper/final_paper.pdf",
-        "pages": 24,
+        "pages": 25,
         "figures": 7,
         "tables": 5,
         "displayed_equations": 12,
@@ -168,7 +168,16 @@
         "table_of_contents": true,
         "contents_depth": 2,
         "front_matter_pagination": "i-ii",
-        "main_text_pagination": "1-22"
+        "main_text_pagination": "1-22",
+        "separate_cover": true,
+        "cover_fields": [
+          "school",
+          "paper_title",
+          "class",
+          "names",
+          "student_ids"
+        ],
+        "cover_template_scope": "front_cover_only_not_other_course_body_format"
       }
     },
     "new_research_experiments_required_before_writing": false,
@@ -327,7 +336,7 @@
     },
     "adopted_research_results_changed": false,
     "submission_preparation": {
-      "decision_log_id": "R20261108-06",
+      "decision_log_id": "R20261108-08",
       "status": "local_archives_built_and_checked_not_submitted",
       "guide": "交付材料/00_取用与提交说明.md",
       "manifest": "交付材料/PACKAGE_MANIFEST.json",
@@ -349,7 +358,10 @@
       "actual_upload_or_email": false,
       "presentation_complete": false,
       "fresh_machine_installation_verified": false,
-      "presentation_draft_available": true
+      "presentation_draft_available": true,
+      "report_cover_updated": true,
+      "cover_update_verification": "交付材料/cover_update_verification.json",
+      "data_zip_unchanged": true
     },
     "presentation_preparation": {
       "decision_log_id": "R20261108-07",

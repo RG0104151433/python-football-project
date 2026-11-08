@@ -19,3 +19,5 @@ outputs/logs/** linguist-generated
 参考资料/方法文献/原文/** linguist-documentation
 # Generated scientific presentation, rebuilt from the versioned Python results.
 研究/05_赛前实力/展示/** -text linguist-generated
+# Raw compiler stdout can contain mixed console encodings and significant bytes.
+交付材料/report_compile_解压验证.log binary

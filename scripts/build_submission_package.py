@@ -70,11 +70,14 @@ def report_entries() -> dict[str, Path]:
     paper = ROOT / "paper/language_revision_20261107"
     entries = {"FootballProject/paper/final_paper.pdf": ROOT / "paper/final_paper.pdf",
                "FootballProject/REPORT_README.md": OUT / "REPORT_README.md"}
-    for source in [paper / "main.tex", paper / "references.bib", *sorted((paper / "sections").glob("*.tex"))]:
+    sources = [paper / "main.tex", paper / "references.bib", *sorted((paper / "sections").glob("*.tex"))]
+    if (paper / "cover.tex").exists():
+        sources.append(paper / "cover.tex")
+    for source in sources:
         entries["FootballProject/paper/language_revision_20261107/" + source.relative_to(paper).as_posix()] = source
     # Preserve ../figures paths used by the canonical manuscript.
     for source in sorted((ROOT / "paper/figures").glob("*")):
-        if source.suffix.lower() in {".pdf", ".tex"}:
+        if source.suffix.lower() in {".pdf", ".tex"} or source.name == "bit_school_header.jpeg":
             entries["FootballProject/paper/figures/" + source.name] = source
     return entries
 

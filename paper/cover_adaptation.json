@@ -1,0 +1,51 @@
+{
+  "decision_log_id": "R20261108-08",
+  "reference_filename": "《形势与政策》论文封面与内容格式示例.docx",
+  "reference_sha256": "7d55b1c57d77293c54fc1d9c4d5241723f71274af086fe25a19b23bc01c9db9b",
+  "reference_read_only_word_export": true,
+  "reference_page_visually_inspected": true,
+  "school": "Beijing Institute of Technology / 北京理工大学",
+  "school_mark_source": "word/media/image1.jpeg",
+  "school_mark_sha256": "b81303cc0acbad3af182d0ed3ba3ce465acc05e1f5002f8f430e974d426a201a",
+  "school_image_bytes_unmodified": true,
+  "word_crop_percent": {
+    "top": 29.046,
+    "bottom": 30.694
+  },
+  "layout_adaptation": "school mark centered above the title; restrained lower class/name/ID block; English field labels and names retained; class remains Chinese",
+  "kept": [
+    "school",
+    "paper title",
+    "class",
+    "names",
+    "student IDs"
+  ],
+  "removed": [
+    "grade",
+    "course-specific headings",
+    "college",
+    "major",
+    "instructor",
+    "date or other cover fields"
+  ],
+  "archive_pdf": "paper/archive/pre_cover_20261108/paper_before_cover.pdf",
+  "archive_source_package": "paper/archive/pre_cover_20261108/Report_before_cover.zip",
+  "new_source": "paper/language_revision_20261107/cover.tex",
+  "checks": {
+    "compile_exit": 0,
+    "pages": 25,
+    "cover_numbered": false,
+    "abstract_page": "i",
+    "contents_page": "ii",
+    "body_pages": "1-22",
+    "body_pdf_text_byte_identical_to_pre_cover": true,
+    "source_name_id_class_verified": true,
+    "extra_template_fields_absent": true,
+    "tex_flags": [],
+    "all_fonts_embedded": true,
+    "fonts": 31,
+    "word_reference_export": "read-only Word PDF export succeeded; source first page visually inspected",
+    "cover_visual_check": true,
+    "abstract_contents_visual_check": true
+  }
+}

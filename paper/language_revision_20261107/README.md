@@ -1,4 +1,6 @@
-# 英文论文定稿源（当前R20261108-02）
+# 英文论文定稿源（当前R20261108-08）
+
+**封面定稿R20261108-08：** `main.tex`加载新增`cover.tex`，使用`../figures/bit_school_header.jpeg`（示例中原图）。独立封面无页码，后接摘要i、目录ii与正文1—22，共25页；不要漏传封面源和JPEG。[当前PDF](../final_paper.pdf)、[24页旧版存档](../archive/pre_cover_20261108/README.md)。
 
 **最终稿R20261108-02：** [下载定稿PDF](../final_paper.pdf)，[最终审阅说明](../final_review_20261108.md)，[当前清单](../final_paper_manifest.json)。本目录`main.tex`/`sections/`为定稿源，`build/main.pdf`与交付PDF一致。24页/7图5表/12公式/18引用；姓名学号与责任安排已补，班级已按R20261108-03补为中文“睿信2526班”。本轮差异见`final_changes.diff`；下方CCFA及课程核查均是各自历史时点。 R20261108-04已加入独立Contents页，前置页为i/ii、正文1—22，目录覆盖摘要/一级二级标题/参考文献，正文内容未改。
 

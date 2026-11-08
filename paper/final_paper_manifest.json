@@ -1,9 +1,9 @@
 {
   "schema_version": "final-course-paper-v1",
-  "decision_log_id": "R20261108-04",
+  "decision_log_id": "R20261108-08",
   "date": "2026-11-08",
   "executor": "Codex (AI)",
-  "git_head": "cd44588102aaa2fc79947cd225b7b84f7e995253",
+  "git_head": "a8645ed58422ecaed5e7b6dce4e64f286547d011",
   "uncommitted_worktree": true,
   "delivered_pdf": "paper/final_paper.pdf",
   "source_entry": "paper/language_revision_20261107/main.tex",
@@ -35,13 +35,13 @@
   "manuscript_finalized": true,
   "all_submission_requirements_certified": false,
   "human_independent_review_or_reproduction_certified": false,
-  "pages": 24,
+  "pages": 25,
   "figures": 7,
   "tables": 5,
   "displayed_equations": 12,
   "references": 18,
   "fingerprints": {
-    "paper/language_revision_20261107/main.tex": "b79c359f1a510b55642d620edc06040809cddd6cf10c235a484e7457e229846a",
+    "paper/language_revision_20261107/main.tex": "abee5f2deb06e9a14069e355c20d39c478048b6bcd8e9c64c5701b54f622c618",
     "paper/language_revision_20261107/sections/discussion.tex": "358bbcbb5abd4a2d0fd905f051649f7d9c2a6dd751755385bb83aa82cad62f49",
     "paper/language_revision_20261107/sections/introduction.tex": "40e3704ceddf8dbccf19e283e378e1c2440a79e9aeebce87e13422ec0aec8e60",
     "paper/language_revision_20261107/sections/method.tex": "61eb9e6b6d74127d9cd49b41ec821e7d82105d3f351af5c1d90b9fc59fbaba50",
@@ -49,10 +49,13 @@
     "paper/language_revision_20261107/sections/results.tex": "7de0ea654c145bfb17fd942537d69b59e89eae00976f36dcb42b98c16c43dd7c",
     "paper/language_revision_20261107/sections/strength_development.tex": "3f2d47cb2679bb9a57ab09f7c9e9ec21fea985aa9fa99c745703f517a8c79f0c",
     "paper/language_revision_20261107/references.bib": "ecc1a116093561ea1fc1e9c1ba5bcca912e0a11aba4c3d8a3ab6786e1ed97edd",
-    "paper/final_paper.pdf": "d11cea93694ef78f7adeb78f9b53a3761dc9ae50b45cdbc8bdd5003dbe71893d",
-    "paper/final_review_20261108.md": "ad2d10865da04eccf143344dfbd1eab131dddd9e57170fea2763d4b352a3faa1",
-    "paper/language_revision_20261107/final_changes.diff": "70a03c7a88caa097c4e669646de3c7f2801bfe5dfc18e42c137b30e6258a34c9",
-    "paper/language_revision_20261107/language_changes.diff": "7f9a82cedbf9caf87330e9dd78cae3aa5269f71a0e045b947d7a6963443b5a79"
+    "paper/final_paper.pdf": "31299c2161d00f19cb32a7c0a942a5b2a4b368dd1931f78dd3de38ac40b821ee",
+    "paper/final_review_20261108.md": "cae9dde2c202dabff34579e9cfaca4908e5315aaf865b4bc8519be64e2530202",
+    "paper/language_revision_20261107/final_changes.diff": "0828af1355c6fb0779a3ec5ffee89cd1d48ceedac9a4379bffb389727e31a40f",
+    "paper/language_revision_20261107/language_changes.diff": "b901cd2749a3e045f58033aead9584aefeac31c96eeb5705667266623f93a78d",
+    "paper/language_revision_20261107/cover.tex": "e0549a88ac250ba815858b73862ae33974f4ce067a3d2e117a0c41695d83bf41",
+    "paper/figures/bit_school_header.jpeg": "b81303cc0acbad3af182d0ed3ba3ce465acc05e1f5002f8f430e974d426a201a",
+    "paper/cover_adaptation.json": "38f3550e8ff8a7429a6d6be841b1becae4220bbb039b855f3ee7b92fc672aed0"
   },
   "edits": [
     {
@@ -183,15 +186,15 @@
     },
     "bibliography_unchanged": true,
     "tex_warning_flags": [],
-    "font_count": 30,
+    "font_count": 31,
     "all_fonts_embedded": true,
     "author_names_ids_pdf_text_verified": true,
     "placeholder_found": false,
-    "pages_rendered_and_visually_reviewed": 2,
+    "pages_rendered_and_visually_reviewed": 3,
     "visible_clipping_overlap_or_paragraph_float_split": false,
     "final_pdf_matches_compiled": true,
     "pre_toc_full_visual_review_pages": 23,
-    "current_visual_review_scope": "Contents and renumbered introduction; full body text compared to prior inspected version excluding page numbers."
+    "current_visual_review_scope": "New cover, abstract and contents; all 22 body pages text-identical to the archived inspected version."
   },
   "evidence_checks": {
     "source_hashes": {
@@ -346,5 +349,25 @@
     "tex_log_warnings": false,
     "pdf_link_annotations": 100,
     "visible_toc_targets_in_pdf": true
+  },
+  "cover_source": "paper/language_revision_20261107/cover.tex",
+  "cover_adaptation": "paper/cover_adaptation.json",
+  "pre_cover_archive": "paper/archive/pre_cover_20261108/README.md",
+  "cover_update_checks": {
+    "compile_exit": 0,
+    "pages": 25,
+    "cover_numbered": false,
+    "abstract_page": "i",
+    "contents_page": "ii",
+    "body_pages": "1-22",
+    "body_pdf_text_byte_identical_to_pre_cover": true,
+    "source_name_id_class_verified": true,
+    "extra_template_fields_absent": true,
+    "tex_flags": [],
+    "all_fonts_embedded": true,
+    "fonts": 31,
+    "word_reference_export": "read-only Word PDF export succeeded; source first page visually inspected",
+    "cover_visual_check": true,
+    "abstract_contents_visual_check": true
   }
 }

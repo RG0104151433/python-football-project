@@ -33,7 +33,7 @@
  % Consistent paragraph indentation, including the first paragraph after headings.
  \setlength{\parindent}{1.5em}
  \setlength{\parskip}{0pt}
-@@ -47,16 +56,26 @@
+@@ -47,16 +56,27 @@
  \makeatother
  \title{Home-Win Prediction in International Football:\\
  Team Strength, Historical Information, and Regional Variation}
@@ -45,8 +45,10 @@
 +\end{tabular}}
  \date{}
  \begin{document}
+-\maketitle
++\pagenumbering{gobble}
++\input{cover}
 +\pagenumbering{roman}
- \maketitle
 +\phantomsection
 +\addcontentsline{toc}{section}{Abstract}
  \begin{abstract}
@@ -621,6 +623,45 @@
  
 -This establishes the role of the strength model in the next analysis. Its latent distributions supply a useful, audited input with explicit weaknesses; corrected three-class probabilities provide a separate forecasting diagnostic. Whether strength contributes information about the binary home-win target, and whether context adds anything further, require the common-sample comparison below.
 +The latent strength distributions provide the input to the joint analysis, with the limitations identified above. Corrected three-class probabilities serve as a separate forecasting diagnostic. The common-sample comparison below evaluates the contribution of strength to the binary home-win target and the additional contribution of context.
+--- /dev/null
++++ paper/language_revision_20261107/cover.tex
+@@ -0,0 +1,36 @@
++% Cover adapted from the owner-provided Word reference. Only the school,
++% paper title, class, names and student IDs are retained. The original JPEG
++% is unmodified; trimming reproduces the reference's cropped school mark.
++\begin{titlepage}
++\thispagestyle{empty}
++\centering
++\vspace*{1.4cm}
++\includegraphics[width=10.8cm,trim=0bp 43.60bp 0bp 41.25bp,clip]{../figures/bit_school_header.jpeg}
++
++\vspace{2.0cm}
++{\sffamily\bfseries\fontsize{23}{30}\selectfont
++Home-Win Prediction\\
++in International Football:\par}
++\vspace{0.45cm}
++{\sffamily\fontsize{17}{24}\selectfont
++Team Strength, Historical Information,\\
++and Regional Variation\par}
++
++\vspace{2.0cm}
++\begin{minipage}{11.7cm}
++{\Large
++\noindent\textbf{Class}\hspace{0.7cm}\rlap{\rule[-3pt]{9.0cm}{0.4pt}}\makebox[9.0cm][c]{{\classfont 睿信2526班}}\par}
++\vspace{1.0cm}
++{\Large
++\renewcommand{\arraystretch}{1.6}
++\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lr@{}}
++\textbf{Name} & \textbf{Student ID} \\
++\midrule
++Ruiyi Gao & 1120251392 \\
++Zhenglin Chen & 1120250540 \\
++Wenyu Jiang & 1120252594 \\
++\bottomrule
++\end{tabular*}}
++\end{minipage}
++\vfill
++\end{titlepage}
 --- paper/references.bib
 +++ paper/language_revision_20261107/references.bib
 @@ -104,3 +104,28 @@

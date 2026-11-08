@@ -1,0 +1,350 @@
+{
+  "schema_version": "final-course-paper-v1",
+  "decision_log_id": "R20261108-04",
+  "date": "2026-11-08",
+  "executor": "Codex (AI)",
+  "git_head": "cd44588102aaa2fc79947cd225b7b84f7e995253",
+  "uncommitted_worktree": true,
+  "delivered_pdf": "paper/final_paper.pdf",
+  "source_entry": "paper/language_revision_20261107/main.tex",
+  "authors": [
+    {
+      "name": "Ruiyi Gao",
+      "student_id": "1120251392",
+      "role": "study design, coordination, computational analysis, manuscript preparation",
+      "class": "睿信2526班"
+    },
+    {
+      "name": "Zhenglin Chen",
+      "student_id": "1120250540",
+      "member": "A",
+      "role": "code review and methodological refinement",
+      "class": "睿信2526班"
+    },
+    {
+      "name": "Wenyu Jiang",
+      "student_id": "1120252594",
+      "member": "B",
+      "role": "supplementary data collection and presentation preparation",
+      "class": "睿信2526班"
+    }
+  ],
+  "names_and_ids_supplied_by_owner": true,
+  "roles_record_assigned_responsibilities": true,
+  "classes_not_supplied_or_waived": false,
+  "manuscript_finalized": true,
+  "all_submission_requirements_certified": false,
+  "human_independent_review_or_reproduction_certified": false,
+  "pages": 24,
+  "figures": 7,
+  "tables": 5,
+  "displayed_equations": 12,
+  "references": 18,
+  "fingerprints": {
+    "paper/language_revision_20261107/main.tex": "b79c359f1a510b55642d620edc06040809cddd6cf10c235a484e7457e229846a",
+    "paper/language_revision_20261107/sections/discussion.tex": "358bbcbb5abd4a2d0fd905f051649f7d9c2a6dd751755385bb83aa82cad62f49",
+    "paper/language_revision_20261107/sections/introduction.tex": "40e3704ceddf8dbccf19e283e378e1c2440a79e9aeebce87e13422ec0aec8e60",
+    "paper/language_revision_20261107/sections/method.tex": "61eb9e6b6d74127d9cd49b41ec821e7d82105d3f351af5c1d90b9fc59fbaba50",
+    "paper/language_revision_20261107/sections/model_selection.tex": "5d579ff2aaff0e56c7d94ee128c0d3fafe08c6871d95a4aaac3b755fd3c34a8b",
+    "paper/language_revision_20261107/sections/results.tex": "7de0ea654c145bfb17fd942537d69b59e89eae00976f36dcb42b98c16c43dd7c",
+    "paper/language_revision_20261107/sections/strength_development.tex": "3f2d47cb2679bb9a57ab09f7c9e9ec21fea985aa9fa99c745703f517a8c79f0c",
+    "paper/language_revision_20261107/references.bib": "ecc1a116093561ea1fc1e9c1ba5bcca912e0a11aba4c3d8a3ab6786e1ed97edd",
+    "paper/final_paper.pdf": "d11cea93694ef78f7adeb78f9b53a3761dc9ae50b45cdbc8bdd5003dbe71893d",
+    "paper/final_review_20261108.md": "ad2d10865da04eccf143344dfbd1eab131dddd9e57170fea2763d4b352a3faa1",
+    "paper/language_revision_20261107/final_changes.diff": "70a03c7a88caa097c4e669646de3c7f2801bfe5dfc18e42c137b30e6258a34c9",
+    "paper/language_revision_20261107/language_changes.diff": "7f9a82cedbf9caf87330e9dd78cae3aa5269f71a0e045b947d7a6963443b5a79"
+  },
+  "edits": [
+    {
+      "file": "main.tex",
+      "before": "\\author{Names, student IDs, and classes to be confirmed}",
+      "after": "\\author{\\begin{tabular}{ccc}\nRuiyi Gao & Zhenglin Chen & Wenyu Jiang \\\\\n\\small 1120251392 & \\small 1120250540 & \\small 1120252594\n\\end{tabular}}",
+      "reason": "采用用户提供的姓名/学号，英文拼音按给定顺序署名；班级未知不猜填。"
+    },
+    {
+      "file": "main.tex",
+      "before": "\\usepackage[hidelinks]{hyperref}",
+      "after": "\\usepackage[hidelinks]{hyperref}\n\\hypersetup{\n pdftitle={Home-Win Prediction in International Football: Team Strength, Historical Information, and Regional Variation},\n pdfauthor={Ruiyi Gao; Zhenglin Chen; Wenyu Jiang},\n pdfsubject={Course research paper on international-football home-win prediction},\n pdfkeywords={international football, pre-match strength, home-win probability}\n}",
+      "reason": "补正式PDF元数据，使下载/检索信息与首页一致。"
+    },
+    {
+      "file": "sections/introduction.tex",
+      "before": "Match context comprises the era, match type, and geographic groups of both teams.",
+      "after": "Match context comprises the era, match type, and geographic groups of both teams. The terms context and background refer to this same set of variables throughout the paper.",
+      "reason": "统一背景/语境称呼，避免把图表的background-only和正文context-only误读为不同模型。"
+    },
+    {
+      "file": "sections/method.tex",
+      "before": "The comparative cohort covers non-neutral matches in 1980--2024; earlier eligible records initialize strength.",
+      "after": "The comparative cohort covers non-neutral matches in 1980--2024; earlier eligible records initialize strength. This boundary separates historical initialization from the principal comparisons; it is a study-scope choice, not evidence that earlier matches are uninformative.",
+      "reason": "补清1980边界含义，不虚构早期比赛无价值或最佳截点。"
+    },
+    {
+      "file": "sections/method.tex",
+      "before": "The estimated positive slope $b$ maps strength to the probability scale; integrating over the distribution avoids treating estimated strength as known.",
+      "after": "The estimated positive slope $b$ maps strength to the probability scale; integrating over the distribution avoids treating estimated strength as known. Its positivity preserves the ordering of predicted home-win probability with respect to the mean strength difference when context and uncertainty are fixed.",
+      "reason": "补正斜率的实际数学作用；固定其他条件时单调，不声称不确定性不同仍全序。"
+    },
+    {
+      "file": "sections/method.tex",
+      "before": "Lower scores indicate better probability forecasts~\\cite{gneiting2007scoring}.",
+      "after": "Lower scores indicate better probability forecasts~\\cite{gneiting2007scoring}. Logarithms are natural, and the loss is averaged per match.",
+      "reason": "说明对数底数与平均单位，便于复现解释。"
+    },
+    {
+      "file": "sections/method.tex",
+      "before": "The prospective central 90\\% ranges propagate latent strength uncertainty with coefficients fixed, excluding coefficient and model error.",
+      "after": "The prospective central 90\\% ranges propagate latent strength uncertainty with coefficients fixed, excluding coefficient and model error. They describe uncertainty about a predicted probability, rather than a range of possible match results or a guarantee of forecast accuracy.",
+      "reason": "明确概率区间与结果不确定性/准确率保证的区别。"
+    },
+    {
+      "file": "sections/results.tex",
+      "before": "The largest loss difference was between context-only and strength-only prediction",
+      "after": "The largest loss difference was between background-only and strength-only prediction",
+      "reason": "与表和图统一对照模型名称。"
+    },
+    {
+      "file": "sections/results.tex",
+      "before": "Adding context also reduced the Brier score from $0.193698$ to $0.192657$ and mean bias from $+0.9308$ to $+0.2398$~pp.",
+      "after": "Adding context also reduced the Brier score from $0.193698$ to $0.192657$ and mean bias from $+0.9308$ to $+0.2398$~pp. These changes concern probability quality; the corresponding classification improvement is small because accuracy depends only on which side of the decision threshold a prediction falls.",
+      "reason": "解释概率质量改进与分类准确率改进为何不是同一件事，不添加新实验。"
+    },
+    {
+      "file": "sections/discussion.tex",
+      "before": "% Author identities and truthful contribution details deferred by the project owner.",
+      "after": "\\paragraph{Team responsibilities.}\nThe division of responsibilities was as follows: Ruiyi Gao was responsible for study design, coordination, computational analysis, and manuscript preparation; Zhenglin Chen for code review and methodological refinement; and Wenyu Jiang for supplementary data collection and presentation preparation.\n\n\\paragraph{Use of AI-assisted tools.}\nAI-assisted tools supported code development, documentation, and manuscript revision. Empirical claims are supported by the archived data and computational outputs, rather than by generated text alone.",
+      "reason": "按用户确认的A/B分工写责任安排，不伪称独立复现通过；透明说明实际AI辅助范围。"
+    }
+  ],
+  "checks": {
+    "preservation": {
+      "main.tex": {
+        "equations": true,
+        "citations": true,
+        "labels": true,
+        "captions": true
+      },
+      "sections/discussion.tex": {
+        "equations": true,
+        "citations": true,
+        "labels": true,
+        "captions": true
+      },
+      "sections/introduction.tex": {
+        "equations": true,
+        "citations": true,
+        "labels": true,
+        "captions": true
+      },
+      "sections/method.tex": {
+        "equations": true,
+        "citations": true,
+        "labels": true,
+        "captions": true
+      },
+      "sections/model_selection.tex": {
+        "equations": true,
+        "citations": true,
+        "labels": true,
+        "captions": true
+      },
+      "sections/results.tex": {
+        "equations": true,
+        "citations": true,
+        "labels": true,
+        "captions": true
+      },
+      "sections/strength_development.tex": {
+        "equations": true,
+        "citations": true,
+        "labels": true,
+        "captions": true
+      }
+    },
+    "original_files_unchanged": {
+      "paper/main.tex": true,
+      "paper/references.bib": true,
+      "paper/sections/discussion.tex": true,
+      "paper/sections/introduction.tex": true,
+      "paper/sections/method.tex": true,
+      "paper/sections/model_selection.tex": true,
+      "paper/sections/results.tex": true,
+      "paper/sections/strength_development.tex": true,
+      "paper/build/main.pdf": true,
+      "paper/figures/fig2_era_rates.pdf": true,
+      "paper/figures/fig3_model_comparison.pdf": true,
+      "paper/figures/fig4_history_windows.pdf": true,
+      "paper/figures/fig5_regional_metrics.pdf": true,
+      "paper/figures/fig6_forecast_examples.pdf": true,
+      "paper/figures/fig_historical_overview.pdf": true,
+      "paper/figures/fig_strength_states.pdf": true,
+      "paper/figures/study_design.tex": true,
+      "paper/figures/strength_validation_rows.tex": true
+    },
+    "bibliography_unchanged": true,
+    "tex_warning_flags": [],
+    "font_count": 30,
+    "all_fonts_embedded": true,
+    "author_names_ids_pdf_text_verified": true,
+    "placeholder_found": false,
+    "pages_rendered_and_visually_reviewed": 2,
+    "visible_clipping_overlap_or_paragraph_float_split": false,
+    "final_pdf_matches_compiled": true,
+    "pre_toc_full_visual_review_pages": 23,
+    "current_visual_review_scope": "Contents and renumbered introduction; full body text compared to prior inspected version excluding page numbers."
+  },
+  "evidence_checks": {
+    "source_hashes": {
+      "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_contrasts.csv": true,
+      "outputs/tables/reliability/applied-ab04b82da3b12ca434239452/interval_results.csv": true,
+      "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/type_estimates.csv": true,
+      "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/type_differences.csv": true,
+      "outputs/tables/regions/regions-0a1c61664a722e6c641f/contrast_results.csv": true,
+      "outputs/tables/strength_joint/rolling-prediction-4722c7b1b5f63cef35e3/group_metrics.csv": true,
+      "outputs/logs/strength_q5_closeout/q5-closeout-1c4c593487304afa0f6a/presentation_data.json": true,
+      "outputs/logs/strength_q5_closeout/q5-closeout-1c4c593487304afa0f6a/object_disposition.csv": true,
+      "outputs/tables/history_window/joint-review-4888d987645daee73e19/combination_metrics.csv": true,
+      "outputs/tables/history_window/joint-review-4888d987645daee73e19/cost_components.csv": true,
+      "outputs/tables/history_window/outcome-0a52e15e2ae493570acb/adaptive_metrics.csv": true,
+      "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_metrics.csv": true,
+      "outputs/tables/regional_effectiveness/regional-stability-366606ed5bca8e0fe6b8/conclusion_review.csv": true,
+      "outputs/tables/future_predictions/future-unl-61f639846da9193d4cca/forecasts.csv": true,
+      "outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/africa_calibration.csv": true,
+      "outputs/tables/regional_effectiveness/regional-diagnostics-3e4473ad441fd44fe4df/standardized_metrics.csv": true,
+      "outputs/tables/regional_effectiveness/regional-stability-366606ed5bca8e0fe6b8/deletion_results.csv": true
+    },
+    "csv_bindings_exactly_matched": [
+      "E31_ERA1",
+      "E31_ERA1_RANGE",
+      "E31_ERA2",
+      "E31_ERA2_RANGE",
+      "E31_RATE_friendly",
+      "E31_RATE_non_friendly",
+      "E31_TYPE_raw",
+      "E31_TYPE_era_standardized",
+      "E31_TYPE_RANGE",
+      "E31_REGION_EXAMPLE",
+      "E32_M0_nested",
+      "E32_M1_strength",
+      "E32_M3_nested",
+      "E33_LOSS_cumulative_1950__outcome_cumulative",
+      "E33_COST_cumulative_1950__outcome_cumulative",
+      "E33_LOSS_cumulative_1950__outcome_12y",
+      "E33_COST_cumulative_1950__outcome_12y",
+      "E33_ADAPTIVE",
+      "E34_ALL_joint",
+      "E34_ALL_strength",
+      "E34_002_joint",
+      "E34_002_strength",
+      "E34_STABILITY_T01",
+      "E34_STABILITY_T02",
+      "E34_STABILITY_T03",
+      "E34_STABILITY_T04",
+      "E34_STABILITY_T10",
+      "E34_STABILITY_T11",
+      "E34_STABILITY_T12",
+      "E34_STABILITY_T13",
+      "E35_CASE_005",
+      "E35_CASE_010",
+      "E35_CASE_048",
+      "E34_STABILITY_T08",
+      "E34_STABILITY_T09",
+      "E34_AFRICA_BIN_1",
+      "E34_AFRICA_BIN_3",
+      "E34_STANDARDIZED_150",
+      "E34_STANDARDIZED_002",
+      "E34_150_joint",
+      "E34_150_strength",
+      "E34_142_joint",
+      "E34_142_strength",
+      "E34_019_joint",
+      "E34_019_strength",
+      "E34_009_joint",
+      "E34_009_strength",
+      "E35_CASE_CZE_SPA",
+      "E33_FULL_SAMPLE",
+      "E34_AFRICA_FLIP_year_2011",
+      "E34_AFRICA_FLIP_team_team:egypt"
+    ],
+    "not_independently_recomputed_non_csv_entries": [
+      "E31_REGION_SUPPORT",
+      "E32_CONTEXT_level",
+      "E32_CONTEXT_paired_change",
+      "E32_ADMISSION",
+      "E33_SIX_COMBINATIONS",
+      "E35_ISSUED"
+    ]
+  },
+  "mathematical_spot_checks": {
+    "description": "Independent numerical identity checks for printed formula interpretation; not model validation or new empirical results",
+    "probit_integral_cases": 16,
+    "probit_max_absolute_error": 1.9984014443252818e-15,
+    "responsibility_gradient_cases": 10,
+    "gradient_max_absolute_error": 2.3524626691084904e-11,
+    "relative_loss_reductions_percent": [
+      16.118499380893418,
+      0.422246563725664
+    ]
+  },
+  "quick_check": {
+    "passed": 7,
+    "total": 7,
+    "actual_execution": true,
+    "full_model_rerun": false
+  },
+  "citation_check": {
+    "passed": true,
+    "entries": 18,
+    "cited_keys": 18,
+    "tex_files": 7
+  },
+  "compile": {
+    "exit_code": 0,
+    "tex_warning_flags": [],
+    "wrapper_perl_locale_fallback": true
+  },
+  "input_checkpoint": {
+    "main.tex": "f869cef1cf7f765845d305f24145fea329381ce0769e29a243fa7850de71782d",
+    "references.bib": "ecc1a116093561ea1fc1e9c1ba5bcca912e0a11aba4c3d8a3ab6786e1ed97edd",
+    "sections/discussion.tex": "f18df96e04b74d9c787f53bd3c971638d30f95996ec2d194376df3952d441ae5",
+    "sections/introduction.tex": "25444533a8bb10c027c29ccd9488769df7c184b7787d6bd369aa5594c37e82d5",
+    "sections/method.tex": "98a238982599bb8866f0899df8fcb55ec606973a3570fc1851521fe0dd333a5b",
+    "sections/model_selection.tex": "5d579ff2aaff0e56c7d94ee128c0d3fafe08c6871d95a4aaac3b755fd3c34a8b",
+    "sections/results.tex": "97fca67df60bbd3388d05808fe87ddf98c96b5a06b5b3e345a84cafd98890b33",
+    "sections/strength_development.tex": "3f2d47cb2679bb9a57ab09f7c9e9ec21fea985aa9fa99c745703f517a8c79f0c",
+    "build/main.pdf": "66f67f13388accfd6ea5f03022d94c58c91dbdce45ac219a3488b4f5b43208f2"
+  },
+  "new_empirical_research_results": false,
+  "known_limits_preserved": [
+    "reused development archive",
+    "model-conditional simulation coverage",
+    "no real-data dependence-adjusted interval for small context gain",
+    "external FIFA/Elo/Groll untested",
+    "future fixture outcomes unevaluated"
+  ],
+  "remaining_delivery_information": [],
+  "actual_submission_or_push": false,
+  "class_name": "睿信2526班",
+  "class_update_checks": {
+    "compile_exit": 0,
+    "chinese_class_present": true,
+    "english_transliteration_absent": true,
+    "body_pdf_text_unchanged": true,
+    "log_flags": [],
+    "first_page_visually_checked": true,
+    "all_fonts_embedded": true
+  },
+  "toc_update_checks": {
+    "pages": 24,
+    "toc_pages": 1,
+    "toc_depth": 2,
+    "front_matter_pagination": "i, ii",
+    "main_text_pagination": "1-22",
+    "contents_visual_check": true,
+    "introduction_visual_check": true,
+    "body_pages_text_unchanged_ignoring_footer_numbers": true,
+    "tex_log_warnings": false,
+    "pdf_link_annotations": 100,
+    "visible_toc_targets_in_pdf": true
+  }
+}

@@ -1,5 +1,7 @@
 # Supporting results and reproduction guide
 
+**Cover update (R20261108-08).** The final report is now 25 physical pages: an unnumbered institutional cover, abstract i, contents ii, and unchanged main text 1–22. The earlier 24-page PDF and full report-source package are archived in `paper/archive/pre_cover_20261108/`. Research data, estimates and figures below are unchanged.
+
 **Contents update (R20261108-04).** The final PDF now has 24 pages: Roman-numbered front matter (i–ii) and Arabic-numbered main text (1–22). The linked contents lists the abstract, sections, subsections, and references. Scientific content and results are unchanged.
 
 **Final manuscript (R20261108-02).** The delivered paper is `paper/final_paper.pdf`; its source remains `paper/language_revision_20261107/main.tex`. See `paper/final_review_20261108.md` and `paper/final_paper_manifest.json` for actual checks and remaining front-matter information. No empirical result or figure changed; the data and methods below remain the adopted research evidence.

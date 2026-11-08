@@ -1,4 +1,5 @@
 {
+  "decision_log_id": "R20261108-08",
   "exit_code": 0,
   "pdf_exists": true,
   "tex_flags": [],
@@ -11,5 +12,6 @@
     "-outdir=build",
     "main.tex"
   ],
-  "stdout_preserved_as_original_bytes": true
+  "stdout_preserved_as_original_bytes": true,
+  "cover_tex_and_school_jpeg_present": true
 }
