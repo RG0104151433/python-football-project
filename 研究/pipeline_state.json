@@ -348,7 +348,27 @@
       "archives_git_ignored": true,
       "actual_upload_or_email": false,
       "presentation_complete": false,
-      "fresh_machine_installation_verified": false
+      "fresh_machine_installation_verified": false,
+      "presentation_draft_available": true
+    },
+    "presentation_preparation": {
+      "decision_log_id": "R20261108-07",
+      "status": "first_interactive_english_draft_ready_for_owner_review",
+      "entry": "presentation/index.html",
+      "guide": "presentation/README.md",
+      "speaker_notes": "presentation/SPEAKER_NOTES.md",
+      "comparison": "presentation/figure_comparison.html",
+      "handout": "presentation/handout.pdf",
+      "manifest": "presentation/manifest.json",
+      "verification": "presentation/verification.json",
+      "slides": 10,
+      "proposed_duration_seconds": 600,
+      "actual_group_rehearsal": false,
+      "classroom_projector_test": false,
+      "third_party_project": "ChenLiu-1996/figures4papers",
+      "third_party_commit": "b709de17da7e8f9a72e51a5de5bced924a01eeab",
+      "model_refit": false,
+      "paper_or_existing_submission_archives_replaced": false
     }
   },
   "numbering_decision": {

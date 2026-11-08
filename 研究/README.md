@@ -1,5 +1,7 @@
 # 研究路线与当前结论
 
+**汇报讨论稿R20261108-07：** 全研究主线已整理成[10屏英文HTML](../presentation/index.html)，相关交互、讲稿、静态候选图及出处见[presentation入口](../presentation/README.md)。这是展示层重组，不是新模型或新研究结果；论文/原提交包保持不变。
+
 **论文定稿R20261108-02：** 当前交付为[最终PDF](../paper/final_paper.pdf)和[最终审阅说明](../paper/final_review_20261108.md)。本轮没有改变研究结果或重训，姓名/学号及分工已录入；班级已补为中文“睿信2526班”；成员实际独立复现仍按审阅说明区分。 R20261108-04已加入独立Contents页，前置页为i/ii、正文1—22，目录覆盖摘要/一级二级标题/参考文献，正文内容未改。
 
 **论文当前进度R20261108-01：** [详细写作修订说明](../paper/language_revision_20261107/ccfa_revision_report.md)记录CCFA操作反推的12项要求和15处实际修改。科学结果、问题范围与方法参数不变；当前英文稿23页/18引用，当前核查为`paper/language_revision_20261107/ccfa_revision_manifest.json`，不把写作改进算成新增实验证据。

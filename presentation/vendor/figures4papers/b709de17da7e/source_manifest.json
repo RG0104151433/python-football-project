@@ -1,0 +1,50 @@
+{
+  "repository": "https://github.com/ChenLiu-1996/figures4papers",
+  "commit": "b709de17da7e8f9a72e51a5de5bced924a01eeab",
+  "retrieved_on": "2026-11-08",
+  "license": "CC-BY-NC-4.0",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/ChenLiu-1996/figures4papers/b709de17da7e8f9a72e51a5de5bced924a01eeab/README.md",
+      "bytes": 11418,
+      "sha256": "e69468338f4cc01889878845ae0f225e5d0948cd66146e85c4c0cd1346028f58"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/ChenLiu-1996/figures4papers/b709de17da7e8f9a72e51a5de5bced924a01eeab/LICENSE",
+      "bytes": 19342,
+      "sha256": "0afca3145596cd005f6f6ed977313ea31928094fc5b4aaabc21bb765ea369d09"
+    },
+    {
+      "path": "scientific-figure-making/SKILL.md",
+      "url": "https://raw.githubusercontent.com/ChenLiu-1996/figures4papers/b709de17da7e8f9a72e51a5de5bced924a01eeab/scientific-figure-making/SKILL.md",
+      "bytes": 2242,
+      "sha256": "952300b4d0bd8fbd0c55aaa732a47a0abb8e9707bc80965c8e70221ef13f0292"
+    },
+    {
+      "path": "scientific-figure-making/references/api.md",
+      "url": "https://raw.githubusercontent.com/ChenLiu-1996/figures4papers/b709de17da7e8f9a72e51a5de5bced924a01eeab/scientific-figure-making/references/api.md",
+      "bytes": 5476,
+      "sha256": "12892f4940c153c8b2e75abe8eed8f96476989b0a75d65f0dc3d08118bf58269"
+    },
+    {
+      "path": "scientific-figure-making/references/design-theory.md",
+      "url": "https://raw.githubusercontent.com/ChenLiu-1996/figures4papers/b709de17da7e8f9a72e51a5de5bced924a01eeab/scientific-figure-making/references/design-theory.md",
+      "bytes": 6738,
+      "sha256": "d34fa995a481588a33aab301591a9a2ae54dae8df34c74e0a13311582ef48d99"
+    },
+    {
+      "path": "scientific-figure-making/references/demos.md",
+      "url": "https://raw.githubusercontent.com/ChenLiu-1996/figures4papers/b709de17da7e8f9a72e51a5de5bced924a01eeab/scientific-figure-making/references/demos.md",
+      "bytes": 2528,
+      "sha256": "23ce4b9f626af9ace648b047cbc3100ebc511b83127b8cebe793cab3a2f93fa3"
+    },
+    {
+      "path": "figure_ophthal_review/plot_trend.py",
+      "url": "https://raw.githubusercontent.com/ChenLiu-1996/figures4papers/b709de17da7e8f9a72e51a5de5bced924a01eeab/figure_ophthal_review/plot_trend.py",
+      "sha256": "41232f15306ed83081ae695da341c6d78e74dcefd46b32b3f313245dde15db98",
+      "bytes": 5655
+    }
+  ]
+}

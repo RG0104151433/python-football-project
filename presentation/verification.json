@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-08",
+  "browser": "Chromium / local Chrome executable",
+  "slides": 10,
+  "browser_network_offline": true,
+  "fixture_selections_rendered": 52,
+  "interaction_checks": "poll, composition/scale, workflow, year playback, model/metric, history choice, regions, all fixture types, uncertainty, separate auxiliary model, notes, sources, live animation CSS",
+  "page_errors": [],
+  "external_page_requests": [],
+  "desktop_overflow": [],
+  "compact_projector_overflow": [],
+  "mobile_navigation": true,
+  "comparison_images_loaded": 4,
+  "print_export": "presentation/handout.pdf",
+  "scientific_model_refit": false,
+  "handout_pages": 10,
+  "handout_key_values_in_text": true,
+  "handout_fonts_embedded": true,
+  "static_candidates_visually_checked": true,
+  "desktop_screens_visually_reviewed": 10,
+  "handout_pages_rendered": 10,
+  "human_group_rehearsal_or_projector_check": false,
+  "handout_pages_visually_reviewed": 10,
+  "paper_fingerprints_unchanged": true,
+  "three_existing_submission_archives_unchanged": true,
+  "initial_issues_corrected": [
+    "Mapped annual binary_accuracy field and evaluation-window scope to actual CSV schema, asserted six choices",
+    "Retained actual calendar spacing for selected strength observations",
+    "Fixed animation CSS syntax and verified actual keyframes/positioning; print disables animation"
+  ]
+}

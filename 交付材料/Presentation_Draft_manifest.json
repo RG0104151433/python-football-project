@@ -1,0 +1,147 @@
+{
+  "purpose": "additional presentation discussion bundle, not replacement for R06 report/code/data archives",
+  "date": "2026-11-08",
+  "status": "first_draft_not_group_rehearsed",
+  "archive": "Presentation_Draft.zip",
+  "bytes": 1205624,
+  "sha256": "6147daf910062fc8f11a772467253b1ebdc2734926e100787ea8b10b95215c90",
+  "members": [
+    {
+      "member": "FootballPresentation/README.md",
+      "sha256": "e2af7764f3d34b5f4c85b3966574617af71729ed39fbd3b1641fa6f44d4ee29d",
+      "bytes": 6338
+    },
+    {
+      "member": "FootballPresentation/SPEAKER_NOTES.md",
+      "sha256": "b345c1feac46376477dd916a7b2b4403795736f609da2a7de55d0da8556ca0f4",
+      "bytes": 4692
+    },
+    {
+      "member": "FootballPresentation/build.py",
+      "sha256": "a385bf6c418a90af0d5578ae6c8bc8670a89ff6b196af79111e547e9fe26aec5",
+      "bytes": 12646
+    },
+    {
+      "member": "FootballPresentation/deck.template.html",
+      "sha256": "f302d97b65f029171c96cc6f77fccea663a5934d00681b98cb670c7b11e2c9e0",
+      "bytes": 48808
+    },
+    {
+      "member": "FootballPresentation/figure_comparison.html",
+      "sha256": "6d3d13715dc465503bcc483402e00ad334f58432322f73082a9ec204a7052b37",
+      "bytes": 712197
+    },
+    {
+      "member": "FootballPresentation/handout.pdf",
+      "sha256": "3f193c8f249256183b111465da62f9d23b6261d04222c4f1c2b5f33d507f15e4",
+      "bytes": 161771
+    },
+    {
+      "member": "FootballPresentation/index.html",
+      "sha256": "28a2b42d51f7a52086745fe564f4778899bae11966533808f9044ecf3de3bf3b",
+      "bytes": 101391
+    },
+    {
+      "member": "FootballPresentation/manifest.json",
+      "sha256": "497f55e7d398a0aa529bb8b78c09f417e8d0617eb815e2f367c70325f323a1f3",
+      "bytes": 4581
+    },
+    {
+      "member": "FootballPresentation/preview.png",
+      "sha256": "2dcffaa91ccee72a7b855a6e6de92ff9d28a2452f5c404105d03817dc41c5d36",
+      "bytes": 85402
+    },
+    {
+      "member": "FootballPresentation/verification.json",
+      "sha256": "fde75ab2750a518b2452293d33566079087a646d16a46d7eb9248c7086df643d",
+      "bytes": 1395
+    },
+    {
+      "member": "FootballPresentation/verify.cjs",
+      "sha256": "2c43bd985057c7f8b0397a04e950d24271812e1df91efe830a713625caaa511f",
+      "bytes": 7753
+    },
+    {
+      "member": "FootballPresentation/assets/model_comparison.pdf",
+      "sha256": "ad91566b859685ba5abefe98df4e72f0b21f7ad278efe7b4dbdd1239d6f4da73",
+      "bytes": 27117
+    },
+    {
+      "member": "FootballPresentation/assets/model_comparison.png",
+      "sha256": "c4fd5cac89e80e0fb3b04e8639a7a39444798b0cc3c3a85a8cba6952dddaf3a3",
+      "bytes": 161312
+    },
+    {
+      "member": "FootballPresentation/assets/model_comparison.svg",
+      "sha256": "2524671582e20713f24d1bc7551b98de876648330837441fe336b9b4dac1878f",
+      "bytes": 17535
+    },
+    {
+      "member": "FootballPresentation/assets/presentation_data.json",
+      "sha256": "3a37625c4b462166e2778b5c420435186d77f88882245194df8052666fd56fbf",
+      "bytes": 71853
+    },
+    {
+      "member": "FootballPresentation/assets/strength_trajectories.pdf",
+      "sha256": "78f2fd09518e2026f3ee4793792d15d43fdf01a144be67862153ed01f122a2f8",
+      "bytes": 36825
+    },
+    {
+      "member": "FootballPresentation/assets/strength_trajectories.png",
+      "sha256": "81e510e68e301c8e22070b4d621e36bbd4d953b849067984f6f6ac926a47ea4f",
+      "bytes": 188805
+    },
+    {
+      "member": "FootballPresentation/assets/strength_trajectories.svg",
+      "sha256": "de9e980c2ee99c9e273244e3cc04555aad8fcac3b30124d8fcc8a79c0a180cd3",
+      "bytes": 108695
+    },
+    {
+      "member": "FootballPresentation/vendor/README.md",
+      "sha256": "c54cbe61ffcedb3d1cdd1862d73c7fed02726d8f313f0c940491f8f64570c146",
+      "bytes": 970
+    },
+    {
+      "member": "FootballPresentation/vendor/figures4papers/b709de17da7e/LICENSE",
+      "sha256": "0afca3145596cd005f6f6ed977313ea31928094fc5b4aaabc21bb765ea369d09",
+      "bytes": 19342
+    },
+    {
+      "member": "FootballPresentation/vendor/figures4papers/b709de17da7e/README.md",
+      "sha256": "e69468338f4cc01889878845ae0f225e5d0948cd66146e85c4c0cd1346028f58",
+      "bytes": 11418
+    },
+    {
+      "member": "FootballPresentation/vendor/figures4papers/b709de17da7e/source_manifest.json",
+      "sha256": "c1cc8ce1cc3f34973fadce5b4e828c417950962737542028805e74dff7a4e6d6",
+      "bytes": 2482
+    },
+    {
+      "member": "FootballPresentation/vendor/figures4papers/b709de17da7e/figure_ophthal_review/plot_trend.py",
+      "sha256": "41232f15306ed83081ae695da341c6d78e74dcefd46b32b3f313245dde15db98",
+      "bytes": 5655
+    },
+    {
+      "member": "FootballPresentation/vendor/figures4papers/b709de17da7e/scientific-figure-making/SKILL.md",
+      "sha256": "952300b4d0bd8fbd0c55aaa732a47a0abb8e9707bc80965c8e70221ef13f0292",
+      "bytes": 2242
+    },
+    {
+      "member": "FootballPresentation/vendor/figures4papers/b709de17da7e/scientific-figure-making/references/api.md",
+      "sha256": "12892f4940c153c8b2e75abe8eed8f96476989b0a75d65f0dc3d08118bf58269",
+      "bytes": 5476
+    },
+    {
+      "member": "FootballPresentation/vendor/figures4papers/b709de17da7e/scientific-figure-making/references/demos.md",
+      "sha256": "23ce4b9f626af9ace648b047cbc3100ebc511b83127b8cebe793cab3a2f93fa3",
+      "bytes": 2528
+    },
+    {
+      "member": "FootballPresentation/vendor/figures4papers/b709de17da7e/scientific-figure-making/references/design-theory.md",
+      "sha256": "d34fa995a481588a33aab301591a9a2ae54dae8df34c74e0a13311582ef48d99",
+      "bytes": 6738
+    }
+  ],
+  "crc_and_hashes_checked": true,
+  "external_submission": false
+}
