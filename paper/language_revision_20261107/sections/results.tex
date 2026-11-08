@@ -71,7 +71,7 @@ The full regional output also contains 155 directional matchups: 153 have observ
 
 For RQ2, we evaluated background-only, strength-only, and joint predictors on the same 21,413 matches from 1990--2024, using only information available before each prediction. This is a retrospective chronological comparison: the archive also informed development and selection, as described in Section~\ref{sec:data-design}.
 
-Including strength produced the larger reduction in loss (Table~\ref{tab:predictive-models}; Figure~\ref{fig:predictive-models}). Mean log loss declined from $0.671936$ for background alone to $0.566020$ for strength alone and $0.563630$ for the joint predictor. The joint model's relative reductions were $16.12\%$ against background alone and $0.42\%$ against strength alone. The absolute reductions were 0.105916 from background to strength and 0.002390 from strength to the joint model. These are aggregate loss comparisons, not an additive decomposition of information or evidence for individual subgroups. Binary accuracy followed the same ordering: $58.19\%$, $69.83\%$, and $70.01\%$. Accuracy refers to home-win/non-home-win classification and is distinct from relative loss reduction.
+The largest loss difference was between background-only and strength-only prediction (Table~\ref{tab:predictive-models}; Figure~\ref{fig:predictive-models}). Mean log loss was $0.671936$ for background alone, $0.566020$ for strength alone, and $0.563630$ for the joint predictor. The joint model's relative reductions were $16.12\%$ against background alone and $0.42\%$ against strength alone. The absolute reductions were 0.105916 from background to strength and 0.002390 from strength to the joint model. These comparisons identify the larger strength-related difference and the smaller contextual increment; they do not form an additive decomposition of information. Binary accuracy followed the same ordering: $58.19\%$, $69.83\%$, and $70.01\%$. Accuracy refers to home-win/non-home-win classification and is distinct from relative loss reduction.
 
 \begin{table}[htbp]
 \centering\small
@@ -88,7 +88,7 @@ Strength and context & 0.563630 & 0.192657 & 70.01 & $+0.2398$ \\
 \end{tabular}
 \end{table}
 
-Adding context also reduced the Brier score from $0.193698$ to $0.192657$ and mean bias from $+0.9308$ to $+0.2398$~pp. The background-only model had the smallest absolute mean bias but the highest loss and Brier score. Agreement with the overall frequency therefore does not establish match-level predictive quality or calibration across probability levels and groups.
+Adding context also reduced the Brier score from $0.193698$ to $0.192657$ and mean bias from $+0.9308$ to $+0.2398$~pp. These changes concern probability quality; the corresponding classification improvement is small because accuracy depends only on which side of the decision threshold a prediction falls. The background-only model had the smallest absolute mean bias but the highest loss and Brier score. Agreement with the overall frequency therefore does not establish match-level predictive quality or calibration across probability levels and groups.
 
 \begin{figure}[htbp]
 \centering

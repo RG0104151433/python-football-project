@@ -1,5 +1,9 @@
 # Supporting results and reproduction guide
 
+**Final manuscript (R20261108-02).** The delivered paper is `paper/final_paper.pdf`; its source remains `paper/language_revision_20261107/main.tex`. See `paper/final_review_20261108.md` and `paper/final_paper_manifest.json` for actual checks and remaining front-matter information. No empirical result or figure changed; the data and methods below remain the adopted research evidence.
+
+**Current writing revision (R20261108-01).** The CCFA-guided revision clarifies the argument, model rationale, full strength-distribution interface, and interpretation of the existing comparisons. No empirical result, parameter, equation, citation, or figure was changed in this revision. The current writing audit is `language_revision_20261107/ccfa_revision_manifest.json`; the detailed explanation is `language_revision_20261107/ccfa_revision_report.md`. Earlier dated audits refer to their recorded versions.
+
 Current paper coverage review: R20261107-03 (7 November 2026), Codex (AI).
 This guide indexes existing adopted results; it does not copy the data, rerun
 models, or turn exploratory/historical versions into adopted evidence.

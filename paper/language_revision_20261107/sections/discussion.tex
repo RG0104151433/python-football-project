@@ -5,7 +5,7 @@
 
 For RQ1, adjustment for era composition reduced the friendly--other-match gap, and geographic comparisons depended on the opponents represented. Several model-conditional ranges were too broad to resolve the direction of a difference. These comparisons provide a common descriptive basis for the strength-adjusted analysis, without identifying a pure home effect or a universal regional ranking.
 
-For RQ2, adding strength to background produced a larger aggregate loss reduction than adding context to strength. The relative reductions have different denominators and cannot be interpreted as additive shares of information or as results for every subgroup with a high home-win rate. The model draws on dynamic paired comparisons~\citep{glickman1999dynamic}, with study-specific jump dynamics, information weights, and an outcome model. The empirical comparison uses internal predictors; FIFA rankings, Elo, and other external systems were not evaluated.
+For RQ2, the larger reduction in aggregate loss was associated with strength, while context provided a smaller increment. Dynamic paired comparisons~\citep{glickman1999dynamic} convert earlier results into estimates of ability and uncertainty; the common-sample comparison then tests whether context improves predictions beyond those estimates. The result gives context a conditional forecasting role. It does not turn geographic or tournament differences in observed home-win rates into an independent measure of venue advantage.
 
 For RQ3, cumulative history performed best in the main comparison among the tested choices and remains the default. A shorter outcome-fitting window reduced computation at a small predictive cost. Regional diagnostics qualified the aggregate context gain: in Africa, its direction was sensitive to particular years and teams, while opposing probability biases persisted in selected uncertainty groups. These findings identify specific targets for further evaluation and calibration.
 
@@ -19,9 +19,9 @@ Approximate strength inference, assumed jump dynamics, and restricted context te
 
 Some limitations have measurable consequences. The ordinary and strict numerical replays differed little, whereas initialization alternatives changed raw probabilities by more than $1$~pp in 2,905 study matches. These changes measure sensitivity and do not provide additional confidence bounds for corrected predictions. The final pipeline's recent-period loss was also slightly higher than that of the fixed-step baseline, limiting claims about the benefit of persistent jumps and probability correction. The separate effects of Gaussian projection, unmeasured squad changes, weak cross-region connections, and historical identity errors have not been quantified.
 
-Model revision introduces selection risk. Numerical-reference failures led to a revised integration order, and residual probability bias led to separate shape and drift corrections. These changes brought the system within the documented operational requirements. However, repeated inspection of the same archive can favour revisions specific to that history. Retrospective improvement does not eliminate this risk. The prospective release records predictions made before their outcomes, but neither its accuracy nor the benefit of subsequent refinements is yet known.
+Development results changed both the integration procedure and probability correction: numerical-reference failures prompted a new integration order, and residual bias prompted separate shape and drift corrections. These revisions addressed observed defects under the documented criteria. Because the same archive also informed those decisions, the resulting historical scores can favour revisions specific to that archive. The prospective release preserves predictions made before their outcomes and permits a later test on new matches.
 
-Chronological prediction excludes the current result from its own inputs, while development and model selection still reuse the archive. The historical evaluation is therefore not an untouched final test. Simulation results apply to the specified generators; no dependence-adjusted interval from real match data establishes the persistence of the small contextual gain. Deletion checks assess evaluation composition without reconstructing the learning history. Wider application requires prospective evaluation and continued regional diagnostics.
+Chronological prediction excludes each match's own outcome from its inputs, but it does not make a reused development archive an untouched final test. Simulation results apply to their specified generators, and no dependence-adjusted interval from real match data establishes the persistence of the small contextual gain. Deletion checks assess evaluation composition while retaining the original learning history. Prospective evaluation and regional diagnostics therefore address different remaining questions about model use.
 
 The historical uncertainty procedure also failed under a permanent global-shock generator. Its envelopes therefore remain conditional on the generating mechanisms for which the procedure met the validation criteria, rather than providing guarantees for arbitrary football histories.
 
@@ -37,11 +37,15 @@ Fourth, club-football analysis requires new ratings and parameters for seasons, 
 
 \subsection{Conclusion}
 
-Pre-match strength provided the larger reduction in aggregate predictive loss, with a smaller increment from context. Historical-window and regional analyses qualify its application. The archived prospective release permits future evaluation, supported by documented data, model development, performance, and limitations.
+Within this international-football archive, strength provided the larger reduction in predictive loss, and context supplied a smaller increment whose stability varied across regional checks. Historical-window comparisons favoured cumulative history among the tested choices and identified a computation--prediction trade-off. These results support evaluating historical home-win patterns as additional forecasting information after accounting for uncertain strength. The archived prospective release applies that approach with explicit information dates and preserves its probabilities for evaluation when outcomes become available.
 
 \paragraph{Data and code availability.}
 Source match data are available under CC0 from martj42~\citep{martj42_data}. The accompanying repository provides code, configurations, build instructions, experiment records, and input/output fingerprints identifying the reported versions.
 
 The English guide \path{paper/SUPPORTING_RESULTS.md} indexes all stage tables, methods, reproduction instructions, windows, geographic matchups, sensitivity outputs, and the 52-fixture forecast ledger. The main text reports selected results.
 
-% Author identities and truthful contribution details deferred by the project owner.
+\paragraph{Team responsibilities.}
+The division of responsibilities was as follows: Ruiyi Gao was responsible for study design, coordination, computational analysis, and manuscript preparation; Zhenglin Chen for code review and methodological refinement; and Wenyu Jiang for supplementary data collection and presentation preparation.
+
+\paragraph{Use of AI-assisted tools.}
+AI-assisted tools supported code development, documentation, and manuscript revision. Empirical claims are supported by the archived data and computational outputs, rather than by generated text alone.

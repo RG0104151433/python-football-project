@@ -1,0 +1,222 @@
+{
+  "repository": "https://github.com/mikubaka88/CCFA-Skills",
+  "commit": "91ca9e2801698466f934b557a75ce46db8ba46b5",
+  "retrieved_on": "2026-11-08",
+  "purpose": "Fixed-version source excerpts for reverse derivation of paper criteria; not a complete installed plugin",
+  "records": [
+    {
+      "path": "README.md",
+      "sha256": "2cebde50a092f93bf94b7e18d342c37e7606f309122bb5f91fc31b528d71b0ea",
+      "bytes": 52785,
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/README.md"
+    },
+    {
+      "path": "AGENT_GUIDE.md",
+      "sha256": "bb1edb6a2db025702dedfd0a1c71062c31f9da89919a689653c7674537714403",
+      "bytes": 9005,
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/AGENT_GUIDE.md"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "1ac138d752fc345d61c5790df57caed3487e4d66d59879d6bd60272765d087d2",
+      "bytes": 1067,
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/LICENSE"
+    },
+    {
+      "path": "ccf-common/SKILL.md",
+      "sha256": "b71e3f17ea0a28bf710ea2a44744b54ff4c03cba688f391dfb9a9e28111c2676",
+      "bytes": 5006,
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-common/SKILL.md"
+    },
+    {
+      "path": "ccf-experiment-designer/SKILL.md",
+      "sha256": "273d7d266c923b21f2c78bf06deea3f404f223d6d6aec0294f6ca61de2e92f76",
+      "bytes": 11021,
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-experiment-designer/SKILL.md"
+    },
+    {
+      "path": "ccf-humanization/SKILL.md",
+      "sha256": "6ea2eff6c9f2763c11ce463c2a00ef15d916375b3ef5399af3d22aacc4ffed20",
+      "bytes": 5215,
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-humanization/SKILL.md"
+    },
+    {
+      "path": "ccf-idea-optimizer/SKILL.md",
+      "sha256": "5e52d586eaff6e2f5a7e34e4a61ceb25edd1eb16b5407aba491d6c141eeceab3",
+      "bytes": 9384,
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-idea-optimizer/SKILL.md"
+    },
+    {
+      "path": "ccf-idea-reviewer/SKILL.md",
+      "sha256": "baa0359fd70cdaade00103bef091cefd1a3fedbd4b7949baee3fd6635a4f232c",
+      "bytes": 8203,
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-idea-reviewer/SKILL.md"
+    },
+    {
+      "path": "ccf-integrity-auditor/SKILL.md",
+      "sha256": "fc7e557cd4f6fe163e7a12db5fde27cd323e7277a9a5b0ffe213e77c8c8ad82f",
+      "bytes": 4677,
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-integrity-auditor/SKILL.md"
+    },
+    {
+      "path": "ccf-literature-monitor/SKILL.md",
+      "sha256": "d52ff9dd4225f44be17f788eebee0dedae14aca50c08bf086d2b4c90d6a7a46f",
+      "bytes": 6573,
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-literature-monitor/SKILL.md"
+    },
+    {
+      "path": "ccf-literature-searcher/SKILL.md",
+      "sha256": "5f18d0d2ad6b4fca9dff988d267aa86dc429dd3f308310396904da5c28f9b66e",
+      "bytes": 5742,
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-literature-searcher/SKILL.md"
+    },
+    {
+      "path": "ccf-paper-reviewer/SKILL.md",
+      "sha256": "25b3a8a41c4826fe5a42bc72210c3fdf59344ef9a3cdf7aadbaaaed78199a715",
+      "bytes": 8075,
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-paper-reviewer/SKILL.md"
+    },
+    {
+      "path": "ccf-paper-to-exemplar/SKILL.md",
+      "sha256": "8014f09d17165c95be89c5a053be1da89c2aba914d4138984fa2ac1226853b4a",
+      "bytes": 6603,
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-paper-to-exemplar/SKILL.md"
+    },
+    {
+      "path": "ccf-paper-writer/SKILL.md",
+      "sha256": "058443596b595c5d4de010eecf51e45db18b5688cba06093b68a9d508570a237",
+      "bytes": 8669,
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-paper-writer/SKILL.md"
+    },
+    {
+      "path": "ccf-pipeline-orchestrator/SKILL.md",
+      "sha256": "32da0107b3da0e3a269b639ba65d0c9d3856303b45b983e17d48f626ac09010d",
+      "bytes": 7774,
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-pipeline-orchestrator/SKILL.md"
+    },
+    {
+      "path": "ccf-project-scaffolder/SKILL.md",
+      "sha256": "318bf325ec001a252045c7d16fedc60fd932c947145158f42fce5b6bf14dbe07",
+      "bytes": 4474,
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-project-scaffolder/SKILL.md"
+    },
+    {
+      "path": "ccf-rebuttal-writer/SKILL.md",
+      "sha256": "8ccad19dffffef0fc7a3388c996a5efae3a56d993569ce66fe78e60732a40f5b",
+      "bytes": 6068,
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-rebuttal-writer/SKILL.md"
+    },
+    {
+      "path": "ccf-skill-forger/SKILL.md",
+      "sha256": "5da8fbc592626bc2a2e240e97f9f53658b6f9abca30482f4a51f4dc7b2ef1b58",
+      "bytes": 7890,
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-skill-forger/SKILL.md"
+    },
+    {
+      "path": "ccf-submission-checker/SKILL.md",
+      "sha256": "e4d0a30ff7093b282b42af0995177efa50723aaddbea818156c1c19efe162bc5",
+      "bytes": 5130,
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-submission-checker/SKILL.md"
+    },
+    {
+      "path": "ccf-visual-composer/SKILL.md",
+      "sha256": "c71e5a887cc082c9b77bd9cb00d524de3e11dc6d33c301e0a9f6738860178293",
+      "bytes": 11648,
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-visual-composer/SKILL.md"
+    },
+    {
+      "path": "ccf-common/references/preferences.md",
+      "bytes": 16313,
+      "sha256": "d41ebce1875f56b97a5f9a35bc97348e2951354ebeb66b0e727fbfa5ef250332",
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-common/references/preferences.md"
+    },
+    {
+      "path": "ccf-common/references/artifact-contracts.md",
+      "bytes": 24165,
+      "sha256": "2bbf9af3f7cf213410835f8ff4b6ca95195c6b49c7b6064406e01aa09cfc5bfa",
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-common/references/artifact-contracts.md"
+    },
+    {
+      "path": "ccf-common/references/privacy-and-evidence.md",
+      "bytes": 6405,
+      "sha256": "2a2e1649296ae346120f840764b1228a30acac782060f5dfd6ad8500fadd1361",
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-common/references/privacy-and-evidence.md"
+    },
+    {
+      "path": "ccf-common/references/task-modes.md",
+      "bytes": 16706,
+      "sha256": "2c37c50d0530d6dc3173f688110856cf318c9937dcc2ad6adc1825f19e91b48a",
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-common/references/task-modes.md"
+    },
+    {
+      "path": "ccf-common/scripts/preferences.py",
+      "bytes": 20090,
+      "sha256": "808a92e105d9f3daafc95be2f81f8c8891d04eadf4dc832f3defc93c21c52839",
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-common/scripts/preferences.py"
+    },
+    {
+      "path": "ccf-paper-writer/references/storyline-blueprint.md",
+      "bytes": 9644,
+      "sha256": "376a23c42539b247b843d435d6c36ef5be60330066756875cb973a73bb40eab0",
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-paper-writer/references/storyline-blueprint.md"
+    },
+    {
+      "path": "ccf-paper-writer/references/section-modules.md",
+      "bytes": 18193,
+      "sha256": "d0fd50386b15119da1273389fa93f0f81417b5bd15ecb8777d9b4364d669068d",
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-paper-writer/references/section-modules.md"
+    },
+    {
+      "path": "ccf-paper-writer/references/prose-quality-guardrails.md",
+      "bytes": 14789,
+      "sha256": "49dbe99ebc1b0ea143cf7a7f9f383e3cc1a6598fc0cb8cf7729433b2b2becf65",
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-paper-writer/references/prose-quality-guardrails.md"
+    },
+    {
+      "path": "ccf-paper-writer/references/exemplar-style-analysis.md",
+      "bytes": 8285,
+      "sha256": "171cb609d352c1823e40b5377d0bb870f527d466172584783caefc9662761476",
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-paper-writer/references/exemplar-style-analysis.md"
+    },
+    {
+      "path": "ccf-paper-writer/scripts/check_prose_quality.py",
+      "bytes": 16752,
+      "sha256": "79de6b53e708759c9bbfb164901b331ed55e1a52265e93edfec27da354d4fdad",
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-paper-writer/scripts/check_prose_quality.py"
+    },
+    {
+      "path": "ccf-humanization/references/humanization-policy.md",
+      "bytes": 22402,
+      "sha256": "a5eb4e8df3bb2cbddd9270f1a59f1f588cdbc6861b2e38264fb2a5c6adde8ad8",
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-humanization/references/humanization-policy.md"
+    },
+    {
+      "path": "ccf-humanization/references/experiment-discipline.md",
+      "bytes": 4847,
+      "sha256": "bbd23d60149bd96e5aa37ba3fc25ca5dc1c4344f4b12a226e056244f227c8f28",
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-humanization/references/experiment-discipline.md"
+    },
+    {
+      "path": "ccf-paper-reviewer/references/universal-review-rubric.md",
+      "bytes": 3423,
+      "sha256": "94f5f892e4f5efc164e0970328b397ca4b1a65bd82ec547c9277fe5361e36c28",
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-paper-reviewer/references/universal-review-rubric.md"
+    },
+    {
+      "path": "ccf-submission-checker/references/submission-checklist.md",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "ccf-research-engineer/SKILL.md",
+      "bytes": 8739,
+      "sha256": "db2876afb501cff64c1f40b8e16e3534832292a8097aa250189aede8e5bdefb1",
+      "url": "https://raw.githubusercontent.com/mikubaka88/CCFA-Skills/91ca9e2801698466f934b557a75ce46db8ba46b5/ccf-research-engineer/SKILL.md"
+    }
+  ],
+  "observed_version": "README v0.12.1; 18 skill entries",
+  "executed_helpers": [
+    "ccf-common/scripts/preferences.py resolve (read-only)",
+    "ccf-paper-writer/scripts/check_prose_quality.py (read-only)"
+  ],
+  "no_external_install_or_model_scripts_executed": true
+}

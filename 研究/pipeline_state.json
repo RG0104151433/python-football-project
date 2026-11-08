@@ -70,13 +70,13 @@
     "course_research_scope_closed": true,
     "ready_for_writing": true,
     "writing_setup": {
-      "decision_log_id": "R20261107-11",
+      "decision_log_id": "R20261108-03",
       "root_navigation_simplified": true,
       "stage_reading_overviews_prepared": 10,
       "paper_directory": "paper",
       "paper_entry": "paper/language_revision_20261107/main.tex",
       "paper_readme": "paper/README.md",
-      "paper_status": "course_paper_requirements_and_academic_language_reviewed_identity_and_final_delivery_pending",
+      "paper_status": "final_manuscript_and_author_front_matter_complete_actual_submission_pending",
       "paper_asset_review": {
         "decision_log_id": "R20261103-04",
         "scope": "course_paper_only_not_presentation_or_new_research",
@@ -100,7 +100,7 @@
       },
       "paper_compilation_passed": true,
       "paper_compilation_scope": "Language revision compiled independently; isolated citation/numerical/equation preservation and layout checks",
-      "paper_compilation_note": "R20261107-11: current language version 23 pages / 18 references; teacher images checked, attribution/contribution/flow/wording improved, all pages reviewed. No model rerun; identity fields and final delivery/reproduction pending.",
+      "paper_compilation_note": "R20261108-02: final 23-page manuscript with author names, IDs, assigned roles and AI-use statement; content/evidence/math/citation/visual checks passed. Class information not supplied; no member reproduction certified. R03: Chinese class line added, compilation/first-page check passed; body PDF text unchanged.",
       "figures_selected": 7,
       "figures_selection_scope": "Flow, historical overview, four-team strength-state illustration, joint comparison, windows, regional diagnostics, issued forecasts",
       "bibliography_entries_verified": 18,
@@ -121,25 +121,50 @@
       },
       "adopted_research_results_changed": false,
       "current_working_preview": {
-        "decision_log_id": "R20261107-11",
-        "manifest": "paper/language_revision_20261107/requirements_language_review.json",
-        "pdf": "paper/language_revision_20261107/build/main.pdf",
+        "decision_log_id": "R20261108-03",
+        "manifest": "paper/final_paper_manifest.json",
+        "pdf": "paper/final_paper.pdf",
         "pages": 23,
         "figures": 7,
         "tables": 5,
         "displayed_equations": 12,
         "bibliography_entries": 18,
         "original_preserved": true,
-        "final_paper": false
+        "final_paper": true
       },
       "comparison_original_entry": "paper/main.tex",
       "comparison_original_preview": "paper/build/main.pdf",
       "course_requirements_review": {
         "report": "paper/language_revision_20261107/requirements_language_review.md",
         "paper_body_requirements_covered": true,
-        "student_name_id_class_complete": false,
+        "student_name_id_class_complete": true,
         "full_code_reexecution_this_review": false,
-        "not_a_final_submission_certificate": true
+        "not_a_final_submission_certificate": true,
+        "student_names_ids_complete": true,
+        "student_classes_complete": true
+      },
+      "ccfa_writing_revision": {
+        "decision_log_id": "R20261108-01",
+        "report": "paper/language_revision_20261107/ccfa_revision_report.md",
+        "diff": "paper/language_revision_20261107/ccfa_changes.diff",
+        "source_commit": "91ca9e2801698466f934b557a75ce46db8ba46b5",
+        "standards": 12,
+        "substantive_edits": 15,
+        "independent_review_performed": false,
+        "new_scientific_experiments": false,
+        "ccfa_quality_certification": false
+      },
+      "final_manuscript": {
+        "report": "paper/final_review_20261108.md",
+        "authors_supplied_by_owner": true,
+        "member_A": "Zhenglin Chen",
+        "member_B": "Wenyu Jiang",
+        "roles_are_assigned_responsibilities_not_independent_reproduction_certificate": true,
+        "class_information_pending": false,
+        "manuscript_finalized": true,
+        "actual_submission_performed": false,
+        "class_name": "睿信2526班",
+        "class_name_language": "Chinese_per_owner_request"
       }
     },
     "new_research_experiments_required_before_writing": false,

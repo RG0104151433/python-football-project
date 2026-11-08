@@ -2,7 +2,7 @@
 \subsection{Strength Estimation: Development, Estimates, and Evaluation}
 \label{sec:strength-development}
 
-The strength model was evaluated separately before its inclusion in the joint predictor. Its primary output is a time-indexed distribution of latent ability; true team strength is not observed. Figure~\ref{fig:strength-states} illustrates this output for four teams selected for presentation, rather than on the basis of predictive performance. Each point represents the state immediately before the selected match, excluding that match's result. The estimates incorporate both home and away appearances. Whiskers represent marginal uncertainty on the model's fixed performance-noise scale. They neither measure independently observed football quality nor account for all model error, and should not be interpreted as confidence intervals for true ability.
+The strength model produces a time-indexed distribution of latent ability for each team. Figure~\ref{fig:strength-states} illustrates the output for four teams selected for presentation rather than predictive performance. Each point is a pre-match estimate that excludes the selected match's result and incorporates earlier home and away appearances. The means summarize estimated strength, while the whiskers show marginal uncertainty on the fixed performance-noise scale. These marginal summaries distinguish estimated ability from its uncertainty. The joint model uses the strength-difference mixture in Equation~\ref{eq:difference-mixture}, rather than only the displayed mean and standard deviation.
 
 \begin{figure}[htbp]
 \centering

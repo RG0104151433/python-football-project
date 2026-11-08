@@ -1,5 +1,9 @@
 # 课程论文：LaTeX写作入口
 
+**最终稿R20261108-02：** [定稿PDF](final_paper.pdf)及[最终审阅说明](final_review_20261108.md)为交付入口；可编辑源仍用`language_revision_20261107/main.tex`。当前23页、7图5表/12公式/18引用，已加入姓名/学号、分工和AI辅助说明。当前指纹为`final_paper_manifest.json`；三位成员班级已按R20261108-03统一补为中文“睿信2526班”，成员独立复现和实际提交未代办。下方旧页数/清单保留历史。
+
+**当前R20261108-01：** [CCFA反向推导与15项修改说明](language_revision_20261107/ccfa_revision_report.md)已完成；以[独立新版](language_revision_20261107/README.md)及其[PDF](language_revision_20261107/build/main.pdf)为当前审读稿。23页、7图5表/12公式/18引用；本轮公式、数值、引用和共享图表未改，原稿保留。当前指纹为`language_revision_20261107/ccfa_revision_manifest.json`；下方R11及更早清单仅认证各自历史版本。
+
 **R20261107-11当前稿：** 教师要求与学术语言复核已完成，继续使用[独立新版](language_revision_20261107/README.md)及其[PDF](language_revision_20261107/build/main.pdf)，当前23页/18引用；新增项目贡献/计算流程与三项正式来源，原稿22页/15引用不改。[核查记录](language_revision_20261107/requirements_language_review.md)区分正文覆盖与姓名/学号/班级、最终复现/提交等待办。当前指纹为`language_revision_20261107/requirements_language_review.json`；此前R10/R09为历史。
 
 **R20261107-10：语言精修版已单独保存。** 当前优先研读[语言精修版](language_revision_20261107/README.md)及其[PDF](language_revision_20261107/build/main.pdf)。[原版PDF](build/main.pdf)、原`main.tex`和`sections/`均保留，18个原文件指纹未变。两版均22页，7图5表/12公式/15引用；[逐行差异](language_revision_20261107/language_changes.diff)供对照。修订限正式学术英语、措辞/段落组织和去冗；数值、公式、引用和研究边界保留，未重跑模型。当前语言版清单见`language_revision_20261107/revision_manifest.json`，下方R09是保留原版。
