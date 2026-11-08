@@ -36,3 +36,9 @@ Thumbs.db
 
 # LaTeX local compilation products; keep TeX/Bib sources versioned.
 /paper/build/
+
+# Local course-delivery archives and extracted verification copies.
+# Keep inventories, instructions and check records versioned for reconstruction.
+/交付材料/*.zip
+/交付材料/Report.pdf
+/交付材料/_验收解压/

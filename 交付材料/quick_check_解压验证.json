@@ -1,0 +1,43 @@
+{
+  "passed": 7,
+  "total": 7,
+  "ok": true,
+  "python": "3.14.8",
+  "checks": [
+    {
+      "name": "raw snapshot",
+      "ok": true,
+      "detail": "49,945 matches; 1872-11-30..2026-10-06; 337 teams; 225 tournaments"
+    },
+    {
+      "name": "cleaned dataset",
+      "ok": true,
+      "detail": "48,102 included matches"
+    },
+    {
+      "name": "study population",
+      "ok": true,
+      "detail": "candidates=26,055; retained=24,917; excluded=1,138; pending=0; owner-approved=117"
+    },
+    {
+      "name": "Q5 aggregates",
+      "ok": true,
+      "detail": "M0_nested: n=21,413, logloss=0.671936, acc=58.19%; M1_strength: n=21,413, logloss=0.566020, acc=69.83%; M3_nested: n=21,413, logloss=0.563630, acc=70.01%"
+    },
+    {
+      "name": "Q6 baseline",
+      "ok": true,
+      "detail": "9,727 evaluation matches; cumulative/cumulative logloss=0.5591345107"
+    },
+    {
+      "name": "Q7 overall",
+      "ok": true,
+      "detail": "9,727 matches; joint logloss=0.5591345107"
+    },
+    {
+      "name": "Q8 forecasts",
+      "ok": true,
+      "detail": "52 targets; 49 binary; 3 withheld; 2026-11-12..2026-11-17"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+收件人：python_projects@163.com
+主题：CourseProjectFall2026-RuiyiGao-1120251392-ZhenglinChen-1120250540-WenyuJiang-1120252594
+
+Dear Instructor,
+
+Please find attached our course project submission for Programming with Python, Fall 2026.
+
+Project title: Home-Win Prediction in International Football: Team Strength, Historical Information, and Regional Variation
+
+Group members (all from 睿信2526班):
+1. Ruiyi Gao (高睿懿), Student ID: 1120251392
+   Responsibilities: study design and coordination, computational analysis, and manuscript preparation.
+2. Zhenglin Chen (陈正林), Student ID: 1120250540
+   Responsibilities: code review and methodological refinement.
+3. Wenyu Jiang (江汶谕), Student ID: 1120252594
+   Responsibilities: supplementary data collection and presentation preparation.
+
+The project develops a traceable data-preparation and analysis workflow, compares historical home-win patterns, implements uncertain pre-match strength estimation, and evaluates the additional predictive information supplied by match context. It also studies history length and regional applicability and archives prospective forecasts without claiming their outcomes have been evaluated.
+
+The report, complete code, and experimental data are packaged separately:
+- Report.zip
+- Code.zip
+- Data.zip
+
+The code archive includes environment and execution instructions. Please extract the code and data archives into the same parent directory to merge their FootballProject folders. The project quick check is described in README_SUBMISSION.md.
+
+Best regards,
+Ruiyi Gao, Zhenglin Chen, and Wenyu Jiang
+
+【发送前核对，不属于邮件正文】
+请三人确认上述责任与实际贡献表述。当前文字沿用组长确认的分工，不声称成员已独立复现。
+邮箱每组只发一封；平台另交报告/代码、不交数据。附件容量限制以实际邮箱界面为准。
+该草稿没有自动发送，也不表示平台已经上传。

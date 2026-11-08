@@ -325,7 +325,31 @@
         "reviewer_reacceptance": false
       }
     },
-    "adopted_research_results_changed": false
+    "adopted_research_results_changed": false,
+    "submission_preparation": {
+      "decision_log_id": "R20261108-06",
+      "status": "local_archives_built_and_checked_not_submitted",
+      "guide": "交付材料/00_取用与提交说明.md",
+      "manifest": "交付材料/PACKAGE_MANIFEST.json",
+      "verification": "交付材料/验收记录.json",
+      "archive_roles": {
+        "platform": [
+          "Report.pdf",
+          "Code.zip"
+        ],
+        "email": [
+          "Report.zip",
+          "Code.zip",
+          "Data.zip"
+        ]
+      },
+      "data_zip_approx_mib": 617.42,
+      "mailbox_capacity_confirmed": false,
+      "archives_git_ignored": true,
+      "actual_upload_or_email": false,
+      "presentation_complete": false,
+      "fresh_machine_installation_verified": false
+    }
   },
   "numbering_decision": {
     "date": "2026-10-26",

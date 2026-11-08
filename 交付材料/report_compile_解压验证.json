@@ -1,0 +1,15 @@
+{
+  "exit_code": 0,
+  "pdf_exists": true,
+  "tex_flags": [],
+  "command": [
+    "C:/texlive/2026/bin/windows/latexmk.exe",
+    "-norc",
+    "-xelatex",
+    "-interaction=nonstopmode",
+    "-halt-on-error",
+    "-outdir=build",
+    "main.tex"
+  ],
+  "stdout_preserved_as_original_bytes": true
+}

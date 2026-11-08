@@ -1,0 +1,58 @@
+{
+  "schema_version": "submission-delivery-check-v1",
+  "date": "2026-11-08",
+  "executor": "Codex (AI)",
+  "actual_external_submission": false,
+  "archives_crc_and_all_member_hashes_verified": true,
+  "all_archives_extracted_and_merged": true,
+  "verification_directory": "交付材料/_验收解压/FootballProject",
+  "source_import_resolved_inside_extracted_project": true,
+  "python_files_syntax_checked": 280,
+  "quick_check": {
+    "passed": 7,
+    "total": 7,
+    "log": "quick_check_解压验证.json"
+  },
+  "targeted_pytest": {
+    "passed": 34,
+    "errors": 0,
+    "files": [
+      "tests/test_data_rules.py",
+      "tests/test_strength_baseline.py",
+      "tests/test_strength_joint.py"
+    ],
+    "log": "pytest_解压验证.txt",
+    "temporary_directory": ".submission_test_tmp"
+  },
+  "report_source_compile": {
+    "exit_code": 0,
+    "pdf_exists": true,
+    "tex_warnings": [],
+    "log": "report_compile_解压验证.json"
+  },
+  "limitations": [
+    "Used the existing verified local Python environment, not a fresh dependency installation or another computer",
+    "No expensive model or simulation recomputation",
+    "No full pytest suite rerun",
+    "Mailbox attachment limits and platform upload fields not checked",
+    "Final group presentation not created by this packaging task"
+  ],
+  "initial_validation_issues": [
+    {
+      "issue": "pytest temporary-directory creation outside project failed",
+      "resolution": "Reran with an explicit temporary directory inside extracted project; all 34 selected tests passed"
+    },
+    {
+      "issue": "Compile wrapper tried to decode Chinese-path subprocess output as UTF-8",
+      "resolution": "Used latexmk with relative main.tex in extracted directory and captured original stdout bytes; compilation exited 0 without TeX warnings"
+    }
+  ],
+  "final_archive_sha256": {
+    "Report": "578bc0425ee0eb92bb138d890564ff5a227d3973ff03253f25f2163f06f52629",
+    "Code": "a60ac40b8a18861823a023208cacbb232c3c9afb390030860aae828bcb0b6658",
+    "Data": "af4331872c6694979e359e2c03a0720db787db373e0a3b7d930bcf9ba6020092"
+  },
+  "standalone_report_sha256": "d11cea93694ef78f7adeb78f9b53a3761dc9ae50b45cdbc8bdd5003dbe71893d",
+  "final_small_archive_refresh_verified": true,
+  "verification_extraction_cleaned_after_success": true
+}
