@@ -1,0 +1,33 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{Abstract}{i}{section*.1}%
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Motivation: From Historical Rates to Pre-Match Prediction}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Related Work and Study Positioning}{1}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Research Questions and Contributions}{1}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Method}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Study Design and Data}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Historical Comparison Framework}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Model Choice and Mathematical Rationale}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Dynamic Pre-Match Team Strength}{5}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Online Learning and the Separate Probability Correction}{7}{subsubsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.5}Joint Probability Model}{8}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Evaluation, Uncertainty, and Implementation}{9}{subsection.2.6}%
+\contentsline {paragraph}{Computational sequence.}{10}{section*.4}%
+\contentsline {section}{\numberline {3}Experimental Results and Analysis}{10}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Historical Patterns and Their Limits}{10}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Strength Estimation: Development, Estimates, and Evaluation}{12}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Model Revisions Informed by Development Results}{12}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Three-Class Evaluation and Remaining Limitations}{14}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}Strength versus Context}{14}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Historical Information and Computational Trade-offs}{16}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Regional Applicability and Probability Bias}{17}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Prospective Application}{18}{subsection.3.6}%
+\contentsline {section}{\numberline {4}Discussion and Conclusion}{19}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Findings and Contributions}{19}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Limitations}{20}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Future Work}{20}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Conclusion}{21}{subsection.4.4}%
+\contentsline {paragraph}{Data and code availability.}{21}{section*.16}%
+\contentsline {paragraph}{Team responsibilities.}{21}{section*.17}%
+\contentsline {paragraph}{Use of AI-assisted tools.}{21}{section*.18}%
+\contentsline {section}{References}{21}{section*.20}%

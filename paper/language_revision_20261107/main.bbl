@@ -1,0 +1,144 @@
+\begin{thebibliography}{18}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Pollard and Armatas(2017)]{pollard2017qualification}
+Richard Pollard and Vasilis Armatas.
+\newblock Factors affecting home advantage in football {World Cup}
+  qualification.
+\newblock \emph{International Journal of Performance Analysis in Sport},
+  17\penalty0 (1--2):\penalty0 121--135, 2017.
+\newblock \doi{10.1080/24748668.2017.1304031}.
+
+\bibitem[Hvattum and Arntzen(2010)]{hvattum2010elo}
+Lars~Magnus Hvattum and Halvard Arntzen.
+\newblock Using {ELO} ratings for match result prediction in association
+  football.
+\newblock \emph{International Journal of Forecasting}, 26\penalty0
+  (3):\penalty0 460--470, 2010.
+\newblock \doi{10.1016/j.ijforecast.2009.10.002}.
+
+\bibitem[Glickman(1999)]{glickman1999dynamic}
+Mark~E. Glickman.
+\newblock Parameter estimation in large dynamic paired comparison experiments.
+\newblock \emph{Journal of the Royal Statistical Society: Series C (Applied
+  Statistics)}, 48\penalty0 (3):\penalty0 377--394, 1999.
+\newblock URL \url{https://www.glicko.net/research/glicko.pdf}.
+
+\bibitem[Dixon and Coles(1997)]{dixon1997scores}
+Mark~J. Dixon and Stuart~G. Coles.
+\newblock Modelling association football scores and inefficiencies in the
+  football betting market.
+\newblock \emph{Journal of the Royal Statistical Society: Series C (Applied
+  Statistics)}, 46\penalty0 (2):\penalty0 265--280, 1997.
+\newblock \doi{10.1111/1467-9876.00065}.
+
+\bibitem[Gneiting and Raftery(2007)]{gneiting2007scoring}
+Tilmann Gneiting and Adrian~E. Raftery.
+\newblock Strictly proper scoring rules, prediction, and estimation.
+\newblock \emph{Journal of the American Statistical Association}, 102\penalty0
+  (477):\penalty0 359--378, 2007.
+\newblock \doi{10.1198/016214506000001437}.
+
+\bibitem[Aronow et~al.(2015)Aronow, Samii, and Assenova]{aronow2015dyadic}
+Peter~M. Aronow, Cyrus Samii, and Valentina~A. Assenova.
+\newblock Cluster-robust variance estimation for dyadic data.
+\newblock \emph{Political Analysis}, 23\penalty0 (4):\penalty0 564--577, 2015.
+\newblock \doi{10.1093/pan/mpv018}.
+
+\bibitem[{martj42}()]{martj42_data}
+{martj42}.
+\newblock International football results.
+\newblock URL \url{https://github.com/martj42/international_results}.
+\newblock Accessed 6 November 2026. Registered local snapshot: 49,945 results
+  through 6 October 2026; CC0. Original acquisition time and upstream commit
+  unknown.
+
+\bibitem[{FIFA}(2018)]{fifa2018affiliations}
+{FIFA}.
+\newblock {FIFA Financial Report 2018}, 2018.
+\newblock URL
+  \url{https://digitalhub.fifa.com/m/337fab75839abc76/original/xzshsoe2ayttyquuxhq0-pdf.pdf}.
+\newblock Reporting year 2018; affiliation records, PDF pp. 149--150. Archived
+  copy consulted.
+
+\bibitem[{United Nations Statistics Division}()]{un_m49}
+{United Nations Statistics Division}.
+\newblock Standard country or area codes for statistical use ({M49}).
+\newblock URL \url{https://unstats.un.org/unsd/methodology/m49/}.
+\newblock Accessed 6 November 2026.
+
+\bibitem[Herbrich et~al.(2006)Herbrich, Minka, and
+  Graepel]{herbrich2006trueskill}
+Ralf Herbrich, Tom Minka, and Thore Graepel.
+\newblock {TrueSkill}: A {Bayesian} skill rating system.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~19, 2006.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper/2006/hash/f44ee263952e65b3610b8ba51229d1f9-Abstract.html}.
+
+\bibitem[Minka(2001)]{minka2001ep}
+Thomas~P. Minka.
+\newblock Expectation propagation for approximate {Bayesian} inference.
+\newblock In \emph{Proceedings of the Seventeenth Conference on Uncertainty in
+  Artificial Intelligence}, pages 362--369, 2001.
+\newblock URL \url{https://tminka.github.io/papers/ep/}.
+\newblock Author page provides a corrected version dated 30 January 2004.
+
+\bibitem[Groll et~al.(2024)Groll, Hvattum, Ley, Sternemann, Schauberger, and
+  Zeileis]{groll2024combined}
+Andreas Groll, Lars~M. Hvattum, Christophe Ley, Jonas Sternemann, Gunther
+  Schauberger, and Achim Zeileis.
+\newblock {Modeling and Prediction of the UEFA EURO 2024 via Combined
+  Statistical Learning Approaches}.
+\newblock arXiv preprint arXiv:2410.09068v1, 2024.
+\newblock URL \url{https://arxiv.org/abs/2410.09068v1}.
+
+\bibitem[Howard et~al.(2021)Howard, Ramdas, McAuliffe, and
+  Sekhon]{howard2021confidence}
+Steven~R. Howard, Aaditya Ramdas, Jon McAuliffe, and Jasjeet Sekhon.
+\newblock Time-uniform, nonparametric, nonasymptotic confidence sequences.
+\newblock \emph{The Annals of Statistics}, 49\penalty0 (2):\penalty0
+  1055--1080, 2021.
+\newblock \doi{10.1214/20-AOS1991}.
+
+\bibitem[Harris et~al.(2020)Harris, Millman, van~der Walt, et~al.]{numpy2020}
+Charles~R. Harris, K.~Jarrod Millman, St{\'e}fan~J. van~der Walt, et~al.
+\newblock Array programming with {NumPy}.
+\newblock \emph{Nature}, 585\penalty0 (7825):\penalty0 357--362, 2020.
+\newblock \doi{10.1038/s41586-020-2649-2}.
+
+\bibitem[Virtanen et~al.(2020)Virtanen, Gommers, Oliphant, et~al.]{scipy2020}
+Pauli Virtanen, Ralf Gommers, Travis~E. Oliphant, et~al.
+\newblock {SciPy} 1.0: Fundamental algorithms for scientific computing in
+  {Python}.
+\newblock \emph{Nature Methods}, 17\penalty0 (3):\penalty0 261--272, 2020.
+\newblock \doi{10.1038/s41592-019-0686-2}.
+
+\bibitem[Hunter(2007)]{matplotlib2007}
+John~D. Hunter.
+\newblock {Matplotlib}: A {2D} graphics environment.
+\newblock \emph{Computing in Science \& Engineering}, 9\penalty0 (3):\penalty0
+  90--95, 2007.
+\newblock \doi{10.1109/MCSE.2007.55}.
+
+\bibitem[{UEFA}(2026)]{uefa2026fixtures}
+{UEFA}.
+\newblock {2026/27 UEFA Nations League: All the League Phase Fixtures and
+  Results}, 2026.
+\newblock URL
+  \url{https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/}.
+\newblock Accessed 7 November 2026.
+
+\bibitem[Guo et~al.(2017)Guo, Pleiss, Sun, and Weinberger]{guo2017calibration}
+Chuan Guo, Geoff Pleiss, Yu~Sun, and Kilian~Q. Weinberger.
+\newblock On calibration of modern neural networks.
+\newblock In \emph{Proceedings of the 34th International Conference on Machine
+  Learning}, volume~70 of \emph{Proceedings of Machine Learning Research},
+  pages 1321--1330, 2017.
+\newblock URL \url{https://proceedings.mlr.press/v70/guo17a.html}.
+
+\end{thebibliography}
