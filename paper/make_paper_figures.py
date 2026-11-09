@@ -106,6 +106,7 @@ def style() -> None:
 
 def save(fig: plt.Figure, outdir: Path, stem: str) -> None:
     outdir.mkdir(parents=True, exist_ok=True)
+    fig.tight_layout()
     fig.savefig(outdir / f"{stem}.pdf")
     fig.savefig(outdir / f"{stem}.png")
     plt.close(fig)
@@ -163,15 +164,6 @@ def fig2_era_rates(outdir: Path) -> None:
             fontsize=8,
             color="#555555",
         )
-    ax.text(
-        0.0,
-        -0.24,
-        "Observed and adjusted rates; adjustment uses one fixed pooled composition. "
-        "No confidence interval is implied.",
-        transform=ax.transAxes,
-        fontsize=8,
-        color="#444444",
-    )
     save(fig, outdir, "fig2_era_rates")
 
 
@@ -190,14 +182,14 @@ def fig3_model_comparison(outdir: Path) -> None:
         }
 
     models = list(MODEL_LABELS)
-    labels = [MODEL_LABELS[model] for model in models]
+    labels = [MODEL_LABELS[model].replace(" only", "\nonly").replace(" + ", " +\n") for model in models]
     x = np.arange(len(models))
     fig, axes = plt.subplots(1, 2, figsize=(8.2, 3.4))
 
     losses = [metrics[model]["log_loss"] for model in models]
     bars = axes[0].bar(x, losses, color=["#8c9aa6", "#5b7f95", "#1f5c78"], width=0.62)
     axes[0].set_xticks(x)
-    axes[0].set_xticklabels(labels, rotation=12, ha="right")
+    axes[0].set_xticklabels(labels, rotation=0, ha="center")
     axes[0].set_ylabel("Mean log loss (lower is better)")
     axes[0].set_ylim(0.50, 0.70)
     axes[0].set_title("Probability quality")
@@ -208,7 +200,7 @@ def fig3_model_comparison(outdir: Path) -> None:
     accuracies = [metrics[model]["accuracy"] for model in models]
     bars = axes[1].bar(x, accuracies, color=["#8c9aa6", "#5b7f95", "#1f5c78"], width=0.62)
     axes[1].set_xticks(x)
-    axes[1].set_xticklabels(labels, rotation=12, ha="right")
+    axes[1].set_xticklabels(labels, rotation=0, ha="center")
     axes[1].set_ylabel("Binary accuracy (%)")
     axes[1].set_ylim(50, 75)
     axes[1].set_title("Home-win / non-home accuracy")
@@ -216,7 +208,6 @@ def fig3_model_comparison(outdir: Path) -> None:
         axes[1].annotate(f"{value:.2f}%", (bar.get_x() + bar.get_width() / 2, value),
                          ha="center", va="bottom", fontsize=8)
 
-    fig.suptitle("Same-match time-forward comparison, 1990–2024 (n = 21,413)", y=1.02)
     fig.tight_layout()
     save(fig, outdir, "fig3_model_comparison")
 
@@ -254,16 +245,6 @@ def fig4_history_windows(outdir: Path) -> None:
     for i, value in enumerate(seconds):
         axes[1].annotate(f"{value:.0f}", (i, value), ha="center", va="bottom", fontsize=8)
 
-    axes[0].text(
-        0.0,
-        -0.34,
-        "Rating memory / outcome-training window. Cost is the outcome-training component only; "
-        "lower log loss is better.",
-        transform=axes[0].transAxes,
-        fontsize=8,
-        color="#444444",
-    )
-    fig.suptitle("History-window combinations: performance and cost", y=1.02)
     save(fig, outdir, "fig4_history_windows")
 
 
@@ -308,17 +289,6 @@ def fig5_regional_metrics(outdir: Path) -> None:
     axes[1].legend(frameon=False, fontsize=8)
 
     counts = {group: int(data[(group, "joint")]["matches"]) for group in groups}
-    fig.suptitle("Regional applicability, 2010–2024 (9,727 matches)", y=1.02)
-    fig.text(
-        0.5,
-        -0.04,
-        f"n = {counts['ALL']:,} (Overall), {counts['150']:,} (Europe), {counts['142']:,} (Asia), "
-        f"{counts['002']:,} (Africa), {counts['019']:,} (Americas). "
-        "Descriptive; not a ranking or causal effect.",
-        ha="center",
-        fontsize=8,
-        color="#444444",
-    )
     save(fig, outdir, "fig5_regional_metrics")
 
 
@@ -395,26 +365,7 @@ def fig6_forecast_examples(outdir: Path) -> None:
             va="bottom",
             fontsize=8,
         )
-    axes[1].text(
-        0.5,
-        -0.28,
-        "Withheld from the main model:\nthird-country venue",
-        transform=axes[1].transAxes,
-        ha="center",
-        fontsize=8,
-        color="#444444",
-    )
 
-    fig.suptitle("Prospective examples sealed on 2 Nov 2026 (outcomes unknown)", y=1.02)
-    fig.text(
-        0.5,
-        -0.04,
-        "Error bars are strength-condition central 90% ranges, not confidence intervals. "
-        "The auxiliary three-class model is shown separately and is not the main binary model.",
-        ha="center",
-        fontsize=8,
-        color="#444444",
-    )
     fig.tight_layout()
     save(fig, outdir, "fig6_forecast_examples")
 

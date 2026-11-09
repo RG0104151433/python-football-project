@@ -1,9 +1,9 @@
 {
   "schema_version": "final-course-paper-v1",
-  "decision_log_id": "R20261108-08",
-  "date": "2026-11-08",
+  "decision_log_id": "R20261109-02",
+  "date": "2026-11-09",
   "executor": "Codex (AI)",
-  "git_head": "a8645ed58422ecaed5e7b6dce4e64f286547d011",
+  "git_head": "953dc72c6f079dd61be9a6efe7ed71e86b2df47b",
   "uncommitted_worktree": true,
   "delivered_pdf": "paper/final_paper.pdf",
   "source_entry": "paper/language_revision_20261107/main.tex",
@@ -41,21 +41,34 @@
   "displayed_equations": 12,
   "references": 18,
   "fingerprints": {
-    "paper/language_revision_20261107/main.tex": "abee5f2deb06e9a14069e355c20d39c478048b6bcd8e9c64c5701b54f622c618",
-    "paper/language_revision_20261107/sections/discussion.tex": "358bbcbb5abd4a2d0fd905f051649f7d9c2a6dd751755385bb83aa82cad62f49",
-    "paper/language_revision_20261107/sections/introduction.tex": "40e3704ceddf8dbccf19e283e378e1c2440a79e9aeebce87e13422ec0aec8e60",
-    "paper/language_revision_20261107/sections/method.tex": "61eb9e6b6d74127d9cd49b41ec821e7d82105d3f351af5c1d90b9fc59fbaba50",
-    "paper/language_revision_20261107/sections/model_selection.tex": "5d579ff2aaff0e56c7d94ee128c0d3fafe08c6871d95a4aaac3b755fd3c34a8b",
-    "paper/language_revision_20261107/sections/results.tex": "7de0ea654c145bfb17fd942537d69b59e89eae00976f36dcb42b98c16c43dd7c",
-    "paper/language_revision_20261107/sections/strength_development.tex": "3f2d47cb2679bb9a57ab09f7c9e9ec21fea985aa9fa99c745703f517a8c79f0c",
-    "paper/language_revision_20261107/references.bib": "ecc1a116093561ea1fc1e9c1ba5bcca912e0a11aba4c3d8a3ab6786e1ed97edd",
-    "paper/final_paper.pdf": "31299c2161d00f19cb32a7c0a942a5b2a4b368dd1931f78dd3de38ac40b821ee",
+    "paper/language_revision_20261107/main.tex": "5f48d8f0fa6542c530961d2d1afcbffae891db908cd1e83102791fd68e7a566d",
+    "paper/language_revision_20261107/sections/discussion.tex": "cb4e0f1112710f2bbc66feb100be06d1844743ec70d12d38e760bb5c545e50a8",
+    "paper/language_revision_20261107/sections/introduction.tex": "3a3b19a43b4db3cdeb6098dfbdea699263625275bdaee829c41c64bce2df88a1",
+    "paper/language_revision_20261107/sections/method.tex": "c33cdf00fd5967df76680b0eb9b12ceeefe18a4f4887b7c98a945d6ded7074c8",
+    "paper/language_revision_20261107/sections/model_selection.tex": "0f123870e22a791fc43837c30659b4047ad6dec7725698c39a0f51eed986e276",
+    "paper/language_revision_20261107/sections/results.tex": "b1b6479143b43e0bf65f41f6bed426933c7705235a4c60ebd4e31ce8dc38a613",
+    "paper/language_revision_20261107/sections/strength_development.tex": "63cac29d4da523878e1ae58f6d4ffe355b0bac65b789bb1ab8030cf6ff0411fc",
+    "paper/language_revision_20261107/references.bib": "0d2ebae889aa0d1618298054382ceb79b99b8bb662dbf7b2db1b37038fe1f3c4",
+    "paper/final_paper.pdf": "06d20ea2e36d36b900ea9f099b038a05c2e84a44c1093c2f5b0b1de5ebdf0a81",
     "paper/final_review_20261108.md": "cae9dde2c202dabff34579e9cfaca4908e5315aaf865b4bc8519be64e2530202",
     "paper/language_revision_20261107/final_changes.diff": "0828af1355c6fb0779a3ec5ffee89cd1d48ceedac9a4379bffb389727e31a40f",
     "paper/language_revision_20261107/language_changes.diff": "b901cd2749a3e045f58033aead9584aefeac31c96eeb5705667266623f93a78d",
     "paper/language_revision_20261107/cover.tex": "e0549a88ac250ba815858b73862ae33974f4ce067a3d2e117a0c41695d83bf41",
     "paper/figures/bit_school_header.jpeg": "b81303cc0acbad3af182d0ed3ba3ce465acc05e1f5002f8f430e974d426a201a",
-    "paper/cover_adaptation.json": "38f3550e8ff8a7429a6d6be841b1becae4220bbb039b855f3ee7b92fc672aed0"
+    "paper/cover_adaptation.json": "38f3550e8ff8a7429a6d6be841b1becae4220bbb039b855f3ee7b92fc672aed0",
+    "paper/figures/fig2_era_rates.pdf": "7a5189106444c4a4841efac9d7422ccc59e97c7b92f2ab5f4b63155df8797dc2",
+    "paper/figures/fig3_model_comparison.pdf": "fbd5fec15b3c1a3bc193250b008514e62909a8ca71f9ecd8f4d26135e16fbd2c",
+    "paper/figures/fig4_history_windows.pdf": "5c44ed32b7e0c7fda5819e9b71cdeb2f860ac8b1be12f684838114a10ed2eccb",
+    "paper/figures/fig5_regional_metrics.pdf": "287d0dd053809fe5ce661b44e7eacafc056fb2c41217d6854f17310e6127e8e0",
+    "paper/figures/fig6_forecast_examples.pdf": "0359380eef9fe297821f6a166e408b97ed1e05a37f445f9c0d716a33a3e1cd1e",
+    "paper/figures/fig_historical_overview.pdf": "e68352a1c7a7aae0d37698028cf1106e74090c95dff75a6b1ff1048ec486c2ad",
+    "paper/figures/fig_strength_states.pdf": "bfb4c18b648a5c0f539b27f29f380bea5982e8a44e03bd558d5e26985401a8a3",
+    "paper/figures/strength_validation_rows.tex": "ed08ec97d1450553e6b4e2a8f4a56a1a3f5704b1af5e40ce99df0cbf724fa442",
+    "paper/figures/study_design.tex": "a473004f7525857453b1f7d3777ecc03cafe6801f57a327888eb3d3a9e7dd788",
+    "paper/editorial_review_20261109.md": "64299f65fd2f1c37a2e324bad9b326601f323965892d7bb63bc15a94121aec95",
+    "paper/make_paper_figures.py": "b44f6ff8175806cccd14a8dc05a4baaee22f6b3bfb123cfafb53a427287aece5",
+    "paper/make_historical_overview.py": "868318f5726f3739d5bdf9cbd04294406a89468fa43e2fbb793b9544a871c1b2",
+    "paper/make_strength_evidence.py": "9d81c03010a18c3bda060f98eaa0b42b766971c0aa92dbbab596bb113ffbbea4"
   },
   "edits": [
     {
@@ -369,5 +382,25 @@
     "word_reference_export": "read-only Word PDF export succeeded; source first page visually inspected",
     "cover_visual_check": true,
     "abstract_contents_visual_check": true
+  },
+  "manual_revision_sync": {
+    "changes": "Owner abstract wording changes preserved verbatim",
+    "verification": "交付材料/manual_revision_verification.json",
+    "pages": 25,
+    "compile_exit": 0,
+    "tex_warnings": [],
+    "visual_review": "changed abstract page only",
+    "scientific_model_rerun": false
+  },
+  "editorial_revision": {
+    "report": "paper/editorial_review_20261109.md",
+    "verification": "交付材料/editorial_revision_verification.json",
+    "cover_changed": false,
+    "contents_depth": 3,
+    "pages": 25,
+    "compile_exit": 0,
+    "tex_warnings": [],
+    "visual_check": "all 25 pages contact sheets, detailed plots and final reference pages",
+    "model_rerun": false
   }
 }

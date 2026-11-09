@@ -1,0 +1,29 @@
+{
+  "decision_log_id": "R20261109-01",
+  "date": "2026-11-09",
+  "compile_exit": 0,
+  "pages": 25,
+  "tex_warnings": [],
+  "citations": "18 entries / 18 cited keys",
+  "abstract_visual_check": true,
+  "user_wording_preserved": true,
+  "body_text_unchanged_from_pre_cover_archive": true,
+  "current_pdf_copies": {
+    "paper/final_paper.pdf": "d9f860b904b1e7cc6a972a9d546a9e1cf8d8b5e0297f89d8eeead233f3927937",
+    "paper/language_revision_20261107/build/main.pdf": "d9f860b904b1e7cc6a972a9d546a9e1cf8d8b5e0297f89d8eeead233f3927937",
+    "paper/language_revision_20261107/main.pdf": "d9f860b904b1e7cc6a972a9d546a9e1cf8d8b5e0297f89d8eeead233f3927937",
+    "paper/main.pdf": "d9f860b904b1e7cc6a972a9d546a9e1cf8d8b5e0297f89d8eeead233f3927937",
+    "交付材料/main.pdf": "d9f860b904b1e7cc6a972a9d546a9e1cf8d8b5e0297f89d8eeead233f3927937",
+    "交付材料/Report.pdf": "d9f860b904b1e7cc6a972a9d546a9e1cf8d8b5e0297f89d8eeead233f3927937"
+  },
+  "report_zip_tex_and_pdf_match_current": true,
+  "report_and_code_members_verified": true,
+  "data_archive_rebuilt": false,
+  "archive_sha256": {
+    "Report": "335cdc7ced3f6e6e3d26993d6743334257ed337e7a3b5743b608890088a93b89",
+    "Code": "7a1d2515f4318db123505397419f6005fdc68a06fd78ae684a61bd9fb75e3fdc",
+    "Data": "af4331872c6694979e359e2c03a0720db787db373e0a3b7d930bcf9ba6020092"
+  },
+  "historical_sources_and_archives_preserved": true,
+  "independent_human_review": false
+}

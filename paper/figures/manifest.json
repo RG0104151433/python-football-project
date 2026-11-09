@@ -1,18 +1,18 @@
 {
   "status": "draft_candidates_not_final_selection",
-  "generated_at_utc": "2026-11-05T04:20:11.016186+00:00",
+  "generated_at_utc": "2026-11-09T07:07:19.665042+00:00",
   "generator": "paper/make_paper_figures.py",
-  "generator_sha256": "c47955a56cf56f302faa39ffe2086648df726fc85d69cfe54ed21c9cc3b13dca",
+  "generator_sha256": "b44f6ff8175806cccd14a8dc05a4baaee22f6b3bfb123cfafb53a427287aece5",
   "figures": [
     {
       "stem": "fig2_era_rates",
       "pdf": {
         "path": "paper/figures/fig2_era_rates.pdf",
-        "sha256": "51cb81a6c293b2b7d7e26bfa30b6f0f4cd57fedd3b4be7836c902a6dadd6421b"
+        "sha256": "7a5189106444c4a4841efac9d7422ccc59e97c7b92f2ab5f4b63155df8797dc2"
       },
       "png": {
         "path": "paper/figures/fig2_era_rates.png",
-        "sha256": "fd393b215ccf123017d2c0f0608761b72de82922730bfcbe2183bdc2c972c9d5"
+        "sha256": "1c923e0e2f4a964489768e4816fefde6d3ec4bb21774007b63bb127449740a27"
       },
       "sources": [
         "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_estimates.csv",
@@ -23,11 +23,11 @@
       "stem": "fig3_model_comparison",
       "pdf": {
         "path": "paper/figures/fig3_model_comparison.pdf",
-        "sha256": "a1c92c2b413d0be13ed799e5eebbebb31a4621599447b948a75d38dee7cbbd86"
+        "sha256": "fbd5fec15b3c1a3bc193250b008514e62909a8ca71f9ecd8f4d26135e16fbd2c"
       },
       "png": {
         "path": "paper/figures/fig3_model_comparison.png",
-        "sha256": "accf0d3c3cc8f29541a1ca65635094a8b9070f140bc8de0636525bbd6c4019e4"
+        "sha256": "bc4371ed4e1c516c0019e8aadec63ccb613d40e54b53f120b102938777d20edf"
       },
       "sources": [
         "outputs/tables/strength_joint/rolling-prediction-4722c7b1b5f63cef35e3/yearly_metrics.csv"
@@ -37,11 +37,11 @@
       "stem": "fig4_history_windows",
       "pdf": {
         "path": "paper/figures/fig4_history_windows.pdf",
-        "sha256": "82fafb390fbd539adb59a135f6fd31fb9a9bad13fab77dd44ab10cf85a42f5f8"
+        "sha256": "5c44ed32b7e0c7fda5819e9b71cdeb2f860ac8b1be12f684838114a10ed2eccb"
       },
       "png": {
         "path": "paper/figures/fig4_history_windows.png",
-        "sha256": "e57f8ce53a3ccb96595df76d2b303fa53d16d30f5158062b344c4913c3b1e8f6"
+        "sha256": "bc27875e70473208dba94bc5439fb0b05e0a6eca438e65fcf1ae96a7fb31673b"
       },
       "sources": [
         "outputs/tables/history_window/joint-review-4888d987645daee73e19/combination_metrics.csv",
@@ -52,11 +52,11 @@
       "stem": "fig5_regional_metrics",
       "pdf": {
         "path": "paper/figures/fig5_regional_metrics.pdf",
-        "sha256": "0d7d4fd5c4dd1dd7d72989d5efc8bc85a4b2806e4eb088a8c4f6e05ffc5b0294"
+        "sha256": "287d0dd053809fe5ce661b44e7eacafc056fb2c41217d6854f17310e6127e8e0"
       },
       "png": {
         "path": "paper/figures/fig5_regional_metrics.png",
-        "sha256": "68de56d0be6fca83770aa1e8405eed4d5a9999aa9d4863de6b3f01f1301b6d0e"
+        "sha256": "7a70d95b5a66b1031301ae7a9b5e8c16df4b4ffd7321b578bcd458e58dc38e6e"
       },
       "sources": [
         "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_metrics.csv"
@@ -66,11 +66,11 @@
       "stem": "fig6_forecast_examples",
       "pdf": {
         "path": "paper/figures/fig6_forecast_examples.pdf",
-        "sha256": "65e13052a1be177eaf070581a2d561ba770ca7cb381538f2ced84b85bc1eb12e"
+        "sha256": "0359380eef9fe297821f6a166e408b97ed1e05a37f445f9c0d716a33a3e1cd1e"
       },
       "png": {
         "path": "paper/figures/fig6_forecast_examples.png",
-        "sha256": "b09b8f19ad8abb5cdc8f63cf4e024d6631e665b8d821b253bbe1e34ed114e0d4"
+        "sha256": "700f05f7940f20bc5ebfb857ab0bac1ebd0c8e71e4fdca583b70f63d9cb2743a"
       },
       "sources": [
         "outputs/tables/future_predictions/future-unl-61f639846da9193d4cca/forecasts.csv"

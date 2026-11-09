@@ -1,0 +1,32 @@
+{
+  "decision_log_id": "R20261109-02",
+  "date": "2026-11-09",
+  "report": "paper/editorial_review_20261109.md",
+  "pages": 25,
+  "compile_exit": 0,
+  "tex_warnings": [],
+  "visual_review": "25-page contact sheets plus detailed plots and reference pages",
+  "three_tertiary_headings_in_contents": true,
+  "citations": "18 entries / 18 cited keys",
+  "bibliography_url_targets_preserved": true,
+  "pdf_copies": {
+    "paper/final_paper.pdf": "06d20ea2e36d36b900ea9f099b038a05c2e84a44c1093c2f5b0b1de5ebdf0a81",
+    "paper/main.pdf": "06d20ea2e36d36b900ea9f099b038a05c2e84a44c1093c2f5b0b1de5ebdf0a81",
+    "paper/language_revision_20261107/build/main.pdf": "06d20ea2e36d36b900ea9f099b038a05c2e84a44c1093c2f5b0b1de5ebdf0a81",
+    "paper/language_revision_20261107/main.pdf": "06d20ea2e36d36b900ea9f099b038a05c2e84a44c1093c2f5b0b1de5ebdf0a81",
+    "交付材料/main.pdf": "06d20ea2e36d36b900ea9f099b038a05c2e84a44c1093c2f5b0b1de5ebdf0a81",
+    "交付材料/Report.pdf": "06d20ea2e36d36b900ea9f099b038a05c2e84a44c1093c2f5b0b1de5ebdf0a81"
+  },
+  "report_zip_sources_and_pdf_match": true,
+  "Report_Code_member_checks": "passed",
+  "all_fonts_embedded": true,
+  "data_archive_sha_unchanged": true,
+  "archive_sha256": {
+    "Report": "6ff4dbdcd9d1b6714ee5c565b06037d04dc5df2d4d2791c5a7ad259dd7e14d0c",
+    "Code": "ed40f4041afe783ccaeed21a69aa7bb0761c5c69cc2555e88ffa6fa2a2c4b00d",
+    "Data": "af4331872c6694979e359e2c03a0720db787db373e0a3b7d930bcf9ba6020092"
+  },
+  "cover_changed": false,
+  "scientific_model_rerun": false,
+  "human_independent_review": false
+}

@@ -5,15 +5,15 @@
   "packages": {
     "Report": {
       "archive": "Report.zip",
-      "bytes": 444536,
-      "sha256": "a3261d570e303d02338c74743ea3e13a0a5c474e153338a03b381ff3bb4db437",
+      "bytes": 433494,
+      "sha256": "6ff4dbdcd9d1b6714ee5c565b06037d04dc5df2d4d2791c5a7ad259dd7e14d0c",
       "file_count": 21,
       "members": [
         {
           "member": "FootballProject/REPORT_README.md",
           "source": "交付材料/REPORT_README.md",
-          "bytes": 1704,
-          "sha256": "c219379f649dfc81f41ae5c2523692d48202411e07f2c098741dcfd0b98ef9fd"
+          "bytes": 2307,
+          "sha256": "891c80222bc3828e3566dc2d82457ab86a77d294d7042c480e224cd4b635ea0a"
         },
         {
           "member": "FootballProject/paper/figures/bit_school_header.jpeg",
@@ -24,62 +24,62 @@
         {
           "member": "FootballProject/paper/figures/fig2_era_rates.pdf",
           "source": "paper/figures/fig2_era_rates.pdf",
-          "bytes": 19468,
-          "sha256": "51cb81a6c293b2b7d7e26bfa30b6f0f4cd57fedd3b4be7836c902a6dadd6421b"
+          "bytes": 18379,
+          "sha256": "7a5189106444c4a4841efac9d7422ccc59e97c7b92f2ab5f4b63155df8797dc2"
         },
         {
           "member": "FootballProject/paper/figures/fig3_model_comparison.pdf",
           "source": "paper/figures/fig3_model_comparison.pdf",
-          "bytes": 20359,
-          "sha256": "a1c92c2b413d0be13ed799e5eebbebb31a4621599447b948a75d38dee7cbbd86"
+          "bytes": 17804,
+          "sha256": "fbd5fec15b3c1a3bc193250b008514e62909a8ca71f9ecd8f4d26135e16fbd2c"
         },
         {
           "member": "FootballProject/paper/figures/fig4_history_windows.pdf",
           "source": "paper/figures/fig4_history_windows.pdf",
-          "bytes": 19098,
-          "sha256": "82fafb390fbd539adb59a135f6fd31fb9a9bad13fab77dd44ab10cf85a42f5f8"
+          "bytes": 16881,
+          "sha256": "5c44ed32b7e0c7fda5819e9b71cdeb2f860ac8b1be12f684838114a10ed2eccb"
         },
         {
           "member": "FootballProject/paper/figures/fig5_regional_metrics.pdf",
           "source": "paper/figures/fig5_regional_metrics.pdf",
-          "bytes": 21894,
-          "sha256": "0d7d4fd5c4dd1dd7d72989d5efc8bc85a4b2806e4eb088a8c4f6e05ffc5b0294"
+          "bytes": 18366,
+          "sha256": "287d0dd053809fe5ce661b44e7eacafc056fb2c41217d6854f17310e6127e8e0"
         },
         {
           "member": "FootballProject/paper/figures/fig6_forecast_examples.pdf",
           "source": "paper/figures/fig6_forecast_examples.pdf",
-          "bytes": 23322,
-          "sha256": "65e13052a1be177eaf070581a2d561ba770ca7cb381538f2ced84b85bc1eb12e"
+          "bytes": 20877,
+          "sha256": "0359380eef9fe297821f6a166e408b97ed1e05a37f445f9c0d716a33a3e1cd1e"
         },
         {
           "member": "FootballProject/paper/figures/fig_historical_overview.pdf",
           "source": "paper/figures/fig_historical_overview.pdf",
-          "bytes": 22946,
-          "sha256": "50ea56785dd05ec99568a6b6cc6bcbdb8855de15b450e312be1c194412610aab"
+          "bytes": 23053,
+          "sha256": "e68352a1c7a7aae0d37698028cf1106e74090c95dff75a6b1ff1048ec486c2ad"
         },
         {
           "member": "FootballProject/paper/figures/fig_strength_states.pdf",
           "source": "paper/figures/fig_strength_states.pdf",
           "bytes": 33118,
-          "sha256": "59e6399102fd84097fcb2f822c588a4c536c709c0838775b0cb343b357e1c537"
+          "sha256": "bfb4c18b648a5c0f539b27f29f380bea5982e8a44e03bd558d5e26985401a8a3"
         },
         {
           "member": "FootballProject/paper/figures/strength_validation_rows.tex",
           "source": "paper/figures/strength_validation_rows.tex",
-          "bytes": 479,
-          "sha256": "78a2d99bf4998a95c86b3648923d1cc716fd4f4ead6276686fdeb590b99d0fe2"
+          "bytes": 487,
+          "sha256": "ed08ec97d1450553e6b4e2a8f4a56a1a3f5704b1af5e40ce99df0cbf724fa442"
         },
         {
           "member": "FootballProject/paper/figures/study_design.tex",
           "source": "paper/figures/study_design.tex",
-          "bytes": 1144,
-          "sha256": "194c893c60ced8b25b26ccff60ecdd921b3e85c0a8b6311d7a73cfc42455a70d"
+          "bytes": 1252,
+          "sha256": "a473004f7525857453b1f7d3777ecc03cafe6801f57a327888eb3d3a9e7dd788"
         },
         {
           "member": "FootballProject/paper/final_paper.pdf",
           "source": "paper/final_paper.pdf",
-          "bytes": 312923,
-          "sha256": "31299c2161d00f19cb32a7c0a942a5b2a4b368dd1931f78dd3de38ac40b821ee"
+          "bytes": 302783,
+          "sha256": "06d20ea2e36d36b900ea9f099b038a05c2e84a44c1093c2f5b0b1de5ebdf0a81"
         },
         {
           "member": "FootballProject/paper/language_revision_20261107/cover.tex",
@@ -90,58 +90,58 @@
         {
           "member": "FootballProject/paper/language_revision_20261107/main.tex",
           "source": "paper/language_revision_20261107/main.tex",
-          "bytes": 4890,
-          "sha256": "abee5f2deb06e9a14069e355c20d39c478048b6bcd8e9c64c5701b54f622c618"
+          "bytes": 5573,
+          "sha256": "5f48d8f0fa6542c530961d2d1afcbffae891db908cd1e83102791fd68e7a566d"
         },
         {
           "member": "FootballProject/paper/language_revision_20261107/references.bib",
           "source": "paper/language_revision_20261107/references.bib",
-          "bytes": 6197,
-          "sha256": "ecc1a116093561ea1fc1e9c1ba5bcca912e0a11aba4c3d8a3ab6786e1ed97edd"
+          "bytes": 6273,
+          "sha256": "0d2ebae889aa0d1618298054382ceb79b99b8bb662dbf7b2db1b37038fe1f3c4"
         },
         {
           "member": "FootballProject/paper/language_revision_20261107/sections/discussion.tex",
           "source": "paper/language_revision_20261107/sections/discussion.tex",
-          "bytes": 8310,
-          "sha256": "358bbcbb5abd4a2d0fd905f051649f7d9c2a6dd751755385bb83aa82cad62f49"
+          "bytes": 8445,
+          "sha256": "cb4e0f1112710f2bbc66feb100be06d1844743ec70d12d38e760bb5c545e50a8"
         },
         {
           "member": "FootballProject/paper/language_revision_20261107/sections/introduction.tex",
           "source": "paper/language_revision_20261107/sections/introduction.tex",
-          "bytes": 4985,
-          "sha256": "40e3704ceddf8dbccf19e283e378e1c2440a79e9aeebce87e13422ec0aec8e60"
+          "bytes": 5015,
+          "sha256": "3a3b19a43b4db3cdeb6098dfbdea699263625275bdaee829c41c64bce2df88a1"
         },
         {
           "member": "FootballProject/paper/language_revision_20261107/sections/method.tex",
           "source": "paper/language_revision_20261107/sections/method.tex",
-          "bytes": 28685,
-          "sha256": "61eb9e6b6d74127d9cd49b41ec821e7d82105d3f351af5c1d90b9fc59fbaba50"
+          "bytes": 28862,
+          "sha256": "c33cdf00fd5967df76680b0eb9b12ceeefe18a4f4887b7c98a945d6ded7074c8"
         },
         {
           "member": "FootballProject/paper/language_revision_20261107/sections/model_selection.tex",
           "source": "paper/language_revision_20261107/sections/model_selection.tex",
-          "bytes": 3694,
-          "sha256": "5d579ff2aaff0e56c7d94ee128c0d3fafe08c6871d95a4aaac3b755fd3c34a8b"
+          "bytes": 3708,
+          "sha256": "0f123870e22a791fc43837c30659b4047ad6dec7725698c39a0f51eed986e276"
         },
         {
           "member": "FootballProject/paper/language_revision_20261107/sections/results.tex",
           "source": "paper/language_revision_20261107/sections/results.tex",
-          "bytes": 19003,
-          "sha256": "7de0ea654c145bfb17fd942537d69b59e89eae00976f36dcb42b98c16c43dd7c"
+          "bytes": 19180,
+          "sha256": "b1b6479143b43e0bf65f41f6bed426933c7705235a4c60ebd4e31ce8dc38a613"
         },
         {
           "member": "FootballProject/paper/language_revision_20261107/sections/strength_development.tex",
           "source": "paper/language_revision_20261107/sections/strength_development.tex",
-          "bytes": 7691,
-          "sha256": "3f2d47cb2679bb9a57ab09f7c9e9ec21fea985aa9fa99c745703f517a8c79f0c"
+          "bytes": 7730,
+          "sha256": "63cac29d4da523878e1ae58f6d4ffe355b0bac65b789bb1ab8030cf6ff0411fc"
         }
       ]
     },
     "Code": {
       "archive": "Code.zip",
-      "bytes": 2767191,
-      "sha256": "21a1be972e31523df3517d6dea44a1929edd925c6719ec92bea7217bd62fd97f",
-      "file_count": 489,
+      "bytes": 2772110,
+      "sha256": "ed40f4041afe783ccaeed21a69aa7bb0761c5c69cc2555e88ffa6fa2a2c4b00d",
+      "file_count": 490,
       "members": [
         {
           "member": "FootballProject/AGENTS.md",
@@ -152,8 +152,8 @@
         {
           "member": "FootballProject/README.md",
           "source": "README.md",
-          "bytes": 11633,
-          "sha256": "456c202e0f675edd3f8445194e5195e96dc46bba924fc5937345ffd40409258e"
+          "bytes": 12300,
+          "sha256": "c1f858de40988f2520d7cc53ab4a1c82e07f87a7175263e6cb983548175acbfe"
         },
         {
           "member": "FootballProject/README_SUBMISSION.md",
@@ -662,8 +662,8 @@
         {
           "member": "FootballProject/paper/README.md",
           "source": "paper/README.md",
-          "bytes": 17505,
-          "sha256": "8a27ee57e4d261eedb858ffeeaa7493e46e184f570efddc7bcba402d2273f1cb"
+          "bytes": 18217,
+          "sha256": "0a7939b53b05724c107891e3b2d1952c491c701f6acbfd7797a975a61fb8ab01"
         },
         {
           "member": "FootballProject/paper/SUPPORTING_RESULTS.md",
@@ -714,6 +714,12 @@
           "sha256": "7b264a1c264abfa54ca2b34ac0836cfd80ded86da8e3b28361e5a79369a6336b"
         },
         {
+          "member": "FootballProject/paper/editorial_review_20261109.md",
+          "source": "paper/editorial_review_20261109.md",
+          "bytes": 2728,
+          "sha256": "64299f65fd2f1c37a2e324bad9b326601f323965892d7bb63bc15a94121aec95"
+        },
+        {
           "member": "FootballProject/paper/editorial_revision_manifest.json",
           "source": "paper/editorial_revision_manifest.json",
           "bytes": 4325,
@@ -722,8 +728,8 @@
         {
           "member": "FootballProject/paper/final_paper_manifest.json",
           "source": "paper/final_paper_manifest.json",
-          "bytes": 18234,
-          "sha256": "d83bb249fa02d18498a484208bf9880fc2aa984c44a5e6b086e9172ee2b42e9d"
+          "bytes": 20804,
+          "sha256": "2136af5bded5f600f7cf63cf9db7a02e87d38bc63db5f15ae6b30517c1beea83"
         },
         {
           "member": "FootballProject/paper/final_review_20261108.md",
@@ -735,25 +741,25 @@
           "member": "FootballProject/paper/historical_overview_manifest.json",
           "source": "paper/historical_overview_manifest.json",
           "bytes": 34262,
-          "sha256": "2fb367966e843c3294a75c85b8db4715d3582fb8319d513bd038a78adc5e969c"
+          "sha256": "93ef9448e5e1bfae4be84b82d15b96373d95e87c8755ab4db71fe3098ace2600"
         },
         {
           "member": "FootballProject/paper/make_historical_overview.py",
           "source": "paper/make_historical_overview.py",
-          "bytes": 5886,
-          "sha256": "6a5e46957dea22378db20ed728c1779c1544ba2541ae7f16c624cad82fd0a336"
+          "bytes": 6029,
+          "sha256": "868318f5726f3739d5bdf9cbd04294406a89468fa43e2fbb793b9544a871c1b2"
         },
         {
           "member": "FootballProject/paper/make_paper_figures.py",
           "source": "paper/make_paper_figures.py",
-          "bytes": 17192,
-          "sha256": "c47955a56cf56f302faa39ffe2086648df726fc85d69cfe54ed21c9cc3b13dca"
+          "bytes": 15974,
+          "sha256": "b44f6ff8175806cccd14a8dc05a4baaee22f6b3bfb123cfafb53a427287aece5"
         },
         {
           "member": "FootballProject/paper/make_strength_evidence.py",
           "source": "paper/make_strength_evidence.py",
-          "bytes": 6513,
-          "sha256": "cee2708c0c919a4f7d3b73fe69d3d18da93f333c3e8f36df8fc38842d5b6930a"
+          "bytes": 6639,
+          "sha256": "9d81c03010a18c3bda060f98eaa0b42b766971c0aa92dbbab596bb113ffbbea4"
         },
         {
           "member": "FootballProject/paper/method_draft_manifest.json",
@@ -801,7 +807,7 @@
           "member": "FootballProject/paper/strength_evidence_manifest.json",
           "source": "paper/strength_evidence_manifest.json",
           "bytes": 52676,
-          "sha256": "aff9ba6b702b43531e5be8bd19e654533b7d4412b08ab1a14e1977700205e2c0"
+          "sha256": "96f238aaad634644421dad87961efe607d761e55a4201135273ba7ca4fa25e96"
         },
         {
           "member": "FootballProject/paper/verification_log.md",
@@ -812,8 +818,8 @@
         {
           "member": "FootballProject/paper/图表来源说明.md",
           "source": "paper/图表来源说明.md",
-          "bytes": 10626,
-          "sha256": "9739c5caf6c1a9768e67afc7a868d6dde8d731e6e6ecc6bde1e40538e3c988fd"
+          "bytes": 11046,
+          "sha256": "5feb09005d9389576c78fb844b01d7d08b987a035b1ee13e98542b67fd82d836"
         },
         {
           "member": "FootballProject/paper/论文写作框架.md",
@@ -2552,8 +2558,8 @@
         {
           "member": "FootballProject/文档/01_项目方案/研究日志与决策记录.md",
           "source": "文档/01_项目方案/研究日志与决策记录.md",
-          "bytes": 890408,
-          "sha256": "e46a13b237e2658cf0b72574cd5544e8316f601ee0d664e4e7763359316d6638"
+          "bytes": 892976,
+          "sha256": "b996a7ed66a3cf1134fe917624468a1322c9ced16f15dcac1f6232a5023df6a9"
         },
         {
           "member": "FootballProject/文档/01_项目方案/第一题_年代变化研究五步规划.md",
@@ -2726,8 +2732,8 @@
         {
           "member": "FootballProject/文档/05_团队协作/论文与汇报支撑材料索引.md",
           "source": "文档/05_团队协作/论文与汇报支撑材料索引.md",
-          "bytes": 204854,
-          "sha256": "31bedb72b0d702f427529f426ec4f7c231a7c236695c38245683113eceeb88ff"
+          "bytes": 207447,
+          "sha256": "4552e35a1b4972b0132071b2314d268a20119de36d1dc581800b0c172bccdb0e"
         },
         {
           "member": "FootballProject/文档/05_团队协作/论文写作任务板_20261105.md",
@@ -3068,8 +3074,8 @@
         {
           "member": "FootballProject/研究/pipeline_state.json",
           "source": "研究/pipeline_state.json",
-          "bytes": 188488,
-          "sha256": "45a6f5731d76e13f54b767ff482bc5a3eec0e95ca727f954da6f650517b25b58"
+          "bytes": 193533,
+          "sha256": "3b95c12cf504c05ae8c79a3fb44d4b9b31a8272e005c5eb810a7e1178030bd52"
         },
         {
           "member": "FootballProject/研究/研究路线与历史进度_整理前_20261103.md",
@@ -14562,8 +14568,8 @@
   },
   "standalone_report": {
     "file": "Report.pdf",
-    "bytes": 312923,
-    "sha256": "31299c2161d00f19cb32a7c0a942a5b2a4b368dd1931f78dd3de38ac40b821ee"
+    "bytes": 302783,
+    "sha256": "06d20ea2e36d36b900ea9f099b038a05c2e84a44c1093c2f5b0b1de5ebdf0a81"
   },
   "revision_history": [
     {

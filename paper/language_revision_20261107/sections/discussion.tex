@@ -19,7 +19,7 @@ Approximate strength inference, assumed jump dynamics, and restricted context te
 
 Some limitations have measurable consequences. The ordinary and strict numerical replays differed little, whereas initialization alternatives changed raw probabilities by more than $1$~pp in 2,905 study matches. These changes measure sensitivity and do not provide additional confidence bounds for corrected predictions. The final pipeline's recent-period loss was also slightly higher than that of the fixed-step baseline, limiting claims about the benefit of persistent jumps and probability correction. The separate effects of Gaussian projection, unmeasured squad changes, weak cross-region connections, and historical identity errors have not been quantified.
 
-Development results changed both the integration procedure and probability correction: numerical-reference failures prompted a new integration order, and residual bias prompted separate shape and drift corrections. These revisions addressed observed defects under the documented criteria. Because the same archive also informed those decisions, the resulting historical scores can favour revisions specific to that archive. The prospective release preserves predictions made before their outcomes and permits a later test on new matches.
+Development results changed both the integration procedure and probability correction: numerical-reference failures prompted a new integration order, and residual bias prompted separate shape and drift corrections. These revisions addressed observed defects under the documented criteria. Because the same archive also informed those decisions, the resulting historical scores can favor revisions specific to that archive. The prospective release preserves predictions made before their outcomes and permits a later test on new matches.
 
 Chronological prediction excludes each match's own outcome from its inputs, but it does not make a reused development archive an untouched final test. Simulation results apply to their specified generators, and no dependence-adjusted interval from real match data establishes the persistence of the small contextual gain. Deletion checks assess evaluation composition while retaining the original learning history. Prospective evaluation and regional diagnostics therefore address different remaining questions about model use.
 
@@ -37,8 +37,10 @@ Fourth, club-football analysis requires new ratings and parameters for seasons, 
 
 \subsection{Conclusion}
 
-Within this international-football archive, strength provided the larger reduction in predictive loss, and context supplied a smaller increment whose stability varied across regional checks. Historical-window comparisons favoured cumulative history among the tested choices and identified a computation--prediction trade-off. These results support evaluating historical home-win patterns as additional forecasting information after accounting for uncertain strength. The archived prospective release applies that approach with explicit information dates and preserves its probabilities for evaluation when outcomes become available.
+Within this international-football archive, strength provided the larger reduction in predictive loss, and context supplied a smaller increment whose stability varied across regional checks. Historical-window comparisons favored cumulative history among the tested choices and identified a computation--prediction trade-off. These results support evaluating historical home-win patterns as additional forecasting information after accounting for uncertain strength. The archived prospective release applies that approach with explicit information dates and preserves its probabilities for evaluation when outcomes become available.
 
+\section*{Declarations}
+\phantomsection\addcontentsline{toc}{section}{Declarations}
 \paragraph{Data and code availability.}
 Source match data are available under CC0 from martj42~\citep{martj42_data}. The accompanying repository provides code, configurations, build instructions, experiment records, and input/output fingerprints identifying the reported versions.
 

@@ -1,5 +1,11 @@
 # 国际足球：从历史主场表现到赛前预测
 
+**审稿排版优化（R20261109-02）：** 封面保留；已统一关键词、三级目录、公式引用/正负号、图表、声明结构、文献链接断行与美式正文拼写。当前仍25页，研究数值不变；详见 `paper/editorial_review_20261109.md`。正式源/PDF与提交包已同步，旧记录保留历史。
+
+
+**手动修订同步（R20261109-01）：** 已保留用户对当前main.tex摘要的三处英文修改，重新编译25页论文并同步正式PDF、现有main.pdf副本及提交报告源/PDF。旧版存档不覆盖；研究结果未变。
+
+
 **论文封面已套用（R20261108-08）：** 当前[正式论文](paper/final_paper.pdf)为25页，独立封面仅保留北京理工大学校徽校名、英文题目、睿信2526班及三人姓名学号。正文22页内容不变；[封面改动记录](paper/cover_adaptation.json)，[修改前24页存档](paper/archive/pre_cover_20261108/README.md)。提交目录的Report.pdf/Report.zip及Code.zip同步更新，Data.zip和HTML讨论稿不变。
 
 **英文HTML汇报初版（R20261108-07）：** [直接打开10屏汇报](presentation/index.html)，[操作/方案](presentation/README.md)、[新旧图对照](presentation/figure_comparison.html)、[英文讲者备注](presentation/SPEAKER_NOTES.md)。支持流程揭示、年份播放、三模型/地区/52场预测切换及不确定性动画；离线浏览器检查通过。图样试用固定版本figures4papers并保留许可。当前是讨论稿，尚未教室试放/三人试讲；论文与原提交三包未改。

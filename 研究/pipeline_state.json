@@ -70,7 +70,7 @@
     "course_research_scope_closed": true,
     "ready_for_writing": true,
     "writing_setup": {
-      "decision_log_id": "R20261108-08",
+      "decision_log_id": "R20261109-02",
       "root_navigation_simplified": true,
       "stage_reading_overviews_prepared": 10,
       "paper_directory": "paper",
@@ -166,7 +166,7 @@
         "class_name": "睿信2526班",
         "class_name_language": "Chinese_per_owner_request",
         "table_of_contents": true,
-        "contents_depth": 2,
+        "contents_depth": 3,
         "front_matter_pagination": "i-ii",
         "main_text_pagination": "1-22",
         "separate_cover": true,
@@ -178,6 +178,18 @@
           "student_ids"
         ],
         "cover_template_scope": "front_cover_only_not_other_course_body_format"
+      },
+      "manual_revision_sync": {
+        "date": "2026-11-09",
+        "source": "paper/language_revision_20261107/main.tex",
+        "verification": "交付材料/manual_revision_verification.json",
+        "research_results_changed": false
+      },
+      "editorial_revision": {
+        "report": "paper/editorial_review_20261109.md",
+        "verification": "交付材料/editorial_revision_verification.json",
+        "pages": 25,
+        "cover_changed": false
       }
     },
     "new_research_experiments_required_before_writing": false,
@@ -336,7 +348,7 @@
     },
     "adopted_research_results_changed": false,
     "submission_preparation": {
-      "decision_log_id": "R20261108-08",
+      "decision_log_id": "R20261109-02",
       "status": "local_archives_built_and_checked_not_submitted",
       "guide": "交付材料/00_取用与提交说明.md",
       "manifest": "交付材料/PACKAGE_MANIFEST.json",
@@ -361,7 +373,19 @@
       "presentation_draft_available": true,
       "report_cover_updated": true,
       "cover_update_verification": "交付材料/cover_update_verification.json",
-      "data_zip_unchanged": true
+      "data_zip_unchanged": true,
+      "manual_revision_sync": {
+        "date": "2026-11-09",
+        "source": "paper/language_revision_20261107/main.tex",
+        "verification": "交付材料/manual_revision_verification.json",
+        "research_results_changed": false
+      },
+      "editorial_revision": {
+        "report": "paper/editorial_review_20261109.md",
+        "verification": "交付材料/editorial_revision_verification.json",
+        "pages": 25,
+        "cover_changed": false
+      }
     },
     "presentation_preparation": {
       "decision_log_id": "R20261108-07",

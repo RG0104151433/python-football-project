@@ -57,8 +57,9 @@ def main() -> None:
     for est, label, marker, color in zip(["observed_rate", "standardized_rate"], ["Direct", "Adjusted"], ["o", "s"], colors):
         values = {r["analysis_era_id"]: 100 * float(r["estimate"]) for r in rates if r["estimand"] == est}
         a.plot(x, [values[e] for e in eras], marker=marker, label=label, color=color, linewidth=1.4, markersize=4)
-    a.set_xticks(x, ["1980s", "1990s", "2000s", "2010s", "2020-24"])
-    a.tick_params(axis="x", labelsize=8)
+    a.set_xticks(x, ["1980s", "1990s", "2000s", "2010s", "2020–2024"])
+    a.tick_params(axis="x", labelsize=7)
+    a.set_xlim(-0.35, 4.55)
     a.set_title("A  Era rates (zoomed scale)", loc="left")
     a.set_ylabel("Home-win rate (%)")
     a.legend(frameon=False, fontsize=8, loc="upper left")
@@ -70,8 +71,8 @@ def main() -> None:
     b.set_xlabel("Ten-year window ending in")
     b.set_ylabel("Home-win difference (pp)")
     b.set_xticks([1989, 2000, 2010, 2024]); b.grid(axis="y", alpha=.22)
-    labels = ["Asia:\nexternal - same subregion", "Europe:\nexternal - same subregion",
-              "Africa:\nNorth Africa - West Africa", "Americas:\nSouth America - rest"]
+    labels = ["Asia:\nexternal − same subregion", "Europe:\nexternal − same subregion",
+              "Africa:\nNorth Africa − West Africa", "Americas:\nSouth America − rest"]
     y = np.arange(4)
     for offset, key, marker, color, label in [(-.10, "direct_difference_pp", "o", colors[0], "Direct"), (.10, "adjusted_difference_pp", "D", colors[1], "Adjusted")]:
         c.scatter([float(r[key]) for r in selected], y + offset, s=28, marker=marker, color=color, label=label, zorder=3)

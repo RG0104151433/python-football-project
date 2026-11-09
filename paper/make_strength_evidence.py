@@ -45,7 +45,7 @@ def main():
         label = r["period"].removeprefix("reused_").replace("_", "--")
         lines.append(f"{label} & {r['count']:,} & {r['frequency_log_loss']:.6f} & "
                      f"{r['fixed_step_log_loss']:.6f} & {r['log_loss']:.6f} & "
-                     f"{100*r['accuracy']:.2f} & {100*r['home_probability_bias']:+.4f} " + r"\\")
+                     f"{100*r['accuracy']:.2f} & ${100*r['home_probability_bias']:+.4f}$ " + r"\\")
     rows_path = PAPER / "figures/strength_validation_rows.tex"
     rows_path.write_text(
         r"\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrrrrrr@{}}" + "\n"

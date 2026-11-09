@@ -1012,10 +1012,10 @@
   },
   "sample_matches": 24917,
   "outputs": {
-    "paper/figures/fig_historical_overview.pdf": "50ea56785dd05ec99568a6b6cc6bcbdb8855de15b450e312be1c194412610aab",
-    "paper/figures/fig_historical_overview.png": "a4319302eb566de4f6571be6b003f3e90beef1a81cd88d2ee88d599206adb2b2"
+    "paper/figures/fig_historical_overview.pdf": "e68352a1c7a7aae0d37698028cf1106e74090c95dff75a6b1ff1048ec486c2ad",
+    "paper/figures/fig_historical_overview.png": "a2cd8662d1f40afc93f1e28bbc911ef053b121fe44df4148706d068787dc8133"
   },
-  "script_sha256": "6a5e46957dea22378db20ed728c1779c1544ba2541ae7f16c624cad82fd0a336",
+  "script_sha256": "868318f5726f3739d5bdf9cbd04294406a89468fa43e2fbb793b9544a871c1b2",
   "limits": [
     "Descriptive rates and differences; no confidence intervals drawn",
     "36 windows overlap",
