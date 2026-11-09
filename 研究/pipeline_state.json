@@ -4093,5 +4093,17 @@
       "status": "reserved_supporting_data_topic_not_numbered",
       "topic": "球员和俱乐部信息辅助国家队分析"
     }
-  ]
+  ],
+  "presentation_revision": {
+    "decision_log_id": "R20261109-03",
+    "entry": "presentation/index.html",
+    "main_screens": 12,
+    "optional_screens": 1,
+    "guide": "presentation/README.md",
+    "results_template": "presentation/results_template.csv",
+    "verification": "presentation/review_verification.json",
+    "actual_results_imported": false,
+    "model_refit": false,
+    "classroom_rehearsal": false
+  }
 }

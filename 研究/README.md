@@ -1,5 +1,8 @@
 # 研究路线与当前结论
 
+**11月17日展示稿修订（R20261109-03）：** presentation/index.html已改为12主屏＋1可选附录，加入数据圆环、年代赛事叠加、地图/六国实力、逐年表现、立体历史组合、52场预测及独立CSV赛果核验。导入模板presentation/results_template.csv；当前无实际赛果。详见presentation/README.md，离线浏览器检查通过，待三人试讲。
+
+
 **R20261108-08：** [当前论文](../paper/final_paper.pdf)补独立学校封面，共25页；旧版24页在paper/archive/pre_cover_20261108/保留。研究正文、结果和HTML讨论稿不改；仅更新论文前置页及对应提交附件。
 
 **汇报讨论稿R20261108-07：** 全研究主线已整理成[10屏英文HTML](../presentation/index.html)，相关交互、讲稿、静态候选图及出处见[presentation入口](../presentation/README.md)。这是展示层重组，不是新模型或新研究结果；论文/原提交包保持不变。

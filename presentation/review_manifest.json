@@ -1,0 +1,45 @@
+{
+  "decision_log_id": "R20261109-03",
+  "source": "presentation/build_review.py",
+  "model_refit": false,
+  "forecasts_modified": false,
+  "source_files": {
+    "eras": "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_estimates.csv",
+    "counts": "outputs/tables/eras/eras-fifa-dddf11dd6dc0b7531b88/era_summary.csv",
+    "types": "outputs/tables/tournaments/tournaments-4893e38db46f83f6c219/type_differences.csv",
+    "regions": "outputs/tables/regions/regions-0a1c61664a722e6c641f/contrast_results.csv",
+    "yearly": "outputs/tables/strength_joint/rolling-prediction-4722c7b1b5f63cef35e3/yearly_metrics.csv",
+    "windows": "outputs/tables/history_window/joint-review-4888d987645daee73e19/combination_metrics.csv",
+    "costs": "outputs/tables/history_window/joint-review-4888d987645daee73e19/cost_components.csv",
+    "regional": "outputs/tables/regional_effectiveness/regional-evaluation-7ea3e4ab7c7dbb8eeb58/regional_metrics.csv",
+    "forecasts": "outputs/tables/future_predictions/future-unl-61f639846da9193d4cca/forecasts.csv",
+    "states": "paper/strength_evidence_manifest.json"
+  },
+  "extra_sources": [
+    "outputs\\tables\\tournaments\\tournaments-4893e38db46f83f6c219\\type_estimates.csv",
+    "data\\processed\\strength\\strength-delivery-ca43fe498cd43ec8e21f\\study_prematch_features.csv"
+  ],
+  "outputs": {
+    "index.html": "afa0f913082661291c2e927dabf61040d92a2042bb3c6bc8850ee858a38fcaee",
+    "review_data.json": "7a48fcee03d60ac87c4c606a1161ca3f5f1c90439c8e3e06d7af59d192a3813d",
+    "results_template.csv": "5d8170e86cf059ef15a919e82a38311c636b3128340d1b372cd5bec9ecfa36a1"
+  },
+  "countries": [
+    "Brazil",
+    "France",
+    "Spain",
+    "Japan",
+    "Nepal",
+    "Luxembourg"
+  ],
+  "results": "No actual scores supplied; all pending by default",
+  "visual_assets": {
+    "presentation/assets/world.geojson": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f",
+    "presentation/assets/brazil_training.jpg": "8182fbae4633f432cb111b379d464b01a04c5434b55f886bdd801e7d644097c2"
+  },
+  "source_hashes": {
+    "presentation\\review.template.html": "6e9ea863928da6457c7cbce6ce1304599a279120954c41c751f76ad5cb89ff84",
+    "presentation\\build_review.py": "5d0667b73fda808191681fd5c94746c6327ee0e5d1174a862fbe54060c97377d",
+    "presentation\\build.py": "0117f8262d2b392cdcef6c8d3ea973c8c2b8c9dcf19617fa95f327417a9ec1fe"
+  }
+}

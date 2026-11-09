@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-09",
+  "slides": 13,
+  "main": 12,
+  "optional": 1,
+  "offline": true,
+  "page_errors": [],
+  "overflow": [],
+  "tests": [
+    "six country panels",
+    "three era/type series",
+    "persistent model bars",
+    "yearly history",
+    "six window steps",
+    "52 forecast tiles",
+    "result import and correctness",
+    "invalid import rejected"
+  ],
+  "synthetic_results_only_in_temporary_browser": true,
+  "actual_results_imported": false
+}

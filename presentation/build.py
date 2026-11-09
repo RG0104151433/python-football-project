@@ -174,4 +174,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    import runpy
+    runpy.run_path(str(HERE / "build_review.py"), run_name="__main__")
