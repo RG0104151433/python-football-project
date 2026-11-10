@@ -1,5 +1,7 @@
 # Supporting results and reproduction guide
 
+**Delivery revision (R20261110-07).** References is now numbered Section 5, followed by Declarations. The 25-page paper and all scientific results remain unchanged. The email data archive is compact; its explicit selection and scope are documented in the delivery guide. Full archival replay may require files retained only in the complete repository.
+
 **Cover update (R20261108-08).** The final report is now 25 physical pages: an unnumbered institutional cover, abstract i, contents ii, and unchanged main text 1–22. The earlier 24-page PDF and full report-source package are archived in `paper/archive/pre_cover_20261108/`. Research data, estimates and figures below are unchanged.
 
 **Contents update (R20261108-04).** The final PDF now has 24 pages: Roman-numbered front matter (i–ii) and Arabic-numbered main text (1–22). The linked contents lists the abstract, sections, subsections, and references. Scientific content and results are unchanged.

@@ -1,0 +1,34 @@
+{
+  "audit": {
+    "exit_code": 1,
+    "expected": "original raw-data conflicts intentionally reported; not missing dependencies or runtime failure",
+    "status": "review_needed",
+    "errors": 40,
+    "log": "audit.txt"
+  },
+  "quick_check": {
+    "exit_code": 0,
+    "log": "quick_check.txt",
+    "tail": "727 evaluation matches; cumulative/cumulative logloss=0.5591345107\"\r\n    },\r\n    {\r\n      \"name\": \"Q7 overall\",\r\n      \"ok\": true,\r\n      \"detail\": \"9,727 matches; joint logloss=0.5591345107\"\r\n    },\r\n    {\r\n      \"name\": \"Q8 forecasts\",\r\n      \"ok\": true,\r\n      \"detail\": \"52 targets; 49 binary; 3 withheld; 2026-11-12..2026-11-17\"\r\n    }\r\n  ]\r\n}\r\n"
+  },
+  "snapshot": {
+    "exit_code": 0,
+    "log": "snapshot.txt",
+    "tail": "快照验证通过：6 个文件；未修改原始文件。\r\n"
+  },
+  "targeted_pytest": {
+    "exit_code": 0,
+    "log": "targeted_pytest.txt",
+    "tail": "..................................                                       [100%]\r\n34 passed in 13.45s\r\n"
+  },
+  "runtime_imports": {
+    "exit_code": 0,
+    "log": "runtime_imports.txt",
+    "tail": "Runtime imports passed 7.2.2 3.7.0\r\n"
+  },
+  "report_compile": {
+    "exit_code": 0,
+    "pdf_exists": true,
+    "log": "report_compile.txt"
+  }
+}

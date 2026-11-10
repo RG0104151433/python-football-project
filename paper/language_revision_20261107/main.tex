@@ -39,7 +39,7 @@
 \ExplSyntaxOff
 \usepackage[numbers,sort&compress]{natbib}
 \setcounter{tocdepth}{3}
-\renewcommand{\bibsection}{\section*{\refname}\phantomsection\addcontentsline{toc}{section}{\refname}}
+\renewcommand{\bibsection}{\section{\refname}}
 \graphicspath{{../figures/}}
 % Consistent paragraph indentation, including the first paragraph after headings.
 \setlength{\parindent}{1.5em}
@@ -107,4 +107,5 @@ Historical home-win rates combine factors in team strength, opponent composition
 \bibliographystyle{unsrtnat}
 \bibliography{references}
 \endgroup
+\input{sections/declarations}
 \end{document}

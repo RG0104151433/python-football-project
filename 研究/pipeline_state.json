@@ -182,12 +182,12 @@
       "manual_revision_sync": {
         "date": "2026-11-09",
         "source": "paper/language_revision_20261107/main.tex",
-        "verification": "交付材料/manual_revision_verification.json",
+        "verification": "交付材料/90_历史记录/manual_revision_verification.json",
         "research_results_changed": false
       },
       "editorial_revision": {
         "report": "paper/editorial_review_20261109.md",
-        "verification": "交付材料/editorial_revision_verification.json",
+        "verification": "交付材料/90_历史记录/editorial_revision_verification.json",
         "pages": 25,
         "cover_changed": false
       }
@@ -348,23 +348,23 @@
     },
     "adopted_research_results_changed": false,
     "submission_preparation": {
-      "decision_log_id": "R20261109-02",
+      "decision_log_id": "R20261110-07",
       "status": "local_archives_built_and_checked_not_submitted",
       "guide": "交付材料/00_取用与提交说明.md",
-      "manifest": "交付材料/PACKAGE_MANIFEST.json",
-      "verification": "交付材料/验收记录.json",
+      "manifest": "交付材料/04_清单与验收/PACKAGE_MANIFEST.json",
+      "verification": "交付材料/04_清单与验收/本次验收记录.json",
       "archive_roles": {
         "platform": [
-          "Report.pdf",
-          "Code.zip"
+          "交付材料/02_平台上传/Report.pdf",
+          "交付材料/01_邮件附件/Code.zip"
         ],
         "email": [
-          "Report.zip",
-          "Code.zip",
-          "Data.zip"
+          "交付材料/01_邮件附件/Report.zip",
+          "交付材料/01_邮件附件/Code.zip",
+          "交付材料/01_邮件附件/Data.zip"
         ]
       },
-      "data_zip_approx_mib": 617.42,
+      "data_zip_approx_mib": 31.34,
       "mailbox_capacity_confirmed": false,
       "archives_git_ignored": true,
       "actual_upload_or_email": false,
@@ -372,20 +372,21 @@
       "fresh_machine_installation_verified": false,
       "presentation_draft_available": true,
       "report_cover_updated": true,
-      "cover_update_verification": "交付材料/cover_update_verification.json",
-      "data_zip_unchanged": true,
+      "cover_update_verification": "交付材料/90_历史记录/cover_update_verification.json",
+      "data_zip_unchanged": false,
       "manual_revision_sync": {
         "date": "2026-11-09",
         "source": "paper/language_revision_20261107/main.tex",
-        "verification": "交付材料/manual_revision_verification.json",
+        "verification": "交付材料/90_历史记录/manual_revision_verification.json",
         "research_results_changed": false
       },
       "editorial_revision": {
         "report": "paper/editorial_review_20261109.md",
-        "verification": "交付材料/editorial_revision_verification.json",
+        "verification": "交付材料/90_历史记录/editorial_revision_verification.json",
         "pages": 25,
         "cover_changed": false
-      }
+      },
+      "attachment_scope": "compact_inputs_bound_evidence_and_final_summaries_not_all_simulated_worlds"
     },
     "presentation_preparation": {
       "decision_log_id": "R20261108-07",
@@ -4125,5 +4126,16 @@
     "large_delivery_archive": "local_only_ignored",
     "local_commits_returned_to_staging": true,
     "automatic_commit_or_push": false
+  },
+  "delivery_reorganization": {
+    "decision_log_id": "R20261110-07",
+    "guide": "交付材料/00_取用与提交说明.md",
+    "review_response": "交付材料/04_清单与验收/核查反馈处理说明_20261110.md",
+    "data_scope_changed_for_attachment_only": true,
+    "scientific_results_deleted": false,
+    "minimum_dependencies_completed": true,
+    "paper_references_section": 5,
+    "classroom_rehearsal_completed": false,
+    "email_or_platform_submission": false
   }
 }

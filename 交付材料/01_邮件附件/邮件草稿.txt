@@ -22,6 +22,8 @@ The report, complete code, and experimental data are packaged separately:
 - Code.zip
 - Data.zip
 
+The compact data attachment retains the original match data, adopted inputs and reported results. Bulky simulated histories and rebuildable intermediate records are retained in the research repository rather than repeated in this email.
+
 The code archive includes environment and execution instructions. Please extract the code and data archives into the same parent directory to merge their FootballProject folders. The project quick check is described in README_SUBMISSION.md.
 
 Best regards,

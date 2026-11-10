@@ -1,0 +1,82 @@
+{
+  "decision_log_id": "R20261110-07",
+  "status": "completed_duplicates_removed",
+  "unchanged_scientific_paper_sources_and_figures": [
+    "paper/figures/bit_school_header.jpeg",
+    "paper/figures/fig2_era_rates.pdf",
+    "paper/figures/fig3_model_comparison.pdf",
+    "paper/figures/fig4_history_windows.pdf",
+    "paper/figures/fig5_regional_metrics.pdf",
+    "paper/figures/fig6_forecast_examples.pdf",
+    "paper/figures/fig_historical_overview.pdf",
+    "paper/figures/fig_strength_states.pdf",
+    "paper/figures/strength_validation_rows.tex",
+    "paper/figures/study_design.tex",
+    "paper/language_revision_20261107/cover.tex",
+    "paper/language_revision_20261107/references.bib",
+    "paper/language_revision_20261107/sections/introduction.tex",
+    "paper/language_revision_20261107/sections/method.tex",
+    "paper/language_revision_20261107/sections/model_selection.tex",
+    "paper/language_revision_20261107/sections/results.tex",
+    "paper/language_revision_20261107/sections/strength_development.tex"
+  ],
+  "scientific_discussion_text_unchanged": true,
+  "declarations_relocated_without_text_change": true,
+  "V4_V5_hashes_unchanged": true,
+  "classroom_copy_equals_V5": true,
+  "platform_report_equals_canonical": true,
+  "duplicate_files_removed": [
+    {
+      "path": "交付材料.zip",
+      "bytes": 652086177,
+      "sha256": "c5491b1043977274925d426b0ebcd890356f83a8b8b6e09036db3595ce20cd0c"
+    },
+    {
+      "path": "交付材料/Code.zip",
+      "bytes": 2772110,
+      "sha256": "ed40f4041afe783ccaeed21a69aa7bb0761c5c69cc2555e88ffa6fa2a2c4b00d"
+    },
+    {
+      "path": "交付材料/Data.zip",
+      "bytes": 647413838,
+      "sha256": "af4331872c6694979e359e2c03a0720db787db373e0a3b7d930bcf9ba6020092"
+    },
+    {
+      "path": "交付材料/Report.zip",
+      "bytes": 433494,
+      "sha256": "6ff4dbdcd9d1b6714ee5c565b06037d04dc5df2d4d2791c5a7ad259dd7e14d0c"
+    },
+    {
+      "path": "交付材料/Report.pdf",
+      "bytes": 302783,
+      "sha256": "06d20ea2e36d36b900ea9f099b038a05c2e84a44c1093c2f5b0b1de5ebdf0a81"
+    },
+    {
+      "path": "交付材料/main.pdf",
+      "bytes": 302783,
+      "sha256": "06d20ea2e36d36b900ea9f099b038a05c2e84a44c1093c2f5b0b1de5ebdf0a81"
+    },
+    {
+      "path": "交付材料/Presentation_Draft.zip",
+      "bytes": 44501202,
+      "sha256": "914c578ef3bed4cf351b443f42d07ea7bb317e408f1f66d0280716801ac4e596"
+    },
+    {
+      "path": "交付材料/Presentation_V4.zip",
+      "bytes": 4164169,
+      "sha256": "0106c2db4889e941d2c1cb9d0be0dd8c81ff3eee960669af162078db316f706c"
+    },
+    {
+      "path": "交付材料/Presentation_V5.zip",
+      "bytes": 4173709,
+      "sha256": "6a0221b2f0f52330b637384ceaae035b1a05f8ce367bb64305a8358fe5dca738"
+    }
+  ],
+  "repo_scientific_data_deleted": false,
+  "previous_record": "文档/04_整理记录/仓库体积清理_20261110.json",
+  "duplicate_bytes_removed": 1356150265,
+  "data_attachment_before_bytes": 647413838,
+  "data_attachment_after_bytes": 32860925,
+  "email_total_bytes": 36104692,
+  "omitted_attachment_files": 1491
+}

@@ -41,6 +41,10 @@ Thumbs.db
 # Keep inventories, instructions and check records versioned for reconstruction.
 /交付材料/*.zip
 /交付材料/Report.pdf
+/交付材料/**/*.zip
+/交付材料/**/*.pdf
+/交付材料/03_课堂展示/index.html
+/交付材料/03_课堂展示/repository_architecture.html
 /交付材料/_验收解压/
 
 # Browser screenshots, temporary upstream checkout and presentation QA cache.

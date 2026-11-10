@@ -21,7 +21,7 @@ def main() -> None:
                         default=["Report", "Code", "Data"])
     parser.add_argument("--extract", action="store_true")
     args = parser.parse_args()
-    manifest = json.loads((OUT / "PACKAGE_MANIFEST.json").read_text(encoding="utf-8"))
+    manifest = json.loads((OUT / "04_清单与验收/PACKAGE_MANIFEST.json").read_text(encoding="utf-8"))
     destination = (OUT / "_验收解压").resolve()
     for kind in args.only:
         spec = manifest["packages"][kind]

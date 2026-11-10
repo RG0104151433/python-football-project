@@ -1,9 +1,9 @@
 {
   "schema_version": "final-course-paper-v1",
-  "decision_log_id": "R20261109-02",
-  "date": "2026-11-09",
+  "decision_log_id": "R20261110-07",
+  "date": "2026-11-10",
   "executor": "Codex (AI)",
-  "git_head": "953dc72c6f079dd61be9a6efe7ed71e86b2df47b",
+  "git_head": "3472579c4386fb48873d32dab2c5695adfb28712",
   "uncommitted_worktree": true,
   "delivered_pdf": "paper/final_paper.pdf",
   "source_entry": "paper/language_revision_20261107/main.tex",
@@ -41,15 +41,15 @@
   "displayed_equations": 12,
   "references": 18,
   "fingerprints": {
-    "paper/language_revision_20261107/main.tex": "5f48d8f0fa6542c530961d2d1afcbffae891db908cd1e83102791fd68e7a566d",
-    "paper/language_revision_20261107/sections/discussion.tex": "cb4e0f1112710f2bbc66feb100be06d1844743ec70d12d38e760bb5c545e50a8",
+    "paper/language_revision_20261107/main.tex": "79df8479c87e220c032614683f174c2136eb5271991604b00beada182a62912d",
+    "paper/language_revision_20261107/sections/discussion.tex": "d91ce50a3f60b0ebb63851b4f6b8d9ab04ed2b5004e06197a067ae96f4c2209b",
     "paper/language_revision_20261107/sections/introduction.tex": "3a3b19a43b4db3cdeb6098dfbdea699263625275bdaee829c41c64bce2df88a1",
     "paper/language_revision_20261107/sections/method.tex": "c33cdf00fd5967df76680b0eb9b12ceeefe18a4f4887b7c98a945d6ded7074c8",
     "paper/language_revision_20261107/sections/model_selection.tex": "0f123870e22a791fc43837c30659b4047ad6dec7725698c39a0f51eed986e276",
     "paper/language_revision_20261107/sections/results.tex": "b1b6479143b43e0bf65f41f6bed426933c7705235a4c60ebd4e31ce8dc38a613",
     "paper/language_revision_20261107/sections/strength_development.tex": "63cac29d4da523878e1ae58f6d4ffe355b0bac65b789bb1ab8030cf6ff0411fc",
     "paper/language_revision_20261107/references.bib": "0d2ebae889aa0d1618298054382ceb79b99b8bb662dbf7b2db1b37038fe1f3c4",
-    "paper/final_paper.pdf": "06d20ea2e36d36b900ea9f099b038a05c2e84a44c1093c2f5b0b1de5ebdf0a81",
+    "paper/final_paper.pdf": "b17602d0453a4b0e63342d339136e1fecceef62b4cdb62620fcb51ad48baf3eb",
     "paper/final_review_20261108.md": "cae9dde2c202dabff34579e9cfaca4908e5315aaf865b4bc8519be64e2530202",
     "paper/language_revision_20261107/final_changes.diff": "0828af1355c6fb0779a3ec5ffee89cd1d48ceedac9a4379bffb389727e31a40f",
     "paper/language_revision_20261107/language_changes.diff": "b901cd2749a3e045f58033aead9584aefeac31c96eeb5705667266623f93a78d",
@@ -68,7 +68,8 @@
     "paper/editorial_review_20261109.md": "64299f65fd2f1c37a2e324bad9b326601f323965892d7bb63bc15a94121aec95",
     "paper/make_paper_figures.py": "b44f6ff8175806cccd14a8dc05a4baaee22f6b3bfb123cfafb53a427287aece5",
     "paper/make_historical_overview.py": "868318f5726f3739d5bdf9cbd04294406a89468fa43e2fbb793b9544a871c1b2",
-    "paper/make_strength_evidence.py": "9d81c03010a18c3bda060f98eaa0b42b766971c0aa92dbbab596bb113ffbbea4"
+    "paper/make_strength_evidence.py": "9d81c03010a18c3bda060f98eaa0b42b766971c0aa92dbbab596bb113ffbbea4",
+    "paper/language_revision_20261107/sections/declarations.tex": "693f08e3de6a3b913461181ce404d16cc33b590bacc9db3ce7a812de36a90dff"
   },
   "edits": [
     {
@@ -385,7 +386,7 @@
   },
   "manual_revision_sync": {
     "changes": "Owner abstract wording changes preserved verbatim",
-    "verification": "交付材料/manual_revision_verification.json",
+    "verification": "交付材料/90_历史记录/manual_revision_verification.json",
     "pages": 25,
     "compile_exit": 0,
     "tex_warnings": [],
@@ -394,7 +395,7 @@
   },
   "editorial_revision": {
     "report": "paper/editorial_review_20261109.md",
-    "verification": "交付材料/editorial_revision_verification.json",
+    "verification": "交付材料/90_历史记录/editorial_revision_verification.json",
     "cover_changed": false,
     "contents_depth": 3,
     "pages": 25,
@@ -402,5 +403,14 @@
     "tex_warnings": [],
     "visual_check": "all 25 pages contact sheets, detailed plots and final reference pages",
     "model_rerun": false
+  },
+  "delivery_revision": {
+    "references_numbered": 5,
+    "declarations_after_references": true,
+    "cover_changed": false,
+    "scientific_results_changed": false,
+    "compile_exit": 0,
+    "pages": 25,
+    "verification": "交付材料/04_清单与验收/本次验收记录.json"
   }
 }

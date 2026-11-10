@@ -1,0 +1,78 @@
+{
+  "decision_log_id": "R20261110-07",
+  "executor": "Codex AI",
+  "human_review": false,
+  "date": "2026-11-10",
+  "status": "local_delivery_checked_not_submitted",
+  "raw_and_research_result_files_modified": false,
+  "full_scientific_repository_pruned": false,
+  "compact_scope_documented": true,
+  "checks": {
+    "audit": {
+      "exit_code": 1,
+      "expected": "original raw-data conflicts intentionally reported; not missing dependencies or runtime failure",
+      "status": "review_needed",
+      "errors": 40,
+      "log": "audit.txt"
+    },
+    "quick_check": {
+      "exit_code": 0,
+      "log": "quick_check.txt",
+      "tail": "727 evaluation matches; cumulative/cumulative logloss=0.5591345107\"\r\n    },\r\n    {\r\n      \"name\": \"Q7 overall\",\r\n      \"ok\": true,\r\n      \"detail\": \"9,727 matches; joint logloss=0.5591345107\"\r\n    },\r\n    {\r\n      \"name\": \"Q8 forecasts\",\r\n      \"ok\": true,\r\n      \"detail\": \"52 targets; 49 binary; 3 withheld; 2026-11-12..2026-11-17\"\r\n    }\r\n  ]\r\n}\r\n"
+    },
+    "snapshot": {
+      "exit_code": 0,
+      "log": "snapshot.txt",
+      "tail": "快照验证通过：6 个文件；未修改原始文件。\r\n"
+    },
+    "targeted_pytest": {
+      "exit_code": 0,
+      "log": "targeted_pytest.txt",
+      "tail": "..................................                                       [100%]\r\n34 passed in 13.45s\r\n"
+    },
+    "runtime_imports": {
+      "exit_code": 0,
+      "log": "runtime_imports.txt",
+      "tail": "Runtime imports passed 7.2.2 3.7.0\r\n"
+    },
+    "report_compile": {
+      "exit_code": 0,
+      "pdf_exists": true,
+      "log": "report_compile.txt"
+    }
+  },
+  "source_paper_compile_exit": 0,
+  "paper_visual_pages_checked": [
+    3,
+    24,
+    25
+  ],
+  "paper_pages": 25,
+  "references_numbered": 5,
+  "declarations_after_references": true,
+  "V4_V5_original_bytes_unchanged": true,
+  "fresh_machine_installation": false,
+  "classroom_rehearsal": false,
+  "actual_external_submission": false,
+  "archive_sha_verification": "All three final archives and every member verified after documentation-only Code refresh",
+  "limitations": [
+    "Existing project Python environment used, not fresh minimal installation",
+    "No full model/simulation rerun",
+    "Strict historical manifest replay needs omitted full-repository evidence",
+    "Mailbox capacity and real platform/email delivery not verified"
+  ],
+  "initial_check_harness_adjustment": "Raw audit intentionally exits 1 on known conflicts; accepted only after parsing review_needed and the original 40 ERROR count; source code not weakened.",
+  "final_archive_sha256": {
+    "Report": "f34e524c39e687100967490984b8281dc9eb674c376b9293bf79f62160a9a9f5",
+    "Code": "3678146174515ea18669c9e7d2ff8a7fa5e099ba935aca4c2f10f7bb08a5d147",
+    "Data": "352382b804eca953ea3bb480205fa3960e2f33e17ba0a37e5cf83a24e43fee5f"
+  },
+  "final_archive_bytes": {
+    "Report": 432665,
+    "Code": 2815774,
+    "Data": 32860925
+  },
+  "email_total_bytes": 36109364,
+  "verified_tested_source_modules_unchanged_after_documentation_refresh": true,
+  "verification_extraction_removed_after_success": true
+}
