@@ -17,7 +17,7 @@
     "presentation/forecast_hover_v5.js": "b89d8e5138d987d639330d747197ad1e0a86cd6ef1fd924e37bc6e7b61c8004a",
     "presentation/build.py": "8f3b8703c48faa8946546eec634cac10b9249c83d20c49b25b8a496079594536",
     "presentation/build_v5.py": "9b7ab292ee6d149ed9665a97056d6579dd23193aa06aa99b69e285c798d9b995",
-    "presentation/PRESENTATION_SCRIPT_EN.md": "a3818bc11078be05869860b2abbaae29832123c51d8a9e7940820d2282d51198",
+    "presentation/PRESENTATION_SCRIPT_EN.md": "bc167827276910e32a0131e921346a2a8a16161795cf2a7a96e5b4be44b0dc72",
     "presentation/RESULTS_DAY_CHECKLIST.md": "724c8c3d75d14b4b325c83cd0cf9076c9442dcdfbed41c315aa4dad93a836ffa"
   },
   "previous_archive_verified_unchanged": true,
@@ -27,5 +27,23 @@
   "adopted": true,
   "speech": "presentation/PRESENTATION_SCRIPT_EN.md",
   "results_handoff": "presentation/RESULTS_DAY_CHECKLIST.md",
-  "results_verification": "presentation/v5_results_handoff_verification.json"
+  "results_verification": "presentation/v5_results_handoff_verification.json",
+  "speech_revision": {
+    "decision_log_id": "R20261110-08",
+    "source": "presentation/PRESENTATION_SCRIPT_EN.md",
+    "format": "Chinese action cues; English quoted speech",
+    "planned_total_seconds": 575,
+    "timed_rehearsal": false,
+    "submitted_archives_rebuilt": false,
+    "spoken_word_counts": {
+      "verified_results_branch": 825,
+      "pending_results_branch": 824
+    },
+    "estimate_words_per_minute": 110,
+    "click_pause_handoff_seconds": [
+      70,
+      90
+    ],
+    "filled_number_allowance_words": 25
+  }
 }

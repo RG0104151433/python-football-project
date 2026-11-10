@@ -1,6 +1,6 @@
 # 当前讲稿入口：V5已采用（R20261110-05）
 
-- 完整逐页英文讲稿：[PRESENTATION_SCRIPT_EN.md](PRESENTATION_SCRIPT_EN.md)。短句、日常词汇；方括号是操作/填数位置，不朗读。附常见问题简答。
+- 完整逐页英文讲稿：[PRESENTATION_SCRIPT_EN.md](PRESENTATION_SCRIPT_EN.md)。现为约820词压缩版。英文引用块用于朗读；粗体中文【操作】用于点击提示，不朗读。每页有建议时间和累计时点，问答不计入十分钟。
 - 当天比分导入与讲稿填数：[RESULTS_DAY_CHECKLIST.md](RESULTS_DAY_CHECKLIST.md)。第10页按实际核验状态选择段落，二分类/三分类统计分开。
 - 展示主入口：index.html，或versions/v5_20261110/index.html；V4固定版不覆盖。
 - 尚未做三人计时排练，不能把建议秒数当作已验收时长。请先照稿试讲，再按课程时限删减可选细节。

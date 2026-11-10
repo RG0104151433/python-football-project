@@ -349,7 +349,7 @@
     "adopted_research_results_changed": false,
     "submission_preparation": {
       "decision_log_id": "R20261110-07",
-      "status": "local_archives_built_and_checked_not_submitted",
+      "status": "submitted_in_both_channels_as_reported_by_owner",
       "guide": "交付材料/00_取用与提交说明.md",
       "manifest": "交付材料/04_清单与验收/PACKAGE_MANIFEST.json",
       "verification": "交付材料/04_清单与验收/本次验收记录.json",
@@ -367,7 +367,7 @@
       "data_zip_approx_mib": 31.34,
       "mailbox_capacity_confirmed": false,
       "archives_git_ignored": true,
-      "actual_upload_or_email": false,
+      "actual_upload_or_email": true,
       "presentation_complete": false,
       "fresh_machine_installation_verified": false,
       "presentation_draft_available": true,
@@ -386,7 +386,8 @@
         "pages": 25,
         "cover_changed": false
       },
-      "attachment_scope": "compact_inputs_bound_evidence_and_final_summaries_not_all_simulated_worlds"
+      "attachment_scope": "compact_inputs_bound_evidence_and_final_summaries_not_all_simulated_worlds",
+      "submission_confirmation_log_id": "R20261110-08"
     },
     "presentation_preparation": {
       "decision_log_id": "R20261108-07",
@@ -4116,7 +4117,10 @@
     "speech": "presentation/PRESENTATION_SCRIPT_EN.md",
     "results_handoff": "presentation/RESULTS_DAY_CHECKLIST.md",
     "results_handoff_verification": "presentation/v5_results_handoff_verification.json",
-    "timed_rehearsal": false
+    "timed_rehearsal": false,
+    "speech_revision_log_id": "R20261110-08",
+    "speech_spoken_word_count_approx": 820,
+    "speech_planned_total_seconds": 575
   },
   "repository_storage_cleanup": {
     "decision_log_id": "R20261110-06",
@@ -4136,6 +4140,18 @@
     "minimum_dependencies_completed": true,
     "paper_references_section": 5,
     "classroom_rehearsal_completed": false,
-    "email_or_platform_submission": false
+    "email_or_platform_submission": true,
+    "submission_confirmation_log_id": "R20261110-08"
+  },
+  "submission_confirmation": {
+    "decision_log_id": "R20261110-08",
+    "status": "both_channels_submitted_as_reported_by_owner",
+    "reported_on": "2026-11-10",
+    "email_submitted": true,
+    "python123_submitted": true,
+    "source": "project_owner_confirmation_in_conversation",
+    "exact_submission_time": null,
+    "receipt_independently_checked_by_AI": false,
+    "automatic_submission_by_AI": false
   }
 }

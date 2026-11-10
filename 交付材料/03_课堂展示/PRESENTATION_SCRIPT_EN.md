@@ -1,237 +1,191 @@
-# V5 presentation script — plain English
+# V5 presentation script — ten-minute version
 
-This is the first full speaking draft for the 14-screen V5 presentation. Use rehearsal to check the total time; shorten optional detail if the course limit is 10 minutes. Bracketed lines are stage directions, not spoken words. Slide numbers match the HTML. No actual match results have been supplied yet.
+这是在原逐页讲稿上直接压缩的版本，仍对应V5的14页。
 
-## 1 · The sealed envelope — about 30 seconds
+**【讲述｜读英文】**后的英文引用段落是要说的话；**【操作｜不读】**后的中文只提醒展示者操作。标题、计时、括号中的填数位置和文末问答均不计入正式朗读。第10页两段赛果说明只能选一段。
 
-[Click “Open the research question”.]
+正文约820个英文词（只读一段赛果说明），另给填入数字预留约25词。按每分钟110词，加上70—90秒点击、停顿和换人，预计约9分钟；若每分钟约100词，则接近9分半至10分钟。各页提示合计9分35秒，留25秒余量。仍须三人合练计时，这不是实际彩排记录。
 
-Good morning, everyone.
+上台前：打开第1页；恢复动画/步骤到初始位置；如已有可靠比分，先导入CSV并填好第10页。实际赛果尚未提供时，使用“无赛果”备选段，不能临时编数。
 
-Before a football match, we often ask: who will win?
+## 1 · A prediction saved before the match｜35秒，累计0:35
 
-Our project asks a more useful question: what can past results tell us before the match starts, and how sure should we be?
+**【操作｜不读】** 进入第1页，点击“Open the research question”。停一秒，让开场画面出现。
 
-We saved predictions for 52 Nations League matches on November 2. Today, we will explain where those predictions came from and how we check them against completed matches.
+**【讲述｜读英文】**
 
-## 2 · Our data — about 40 seconds
+> Hello everyone. Before a football match, we ask: who will win? Our project asks how past results can help us answer that question, and how sure we should be.
+>
+> We saved fifty-two Nations League predictions before the matches. Today, we will explain the evidence behind them and show how to check the results.
 
-[Select each ring. Point to one segment.]
+## 2 · Where our data come from｜35秒，累计1:10
 
-We started with an archive of almost fifty thousand international matches.
+**【操作｜不读】** 进入第2页，依次指向原始数据、实力学习、主胜率比较三个圆环。只悬停一个分区，不逐个介绍。
 
-We kept the original files and recorded checks of dates, scores, team names, and match locations.
+**【讲述｜读英文】**
 
-About twenty-five thousand matches were used to compare home-win patterns. About thirty-nine thousand were used to learn team strength. That includes earlier and neutral-venue matches.
+> We started with almost fifty thousand international matches. We checked dates, scores, team names, and venues.
+>
+> About twenty-five thousand matches were used to compare home-win patterns. About thirty-nine thousand helped us estimate strength, including earlier and neutral matches. These samples overlap, so we cannot add them together.
 
-These samples overlap. We cannot add the two numbers together.
+## 3 · Time and match type｜55秒，累计2:05
 
-## 3 · Time and match type — about 50 seconds
+**【操作｜不读】** 进入第3页，先指蓝色总线，再开启赛事类型对比，指橙色友谊赛与绿色其他比赛；随后指右侧调整前后差值。
 
-[Show all matches, then add the friendly and other-match lines.]
+**【讲述｜读英文】**
 
-First, we looked at home-win rates in different periods.
+> Home-win rates change over time, but match type also matters. The blue line shows all matches, orange shows friendlies, and green shows other games.
+>
+> Home teams won less often in friendlies. The overall gap was about three point two five percentage points. It fell to about two point eight eight after we gave both groups the same mix of periods.
 
-The blue line shows all matches. The orange line shows friendlies. The green line shows other matches.
+**【操作｜不读】** 点击第四问可靠性说明按钮；讲完下一句立即关闭，不朗读整个弹窗。
 
-The lines move differently. The mix of match types may affect the overall pattern.
+**【讲述｜读英文】**
 
-Across the whole sample, home teams won less often in friendlies. The gap was about 3.25 percentage points. For example, 50 percent and 53 percent differ by three percentage points.
+> Matches share teams and conditions. We checked uncertainty under stated model assumptions; these patterns do not prove cause and effect.
 
-When we gave the two groups the same mix of periods, the gap became about 2.88 percentage points.
+## 4 · Region and opponent｜50秒，累计2:55
 
-That is a smaller gap, but it does not prove that being a friendly caused the difference.
+**【操作｜不读】** 进入第4页，将鼠标移到欧洲，展示“Home subregions”；再点“Opponent relationship”。不遍历其他大洲。
 
-[Optional: open the Question 4 button.]
+**【讲述｜读英文】**
 
-Repeated teams and shared conditions make matches dependent. We checked uncertainty, but some ranges were too wide for a clear conclusion.
+> Geography gives us another view. We compare the home team’s region and the opponents it faces. These are different questions: a region’s win rate also depends on its opponents. A high rate may reflect strong teams, weaker opponents, or home advantage.
+>
+> Our grouping places Turkey in Southern Europe, Iran in Western Asia, and Australia in Southeastern Asia. The map shows sample results, not a ranking of regions. This is why we next consider strength.
 
-## 4 · Geography — about 45 seconds
+## 5 · What the model needs to consider｜35秒，累计3:30
 
-[Hover over Europe or Asia. Switch the two views once.]
+**【操作｜不读】** 进入第5页。第一张卡片已显示；随着四个关键词依次介绍，点击“Next factor”三次。
 
-Next, we compared geographic groups.
+**【讲述｜读英文】**
 
-The first view groups matches by the home team's region. The second groups them by the opponent's location: outside the continent, another part of the same continent, or the same part.
+> A useful strength model needs four things: the opponent’s strength, the venue, the importance of the match, and the timing of past results.
+>
+> It learns from both home and away teams. Friendlies receive less weight. The club pictures illustrate the contrast with national teams; they are not extra data used by our model.
 
-These are different questions. A region's home-win rate can change when its opponents change.
+## 6 · What strength means｜55秒，累计4:25
 
-The map follows our study rules. Turkey is in Southern Europe, Iran is in Western Asia, and Australia is in South-eastern Asia.
+**【操作｜不读】** 进入第6页，点击巴西，播放约两秒后暂停；再点击中国，指实力曲线及误差线。保持年份横轴可见。
 
-These are sample results, not a ranking of regions.
+**【讲述｜读英文】**
 
-## 5 · What a strength model must consider — about 45 seconds
+> Our strength value estimates ability before a match. It is neither a world rank nor a predicted score. A higher value means a stronger expected performance against the same opponent under the same conditions.
+>
+> The line changes as results arrive. The small vertical lines show uncertainty. We predict first, observe the real result, and then update both teams. No match uses its own result to predict itself. One unexpected result need not redefine a team, but repeated surprises may signal a real change.
 
-[Reveal the four factors in order.]
+## 7 · Does strength improve prediction?｜65秒，累计5:30
 
-To make a prediction, we need more than a past home-win rate.
+**【操作｜不读】** 进入第7页，播放约两秒年度曲线后暂停；指右侧三种模型。保持同一种评价指标，不反复切换。
 
-First, we need to consider the opponent. Beating a strong team provides different evidence from beating a weak team.
+**【讲述｜读英文】**
 
-Second, location matters. We use information from home, away, and neutral matches.
+> We compared three methods on the same historical matches: background only, strength only, and both together. Background includes period, match type, and region.
+>
+> The combined method reached about seventy percent accuracy for home win versus non-home win, compared with about fifty-eight percent using background alone. Draws count as non-home wins here. Strength provided most of the improvement; background added a smaller gain.
+>
+> We also checked whether the probabilities matched outcomes over many matches, rather than just counting correct picks. These historical records helped us develop the model, so they are not an untouched final test.
 
-Third, not all games carry the same information. Friendlies may involve experiments with players and tactics, so we give them less weight.
+## 8 · How much history should we keep?｜50秒，累计6:20
 
-Finally, national teams do not play on a regular weekly schedule. The club calendar here helps show the contrast. Long gaps make the timing of the evidence important.
+**【操作｜不读】** 进入第8页，按顺序点亮六个柱子，讲述时完成点击，不等待全部动画结束；指旁边的loss数值。
 
-## 6 · What “strength” means — about 60 seconds
+**【讲述｜读英文】**
 
-[Select Brazil, then China or South Africa. Play a few years.]
+> How much history should we keep? Short histories lose useful evidence, while old matches may describe a different team.
+>
+> We tested six combinations for estimating strength and converting it into a match probability. Lower loss means better probability predictions. The bars are not accuracy percentages. Keeping the full history remained our default, without proving a universally best number of years. Shorter windows could save computing time, but did not clearly improve the overall predictions.
 
-Our strength value is not a world rank. It is also not a predicted number of goals.
+## 9 · The saved forecasts｜55秒，累计7:15
 
-It is an estimate of a team's ability, based on results available before each match.
+**【操作｜不读】** 进入第9页，悬停一场熟悉的比赛，显示上方大框；切换预测视图，再悬停同一场。不要逐场介绍。
 
-A higher value means the model expects a stronger performance against the same opponent under the same conditions. Zero is only a reference point.
+**【讲述｜读英文】**
 
-The line changes as new results arrive. The small vertical lines show how uncertain the estimate is.
+> Here are our fifty-two saved forecasts. One view shows home-win, draw, and away-win probabilities from the supporting model.
+>
+> The main model answers the simpler home-win question. Its red point shows the probability; the purple range shows uncertainty from team strength, with other settings fixed. It does not cover every possible error. Three matches are at third-country venues, which our main model does not cover. These probabilities were saved before kick-off and will not change when we enter the results.
 
-Both teams learn from a match. We first make the prediction. We then observe the real result and use it for later predictions.
+## 10 · Checking real results｜55秒，累计8:10
 
-## 7 · Comparing three prediction methods — about 60 seconds
+**【操作｜不读】** 上台前导入已核验CSV；台上只进入第10页，选择“Main binary”，指正确、错误和准确率。不要现场导入文件。
 
-[Play part of the year-by-year chart. Point to the comparison on the right.]
+**【讲述｜读英文】**
 
-We compared three methods on the same historical matches.
+> We judge the main prediction using a fifty percent cutoff. We compare it with the score after ninety minutes, including added time. Unverified matches and cases without a main prediction are excluded.
 
-The first uses background information, such as period, match type, and region. The second uses team strength. The third combines strength and background.
+**【讲述｜有核验赛果时读这一段】**
 
-For this comparison, we asked a two-way question: will the home team win, or not? A draw and an away win are both in the second group.
+> We checked [N] matches: [C] correct and [W] wrong, giving [A] percent accuracy. Another [P] fixtures are pending.
 
-The combined method reached about 70 percent accuracy. Strength provided most of the improvement. Adding background gave a smaller extra gain.
+**【讲述｜没有核验赛果时改读这一段】**
 
-We also checked probability quality. Choosing the right side is not enough; the probabilities should make sense too.
+> Verified scores have not been entered, so we cannot yet give an accuracy figure for these fixtures.
 
-Yearly results vary. These records also helped us choose the model, so they are not a completely new test.
+**【操作｜不读】** 以上两段只选一段朗读。有赛果时提前填入N/C/W/A/P；没有赛果就读备选段。保持主模型二分类，不临时切换分母。
 
-## 8 · How much history to keep — about 45 seconds
+**【讲述｜读英文】**
 
-[Raise the bars in order. Read the exact score beside the graph.]
+> A few matches cannot prove that a model always works. Wrong predictions are shown too.
 
-How far back should we look?
+## 11 · The research path｜25秒，累计8:35
 
-Too little history throws away useful evidence. Older matches may describe a different team.
+**【操作｜不读】** 进入第11页，一边说一边连续点“Next step”，让八步依次出现；不逐框朗读。
 
-We tested six combinations. One choice controls the history used to estimate strength. The other controls the history used to turn that strength into a match probability.
+**【讲述｜读英文】**
 
-The bars show improvements in probability quality. The loss on the right should be lower. It is not an accuracy percentage.
+> Our workflow connects checked data, historical comparisons, uncertainty tests, strength estimates, and prediction checks. We then examine history length and regional limits before saving new forecasts. Checking actual results stays separate from making those forecasts.
 
-Among these choices, keeping the full history remained our default. But we did not find one fixed number of years that must be best for every future situation.
+## 12 · Where to find our work｜20秒，累计8:55
 
-## 9 · Our saved predictions — about 50 seconds
+**【操作｜不读】** 进入第12页，打开“Repository structure”，停约两秒后返回。不要现场浏览GitHub网页。
 
-[Hover over a fixture. Switch view, then hover again.]
+**【讲述｜读英文】**
 
-Here are the 52 predictions saved before the matches.
+> Our GitHub repository contains the data, code, results, paper, and main decisions. This structure shows where to find them.
 
-In this view, we show separate probabilities for a home win, a draw, and an away win. These come from our supporting three-way model.
+## 13 · Three takeaways｜30秒，累计9:25
 
-In the other view, the main model predicts a home win versus a non-home win.
+**【操作｜不读】** 进入第13页，依次指向三个结论，放慢语速收束。
 
-The red point is the home-win probability. The purple line shows a range caused by uncertainty about team strength. It does not cover every possible source of error.
+**【讲述｜读英文】**
 
-For three matches, the main model did not give a prediction under our venue rule. We keep those cases visible instead of filling in a number.
+> Three points to remember.
+>
+> First, home-win rates reflect both strength and the mix of matches.
+>
+> Second, strength provides most of the predictive information; context adds a smaller improvement.
+>
+> Third, history length and region matter, so we should explain uncertainty and the limits of our evidence.
 
-The large box makes each saved prediction easier to inspect.
+## 14 · Thank you｜10秒，累计9:35
 
-## 10 · Checking the results — about 60 seconds
+**【操作｜不读】** 进入最后一页，面向观众，不再点击。
 
-[Before the talk: import the checked CSV. During the talk: choose the main binary rule first.]
+**【讲述｜读英文】**
 
-We decide how to judge a prediction before we count the results.
-
-For the main model, a home-win probability of at least 50 percent counts as a home-win pick. Otherwise, the pick is a draw or an away win.
-
-We compare that pick with the final score after 90 minutes, including added time.
-
-We leave unfinished or unverified matches out of the count. We also exclude the three matches without a main prediction.
-
-[Choose ONE of the following result paragraphs. Replace every bracketed value with the displayed totals before rehearsal. Do not read the directions or placeholders aloud.]
-
-**If verified results are available:**
-
-We have checked [N] matches for the main model. It picked [C] correctly and [W] incorrectly, giving an accuracy of [A] percent. Another [P] fixtures are still pending. The supporting three-way model has a separate result because it answers a different question.
-
-**If no verified results are available:**
-
-We have not yet entered verified results, so we cannot report an accuracy figure for these fixtures. The predictions remain saved, and this page is ready for the final scores.
-
-**Continue in either case:**
-
-A few matches cannot prove that a model always works. We show wrong picks too.
-
-## 11 · Our research process — about 25 seconds
-
-[Reveal the eight steps.]
-
-This is the path we followed.
-
-We preserved and checked the data, compared historical patterns, and studied their uncertainty.
-
-We then estimated changing strength and compared prediction methods. After checking history length and geographic scope, we saved future predictions.
-
-The last step is to compare them with verified outcomes. We keep this separate from making the predictions.
-
-## 12 · Our repository — about 25 seconds
-
-[Open Repository structure, then return.]
-
-The repository keeps the work connected.
-
-It contains the data, code, results, paper, presentation, and our main decisions.
-
-This directory tree shows where to find those materials. The links show folders and files.
-
-You are welcome to explore the project on GitHub.
-
-## 13 · Three findings — about 35 seconds
-
-We have three main findings.
-
-First, a historical home-win rate reflects both team strength and the mix of matches. It does not, by itself, measure a pure home advantage.
-
-Second, strength provides most of the useful information in our prediction comparison. Background adds a smaller improvement.
-
-Third, there is no simple rule that works equally well for every history length or region. We need to explain uncertainty and show where our evidence is limited.
-
-## 14 · Thank you — about 10 seconds
-
-Thank you for listening.
-
-We welcome your questions and suggestions.
+> Thank you for listening. We welcome your questions.
 
 ---
 
-## Short answers for likely questions
+## 彩排与时间控制（不朗读）
 
-**Is 70 percent the accuracy for home win, draw, and away win?**
+- 第1—4页：高睿懿；第5—9页：陈正林；第10—14页：江汶谕。沿用已分配的讲解范围；换人时直接接下一页，不再做自我介绍。
+- 三人按自己实际语速完整合练一次，计入点击、页面切换、停顿和换人。目标约9分半，留30秒余量。
+- 若超时，先少切地图、少播年份、缩短仓库结构停留；不要加速念数字。仍超时可省去第4页三个国家分组的例子，以及第5页关于俱乐部图片的一句。
+- 不展示所有球队，不逐场读52个预测，不现场导入文件，不朗读弹窗全部文字。
+- 第10页填数后，重新核对主模型二分类的分母：N是已核验且已有主预测的场数，C/W为其中正确/错误，A为页面准确率，P为页面待核验场数。主模型未出值的三场不是错误预测。
 
-No. It is historical accuracy for home win versus non-home win. The three-way model is evaluated separately.
+## Short answers — only if asked（不计入十分钟）
 
-**Is your strength number an Elo score?**
+**Is seventy percent the three-way accuracy?**
+No. It is historical accuracy for home win versus non-home win.
 
-No. It is a changing estimate on our model's own shared scale, with uncertainty.
-
-**Does a correct pick prove the probability was right?**
-
-No. One match gives only one result. We need many predictions to judge the probabilities.
-
-**Why keep old matches?**
-
-They still contain information. Our model allows strength to change. In the choices we tested, cutting history did not clearly improve the default.
+**Is the strength value an Elo score?**
+No. It is an uncertain estimate on our model’s own shared scale.
 
 **Did you use machine learning?**
+Yes. The model learns from earlier results and updates as real outcomes arrive. We did not use a large neural network.
 
-Yes. The model learns from earlier results and updates when real results arrive. We also used historical prediction checks to compare settings. We did not use a large neural network.
-
-**What do the uncertainty ranges mean?**
-
-They show how uncertain strength estimates affect the main predicted probability, with other model settings fixed. They are not ranges of possible scores.
-
-## Rehearsal notes
-
-- Bracketed lines are actions or placeholders, not spoken text.
-- Use only a few map examples and country curves. Do not click every option.
-- The result paragraph must match the selected rule and current totals. Never mix the binary and three-way denominators.
-- Keep the V4 backup. Use the V5 file and checked results CSV on the actual presentation computer.
-- This is an untimed draft. Shorten optional detail after a real rehearsal rather than claiming it already fits the time limit.
+**What does the purple range mean?**
+It shows how uncertain team strength affects the home-win probability, with other model settings fixed.

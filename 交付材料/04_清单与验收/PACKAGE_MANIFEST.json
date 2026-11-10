@@ -1,6 +1,6 @@
 {
   "schema_version": "course-submission-archives-v2",
-  "external_submission_performed": false,
+  "external_submission_performed": true,
   "data_selection": "04_清单与验收/data_selection_plan.json",
   "packages": {
     "Report": {
@@ -5705,5 +5705,16 @@
   "current_decision_log_id": "R20261108-08",
   "decision_log_id": "R20261110-07",
   "email_attachment_bytes": 36109364,
-  "mailbox_upload_tested": false
+  "mailbox_upload_tested": false,
+  "submission_confirmation": {
+    "decision_log_id": "R20261110-08",
+    "status": "both_channels_submitted_as_reported_by_owner",
+    "reported_on": "2026-11-10",
+    "email_submitted": true,
+    "python123_submitted": true,
+    "source": "project_owner_confirmation_in_conversation",
+    "exact_submission_time": null,
+    "receipt_independently_checked_by_AI": false,
+    "automatic_submission_by_AI": false
+  }
 }
