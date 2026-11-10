@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-10",
+  "base": "V4",
+  "experiment": "V5",
+  "fixtures_checked": 52,
+  "mode_cases_checked": 104,
+  "withheld_cases": 3,
+  "pointer_hover": true,
+  "three_way_segment_emphasis": true,
+  "keyboard_focus": true,
+  "escape_and_leave_hide": true,
+  "hide_on_slide_change": true,
+  "offline": true,
+  "bounds": [
+    {
+      "size": {
+        "width": 1440,
+        "height": 900
+      },
+      "box": {
+        "x": 195,
+        "y": 65,
+        "width": 1050,
+        "height": 273.15625
+      }
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "box": {
+        "x": 115,
+        "y": 58,
+        "width": 1050,
+        "height": 232.375
+      }
+    }
+  ],
+  "page_errors": [],
+  "scientific_model_refit": false
+}

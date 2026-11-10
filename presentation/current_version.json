@@ -1,0 +1,31 @@
+{
+  "decision_log_id": "R20261110-05",
+  "current": "presentation/index.html",
+  "named_copy": "presentation/versions/v5_20261110/index.html",
+  "previous_archive": "presentation/archive/before_final_polish_20261110.zip",
+  "verification": "presentation/final_polish_verification.json",
+  "sha256": {
+    "presentation\\index.html": "120ad5c04469c9389629ea66d16816adaee5bf99777b598c33b21818cfbe299a",
+    "presentation\\versions\\v3_20261110\\index.html": "a2ea99ee4371117cb0ab615290470fa7e8d71abf43233cb964eac0072dd31456",
+    "presentation\\final_polish.js": "7a413ed756a45c74912b21abe214cc03a5cf763894e8993b70cfc95aaf20192d",
+    "presentation\\refinement.js": "5d409566cc45b3c5e749146252c07e03a71b3d4378d748273c32754e57300291",
+    "presentation\\build_review.py": "7583f6d601f79657fcc906e3c415fb7771bfee2517fc7dcfca78c3e50517972b",
+    "presentation/repository_architecture.html": "90e8b911154c0adb6ab5244a502dd75b1a407ce902b58552eaa74562de4a34e0",
+    "presentation/assets/wembley_user.jpg": "614d9779727c85bd54c0ba02b216c4644f98182c93a8381a778e7a8c805f8a95",
+    "presentation/versions/v4_20261110/index.html": "a2ea99ee4371117cb0ab615290470fa7e8d71abf43233cb964eac0072dd31456",
+    "presentation/versions/v5_20261110/index.html": "120ad5c04469c9389629ea66d16816adaee5bf99777b598c33b21818cfbe299a",
+    "presentation/forecast_hover_v5.js": "b89d8e5138d987d639330d747197ad1e0a86cd6ef1fd924e37bc6e7b61c8004a",
+    "presentation/build.py": "8f3b8703c48faa8946546eec634cac10b9249c83d20c49b25b8a496079594536",
+    "presentation/build_v5.py": "9b7ab292ee6d149ed9665a97056d6579dd23193aa06aa99b69e285c798d9b995",
+    "presentation/PRESENTATION_SCRIPT_EN.md": "a3818bc11078be05869860b2abbaae29832123c51d8a9e7940820d2282d51198",
+    "presentation/RESULTS_DAY_CHECKLIST.md": "724c8c3d75d14b4b325c83cd0cf9076c9442dcdfbed41c315aa4dad93a836ffa"
+  },
+  "previous_archive_verified_unchanged": true,
+  "visual_verification": "presentation/repository_visual_verification.json",
+  "stable_version": "V5",
+  "previous_stable_copy": "presentation/versions/v4_20261110/index.html",
+  "adopted": true,
+  "speech": "presentation/PRESENTATION_SCRIPT_EN.md",
+  "results_handoff": "presentation/RESULTS_DAY_CHECKLIST.md",
+  "results_verification": "presentation/v5_results_handoff_verification.json"
+}

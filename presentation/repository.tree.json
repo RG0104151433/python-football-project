@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "diagram_type": "tree",
+  "meta": {
+    "title": "Repository structure",
+    "output": "presentation/repository_architecture.html",
+    "quality_profile": "showcase",
+    "locale": "en",
+    "repository": {
+      "url": "https://github.com/RG0104151433/python-football-project.git",
+      "revision": "a82d288e8470aa7c8ca17152ca7b6461ff5b3a89",
+      "link_mode": "local-only"
+    }
+  },
+  "layout": {
+    "direction": "right"
+  },
+  "nodes": [
+    {
+      "id": "root",
+      "label": "Football research",
+      "sublabel": "Selected repository folders",
+      "sources": [
+        {
+          "path": "README.md",
+          "line": 1,
+          "end_line": 1,
+          "label": "Repository entry"
+        }
+      ]
+    },
+    {
+      "id": "evidence",
+      "parent": "root",
+      "label": "Data and evidence",
+      "sublabel": "data/ and outputs/"
+    },
+    {
+      "id": "run",
+      "parent": "root",
+      "label": "Analysis and execution",
+      "sublabel": "src/ and scripts/"
+    },
+    {
+      "id": "explain",
+      "parent": "root",
+      "label": "Explanation and delivery",
+      "sublabel": "研究/, 文档/, paper/, presentation/"
+    }
+  ]
+}

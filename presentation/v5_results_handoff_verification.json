@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-10",
+  "offline": true,
+  "synthetic_import_only": true,
+  "main_binary": {
+    "correct": 1,
+    "wrong": 1,
+    "withheld": 1,
+    "pending": 49,
+    "evaluated": 2
+  },
+  "auxiliary_evaluated": 3,
+  "forecast_payload_unchanged": true,
+  "result_click_stays_on_result_screen": true,
+  "invalid_import_rejected_without_losing_valid_data": true,
+  "csv_export": true,
+  "local_storage_reload": true,
+  "actual_scores_supplied": false,
+  "page_errors": []
+}

@@ -4095,15 +4095,35 @@
     }
   ],
   "presentation_revision": {
-    "decision_log_id": "R20261109-03",
+    "decision_log_id": "R20261110-05",
     "entry": "presentation/index.html",
-    "main_screens": 12,
-    "optional_screens": 1,
+    "screens": 14,
     "guide": "presentation/README.md",
-    "results_template": "presentation/results_template.csv",
-    "verification": "presentation/review_verification.json",
+    "verification": "presentation/final_polish_verification.json",
+    "architecture": "presentation/repository_architecture.html",
+    "archify_receipt": "presentation/archify_receipt_legacy.json",
     "actual_results_imported": false,
     "model_refit": false,
-    "classroom_rehearsal": false
+    "named_copy": "presentation/versions/v3_20261110/index.html",
+    "previous_archive": "presentation/archive/before_final_polish_20261110.zip",
+    "architecture_renderer": "native SVG directory tree",
+    "architecture_verification": "presentation/repository_visual_verification.json",
+    "stable_version": "V5",
+    "stable_entry": "presentation/versions/v5_20261110/index.html",
+    "V5_adopted": true,
+    "previous_stable_entry": "presentation/versions/v4_20261110/index.html",
+    "speech": "presentation/PRESENTATION_SCRIPT_EN.md",
+    "results_handoff": "presentation/RESULTS_DAY_CHECKLIST.md",
+    "results_handoff_verification": "presentation/v5_results_handoff_verification.json",
+    "timed_rehearsal": false
+  },
+  "repository_storage_cleanup": {
+    "decision_log_id": "R20261110-06",
+    "record": "文档/04_整理记录/仓库体积清理_20261110.json",
+    "presentation_version": "V5",
+    "research_results_changed": false,
+    "large_delivery_archive": "local_only_ignored",
+    "local_commits_returned_to_staging": true,
+    "automatic_commit_or_push": false
   }
 }

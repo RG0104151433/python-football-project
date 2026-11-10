@@ -1,0 +1,11 @@
+{
+  "version": "V4",
+  "decision_log_id": "R20261110-04",
+  "frozen": true,
+  "files": {
+    "index.html": "a2ea99ee4371117cb0ab615290470fa7e8d71abf43233cb964eac0072dd31456",
+    "repository_architecture.html": "90e8b911154c0adb6ab5244a502dd75b1a407ce902b58552eaa74562de4a34e0",
+    "results_template.csv": "5d8170e86cf059ef15a919e82a38311c636b3128340d1b372cd5bec9ecfa36a1"
+  },
+  "source": "Current presentation before the V5 hover experiment"
+}

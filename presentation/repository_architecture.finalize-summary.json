@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "ok": true,
+  "command": "finalize",
+  "status": "pass",
+  "type": "tree",
+  "quality": "showcase",
+  "specification": {
+    "path": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\presentation\\repository.tree.json",
+    "sha256": "9d8ad138b5cc979d1fc3641118a86d5ef1f76f66b946ca617547edb504731720",
+    "bytes": 1868
+  },
+  "artifact": {
+    "path": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\presentation\\repository_architecture.html",
+    "sha256": "cd3cb334bbe15c27bf2ab52df00d90fe18c50d8761ae1aa6ae6ca3040bbf6a87",
+    "bytes": 836610
+  },
+  "gates": {
+    "validate": "pass",
+    "deliver": "pass",
+    "check": "pass",
+    "browser-check": "pass"
+  },
+  "diagnostics": [],
+  "diagnosticSummary": {
+    "total": 0,
+    "shown": 0,
+    "truncated": false
+  },
+  "evidence": {
+    "receipt": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\presentation\\repository_architecture.finalize.json",
+    "summaryReceipt": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\presentation\\repository_architecture.finalize-summary.json",
+    "browserCheckReceipt": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\presentation\\repository_architecture.browser-check.json"
+  },
+  "update": {
+    "status": "current",
+    "installedVersion": "3.2.0",
+    "availableVersion": "3.2.0",
+    "releaseNotes": null,
+    "checkedAt": "2026-11-10T02:12:08.417Z",
+    "source": "cache",
+    "noticeRequired": false,
+    "noticeText": null
+  },
+  "visualReview": "not-requested",
+  "durationMs": 7785,
+  "browserCheck": {
+    "requested": true,
+    "ran": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "76413af3-31e8-467a-b4c9-fb5330464458",
+  "status": "current",
+  "command": "deliver",
+  "type": "tree",
+  "input": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\presentation\\repository.tree.json",
+  "output": "C:\\Users\\EasonG\\Desktop\\Repository\\python-football-project\\presentation\\repository_architecture.html",
+  "specification": {
+    "sha256": "75c196bdf25e8232b9b374dc3b2f633d59293bdddd34f01dcbdc26b113cdd678",
+    "bytes": 1240
+  },
+  "artifact": {
+    "sha256": "2485109ee96bdaefc065868cf7b8d4b18ef603aa31182bfafae07e9b7dddeb34",
+    "bytes": 829311
+  }
+}

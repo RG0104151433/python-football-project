@@ -1,5 +1,22 @@
 # 国际足球：从历史主场表现到赛前预测
 
+**提交体积清理（R20261110-06）：** 误加入Git的约622 MiB根目录`交付材料.zip`已改为仅本机保留；清除测试截图/临时工具缓存和过时V5导出包约254 MiB。V4、V5源目录、英文讲稿、论文与研究结果保留。最近两次本地提交的全部有效改动已退回暂存区，需重新commit后再push；未自动提交或上传。详情见`文档/04_整理记录/仓库体积清理_20261110.json`。
+
+**V5已采用并准备英文讲稿（R20261110-05）：** 主入口现为V5，V4冻结保留。逐页简明英文稿presentation/PRESENTATION_SCRIPT_EN.md；快速赛果接入说明presentation/RESULTS_DAY_CHECKLIST.md。V5导入/计数/导出/刷新保留已用临时比分实测，实际赛果仍未录入。
+
+
+**V4固定与V5悬停试验（R20261110-04）：** 当前原样存为presentation/versions/v4_20261110/index.html；V5单独位于presentation/versions/v5_20261110/index.html，仅第9页新增两种模式的上方放大信息框。52场×2模式检查通过，原主入口仍为V4，尚未选定V5替代。
+
+
+**展示图片/目录树更新R20261110-03：** 已换入用户提供的温布利图片；第12页结构图改为可展开的原生SVG真实目录树，替代三张文字卡片。主入口及V3独立副本同步，旧存档保留；检查见presentation/repository_visual_verification.json。
+
+
+**展示V3细修（R20261110-02）：** 当前及独立新版入口presentation/versions/v3_20261110/index.html已同步；旧14屏完整存档presentation/archive/before_final_polish_20261110.zip。修复地域分组视图/地图别名，补全回退重置、流程短说明和仓库全屏入口。检查见presentation/final_polish_verification.json。
+
+
+**展示精修R20261110-01：** 当前presentation/index.html为14屏，补齐图例时间轴、按研究表着色地图、六国年度播放、真实Matplotlib三维动效、图形概率范围、八步流程及实际Archify仓库图；详见presentation/README.md。当前未录真实赛果，旧PDF讲义不适用新版。
+
+
 **11月17日展示稿修订（R20261109-03）：** presentation/index.html已改为12主屏＋1可选附录，加入数据圆环、年代赛事叠加、地图/六国实力、逐年表现、立体历史组合、52场预测及独立CSV赛果核验。导入模板presentation/results_template.csv；当前无实际赛果。详见presentation/README.md，离线浏览器检查通过，待三人试讲。
 
 

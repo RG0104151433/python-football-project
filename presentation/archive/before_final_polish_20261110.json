@@ -1,0 +1,6 @@
+{
+  "archive": "before_final_polish_20261110.zip",
+  "sha256": "4cb0d517f4af8fd334c02440a439fd9caa43d051da9ac4a197189fba8b8b6299",
+  "old_index_sha256": "08623242c0aa5ca45513f31115b260dd64b489fe431240bc76b8797faef80def",
+  "restore": "Extract ZIP to its own folder and open index.html"
+}

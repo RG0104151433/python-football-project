@@ -4,3 +4,17 @@
 - 照片：Marcello Casal Jr/ABr，2010-06-03巴西国家队训练。https://commons.wikimedia.org/wiki/File:Brazil_national_football_team_training_at_Dobsonville_Stadium_2010-06-03_14.jpg 。授权CC BY 3.0 BR：https://creativecommons.org/licenses/by/3.0/br/ 。下载960px缩略版，显示时裁切，未修改原含义；同图在三个场景重复出现，不声称是三个历史时点。
 - 赛程方块：本项目自行绘制国家文字标签，不冒称UEFA官方徽标；原封存52场赛程及概率不改。
 - 原figures4papers试图的既有许可和代码仍保存在vendor/，不将新版本地SVG交互归功于上游工具。
+
+## R20261110-01 current assets
+
+Factor source page URLs and original image URLs: assets/factor_sources_verified.json. Ranking and fixture illustrations retain retrieval context; league marks retain owners’ rights. Wembley photo is a venue illustration, not evidence of a named home match. Browser extraction scripts were temporary acquisition helpers, with raw text retained in _build.
+
+True 3D method: https://matplotlib.org/stable/gallery/mplot3d/3d_bars.html ; generator make_history3d.py uses the same six adopted losses.
+
+Archify: https://github.com/tt-a1i/archify , commit 7e45f36c66de1254d5ad6ba1d878f6499ea269fd, Apache-2.0. Actual generated tree/source/receipt: repository_architecture.html, repository.tree.json, archify_receipt.json. Attribution and copied license/skill file: vendor/archify/.
+
+## R20261110-03 user photo and native tree
+
+Venue now uses the exact user attachment 0.jpg, stored as assets/wembley_user.jpg. Original publication URL/creator/license not supplied; no public-license claim is made. Provenance SHA: assets/wembley_user_provenance.json.
+
+Current repository tree is original native SVG (make_repository_visual.py), with 8 actual directories and 24 existing selected paths. Prior Archify card output is retained as repository_architecture_archify_legacy.html; its receipt does not certify the new SVG.

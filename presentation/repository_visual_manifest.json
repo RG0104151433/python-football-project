@@ -1,0 +1,154 @@
+{
+  "decision_log_id": "R20261110-03",
+  "renderer": "presentation/make_repository_visual.py",
+  "scope": "Actual selected local directories; containment only",
+  "nodes": [
+    {
+      "name": "data/",
+      "path": "data",
+      "leaves": [
+        {
+          "name": "raw/",
+          "path": "data/raw"
+        },
+        {
+          "name": "external/",
+          "path": "data/external"
+        },
+        {
+          "name": "processed/",
+          "path": "data/processed"
+        }
+      ]
+    },
+    {
+      "name": "src/",
+      "path": "src",
+      "leaves": [
+        {
+          "name": "strength/",
+          "path": "src/strength"
+        },
+        {
+          "name": "strength_joint/",
+          "path": "src/strength_joint"
+        },
+        {
+          "name": "regions/",
+          "path": "src/regions"
+        }
+      ]
+    },
+    {
+      "name": "outputs/",
+      "path": "outputs",
+      "leaves": [
+        {
+          "name": "tables/",
+          "path": "outputs/tables"
+        },
+        {
+          "name": "figures/",
+          "path": "outputs/figures"
+        },
+        {
+          "name": "logs/",
+          "path": "outputs/logs"
+        }
+      ]
+    },
+    {
+      "name": "scripts/",
+      "path": "scripts",
+      "leaves": [
+        {
+          "name": "analyze_confirmed_eras.py",
+          "path": "scripts/analyze_confirmed_eras.py"
+        },
+        {
+          "name": "analyze_history_window.py",
+          "path": "scripts/analyze_history_window.py"
+        },
+        {
+          "name": "build_submission_package.py",
+          "path": "scripts/build_submission_package.py"
+        }
+      ]
+    },
+    {
+      "name": "研究/",
+      "path": "研究",
+      "leaves": [
+        {
+          "name": "01_年代变化/",
+          "path": "研究/01_年代变化"
+        },
+        {
+          "name": "05_赛前实力/",
+          "path": "研究/05_赛前实力"
+        },
+        {
+          "name": "08_未来比赛预测/",
+          "path": "研究/08_未来比赛预测"
+        }
+      ]
+    },
+    {
+      "name": "文档/",
+      "path": "文档",
+      "leaves": [
+        {
+          "name": "01_项目方案/",
+          "path": "文档/01_项目方案"
+        },
+        {
+          "name": "02_环境配置/",
+          "path": "文档/02_环境配置"
+        },
+        {
+          "name": "05_团队协作/",
+          "path": "文档/05_团队协作"
+        }
+      ]
+    },
+    {
+      "name": "paper/",
+      "path": "paper",
+      "leaves": [
+        {
+          "name": "final_paper.pdf",
+          "path": "paper/final_paper.pdf"
+        },
+        {
+          "name": "figures/",
+          "path": "paper/figures"
+        },
+        {
+          "name": "language_revision_20261107/",
+          "path": "paper/language_revision_20261107"
+        }
+      ]
+    },
+    {
+      "name": "presentation/",
+      "path": "presentation",
+      "leaves": [
+        {
+          "name": "index.html",
+          "path": "presentation/index.html"
+        },
+        {
+          "name": "assets/",
+          "path": "presentation/assets"
+        },
+        {
+          "name": "results_template.csv",
+          "path": "presentation/results_template.csv"
+        }
+      ]
+    }
+  ],
+  "output_sha256": "90e8b911154c0adb6ab5244a502dd75b1a407ce902b58552eaa74562de4a34e0",
+  "archify_previous_output": "repository_architecture_archify_legacy.html",
+  "new_diagram_is_archify_generated": false
+}

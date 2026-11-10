@@ -1,0 +1,53 @@
+[
+  {
+    "asset": "ranking",
+    "url": "https://en.wikipedia.org/wiki/FIFA_Men%27s_World_Ranking",
+    "text": "\nTop 20 rankings as of 7 October 2026[1]\nRank\tChange\tTeam\tPoints\n1\t\t Spain\t2011.57\n2\t\t Argentina\t1972.8\n3\t\t France\t1958.86\n4\t\t England\t1925.59\n5\t 2\t Portugal\t18"
+  },
+  {
+    "asset": "wembley",
+    "url": "https://en.wikipedia.org/wiki/Wembley_Stadium",
+    "image": "//thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/London_Wembley.jpg/330px-London_Wembley.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
+  {
+    "asset": "leagues",
+    "name": "Premier League",
+    "url": "https://en.wikipedia.org/wiki/Premier_League",
+    "image": "//thumb.wikimedia.org/wikipedia/en/thumb/f/f2/Premier_League_Logo.svg/250px-Premier_League_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
+  {
+    "asset": "leagues",
+    "name": "La Liga",
+    "url": "https://en.wikipedia.org/wiki/La_Liga",
+    "image": "//thumb.wikimedia.org/wikipedia/commons/thumb/5/54/LaLiga_EA_Sports_2023_Vertical_Logo.svg/250px-LaLiga_EA_Sports_2023_Vertical_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
+  {
+    "asset": "leagues",
+    "name": "Bundesliga",
+    "url": "https://en.wikipedia.org/wiki/Bundesliga",
+    "image": "//thumb.wikimedia.org/wikipedia/en/thumb/d/df/Bundesliga_logo_%282017%29.svg/250px-Bundesliga_logo_%282017%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
+  {
+    "asset": "leagues",
+    "name": "Serie A",
+    "url": "https://en.wikipedia.org/wiki/Serie_A",
+    "image": "//thumb.wikimedia.org/wikipedia/en/thumb/a/ab/Serie_A_ENILIVE_logo.svg/250px-Serie_A_ENILIVE_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
+  {
+    "asset": "leagues",
+    "name": "Ligue 1",
+    "url": "https://en.wikipedia.org/wiki/Ligue_1",
+    "image": "//thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Logo_Ligue_1_McDonald%27s_2024.svg/250px-Logo_Ligue_1_McDonald%27s_2024.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
+  {
+    "asset": "schedule",
+    "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Manchester_City_F.C._season",
+    "rows": [
+      "4 November 2026 4 RB Leipzig  2–3  Manchester City showLeipzig, Germany",
+      "7 November 2026 10 Nottingham Forest 3–1 Manchester City showWest Bridgford",
+      "21 November 2026 11 Manchester City v Fulham showManchester",
+      "24 November 2026 5 Manchester City  v  Napoli showManchester, England",
+      "29 November 2026 12 Arsenal v Manchester City showHolloway"
+    ]
+  }
+]

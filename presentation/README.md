@@ -1,3 +1,81 @@
+## Git提交与本地缓存（R20261110-06）
+
+V5仍为当前采用版；V4冻结文件、V5构建源、逐页英文稿、素材来源与核验JSON均保留。`_build/`中的旧截图、临时工具副本与虚拟比分导出已清除，原始素材的文字来源记录保留。过时的`versions/v5_20261110.zip`已删除，取用当前分享包请到本机`交付材料/Presentation_V5.zip`；Git保留可用的V5目录，不重复收录其ZIP。根目录`交付材料.zip`只在本机保留且被忽略。需要重新分享时可在本机打包，勿把大交付ZIP拖入Git提交。
+
+# 当前采用V5，开始英文展示讲稿（R20261110-05）
+
+主入口index.html及versions/v5_20261110/index.html现为采用版V5；V4继续原样冻结保存。python presentation/build.py默认生成并发布V5，不再退回V4。
+
+**讲稿：PRESENTATION_SCRIPT_EN.md** 按14页对应，使用简单直白的英文，附操作提示和常见问答。当前是未计时的初稿，需试讲确认时长。第10页保留N/C/W/A/P可填位置，并提供“已录入核验比分”和“尚无核验比分”两种说法。
+
+**比赛结果：RESULTS_DAY_CHECKLIST.md。** V5导入/二分类和三分类计数、待决排除、CSV导出、刷新保留与原概率不变均已通过临时测试，见v5_results_handoff_verification.json。点击结果格子原先会跳到已删除案例页的位置，本轮已修复为结果页内弹出详情。当前仍未录入真实比分；不要把测试虚拟比分用于汇报。
+
+分享采用交付材料/Presentation_V5.zip，内附讲稿、结果接入说明和CSV模板；Presentation_V4.zip仍为旧版备份。Presentation_Draft.zip主入口也已同步V5。
+
+下方为历史说明，之前“V5尚未采用/主入口V4”的状态已被本条取代。
+
+---
+# V4固定版与V5试验版（R20261110-04）
+
+- **V4原样保留：** versions/v4_20261110/index.html；manifest.json核对冻结文件的SHA。主入口presentation/index.html也仍是V4内容，没有替换成试验版。
+- **V5单独尝试：** versions/v5_20261110/index.html；只有第9页新增悬停放大信息框。复制任一版本时保留同目录repository_architecture.html。results_template.csv也已附带。
+- 第9页两种模式都能悬停/键盘聚焦比赛方块，在上方看到队名、主客身份、比赛日期和当前模式的预测。胜平负条的某一段也可单独突出；主模型范围使用放大的红点/紫线，3场withheld不造数值。
+- 移出方块区、按Esc或换页隐藏。信息框不拦截鼠标，仍能点击底下比赛或切换模式；日期来自封存记录，记录无具体开球时刻，当前不补造时刻。
+- 新代码forecast_hover_v5.js；python presentation/build_v5.py只读冻结V4生成V5，正常V4构建与新版试验分离。node presentation/verify_v5.cjs核验52场×两种模式以及鼠标/键盘、退出、两种投影尺寸；v5_verification.json记录结果。
+- 独立分享包：交付材料/Presentation_V4.zip、Presentation_V5.zip。现有Presentation_Draft.zip主入口仍为稳定V4，内部也带版本目录，V5需明确进入版本目录。
+
+以下说明为先前版本历史。
+
+---
+# 图片与目录树更新（R20261110-03）
+
+当前主入口和versions/v3_20261110/index.html均已换入用户附件0.jpg（原字节保存在assets/wembley_user.jpg）。原始网站/许可未提供，不能把它写成公开授权素材。
+
+第12页Repository structure仍用全屏覆盖打开repository_architecture.html，但当前图已重画为原生SVG目录树：8个真实一级目录、24个核对存在的代表子路径，彩色曲线、文件夹图标、可折叠/展开，悬停可查看被缩写的完整路径。不是三个概括文字卡片，也不把目录包含关系称为程序调用。目录不是完整文件清单。
+
+生成源make_repository_visual.py，正常build入口会同步重画。新图是本项目原生SVG，不冒称Archify生成；原Archify成品另存repository_architecture_archify_legacy.html，原凭证archify_receipt_legacy.json只证明当时的旧图。当前检查见repository_visual_verification.json，数据/照片来源见repository_visual_manifest.json和assets/wembley_user_provenance.json。
+
+旧版完整ZIP继续保留，不重写旧存档。以下说明按日期视为历史。
+
+---
+# 当前采用：V3细节修订（R20261110-02）
+
+- 新版可单独打开：`versions/v3_20261110/index.html`（旁边保留repository_architecture.html）；主入口index.html同步新版。旧版完整保存为archive/before_final_polish_20261110.zip，SHA见同名JSON，解压到独立文件夹即可使用旧版，未覆盖旧稿。
+- 第2页圆环整体放大；第3页图表放大、单位写全percentage points并举例，去除pp缩写。
+- 第4页Home subregions按主队研究分区；Opponent relationship按对手为洲外/同洲其他分区/同分区。这是两套不同分组，不要把西欧/西亚等理解为后一视图漏行。亚洲5区、欧洲4区完整。非洲/整个美洲没有对应的独立对手关系汇总，不显示重复按钮；绝不拿只涉及南美的B_SA冒充整个美洲。
+- 英国和爱尔兰地图别名补齐，格陵兰按北美洲地图背景着色，不添加不存在的比赛数；三项既定Turkey/Iran/Australia研究覆盖继续保持。
+- 第5页增加Previous factor；Venue图片嵌入并实际检查加载，五大联赛logo改为2×3大图组，可点开放大。
+- 第8页Previous bar/Restart bars可回退或重置，包括动画播放期间取消计时器。
+- 第11页Previous step/Restart flow/Back to opening分别回退步骤、重置第一步、返回开场；8步均有简短英文说明。
+- 第12页展示完整仓库名和GitHub链接；Repository structure打开覆盖全屏的结构图页面，有返回按钮与Esc退出。第14页不再显示仓库链接。
+- `node presentation/verify.cjs`当前转到verify_final_polish.cjs。实际检查见final_polish_verification.json；旧review/refinement验证记录保留其历史含义。本轮不改变结果录入协议、论文、原科研结果或Report/Code/Data包。
+
+以下旧说明为版本历史。
+
+---
+# 11月10日精修版（R20261110-01）
+
+当前14屏：开场封存信封 → 数据圆环 → 年代/赛事＋构成调整看板 → 地图分区/对手组率 → 四项配图因素 → 六国实力播放 → 年度准确率/三模型点图 → 真三维历史长度 → 52场概率/区间 → 赛果接口（本轮不改） → 八步流程 → Archify仓库结构 → 三结论 → Thank you。
+
+- 圆环扩大内径，数字/名称字号不缩小；悬停弧线或键盘聚焦时，外侧和右栏同步显示类别。小扇区可用Tab聚焦。
+- 年代曲线配色一一对应图例，横轴有与点位对齐的年代标签；右侧直接差值/年代构成调整看板读取原研究结果。Q4只用一个弹窗按钮，不占常驻内容区。
+- 地图按同版study_team_registry分区着色，Turkey欧洲/南欧、Iran西亚、Australia亚洲/东南亚。右侧Home subregions与Opponent setting切换实际组率，显示n；美洲为同一整体研究范围。图示不是地区足球实力排名。
+- 因素卡从左到右Next factor依次呈现：对手实力、场地、赛事重视程度、赛程。去掉意外赛果项。图片可点击放大。排名表和赛程为有来源的示意，非新增模型输入；联赛徽标用于对比俱乐部竞赛语境，不把五大联赛称为友谊赛。
+- 六国：Brazil、France、Spain、Japan、China、South Africa。按地图或按钮切换，Play播放赛前年度状态；时间轴固定1980–2024并有刻度，缺年不伪造数据；离页停止播放。
+- 三模型以紧凑点图呈现已存在的准确率/损失点估计，没有虚构性能置信区间。左边逐年曲线在固定1990–2024轴上增长，不会因新增年份反复挤压。
+- 3D图由make_history3d.py使用Matplotlib mplot3d.bar3d实际投影生成60帧，Raise next bar逐根升起、旧柱保留。两条平面轴分别为rating/outcome记忆；竖轴是相对最差候选的损失改善×1000+0.1显示基底，精确loss另列，不误称预测准确率。六组结果未改。
+- 52场区间用鲜红点/紫色线画在同一0–100%比例尺；3个主模型withheld保留。三分类概率仍来自辅助分支。
+- 流程页Next step逐个点亮8框，含方向箭头。仓库树实际由Archify 3.2生成，按证据/执行/解释交付三组归纳8个真实目录，保留完整独立HTML。当前不是单文件分发：repository_architecture.html须与index.html放同目录，最好复制整个presentation或解压分享ZIP。
+
+入口：index.html。构建：python presentation/build.py；模板review.template.html＋refinement.js；新版数据由build_review.py读取，3D重绘另运行make_history3d.py（不重训）。node presentation/verify.cjs检查新版。review_verification.json为历史版本，本版看refinement_verification.json和archify_receipt.json。
+
+当前4类配图：排名表由Wikipedia的FIFA排名条目摘取（含时间标签）；温布利为实际场馆图片，尚不是专门的英格兰主场助威特写；五大联赛为各条目所载真实徽标组合；单月赛程从曼城赛季条目中提取严格日期匹配的November 2026比赛行。原始来源/图URL保存在assets/factor_sources_verified.json；不把logo或网页截图冒称公共领域素材。仅作具名来源的课程说明，所有权归各自权利人。Sources面板附说明。早先2010训练照已不出现在当前展示顺序中。
+
+结果录入仍按下方CSV说明执行，本轮无真实结果。备用handout.pdf仍为旧版，不作为14屏新版讲义。待组长实际审看及教室计时试放。
+
+---
+## 以下为历史版说明
+
 # 11月17日展示修订版（R20261109-03）
 
 直接双击 `index.html`，离线播放。当前12个主屏＋1个可选模型原理附录，全英文，班级按用户要求保留中文。以下旧版说明均为11月8日历史；以本节为准。

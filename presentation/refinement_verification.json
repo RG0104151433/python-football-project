@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-10",
+  "slides": 14,
+  "offline": true,
+  "errors": [],
+  "overflow": [],
+  "tests": [
+    "opening reveal",
+    "donut arc annotation",
+    "era legend and three curves",
+    "Q4 modal",
+    "6 country/year panels",
+    "fixed-axis yearly metrics",
+    "3D animation",
+    "49 range glyphs"
+  ],
+  "actual_scores_imported": false
+}

@@ -1,0 +1,233 @@
+{
+  "decision_log_id": "R20261110-06",
+  "executor": "Codex AI",
+  "human_review": false,
+  "status": "completed_no_commit_or_push",
+  "base_commit": "a82d288e8470aa7c8ca17152ca7b6461ff5b3a89",
+  "original_local_head": "e653dee3158877aba1515091239c541b0dfea5f3",
+  "local_recovery_ref": "refs/local-backups/pre-size-cleanup-20261110",
+  "history_action": "Two local commits returned to staged changes using soft reset; no working files discarded, no new commit or push.",
+  "remote_check": "origin/main local tracking ref is a82d288; user states latest remote a82d288; live network lookup unavailable.",
+  "untracked_local_archive": {
+    "path": "交付材料.zip",
+    "bytes": 652086177,
+    "kept_on_disk": true,
+    "sha256": "c5491b1043977274925d426b0ebcd890356f83a8b8b6e09036db3595ce20cd0c"
+  },
+  "removed": [
+    {
+      "path": "presentation/_build/archify",
+      "bytes": 145281901,
+      "files": 1218
+    },
+    {
+      "path": "presentation/_build/archify_compact",
+      "bytes": 58546,
+      "files": 3
+    },
+    {
+      "path": "presentation/_build/archify_download",
+      "bytes": 104327730,
+      "files": 1189
+    },
+    {
+      "path": "presentation/_build/contact.png",
+      "bytes": 461549,
+      "files": 1
+    },
+    {
+      "path": "presentation/_build/downloads",
+      "bytes": 2514,
+      "files": 1
+    },
+    {
+      "path": "presentation/_build/newslide1.png",
+      "bytes": 302101,
+      "files": 1
+    },
+    {
+      "path": "presentation/_build/newslide10.png",
+      "bytes": 79614,
+      "files": 1
+    },
+    {
+      "path": "presentation/_build/newslide11.png",
+      "bytes": 55590,
+      "files": 1
+    },
+    {
+      "path": "presentation/_build/newslide12.png",
+      "bytes": 79841,
+      "files": 1
+    },
+    {
+      "path": "presentation/_build/newslide13.png",
+      "bytes": 58204,
+      "files": 1
+    },
+    {
+      "path": "presentation/_build/newslide14.png",
+      "bytes": 290629,
+      "files": 1
+    },
+    {
+      "path": "presentation/_build/newslide2.png",
+      "bytes": 66221,
+      "files": 1
+    },
+    {
+      "path": "presentation/_build/newslide3.png",
+      "bytes": 78856,
+      "files": 1
+    },
+    {
+      "path": "presentation/_build/newslide4.png",
+      "bytes": 121513,
+      "files": 1
+    },
+    {
+      "path": "presentation/_build/newslide5.png",
+      "bytes": 79871,
+      "files": 1
+    },
+    {
+      "path": "presentation/_build/newslide6.png",
+      "bytes": 120048,
+      "files": 1
+    },
+    {
+      "path": "presentation/_build/newslide7.png",
+      "bytes": 80797,
+      "files": 1
+    },
+    {
+      "path": "presentation/_build/newslide8.png",
+      "bytes": 122156,
+      "files": 1
+    },
+    {
+      "path": "presentation/_build/newslide9.png",
+      "bytes": 96741,
+      "files": 1
+    },
+    {
+      "path": "presentation/_build/polish11.png",
+      "bytes": 68176,
+      "files": 1
+    },
+    {
+      "path": "presentation/_build/polish12.png",
+      "bytes": 48219,
+      "files": 1
+    },
+    {
+      "path": "presentation/_build/polish2.png",
+      "bytes": 64646,
+      "files": 1
+    },
+    {
+      "path": "presentation/_build/polish3.png",
+      "bytes": 77535,
+      "files": 1
+    },
+    {
+      "path": "presentation/_build/polish4.png",
+      "bytes": 114655,
+      "files": 1
+    },
+    {
+      "path": "presentation/_build/polish5.png",
+      "bytes": 81027,
+      "files": 1
+    },
+    {
+      "path": "presentation/_build/print_contact.png",
+      "bytes": 309185,
+      "files": 1
+    },
+    {
+      "path": "presentation/_build/print_pages",
+      "bytes": 438493,
+      "files": 10
+    },
+    {
+      "path": "presentation/_build/repository_visual.png",
+      "bytes": 243930,
+      "files": 1
+    },
+    {
+      "path": "presentation/_build/review_results.png",
+      "bytes": 80565,
+      "files": 1
+    },
+    {
+      "path": "presentation/_build/review_strength.png",
+      "bytes": 125552,
+      "files": 1
+    },
+    {
+      "path": "presentation/_build/screens",
+      "bytes": 836308,
+      "files": 10
+    },
+    {
+      "path": "presentation/_build/upstream_checkout",
+      "bytes": 6975334,
+      "files": 53
+    },
+    {
+      "path": "presentation/_build/v5_hover_range.png",
+      "bytes": 126998,
+      "files": 1
+    },
+    {
+      "path": "presentation/_build/v5_hover_three.png",
+      "bytes": 150493,
+      "files": 1
+    },
+    {
+      "path": "presentation/_build/venue_user.png",
+      "bytes": 220537,
+      "files": 1
+    },
+    {
+      "path": "presentation/versions/v5_20261110.zip",
+      "bytes": 4194467,
+      "files": 1
+    },
+    {
+      "path": "presentation/_build/results_synthetic_export.csv",
+      "bytes": 2514,
+      "files": 1
+    }
+  ],
+  "protected_sha256": {
+    "presentation/index.html": "120ad5c04469c9389629ea66d16816adaee5bf99777b598c33b21818cfbe299a",
+    "presentation/PRESENTATION_SCRIPT_EN.md": "a3818bc11078be05869860b2abbaae29832123c51d8a9e7940820d2282d51198",
+    "presentation/RESULTS_DAY_CHECKLIST.md": "724c8c3d75d14b4b325c83cd0cf9076c9442dcdfbed41c315aa4dad93a836ffa",
+    "paper/final_paper.pdf": "06d20ea2e36d36b900ea9f099b038a05c2e84a44c1093c2f5b0b1de5ebdf0a81",
+    "outputs/tables/future_predictions/future-unl-61f639846da9193d4cca/forecasts.csv": "58fba7aaad2b1708c13133fe7cdc201a75adfe23405ca77edb27e636ff4c7280",
+    "presentation/versions/v4_20261110/index.html": "a2ea99ee4371117cb0ab615290470fa7e8d71abf43233cb964eac0072dd31456",
+    "presentation/versions/v4_20261110/repository_architecture.html": "90e8b911154c0adb6ab5244a502dd75b1a407ce902b58552eaa74562de4a34e0",
+    "presentation/versions/v4_20261110/results_template.csv": "5d8170e86cf059ef15a919e82a38311c636b3128340d1b372cd5bec9ecfa36a1",
+    "presentation/versions/v5_20261110/index.html": "120ad5c04469c9389629ea66d16816adaee5bf99777b598c33b21818cfbe299a",
+    "presentation/versions/v5_20261110/repository_architecture.html": "90e8b911154c0adb6ab5244a502dd75b1a407ce902b58552eaa74562de4a34e0",
+    "presentation/versions/v5_20261110/results_template.csv": "5d8170e86cf059ef15a919e82a38311c636b3128340d1b372cd5bec9ecfa36a1"
+  },
+  "research_data_removed": false,
+  "new_commit_created": false,
+  "pushed": false,
+  "validation": {
+    "protected_files_unchanged": 11,
+    "V4_V5_manifest_hashes_match": true,
+    "main_entry_equals_V5": true,
+    "quick_check": "7/7 passed; no model rerun",
+    "staged_files_at_least_100_MiB": [],
+    "max_staged_blob_bytes": 52778125,
+    "root_archive_retained_and_ignored": true,
+    "remote_lookup": "Failed/unavailable; no live remote state or successful push claimed",
+    "whitespace_check": "Existing generated legacy Archify HTML has trailing whitespace and verify_refinement.cjs has a blank final line; left intact to preserve provenance. These are not oversized objects."
+  },
+  "deleted_files": 2514,
+  "deleted_bytes": 265923056
+}

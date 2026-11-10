@@ -45,3 +45,7 @@ Thumbs.db
 
 # Browser screenshots, temporary upstream checkout and presentation QA cache.
 /presentation/_build/
+
+# Local sharing bundles: keep source folders and frozen versions in Git instead.
+/交付材料.zip
+/presentation/versions/*.zip

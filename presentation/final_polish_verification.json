@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-10",
+  "slides": 14,
+  "offline": true,
+  "errors": [],
+  "overflow": [],
+  "geo_rows": [
+    {
+      "continent": "Asia",
+      "home": 5
+    },
+    {
+      "continent": "Europe",
+      "home": 4
+    }
+  ],
+  "checks": [
+    "five Asian subregions",
+    "four European subregions",
+    "three opponent relationships",
+    "no duplicate Americas/Africa toggle",
+    "UK/Ireland/Greenland colored",
+    "venue image loaded",
+    "5 logos",
+    "factor previous",
+    "3D previous and reset during animation",
+    "flow notes and previous/reset/opening",
+    "repository overlay and return",
+    "no repository link on thanks"
+  ]
+}

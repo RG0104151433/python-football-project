@@ -1,0 +1,17 @@
+{
+  "version": "V5",
+  "decision_log_id": "R20261110-05",
+  "base": "presentation/versions/v4_20261110/index.html",
+  "base_sha256": "a2ea99ee4371117cb0ab615290470fa7e8d71abf43233cb964eac0072dd31456",
+  "extension": "presentation/forecast_hover_v5.js",
+  "extension_sha256": "b89d8e5138d987d639330d747197ad1e0a86cd6ef1fd924e37bc6e7b61c8004a",
+  "files": {
+    "index.html": "120ad5c04469c9389629ea66d16816adaee5bf99777b598c33b21818cfbe299a",
+    "repository_architecture.html": "90e8b911154c0adb6ab5244a502dd75b1a407ce902b58552eaa74562de4a34e0",
+    "results_template.csv": "5d8170e86cf059ef15a919e82a38311c636b3128340d1b372cd5bec9ecfa36a1"
+  },
+  "forecast_values_changed": false,
+  "main_entry_replaced": true,
+  "adopted": true,
+  "V4_modified": false
+}
