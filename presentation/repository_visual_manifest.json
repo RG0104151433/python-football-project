@@ -149,6 +149,7 @@
     }
   ],
   "output_sha256": "90e8b911154c0adb6ab5244a502dd75b1a407ce902b58552eaa74562de4a34e0",
-  "archify_previous_output": "repository_architecture_archify_legacy.html",
-  "new_diagram_is_archify_generated": false
+  "archify_previous_output": "archive/archify_legacy/repository_architecture_archify_legacy.html",
+  "new_diagram_is_archify_generated": false,
+  "path_update_log_id": "R20261111-02"
 }

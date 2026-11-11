@@ -1,0 +1,530 @@
+{
+  "decision_log_id": "R20261111-02",
+  "date": "2026-11-11",
+  "executor": "Codex (AI)",
+  "git_head": "1e60d4b02134b7712ebe5c586f9367c03ba92cc7",
+  "uncommitted_changes": true,
+  "moves": [
+    {
+      "old": "presentation/handout.pdf",
+      "new": "presentation/archive/initial_10_screen/handout.pdf",
+      "bytes": 161771,
+      "before_sha256": "3f193c8f249256183b111465da62f9d23b6261d04222c4f1c2b5f33d507f15e4",
+      "after_sha256": "3f193c8f249256183b111465da62f9d23b6261d04222c4f1c2b5f33d507f15e4",
+      "relative_links_rebased": false
+    },
+    {
+      "old": "presentation/figure_comparison.html",
+      "new": "presentation/archive/initial_10_screen/figure_comparison.html",
+      "bytes": 712197,
+      "before_sha256": "6d3d13715dc465503bcc483402e00ad334f58432322f73082a9ec204a7052b37",
+      "after_sha256": "3e6ee24eb2c6d46af7e9df831818131f248b8616b27d1dd2a221ad7b901e5755",
+      "relative_links_rebased": true
+    },
+    {
+      "old": "presentation/preview.png",
+      "new": "presentation/archive/initial_10_screen/preview.png",
+      "bytes": 85402,
+      "before_sha256": "2dcffaa91ccee72a7b855a6e6de92ff9d28a2452f5c404105d03817dc41c5d36",
+      "after_sha256": "2dcffaa91ccee72a7b855a6e6de92ff9d28a2452f5c404105d03817dc41c5d36",
+      "relative_links_rebased": false
+    },
+    {
+      "old": "presentation/repository_architecture_archify_legacy.html",
+      "new": "presentation/archive/archify_legacy/repository_architecture_archify_legacy.html",
+      "bytes": 829311,
+      "before_sha256": "2485109ee96bdaefc065868cf7b8d4b18ef603aa31182bfafae07e9b7dddeb34",
+      "after_sha256": "2485109ee96bdaefc065868cf7b8d4b18ef603aa31182bfafae07e9b7dddeb34",
+      "relative_links_rebased": false
+    },
+    {
+      "old": "presentation/archify_receipt_legacy.json",
+      "new": "presentation/archive/archify_legacy/archify_receipt_legacy.json",
+      "bytes": 1501,
+      "before_sha256": "11f7ba02b72112b5319efee7fdfb6d35a319ff061a7973fba339844e727ac769",
+      "after_sha256": "11f7ba02b72112b5319efee7fdfb6d35a319ff061a7973fba339844e727ac769",
+      "relative_links_rebased": false
+    },
+    {
+      "old": "presentation/repository.tree.json",
+      "new": "presentation/archive/archify_legacy/repository.tree.json",
+      "bytes": 1240,
+      "before_sha256": "75c196bdf25e8232b9b374dc3b2f633d59293bdddd34f01dcbdc26b113cdd678",
+      "after_sha256": "75c196bdf25e8232b9b374dc3b2f633d59293bdddd34f01dcbdc26b113cdd678",
+      "relative_links_rebased": false
+    },
+    {
+      "old": "presentation/repository_architecture.browser-check.json",
+      "new": "presentation/archive/archify_legacy/repository_architecture.browser-check.json",
+      "bytes": 21109,
+      "before_sha256": "5e6eacc0231ec14a7821ba4d786165c2a983c89e6649530ac95f27d3c2a8db0c",
+      "after_sha256": "5e6eacc0231ec14a7821ba4d786165c2a983c89e6649530ac95f27d3c2a8db0c",
+      "relative_links_rebased": false
+    },
+    {
+      "old": "presentation/repository_architecture.delivery.json",
+      "new": "presentation/archive/archify_legacy/repository_architecture.delivery.json",
+      "bytes": 631,
+      "before_sha256": "cd067dde776263049f86d8492236ad349506ead68b77be7b5cb9218f696eb016",
+      "after_sha256": "cd067dde776263049f86d8492236ad349506ead68b77be7b5cb9218f696eb016",
+      "relative_links_rebased": false
+    },
+    {
+      "old": "presentation/repository_architecture.finalize-summary.json",
+      "new": "presentation/archive/archify_legacy/repository_architecture.finalize-summary.json",
+      "bytes": 1668,
+      "before_sha256": "b3d5d856bbb7ae08a8a466437b3497722b39a7b6a7db3b8ee59a48d125256ead",
+      "after_sha256": "b3d5d856bbb7ae08a8a466437b3497722b39a7b6a7db3b8ee59a48d125256ead",
+      "relative_links_rebased": false
+    },
+    {
+      "old": "presentation/repository_architecture.finalize.json",
+      "new": "presentation/archive/archify_legacy/repository_architecture.finalize.json",
+      "bytes": 35071,
+      "before_sha256": "5ca1683c408fe657724359566ac32c08eb58462378e6843f0207c272e8746c6c",
+      "after_sha256": "5ca1683c408fe657724359566ac32c08eb58462378e6843f0207c272e8746c6c",
+      "relative_links_rebased": false
+    },
+    {
+      "old": "paper/论文写作框架.md",
+      "new": "paper/archive/planning_20261103_07/论文写作框架.md",
+      "bytes": 40581,
+      "before_sha256": "5d20d1fed0914e9b3655eeb77c36350636711b79462dac8a2a2c8371fe371b73",
+      "after_sha256": "d20927506b7ff6b8c9117c204b60dc830a21943908b26568c1cf549bb05433b1",
+      "relative_links_rebased": true
+    },
+    {
+      "old": "paper/论文要求核对与结构规划.md",
+      "new": "paper/archive/planning_20261103_07/论文要求核对与结构规划.md",
+      "bytes": 55308,
+      "before_sha256": "6c967d4ac6b6636a2cc13c8f4dcee47658ed2c1f54c16292e6bed3264be0d0a1",
+      "after_sha256": "40df93338dca11fda0be6e0a5b5b1d484e405aa13b1b4c4fb6a3692ece110332",
+      "relative_links_rebased": true
+    },
+    {
+      "old": "paper/论文规划与交付建议_20261105.md",
+      "new": "paper/archive/planning_20261103_07/论文规划与交付建议_20261105.md",
+      "bytes": 45753,
+      "before_sha256": "4994c73bd3ca8d9dfefd5306069efbad2ea5e14d38039a4a80fc38b7f501d5cc",
+      "after_sha256": "391b174bd63b61f8febc4d7b9a4528b463cfdbb9b11c84a948f745777680eab1",
+      "relative_links_rebased": true
+    },
+    {
+      "old": "paper/论文规划审查与开工准备_v2_20261105.md",
+      "new": "paper/archive/planning_20261103_07/论文规划审查与开工准备_v2_20261105.md",
+      "bytes": 30497,
+      "before_sha256": "3597f72622f3a9d69fd98a61a0a687b966d133432afe302f55a1847c445db766",
+      "after_sha256": "f905609f4d3f72ad0fae2d200c3992783bc8499f11fa9cd278491609d7833fd2",
+      "relative_links_rebased": true
+    },
+    {
+      "old": "paper/content_draft_manifest.json",
+      "new": "paper/archive/draft_records_20261106/content_draft_manifest.json",
+      "bytes": 4457,
+      "before_sha256": "7844531404cb9d272f6bd4fe069c16eb4657e9d1e7a0f909116b19745cee1349",
+      "after_sha256": "7844531404cb9d272f6bd4fe069c16eb4657e9d1e7a0f909116b19745cee1349",
+      "relative_links_rebased": false
+    },
+    {
+      "old": "paper/discussion_draft_manifest.json",
+      "new": "paper/archive/draft_records_20261106/discussion_draft_manifest.json",
+      "bytes": 2872,
+      "before_sha256": "7b264a1c264abfa54ca2b34ac0836cfd80ded86da8e3b28361e5a79369a6336b",
+      "after_sha256": "7b264a1c264abfa54ca2b34ac0836cfd80ded86da8e3b28361e5a79369a6336b",
+      "relative_links_rebased": false
+    },
+    {
+      "old": "paper/method_draft_manifest.json",
+      "new": "paper/archive/draft_records_20261106/method_draft_manifest.json",
+      "bytes": 2772,
+      "before_sha256": "e40f09fdfb6de1480f7b322737a8b1d8b3e763c38879d1ef0bc5eed23387a3bc",
+      "after_sha256": "e40f09fdfb6de1480f7b322737a8b1d8b3e763c38879d1ef0bc5eed23387a3bc",
+      "relative_links_rebased": false
+    },
+    {
+      "old": "paper/results_draft_manifest.json",
+      "new": "paper/archive/draft_records_20261106/results_draft_manifest.json",
+      "bytes": 5628,
+      "before_sha256": "1025c6412646364c5fa403d46ad435147e36f7aa3814f50aa4116f32570e5c75",
+      "after_sha256": "1025c6412646364c5fa403d46ad435147e36f7aa3814f50aa4116f32570e5c75",
+      "relative_links_rebased": false
+    },
+    {
+      "old": "presentation/_build/archify_receipt.json",
+      "new": "presentation/archive/source_capture_20261110/archify_receipt.json",
+      "bytes": 1501,
+      "before_sha256": "11f7ba02b72112b5319efee7fdfb6d35a319ff061a7973fba339844e727ac769",
+      "after_sha256": "11f7ba02b72112b5319efee7fdfb6d35a319ff061a7973fba339844e727ac769",
+      "relative_links_rebased": false
+    },
+    {
+      "old": "presentation/_build/browser_check.json",
+      "new": "presentation/archive/source_capture_20261110/browser_check.json",
+      "bytes": 632,
+      "before_sha256": "0f88a01a3a8db4d22d831d39cd71876385824031567cc6c47762a47b2d2a358f",
+      "after_sha256": "0f88a01a3a8db4d22d831d39cd71876385824031567cc6c47762a47b2d2a358f",
+      "relative_links_rebased": false
+    },
+    {
+      "old": "presentation/_build/leagues_source.txt",
+      "new": "presentation/archive/source_capture_20261110/leagues_source.txt",
+      "bytes": 33634,
+      "before_sha256": "02ff8ab2ecb213ff6af9e1447802a8b66875c1e98a67d902f1766f4b5a6c9f55",
+      "after_sha256": "02ff8ab2ecb213ff6af9e1447802a8b66875c1e98a67d902f1766f4b5a6c9f55",
+      "relative_links_rebased": false
+    },
+    {
+      "old": "presentation/_build/ranking_source.txt",
+      "new": "presentation/archive/source_capture_20261110/ranking_source.txt",
+      "bytes": 279,
+      "before_sha256": "0c724f0a88c70343f579582f8788d86c94d93925f26959ada0806bbdd727c2f7",
+      "after_sha256": "0c724f0a88c70343f579582f8788d86c94d93925f26959ada0806bbdd727c2f7",
+      "relative_links_rebased": false
+    },
+    {
+      "old": "presentation/_build/schedule_evidence.json",
+      "new": "presentation/archive/source_capture_20261110/schedule_evidence.json",
+      "bytes": 675,
+      "before_sha256": "572367b9ff8f56644805509c34ef4802a44081cceacd3d8dbca2b0d1e32c620f",
+      "after_sha256": "572367b9ff8f56644805509c34ef4802a44081cceacd3d8dbca2b0d1e32c620f",
+      "relative_links_rebased": false
+    },
+    {
+      "old": "presentation/_build/schedule_source.txt",
+      "new": "presentation/archive/source_capture_20261110/schedule_source.txt",
+      "bytes": 95,
+      "before_sha256": "ec81edad925509b21a8ce8958803b6be8fab385f38512a333289eebc0dc3ad8e",
+      "after_sha256": "ec81edad925509b21a8ce8958803b6be8fab385f38512a333289eebc0dc3ad8e",
+      "relative_links_rebased": false
+    },
+    {
+      "old": "presentation/_build/wembley_source.txt",
+      "new": "presentation/archive/source_capture_20261110/wembley_source.txt",
+      "bytes": 2812,
+      "before_sha256": "f3fb1c79f442170e2f3957ab5a80f923faf23f5614a0ad0197d9cfa870a0e671",
+      "after_sha256": "f3fb1c79f442170e2f3957ab5a80f923faf23f5614a0ad0197d9cfa870a0e671",
+      "relative_links_rebased": false
+    }
+  ],
+  "deletions": [
+    {
+      "path": "presentation/archify_receipt.json",
+      "bytes": 1501,
+      "sha256": "11f7ba02b72112b5319efee7fdfb6d35a319ff061a7973fba339844e727ac769",
+      "reason": "byte-identical receipt; retained at presentation/archive/archify_legacy/archify_receipt_legacy.json"
+    }
+  ],
+  "updated_references": [
+    "paper/citation_candidates.md",
+    "paper/README.md",
+    "paper/图表来源说明.md",
+    "paper/archive/planning_20261103_07/论文写作框架.md",
+    "paper/archive/planning_20261103_07/论文要求核对与结构规划.md",
+    "paper/archive/planning_20261103_07/论文规划与交付建议_20261105.md",
+    "paper/archive/planning_20261103_07/论文规划审查与开工准备_v2_20261105.md",
+    "文档/05_团队协作/研究收尾与撰写交接.md",
+    "文档/05_团队协作/论文与汇报支撑材料索引.md",
+    "文档/05_团队协作/论文写作任务板_20261105.md",
+    "研究/README.md"
+  ],
+  "validation": {
+    "status": "passed",
+    "quick_check": "7/7",
+    "current_markdown_link_targets": 96,
+    "previously_valid_moved_document_links": 87,
+    "protected_file_hashes_unchanged": 44,
+    "moved_files_present_with_recorded_hashes": 25,
+    "build_helpers_syntax": "passed",
+    "current_manifest_hashes": "passed",
+    "research_tracked_file_changes": false,
+    "browser_smoke": {
+      "offline": true,
+      "slides": 14,
+      "repository_tree_branches": 8,
+      "structure_open_and_escape": true,
+      "temporary_synthetic_results_import": true,
+      "main_evaluated": 1,
+      "forecast_payload_unchanged": true,
+      "archived_comparison_backlink": true,
+      "page_errors": [],
+      "actual_scores_modified": false
+    },
+    "not_run": [
+      "full model replay",
+      "full presentation regeneration",
+      "LaTeX recompilation",
+      "timed rehearsal"
+    ],
+    "browser_probe_adjustments": [
+      "Select #expandRepository because the visible label includes a fullscreen symbol.",
+      "Wait for V5 refinement initialization after returning from the archived comparison; do not count transitional slides."
+    ],
+    "research_log_updated": "R20261111-02",
+    "future_code_package_selection": "passed without building ZIPs",
+    "git_diff_check": "passed"
+  },
+  "protected_before": {
+    "paper/final_paper.pdf": "b17602d0453a4b0e63342d339136e1fecceef62b4cdb62620fcb51ad48baf3eb",
+    "paper/main.pdf": "b17602d0453a4b0e63342d339136e1fecceef62b4cdb62620fcb51ad48baf3eb",
+    "paper/language_revision_20261107/main.pdf": "b17602d0453a4b0e63342d339136e1fecceef62b4cdb62620fcb51ad48baf3eb",
+    "交付材料/02_平台上传/Report.pdf": "b17602d0453a4b0e63342d339136e1fecceef62b4cdb62620fcb51ad48baf3eb",
+    "presentation/index.html": "120ad5c04469c9389629ea66d16816adaee5bf99777b598c33b21818cfbe299a",
+    "presentation/versions/v4_20261110/index.html": "a2ea99ee4371117cb0ab615290470fa7e8d71abf43233cb964eac0072dd31456",
+    "presentation/versions/v5_20261110/index.html": "120ad5c04469c9389629ea66d16816adaee5bf99777b598c33b21818cfbe299a",
+    "presentation/repository_architecture.html": "90e8b911154c0adb6ab5244a502dd75b1a407ce902b58552eaa74562de4a34e0",
+    "presentation/PRESENTATION_SCRIPT_EN.md": "39d5b718429e8947473c0213cbfd1c1a576cb3cb6a1207530efa4266e889c420",
+    "paper/language_revision_20261107/main.tex": "79df8479c87e220c032614683f174c2136eb5271991604b00beada182a62912d",
+    "paper/language_revision_20261107/sections/discussion.tex": "d91ce50a3f60b0ebb63851b4f6b8d9ab04ed2b5004e06197a067ae96f4c2209b",
+    "paper/language_revision_20261107/sections/introduction.tex": "3a3b19a43b4db3cdeb6098dfbdea699263625275bdaee829c41c64bce2df88a1",
+    "paper/language_revision_20261107/sections/method.tex": "c33cdf00fd5967df76680b0eb9b12ceeefe18a4f4887b7c98a945d6ded7074c8",
+    "paper/language_revision_20261107/sections/model_selection.tex": "0f123870e22a791fc43837c30659b4047ad6dec7725698c39a0f51eed986e276",
+    "paper/language_revision_20261107/sections/results.tex": "b1b6479143b43e0bf65f41f6bed426933c7705235a4c60ebd4e31ce8dc38a613",
+    "paper/language_revision_20261107/sections/strength_development.tex": "63cac29d4da523878e1ae58f6d4ffe355b0bac65b789bb1ab8030cf6ff0411fc",
+    "paper/language_revision_20261107/references.bib": "0d2ebae889aa0d1618298054382ceb79b99b8bb662dbf7b2db1b37038fe1f3c4",
+    "paper/final_review_20261108.md": "cae9dde2c202dabff34579e9cfaca4908e5315aaf865b4bc8519be64e2530202",
+    "paper/language_revision_20261107/final_changes.diff": "0828af1355c6fb0779a3ec5ffee89cd1d48ceedac9a4379bffb389727e31a40f",
+    "paper/language_revision_20261107/language_changes.diff": "b901cd2749a3e045f58033aead9584aefeac31c96eeb5705667266623f93a78d",
+    "paper/language_revision_20261107/cover.tex": "e0549a88ac250ba815858b73862ae33974f4ce067a3d2e117a0c41695d83bf41",
+    "paper/figures/bit_school_header.jpeg": "b81303cc0acbad3af182d0ed3ba3ce465acc05e1f5002f8f430e974d426a201a",
+    "paper/cover_adaptation.json": "38f3550e8ff8a7429a6d6be841b1becae4220bbb039b855f3ee7b92fc672aed0",
+    "paper/figures/fig2_era_rates.pdf": "7a5189106444c4a4841efac9d7422ccc59e97c7b92f2ab5f4b63155df8797dc2",
+    "paper/figures/fig3_model_comparison.pdf": "fbd5fec15b3c1a3bc193250b008514e62909a8ca71f9ecd8f4d26135e16fbd2c",
+    "paper/figures/fig4_history_windows.pdf": "5c44ed32b7e0c7fda5819e9b71cdeb2f860ac8b1be12f684838114a10ed2eccb",
+    "paper/figures/fig5_regional_metrics.pdf": "287d0dd053809fe5ce661b44e7eacafc056fb2c41217d6854f17310e6127e8e0",
+    "paper/figures/fig6_forecast_examples.pdf": "0359380eef9fe297821f6a166e408b97ed1e05a37f445f9c0d716a33a3e1cd1e",
+    "paper/figures/fig_historical_overview.pdf": "e68352a1c7a7aae0d37698028cf1106e74090c95dff75a6b1ff1048ec486c2ad",
+    "paper/figures/fig_strength_states.pdf": "bfb4c18b648a5c0f539b27f29f380bea5982e8a44e03bd558d5e26985401a8a3",
+    "paper/figures/strength_validation_rows.tex": "ed08ec97d1450553e6b4e2a8f4a56a1a3f5704b1af5e40ce99df0cbf724fa442",
+    "paper/figures/study_design.tex": "a473004f7525857453b1f7d3777ecc03cafe6801f57a327888eb3d3a9e7dd788",
+    "paper/editorial_review_20261109.md": "64299f65fd2f1c37a2e324bad9b326601f323965892d7bb63bc15a94121aec95",
+    "paper/make_paper_figures.py": "b44f6ff8175806cccd14a8dc05a4baaee22f6b3bfb123cfafb53a427287aece5",
+    "paper/make_historical_overview.py": "868318f5726f3739d5bdf9cbd04294406a89468fa43e2fbb793b9544a871c1b2",
+    "paper/make_strength_evidence.py": "9d81c03010a18c3bda060f98eaa0b42b766971c0aa92dbbab596bb113ffbbea4",
+    "paper/language_revision_20261107/sections/declarations.tex": "693f08e3de6a3b913461181ce404d16cc33b590bacc9db3ce7a812de36a90dff",
+    "presentation/versions/v4_20261110/repository_architecture.html": "90e8b911154c0adb6ab5244a502dd75b1a407ce902b58552eaa74562de4a34e0",
+    "presentation/versions/v4_20261110/results_template.csv": "5d8170e86cf059ef15a919e82a38311c636b3128340d1b372cd5bec9ecfa36a1",
+    "presentation/versions/v5_20261110/repository_architecture.html": "90e8b911154c0adb6ab5244a502dd75b1a407ce902b58552eaa74562de4a34e0",
+    "presentation/versions/v5_20261110/results_template.csv": "5d8170e86cf059ef15a919e82a38311c636b3128340d1b372cd5bec9ecfa36a1",
+    "交付材料/01_邮件附件/Report.zip": "f34e524c39e687100967490984b8281dc9eb674c376b9293bf79f62160a9a9f5",
+    "交付材料/01_邮件附件/Code.zip": "3678146174515ea18669c9e7d2ff8a7fa5e099ba935aca4c2f10f7bb08a5d147",
+    "交付材料/01_邮件附件/Data.zip": "352382b804eca953ea3bb480205fa3960e2f33e17ba0a37e5cf83a24e43fee5f"
+  },
+  "path_mapping": {
+    "presentation/handout.pdf": "presentation/archive/initial_10_screen/handout.pdf",
+    "presentation/figure_comparison.html": "presentation/archive/initial_10_screen/figure_comparison.html",
+    "presentation/preview.png": "presentation/archive/initial_10_screen/preview.png",
+    "presentation/repository_architecture_archify_legacy.html": "presentation/archive/archify_legacy/repository_architecture_archify_legacy.html",
+    "presentation/archify_receipt_legacy.json": "presentation/archive/archify_legacy/archify_receipt_legacy.json",
+    "presentation/repository.tree.json": "presentation/archive/archify_legacy/repository.tree.json",
+    "presentation/repository_architecture.browser-check.json": "presentation/archive/archify_legacy/repository_architecture.browser-check.json",
+    "presentation/repository_architecture.delivery.json": "presentation/archive/archify_legacy/repository_architecture.delivery.json",
+    "presentation/repository_architecture.finalize-summary.json": "presentation/archive/archify_legacy/repository_architecture.finalize-summary.json",
+    "presentation/repository_architecture.finalize.json": "presentation/archive/archify_legacy/repository_architecture.finalize.json",
+    "paper/论文写作框架.md": "paper/archive/planning_20261103_07/论文写作框架.md",
+    "paper/论文要求核对与结构规划.md": "paper/archive/planning_20261103_07/论文要求核对与结构规划.md",
+    "paper/论文规划与交付建议_20261105.md": "paper/archive/planning_20261103_07/论文规划与交付建议_20261105.md",
+    "paper/论文规划审查与开工准备_v2_20261105.md": "paper/archive/planning_20261103_07/论文规划审查与开工准备_v2_20261105.md",
+    "paper/content_draft_manifest.json": "paper/archive/draft_records_20261106/content_draft_manifest.json",
+    "paper/discussion_draft_manifest.json": "paper/archive/draft_records_20261106/discussion_draft_manifest.json",
+    "paper/method_draft_manifest.json": "paper/archive/draft_records_20261106/method_draft_manifest.json",
+    "paper/results_draft_manifest.json": "paper/archive/draft_records_20261106/results_draft_manifest.json",
+    "presentation/_build/archify_receipt.json": "presentation/archive/source_capture_20261110/archify_receipt.json",
+    "presentation/_build/browser_check.json": "presentation/archive/source_capture_20261110/browser_check.json",
+    "presentation/_build/leagues_source.txt": "presentation/archive/source_capture_20261110/leagues_source.txt",
+    "presentation/_build/ranking_source.txt": "presentation/archive/source_capture_20261110/ranking_source.txt",
+    "presentation/_build/schedule_evidence.json": "presentation/archive/source_capture_20261110/schedule_evidence.json",
+    "presentation/_build/schedule_source.txt": "presentation/archive/source_capture_20261110/schedule_source.txt",
+    "presentation/_build/wembley_source.txt": "presentation/archive/source_capture_20261110/wembley_source.txt",
+    "presentation/archify_receipt.json": "presentation/archive/archify_legacy/archify_receipt_legacy.json"
+  },
+  "deleted_bytes": 246254436,
+  "root_entries_after": {
+    "paper": 33,
+    "presentation": 38
+  },
+  "historical_documents_kept_verbatim": [
+    "文档/04_整理记录/根README_整理前_20261110.md",
+    "文档/04_整理记录/独立复核报告_20261105.md",
+    "paper/verification_log.md"
+  ],
+  "deleted_file_count": 4675,
+  "cache_cleanup": [
+    {
+      "scope": ".pytest_cache/",
+      "files": 5,
+      "bytes": 40017
+    },
+    {
+      "scope": "outputs/logs/regions/grouping-acceptance-20261026/preparation-20261026T090739Z-82cd5e84-accepted-r1/code/__pycache__/",
+      "files": 1,
+      "bytes": 103055
+    },
+    {
+      "scope": "outputs/logs/strength/repair-20261029/replays/jump-ratings-451ecade0bf84ee0bfb6/src/__pycache__/",
+      "files": 2,
+      "bytes": 23724
+    },
+    {
+      "scope": "outputs/logs/strength/repair-20261029/replays/jump-ratings-451ecade0bf84ee0bfb6/src/strength/__pycache__/",
+      "files": 4,
+      "bytes": 89657
+    },
+    {
+      "scope": "outputs/logs/strength_inference/__pycache__/",
+      "files": 3,
+      "bytes": 37075
+    },
+    {
+      "scope": "outputs/logs/team_identity/source-identity-plan-84efb287b6532c0377be/tests/__pycache__/",
+      "files": 1,
+      "bytes": 26333
+    },
+    {
+      "scope": "outputs/test_tmp/",
+      "files": 3991,
+      "bytes": 129885940
+    },
+    {
+      "scope": "outputs/test_tmp/pdf_reader/pypdf/__pycache__/",
+      "files": 19,
+      "bytes": 779087
+    },
+    {
+      "scope": "outputs/test_tmp/pdf_reader/pypdf/_codecs/__pycache__/",
+      "files": 8,
+      "bytes": 1018136
+    },
+    {
+      "scope": "outputs/test_tmp/pdf_reader/pypdf/_crypt_providers/__pycache__/",
+      "files": 5,
+      "bytes": 27137
+    },
+    {
+      "scope": "outputs/test_tmp/pdf_reader/pypdf/_text_extraction/__pycache__/",
+      "files": 2,
+      "bytes": 36788
+    },
+    {
+      "scope": "outputs/test_tmp/pdf_reader/pypdf/_text_extraction/_layout_mode/__pycache__/",
+      "files": 4,
+      "bytes": 50500
+    },
+    {
+      "scope": "outputs/test_tmp/pdf_reader/pypdf/actions/__pycache__/",
+      "files": 2,
+      "bytes": 10534
+    },
+    {
+      "scope": "outputs/test_tmp/pdf_reader/pypdf/annotations/__pycache__/",
+      "files": 4,
+      "bytes": 26136
+    },
+    {
+      "scope": "outputs/test_tmp/pdf_reader/pypdf/generic/__pycache__/",
+      "files": 15,
+      "bytes": 376866
+    },
+    {
+      "scope": "paper/build/ (render PNGs and compile intermediates only)",
+      "files": 229,
+      "bytes": 55223143
+    },
+    {
+      "scope": "paper/language_revision_20261107/build/ (render PNGs and compile intermediates only)",
+      "files": 197,
+      "bytes": 55271510
+    },
+    {
+      "scope": "presentation/__pycache__/",
+      "files": 1,
+      "bytes": 22748
+    },
+    {
+      "scope": "presentation/_build/ (temporary CJS helpers only)",
+      "files": 6,
+      "bytes": 19417
+    },
+    {
+      "scope": "presentation/vendor/figures4papers/b709de17da7e/figure_ophthal_review/__pycache__/",
+      "files": 1,
+      "bytes": 9505
+    },
+    {
+      "scope": "scripts/__pycache__/",
+      "files": 28,
+      "bytes": 530908
+    },
+    {
+      "scope": "src/__pycache__/",
+      "files": 20,
+      "bytes": 494441
+    },
+    {
+      "scope": "src/eras/__pycache__/",
+      "files": 7,
+      "bytes": 67036
+    },
+    {
+      "scope": "src/history_window/__pycache__/",
+      "files": 18,
+      "bytes": 354997
+    },
+    {
+      "scope": "src/regions/__pycache__/",
+      "files": 7,
+      "bytes": 91116
+    },
+    {
+      "scope": "src/reliability/__pycache__/",
+      "files": 8,
+      "bytes": 186733
+    },
+    {
+      "scope": "src/strength/__pycache__/",
+      "files": 17,
+      "bytes": 287991
+    },
+    {
+      "scope": "src/strength_inference/__pycache__/",
+      "files": 9,
+      "bytes": 114777
+    },
+    {
+      "scope": "src/strength_joint/__pycache__/",
+      "files": 7,
+      "bytes": 66390
+    },
+    {
+      "scope": "src/tournaments/__pycache__/",
+      "files": 7,
+      "bytes": 65678
+    },
+    {
+      "scope": "tests/__pycache__/",
+      "files": 46,
+      "bytes": 915560
+    }
+  ],
+  "cache_detail_policy": "Aggregate regenerable cache by directory; retain per-file mapping and hashes for archived research/document artifacts.",
+  "navigation_files_added": [
+    "paper/archive/README.md",
+    "paper/archive/planning_20261103_07/README.md",
+    "paper/archive/draft_records_20261106/README.md",
+    "presentation/archive/README.md",
+    "presentation/archive/initial_10_screen/README.md",
+    "presentation/archive/archify_legacy/README.md",
+    "presentation/archive/source_capture_20261110/README.md",
+    "交付材料/03_课堂展示/README.md"
+  ],
+  "deferred": [
+    "build/check script relocation until after presentation",
+    "research script relocation",
+    "external data storage/LFS/Git history changes",
+    "machine-specific .idea index cleanup"
+  ],
+  "build_route_updates": [
+    "presentation/build.py: archive output for historical comparison",
+    "presentation/make_repository_visual.py: relocated Archify provenance",
+    "scripts/build_submission_package.py: retain archived paper notes in future code-package selection"
+  ]
+}

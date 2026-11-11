@@ -21,6 +21,6 @@ document.querySelectorAll('.branch').forEach(g=>{let action=e=>{if(e.target.clos
 document.querySelector('#show').onclick=()=>{expanded.fill(true);render()};document.querySelector('#hide').onclick=()=>{expanded.fill(false);render()};render();window.repositoryTree={groups,expandAll:()=>document.querySelector('#show').click()};
 </script></html>'''.replace('__NODES__',json.dumps(data,ensure_ascii=False))
 (H/'repository_architecture.html').write_text(html,encoding='utf-8')
-(H/'repository_visual_manifest.json').write_text(json.dumps({'decision_log_id':'R20261110-03','renderer':'presentation/make_repository_visual.py','scope':'Actual selected local directories; containment only','nodes':data,'output_sha256':hashlib.sha256((H/'repository_architecture.html').read_bytes()).hexdigest(),'archify_previous_output':'repository_architecture_archify_legacy.html','new_diagram_is_archify_generated':False},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+(H/'repository_visual_manifest.json').write_text(json.dumps({'decision_log_id':'R20261110-03','renderer':'presentation/make_repository_visual.py','scope':'Actual selected local directories; containment only','nodes':data,'output_sha256':hashlib.sha256((H/'repository_architecture.html').read_bytes()).hexdigest(),'archify_previous_output':'archive/archify_legacy/repository_architecture_archify_legacy.html','new_diagram_is_archify_generated':False},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print('Drew 8 actual folders and 24 verified paths without text cards.')
 if __name__=='__main__':pass

@@ -82,7 +82,7 @@
         "scope": "course_paper_only_not_presentation_or_new_research",
         "status": "requirements_and_assets_reviewed_outline_proposed",
         "requirements_original_images_viewed": 10,
-        "plan": "paper/论文要求核对与结构规划.md",
+        "plan": "paper/archive/planning_20261103_07/论文要求核对与结构规划.md",
         "review": "文档/04_整理记录/论文资产核对_20261103.json",
         "formal_body_written": true,
         "formal_body_written_scope": "Four sections/abstract; six Method and six Results subsections; 12 equations and separate strength-development evidence; authors and final submission pending",
@@ -219,14 +219,14 @@
     ],
     "writing_preparation": {
       "decision_log_id": "R20261105-02",
-      "structure_review": "paper/论文规划审查与开工准备_v2_20261105.md",
-      "writing_framework": "paper/论文写作框架.md",
+      "structure_review": "paper/archive/planning_20261103_07/论文规划审查与开工准备_v2_20261105.md",
+      "writing_framework": "paper/archive/planning_20261103_07/论文写作框架.md",
       "framework_decision_log_id": "R20261106-03",
       "framework_status": "finalized_for_drafting",
       "results_outline": {
         "decision_log_id": "R20261106-04",
         "status": "results_first_draft_written",
-        "plan": "paper/论文写作框架.md",
+        "plan": "paper/archive/planning_20261103_07/论文写作框架.md",
         "evidence_registry": "paper/results_evidence.json",
         "source_files": 17,
         "evidence_bindings": 57,
@@ -239,7 +239,7 @@
         "decision_log_id": "R20261106-06",
         "path": "paper/sections/method.tex",
         "evidence": "paper/method_evidence.json",
-        "manifest": "paper/method_draft_manifest.json",
+        "manifest": "paper/archive/draft_records_20261106/method_draft_manifest.json",
         "citation_report": "paper/citation_report.md",
         "source_claims": 26,
         "words_texcount_sum": 1914,
@@ -252,7 +252,7 @@
       "results_draft": {
         "decision_log_id": "R20261106-05",
         "path": "paper/sections/results.tex",
-        "manifest": "paper/results_draft_manifest.json",
+        "manifest": "paper/archive/draft_records_20261106/results_draft_manifest.json",
         "tables": 4,
         "figures_adopted_for_draft": 4,
         "compile_passed": true,
@@ -278,7 +278,7 @@
       "discussion_draft": {
         "decision_log_id": "R20261106-07",
         "path": "paper/sections/discussion.tex",
-        "manifest": "paper/discussion_draft_manifest.json",
+        "manifest": "paper/archive/draft_records_20261106/discussion_draft_manifest.json",
         "subsections": 4,
         "words_texcount_sum": 972,
         "new_bibliography_entries": 3,
@@ -289,7 +289,7 @@
       },
       "content_draft": {
         "decision_log_id": "R20261107-01",
-        "manifest": "paper/content_draft_manifest.json",
+        "manifest": "paper/archive/draft_records_20261106/content_draft_manifest.json",
         "introduction": "paper/sections/introduction.tex",
         "introduction_words_texcount_sum": 672,
         "abstract": "paper/main.tex",
@@ -395,8 +395,8 @@
       "entry": "presentation/index.html",
       "guide": "presentation/README.md",
       "speaker_notes": "presentation/SPEAKER_NOTES.md",
-      "comparison": "presentation/figure_comparison.html",
-      "handout": "presentation/handout.pdf",
+      "comparison": "presentation/archive/initial_10_screen/figure_comparison.html",
+      "handout": "presentation/archive/initial_10_screen/handout.pdf",
       "manifest": "presentation/manifest.json",
       "verification": "presentation/verification.json",
       "slides": 10,
@@ -4103,7 +4103,7 @@
     "guide": "presentation/README.md",
     "verification": "presentation/final_polish_verification.json",
     "architecture": "presentation/repository_architecture.html",
-    "archify_receipt": "presentation/archify_receipt_legacy.json",
+    "archify_receipt": "presentation/archive/archify_legacy/archify_receipt_legacy.json",
     "actual_results_imported": false,
     "model_refit": false,
     "named_copy": "presentation/versions/v3_20261110/index.html",
@@ -4118,9 +4118,13 @@
     "results_handoff": "presentation/RESULTS_DAY_CHECKLIST.md",
     "results_handoff_verification": "presentation/v5_results_handoff_verification.json",
     "timed_rehearsal": false,
-    "speech_revision_log_id": "R20261110-08",
-    "speech_spoken_word_count_approx": 820,
-    "speech_planned_total_seconds": 575
+    "speech_revision_log_id": "R20261111-01",
+    "speech_spoken_word_count_approx": 550,
+    "speech_planned_total_seconds": 505,
+    "speech_spoken_word_counts": {
+      "verified_results_branch": 556,
+      "pending_results_branch": 552
+    }
   },
   "repository_storage_cleanup": {
     "decision_log_id": "R20261110-06",
@@ -4153,5 +4157,16 @@
     "exact_submission_time": null,
     "receipt_independently_checked_by_AI": false,
     "automatic_submission_by_AI": false
+  },
+  "repository_optimization_plan": {
+    "decision_log_id": "R20261111-02",
+    "document": "文档/04_整理记录/仓库优化方案_20261111.md",
+    "status": "documentation_and_legacy_archives_organized; regenerable_caches_removed",
+    "research_files_moved": false,
+    "research_files_deleted": false,
+    "submitted_archives_rebuilt": false,
+    "execution_record": "文档/04_整理记录/仓库优化执行记录_20261111.json",
+    "legacy_document_files_moved": 25,
+    "build_and_research_script_relocation": "deferred_until_after_presentation_per_plan"
   }
 }

@@ -25,6 +25,7 @@ outputs/logs/history_window/reliability-*/probe_jobs/
 
 # WorkBuddy local tooling
 .workbuddy/
+.mimosa/
 
 # OS junk
 Thumbs.db
@@ -36,6 +37,7 @@ Thumbs.db
 
 # LaTeX local compilation products; keep TeX/Bib sources versioned.
 /paper/build/
+/paper/language_revision_20261107/build/
 
 # Local course-delivery archives and extracted verification copies.
 # Keep inventories, instructions and check records versioned for reconstruction.

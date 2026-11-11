@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-08",
+  "browser": "Chromium / local Chrome executable",
+  "slides": 10,
+  "browser_network_offline": true,
+  "fixture_selections_rendered": 52,
+  "interaction_checks": "poll, composition/scale, workflow, year playback, model/metric, history choice, regions, all fixture types, uncertainty, separate auxiliary model, notes, sources, live animation CSS",
+  "page_errors": [],
+  "external_page_requests": [],
+  "desktop_overflow": [],
+  "compact_projector_overflow": [],
+  "mobile_navigation": true,
+  "comparison_images_loaded": 4,
+  "print_export": "presentation/handout.pdf",
+  "scientific_model_refit": false
+}

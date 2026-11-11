@@ -62,6 +62,10 @@ def code_entries() -> dict[str, Path]:
         selected.append(ROOT / name)
     selected.extend(p for p in (ROOT / "paper").glob("*")
                     if p.is_file() and p.suffix in {".py", ".json", ".md"})
+    # Planning notes now live in archives; keep future code-package links usable.
+    # Existing submitted ZIPs are not rebuilt by this selection change.
+    selected.extend(p for p in (ROOT / "paper/archive").rglob("*")
+                    if p.is_file() and p.suffix in {".json", ".md"})
     entries = {"FootballProject/" + p.relative_to(ROOT).as_posix(): p for p in selected}
     entries["FootballProject/README_SUBMISSION.md"] = META / "README_SUBMISSION.md"
     # Templates and selection inventory let recipients inspect packaging decisions.

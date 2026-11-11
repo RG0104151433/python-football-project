@@ -1,3 +1,14 @@
+# 讲者操作入口：V5短稿
+
+只维护[PRESENTATION_SCRIPT_EN.md](PRESENTATION_SCRIPT_EN.md)这一份主讲稿。本次约550词，14页计划8:25；中文操作与英文朗读分开。版本目录和课堂取用目录的讲稿是同步副本，不分别改写。
+
+高睿懿第1—4页；陈正林第5—9页；江汶谕第10—14页。具体点击、换人和第10页赛果分支都在主稿中。问答不计入正文，实际彩排未完成。
+
+赛果录入另看[RESULTS_DAY_CHECKLIST.md](RESULTS_DAY_CHECKLIST.md)。不把测试比分或辅助三分类成绩当作主模型结果。
+
+<details>
+<summary>以前的讲解提纲与操作说明（历史）</summary>
+
 # 当前讲稿入口：V5已采用（R20261110-05）
 
 - 完整逐页英文讲稿：[PRESENTATION_SCRIPT_EN.md](PRESENTATION_SCRIPT_EN.md)。现为约820词压缩版。英文引用块用于朗读；粗体中文【操作】用于点击提示，不朗读。每页有建议时间和累计时点，问答不计入十分钟。
@@ -32,3 +43,5 @@ Use Previous/Restart on factors, bars and flow. Explain percentage points with 5
 
 ## V5 optional experiment
 On screen 9, point to a fixture tile to enlarge its teams/date/probabilities above the grid. Switch between the auxiliary three-way and main binary/range modes. Move out of the grid or press Escape to dismiss. Exact kick-off times are not in the sealed record. Use V4 if the group prefers the existing interface.
+
+</details>

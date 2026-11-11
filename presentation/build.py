@@ -162,12 +162,14 @@ def main():
     for title, old, new in comparisons:
         chunks.append(f'<h2>{title}</h2><div class="pair"><figure><figcaption>Existing paper figure — preserved</figcaption><img src="{image_data(ROOT/"paper/figures"/old)}" alt="Existing paper chart"></figure><figure><figcaption>figures4papers-style candidate</figcaption><img src="{image_data(ASSETS/new)}" alt="New candidate chart"></figure></div>')
     compare='''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Figure comparison</title><style>body{font:18px/1.5 'Segoe UI',sans-serif;background:#f4f2eb;color:#172c3d;margin:35px}h1{max-width:900px}.pair{display:grid;grid-template-columns:1fr 1fr;gap:20px}figure{margin:0;background:white;padding:16px}img{width:100%}a{color:#0F4D92}@media(max-width:850px){.pair{grid-template-columns:1fr}}</style><h1>Alternative figures, identical research evidence.</h1><p>Candidate exports adapt Chen Liu's figures4papers conventions (CC BY-NC 4.0). The upstream mark_events helper is actually called on the strength panel. The full-zero loss/accuracy scales replace the original truncated comparison bars; labels are larger and editable SVG/PDF exports are available. No new uncertainty ranges or performance claims are added. Presentation suitability is an editorial judgement, not an objective quality score.</p>'''+''.join(chunks)+'''<p><a href="index.html">Open the interactive presentation</a> · <a href="https://github.com/ChenLiu-1996/figures4papers">Upstream project and attribution</a>. The paper and existing submission archives have not been replaced.</p></html>'''
-    (HERE / "figure_comparison.html").write_text(compare, encoding="utf-8")
+    comparison_path = HERE / "archive/initial_10_screen/figure_comparison.html"
+    comparison_path.parent.mkdir(parents=True, exist_ok=True)
+    comparison_path.write_text(compare.replace('href="index.html"', 'href="../../index.html"'), encoding="utf-8")
     manifest={"decision_log_id":"R20261108-07","purpose":"first offline interactive English presentation draft; no research refit",
         "sources":{s:sha(ROOT/s) for s in SOURCES.values()},"vendor_commit":d["vendorCommit"],
         "upstream_function_called":"figure_ophthal_review.plot_trend.mark_events", "source_license":"CC-BY-NC-4.0",
         "web_animation_implementation":"local original SVG/JavaScript; not an upstream interactive API",
-        "outputs":{p.relative_to(ROOT).as_posix():sha(p) for p in [HERE/"index.html",HERE/"figure_comparison.html",*sorted(ASSETS.glob('*'))]},
+        "outputs":{p.relative_to(ROOT).as_posix():sha(p) for p in [HERE/"index.html",comparison_path,*sorted(ASSETS.glob('*'))]},
         "paper_and_submission_archives_replaced":False,"model_recomputed":False}
     (HERE / "manifest.json").write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding="utf-8")
     print("Built offline deck, two real-data figure candidates (SVG/PNG/PDF), and comparison page.")

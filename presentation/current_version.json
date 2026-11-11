@@ -15,10 +15,11 @@
     "presentation/versions/v4_20261110/index.html": "a2ea99ee4371117cb0ab615290470fa7e8d71abf43233cb964eac0072dd31456",
     "presentation/versions/v5_20261110/index.html": "120ad5c04469c9389629ea66d16816adaee5bf99777b598c33b21818cfbe299a",
     "presentation/forecast_hover_v5.js": "b89d8e5138d987d639330d747197ad1e0a86cd6ef1fd924e37bc6e7b61c8004a",
-    "presentation/build.py": "8f3b8703c48faa8946546eec634cac10b9249c83d20c49b25b8a496079594536",
+    "presentation/build.py": "11145fa86e3a5a6692e95663cc999d735d6218a4f3377abd16e7b3f1e6e14563",
     "presentation/build_v5.py": "9b7ab292ee6d149ed9665a97056d6579dd23193aa06aa99b69e285c798d9b995",
-    "presentation/PRESENTATION_SCRIPT_EN.md": "bc167827276910e32a0131e921346a2a8a16161795cf2a7a96e5b4be44b0dc72",
-    "presentation/RESULTS_DAY_CHECKLIST.md": "724c8c3d75d14b4b325c83cd0cf9076c9442dcdfbed41c315aa4dad93a836ffa"
+    "presentation/PRESENTATION_SCRIPT_EN.md": "39d5b718429e8947473c0213cbfd1c1a576cb3cb6a1207530efa4266e889c420",
+    "presentation/RESULTS_DAY_CHECKLIST.md": "724c8c3d75d14b4b325c83cd0cf9076c9442dcdfbed41c315aa4dad93a836ffa",
+    "presentation/make_repository_visual.py": "85244fbbee7e1efef95d59a99f2a422574ca9bd5dea9d07dd8d82e5e132b880b"
   },
   "previous_archive_verified_unchanged": true,
   "visual_verification": "presentation/repository_visual_verification.json",
@@ -29,21 +30,31 @@
   "results_handoff": "presentation/RESULTS_DAY_CHECKLIST.md",
   "results_verification": "presentation/v5_results_handoff_verification.json",
   "speech_revision": {
-    "decision_log_id": "R20261110-08",
+    "decision_log_id": "R20261111-01",
     "source": "presentation/PRESENTATION_SCRIPT_EN.md",
     "format": "Chinese action cues; English quoted speech",
-    "planned_total_seconds": 575,
+    "planned_total_seconds": 505,
     "timed_rehearsal": false,
     "submitted_archives_rebuilt": false,
     "spoken_word_counts": {
-      "verified_results_branch": 825,
-      "pending_results_branch": 824
+      "verified_results_branch": 556,
+      "pending_results_branch": 552
     },
-    "estimate_words_per_minute": 110,
+    "estimate_words_per_minute": [
+      90,
+      100
+    ],
     "click_pause_handoff_seconds": [
-      70,
-      90
+      90,
+      120
     ],
     "filled_number_allowance_words": 25
+  },
+  "repository_optimization": {
+    "decision_log_id": "R20261111-02",
+    "record": "文档/04_整理记录/仓库优化执行记录_20261111.json",
+    "archive_guide": "presentation/archive/README.md",
+    "frozen_and_adopted_HTML_unchanged": true,
+    "historical_manifests_rewritten": false
   }
 }

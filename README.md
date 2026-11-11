@@ -7,9 +7,11 @@
 ## 直接进入
 
 - 看论文：[最终PDF](paper/final_paper.pdf)；修改源文件从[论文说明](paper/README.md)进入。
-- 看展示：[当前V5](presentation/index.html)、[简单英文讲稿](presentation/PRESENTATION_SCRIPT_EN.md)、[赛果接入说明](presentation/RESULTS_DAY_CHECKLIST.md)。
+- 看展示：[当前V5](presentation/index.html)、[约550词英文短稿](presentation/PRESENTATION_SCRIPT_EN.md)、[赛果接入说明](presentation/RESULTS_DAY_CHECKLIST.md)。
 - 取提交材料：[按用途整理的取用说明](交付材料/00_取用与提交说明.md)。邮件三个ZIP仅在组长本机生成，不纳入Git。
 - 了解各问：[研究路线与当前结论](研究/README.md)；核对具体版本看[当前状态](研究/pipeline_state.json)。
+
+仓库已按[优化方案](文档/04_整理记录/仓库优化方案_20261111.md)集中旧资料并清理可再生缓存；历史文件从[论文存档](paper/archive/README.md)、[展示存档](presentation/archive/README.md)进入，新旧位置见[执行记录](文档/04_整理记录/仓库优化执行记录_20261111.json)。正式脚本路径与科研数据保留。
 
 ## 先确认文件，再运行
 

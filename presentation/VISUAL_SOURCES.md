@@ -17,4 +17,8 @@ Archify: https://github.com/tt-a1i/archify , commit 7e45f36c66de1254d5ad6ba1d878
 
 Venue now uses the exact user attachment 0.jpg, stored as assets/wembley_user.jpg. Original publication URL/creator/license not supplied; no public-license claim is made. Provenance SHA: assets/wembley_user_provenance.json.
 
-Current repository tree is original native SVG (make_repository_visual.py), with 8 actual directories and 24 existing selected paths. Prior Archify card output is retained as repository_architecture_archify_legacy.html; its receipt does not certify the new SVG.
+Current repository tree is original native SVG (make_repository_visual.py), with 8 actual directories and 24 existing selected paths. Prior Archify card output is retained in archive/archify_legacy/repository_architecture_archify_legacy.html; its receipt does not certify the new SVG.
+
+## Archived acquisition records
+
+The old figure comparison and ten-page handout are in [archive/initial_10_screen](archive/initial_10_screen/README.md). Original Archify receipts are in [archive/archify_legacy](archive/archify_legacy/README.md). Ranking, logo, schedule and venue acquisition records formerly in `_build/` are retained in [archive/source_capture_20261110](archive/source_capture_20261110/README.md). These are historical sources, not new model inputs.

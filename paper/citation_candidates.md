@@ -100,7 +100,7 @@ latexmk -xelatex -outdir=build main.tex   # 在 paper/ 下
 2. **核对元数据：** 打开本地 PDF 首页/DOI 页或出版方页面，核对 authors、year、title、venue、volume、pages、DOI/URL。网页来源加 `urldate`。
 3. **写 BibTeX：** 在 `paper/references.bib` 中每条只写一次；key 用 `authorYearTopic`；字段完整、大小写一致；不要写没有核对的页码。
 4. **建立引用映射：** 在 `paper/citation_map.csv` 写 `section, claim_id, bib_keys, note`，把正文段落与来源绑定；每个 claim 至少一个来源。
-5. **插入正文：** 按 `paper/论文规划审查与开工准备_v2_20261105.md` 第 2 节提纲在对应小节加 `\cite{...}`；不要在 Introduction 堆一批与正文无关的文献。
+5. **插入正文：** 按 `paper/archive/planning_20261103_07/论文规划审查与开工准备_v2_20261105.md` 第 2 节提纲在对应小节加 `\cite{...}`；不要在 Introduction 堆一批与正文无关的文献。
 6. **检查：** 运行 `python paper/check_citations.py --strict`；再在 `paper/` 下运行 `latexmk -xelatex -outdir=build main.tex`（biber 会自动执行），确认 0 undefined citations。
 7. **报告：** 在 `paper/citation_report.md` 写：已核对条目、拒绝条目、仍不确定的条目、每条支撑的章节/claim。
 
