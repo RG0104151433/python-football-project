@@ -1,45 +1,28 @@
-# 论文选图目录
+# 正式论文图表目录
 
-**R20261107-09当前采用：** 7图5表。新增`fig_strength_states.pdf/.png`及`strength_validation_rows.tex`，来自同版评分交付，不重训；生成器为`../make_strength_evidence.py`，来源与选择行见`../strength_evidence_manifest.json`。当前完整图号见`../图表来源说明.md`，下方候选/旧编号保留历史。
+**中文** | [English](README.en.md)
 
-**R20261107-03当前采用：** 现有6幅正文图。新增`fig_historical_overview.pdf/.png`为Figure 2，原模型/历史周期/地区/预测图顺延Figure 3—6，Figure 1流程图不变。新图由`python paper/make_historical_overview.py`只读采用CSV重绘，来源/选取行在`../historical_overview_manifest.json`；旧`manifest.json`仍是早期候选记录。
 
-**当前采用（R20261106-06）：** 新增study_design.tex原生矢量流程图，由主文件编译为当前Figure 1，不存在另造的fig1_study_design.pdf；原fig3—fig6当前顺延为Figure 2—5。源图未复制或改写；采用/指纹见../method_draft_manifest.json及../图表来源说明.md，原manifest.json仍表示11月5日五个候选图的生成记录。
+当前论文为7图5表；目录也保留候选图，文件名中的数字不直接等于图号。
 
-**2026-11-05 准备状态：** 已生成 5 张英文**候选图**（fig2—fig6），由 `paper/make_paper_figures.py` 从当前采用结果 CSV 重绘，尚未作为最终论文选图。fig1（研究流程）仍需手工/Agent 绘制。
+## 正式图序
 
-## 已生成候选图
+1. 研究流程：study_design.tex，随论文编译。
+2. 历史概览：fig_historical_overview.pdf。
+3. 实力轨迹：fig_strength_states.pdf。
+4. 模型比较：fig3_model_comparison.pdf。
+5. 历史长度：fig4_history_windows.pdf。
+6. 地区诊断：fig5_regional_metrics.pdf。
+7. 未来预测例子：fig6_forecast_examples.pdf。
 
-| 文件 | 内容 | 数据来源 |
-|---|---|---|
-| `fig2_era_rates.pdf/.png` | 年代主胜率：观测 vs 共同构成调整 | `era_estimates.csv`、`era_summary.csv` |
-| `fig3_model_comparison.pdf/.png` | M0/M1/M3 同场预测比较 | `yearly_metrics.csv` |
-| `fig4_history_windows.pdf/.png` | 历史窗口组合的表现与成本 | `combination_metrics.csv`、`cost_components.csv` |
-| `fig5_regional_metrics.pdf/.png` | 地区概率质量与校准偏差 | `regional_metrics.csv` |
-| `fig6_forecast_examples.pdf/.png` | 四个赛前预测代表例 | `forecasts.csv` |
-| `manifest.json` | 生成时间、脚本 SHA-256、每张图 PDF/PNG SHA-256、源 CSV 路径 | 自动生成 |
+以[Results源](../language_revision_20261107/sections/results.tex)和其调用的strength_development.tex为准，[来源说明](../图表来源说明.md)解释数据；strength_validation_rows.tex供表格使用。旧fig2_era_rates和五张候选清单是历史，不是尚待选图。
 
-生成命令（仓库根目录）：
+## 来源与重绘
 
-```powershell
-.\.venv\Scripts\python.exe paper\make_paper_figures.py
-```
+[历史概览清单](../historical_overview_manifest.json)、[实力图清单](../strength_evidence_manifest.json)、[结果证据](../results_evidence.json)登记来源版本和选取行。make_paper_figures.py只生成早期候选集，不是全部正式图；另两个生成器分别负责历史概览和实力图。不为阅读而重绘。
 
-## 仍需手工完成
+论文优先矢量PDF，PNG供预览；图注写样本、时期、单位与边界，条件范围不等于无条件置信保证或因果结论。字体/库可能改变图像字节，应核对来源及实际指纹。研究流程和最终选图已经完成。
 
-- **fig1_study_design：** 数据→清洗→研究人群→四套样本→九问的五部分论文映射；建议用 TikZ/PPT 画，不用截图。建议版面：
-  - 左侧纵向：Raw snapshot 49,945 → Cleaned 48,102（1,803 outside / 40 quarantined）→ Study population 24,917（26,055 candidates / 1,138 excluded / 117 owner-approved）。
-  - 中间横向：Four analysis samples（24,917 descriptive；21,413 historical prediction；16,599/9,727 window evaluation；52 prospective）。
-  - 右侧：Five paper parts（Introduction；Method 2.1—2.5；Results 3.1—3.4；Discussion；References）与九问的对应箭头。
-  - 必须在 48,102→24,917 之间标“date / identity / venue / tournament eligibility”，不要画成单一漏斗；52 场单独标“prospective, outcomes unknown”。
-- **最终选图：** 从 5 张候选中选 4—5 张主文图；未选中的可放附录或不用。
-- **图注与正文解释：** 每张图写明样本/时期/n、指标/单位、能说明什么、不能说明什么。
-- **图表来源说明：** 选定后把实际文件、源 SHA、目标 SHA、版本登记到[图表来源说明](../图表来源说明.md)；`manifest.json` 已保存当前候选图的 SHA，可作为起点。
+## 历史说明
 
-## 规则
-
-- 正文优先 PDF 矢量图；PNG 只作预览或网页/幻灯片。
-- 图内不出现中文、内部版本号、脚本名或 `pooled_matches` 等术语。
-- 图内不写“significant”“causal”“95% CI”。
-- 每张图只表达一个信息；不要把 29 项差值、52 场全塞进一张图。
-- 重跑脚本可能因字体/库版本改变 PNG 字节；以 manifest 的源 CSV 和脚本 SHA 为准，不把不同环境的图片字节当同一文件。
+[完整旧README、推导和版本记录](../../文档/04_整理记录/README历史快照_20261112/paper/figures/历史说明.md)按当时日期阅读，不代替当前状态。

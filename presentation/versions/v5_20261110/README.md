@@ -1,15 +1,14 @@
-# Adopted V5 — presentation base
+# 当前采用V5
 
-Open index.html and go to screen 9. Keep repository_architecture.html beside it. This version is based on frozen V4; V4 remains frozen; the main presentation/index.html now uses this adopted V5.
+**中文** | [English](README.en.md)
 
-Hover or keyboard-focus any of the 52 fixture tiles. The panel appears above the grid, showing the two teams, home/away roles, fixture date and the current model's probabilities. In three-way mode, pointing at one of the three colored segments also emphasizes that outcome. In binary/range mode, the panel magnifies the home-win probability and the latent-strength 90% range. Withheld predictions stay withheld.
 
-Move the pointer out of the grid, press Escape or leave the screen to hide the panel. The panel does not capture clicks or obscure access to the underlying controls. Predictions and result-import data are unchanged. The record supplies a match date, not an exact kick-off time; no time is invented.
+打开index.html，旁边保留repository_architecture.html。本版基于冻结V4增加第9页悬停放大框，主入口已采用同版V5。
 
-Rebuild from the full repository with python presentation/build_v5.py. This reads the frozen V4 HTML and appends forecast_hover_v5.js; it publishes V5 to the main entry and does not rebuild or overwrite V4. Browser QA: node presentation/verify_v5.cjs. Verification: ../../v5_verification.json.
+悬停或键盘聚焦52场方块，可查看双方、主客身份、日期及当前预测。辅助三分类突出胜/平/负色段；主二分类放大概率及实力条件90%范围，三场未出值保留为空。记录只有日期，不补造开球时刻。
 
-The owner adopted V5 as the base on 10 November. The earlier V4 remains a separate backup.
+移出、按Esc或离页隐藏，信息框不拦截控件；赛果录入不改封存预测。
 
-Speaking script: PRESENTATION_SCRIPT_EN.md. Matchday result handoff: RESULTS_DAY_CHECKLIST.md. All actual results are still pending.
+完整仓库运行python presentation/build_v5.py重建；读取冻结V4并附加forecast_hover_v5.js，不覆盖V4。悬停检查见../../v5_verification.json，赛果检查见../../v5_results_handoff_verification.json。
 
-Current script revision (11 November): 552–556 spoken words, with separate Chinese action cues. Planned speaking and operation time is 8:25; no timed rehearsal has been completed. The V5 HTML is unchanged.
+讲稿PRESENTATION_SCRIPT_EN.md有552—556个朗读词，中文操作与英文分开，含操作计划8:25；实际彩排未完成。接入比分看RESULTS_DAY_CHECKLIST.md，尚未录入真实比分。

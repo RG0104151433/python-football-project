@@ -1,5 +1,8 @@
 # 初版10页展示资料（历史）
 
+**中文** | [English](README.en.md)
+
+
 - [handout.pdf](handout.pdf)：初版10页静态讲义，不对应当前14页V5。
 - [figure_comparison.html](figure_comparison.html)：当时论文图与候选图对照，自包含图片；返回链接已改为当前主展示。
 - [preview.png](preview.png)：旧预览。

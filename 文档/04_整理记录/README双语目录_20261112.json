@@ -1,0 +1,624 @@
+{
+  "schema_version": 1,
+  "decision_log_id": "R20261112-01",
+  "checked_on": "2026-11-12",
+  "executor": "Codex (AI)",
+  "readmes": [
+    {
+      "original": "data/external/geography_preparation/geo-prep-v2/README.md",
+      "chinese": "data/external/geography_preparation/geo-prep-v2/README.zh-CN.md",
+      "english": "data/external/geography_preparation/geo-prep-v2/README.en.md",
+      "original_preserved": true,
+      "original_sha256": "beea21f26c2b9a02e0472d70d2b4a6b7dccc674a242f1d5d403f6eeb8faea26d",
+      "english_scope": "dated reading edition; source remains separate",
+      "original_contains_switch_links": false
+    },
+    {
+      "original": "data/external/geography_preparation/geo-prep-v3/README.md",
+      "chinese": "data/external/geography_preparation/geo-prep-v3/README.zh-CN.md",
+      "english": "data/external/geography_preparation/geo-prep-v3/README.en.md",
+      "original_preserved": true,
+      "original_sha256": "790416b860357a65b6b74018ad4f0e709e41d3d9c4eb787af38cfc4aa7f90c39",
+      "english_scope": "dated reading edition; source remains separate",
+      "original_contains_switch_links": false
+    },
+    {
+      "original": "data/external/geography_sources/m49-20261026/README.md",
+      "chinese": "data/external/geography_sources/m49-20261026/README.zh-CN.md",
+      "english": "data/external/geography_sources/m49-20261026/README.en.md",
+      "original_preserved": true,
+      "original_sha256": "43445111e989f81ecbd0ab8d1645847f8415da9fd1905b2d1ac0094552a661c1",
+      "english_scope": "dated reading edition; source remains separate",
+      "original_contains_switch_links": false
+    },
+    {
+      "original": "data/external/team_identity/submissions/20261024-batch01/README.md",
+      "chinese": "data/external/team_identity/submissions/20261024-batch01/README.zh-CN.md",
+      "english": "data/external/team_identity/submissions/20261024-batch01/README.en.md",
+      "original_preserved": true,
+      "original_sha256": "60b9f5e0fc3ae836906226f473f370266a9fd845dfd871f69c456ce843669e6c",
+      "english_scope": "dated reading edition; source remains separate",
+      "original_contains_switch_links": false
+    },
+    {
+      "original": "data/external/team_identity/submissions/20261024-batch02/README.md",
+      "chinese": "data/external/team_identity/submissions/20261024-batch02/README.zh-CN.md",
+      "english": "data/external/team_identity/submissions/20261024-batch02/README.en.md",
+      "original_preserved": true,
+      "original_sha256": "5901b2ea0c6cd2727cca5c48876b18d524651ae7121a7d7eb7856d8986d42039",
+      "english_scope": "dated reading edition; source remains separate",
+      "original_contains_switch_links": false
+    },
+    {
+      "original": "data/external/team_identity/submissions/20261024-batch03/README.md",
+      "chinese": "data/external/team_identity/submissions/20261024-batch03/README.zh-CN.md",
+      "english": "data/external/team_identity/submissions/20261024-batch03/README.en.md",
+      "original_preserved": true,
+      "original_sha256": "7a8d8426560af5697f9da708361d1a4a19012969f2efcd14a9ab8693cc172032",
+      "english_scope": "dated reading edition; source remains separate",
+      "original_contains_switch_links": false
+    },
+    {
+      "original": "data/external/team_identity/submissions/20261024-batch04/README.md",
+      "chinese": "data/external/team_identity/submissions/20261024-batch04/README.zh-CN.md",
+      "english": "data/external/team_identity/submissions/20261024-batch04/README.en.md",
+      "original_preserved": true,
+      "original_sha256": "54ccd529171537376d068f817556d1a548e995672a89d158c7b678397ba101f8",
+      "english_scope": "dated reading edition; source remains separate",
+      "original_contains_switch_links": false
+    },
+    {
+      "original": "data/external/team_identity/submissions/20261025-batch05/README.md",
+      "chinese": "data/external/team_identity/submissions/20261025-batch05/README.zh-CN.md",
+      "english": "data/external/team_identity/submissions/20261025-batch05/README.en.md",
+      "original_preserved": true,
+      "original_sha256": "1428983b35e0c1b841b58a6b689d38195553c6c00a8ad8f838a625decb7ce9ca",
+      "english_scope": "dated reading edition; source remains separate",
+      "original_contains_switch_links": false
+    },
+    {
+      "original": "data/external/team_identity/submissions/20261025-batch06/README.md",
+      "chinese": "data/external/team_identity/submissions/20261025-batch06/README.zh-CN.md",
+      "english": "data/external/team_identity/submissions/20261025-batch06/README.en.md",
+      "original_preserved": true,
+      "original_sha256": "0996d2da615ea7209269b988eb12bcf273db52151ad3df615a8c6cffc852302e",
+      "english_scope": "dated reading edition; source remains separate",
+      "original_contains_switch_links": false
+    },
+    {
+      "original": "data/raw/international_results/README.md",
+      "chinese": "data/raw/international_results/README.zh-CN.md",
+      "english": "data/raw/international_results/README.en.md",
+      "original_preserved": true,
+      "original_sha256": "0d50b5f6fe2b658eba52a4477e4e48af6ca61e89e2c5265b153e3c12d7305b76",
+      "english_scope": "dated reading edition; source remains separate",
+      "original_contains_switch_links": false
+    },
+    {
+      "original": "outputs/logs/team_identity/batch-review-20261024-batch01/README.md",
+      "chinese": "outputs/logs/team_identity/batch-review-20261024-batch01/README.zh-CN.md",
+      "english": "outputs/logs/team_identity/batch-review-20261024-batch01/README.en.md",
+      "original_preserved": true,
+      "original_sha256": "57854a15f0e128951e119def940f250b6a0f33365e34c4eb4624454fd408d7b1",
+      "english_scope": "dated reading edition; source remains separate",
+      "original_contains_switch_links": false
+    },
+    {
+      "original": "outputs/logs/team_identity/batch-review-20261024-batch02/README.md",
+      "chinese": "outputs/logs/team_identity/batch-review-20261024-batch02/README.zh-CN.md",
+      "english": "outputs/logs/team_identity/batch-review-20261024-batch02/README.en.md",
+      "original_preserved": true,
+      "original_sha256": "48553f44e2ceb7a3646ccb34000a03559cb56bb5a3ec718bc0cf13e7912ea33e",
+      "english_scope": "dated reading edition; source remains separate",
+      "original_contains_switch_links": false
+    },
+    {
+      "original": "outputs/logs/team_identity/batch-review-20261024-batch03/README.md",
+      "chinese": "outputs/logs/team_identity/batch-review-20261024-batch03/README.zh-CN.md",
+      "english": "outputs/logs/team_identity/batch-review-20261024-batch03/README.en.md",
+      "original_preserved": true,
+      "original_sha256": "606cc24a7f84566cb78c2e24a96729bf10f3d4212c720a3b935a4c8549a9e22f",
+      "english_scope": "dated reading edition; source remains separate",
+      "original_contains_switch_links": false
+    },
+    {
+      "original": "outputs/logs/team_identity/batch-review-20261025-batch04/README.md",
+      "chinese": "outputs/logs/team_identity/batch-review-20261025-batch04/README.zh-CN.md",
+      "english": "outputs/logs/team_identity/batch-review-20261025-batch04/README.en.md",
+      "original_preserved": true,
+      "original_sha256": "b702ddfaf310f11522e16c5529e8e629010d593ab475cfc22038a205e1a7beff",
+      "english_scope": "dated reading edition; source remains separate",
+      "original_contains_switch_links": false
+    },
+    {
+      "original": "outputs/logs/team_identity/q1-same-version-20261025/README.md",
+      "chinese": "outputs/logs/team_identity/q1-same-version-20261025/README.zh-CN.md",
+      "english": "outputs/logs/team_identity/q1-same-version-20261025/README.en.md",
+      "original_preserved": true,
+      "original_sha256": "11daee998533b25cee8c26093ca6cc1e4fa931a2caba6fa00642ab363bbcc9b4",
+      "english_scope": "dated reading edition; source remains separate",
+      "original_contains_switch_links": false
+    },
+    {
+      "original": "paper/archive/draft_records_20261106/README.md",
+      "chinese": "paper/archive/draft_records_20261106/README.md",
+      "english": "paper/archive/draft_records_20261106/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "2d7d5326f24e1d1b817334b13ad36a32a934431ece13990e4a96365a2eebc9ba",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true
+    },
+    {
+      "original": "paper/archive/planning_20261103_07/README.md",
+      "chinese": "paper/archive/planning_20261103_07/README.md",
+      "english": "paper/archive/planning_20261103_07/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "5fc9f6ffac8a382b435783325b3b355ffaef60f23c0828d76d7a89befce00b32",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true
+    },
+    {
+      "original": "paper/archive/pre_cover_20261108/README.md",
+      "chinese": "paper/archive/pre_cover_20261108/README.zh-CN.md",
+      "english": "paper/archive/pre_cover_20261108/README.en.md",
+      "original_preserved": true,
+      "original_sha256": "54f1d8c83fe34fa6650848b41b1678ff09b4b7093209d9425c06643cd936f889",
+      "english_scope": "dated reading edition; source remains separate",
+      "original_contains_switch_links": false
+    },
+    {
+      "original": "paper/archive/README.md",
+      "chinese": "paper/archive/README.md",
+      "english": "paper/archive/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "c3aa47e00187cd67c6b0f6f222cd5deadc23dd8d13e58aca3ebf024c37ac6934",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true
+    },
+    {
+      "original": "paper/figures/README.md",
+      "chinese": "paper/figures/README.md",
+      "english": "paper/figures/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "17b998491c5ff0591857addde24a31f1e425a3a908e451ce6916db786d25bf13",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true,
+      "history_archive": "文档/04_整理记录/README历史快照_20261112/paper/figures/历史说明.md"
+    },
+    {
+      "original": "paper/language_revision_20261107/README.md",
+      "chinese": "paper/language_revision_20261107/README.md",
+      "english": "paper/language_revision_20261107/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "d212387aba94bda73c5d11c8952cc4d4504b018cbe7f2223f11214f97ccb0109",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true,
+      "history_archive": "文档/04_整理记录/README历史快照_20261112/paper/language_revision_20261107/历史说明.md"
+    },
+    {
+      "original": "paper/README.md",
+      "chinese": "paper/README.md",
+      "english": "paper/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "56a61a39399ee28af50cfe32d76e314505d2ec0ff7fc9b4775fdde9c61cfda98",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true,
+      "history_archive": "文档/04_整理记录/README历史快照_20261112/paper/历史说明.md"
+    },
+    {
+      "original": "presentation/archive/archify_legacy/README.md",
+      "chinese": "presentation/archive/archify_legacy/README.md",
+      "english": "presentation/archive/archify_legacy/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "9d116dfdf11c81c1f12354c682200f08d712595f37a7e82b8c1fa21bd01d63e6",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true
+    },
+    {
+      "original": "presentation/archive/initial_10_screen/README.md",
+      "chinese": "presentation/archive/initial_10_screen/README.md",
+      "english": "presentation/archive/initial_10_screen/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "f8dc8ba10de3eb76a903758333059fcabddba4ed8fe006787aae8e6a1a016dd9",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true
+    },
+    {
+      "original": "presentation/archive/README.md",
+      "chinese": "presentation/archive/README.md",
+      "english": "presentation/archive/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "eb0e4521ba55fa76955c15d5426d0df1b394b548c3716f72bdd154021525b41c",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true
+    },
+    {
+      "original": "presentation/archive/source_capture_20261110/README.md",
+      "chinese": "presentation/archive/source_capture_20261110/README.md",
+      "english": "presentation/archive/source_capture_20261110/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "0b735686bf68d036ab3a2f6edeea0a71d9811705d83f420d30f1125016fa83b6",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true
+    },
+    {
+      "original": "presentation/README.md",
+      "chinese": "presentation/README.md",
+      "english": "presentation/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "c2f8c6da3ef4222e04776d32c2031126d85011e87d887ad744c456a3ae0d1018",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true,
+      "history_archive": "文档/04_整理记录/README历史快照_20261112/presentation/历史说明.md"
+    },
+    {
+      "original": "presentation/vendor/figures4papers/b709de17da7e/README.md",
+      "chinese": "presentation/vendor/figures4papers/b709de17da7e/README.zh-CN.md",
+      "english": "presentation/vendor/figures4papers/b709de17da7e/README.en.md",
+      "original_preserved": true,
+      "original_sha256": "e69468338f4cc01889878845ae0f225e5d0948cd66146e85c4c0cd1346028f58",
+      "english_scope": "dated reading edition; source remains separate",
+      "original_contains_switch_links": false
+    },
+    {
+      "original": "presentation/vendor/README.md",
+      "chinese": "presentation/vendor/README.md",
+      "english": "presentation/vendor/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "c54cbe61ffcedb3d1cdd1862d73c7fed02726d8f313f0c940491f8f64570c146",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true
+    },
+    {
+      "original": "presentation/versions/v3_20261110/README.md",
+      "chinese": "presentation/versions/v3_20261110/README.zh-CN.md",
+      "english": "presentation/versions/v3_20261110/README.en.md",
+      "original_preserved": true,
+      "original_sha256": "259386a6bce46406cdddb71555bbde9a125163b0a76a96301737a4ac5249cd39",
+      "english_scope": "dated reading edition; source remains separate",
+      "original_contains_switch_links": false
+    },
+    {
+      "original": "presentation/versions/v4_20261110/README.md",
+      "chinese": "presentation/versions/v4_20261110/README.zh-CN.md",
+      "english": "presentation/versions/v4_20261110/README.en.md",
+      "original_preserved": true,
+      "original_sha256": "30660aebe17ff6aa31d2c442ac5eb792bbfae20b6fb419e29078d979466ecce2",
+      "english_scope": "dated reading edition; source remains separate",
+      "original_contains_switch_links": false
+    },
+    {
+      "original": "presentation/versions/v5_20261110/README.md",
+      "chinese": "presentation/versions/v5_20261110/README.md",
+      "english": "presentation/versions/v5_20261110/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "f5a24f83465c5a743d066a738e4479180452ec2c1d4eef59ad8eff79f2416bee",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true
+    },
+    {
+      "original": "README.md",
+      "chinese": "README.md",
+      "english": "README.en.md",
+      "original_preserved": false,
+      "original_sha256": "2f6edeaefa459a62d4377303696f33107479f6f505389f1288cce020b7efb163",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true
+    },
+    {
+      "original": "scripts/README.md",
+      "chinese": "scripts/README.md",
+      "english": "scripts/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "a4a6461fdda3bacdc584dfa08128409a5da365c871d0f941536f94345b95adac",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true
+    },
+    {
+      "original": "src/README.md",
+      "chinese": "src/README.md",
+      "english": "src/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "1898b661a84b6de62a1413ddc0c8caa15fb34daf0b542735b1a34b1d45d6adf8",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true
+    },
+    {
+      "original": "交付材料/03_课堂展示/README.md",
+      "chinese": "交付材料/03_课堂展示/README.md",
+      "english": "交付材料/03_课堂展示/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "9468095c2f27867c37409e603164871ea37c7e2a536e604b1b75b57ec8c3123b",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true
+    },
+    {
+      "original": "交付材料/04_清单与验收/README_SUBMISSION.md",
+      "chinese": "交付材料/04_清单与验收/README_SUBMISSION.zh-CN.md",
+      "english": "交付材料/04_清单与验收/README_SUBMISSION.en.md",
+      "original_preserved": true,
+      "original_sha256": "d562149e5cf4ac9cf689d01468faddca4d85745fe2bbf75342b314cd538a703f",
+      "english_scope": "dated reading edition; source remains separate",
+      "original_contains_switch_links": false
+    },
+    {
+      "original": "参考资料/数据来源/FIFA/README.md",
+      "chinese": "参考资料/数据来源/FIFA/README.md",
+      "english": "参考资料/数据来源/FIFA/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "54babd851ec8af479b66f1cc3832aeea5d76fbb76a8441449fb044a977c38456",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true
+    },
+    {
+      "original": "参考资料/方法文献/README.md",
+      "chinese": "参考资料/方法文献/README.md",
+      "english": "参考资料/方法文献/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "a155a0c91e900f3f7eed2ba77d04a85b921fa3007d0ac53d320c136eb66a4a81",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true,
+      "history_archive": "文档/04_整理记录/README历史快照_20261112/参考资料/方法文献/历史说明.md"
+    },
+    {
+      "original": "文档/05_团队协作/论文写作技能/CCFA-Skills/91ca9e280169/README.md",
+      "chinese": "文档/05_团队协作/论文写作技能/CCFA-Skills/91ca9e280169/README.zh-CN.md",
+      "english": "文档/05_团队协作/论文写作技能/CCFA-Skills/91ca9e280169/README.en.md",
+      "original_preserved": true,
+      "original_sha256": "2cebde50a092f93bf94b7e18d342c37e7606f309122bb5f91fc31b528d71b0ea",
+      "english_scope": "dated reading edition; source remains separate",
+      "original_contains_switch_links": false
+    },
+    {
+      "original": "文档/05_团队协作/论文写作技能/CCFA-Skills/README.md",
+      "chinese": "文档/05_团队协作/论文写作技能/CCFA-Skills/README.md",
+      "english": "文档/05_团队协作/论文写作技能/CCFA-Skills/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "80eca83a8e5a53d6b49a8894f834c5e0f24eb2927791695613a01ed9de5eafc2",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true
+    },
+    {
+      "original": "研究/00_数据再次确认/README.md",
+      "chinese": "研究/00_数据再次确认/README.md",
+      "english": "研究/00_数据再次确认/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "254e5e0d445ae8d53991b2b66a78e71d6aaa124bd89e5d3d5129b046e791e031",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true,
+      "history_archive": "文档/04_整理记录/README历史快照_20261112/研究/00_数据再次确认/历史说明.md"
+    },
+    {
+      "original": "研究/01_年代变化/README.md",
+      "chinese": "研究/01_年代变化/README.md",
+      "english": "研究/01_年代变化/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "c6884203347343691231420b85702972d39366536f8d3ef1c2538d5893fe2b0f",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true,
+      "history_archive": "文档/04_整理记录/README历史快照_20261112/研究/01_年代变化/历史说明.md"
+    },
+    {
+      "original": "研究/02_赛事类型差异/README.md",
+      "chinese": "研究/02_赛事类型差异/README.md",
+      "english": "研究/02_赛事类型差异/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "9994261d4e0bc1e42bdbe48d6e198c67c81aa687f0dce3bcaa85a29330e04ec8",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true,
+      "history_archive": "文档/04_整理记录/README历史快照_20261112/研究/02_赛事类型差异/历史说明.md"
+    },
+    {
+      "original": "研究/03_地域差异/README.md",
+      "chinese": "研究/03_地域差异/README.md",
+      "english": "研究/03_地域差异/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "d6ddfea185fbd638c2e0415683682795c87ef9cd319b87a30f5e21108487237a",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true,
+      "history_archive": "文档/04_整理记录/README历史快照_20261112/研究/03_地域差异/历史说明.md"
+    },
+    {
+      "original": "研究/04_共同可靠性/README.md",
+      "chinese": "研究/04_共同可靠性/README.md",
+      "english": "研究/04_共同可靠性/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "f29af303c108bac6f47d920ec6a144a87f28aa5bf558663cd3d573bc381f5696",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true,
+      "history_archive": "文档/04_整理记录/README历史快照_20261112/研究/04_共同可靠性/历史说明.md"
+    },
+    {
+      "original": "研究/05_赛前实力/README.md",
+      "chinese": "研究/05_赛前实力/README.md",
+      "english": "研究/05_赛前实力/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "19691cc920c1396477da6401ef09b2a6703e091d9d19c92e77ae3711efc4df00",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true,
+      "history_archive": "文档/04_整理记录/README历史快照_20261112/研究/05_赛前实力/历史说明.md"
+    },
+    {
+      "original": "研究/06_历史参考周期/README.md",
+      "chinese": "研究/06_历史参考周期/README.md",
+      "english": "研究/06_历史参考周期/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "e586cda9a9d656819eda502c34f85c587f825c1dc738ee978d5cce289ac6213d",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true,
+      "history_archive": "文档/04_整理记录/README历史快照_20261112/研究/06_历史参考周期/历史说明.md"
+    },
+    {
+      "original": "研究/07_地区有效性/README.md",
+      "chinese": "研究/07_地区有效性/README.md",
+      "english": "研究/07_地区有效性/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "5a07d4fc82cc65af4120e70e344225b870a5593ed117f247b41062dda9f9b0d7",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true,
+      "history_archive": "文档/04_整理记录/README历史快照_20261112/研究/07_地区有效性/历史说明.md"
+    },
+    {
+      "original": "研究/08_未来比赛预测/README.md",
+      "chinese": "研究/08_未来比赛预测/README.md",
+      "english": "研究/08_未来比赛预测/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "e2feaa1252d5f09b4f6be63cf3a8fc7eef19d58456445c91b9491ce09127e0b2",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true,
+      "history_archive": "文档/04_整理记录/README历史快照_20261112/研究/08_未来比赛预测/历史说明.md"
+    },
+    {
+      "original": "研究/09_预测优化展望/README.md",
+      "chinese": "研究/09_预测优化展望/README.md",
+      "english": "研究/09_预测优化展望/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "0a819652da70f25d669ccf73091727dd5150b02e24bb504a98a1c38a497f8e64",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true,
+      "history_archive": "文档/04_整理记录/README历史快照_20261112/研究/09_预测优化展望/历史说明.md"
+    },
+    {
+      "original": "研究/README.md",
+      "chinese": "研究/README.md",
+      "english": "研究/README.en.md",
+      "original_preserved": false,
+      "original_sha256": "86c9e18915f174a7902285c4b76a02e3f3a09f331754459036338a332ecc9d87",
+      "english_scope": "current guide; historical notes linked separately",
+      "original_contains_switch_links": true,
+      "history_archive": "文档/04_整理记录/README历史快照_20261112/研究/历史说明.md"
+    }
+  ],
+  "history_mapping": {},
+  "history_archives": [
+    {
+      "original": "paper/figures/README.md",
+      "archive": "文档/04_整理记录/README历史快照_20261112/paper/figures/历史说明.md",
+      "original_sha256": "17b998491c5ff0591857addde24a31f1e425a3a908e451ce6916db786d25bf13",
+      "archived_sha256": "e7578070fd89c15f86177c82ddf43380f08baeb02fcf1a10cc30c87c467194ab",
+      "relative_links_rebased": true
+    },
+    {
+      "original": "paper/language_revision_20261107/README.md",
+      "archive": "文档/04_整理记录/README历史快照_20261112/paper/language_revision_20261107/历史说明.md",
+      "original_sha256": "d212387aba94bda73c5d11c8952cc4d4504b018cbe7f2223f11214f97ccb0109",
+      "archived_sha256": "7c534eeba42614f4072ea92605d8656f28682dbfdbbcefba9345463b6fc5a077",
+      "relative_links_rebased": true
+    },
+    {
+      "original": "paper/README.md",
+      "archive": "文档/04_整理记录/README历史快照_20261112/paper/历史说明.md",
+      "original_sha256": "56a61a39399ee28af50cfe32d76e314505d2ec0ff7fc9b4775fdde9c61cfda98",
+      "archived_sha256": "6a0e9e71b2631e7695014fa0dc9f138d27b58d92d43efb46c95e13ab7c7d04a4",
+      "relative_links_rebased": true
+    },
+    {
+      "original": "presentation/README.md",
+      "archive": "文档/04_整理记录/README历史快照_20261112/presentation/历史说明.md",
+      "original_sha256": "c2f8c6da3ef4222e04776d32c2031126d85011e87d887ad744c456a3ae0d1018",
+      "archived_sha256": "d7f16dd7ea69ad166311301fca2c7b426a0c409509e7efb958a38c46b466370d",
+      "relative_links_rebased": true
+    },
+    {
+      "original": "参考资料/方法文献/README.md",
+      "archive": "文档/04_整理记录/README历史快照_20261112/参考资料/方法文献/历史说明.md",
+      "original_sha256": "a155a0c91e900f3f7eed2ba77d04a85b921fa3007d0ac53d320c136eb66a4a81",
+      "archived_sha256": "4082b93e82de110d0294d2fce8c3801bd836651ee3fb1adf8c9e0fc9587e20d5",
+      "relative_links_rebased": true
+    },
+    {
+      "original": "研究/00_数据再次确认/README.md",
+      "archive": "文档/04_整理记录/README历史快照_20261112/研究/00_数据再次确认/历史说明.md",
+      "original_sha256": "254e5e0d445ae8d53991b2b66a78e71d6aaa124bd89e5d3d5129b046e791e031",
+      "archived_sha256": "8d0958283d14ee41af1c2fdb238bbc7ff3fd71eed42287e2be95bd60a7dac0b8",
+      "relative_links_rebased": true
+    },
+    {
+      "original": "研究/01_年代变化/README.md",
+      "archive": "文档/04_整理记录/README历史快照_20261112/研究/01_年代变化/历史说明.md",
+      "original_sha256": "c6884203347343691231420b85702972d39366536f8d3ef1c2538d5893fe2b0f",
+      "archived_sha256": "e040935379e3f2a07d3e602f57b06f75d95f8a4d28d115c2e5c6367f241db721",
+      "relative_links_rebased": true
+    },
+    {
+      "original": "研究/02_赛事类型差异/README.md",
+      "archive": "文档/04_整理记录/README历史快照_20261112/研究/02_赛事类型差异/历史说明.md",
+      "original_sha256": "9994261d4e0bc1e42bdbe48d6e198c67c81aa687f0dce3bcaa85a29330e04ec8",
+      "archived_sha256": "0425592174c89ef3b36152b898b1f4fa05cb4514a330c69f5fb4667acfbae01e",
+      "relative_links_rebased": true
+    },
+    {
+      "original": "研究/03_地域差异/README.md",
+      "archive": "文档/04_整理记录/README历史快照_20261112/研究/03_地域差异/历史说明.md",
+      "original_sha256": "d6ddfea185fbd638c2e0415683682795c87ef9cd319b87a30f5e21108487237a",
+      "archived_sha256": "36ee0a280cbd27974858bd36229a0a07c258d775315250279bcbba537cb75567",
+      "relative_links_rebased": true
+    },
+    {
+      "original": "研究/04_共同可靠性/README.md",
+      "archive": "文档/04_整理记录/README历史快照_20261112/研究/04_共同可靠性/历史说明.md",
+      "original_sha256": "f29af303c108bac6f47d920ec6a144a87f28aa5bf558663cd3d573bc381f5696",
+      "archived_sha256": "38262fe2e4b21e3cb2a6b0fd3a3bb49fc3cf9bc5d6a11b98b95390bfdd9f8a11",
+      "relative_links_rebased": true
+    },
+    {
+      "original": "研究/05_赛前实力/README.md",
+      "archive": "文档/04_整理记录/README历史快照_20261112/研究/05_赛前实力/历史说明.md",
+      "original_sha256": "19691cc920c1396477da6401ef09b2a6703e091d9d19c92e77ae3711efc4df00",
+      "archived_sha256": "ef3fdce653152ea779dd9cddfaad1b89a912fc75d1523e70054573f446c15423",
+      "relative_links_rebased": true
+    },
+    {
+      "original": "研究/06_历史参考周期/README.md",
+      "archive": "文档/04_整理记录/README历史快照_20261112/研究/06_历史参考周期/历史说明.md",
+      "original_sha256": "e586cda9a9d656819eda502c34f85c587f825c1dc738ee978d5cce289ac6213d",
+      "archived_sha256": "63b9a8bdac8eea41a2e0d43896bc06d583339991551769b15deb479e0d5b963f",
+      "relative_links_rebased": true
+    },
+    {
+      "original": "研究/07_地区有效性/README.md",
+      "archive": "文档/04_整理记录/README历史快照_20261112/研究/07_地区有效性/历史说明.md",
+      "original_sha256": "5a07d4fc82cc65af4120e70e344225b870a5593ed117f247b41062dda9f9b0d7",
+      "archived_sha256": "adab02884161efdc884f8edfb654e39576eb3aa3f434049eae4432d43b190e46",
+      "relative_links_rebased": true
+    },
+    {
+      "original": "研究/08_未来比赛预测/README.md",
+      "archive": "文档/04_整理记录/README历史快照_20261112/研究/08_未来比赛预测/历史说明.md",
+      "original_sha256": "e2feaa1252d5f09b4f6be63cf3a8fc7eef19d58456445c91b9491ce09127e0b2",
+      "archived_sha256": "08f342b051eb1e56764674980a08e366c03b2dfc94a34a84b648ad1c8a1d019d",
+      "relative_links_rebased": true
+    },
+    {
+      "original": "研究/09_预测优化展望/README.md",
+      "archive": "文档/04_整理记录/README历史快照_20261112/研究/09_预测优化展望/历史说明.md",
+      "original_sha256": "0a819652da70f25d669ccf73091727dd5150b02e24bb504a98a1c38a497f8e64",
+      "archived_sha256": "bbe72ae3b2b8935de729e8d06216e37aa48503e87390ad987e01f18548486375",
+      "relative_links_rebased": true
+    },
+    {
+      "original": "研究/README.md",
+      "archive": "文档/04_整理记录/README历史快照_20261112/研究/历史说明.md",
+      "original_sha256": "86c9e18915f174a7902285c4b76a02e3f3a09f331754459036338a332ecc9d87",
+      "archived_sha256": "2fe16ea27ac3c58b2581f0519d7b077b95b8c262ad77efba3b4e1c5d017a4bcd",
+      "relative_links_rebased": true
+    }
+  ],
+  "protected_artifacts": {
+    "paper/final_paper.pdf": "b17602d0453a4b0e63342d339136e1fecceef62b4cdb62620fcb51ad48baf3eb",
+    "paper/main.pdf": "b17602d0453a4b0e63342d339136e1fecceef62b4cdb62620fcb51ad48baf3eb",
+    "paper/language_revision_20261107/main.tex": "79df8479c87e220c032614683f174c2136eb5271991604b00beada182a62912d",
+    "paper/language_revision_20261107/main.pdf": "b17602d0453a4b0e63342d339136e1fecceef62b4cdb62620fcb51ad48baf3eb",
+    "presentation/index.html": "120ad5c04469c9389629ea66d16816adaee5bf99777b598c33b21818cfbe299a",
+    "presentation/versions/v4_20261110/index.html": "a2ea99ee4371117cb0ab615290470fa7e8d71abf43233cb964eac0072dd31456",
+    "presentation/versions/v5_20261110/index.html": "120ad5c04469c9389629ea66d16816adaee5bf99777b598c33b21818cfbe299a",
+    "presentation/repository_architecture.html": "90e8b911154c0adb6ab5244a502dd75b1a407ce902b58552eaa74562de4a34e0",
+    "presentation/results_template.csv": "5d8170e86cf059ef15a919e82a38311c636b3128340d1b372cd5bec9ecfa36a1",
+    "presentation/PRESENTATION_SCRIPT_EN.md": "39d5b718429e8947473c0213cbfd1c1a576cb3cb6a1207530efa4266e889c420",
+    "交付材料/01_邮件附件/Report.zip": "f34e524c39e687100967490984b8281dc9eb674c376b9293bf79f62160a9a9f5",
+    "交付材料/01_邮件附件/Code.zip": "3678146174515ea18669c9e7d2ff8a7fa5e099ba935aca4c2f10f7bb08a5d147",
+    "交付材料/01_邮件附件/Data.zip": "352382b804eca953ea3bb480205fa3960e2f33e17ba0a37e5cf83a24e43fee5f"
+  },
+  "translation_policy": "Parallel current guides. Frozen/run/upstream originals remain unchanged; adjacent reading editions carry navigation and dated corrections. Detailed historical prose remains in labeled original-language archives.",
+  "human_translation_review": false
+}

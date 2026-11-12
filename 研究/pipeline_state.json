@@ -2562,7 +2562,7 @@
         "joint_fit_performed": false
       },
       "joint_input": "data/processed/strength/joint-preparation-6fa9d025ba40d11cd2f8",
-      "max_full_pipeline_precision_gap": 4.777e-07,
+      "max_full_pipeline_precision_gap": 4.777e-7,
       "normal": "data/processed/strength/strength-delivery-ca43fe498cd43ec8e21f",
       "pending_required_stage2_tasks": [],
       "planned_audit_entry": "scripts/audit_strength_joint.py",
@@ -2861,7 +2861,7 @@
       "jump_followup": "outputs/logs/strength/streaming-followup-ca0db86dd4df83030df4",
       "normal": "outputs/logs/strength/rolling-handoff-1a1f052c0b16becafcad",
       "normal_independent_checks_passed": 2085911,
-      "numeric_max_probability_difference": 5.51e-07,
+      "numeric_max_probability_difference": 5.51e-7,
       "previously_disconnected_rows": 80,
       "prospective_forecasts_tested": false,
       "repeated_core_files_and_manifests": 87,
@@ -3411,11 +3411,11 @@
       "max_single_job_seconds": 600,
       "checkpoint_every_learning_dates": 50,
       "same_rule_restore_gates": {
-        "mean_covariance_max_abs": 1e-09,
+        "mean_covariance_max_abs": 1e-9,
         "probability_max_abs": 1e-10,
         "history_and_dates": "exact; connectivity partition equal"
       },
-      "strict_numerics_reference_probability_gate": 2e-06,
+      "strict_numerics_reference_probability_gate": 0.000002,
       "remaining_work_is_execution_not_missing_plan": [],
       "planned_config": "config/history_window_rating.json",
       "planned_config_schema": "history-window-rating-v1",
@@ -3670,8 +3670,8 @@
       "selector": "window=cumulative and2010<=year<=2024",
       "matches": 9727,
       "home_region_counts": {
-        "150": 3322,
         "142": 2540,
+        "150": 3322,
         "002": 2058,
         "019": 1659,
         "009": 148
@@ -4106,7 +4106,7 @@
     "archify_receipt": "presentation/archive/archify_legacy/archify_receipt_legacy.json",
     "actual_results_imported": false,
     "model_refit": false,
-    "named_copy": "presentation/versions/v3_20261110/index.html",
+    "named_copy": "presentation/versions/v5_20261110/index.html",
     "previous_archive": "presentation/archive/before_final_polish_20261110.zip",
     "architecture_renderer": "native SVG directory tree",
     "architecture_verification": "presentation/repository_visual_verification.json",
@@ -4168,5 +4168,17 @@
     "execution_record": "文档/04_整理记录/仓库优化执行记录_20261111.json",
     "legacy_document_files_moved": 25,
     "build_and_research_script_relocation": "deferred_until_after_presentation_per_plan"
+  },
+  "documentation_review": {
+    "decision_log_id": "R20261112-01",
+    "date": "2026-11-12",
+    "report": "文档/04_整理记录/文档核对与双语说明_20261112.md",
+    "inventory": "文档/04_整理记录/文档核对明细_20261112.json",
+    "readme_registry": "文档/04_整理记录/README双语目录_20261112.json",
+    "language_navigation": "文档/05_团队协作/文档语言导航.md",
+    "original_readmes": 52,
+    "preserved_original_readmes": 21,
+    "external_sources_rechecked": false,
+    "manuscript_or_model_changed": false
   }
 }

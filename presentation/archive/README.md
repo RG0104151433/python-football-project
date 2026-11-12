@@ -1,5 +1,8 @@
 # 展示历史资料
 
+**中文** | [English](README.en.md)
+
+
 当前课堂入口仍是[主展示](../index.html)与[短讲稿](../PRESENTATION_SCRIPT_EN.md)。本目录的旧图、讲义和工具凭证用于追溯，不能作为当前14页V5的验收记录。
 
 - [初版10页资料](initial_10_screen/README.md)：旧静态讲义、图形对照及预览。

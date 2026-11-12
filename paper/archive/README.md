@@ -1,5 +1,8 @@
 # 论文历史资料
 
+**中文** | [English](README.en.md)
+
+
 正式成品：[final_paper.pdf](../final_paper.pdf)。当前可编辑源：[language_revision_20261107/main.tex](../language_revision_20261107/main.tex)。
 
 - [早期规划](planning_20261103_07/README.md)：四份结构、要求和写作安排；均不作为当前论文版本说明。

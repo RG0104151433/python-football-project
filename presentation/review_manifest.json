@@ -64,5 +64,12 @@
     "archive_guide": "presentation/archive/README.md",
     "frozen_and_adopted_HTML_unchanged": true,
     "historical_manifests_rewritten": false
+  },
+  "documentation_review": {
+    "decision_log_id": "R20261112-01",
+    "guide": "presentation/README.md",
+    "english_guide": "presentation/README.en.md",
+    "language_navigation": "文档/05_团队协作/文档语言导航.md",
+    "HTML_modified": false
   }
 }

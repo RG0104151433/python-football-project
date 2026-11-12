@@ -1,5 +1,8 @@
 # FIFA会员资料原文
 
+**中文** | [English](README.en.md)
+
+
 FIFA_Financial_Report_2018.pdf来自FIFA官方digitalhub，PDF第149—150页为211条会员及加入年份；原文编辑截止2018-12-31。原文地址、SHA、提取方式和局限见data/external/team_identity/fifa/20261024-v2/sources.json（从仓库根目录定位）。
 
 FIFA_2018_members_page_149.txt、page_150.txt为pypdf 6.21.2的排版文本抽取，供与PDF核对，不是另一来源。已核对序号1—211和代码唯一；正式业务读取已经登记的CSV，无需安装PDF库。本次没有制作或声称完成图像级逐格人工复核。

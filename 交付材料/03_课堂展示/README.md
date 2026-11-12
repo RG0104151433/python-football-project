@@ -1,5 +1,8 @@
 # 当前V5课堂取用副本
 
+**中文** | [English](README.en.md)
+
+
 双击[index.html](index.html)离线展示，保留同目录的[仓库结构图](repository_architecture.html)。
 
 - [英文短讲稿](PRESENTATION_SCRIPT_EN.md)：只读英文，中文是操作提示。

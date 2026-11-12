@@ -1,5 +1,8 @@
 # 配图来源与抽取记录
 
+**中文** | [English](README.en.md)
+
+
 这些文件原位于`presentation/_build/`，本次迁出临时目录，保留来源与检索过程。
 
 - `ranking_source.txt`：排名示意资料。
