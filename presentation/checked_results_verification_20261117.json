@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-17",
+  "HTML_sha256": "c0a28e1669402e230c01cac63e8e82239d26b46930f81705a8a0ffc09a9a9fef",
+  "offline": true,
+  "initial_auto_load": true,
+  "actual_results": {
+    "final": 44,
+    "pending": 8
+  },
+  "main": {
+    "evaluated": 43,
+    "correct": 30,
+    "wrong": 13,
+    "accuracy": 0.6976744186046512,
+    "log_loss": 0.5347543220064852
+  },
+  "auxiliary": {
+    "evaluated": 44,
+    "correct": 30,
+    "wrong": 14,
+    "accuracy": 0.6818181818181818,
+    "log_loss": 0.7884024804555089
+  },
+  "score_tiles_and_source_dialog": true,
+  "manual_import_and_restore": true,
+  "refresh_retains_results": true,
+  "forecast_payload_unchanged": true,
+  "layouts": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "width": 1440,
+      "height": 635,
+      "scrollWidth": 1440,
+      "scrollHeight": 635
+    },
+    {
+      "viewport": [
+        1280,
+        720
+      ],
+      "width": 1280,
+      "height": 502,
+      "scrollWidth": 1280,
+      "scrollHeight": 502
+    }
+  ],
+  "page_errors": []
+}

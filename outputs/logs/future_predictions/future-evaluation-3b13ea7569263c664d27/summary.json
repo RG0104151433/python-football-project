@@ -1,0 +1,18 @@
+{
+  "actual_postmatch_evaluation_complete": false,
+  "forecast_matches": 52,
+  "formal_inference": false,
+  "human_review": false,
+  "identity": {
+    "code_sha256": "970a0534c28d0c84e783e6c660e6ca6a8164cc6d9d454d2802b2beb1a4170d46",
+    "forecast_run": "future-unl-61f639846da9193d4cca",
+    "forecast_sha256": "58fba7aaad2b1708c13133fe7cdc201a75adfe23405ca77edb27e636ff4c7280",
+    "results_sha256": "47b8b43eca2aa3cf7d5f6eb36eef888e64e979a32dd230c809b98080b5060a10"
+  },
+  "joint_binary_log_loss": 0.5347543220064852,
+  "joint_binary_matches": 43,
+  "mean_joint_minus_reference_loss": 0.027231840478957093,
+  "native_auxiliary_threeway_log_loss": 0.7884024804555089,
+  "pending_matches": 8,
+  "results_received": 44
+}

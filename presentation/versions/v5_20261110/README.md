@@ -11,4 +11,4 @@
 
 完整仓库运行python presentation/build_v5.py重建；读取冻结V4并附加forecast_hover_v5.js，不覆盖V4。悬停检查见../../v5_verification.json，赛果检查见../../v5_results_handoff_verification.json。
 
-讲稿PRESENTATION_SCRIPT_EN.md有552—556个朗读词，中文操作与英文分开，含操作计划8:25；实际彩排未完成。接入比分看RESULTS_DAY_CHECKLIST.md，尚未录入真实比分。
+讲稿PRESENTATION_SCRIPT_EN.md有约557个朗读词，中文操作与英文分开，含操作计划8:25；实际彩排未完成。接入比分看RESULTS_DAY_CHECKLIST.md，截至北京时间2026年11月17日09:19，已核验44场、待赛8场；主模型判对30/43场（69.8%），辅助胜平负判对30/44场（68.2%）。比分内置HTML，无需导入；Restore morning results恢复上午快照。

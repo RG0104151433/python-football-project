@@ -3859,7 +3859,7 @@
     "new_snapshot_adopted": false,
     "new_ratings": 1,
     "human_review": false,
-    "next_step": "Question9 scope and improvement design; actual postmatch evaluation and rolling updates remain optional future extensions; final group HTML/paper/person-device acceptance is a separate delivery task",
+    "next_step": "Eight fixtures remain pending until 18 November Beijing time; classroom deck includes the verified 44 results. Original sealed forecasts remain unchanged.",
     "target_competition": "UEFA Nations League",
     "target_dates": [
       "2026-11-12",
@@ -3913,9 +3913,53 @@
     "old_production_2024_results_overwritten": false,
     "step5": {
       "evaluator_ready": true,
-      "actual_results_received": 0,
+      "actual_results_received": 44,
       "actual_postmatch_evaluation_complete": false,
       "rolling_round6_updated_after_round5": false
+    },
+    "postmatch_update": {
+      "schema_version": 1,
+      "decision_log_id": "R20261117-01",
+      "checked_at": "2026-11-17T09:19:17+08:00",
+      "forecast_run": "future-unl-61f639846da9193d4cca",
+      "forecast_sha256": "58fba7aaad2b1708c13133fe7cdc201a75adfe23405ca77edb27e636ff4c7280",
+      "source": "data/external/future_predictions/unl-november-2026/results-20261117/uefa_results_source.json",
+      "source_sha256": "da4098eeaa31276913ad8ba114553e58c79164ddd56fdaf8d251afed44633bd4",
+      "checked_csv": "data/external/future_predictions/unl-november-2026/results-20261117/results_checked_20261117.csv",
+      "checked_csv_sha256": "81a1360f886d1d2912b3ac7f8e0ae49169006316cb2578f27cd0e642a63d1f70",
+      "fixtures": 52,
+      "final": 44,
+      "pending": 8,
+      "main_withheld_total": 3,
+      "main_withheld_completed": 1,
+      "main": {
+        "evaluated": 43,
+        "correct": 30,
+        "wrong": 13,
+        "accuracy": 0.6976744186046512,
+        "log_loss": 0.5347543220064852
+      },
+      "auxiliary": {
+        "evaluated": 44,
+        "correct": 30,
+        "wrong": 14,
+        "accuracy": 0.6818181818181818,
+        "log_loss": 0.7884024804555089
+      },
+      "cutoff_policy": "Verified as of Beijing morning; Nov 17 CET fixtures remain pending until Nov 18 Beijing time",
+      "decision_rules": {
+        "main": "p>=0.5 -> home win; draw/away -> non-home win",
+        "auxiliary": "argmax home/draw/away; ties in that order",
+        "score": "90 minutes plus stoppage time"
+      },
+      "sources_crosschecked": 52,
+      "crosscheck_independent_organization": false,
+      "human_review": false,
+      "models_refitted": false,
+      "forecasts_modified": false,
+      "all_fixtures_evaluated": false,
+      "narrative": "研究/08_未来比赛预测/比赛结果核验_20261117.md",
+      "independent_evaluator": "outputs/logs/future_predictions/future-evaluation-3b13ea7569263c664d27/summary.json"
     }
   },
   "question_9": {
@@ -4104,7 +4148,7 @@
     "verification": "presentation/final_polish_verification.json",
     "architecture": "presentation/repository_architecture.html",
     "archify_receipt": "presentation/archive/archify_legacy/archify_receipt_legacy.json",
-    "actual_results_imported": false,
+    "actual_results_imported": true,
     "model_refit": false,
     "named_copy": "presentation/versions/v5_20261110/index.html",
     "previous_archive": "presentation/archive/before_final_polish_20261110.zip",
@@ -4118,12 +4162,21 @@
     "results_handoff": "presentation/RESULTS_DAY_CHECKLIST.md",
     "results_handoff_verification": "presentation/v5_results_handoff_verification.json",
     "timed_rehearsal": false,
-    "speech_revision_log_id": "R20261111-01",
+    "speech_revision_log_id": "R20261117-01",
     "speech_spoken_word_count_approx": 550,
     "speech_planned_total_seconds": 505,
     "speech_spoken_word_counts": {
       "verified_results_branch": 556,
       "pending_results_branch": 552
+    },
+    "results_decision_log_id": "R20261117-01",
+    "results_checked_at": "2026-11-17T09:19:17+08:00",
+    "results_summary": "outputs/tables/future_predictions/results-check-20261117-am/summary.json",
+    "results_verification": "presentation/checked_results_verification_20261117.json",
+    "actual_final": 44,
+    "actual_pending": 8,
+    "spoken_word_counts": {
+      "filled_verified_results": 557
     }
   },
   "repository_storage_cleanup": {

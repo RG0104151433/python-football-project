@@ -20,9 +20,10 @@
     "data\\processed\\strength\\strength-delivery-ca43fe498cd43ec8e21f\\study_prematch_features.csv"
   ],
   "outputs": {
-    "presentation/index.html": "120ad5c04469c9389629ea66d16816adaee5bf99777b598c33b21818cfbe299a",
-    "presentation/PRESENTATION_SCRIPT_EN.md": "39d5b718429e8947473c0213cbfd1c1a576cb3cb6a1207530efa4266e889c420",
-    "presentation/RESULTS_DAY_CHECKLIST.md": "724c8c3d75d14b4b325c83cd0cf9076c9442dcdfbed41c315aa4dad93a836ffa"
+    "presentation/index.html": "c0a28e1669402e230c01cac63e8e82239d26b46930f81705a8a0ffc09a9a9fef",
+    "presentation/PRESENTATION_SCRIPT_EN.md": "143d14b705922864a952e5066f894604f57d5c31f78048dc0f7b7f6cb4342bd2",
+    "presentation/RESULTS_DAY_CHECKLIST.md": "d57b66c80fe58311bc63b7b48a1643d197b649cac80e6b054e865787facf4c71",
+    "presentation/results_checked_20261117.csv": "81a1360f886d1d2912b3ac7f8e0ae49169006316cb2578f27cd0e642a63d1f70"
   },
   "countries": [
     "Brazil",
@@ -32,21 +33,20 @@
     "China",
     "South Africa"
   ],
-  "results": "No actual scores supplied; all pending by default",
+  "results": "Verified morning results: 44 final / 8 pending; main 30/43; auxiliary 30/44; sealed probabilities unchanged",
   "repository_visual_manifest": "presentation/repository_visual_manifest.json",
   "user_photo_provenance": "presentation/assets/wembley_user_provenance.json",
   "adopted_version": "V5",
   "forecast_values_changed": false,
   "speech_revision": {
-    "decision_log_id": "R20261111-01",
+    "decision_log_id": "R20261117-01",
     "source": "presentation/PRESENTATION_SCRIPT_EN.md",
     "format": "Chinese action cues; English quoted speech",
     "planned_total_seconds": 505,
     "timed_rehearsal": false,
     "submitted_archives_rebuilt": false,
     "spoken_word_counts": {
-      "verified_results_branch": 556,
-      "pending_results_branch": 552
+      "filled_verified_results": 557
     },
     "estimate_words_per_minute": [
       90,
@@ -56,7 +56,7 @@
       90,
       120
     ],
-    "filled_number_allowance_words": 25
+    "filled_number_allowance_words": 0
   },
   "repository_optimization": {
     "decision_log_id": "R20261111-02",
@@ -71,5 +71,50 @@
     "english_guide": "presentation/README.en.md",
     "language_navigation": "文档/05_团队协作/文档语言导航.md",
     "HTML_modified": false
-  }
+  },
+  "results_update": {
+    "schema_version": 1,
+    "decision_log_id": "R20261117-01",
+    "checked_at": "2026-11-17T09:19:17+08:00",
+    "forecast_run": "future-unl-61f639846da9193d4cca",
+    "forecast_sha256": "58fba7aaad2b1708c13133fe7cdc201a75adfe23405ca77edb27e636ff4c7280",
+    "source": "data/external/future_predictions/unl-november-2026/results-20261117/uefa_results_source.json",
+    "source_sha256": "da4098eeaa31276913ad8ba114553e58c79164ddd56fdaf8d251afed44633bd4",
+    "checked_csv": "data/external/future_predictions/unl-november-2026/results-20261117/results_checked_20261117.csv",
+    "checked_csv_sha256": "81a1360f886d1d2912b3ac7f8e0ae49169006316cb2578f27cd0e642a63d1f70",
+    "fixtures": 52,
+    "final": 44,
+    "pending": 8,
+    "main_withheld_total": 3,
+    "main_withheld_completed": 1,
+    "main": {
+      "evaluated": 43,
+      "correct": 30,
+      "wrong": 13,
+      "accuracy": 0.6976744186046512,
+      "log_loss": 0.5347543220064852
+    },
+    "auxiliary": {
+      "evaluated": 44,
+      "correct": 30,
+      "wrong": 14,
+      "accuracy": 0.6818181818181818,
+      "log_loss": 0.7884024804555089
+    },
+    "cutoff_policy": "Verified as of Beijing morning; Nov 17 CET fixtures remain pending until Nov 18 Beijing time",
+    "decision_rules": {
+      "main": "p>=0.5 -> home win; draw/away -> non-home win",
+      "auxiliary": "argmax home/draw/away; ties in that order",
+      "score": "90 minutes plus stoppage time"
+    },
+    "sources_crosschecked": 52,
+    "crosscheck_independent_organization": false,
+    "human_review": false,
+    "models_refitted": false,
+    "forecasts_modified": false,
+    "all_fixtures_evaluated": false,
+    "table": "outputs/tables/future_predictions/results-check-20261117-am/results_vs_forecasts_20261117.csv",
+    "verification": "presentation/checked_results_verification_20261117.json"
+  },
+  "results_verification": "presentation/checked_results_verification_20261117.json"
 }

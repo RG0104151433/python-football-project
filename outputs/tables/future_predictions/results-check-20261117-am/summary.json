@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "decision_log_id": "R20261117-01",
+  "checked_at": "2026-11-17T09:19:17+08:00",
+  "forecast_run": "future-unl-61f639846da9193d4cca",
+  "forecast_sha256": "58fba7aaad2b1708c13133fe7cdc201a75adfe23405ca77edb27e636ff4c7280",
+  "source": "data/external/future_predictions/unl-november-2026/results-20261117/uefa_results_source.json",
+  "source_sha256": "da4098eeaa31276913ad8ba114553e58c79164ddd56fdaf8d251afed44633bd4",
+  "checked_csv": "data/external/future_predictions/unl-november-2026/results-20261117/results_checked_20261117.csv",
+  "checked_csv_sha256": "81a1360f886d1d2912b3ac7f8e0ae49169006316cb2578f27cd0e642a63d1f70",
+  "fixtures": 52,
+  "final": 44,
+  "pending": 8,
+  "main_withheld_total": 3,
+  "main_withheld_completed": 1,
+  "main": {
+    "evaluated": 43,
+    "correct": 30,
+    "wrong": 13,
+    "accuracy": 0.6976744186046512,
+    "log_loss": 0.5347543220064852
+  },
+  "auxiliary": {
+    "evaluated": 44,
+    "correct": 30,
+    "wrong": 14,
+    "accuracy": 0.6818181818181818,
+    "log_loss": 0.7884024804555089
+  },
+  "cutoff_policy": "Verified as of Beijing morning; Nov 17 CET fixtures remain pending until Nov 18 Beijing time",
+  "decision_rules": {
+    "main": "p>=0.5 -> home win; draw/away -> non-home win",
+    "auxiliary": "argmax home/draw/away; ties in that order",
+    "score": "90 minutes plus stoppage time"
+  },
+  "sources_crosschecked": 52,
+  "crosscheck_independent_organization": false,
+  "human_review": false,
+  "models_refitted": false,
+  "forecasts_modified": false,
+  "all_fixtures_evaluated": false
+}

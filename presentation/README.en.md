@@ -3,12 +3,12 @@
 [中文](README.md) | **English**
 
 
-The current deck has 14 screens. The owner confirmed both research-submission channels; verified fixture results and a timed team rehearsal remain pending.
+The current deck has 14 screens. The owner confirmed both research-submission channels; As of 17 November 2026, 09:19 Beijing time, 44 results are verified and eight fixtures remain pending. Main binary accuracy is 30/43 (69.8%); auxiliary three-way accuracy is 30/44 (68.2%). A timed rehearsal remains pending.
 
 ## Use these files
 
 - [index.html](index.html): open offline in Chrome or Edge. Keep [repository_architecture.html](repository_architecture.html) beside it.
-- [Speaking script](PRESENTATION_SCRIPT_EN.md): 552–556 spoken English words. Read English quotation blocks; Chinese action cues are not spoken. Planned total including actions is 8:25, with 1:35 spare; timing has not been rehearsed.
+- [Speaking script](PRESENTATION_SCRIPT_EN.md): about 557 spoken English words. Read English quotation blocks; Chinese action cues are not spoken. Planned total including actions is 8:25, with 1:35 spare; timing has not been rehearsed.
 - [Results checklist](RESULTS_DAY_CHECKLIST.md) and [CSV template](results_template.csv): prepare verified results before presenting, without changing archived probabilities.
 - The local classroom copy is in `交付材料/03_课堂展示/`, with the same HTML, structure diagram, template, script and rehearsal instructions.
 
@@ -25,3 +25,7 @@ Sources and rights are in [VISUAL_SOURCES.md](VISUAL_SOURCES.md). The current re
 ## Historical notes
 
 [Preserved original-language README, derivations and version history](../文档/04_整理记录/README历史快照_20261112/presentation/历史说明.md) describe their own dates. This English edition covers the current guide; historical records remain in their original language.
+
+## Verified morning results
+
+As of 17 November 2026, 09:19 Beijing time, 44 results are verified and eight fixtures remain pending. Main binary accuracy is 30/43 (69.8%); auxiliary three-way accuracy is 30/44 (68.2%). Open screen 10 directly: verified scores are embedded for offline use. [Filled CSV](results_checked_20261117.csv). Restore morning results resets any local edits. `build_checked_results.py` checks the saved UEFA factual rows and produces the comparison table and payload; `build_v5.py` embeds that payload. The frozen forecasts and V4 remain unchanged.

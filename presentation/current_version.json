@@ -3,9 +3,9 @@
   "current": "presentation/index.html",
   "named_copy": "presentation/versions/v5_20261110/index.html",
   "previous_archive": "presentation/archive/before_final_polish_20261110.zip",
-  "verification": "presentation/final_polish_verification.json",
+  "verification": "presentation/checked_results_verification_20261117.json",
   "sha256": {
-    "presentation\\index.html": "120ad5c04469c9389629ea66d16816adaee5bf99777b598c33b21818cfbe299a",
+    "presentation\\index.html": "c0a28e1669402e230c01cac63e8e82239d26b46930f81705a8a0ffc09a9a9fef",
     "presentation\\versions\\v3_20261110\\index.html": "a2ea99ee4371117cb0ab615290470fa7e8d71abf43233cb964eac0072dd31456",
     "presentation\\final_polish.js": "7a413ed756a45c74912b21abe214cc03a5cf763894e8993b70cfc95aaf20192d",
     "presentation\\refinement.js": "5d409566cc45b3c5e749146252c07e03a71b3d4378d748273c32754e57300291",
@@ -13,13 +13,18 @@
     "presentation/repository_architecture.html": "90e8b911154c0adb6ab5244a502dd75b1a407ce902b58552eaa74562de4a34e0",
     "presentation/assets/wembley_user.jpg": "614d9779727c85bd54c0ba02b216c4644f98182c93a8381a778e7a8c805f8a95",
     "presentation/versions/v4_20261110/index.html": "a2ea99ee4371117cb0ab615290470fa7e8d71abf43233cb964eac0072dd31456",
-    "presentation/versions/v5_20261110/index.html": "120ad5c04469c9389629ea66d16816adaee5bf99777b598c33b21818cfbe299a",
+    "presentation/versions/v5_20261110/index.html": "c0a28e1669402e230c01cac63e8e82239d26b46930f81705a8a0ffc09a9a9fef",
     "presentation/forecast_hover_v5.js": "b89d8e5138d987d639330d747197ad1e0a86cd6ef1fd924e37bc6e7b61c8004a",
     "presentation/build.py": "11145fa86e3a5a6692e95663cc999d735d6218a4f3377abd16e7b3f1e6e14563",
-    "presentation/build_v5.py": "9b7ab292ee6d149ed9665a97056d6579dd23193aa06aa99b69e285c798d9b995",
-    "presentation/PRESENTATION_SCRIPT_EN.md": "39d5b718429e8947473c0213cbfd1c1a576cb3cb6a1207530efa4266e889c420",
-    "presentation/RESULTS_DAY_CHECKLIST.md": "724c8c3d75d14b4b325c83cd0cf9076c9442dcdfbed41c315aa4dad93a836ffa",
-    "presentation/make_repository_visual.py": "85244fbbee7e1efef95d59a99f2a422574ca9bd5dea9d07dd8d82e5e132b880b"
+    "presentation/build_v5.py": "87582d1e4ed807479cfaee6cf3258caf3abd693bd80cc7465e1f2982e3152b0d",
+    "presentation/PRESENTATION_SCRIPT_EN.md": "143d14b705922864a952e5066f894604f57d5c31f78048dc0f7b7f6cb4342bd2",
+    "presentation/RESULTS_DAY_CHECKLIST.md": "d57b66c80fe58311bc63b7b48a1643d197b649cac80e6b054e865787facf4c71",
+    "presentation/make_repository_visual.py": "85244fbbee7e1efef95d59a99f2a422574ca9bd5dea9d07dd8d82e5e132b880b",
+    "presentation/build_checked_results.py": "8a15669efcc30c4d4dd9170911ad7bda5cd926fdf3011dc081260dcdbaad324b",
+    "presentation/verified_results.js": "17027087610978e2cc6ac0b7cc8f07430511462a885da79642c04c4662b287e9",
+    "presentation/verified_results_payload.json": "4b2cf14be6645c498f7f28fe2a78a382217ce3778c7342057ac146a84af83c68",
+    "presentation/results_checked_20261117.csv": "81a1360f886d1d2912b3ac7f8e0ae49169006316cb2578f27cd0e642a63d1f70",
+    "presentation/verify_checked_results.cjs": "60003b5df3b80551fc9151cc38770ba0f85e923b6ac34ec84576b33cc1ed6d84"
   },
   "previous_archive_verified_unchanged": true,
   "visual_verification": "presentation/repository_visual_verification.json",
@@ -28,17 +33,16 @@
   "adopted": true,
   "speech": "presentation/PRESENTATION_SCRIPT_EN.md",
   "results_handoff": "presentation/RESULTS_DAY_CHECKLIST.md",
-  "results_verification": "presentation/v5_results_handoff_verification.json",
+  "results_verification": "presentation/checked_results_verification_20261117.json",
   "speech_revision": {
-    "decision_log_id": "R20261111-01",
+    "decision_log_id": "R20261117-01",
     "source": "presentation/PRESENTATION_SCRIPT_EN.md",
     "format": "Chinese action cues; English quoted speech",
     "planned_total_seconds": 505,
     "timed_rehearsal": false,
     "submitted_archives_rebuilt": false,
     "spoken_word_counts": {
-      "verified_results_branch": 556,
-      "pending_results_branch": 552
+      "filled_verified_results": 557
     },
     "estimate_words_per_minute": [
       90,
@@ -48,7 +52,7 @@
       90,
       120
     ],
-    "filled_number_allowance_words": 25
+    "filled_number_allowance_words": 0
   },
   "repository_optimization": {
     "decision_log_id": "R20261111-02",
@@ -63,5 +67,49 @@
     "english_guide": "presentation/README.en.md",
     "language_navigation": "文档/05_团队协作/文档语言导航.md",
     "HTML_modified": false
+  },
+  "results_update": {
+    "schema_version": 1,
+    "decision_log_id": "R20261117-01",
+    "checked_at": "2026-11-17T09:19:17+08:00",
+    "forecast_run": "future-unl-61f639846da9193d4cca",
+    "forecast_sha256": "58fba7aaad2b1708c13133fe7cdc201a75adfe23405ca77edb27e636ff4c7280",
+    "source": "data/external/future_predictions/unl-november-2026/results-20261117/uefa_results_source.json",
+    "source_sha256": "da4098eeaa31276913ad8ba114553e58c79164ddd56fdaf8d251afed44633bd4",
+    "checked_csv": "data/external/future_predictions/unl-november-2026/results-20261117/results_checked_20261117.csv",
+    "checked_csv_sha256": "81a1360f886d1d2912b3ac7f8e0ae49169006316cb2578f27cd0e642a63d1f70",
+    "fixtures": 52,
+    "final": 44,
+    "pending": 8,
+    "main_withheld_total": 3,
+    "main_withheld_completed": 1,
+    "main": {
+      "evaluated": 43,
+      "correct": 30,
+      "wrong": 13,
+      "accuracy": 0.6976744186046512,
+      "log_loss": 0.5347543220064852
+    },
+    "auxiliary": {
+      "evaluated": 44,
+      "correct": 30,
+      "wrong": 14,
+      "accuracy": 0.6818181818181818,
+      "log_loss": 0.7884024804555089
+    },
+    "cutoff_policy": "Verified as of Beijing morning; Nov 17 CET fixtures remain pending until Nov 18 Beijing time",
+    "decision_rules": {
+      "main": "p>=0.5 -> home win; draw/away -> non-home win",
+      "auxiliary": "argmax home/draw/away; ties in that order",
+      "score": "90 minutes plus stoppage time"
+    },
+    "sources_crosschecked": 52,
+    "crosscheck_independent_organization": false,
+    "human_review": false,
+    "models_refitted": false,
+    "forecasts_modified": false,
+    "all_fixtures_evaluated": false,
+    "table": "outputs/tables/future_predictions/results-check-20261117-am/results_vs_forecasts_20261117.csv",
+    "verification": "presentation/checked_results_verification_20261117.json"
   }
 }

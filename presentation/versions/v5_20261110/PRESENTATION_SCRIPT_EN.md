@@ -1,10 +1,10 @@
 # V5 presentation script — shorter classroom version
 
-继续使用V5的14页；本稿直接替换此前约825词的版本。正式朗读552—556词（第10页只选一段）。只读英文引用段落，中文操作、计时和问答都不朗读。第10页两段赛果说明只选一段。
+继续使用V5的14页；本稿直接替换此前约825词的版本。当前朗读部分约557个英文词（连字符词按一词）。第10页已填入11月17日上午核验成绩。只读英文引用段落，中文操作、计时和问答都不朗读。
 
 **【讲述｜读英文】** 是说的话；**【操作｜不读】** 是点击提示。按较慢的每分钟90—100词估算，另留90—120秒给操作、停顿和换人。逐页预算合计8分25秒，距离十分钟留1分35秒；这只是计划，尚未实际合练。
 
-上台前：打开第1页，恢复动画初始状态；如已有核验比分，提前导入CSV并填好第10页。不要在台上导入文件。
+上台前：打开第1页，恢复动画初始状态；第10页已内置44场实际比分；确认主模型显示30/43、69.8%。不要在台上导入文件。
 
 ## 1 · Our question｜30秒，累计0:30
 
@@ -92,19 +92,15 @@
 
 ## 10 · Check the results｜45秒，累计7:05
 
-**【操作｜不读】** 保持“Main binary”。有赛果时提前填下面数字；两段只读一段。
+**【操作｜不读】** 保持“Main binary”，指Correct 30、Wrong 13、Evaluated 43和69.8%；最后指Pending 8。
 
 **【讲述｜读英文】**
 
 > We use a fifty percent cutoff and compare with the final ninety-minute result, including added time. Only verified matches with a main prediction enter the accuracy calculation.
 
-**【讲述｜有核验赛果时读】**
+**【讲述｜读英文】**
 
-> Of [N] checked predictions, [C] were correct and [W] were wrong: [A] percent accuracy. Another [P] fixtures remain pending.
-
-**【讲述｜没有核验赛果时改读】**
-
-> Verified scores have not been entered, so we cannot report accuracy for these fixtures yet.
+> Of forty-three checked predictions, thirty were correct and thirteen were wrong: sixty-nine point eight percent accuracy. Eight fixtures remain pending.
 
 ## 11 · The research path｜20秒，累计7:25
 
@@ -148,7 +144,7 @@
 
 - 高睿懿：第1—4页，2:25；陈正林：第5—9页，3:55；江汶谕：第10—14页，2:05。换人直接接下一页。
 - 只操作稿中写出的例子，不遍历地图、球队或52场预测。动画只播两秒。讲述与点击同步，不等动画全部结束。
-- 第10页的N是已核验且有主预测的场数；C＋W＝N，A为该分母下的准确率，P是页面待核验场数。三场无主预测不算预测错误。实际填数以页面为准，不预填成绩。
+- 第10页44场已完赛中1场没有主预测，故主模型分母为43；30＋13＝43。8场尚未比赛，均在北京时间11月18日03:45开球。辅助胜平负是30/44（68.2%），不能与主模型混用。
 - 先按此稿完整合练，包含操作与换人。若临场落后，跳过第12页结构图动画，只说该页一句话。不要加速读数。
 - 各页时间是含操作的预算，不是实测；超时应继续压缩操作停留。英文词数与估时见本次记录，不把十分钟当已验收结论。
 

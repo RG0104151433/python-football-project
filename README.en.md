@@ -7,7 +7,7 @@ Browse [all README language editions](文档/05_团队协作/文档语言导航.
 
 We use public national-team results to study differences across periods, match types and regions, then estimate pre-match strength and test whether context adds predictive information.
 
-The agreed research is complete. The owner confirmed submission by email and python123. The current classroom deck is V5 with 14 screens; verified fixture results and a timed team rehearsal remain pending.
+The agreed research is complete. The owner confirmed submission by email and python123. The current classroom deck is V5 with 14 screens; As of 17 November 2026, 09:19 Beijing time, 44 results are verified and eight fixtures remain pending. Main binary accuracy is 30/43 (69.8%); auxiliary three-way accuracy is 30/44 (68.2%). A timed team rehearsal remains pending.
 
 ## Start here
 
@@ -36,7 +36,7 @@ Recipients of the compact attachments should merge the `FootballProject/` folder
 - Questions 1–3 use the same 24,917 non-neutral matches. Their average home-win differences do not directly identify a causal home advantage.
 - On the same 21,413 historical predictions, the joint model reduces log loss by 16.12% relative to background alone and 0.42% relative to strength alone. Binary home-win/non-home-win accuracy is 70.01%; this is neither three-way nor future-fixture accuracy.
 - No fixed history length is universally best, and evidence of regional applicability varies.
-- Fifty-two Nations League forecasts for 12–17 November 2026 are archived: 49 main binary predictions and three withheld under the venue rule. All 52 also have auxiliary three-way probabilities. No verified actual results have been entered.
+- Fifty-two Nations League forecasts for 12–17 November 2026 are archived: 49 main binary predictions and three withheld under the venue rule. All 52 also have auxiliary three-way probabilities. [Morning results check](研究/08_未来比赛预测/比赛结果核验_20261117.md): 44 final, eight pending; main 30/43, auxiliary 30/44.
 
 ## Repository and collaboration
 

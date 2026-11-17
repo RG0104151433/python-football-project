@@ -3,6 +3,10 @@
 [中文](README.md) | **English**
 
 
+## Post-match update: 17 November
+
+As of 17 November 2026, 09:19 Beijing time, 44 results are verified and eight fixtures remain pending. Main binary accuracy is 30/43 (69.8%); auxiliary three-way accuracy is 30/44 (68.2%). This is a partial check of the sealed forecasts, with no refitting. [Results and evidence, Chinese](比赛结果核验_20261117.md). The original submission did not depend on waiting for results.
+
 ## Question and method
 
 Apply the historical research to the 12–17 November 2026 Nations League fixtures. Ingest available results, extend strength estimates and issue both rounds at a single information cutoff. Separate the joint binary main model from the rating model's auxiliary three-way probabilities, then archive sources and forecasts.

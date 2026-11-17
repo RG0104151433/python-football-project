@@ -1,17 +1,27 @@
 {
   "version": "V5",
-  "decision_log_id": "R20261110-05",
+  "decision_log_id": "R20261117-01",
   "base": "presentation/versions/v4_20261110/index.html",
   "base_sha256": "a2ea99ee4371117cb0ab615290470fa7e8d71abf43233cb964eac0072dd31456",
   "extension": "presentation/forecast_hover_v5.js",
   "extension_sha256": "b89d8e5138d987d639330d747197ad1e0a86cd6ef1fd924e37bc6e7b61c8004a",
   "files": {
-    "index.html": "120ad5c04469c9389629ea66d16816adaee5bf99777b598c33b21818cfbe299a",
+    "index.html": "c0a28e1669402e230c01cac63e8e82239d26b46930f81705a8a0ffc09a9a9fef",
     "repository_architecture.html": "90e8b911154c0adb6ab5244a502dd75b1a407ce902b58552eaa74562de4a34e0",
-    "results_template.csv": "5d8170e86cf059ef15a919e82a38311c636b3128340d1b372cd5bec9ecfa36a1"
+    "results_template.csv": "5d8170e86cf059ef15a919e82a38311c636b3128340d1b372cd5bec9ecfa36a1",
+    "results_checked_20261117.csv": "81a1360f886d1d2912b3ac7f8e0ae49169006316cb2578f27cd0e642a63d1f70"
   },
   "forecast_values_changed": false,
   "main_entry_replaced": true,
   "adopted": true,
-  "V4_modified": false
+  "V4_modified": false,
+  "results_snapshot": {
+    "checked_at": "2026-11-17T09:19:17+08:00",
+    "payload": "presentation/verified_results_payload.json",
+    "payload_sha256": "4b2cf14be6645c498f7f28fe2a78a382217ce3778c7342057ac146a84af83c68",
+    "bootstrap_sha256": "17027087610978e2cc6ac0b7cc8f07430511462a885da79642c04c4662b287e9",
+    "final": 44,
+    "pending": 8,
+    "forecast_probabilities_changed": false
+  }
 }

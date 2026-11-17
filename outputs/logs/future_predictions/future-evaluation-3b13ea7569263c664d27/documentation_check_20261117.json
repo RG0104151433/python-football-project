@@ -1,0 +1,16 @@
+{
+  "executed_on": "2026-11-17",
+  "auditor_origin_date": "2026-11-12",
+  "summary": {
+    "documents": 497,
+    "readme_pairs": 52,
+    "local_links_checked": 3985,
+    "current_link_issues": 0,
+    "pairs_passed": 52
+  },
+  "unpaired_original_readmes": [],
+  "current_link_issues": [],
+  "access_errors": [],
+  "all_registered_pairs_passed": true,
+  "detail_note": "This rerun retains a compact receipt; the historical full inventory remains in the 12 November report."
+}

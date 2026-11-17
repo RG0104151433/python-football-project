@@ -13,6 +13,6 @@ Rebuild from the full repository with python presentation/build_v5.py. This read
 
 The owner adopted V5 as the base on 10 November. The earlier V4 remains a separate backup.
 
-Speaking script: PRESENTATION_SCRIPT_EN.md. Matchday result handoff: RESULTS_DAY_CHECKLIST.md. All actual results are still pending.
+Speaking script: PRESENTATION_SCRIPT_EN.md. Matchday result handoff: RESULTS_DAY_CHECKLIST.md. As of 17 November 2026, 09:19 Beijing time, 44 results are verified and eight fixtures remain pending. Main binary accuracy is 30/43 (69.8%); auxiliary three-way accuracy is 30/44 (68.2%). Results are embedded for offline use.
 
-Current script revision (11 November): 552–556 spoken words, with separate Chinese action cues. Planned speaking and operation time is 8:25; no timed rehearsal has been completed. The V5 HTML is unchanged.
+Current script revision (11 November): about 557 spoken words, with separate Chinese action cues. Planned speaking and operation time is 8:25; no timed rehearsal has been completed. The 17 November update embeds verified morning results without changing forecast probabilities.

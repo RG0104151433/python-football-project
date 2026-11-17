@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-17",
+  "HTML_sha256": "c0a28e1669402e230c01cac63e8e82239d26b46930f81705a8a0ffc09a9a9fef",
+  "three_HTML_copies_identical": true,
+  "independent_losses_identical": true,
+  "forecast_and_paper_identical_to_HEAD": true,
+  "V4_manifest_passed": true,
+  "submitted_archives_match_manifest": {
+    "Report": "f34e524c39e687100967490984b8281dc9eb674c376b9293bf79f62160a9a9f5",
+    "Code": "3678146174515ea18669c9e7d2ff8a7fa5e099ba935aca4c2f10f7bb08a5d147",
+    "Data": "352382b804eca953ea3bb480205fa3960e2f33e17ba0a37e5cf83a24e43fee5f"
+  },
+  "quick_check": "7/7",
+  "documentation": {
+    "documents": 497,
+    "readme_pairs": 52,
+    "local_links_checked": 3985,
+    "current_link_issues": 0,
+    "pairs_passed": 52
+  },
+  "human_review": false
+}

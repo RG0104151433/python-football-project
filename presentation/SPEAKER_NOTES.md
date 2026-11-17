@@ -2,7 +2,7 @@
 
 只维护[PRESENTATION_SCRIPT_EN.md](PRESENTATION_SCRIPT_EN.md)这一份主讲稿。本次约550词，14页计划8:25；中文操作与英文朗读分开。版本目录和课堂取用目录的讲稿是同步副本，不分别改写。
 
-高睿懿第1—4页；陈正林第5—9页；江汶谕第10—14页。具体点击、换人和第10页赛果分支都在主稿中。问答不计入正文，实际彩排未完成。
+高睿懿第1—4页；陈正林第5—9页；江汶谕第10—14页。具体点击、换人和第10页已填赛果都在主稿中。问答不计入正文，实际彩排未完成。
 
 赛果录入另看[RESULTS_DAY_CHECKLIST.md](RESULTS_DAY_CHECKLIST.md)。不把测试比分或辅助三分类成绩当作主模型结果。
 
@@ -45,3 +45,5 @@ Use Previous/Restart on factors, bars and flow. Explain percentage points with 5
 On screen 9, point to a fixture tile to enlarge its teams/date/probabilities above the grid. Switch between the auxiliary three-way and main binary/range modes. Move out of the grid or press Escape to dismiss. Exact kick-off times are not in the sealed record. Use V4 if the group prefers the existing interface.
 
 </details>
+
+2026-11-17上午更新：截至北京时间2026年11月17日09:19，已核验44场、待赛8场；主模型判对30/43场（69.8%），辅助胜平负判对30/44场（68.2%）。第10页直接显示，无需现场导入。

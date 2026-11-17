@@ -28,3 +28,5 @@ Historical paper and presentation material has been archived. The [relocation re
 ## Historical notes
 
 [Preserved original-language README, derivations and version history](../文档/04_整理记录/README历史快照_20261112/研究/历史说明.md) describe their own dates. This English edition covers the current guide; historical records remain in their original language.
+
+Latest post-match addition: [17 November morning check, Chinese](08_未来比赛预测/比赛结果核验_20261117.md). As of 17 November 2026, 09:19 Beijing time, 44 results are verified and eight fixtures remain pending. Main binary accuracy is 30/43 (69.8%); auxiliary three-way accuracy is 30/44 (68.2%).
