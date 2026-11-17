@@ -5,6 +5,10 @@
 
 The current deck has 14 screens. The owner confirmed both research-submission channels; As of 17 November 2026, 09:19 Beijing time, 44 results are verified and eight fixtures remain pending. Main binary accuracy is 30/43 (69.8%); auxiliary three-way accuracy is 30/44 (68.2%). A timed rehearsal remains pending.
 
+## Detailed redesign plan — not yet implemented
+
+[Page-by-page plan, Chinese](HTML展示逐页内容规划_20261117.md) arranges 36 main pages and eight Q&A pages around the agreed seven-part explanation standard. It covers objectives, input selection, method choices and optimization, execution, outputs, interpretation and transitions. These are proposed content units, not a page/time cap or completed HTML. Current V5 and its script remain in use; the plan labels evidence to reuse, details to extract, illustrations and unimplemented proposals.
+
 ## Use these files
 
 - [index.html](index.html): open offline in Chrome or Edge. Keep [repository_architecture.html](repository_architecture.html) beside it.

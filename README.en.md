@@ -13,6 +13,7 @@ The agreed research is complete. The owner confirmed submission by email and pyt
 
 - Paper: [final PDF](paper/final_paper.pdf), [editing guide](paper/README.en.md).
 - Presentation: [V5](presentation/index.html), [short English script](presentation/PRESENTATION_SCRIPT_EN.md), [results checklist](presentation/RESULTS_DAY_CHECKLIST.md).
+- Redesign: [detailed page plan, Chinese](presentation/HTML展示逐页内容规划_20261117.md), with 36 proposed main pages and eight Q&A pages. No fixed page or time limit; the new HTML is not implemented and V5 remains current.
 - Deliverables: [collection guide, Chinese](交付材料/00_取用与提交说明.md). Generated submission ZIPs are local, not versioned.
 - Research: [question overview](研究/README.en.md), [adopted versions](研究/pipeline_state.json).
 - Archives: [paper](paper/archive/README.en.md), [presentation](presentation/archive/README.en.md), [relocation record](文档/04_整理记录/仓库优化执行记录_20261111.json).

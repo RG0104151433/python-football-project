@@ -4177,6 +4177,23 @@
     "actual_pending": 8,
     "spoken_word_counts": {
       "filled_verified_results": 557
+    },
+    "redesign_plan": {
+      "decision_log_id": "R20261117-06",
+      "requirements_log_id": "R20261117-05",
+      "path": "presentation/HTML展示逐页内容规划_20261117.md",
+      "status": "page_plan_written_HTML_not_implemented",
+      "main_content_pages_planned": 36,
+      "Q_and_A_pages_planned": 8,
+      "page_limit": null,
+      "time_limit": null,
+      "seven_part_content_standard": true,
+      "current_V5_replaced": false,
+      "script_rewritten": false,
+      "new_experiments_run": false,
+      "executor": "Codex (AI)",
+      "human_review": false,
+      "next_step": "Extract adopted evidence and page text; build a separate HTML only after further instruction; verify before replacing the current entry."
     }
   },
   "repository_storage_cleanup": {

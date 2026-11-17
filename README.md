@@ -13,6 +13,7 @@
 
 - 看论文：[最终PDF](paper/final_paper.pdf)；修改源文件从[论文说明](paper/README.md)进入。
 - 看展示：[当前V5](presentation/index.html)、[约550词英文短稿](presentation/PRESENTATION_SCRIPT_EN.md)、[赛果接入说明](presentation/RESULTS_DAY_CHECKLIST.md)。
+- 规划新版：[逐页内容规划](presentation/HTML展示逐页内容规划_20261117.md)，36个主页面＋8个问答页面，逐页覆盖七项说明要求；仅规划，不限总页数/时长，当前V5尚未替换。
 - 取提交材料：[按用途整理的取用说明](交付材料/00_取用与提交说明.md)。邮件三个ZIP仅在组长本机生成，不纳入Git。
 - 了解各问：[研究路线与当前结论](研究/README.md)；核对具体版本看[当前状态](研究/pipeline_state.json)。
 
